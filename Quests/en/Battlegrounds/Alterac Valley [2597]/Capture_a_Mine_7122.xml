@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7122" type="PvP">
+  <Title>Capture a Mine</Title>
+  <Description>The mines in Alterac Valley hold more than just minerals.  Both the Frostwolf and Stormpike have cached excess supplies in the Irondeep and Coldtooth mines... that's not a bad idea, if we could only maintain control of them!$B$BCapture a mine, then return to me.  To capture a mine, enter one that we do not control and kill its leader.  When you do that, the mine will be ours, and we'll send troops to protect it!</Description>
+  <LogDescription>Capture a mine that the Stormpike does not control, then return to Sergeant Durgen Stormpike in the Alterac Mountains.</LogDescription>
+  <CompletionText>You haven't captured the mine yet, $N!$B$BAfter we control a mine, it will be much easier to gather minerals and supplies from it.</CompletionText>
+  <RewardText>You did it! Well done, $N!$B$BWhen we control a mine and have troops stationed there, it's much easier to gather minerals and supplies from it.</RewardText>
+  <Objectives>
+    <Objective id="259512">Mine Captured</Objective>
+  </Objectives>
+</QuestData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="57102">
+  <Title>Pardon Our Dust</Title>
+  <Description>Ah yes, the Greeter.
+
+It seems this Mnemis unit has been deactivated. Anima has been so scarce of late, and with no new souls entering our gates... I suppose it was a prudent measure. Anima is our most precious resource, after all.
+
+There are some centurions nearby. A portion of their anima could serve our needs.
+
+Ah! One of our most helpful stewards is here to lend her aid. She will guide you in the collection effort.
+
+Return when you have sufficient anima and we will power the Greeter once more.</Description>
+  <LogDescription>Collect anima from nearby centurions.</LogDescription>
+  <QuestCompletionLog>Activate Greeter Mnemis.</QuestCompletionLog>
+  <CompletionText>&lt;The centurion is unresponsive.&gt;</CompletionText>
+  <RewardText>&lt;The centurion emits a soft chime.&gt;</RewardText>
+  <Objectives>
+    <Objective id="391650">Anima recovered</Objective>
+    <Objective id="391724">Anima</Objective>
+    <Objective id="396932">Pick up an Anima Canister</Objective>
+    <Objective id="396943">Goliath Watcher drained</Objective>
+    <Objective id="396944">Goliath Watcher drained</Objective>
+    <Objective id="396945">Colossus drained</Objective>
+  </Objectives>
+</QuestData>

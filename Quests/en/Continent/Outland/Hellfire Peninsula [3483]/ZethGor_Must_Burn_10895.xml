@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="10895">
+  <Title>Zeth'Gor Must Burn!</Title>
+  <Description>It's time to strike Zeth'Gor from the air!  Our gryphon riders are ready for a sortie, $n.  But they need someone on the ground to direct their fire.  Are you ready for a covert mission?$B$BTake these smoke beacons into Zeth'Gor, the Bleeding Hollow stronghold to the west.  They have four guard towers: one near their northern wall, one near their southern wall, one near their forge and another nestled in their foothills.  Place a beacon underneath each of the towers and we'll fly in and bomb them!</Description>
+  <LogDescription>Use the smoke beacon at each of Zeth'Gor's towers, and then return to Wing Commander Dabir'ee at Expedition Point.</LogDescription>
+  <CompletionText>Time is crucial, $N. We need those guard towers burned!</CompletionText>
+  <RewardText>I could see the smoke and flames from here!  Good job, $n!  You received more than a few words of praise from our gryphon riders -- what you just did took a lot of guts...</RewardText>
+  <Objectives>
+    <Objective id="252900">Northern Tower Marked</Objective>
+    <Objective id="252901">Southern Tower Marked</Objective>
+    <Objective id="252902">Forge Tower Marked</Objective>
+    <Objective id="252903">Foothill Tower Marked</Objective>
+  </Objectives>
+</QuestData>

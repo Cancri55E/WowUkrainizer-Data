@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="55174">
+  <Title>Cooking Meat</Title>
+  <Description>This is Alaria, a draenei shaman who was with the lost expedition.
+
+She's nearly starved to death. We need to get her something to eat!
+
+Slay some of the nearby wildlife for their meat. Bring whatever you find here to cook.
+
+If we can help Alaria regain her strength, she might be able to tell us what happened to the others.</Description>
+  <LogDescription>Get $1oa Raw Meat from wildlife around the Abandoned Camp, then cook it on the campfire.</LogDescription>
+  <QuestCompletionLog>Give Alaria the cooked meat.</QuestCompletionLog>
+  <CompletionText>Please... I need... some food...</CompletionText>
+  <RewardText>&lt;Alaria quickly eats the meat that you cooked.&gt;
+
+By the Light... I feel so much better.
+
+You need to keep moving... quilboar have kidnapped the expedition, including Captain Garrick's son!</RewardText>
+  <Objectives>
+    <Objective id="394179">Cook the meat on the campfire</Objective>
+    <Objective id="396789">Raw Meat collected from wildlife</Objective>
+  </Objectives>
+</QuestData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="60474">
+  <Title>Spawn Tracking Unit-Specified World Effect in a WMO Bug</Title>
+  <Description>There seems to be a bug when you setup a world effect containing a gold dot on the minimap through Spawn Tracking that is set to Unit, rather than Objective. It seems to only happen with spawns inside WMOs. Might also be happening with setting it to Object as well.
+
+If the Spawn Tracking on the World Effect is set to Objective, everything's fine. However, if it is set to Unit, the golden dot will not show up on the minimap.</Description>
+  <LogDescription>Attempt to figure out why the WMO spawned objective's minimap golden dot will not appear when its spawn tracking is set to Unit instead of Objective.</LogDescription>
+  <Objectives>
+    <Objective id="398312">Inside WMO</Objective>
+    <Objective id="398313">Outside WMO</Objective>
+  </Objectives>
+</QuestData>

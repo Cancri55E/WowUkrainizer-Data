@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="59197">
+  <Title>Steward at Work</Title>
+  <Description>Stewards are useful for many reasons.
+
+They keep Bastion tidy, fix anything broken, and offer unrivaled companionship and support.
+
+Your new steward assistant should be able to repair the beacon. Then you can summon the Polemarch to Hero's Rest.</Description>
+  <LogDescription>Use Summon Steward to fix the Beacon of Invocation, then use it to summon Polemarch Adrestes.</LogDescription>
+  <QuestCompletionLog>Speak to Polemarch Adrestes in Hero's Rest.</QuestCompletionLog>
+  <RewardText>Kalisthene has vouched for you by allowing usage of the beacon. For that reason, you have my attention.</RewardText>
+  <Objectives>
+    <Objective id="398007">Steward summoned</Objective>
+    <Objective id="398008">Beacon of Invocation fixed</Objective>
+    <Objective id="398009">Beacon of Invocation activated</Objective>
+  </Objectives>
+</QuestData>

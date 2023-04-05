@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="43314" type="Dungeon">
+  <Title>Court of Stars: Beware the Fury of a Patient Elf</Title>
+  <Description>An opportunity presents itself, $n.
+
+Ly'leth has arranged to grant you entry into a ball at the Court of Stars. I do not know what we may gain from this venture, but there is one task I must set for you.
+
+Advisor Melandrus once called himself my ally. He and I planned Elisande's downfall, but when the moment came I found myself betrayed.
+
+The wound his dagger inflicted still aches. I cannot enter Suramar to take my revenge, but you can.
+
+Give him a traitor's death, and bring me his spellstone.</Description>
+  <LogDescription>Enter the Court of Stars dungeon and slay Advisor Melandrus. Collect his Spellstone and return it to Thalyssra.</LogDescription>
+  <CompletionText>Is it done?</CompletionText>
+  <RewardText>&lt;Thalyssra clutches the spellstone tightly for a moment.&gt;$b$bHe brought this upon himself.$b$bI cannot linger in the past. Elisande is weaker without him, and we are one step closer to righting the wrongs inflicted upon the shal'dorei.</RewardText>
+  <Objectives>
+    <Objective id="285463">Advisor Melandrus defeated</Objective>
+  </Objectives>
+</QuestData>

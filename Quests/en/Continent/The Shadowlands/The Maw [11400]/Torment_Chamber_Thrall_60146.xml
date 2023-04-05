@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="60146">
+  <Title>Torment Chamber: Thrall</Title>
+  <Description>Using the totem you recovered, I will alter the Attuned Shard to guide you to Thrall's location.
+
+&lt;Bolvar hands you the crystalline object.&gt;
+
+Take care. You know the torments Baine and Lady Proudmoore endured in that accursed place. Thrall's confinement will be no less harrowing.
+
+Beware. The deeper you journey into the Tower of the Damned, the closer you get to the Jailer himself.
+
+Free Thrall, $n... before all hope is lost.</Description>
+  <PortraitGiverName>Bolvar Fordragon</PortraitGiverName>
+  <LogDescription>Rescue Thrall from Torghast, Tower of the Damned.</LogDescription>
+  <QuestCompletionLog>Escort Thrall to Oribos.</QuestCompletionLog>
+  <RewardText>You have braved torments beyond most mortals' understanding, $n.
+
+Well done indeed.</RewardText>
+  <Objectives>
+    <Objective id="398350">Thrall rescued</Objective>
+    <Objective id="405147">Defeat Thrall's captors</Objective>
+    <Objective id="409062">Use the Attuned Shard at the Wayfinder in Torghast</Objective>
+    <Objective id="409063">Attunded Shard</Objective>
+  </Objectives>
+</QuestData>

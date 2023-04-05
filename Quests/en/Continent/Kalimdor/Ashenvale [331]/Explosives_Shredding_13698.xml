@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="13698">
+  <Title>Explosives Shredding</Title>
+  <Description>I hate to send you back in there, but based on your description of what's going on, we can't let them use all of those explosives they have stored up!$B$BIt's too dangerous for you to try to destroy them yourself, but if you were to steal one of their shredders, I'm sure they're tough enough to withstand the explosions.$B$BAfter you've destroyed their explosives, return here with the shredder. There's no sense in letting them have it back.</Description>
+  <LogDescription>Use a Warsong Shredder to destroy 8 Kegs of Explosives.</LogDescription>
+  <CompletionText>Time's running out, $n.</CompletionText>
+  <RewardText>I saw those explosions all of the way from over here! Those filthy orcs and their goblin lackeys are going to have a hard time doing anything to despoil the forest now!$B$BWe can't thank you enough, $n. Will this do?</RewardText>
+  <Objectives>
+    <Objective id="264303">Horde Explosives destroyed</Objective>
+    <Objective id="264304">Warsong Shredder returned</Objective>
+  </Objectives>
+</QuestData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="57985">
+  <Title>Give Them a Hand</Title>
+  <Description>The corpses are brought to this pit for processing. Their flesh is liquified and congealed before being shaped into new constructs.
+
+We can hinder their production by extracting the animates from the pool prematurely. Use this hook to do so.
+
+Do not let Baron Halis catch you. He has a reputation for cruelty, even within his own house.</Description>
+  <LogDescription>Destroy $1oa Vestigial Animates.</LogDescription>
+  <QuestCompletionLog>Meet up with Secutor Mevix.</QuestCompletionLog>
+  <RewardText>Slowing the production of new constructs should earn our soldiers some reprieve, however brief.</RewardText>
+  <Objectives>
+    <Objective id="393468">Vestigial Animate destroyed</Objective>
+  </Objectives>
+</QuestData>
