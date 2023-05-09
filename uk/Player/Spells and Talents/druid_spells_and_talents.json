@@ -2145,7 +2145,7 @@
           "Hash": 931434725,
           "Id": "113043",
           "Spec": "Restoration",
-          "Text": "Your healing over time from Lifebloom has a {1}% chance to cause a Clearcasting state, making your next Regrowth cost no mana."
+          "Text": "Ваше періодичне зцілення від [Життєцвіт] має {1}% шанс спричинити стан [Чистий розум], і ваше наступне [Відновлення] не коштуватиме мани."
         }
       ]
     },
@@ -2157,7 +2157,7 @@
           "Hash": 609351603,
           "Id": "383197",
           "Spec": "Balance",
-          "Text": "Every {1}th Shooting Star calls down a Full Moon at {2}% power upon its target."
+          "Text": "Кожні {1} [Падаючі зірки] викликають [Повний місяць] з {2}% сили на своїй цілі."
         }
       ]
     },
@@ -2169,7 +2169,7 @@
           "Hash": 159580035,
           "Id": "390378",
           "Spec": "Balance",
-          "Text": "Celestial Alignment blasts all enemies in a targeted area for {1} Astral damage and applies Stellar Flare to them.\n\nReduces the cooldown of Celestial Alignment by {2} sec."
+          "Text": "[Небесне вирівнювання] вибухає всіх ворогів у вибраній області на {1} астральної шкоди та застосовує [Зоряний спалах] на них.\n\nЗменшує час відновлення [Небесне вирівнювання] на {2} сек."
         }
       ]
     },
@@ -2181,7 +2181,7 @@
           "Hash": 662984950,
           "Id": "203651",
           "Spec": "Restoration",
-          "Text": "Apply Lifebloom, Rejuvenation, Wild Growth, and Regrowth's heal over time effect to an ally."
+          "Text": "Застосовує періодичні ефекти зцілення від [Життєцвіт], [Омолодження], [Дикий ріст] та [Відновлення] на союзника."
         }
       ]
     },
@@ -2193,19 +2193,19 @@
           "Hash": 3531647236,
           "Id": "202246",
           "Spec": "Guardian",
-          "Text": "Charge to an enemy, stunning them for {1} sec and knocking back their allies within {2} yards."
+          "Text": "Ви робите ривок у ворога, оглушаючи його на {1} сек та відкидаючи їх союзників у радіусі {2} м."
         }
       ]
     },
     {
       "Hash": 3340731120,
-      "Name": "Owlkin Adept",
+      "Name": "Адепт совуха",
       "Descriptions": [
         {
           "Hash": 1173150104,
           "Id": "354541",
           "Spec": "Balance",
-          "Text": "Owlkin Frenzy can stack up to {1} times and reduces the cast time of your next Cyclone or Entangling Roots by {2}%."
+          "Text": "[Лютість совуха] може накопичуватися до {1} разів та зменшує час застосування вашого наступного [Циклон] або [Заплутуючі корені] на {2}%."
         }
       ]
     },
@@ -2217,7 +2217,7 @@
           "Hash": 3080515119,
           "Id": "382550",
           "Spec": "Restoration",
-          "Text": "Nature's Swiftness's cooldown is reduced by {1} sec."
+          "Text": "Час відновлення [Стрімкість природи] зменшений на {1} сек."
         }
       ]
     },
@@ -2229,7 +2229,7 @@
           "Hash": 2305501401,
           "Id": "274902",
           "Spec": "Restoration",
-          "Text": "While your Lifebloom is on yourself, your periodic heals heal {1}% faster.\n\nWhile your Lifebloom is on an ally, your periodic heals on them have a {2}% chance to cause it to bloom."
+          "Text": "Поки ваш [Життєцвіт] діє на вас, ваші періодичні ефекти зцілення працюють на {1}% швидше.\n\nПоки ваш [Життєцвіт] діє на союзника, ваші періодичні ефекти зцілення на них мають {2}% шанс змусити їх квітнути."
         }
       ]
     },
@@ -2241,7 +2241,7 @@
           "Hash": 1876099412,
           "Id": "390772",
           "Spec": "Feral",
-          "Text": "While stealthed, Rake will also stun the target for {1} sec, and deal {2}% increased damage.\n\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point."
+          "Text": "Поки ви у стані непомітності, [Роздирання] буде також оглушати ціль на {1} сек, та завдає на {2}% більше шкоди.\n\nПоки ви у стані непомітності, [Подрібнення] завдає на {3}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {4} оч. комбо."
         }
       ]
     },
@@ -2889,13 +2889,13 @@
           "Hash": 322426979,
           "Id": "114107",
           "Spec": "Balance",
-          "Text": "Eclipse increases Wrath's Astral power generation {1}%, and increases Starfire's area effect damage by {2}%."
+          "Text": "Затемнення збільшує генерацію астральної сили від [Гнів] на {1}%, та збільшує зону дії [Зоряний вогонь] на {2}%."
         },
         {
           "Hash": 4127922672,
           "Id": "158478",
           "Spec": "Restoration",
-          "Text": "Swiftmend increases the healing of your next Regrowth or Rejuvenation by {1}%, or your next Wild Growth by {2}%."
+          "Text": "[Швидке відновлення] збільшує зцілення від вашого наступного [Відновлення] або [Омолодження] на {1}%, або вашого наступного [Дикий ріст] на {2}%."
         }
       ]
     },
@@ -2919,7 +2919,7 @@
           "Hash": 1288416468,
           "Id": "106898",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Shift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
+          "Text": "Ви переходите у форму ведмедя та вивільняєте дикий рик, збільшуючи швидкість руху всіх союзників у радіусі {1} м на {2}% на {3} сек."
         }
       ]
     },
@@ -2931,7 +2931,7 @@
           "Hash": 3984031930,
           "Id": "356517",
           "Spec": "Balance",
-          "Text": "Starfall calls down collapsing stars that last {1} sec. Enemies that come into contact with a star cause it to burst, knocking nearby enemies upwards and dealing {2} Astral damage. Generates {3} Astral Power.\n\nThe Druid and their allies may pick up stars, causing them to orbit around you."
+          "Text": "[Зорепад] викликає колапсуючі зірки, які існують {1} сек. Вороги, які контактують з ними, вибухають, підкидаючи своїх найближчих союзників вгору та завдаючи {2} астральної шкоди. Генерує {3} од. астральної сили.\n\nДруїд та його союзники можуть підібрати ці зірки, змушуючи їх кружляти навколо вас."
         }
       ]
     },
@@ -2943,7 +2943,7 @@
           "Hash": 649547651,
           "Id": "191034",
           "Spec": "Balance",
-          "Text": "Calls down waves of falling stars upon enemies within {1} yds, dealing {2} Astral damage over {3} sec. Multiple uses of this ability may overlap.\n\nExtends the duration of active Moonfires and Sunfires by {4} sec."
+          "Text": "Викликає хвилі зірок, які падають на ворогів у радіусі {1} м, завдаючи {2} астральної шкоди протягом {3} сек. Можна використовувати багато разів.\n\nЗбільшує тривалість активних [Місячний вогонь] та [Сонячний вогонь] на {4} сек."
         }
       ]
     },
@@ -2955,13 +2955,13 @@
           "Hash": 657886030,
           "Id": "194153",
           "Spec": "Balance",
-          "Text": "Call down a burst of energy, causing {1} Arcane damage to the target, and {2} Arcane damage to all other enemies within {3} yards.\n\n{FFFFFFFF|Generates {4} Astral Power.}"
+          "Text": "Викликає сплеск енергії, який завдає {1} од. шкоди від таємної магії цілі, та {2} од. шкоди від таємної магії всім іншим ворогам у радіусі {3} м.\n\n{FFFFFFFF|Генерує {4} од. астральної сили.}"
         },
         {
           "Hash": 3856269569,
           "Id": "197628",
           "Spec": "Restoration, Feral, Guardian",
-          "Text": "Call down a burst of energy, causing {1} Arcane damage to the target, and {2} Arcane damage to all other enemies within {3} yards."
+          "Text": "Викликає сплеск енергії, який завдає {1} од. шкоди від таємної магії цілі, та {2} од. шкоди від таємної магії всім іншим ворогам у радіусі {3} м."
         }
       ]
     },
@@ -2973,7 +2973,7 @@
           "Hash": 3550153187,
           "Id": "202345",
           "Spec": "Balance",
-          "Text": "Starsurge and Starfall grant you {1}% Haste for {2} sec.\n\nStacks up to {3} times. Gaining a stack does not refresh the duration."
+          "Text": "[Зоряний сплеск] та [Зорепад] надають вам {1}% Швидкості на {2} сек.\n\nНакопичується до {3} {declension|раз|рази|разів}. Отримання ефекту не оновлює його тривалість."
         }
       ]
     },
@@ -2997,7 +2997,7 @@
           "Hash": 3089090622,
           "Id": "393940",
           "Spec": "Balance",
-          "Text": "Starsurge has a {1}% chance to make Starfall free. Starfall has a {2}% chance to make Starsurge free."
+          "Text": "[Зоряний сплеск] має {1}% шанс зробити [Зорепад] безкоштовним. [Зорепад] має {2}% шанс зробити [Зоряний сплеск] безкоштовним."
         }
       ]
     },
