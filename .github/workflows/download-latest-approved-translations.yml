@@ -1,4 +1,4 @@
-name: Crowdin Download Translation
+name: Download latest approved translations
 
 on:
   workflow_dispatch:
@@ -12,27 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Download latest translations from Crowdin
-        uses: crowdin/github-action@v1
         with:
-          config: 'crowdin.yml'
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          create_pull_request: true
-          pull_request_title: 'Automatic PR with Latest Translations from Crowdin'
-          pull_request_body: 'This PR is automatically generated and includes all available translations in JSON format, organized in the same file structure as the project on Crowdin.'
-          pull_request_base_branch_name: 'main'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          ref: approved-only
           
       - name: Download latest approved translations from Crowdin
         uses: crowdin/github-action@v1
         with:
-          config: 'crowdin-approved.yml'
           upload_sources: false
           upload_translations: false
           download_translations: true
@@ -40,7 +25,8 @@ jobs:
           export_only_approved: true
           pull_request_title: 'Automatic PR with Latest Approved Translations from Crowdin'
           pull_request_body: 'This PR is automatically generated and includes all available approved translations in JSON format, organized in the same file structure as the project on Crowdin.'
-          pull_request_base_branch_name: 'main'
+          pull_request_base_branch_name: 'approved-only'
+          localization_branch_name: crowdin/latest_approved_translations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
