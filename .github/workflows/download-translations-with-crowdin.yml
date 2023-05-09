@@ -24,6 +24,7 @@ jobs:
           pull_request_title: 'Automatic PR with Latest Translations from Crowdin'
           pull_request_body: 'This PR is automatically generated and includes all available translations in JSON format, organized in the same file structure as the project on Crowdin.'
           pull_request_base_branch_name: 'main'
+          localization_branch_name: crowdin/latest_translations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
@@ -40,7 +41,8 @@ jobs:
           export_only_approved: true
           pull_request_title: 'Automatic PR with Latest Approved Translations from Crowdin'
           pull_request_body: 'This PR is automatically generated and includes all available approved translations in JSON format, organized in the same file structure as the project on Crowdin.'
-          pull_request_base_branch_name: 'main'
+          pull_request_base_branch_name: 'approved-only'
+          localization_branch_name: crowdin/latest_approved_translations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
