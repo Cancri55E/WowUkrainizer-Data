@@ -3,7 +3,7 @@
   "Spells": [
     {
       "Hash": 3694472439,
-      "Name": "Кінцівка _потвори_",
+      "Name": "Abomination Limb",
       "Descriptions": [
         {
           "Hash": 1999620883,
@@ -21,85 +21,85 @@
           "Hash": 634215081,
           "Id": "383269",
           "Spec": "Frost",
-          "Text": "Відрощує додаткову кінцівку, що протягом {2}с завдає {1} тіньової шкоди ворогам поблизу. Здавдає зменшеної шкоди цілям після {3}. Кожних {4}с притягує ворога що далі {5} ярдів від вас. Один і той самий ворог може бути притягнутий не частіше ніж раз в {6}с."
+          "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain Rime instantly, and again every {7} sec."
         }
       ]
     },
     {
       "Hash": 115870082,
-      "Name": "[Абсолютний нуль]",
+      "Name": "Absolute Zero",
       "Descriptions": [
         {
           "Hash": 1378300847,
           "Id": "377047",
           "Spec": "Frost",
-          "Text": "[Гнів льодяного дракона] відновлюється на {1}% швидше та заморожує всіх уражених ворогів на {2}сек."
+          "Text": "Frostwyrm's Fury has {1}% reduced cooldown and Freezes all enemies hit for {2} sec."
         }
       ]
     },
     {
       "Hash": 2195921270,
-      "Name": "Акліматизація",
+      "Name": "Acclimation",
       "Descriptions": [
         {
           "Hash": 1907015568,
           "Id": "373926",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Відновлення [стійкості льоду] зменшено на {1}c"
+          "Text": "Icebound Fortitude's cooldown is reduced by {1} sec."
         }
       ]
     },
     {
       "Hash": 2689193023,
-      "Name": "Вічне служіння",
+      "Name": "All Will Serve",
       "Descriptions": [
         {
           "Hash": 218058220,
           "Id": "194916",
           "Spec": "Unholy",
-          "Text": "[Воскресіння мертвих] викликає додаткового прислужника-скелета"
+          "Text": "Your Raise Dead spell summons an additional skeletal minion."
         }
       ]
     },
     {
       "Hash": 2516556703,
-      "Name": "Анти-магічний бар'єр",
+      "Name": "Anti-Magic Barrier",
       "Descriptions": [
         {
           "Hash": 1568133751,
           "Id": "205727",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Зменшує відновлення [Анти-магічний щит] на 20с. та збільшує його тривалість та поглинання на {2}%."
+          "Text": "Reduces the cooldown of Anti-Magic Shell by {1} sec and increases its duration and amount absorbed by {2}%."
         }
       ]
     },
     {
       "Hash": 2345467340,
-      "Name": "Анти-магічний панцир",
+      "Name": "Anti-Magic Shell",
       "Descriptions": [
         {
           "Hash": 381936970,
           "Id": "48707",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Оточує вас Анти-магічним панцирем протягом {1}с, що поглинає до {2} магічної шкоди та запобігає накладанню негативних магічних ефектів. Поглинута шкода генерує рунічну силу."
+          "Text": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects. Damage absorbed generates Runic Power."
         }
       ]
     },
     {
       "Hash": 643638683,
-      "Name": "Анти-магічна Зона",
+      "Name": "Anti-Magic Zone",
       "Descriptions": [
         {
           "Hash": 2961871641,
           "Id": "51052",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Розміщує анти-магічну зону що зменшує магічну шкоду отримувану гравцями з групи чи рейду на {1}%. Анти-магічна зона діє {2}с або до поглинання {3} шкоди."
+          "Text": "Places an Anti-Magic Zone that reduces spell damage taken by party or raid members by {1}%. The Anti-Magic Zone lasts for {2} sec or until it absorbs {3} damage."
         }
       ]
     },
     {
       "Hash": 3289584139,
-      "Name": "Апокаліпсис",
+      "Name": "Apocalypse",
       "Descriptions": [
         {
           "Hash": 3410231503,
@@ -111,7 +111,7 @@
     },
     {
       "Hash": 2623629652,
-      "Name": "Армія Проклятих",
+      "Name": "Army of the Damned",
       "Descriptions": [
         {
           "Hash": 1658839883,
@@ -123,7 +123,7 @@
     },
     {
       "Hash": 4254390286,
-      "Name": "Армія Мертвих",
+      "Name": "Army of the Dead",
       "Descriptions": [
         {
           "Hash": 298404102,
@@ -135,55 +135,55 @@
     },
     {
       "Hash": 1552762889,
-      "Name": "Удушення",
+      "Name": "Asphyxiate",
       "Descriptions": [
         {
           "Hash": 225490449,
           "Id": "221562",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Піднімає ворога над землею, проламуючи трахею темною енергією та приголомшуючи на {1}c."
+          "Text": "Lifts the enemy target off the ground, crushing their throat with dark energy and stunning them for {1} sec."
         }
       ]
     },
     {
       "Hash": 1966414619,
-      "Name": "Асиміляція",
+      "Name": "Assimilation",
       "Descriptions": [
         {
           "Hash": 1357642311,
           "Id": "374383",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Збільшує поглинання [Анти-магічна зона] на {1}% та генерує до {2} рунічної сили в залежності від поглинутої шкоди."
+          "Text": "The amount absorbed by Anti-Magic Zone is increased by {1}% and grants up to {2} Runic Power based on the amount absorbed."
         }
       ]
     },
     {
       "Hash": 710747419,
-      "Name": "[Лавина]",
+      "Name": "Avalanche",
       "Descriptions": [
         {
           "Hash": 280128671,
           "Id": "207142",
           "Spec": "Frost",
-          "Text": "Застосування [Виючий вітер] з активним [Іній] змушує зубчасті бурульки падати на ворогів поблизу вашої цілі, застосовуючи [Ріжучий лід] та завдаючи {1} шкоди від льоду."
+          "Text": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing {1} Frost damage."
         }
       ]
     },
     {
       "Hash": 2732776067,
-      "Name": "[Застуда]",
+      "Name": "Biting Cold",
       "Descriptions": [
         {
           "Hash": 2327411244,
           "Id": "377056",
           "Spec": "Frost",
-          "Text": "Шкода від [Безжальна зима] збільшена на {1}%. Коли [Безжальна зима] вперше завдає шкоди {2} різним ворогам, ви отримуєте [Іній]"
+          "Text": "Remorseless Winter damage is increased by {1}%. The first time Remorseless Winter deals damage to {2} different enemies, you gain Rime."
         }
       ]
     },
     {
       "Hash": 3388306836,
-      "Name": "Гіркий Холод",
+      "Name": "Bitter Chill",
       "Descriptions": [
         {
           "Hash": 1984778939,
@@ -195,19 +195,19 @@
     },
     {
       "Hash": 3769345001,
-      "Name": "осліпляючий сніг(?)",
+      "Name": "Blinding Sleet",
       "Descriptions": [
         {
           "Hash": 1306248212,
           "Id": "207167",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Осліплює цілі в конусі перед вами, змушуючи їх блукати дизорієнтованими протягом {1}с. Шкода може відмінити/зняти цей ефект"
+          "Text": "Targets in a cone in front of you are blinded, causing them to wander disoriented for {1} sec. Damage may cancel the effect.\n\nWhen Blinding Sleet ends, enemies are slowed by {2}% for {3} sec."
         }
       ]
     },
     {
       "Hash": 1733538980,
-      "Name": "Кипіння Крові",
+      "Name": "Blood Boil",
       "Descriptions": [
         {
           "Hash": 4085257512,
@@ -219,19 +219,19 @@
     },
     {
       "Hash": 654886655,
-      "Name": "Витягування крові",
+      "Name": "Blood Draw",
       "Descriptions": [
         {
           "Hash": 201130055,
           "Id": "374598",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Коли ваше здоров'я опускається нижче {1}% ви витягуєте {2} здоров'я з найближчих цілей. Може відбутись не частіше ніж раз в {3}хв."
+          "Text": "When you fall below {1}% health you drain {2} health from nearby enemies. Can only occur every {3} min."
         }
       ]
     },
     {
       "Hash": 3481339723,
-      "Name": "Кривавий Бенкет",
+      "Name": "Blood Feast",
       "Descriptions": [
         {
           "Hash": 3010696517,
@@ -243,7 +243,7 @@
     },
     {
       "Hash": 85640844,
-      "Name": "Кров за Кров",
+      "Name": "Blood for Blood",
       "Descriptions": [
         {
           "Hash": 1885093742,
@@ -255,7 +255,7 @@
     },
     {
       "Hash": 188378240,
-      "Name": "Кривава Стійкість",
+      "Name": "Blood Fortification",
       "Descriptions": [
         {
           "Hash": 2367237183,
@@ -267,13 +267,13 @@
     },
     {
       "Hash": 1122705324,
-      "Name": "Запах крові",
+      "Name": "Blood Scent",
       "Descriptions": [
         {
           "Hash": 205065484,
           "Id": "374030",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Збільшує самозцілення на {1}%"
+          "Text": "Increases Leech by {1}%."
         }
       ]
     },
@@ -291,7 +291,7 @@
     },
     {
       "Hash": 2652582212,
-      "Name": "Кровопивця",
+      "Name": "Blooddrinker",
       "Descriptions": [
         {
           "Hash": 2490830897,
@@ -303,7 +303,7 @@
     },
     {
       "Hash": 2507479805,
-      "Name": "Кривавий Постріл",
+      "Name": "Bloodshot",
       "Descriptions": [
         {
           "Hash": 2693457745,
@@ -315,7 +315,7 @@
     },
     {
       "Hash": 228238813,
-      "Name": "Кровочерви",
+      "Name": "Bloodworms",
       "Descriptions": [
         {
           "Hash": 1786973642,
@@ -327,19 +327,19 @@
     },
     {
       "Hash": 2061787341,
-      "Name": "[Косторубка]",
+      "Name": "Bonegrinder",
       "Descriptions": [
         {
           "Hash": 1168418275,
           "Id": "377098",
           "Spec": "Frost",
-          "Text": "Поглинання [Машина вбивства/Машина для вбивтсва] надає {1}% шансу критичного удару на {2} секунд, сумуючи до {3} разів. Після {4} зарядів ваша наступна [Машина вбивства/Машина для вбивтсва] споживає накопичення та надає вам {5}% збільшення шкоди від льоду на {6} секунд."
+          "Text": "Consuming Killing Machine grants {1}% critical strike chance for {2} sec, stacking up to {3} times. At {4} stacks your next Killing Machine consumes the stacks and grants you {5}% increased Frost damage for {6} sec."
         }
       ]
     },
     {
       "Hash": 2243403179,
-      "Name": "Буря Кісток",
+      "Name": "Bonestorm",
       "Descriptions": [
         {
           "Hash": 1465813647,
@@ -351,31 +351,31 @@
     },
     {
       "Hash": 2264867618,
-      "Name": "[Подих Синдрагоси]",
+      "Name": "Breath of Sindragosa",
       "Descriptions": [
         {
           "Hash": 1948761811,
           "Id": "152279",
           "Spec": "Frost",
-          "Text": "Раз в {2} сек завдає {1} одиниць льодяної шкоди всім ворогам у конусі перед вами, доки ваша рунічна сила не вичерпається. Завдає меншу шкоду другорядним цілям.\n\nГенерує {3} руни на початку та в кінці."
+          "Text": "Continuously deal {1} Frost damage every {2} sec to enemies in a cone in front of you, until your Runic Power is exhausted. Deals reduced damage to secondary targets.\n\n{FFFFFFFF|Generates {3} Runes at the start and end.}"
         }
       ]
     },
     {
       "Hash": 3869023,
-      "Name": "Крихкість/смертність",
+      "Name": "Brittle",
       "Descriptions": [
         {
           "Hash": 2490607076,
           "Id": "374504",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Ваші хвороби мають шанс ослабити ворога та збільшити шкоду яку йому завдають ваші атаки на {1}% протягом {@} с."
+          "Text": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal {1}% increased damage for {2} sec."
         }
       ]
     },
     {
       "Hash": 2454911724,
-      "Name": "Розрив Виразок",
+      "Name": "Bursting Sores",
       "Descriptions": [
         {
           "Hash": 1074827542,
@@ -387,31 +387,31 @@
     },
     {
       "Hash": 3729249968,
-      "Name": "[Льодяні окови]",
+      "Name": "Chains of Ice",
       "Descriptions": [
         {
           "Hash": 2090856518,
           "Id": "45524",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Заковує ворога льодяними кайданами, зменшуючи швидкість переміщення на {1}% протягом {2}c."
+          "Text": "Shackles the target with frozen chains, reducing movement speed by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 2967295395,
-      "Name": "[Холодний потік]",
+      "Name": "Chill Streak",
       "Descriptions": [
         {
           "Hash": 1956773104,
           "Id": "305392",
           "Spec": "Frost",
-          "Text": "Завдає цілі {1} одиниць шкоди від льоду та зменшує швидкість її руху на {2}% на {3} секунди.\n\n[Холодний потік] перестрибує до {4} разів між найближчими цілями в межах {5} метрів"
+          "Text": "Deals {1} Frost damage to the target and reduces their movement speed by {2}% for {3} sec.\n\nChill Streak bounces up to {4} times between closest targets within {5} yards."
         }
       ]
     },
     {
       "Hash": 2947902063,
-      "Name": "Кігтисті Тіні",
+      "Name": "Clawing Shadows",
       "Descriptions": [
         {
           "Hash": 3569382295,
@@ -423,7 +423,7 @@
     },
     {
       "Hash": 1755664802,
-      "Name": "Розсікаючі удари",
+      "Name": "Cleaving Strikes",
       "Descriptions": [
         {
           "Hash": 1023579296,
@@ -441,25 +441,25 @@
           "Hash": 485977033,
           "Id": "316916",
           "Spec": "Unholy",
-          "Text": "[Удар в серце] б'є додаткові цілі коли ви знаходитесь в [Смерть та розпад]"
+          "Text": "Scourge Strike hits up to {1} additional enemies while you remain in Death and Decay."
         }
       ]
     },
     {
       "Hash": 1966973548,
-      "Name": "Міцний хват",
+      "Name": "Clenching Grasp",
       "Descriptions": [
         {
           "Hash": 1464555108,
           "Id": "389679",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "[Хват смерті] зменшує швидкість переміщення ворога на {1}% протягом {2}с"
+          "Text": "Death Grip slows enemy movement speed by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 2925147484,
-      "Name": "Коагулопатія",
+      "Name": "Coagulopathy",
       "Descriptions": [
         {
           "Hash": 2334940290,
@@ -483,43 +483,43 @@
     },
     {
       "Hash": 867779669,
-      "Name": "[Холодне серце]",
+      "Name": "Cold Heart",
       "Descriptions": [
         {
           "Hash": 3147282986,
           "Id": "281208",
           "Spec": "Frost",
-          "Text": "Кожні {1} сек отримуйте заряд [Холодне серце], що призведе до того, що ваші наступні [Льодяні окови] завдадуть {2} шкоди від льоду. Складається до {3} разів."
+          "Text": "Every {1} sec, gain a stack of Cold Heart, causing your next Chains of Ice to deal {2} Frost damage. Stacks up to {3} times."
         }
       ]
     },
     {
       "Hash": 591828854,
-      "Name": "[Холоднокровна лють]",
+      "Name": "Cold-Blooded Rage",
       "Descriptions": [
         {
           "Hash": 2695644155,
           "Id": "377083",
           "Spec": "Frost",
-          "Text": "Критичні удари [Морозний удар] мають {1}% шансів отримати [Машина вбивства/Машина для вбивтсва]."
+          "Text": "Frost Strike has a {1}% chance on critical strikes to grant Killing Machine."
         }
       ]
     },
     {
       "Hash": 1338597583,
-      "Name": "Холодна жага?",
+      "Name": "Coldthirst",
       "Descriptions": [
         {
           "Hash": 69111767,
           "Id": "378848",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Успішні перебивання з [замороження розуму] генерують {1} рунічної сили та зменшують його відновлення на {2}c."
+          "Text": "Successfully interrupting an enemy with Mind Freeze grants {1} Runic Power and reduces its cooldown by {2} sec."
         }
       ]
     },
     {
       "Hash": 4241181290,
-      "Name": "Командир Мертвих",
+      "Name": "Commander of the Dead",
       "Descriptions": [
         {
           "Hash": 800864276,
@@ -531,7 +531,7 @@
     },
     {
       "Hash": 4205906342,
-      "Name": "Споживання",
+      "Name": "Consumption",
       "Descriptions": [
         {
           "Hash": 299742501,
@@ -543,19 +543,19 @@
     },
     {
       "Hash": 2021844470,
-      "Name": "Контроль мертвих",
+      "Name": "Control Undead",
       "Descriptions": [
         {
           "Hash": 1372060182,
           "Id": "111673",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Захоплює undead створіння до {1} рівня, примушуючи виконувати ваші команди протягом {2}хв."
+          "Text": "Dominates the target undead creature up to level {1}, forcing it to do your bidding for {2} min."
         }
       ]
     },
     {
       "Hash": 1541301513,
-      "Name": "Багряна Скара",
+      "Name": "Crimson Scourge",
       "Descriptions": [
         {
           "Hash": 2768934246,
@@ -567,7 +567,7 @@
     },
     {
       "Hash": 2164796458,
-      "Name": "Танцююча Рунна Зброя",
+      "Name": "Dancing Rune Weapon",
       "Descriptions": [
         {
           "Hash": 4057634415,
@@ -579,7 +579,7 @@
     },
     {
       "Hash": 300478881,
-      "Name": "Зловісна Команда",
+      "Name": "Dark Command",
       "Descriptions": [
         {
           "Hash": 3437420192,
@@ -591,7 +591,7 @@
     },
     {
       "Hash": 3231580122,
-      "Name": "Темна Подоба",
+      "Name": "Dark Simulacrum",
       "Descriptions": [
         {
           "Hash": 3446403925,
@@ -603,7 +603,7 @@
     },
     {
       "Hash": 3487066889,
-      "Name": "Темна Підмога",
+      "Name": "Dark Succor",
       "Descriptions": [
         {
           "Hash": 2284922440,
@@ -615,7 +615,7 @@
     },
     {
       "Hash": 2878493632,
-      "Name": "Зловісне Перетворення",
+      "Name": "Dark Transformation",
       "Descriptions": [
         {
           "Hash": 3126558295,
@@ -627,7 +627,7 @@
     },
     {
       "Hash": 1733048253,
-      "Name": "Смертельна Зима",
+      "Name": "Dead of Winter",
       "Descriptions": [
         {
           "Hash": 3893510572,
@@ -639,7 +639,7 @@
     },
     {
       "Hash": 2937955494,
-      "Name": "Смерть і гниття",
+      "Name": "Death and Decay",
       "Descriptions": [
         {
           "Hash": 2370516691,
@@ -663,7 +663,7 @@
     },
     {
       "Hash": 28590923,
-      "Name": "Смертельний Ланцюг",
+      "Name": "Death Chain",
       "Descriptions": [
         {
           "Hash": 1181652806,
@@ -675,7 +675,7 @@
     },
     {
       "Hash": 1861205559,
-      "Name": "Смертельне обмотування",
+      "Name": "Death Coil",
       "Descriptions": [
         {
           "Hash": 399214469,
@@ -693,7 +693,7 @@
     },
     {
       "Hash": 1654376167,
-      "Name": "Брама смерті",
+      "Name": "Death Gate",
       "Descriptions": [
         {
           "Hash": 1086364669,
@@ -705,7 +705,7 @@
     },
     {
       "Hash": 2928289956,
-      "Name": "Смертельна Хватка",
+      "Name": "Death Grip",
       "Descriptions": [
         {
           "Hash": 2211635590,
@@ -723,19 +723,19 @@
     },
     {
       "Hash": 1369217211,
-      "Name": "Смертельний пакт",
+      "Name": "Death Pact",
       "Descriptions": [
         {
           "Hash": 1352694023,
           "Id": "48743",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Укладає смертельний пакт що зцілює вас на {1}% від максимального здоров'я, але поглинає отримуване зцілення в кількості {2}% від максимального здоров'я протягом {3}с."
+          "Text": "Create a death pact that heals you for {1}% of your maximum health, but absorbs incoming healing equal to {2}% of your max health for {3} sec."
         }
       ]
     },
     {
       "Hash": 3889532275,
-      "Name": "Смертельна Гниль",
+      "Name": "Death Rot",
       "Descriptions": [
         {
           "Hash": 3800277987,
@@ -747,7 +747,7 @@
     },
     {
       "Hash": 3465767608,
-      "Name": "Удар смерті",
+      "Name": "Death Strike",
       "Descriptions": [
         {
           "Hash": 603818472,
@@ -759,13 +759,13 @@
           "Hash": 3136838431,
           "Id": "49998",
           "Spec": "Unholy, Blood",
-          "Text": "Концентрує сили темряви в удар що завдає {1} фізичної шкоди та зцілює вас на {2} від отриманої шкоди протягом останніх {3}с, але не менше ніж {4} від максимального здоров'я."
+          "Text": "Focuses dark power into a strike that deals {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health."
         }
       ]
     },
     {
       "Hash": 2073725636,
-      "Name": "Аванс Смерті",
+      "Name": "Death's Advance",
       "Descriptions": [
         {
           "Hash": 2715605777,
@@ -777,7 +777,7 @@
     },
     {
       "Hash": 785407125,
-      "Name": "Дотик смерті",
+      "Name": "Death's Caress",
       "Descriptions": [
         {
           "Hash": 880556541,
@@ -789,13 +789,13 @@
     },
     {
       "Hash": 3537938026,
-      "Name": "Ехо смерті",
+      "Name": "Death's Echo",
       "Descriptions": [
         {
           "Hash": 3735928509,
           "Id": "356367",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "[Наступ смерті], [Смерть та розпад] і [Хват смерті] отримують додатковий заряд."
+          "Text": "Death's Advance, Death and Decay, and Death Grip have {1} additional charge."
         }
       ]
     },
@@ -807,13 +807,13 @@
           "Hash": 3877836793,
           "Id": "276079",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Збільшує відстань [Хват смерті] на {1}м.\nВбивства ворогів що дають честь або досвід скидають відновлення [Хват смерті]"
+          "Text": "Increases the range of Death Grip by {1} yds.\n\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip."
         }
       ]
     },
     {
       "Hash": 2368458786,
-      "Name": "Смертельний Холод",
+      "Name": "Deathchill",
       "Descriptions": [
         {
           "Hash": 3263414012,
@@ -837,7 +837,7 @@
     },
     {
       "Hash": 1166585237,
-      "Name": "Дефіле",
+      "Name": "Defile",
       "Descriptions": [
         {
           "Hash": 908107135,
@@ -849,7 +849,7 @@
     },
     {
       "Hash": 2398479394,
-      "Name": "Марення",
+      "Name": "Delirium",
       "Descriptions": [
         {
           "Hash": 2357777999,
@@ -861,7 +861,7 @@
     },
     {
       "Hash": 1343949452,
-      "Name": "Пекельний Удар",
+      "Name": "Doomburst",
       "Descriptions": [
         {
           "Hash": 930852904,
@@ -873,7 +873,7 @@
     },
     {
       "Hash": 2473897000,
-      "Name": "Чорна Гарячка",
+      "Name": "Ebon Fever",
       "Descriptions": [
         {
           "Hash": 3385115399,
@@ -885,7 +885,7 @@
     },
     {
       "Hash": 531168720,
-      "Name": "Покращена Рунна Зброя",
+      "Name": "Empower Rune Weapon",
       "Descriptions": [
         {
           "Hash": 3736509481,
@@ -903,43 +903,43 @@
     },
     {
       "Hash": 2757441229,
-      "Name": "[Стійкий холод]",
+      "Name": "Enduring Chill",
       "Descriptions": [
         {
           "Hash": 3589886024,
           "Id": "377376",
           "Spec": "Frost",
-          "Text": "Дальність відскоку [Холодний потік] збільшується на {1} метри, і кожен раз, коли [Холодний потік] відскакує, він має {2}% шанс збільшити максимальну кількість відскоків на {3}."
+          "Text": "Chill Streak's bounce range is increased by {1} yds and each time Chill Streak bounces it has a {2}% chance to increase the maximum number of bounces by {3}."
         }
       ]
     },
     {
       "Hash": 1225706092,
-      "Name": "[Витривала сила]",
+      "Name": "Enduring Strength",
       "Descriptions": [
         {
           "Hash": 2386276115,
           "Id": "377190",
           "Spec": "Frost",
-          "Text": "Коли [Морозний стовп] закінчується, ваша Сила збільшується на {1}% на {2} сек. Цей ефект триває на {3} сек довше для кожного критичного удару [Стерти] і [Морозова коса] під час дії [Морозний стовп]."
+          "Text": "When Pillar of Frost expires, your Strength is increased by {1}% for {2} sec. This effect lasts {3} sec longer for each Obliterate and Frostscythe critical strike during Pillar of Frost."
         }
       ]
     },
     {
       "Hash": 3048676190,
-      "Name": "Ослаблення",
+      "Name": "Enfeeble",
       "Descriptions": [
         {
           "Hash": 3097766457,
           "Id": "392566",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Атаки вашого упиря мають шанс накласти [Ослаблення], що зменшує швидкість атаки ворога на {1}% та шкоду яку ворог завдає вам на {2}%"
+          "Text": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by {1}% and the damage they deal to you by {2}% for {3} sec."
         }
       ]
     },
     {
       "Hash": 2216367068,
-      "Name": "Епідемія",
+      "Name": "Epidemic",
       "Descriptions": [
         {
           "Hash": 3978131096,
@@ -951,7 +951,7 @@
     },
     {
       "Hash": 1691566905,
-      "Name": "Вічна агонія",
+      "Name": "Eternal Agony",
       "Descriptions": [
         {
           "Hash": 3978001846,
@@ -963,19 +963,19 @@
     },
     {
       "Hash": 1164073769,
-      "Name": "[Вічна мерзлота]",
+      "Name": "Everfrost",
       "Descriptions": [
         {
           "Hash": 3261947378,
           "Id": "376938",
           "Spec": "Frost",
-          "Text": "[Безжальна зима] завдає на {1}% збільшеної шкоди ворогам, яких вона вражає, накопичуючи до {2} разів"
+          "Text": "Remorseless Winter deals {1}% increased damage to enemies it hits, stacking up to {2} times."
         }
       ]
     },
     {
       "Hash": 2204581340,
-      "Name": "Вічне полювання",
+      "Name": "Everlasting Bond",
       "Descriptions": [
         {
           "Hash": 2020786063,
@@ -987,13 +987,13 @@
     },
     {
       "Hash": 805599460,
-      "Name": "[Фатальна фіксація]",
+      "Name": "Fatal Fixation",
       "Descriptions": [
         {
           "Hash": 433949158,
           "Id": "405166",
           "Spec": "Frost",
-          "Text": "[Машина вбивства/Машина для вбивтсва] може складатися ще {1} раз."
+          "Text": "Killing Machine can stack up to {1} additional time."
         }
       ]
     },
@@ -1035,7 +1035,7 @@
     },
     {
       "Hash": 421414926,
-      "Name": "Брудний Оплот",
+      "Name": "Foul Bulwark",
       "Descriptions": [
         {
           "Hash": 3185791100,
@@ -1047,79 +1047,79 @@
     },
     {
       "Hash": 3981641617,
-      "Name": "[Бездушний кат]",
+      "Name": "Frigid Executioner",
       "Descriptions": [
         {
           "Hash": 3645502118,
           "Id": "377073",
           "Spec": "Frost",
-          "Text": "[Стерти/Знищіти] завдає на {1}% ,більще шкоди і має {2}% шанс повернути {3} руни."
+          "Text": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} runes."
         }
       ]
     },
     {
       "Hash": 1446490366,
-      "Name": "[Крижаний удар]",
+      "Name": "Frost Strike",
       "Descriptions": [
         {
           "Hash": 1017302322,
           "Id": "49143",
           "Spec": "Frost",
-          "Text": "Охолодіть зброю крижаною силою та ,б'є ворога, завдаючи {1} одиниці шкоди від льоду."
+          "Text": "Chill your weapon with icy power and quickly strike the enemy, dealing {1} Frost damage."
         }
       ]
     },
     {
       "Hash": 3261194114,
-      "Name": "[Морозна коса]",
+      "Name": "Frostscythe",
       "Descriptions": [
         {
           "Hash": 3684200938,
           "Id": "207230",
           "Spec": "Frost",
-          "Text": "Приголомшлива атака, яка вражає всіх ворогів перед вами, завдаючи {1} одиниць шкоди від льоду. Ця атака отримає переваги від [Машина вбивства/Машина для вбивтсва]. Критичні удари [Морозова коса] завдають у {2} рази більше звичайної шкоди. Решта цілей окрім перших {3} отримають менше шкоди."
+          "Text": "A sweeping attack that strikes all enemies in front of you for {1} Frost damage. This attack benefits from Killing Machine. Critical strikes with Frostscythe deal {2} times normal damage. Deals reduced damage beyond {3} targets."
         }
       ]
     },
     {
       "Hash": 584202584,
-      "Name": "[Допомога крижаного дракончика]",
+      "Name": "Frostwhelp's Aid",
       "Descriptions": [
         {
           "Hash": 959701344,
           "Id": "377226",
           "Spec": "Frost",
-          "Text": "[Морозний стовп] викликає морозне дитинча, якє дихає на всіх ворогів у радіусі {1} метрів перед вами, завдаючи {2} шкоди від льоду. Кожен унікальний ворог, якого вразить [Допомога морозного дитинча], дає вам {3}% майстерності на {4} секунд, максимум до {5}%."
+          "Text": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Aid grants you {3}% Mastery for {4} sec, up to {5}%.\n"
         }
       ]
     },
     {
       "Hash": 1471416198,
-      "Name": "[Лють морозних зміїв]",
+      "Name": "Frostwyrm's Fury",
       "Descriptions": [
         {
           "Hash": 2014475674,
           "Id": "279302",
           "Spec": "Frost",
-          "Text": "Викликає морозного змія, який дихає на всіх ворогів у радіусі {1} метрів перед вами, завдаючи {2} шкоди від льоду та сповільнюючи швидкість руху на {3}% на {4} сек."
+          "Text": "Summons a frostwyrm who breathes on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
         }
       ]
     },
     {
       "Hash": 2658145342,
-      "Name": "[Наближення шторму]",
+      "Name": "Gathering Storm",
       "Descriptions": [
         {
           "Hash": 1817208295,
           "Id": "194912",
           "Spec": "Frost",
-          "Text": "Кожна руна, витрачена під час [Безжалісна зима], збільшує її шкоду на {1}% і подовжує її тривалість на {2} сек."
+          "Text": "Each Rune spent during Remorseless Winter increases its damage by {1}%, and extends its duration by {2} sec."
         }
       ]
     },
     {
       "Hash": 316498626,
-      "Name": "Безумство Гулів",
+      "Name": "Ghoulish Frenzy",
       "Descriptions": [
         {
           "Hash": 971302898,
@@ -1131,13 +1131,13 @@
     },
     {
       "Hash": 2225778369,
-      "Name": "[Наступ льоду]",
+      "Name": "Glacial Advance",
       "Descriptions": [
         {
           "Hash": 2448421511,
           "Id": "194913",
           "Spec": "Frost",
-          "Text": "Викликає льодовикові шипи з землі, які просуваються вперед, завдаючи {1} одиниць льодяної шкоди та застосовуючи [Ріжучий лід] до ворогів поблизу місця виверження."
+          "Text": "Summon glacial spikes from the ground that advance forward, each dealing {1} Frost damage and applying Razorice to enemies near their eruption point."
         }
       ]
     },
@@ -1149,7 +1149,7 @@
           "Hash": 4187628214,
           "Id": "391571",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Ефективність накладених на вас поглинань збільшена на {1}%"
+          "Text": "Absorbs are {1}% more effective on you. "
         }
       ]
     },
@@ -1167,19 +1167,19 @@
     },
     {
       "Hash": 3269477543,
-      "Name": "Мертвий хват",
+      "Name": "Grip of the Dead",
       "Descriptions": [
         {
           "Hash": 2882184001,
           "Id": "273952",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "[Смерть та розпад] зменшує швидкість руху ворогів в зоні дії на {1}%, спадаючи по {2} кожної секунди"
+          "Text": "Death and Decay reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec."
         }
       ]
     },
     {
       "Hash": 2351520019,
-      "Name": "Вісник Пекла",
+      "Name": "Harbinger of Doom",
       "Descriptions": [
         {
           "Hash": 1427478,
@@ -1191,7 +1191,7 @@
     },
     {
       "Hash": 4190131628,
-      "Name": "Удар Серця",
+      "Name": "Heart Strike",
       "Descriptions": [
         {
           "Hash": 2386668297,
@@ -1203,7 +1203,7 @@
     },
     {
       "Hash": 1247233030,
-      "Name": "Серцеїд",
+      "Name": "Heartbreaker",
       "Descriptions": [
         {
           "Hash": 1016082547,
@@ -1227,7 +1227,7 @@
     },
     {
       "Hash": 2715307519,
-      "Name": "Гемостаз",
+      "Name": "Hemostasis",
       "Descriptions": [
         {
           "Hash": 539978468,
@@ -1239,79 +1239,79 @@
     },
     {
       "Hash": 1565455079,
-      "Name": "[Горн Зими]",
+      "Name": "Horn of Winter",
       "Descriptions": [
         {
           "Hash": 731155833,
           "Id": "57330",
           "Spec": "Frost",
-          "Text": "Ви сурмите у горнг зими, отримуючи {1} руни та генеруючи {2} рунічної сили."
+          "Text": "Blow the Horn of Winter, gaining {1} Runes and generating {2} Runic Power."
         }
       ]
     },
     {
       "Hash": 4103907525,
-      "Name": "[Виючий вітер/Виючий порив вітру]",
+      "Name": "Howling Blast",
       "Descriptions": [
         {
           "Hash": 4112783186,
           "Id": "49184",
           "Spec": "Frost",
-          "Text": "Влучте в ціль холодним вітром, завдаючи {1} одиниць шкоди від льоду цьому ворогу та зменшену шкоду всім інших ворогам у радіусі {2} метрів, заражаючи всі цілі [Морозна лихоманка].\n\n[Морозна лихоманка]\nХвороба, яка завдає {1} льодяної шкоди протягом {2} сек і має шанс надати Лицарю смерті {3} рунічної сили щоразу, коли він завдає шкоди."
+          "Text": "Blast the target with a frigid wind, dealing {1} Frost damage to that foe, and reduced damage to all other enemies within {2} yards, infecting all targets with Frost Fever.\n\n|Tinterface\\icons\\spell_deathknight_frostfever.blp:24|t {FFFFFFFF|Frost Fever}\nA disease that deals {3} Frost damage over {4} sec and has a chance to grant the Death Knight {5} Runic Power each time it deals damage."
         }
       ]
     },
     {
       "Hash": 3503421106,
-      "Name": "стійкість льоду",
+      "Name": "Icebound Fortitude",
       "Descriptions": [
         {
           "Hash": 1424518251,
           "Id": "48792",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Ваша кров замерзає, даючи імунітет до ефектів приголомшення та зменшуючи отримувану шкоду на {1}% протягом {2}с."
+          "Text": "Your blood freezes, granting immunity to Stun effects and reducing all damage you take by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 1600132021,
-      "Name": "[Криголам]",
+      "Name": "Icebreaker",
       "Descriptions": [
         {
           "Hash": 583435629,
           "Id": "392950",
           "Spec": "Frost",
-          "Text": "При посиленні [Іній], [Виючий вітер] завдає на {1}% більшої шкоди вашій основній цілі."
+          "Text": "When empowered by Rime, Howling Blast deals {1}% increased damage to your primary target."
         }
       ]
     },
     {
       "Hash": 1431706106,
-      "Name": "[Крижаний покрив]",
+      "Name": "Icecap",
       "Descriptions": [
         {
           "Hash": 2208713040,
           "Id": "207126",
           "Spec": "Frost",
-          "Text": "Ваші критичні удари вміннями [Крижаний удар] і [Знищення] зменшують час відновлення [Крижаний стовп] на {1} сек."
+          "Text": "Your Frost Strike and Obliterate critical strikes reduce the remaining cooldown of Pillar of Frost by {1} sec."
         }
       ]
     },
     {
       "Hash": 1015161552,
-      "Name": "Пазурі льоду",
+      "Name": "Icy Talons",
       "Descriptions": [
         {
           "Hash": 1188382207,
           "Id": "194878",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Здібності що витрачають рунічну силу збільшують швидкість атаки на {1}% протягом {2}c. Ефект накопичується до {3} разів."
+          "Text": "Your Runic Power spending abilities increase your melee attack speed by {1}% for {2} sec, stacking up to {3} times."
         }
       ]
     },
     {
       "Hash": 3585565748,
-      "Name": "Покращений Кістяний Щит",
+      "Name": "Improved Bone Shield",
       "Descriptions": [
         {
           "Hash": 2994939230,
@@ -1323,7 +1323,7 @@
     },
     {
       "Hash": 2282636973,
-      "Name": "Покращене Смертельне Обмотування",
+      "Name": "Improved Death Coil",
       "Descriptions": [
         {
           "Hash": 229700453,
@@ -1335,13 +1335,13 @@
     },
     {
       "Hash": 3887199022,
-      "Name": "Покращений удар смерті",
+      "Name": "Improved Death Strike",
       "Descriptions": [
         {
           "Hash": 402956957,
           "Id": "374277",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Витрата рунічної сили на [Удар смерті] зменшена на {1}, а його зцілення збільшено на {2}%."
+          "Text": "Death Strike's cost is reduced by {1}, and its healing is increased by {2}%."
         }
       ]
     },
@@ -1359,19 +1359,19 @@
     },
     {
       "Hash": 1867921780,
-      "Name": "[Покращений крижаний удар]",
+      "Name": "Improved Frost Strike",
       "Descriptions": [
         {
           "Hash": 580070822,
           "Id": "316803",
           "Spec": "Frost",
-          "Text": "Збільшує шкоду від [Морозний удар] на {1}%."
+          "Text": "Increases Frost Strike damage by {1}%."
         }
       ]
     },
     {
       "Hash": 316595751,
-      "Name": "Покращений Серцевий Удар",
+      "Name": "Improved Heart Strike",
       "Descriptions": [
         {
           "Hash": 2648445563,
@@ -1383,31 +1383,31 @@
     },
     {
       "Hash": 3041590744,
-      "Name": "[Покращене Знищення]",
+      "Name": "Improved Obliterate",
       "Descriptions": [
         {
           "Hash": 2214960636,
           "Id": "317198",
           "Spec": "Frost",
-          "Text": "Збільшує шкоду від [Стерти/Знищіти] на {1}%."
+          "Text": "Increases Obliterate damage by {1}%."
         }
       ]
     },
     {
       "Hash": 1954929927,
-      "Name": "[Покращенний іній]",
+      "Name": "Improved Rime",
       "Descriptions": [
         {
           "Hash": 2844271601,
           "Id": "316838",
           "Spec": "Frost",
-          "Text": "Додатково збільшує завдану шкоду від [Виючий вітер] ще на {1}%."
+          "Text": "Increases Howling Blast damage done by an additional {1}%."
         }
       ]
     },
     {
       "Hash": 2133668292,
-      "Name": "Покращена Вампірська Кров",
+      "Name": "Improved Vampiric Blood",
       "Descriptions": [
         {
           "Hash": 3833421518,
@@ -1419,19 +1419,19 @@
     },
     {
       "Hash": 3720542108,
-      "Name": "[Невблаганний штурм]",
+      "Name": "Inexorable Assault",
       "Descriptions": [
         {
           "Hash": 3770765711,
           "Id": "253593",
           "Spec": "Frost",
-          "Text": "Ви отримуєте [Невблаганний штурм] кожні {1} сек, накопичуючись до {2} разів.\n\n[Знищення] споживає ефект, щоб завдати додатково {3} шкоди від льоду."
+          "Text": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\n\nObliterate consumes a stack to deal an additional {3} Frost damage."
         }
       ]
     },
     {
       "Hash": 2269211709,
-      "Name": "Заражені Пазурі",
+      "Name": "Infected Claws",
       "Descriptions": [
         {
           "Hash": 72288327,
@@ -1443,7 +1443,7 @@
     },
     {
       "Hash": 1649138871,
-      "Name": "Ненаситний Клинок",
+      "Name": "Insatiable Blade",
       "Descriptions": [
         {
           "Hash": 2602342287,
@@ -1455,31 +1455,31 @@
     },
     {
       "Hash": 911859799,
-      "Name": "Підступність холоду",
+      "Name": "Insidious Chill",
       "Descriptions": [
         {
           "Hash": 3465155344,
           "Id": "391566",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Ваші автоатаки зменшують швидкість атаки цілі на {1}% протягом {2}с. ефект складається до {3} разів"
+          "Text": "Your auto-attacks reduce the target's auto-attack speed by {1}% for {2} sec, stacking up to {3} times."
         }
       ]
     },
     {
       "Hash": 908342811,
-      "Name": "[Підбадьорливий холод]",
+      "Name": "Invigorating Freeze",
       "Descriptions": [
         {
           "Hash": 342255541,
           "Id": "377092",
           "Spec": "Frost",
-          "Text": "Критичні удари [Морозна лихоманка] збільшують шанс отримати [Рунічна сила] на додаткові {1}%."
+          "Text": "Frost Fever critical strikes increase the chance to grant Runic Power by an additional {1}%."
         }
       ]
     },
     {
       "Hash": 2116281705,
-      "Name": "Залізне серце",
+      "Name": "Iron Heart",
       "Descriptions": [
         {
           "Hash": 3441992895,
@@ -1491,19 +1491,19 @@
     },
     {
       "Hash": 3423065097,
-      "Name": "[Машина вбивства/Машина для вбивтсва]",
+      "Name": "Killing Machine",
       "Descriptions": [
         {
           "Hash": 2306999606,
           "Id": "51128",
           "Spec": "Frost",
-          "Text": "Ваші автоматичні критичні атаки мають шанс зробити ваш наступний [Стирання/Знищення] критичним."
+          "Text": "Your auto attack critical strikes have a chance to make your next Obliterate deal Frost damage and critically strike."
         }
       ]
     },
     {
       "Hash": 2074820279,
-      "Name": "Останній Танок",
+      "Name": "Last Dance",
       "Descriptions": [
         {
           "Hash": 912207554,
@@ -1515,7 +1515,7 @@
     },
     {
       "Hash": 2020374856,
-      "Name": "Самозцілюючі Удари",
+      "Name": "Leeching Strike",
       "Descriptions": [
         {
           "Hash": 2693535172,
@@ -1539,7 +1539,7 @@
     },
     {
       "Hash": 2520885924,
-      "Name": "Життя і Смерть",
+      "Name": "Life and Death",
       "Descriptions": [
         {
           "Hash": 807926949,
@@ -1551,7 +1551,7 @@
     },
     {
       "Hash": 2193576184,
-      "Name": "Маг Мертвих",
+      "Name": "Magus of the Dead",
       "Descriptions": [
         {
           "Hash": 1219687168,
@@ -1563,19 +1563,19 @@
     },
     {
       "Hash": 772991323,
-      "Name": "Марш темряви",
+      "Name": "March of Darkness",
       "Descriptions": [
         {
           "Hash": 1994826044,
           "Id": "391546",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "[Наступ смерті] додатково збільшує швидкість переміщення на {1} протягом перших {2}c."
+          "Text": "Death's Advance grants an additional {1}% movement speed over the first {2} sec."
         }
       ]
     },
     {
       "Hash": 2586708014,
-      "Name": "Кривава Мітка",
+      "Name": "Mark of Blood",
       "Descriptions": [
         {
           "Hash": 884877257,
@@ -1599,7 +1599,7 @@
     },
     {
       "Hash": 4072368391,
-      "Name": "Майстерність: Кривавий Щит",
+      "Name": "Mastery: Blood Shield",
       "Descriptions": [
         {
           "Hash": 825313855,
@@ -1611,7 +1611,7 @@
     },
     {
       "Hash": 2338174211,
-      "Name": "Майстерність: Зловіщий Клинок",
+      "Name": "Mastery: Dreadblade",
       "Descriptions": [
         {
           "Hash": 702444085,
@@ -1623,7 +1623,7 @@
     },
     {
       "Hash": 4086840137,
-      "Name": "Майстерність: Крижане Серце",
+      "Name": "Mastery: Frozen Heart",
       "Descriptions": [
         {
           "Hash": 4009296584,
@@ -1635,25 +1635,25 @@
     },
     {
       "Hash": 3847353049,
-      "Name": "нещадні удари",
+      "Name": "Merciless Strikes",
       "Descriptions": [
         {
           "Hash": 673153164,
           "Id": "373923",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Шанс критичного удару збільшений на {1}%"
+          "Text": "Increases Critical Strike chance by {1}%."
         }
       ]
     },
     {
       "Hash": 1380266461,
-      "Name": "Міць Тасаріана",
+      "Name": "Might of Thassarian",
       "Descriptions": [
         {
           "Hash": 2581839669,
           "Id": "374111",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Сила збільшена на {1}%"
+          "Text": "Increases Strength by {1}%."
         }
       ]
     },
@@ -1671,19 +1671,19 @@
     },
     {
       "Hash": 2422003974,
-      "Name": "Замороження розуму",
+      "Name": "Mind Freeze",
       "Descriptions": [
         {
           "Hash": 178230569,
           "Id": "47528",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Атакує розум ворога холодом, перериваючи чаклування та запобігаючи використаня магії тієї ж школи протягом 3с."
+          "Text": "Smash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
         }
       ]
     },
     {
       "Hash": 3549224845,
-      "Name": "Хворобливість",
+      "Name": "Morbidity",
       "Descriptions": [
         {
           "Hash": 1775348036,
@@ -1695,19 +1695,19 @@
     },
     {
       "Hash": 803837630,
-      "Name": "[Вбивча ефективність]",
+      "Name": "Murderous Efficiency",
       "Descriptions": [
         {
           "Hash": 2703727678,
           "Id": "207061",
           "Spec": "Frost",
-          "Text": "Використання ефекту [Машина вбивства/Машина для вбивтсва] має {1}% шансів отримати {2} руну"
+          "Text": "Consuming the Killing Machine effect has a {1}% chance to grant you {2} Rune."
         }
       ]
     },
     {
       "Hash": 274646443,
-      "Name": "Намір на Вбивство",
+      "Name": "Murderous Intent",
       "Descriptions": [
         {
           "Hash": 3750311347,
@@ -1719,7 +1719,7 @@
     },
     {
       "Hash": 3168592751,
-      "Name": "Угода Некроманта",
+      "Name": "Necromancer's Bargain",
       "Descriptions": [
         {
           "Hash": 1026329085,
@@ -1731,7 +1731,7 @@
     },
     {
       "Hash": 2582544572,
-      "Name": "Некротична Аура",
+      "Name": "Necrotic Aura",
       "Descriptions": [
         {
           "Hash": 2460624149,
@@ -1743,7 +1743,7 @@
     },
     {
       "Hash": 2048677991,
-      "Name": "Некротичні Рани",
+      "Name": "Necrotic Wounds",
       "Descriptions": [
         {
           "Hash": 947134522,
@@ -1755,31 +1755,31 @@
     },
     {
       "Hash": 2620159330,
-      "Name": "[Знищення]",
+      "Name": "Obliterate",
       "Descriptions": [
         {
           "Hash": 3650979722,
           "Id": "49020",
           "Spec": "Frost",
-          "Text": "Жорстока атака, що завдає {1} фізичної шкоди."
+          "Text": "A brutal attack that deals {1} Physical damage."
         }
       ]
     },
     {
       "Hash": 899195388,
-      "Name": "[Винищення]",
+      "Name": "Obliteration",
       "Descriptions": [
         {
           "Hash": 3033478846,
           "Id": "281238",
           "Spec": "Frost",
-          "Text": "Поки [Крижаний стовп] активний, [Крижаний удар] і [Виючий вітер] завжди дають [Машина вбивства/Машина для вбивтсва] та мають {1}% шанс створити руну."
+          "Text": "While Pillar of Frost is active, Frost Strike and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
         }
       ]
     },
     {
       "Hash": 931333709,
-      "Name": "На Блідому Коні",
+      "Name": "On a Pale Horse",
       "Descriptions": [
         {
           "Hash": 2781615135,
@@ -1791,7 +1791,7 @@
     },
     {
       "Hash": 1622573197,
-      "Name": "Оссуарій",
+      "Name": "Ossuary",
       "Descriptions": [
         {
           "Hash": 2086721497,
@@ -1815,7 +1815,7 @@
     },
     {
       "Hash": 1946596518,
-      "Name": "Крижаний Шлях",
+      "Name": "Path of Frost",
       "Descriptions": [
         {
           "Hash": 3948842486,
@@ -1827,13 +1827,13 @@
     },
     {
       "Hash": 876659881,
-      "Name": "Вічна мерзлота",
+      "Name": "Permafrost",
       "Descriptions": [
         {
           "Hash": 647963378,
           "Id": "207200",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Шкода від ваших автоатак надає вам поглинаючий щит в розмірі {1}% від завданої шкоди."
+          "Text": "Your auto attack damage grants you an absorb shield equal to {1}% of the damage dealt."
         }
       ]
     },
@@ -1851,7 +1851,7 @@
     },
     {
       "Hash": 1398160041,
-      "Name": "Мор",
+      "Name": "Pestilence",
       "Descriptions": [
         {
           "Hash": 3588845411,
@@ -1863,31 +1863,31 @@
     },
     {
       "Hash": 1402070957,
-      "Name": "[Пронизливий холод]",
+      "Name": "Piercing Chill",
       "Descriptions": [
         {
           "Hash": 1527743280,
           "Id": "377351",
           "Spec": "Frost",
-          "Text": "Вороги отримують на {1}% збільшену шкоду від [Холодний потік] щоразу коли він їх вражає."
+          "Text": "Enemies suffer {1}% increased damage from Chill Streak each time they are struck by it."
         }
       ]
     },
     {
       "Hash": 998200185,
-      "Name": "[Крижаний стовп]",
+      "Name": "Pillar of Frost",
       "Descriptions": [
         {
           "Hash": 233868066,
           "Id": "51271",
           "Spec": "Frost",
-          "Text": "Сила морозу збільшує вашу силу на {1}% на {2} сек.\n\nКожна руна, використана під час дії цього ефекту, збільшує вашу силу додатково на {3}%."
+          "Text": "The power of frost increases your Strength by {1}% for {2} sec.\n\nEach Rune spent while active increases your Strength by an additional {3}%."
         }
       ]
     },
     {
       "Hash": 3453547906,
-      "Name": "Чумний Вісник",
+      "Name": "Plaguebringer",
       "Descriptions": [
         {
           "Hash": 1361763512,
@@ -1899,19 +1899,19 @@
     },
     {
       "Hash": 3968863048,
-      "Name": "Поширення холоду",
+      "Name": "Proliferating Chill",
       "Descriptions": [
         {
           "Hash": 1337631918,
           "Id": "373930",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "[Окови льоду] діють на {1} додаткову ціль поруч."
+          "Text": "Chains of Ice affects {1} additional nearby enemy."
         }
       ]
     },
     {
       "Hash": 1021986338,
-      "Name": "Чистилище",
+      "Name": "Purgatory",
       "Descriptions": [
         {
           "Hash": 296673069,
@@ -1923,19 +1923,19 @@
     },
     {
       "Hash": 2589358021,
-      "Name": "[Гнів морозного чемпіона]",
+      "Name": "Rage of the Frozen Champion",
       "Descriptions": [
         {
           "Hash": 2891974362,
           "Id": "377076",
           "Spec": "Frost",
-          "Text": "[Стерти/Знищіти] має на {1}% більше шансів активувати [Іней], а [Виючий вітер/Виючий порив вітру] генерує {2} рунічної сили, поки активний [Іней]."
+          "Text": "Obliterate has a {1}% increased chance to trigger Rime and Howling Blast generates {2} Runic Power while Rime is active."
         }
       ]
     },
     {
       "Hash": 2050705916,
-      "Name": "Воскресити Поганище",
+      "Name": "Raise Abomination",
       "Descriptions": [
         {
           "Hash": 2721272058,
@@ -1947,7 +1947,7 @@
     },
     {
       "Hash": 687350079,
-      "Name": "Воскресити Союзника",
+      "Name": "Raise Ally",
       "Descriptions": [
         {
           "Hash": 914363486,
@@ -1959,7 +1959,7 @@
     },
     {
       "Hash": 698927453,
-      "Name": "Воскресіння мертвих",
+      "Name": "Raise Dead",
       "Descriptions": [
         {
           "Hash": 672858068,
@@ -1971,7 +1971,7 @@
           "Hash": 3509684662,
           "Id": "46584, 46585",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Воскрешає упиря що битиметься разом з вами в бою. Триває {1} секунд. Ви можете мати тільки одного упиря в один момент часу."
+          "Text": "Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time.  Lasts {1} sec."
         }
       ]
     },
@@ -1989,7 +1989,7 @@
     },
     {
       "Hash": 365229349,
-      "Name": "Реанімація",
+      "Name": "Reanimation",
       "Descriptions": [
         {
           "Hash": 3383564749,
@@ -2001,7 +2001,7 @@
     },
     {
       "Hash": 973390478,
-      "Name": "Жнива",
+      "Name": "Reaping",
       "Descriptions": [
         {
           "Hash": 1439637835,
@@ -2025,7 +2025,7 @@
     },
     {
       "Hash": 2650611628,
-      "Name": "Броньовані Кістки",
+      "Name": "Reinforced Bones",
       "Descriptions": [
         {
           "Hash": 346764137,
@@ -2037,7 +2037,7 @@
     },
     {
       "Hash": 2733562535,
-      "Name": "Криваве Задоволення",
+      "Name": "Relish in Blood",
       "Descriptions": [
         {
           "Hash": 3910422987,
@@ -2073,13 +2073,13 @@
     },
     {
       "Hash": 3859277929,
-      "Name": "[Іній]",
+      "Name": "Rime",
       "Descriptions": [
         {
           "Hash": 4039215261,
           "Id": "59057",
           "Spec": "Frost",
-          "Text": "[Стерти/Знищіти] має {1}% шансу змусити ваш наступний [Виючий вітер] не споживати руни та завдати {2}% додаткової шкоди."
+          "Text": "Obliterate has a {1}% chance to cause your next Howling Blast to consume no runes and deal {2}% additional damage."
         }
       ]
     },
@@ -2109,13 +2109,13 @@
     },
     {
       "Hash": 641308127,
-      "Name": "[Рунічна майстерність]",
+      "Name": "Rune Mastery",
       "Descriptions": [
         {
           "Hash": 1804408657,
           "Id": "374574",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Використання руни має шанс збільшити вашу силу на {1}% протягом {2}с."
+          "Text": "Consuming a Rune has a chance to increase your Strength by {1}% for {2} sec."
         }
       ]
     },
@@ -2145,25 +2145,25 @@
     },
     {
       "Hash": 3617769545,
-      "Name": "Ослаблення рун",
+      "Name": "Runic Attenuation",
       "Descriptions": [
         {
           "Hash": 3609354934,
           "Id": "207104",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "У ваших автоатак є шанс генерувати {5} рунічної сили"
+          "Text": "Auto attacks have a chance to generate {1} Runic Power."
         }
       ]
     },
     {
       "Hash": 2611389514,
-      "Name": "[Рунічна команда]",
+      "Name": "Runic Command",
       "Descriptions": [
         {
           "Hash": 3534205572,
           "Id": "376251",
           "Spec": "Frost",
-          "Text": "Збільшує вашу максимальну силу рун на {1}."
+          "Text": "Increases your maximum Runic Power by {1}."
         }
       ]
     },
@@ -2181,7 +2181,7 @@
     },
     {
       "Hash": 985159663,
-      "Name": "Рунічне Покращення",
+      "Name": "Runic Empowerment",
       "Descriptions": [
         {
           "Hash": 4080020928,
@@ -2193,7 +2193,7 @@
     },
     {
       "Hash": 523096678,
-      "Name": "Рунічна Майстерність",
+      "Name": "Runic Mastery",
       "Descriptions": [
         {
           "Hash": 3345527065,
@@ -2217,13 +2217,13 @@
     },
     {
       "Hash": 2665004787,
-      "Name": "Жертовний пакт",
+      "Name": "Sacrificial Pact",
       "Descriptions": [
         {
           "Hash": 954273727,
           "Id": "327574",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Жертвує вашим упирем щоб завдати {1} тіньової шкоди сусіднім ворогам та зцілитись на {2}% від максимального здоров'я. Завдає зменшеної шкоди цілям після {3}."
+          "Text": "Sacrifice your ghoul to deal {1} Shadow damage to all nearby enemies and heal for {2}% of your maximum health. Deals reduced damage beyond {3} targets."
         }
       ]
     },
@@ -2241,7 +2241,7 @@
     },
     {
       "Hash": 4115751982,
-      "Name": "Удар Скари",
+      "Name": "Scourge Strike",
       "Descriptions": [
         {
           "Hash": 2984266516,
@@ -2253,13 +2253,13 @@
     },
     {
       "Hash": 496871559,
-      "Name": "[Руйнівний клинок]",
+      "Name": "Shattering Blade",
       "Descriptions": [
         {
           "Hash": 1021436140,
           "Id": "207057",
           "Spec": "Frost",
-          "Text": "Коли[Крижаний удар] накопишує на ворозі {1} стаків [Ріжучий лід], він споживає їх, завдаючи додаткової {2}% шкоди."
+          "Text": "When Frost Strike damages an enemy with {1} stacks of Razorice it will consume them to deal an additional {2}% damage."
         }
       ]
     },
@@ -2277,7 +2277,7 @@
     },
     {
       "Hash": 29427476,
-      "Name": "Зимній Саван",
+      "Name": "Shroud of Winter",
       "Descriptions": [
         {
           "Hash": 3412002103,
@@ -2289,13 +2289,13 @@
     },
     {
       "Hash": 2110997099,
-      "Name": "Жнець душ",
+      "Name": "Soul Reaper",
       "Descriptions": [
         {
           "Hash": 2331745449,
           "Id": "343294",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Завдає удару на {1} тіне-льодової шкоди й уражає Жнецем Душ.\nЯкщо після {2}с у цілі менше {3}% здоров'я - цей ефект вибухне і нанесе {4} додаткової шкоди цілі."
+          "Text": "Strike an enemy for {1} Shadowfrost damage and afflict the enemy with Soul Reaper. \n\nAfter {2} sec, if the target is below {3}% health this effect will explode dealing an additional {4} Shadowfrost damage to the target. If the enemy that yields experience or honor dies while afflicted by Soul Reaper, gain Runic Corruption."
         }
       ]
     },
@@ -2325,7 +2325,7 @@
     },
     {
       "Hash": 2513583237,
-      "Name": "Раптове Пекло",
+      "Name": "Sudden Doom",
       "Descriptions": [
         {
           "Hash": 1789831824,
@@ -2337,7 +2337,7 @@
     },
     {
       "Hash": 3365029302,
-      "Name": "Викликати Гаргулью",
+      "Name": "Summon Gargoyle",
       "Descriptions": [
         {
           "Hash": 4275391826,
@@ -2361,19 +2361,19 @@
     },
     {
       "Hash": 4055920792,
-      "Name": "Подавлення",
+      "Name": "Suppression",
       "Descriptions": [
         {
           "Hash": 3109115165,
           "Id": "374049",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Шкода отримувана атаками з дією по області зменшена на {1}%"
+          "Text": "Damage taken from area of effect attacks reduced by {1}%."
         }
       ]
     },
     {
       "Hash": 2195243893,
-      "Name": "Жорстка Хватка",
+      "Name": "Tightening Grasp",
       "Descriptions": [
         {
           "Hash": 345290964,
@@ -2385,7 +2385,7 @@
     },
     {
       "Hash": 4199484656,
-      "Name": "Надгробок",
+      "Name": "Tombstone",
       "Descriptions": [
         {
           "Hash": 1950310239,
@@ -2409,7 +2409,7 @@
     },
     {
       "Hash": 2645702466,
-      "Name": "Нечестивий штурм",
+      "Name": "Unholy Assault",
       "Descriptions": [
         {
           "Hash": 600558272,
@@ -2421,7 +2421,7 @@
     },
     {
       "Hash": 1514510201,
-      "Name": "Нечестива Аура",
+      "Name": "Unholy Aura",
       "Descriptions": [
         {
           "Hash": 2819105796,
@@ -2445,13 +2445,13 @@
     },
     {
       "Hash": 1809967160,
-      "Name": "Нечестивий звязок",
+      "Name": "Unholy Bond",
       "Descriptions": [
         {
           "Hash": 462606640,
           "Id": "374261",
           "Spec": "Unholy",
-          "Text": "Підвищує ефективність рунокованих ефектів на {1}%"
+          "Text": "Increases the effectiveness of your Runeforge effects by {1}%."
         }
       ]
     },
@@ -2469,31 +2469,31 @@
     },
     {
       "Hash": 3667094884,
-      "Name": "Нечестива тривкість",
+      "Name": "Unholy Endurance",
       "Descriptions": [
         {
           "Hash": 454960526,
           "Id": "389682",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Збільшує тривалість [Переродження] на {1}c та зменшує отримувану шкоду під дією цього ефекту на {2}%"
+          "Text": "Increases Lichborne duration by {1} sec and while active damage taken is reduced by {2}%."
         }
       ]
     },
     {
       "Hash": 1399344560,
-      "Name": "Осквернена земля",
+      "Name": "Unholy Ground",
       "Descriptions": [
         {
           "Hash": 1001490695,
           "Id": "374265",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Ви отримуєте {1}% швидкості коли перебуваєте в області дії [Смерть та розпад]"
+          "Text": "Gain {1}% Haste while you remain within your Death and Decay."
         }
       ]
     },
     {
       "Hash": 2248089479,
-      "Name": "Нечестивий Пакт",
+      "Name": "Unholy Pact",
       "Descriptions": [
         {
           "Hash": 3967506870,
@@ -2505,19 +2505,19 @@
     },
     {
       "Hash": 31405638,
-      "Name": "[Вивільнене божевілля/Вивільнення безумства]",
+      "Name": "Unleashed Frenzy",
       "Descriptions": [
         {
           "Hash": 2481923900,
           "Id": "376905",
           "Spec": "Frost",
-          "Text": "Атака яка витрачає Рунічну Силу також збільшується параметр сили на {1}% на {2} секунд, сумується до {3} разів."
+          "Text": "Damaging an enemy with a Runic Power ability increases your Strength by {1}% for {2} sec, stacks up to {3} times."
         }
       ]
     },
     {
       "Hash": 3100689117,
-      "Name": "Вампірська кров",
+      "Name": "Vampiric Blood",
       "Descriptions": [
         {
           "Hash": 1927548881,
@@ -2529,19 +2529,19 @@
     },
     {
       "Hash": 2668547357,
-      "Name": "Ветеран третьої війни",
+      "Name": "Veteran of the Third War",
       "Descriptions": [
         {
           "Hash": 1023240961,
           "Id": "48263",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Витривалість збільшена на {1}%"
+          "Text": "Stamina increased by {1}%.\n"
         }
       ]
     },
     {
       "Hash": 1664247772,
-      "Name": "Мерзенна Зараза",
+      "Name": "Vile Contagion",
       "Descriptions": [
         {
           "Hash": 3546834751,
@@ -2553,7 +2553,7 @@
     },
     {
       "Hash": 3862231414,
-      "Name": "Ненаситний",
+      "Name": "Voracious",
       "Descriptions": [
         {
           "Hash": 1395758934,
@@ -2565,7 +2565,7 @@
     },
     {
       "Hash": 2998616856,
-      "Name": "Ходячі Мерці",
+      "Name": "Walking Dead",
       "Descriptions": [
         {
           "Hash": 371815973,
@@ -2577,25 +2577,25 @@
     },
     {
       "Hash": 1587739468,
-      "Name": "Воля некрополісу",
+      "Name": "Will of the Necropolis",
       "Descriptions": [
         {
           "Hash": 1094542641,
           "Id": "206967",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Шкода отримувана нижче {1}% здоров'я зменшена на {2}%"
+          "Text": "Damage taken below {1}% Health is reduced by {2}%."
         }
       ]
     },
     {
       "Hash": 3843393438,
-      "Name": "Примарна хода",
+      "Name": "Wraith Walk",
       "Descriptions": [
         {
           "Hash": 1244359277,
           "Id": "212552",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Поринає в силу Тінеземлей, знімаючи ефекти укорінення та збільшуючи швидкість переміщення на {1}% протягом {2}c. Виконання інших дій відміняє ефект.\nПоки ефект активний ваша швидкість переміщення не може бути зменшена нижче {3}%."
+          "Text": "Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by {1}% for {2} sec. Taking any action cancels the effect.\n\nWhile active, your movement speed cannot be reduced below {3}%."
         }
       ]
     }

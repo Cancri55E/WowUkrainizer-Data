@@ -3,1015 +3,1015 @@
   "Spells": [
     {
       "Hash": 3241660526,
-      "Name": "Кислотний дощ",
+      "Name": "Acid Rain",
       "Descriptions": [
         {
           "Hash": 739202321,
           "Id": "378443",
           "Spec": "Restoration",
-          "Text": "Завдає {1} шкоди від Природи кожні {2} секунди до {3} ворогів в середині вашого Цілющого дощу."
+          "Text": "Deal {1} Nature damage every {2} sec to up to {3} enemies inside of your Healing Rain."
         }
       ]
     },
     {
       "Hash": 3515080371,
-      "Name": "Повторний поштовх",
+      "Name": "Aftershock",
       "Descriptions": [
         {
           "Hash": 154814384,
           "Id": "273221",
           "Spec": "Elemental",
-          "Text": "[Земний шок], [Вибух стихій] та [Землетрус мають] {1}% шанс відновити витрачений Вир стихій."
+          "Text": "Earth Shock, Elemental Blast, and Earthquake have a {1}% chance to refund all Maelstrom spent."
         }
       ]
     },
     {
       "Hash": 3818047004,
-      "Name": "Альфа",
+      "Name": "Alpha Wolf",
       "Descriptions": [
         {
           "Hash": 93062317,
           "Id": "198434",
           "Spec": "Enhancement",
-          "Text": "Доки [Дух дикого вовка] активні, [Ланцюгова блискавка] та [Руйнівна блискавка] підсилює ваших вовків {2} сек., в результаті чого їх атаки чинять шкоду всім найближчим ворогам {1} раз в {3} сек."
+          "Text": "While Feral Spirits are active, Chain Lightning and Crash Lightning causes your wolves to attack all nearby enemies for {1} Physical damage every {2} sec for the next {3} sec."
         }
       ]
     },
     {
       "Hash": 549759687,
-      "Name": "Пробудження предків",
+      "Name": "Ancestral Awakening",
       "Descriptions": [
         {
           "Hash": 1004181547,
           "Id": "382309",
           "Spec": "Restoration",
-          "Text": "Критичні ефекти ваших заклинань Зцілююча хвиля, Зцілюючий сплеск чи Бистрина можуть викликати Духа пращурів вам на допомогу, який миттєво відновлює дружню ціль групи або рейду з найменшою кількістю здоров'я в радіусі {1} м у розмірі {2}% від критичного ефекту."
+          "Text": "When you critically heal with your Healing Wave, Healing Surge, or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within {1} yards for {2}% of the amount healed."
         }
       ]
     },
     {
       "Hash": 3896083720,
-      "Name": "Захист пращурів",
+      "Name": "Ancestral Defense",
       "Descriptions": [
         {
           "Hash": 4148736244,
           "Id": "382947",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Збільшує самозцілення на {1}% та зменшує шкоду від атак по області на {2}%."
+          "Text": "Increases Leech by {1}% and reduces damage taken from area-of-effect attacks by {2}%."
         }
       ]
     },
     {
       "Hash": 4005908843,
-      "Name": "Настанови пращурів",
+      "Name": "Ancestral Guidance",
       "Descriptions": [
         {
           "Hash": 3342396288,
           "Id": "108281",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Протягом наступних {1} секунд, {2}% наданої вами шкоди або зцілення відновлюють здоров'я максимум {3} найближчим пораненим членам групи або рейду."
+          "Text": "For the next {1} sec, {2}% of your damage and healing is converted to healing on up to {3} nearby injured party or raid members."
         }
       ]
     },
     {
       "Hash": 574945519,
-      "Name": "Тотем захисту Предків",
+      "Name": "Ancestral Protection Totem",
       "Descriptions": [
         {
           "Hash": 888949136,
           "Id": "207399",
           "Spec": "Restoration",
-          "Text": "Викликає тотем у вказаному місці на 30 сек. Здоровʼя всіх союзників в радіусі 20 метрів підвищується на 10%. Якщо хтось з союзників вмирає, тотем зникає, даючи можливість небіжчику переродитись з 20% здоровʼя та мани.\n\nНе перероджує тих, хто помер від миттєвої великої шкоди."
+          "Text": "Summons a totem at the target location for {1} sec. All allies within {2} yards of the totem gain {3}% increased health. If an ally dies, the totem will be consumed to allow them to Reincarnate with {4}% health and mana.\n\nCannot reincarnate an ally who dies to massive damage."
         }
       ]
     },
     {
       "Hash": 107775171,
-      "Name": "Дар Предків",
+      "Name": "Ancestral Reach",
       "Descriptions": [
         {
           "Hash": 3134989599,
           "Id": "382732",
           "Spec": "Restoration",
-          "Text": "Ланцюгове Зцілення перестрибує на одну додаткову ціль та зцілює на {1}% більше."
+          "Text": "Chain Heal bounces an additional time and its healing is increased by {1}%."
         }
       ]
     },
     {
       "Hash": 1249714757,
-      "Name": "Дух пращурів",
+      "Name": "Ancestral Spirit",
       "Descriptions": [
         {
           "Hash": 1687996261,
           "Id": "2008",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Закликаючи душу до тіла, повертає загиблого до життя з {1}% максимального здоров'я та мани. Не може бути застосовано в бою."
+          "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Cannot be cast when in combat."
         }
       ]
     },
     {
       "Hash": 2580770894,
-      "Name": "Сила Предків",
+      "Name": "Ancestral Vigor",
       "Descriptions": [
         {
           "Hash": 77053532,
           "Id": "207401",
           "Spec": "Restoration",
-          "Text": "Коли ваші заклинання Зцілююча хвиля, Зцілюючий сплеск, Ланцюгове зцілення чи Бистрина відновлюють здоров'я цілі, її максимальний запас здоров'я збільшується на {1}% протягом {2} сек."
+          "Text": "Targets you heal with Healing Wave, Healing Surge, Chain Heal, or Riptide's initial heal gain {1}% increased health for {2} sec."
         }
       ]
     },
     {
       "Hash": 2681347121,
-      "Name": "Бачення пращурів",
+      "Name": "Ancestral Vision",
       "Descriptions": [
         {
           "Hash": 2498035695,
           "Id": "212048",
           "Spec": "Restoration",
-          "Text": "Повертає до життя всіх мертвих членів команди з {1}% від максимального запасу здоров'я та мани. Не може бути використано під час бою."
+          "Text": "Returns all dead party members to life with {1}% of maximum health and mana.  Cannot be cast when in combat."
         }
       ]
     },
     {
       "Hash": 777421270,
-      "Name": "Кревність з вовком",
+      "Name": "Ancestral Wolf Affinity",
       "Descriptions": [
         {
           "Hash": 3098379573,
           "Id": "382197",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "[Очищення духу], [Подив вітру], [Позбавлення] та призов тотема більше не скасовують [Примару вовка]."
+          "Text": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf."
         }
       ]
     },
     {
       "Hash": 406892778,
-      "Name": "Переродження",
+      "Name": "Ascendance",
       "Descriptions": [
         {
           "Hash": 1140555234,
           "Id": "114052",
           "Spec": "Restoration",
-          "Text": "Ви перетворюєтесь на водного Переродженого, подвоюючи все ваше зцілення на {1} сек і миттєво зцілюючи на {2}. Зцілення Переродженого розподіляється рівномірно між усіма союзниками в радіусі {3} метрів."
+          "Text": "Transform into a Water Ascendant, duplicating all healing you deal for {1} sec and immediately healing for {2}. Ascendant healing is distributed evenly among allies within {3} yds."
         },
         {
           "Hash": 186472567,
           "Id": "114050",
           "Spec": "Elemental",
-          "Text": "Ви перетворюєтеся на переродженого служителя вогню на {1} sec. У цьому вигляді [Ланцюгова блискавка] стає [Потік лави], а [Вибух Лави] не має відновлення і завдає додаткової шкоди, що дорівнює ймовірності критичного удару.\n\nУ момент перетворення ви миттєво застосовуєте [Вибух Лави] до противників, уражених вашим Вогняним шоком, та оновлюєте час дії ефектів Вогняного шоку до {2} sec."
+          "Text": "Transform into a Flame Ascendant for {1} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\n\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {2} sec."
         },
         {
           "Hash": 1649278504,
           "Id": "114051",
           "Spec": "Enhancement",
-          "Text": "Ви перетворюєтеся на переродженого служителя повітря на {1} сек., миттєво завдаючи шкоди {2} від сил природи противникам у радіусі {3} м. Час відновлення та вартість Удару бурі скорочуються на {4}%, а автоатаки та Удар бурі стають атаками стихії вітру з дальністю дії {5} м, що ігнорують броню."
+          "Text": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range."
         }
       ]
     },
     {
       "Hash": 308768543,
-      "Name": "Попіловий каталізатор",
+      "Name": "Ashen Catalyst",
       "Descriptions": [
         {
           "Hash": 1735378673,
           "Id": "390370",
           "Spec": "Enhancement",
-          "Text": "Щоразу, коли Вогненний шок завдає періодичної шкоди, шкода від вашого наступного Скипання лави збільшується на {1}%, а час відновлення Скипання лави скорочується на {2} сек."
+          "Text": "Each time Flame Shock deals periodic damage, increase the damage of your next Lava Lash by {1}% and reduce the cooldown of Lava Lash by {2} sec."
         }
       ]
     },
     {
       "Hash": 3974889854,
-      "Name": "Астральний оплот",
+      "Name": "Astral Bulwark",
       "Descriptions": [
         {
           "Hash": 3139582331,
           "Id": "377933",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Астральний вигляд зменшує отриману шкоду ще на {1}%."
+          "Text": "Astral Shift reduces damage taken by an additional {1}%."
         }
       ]
     },
     {
       "Hash": 3896509917,
-      "Name": "Астральне Повернення",
+      "Name": "Astral Recall",
       "Descriptions": [
         {
           "Hash": 2819989507,
           "Id": "556",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Повертає вас через Круговерть пустоти в зону Штормовій. Поговоріть з власником корчми в іншому місці, щоб змінити вашу домашню зону."
+          "Text": "Yanks you through the twisting nether back to Stormwind City. Speak to an Innkeeper in a different place to change your home location."
         }
       ]
     },
     {
       "Hash": 3781843143,
-      "Name": "Астральний зсув",
+      "Name": "Astral Shift",
       "Descriptions": [
         {
           "Hash": 1336472861,
           "Id": "108271",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Ви частково зливаєтеся зі стихіями, отримана шкода зменшується на {1}% на {2} sec."
+          "Text": "Shift partially into the elemental planes, taking {1}% less damage for {2} sec."
         }
       ]
     },
     {
       "Hash": 4001418301,
-      "Name": "Переповнений життям",
+      "Name": "Brimming with Life",
       "Descriptions": [
         {
           "Hash": 4053971594,
           "Id": "381689",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Доки [Реінкарнація] не потребує відновлення, ваш максимальний запас здоров'я збільшується на {1}%. Коли у вас повний запас здоров'я, [Реінкарнація] відновлюється на {2}% швидше."
+          "Text": "While Reincarnation is off cooldown, your maximum health is increased by {1}%. While you are at full health, Reincarnation cools down {2}% faster.\n\n"
         }
       ]
     },
     {
       "Hash": 29810244,
-      "Name": "Поклик вогню",
+      "Name": "Call of Fire",
       "Descriptions": [
         {
           "Hash": 3776492708,
           "Id": "378255",
           "Spec": "Elemental",
-          "Text": "Збільшує шкоду, що завдається [Вогняний шок], [Вибух Лави], [Потік лави] та [Ементалем вогню] на {1}%."
+          "Text": "Increases the damage of your Flame Shock, Lava Burst, Lava Beam, and Fire Elemental by {1}%."
         }
       ]
     },
     {
       "Hash": 1255986007,
-      "Name": "Поклик елементів",
+      "Name": "Call of the Elements",
       "Descriptions": [
         {
           "Hash": 4107314084,
           "Id": "383011",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Зменшує час відновлення {ffffffff|Totemic Recall} на {1} сек."
+          "Text": "Reduces the cooldown of {ffffffff|Totemic Recall} by {1} sec."
         }
       ]
     },
     {
       "Hash": 2650698326,
-      "Name": "Поклик грому",
+      "Name": "Call of Thunder",
       "Descriptions": [
         {
           "Hash": 4001662989,
           "Id": "378241",
           "Spec": "Elemental",
-          "Text": "Збільшує шкоду від [Блискавка], [Ланцюгова блискавка] та [Елементаля бурі] на {1}%."
+          "Text": "Increases the damage of your Lightning Bolt, Chain Lightning, and Storm Elemental by {1}%."
         }
       ]
     },
     {
       "Hash": 1665421682,
-      "Name": "Тотем конденсації",
+      "Name": "Capacitor Totem",
       "Descriptions": [
         {
           "Hash": 983441105,
           "Id": "192058",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Призиває тотем на вказане місце, який збирає електричну енергію з навколишнього повітря і вибухає через {1} сек., оглушуючи всіх ворогів в радіусі {2} м на {3} сек."
+          "Text": "Summons a totem at the target location that gathers electrical energy from the surrounding air and explodes after {1} sec, stunning all enemies within {2} yards for {3} sec."
         }
       ]
     },
     {
       "Hash": 2787249273,
-      "Name": "Ланцюгове зцілення",
+      "Name": "Chain Heal",
       "Descriptions": [
         {
           "Hash": 2166490003,
           "Id": "1064",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Лікує союзного персонажа на {1} одиниць здоров'я, потім перескакує на {2} м, щоб вилікувати {3} найбільш поранених союзників, що знаходяться поруч. Кожним перескоком лікування зменшується на {4}%."
+          "Text": "Heals the friendly target for {1}, then jumps up to {2} yards to heal the {3} most injured nearby allies. Healing is reduced by {4}% with each jump."
         }
       ]
     },
     {
       "Hash": 3923603535,
-      "Name": "Ланцюгова блискавка",
+      "Name": "Chain Lightning",
       "Descriptions": [
         {
           "Hash": 365399001,
           "Id": "188443",
           "Spec": "Restoration",
-          "Text": "Кидає блискавку у ворога, завдаючи {1} природної шкоди, а потім перескакує на ворогів, які знаходяться поруч. Впливає на {2} цілей всього."
+          "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets."
         },
         {
           "Hash": 3462276661,
           "Id": "188443",
           "Spec": "Elemental",
-          "Text": "Кидає блискавку у ворога, завдаючи {1} природної шкоди, а потім перескакує на ворогів, які знаходяться поруч. Впливає на {2} цілей всього.\n\n{FFFFFFFF|Генерує {3} Виру стихій за кожну ціль.}"
+          "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\n\n{FFFFFFFF|Generates {3} Maelstrom per target hit.}"
         },
         {
           "Hash": 2094994230,
           "Id": "188443",
           "Spec": "Enhancement",
-          "Text": "Кидає блискавку в ворога, завдаючи {1} природного шкоди, а потім перескакує на додаткових ворогів, які знаходяться поруч. Впливає на {2} цілей всього.\n\nЯкщо [Ланцюгова блискавка] вражає більше {3} цілей, кожна ціль, яку він вражає, збільшує шкоду на {4}%, завдану наступним [Руйнівна блискавка].\n\nКожна ціль, в яку влучає [Ланцюгова блискавка], зменшує час відновлення [Руйнівна блискавка] на {5} сек."
+          "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\n\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\n\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec."
         }
       ]
     },
     {
       "Hash": 3757208043,
-      "Name": "Очищення духу",
+      "Name": "Cleanse Spirit",
       "Descriptions": [
         {
           "Hash": 959783433,
           "Id": "51886",
           "Spec": "Elemental, Enhancement",
-          "Text": "Знімає всі ефекти Прокляття з дружньої цілі."
+          "Text": "Removes all Curse effects from a friendly target."
         }
       ]
     },
     {
       "Hash": 2376174344,
-      "Name": "Очисні води",
+      "Name": "Cleansing Waters",
       "Descriptions": [
         {
           "Hash": 2394900105,
           "Id": "290250",
           "Spec": "Restoration",
-          "Text": "Збільшує ймовірність критичного ефекту заклинань Ланцюгове Зцілення та Цілющий дощ на {1}%. У разі критичного ефекту знімає з цілі всі негативні магічні ефекти."
+          "Text": "Your Chain Heal and Healing Rain spells have a {1}% increased chance to critically heal, and when they critically heal the target is dispelled of all harmful magical effects."
         }
       ]
     },
     {
       "Hash": 986831949,
-      "Name": "Тотем зливи",
+      "Name": "Cloudburst Totem",
       "Descriptions": [
         {
           "Hash": 714478310,
           "Id": "157153",
           "Spec": "Restoration",
-          "Text": "Викликає тотем біля вас на 15 секунд, який збирає всю силу ваших зцілюючих заклять. Коли тотем зникає, вся збережена сила вивільняється, зціюючи всіх поранених союзників в радіусі 40 метрів на 30% від всього зцілення, зробленого під час активності тотема, рівномірно розподіляючись між цілями.\n\nВикористання цього закляття вдруге перевикличе тотем і вивільнить залишкове зцілення."
+          "Text": "Summons a totem at your feet for {1} sec that collects power from all of your healing spells. When the totem expires or dies, the stored power is released, healing all injured allies within {2} yards for {3}% of all healing done while it was active, divided evenly among targets.\n\nCasting this spell a second time recalls the totem and releases the healing."
         }
       ]
     },
     {
       "Hash": 2865142319,
-      "Name": "Постійні хвилі",
+      "Name": "Continuous Waves",
       "Descriptions": [
         {
           "Hash": 3008043821,
           "Id": "382046",
           "Spec": "Restoration",
-          "Text": "Зменшує час відновлення Первинної хвилі на {1} сек."
+          "Text": "Reduces the cooldown of Primordial Wave by {1} sec."
         }
       ]
     },
     {
       "Hash": 1936436850,
-      "Name": "Контроль Лави",
+      "Name": "Control of Lava",
       "Descriptions": [
         {
           "Hash": 2671854790,
           "Id": "204393",
           "Spec": "Elemental",
-          "Text": "[Вогняний шок] чинить шкоду на {1}% частіше.\n\nУ разі розвіяння противником ефекту [Вогняний шок], під ним відбувається виверження яке наносить {2} шкоди від вогню та підкидує його у повітря."
+          "Text": "Flame Shock's damage occurs {1}% more often.\n\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {2} Fire damage and knocking them into the air."
         }
       ]
     },
     {
       "Hash": 2755742090,
-      "Name": "Збіжні бурі",
+      "Name": "Converging Storms",
       "Descriptions": [
         {
           "Hash": 2160200423,
           "Id": "384363",
           "Spec": "Enhancement",
-          "Text": "Кожна ціль, яку поранено [Руйнівна блискавка], збільшує на {1}% шкоду, завдану наступним [Удар бурі]. Складається до {2} раз."
+          "Text": "Each target hit by Crash Lightning increases the damage of your next Stormstrike by {1}%, up to a maximum of {2} stacks."
         }
       ]
     },
     {
       "Hash": 2763832525,
-      "Name": "Тотем Контрудару",
+      "Name": "Counterstrike Totem",
       "Descriptions": [
         {
           "Hash": 1092918643,
           "Id": "204331",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Створює тотем під своїми ногами на {1} секунд.\n\nКожен раз, коли вороги, що знаходяться в радіусі {2} м від тотема завдають вам шкоду, тотем відбиває {3}% від завданої шкоди назад на нападника."
+          "Text": "Summons a totem at your feet for {1} sec.\n\nWhenever enemies within {2} yards of the totem deal direct damage, the totem will deal {3}% of the damage dealt back to attacker. "
         }
       ]
     },
     {
       "Hash": 1096544449,
-      "Name": "Руйнівна блискавка",
+      "Name": "Crash Lightning",
       "Descriptions": [
         {
           "Hash": 3008002324,
           "Id": "187874",
           "Spec": "Enhancement",
-          "Text": "Вражає усіх ворогів перед собою, завдаючи {1} природної шкоди. Якщо ви вражаєте {2} або більше цілей, ваша зброя стає потужнішою на {3} сек., [Удар бурі], [Крижаний удар] та [Скипання лави] також завдають {4} природної шкоди всім ворогам перед вами. Шкода зменшується при враженні більше {5} цілей.\n\nКожна ціль, яку поранено [Руйнівна блискавка], збільшує на {6}% шкоду, завдану наступним [Удар бурі]. Складається до {7} раз."
+          "Text": "Electrocutes all enemies in front of you, dealing {1} Nature damage. Hitting {2} or more targets enhances your weapons for {3} sec, causing Stormstrike, Ice Strike, and Lava Lash to also deal {4} Nature damage to all targets in front of you. Damage reduced beyond {5} targets.\n\nEach target hit by Crash Lightning increases the damage of your next Stormstrike by {6}%, up to a maximum of {7} stacks."
         }
       ]
     },
     {
       "Hash": 109455662,
-      "Name": "Знищуючи бурі",
+      "Name": "Crashing Storms",
       "Descriptions": [
         {
           "Hash": 1344910489,
           "Id": "334308",
           "Spec": "Enhancement",
-          "Text": "[Руйнівна блискавка] завдає на {1}% більше шкоди. [Ланцюгова блискавка] тепер перескакує на {2} додаткових цілей."
+          "Text": "Crash Lightning damage increased by {1}%.\nChain Lightning now jumps to {2} extra targets."
         }
       ]
     },
     {
       "Hash": 3242093795,
-      "Name": "Сердечник створення",
+      "Name": "Creation Core",
       "Descriptions": [
         {
           "Hash": 474822747,
           "Id": "383012",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "{ffffffff|Totemic Recall} тепер впливає на додатковий тотем."
+          "Text": "{ffffffff|Totemic Recall} affects an additional totem."
         }
       ]
     },
     {
       "Hash": 566016260,
-      "Name": "Контроль течії",
+      "Name": "Current Control",
       "Descriptions": [
         {
           "Hash": 328983197,
           "Id": "404015",
           "Spec": "Restoration",
-          "Text": "Зменшує час відновлення [Тотем зцілюючої хвилі] на {1} сек."
+          "Text": "Reduces the cooldown of Healing Tide Totem by {1} sec."
         }
       ]
     },
     {
       "Hash": 1278151108,
-      "Name": "Глибоко вкорінені Стихії",
+      "Name": "Deeply Rooted Elements",
       "Descriptions": [
         {
           "Hash": 2420989277,
           "Id": "378270",
           "Spec": "Restoration",
-          "Text": "Використання Бистрини має шанс {1}% активувати Переродження на {2} сек.\n\nПереродження\n\nВи перетворюєтесь на водного Переродженого, подвоюючи все ваше зцілення на {1} сек і миттєво зцілюючи на {2}. Зцілення Переродженого розподіляється рівномірно між усіма союзниками в радіусі {3} метрів."
+          "Text": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into a Water Ascendant, duplicating all healing you deal for {3} sec and immediately healing for {4}. Ascendant healing is distributed evenly among allies within {5} yds."
         },
         {
           "Hash": 2808140156,
           "Id": "378270",
           "Spec": "Elemental",
-          "Text": "Заклинання [Вибух Лави] має {1}% шанс активувати ефект [Переродження] на {2} сек.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nПеретворіться на переродженого служителя вогню на {3} секунд, замінивши [Ланцюгова блискавка] на [Поток лави], видаливши час відновлення у [Вибух Лави] і збільшивши його пошкодження на кількість, що дорівнює вашому шансу критичного удару.\n\nУ момент перетворення ви миттєво застосовуєте [Вибух Лави] до противників, уражених вашим [Вогняний шок], та оновлюєте час дії ефектів [Вогняний шок] до {4} сек."
+          "Text": "Casting Lava Burst has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into a Flame Ascendant for {3} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\n\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {4} sec."
         },
         {
           "Hash": 267746997,
           "Id": "378270",
           "Spec": "Enhancement",
-          "Text": "Використання [Удар бурі] має шанс {1}% активувати [Переродження] на {2} секунд.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nТрансформує вас у переродженого служителя повітря на {3} секунди, негайно завдаючи {4} природної шкоди будь-якому ворогу в радіусі {5} метрів, зменшуючи час відновлення та вартість [Удар бурі] на {6}%, та перетворюючи ваші автоатаки та [Удар бурі] на Вітряні атаки, які ігнорують броню та мають дальність {7} метрів."
+          "Text": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range."
         }
       ]
     },
     {
       "Hash": 594853292,
-      "Name": "Повінь",
+      "Name": "Deluge",
       "Descriptions": [
         {
           "Hash": 242692478,
           "Id": "200076",
           "Spec": "Restoration",
-          "Text": "Зцілююча хвиля, Зцілюючий сплеск та Ланцюгове Зцілення зцілюють додатково на 10% цілі під впливом Цілющого дощу або Бистрини."
+          "Text": "Healing Wave, Healing Surge, and Chain Heal heal for an additional {1}% on targets affected by your Healing Rain or Riptide."
         }
       ]
     },
     {
       "Hash": 1028254503,
-      "Name": "Вітру року",
+      "Name": "Doom Winds",
       "Descriptions": [
         {
           "Hash": 182869703,
           "Id": "384352",
           "Spec": "Enhancement",
-          "Text": "Ви атакуєте ціль, завдаючи {1} од. фізичної шкоди. Підвищує ймовірність спрацьовування [Вітри року] на {2}% і збільшує шкоду від [Вітри року] на {3}% на {4} sec."
+          "Text": "Strike your target for {1} Physical damage, increase your chance to activate Windfury Weapon by {2}%, and increases damage dealt by Windfury Weapon by {3}% for {4} sec.\n"
         }
       ]
     },
     {
       "Hash": 3230919591,
-      "Name": "Злива",
+      "Name": "Downpour",
       "Descriptions": [
         {
           "Hash": 1172943510,
           "Id": "207778",
           "Spec": "Restoration",
-          "Text": "Стовп води у вибраній області відновлює {1} од. здоров'я пораненим союзникам (максимум 6) у радіусі {2} м.\n\nЧас відновлення зростає на {3} сек. за кожного зціленого союзника."
+          "Text": "A burst of water at the target location heals up to six injured allies within {1} yards for {2}.\n\nCooldown increased by {3} sec for each target effectively healed."
         }
       ]
     },
     {
       "Hash": 1572811743,
-      "Name": "Елементаль землі",
+      "Name": "Earth Elemental",
       "Descriptions": [
         {
           "Hash": 1739971779,
           "Id": "198103",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Викликає Великого елементаля землі, щоб захищати вас та ваших союзників протягом {1} сек.\n\nПоки цей елементаль активний, ваш максимальний запас здоров'я збільшується на {2}%."
+          "Text": "Calls forth a Greater Earth Elemental to protect you and your allies for {1} sec.\n\nWhile this elemental is active, your maximum health is increased by {2}%."
         }
       ]
     },
     {
       "Hash": 4108205863,
-      "Name": "Щит Землі",
+      "Name": "Earth Shield",
       "Descriptions": [
         {
           "Hash": 1054347865,
           "Id": "974",
           "Spec": "Elemental, Enhancement",
-          "Text": "Захищає ціль земляним щитом, збільшуючи ефективність ваших лікувальні заклинання на них на {1}% і відновлюючи {2} їх здоров'я при отриманні ушкоджень. Ця додаткова лікувальна дія може спрацювати лише один раз протягом кількох секунд. Максимальна кількість зарядів {3}.\n\n[Щит Землі] може бути наложений лише на одну ціль. Шаман може мати активним лише один елементний щит."
+          "Text": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\n\nEarth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman."
         },
         {
           "Hash": 2192426463,
           "Id": "974",
           "Spec": "Restoration",
-          "Text": "Захищає ціль земляним щитом, збільшуючи ефективність ваших лікувальні заклинання на них на {1}% і відновлюючи {2} їх здоров'я при отриманні ушкоджень. Ця додаткова лікувальна дія може спрацювати лише один раз протягом кількох секунд. Максимальна кількість зарядів {3}.\n\n[Щит Землі] можна застосувати лише на шамана та ще одну ціль одночасно. Шаман може мати активними до двох елементних щитів на собі."
+          "Text": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\n\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them."
         }
       ]
     },
     {
       "Hash": 3952445868,
-      "Name": "Шок Землі",
+      "Name": "Earth Shock",
       "Descriptions": [
         {
           "Hash": 3586025803,
           "Id": "8042",
           "Spec": "Elemental",
-          "Text": "Завдає {1} шкоди від сил природи."
+          "Text": "Instantly shocks the target with concussive force, causing {1} Nature damage."
         }
       ]
     },
     {
       "Hash": 2245480075,
-      "Name": "Земна гармонія",
+      "Name": "Earthen Harmony",
       "Descriptions": [
         {
           "Hash": 1149125955,
           "Id": "382020",
           "Spec": "Restoration",
-          "Text": "Щит Землі зменшує отриману шкоду на {1}% і його зцілення збільшується на {2}% якщо здоровʼя цілі нижче {3}%."
+          "Text": "Earth Shield reduces damage taken by {1}% and its healing is increased by {2}% if the target is below {3}% health."
         }
       ]
     },
     {
       "Hash": 996105239,
-      "Name": "Тотем земляної стіни",
+      "Name": "Earthen Wall Totem",
       "Descriptions": [
         {
           "Hash": 429450325,
           "Id": "198838",
           "Spec": "Restoration",
-          "Text": "Викликає тотем у вказаному місці з {1} здоровʼя на {2} сек. {3} шкоди з кожного удару по союзникам в радіусі {4} метрів від тотему перенаправляється в нього."
+          "Text": "Summons a totem at the target location with {1} health for {2} sec. {3} damage from each attack against allies within {4} yards of the totem is redirected to the totem."
         }
       ]
     },
     {
       "Hash": 3978906113,
-      "Name": "Тотем хватки землі",
+      "Name": "Earthgrab Totem",
       "Descriptions": [
         {
           "Hash": 4104131035,
           "Id": "51485",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Викликає у вказаній точці тотем із часом існування {1} сек. Тотем пульсує кожні {2} сек., знерухомлюючи всіх противників у радіусі {3} м на {4} sec. Швидкість пересування противників, які вже зазнали впливу тотема і були знерухомлені, при повторному впливі тотема знижується на {5}%."
+          "Text": "Summons a totem at the target location for {1} sec. The totem pulses every {2} sec, rooting all enemies within {3} yards for {4} sec. Enemies previously rooted by the totem instead suffer {5}% movement speed reduction."
         }
       ]
     },
     {
       "Hash": 1222043858,
-      "Name": "Зброя життя Землі",
+      "Name": "Earthliving Weapon",
       "Descriptions": [
         {
           "Hash": 29083931,
           "Id": "382021",
           "Spec": "Restoration",
-          "Text": "Насичує вашу зброю стіхією Землі на 60 хв. Ваша Бистрина, Зцілююча Хвиля, Зцілюючий Сплеск та Ланцюгове Зцілення мають 20%-ий шанс зумовити Життя Землі на цілі, зцілючи на 4,386 протягом 12 сек. "
+          "Text": "Imbue your weapon with the element of Earth for {1} min. Your Riptide, Healing Wave, Healing Surge, and Chain Heal healing a {2}% chance to trigger Earthliving on the target, healing for {3} over {4} sec."
         }
       ]
     },
     {
       "Hash": 2939370662,
-      "Name": "Землетрус",
+      "Name": "Earthquake",
       "Descriptions": [
         {
           "Hash": 1196692651,
           "Id": "61882",
           "Spec": "Elemental",
-          "Text": "Заставляє землю в радіусі {1} м від місця призначення тремтіти й тріскатися, завдаючи {2} фізичного пошкодження протягом {3} сек і має {4}% шанс збити з ніг ворога."
+          "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec and has a {4}% chance to knock the enemy down."
         }
       ]
     },
     {
       "Hash": 3331634868,
-      "Name": "Поширення відлуння",
+      "Name": "Echo Chamber",
       "Descriptions": [
         {
           "Hash": 4230852303,
           "Id": "382032",
           "Spec": "Elemental",
-          "Text": "Збільшує шкоду від вашого [Перевантаження елементів] на {1}%."
+          "Text": "Increases the damage dealt by your Elemental Overloads by {1}%."
         }
       ]
     },
     {
       "Hash": 1284041906,
-      "Name": "Ехо Стихій",
+      "Name": "Echo of the Elements",
       "Descriptions": [
         {
           "Hash": 1621655891,
           "Id": "333919",
           "Spec": "Elemental",
-          "Text": "[Вибух Лави] має додатковий заряд."
+          "Text": "Lava Burst has an additional charge."
         },
         {
           "Hash": 4211651657,
           "Id": "333919",
           "Spec": "Restoration",
-          "Text": "[Бистрина] та [Вибух Лави] має додатковий заряд."
+          "Text": "Riptide and Lava Burst have an additional charge."
         }
       ]
     },
     {
       "Hash": 47630302,
-      "Name": "Відлуння Величного розколу",
+      "Name": "Echoes of Great Sundering",
       "Descriptions": [
         {
           "Hash": 3659075199,
           "Id": "384087",
           "Spec": "Elemental",
-          "Text": "Після застосування [Шок Землі], наступний [Землетрус] завдає додаткової шкоди на {1}%.\n\nПісля застосування [Вибух стихії], наступний [Землетрус] завдає додаткової шкоди на {2}%."
+          "Text": "After casting Earth Shock, your next Earthquake deals {1}% additional damage.\n\nAfter casting Elemental Blast, your next Earthquake deals {2}% additional damage."
         }
       ]
     },
     {
       "Hash": 1279098974,
-      "Name": "Електричний шок",
+      "Name": "Electrified Shocks",
       "Descriptions": [
         {
           "Hash": 1172685883,
           "Id": "382086",
           "Spec": "Elemental",
-          "Text": "[Крижана лють] дозволяє вашому [Морозний шок] вражати ще до {1} супротивників. Уражені цілі отримують від ваших заклинань на {2}% більше збитків від природи протягом {3} сек."
+          "Text": "Icefury causes your Frost Shocks to damage up to {1} additional enemies and targets hit take {2}% increased Nature damage from your spells for {3} sec."
         }
       ]
     },
     {
       "Hash": 3483001133,
-      "Name": "Електричний удар",
+      "Name": "Electrocute",
       "Descriptions": [
         {
           "Hash": 1895961936,
           "Id": "206642",
           "Spec": "Restoration",
-          "Text": "Щоразу, коли ви успішно знімаєте позитивний ефект за допомогою [Позбавлення], противник отримує {1} од. шкоди від сил природи протягом {2} сек."
+          "Text": "When you successfully Purge a beneficial effect, the enemy suffers {1} Nature damage over {2} sec."
         }
       ]
     },
     {
       "Hash": 2545852867,
-      "Name": "Напад стихій",
+      "Name": "Elemental Assault",
       "Descriptions": [
         {
           "Hash": 2005359990,
           "Id": "210853",
           "Spec": "Enhancement",
-          "Text": "Шкода від [Удар бурі] збільшується на {1}%, а його шанс на генерацію {3} виру стихій збільшується на {2}%."
+          "Text": "Stormstrike damage is increased by {1}%, and Stormstrike has a {2}% chance to generate {3} stack of Maelstrom Weapon."
         }
       ]
     },
     {
       "Hash": 3199279641,
-      "Name": "Вибух стихії",
+      "Name": "Elemental Blast",
       "Descriptions": [
         {
           "Hash": 2422951062,
           "Id": "117014",
           "Spec": "Enhancement",
-          "Text": "Підкоривши силу стихій, ви направляєте її на супротивника, завдаючи {1} шкоди від сил стихій. Імовірність критичного удару чи швидкість підвищується на {2}% або майстерність підвищується на {3}% на {4} сек.\n\nЯкщо вивчено [Вибух лави], [Вибух стихії] замінює його та отримує ще {5} додатковий заряд."
+          "Text": "Harnesses the raw power of the elements, dealing {1} Elemental damage and increasing your Critical Strike or Haste by {2}% or Mastery by {3}% for {4} sec.\n\nIf Lava Burst is known, Elemental Blast replaces Lava Burst and gains {5} additional charge."
         },
         {
           "Hash": 2014446238,
           "Id": "117014",
           "Spec": "Elemental",
-          "Text": "Підкорюючи силу стихій, завдає {1} природної шкоди та збільшує вашу критичну атаку або швидкість на {2}% чи майстерність на {3}% протягом {4} секунд."
+          "Text": "Harnesses the raw power of the elements, dealing {1} Elemental damage and increasing your Critical Strike or Haste by {2}% or Mastery by {3}% for {4} sec."
         }
       ]
     },
     {
       "Hash": 2287669165,
-      "Name": "Рівновага стихій",
+      "Name": "Elemental Equilibrium",
       "Descriptions": [
         {
           "Hash": 737228432,
           "Id": "378271",
           "Spec": "Elemental",
-          "Text": "Заподіюючи шкоду від вогню, льоду та природи протягом {1} сек., збільшить всі пошкодження на {2}% протягом на {3} сек. Це може статися лише один раз кожні {4} секунди."
+          "Text": "Dealing direct Fire, Frost, and Nature damage within {1} sec will increase all damage dealt by {2}% for {3} sec. This can only occur once every {4} sec."
         }
       ]
     },
     {
       "Hash": 3564889021,
-      "Name": "Стихійна лють",
+      "Name": "Elemental Fury",
       "Descriptions": [
         {
           "Hash": 1716898820,
           "Id": "60188",
           "Spec": "Elemental",
-          "Text": "Ваші критичні атаки завдають {1}% шкоди, ніж зазвичай {2}%."
+          "Text": "Your damaging critical strikes deal {1}% damage instead of the usual {2}%."
         }
       ]
     },
     {
       "Hash": 1577494696,
-      "Name": "Орбіта стихії",
+      "Name": "Elemental Orbit",
       "Descriptions": [
         {
           "Hash": 2314699271,
           "Id": "383010",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Збільшує кількість активних Елементальних Щитів на вас на {1}.\n\nВи можете мати [Щит Землі] на собі та на одному союзнику одночасно."
+          "Text": "Increases the number of Elemental Shields you can have active on yourself by {1}.\n\nYou can have Earth Shield on yourself and one ally at the same time."
         }
       ]
     },
     {
       "Hash": 4165417712,
-      "Name": "Духи стихій",
+      "Name": "Elemental Spirits",
       "Descriptions": [
         {
           "Hash": 4165280804,
           "Id": "262624",
           "Spec": "Enhancement",
-          "Text": "Ваші [Дух дикого вовка] тепер насичені вогнем, холодом або блискавкою, що збільшує вашу завдану шкоду цим елементом на {1}%."
+          "Text": "Your Feral Spirits are now imbued with Fire, Frost, or Lightning, increasing your damage dealt with that element by {1}%."
         }
       ]
     },
     {
       "Hash": 1447462384,
-      "Name": "Захист від стихій",
+      "Name": "Elemental Warding",
       "Descriptions": [
         {
           "Hash": 3007961791,
           "Id": "381650",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Зменшує всю отриману магічну шкоду на {1}%."
+          "Text": "Reduces all magic damage taken by {1}%."
         }
       ]
     },
     {
       "Hash": 4080505536,
-      "Name": "Стихійна зброя",
+      "Name": "Elemental Weapons",
       "Descriptions": [
         {
           "Hash": 267524649,
           "Id": "384355",
           "Spec": "Enhancement",
-          "Text": "Збільшує всю нанесену вогнем, холодом та природою шкоду на {1}%."
+          "Text": "Increase all Fire, Frost, and Nature damage dealt by {1}%."
         }
       ]
     },
     {
       "Hash": 3428539434,
-      "Name": "Ослаблення",
+      "Name": "Enfeeblement",
       "Descriptions": [
         {
           "Hash": 3470390820,
           "Id": "378079",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Протягом [Прокляття], ціль сповільнюється на {1}% і ще на {2} сек після закінчення ефекту [Прокляття]."
+          "Text": "During Hex, the target is slowed by {1}% and for {2} sec after Hex ends."
         }
       ]
     },
     {
       "Hash": 1522172945,
-      "Name": "Астральна подоба",
+      "Name": "Ethereal Form",
       "Descriptions": [
         {
           "Hash": 3216174172,
           "Id": "210918",
           "Spec": "Enhancement",
-          "Text": "Ви стаєте безтілесним що робить вас невразливим до всіх фізичних пошкоджень, але не можете атакувати чи застосовувати заклинання та ваша швидкість руху зменшується на {1}%. Ефект триває {2} сек.\n\nВикористайте [Астральна подоба] ще раз, зупинити ефект."
+          "Text": "You turn ethereal, making you immune to all physical damage, but unable to attack or cast spells and your movement speed is reduced by {1}%. Lasts for {2} sec.\n\nUse Ethereal Form again to shift out."
         }
       ]
     },
     {
       "Hash": 3891792118,
-      "Name": "Око Бурі",
+      "Name": "Eye of the Storm",
       "Descriptions": [
         {
           "Hash": 990580067,
           "Id": "381708",
           "Spec": "Elemental",
-          "Text": "Зменшує витрати виру стихій для [Шок Землі] та [Землетрус] на {1}.\n\nЗменшує витрати виру стихій для [Вибух стихій] на {2}."
+          "Text": "Reduces the Maelstrom cost of Earth Shock and Earthquake by {1}.\n\nReduces the Maelstrom cost of Elemental Blast by {2}."
         }
       ]
     },
     {
       "Hash": 2446070457,
-      "Name": "Далекозорість",
+      "Name": "Far Sight",
       "Descriptions": [
         {
           "Hash": 2602145903,
           "Id": "6196",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Змінює вашу точку перегляду на цільову позицію на {1} сек."
+          "Text": "Changes your viewpoint to the targeted location for {1} sec."
         }
       ]
     },
     {
       "Hash": 208594293,
-      "Name": "Дикий випад",
+      "Name": "Feral Lunge",
       "Descriptions": [
         {
           "Hash": 949187386,
           "Id": "196884",
           "Spec": "Enhancement",
-          "Text": "Ви кидаєтесь на ворога в обліку духа вовка та кусаєте його, завдаючи {1} фізичної шкоди."
+          "Text": "Lunge at your enemy as a ghostly wolf, biting them to deal {1} Physical damage."
         }
       ]
     },
     {
       "Hash": 898598183,
-      "Name": "Дух дикого вовка",
+      "Name": "Feral Spirit",
       "Descriptions": [
         {
           "Hash": 1424990811,
           "Id": "51533",
           "Spec": "Enhancement",
-          "Text": "Викликає двох стихійних духів вовка, які допомагають вам у битві протягом {1} сек. Вони невразливі до ефектів, що обмежують рух, і кожен викликаний дух вовка збільшує ваші пошкодження від Вогню, Льоду або Природи на {2}%.\n\nДух вовка генерує один заряд зброї виру негайно, а потім ще один заряд кожні {3} секунди протягом {4} секунд."
+          "Text": "Summons two Elemental Spirit Wolves that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Fire, Frost, or Nature damage dealt by your abilities.\n\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec."
         }
       ]
     },
     {
       "Hash": 765415780,
-      "Name": "Вогонь і лід",
+      "Name": "Fire and Ice",
       "Descriptions": [
         {
           "Hash": 782453141,
           "Id": "382886",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Збільшує всю шкоду від вогню та льоду, яку ви завдаєте, на {1}%."
+          "Text": "Increases all Fire and Frost damage you deal by {1}%."
         }
       ]
     },
     {
       "Hash": 2751316206,
-      "Name": "Елементаль вогню",
+      "Name": "Fire Elemental",
       "Descriptions": [
         {
           "Hash": 1005259546,
           "Id": "198067",
           "Spec": "Elemental",
-          "Text": "Викликає великого вогняного елементаля, який атакує ваших ворогів протягом {1} секунди.\n\nПоки вогняний елементаль активний, [Вогняний шок] завдає шкоди на {2}% швидше, а нові накладені [Вогняний шок] тривають на {3}% довше."
+          "Text": "Calls forth a Greater Fire Elemental to rain destruction on your enemies for {1} sec. \n\nWhile the Fire Elemental is active, Flame Shock deals damage \n{2}% faster, and newly applied Flame Shocks last {3}% longer."
         }
       ]
     },
     {
       "Hash": 3447078260,
-      "Name": "Коло вогню",
+      "Name": "Fire Nova",
       "Descriptions": [
         {
           "Hash": 1499871697,
           "Id": "333974",
           "Spec": "Enhancement",
-          "Text": "Кожна ціль [Вогняний шок] вибухає, завдаючи максимум {2} цілям у радіусі {3} м від себе {1} од. шкоди."
+          "Text": "Erupt a burst of fiery damage from all targets affected by your Flame Shock, dealing {1} Fire damage to up to {2} targets within {3} yds of your Flame Shock targets."
         }
       ]
     },
     {
       "Hash": 2992948335,
-      "Name": "Вогняний шок",
+      "Name": "Flame Shock",
       "Descriptions": [
         {
           "Hash": 2479135150,
           "Id": "188389",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Підпалює ціль, завдаючи {1} шкоди від вогню, а потім ще додатково {2} шкоди від вогню протягом {3} секунд.\n\n[Вогняний шок] можна накласти на максимум {4} цілей."
+          "Text": "Sears the target with fire, causing {1} Fire damage and then an additional {2} Fire damage over {3} sec.\n\nFlame Shock can be applied to a maximum of {4} targets."
         }
       ]
     },
     {
       "Hash": 1975850959,
-      "Name": "Полум'я казана",
+      "Name": "Flames of the Cauldron",
       "Descriptions": [
         {
           "Hash": 2662355781,
           "Id": "378266",
           "Spec": "Elemental",
-          "Text": "Зменшує час відновлення [Вогняний шок] на {1} секунди, а також збільшує швидкість завдання шкоди [Вогняний шок] на {2}%."
+          "Text": "Reduces the cooldown of Flame Shock by {1} sec and Flame Shock deals damage {2}% faster."
         }
       ]
     },
     {
       "Hash": 275463765,
-      "Name": "Зброя язика полум'я",
+      "Name": "Flametongue Weapon",
       "Descriptions": [
         {
           "Hash": 2190140961,
           "Id": "318038",
           "Spec": "Enhancement",
-          "Text": "Наділяє вашу зброю у лівій руці вогняним елементом на {1} хв, кожна ваша атака завдає додаткової шкоди {2} від вогню."
+          "Text": "Imbue your off-hand weapon with the element of Fire for {1} min, causing each of your attacks to deal {2} additional Fire damage. "
         },
         {
           "Hash": 2073764543,
           "Id": "318038",
           "Spec": "Restoration, Elemental",
-          "Text": "Наділяє вашу зброю вогняним елементом на {1} хв, кожна ваша атака завдає додаткової шкоди {2} від вогню."
+          "Text": "Imbue your weapon with the element of Fire for {1} min, causing each of your attacks to deal {2} additional Fire damage. "
         }
       ]
     },
     {
       "Hash": 3597702040,
-      "Name": "Стрімка повінь",
+      "Name": "Flash Flood",
       "Descriptions": [
         {
           "Hash": 790224537,
           "Id": "280614",
           "Spec": "Restoration",
-          "Text": "Коли ви витрачаєте ефект [Глибинні хвилі], час застосування наступного заклинання зцілення скорочується на {1}%."
+          "Text": "Consuming Tidal Waves reduces the cast time of your next heal by {1}%."
         }
       ]
     },
     {
       "Hash": 1289581319,
-      "Name": "Спалах Блискавки",
+      "Name": "Flash of Lightning",
       "Descriptions": [
         {
           "Hash": 262685326,
           "Id": "381936",
           "Spec": "Elemental",
-          "Text": "Коли ви застосовуєте [Блискавка] або [Ланцюгова блискавка], час відновлення заклинань природи скорочується на {1} сек."
+          "Text": "Casting Lightning Bolt or Chain Lightning reduces the cooldown of your Nature spells by {1} sec."
         }
       ]
     },
     {
       "Hash": 483606635,
-      "Name": "Прилив Сили",
+      "Name": "Flow of Power",
       "Descriptions": [
         {
           "Hash": 4187745430,
           "Id": "385923",
           "Spec": "Elemental",
-          "Text": "[Блискавка] та [Вибух Лави] дозволяють накопичити ще {1} од. виру стихій і викликають спрацювання [Перевантаження елементів] ще на {2}."
+          "Text": "Increases the Maelstrom generated by Lightning Bolt and Lava Burst by {1}, and their Elemental Overloads by {2}."
         }
       ]
     },
     {
       "Hash": 1538756444,
-      "Name": "Потік хвиль",
+      "Name": "Flow of the Tides",
       "Descriptions": [
         {
           "Hash": 415016284,
           "Id": "382039",
           "Spec": "Restoration",
-          "Text": "Ланцюгове Зцілення перестрибує на одну додаткову ціль, при цьому чаклування Ланцюгового Зцілення на ціль, яка є під дією Бистрини поглинає цей ефект, підвищуюючи зцілення закляття на {1}%."
+          "Text": "Chain Heal bounces an additional time and casting Chain Heal on a target affected by Riptide consumes Riptide, increasing the healing of your Chain Heal by {1}%.\n\n"
         }
       ]
     },
     {
       "Hash": 2247871445,
-      "Name": "Буря",
+      "Name": "Flurry",
       "Descriptions": [
         {
           "Hash": 326895829,
           "Id": "382888",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Збільшує швидкість атаки на {1}% для наступних {2} атак ближнього бою після успішного критичного удару заклинання або здібності."
+          "Text": "Increases your attack speed by {1}% for your next {2} melee swings after dealing a critical strike with a spell or ability."
         }
       ]
     },
     {
       "Hash": 1425467526,
-      "Name": "Розплавлена порода",
+      "Name": "Flux Melting",
       "Descriptions": [
         {
           "Hash": 2882452277,
           "Id": "381776",
           "Spec": "Elemental",
-          "Text": "[Морозний шок] збільшує шкоду від вашого наступного [Вибух Лави] на {1}%."
+          "Text": "Casting Frost Shock increases the damage of your next Lava Burst by {1}%."
         }
       ]
     },
     {
       "Hash": 2489407244,
-      "Name": "Сфокусоване розуміння",
+      "Name": "Focused Insight",
       "Descriptions": [
         {
           "Hash": 2855413687,
           "Id": "381666",
           "Spec": "Elemental, Enhancement",
-          "Text": "[Вогняний шок] зменшує витрати мани на наступне заклинання зцілення на {1}% і збільшує ефективність лікування на {2}%."
+          "Text": "Casting Flame Shock reduces the mana cost of your next heal by {1}% and increases its healing effectiveness by {2}%."
         }
       ]
     },
     {
       "Hash": 886039770,
-      "Name": "Буйні Вітри",
+      "Name": "Forceful Winds",
       "Descriptions": [
         {
           "Hash": 2129607996,
@@ -1023,7 +1023,7 @@
     },
     {
       "Hash": 607273375,
-      "Name": "Морозний шок",
+      "Name": "Frost Shock",
       "Descriptions": [
         {
           "Hash": 3918196408,
@@ -1035,7 +1035,7 @@
     },
     {
       "Hash": 362597458,
-      "Name": "Поза Межою",
+      "Name": "Further Beyond",
       "Descriptions": [
         {
           "Hash": 1369894627,
@@ -1047,7 +1047,7 @@
     },
     {
       "Hash": 2262045485,
-      "Name": "Примара вовка",
+      "Name": "Ghost Wolf",
       "Descriptions": [
         {
           "Hash": 1602491867,
@@ -1059,7 +1059,7 @@
     },
     {
       "Hash": 1919035115,
-      "Name": "Плисти за Течією",
+      "Name": "Go with the Flow",
       "Descriptions": [
         {
           "Hash": 1474431941,
@@ -1071,7 +1071,7 @@
     },
     {
       "Hash": 3154326952,
-      "Name": "Благодатний Дух",
+      "Name": "Graceful Spirit",
       "Descriptions": [
         {
           "Hash": 1642663351,
@@ -1107,7 +1107,7 @@
     },
     {
       "Hash": 74637788,
-      "Name": "Ломака Охоронця",
+      "Name": "Guardian's Cudgel",
       "Descriptions": [
         {
           "Hash": 3576717915,
@@ -1119,7 +1119,7 @@
     },
     {
       "Hash": 2055400648,
-      "Name": "Порив вітру",
+      "Name": "Gust of Wind",
       "Descriptions": [
         {
           "Hash": 2620228561,
@@ -1131,7 +1131,7 @@
     },
     {
       "Hash": 2173472105,
-      "Name": "Град",
+      "Name": "Hailstorm",
       "Descriptions": [
         {
           "Hash": 1982375777,
@@ -1143,7 +1143,7 @@
     },
     {
       "Hash": 3729569471,
-      "Name": "Цілющий дощ",
+      "Name": "Healing Rain",
       "Descriptions": [
         {
           "Hash": 615766361,
@@ -1155,7 +1155,7 @@
     },
     {
       "Hash": 727415692,
-      "Name": "Тотем Цілющого Потоку",
+      "Name": "Healing Stream Totem",
       "Descriptions": [
         {
           "Hash": 3016746401,
@@ -1167,7 +1167,7 @@
     },
     {
       "Hash": 656918334,
-      "Name": "Зцілюючий Поток",
+      "Name": "Healing Surge",
       "Descriptions": [
         {
           "Hash": 416400678,
@@ -1179,19 +1179,19 @@
     },
     {
       "Hash": 858393416,
-      "Name": "Тотем зцілюючої хвилі",
+      "Name": "Healing Tide Totem",
       "Descriptions": [
         {
           "Hash": 1492248008,
           "Id": "108280",
           "Spec": "Restoration",
-          "Text": "Викликає тотем поруч на {1} сек, який пульсує раз в {2} сек., зцілюючи всіх членів групи або рейду в радіусі {3} метрів на {4}.\n\nЗцілення збльшується на {4}% коли ви не у рейді."
+          "Text": "Summons a totem at your feet for {1} sec, which pulses every {2} sec, healing all party or raid members within {3} yards for {4}.\n\nHealing increased by {5}% when not in a raid."
         }
       ]
     },
     {
       "Hash": 1046214339,
-      "Name": "Зцілююча хвиля",
+      "Name": "Healing Wave",
       "Descriptions": [
         {
           "Hash": 3665743713,
@@ -1203,7 +1203,7 @@
     },
     {
       "Hash": 3580764158,
-      "Name": "Героїзм",
+      "Name": "Heroism",
       "Descriptions": [
         {
           "Hash": 2745910570,
@@ -1227,7 +1227,7 @@
     },
     {
       "Hash": 2697167764,
-      "Name": "Висока хвиля",
+      "Name": "High Tide",
       "Descriptions": [
         {
           "Hash": 705487423,
@@ -1239,7 +1239,7 @@
     },
     {
       "Hash": 1772849951,
-      "Name": "Гаряча Рука",
+      "Name": "Hot Hand",
       "Descriptions": [
         {
           "Hash": 1662862870,
@@ -1251,7 +1251,7 @@
     },
     {
       "Hash": 2332207690,
-      "Name": "Льодяний Удар",
+      "Name": "Ice Strike",
       "Descriptions": [
         {
           "Hash": 788080594,
@@ -1263,7 +1263,7 @@
     },
     {
       "Hash": 1613585076,
-      "Name": "Крижаний Гнів",
+      "Name": "Icefury",
       "Descriptions": [
         {
           "Hash": 34153504,
@@ -1275,13 +1275,13 @@
     },
     {
       "Hash": 3514949847,
-      "Name": "Покращена зброя життя Землі",
+      "Name": "Improved Earthliving Weapon",
       "Descriptions": [
         {
           "Hash": 1136532701,
           "Id": "382315",
           "Spec": "Restoration",
-          "Text": "Підсилює зцілення від ефекту Життя Землі на {1}%\n\nЖиття Землі завжди спрацьовує на цілях, в яких менше {2}% здоровʼя"
+          "Text": "Increases the healing of Earthliving by {1}%.\n\nEarthliving always triggers on targets below {2}% health."
         }
       ]
     },
@@ -1311,7 +1311,7 @@
     },
     {
       "Hash": 1960663508,
-      "Name": "Покращена Первинна хвиля",
+      "Name": "Improved Primordial Wave",
       "Descriptions": [
         {
           "Hash": 935288443,
@@ -1323,7 +1323,7 @@
     },
     {
       "Hash": 2793732146,
-      "Name": "Поліпшений Очищений Дух",
+      "Name": "Improved Purify Spirit",
       "Descriptions": [
         {
           "Hash": 1625526563,
@@ -1335,7 +1335,7 @@
     },
     {
       "Hash": 4081850459,
-      "Name": "Потоп",
+      "Name": "Inundate",
       "Descriptions": [
         {
           "Hash": 1957941154,
@@ -1359,7 +1359,7 @@
     },
     {
       "Hash": 2813945828,
-      "Name": "Вибух Лави",
+      "Name": "Lava Burst",
       "Descriptions": [
         {
           "Hash": 1845622457,
@@ -1389,19 +1389,19 @@
     },
     {
       "Hash": 4091447054,
-      "Name": "Сплеск лави",
+      "Name": "Lava Surge",
       "Descriptions": [
         {
           "Hash": 1962627598,
           "Id": "77756",
           "Spec": "Restoration, Elemental",
-          "Text": "ДоТ від вашого Вогняного Шоку має 10% шансу скинути поточний час відновлення Вибуху Лави і змусить наступний Вибух Лави зчаклуватись миттєво."
+          "Text": "Your Flame Shock damage over time has a {1}% chance to reset the remaining cooldown on Lava Burst and cause your next Lava Burst to be instant."
         }
       ]
     },
     {
       "Hash": 3835526860,
-      "Name": "Спадщина Відьми Морозу",
+      "Name": "Legacy of the Frost Witch",
       "Descriptions": [
         {
           "Hash": 2317774799,
@@ -1413,7 +1413,7 @@
     },
     {
       "Hash": 3722699993,
-      "Name": "Заряд Блискавки",
+      "Name": "Lightning Bolt",
       "Descriptions": [
         {
           "Hash": 49186552,
@@ -1443,7 +1443,7 @@
     },
     {
       "Hash": 2751795956,
-      "Name": "Блискавичний Жезл",
+      "Name": "Lightning Rod",
       "Descriptions": [
         {
           "Hash": 493782148,
@@ -1455,7 +1455,7 @@
     },
     {
       "Hash": 4028296730,
-      "Name": "Блискавичний Щит",
+      "Name": "Lightning Shield",
       "Descriptions": [
         {
           "Hash": 1781435350,
@@ -1479,7 +1479,7 @@
     },
     {
       "Hash": 1416690917,
-      "Name": "Рідкий Тотем Магми",
+      "Name": "Liquid Magma Totem",
       "Descriptions": [
         {
           "Hash": 756676531,
@@ -1491,19 +1491,19 @@
     },
     {
       "Hash": 831431100,
-      "Name": "Живий потік",
+      "Name": "Living Stream",
       "Descriptions": [
         {
           "Hash": 3936316089,
           "Id": "382482",
           "Spec": "Restoration",
-          "Text": "Тотем зцілюючого потоку зцілює на 10% більше з кожним спрацьовуванням."
+          "Text": "Healing Stream Totem heals for {1}% more each time it ticks."
         }
       ]
     },
     {
       "Hash": 2734914987,
-      "Name": "Живий Приплив",
+      "Name": "Living Tide",
       "Descriptions": [
         {
           "Hash": 3859055205,
@@ -1515,7 +1515,7 @@
     },
     {
       "Hash": 279282282,
-      "Name": "Зброя Виру",
+      "Name": "Maelstrom Weapon",
       "Descriptions": [
         {
           "Hash": 1606058758,
@@ -1533,7 +1533,7 @@
     },
     {
       "Hash": 3156957944,
-      "Name": "Покої Магми",
+      "Name": "Magma Chamber",
       "Descriptions": [
         {
           "Hash": 3603930768,
@@ -1545,7 +1545,7 @@
     },
     {
       "Hash": 4177031962,
-      "Name": "Мана-Весна",
+      "Name": "Mana Spring",
       "Descriptions": [
         {
           "Hash": 3942813997,
@@ -1569,25 +1569,25 @@
     },
     {
       "Hash": 250433402,
-      "Name": "Тотем припливу мани",
+      "Name": "Mana Tide Totem",
       "Descriptions": [
         {
           "Hash": 1684549410,
           "Id": "16191",
           "Spec": "Restoration",
-          "Text": "Викликає тотем поруч на {1} сек, підсилюючи регенерацію мани на {2}% союзникам в радіусі {3} метрів."
+          "Text": "Summons a totem at your feet for {1} sec, granting {2}% increased mana regeneration to allies within {3} yards."
         }
       ]
     },
     {
       "Hash": 1430611985,
-      "Name": "Майстер Стихій",
+      "Name": "Master of the Elements",
       "Descriptions": [
         {
           "Hash": 1785869771,
           "Id": "16166",
           "Spec": "Elemental",
-          "Text": "Чаклування [Вибух Лави] збільшує шкоду або зцілення ваших наступних природних, фізичних або морозних заклять на 20%"
+          "Text": "Casting Lava Burst increases the damage or healing of your next Nature, Physical, or Frost spell by {1}%."
         },
         {
           "Hash": 1529858281,
@@ -1599,7 +1599,7 @@
     },
     {
       "Hash": 3666566495,
-      "Name": "Майстерність: Глибоке Зцілення",
+      "Name": "Mastery: Deep Healing",
       "Descriptions": [
         {
           "Hash": 1903390679,
@@ -1659,7 +1659,7 @@
     },
     {
       "Hash": 2739202219,
-      "Name": "Ярість Природи",
+      "Name": "Nature's Fury",
       "Descriptions": [
         {
           "Hash": 626858188,
@@ -1671,7 +1671,7 @@
     },
     {
       "Hash": 2122092991,
-      "Name": "Охоронець Природи",
+      "Name": "Nature's Guardian",
       "Descriptions": [
         {
           "Hash": 4289862217,
@@ -1683,7 +1683,7 @@
     },
     {
       "Hash": 2896041592,
-      "Name": "Стрімкість Природи",
+      "Name": "Nature's Swiftness",
       "Descriptions": [
         {
           "Hash": 520311595,
@@ -1695,7 +1695,7 @@
     },
     {
       "Hash": 1775946928,
-      "Name": "Присяга Провидця",
+      "Name": "Oath of the Far Seer",
       "Descriptions": [
         {
           "Hash": 1402945847,
@@ -1707,7 +1707,7 @@
     },
     {
       "Hash": 1681876834,
-      "Name": "Переповнений Вир",
+      "Name": "Overflowing Maelstrom",
       "Descriptions": [
         {
           "Hash": 2097728027,
@@ -1719,7 +1719,7 @@
     },
     {
       "Hash": 3877821646,
-      "Name": "Переповнені береги",
+      "Name": "Overflowing Shores",
       "Descriptions": [
         {
           "Hash": 251540688,
@@ -1731,7 +1731,7 @@
     },
     {
       "Hash": 1411679087,
-      "Name": "Мандрівник по Планетах",
+      "Name": "Planes Traveler",
       "Descriptions": [
         {
           "Hash": 645696117,
@@ -1743,7 +1743,7 @@
     },
     {
       "Hash": 1433953117,
-      "Name": "Тотем Очищення від Отрути",
+      "Name": "Poison Cleansing Totem",
       "Descriptions": [
         {
           "Hash": 4230618785,
@@ -1755,7 +1755,7 @@
     },
     {
       "Hash": 883147220,
-      "Name": "Сила Виру",
+      "Name": "Power of the Maelstrom",
       "Descriptions": [
         {
           "Hash": 948630541,
@@ -1767,7 +1767,7 @@
     },
     {
       "Hash": 2345603525,
-      "Name": "Передбачення",
+      "Name": "Precognition",
       "Descriptions": [
         {
           "Hash": 525859810,
@@ -1779,7 +1779,7 @@
     },
     {
       "Hash": 1269760091,
-      "Name": "Первісний Елементаліст",
+      "Name": "Primal Elementalist",
       "Descriptions": [
         {
           "Hash": 3695920078,
@@ -1791,7 +1791,7 @@
     },
     {
       "Hash": 1974547698,
-      "Name": "Первісний Вир",
+      "Name": "Primal Maelstrom",
       "Descriptions": [
         {
           "Hash": 2858592470,
@@ -1803,7 +1803,7 @@
     },
     {
       "Hash": 1601217413,
-      "Name": "Первісний Удар",
+      "Name": "Primal Strike",
       "Descriptions": [
         {
           "Hash": 1924773383,
@@ -1815,7 +1815,7 @@
     },
     {
       "Hash": 3210774672,
-      "Name": "Серце первинної хвилі",
+      "Name": "Primal Tide Core",
       "Descriptions": [
         {
           "Hash": 1744146627,
@@ -1839,7 +1839,7 @@
     },
     {
       "Hash": 3232570134,
-      "Name": "Первісний Гнів",
+      "Name": "Primordial Fury",
       "Descriptions": [
         {
           "Hash": 2214243101,
@@ -1851,7 +1851,7 @@
     },
     {
       "Hash": 825516943,
-      "Name": "Первісний Сплеск",
+      "Name": "Primordial Surge",
       "Descriptions": [
         {
           "Hash": 3024038832,
@@ -1863,7 +1863,7 @@
     },
     {
       "Hash": 2927684333,
-      "Name": "Первинна хвиля",
+      "Name": "Primordial Wave",
       "Descriptions": [
         {
           "Hash": 1727607424,
@@ -1887,7 +1887,7 @@
     },
     {
       "Hash": 469232920,
-      "Name": "Позбавлення",
+      "Name": "Purge",
       "Descriptions": [
         {
           "Hash": 2772111852,
@@ -1899,7 +1899,7 @@
     },
     {
       "Hash": 3760752971,
-      "Name": "Звільнити Дух",
+      "Name": "Purify Spirit",
       "Descriptions": [
         {
           "Hash": 4288251378,
@@ -1911,7 +1911,7 @@
     },
     {
       "Hash": 3896599364,
-      "Name": "Лютуючий Вир",
+      "Name": "Raging Maelstrom",
       "Descriptions": [
         {
           "Hash": 2779624649,
@@ -1923,19 +1923,19 @@
     },
     {
       "Hash": 2993943089,
-      "Name": "Освіжаючі води",
+      "Name": "Refreshing Waters",
       "Descriptions": [
         {
           "Hash": 1035541213,
           "Id": "378211, 393905",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Ваш Зцілюючий сплеск ефективніший на 25% при використанні на собі"
+          "Text": "Your Healing Surge is {1}% more effective on yourself.\n"
         }
       ]
     },
     {
       "Hash": 3932602609,
-      "Name": "Реінкарнація",
+      "Name": "Reincarnation",
       "Descriptions": [
         {
           "Hash": 2370016768,
@@ -1947,7 +1947,7 @@
     },
     {
       "Hash": 3505166010,
-      "Name": "Резонуючі води",
+      "Name": "Resonant Waters",
       "Descriptions": [
         {
           "Hash": 2563439947,
@@ -1959,7 +1959,7 @@
     },
     {
       "Hash": 38511663,
-      "Name": "Відродження",
+      "Name": "Resurgence",
       "Descriptions": [
         {
           "Hash": 3639845959,
@@ -1971,7 +1971,7 @@
     },
     {
       "Hash": 1165579124,
-      "Name": "Осідлати Блискавку",
+      "Name": "Ride the Lightning",
       "Descriptions": [
         {
           "Hash": 2691999528,
@@ -1983,13 +1983,13 @@
     },
     {
       "Hash": 2194880751,
-      "Name": "Бистрина",
+      "Name": "Riptide",
       "Descriptions": [
         {
           "Hash": 3616228757,
           "Id": "61295",
           "Spec": "Restoration",
-          "Text": "Відновлюючі води омивають дружню ціль, зцілюючи її на 9,475 та додатково 8,041 протягом 18 сек."
+          "Text": "Restorative waters wash over a friendly target, healing them for {1} and an additional {2} over {3} sec."
         }
       ]
     },
@@ -2007,7 +2007,7 @@
     },
     {
       "Hash": 1535337430,
-      "Name": "Пекуче Полум'я",
+      "Name": "Searing Flames",
       "Descriptions": [
         {
           "Hash": 2972885709,
@@ -2019,7 +2019,7 @@
     },
     {
       "Hash": 1419195082,
-      "Name": "Сильні Вітри",
+      "Name": "Seasoned Winds",
       "Descriptions": [
         {
           "Hash": 2478000950,
@@ -2031,7 +2031,7 @@
     },
     {
       "Hash": 1485090942,
-      "Name": "Шаманізм",
+      "Name": "Shamanism",
       "Descriptions": [
         {
           "Hash": 1671006755,
@@ -2055,7 +2055,7 @@
     },
     {
       "Hash": 1864782348,
-      "Name": "Тотем Небесної Люті",
+      "Name": "Skyfury Totem",
       "Descriptions": [
         {
           "Hash": 311133514,
@@ -2067,7 +2067,7 @@
     },
     {
       "Hash": 2509731252,
-      "Name": "Спектральне Відновлення",
+      "Name": "Spectral Recovery",
       "Descriptions": [
         {
           "Hash": 2846422446,
@@ -2079,13 +2079,13 @@
     },
     {
       "Hash": 2173514084,
-      "Name": "Тотем духовного звʼязку",
+      "Name": "Spirit Link Totem",
       "Descriptions": [
         {
           "Hash": 3249310358,
           "Id": "98008",
           "Spec": "Restoration",
-          "Text": "Викликає тотем у вказаному місці на {1} сек, який зменшує шкоду, яку отримують всі члени групи та рейду в радіусі {2} метрів на {3}%. Одразу ж і кожну секунду надалі рівномірно перерозподіляє здоров'я всіх гравців під ефектом."
+          "Text": "Summons a totem at the target location for {1} sec, which reduces damage taken by all party and raid members within {2} yards by {3}%. Immediately and every {4} sec, the health of all affected players is redistributed evenly."
         }
       ]
     },
@@ -2103,7 +2103,7 @@
     },
     {
       "Hash": 2909323161,
-      "Name": "Дух Вовка",
+      "Name": "Spirit Wolf",
       "Descriptions": [
         {
           "Hash": 1829710906,
@@ -2145,7 +2145,7 @@
     },
     {
       "Hash": 1409141641,
-      "Name": "Глибинний тотем духа",
+      "Name": "Spiritwalker's Tidal Totem",
       "Descriptions": [
         {
           "Hash": 397028228,
@@ -2157,7 +2157,7 @@
     },
     {
       "Hash": 1833671347,
-      "Name": "Розколоті Елементалі",
+      "Name": "Splintered Elements",
       "Descriptions": [
         {
           "Hash": 3961663189,
@@ -2175,7 +2175,7 @@
     },
     {
       "Hash": 1605398075,
-      "Name": "Статична Акумуляція",
+      "Name": "Static Accumulation",
       "Descriptions": [
         {
           "Hash": 640809637,
@@ -2211,7 +2211,7 @@
     },
     {
       "Hash": 226329393,
-      "Name": "Тотем Кам'яної Шкіри",
+      "Name": "Stoneskin Totem",
       "Descriptions": [
         {
           "Hash": 2670965223,
@@ -2223,7 +2223,7 @@
     },
     {
       "Hash": 3170411094,
-      "Name": "Шторм Елементалів",
+      "Name": "Storm Elemental",
       "Descriptions": [
         {
           "Hash": 3988532462,
@@ -2235,7 +2235,7 @@
     },
     {
       "Hash": 2333800347,
-      "Name": "Ярість Шторму",
+      "Name": "Storm's Wrath",
       "Descriptions": [
         {
           "Hash": 3709412487,
@@ -2271,7 +2271,7 @@
     },
     {
       "Hash": 3893648249,
-      "Name": "Хранитель бурі",
+      "Name": "Stormkeeper",
       "Descriptions": [
         {
           "Hash": 4151872719,
@@ -2289,7 +2289,7 @@
     },
     {
       "Hash": 440947055,
-      "Name": "Удар Шторму",
+      "Name": "Stormstrike",
       "Descriptions": [
         {
           "Hash": 4277300720,
@@ -2301,7 +2301,7 @@
     },
     {
       "Hash": 665532377,
-      "Name": "Розкол",
+      "Name": "Sundering",
       "Descriptions": [
         {
           "Hash": 1045466772,
@@ -2313,7 +2313,7 @@
     },
     {
       "Hash": 1345740269,
-      "Name": "Сплеск Сили",
+      "Name": "Surge of Power",
       "Descriptions": [
         {
           "Hash": 1895009253,
@@ -2391,7 +2391,7 @@
     },
     {
       "Hash": 2039642690,
-      "Name": "Закручений Вир",
+      "Name": "Swirling Maelstrom",
       "Descriptions": [
         {
           "Hash": 1577177185,
@@ -2415,7 +2415,7 @@
     },
     {
       "Hash": 3987187763,
-      "Name": "Заряд Грому",
+      "Name": "Thundercharge",
       "Descriptions": [
         {
           "Hash": 1161356272,
@@ -2427,7 +2427,7 @@
     },
     {
       "Hash": 2763022005,
-      "Name": "Громові Кігті",
+      "Name": "Thunderous Paws",
       "Descriptions": [
         {
           "Hash": 3334739271,
@@ -2439,7 +2439,7 @@
     },
     {
       "Hash": 513552281,
-      "Name": "Громовий Шок",
+      "Name": "Thundershock",
       "Descriptions": [
         {
           "Hash": 2980286512,
@@ -2463,7 +2463,7 @@
     },
     {
       "Hash": 2746493198,
-      "Name": "Глибинні хвилі",
+      "Name": "Tidal Waves",
       "Descriptions": [
         {
           "Hash": 1632304011,
@@ -2475,7 +2475,7 @@
     },
     {
       "Hash": 4085193797,
-      "Name": "Підкорювач глибин",
+      "Name": "Tide Turner",
       "Descriptions": [
         {
           "Hash": 4209171568,
@@ -2487,7 +2487,7 @@
     },
     {
       "Hash": 582766401,
-      "Name": "Хвиленосець",
+      "Name": "Tidebringer",
       "Descriptions": [
         {
           "Hash": 3081442364,
@@ -2499,19 +2499,19 @@
     },
     {
       "Hash": 2660086268,
-      "Name": "Потік",
+      "Name": "Torrent",
       "Descriptions": [
         {
           "Hash": 2709176115,
           "Id": "200072",
           "Spec": "Restoration",
-          "Text": "Збільшує початкове зцілення від Бистрини на 10%"
+          "Text": "Increases the initial heal from Riptide by {1}%."
         }
       ]
     },
     {
       "Hash": 1687985132,
-      "Name": "Тотемічний Фокус",
+      "Name": "Totemic Focus",
       "Descriptions": [
         {
           "Hash": 3631544022,
@@ -2529,7 +2529,7 @@
     },
     {
       "Hash": 2890185920,
-      "Name": "Тотемна Проєкція",
+      "Name": "Totemic Projection",
       "Descriptions": [
         {
           "Hash": 3591335730,
@@ -2553,7 +2553,7 @@
     },
     {
       "Hash": 3734042226,
-      "Name": "Тотемний Сплеск",
+      "Name": "Totemic Surge",
       "Descriptions": [
         {
           "Hash": 1983823427,
@@ -2577,7 +2577,7 @@
     },
     {
       "Hash": 888630227,
-      "Name": "Подорожуючі Бурі",
+      "Name": "Traveling Storms",
       "Descriptions": [
         {
           "Hash": 3685851587,
@@ -2589,7 +2589,7 @@
     },
     {
       "Hash": 718374299,
-      "Name": "Тотем Тряски",
+      "Name": "Tremor Totem",
       "Descriptions": [
         {
           "Hash": 3939873723,
@@ -2601,7 +2601,7 @@
     },
     {
       "Hash": 1163291006,
-      "Name": "Хвиля за хвилею",
+      "Name": "Tumbling Waves",
       "Descriptions": [
         {
           "Hash": 973907885,
@@ -2613,7 +2613,7 @@
     },
     {
       "Hash": 1800114789,
-      "Name": "Неспокійні Тріщини",
+      "Name": "Tumultuous Fissures",
       "Descriptions": [
         {
           "Hash": 4003642162,
@@ -2625,19 +2625,19 @@
     },
     {
       "Hash": 1349184177,
-      "Name": "Підводна течія",
+      "Name": "Undercurrent",
       "Descriptions": [
         {
           "Hash": 899895764,
           "Id": "382194",
           "Spec": "Restoration",
-          "Text": "За кожну активну Бистрину на союзнику ви зцілюєте на {1}% ефективніше "
+          "Text": "For each Riptide active on an ally, your heals are {1}% more effective."
         }
       ]
     },
     {
       "Hash": 2654886445,
-      "Name": "Коливання",
+      "Name": "Undulation",
       "Descriptions": [
         {
           "Hash": 3790272154,
@@ -2649,7 +2649,7 @@
     },
     {
       "Hash": 3450099607,
-      "Name": "Вивільнення життя",
+      "Name": "Unleash Life",
       "Descriptions": [
         {
           "Hash": 2936895274,
@@ -2661,7 +2661,7 @@
     },
     {
       "Hash": 4018197275,
-      "Name": "Вивільнити Щит",
+      "Name": "Unleash Shield",
       "Descriptions": [
         {
           "Hash": 4032740615,
@@ -2673,7 +2673,7 @@
     },
     {
       "Hash": 524503257,
-      "Name": "Неминуче Лихо",
+      "Name": "Unrelenting Calamity",
       "Descriptions": [
         {
           "Hash": 1099182392,
@@ -2721,13 +2721,13 @@
     },
     {
       "Hash": 983332254,
-      "Name": "Майстерність тотему Води",
+      "Name": "Water Totem Mastery",
       "Descriptions": [
         {
           "Hash": 88929805,
           "Id": "382030",
           "Spec": "Restoration",
-          "Text": "Поглинання Глибинних Хвиль зменшує час відновлення ваших тотемів Зцілючого потоку, Зливи, Зцілюючої хвилі, Хвилі мани та Очищення від отрут на 0.5 сек."
+          "Text": "Consuming Tidal Waves reduces the cooldown of your Healing Stream, Cloudburst, Healing Tide, Mana Tide, and Poison Cleansing totems by {1} sec."
         }
       ]
     },
@@ -2745,7 +2745,7 @@
     },
     {
       "Hash": 2964301148,
-      "Name": "Благословіння хвилемова",
+      "Name": "Wavespeaker's Blessing",
       "Descriptions": [
         {
           "Hash": 4250258961,
@@ -2757,13 +2757,13 @@
     },
     {
       "Hash": 1437624384,
-      "Name": "Джерело",
+      "Name": "Wellspring",
       "Descriptions": [
         {
           "Hash": 2543125365,
           "Id": "197995",
           "Spec": "Restoration",
-          "Text": "Створює хвилю води, яка пливе вперед, зцілюючи союзні цілі на {1} по великій дузі перед вами"
+          "Text": "Creates a surge of water that flows forward, healing friendly targets in a wide arc in front of you for {1}."
         }
       ]
     },
@@ -2781,7 +2781,7 @@
     },
     {
       "Hash": 144617869,
-      "Name": "Подув вітру",
+      "Name": "Wind Shear",
       "Descriptions": [
         {
           "Hash": 135595243,
@@ -2793,7 +2793,7 @@
     },
     {
       "Hash": 1152949669,
-      "Name": "Тотем Небесної Люті",
+      "Name": "Windfury Totem",
       "Descriptions": [
         {
           "Hash": 3663972208,
@@ -2817,7 +2817,7 @@
     },
     {
       "Hash": 2998291079,
-      "Name": "Вітри Ал'Акіра",
+      "Name": "Winds of Al'Akir",
       "Descriptions": [
         {
           "Hash": 1671504577,
@@ -2841,7 +2841,7 @@
     },
     {
       "Hash": 3164734299,
-      "Name": "Предок Знахаря",
+      "Name": "Witch Doctor's Ancestry",
       "Descriptions": [
         {
           "Hash": 2241265657,

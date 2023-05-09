@@ -3,2143 +3,2143 @@
   "Spells": [
     {
       "Hash": 1694743861,
-      "Name": "|cffffffffБерсерк: Наполегливість|r",
+      "Name": "|cffffffffBerserk: Persistence|r",
       "Descriptions": [
         {
           "Hash": 1945998854,
           "Id": "50334",
           "Spec": "Guardian",
-          "Text": "На {1} сек ви перетворюєтесь на берсерка, зменшуючи час відновлення [Оновлення] на {2}% та витрати [Залізне хутро] на {3}%\n\n{FFFFFFFF|Поєднується з іншими здібностями категорії \"Берсерк\".}"
+          "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}% and cost of Ironfur by {3}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
         }
       ]
     },
     {
       "Hash": 1020366358,
-      "Name": "|cffffffffБерсерк: Руйнування|r",
+      "Name": "|cffffffffBerserk: Ravage|r",
       "Descriptions": [
         {
           "Hash": 2729219570,
           "Id": "50334",
           "Spec": "Guardian",
-          "Text": "Впадаєте у тісну на {1} сек, зменшуючи час відновлення Розрив, Хлист і Рев на {2}%.\n\n{FFFFFFFF|Комбінується з іншими здібностями Берсерка.}"
+          "Text": "Go berserk for {1} sec, reducing the cooldowns of Mangle, Thrash, and Growl by {2}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
         }
       ]
     },
     {
       "Hash": 3825050732,
-      "Name": "|cffffffffБерсерк: Нестримна Агресія|r",
+      "Name": "|cffffffffBerserk: Unchecked Aggression|r",
       "Descriptions": [
         {
           "Hash": 185787842,
           "Id": "50334",
           "Spec": "Guardian",
-          "Text": "Ви стаєте несамовитими на {1} сек, ваша Швидкість збільшується на {2}%, а вартість використання [Калатало] зменшується на {3}%.\n\n{FFFFFFFF|Комбінується з іншими здібностями несамовитості.}"
+          "Text": "Go berserk for {1} sec, increasing haste by {2}%, and reducing the rage cost of Maul by {3}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
         }
       ]
     },
     {
       "Hash": 1507098002,
-      "Name": "|cffffffffIncarnation: Вартівник Урсока|r",
+      "Name": "|cffffffffIncarnation: Guardian of Ursoc|r",
       "Descriptions": [
         {
           "Hash": 1975834207,
           "Id": "102558",
           "Spec": "Guardian",
-          "Text": "Покращена форма Ведмедя дає вам переваги Несамовитості, ваше [Калічення] б'є по {1} цілях, а  ваш макс. запас здоров'я збільшується на {2}%.\n\nДіє {3} сек. Ви можете вільно змінювати форму під час дії ефекту."
+          "Text": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, and increases maximum health by {2}%.\n\nLasts {3} sec. You may freely shapeshift in and out of this improved Bear Form for its duration.\n"
         }
       ]
     },
     {
       "Hash": 2327796120,
-      "Name": "Достаток",
+      "Name": "Abundance",
       "Descriptions": [
         {
           "Hash": 387776136,
           "Id": "207383",
           "Spec": "Restoration",
-          "Text": "За кожне активне [Омолодження] вартість [Відновлення] зменшується на {1}%, а ймовірність критичного ефекту збільшується на {2}%."
+          "Text": "For each Rejuvenation you have active, Regrowth's cost is reduced by {1}% and critical effect chance is increased by {2}%."
         }
       ]
     },
     {
       "Hash": 581996637,
-      "Name": "Керований рій",
+      "Name": "Adaptive Swarm",
       "Descriptions": [
         {
           "Hash": 541671962,
           "Id": "391888",
           "Spec": "Restoration, Feral",
-          "Text": "Керуй роєм, який зцілює {1} або завдає {2} шкоди від темної магії протягом {3} сек цілі та збільшує дієвість періодичних ефектів на неї на {4}%.\n\nПісля закінчення дії ефекту, знаходить нову ціль, переважно чергуючись між союзниками та ворогами до 3 разів."
+          "Text": "Command a swarm that heals {1} or deals {2} Shadow damage over {3} sec to a target, and increases the effectiveness of your periodic effects on them by {4}%.\n\nUpon expiration, finds a new target, preferring to alternate between friend and foe up to {5} times."
         }
       ]
     },
     {
       "Hash": 1201062393,
-      "Name": "Ефірне розпалювання",
+      "Name": "Aetherial Kindling",
       "Descriptions": [
         {
           "Hash": 4025319300,
           "Id": "327541",
           "Spec": "Balance",
-          "Text": "Застосування [Зорепад] збільшує тривалість активних Місячних і Сонячних вогнів на {1} сек, аж до {2} сек."
+          "Text": "Casting Starfall extends the duration of active Moonfires and Sunfires by {1} sec, up to {2} sec."
         }
       ]
     },
     {
       "Hash": 4114250570,
-      "Name": "Після лісової пожежі",
+      "Name": "After the Wildfire",
       "Descriptions": [
         {
           "Hash": 3419163145,
           "Id": "371905",
           "Spec": "Guardian",
-          "Text": "Кожні 200 очок гніву, витрачені вами, спричиняють вибух відновлювальної енергії, яка лікує союзників у радіусі 12 метрів на {1}."
+          "Text": "Every {1} Rage you spend causes a burst of restorative energy, healing allies within {2} yds for {3}."
         }
       ]
     },
     {
       "Hash": 662254326,
-      "Name": "Альфа-виклик",
+      "Name": "Alpha Challenge",
       "Descriptions": [
         {
           "Hash": 3750311347,
           "Id": "207017",
           "Spec": "Guardian",
-          "Text": "Ви фокусуєтесь на поточній цілі, збільшуючи вхідну шкоду по ній на {1}% на {2} сек.  Кожен окремий гравець, який завдає шкоду по цій цілі, збільшує вхідну шкоду ще на {3}%. Ефект накопичується до {4} {declension|раз|рази|разів}.\n\nВаші атаки ближнього бою оновлюють час дії [Фокусований наступ]."
+          "Text": "You focus the assault on this target, increasing their damage taken by {1}% for {2} sec.  Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\n\nYour melee attacks refresh the duration of Focused Assault."
         }
       ]
     },
     {
       "Hash": 3306689356,
-      "Name": "Жадоба альфа-хижака",
+      "Name": "Apex Predator's Craving",
       "Descriptions": [
         {
           "Hash": 1618320759,
           "Id": "391881",
           "Spec": "Feral",
-          "Text": "Шкода від [Розрив] має {1}% шанс зробити ваш наступний [Лютий укус] безплатним та він завдає максимальної шкоди."
+          "Text": "Rip damage has a {1}% chance to make your next Ferocious Bite free and deal the maximum damage."
         }
       ]
     },
     {
       "Hash": 2076867393,
-      "Name": "Водна форма",
+      "Name": "Aquatic Form",
       "Descriptions": [
         {
           "Hash": 1310226031,
           "Id": "276012",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ваша Мандрівна форма збільшує вашу швидкість плавання на {1}% і дозволяє вам дихати під водою."
+          "Text": "Your Travel Form increases your swimspeed by {1}% and allows you to breathe underwater."
         }
       ]
     },
     {
       "Hash": 596881110,
-      "Name": "Наставництво Попелястогривої",
+      "Name": "Ashamane's Guidance",
       "Descriptions": [
         {
           "Hash": 153237718,
           "Id": "391548",
           "Spec": "Feral",
-          "Text": "Ваші атаки ближнього бою мають шанс активувати [Інкарнація: Аватар Ешемейн] на {1} сек, без можливості стати непомітним в бою.\n\nЧас відновлення [Викликання духів] зменшений на {2}%, а його час дії та кількість заклинань зменшені на {3}%. [Викликання духів] має збільшений шанс використати найкраще заклинання або здібність."
+          "Text": "Your melee attacks have a chance to activate Incarnation: Avatar of Ashamane for {1} sec, without the ability to enter stealth in combat.\n\nConvoke the Spirits' cooldown is reduced by {2}% and its duration and number of spells cast is reduced by {3}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
       ]
     },
     {
       "Hash": 3466030451,
-      "Name": "Астральне причастя",
+      "Name": "Astral Communion",
       "Descriptions": [
         {
           "Hash": 596809739,
           "Id": "400636",
           "Spec": "Balance",
-          "Text": "Збільшує максимальний запас астральної сили на {1} та навчає вас закляттю [Астральне причастя]:\n\n|T611423:24|t{ffffffff|Астральне причастя}:\nГенерує {2} астральної сили. {3} сек відновлення."
+          "Text": "Increases maximum Astral Power by {1} and teaches Astral Communion:\n\n|T611423:24|t{ffffffff|Astral Communion}:\nGenerates {2} Astral Power. {3} sec cooldown.\n\n"
         }
       ]
     },
     {
       "Hash": 309348846,
-      "Name": "Астральний вплив",
+      "Name": "Astral Influence",
       "Descriptions": [
         {
           "Hash": 1941839302,
           "Id": "197524",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Збільшує радіус дії всіх ваших здібностей на {1} м."
+          "Text": "Increases the range of all of your abilities by {1} yards."
         }
       ]
     },
     {
       "Hash": 3114534919,
-      "Name": "Астральне тління",
+      "Name": "Astral Smolder",
       "Descriptions": [
         {
           "Hash": 2756210642,
           "Id": "394058",
           "Spec": "Balance",
-          "Text": "Ваші критичні удари від [Зоряний вогонь] та [Гнів] спричиняють ціль отримувати додаткові {1}% від шкоди цих заклинань протягом {2} сек."
+          "Text": "Your critical strikes from Starfire and Wrath cause the target to languish for an additional {1}% of your spell's damage over {2} sec."
         }
       ]
     },
     {
       "Hash": 1338995887,
-      "Name": "Баланс Всіх Речей",
+      "Name": "Balance of All Things",
       "Descriptions": [
         {
           "Hash": 1175904127,
           "Id": "394048",
           "Spec": "Balance",
-          "Text": "Під час Затемнення ваш шанс Критичного Удару збільшується на {1}% для заклинань таємної магії та магії природи. Цей бонус зменшується на {2}% кожні {3} сек."
+          "Text": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by {1}%, decreasing by {2}% every {3} sec."
         }
       ]
     },
     {
       "Hash": 2661550121,
-      "Name": "Дубова шкіра",
+      "Name": "Barkskin",
       "Descriptions": [
         {
           "Hash": 881793994,
           "Id": "22812",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ваша шкіра стає жорсткою як кора, зменшуючи всю шкоду, яку ви отримуєте на {1}% та не допускає затримку ваших заклинань при отриманні шкоди. Діє {2} сек.\n\nМожна використовувати під час оглушення, заморозки, паралічу, страху, сну, а також у будь-якій формі перевтілення."
+          "Text": "Your skin becomes as tough as bark, reducing all damage you take by {1}% and preventing damage from delaying your spellcasts. Lasts {2} sec.\n\nUsable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms."
         }
       ]
     },
     {
       "Hash": 2075500466,
-      "Name": "Форма Ведмедя",
+      "Name": "Bear Form",
       "Descriptions": [
         {
           "Hash": 436435549,
           "Id": "5487",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ви перевтілюєтеся у форму Ведмедя, броня збільшується на {1}%, а Витривалість на {2}%, ви отримуєте імунітет до ефектів перетворення, а також збільшується генерація загрози.\n\nПри зміні форми перевтілення звільняє вас від ефектів обмеження руху."
+          "Text": "Shapeshift into Bear Form, increasing armor by {1}% and Stamina by {2}%, granting protection from Polymorph effects, and increasing threat generation.\n\nThe act of shapeshifting frees you from movement impairing effects."
         }
       ]
     },
     {
       "Hash": 3783768447,
-      "Name": "Берсерк",
+      "Name": "Berserk",
       "Descriptions": [
         {
           "Hash": 3055904021,
           "Id": "50334",
           "Spec": "Guardian",
-          "Text": "Ви стаєте несамовитими на {1} сек, ваша Швидкість збільшується на {2}%, час відновлення [Шалена регенерація] зменшується на {3}%, [Калічення], [Шмагання] та [Гарчання] на {4}%, а вартість використання [Калатання] та [Залізне хутро] зменшується на {5}%."
+          "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, Mangle, Thrash, and Growl by {4}%, and reducing the cost of Maul and Ironfur by {5}%."
         },
         {
           "Hash": 2026772524,
           "Id": "106951",
           "Spec": "Feral",
-          "Text": "Ви стаєте несамовитим на {1} сек. Під час несамовитості:\n\nЗавершальні дії мають {2}% шанс за кожне витрачене очко комбо повернути {3} очок комбо.\n\n[Розмах] генерує {4} додаткове очко комбо.\n\n[Роздирання] та [Подрібнення] завдають шкоду, наче ви у стані непомітності."
+          "Text": "Go Berserk for {1} sec. While Berserk:\n\nFinishing moves have a {2}% chance per combo point spent to refund {3} combo points.\n\nSwipe generates {4} additional combo point.\n\nRake and Shred deal damage as though you were stealthed."
         }
       ]
     },
     {
       "Hash": 485206953,
-      "Name": "Берсерк: Шаленість",
+      "Name": "Berserk: Frenzy",
       "Descriptions": [
         {
           "Hash": 2273558302,
           "Id": "384668",
           "Spec": "Feral",
-          "Text": "Під час несамовитості ваші вміння, які генерують очки комбо, змушують ціль кровоточити на додаткові {1}% їх шкоди протягом {2} сек."
+          "Text": "During Berserk your combo point-generating abilities bleed the target for an additional {1}% of their damage over {2} sec."
         }
       ]
     },
     {
       "Hash": 4098908997,
-      "Name": "Берсерк: Серце Лева",
+      "Name": "Berserk: Heart of the Lion",
       "Descriptions": [
         {
           "Hash": 3735133107,
           "Id": "391174",
           "Spec": "Feral",
-          "Text": "Кожне витрачене очко комбо зменшує час відновлення [Несамовитість] на {1} сек."
+          "Text": "Each combo point spent reduces the cooldown of Berserk by {1} sec."
         }
       ]
     },
     {
       "Hash": 1601807321,
-      "Name": "Кроваве безумство",
+      "Name": "Blood Frenzy",
       "Descriptions": [
         {
           "Hash": 1213732468,
           "Id": "203962",
           "Spec": "Guardian",
-          "Text": "[Шмагання] також генерує {1} люті кожного разу, коли завдає шкоди."
+          "Text": "Thrash also generates {1} Rage each time it deals damage."
         }
       ]
     },
     {
       "Hash": 640921441,
-      "Name": "Криваві кігті",
+      "Name": "Bloodtalons",
       "Descriptions": [
         {
           "Hash": 2848051006,
           "Id": "319439",
           "Spec": "Feral",
-          "Text": "Коли ви використовуєте {1} різних здібностей, які генерують очки комбо, протягом {2} сек, шкода від ваших наступних {3} [Розрив] або [Лютий укус] збільшується на {4}%."
+          "Text": "When you use {1} different combo point-generating abilities within {2} sec, the damage of your next {3} Rips or Ferocious Bites is increased by {4}%."
         }
       ]
     },
     {
       "Hash": 3013535244,
-      "Name": "Колючки",
+      "Name": "Brambles",
       "Descriptions": [
         {
           "Hash": 1347277911,
           "Id": "203953",
           "Spec": "Guardian",
-          "Text": "Колючки вкривають вас, поглинаючи та повертаючи назад до {1} шкоди від кожної атаки.\n\nКоли [Дубова кора] активна, колючки також завдають {2} шкоди від магії природи всім найближчим ворогам кожні {3} сек."
+          "Text": "Sharp brambles protect you, absorbing and reflecting up to {1} damage from each attack.\n\nWhile Barkskin is active, the brambles also deal {2} Nature damage to all nearby enemies every {3} sec."
         }
       ]
     },
     {
       "Hash": 4272625492,
-      "Name": "Колюче хутро",
+      "Name": "Bristling Fur",
       "Descriptions": [
         {
           "Hash": 3355086536,
           "Id": "155835",
           "Spec": "Guardian",
-          "Text": "Ваше хутро стає дибки, змушуючи вас генерувати Лють на основі отриманої шкоди протягом {1} сек."
+          "Text": "Bristle your fur, causing you to generate Rage based on damage taken for {1} sec."
         }
       ]
     },
     {
       "Hash": 3287670891,
-      "Name": "Жорстокий розріз",
+      "Name": "Brutal Slash",
       "Descriptions": [
         {
           "Hash": 4122618641,
           "Id": "202028",
           "Spec": "Feral",
-          "Text": "Б'є всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає на {2}% збільшену шкоду ворогам з ефектами кровотечі. Завдає зменшену шкоду цілям після {3}.\n\n{FFFFFFFF|Генерує {4} очко комбо.}"
+          "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Deals reduced damage beyond {3} targets.\n\n{FFFFFFFF|Awards {4} combo point.}"
         }
       ]
     },
     {
       "Hash": 3662897795,
-      "Name": "Брунькування листя",
+      "Name": "Budding Leaves",
       "Descriptions": [
         {
           "Hash": 2840084427,
           "Id": "392167",
           "Spec": "Restoration",
-          "Text": "Зцілення від [Життєцвіт] збільшується на {1}% кожного разу, коли воно відновлює здоров'я, до {2}%. Також збільшує кінцевий об'єм зцілення від [Життєцвіт] на {3}%."
+          "Text": "Lifebloom's healing is increased by {1}% each time it heals, up to {2}%. Also increases Lifebloom's final bloom amount by {3}%."
         }
       ]
     },
     {
       "Hash": 184583096,
-      "Name": "Хижий інстинкт",
+      "Name": "Carnivorous Instinct",
       "Descriptions": [
         {
           "Hash": 905208378,
           "Id": "390902",
           "Spec": "Feral",
-          "Text": "Бонус шкоди від [Лють тигра] збільшений на {1}%."
+          "Text": "Tiger's Fury's damage bonus is increased by {1}%."
         }
       ]
     },
     {
       "Hash": 4222430547,
-      "Name": "Форма Кота",
+      "Name": "Cat Form",
       "Descriptions": [
         {
           "Hash": 1969027522,
           "Id": "768",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ви перевтілюєтесь у форму Кішки, ваша швидкість автоатак збільшується на {1}%, швидкість руху на {2}%, ви отримуєте імунітет до ефектів перетворення і отримуєте зменшену шкоду від падіння.\n\nПри перетворенні ви звільняєтесь від ефектів обмеження руху."
+          "Text": "Shapeshift into Cat Form, increasing auto-attack damage by {1}%, movement speed by {2}%, granting protection from Polymorph effects, and reducing falling damage.\n\nThe act of shapeshifting frees you from movement impairing effects."
         }
       ]
     },
     {
       "Hash": 799586318,
-      "Name": "Котяча цікавість",
+      "Name": "Cat's Curiosity",
       "Descriptions": [
         {
           "Hash": 1877784249,
           "Id": "386318",
           "Spec": "Feral",
-          "Text": "Вміння під час [Ясне мислення] повертають {1}% від їх вартості використання."
+          "Text": "Clearcast abilities generate {1}% of their Energy cost."
         }
       ]
     },
     {
       "Hash": 3764135647,
-      "Name": "Небесне вирівнювання",
+      "Name": "Celestial Alignment",
       "Descriptions": [
         {
           "Hash": 653701804,
           "Id": "383410",
           "Spec": "Balance",
-          "Text": "Вирівнює небесні тіла над цільовою зоною і завдає всім ворогам {1} од. астральної шкоди та застосовує до них [Зоряний спалах].\n\nНа {2} сек активуються обидва Затемнення та ви отримуєте {3}% Швидкості."
+          "Text": "Bring the celestial bodies into alignment over the target area, blasting all enemies for {1} Astral damage and applying Stellar Flare to them.\n\nFor {2} sec, both Eclipses are maintained and you gain {3}% haste."
         },
         {
           "Hash": 4176584083,
           "Id": "383410",
           "Spec": "Balance",
-          "Text": "Небесні тіла вирівнюються, зберігаючи обидва Затемнення та надаючи {1}% Швидкості на {2} сек."
+          "Text": "Celestial bodies align, maintaining both Eclipses and granting {1}% haste for {2} sec."
         }
       ]
     },
     {
       "Hash": 3287511192,
-      "Name": "Небесний Вартовий",
+      "Name": "Celestial Guardian",
       "Descriptions": [
         {
           "Hash": 633835467,
           "Id": "233754",
           "Spec": "Balance",
-          "Text": "Форма Ведмедя зменшує вхідну магічну шкоду на {1}% і тепер ви можете використовувати [Місячне полум'я] у цій формі."
+          "Text": "Bear Form reduces magic damage taken from spells by {1}% and you may now cast Moonfire while in Bear Form."
         }
       ]
     },
     {
       "Hash": 1944467402,
-      "Name": "Захист Кенарія",
+      "Name": "Cenarion Ward",
       "Descriptions": [
         {
           "Hash": 3305467991,
           "Id": "102351",
           "Spec": "Restoration",
-          "Text": "Захищає союзника протягом {1} сек. Будь-яка отримана шкода використовує оберіг та лікує ціль протягом {3} сек на {2} од. здоров'я."
+          "Text": "Protects a friendly target for {1} sec. Any damage taken will consume the ward and heal the target for {2} over {3} sec."
         }
       ]
     },
     {
       "Hash": 1772931334,
-      "Name": "Наставництво Кенарія",
+      "Name": "Cenarius' Guidance",
       "Descriptions": [
         {
           "Hash": 575999173,
           "Id": "393371",
           "Spec": "Restoration",
-          "Text": "Втілення: Дерево Життя\nПід час [Втілення: Дерево Життя] ви отримуєте [Ясне мислення] кожні {1} сек. Час відновлення [Втілення: Дерево Життя] скорочується на {2} сек, коли [Життєцвіт] цвіте, та на {3} сек, коли початковий загальний ефект лікування [Відновлення] критує по цілі.\n\nВикликання"
+          "Text": "|T236157:24|t {ffffffff|Incarnation: Tree of Life}\nDuring Incarnation: Tree of Life, you gain Clearcasting every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Lifebloom blooms and {3} sec when Regrowth's initial heal critically strikes.\n\n|T3636839:24|t {ffffffff|Convoke the Spirits}\nConvoke the Spirits' cooldown is reduced by {4}% and its duration and number of spells cast is reduced by {5}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
       ]
     },
     {
       "Hash": 2140781295,
-      "Name": "Заряджальний удар",
+      "Name": "Charging Bash",
       "Descriptions": [
         {
           "Hash": 2545925432,
           "Id": "228431",
           "Spec": "Guardian",
-          "Text": "Збільшує радіус дії вашої [Лобова атака] на {1} м."
+          "Text": "Increases the range of your Skull Bash by {1} yards."
         }
       ]
     },
     {
       "Hash": 3293588517,
-      "Name": "Коло життя і смерті",
+      "Name": "Circle of Life and Death",
       "Descriptions": [
         {
           "Hash": 3920619608,
           "Id": "391969, 400320",
           "Spec": "Restoration, Feral, Guardian",
-          "Text": "Ваші періодичні ефекти завдають свою шкоду на {1}% швидше, а ефекти з  періодичним відновленням здоров'я - на {2}% швидше."
+          "Text": "Your damage over time effects deal their damage in {1}% less time, and your healing over time effects in {2}% less time."
         }
       ]
     },
     {
       "Hash": 1178509455,
-      "Name": "Викликання духів",
+      "Name": "Convoke the Spirits",
       "Descriptions": [
         {
           "Hash": 1210615834,
           "Id": "391528",
           "Spec": "Balance",
-          "Text": "Закликає Нічну фею для викиду енергії, що спричинить швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Зоряний сплеск], [Зорепад], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
+          "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Starsurge, Starfall, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
         },
         {
           "Hash": 4015461449,
           "Id": "391528",
           "Spec": "Restoration",
-          "Text": "Закликає Нічну Фею для викиду енергії, що спричинить швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Дикий Ріст], [Швидке відновлення], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
+          "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
         },
         {
           "Hash": 3217386639,
           "Id": "391528",
           "Spec": "Feral",
-          "Text": "Закликає Нічну Фею для викиду енергії, що спричинить швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Дикий Ріст], [Швидке відновлення], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
+          "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Ferocious Bite, Shred, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
         },
         {
           "Hash": 6053085,
           "Id": "391528",
           "Spec": "Guardian",
-          "Text": "Закликає Нічну Фею для викиду енергії, що спричинить швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Дикий Ріст], [Швидке відновлення], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
+          "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Mangle, Ironfur, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
         }
       ]
     },
     {
       "Hash": 3551912094,
-      "Name": "Космічна швидкість",
+      "Name": "Cosmic Rapidity",
       "Descriptions": [
         {
           "Hash": 1603290527,
           "Id": "400059",
           "Spec": "Balance",
-          "Text": "Ваші [Місячний вогонь], [Сонячний вогонь] та [Зоряний сплеск] завдають шкоду на {1}% швидше."
+          "Text": "Your Moonfire, Sunfire, and Stellar Flare deal damage {1}% faster."
         }
       ]
     },
     {
       "Hash": 4058442001,
-      "Name": "Опік півмісяця",
+      "Name": "Crescent Burn",
       "Descriptions": [
         {
           "Hash": 1330365949,
           "Id": "200567",
           "Spec": "Balance",
-          "Text": "Використання [Місячний вогонь] на цілі, яка вже постраждала від шкоди [Місячний вогонь], наносить додатково {1}% шкоди."
+          "Text": "Using Moonfire on a target already afflicted by Moonfire's damage over time effect deals {1}% additional direct damage."
         }
       ]
     },
     {
       "Hash": 320931220,
-      "Name": "Культивація",
+      "Name": "Cultivation",
       "Descriptions": [
         {
           "Hash": 2844184863,
           "Id": "200390",
           "Spec": "Restoration",
-          "Text": "Коли [Омолодження] лікує ціль з менше ніж {1}% здоров'я, воно застосовує [Культивація] до цілі, лікуючи її на {2} протягом {3} сек."
+          "Text": "When Rejuvenation heals a target below {1}% health, it applies Cultivation to the target, healing them for {2} over {3} sec."
         }
       ]
     },
     {
       "Hash": 2241085847,
-      "Name": "Циклон",
+      "Name": "Cyclone",
       "Descriptions": [
         {
           "Hash": 3557048335,
           "Id": "33786",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Підіймає ворожу ціль у повітря, дезорієнтуючи та роблячи невразливою протягом {1} сек. Одночасно лише одна ціль може бути під впливом [Циклон]."
+          "Text": "Tosses the enemy target into the air, disorienting them but making them invulnerable for up to {1} sec. Only one target can be affected by your Cyclone at a time."
         }
       ]
     },
     {
       "Hash": 841626134,
-      "Name": "Спринт",
+      "Name": "Dash",
       "Descriptions": [
         {
           "Hash": 2744214499,
           "Id": "1850",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Перевтілюєтесь в форму кота та збільшуєте свою швидкість руху на {1}% протягом {2} сек."
+          "Text": "Shift into Cat Form and increase your movement speed by {1}% while in Cat Form for {2} sec."
         }
       ]
     },
     {
       "Hash": 3483337324,
-      "Name": "Глибинний фокус",
+      "Name": "Deep Focus",
       "Descriptions": [
         {
           "Hash": 3881921983,
           "Id": "403949",
           "Spec": "Restoration",
-          "Text": "Коли вміння [Місячне полум'я], [Роздирання], [Розрив] або [Омолодження] діють на одну ціль, їх ефективність збільшується на {1}%."
+          "Text": "When Moonfire, Rake, Rip, or Rejuvenation are active on a single target, their effects are increased {1}%."
         }
       ]
     },
     {
       "Hash": 2338164375,
-      "Name": "Глибокі корені",
+      "Name": "Deep Roots",
       "Descriptions": [
         {
           "Hash": 2654384571,
           "Id": "233755",
           "Spec": "Restoration, Balance",
-          "Text": "Збільшує кількість шкоди, необхідної для скасування [Заплутуюче коріння] на {1}%."
+          "Text": "Increases the amount of damage required to cancel your Entangling Roots by {1}%."
         }
       ]
     },
     {
       "Hash": 180932984,
-      "Name": "Деморалізуючий крик",
+      "Name": "Demoralizing Roar",
       "Descriptions": [
         {
           "Hash": 1400788904,
           "Id": "201664",
           "Spec": "Guardian",
-          "Text": "Деморалізує всіх ворогів у радіусі {1} м, зменшуючи шкоду, яку вони завдають вам, на {2}% протягом {3} сек."
+          "Text": "Demoralizes all enemies within {1} yards, reducing the damage they do by {2}% for {3} sec."
         }
       ]
     },
     {
       "Hash": 4073358586,
-      "Name": "Мати гнізда",
+      "Name": "Den Mother",
       "Descriptions": [
         {
           "Hash": 1568033089,
           "Id": "236180",
           "Spec": "Guardian",
-          "Text": "Ви підсилюєте союзників в радіусі {1} м, збільшуючи їх максимальний запас здоров'я на {2}%."
+          "Text": "You bolster nearby allies within {1} yards, increasing their maximum health by {2}%. "
         }
       ]
     },
     {
       "Hash": 1705320644,
-      "Name": "Мешканець Сну",
+      "Name": "Denizen of the Dream",
       "Descriptions": [
         {
           "Hash": 286608571,
           "Id": "394065",
           "Spec": "Balance",
-          "Text": "Ваш [Місячний вогонь] та [Сонячний вогонь] мають шанс викликати Фею-Дракона, який допомагатиме вам у битві протягом {1} сек."
+          "Text": "Your Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for {1} sec."
         }
       ]
     },
     {
       "Hash": 1637673696,
-      "Name": "Розгортання",
+      "Name": "Disentanglement",
       "Descriptions": [
         {
           "Hash": 3800088687,
           "Id": "233673",
           "Spec": "Restoration",
-          "Text": "[Розквіт] знімає всі негативні ефекти з дружніх цілей під час зцілення."
+          "Text": "Efflorescence removes all snare effects from friendly targets when it heals."
         }
       ]
     },
     {
       "Hash": 484324775,
-      "Name": "Двійне поранення",
+      "Name": "Double-Clawed Rake",
       "Descriptions": [
         {
           "Hash": 1245011776,
           "Id": "391700",
           "Spec": "Feral",
-          "Text": "[Роздирання] також застосовує [Роздирання] на {1} додаткову ціль поряд."
+          "Text": "Rake also applies Rake to {1} additional nearby target."
         }
       ]
     },
     {
       "Hash": 2997970000,
-      "Name": "Жахлива кровотеча",
+      "Name": "Dreadful Bleeding",
       "Descriptions": [
         {
           "Hash": 4002299322,
           "Id": "391045",
           "Spec": "Feral",
-          "Text": "Шкода від [Розрив] збільшена на {1}%."
+          "Text": "Rip damage increased by {1}%."
         }
       ]
     },
     {
       "Hash": 134013440,
-      "Name": "Сон Кенарія",
+      "Name": "Dream of Cenarius",
       "Descriptions": [
         {
           "Hash": 1807766430,
           "Id": "372119",
           "Spec": "Guardian",
-          "Text": "Коли ви отримуєте неперіодичну шкоду, ви маєте шанс, рівний вашому шансу Критичного Удару, зробити ваше наступне [Відновлення] потужнішим на {1}%, миттєвим та безплатним. Його можна буде використати у будь-якій формі протягом {2} сек.\n\nЦей ефект не може спрацювати більше ніж раз в {3} сек."
+          "Text": "When you take non-periodic damage, you have a chance equal to your critical strike to cause your next Regrowth to heal for an additional {1}%, and to be instant, free, and castable in all forms for {2} sec. \n\nThis effect cannot occur more than once every {3} sec."
         }
       ]
     },
     {
       "Hash": 1071055044,
-      "Name": "Стан Сну",
+      "Name": "Dreamstate",
       "Descriptions": [
         {
           "Hash": 1358310082,
           "Id": "392162",
           "Spec": "Restoration",
-          "Text": "Під час використання заклинання [Спокій], час відновлення інших заклинань Друїда зменшується до {1} сек."
+          "Text": "While channeling Tranquility, your other Druid spell cooldowns are reduced by up to {1} seconds."
         }
       ]
     },
     {
       "Hash": 2946726233,
-      "Name": "Падіння зірок",
+      "Name": "Dying Stars",
       "Descriptions": [
         {
           "Hash": 3079280543,
           "Id": "232546",
           "Spec": "Balance",
-          "Text": "[Сонячний вогонь] і [Місячний вогонь] генерують {1} Астральної Енергії, після розвіювання."
+          "Text": "Sunfire and Moonfire generate {1} Astral Power when they are dispelled."
         }
       ]
     },
     {
       "Hash": 2915934034,
-      "Name": "Рання весна",
+      "Name": "Early Spring",
       "Descriptions": [
         {
           "Hash": 308811478,
           "Id": "203624",
           "Spec": "Restoration",
-          "Text": "[Дикий ріст] тепер застосовується миттєво, а коли ви зцілюєте {1} союзників за допомогою [Дикий ріст], ви отримуєте [Повний розквіт]. Цей ефект має {2} сек відновлення.\n\n{FFFFFFFF|Повний розквіт}\nВаш наступний [Дикий ріст] застосовує [Життєцвіт] на всі цілі з {3}% ефективністю. Діє {4} сек."
+          "Text": "Wild Growth is now instant cast, and when you heal {1} allies with Wild Growth you gain Full Bloom. This effect has a {2} sec cooldown.\n\n{FFFFFFFF|Full Bloom}\nYour next Wild Growth applies Lifebloom to all targets at {3}% effectiveness. Lasts for {4} sec."
         }
       ]
     },
     {
       "Hash": 2809475724,
-      "Name": "Земляний щит",
+      "Name": "Earthwarden",
       "Descriptions": [
         {
           "Hash": 2557250609,
           "Id": "203974",
           "Spec": "Guardian",
-          "Text": "Коли ви завдаєте прямої шкоди за допомогою [Шмагання], ви отримуєте заряд [Земний наглядач], який зменшує шкоду від наступної вхідної атаки на {1}%. [Земний наглядач] може накопичуватися до {2} зарядів."
+          "Text": "When you deal direct damage with Thrash, you gain a charge of Earthwarden, reducing the damage of the next auto attack you take by {1}%. Earthwarden may have up to {2} charges."
         }
       ]
     },
     {
       "Hash": 3813356828,
-      "Name": "Затемнення",
+      "Name": "Eclipse",
       "Descriptions": [
         {
           "Hash": 3997857937,
           "Id": "79577",
           "Spec": "Balance",
-          "Text": "Використавши [Зоряний вогонь] {1} {declension|раз|рази|разів} ви підсилюєте [Гнів] на {2} сек. Використавши [Гнів] {3} {declension|раз|рази|разів} ви підсилюєте [Зоряний вогонь] на {4} сек.\n\n|T236152:24|t {ffffffff|Затемнення (Сонячне)}\nЗаклинання природи завдають {5}% додаткової шкоди, а шкода від [Гнів] збільшена на {6}%.\n\n|T236151:24|t {ffffffff|Затемнення (Місячне)}\nЗаклинання таємної магії завдають {7}% додаткової шкоди, а шкода, яку [Зоряний вогонь] завдає ворогам поблизу, збільшена на {8}%."
+          "Text": "Casting {1} Starfires empowers Wrath for {2} sec. Casting {3} Wraths empowers Starfire for {4} sec.\n\n|T236152:24|t {ffffffff|Eclipse (Solar)}\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\n\n|T236151:24|t {ffffffff|Eclipse (Lunar)}\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
         }
       ]
     },
     {
       "Hash": 2667113284,
-      "Name": "Розквіт",
+      "Name": "Efflorescence",
       "Descriptions": [
         {
           "Hash": 3811783304,
           "Id": "145205",
           "Spec": "Restoration",
-          "Text": "На місці цілі з'являється цвіт лікування, що відновлює {1} од. здоров'я трьом пораненим союзникам в радіусі {2} м кожні {3} сек протягом {4} сек. Обмеження - {5}."
+          "Text": "Grows a healing blossom at the target location, restoring {1} health to three injured allies within {2} yards every {3} sec for {4} sec. Limit {5}."
         }
       ]
     },
     {
       "Hash": 3673855066,
-      "Name": "Фаворит Елуни",
+      "Name": "Elune's Favored",
       "Descriptions": [
         {
           "Hash": 4128480131,
           "Id": "370586",
           "Spec": "Guardian",
-          "Text": "Коли ви у формі Ведмедя, ви завдаєте на {1}% більше шкоди від таємної магії та зцілюєтесь на {2}% від всієї шкоди, завданої таємною магією."
+          "Text": "While in Bear Form, you deal {1}% increased Arcane damage, and are healed for {2}% of all Arcane damage done."
         }
       ]
     },
     {
       "Hash": 2774752517,
-      "Name": "Наставництво Елуни",
+      "Name": "Elune's Guidance",
       "Descriptions": [
         {
           "Hash": 655721354,
           "Id": "393991",
           "Spec": "Balance",
-          "Text": "[Інкарнація: Обраний Елуни] зменшує вартість [Зоряний сплеск] на {1} од. астральної сили, а вартість [Зорепад] на {2} од. астральної сили.\n\nЧас відновлення [Викликання духів] зменшений на {3}%, а його час дії та кількість заклинань зменшені на {4}%. [Викликання духів] має збільшений шанс використати найкраще заклинання або здібність."
+          "Text": "Incarnation: Chosen of Elune reduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\n\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
       ]
     },
     {
       "Hash": 734122618,
-      "Name": "Обійми Сну",
+      "Name": "Embrace of the Dream",
       "Descriptions": [
         {
           "Hash": 1718066967,
           "Id": "392124",
           "Spec": "Restoration",
-          "Text": "[Дикий ріст] має {1}% шанс миттєво перевести ваші думки у Смарагдовий Сон, миттєво зцілюючи всіх союзників, на яких діє ваше [Омолодження] або [Відновлення] на {2} здоров'я."
+          "Text": "Wild Growth has a {1}% chance to momentarily shift your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for {2}."
         }
       ]
     },
     {
       "Hash": 3504237968,
-      "Name": "Смарагдовий Сон",
+      "Name": "Emerald Slumber",
       "Descriptions": [
         {
           "Hash": 1220364116,
           "Id": "329042",
           "Spec": "Guardian",
-          "Text": "Ви занурюєтесь у Смарагдовий Сон на {1} сек. Поки ви спите, всі інші здібності відновлюються на {2}% швидше, всі союзники у радіусі {3} м зцілюються на {4} кожні {5} сек.\n\nЗаподіяна пряма шкода може вас розбудити."
+          "Text": "Embrace the Emerald Dream, causing you to enter a deep slumber for {1} sec. While sleeping, all other cooldowns recover {2}% faster, and allies within {3} yds are healed for {4} every {5} sec.\n\nDirect damage taken may awaken you."
         }
       ]
     },
     {
       "Hash": 3130730988,
-      "Name": "Переплутування кори",
+      "Name": "Entangling Bark",
       "Descriptions": [
         {
           "Hash": 2147658120,
           "Id": "247543",
           "Spec": "Restoration",
-          "Text": "[Залізна кора] тепер також дає цілі [Хватка природи], укорінюючи перших {1} атакуючих у ближньому бою ворогів на {2} сек."
+          "Text": "Ironbark now also grants the target Nature's Grasp, rooting the first {1} melee attackers for {2} sec."
         }
       ]
     },
     {
       "Hash": 3384069719,
-      "Name": "Обплутування кігтів",
+      "Name": "Entangling Claws",
       "Descriptions": [
         {
           "Hash": 1182463431,
           "Id": "202226",
           "Spec": "Guardian",
-          "Text": "[Переплутування коренів] це тепер миттєве заклинання з {1} сек відновленням, але з дистанцією дії {2} м. Воно може бути використане у формах перевтілення."
+          "Text": "Entangling Roots is now an instant cast spell with a {1} second cooldown but with a {2} yard range. It can also be cast while in shapeshift forms."
         }
       ]
     },
     {
       "Hash": 3658634925,
-      "Name": "Заплутуючі Корені",
+      "Name": "Entangling Roots",
       "Descriptions": [
         {
           "Hash": 3462946313,
           "Id": "339",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Закорінює ціль на місці протягом {1} сек. Шкода може скасувати ефект."
+          "Text": "Roots the target in place for {1} sec. Damage may cancel the effect."
         }
       ]
     },
     {
       "Hash": 1840710585,
-      "Name": "Феєричний рій",
+      "Name": "Faerie Swarm",
       "Descriptions": [
         {
           "Hash": 1860722765,
           "Id": "209749",
           "Spec": "Balance",
-          "Text": "Вражає ціль феями, обеззброюючи ворога, запобігаючи використанню будь-якої зброї або щита, а також зменшує швидкість руху цілі на {1}% на {2} сек."
+          "Text": "Swarms the target with Faeries, disarming the enemy, preventing the use of any weapons or shield and reducing movement speed by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 2961619862,
-      "Name": "Котячий Адепт",
+      "Name": "Feline Adept",
       "Descriptions": [
         {
           "Hash": 3356006394,
           "Id": "300349",
           "Spec": "Feral",
-          "Text": "[Угамування] та [Зняття псування] можуть бути використані у формі Кішки."
+          "Text": "Soothe and Remove Corruption are usable in Cat Form."
         }
       ]
     },
     {
       "Hash": 185878954,
-      "Name": "Котяча прудкість",
+      "Name": "Feline Swiftness",
       "Descriptions": [
         {
           "Hash": 2839343986,
           "Id": "131768",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Збільшує швидкість руху на {1}%."
+          "Text": "Increases your movement speed by {1}%."
         }
       ]
     },
     {
       "Hash": 3268235507,
-      "Name": "Дике безумство",
+      "Name": "Feral Frenzy",
       "Descriptions": [
         {
           "Hash": 2415671010,
           "Id": "274837",
           "Spec": "Feral",
-          "Text": "Вивільняє несамовиту лють, завдаючи вашій цілі {1} {declension|раз|рази|разів} {2} фізичної шкоди та додатково {3} шкоди від кровотечі протягом {4} сек.\n\n{FFFFFFFF|Дає {5} оч. комбо.}"
+          "Text": "Unleash a furious frenzy, clawing your target {1} times for {2} Physical damage and an additional {3} Bleed damage over {4} sec.\n\n{FFFFFFFF|Awards {5} combo points.}"
         }
       ]
     },
     {
       "Hash": 213314986,
-      "Name": "Дикий інстинкт",
+      "Name": "Feral Instinct",
       "Descriptions": [
         {
           "Hash": 1921076670,
           "Id": "16949",
           "Spec": "Feral",
-          "Text": "Зменшує шанс того, що вороги знайдуть вас, коли ваш [Тихий рух] активний."
+          "Text": "Reduces the chance enemies have to detect you while Prowl is active."
         }
       ]
     },
     {
       "Hash": 2154797511,
-      "Name": "Дикий Укус",
+      "Name": "Ferocious Bite",
       "Descriptions": [
         {
           "Hash": 1902692433,
           "Id": "22568",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Завершальний удар, який завдає фізичну шкоду за кожне очко комбо та витрачає до {1} од. додаткової енергії, щоб збільшити цю шкоду ще до {2}%.\n\n   {3} очко: {4} од. шкоди\n   {5} очок: {6} од. шкоди\n   {7} очки: {8} од. шкоди\n   {9} очки: {10} од. шкоди\n   {11} очок: {12} од. шкоди"
+          "Text": "Finishing move that causes Physical damage per combo point and consumes up to {1} additional Energy to increase damage by up to {2}%.\n\n   {3} point  : {4} damage\n   {5} points: {6} damage\n   {7} points: {8} damage\n   {9} points: {10} damage\n   {11} points: {12} damage"
         }
       ]
     },
     {
       "Hash": 1219781779,
-      "Name": "Тяжке Поранення",
+      "Name": "Ferocious Wound",
       "Descriptions": [
         {
           "Hash": 4007589391,
           "Id": "236020",
           "Spec": "Feral",
-          "Text": "Атакуючи за допомогою [Лютий укус] з {1} оч. комбо, ви зменшуєте макс. запас здоров'я цілі до {2}% на {3} сек, накопичуючись до {4} разів. [Тяжке поранення] може бути активне на кожній цілі лише 1 раз."
+          "Text": "Attacking with a {1} combo point Ferocious Bite reduces the target's maximum health by up to {2}% for {3} sec, stacking up to {4} times. Ferocious Wound can only be active on one target at once."
         }
       ]
     },
     {
       "Hash": 1064559206,
-      "Name": "Спалах ясності",
+      "Name": "Flash of Clarity",
       "Descriptions": [
         {
           "Hash": 988961254,
           "Id": "392220",
           "Spec": "Restoration",
-          "Text": "[Відновлення] під час дії [Чистий розум] зцілює додатково на {1}%."
+          "Text": "Clearcast Regrowths heal for an additional {1}%."
         }
       ]
     },
     {
       "Hash": 875610196,
-      "Name": "Блискавичні кігті",
+      "Name": "Flashing Claws",
       "Descriptions": [
         {
           "Hash": 2568559509,
           "Id": "393427",
           "Spec": "Guardian",
-          "Text": "[Шмагання] має {1}% шанс активувати ще одне [Шмагання]."
+          "Text": "Thrash has a {1}% chance to trigger an additional Thrash."
         }
       ]
     },
     {
       "Hash": 2592694575,
-      "Name": "Форма Польоту",
+      "Name": "Flight Form",
       "Descriptions": [
         {
           "Hash": 2034399558,
           "Id": "276029",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ваша Мандрівна Форма дозволяє вам літати та збільшує вашу швидкість руху на {1}%."
+          "Text": "Your Travel Form allows you to fly and increases your movement speed by {1}%."
         }
       ]
     },
     {
       "Hash": 2446089535,
-      "Name": "Процвітання",
+      "Name": "Flourish",
       "Descriptions": [
         {
           "Hash": 697595085,
           "Id": "197721",
           "Spec": "Restoration",
-          "Text": "Збільшує тривалість всіх ваших ефектів лікування з плином часу на союзників в радіусі {1} м на {2} сек і збільшує швидкість вашого лікування з плином часу на {3}% протягом {4} сек."
+          "Text": "Extends the duration of all of your heal over time effects on friendly targets within {1} yards by {2} sec, and increases the rate of your heal over time effects by {3}% for {4} sec."
         }
       ]
     },
     {
       "Hash": 1514461650,
-      "Name": "Сконцентрований Ріст",
+      "Name": "Focused Growth",
       "Descriptions": [
         {
           "Hash": 1396952640,
           "Id": "203553",
           "Spec": "Restoration",
-          "Text": "Зменшує витрати мани [Життєцвіт] на {1}%, а також [Життєцвіт] надає цілі [Сконцентрований ріст], що збільшує лікування на {2}%. Можна накласти до {3} разів."
+          "Text": "Reduces the mana cost of your Lifebloom by {1}%, and your Lifebloom also applies Focused Growth to the target, increasing Lifebloom's healing by {2}%. Stacks up to {3} times."
         }
       ]
     },
     {
       "Hash": 2422903110,
-      "Name": "Сила природи",
+      "Name": "Force of Nature",
       "Descriptions": [
         {
           "Hash": 132746530,
           "Id": "205636",
           "Spec": "Balance",
-          "Text": "Викликає {1} Древнів на {2} сек, які миттєво провокують та атакують ворогів у вказаній області.\n\n{FFFFFFFF|Генерує {3} од. астральної сили.}"
+          "Text": "Summons a stand of {1} Treants for {2} sec which immediately taunt and attack enemies in the targeted area.\n\n{FFFFFFFF|Generates {3} Astral Power.}"
         }
       ]
     },
     {
       "Hash": 2847953072,
-      "Name": "Лісова течія",
+      "Name": "Forest's Flow",
       "Descriptions": [
         {
           "Hash": 1128642355,
           "Id": "400531",
           "Spec": "Restoration",
-          "Text": "[Підживлення] продовжує тривалість ваших ефектів [Життєцвіт], [Омолодження], [Відновлення] та [Дикий ріст] на цілі на {1} сек."
+          "Text": "Nourish extends the duration of your Lifebloom, Rejuvenation, Regrowth, and Wild Growth effects on the target by {1} sec."
         }
       ]
     },
     {
       "Hash": 2043047534,
-      "Name": "Лісова прогулянка",
+      "Name": "Forestwalk",
       "Descriptions": [
         {
           "Hash": 1247002531,
           "Id": "400129",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Застосування [Відновлення] збільшує вашу швидкість руху та вхідне зцілення на {1}% протягом {2} сек."
+          "Text": "Casting Regrowth increases your movement speed and healing received by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 2718734671,
-      "Name": "Шалений імпульс",
+      "Name": "Frantic Momentum",
       "Descriptions": [
         {
           "Hash": 3988401703,
           "Id": "391875",
           "Spec": "Feral",
-          "Text": "Завершальні атаки мають {1}% шанс за кожне витрачене очко комбо дати {2}% Швидкості на {3} сек."
+          "Text": "Finishing moves have a {1}% chance per combo point spent to grant {2}% Haste for {3} sec."
         }
       ]
     },
     {
       "Hash": 333413162,
-      "Name": "Вільне Стадо",
+      "Name": "Freedom of the Herd",
       "Descriptions": [
         {
           "Hash": 1776853347,
           "Id": "213200",
           "Spec": "Feral, Guardian",
-          "Text": "Ваш [Тупітний рев] прибирає всі корені та сповільнення з вас та союзників."
+          "Text": "Your Stampeding Roar clears all roots and snares from yourself and allies."
         }
       ]
     },
     {
       "Hash": 1719406842,
-      "Name": "Шалена регенерація",
+      "Name": "Frenzied Regeneration",
       "Descriptions": [
         {
           "Hash": 2510292034,
           "Id": "22842",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Відновлює {1}% здоров'я протягом {2} сек."
+          "Text": "Heals you for {1}% health over {2} sec, and increases healing received by {3}%."
         }
       ]
     },
     {
       "Hash": 3059323257,
-      "Name": "Свіжа Рана",
+      "Name": "Fresh Wound",
       "Descriptions": [
         {
           "Hash": 257740477,
           "Id": "203224",
           "Spec": "Feral",
-          "Text": "[Роздирання] має на {1}% збільшений критичний шанс, якщо було використане проти цілі, яка ще не має на собі ефект [Роздирання]."
+          "Text": "Rake has a {1}% increased critical strike chance if used on a target that doesnt already have Rake active."
         }
       ]
     },
     {
       "Hash": 864418947,
-      "Name": "Друг фей",
+      "Name": "Friend of the Fae",
       "Descriptions": [
         {
           "Hash": 3401839628,
           "Id": "394081",
           "Spec": "Balance",
-          "Text": "Коли Фея-Дракон була викликана, ваша шкода від таємної магії та магії природи збільшена на {1}% на {2} сек."
+          "Text": "When a Faerie Dragon is summoned, your Arcane and Nature damage is increased by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 1732391292,
-      "Name": "Лідер зграї",
+      "Name": "Front of the Pack",
       "Descriptions": [
         {
           "Hash": 1454710558,
           "Id": "377835",
           "Spec": "Guardian",
-          "Text": "Радіус та час дії [Тупітний рев] збільшені на {1}%.\n\nВаша швидкість руху збільшена на {2}%."
+          "Text": "Stampeding Roar's radius and duration are increased by {1}%.\n\nYour movement speed is increased by {2}%."
         }
       ]
     },
     {
       "Hash": 2262662170,
-      "Name": "Зростання Грибів",
+      "Name": "Fungal Growth",
       "Descriptions": [
         {
           "Hash": 229002623,
           "Id": "392999",
           "Spec": "Balance",
-          "Text": "Вороги, вражені [Дикий гриб], отримують додатково {1}% шкоди протягом {2} сек та сповільнюються на {3}%."
+          "Text": "Enemies struck by Wild Mushrooms are damaged for an additional {1}% over {2} sec and slowed by {3}%."
         }
       ]
     },
     {
       "Hash": 740600257,
-      "Name": "Лють Елуни",
+      "Name": "Fury of Elune",
       "Descriptions": [
         {
           "Hash": 3632033178,
           "Id": "202770",
           "Spec": "Balance",
-          "Text": "Викликає промінь чистої небесної енергії, який переслідує ворога, завдаючи до {1} од. астральної шкоди протягом {2} сек у своїй області дії. Ця шкода зменшується по вторинних цілях.\n\n{FFFFFFFF|Генерує {3} од. астральної сили протягом свого часу дії.}"
+          "Text": "Calls down a beam of pure celestial energy that follows the enemy, dealing up to {1} Astral damage over {2} sec within its area. Damage reduced on secondary targets.\n\n{FFFFFFFF|Generates {3} Astral Power over its duration.}"
         }
       ]
     },
     {
       "Hash": 632540084,
-      "Name": "Лють природи",
+      "Name": "Fury of Nature",
       "Descriptions": [
         {
           "Hash": 2191915324,
           "Id": "370695",
           "Spec": "Guardian",
-          "Text": "Коли ви у ведмежій формі, ви завдаєте на {1}% більше астральної шкоди."
+          "Text": "While in Bear Form, you deal {1}% increased Arcane damage."
         }
       ]
     },
     {
       "Hash": 387611448,
-      "Name": "Галактичний захисник",
+      "Name": "Galactic Guardian",
       "Descriptions": [
         {
           "Hash": 2040525058,
           "Id": "203964",
           "Spec": "Guardian",
-          "Text": "Ваша шкода має {1}% шанс активувати безплатний автоматичний [Місячний вогонь] на вашій цілі.\n\nКоли це відбувається, наступний [Місячний вогонь] генерує {2} люті, та завдає на {3}% збільшену пряму шкоду."
+          "Text": "Your damage has a {1}% chance to trigger a free automatic Moonfire on that target. \n\nWhen this occurs, the next Moonfire you cast generates {2} Rage, and deals {3}% increased direct damage."
         }
       ]
     },
     {
       "Hash": 3944016355,
-      "Name": "Шквальний вітер",
+      "Name": "Gale Winds",
       "Descriptions": [
         {
           "Hash": 3216268565,
           "Id": "400142",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Збільшує радіус [Тайфун] на {1}% та дальність на {2} м."
+          "Text": "Increases Typhoon's radius by {1}% and its range by {2} yds."
         }
       ]
     },
     {
       "Hash": 1912536860,
-      "Name": "Пророщування",
+      "Name": "Germination",
       "Descriptions": [
         {
           "Hash": 260489423,
           "Id": "155675",
           "Spec": "Restoration",
-          "Text": "Ви можете застосувати [Омолодження] двічі на одну ціль. Тривалість [Омолодження] збільшується на {1} сек."
+          "Text": "You can apply Rejuvenation twice to the same target. Rejuvenation's duration is increased by {1} sec."
         }
       ]
     },
     {
       "Hash": 257925993,
-      "Name": "Грубий удар",
+      "Name": "Gore",
       "Descriptions": [
         {
           "Hash": 3197553585,
           "Id": "210706",
           "Spec": "Guardian",
-          "Text": "[Шмагання], [Розмах], [Місячний вогонь] та [Молот] мають {1}% шанс скинути час відновлення [Калічення] та змушує його згенерувати додаткові {2} люті."
+          "Text": "Thrash, Swipe, Moonfire, and Maul have a {1}% chance to reset the cooldown on Mangle, and to cause it to generate an additional {2} Rage."
         }
       ]
     },
     {
       "Hash": 2904029252,
-      "Name": "Закривавлене хутро",
+      "Name": "Gory Fur",
       "Descriptions": [
         {
           "Hash": 2011236048,
           "Id": "200854",
           "Spec": "Guardian",
-          "Text": "[Калічення] має {1}% шанс зменшити вартість вашого наступного [Залізне хутро] на {2}%."
+          "Text": "Mangle has a {1}% chance to reduce the Rage cost of your next Ironfur by {2}%."
         }
       ]
     },
     {
       "Hash": 3797081558,
-      "Name": "Захист гаю",
+      "Name": "Grove Protection",
       "Descriptions": [
         {
           "Hash": 1436845797,
           "Id": "354654",
           "Spec": "Guardian",
-          "Text": "Викликає хащу, яка захищає союзників у своїй області протягом {1} сек, зменшуючи вхідну шкоду на {2}% від ворогів, які знаходяться поза хащею."
+          "Text": "Summon a grove to protect allies in the area for {1} sec, reducing damage taken by {2}% from enemies outside the grove."
         }
       ]
     },
     {
       "Hash": 3252432292,
-      "Name": "Догляд за гаєм",
+      "Name": "Grove Tending",
       "Descriptions": [
         {
           "Hash": 1525309696,
           "Id": "383192",
           "Spec": "Restoration",
-          "Text": "[Швидке відновлення] зцілює ціль на {1} од. за {2} сек."
+          "Text": "Swiftmend heals the target for {1} over {2} sec."
         }
       ]
     },
     {
       "Hash": 656596166,
-      "Name": "Гарчання",
+      "Name": "Growl",
       "Descriptions": [
         {
           "Hash": 4177245906,
           "Id": "6795",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Провокує ціль атакувати вас."
+          "Text": "Taunts the target to attack you."
         }
       ]
     },
     {
       "Hash": 429239069,
-      "Name": "Вартівник Елуни",
+      "Name": "Guardian of Elune",
       "Descriptions": [
         {
           "Hash": 3159797821,
           "Id": "155578",
           "Spec": "Guardian",
-          "Text": "[Калічення] збільшує час дії вашого наступного [Залізне хутро] на {1} сек, або зцілення від вашої наступної [Шалена регенерація] на {2}%."
+          "Text": "Mangle increases the duration of your next Ironfur by {1} sec, or the healing of your next Frenzied Regeneration by {2}%."
         }
       ]
     },
     {
       "Hash": 116470799,
-      "Name": "Гармонійне цвітіння",
+      "Name": "Harmonious Blooming",
       "Descriptions": [
         {
           "Hash": 3238577752,
           "Id": "392256",
           "Spec": "Restoration",
-          "Text": "[Життєцвіт] нараховує {1} стаки майстерності: Гармонія."
+          "Text": "Lifebloom counts for {1} stacks of Mastery: Harmony."
         }
       ]
     },
     {
       "Hash": 2385087473,
-      "Name": "Серце дикої природи",
+      "Name": "Heart of the Wild",
       "Descriptions": [
         {
           "Hash": 383748221,
           "Id": "319454",
           "Spec": "Balance",
-          "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво покращуються на {1} сек.\n\n{FFFFFFFF|Дикий:} Фізична шкода збільшена на {2}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {3}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {4} {declension|заряд|заряди|зарядів}.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшене на {5}%, а вартість здібностей за ману зменшена на {6}%."
+          "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Feral:} Physical damage increased by {2}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {3}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {4} charges.\n\n{FFFFFFFF|Restoration:} Healing increased by {5}%, and mana costs reduced by {6}%."
         },
         {
           "Hash": 2998864442,
           "Id": "319454",
           "Spec": "Guardian",
-          "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво покращуються на {1} сек.\n\n{FFFFFFFF|Баланс:} Магічна шкода збільшена на {2}%.\n\n{FFFFFFFF|Дикий:} Фізична шкода збільшена на {3}%.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшене на {4}%, а вартість здібностей за ману зменшена на {5}%."
+          "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Feral:} Physical damage increased by {3}%.\n\n{FFFFFFFF|Restoration:} Healing increased by {4}%, and mana costs reduced by {5}%."
         },
         {
           "Hash": 4012372831,
           "Id": "319454",
           "Spec": "Restoration",
-          "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво покращуються на {1} сек.\n\n{FFFFFFFF|Баланс:} Магічна шкода збільшена на {2}%.\n\n{FFFFFFFF|Дикий:} Фізична шкода збільшена на {3}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {4}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {5} {declension|заряд|заряди|зарядів}."
+          "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Feral:} Physical damage increased by {3}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {4}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {5} charges."
         },
         {
           "Hash": 864801950,
           "Id": "319454",
           "Spec": "Feral",
-          "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво покращуються на {1} сек.\n\n{FFFFFFFF|Баланс:} Магічна шкода збільшена на {2}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {3}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {4} {declension|заряд|заряди|зарядів}.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшене на {5}%, а вартість здібностей за ману зменшена на {6}%."
+          "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {3}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {4} charges.\n\n{FFFFFFFF|Restoration:} Healing increased by {5}%, and mana costs reduced by {6}%."
         }
       ]
     },
     {
       "Hash": 3070916641,
-      "Name": "Сплячка",
+      "Name": "Hibernate",
       "Descriptions": [
         {
           "Hash": 3885360181,
           "Id": "2637",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Змушує ворожу ціль заснути на {1} сек. Будь-яка шкода пробудить ціль. Лише одна ціль може бути змушена впасти в сон одночасно. Працює тільки на звірах та драконідах."
+          "Text": "Forces the enemy target to sleep for up to {1} sec.  Any damage will awaken the target.  Only one target can be forced to hibernate at a time.  Only works on Beasts and Dragonkin."
         }
       ]
     },
     {
       "Hash": 2543896352,
-      "Name": "Сильний Вітер",
+      "Name": "High Winds",
       "Descriptions": [
         {
           "Hash": 4220468116,
           "Id": "200931",
           "Spec": "Restoration, Feral, Balance",
-          "Text": "[Циклон] залишає ціль в приголомшені, зменшуючи її шкоду і лікування на {1}% протягом {2} сек."
+          "Text": "Cyclone leaves the target reeling, reducing their damage and healing by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 469121221,
-      "Name": "Вдосконалена кора",
+      "Name": "Improved Barkskin",
       "Descriptions": [
         {
           "Hash": 1357446567,
           "Id": "327993",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Тривалість [Кора] збільшується на {1} сек."
+          "Text": "Barkskin's duration is increased by {1} sec."
         }
       ]
     },
     {
       "Hash": 1476878769,
-      "Name": "Вдосконалена залізна кора",
+      "Name": "Improved Ironbark",
       "Descriptions": [
         {
           "Hash": 1452729152,
           "Id": "382552",
           "Spec": "Restoration",
-          "Text": "Перезаряджання [Залізна кора] скорочується на {1} сек."
+          "Text": "Ironbark's cooldown is reduced by {1} sec."
         }
       ]
     },
     {
       "Hash": 3021983099,
-      "Name": "Вдосконалене природне зцілення",
+      "Name": "Improved Nature's Cure",
       "Descriptions": [
         {
           "Hash": 2902813061,
           "Id": "392378",
           "Spec": "Restoration",
-          "Text": "[Ліки природи] також знімають всі прокляття та отруєння."
+          "Text": "Nature's Cure additionally removes all Curse and Poison effects."
         }
       ]
     },
     {
       "Hash": 2459418662,
-      "Name": "Вдосконалене відростання",
+      "Name": "Improved Regrowth",
       "Descriptions": [
         {
           "Hash": 988915145,
           "Id": "231032",
           "Spec": "Restoration",
-          "Text": "Початкове зцілення від [Відновлення] має збільшений на {1}% шанс критичного ефекту, якщо ціль вже знаходиться під дією [Відновлення]."
+          "Text": "Regrowth's initial heal has a {1}% increased chance for a critical effect if the target is already affected by Regrowth."
         }
       ]
     },
     {
       "Hash": 2799002389,
-      "Name": "Вдосконалене омолодження",
+      "Name": "Improved Rejuvenation",
       "Descriptions": [
         {
           "Hash": 510327364,
           "Id": "231040",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Тривалість [Омолодження] збільшується на {1} сек."
+          "Text": "Rejuvenation's duration is increased by {1} sec."
         }
       ]
     },
     {
       "Hash": 3119402755,
-      "Name": "Вдосконалений тупітний рев",
+      "Name": "Improved Stampeding Roar",
       "Descriptions": [
         {
           "Hash": 443712803,
           "Id": "288826",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Час відновлення зменшено на {1} сек."
+          "Text": "Cooldown reduced by {1} sec."
         }
       ]
     },
     {
       "Hash": 1893088050,
-      "Name": "Вдосконалений сонячний вогонь",
+      "Name": "Improved Sunfire",
       "Descriptions": [
         {
           "Hash": 204072372,
           "Id": "231050",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "[Сонячний вогонь] тепер завдає шкоди з часом всім ворогам у радіусі {1} м."
+          "Text": "Sunfire now applies its damage over time effect to all enemies within {1} yards."
         }
       ]
     },
     {
       "Hash": 1437822503,
-      "Name": "Вдосконалені інстинкти виживання",
+      "Name": "Improved Survival Instincts",
       "Descriptions": [
         {
           "Hash": 3264394493,
           "Id": "328767",
           "Spec": "Guardian",
-          "Text": "[Інстинкти виживання] мають {1} зарядів."
+          "Text": "Survival Instincts now has {1} charges.\n"
         }
       ]
     },
     {
       "Hash": 3882293561,
-      "Name": "Вдосконалений розмах",
+      "Name": "Improved Swipe",
       "Descriptions": [
         {
           "Hash": 1579217896,
           "Id": "400158",
           "Spec": "Feral",
-          "Text": "Збільшує шкоду від [Жорстокий розріз] на {1}%."
+          "Text": "Increases Brutal Slash damage by {1}%."
         },
         {
           "Hash": 82294098,
           "Id": "400158",
           "Spec": "Restoration, Guardian, Balance",
-          "Text": "Збільшує шкоду від [Вдосконалений розмах] на {1}%."
+          "Text": "Increases Swipe damage by {1}%."
         }
       ]
     },
     {
       "Hash": 4116672050,
-      "Name": "Вдосконалений дикий ріст",
+      "Name": "Improved Wild Growth",
       "Descriptions": [
         {
           "Hash": 1310881337,
           "Id": "328025",
           "Spec": "Restoration",
-          "Text": "[Дикий ріст] виліковує додатково {1} {declension|ціль|цілі|цілей}."
+          "Text": "Wild Growth heals {1} additional target."
         }
       ]
     },
     {
       "Hash": 3166310230,
-      "Name": "Дезорієнтуючий рев",
+      "Name": "Incapacitating Roar",
       "Descriptions": [
         {
           "Hash": 2843843109,
           "Id": "99",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ви переходите у форму ведмедя та пробуджуєте дух Урсола, щоб вивільнити оглушливий рик, виводячи з ладу всіх ворогів у радіусі {1} м на {2} сек. Пошкодження скасовують ефект."
+          "Text": "Shift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within {1} yards for {2} sec. Damage will cancel the effect."
         }
       ]
     },
     {
       "Hash": 517105859,
-      "Name": "Інкарнація: Аватар Попелястогривої",
+      "Name": "Incarnation: Avatar of Ashamane",
       "Descriptions": [
         {
           "Hash": 1622819627,
           "Id": "102543",
           "Spec": "Feral",
-          "Text": "Покращена форма кішки, що надає всі відомі ефекти Несамовитості та триває {1} сек. Ви можете змінити форму у покращеній формі кішки під час її дії. Під час Інкарнації:\n\nВартість енергії всіх умінь форми кішки зменшена на {2}%, а [Тихий рух] можна використовувати один раз під час бою.\n\nЗавершальні атаки мають шанс {3}% за кожне витрачене очко комбо повернути {4} оч. комбо.\n\nШкода від [Роздирання] і [Подрібнення] завдається таким чином, ніби ви у стані непомітності."
+          "Text": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\n\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\n\nFinishing moves have a {3}% chance per combo point spent to refund {4} combo points.\n\nRake and Shred deal damage as though you were stealthed."
         }
       ]
     },
     {
       "Hash": 1233468852,
-      "Name": "Інкарнація: Обранець Елуни",
+      "Name": "Incarnation: Chosen of Elune",
       "Descriptions": [
         {
           "Hash": 3981392537,
           "Id": "102560",
           "Spec": "Balance",
-          "Text": "Покращена форма місячного совуха, яка активує обидва Затемнення, будь-які вивчені бонуси від [Небесне вирівнювання], та дає {1}% шансу критичного удару.\n\nДіє {2} сек. Ви можете змінювати форму під час дії цієї покращеної форми совуха."
+          "Text": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and {1}% critical strike chance.\n\nLasts {2} sec. You may shapeshift in and out of this improved Moonkin Form for its duration."
         }
       ]
     },
     {
       "Hash": 2934425824,
-      "Name": "Інкарнація: Вартівник Урсока",
+      "Name": "Incarnation: Guardian of Ursoc",
       "Descriptions": [
         {
           "Hash": 1975834207,
           "Id": "102558",
           "Spec": "Guardian",
-          "Text": "Покращена форма ведмедя дає вам переваги Несамовитості, ваше [Калічення] б'є по {1} цілях, а  ваш макс. запас здоров'я збільшується на {2}%.\n\nДіє {3} сек. Ви можете вільно змінювати форму під час дії ефекту."
+          "Text": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, and increases maximum health by {2}%.\n\nLasts {3} sec. You may freely shapeshift in and out of this improved Bear Form for its duration.\n"
         }
       ]
     },
     {
       "Hash": 1697805055,
-      "Name": "Втілення: Дерево Життя",
+      "Name": "Incarnation: Tree of Life",
       "Descriptions": [
         {
           "Hash": 3721079656,
           "Id": "33891",
           "Spec": "Restoration",
-          "Text": "Ви переходите у форму Дерева Життя, збільшуючи зцілення на {1}%, збільшуючи Броню на {2}%, та надаючи захист від ефектів перетворення. Функціональність [Омолодження], [Дикий ріст], [Відновлення] та [Заплутуючі корені] покращена.\n\nДіє {3} сек. Ви можете змінювати форму під час дії цієї форми."
+          "Text": "Shapeshift into the Tree of Life, increasing healing done by {1}%, increasing armor by {2}%, and granting protection from Polymorph effects. Functionality of Rejuvenation, Wild Growth, Regrowth, and Entangling Roots is enhanced.\n\nLasts {3} sec. You may shapeshift in and out of this form for its duration."
         }
       ]
     },
     {
       "Hash": 1945266335,
-      "Name": "Невпинна буря",
+      "Name": "Incessant Tempest",
       "Descriptions": [
         {
           "Hash": 318843671,
           "Id": "400140",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Зменшує час відновлення [Тайфун] на {1} сек."
+          "Text": "Reduces the cooldown of Typhoon by {1} sec."
         }
       ]
     },
     {
       "Hash": 131836027,
-      "Name": "Інфіковані рани",
+      "Name": "Infected Wounds",
       "Descriptions": [
         {
           "Hash": 693941156,
           "Id": "345208",
           "Spec": "Guardian",
-          "Text": "[Калічення] та [Молот] наносять [Інфіковані рани] на ціль, зменшуючи їх швидкість руху на {1}% на {2} сек."
+          "Text": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by {1}% for {2} sec."
         },
         {
           "Hash": 1602867848,
           "Id": "48484",
           "Spec": "Feral",
-          "Text": "[Роздирання] завдає на {1}% більшу шкоду, а також наносить [Інфіковані рани] на ціль, зменшуючи її швидкість руху на {2}% на {3} сек."
+          "Text": "Rake damage increased by {1}%, and Rake causes an Infected Wound in the target, reducing the target's movement speed by {2}% for {3} sec."
         }
       ]
     },
     {
       "Hash": 3252589319,
-      "Name": "Вроджена рішучість",
+      "Name": "Innate Resolve",
       "Descriptions": [
         {
           "Hash": 990586882,
           "Id": "377811",
           "Spec": "Guardian",
-          "Text": "[Відновлення] та [Шалена регенерація] зцілюють на {1}% більше здоров'я, якщо використовуються на вас.\n\n[Шалена регенерація] має {2} додаткові заряди."
+          "Text": "Regrowth and Frenzied Regeneration healing is increased by {1}% on yourself.\n\nFrenzied Regeneration has {2} additional charge."
         }
       ]
     },
     {
       "Hash": 4101088855,
-      "Name": "Внутрішній спокій",
+      "Name": "Inner Peace",
       "Descriptions": [
         {
           "Hash": 1482168146,
           "Id": "197073",
           "Spec": "Restoration",
-          "Text": "Зменшує час відновлення [Спокій] на {1} сек.\n\nКоли ви підтримуєте [Спокій], ви отримуєте на {2}% менше шкоди та імунні до ефектів відкидання."
+          "Text": "Reduces the cooldown of Tranquility by {1} sec.\n\nWhile channeling Tranquility, you take {2}% reduced damage and are immune to knockbacks."
         }
       ]
     },
     {
       "Hash": 3848240702,
-      "Name": "Іннервація",
+      "Name": "Innervate",
       "Descriptions": [
         {
           "Hash": 1710080154,
           "Id": "29166",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Наповнює дружнього цілителя енергією, дозволяючи йому використовувати заклинання без витрат мани протягом {1} сек."
+          "Text": "Infuse a friendly healer with energy, allowing them to cast spells without spending mana for {1} sec."
         }
       ]
     },
     {
       "Hash": 4105360705,
-      "Name": "Підбадьорення",
+      "Name": "Invigorate",
       "Descriptions": [
         {
           "Hash": 4167120322,
           "Id": "392160",
           "Spec": "Restoration",
-          "Text": "Оновлює час дії ваших активних ефектів [Життєцвіт] та [Омолодження] на цілі та змушує їх діяти на {1}% швидше."
+          "Text": "Refreshes the duration of your active Lifebloom and Rejuvenation effects on the target and causes them to complete {1}% faster."
         }
       ]
     },
     {
       "Hash": 3669307669,
-      "Name": "Залізна кора",
+      "Name": "Ironbark",
       "Descriptions": [
         {
           "Hash": 101787443,
           "Id": "102342",
           "Spec": "Restoration",
-          "Text": "Шкіра цілі стає такою ж міцною, як залізне дерево, зменшуючи вхідну шкоду на {1}% протягом {2} сек."
+          "Text": "The target's skin becomes as tough as Ironwood, reducing damage taken by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 900593097,
-      "Name": "Залізне хутро",
+      "Name": "Ironfur",
       "Descriptions": [
         {
           "Hash": 1287890298,
           "Id": "192081",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Збільшує броню на {1} од. протягом {2} сек."
+          "Text": "Increases armor by {1} for {2} sec."
         }
       ]
     },
     {
       "Hash": 3725585430,
-      "Name": "Сторож Гаю",
+      "Name": "Keeper of the Grove",
       "Descriptions": [
         {
           "Hash": 2408672587,
           "Id": "353114",
           "Spec": "Restoration",
-          "Text": "[Спокій] захищає вас від всієї шкоди поки він підтримується, а його зцілення збільшене на {1}%."
+          "Text": "Tranquility protects you from all harm while it is channeled, and its healing is increased by {1}%."
         }
       ]
     },
     {
       "Hash": 3562446840,
-      "Name": "Інстинкт вбивці",
+      "Name": "Killer Instinct",
       "Descriptions": [
         {
           "Hash": 2181015712,
           "Id": "108299",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Фізична шкода та Броня збільшені на {1}%."
+          "Text": "Physical damage and Armor increased by {1}%."
         }
       ]
     },
     {
       "Hash": 2049914544,
-      "Name": "Король джунглів",
+      "Name": "King of the Jungle",
       "Descriptions": [
         {
           "Hash": 1626973583,
           "Id": "203052",
           "Spec": "Feral",
-          "Text": "За кожного ворога на якому ви маєте активний ефект [Розрив], ваша швидкість руху та вхідне зцілення збільшуються на {1}%. Накопичується {2} {declension|раз|рази|разів}."
+          "Text": "For every enemy you have Rip active on, your movement speed and healing received is increased by {1}%. Stacks {2} times."
         }
       ]
     },
     {
       "Hash": 3296791557,
-      "Name": "Багатошарова грива",
+      "Name": "Layered Mane",
       "Descriptions": [
         {
           "Hash": 2664574705,
           "Id": "384721",
           "Spec": "Guardian",
-          "Text": "[Залізне хутро] має {1}% шанс застосувати два ефекти замість одного, а [Шалена регенерація] має {2}% шанс не витратити заряд."
+          "Text": "Ironfur has a {1}% chance to apply two stacks and Frenzied Regeneration has a {2}% chance to not consume a charge."
         }
       ]
     },
     {
       "Hash": 2061095106,
-      "Name": "Ватажок зграї",
+      "Name": "Leader of the Pack",
       "Descriptions": [
         {
           "Hash": 3486109316,
           "Id": "202626",
           "Spec": "Feral",
-          "Text": "Поки ви у формі кішки, ви збільшуєте шанс критичного удару всім членам рейду у радіусі {1} м на {2}%.\n\n[Ватажок зграї] також змушує союзників зцілювати самих себе на {3}% від їх макс. запасу здоров'я, коли вони отримують критичну шкоду прямою атакою. Такі ефекти зцілення не можуть спрацювати частіше ніж один раз на {4} сек."
+          "Text": "While in Cat Form, you increase the critical chance of raid members within {1} yards by {2}%.\n\nLeader of the Pack also causes allies to heal themselves for {3}% of their maximum health when they critically hit with a direct attack. The healing effect cannot occur more than once every {4} sec."
         }
       ]
     },
     {
       "Hash": 2681790663,
-      "Name": "Життєцвіт",
+      "Name": "Lifebloom",
       "Descriptions": [
         {
           "Hash": 1658247341,
           "Id": "33763",
           "Spec": "Restoration",
-          "Text": "Відновлює {1} здоров'я цілі протягом {2} сек. Коли ефект [Життєцвіт] закінчується або знімається, цілі одразу ж відновлюється {2} здоров'я.\n\nМоже діяти лише на одну ціль одночасно."
+          "Text": "Heals the target for {1} over {2} sec. When Lifebloom expires or is dispelled, the target is instantly healed for {3}.\n\nMay be active on one target at a time."
         }
       ]
     },
     {
       "Hash": 3738842435,
-      "Name": "Сонячне світло",
+      "Name": "Light of the Sun",
       "Descriptions": [
         {
           "Hash": 473818579,
           "Id": "202918",
           "Spec": "Balance",
-          "Text": "Зменшує час відновлення [Сонячний промінь] на {1} сек, коли він перериває основну ціль."
+          "Text": "Reduces the remaining cooldown on Solar Beam by {1} sec when it interrupts the primary target."
         }
       ]
     },
     {
       "Hash": 1469804781,
-      "Name": "Блискавичні рефлекси",
+      "Name": "Lightning Reflexes",
       "Descriptions": [
         {
           "Hash": 298795293,
           "Id": "231065",
           "Spec": "Guardian",
-          "Text": "Ви отримуєте Ухилення у розмірі {1}% від вашого Критичного удару з предметів."
+          "Text": "You gain Dodge equal to {1}% of your Critical Strike from gear."
         }
       ]
     },
     {
       "Hash": 2598329829,
-      "Name": "Могутність лева",
+      "Name": "Lion's Strength",
       "Descriptions": [
         {
           "Hash": 3291965114,
           "Id": "391972",
           "Spec": "Feral",
-          "Text": "[Лютий укус] та [Розрив] завдають на {1}% більше шкоди."
+          "Text": "Ferocious Bite and Rip deal {1}% increased damage."
         }
       ]
     },
     {
       "Hash": 1136963260,
-      "Name": "Місячний промінь",
+      "Name": "Lunar Beam",
       "Descriptions": [
         {
           "Hash": 2728494799,
           "Id": "204066",
           "Spec": "Guardian",
-          "Text": "Викликає місячний промінь в вашому місці, який завдає {1} од. шкоди від таємної магії та зцілює вас на {2} протягом {3} сек."
+          "Text": "Summons a beam of lunar light at your location, dealing {1} Arcane damage and healing you for {2} over {3} sec."
         }
       ]
     },
     {
       "Hash": 202079020,
-      "Name": "Місячне натхнення",
+      "Name": "Lunar Inspiration",
       "Descriptions": [
         {
           "Hash": 1709529130,
           "Id": "155580",
           "Spec": "Feral",
-          "Text": "[Місячний вогонь] можна використовувати у формі кішки, він коштує {1} енергії та генерує {2} оч. комбо."
+          "Text": "Moonfire is usable in Cat Form, costs {1} energy, and generates {2} combo point."
         }
       ]
     },
     {
       "Hash": 3153602557,
-      "Name": "Місячна шрапнель",
+      "Name": "Lunar Shrapnel",
       "Descriptions": [
         {
           "Hash": 3125239106,
           "Id": "393868",
           "Spec": "Balance",
-          "Text": "Зірки від [Зорепад] мають шанс завдати додатково {1}% шкоди ворогам поблизу, коли вони завдають шкоду ворогові, на якого діє [Місячний вогонь]. Завдає меншу шкоду цілям після {2}."
+          "Text": "Starfall's stars have a chance to deal an additional {1}% damage to nearby enemies when they damage an enemy afflicted by Moonfire. Deals reduced damage beyond {2} targets."
         }
       ]
     },
     {
       "Hash": 4054070662,
-      "Name": "Родючий ґрунт",
+      "Name": "Luxuriant Soil",
       "Descriptions": [
         {
           "Hash": 2639516771,
           "Id": "392315",
           "Spec": "Restoration",
-          "Text": "Зцілення від [Омолодження] має {1}% шанс створити нове [Омолодження] на найближчій цілі."
+          "Text": "Rejuvenation healing has a {1}% chance to create a new Rejuvenation on a nearby target."
         }
       ]
     },
     {
       "Hash": 1523887150,
-      "Name": "Вчення Лайкари",
+      "Name": "Lycara's Teachings",
       "Descriptions": [
         {
           "Hash": 4206554786,
           "Id": "378988",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ваша певна характеристика зростає на {1}% залежно від поточної форми:\n\nБез форми: Швидкість\nФорма Кота: Критичний удар\nФорма Ведмедя: Універсальність\nФорма Місячної Сови: Майстерність"
+          "Text": "You gain {1}% of a stat while in each form:\n\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery"
         }
       ]
     },
     {
       "Hash": 1683139568,
-      "Name": "Калічення",
+      "Name": "Maim",
       "Descriptions": [
         {
           "Hash": 3002305997,
           "Id": "22570",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Завершальна атака, яка завдає фізичної шкоди та оглушає ціль. Шкода та тривалість збільшуються за кожне очко комбо:\n\n   {1} очко: {2} шкоди, {3} сек\n   {4} очка: {5} шкоди, {6} сек\n   {7} очка: {8} шкоди, {9} сек\n   {10} очка: {11} шкоди, {12} сек\n   {13} очок: {14} шкоди, {15} сек"
+          "Text": "Finishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n\n   {1} point  : {2} damage, {3} sec\n   {4} points: {5} damage, {6} sec\n   {7} points: {8} damage, {9} sec\n   {10} points: {11} damage, {12} sec\n   {13} points: {14} damage, {15} sec"
         }
       ]
     },
     {
       "Hash": 1626742849,
-      "Name": "Стрімкість Природи",
+      "Name": "Malorne's Swiftness",
       "Descriptions": [
         {
           "Hash": 3133522640,
           "Id": "236147, 236012",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ваша похідна форма дає на {1}% більше швидкості руху на Полях бою та на Арені, і ви завжди рухаєтесь з {2}% швидкістю у цій формі."
+          "Text": "Your Travel Form movement speed while within a Battleground or Arena is increased by {1}% and you always move at {2}% movement speed while in Travel Form."
         }
       ]
     },
     {
       "Hash": 1272070239,
-      "Name": "Поранення",
+      "Name": "Mangle",
       "Descriptions": [
         {
           "Hash": 3858203822,
           "Id": "33917",
           "Spec": "Guardian",
-          "Text": "Калічить ціль, завдаючи {1} фізичної шкоди. Завдає додатково {2}% шкоди цілям, які мають ефекти кровотечі.\n\n{FFFFFFFF|Генерує {3} люті.}"
+          "Text": "Mangle the target for {1} Physical damage. Deals {2}% additional damage against bleeding targets.\n\n{FFFFFFFF|Generates {3} Rage.}"
         },
         {
           "Hash": 643265281,
           "Id": "231064",
           "Spec": "Guardian",
-          "Text": "[Калічення] завдає додатково {1}% шкоди цілям, які мають ефекти кровотечі."
+          "Text": "Mangle deals {1}% additional damage against bleeding targets."
         },
         {
           "Hash": 795801254,
           "Id": "33917",
           "Spec": "Restoration, Feral, Balance",
-          "Text": "Калічить ціль, завдаючи {1} фізичної шкоди.\n\n{FFFFFFFF|Генерує {2} люті.}"
+          "Text": "Mangle the target for {1} Physical damage.\n\n{FFFFFFFF|Generates {2} Rage.}"
         }
       ]
     },
     {
       "Hash": 576377829,
-      "Name": "Знак Дикої Природи",
+      "Name": "Mark of the Wild",
       "Descriptions": [
         {
           "Hash": 4241382248,
           "Id": "1126",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Наповнює дружню ціль силою природи, збільшуючи їх Універсальність на {1}% на {2} хв.\n\nЯкщо ціль у вашій групі чи рейді, всі члени групи та рейду отримують цей бонус."
+          "Text": "Infuse a friendly target with the power of the wild, increasing their Versatility by {1}% for {2} minutes.\n\nIf target is in your party or raid, all party and raid members will be affected.\n"
         }
       ]
     },
     {
       "Hash": 2082830320,
-      "Name": "Масове заплутування",
+      "Name": "Mass Entanglement",
       "Descriptions": [
         {
           "Hash": 992623345,
           "Id": "102359",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Вкорінює ціль та всіх ворогів у радіусі {1} м на місці на {2} сек. Шкода може перервати цей ефект. Можна використовувати у будь-якій формі."
+          "Text": "Roots the target and all enemies within {1} yards in place for {2} sec. Damage may interrupt the effect. Usable in all shapeshift forms."
         }
       ]
     },
     {
       "Hash": 568047723,
-      "Name": "Майстер Перевертень",
+      "Name": "Master Shapeshifter",
       "Descriptions": [
         {
           "Hash": 3526607430,
           "Id": "236144",
           "Spec": "Guardian",
-          "Text": "Ваша Кревність з Дикістю, Балансом або Відновленням посилюється додатковим ефектом.\n\n|T236157:24|t {ffffffff|Кревність з Відновленням}\nПісля використання [Швидке відновлення], час застосування вашого [Відновлення] зменшується на {1}% та його зцілення збільшується на {2}% на {3} сек.\n\n|T236156:24|t {ffffffff|Кревність з Балансом}\nПісля того, як ви змінюєте форму на місячного совуха, час застосування вашого [Гнів] та [Зоряний вогонь] зменшується на {4}%, та їх шкода збільшується на {5}% на {6} сек.\n\n|T611425:24|t {ffffffff|Кревність з Дикістю}\nПоки ви у формі кішки, ваша шкода від ефектів кровотечі збільшується на {7}%."
+          "Text": "Your Feral, Balance or Restoration Affinity is amplified granting an additional effect.\n\n|T236157:24|t {ffffffff|Restoration Affinity}\nAfter you Swiftmend, the cast time of your Regrowth is reduced by {1}% and its healing is increased by {2}% for {3} sec.\n\n|T236156:24|t {ffffffff|Balance Affinity}\nAfter you enter Moonkin Form, the cast time of your Wrath and Starfire is reduced by {4}% and their damage is increased by {5}% for {6} sec.\n\n|T611425:24|t {ffffffff|Feral Affinity}\nWhile in Cat Form, your bleed damage is increased by {7}%."
         },
         {
           "Hash": 1547574618,
           "Id": "289237",
           "Spec": "Restoration",
-          "Text": "Ваша Кревність з Вартовим, Балансом або Дикістю посилюється додатковим ефектом.\n\n|T611424:24|t{ffffffff|Кревність з Вартовим}\nШанс того, що ви отримаєте критичну шкоду, зменшується на {1}% поки ви у формі ведмедя.\n\n|T236156:24|t {ffffffff|Кревність з Балансом}\nПісля того як ви змінюєте форму на місячного совуха, час застосування [Гнів] та [Зоряний вогонь] зменшується на {2}%, та їх шкода збільшується на {3}% на {4} сек.\n\n|T611425:24|t {ffffffff|Кревність з Дикістю}\nПоки ви у формі кішки, ваша шкода від ефектів кровотечі збільшується на {5}%."
+          "Text": "Your Guardian, Balance or Feral Affinity is amplified granting an additional effect.\n\n|T611424:24|t{ffffffff|Guardian Affinity}\nChance to be critically hit by melee attacks reduced by {1}% while in Bear Form.\n\n|T236156:24|t {ffffffff|Balance Affinity}\nAfter you enter Moonkin Form, the cast time of your Wrath and Starfire is reduced by {2}% and their damage is increased by {3}% for {4} sec.\n\n|T611425:24|t {ffffffff|Feral Affinity}\nWhile in Cat Form, your bleed damage is increased by {5}%."
         }
       ]
     },
     {
       "Hash": 4292277755,
-      "Name": "Майстерність: Астральний Виклик",
+      "Name": "Mastery: Astral Invocation",
       "Descriptions": [
         {
           "Hash": 618545313,
           "Id": "393014",
           "Spec": "Balance",
-          "Text": "Ваші заклинання магії природи завдають додатково {1}% шкоди цілям, які постраждали від [Сонячний вогонь]. Ваші заклинання таємної магії завдають додатково {2}% шкоди цілям, які постраждали від [Місячний вогонь]."
+          "Text": "Your Nature spells deal {1}% additional damage to targets affected by Sunfire. Your Arcane spells deal {2}% additional damage to targets affected by Moonfire."
         }
       ]
     },
     {
       "Hash": 2801873743,
-      "Name": "Майстерність: Гармонія",
+      "Name": "Mastery: Harmony",
       "Descriptions": [
         {
           "Hash": 1364274597,
           "Id": "77495",
           "Spec": "Restoration",
-          "Text": "Ваше зцілення збільшується на {1}% за кожен з ваших ефектів поступового зцілення на цілі."
+          "Text": "Your healing is increased by {1}% for each of your Restoration heal over time effects on the target."
         }
       ]
     },
     {
       "Hash": 274762662,
-      "Name": "Майстерність: Страж Природи",
+      "Name": "Mastery: Nature's Guardian",
       "Descriptions": [
         {
           "Hash": 573235202,
           "Id": "155783",
           "Spec": "Guardian",
-          "Text": "Збільшує ваш макс. запас здоров'я та вхідне зцілення на {1}%.\n\nТакож збільшує вашу силу атаки на {2}%."
+          "Text": "Increases your maximum health and healing received by {1}%.\n\nAlso increases your attack power by {2}%."
         }
       ]
     },
     {
       "Hash": 693152262,
-      "Name": "Майстерність: Гострі Кігті",
+      "Name": "Mastery: Razor Claws",
       "Descriptions": [
         {
           "Hash": 3535401564,
           "Id": "77493",
           "Spec": "Feral",
-          "Text": "Збільшує шкоду від здібностей з кровотечею у формі кішки та від завершальних атак на {1}%."
+          "Text": "Increases the damage done by your Cat Form bleed abilities and finishing moves by {1}%."
         }
       ]
     },
     {
       "Hash": 1812560334,
-      "Name": "Задерніле хутро",
+      "Name": "Matted Fur",
       "Descriptions": [
         {
           "Hash": 368139863,
           "Id": "385786",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Коли ви використовуєте [Дубова кора] або [Інстинкти виживання], поглинає {1} шкоди протягом {2} сек."
+          "Text": "When you use Barkskin or Survival Instincts, absorb {1} damage for {2} sec."
         }
       ]
     },
     {
       "Hash": 203993101,
-      "Name": "Молот",
+      "Name": "Maul",
       "Descriptions": [
         {
           "Hash": 763741505,
           "Id": "400254",
           "Spec": "Guardian",
-          "Text": "Молотить ціль, завдаючи їй {1} фізичної шкоди."
+          "Text": "Maul the target for {1} Physical damage."
         }
       ]
     },
     {
       "Hash": 1240235204,
-      "Name": "Безжальні кігті",
+      "Name": "Merciless Claws",
       "Descriptions": [
         {
           "Hash": 1577464951,
           "Id": "231063",
           "Spec": "Feral",
-          "Text": "[Подрібнення] завдає на {1}% більше шкоди, а [Жорстокий розріз] завдає на {2}% більше шкоди цілям, на яких діють ефекти кровотечі."
+          "Text": "Shred deals {1}% increased damage and Brutal Slash deals {2}% increased damage against bleeding targets."
         }
       ]
     },
     {
       "Hash": 2532607898,
-      "Name": "Могутній удар",
+      "Name": "Mighty Bash",
       "Descriptions": [
         {
           "Hash": 564884507,
           "Id": "5211",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Викликає дух Урсока, щоб оглушити ціль на {1} сек. Можна використовувати в будь-якій формі."
+          "Text": "Invokes the spirit of Ursoc to stun the target for {1} sec. Usable in all shapeshift forms."
         }
       ]
     },
     {
       "Hash": 412321336,
-      "Name": "Мить ясності",
+      "Name": "Moment of Clarity",
       "Descriptions": [
         {
           "Hash": 3305155136,
           "Id": "236068",
           "Spec": "Feral",
-          "Text": "[Омен ясності] тепер активується на {1}% частіше, може накопичуватися до {2} разів, та збільшує шкоду від вашого наступного [Подрібнення], [Шмагання] або [Жорстокий розріз] на {3}%."
+          "Text": "Omen of Clarity now triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Shred, Thrash, or Brutal Slash by {3}%."
         }
       ]
     },
     {
       "Hash": 248578396,
-      "Name": "Місяць і Зорі",
+      "Name": "Moon and Stars",
       "Descriptions": [
         {
           "Hash": 3422243093,
           "Id": "233750",
           "Spec": "Balance",
-          "Text": "При входженні у Затемнення, викликає промінь світла на ваше місце знаходження, надаючи вам {1}% зменшення тривалості ефектів знемовлення та переривань протягом {2} сек."
+          "Text": "Entering an Eclipse summons a beam of light at your location granting you {1}% reduction in silence and interrupts for {2} sec."
         }
       ]
     },
     {
       "Hash": 1233633935,
-      "Name": "Місячний Вогонь",
+      "Name": "Moonfire",
       "Descriptions": [
         {
           "Hash": 854255994,
           "Id": "8921",
           "Spec": "Balance",
-          "Text": "Швидкий промінь місячного світла підпалює ворога, завдаючи йому {1} од. шкоди від таємної магії та потім додатково ще {2} од. шкоди від таємної магії протягом {3} сек.\n\n{FFFFFFFF|Генерує {4} од. астральної сили.} "
+          "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\n\n{FFFFFFFF|Generates {4} Astral Power.} "
         },
         {
           "Hash": 1501151296,
           "Id": "155625",
           "Spec": "Feral",
-          "Text": "Швидкий промінь місячного світла підпалює ворога, завдаючи йому {1} од. шкоди від таємної магії та потім додатково ще {2} од. шкоди від таємної магії протягом {3} сек.\n\n{FFFFFFFF|Генерує {4} оч. комбо.}"
+          "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
         },
         {
           "Hash": 3325693184,
           "Id": "8921",
           "Spec": "Restoration, Guardian",
-          "Text": "Швидкий промінь місячного світла підпалює ворога, завдаючи йому {1} од. шкоди від таємної магії та потім додатково ще {2} од. шкоди від таємної магії протягом {3} сек."
+          "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec. "
         }
       ]
     },
     {
       "Hash": 2695390055,
-      "Name": "Аура Місячної Сови",
+      "Name": "Moonkin Aura",
       "Descriptions": [
         {
           "Hash": 3329180833,
           "Id": "209740",
           "Spec": "Balance",
-          "Text": "[Зоряний сплеск] надає {1}% шансу критичного удару заклинанням {2} союзників у радіусі {3} м протягом {4} сек, накопичується до {5} разів."
+          "Text": "Starsurge grants {1}% spell critical strike chance to {2} allies within {3} yards for {4} sec, stacking up to {5} times."
         }
       ]
     },
     {
       "Hash": 4180081574,
-      "Name": "Місячна Сова",
+      "Name": "Moonkin Form",
       "Descriptions": [
         {
           "Hash": 583642152,
           "Id": "24858",
           "Spec": "Balance",
-          "Text": "Ви перевтілюєтеся у форму місячного совуха, це збільшує шкоду від ваших заклинань на {1}% та вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПоки ви у цій формі, прямі атаки проти вас мають {3}% шанс зробити ваш наступний [Зоряний вогонь] миттєвим.\n\nПри зміні форми звільняє вас від ефектів обмеження руху."
+          "Text": "Shapeshift into Moonkin Form, increasing the damage of your spells by {1}% and your armor by {2}%, and granting protection from Polymorph effects.\n\nWhile in this form, single-target attacks against you have a {3}% chance to make your next Starfire instant.\n\nThe act of shapeshifting frees you from movement impairing effects."
         },
         {
           "Hash": 4251304378,
           "Id": "197625",
           "Spec": "Restoration, Feral, Guardian",
-          "Text": "Ви перевтілюєтеся у форму місячного совуха, це збільшує шкоду від ваших заклинань на {1}% та вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПри зміні форми звільняє вас від ефектів обмеження руху."
+          "Text": "Shapeshift into Moonkin Form, increasing the damage of your spells by {1}% and your armor by {2}%, and granting protection from Polymorph effects.\n\nThe act of shapeshifting frees you from movement impairing effects."
         }
       ]
     },
     {
       "Hash": 3910637581,
-      "Name": "Безмісячна ніч",
+      "Name": "Moonless Night",
       "Descriptions": [
         {
           "Hash": 2280838785,
           "Id": "400278",
           "Spec": "Guardian",
-          "Text": "Коли ви застосовуєте здібність прямої шкоди на ворогові, на якому діє ваш [Місячний вогонь], ви змушуєте його палати й отримувати додатково {1}% од. шкоди від таємної магії."
+          "Text": "When you cast a single-target ability on an enemy afflicted by Moonfire, you cause them to burn for an additional {1}% Arcane damage."
         }
       ]
     },
     {
       "Hash": 2888612192,
-      "Name": "Природне одужання",
+      "Name": "Natural Recovery",
       "Descriptions": [
         {
           "Hash": 2820791485,
           "Id": "377796",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Лікування, проведене та отримане, збільшено на {1}%."
+          "Text": "Healing done and healing taken increased by {1}%."
         }
       ]
     },
     {
       "Hash": 853370241,
-      "Name": "Баланс природи",
+      "Name": "Nature's Balance",
       "Descriptions": [
         {
           "Hash": 1408880145,
           "Id": "202430",
           "Spec": "Balance",
-          "Text": "Поки ви у бою, ви генеруєте {1} од. астральної сили кожні {2} сек.\n\nКоли ви не в бою, ваша астральна сила поступово ребалансується до рівня {3} од замість 0."
+          "Text": "While in combat you generate {1} Astral Power every {2} sec.\n\nWhile out of combat your Astral Power rebalances to {3} instead of depleting to empty."
         }
       ]
     },
     {
       "Hash": 3989003924,
-      "Name": "Благодать природи",
+      "Name": "Nature's Cure",
       "Descriptions": [
         {
           "Hash": 663866434,
           "Id": "88423",
           "Spec": "Restoration",
-          "Text": "Знімає шкідливі магічні ефекти, ефекти Прокляття та Отрути з дружньої цілі."
+          "Text": "Cures harmful effects on the friendly target, removing all Magic, Curse, and Poison effects."
         }
       ]
     },
     {
       "Hash": 1653349051,
-      "Name": "Благодать природи",
+      "Name": "Nature's Grace",
       "Descriptions": [
         {
           "Hash": 2989233138,
           "Id": "393958",
           "Spec": "Balance",
-          "Text": "Після закінчення Затемнення, ви отримуєте {1}% Швидкості на {2} сек."
+          "Text": "After an Eclipse ends, you gain {1}% Haste for {2} sec."
         }
       ]
     },
     {
       "Hash": 3127999516,
-      "Name": "Велич природи",
+      "Name": "Nature's Splendor",
       "Descriptions": [
         {
           "Hash": 1542109111,
           "Id": "392288",
           "Spec": "Restoration",
-          "Text": "Бонус зцілення для [Відновлення] від [Стрімкість природи] збільшується на {1}%."
+          "Text": "The healing bonus to Regrowth from Nature's Swiftness is increased by {1}%."
         }
       ]
     },
     {
       "Hash": 2896041592,
-      "Name": "Стрімкість природи",
+      "Name": "Nature's Swiftness",
       "Descriptions": [
         {
           "Hash": 782838613,
           "Id": "132158",
           "Spec": "Restoration",
-          "Text": "Ваше наступне [Відновлення], [Переродження] або [Заплутуючі корені] миттєве, безкоштовне, його можна використати у будь-якій формі та воно зцілює додатково на {1}%."
+          "Text": "Your next Regrowth, Rebirth, or Entangling Roots is instant, free, castable in all forms, and heals for an additional {1}%."
         }
       ]
     },
     {
       "Hash": 993426816,
-      "Name": "Безсоння природи",
+      "Name": "Nature's Vigil",
       "Descriptions": [
         {
           "Hash": 2478741077,
           "Id": "124974",
           "Spec": "Feral, Guardian, Balance",
-          "Text": "Протягом {1} сек, вся шкода по одній цілі також зцілює найближчого союзника на {2}% від заподіяної шкоди."
+          "Text": "For {1} sec, all single-target damage also heals a nearby friendly target for {2}% of the damage done."
         },
         {
           "Hash": 2571165604,
           "Id": "124974",
           "Spec": "Restoration",
-          "Text": "Протягом {1} сек, все зцілення однієї цілі також завдає найближчому ворогові шкоду в розмірі {2}% від цього зцілення."
+          "Text": "For {1} sec, all single-target healing also damages a nearby enemy target for {2}% of the healing done."
         }
       ]
     },
     {
       "Hash": 1423933021,
-      "Name": "Новий місяць",
+      "Name": "New Moon",
       "Descriptions": [
         {
           "Hash": 9130700,
           "Id": "274281",
           "Spec": "Balance",
-          "Text": "Завдає {1}-{2} астральної шкоди цілі та посилює [Новий місяць] і він стає [Напівмісяць].\n\n{FFFFFFFF|Генерує {3} од. астральної сили.}"
+          "Text": "Deals {1}{2} Astral damage to the target and empowers New Moon to become Half Moon. \n\n{FFFFFFFF|Generates {3} Astral Power.}"
         }
       ]
     },
     {
       "Hash": 181838500,
-      "Name": "Підживлення",
+      "Name": "Nourish",
       "Descriptions": [
         {
           "Hash": 491622299,
           "Id": "50464",
           "Spec": "Restoration",
-          "Text": "Зцілює дружню ціль на {1}. Отримує {2}% бонус від {ffffffff|Майстерність: Гармонія}."
+          "Text": "Heals a friendly target for {1}.  Receives {2}% bonus from {ffffffff|Mastery: Harmony}."
         }
       ]
     },
     {
       "Hash": 3923629191,
-      "Name": "Виплекана дрімота",
+      "Name": "Nurturing Dormancy",
       "Descriptions": [
         {
           "Hash": 3005423681,
           "Id": "392099",
           "Spec": "Restoration",
-          "Text": "Коли ваше [Омолодження] зцілює ціль з повним запасом здоров'я, його тривалість збільшується на {1} сек, максимум до {2} сек продовження."
+          "Text": "When your Rejuvenation heals a full health target, its duration is increased by {1} sec, up to a maximum total increase of {2} sec per cast."
         }
       ]
     },
     {
       "Hash": 801857659,
-      "Name": "Внутрішній Інстинкт",
+      "Name": "Nurturing Instinct",
       "Descriptions": [
         {
           "Hash": 1867408359,
           "Id": "33873",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Магічна шкода та зцілення збільшується на {1}%."
+          "Text": "Magical damage and healing increased by {1}%."
         }
       ]
     },
     {
       "Hash": 2880801506,
-      "Name": "Омен ясності",
+      "Name": "Omen of Clarity",
       "Descriptions": [
         {
           "Hash": 353083642,
           "Id": "16864",
           "Spec": "Feral",
-          "Text": "Ваші автоматичні атаки мають високий шанс спричинити стан [Чистий розум], і ваше наступне [Подрібнення], [Шмагання] або [Жорстокий розріз] не витрачає енергію, та завдає на {1}% більше шкоди.\n\n[Чистий розум] може накопичуватися до {2} зарядів."
+          "Text": "Your auto attacks have a high chance to cause a Clearcasting state, making your next Shred, Thrash, or Brutal Slash cost no Energy and deal {1}% more damage.\n\nClearcasting can accumulate up to {2} charges. "
         },
         {
           "Hash": 931434725,
@@ -2151,7 +2151,7 @@
     },
     {
       "Hash": 1838890747,
-      "Name": "Порушник орбіти",
+      "Name": "Orbit Breaker",
       "Descriptions": [
         {
           "Hash": 609351603,
@@ -2163,7 +2163,7 @@
     },
     {
       "Hash": 3926963193,
-      "Name": "Орбітальний удар",
+      "Name": "Orbital Strike",
       "Descriptions": [
         {
           "Hash": 159580035,
@@ -2175,7 +2175,7 @@
     },
     {
       "Hash": 500418243,
-      "Name": "Розростання",
+      "Name": "Overgrowth",
       "Descriptions": [
         {
           "Hash": 662984950,
@@ -2187,7 +2187,7 @@
     },
     {
       "Hash": 3856923708,
-      "Name": "Перевантаження",
+      "Name": "Overrun",
       "Descriptions": [
         {
           "Hash": 3531647236,
@@ -2211,7 +2211,7 @@
     },
     {
       "Hash": 752386191,
-      "Name": "Зміна пор року",
+      "Name": "Passing Seasons",
       "Descriptions": [
         {
           "Hash": 3080515119,
@@ -2223,7 +2223,7 @@
     },
     {
       "Hash": 2107992369,
-      "Name": "Фотосинтез",
+      "Name": "Photosynthesis",
       "Descriptions": [
         {
           "Hash": 2305501401,
@@ -2235,7 +2235,7 @@
     },
     {
       "Hash": 4253173497,
-      "Name": "Несамовиті Удари",
+      "Name": "Pouncing Strikes",
       "Descriptions": [
         {
           "Hash": 1876099412,
@@ -2247,643 +2247,643 @@
     },
     {
       "Hash": 760699702,
-      "Name": "Сила Ґолдріна",
+      "Name": "Power of Goldrinn",
       "Descriptions": [
         {
           "Hash": 1124754608,
           "Id": "394046",
           "Spec": "Balance",
-          "Text": "[Зоряний сплеск] має шанс викликати Духа Голдріна, який миттєво завдає {1} астральної шкоди цілі."
+          "Text": "Starsurge has a chance to summon the Spirit of Goldrinn, which immediately deals {1} Astral damage to the target."
         }
       ]
     },
     {
       "Hash": 1348140634,
-      "Name": "Сила Верховного Друїда",
+      "Name": "Power of the Archdruid",
       "Descriptions": [
         {
           "Hash": 1217398397,
           "Id": "392302",
           "Spec": "Restoration",
-          "Text": "[Дикий ріст] має {1}% шанс змусити ваше наступне [Відновлення] або [Омолодження] застосуватися до {2} додаткових союзників у радіусі {3} м від цілі."
+          "Text": "Wild Growth has a {1}% chance to cause your next Rejuvenation or Regrowth to apply to {2} additional allies within {3} yards of the target."
         }
       ]
     },
     {
       "Hash": 2345603525,
-      "Name": "Визнання",
+      "Name": "Precognition",
       "Descriptions": [
         {
           "Hash": 525859810,
           "Id": "377360",
           "Spec": "Restoration, Balance",
-          "Text": "Якщо на вас застосовується переривання, коли ви не застосовуєте закляття, ви отримуєте {1}% Швидкості та стаєте невразливими до ефектів переривання, контролю та ефектів затримки застосування на {2} сек."
+          "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
         }
       ]
     },
     {
       "Hash": 4112198918,
-      "Name": "Хижак",
+      "Name": "Predator",
       "Descriptions": [
         {
           "Hash": 2071568621,
           "Id": "202021",
           "Spec": "Feral",
-          "Text": "Час відновлення [Лють тигра] скидається, коли ціль помирає з одним з ваших ефектів кровотечі, а також [Лють тигра] діє на {1} сек довше."
+          "Text": "The cooldown on Tiger's Fury resets when a target dies with one of your Bleed effects active, and Tiger's Fury lasts {1} additional seconds."
         }
       ]
     },
     {
       "Hash": 3265458760,
-      "Name": "Хижацька стрімкість",
+      "Name": "Predatory Swiftness",
       "Descriptions": [
         {
           "Hash": 1410909342,
           "Id": "16974",
           "Spec": "Feral",
-          "Text": "Ваші завершальні удари мають {1}% шанс за кожне очко комбо зробити ваше наступне [Відновлення] або [Заплутуючі корені] миттєвим, безплатним та їх можна використати у будь-якій формі."
+          "Text": "Your finishing moves have a {1}% chance per combo point to make your next Regrowth or Entangling Roots instant, free, and castable in all forms."
         }
       ]
     },
     {
       "Hash": 2608668877,
-      "Name": "Первісні кігті",
+      "Name": "Primal Claws",
       "Descriptions": [
         {
           "Hash": 3316723625,
           "Id": "391037",
           "Spec": "Feral",
-          "Text": "Ваші здібності, які генерують очки комбо, мають {1}% шанс згенерувати додатково ще {2} оч. комбо."
+          "Text": "Your combo point generating abilities have a {1}% chance to generate {2} extra combo point."
         }
       ]
     },
     {
       "Hash": 3338461607,
-      "Name": "Первісна лють",
+      "Name": "Primal Fury",
       "Descriptions": [
         {
           "Hash": 2371872924,
           "Id": "159286",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Коли ви критично вдарите атакою, що створює очко комбо, ви отримаєте додаткове очко комбо.\n\nПеріодичні пошкодження не можуть викликати цей ефект."
+          "Text": "When you critically strike with an attack that generates a combo point, you gain an additional combo point.\n\nDamage over time cannot trigger this effect."
         }
       ]
     },
     {
       "Hash": 2524246262,
-      "Name": "Первісний гнів",
+      "Name": "Primal Wrath",
       "Descriptions": [
         {
           "Hash": 3028228691,
           "Id": "285381",
           "Spec": "Feral",
-          "Text": "Завершальний удар, який завдає миттєвої шкоди та застосовує [Розрив] на всі цілі у радіусі {1} м. Діє довше за кожне очко комбо.\n\n   {2} оч. комбо: {3} шкоди та [Розрив] на {4} сек\n   {5} оч. комбо: {6} шкоди та [Розрив] на {7} сек\n   {8} оч. комбо: {9} шкоди та [Розрив] на {10} сек\n   {11} оч. комбо: {12} шкоди та [Розрив] на {13} сек\n   {14} оч. комбо: {15} шкоди та [Розрив] на {16} сек"
+          "Text": "Finishing move that deals instant damage and applies Rip to all enemies within {1} yards. Lasts longer per combo point.\n\n   {2} point  : {3} plus Rip for {4} sec\n   {5} points: {6} plus Rip for {7} sec\n   {8} points: {9} plus Rip for {10} sec\n   {11} points: {12} plus Rip for {13} sec\n   {14} points: {15} plus Rip for {16} sec"
         }
       ]
     },
     {
       "Hash": 4280837201,
-      "Name": "Первинний арканічний пульсар",
+      "Name": "Primordial Arcanic Pulsar",
       "Descriptions": [
         {
           "Hash": 3959894814,
           "Id": "393960",
           "Spec": "Balance",
-          "Text": "Кожні {1} од. витраченої астральної сили дають вам [Небесне вирівнювання] на {2} сек."
+          "Text": "Every {1} Astral Power spent grants Celestial Alignment for {2} sec."
         }
       ]
     },
     {
       "Hash": 457187747,
-      "Name": "Захисний ріст",
+      "Name": "Protective Growth",
       "Descriptions": [
         {
           "Hash": 2090441497,
           "Id": "391947",
           "Spec": "Feral",
-          "Text": "Ваше [Відновлення] захищає вас, зменшуючи всю шкоду, яку ви отримуєте, на {1}%, коли ваше [Відновлення] діє на вас."
+          "Text": "Your Regrowth protects you, reducing all damage you take by {1}% while your Regrowth is on you."
         }
       ]
     },
     {
       "Hash": 571586708,
-      "Name": "Захисник Гаю",
+      "Name": "Protector of the Grove",
       "Descriptions": [
         {
           "Hash": 4069682213,
           "Id": "209730",
           "Spec": "Balance",
-          "Text": "Коли ви використовуєте [Відновлення] на союзника, його початкове зцілення буде завжди критичним, а час застосування [Відновлення] буде зменшений на {1}% на {2} сек."
+          "Text": "When using Regrowth on an ally the initial heal will always have a critical effect and the cast time of Regrowth will be reduced by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 1943280769,
-      "Name": "Захисник зграї",
+      "Name": "Protector of the Pack",
       "Descriptions": [
         {
           "Hash": 1197163432,
           "Id": "378986",
           "Spec": "Feral, Guardian, Balance",
-          "Text": "Зберігає {1}% від вашої шкоди, до {2} од. Ваше наступне [Відновлення] поглинає всю збережену шкоду, щоб збільшити зцілення від нього."
+          "Text": "Store {1}% of your damage, up to {2}. Your next Regrowth consumes all stored damage to increase its healing."
         },
         {
           "Hash": 2227793900,
           "Id": "378986",
           "Spec": "Restoration",
-          "Text": "Зберігає {1}% вашого ефективного зцілення, до {2} од. Ваш наступний [Місячний вогонь] поглинає все накопичене зцілення, щоб збільшити свою шкоду."
+          "Text": "Store {1}% of your effective healing, up to {2}. Your next Moonfire consumes all stored healing to increase its damage dealt."
         }
       ]
     },
     {
       "Hash": 195586750,
-      "Name": "Тихий Рух",
+      "Name": "Prowl",
       "Descriptions": [
         {
           "Hash": 2858954872,
           "Id": "5215",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ви переходите у форму кішки та стаєте непомітним."
+          "Text": "Shift into Cat Form and enter stealth."
         }
       ]
     },
     {
       "Hash": 1734042066,
-      "Name": "Подрібнення",
+      "Name": "Pulverize",
       "Descriptions": [
         {
           "Hash": 331162773,
           "Id": "80313",
           "Spec": "Guardian",
-          "Text": "Спустошливий удар, який споживає {1} ефектів вашого [Шмагання] на цілі, щоб завдати їй {2} фізичної шкоди та зменшити шкоду, яку вона завдає вам на {3}% на {4} сек."
+          "Text": "A devastating blow that consumes {1} stacks of your Thrash on the target to deal {2} Physical damage and reduce the damage they deal to you by {3}% for {4} sec."
         }
       ]
     },
     {
       "Hash": 2497227469,
-      "Name": "Місячні Промені",
+      "Name": "Radiant Moonlight",
       "Descriptions": [
         {
           "Hash": 3931083366,
           "Id": "394121",
           "Spec": "Balance",
-          "Text": "[Повний місяць] стає [Повний місяць] ще раз до того, як стати [Новий місяць].\n\nЧас відновлення [Лють Елуни] зменшений на {1} сек."
+          "Text": "Full Moon becomes Full Moon once more before resetting to New Moon.\n\nFury of Elune's cooldown is reduced by {1} sec."
         }
       ]
     },
     {
       "Hash": 3191811339,
-      "Name": "Гнів сплячого",
+      "Name": "Rage of the Sleeper",
       "Descriptions": [
         {
           "Hash": 2397954341,
           "Id": "200851",
           "Spec": "Guardian",
-          "Text": "Вивільняє лють Урсока на {1} сек, запобігаючи {2}% всієї шкоди, яку ви отримуєте, збільшуючи вашу шкоду на {3}%, надаючи вам {4}% Самозцілення, та повертаючи {5} од. шкоди від магії природи назад в тих, хто вас атакує."
+          "Text": "Unleashes the rage of Ursoc for {1} sec, preventing {2}% of all damage you take, increasing your damage done by {3}%, granting you {4}% leech, and reflecting {5} Nature damage back at your attackers."
         }
       ]
     },
     {
       "Hash": 3563822677,
-      "Name": "Бурхливе Шаленство",
+      "Name": "Raging Frenzy",
       "Descriptions": [
         {
           "Hash": 3289340923,
           "Id": "236153",
           "Spec": "Guardian",
-          "Text": "Ваша [Шалена регенерація] також генерує {1} люті протягом {2} сек."
+          "Text": "Your Frenzied Regeneration also generates {1} Rage over {2} sec."
         }
       ]
     },
     {
       "Hash": 1315968096,
-      "Name": "Шалена лють",
+      "Name": "Raging Fury",
       "Descriptions": [
         {
           "Hash": 232620591,
           "Id": "391078",
           "Spec": "Feral",
-          "Text": "Завершальні атаки подовжують тривалість [Лють тигра] на {1} сек за кожне витрачене на них очко комбо."
+          "Text": "Finishing moves extend the duration of Tiger's Fury by {1} sec per combo point spent."
         }
       ]
     },
     {
       "Hash": 2957959651,
-      "Name": "Роздирання",
+      "Name": "Rake",
       "Descriptions": [
         {
           "Hash": 2412067262,
           "Id": "1822",
           "Spec": "Feral",
-          "Text": "Роздирає ціль на {1} шкоди від кровотечі та додатково на {2} шкоди від кровотечі протягом {3} сек. Зменшує швидкість руху цілі на {4}% на {5} сек.\n\nКоли ви у стані непомітності, [Роздирання] також оглушає ціль на {6} сек та завдає на {7}% збільшену шкоду.\n\n{FFFFFFFF|Дає {8} оч. комбо.}"
+          "Text": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. Reduces the target's movement speed by {4}% for {5} sec. \n\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\n\n{FFFFFFFF|Awards {8} combo point.}"
         },
         {
           "Hash": 2124572660,
           "Id": "1822",
           "Spec": "Restoration, Guardian, Balance",
-          "Text": "Роздирає ціль на {1} шкоди від кровотечі та додатково на {2} шкоди від кровотечі протягом {3} сек. \n\nКоли ви у стані непомітності, [Роздирання] також оглушає ціль на {4} сек та завдає на {5}% збільшену шкоду.\n\n{FFFFFFFF|Дає {6} оч. комбо.}"
+          "Text": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. \n\nWhile stealthed, Rake will also stun the target for {4} sec and deal {5}% increased damage.\n\n{FFFFFFFF|Awards {6} combo point.}"
         }
       ]
     },
     {
       "Hash": 3588638425,
-      "Name": "Нестримна жорстокість",
+      "Name": "Rampant Ferocity",
       "Descriptions": [
         {
           "Hash": 2459631435,
           "Id": "391709",
           "Spec": "Feral",
-          "Text": "[Лютий укус] влучає у всіх ворогів поблизу, які постраждали від вашого [Розрив] на {1}% від заподіяної шкоди. Ця шкода зменшується після {2} цілей."
+          "Text": "Ferocious Bite hits all nearby enemies affected by your Rip for {1}% of the damage dealt. Damage reduced beyond {2} targets."
         }
       ]
     },
     {
       "Hash": 3671920870,
-      "Name": "Нестримний ріст",
+      "Name": "Rampant Growth",
       "Descriptions": [
         {
           "Hash": 3440989497,
           "Id": "404521",
           "Spec": "Restoration",
-          "Text": "Періодичне зцілення від [Відновлення] збільшене на {1}%, а також воно накладається на вашу ціль з [Життєцвіт]."
+          "Text": "Regrowth's healing over time is increased by {1}%, and it also applies to the target of your Lifebloom."
         }
       ]
     },
     {
       "Hash": 2125245222,
-      "Name": "Рух зірок",
+      "Name": "Rattle the Stars",
       "Descriptions": [
         {
           "Hash": 743141887,
           "Id": "393954",
           "Spec": "Balance",
-          "Text": "[Зоряний сплеск] та [Зорепад] зменшують вартість [Зоряний сплеск] та [Зорепад] на {1}% та збільшують їх шкоду на {2}% на {3} сек. Ефект накопичується до {4} {declension|раз|рази|разів}."
+          "Text": "Starsurge and Starfall reduce the cost of Starsurge and Starfall by {1}% and increase their damage by {2}% for {3} sec, stacking up to {4} times."
         }
       ]
     },
     {
       "Hash": 3277480463,
-      "Name": "Знищити",
+      "Name": "Raze",
       "Descriptions": [
         {
           "Hash": 2829678628,
           "Id": "400254",
           "Spec": "Guardian",
-          "Text": "Удар з силою Урсока, який завдає {1} фізичної шкоди всім ворогам перед вами. Завдає зменшену шкоду цілям після {2}."
+          "Text": "Strike with the might of Ursoc, dealing {1} Physical damage to all enemies in front of you. Deals reduced damage beyond {2} targets."
         }
       ]
     },
     {
       "Hash": 1129515312,
-      "Name": "Реактивна Смола",
+      "Name": "Reactive Resin",
       "Descriptions": [
         {
           "Hash": 39573892,
           "Id": "203399",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Використання [Омолодження] надає цілі {1} {declension|заряд|заряди|зарядів} [Реактивна смола].\n\n[Реактивна смола] зцілює ціль на {2} після того, як вона отримує критичну шкоду від атаки ближнього бою, та збільшує тривалість [Омолодження] на {3} сек."
+          "Text": "Casting Rejuvenation grants the target {1} charges of Reactive Resin.\n\nReactive Resin will heal the target for {2} after taking a melee critical strike, and increase the duration of Rejuvenation by {3} sec."
         }
       ]
     },
     {
       "Hash": 165696551,
-      "Name": "Переродження",
+      "Name": "Rebirth",
       "Descriptions": [
         {
           "Hash": 2499366338,
           "Id": "20484",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Повертає дух до тіла, оживляючи мертву ціль з {1}% здоров'я та принаймні з {2}% мани. Може використовуватися під час бою."
+          "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% health and at least {2}% mana. Castable in combat."
         }
       ]
     },
     {
       "Hash": 1522909236,
-      "Name": "Заліснення",
+      "Name": "Reforestation",
       "Descriptions": [
         {
           "Hash": 3623859356,
           "Id": "392356",
           "Spec": "Restoration",
-          "Text": "Кожні {1} застосування [Швидке відновлення] дарують вам [Втілення: Дерево Життя] на {2} сек."
+          "Text": "Every {1} casts of Swiftmend grants you Incarnation: Tree of Life for {2} sec."
         }
       ]
     },
     {
       "Hash": 274008199,
-      "Name": "Регенеративна серцевина",
+      "Name": "Regenerative Heartwood",
       "Descriptions": [
         {
           "Hash": 561071605,
           "Id": "392116",
           "Spec": "Restoration",
-          "Text": "Союзники захищені вашою [Залізна кора] також отримують {1}% зцілення від кожного вашого активного [Омолодження], а тривалість [Залізна кора] збільшена на {2} сек."
+          "Text": "Allies protected by your Ironbark also receive {1}% of the healing from each of your active Rejuvenations and Ironbark's duration is increased by {2} sec."
         }
       ]
     },
     {
       "Hash": 657214056,
-      "Name": "Регенерація",
+      "Name": "Regenesis",
       "Descriptions": [
         {
           "Hash": 3590468618,
           "Id": "383191",
           "Spec": "Restoration",
-          "Text": "[Омолодження] зцілює до {1}% більше, а [Спокій] зцілює до {2}% більше, чим менше здоров'я цілей, тим більше буде зцілення."
+          "Text": "Rejuvenation healing is increased by up to {1}%, and Tranquility healing is increased by up to {2}%, healing for more on low-health targets."
         }
       ]
     },
     {
       "Hash": 356880283,
-      "Name": "Відродження",
+      "Name": "Regrowth",
       "Descriptions": [
         {
           "Hash": 1925749309,
           "Id": "8936",
           "Spec": "Feral, Guardian, Balance",
-          "Text": "Зцілює дружню ціль на {1} та ще на {2} протягом {3} сек. Можна використовувати у формі місячного совуха."
+          "Text": "Heals a friendly target for {1} and another {2} over {3} sec. Usable while in Moonkin Form."
         },
         {
           "Hash": 3611615443,
           "Id": "8936",
           "Spec": "Restoration",
-          "Text": "Зцілює дружню ціль на {1} та ще на {2} протягом {3} сек. Початкове зцілення має збільшений на {4}% шанс критичного ефекту, якщо на ціль вже діє [Відновлення]. Можна використовувати у формі місячного совуха."
+          "Text": "Heals a friendly target for {1} and another {2} over {3} sec. Initial heal has a {4}% increased chance for a critical effect if the target is already affected by Regrowth. Usable while in Moonkin Form."
         }
       ]
     },
     {
       "Hash": 3754831684,
-      "Name": "Зміцнене хутро",
+      "Name": "Reinforced Fur",
       "Descriptions": [
         {
           "Hash": 329352793,
           "Id": "393618",
           "Spec": "Guardian",
-          "Text": "[Залізне хутро] збільшує Броню додатково на {1}%, а [Дубова кора] зменшує вхідну шкоду додатково на {2}%."
+          "Text": "Ironfur increases armor by an additional {1}% and Barkskin reduces damage taken by an additional {2}%."
         }
       ]
     },
     {
       "Hash": 4077821339,
-      "Name": "Пожвавлення",
+      "Name": "Reinvigoration",
       "Descriptions": [
         {
           "Hash": 1520262394,
           "Id": "372945",
           "Spec": "Guardian",
-          "Text": "Час відновлення [Шалена регенерація] зменшений на {1}%."
+          "Text": "Frenzied Regeneration's cooldown is reduced by {1}%."
         }
       ]
     },
     {
       "Hash": 2377570975,
-      "Name": "Омолодження",
+      "Name": "Rejuvenation",
       "Descriptions": [
         {
           "Hash": 2587115936,
           "Id": "774",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Лікує ціль на {1} протягом {2} сек."
+          "Text": "Heals the target for {1} over {2} sec."
         }
       ]
     },
     {
       "Hash": 3102027427,
-      "Name": "Невблаганний хижак",
+      "Name": "Relentless Predator",
       "Descriptions": [
         {
           "Hash": 3842846153,
           "Id": "393771",
           "Spec": "Feral",
-          "Text": "Вартість [Лютий укус] зменшена на {1}%."
+          "Text": "Energy cost of Ferocious Bite reduced by {1}%."
         }
       ]
     },
     {
       "Hash": 4173447800,
-      "Name": "Зняття псування",
+      "Name": "Remove Corruption",
       "Descriptions": [
         {
           "Hash": 133372674,
           "Id": "2782",
           "Spec": "Feral, Guardian, Balance",
-          "Text": "Обнуляє ефекти псування на дружній цілі, прибираючи всі ефекти Проклять та Отрути."
+          "Text": "Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects."
         }
       ]
     },
     {
       "Hash": 2057699590,
-      "Name": "Розірвати й розтерзати",
+      "Name": "Rend and Tear",
       "Descriptions": [
         {
           "Hash": 1176469117,
           "Id": "204053",
           "Spec": "Guardian",
-          "Text": "Кожен ефект [Шмагання] зменшує шкоду, яку наносить ціль по вас, на {1}% та збільшує вашу шкоду по цілі на {2}%."
+          "Text": "Each stack of Thrash reduces the target's damage to you by {1}% and increases your damage to them by {2}%."
         }
       ]
     },
     {
       "Hash": 1856164466,
-      "Name": "Оновлення",
+      "Name": "Renewal",
       "Descriptions": [
         {
           "Hash": 689935988,
           "Id": "108238",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Миттєво відновлює {1}% максимального здоров'я. Можна використовувати в усіх формах втілення."
+          "Text": "Instantly heals you for {1}% of maximum health. Usable in all shapeshift forms."
         }
       ]
     },
     {
       "Hash": 16450431,
-      "Name": "Відродження",
+      "Name": "Revitalize",
       "Descriptions": [
         {
           "Hash": 1726542057,
           "Id": "212040",
           "Spec": "Restoration",
-          "Text": "Повертає усіх мертвих учасників групи до життя з {1}% від максимального здоров'я і мани. Не може застосовуватись під час бою."
+          "Text": "Returns all dead party members to life with {1}% of maximum health and mana. Not castable in combat."
         }
       ]
     },
     {
       "Hash": 492229069,
-      "Name": "Оживлення",
+      "Name": "Revive",
       "Descriptions": [
         {
           "Hash": 1586206876,
           "Id": "50769",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Повертає дух до тіла, оживляючи мертву ціль з {1}% максимального здоров'я та мани. Не може бути використано під час бою."
+          "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Not castable in combat."
         }
       ]
     },
     {
       "Hash": 3231980261,
-      "Name": "Розрив",
+      "Name": "Rip",
       "Descriptions": [
         {
           "Hash": 437936681,
           "Id": "1079",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Завершальна атака, яка завдає шкоду від кровотечі протягом часу. Триває більше часу за кожне очко комбо.\n\n   {1} очко: {2} протягом {3} сек\n   {4} очка: {5} протягом {6} сек\n   {7} очка: {8} протягом {9} сек\n   {10} очка: {11} протягом {12} сек\n   {13} очок: {14} протягом {15} сек"
+          "Text": "Finishing move that causes Bleed damage over time. Lasts longer per combo point.\n\n   {1} point  : {2} over {3} sec\n   {4} points: {5} over {6} sec\n   {7} points: {8} over {9} sec\n   {10} points: {11} over {12} sec\n   {13} points: {14} over {15} sec"
         }
       ]
     },
     {
       "Hash": 294738545,
-      "Name": "Розрубати й розтерзати",
+      "Name": "Rip and Tear",
       "Descriptions": [
         {
           "Hash": 4037982723,
           "Id": "391347",
           "Spec": "Feral",
-          "Text": "Застосування [Розрив] на цілі також застосовує [Роздирання], яке завдає {1}% від шкоди [Розрив] протягом {2} сек."
+          "Text": "Applying Rip to a target also applies a Tear that deals {1}% of the new Rip's damage over {2} sec."
         }
       ]
     },
     {
       "Hash": 1087095824,
-      "Name": "Шаблезуб",
+      "Name": "Sabertooth",
       "Descriptions": [
         {
           "Hash": 75150737,
           "Id": "202031",
           "Spec": "Feral",
-          "Text": "[Лютий укус] завдає на {1}% більше шкоди та збільшує всю шкоду від [Розрив] на {2}% за кожне витрачене очко комбо протягом {3} сек."
+          "Text": "Ferocious Bite deals {1}% increased damage and increases all damage dealt by Rip by {2}% per Combo Point spent for {3} sec."
         }
       ]
     },
     {
       "Hash": 1279302170,
-      "Name": "Варварський Імпульс",
+      "Name": "Savage Momentum",
       "Descriptions": [
         {
           "Hash": 40504893,
           "Id": "205673",
           "Spec": "Feral",
-          "Text": "Перериваючи заклинання за допомогою [Лобова атака] зменшує решту часу відновлення [Лють тигра], [Інстинкти виживання] та [Порив] на {1} сек."
+          "Text": "Interrupting a spell with Skull Bash reduces the remaining cooldown of Tiger's Fury, Survival Instincts, and Dash by {1} sec."
         }
       ]
     },
     {
       "Hash": 1897687334,
-      "Name": "Мерехтливе місячне сяйво",
+      "Name": "Scintillating Moonlight",
       "Descriptions": [
         {
           "Hash": 2278270324,
           "Id": "238049",
           "Spec": "Guardian",
-          "Text": "[Місячний вогонь] зменшує шкоду, яку завдають вам на {1}%."
+          "Text": "Moonfire reduces damage dealt to you by {1}%."
         }
       ]
     },
     {
       "Hash": 1802964208,
-      "Name": "Загострені Кігті",
+      "Name": "Sharpened Claws",
       "Descriptions": [
         {
           "Hash": 3537387706,
           "Id": "202110",
           "Spec": "Guardian",
-          "Text": "[Молот] збільшує шкоду від ваших [Розмах] та [Шмагання] на {1}% на {2} сек."
+          "Text": "Maul increases the damage done by your Swipe and Thrash by {1}% for {2} sec."
         }
       ]
     },
     {
       "Hash": 2889182112,
-      "Name": "Падаючі зірки",
+      "Name": "Shooting Stars",
       "Descriptions": [
         {
           "Hash": 1872805880,
           "Id": "202342",
           "Spec": "Balance",
-          "Text": "[Місячний вогонь], [Сонячний вогонь] та [Зоряний спалах] мають шанс прикликати зірку, що падає і завдає {1} астральної шкоди, та генерує {2} од. астральної сили."
+          "Text": "Moonfire, Sunfire, and Stellar Flare damage over time has a chance to call down a falling star, dealing {1} Astral damage and generating {2} Astral Power."
         }
       ]
     },
     {
       "Hash": 3960603769,
-      "Name": "Клаптик",
+      "Name": "Shred",
       "Descriptions": [
         {
           "Hash": 2011994873,
           "Id": "5221",
           "Spec": "Feral",
-          "Text": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям під дією ефектів кровотечі.\n\nПоки ви в стані непомітності, [Подрібнення] завдає на {3}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {4} оч. комбо.\n\n|cFFFFFFFFДає {5} оч. комбо."
+          "Text": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets.\n\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point.\n\n|cFFFFFFFFAwards {5} combo point."
         },
         {
           "Hash": 3074107126,
           "Id": "5221",
           "Spec": "Restoration, Guardian, Balance",
-          "Text": "Шматує ціль, завдаючи їй {1} фізичної шкоди.\n\nПоки ви в стані непомітності, [Подрібнення] завдає на {2}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {3} оч. комбо.\n\n|cFFFFFFFFДає {4} оч. комбо."
+          "Text": "Shred the target, causing {1} Physical damage to the target.\n\nWhile stealthed, Shred deals {2}% increased damage, has double the chance to critically strike, and generates {3} additional combo point.\n\n|cFFFFFFFFAwards {4} combo point."
         }
       ]
     },
     {
       "Hash": 353181327,
-      "Name": "Лобова атака",
+      "Name": "Skull Bash",
       "Descriptions": [
         {
           "Hash": 695593139,
           "Id": "106839",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Ви робите ривок та атакуєте череп цілі, перериваючи заклинання та запобігаючи використання магії тієї ж школи протягом {1} сек."
+          "Text": "You charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
         }
       ]
     },
     {
       "Hash": 1652145580,
-      "Name": "Сонячний промінь",
+      "Name": "Solar Beam",
       "Descriptions": [
         {
           "Hash": 1183249831,
           "Id": "78675",
           "Spec": "Balance",
-          "Text": "Прикликає промінь сонячного світла над місцем перебування ворога, перериваючи його заклинання та накладаючи тишу на всіх ворогів у області дії променя. Діє {1} сек."
+          "Text": "Summons a beam of solar light over an enemy target's location, interrupting the target and silencing all enemies within the beam.  Lasts {1} sec."
         }
       ]
     },
     {
       "Hash": 3657491068,
-      "Name": "Сонцестояння",
+      "Name": "Solstice",
       "Descriptions": [
         {
           "Hash": 2905662400,
           "Id": "343647",
           "Spec": "Balance",
-          "Text": "Протягом перших {1} сек кожного Затемнення, [Падаючі зірки] падають на {2}% частіше."
+          "Text": "During the first {1} sec of every Eclipse, Shooting Stars fall {2}% more often."
         }
       ]
     },
     {
       "Hash": 3389213643,
-      "Name": "Угамування",
+      "Name": "Soothe",
       "Descriptions": [
         {
           "Hash": 3288969993,
           "Id": "2908",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Заспокоює ціль та знімає всі ефекти загрози."
+          "Text": "Soothes the target, dispelling all enrage effects."
         }
       ]
     },
     {
       "Hash": 724120922,
-      "Name": "Душа лісу",
+      "Name": "Soul of the Forest",
       "Descriptions": [
         {
           "Hash": 3976443956,
           "Id": "158476",
           "Spec": "Feral",
-          "Text": "Ваші завершальні атаки дають {1} енергії за кожне витрачене очко комбо та завдають збільшену на {2}% шкоду."
+          "Text": "Your finishing moves grant {1} Energy per combo point spent and deal {2}% increased damage."
         },
         {
           "Hash": 289338491,
           "Id": "158477",
           "Spec": "Guardian",
-          "Text": "[Калічення] генерує на {1} люті більше та завдає на {2}% більше шкоди."
+          "Text": "Mangle generates {1} more Rage and deals {2}% more damage."
         },
         {
           "Hash": 322426979,
@@ -2901,19 +2901,19 @@
     },
     {
       "Hash": 3387681536,
-      "Name": "Весняний цвіт",
+      "Name": "Spring Blossoms",
       "Descriptions": [
         {
           "Hash": 864318175,
           "Id": "207385",
           "Spec": "Restoration",
-          "Text": "Кожна ціль, вилікована за допомогою [Розквіт], отримує додатково {1} од. здоров'я протягом {2} сек."
+          "Text": "Each target healed by Efflorescence is healed for an additional {1} over {2} sec."
         }
       ]
     },
     {
       "Hash": 4086423592,
-      "Name": "Тупітний рев",
+      "Name": "Stampeding Roar",
       "Descriptions": [
         {
           "Hash": 1288416468,
@@ -2925,7 +2925,7 @@
     },
     {
       "Hash": 2401735801,
-      "Name": "Зоряний Вибух",
+      "Name": "Star Burst",
       "Descriptions": [
         {
           "Hash": 3984031930,
@@ -2937,7 +2937,7 @@
     },
     {
       "Hash": 1642494802,
-      "Name": "Зорепад",
+      "Name": "Starfall",
       "Descriptions": [
         {
           "Hash": 649547651,
@@ -2949,7 +2949,7 @@
     },
     {
       "Hash": 709632870,
-      "Name": "Зоряний вогонь",
+      "Name": "Starfire",
       "Descriptions": [
         {
           "Hash": 657886030,
@@ -2967,7 +2967,7 @@
     },
     {
       "Hash": 1902602324,
-      "Name": "Зоряний лорд",
+      "Name": "Starlord",
       "Descriptions": [
         {
           "Hash": 3550153187,
@@ -2979,19 +2979,19 @@
     },
     {
       "Hash": 2121903020,
-      "Name": "Зоряний сплеск",
+      "Name": "Starsurge",
       "Descriptions": [
         {
           "Hash": 3178247256,
           "Id": "197626, 78674",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Випускає потік енергії зірок в ціль, завдаючи {1} Астральної шкоди."
+          "Text": "Launch a surge of stellar energies at the target, dealing {1} Astral damage."
         }
       ]
     },
     {
       "Hash": 362929545,
-      "Name": "Зоряний ткач",
+      "Name": "Starweaver",
       "Descriptions": [
         {
           "Hash": 3089090622,
@@ -3003,7 +3003,7 @@
     },
     {
       "Hash": 1712197801,
-      "Name": "Зоряний спалах",
+      "Name": "Stellar Flare",
       "Descriptions": [
         {
           "Hash": 551391740,
@@ -3015,7 +3015,7 @@
     },
     {
       "Hash": 2869962891,
-      "Name": "Зоряне збудження",
+      "Name": "Stellar Innervation",
       "Descriptions": [
         {
           "Hash": 305323800,
@@ -3027,7 +3027,7 @@
     },
     {
       "Hash": 1969450744,
-      "Name": "Кам'яна кора",
+      "Name": "Stonebark",
       "Descriptions": [
         {
           "Hash": 47551766,
@@ -3039,7 +3039,7 @@
     },
     {
       "Hash": 66063186,
-      "Name": "Дика Сила",
+      "Name": "Strength of the Wild",
       "Descriptions": [
         {
           "Hash": 3891223359,
@@ -3051,7 +3051,7 @@
     },
     {
       "Hash": 3267743187,
-      "Name": "Несподівана засідка",
+      "Name": "Sudden Ambush",
       "Descriptions": [
         {
           "Hash": 69558501,
@@ -3063,7 +3063,7 @@
     },
     {
       "Hash": 1182047336,
-      "Name": "Розколота твердь",
+      "Name": "Sundered Firmament",
       "Descriptions": [
         {
           "Hash": 2314833536,
@@ -3075,7 +3075,7 @@
     },
     {
       "Hash": 4085516950,
-      "Name": "Сонячний вогонь",
+      "Name": "Sunfire",
       "Descriptions": [
         {
           "Hash": 1217268173,
@@ -3087,13 +3087,13 @@
           "Hash": 1747300084,
           "Id": "93402",
           "Spec": "Restoration, Feral, Guardian",
-          "Text": "Промінь сонячного світла завдає ворогу {1} шкоди від магії природи, а потім додатково {2} шкоди від магії природи протягом {3} секунд."
+          "Text": "A quick beam of solar light burns the enemy for {1} Nature damage and then an additional {2} Nature damage over {3} sec."
         }
       ]
     },
     {
       "Hash": 3439883817,
-      "Name": "Інстинкти виживання",
+      "Name": "Survival Instincts",
       "Descriptions": [
         {
           "Hash": 2851743854,
@@ -3105,7 +3105,7 @@
     },
     {
       "Hash": 414943443,
-      "Name": "Природний відбір",
+      "Name": "Survival of the Fittest",
       "Descriptions": [
         {
           "Hash": 476057683,
@@ -3117,13 +3117,13 @@
     },
     {
       "Hash": 564500662,
-      "Name": "Швидке відновлення",
+      "Name": "Swiftmend",
       "Descriptions": [
         {
           "Hash": 4021815852,
           "Id": "18562",
           "Spec": "Feral, Guardian, Balance",
-          "Text": "Використовує ефект [Відновлення], [Дикий ріст] або [Омолодження], щоб миттєво відновити союзнику {1} од. здоров'я."
+          "Text": "Consumes a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for {1}."
         },
         {
           "Hash": 2719456912,
@@ -3153,7 +3153,7 @@
     },
     {
       "Hash": 973061863,
-      "Name": "Смак крові",
+      "Name": "Taste for Blood",
       "Descriptions": [
         {
           "Hash": 3262222283,
@@ -3165,7 +3165,7 @@
     },
     {
       "Hash": 2336790284,
-      "Name": "Розрив відкритих ран",
+      "Name": "Tear Open Wounds",
       "Descriptions": [
         {
           "Hash": 2679568561,
@@ -3177,7 +3177,7 @@
     },
     {
       "Hash": 1510791647,
-      "Name": "Телепорт: Місячна Галявина",
+      "Name": "Teleport: Moonglade",
       "Descriptions": [
         {
           "Hash": 1572833084,
@@ -3189,19 +3189,19 @@
     },
     {
       "Hash": 1576440054,
-      "Name": "Товста шкіра",
+      "Name": "Thick Hide",
       "Descriptions": [
         {
           "Hash": 641619896,
           "Id": "16931",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Зменшує всю отриману шкоду на {1}%."
+          "Text": "Reduces all damage taken by {1}%."
         }
       ]
     },
     {
       "Hash": 1393716309,
-      "Name": "Колючки",
+      "Name": "Thorns",
       "Descriptions": [
         {
           "Hash": 75088014,
@@ -3213,7 +3213,7 @@
     },
     {
       "Hash": 3919100476,
-      "Name": "Залізні шипи",
+      "Name": "Thorns of Iron",
       "Descriptions": [
         {
           "Hash": 3104580443,
@@ -3225,7 +3225,7 @@
     },
     {
       "Hash": 2889019428,
-      "Name": "Шмагання",
+      "Name": "Thrash",
       "Descriptions": [
         {
           "Hash": 1421962940,
@@ -3249,7 +3249,7 @@
     },
     {
       "Hash": 2925002061,
-      "Name": "Порив тигра",
+      "Name": "Tiger Dash",
       "Descriptions": [
         {
           "Hash": 3130502194,
@@ -3261,7 +3261,7 @@
     },
     {
       "Hash": 3354196761,
-      "Name": "Лють тигра",
+      "Name": "Tiger's Fury",
       "Descriptions": [
         {
           "Hash": 3454745774,
@@ -3273,7 +3273,7 @@
     },
     {
       "Hash": 928677407,
-      "Name": "Наполегливість тигра",
+      "Name": "Tiger's Tenacity",
       "Descriptions": [
         {
           "Hash": 1328756891,
@@ -3285,7 +3285,7 @@
     },
     {
       "Hash": 2438917080,
-      "Name": "Невтомна енергія",
+      "Name": "Tireless Energy",
       "Descriptions": [
         {
           "Hash": 3806591646,
@@ -3297,7 +3297,7 @@
     },
     {
       "Hash": 1904681677,
-      "Name": "Невтомна погоня",
+      "Name": "Tireless Pursuit",
       "Descriptions": [
         {
           "Hash": 2306400116,
@@ -3309,7 +3309,7 @@
     },
     {
       "Hash": 2811286697,
-      "Name": "Зуб і кіготь",
+      "Name": "Tooth and Claw",
       "Descriptions": [
         {
           "Hash": 3904057108,
@@ -3321,7 +3321,7 @@
     },
     {
       "Hash": 264045495,
-      "Name": "Витривалість",
+      "Name": "Toughness",
       "Descriptions": [
         {
           "Hash": 960965990,
@@ -3333,7 +3333,7 @@
     },
     {
       "Hash": 858166782,
-      "Name": "Врівноважені думи",
+      "Name": "Tranquil Mind",
       "Descriptions": [
         {
           "Hash": 1391532531,
@@ -3345,19 +3345,19 @@
     },
     {
       "Hash": 3430025654,
-      "Name": "Спокій",
+      "Name": "Tranquility",
       "Descriptions": [
         {
           "Hash": 1500175152,
           "Id": "740",
           "Spec": "Restoration",
-          "Text": "Лікує всіх союзників у радіусі {1} м на {2} одиниць протягом {3} секунди. Кожне лікування додає ще {4} од. протягом {5} сек. і накопичуется.\n\nЛікування збільшується на {5}, коли не знаходишся у рейді."
+          "Text": "Heals all allies within {1} yards for {2} over {3} sec. Each heal heals the target for another {4} over {5} sec, stacking.\n\nHealing increased by {6}% when not in a raid."
         }
       ]
     },
     {
       "Hash": 3957612038,
-      "Name": "Форма для Подорожі",
+      "Name": "Travel Form",
       "Descriptions": [
         {
           "Hash": 1434538859,
@@ -3369,7 +3369,7 @@
     },
     {
       "Hash": 2014800774,
-      "Name": "Подвійний місячний вогонь",
+      "Name": "Twin Moonfire",
       "Descriptions": [
         {
           "Hash": 859559183,
@@ -3381,7 +3381,7 @@
     },
     {
       "Hash": 2597120946,
-      "Name": "Місяці-близнюки",
+      "Name": "Twin Moons",
       "Descriptions": [
         {
           "Hash": 859559183,
@@ -3393,19 +3393,19 @@
     },
     {
       "Hash": 3951949470,
-      "Name": "Тайфун",
+      "Name": "Typhoon",
       "Descriptions": [
         {
           "Hash": 3211106120,
           "Id": "132469",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Відштовхує ворогів перед вами на {1} м від вас, зменшуючи їх швидкість руху на {2}% протягом {3} секунд. Можна використовувати в будь-якій формі."
+          "Text": "Blasts targets within {1} yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by {2}% for {3} sec. Usable in all shapeshift forms."
         }
       ]
     },
     {
       "Hash": 2239854675,
-      "Name": "Тіньові обійми",
+      "Name": "Umbral Embrace",
       "Descriptions": [
         {
           "Hash": 3144719341,
@@ -3417,7 +3417,7 @@
     },
     {
       "Hash": 2856209624,
-      "Name": "Тіньова інтенсивність",
+      "Name": "Umbral Intensity",
       "Descriptions": [
         {
           "Hash": 2011762810,
@@ -3429,43 +3429,43 @@
     },
     {
       "Hash": 3621444807,
-      "Name": "Невгамовний рій",
+      "Name": "Unbridled Swarm",
       "Descriptions": [
         {
           "Hash": 726296256,
           "Id": "391951",
           "Spec": "Restoration, Feral",
-          "Text": "[Адаптивний рій] має {1}% шанс розділитись на два рої кожного разу, коли здійснює стрибок."
+          "Text": "Adaptive Swarm has a {1}% chance to split into two Swarms each time it jumps."
         }
       ]
     },
     {
       "Hash": 1119901017,
-      "Name": "Підлісок",
+      "Name": "Undergrowth",
       "Descriptions": [
         {
           "Hash": 2731171453,
           "Id": "392301",
           "Spec": "Restoration",
-          "Text": "Ви можете одночасно використовувати [Життєцвіт] для двух цілей, але лікувальна дія зменшується на {1}%."
+          "Text": "You may Lifebloom two targets at once, but Lifebloom's healing is reduced by {1}%."
         }
       ]
     },
     {
       "Hash": 4112664957,
-      "Name": "Нестримний ріст",
+      "Name": "Unstoppable Growth",
       "Descriptions": [
         {
           "Hash": 1871107725,
           "Id": "382559",
           "Spec": "Restoration",
-          "Text": "Періодичний ефект зцілення від [Дикий Ріст] спадає на {1}% повільніше."
+          "Text": "Wild Growth's healing falls off {1}% less over time."
         }
       ]
     },
     {
       "Hash": 206133685,
-      "Name": "Неприборкана дикість",
+      "Name": "Untamed Savagery",
       "Descriptions": [
         {
           "Hash": 2046262588,
@@ -3477,7 +3477,7 @@
     },
     {
       "Hash": 2842040316,
-      "Name": "Котячий Адепт",
+      "Name": "Ursine Adept",
       "Descriptions": [
         {
           "Hash": 80843901,
@@ -3489,7 +3489,7 @@
     },
     {
       "Hash": 423944486,
-      "Name": "Медвежа міць",
+      "Name": "Ursine Vigor",
       "Descriptions": [
         {
           "Hash": 3674220928,
@@ -3501,7 +3501,7 @@
     },
     {
       "Hash": 1648649352,
-      "Name": "Витривалість Урсока",
+      "Name": "Ursoc's Endurance",
       "Descriptions": [
         {
           "Hash": 1057047194,
@@ -3513,7 +3513,7 @@
     },
     {
       "Hash": 306134930,
-      "Name": "Лють Урсока",
+      "Name": "Ursoc's Fury",
       "Descriptions": [
         {
           "Hash": 1386380917,
@@ -3525,7 +3525,7 @@
     },
     {
       "Hash": 2788958811,
-      "Name": "Наставництво Урсока",
+      "Name": "Ursoc's Guidance",
       "Descriptions": [
         {
           "Hash": 2197066262,
@@ -3537,7 +3537,7 @@
     },
     {
       "Hash": 897665850,
-      "Name": "Вир Урсула",
+      "Name": "Ursol's Vortex",
       "Descriptions": [
         {
           "Hash": 1141775622,
@@ -3549,241 +3549,241 @@
     },
     {
       "Hash": 3900865879,
-      "Name": "Венорозпорювач",
+      "Name": "Veinripper",
       "Descriptions": [
         {
           "Hash": 814669789,
           "Id": "391978",
           "Spec": "Feral",
-          "Text": "[Розрив], [Роздирання] та [Шмагання] діють на {1}% довше."
+          "Text": "Rip, Rake, and Thrash last {1}% longer."
         }
       ]
     },
     {
       "Hash": 3175674668,
-      "Name": "Зелень",
+      "Name": "Verdancy",
       "Descriptions": [
         {
           "Hash": 4290034340,
           "Id": "392325",
           "Spec": "Restoration",
-          "Text": "Коли [Життєцвіт] квітне, до {1} цілей в межах дії вашого [Розквіт] зцілюються на {2}."
+          "Text": "When Lifebloom blooms, up to {1} targets within your Efflorescence are healed for {2}."
         }
       ]
     },
     {
       "Hash": 41326561,
-      "Name": "Зелене серце",
+      "Name": "Verdant Heart",
       "Descriptions": [
         {
           "Hash": 1978028629,
           "Id": "301768",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "[Шалена регенерація] та [Дубова кора] збільшують все вхідне зцілення на {1}%."
+          "Text": "Frenzied Regeneration and Barkskin increase all healing received by {1}%."
         }
       ]
     },
     {
       "Hash": 3149769210,
-      "Name": "Буйне насичення",
+      "Name": "Verdant Infusion",
       "Descriptions": [
         {
           "Hash": 1679879612,
           "Id": "392410",
           "Spec": "Restoration",
-          "Text": "[Швидке відновлення] більше не поглинає ефекти періодичного зцілення, натомість продовжує тривалість таких ефектів на цілі на {1} сек."
+          "Text": "Swiftmend no longer consumes a heal over time effect, and extends the duration of your heal over time effects on the target by {1} sec."
         }
       ]
     },
     {
       "Hash": 1693625174,
-      "Name": "Порочне коло",
+      "Name": "Vicious Cycle",
       "Descriptions": [
         {
           "Hash": 482486915,
           "Id": "371999",
           "Spec": "Guardian",
-          "Text": "[Калічення] збільшує шкоду від вашого наступного [Знищення], та [Знищення] збільшує шкоду від вашого наступного [Калічення] на {1}%. Накопичується до {2} {declension|раз|рази|разів}."
+          "Text": "Mangle increases the damage of your next Raze, and Raze increases the damage of your next Mangle by {1}%. Stacks up to {2}."
         }
       ]
     },
     {
       "Hash": 184586360,
-      "Name": "Вразлива плоть",
+      "Name": "Vulnerable Flesh",
       "Descriptions": [
         {
           "Hash": 687026278,
           "Id": "372618",
           "Spec": "Guardian",
-          "Text": "[Знищення] має додатковий {1}% шанс критичної шкоди."
+          "Text": "Raze has an additional {1}% chance to critically strike."
         }
       ]
     },
     {
       "Hash": 1137200592,
-      "Name": "Сон наяву",
+      "Name": "Waking Dream",
       "Descriptions": [
         {
           "Hash": 1282610104,
           "Id": "392221",
           "Spec": "Restoration",
-          "Text": "[Дар Ізери] тепер відновлює здоров'я кожні {1} сек, і його лікувальна сила збільшується на {2}% за кожне активне [Омолодження]."
+          "Text": "Ysera's Gift now heals every {1} sec and its healing is increased by {2}% for each of your active Rejuvenations."
         }
       ]
     },
     {
       "Hash": 1801829784,
-      "Name": "Згасаючі Сутінки",
+      "Name": "Waning Twilight",
       "Descriptions": [
         {
           "Hash": 3347198136,
           "Id": "393956",
           "Spec": "Balance",
-          "Text": "Коли ви маєте {1} періодичних ефектів на цілі, ваша шкода та зцілення на ній збільшуються на {2}%."
+          "Text": "When you have {1} periodic effects on a target, your damage and healing on them are increased by {2}%."
         }
       ]
     },
     {
       "Hash": 1260395433,
-      "Name": "Воїн Елуни",
+      "Name": "Warrior of Elune",
       "Descriptions": [
         {
           "Hash": 948699997,
           "Id": "202425",
           "Spec": "Balance",
-          "Text": "Ваші наступні {1} [Зоряний вогонь] можна використати миттєво і вони генерують на {2}% більше астральної сили."
+          "Text": "Your next {1} Starfires are instant cast and generate {2}% increased Astral Power."
         }
       ]
     },
     {
       "Hash": 1180025291,
-      "Name": "Добре відточені інстинкти",
+      "Name": "Well-Honed Instincts",
       "Descriptions": [
         {
           "Hash": 1476821845,
           "Id": "377847",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Коли ви опускаєтесь нижче {1}% здоров'я, ви застосовуєте [Шалена регенерація] до одного разу кожні {2} сек."
+          "Text": "When you fall below {1}% health, you cast Frenzied Regeneration, up to once every {2} sec."
         }
       ]
     },
     {
       "Hash": 3265092092,
-      "Name": "Підступні Пазурі",
+      "Name": "Wicked Claws",
       "Descriptions": [
         {
           "Hash": 2725968592,
           "Id": "203242",
           "Spec": "Feral",
-          "Text": "[Інфіковані рани] тепер можуть накопичуватися до {1} {declension|разу|разів|разів}, та зменшують все зцілення отримуване ціллю на {2}% за кожен ефект.\n\n[Інфіковані рани] тепер можуть накладатися через [Розрив]."
+          "Text": "Infected Wounds can now stack up to {1} times, and reduces {2}% of all healing received by the target per stack.\n\nInfected Wounds can now also be applied from Rip."
         }
       ]
     },
     {
       "Hash": 820617585,
-      "Name": "Дика атака",
+      "Name": "Wild Charge",
       "Descriptions": [
         {
           "Hash": 3861907055,
           "Id": "16979",
           "Spec": "Guardian",
-          "Text": "Ривок до ворога, який знерухомлює його на {1} сек."
+          "Text": "Charge to an enemy, immobilizing them for {1} sec."
         },
         {
           "Hash": 3090801448,
           "Id": "102383",
           "Spec": "Balance",
-          "Text": "Ви стрибаєте назад від ваших ворогів."
+          "Text": "Bound backward away from your enemies."
         },
         {
           "Hash": 461212075,
           "Id": "49376",
           "Spec": "Feral",
-          "Text": "Ви робите ривок у ворога, приголомшуючи його на {1} сек."
+          "Text": "Leap behind an enemy, dazing them for {1} sec."
         },
         {
           "Hash": 308501643,
           "Id": "102401, 49376, 16979, 102383",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Летіть на позицію сусіднього союзника."
+          "Text": "Fly to a nearby ally's position."
         }
       ]
     },
     {
       "Hash": 3695240624,
-      "Name": "Дикий ріст",
+      "Name": "Wild Growth",
       "Descriptions": [
         {
           "Hash": 2696487586,
           "Id": "48438",
           "Spec": "Restoration, Feral, Guardian, Balance",
-          "Text": "Зцілює до {1} поранених союзників в радіусі {2} м від цілі на {3} од. здоров'я протягом {4} сек. Лікування починається з високою інтенсивністю і зменшується з часом."
+          "Text": "Heals up to {1} injured allies within {2} yards of the target for {3} over {4} sec. Healing starts high and declines over the duration."
         }
       ]
     },
     {
       "Hash": 2949241595,
-      "Name": "Дикий гриб",
+      "Name": "Wild Mushroom",
       "Descriptions": [
         {
           "Hash": 4282056583,
           "Id": "88747",
           "Spec": "Balance",
-          "Text": "Вирощує магічний гриб у місці розташування ворога. Після {1} сек, гриб вибухає, завдаючи {2} од. шкоди від магії природи та генерує до {3} од. астральної сили в залежності від кількості пошкоджених ворогів."
+          "Text": "Grow a magical mushroom at the target enemy's location. After {1} sec, the mushroom detonates, dealing {2} Nature damage and generating up to {3} Astral Power based on targets hit."
         }
       ]
     },
     {
       "Hash": 506369640,
-      "Name": "Дикі розрізи",
+      "Name": "Wild Slashes",
       "Descriptions": [
         {
           "Hash": 2780336954,
           "Id": "390864",
           "Spec": "Feral",
-          "Text": "[Розмах] та [Шмагання] завдають на {1}% більше шкоди."
+          "Text": "Swipe and Thrash damage is increased by {1}%."
         }
       ]
     },
     {
       "Hash": 2222193277,
-      "Name": "Дикий синтез",
+      "Name": "Wild Synthesis",
       "Descriptions": [
         {
           "Hash": 3744193408,
           "Id": "400533",
           "Spec": "Restoration",
-          "Text": "[Відновлення] зменшує час застосування вашого наступного [Підживлення] на {1}% та змушує його отримувати додатково {2}% бонус від {ffffffff|Майстерність: Гармонія}. \n\nНакопичується до {3} {declension|раз|рази|разів}."
+          "Text": "Regrowth decreases the cast time of your next Nourish by {1}% and causes it to receive an additional {2}% bonus from {ffffffff|Mastery: Harmony}. \n\nStacks up to {3} times."
         }
       ]
     },
     {
       "Hash": 2413742200,
-      "Name": "Гнів",
+      "Name": "Wrath",
       "Descriptions": [
         {
           "Hash": 1730144915,
           "Id": "5176",
           "Spec": "Restoration, Feral, Guardian",
-          "Text": "Жбурляє кулю енергії в ціль, завдаючи {1} од. шкоди від магії природи."
+          "Text": "Hurl a ball of energy at the target, dealing {1} Nature damage."
         },
         {
           "Hash": 3571145345,
           "Id": "190984",
           "Spec": "Balance",
-          "Text": "Жбурляє кулю енергії в ціль, завдаючи {1} од. шкоди від магії природи.\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}"
+          "Text": "Hurl a ball of energy at the target, dealing {1} Nature damage.\n\n{FFFFFFFF|Generates {2} Astral Power.}"
         }
       ]
     },
     {
       "Hash": 3300831259,
-      "Name": "Дар Ізери",
+      "Name": "Ysera's Gift",
       "Descriptions": [
         {
           "Hash": 61102952,
           "Id": "145108",
           "Spec": "Restoration",
-          "Text": "Лікує вас на {1}% від вашого максимального здоров'я кожні {2} сек. Якщо ви маєте повне здоров'я, замість вас буде виліковано пораненого члена групи або рейду."
+          "Text": "Heals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead."
         }
       ]
     }
