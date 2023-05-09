@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout master branch
         uses: actions/checkout@v3
 
       - name: Download latest translations from Crowdin
@@ -29,6 +29,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          
+      - name: Checkout approved-only branch
+        uses: actions/checkout@v3
+        with:
+          ref: approved-only
           
       - name: Download latest approved translations from Crowdin
         uses: crowdin/github-action@v1
