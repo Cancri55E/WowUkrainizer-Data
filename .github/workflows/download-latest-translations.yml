@@ -72,12 +72,11 @@ jobs:
 
       - name: Commit changes to Data.db if changed
         if: env.DATA_DB_CHANGED == 'true'
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git commit -m "Update Data.db with latest translations"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Cancri55E/WowUkrainizer-Data.git
-          git push
+        uses: EndBug/add-and-commit@v9
+        with:
+            message: Update Data.db with latest translations
+            committer_name: GitHub Actions
+            committer_email: actions@github.com
 
       - name: Find and update existing PR with new commit
         if: env.DATA_DB_CHANGED == 'true'
