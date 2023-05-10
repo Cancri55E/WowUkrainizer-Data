@@ -76,6 +76,7 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git commit -m "Update Data.db with latest translations"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Cancri55E/WowUkrainizer-Data.git
           git push
 
       - name: Find and update existing PR with new commit
@@ -85,6 +86,7 @@ jobs:
           if [ "$PR_NUMBER" != "" ]; then
             gh pr checkout $PR_NUMBER
             git merge --no-ff main
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Cancri55E/WowUkrainizer-Data.git
             git push
           fi
         env:
