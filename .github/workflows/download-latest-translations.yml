@@ -21,7 +21,10 @@ jobs:
           repository: Cancri55E/WowUkrainizer-DevTools
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: DevTools
-        
+          
+      - name: List files and folders in DevTools recursively
+        run: find DevTools -type f -o -type d
+
       - name: Checkout
         uses: actions/checkout@v3
 
