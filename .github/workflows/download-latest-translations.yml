@@ -14,6 +14,11 @@ jobs:
       PR_TITLE: "Automatic PR with Latest Translations from Crowdin"
 
     steps:
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+          
       - name: Checkout DevTools repository
         uses: actions/checkout@v3
         with:
@@ -44,11 +49,9 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
           
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '7.0.x'
-
+      - name: Print current working directory
+        run: pwd
+          
       - name: Restore NuGet packages
         run: dotnet restore DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj
 
