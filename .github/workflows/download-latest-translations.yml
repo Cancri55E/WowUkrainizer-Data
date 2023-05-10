@@ -34,7 +34,7 @@ jobs:
         run: pwd
 
       - name: List files and folders in the current working directory recursively
-        run: find . -type f -o -type d
+        run: find ${{ github.workspace }} -type f -o -type d
         
       - name: Checkout
         uses: actions/checkout@v3
@@ -59,7 +59,7 @@ jobs:
         run: pwd
 
       - name: List files and folders in the current working directory recursively
-        run: find . -type f -o -type d
+        run: find ${{ github.workspace }} -type f -o -type d
         
       - name: Restore NuGet packages
         run: dotnet restore ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj
