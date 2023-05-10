@@ -10,8 +10,17 @@ permissions: write-all
 jobs:
   download-translations-with-crowdin:
     runs-on: ubuntu-latest
+    env:
+      PR_TITLE: "Automatic PR with Latest Translations from Crowdin"
 
     steps:
+      - name: Checkout DevTools repository
+        uses: actions/checkout@v3
+        with:
+          repository: Cancri55E/WowUkrainizer-DevTools
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          path: DevTools
+        
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -22,7 +31,7 @@ jobs:
           upload_translations: false
           download_translations: true
           create_pull_request: true
-          pull_request_title: 'Automatic PR with Latest Translations from Crowdin'
+          pull_request_title: ${{ env.PR_TITLE }}
           pull_request_body: 'This PR is automatically generated and includes all available translations in JSON format, organized in the same file structure as the project on Crowdin.'
           pull_request_base_branch_name: 'main'
           localization_branch_name: crowdin/latest_translations
@@ -30,3 +39,52 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: Restore NuGet packages
+        run: dotnet restore DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj
+
+      - name: Build .NET project
+        run: dotnet build DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release
+
+      - name: Run .NET project
+        run: dotnet run --project DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- -m "update-translation" -ds "Data.db" -t "uk"
+        
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh
+      - name: Check if Data.db has changed
+        run: |
+          git add Data.db
+          if git diff --name-only --cached | grep -q "Data.db"; then
+            echo "DATA_DB_CHANGED=true" >> $GITHUB_ENV
+          else
+            echo "DATA_DB_CHANGED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit changes to Data.db if changed
+        if: env.DATA_DB_CHANGED == 'true'
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git commit -m "Update Data.db with latest translations"
+          git push
+
+      - name: Find and update existing PR with new commit
+        if: env.DATA_DB_CHANGED == 'true'
+        run: |
+          PR_NUMBER=$(gh pr list --base main --search "${{ env.PR_TITLE }}" --json number -q '.[0].number')
+          if [ "$PR_NUMBER" != "" ]; then
+            gh pr checkout $PR_NUMBER
+            git merge --no-ff main
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
