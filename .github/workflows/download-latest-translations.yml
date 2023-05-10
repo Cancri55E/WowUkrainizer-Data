@@ -29,7 +29,13 @@ jobs:
           
       - name: List files and folders in DevTools recursively
         run: find DevTools -type f -o -type d
+        
+      - name: Print current working directory
+        run: pwd
 
+      - name: List files and folders in the current working directory recursively
+        run: find . -type f -o -type d
+        
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -51,7 +57,10 @@ jobs:
           
       - name: Print current working directory
         run: pwd
-          
+
+      - name: List files and folders in the current working directory recursively
+        run: find . -type f -o -type d
+        
       - name: Restore NuGet packages
         run: dotnet restore DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj
 
