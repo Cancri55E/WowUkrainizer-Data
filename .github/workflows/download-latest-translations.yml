@@ -29,15 +29,6 @@ jobs:
           repository: Cancri55E/WowUkrainizer-DevTools
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: DevTools
-          
-      - name: List files and folders in DevTools recursively
-        run: find DevTools -type f -o -type d
-        
-      - name: Print current working directory
-        run: pwd
-
-      - name: List files and folders in the current working directory recursively
-        run: find ${{ github.workspace }} -type f -o -type d
 
       - name: Download latest translations from Crowdin
         uses: crowdin/github-action@v1
@@ -68,14 +59,8 @@ jobs:
         run: dotnet build ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release
 
       - name: Run .NET project
-        run: dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- -m "update-translation" -ds "Data.db" -t "uk"
+        run: dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- -m "update-translation" -ds "${{ github.workspace }}/Data.db" -t "${{ github.workspace }}/uk"
         
-      - name: Install GitHub CLI
-        run: |
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-          sudo apt-add-repository https://cli.github.com/packages
-          sudo apt update
-          sudo apt install gh
       - name: Check if Data.db has changed
         run: |
           git add Data.db
