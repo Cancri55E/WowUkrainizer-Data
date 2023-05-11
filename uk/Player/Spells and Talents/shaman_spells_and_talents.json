@@ -489,7 +489,7 @@
           "Hash": 182869703,
           "Id": "384352",
           "Spec": "Enhancement",
-          "Text": "Ви атакуєте ціль, завдаючи {1} од. фізичної шкоди. Підвищує ймовірність спрацьовування [Вітри року] на {2}% і збільшує шкоду від [Вітри року] на {3}% на {4} sec."
+          "Text": "Ви атакуєте ціль, завдаючи {1} од. фізичної шкоди. Підвищує ймовірність спрацьовування [Зброя Шаленства вітру] на {2}% і збільшує шкоду від [Зброя Шаленства вітру] на {3}% на {4} сек."
         }
       ]
     },
@@ -537,7 +537,7 @@
     },
     {
       "Hash": 3952445868,
-      "Name": "Шок Землі",
+      "Name": "Земний Шок",
       "Descriptions": [
         {
           "Hash": 3586025803,
@@ -645,7 +645,7 @@
           "Hash": 3659075199,
           "Id": "384087",
           "Spec": "Elemental",
-          "Text": "Після застосування [Шок Землі], наступний [Землетрус] завдає додаткової шкоди на {1}%.\n\nПісля застосування [Вибух стихії], наступний [Землетрус] завдає додаткової шкоди на {2}%."
+          "Text": "Після застосування [Земний Шок], наступний [Землетрус] завдає додаткової шкоди на {1}%.\n\nПісля застосування [Вибух стихії], наступний [Землетрус] завдає додаткової шкоди на {2}%."
         }
       ]
     },
@@ -669,7 +669,7 @@
           "Hash": 1895961936,
           "Id": "206642",
           "Spec": "Restoration",
-          "Text": "Щоразу, коли ви успішно знімаєте позитивний ефект за допомогою [Позбавлення], противник отримує {1} од. шкоди від сил природи протягом {2} сек."
+          "Text": "Щоразу, коли ви успішно знімаєте позитивний ефект за допомогою [Очищення], противник отримує {1} од. шкоди від сил природи протягом {2} сек."
         }
       ]
     },
@@ -807,7 +807,7 @@
           "Hash": 990580067,
           "Id": "381708",
           "Spec": "Elemental",
-          "Text": "Зменшує витрати виру стихій для [Шок Землі] та [Землетрус] на {1}.\n\nЗменшує витрати виру стихій для [Вибух стихій] на {2}."
+          "Text": "Зменшує витрати виру стихій для [Земний Шок] та [Землетрус] на {1}.\n\nЗменшує витрати виру стихій для [Вибух стихій] на {2}."
         }
       ]
     },
@@ -1017,7 +1017,7 @@
           "Hash": 2129607996,
           "Id": "262647",
           "Spec": "Enhancement",
-          "Text": "Windfury causes each successive Windfury attack within {1} sec to increase the damage of Windfury by {2}%, stacking up to {3} times."
+          "Text": "Послідовні атаки з [Шаленством вітру], проведені протягом {1} сек., завдають на {2}% більше шкоди. Накопичується до {3} разів."
         }
       ]
     },
@@ -1029,7 +1029,7 @@
           "Hash": 3918196408,
           "Id": "196840",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Chills the target with frost, causing {1} Frost damage and reducing the target's movement speed by {2}% for {3} sec."
+          "Text": "Охолоджує ціль морозом, завдаючи {1} шкоди від льоду та знижуючи швидкість руху цілі на {2}% протягом {3} сек."
         }
       ]
     },
@@ -1041,7 +1041,7 @@
           "Hash": 1369894627,
           "Id": "381787",
           "Spec": "Elemental",
-          "Text": "Casting Earth Shock or Earthquake while Ascendance is active extends the duration of Ascendance by {1} sec.\n\nCasting Elemental Blast while Ascendance is active extends the duration of Ascendance by {2} sec."
+          "Text": "Поки діє [Переродження], [Земний Шок] та [Землетрус] продовжують час дії [Переродження] на {1} сек.\n\nПоки діє [Переродження], [Вибух стихій] продовжує час дії [Переродження] на {2} сек."
         }
       ]
     },
@@ -1053,7 +1053,7 @@
           "Hash": 1602491867,
           "Id": "2645",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Turn into a Ghost Wolf, increasing movement speed by {1}% and preventing movement speed from being reduced below {2}%."
+          "Text": "Перетворює вас на примарного вовка, збільшуючи швидкість руху на {1}% і запобігаючи зниженню швидкості руху нижче {2}%."
         }
       ]
     },
@@ -1065,7 +1065,7 @@
           "Hash": 1474431941,
           "Id": "381678",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Reduces the cooldown of Spirit Walk by {1} sec.\n\nReduces the cooldown of Gust of Wind by {2} sec.\n"
+          "Text": "Зменшує час відновлення [Духовна хода] на {1} сек.\n\nЗменшує час відновлення [Порив вітру] на {2} сек."
         }
       ]
     },
@@ -1077,31 +1077,31 @@
           "Hash": 1642663351,
           "Id": "192088",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Reduces the cooldown of Spiritwalker's Grace by {1} sec and increases your movement speed by {2}% while it is active."
+          "Text": "Зменшує час відновлення [Духовна хода] на {1} с і збільшує вашу швидкість руху на {2}%, поки вона активний."
         }
       ]
     },
     {
       "Hash": 978819186,
-      "Name": "Greater Purge",
+      "Name": "Велике очищення",
       "Descriptions": [
         {
           "Hash": 2396482355,
           "Id": "378773",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Purges the enemy target, removing {1} beneficial Magic effects."
+          "Text": "Очищає ворожу ціль, видаляючи {1} позитивні магічні ефекти."
         }
       ]
     },
     {
       "Hash": 3819035325,
-      "Name": "Grounding Totem",
+      "Name": "Тотем заземлення",
       "Descriptions": [
         {
           "Hash": 1511526774,
           "Id": "204336",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Summons a totem at your feet that will redirect all harmful spells cast within {1} yards on a nearby party or raid member to itself. Will not redirect area of effect spells. Lasts {2} sec."
+          "Text": "Викликає тотем біля ваших ніг, який перенаправлятиме на себе всі шкідливі заклинання, в радіусі {1} метрів. Не перенаправляє заклинання які діють на область. Існує {2} сек."
         }
       ]
     },
@@ -1113,7 +1113,7 @@
           "Hash": 3576717915,
           "Id": "381819",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "When Capacitor Totem fades or is destroyed, another Capacitor Totem is automatically dropped in the same place."
+          "Text": "Коли [Тотем конденсації] зникає або руйнується, інший [Тотем конденсації] автоматично з'являється на тому ж самому місці."
         }
       ]
     },
@@ -1125,7 +1125,7 @@
           "Hash": 2620228561,
           "Id": "192063",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "A gust of wind hurls you forward."
+          "Text": "Порив вітру штовхає вас вперед."
         }
       ]
     },
@@ -1149,7 +1149,7 @@
           "Hash": 615766361,
           "Id": "73920",
           "Spec": "Restoration",
-          "Text": "Blanket the target area in healing rains, restoring {1} health to up to {2} allies over {3} sec."
+          "Text": "Цілющі дощі заливають вибрану область, відновлюючи {1} од. здоров’я до {2} союзників протягом {3} сек."
         }
       ]
     },
@@ -1341,7 +1341,7 @@
           "Hash": 1957941154,
           "Id": "378776",
           "Spec": "Elemental",
-          "Text": "Your successful Purge, Cleanse Spirit, Healing Stream Totem, Hex, and Wind Shear casts generate {1} Maelstrom during combat."
+          "Text": "Успішні заклинання [Очищення], [Очищення духу], [Тотем Цілющого Потоку], [Прокляття] та [Подув вітру] створюють {1} од. виру стихій під час бою."
         }
       ]
     },
@@ -1887,13 +1887,13 @@
     },
     {
       "Hash": 469232920,
-      "Name": "Позбавлення",
+      "Name": "Очищення",
       "Descriptions": [
         {
           "Hash": 2772111852,
           "Id": "370",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Purges the enemy target, removing {1} beneficial Magic effect."
+          "Text": "Очищає ворожу ціль, видаляючи {1} позитивний магічний ефект."
         }
       ]
     },
@@ -2793,25 +2793,25 @@
     },
     {
       "Hash": 1152949669,
-      "Name": "Тотем Небесної Люті",
+      "Name": "Тотем Шаленства вітру",
       "Descriptions": [
         {
           "Hash": 3663972208,
           "Id": "8512",
           "Spec": "Enhancement",
-          "Text": "Summons a totem at your feet for {1} min.  Party members within {2} yds have a {3}% chance when they auto-attack to swing an extra time."
+          "Text": "Викликає тотем біля ваших ніг на {1} хв. Члени групи в радіусі {2} метрів мають шанс {3}% під час автоматичної атаки завдавати додатковий удар."
         }
       ]
     },
     {
       "Hash": 3296215305,
-      "Name": "Windfury Weapon",
+      "Name": "Зброя Шаленства вітру",
       "Descriptions": [
         {
           "Hash": 1310990630,
           "Id": "33757",
           "Spec": "Enhancement",
-          "Text": "Imbue your main-hand weapon with the element of Wind for {1} min. Each main-hand attack has a {2}% chance to trigger three extra attacks, dealing {3} Physical damage each.\n\nWindfury causes each successive Windfury attack within {4} sec to increase the damage of Windfury by {5}%, stacking up to {6} times."
+          "Text": "Наповнює зброю в основній руці елементом Вітру на {1} хв. Кожна атака зброєю має {2}% шансу викликати три додаткові атаки, завдаючи {3} фізичної шкоди кожній.\n\nКожна успішна послідовна атака [Зброя Шаленства вітру] протягом {4} сек., збільшує шкоду [Зброя Шаленства вітру] на {5}%, накопичуючись до {6} разів."
         }
       ]
     },
