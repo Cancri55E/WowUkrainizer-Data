@@ -1,0 +1,3791 @@
+{
+    "Class": "Druid",
+    "Spells": [
+        {
+            "Hash": 1694743861,
+            "Name": "|cffffffffBerserk: Persistence|r",
+            "Descriptions": [
+                {
+                    "Hash": 1945998854,
+                    "Id": "50334",
+                    "Spec": "Guardian",
+                    "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}% and cost of Ironfur by {3}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
+                }
+            ]
+        },
+        {
+            "Hash": 1020366358,
+            "Name": "|cffffffffBerserk: Ravage|r",
+            "Descriptions": [
+                {
+                    "Hash": 2729219570,
+                    "Id": "50334",
+                    "Spec": "Guardian",
+                    "Text": "Go berserk for {1} sec, reducing the cooldowns of Mangle, Thrash, and Growl by {2}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
+                }
+            ]
+        },
+        {
+            "Hash": 3825050732,
+            "Name": "|cffffffffBerserk: Unchecked Aggression|r",
+            "Descriptions": [
+                {
+                    "Hash": 185787842,
+                    "Id": "50334",
+                    "Spec": "Guardian",
+                    "Text": "Go berserk for {1} sec, increasing haste by {2}%, and reducing the rage cost of Maul by {3}%.\n\n{FFFFFFFF|Combines with other Berserk abilities.}"
+                }
+            ]
+        },
+        {
+            "Hash": 1507098002,
+            "Name": "|cffffffffIncarnation: Guardian of Ursoc|r",
+            "Descriptions": [
+                {
+                    "Hash": 1975834207,
+                    "Id": "102558",
+                    "Spec": "Guardian",
+                    "Text": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, and increases maximum health by {2}%.\n\nLasts {3} sec. You may freely shapeshift in and out of this improved Bear Form for its duration.\n"
+                }
+            ]
+        },
+        {
+            "Hash": 2327796120,
+            "Name": "Abundance",
+            "Descriptions": [
+                {
+                    "Hash": 387776136,
+                    "Id": "207383",
+                    "Spec": "Restoration",
+                    "Text": "For each Rejuvenation you have active, Regrowth's cost is reduced by {1}% and critical effect chance is increased by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 581996637,
+            "Name": "Adaptive Swarm",
+            "Descriptions": [
+                {
+                    "Hash": 541671962,
+                    "Id": "391888",
+                    "Spec": "Restoration, Feral",
+                    "Text": "Command a swarm that heals {1} or deals {2} Shadow damage over {3} sec to a target, and increases the effectiveness of your periodic effects on them by {4}%.\n\nUpon expiration, finds a new target, preferring to alternate between friend and foe up to {5} times."
+                }
+            ]
+        },
+        {
+            "Hash": 1201062393,
+            "Name": "Aetherial Kindling",
+            "Descriptions": [
+                {
+                    "Hash": 4025319300,
+                    "Id": "327541",
+                    "Spec": "Balance",
+                    "Text": "Casting Starfall extends the duration of active Moonfires and Sunfires by {1} sec, up to {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4114250570,
+            "Name": "After the Wildfire",
+            "Descriptions": [
+                {
+                    "Hash": 3419163145,
+                    "Id": "371905",
+                    "Spec": "Guardian",
+                    "Text": "Every {1} Rage you spend causes a burst of restorative energy, healing allies within {2} yds for {3}."
+                }
+            ]
+        },
+        {
+            "Hash": 662254326,
+            "Name": "Alpha Challenge",
+            "Descriptions": [
+                {
+                    "Hash": 3750311347,
+                    "Id": "207017",
+                    "Spec": "Guardian",
+                    "Text": "You focus the assault on this target, increasing their damage taken by {1}% for {2} sec.  Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\n\nYour melee attacks refresh the duration of Focused Assault."
+                }
+            ]
+        },
+        {
+            "Hash": 3306689356,
+            "Name": "Apex Predator's Craving",
+            "Descriptions": [
+                {
+                    "Hash": 1618320759,
+                    "Id": "391881",
+                    "Spec": "Feral",
+                    "Text": "Rip damage has a {1}% chance to make your next Ferocious Bite free and deal the maximum damage."
+                }
+            ]
+        },
+        {
+            "Hash": 2076867393,
+            "Name": "Aquatic Form",
+            "Descriptions": [
+                {
+                    "Hash": 1310226031,
+                    "Id": "276012",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Your Travel Form increases your swimspeed by {1}% and allows you to breathe underwater."
+                }
+            ]
+        },
+        {
+            "Hash": 596881110,
+            "Name": "Ashamane's Guidance",
+            "Descriptions": [
+                {
+                    "Hash": 153237718,
+                    "Id": "391548",
+                    "Spec": "Feral",
+                    "Text": "Your melee attacks have a chance to activate Incarnation: Avatar of Ashamane for {1} sec, without the ability to enter stealth in combat.\n\nConvoke the Spirits' cooldown is reduced by {2}% and its duration and number of spells cast is reduced by {3}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                }
+            ]
+        },
+        {
+            "Hash": 3466030451,
+            "Name": "Astral Communion",
+            "Descriptions": [
+                {
+                    "Hash": 596809739,
+                    "Id": "400636",
+                    "Spec": "Balance",
+                    "Text": "Increases maximum Astral Power by {1} and teaches Astral Communion:\n\n|T611423:24|t{ffffffff|Astral Communion}:\nGenerates {2} Astral Power. {3} sec cooldown.\n\n"
+                }
+            ]
+        },
+        {
+            "Hash": 309348846,
+            "Name": "Astral Influence",
+            "Descriptions": [
+                {
+                    "Hash": 1941839302,
+                    "Id": "197524",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Increases the range of all of your abilities by {1} yards."
+                }
+            ]
+        },
+        {
+            "Hash": 3114534919,
+            "Name": "Astral Smolder",
+            "Descriptions": [
+                {
+                    "Hash": 2756210642,
+                    "Id": "394058",
+                    "Spec": "Balance",
+                    "Text": "Your critical strikes from Starfire and Wrath cause the target to languish for an additional {1}% of your spell's damage over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1338995887,
+            "Name": "Balance of All Things",
+            "Descriptions": [
+                {
+                    "Hash": 1175904127,
+                    "Id": "394048",
+                    "Spec": "Balance",
+                    "Text": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by {1}%, decreasing by {2}% every {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2661550121,
+            "Name": "Barkskin",
+            "Descriptions": [
+                {
+                    "Hash": 881793994,
+                    "Id": "22812",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Your skin becomes as tough as bark, reducing all damage you take by {1}% and preventing damage from delaying your spellcasts. Lasts {2} sec.\n\nUsable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 2075500466,
+            "Name": "Bear Form",
+            "Descriptions": [
+                {
+                    "Hash": 436435549,
+                    "Id": "5487",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shapeshift into Bear Form, increasing armor by {1}% and Stamina by {2}%, granting protection from Polymorph effects, and increasing threat generation.\n\nThe act of shapeshifting frees you from movement impairing effects."
+                }
+            ]
+        },
+        {
+            "Hash": 3783768447,
+            "Name": "Berserk",
+            "Descriptions": [
+                {
+                    "Hash": 3055904021,
+                    "Id": "50334",
+                    "Spec": "Guardian",
+                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, Mangle, Thrash, and Growl by {4}%, and reducing the cost of Maul and Ironfur by {5}%."
+                },
+                {
+                    "Hash": 2026772524,
+                    "Id": "106951",
+                    "Spec": "Feral",
+                    "Text": "Go Berserk for {1} sec. While Berserk:\n\nFinishing moves have a {2}% chance per combo point spent to refund {3} combo points.\n\nSwipe generates {4} additional combo point.\n\nRake and Shred deal damage as though you were stealthed."
+                }
+            ]
+        },
+        {
+            "Hash": 485206953,
+            "Name": "Berserk: Frenzy",
+            "Descriptions": [
+                {
+                    "Hash": 2273558302,
+                    "Id": "384668",
+                    "Spec": "Feral",
+                    "Text": "During Berserk your combo point-generating abilities bleed the target for an additional {1}% of their damage over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4098908997,
+            "Name": "Berserk: Heart of the Lion",
+            "Descriptions": [
+                {
+                    "Hash": 3735133107,
+                    "Id": "391174",
+                    "Spec": "Feral",
+                    "Text": "Each combo point spent reduces the cooldown of Berserk by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1601807321,
+            "Name": "Blood Frenzy",
+            "Descriptions": [
+                {
+                    "Hash": 1213732468,
+                    "Id": "203962",
+                    "Spec": "Guardian",
+                    "Text": "Thrash also generates {1} Rage each time it deals damage."
+                }
+            ]
+        },
+        {
+            "Hash": 640921441,
+            "Name": "Bloodtalons",
+            "Descriptions": [
+                {
+                    "Hash": 2848051006,
+                    "Id": "319439",
+                    "Spec": "Feral",
+                    "Text": "When you use {1} different combo point-generating abilities within {2} sec, the damage of your next {3} Rips or Ferocious Bites is increased by {4}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3013535244,
+            "Name": "Brambles",
+            "Descriptions": [
+                {
+                    "Hash": 1347277911,
+                    "Id": "203953",
+                    "Spec": "Guardian",
+                    "Text": "Sharp brambles protect you, absorbing and reflecting up to {1} damage from each attack.\n\nWhile Barkskin is active, the brambles also deal {2} Nature damage to all nearby enemies every {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4272625492,
+            "Name": "Bristling Fur",
+            "Descriptions": [
+                {
+                    "Hash": 3355086536,
+                    "Id": "155835",
+                    "Spec": "Guardian",
+                    "Text": "Bristle your fur, causing you to generate Rage based on damage taken for {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3287670891,
+            "Name": "Brutal Slash",
+            "Descriptions": [
+                {
+                    "Hash": 4122618641,
+                    "Id": "202028",
+                    "Spec": "Feral",
+                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Deals reduced damage beyond {3} targets.\n\n{FFFFFFFF|Awards {4} combo point.}"
+                }
+            ]
+        },
+        {
+            "Hash": 3662897795,
+            "Name": "Budding Leaves",
+            "Descriptions": [
+                {
+                    "Hash": 2840084427,
+                    "Id": "392167",
+                    "Spec": "Restoration",
+                    "Text": "Lifebloom's healing is increased by {1}% each time it heals, up to {2}%. Also increases Lifebloom's final bloom amount by {3}%."
+                }
+            ]
+        },
+        {
+            "Hash": 184583096,
+            "Name": "Carnivorous Instinct",
+            "Descriptions": [
+                {
+                    "Hash": 905208378,
+                    "Id": "390902",
+                    "Spec": "Feral",
+                    "Text": "Tiger's Fury's damage bonus is increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4222430547,
+            "Name": "Cat Form",
+            "Descriptions": [
+                {
+                    "Hash": 1969027522,
+                    "Id": "768",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shapeshift into Cat Form, increasing auto-attack damage by {1}%, movement speed by {2}%, granting protection from Polymorph effects, and reducing falling damage.\n\nThe act of shapeshifting frees you from movement impairing effects."
+                }
+            ]
+        },
+        {
+            "Hash": 799586318,
+            "Name": "Cat's Curiosity",
+            "Descriptions": [
+                {
+                    "Hash": 1877784249,
+                    "Id": "386318",
+                    "Spec": "Feral",
+                    "Text": "Clearcast abilities generate {1}% of their Energy cost."
+                }
+            ]
+        },
+        {
+            "Hash": 3764135647,
+            "Name": "Celestial Alignment",
+            "Descriptions": [
+                {
+                    "Hash": 653701804,
+                    "Id": "383410",
+                    "Spec": "Balance",
+                    "Text": "Bring the celestial bodies into alignment over the target area, blasting all enemies for {1} Astral damage and applying Stellar Flare to them.\n\nFor {2} sec, both Eclipses are maintained and you gain {3}% haste."
+                },
+                {
+                    "Hash": 4176584083,
+                    "Id": "383410",
+                    "Spec": "Balance",
+                    "Text": "Celestial bodies align, maintaining both Eclipses and granting {1}% haste for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3287511192,
+            "Name": "Celestial Guardian",
+            "Descriptions": [
+                {
+                    "Hash": 633835467,
+                    "Id": "233754",
+                    "Spec": "Balance",
+                    "Text": "Bear Form reduces magic damage taken from spells by {1}% and you may now cast Moonfire while in Bear Form."
+                }
+            ]
+        },
+        {
+            "Hash": 1944467402,
+            "Name": "Cenarion Ward",
+            "Descriptions": [
+                {
+                    "Hash": 3305467991,
+                    "Id": "102351",
+                    "Spec": "Restoration",
+                    "Text": "Protects a friendly target for {1} sec. Any damage taken will consume the ward and heal the target for {2} over {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1772931334,
+            "Name": "Cenarius' Guidance",
+            "Descriptions": [
+                {
+                    "Hash": 575999173,
+                    "Id": "393371",
+                    "Spec": "Restoration",
+                    "Text": "|T236157:24|t {ffffffff|Incarnation: Tree of Life}\nDuring Incarnation: Tree of Life, you gain Clearcasting every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Lifebloom blooms and {3} sec when Regrowth's initial heal critically strikes.\n\n|T3636839:24|t {ffffffff|Convoke the Spirits}\nConvoke the Spirits' cooldown is reduced by {4}% and its duration and number of spells cast is reduced by {5}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                }
+            ]
+        },
+        {
+            "Hash": 2140781295,
+            "Name": "Charging Bash",
+            "Descriptions": [
+                {
+                    "Hash": 2545925432,
+                    "Id": "228431",
+                    "Spec": "Guardian",
+                    "Text": "Increases the range of your Skull Bash by {1} yards."
+                }
+            ]
+        },
+        {
+            "Hash": 3293588517,
+            "Name": "Circle of Life and Death",
+            "Descriptions": [
+                {
+                    "Hash": 3920619608,
+                    "Id": "391969, 400320",
+                    "Spec": "Restoration, Feral, Guardian",
+                    "Text": "Your damage over time effects deal their damage in {1}% less time, and your healing over time effects in {2}% less time."
+                }
+            ]
+        },
+        {
+            "Hash": 1178509455,
+            "Name": "Convoke the Spirits",
+            "Descriptions": [
+                {
+                    "Hash": 1210615834,
+                    "Id": "391528",
+                    "Spec": "Balance",
+                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Starsurge, Starfall, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                },
+                {
+                    "Hash": 4015461449,
+                    "Id": "391528",
+                    "Spec": "Restoration",
+                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                },
+                {
+                    "Hash": 3217386639,
+                    "Id": "391528",
+                    "Spec": "Feral",
+                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Ferocious Bite, Shred, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                },
+                {
+                    "Hash": 6053085,
+                    "Id": "391528",
+                    "Spec": "Guardian",
+                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec.\n\nYou will cast Mangle, Ironfur, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                }
+            ]
+        },
+        {
+            "Hash": 3551912094,
+            "Name": "Cosmic Rapidity",
+            "Descriptions": [
+                {
+                    "Hash": 1603290527,
+                    "Id": "400059",
+                    "Spec": "Balance",
+                    "Text": "Your Moonfire, Sunfire, and Stellar Flare deal damage {1}% faster."
+                }
+            ]
+        },
+        {
+            "Hash": 4058442001,
+            "Name": "Crescent Burn",
+            "Descriptions": [
+                {
+                    "Hash": 1330365949,
+                    "Id": "200567",
+                    "Spec": "Balance",
+                    "Text": "Using Moonfire on a target already afflicted by Moonfire's damage over time effect deals {1}% additional direct damage."
+                }
+            ]
+        },
+        {
+            "Hash": 320931220,
+            "Name": "Cultivation",
+            "Descriptions": [
+                {
+                    "Hash": 2844184863,
+                    "Id": "200390",
+                    "Spec": "Restoration",
+                    "Text": "When Rejuvenation heals a target below {1}% health, it applies Cultivation to the target, healing them for {2} over {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2241085847,
+            "Name": "Cyclone",
+            "Descriptions": [
+                {
+                    "Hash": 3557048335,
+                    "Id": "33786",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Tosses the enemy target into the air, disorienting them but making them invulnerable for up to {1} sec. Only one target can be affected by your Cyclone at a time."
+                }
+            ]
+        },
+        {
+            "Hash": 841626134,
+            "Name": "Dash",
+            "Descriptions": [
+                {
+                    "Hash": 2744214499,
+                    "Id": "1850",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shift into Cat Form and increase your movement speed by {1}% while in Cat Form for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3483337324,
+            "Name": "Deep Focus",
+            "Descriptions": [
+                {
+                    "Hash": 3881921983,
+                    "Id": "403949",
+                    "Spec": "Restoration",
+                    "Text": "When Moonfire, Rake, Rip, or Rejuvenation are active on a single target, their effects are increased {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2338164375,
+            "Name": "Deep Roots",
+            "Descriptions": [
+                {
+                    "Hash": 2654384571,
+                    "Id": "233755",
+                    "Spec": "Restoration, Balance",
+                    "Text": "Increases the amount of damage required to cancel your Entangling Roots by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 180932984,
+            "Name": "Demoralizing Roar",
+            "Descriptions": [
+                {
+                    "Hash": 1400788904,
+                    "Id": "201664",
+                    "Spec": "Guardian",
+                    "Text": "Demoralizes all enemies within {1} yards, reducing the damage they do by {2}% for {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4073358586,
+            "Name": "Den Mother",
+            "Descriptions": [
+                {
+                    "Hash": 1568033089,
+                    "Id": "236180",
+                    "Spec": "Guardian",
+                    "Text": "You bolster nearby allies within {1} yards, increasing their maximum health by {2}%. "
+                }
+            ]
+        },
+        {
+            "Hash": 1705320644,
+            "Name": "Denizen of the Dream",
+            "Descriptions": [
+                {
+                    "Hash": 286608571,
+                    "Id": "394065",
+                    "Spec": "Balance",
+                    "Text": "Your Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1637673696,
+            "Name": "Disentanglement",
+            "Descriptions": [
+                {
+                    "Hash": 3800088687,
+                    "Id": "233673",
+                    "Spec": "Restoration",
+                    "Text": "Efflorescence removes all snare effects from friendly targets when it heals."
+                }
+            ]
+        },
+        {
+            "Hash": 484324775,
+            "Name": "Double-Clawed Rake",
+            "Descriptions": [
+                {
+                    "Hash": 1245011776,
+                    "Id": "391700",
+                    "Spec": "Feral",
+                    "Text": "Rake also applies Rake to {1} additional nearby target."
+                }
+            ]
+        },
+        {
+            "Hash": 2997970000,
+            "Name": "Dreadful Bleeding",
+            "Descriptions": [
+                {
+                    "Hash": 4002299322,
+                    "Id": "391045",
+                    "Spec": "Feral",
+                    "Text": "Rip damage increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 134013440,
+            "Name": "Dream of Cenarius",
+            "Descriptions": [
+                {
+                    "Hash": 1807766430,
+                    "Id": "372119",
+                    "Spec": "Guardian",
+                    "Text": "When you take non-periodic damage, you have a chance equal to your critical strike to cause your next Regrowth to heal for an additional {1}%, and to be instant, free, and castable in all forms for {2} sec. \n\nThis effect cannot occur more than once every {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1071055044,
+            "Name": "Dreamstate",
+            "Descriptions": [
+                {
+                    "Hash": 1358310082,
+                    "Id": "392162",
+                    "Spec": "Restoration",
+                    "Text": "While channeling Tranquility, your other Druid spell cooldowns are reduced by up to {1} seconds."
+                }
+            ]
+        },
+        {
+            "Hash": 2946726233,
+            "Name": "Dying Stars",
+            "Descriptions": [
+                {
+                    "Hash": 3079280543,
+                    "Id": "232546",
+                    "Spec": "Balance",
+                    "Text": "Sunfire and Moonfire generate {1} Astral Power when they are dispelled."
+                }
+            ]
+        },
+        {
+            "Hash": 2915934034,
+            "Name": "Early Spring",
+            "Descriptions": [
+                {
+                    "Hash": 308811478,
+                    "Id": "203624",
+                    "Spec": "Restoration",
+                    "Text": "Wild Growth is now instant cast, and when you heal {1} allies with Wild Growth you gain Full Bloom. This effect has a {2} sec cooldown.\n\n{FFFFFFFF|Full Bloom}\nYour next Wild Growth applies Lifebloom to all targets at {3}% effectiveness. Lasts for {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2809475724,
+            "Name": "Earthwarden",
+            "Descriptions": [
+                {
+                    "Hash": 2557250609,
+                    "Id": "203974",
+                    "Spec": "Guardian",
+                    "Text": "When you deal direct damage with Thrash, you gain a charge of Earthwarden, reducing the damage of the next auto attack you take by {1}%. Earthwarden may have up to {2} charges."
+                }
+            ]
+        },
+        {
+            "Hash": 3813356828,
+            "Name": "Eclipse",
+            "Descriptions": [
+                {
+                    "Hash": 3997857937,
+                    "Id": "79577",
+                    "Spec": "Balance",
+                    "Text": "Casting {1} Starfires empowers Wrath for {2} sec. Casting {3} Wraths empowers Starfire for {4} sec.\n\n|T236152:24|t {ffffffff|Eclipse (Solar)}\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\n\n|T236151:24|t {ffffffff|Eclipse (Lunar)}\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2667113284,
+            "Name": "Efflorescence",
+            "Descriptions": [
+                {
+                    "Hash": 3811783304,
+                    "Id": "145205",
+                    "Spec": "Restoration",
+                    "Text": "Grows a healing blossom at the target location, restoring {1} health to three injured allies within {2} yards every {3} sec for {4} sec. Limit {5}."
+                }
+            ]
+        },
+        {
+            "Hash": 3673855066,
+            "Name": "Elune's Favored",
+            "Descriptions": [
+                {
+                    "Hash": 4128480131,
+                    "Id": "370586",
+                    "Spec": "Guardian",
+                    "Text": "While in Bear Form, you deal {1}% increased Arcane damage, and are healed for {2}% of all Arcane damage done."
+                }
+            ]
+        },
+        {
+            "Hash": 2774752517,
+            "Name": "Elune's Guidance",
+            "Descriptions": [
+                {
+                    "Hash": 655721354,
+                    "Id": "393991",
+                    "Spec": "Balance",
+                    "Text": "Incarnation: Chosen of Elune reduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\n\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                }
+            ]
+        },
+        {
+            "Hash": 734122618,
+            "Name": "Embrace of the Dream",
+            "Descriptions": [
+                {
+                    "Hash": 1718066967,
+                    "Id": "392124",
+                    "Spec": "Restoration",
+                    "Text": "Wild Growth has a {1}% chance to momentarily shift your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for {2}."
+                }
+            ]
+        },
+        {
+            "Hash": 3504237968,
+            "Name": "Emerald Slumber",
+            "Descriptions": [
+                {
+                    "Hash": 1220364116,
+                    "Id": "329042",
+                    "Spec": "Guardian",
+                    "Text": "Embrace the Emerald Dream, causing you to enter a deep slumber for {1} sec. While sleeping, all other cooldowns recover {2}% faster, and allies within {3} yds are healed for {4} every {5} sec.\n\nDirect damage taken may awaken you."
+                }
+            ]
+        },
+        {
+            "Hash": 3130730988,
+            "Name": "Entangling Bark",
+            "Descriptions": [
+                {
+                    "Hash": 2147658120,
+                    "Id": "247543",
+                    "Spec": "Restoration",
+                    "Text": "Ironbark now also grants the target Nature's Grasp, rooting the first {1} melee attackers for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3384069719,
+            "Name": "Entangling Claws",
+            "Descriptions": [
+                {
+                    "Hash": 1182463431,
+                    "Id": "202226",
+                    "Spec": "Guardian",
+                    "Text": "Entangling Roots is now an instant cast spell with a {1} second cooldown but with a {2} yard range. It can also be cast while in shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 3658634925,
+            "Name": "Entangling Roots",
+            "Descriptions": [
+                {
+                    "Hash": 3462946313,
+                    "Id": "339",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Roots the target in place for {1} sec. Damage may cancel the effect."
+                }
+            ]
+        },
+        {
+            "Hash": 1840710585,
+            "Name": "Faerie Swarm",
+            "Descriptions": [
+                {
+                    "Hash": 1860722765,
+                    "Id": "209749",
+                    "Spec": "Balance",
+                    "Text": "Swarms the target with Faeries, disarming the enemy, preventing the use of any weapons or shield and reducing movement speed by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2961619862,
+            "Name": "Feline Adept",
+            "Descriptions": [
+                {
+                    "Hash": 3356006394,
+                    "Id": "300349",
+                    "Spec": "Feral",
+                    "Text": "Soothe and Remove Corruption are usable in Cat Form."
+                }
+            ]
+        },
+        {
+            "Hash": 185878954,
+            "Name": "Feline Swiftness",
+            "Descriptions": [
+                {
+                    "Hash": 2839343986,
+                    "Id": "131768",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Increases your movement speed by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3268235507,
+            "Name": "Feral Frenzy",
+            "Descriptions": [
+                {
+                    "Hash": 2415671010,
+                    "Id": "274837",
+                    "Spec": "Feral",
+                    "Text": "Unleash a furious frenzy, clawing your target {1} times for {2} Physical damage and an additional {3} Bleed damage over {4} sec.\n\n{FFFFFFFF|Awards {5} combo points.}"
+                }
+            ]
+        },
+        {
+            "Hash": 213314986,
+            "Name": "Feral Instinct",
+            "Descriptions": [
+                {
+                    "Hash": 1921076670,
+                    "Id": "16949",
+                    "Spec": "Feral",
+                    "Text": "Reduces the chance enemies have to detect you while Prowl is active."
+                }
+            ]
+        },
+        {
+            "Hash": 2154797511,
+            "Name": "Ferocious Bite",
+            "Descriptions": [
+                {
+                    "Hash": 1902692433,
+                    "Id": "22568",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Finishing move that causes Physical damage per combo point and consumes up to {1} additional Energy to increase damage by up to {2}%.\n\n   {3} point  : {4} damage\n   {5} points: {6} damage\n   {7} points: {8} damage\n   {9} points: {10} damage\n   {11} points: {12} damage"
+                }
+            ]
+        },
+        {
+            "Hash": 1219781779,
+            "Name": "Ferocious Wound",
+            "Descriptions": [
+                {
+                    "Hash": 4007589391,
+                    "Id": "236020",
+                    "Spec": "Feral",
+                    "Text": "Attacking with a {1} combo point Ferocious Bite reduces the target's maximum health by up to {2}% for {3} sec, stacking up to {4} times. Ferocious Wound can only be active on one target at once."
+                }
+            ]
+        },
+        {
+            "Hash": 1064559206,
+            "Name": "Flash of Clarity",
+            "Descriptions": [
+                {
+                    "Hash": 988961254,
+                    "Id": "392220",
+                    "Spec": "Restoration",
+                    "Text": "Clearcast Regrowths heal for an additional {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 875610196,
+            "Name": "Flashing Claws",
+            "Descriptions": [
+                {
+                    "Hash": 2568559509,
+                    "Id": "393427",
+                    "Spec": "Guardian",
+                    "Text": "Thrash has a {1}% chance to trigger an additional Thrash."
+                }
+            ]
+        },
+        {
+            "Hash": 2592694575,
+            "Name": "Flight Form",
+            "Descriptions": [
+                {
+                    "Hash": 2034399558,
+                    "Id": "276029",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Your Travel Form allows you to fly and increases your movement speed by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2446089535,
+            "Name": "Flourish",
+            "Descriptions": [
+                {
+                    "Hash": 697595085,
+                    "Id": "197721",
+                    "Spec": "Restoration",
+                    "Text": "Extends the duration of all of your heal over time effects on friendly targets within {1} yards by {2} sec, and increases the rate of your heal over time effects by {3}% for {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1514461650,
+            "Name": "Focused Growth",
+            "Descriptions": [
+                {
+                    "Hash": 1396952640,
+                    "Id": "203553",
+                    "Spec": "Restoration",
+                    "Text": "Reduces the mana cost of your Lifebloom by {1}%, and your Lifebloom also applies Focused Growth to the target, increasing Lifebloom's healing by {2}%. Stacks up to {3} times."
+                }
+            ]
+        },
+        {
+            "Hash": 2422903110,
+            "Name": "Force of Nature",
+            "Descriptions": [
+                {
+                    "Hash": 132746530,
+                    "Id": "205636",
+                    "Spec": "Balance",
+                    "Text": "Summons a stand of {1} Treants for {2} sec which immediately taunt and attack enemies in the targeted area.\n\n{FFFFFFFF|Generates {3} Astral Power.}"
+                }
+            ]
+        },
+        {
+            "Hash": 2847953072,
+            "Name": "Forest's Flow",
+            "Descriptions": [
+                {
+                    "Hash": 1128642355,
+                    "Id": "400531",
+                    "Spec": "Restoration",
+                    "Text": "Nourish extends the duration of your Lifebloom, Rejuvenation, Regrowth, and Wild Growth effects on the target by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2043047534,
+            "Name": "Forestwalk",
+            "Descriptions": [
+                {
+                    "Hash": 1247002531,
+                    "Id": "400129",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Casting Regrowth increases your movement speed and healing received by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2718734671,
+            "Name": "Frantic Momentum",
+            "Descriptions": [
+                {
+                    "Hash": 3988401703,
+                    "Id": "391875",
+                    "Spec": "Feral",
+                    "Text": "Finishing moves have a {1}% chance per combo point spent to grant {2}% Haste for {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 333413162,
+            "Name": "Freedom of the Herd",
+            "Descriptions": [
+                {
+                    "Hash": 1776853347,
+                    "Id": "213200",
+                    "Spec": "Feral, Guardian",
+                    "Text": "Your Stampeding Roar clears all roots and snares from yourself and allies."
+                }
+            ]
+        },
+        {
+            "Hash": 1719406842,
+            "Name": "Frenzied Regeneration",
+            "Descriptions": [
+                {
+                    "Hash": 2510292034,
+                    "Id": "22842",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Heals you for {1}% health over {2} sec, and increases healing received by {3}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3059323257,
+            "Name": "Fresh Wound",
+            "Descriptions": [
+                {
+                    "Hash": 257740477,
+                    "Id": "203224",
+                    "Spec": "Feral",
+                    "Text": "Rake has a {1}% increased critical strike chance if used on a target that doesnt already have Rake active."
+                }
+            ]
+        },
+        {
+            "Hash": 864418947,
+            "Name": "Friend of the Fae",
+            "Descriptions": [
+                {
+                    "Hash": 3401839628,
+                    "Id": "394081",
+                    "Spec": "Balance",
+                    "Text": "When a Faerie Dragon is summoned, your Arcane and Nature damage is increased by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1732391292,
+            "Name": "Front of the Pack",
+            "Descriptions": [
+                {
+                    "Hash": 1454710558,
+                    "Id": "377835",
+                    "Spec": "Guardian",
+                    "Text": "Stampeding Roar's radius and duration are increased by {1}%.\n\nYour movement speed is increased by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2262662170,
+            "Name": "Fungal Growth",
+            "Descriptions": [
+                {
+                    "Hash": 229002623,
+                    "Id": "392999",
+                    "Spec": "Balance",
+                    "Text": "Enemies struck by Wild Mushrooms are damaged for an additional {1}% over {2} sec and slowed by {3}%."
+                }
+            ]
+        },
+        {
+            "Hash": 740600257,
+            "Name": "Fury of Elune",
+            "Descriptions": [
+                {
+                    "Hash": 3632033178,
+                    "Id": "202770",
+                    "Spec": "Balance",
+                    "Text": "Calls down a beam of pure celestial energy that follows the enemy, dealing up to {1} Astral damage over {2} sec within its area. Damage reduced on secondary targets.\n\n{FFFFFFFF|Generates {3} Astral Power over its duration.}"
+                }
+            ]
+        },
+        {
+            "Hash": 632540084,
+            "Name": "Fury of Nature",
+            "Descriptions": [
+                {
+                    "Hash": 2191915324,
+                    "Id": "370695",
+                    "Spec": "Guardian",
+                    "Text": "While in Bear Form, you deal {1}% increased Arcane damage."
+                }
+            ]
+        },
+        {
+            "Hash": 387611448,
+            "Name": "Galactic Guardian",
+            "Descriptions": [
+                {
+                    "Hash": 2040525058,
+                    "Id": "203964",
+                    "Spec": "Guardian",
+                    "Text": "Your damage has a {1}% chance to trigger a free automatic Moonfire on that target. \n\nWhen this occurs, the next Moonfire you cast generates {2} Rage, and deals {3}% increased direct damage."
+                }
+            ]
+        },
+        {
+            "Hash": 3944016355,
+            "Name": "Gale Winds",
+            "Descriptions": [
+                {
+                    "Hash": 3216268565,
+                    "Id": "400142",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Increases Typhoon's radius by {1}% and its range by {2} yds."
+                }
+            ]
+        },
+        {
+            "Hash": 1912536860,
+            "Name": "Germination",
+            "Descriptions": [
+                {
+                    "Hash": 260489423,
+                    "Id": "155675",
+                    "Spec": "Restoration",
+                    "Text": "You can apply Rejuvenation twice to the same target. Rejuvenation's duration is increased by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 257925993,
+            "Name": "Gore",
+            "Descriptions": [
+                {
+                    "Hash": 3197553585,
+                    "Id": "210706",
+                    "Spec": "Guardian",
+                    "Text": "Thrash, Swipe, Moonfire, and Maul have a {1}% chance to reset the cooldown on Mangle, and to cause it to generate an additional {2} Rage."
+                }
+            ]
+        },
+        {
+            "Hash": 2904029252,
+            "Name": "Gory Fur",
+            "Descriptions": [
+                {
+                    "Hash": 2011236048,
+                    "Id": "200854",
+                    "Spec": "Guardian",
+                    "Text": "Mangle has a {1}% chance to reduce the Rage cost of your next Ironfur by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3797081558,
+            "Name": "Grove Protection",
+            "Descriptions": [
+                {
+                    "Hash": 1436845797,
+                    "Id": "354654",
+                    "Spec": "Guardian",
+                    "Text": "Summon a grove to protect allies in the area for {1} sec, reducing damage taken by {2}% from enemies outside the grove."
+                }
+            ]
+        },
+        {
+            "Hash": 3252432292,
+            "Name": "Grove Tending",
+            "Descriptions": [
+                {
+                    "Hash": 1525309696,
+                    "Id": "383192",
+                    "Spec": "Restoration",
+                    "Text": "Swiftmend heals the target for {1} over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 656596166,
+            "Name": "Growl",
+            "Descriptions": [
+                {
+                    "Hash": 4177245906,
+                    "Id": "6795",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Taunts the target to attack you."
+                }
+            ]
+        },
+        {
+            "Hash": 429239069,
+            "Name": "Guardian of Elune",
+            "Descriptions": [
+                {
+                    "Hash": 3159797821,
+                    "Id": "155578",
+                    "Spec": "Guardian",
+                    "Text": "Mangle increases the duration of your next Ironfur by {1} sec, or the healing of your next Frenzied Regeneration by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 116470799,
+            "Name": "Harmonious Blooming",
+            "Descriptions": [
+                {
+                    "Hash": 3238577752,
+                    "Id": "392256",
+                    "Spec": "Restoration",
+                    "Text": "Lifebloom counts for {1} stacks of Mastery: Harmony."
+                }
+            ]
+        },
+        {
+            "Hash": 2385087473,
+            "Name": "Heart of the Wild",
+            "Descriptions": [
+                {
+                    "Hash": 383748221,
+                    "Id": "319454",
+                    "Spec": "Balance",
+                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Feral:} Physical damage increased by {2}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {3}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {4} charges.\n\n{FFFFFFFF|Restoration:} Healing increased by {5}%, and mana costs reduced by {6}%."
+                },
+                {
+                    "Hash": 2998864442,
+                    "Id": "319454",
+                    "Spec": "Guardian",
+                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Feral:} Physical damage increased by {3}%.\n\n{FFFFFFFF|Restoration:} Healing increased by {4}%, and mana costs reduced by {5}%."
+                },
+                {
+                    "Hash": 4012372831,
+                    "Id": "319454",
+                    "Spec": "Restoration",
+                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Feral:} Physical damage increased by {3}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {4}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {5} charges."
+                },
+                {
+                    "Hash": 864801950,
+                    "Id": "319454",
+                    "Spec": "Feral",
+                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\n\n{FFFFFFFF|Balance:} Magical damage increased by {2}%.\n\n{FFFFFFFF|Guardian:} Bear Form gives an additional {3}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {4} charges.\n\n{FFFFFFFF|Restoration:} Healing increased by {5}%, and mana costs reduced by {6}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3070916641,
+            "Name": "Hibernate",
+            "Descriptions": [
+                {
+                    "Hash": 3885360181,
+                    "Id": "2637",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Forces the enemy target to sleep for up to {1} sec.  Any damage will awaken the target.  Only one target can be forced to hibernate at a time.  Only works on Beasts and Dragonkin."
+                }
+            ]
+        },
+        {
+            "Hash": 2543896352,
+            "Name": "High Winds",
+            "Descriptions": [
+                {
+                    "Hash": 4220468116,
+                    "Id": "200931",
+                    "Spec": "Restoration, Feral, Balance",
+                    "Text": "Cyclone leaves the target reeling, reducing their damage and healing by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 469121221,
+            "Name": "Improved Barkskin",
+            "Descriptions": [
+                {
+                    "Hash": 1357446567,
+                    "Id": "327993",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Barkskin's duration is increased by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1476878769,
+            "Name": "Improved Ironbark",
+            "Descriptions": [
+                {
+                    "Hash": 1452729152,
+                    "Id": "382552",
+                    "Spec": "Restoration",
+                    "Text": "Ironbark's cooldown is reduced by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3021983099,
+            "Name": "Improved Nature's Cure",
+            "Descriptions": [
+                {
+                    "Hash": 2902813061,
+                    "Id": "392378",
+                    "Spec": "Restoration",
+                    "Text": "Nature's Cure additionally removes all Curse and Poison effects."
+                }
+            ]
+        },
+        {
+            "Hash": 2459418662,
+            "Name": "Improved Regrowth",
+            "Descriptions": [
+                {
+                    "Hash": 988915145,
+                    "Id": "231032",
+                    "Spec": "Restoration",
+                    "Text": "Regrowth's initial heal has a {1}% increased chance for a critical effect if the target is already affected by Regrowth."
+                }
+            ]
+        },
+        {
+            "Hash": 2799002389,
+            "Name": "Improved Rejuvenation",
+            "Descriptions": [
+                {
+                    "Hash": 510327364,
+                    "Id": "231040",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Rejuvenation's duration is increased by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3119402755,
+            "Name": "Improved Stampeding Roar",
+            "Descriptions": [
+                {
+                    "Hash": 443712803,
+                    "Id": "288826",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Cooldown reduced by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1893088050,
+            "Name": "Improved Sunfire",
+            "Descriptions": [
+                {
+                    "Hash": 204072372,
+                    "Id": "231050",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Sunfire now applies its damage over time effect to all enemies within {1} yards."
+                }
+            ]
+        },
+        {
+            "Hash": 1437822503,
+            "Name": "Improved Survival Instincts",
+            "Descriptions": [
+                {
+                    "Hash": 3264394493,
+                    "Id": "328767",
+                    "Spec": "Guardian",
+                    "Text": "Survival Instincts now has {1} charges.\n"
+                }
+            ]
+        },
+        {
+            "Hash": 3882293561,
+            "Name": "Improved Swipe",
+            "Descriptions": [
+                {
+                    "Hash": 1579217896,
+                    "Id": "400158",
+                    "Spec": "Feral",
+                    "Text": "Increases Brutal Slash damage by {1}%."
+                },
+                {
+                    "Hash": 82294098,
+                    "Id": "400158",
+                    "Spec": "Restoration, Guardian, Balance",
+                    "Text": "Increases Swipe damage by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4116672050,
+            "Name": "Improved Wild Growth",
+            "Descriptions": [
+                {
+                    "Hash": 1310881337,
+                    "Id": "328025",
+                    "Spec": "Restoration",
+                    "Text": "Wild Growth heals {1} additional target."
+                }
+            ]
+        },
+        {
+            "Hash": 3166310230,
+            "Name": "Incapacitating Roar",
+            "Descriptions": [
+                {
+                    "Hash": 2843843109,
+                    "Id": "99",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within {1} yards for {2} sec. Damage will cancel the effect."
+                }
+            ]
+        },
+        {
+            "Hash": 517105859,
+            "Name": "Incarnation: Avatar of Ashamane",
+            "Descriptions": [
+                {
+                    "Hash": 1622819627,
+                    "Id": "102543",
+                    "Spec": "Feral",
+                    "Text": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\n\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\n\nFinishing moves have a {3}% chance per combo point spent to refund {4} combo points.\n\nRake and Shred deal damage as though you were stealthed."
+                }
+            ]
+        },
+        {
+            "Hash": 1233468852,
+            "Name": "Incarnation: Chosen of Elune",
+            "Descriptions": [
+                {
+                    "Hash": 3981392537,
+                    "Id": "102560",
+                    "Spec": "Balance",
+                    "Text": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and {1}% critical strike chance.\n\nLasts {2} sec. You may shapeshift in and out of this improved Moonkin Form for its duration."
+                }
+            ]
+        },
+        {
+            "Hash": 2934425824,
+            "Name": "Incarnation: Guardian of Ursoc",
+            "Descriptions": [
+                {
+                    "Hash": 1975834207,
+                    "Id": "102558",
+                    "Spec": "Guardian",
+                    "Text": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, and increases maximum health by {2}%.\n\nLasts {3} sec. You may freely shapeshift in and out of this improved Bear Form for its duration.\n"
+                }
+            ]
+        },
+        {
+            "Hash": 1697805055,
+            "Name": "Incarnation: Tree of Life",
+            "Descriptions": [
+                {
+                    "Hash": 3721079656,
+                    "Id": "33891",
+                    "Spec": "Restoration",
+                    "Text": "Shapeshift into the Tree of Life, increasing healing done by {1}%, increasing armor by {2}%, and granting protection from Polymorph effects. Functionality of Rejuvenation, Wild Growth, Regrowth, and Entangling Roots is enhanced.\n\nLasts {3} sec. You may shapeshift in and out of this form for its duration."
+                }
+            ]
+        },
+        {
+            "Hash": 1945266335,
+            "Name": "Incessant Tempest",
+            "Descriptions": [
+                {
+                    "Hash": 318843671,
+                    "Id": "400140",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Reduces the cooldown of Typhoon by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 131836027,
+            "Name": "Infected Wounds",
+            "Descriptions": [
+                {
+                    "Hash": 693941156,
+                    "Id": "345208",
+                    "Spec": "Guardian",
+                    "Text": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by {1}% for {2} sec."
+                },
+                {
+                    "Hash": 1602867848,
+                    "Id": "48484",
+                    "Spec": "Feral",
+                    "Text": "Rake damage increased by {1}%, and Rake causes an Infected Wound in the target, reducing the target's movement speed by {2}% for {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3252589319,
+            "Name": "Innate Resolve",
+            "Descriptions": [
+                {
+                    "Hash": 990586882,
+                    "Id": "377811",
+                    "Spec": "Guardian",
+                    "Text": "Regrowth and Frenzied Regeneration healing is increased by {1}% on yourself.\n\nFrenzied Regeneration has {2} additional charge."
+                }
+            ]
+        },
+        {
+            "Hash": 4101088855,
+            "Name": "Inner Peace",
+            "Descriptions": [
+                {
+                    "Hash": 1482168146,
+                    "Id": "197073",
+                    "Spec": "Restoration",
+                    "Text": "Reduces the cooldown of Tranquility by {1} sec.\n\nWhile channeling Tranquility, you take {2}% reduced damage and are immune to knockbacks."
+                }
+            ]
+        },
+        {
+            "Hash": 3848240702,
+            "Name": "Innervate",
+            "Descriptions": [
+                {
+                    "Hash": 1710080154,
+                    "Id": "29166",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Infuse a friendly healer with energy, allowing them to cast spells without spending mana for {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4105360705,
+            "Name": "Invigorate",
+            "Descriptions": [
+                {
+                    "Hash": 4167120322,
+                    "Id": "392160",
+                    "Spec": "Restoration",
+                    "Text": "Refreshes the duration of your active Lifebloom and Rejuvenation effects on the target and causes them to complete {1}% faster."
+                }
+            ]
+        },
+        {
+            "Hash": 3669307669,
+            "Name": "Ironbark",
+            "Descriptions": [
+                {
+                    "Hash": 101787443,
+                    "Id": "102342",
+                    "Spec": "Restoration",
+                    "Text": "The target's skin becomes as tough as Ironwood, reducing damage taken by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 900593097,
+            "Name": "Ironfur",
+            "Descriptions": [
+                {
+                    "Hash": 1287890298,
+                    "Id": "192081",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Increases armor by {1} for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3725585430,
+            "Name": "Keeper of the Grove",
+            "Descriptions": [
+                {
+                    "Hash": 2408672587,
+                    "Id": "353114",
+                    "Spec": "Restoration",
+                    "Text": "Tranquility protects you from all harm while it is channeled, and its healing is increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3562446840,
+            "Name": "Killer Instinct",
+            "Descriptions": [
+                {
+                    "Hash": 2181015712,
+                    "Id": "108299",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Physical damage and Armor increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2049914544,
+            "Name": "King of the Jungle",
+            "Descriptions": [
+                {
+                    "Hash": 1626973583,
+                    "Id": "203052",
+                    "Spec": "Feral",
+                    "Text": "For every enemy you have Rip active on, your movement speed and healing received is increased by {1}%. Stacks {2} times."
+                }
+            ]
+        },
+        {
+            "Hash": 3296791557,
+            "Name": "Layered Mane",
+            "Descriptions": [
+                {
+                    "Hash": 2664574705,
+                    "Id": "384721",
+                    "Spec": "Guardian",
+                    "Text": "Ironfur has a {1}% chance to apply two stacks and Frenzied Regeneration has a {2}% chance to not consume a charge."
+                }
+            ]
+        },
+        {
+            "Hash": 2061095106,
+            "Name": "Leader of the Pack",
+            "Descriptions": [
+                {
+                    "Hash": 3486109316,
+                    "Id": "202626",
+                    "Spec": "Feral",
+                    "Text": "While in Cat Form, you increase the critical chance of raid members within {1} yards by {2}%.\n\nLeader of the Pack also causes allies to heal themselves for {3}% of their maximum health when they critically hit with a direct attack. The healing effect cannot occur more than once every {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2681790663,
+            "Name": "Lifebloom",
+            "Descriptions": [
+                {
+                    "Hash": 1658247341,
+                    "Id": "33763",
+                    "Spec": "Restoration",
+                    "Text": "Heals the target for {1} over {2} sec. When Lifebloom expires or is dispelled, the target is instantly healed for {3}.\n\nMay be active on one target at a time."
+                }
+            ]
+        },
+        {
+            "Hash": 3738842435,
+            "Name": "Light of the Sun",
+            "Descriptions": [
+                {
+                    "Hash": 473818579,
+                    "Id": "202918",
+                    "Spec": "Balance",
+                    "Text": "Reduces the remaining cooldown on Solar Beam by {1} sec when it interrupts the primary target."
+                }
+            ]
+        },
+        {
+            "Hash": 1469804781,
+            "Name": "Lightning Reflexes",
+            "Descriptions": [
+                {
+                    "Hash": 298795293,
+                    "Id": "231065",
+                    "Spec": "Guardian",
+                    "Text": "You gain Dodge equal to {1}% of your Critical Strike from gear."
+                }
+            ]
+        },
+        {
+            "Hash": 2598329829,
+            "Name": "Lion's Strength",
+            "Descriptions": [
+                {
+                    "Hash": 3291965114,
+                    "Id": "391972",
+                    "Spec": "Feral",
+                    "Text": "Ferocious Bite and Rip deal {1}% increased damage."
+                }
+            ]
+        },
+        {
+            "Hash": 1136963260,
+            "Name": "Lunar Beam",
+            "Descriptions": [
+                {
+                    "Hash": 2728494799,
+                    "Id": "204066",
+                    "Spec": "Guardian",
+                    "Text": "Summons a beam of lunar light at your location, dealing {1} Arcane damage and healing you for {2} over {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 202079020,
+            "Name": "Lunar Inspiration",
+            "Descriptions": [
+                {
+                    "Hash": 1709529130,
+                    "Id": "155580",
+                    "Spec": "Feral",
+                    "Text": "Moonfire is usable in Cat Form, costs {1} energy, and generates {2} combo point."
+                }
+            ]
+        },
+        {
+            "Hash": 3153602557,
+            "Name": "Lunar Shrapnel",
+            "Descriptions": [
+                {
+                    "Hash": 3125239106,
+                    "Id": "393868",
+                    "Spec": "Balance",
+                    "Text": "Starfall's stars have a chance to deal an additional {1}% damage to nearby enemies when they damage an enemy afflicted by Moonfire. Deals reduced damage beyond {2} targets."
+                }
+            ]
+        },
+        {
+            "Hash": 4054070662,
+            "Name": "Luxuriant Soil",
+            "Descriptions": [
+                {
+                    "Hash": 2639516771,
+                    "Id": "392315",
+                    "Spec": "Restoration",
+                    "Text": "Rejuvenation healing has a {1}% chance to create a new Rejuvenation on a nearby target."
+                }
+            ]
+        },
+        {
+            "Hash": 1523887150,
+            "Name": "Lycara's Teachings",
+            "Descriptions": [
+                {
+                    "Hash": 4206554786,
+                    "Id": "378988",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "You gain {1}% of a stat while in each form:\n\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery"
+                }
+            ]
+        },
+        {
+            "Hash": 1683139568,
+            "Name": "Maim",
+            "Descriptions": [
+                {
+                    "Hash": 3002305997,
+                    "Id": "22570",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Finishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n\n   {1} point  : {2} damage, {3} sec\n   {4} points: {5} damage, {6} sec\n   {7} points: {8} damage, {9} sec\n   {10} points: {11} damage, {12} sec\n   {13} points: {14} damage, {15} sec"
+                }
+            ]
+        },
+        {
+            "Hash": 1626742849,
+            "Name": "Malorne's Swiftness",
+            "Descriptions": [
+                {
+                    "Hash": 3133522640,
+                    "Id": "236147, 236012",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Your Travel Form movement speed while within a Battleground or Arena is increased by {1}% and you always move at {2}% movement speed while in Travel Form."
+                }
+            ]
+        },
+        {
+            "Hash": 1272070239,
+            "Name": "Mangle",
+            "Descriptions": [
+                {
+                    "Hash": 3858203822,
+                    "Id": "33917",
+                    "Spec": "Guardian",
+                    "Text": "Mangle the target for {1} Physical damage. Deals {2}% additional damage against bleeding targets.\n\n{FFFFFFFF|Generates {3} Rage.}"
+                },
+                {
+                    "Hash": 643265281,
+                    "Id": "231064",
+                    "Spec": "Guardian",
+                    "Text": "Mangle deals {1}% additional damage against bleeding targets."
+                },
+                {
+                    "Hash": 795801254,
+                    "Id": "33917",
+                    "Spec": "Restoration, Feral, Balance",
+                    "Text": "Mangle the target for {1} Physical damage.\n\n{FFFFFFFF|Generates {2} Rage.}"
+                }
+            ]
+        },
+        {
+            "Hash": 576377829,
+            "Name": "Mark of the Wild",
+            "Descriptions": [
+                {
+                    "Hash": 4241382248,
+                    "Id": "1126",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Infuse a friendly target with the power of the wild, increasing their Versatility by {1}% for {2} minutes.\n\nIf target is in your party or raid, all party and raid members will be affected.\n"
+                }
+            ]
+        },
+        {
+            "Hash": 2082830320,
+            "Name": "Mass Entanglement",
+            "Descriptions": [
+                {
+                    "Hash": 992623345,
+                    "Id": "102359",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Roots the target and all enemies within {1} yards in place for {2} sec. Damage may interrupt the effect. Usable in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 568047723,
+            "Name": "Master Shapeshifter",
+            "Descriptions": [
+                {
+                    "Hash": 3526607430,
+                    "Id": "236144",
+                    "Spec": "Guardian",
+                    "Text": "Your Feral, Balance or Restoration Affinity is amplified granting an additional effect.\n\n|T236157:24|t {ffffffff|Restoration Affinity}\nAfter you Swiftmend, the cast time of your Regrowth is reduced by {1}% and its healing is increased by {2}% for {3} sec.\n\n|T236156:24|t {ffffffff|Balance Affinity}\nAfter you enter Moonkin Form, the cast time of your Wrath and Starfire is reduced by {4}% and their damage is increased by {5}% for {6} sec.\n\n|T611425:24|t {ffffffff|Feral Affinity}\nWhile in Cat Form, your bleed damage is increased by {7}%."
+                },
+                {
+                    "Hash": 1547574618,
+                    "Id": "289237",
+                    "Spec": "Restoration",
+                    "Text": "Your Guardian, Balance or Feral Affinity is amplified granting an additional effect.\n\n|T611424:24|t{ffffffff|Guardian Affinity}\nChance to be critically hit by melee attacks reduced by {1}% while in Bear Form.\n\n|T236156:24|t {ffffffff|Balance Affinity}\nAfter you enter Moonkin Form, the cast time of your Wrath and Starfire is reduced by {2}% and their damage is increased by {3}% for {4} sec.\n\n|T611425:24|t {ffffffff|Feral Affinity}\nWhile in Cat Form, your bleed damage is increased by {5}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4292277755,
+            "Name": "Mastery: Astral Invocation",
+            "Descriptions": [
+                {
+                    "Hash": 618545313,
+                    "Id": "393014",
+                    "Spec": "Balance",
+                    "Text": "Your Nature spells deal {1}% additional damage to targets affected by Sunfire. Your Arcane spells deal {2}% additional damage to targets affected by Moonfire."
+                }
+            ]
+        },
+        {
+            "Hash": 2801873743,
+            "Name": "Mastery: Harmony",
+            "Descriptions": [
+                {
+                    "Hash": 1364274597,
+                    "Id": "77495",
+                    "Spec": "Restoration",
+                    "Text": "Your healing is increased by {1}% for each of your Restoration heal over time effects on the target."
+                }
+            ]
+        },
+        {
+            "Hash": 274762662,
+            "Name": "Mastery: Nature's Guardian",
+            "Descriptions": [
+                {
+                    "Hash": 573235202,
+                    "Id": "155783",
+                    "Spec": "Guardian",
+                    "Text": "Increases your maximum health and healing received by {1}%.\n\nAlso increases your attack power by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 693152262,
+            "Name": "Mastery: Razor Claws",
+            "Descriptions": [
+                {
+                    "Hash": 3535401564,
+                    "Id": "77493",
+                    "Spec": "Feral",
+                    "Text": "Increases the damage done by your Cat Form bleed abilities and finishing moves by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1812560334,
+            "Name": "Matted Fur",
+            "Descriptions": [
+                {
+                    "Hash": 368139863,
+                    "Id": "385786",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "When you use Barkskin or Survival Instincts, absorb {1} damage for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 203993101,
+            "Name": "Maul",
+            "Descriptions": [
+                {
+                    "Hash": 763741505,
+                    "Id": "400254",
+                    "Spec": "Guardian",
+                    "Text": "Maul the target for {1} Physical damage."
+                }
+            ]
+        },
+        {
+            "Hash": 1240235204,
+            "Name": "Merciless Claws",
+            "Descriptions": [
+                {
+                    "Hash": 1577464951,
+                    "Id": "231063",
+                    "Spec": "Feral",
+                    "Text": "Shred deals {1}% increased damage and Brutal Slash deals {2}% increased damage against bleeding targets."
+                }
+            ]
+        },
+        {
+            "Hash": 2532607898,
+            "Name": "Mighty Bash",
+            "Descriptions": [
+                {
+                    "Hash": 564884507,
+                    "Id": "5211",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Invokes the spirit of Ursoc to stun the target for {1} sec. Usable in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 412321336,
+            "Name": "Moment of Clarity",
+            "Descriptions": [
+                {
+                    "Hash": 3305155136,
+                    "Id": "236068",
+                    "Spec": "Feral",
+                    "Text": "Omen of Clarity now triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Shred, Thrash, or Brutal Slash by {3}%."
+                }
+            ]
+        },
+        {
+            "Hash": 248578396,
+            "Name": "Moon and Stars",
+            "Descriptions": [
+                {
+                    "Hash": 3422243093,
+                    "Id": "233750",
+                    "Spec": "Balance",
+                    "Text": "Entering an Eclipse summons a beam of light at your location granting you {1}% reduction in silence and interrupts for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1233633935,
+            "Name": "Moonfire",
+            "Descriptions": [
+                {
+                    "Hash": 854255994,
+                    "Id": "8921",
+                    "Spec": "Balance",
+                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\n\n{FFFFFFFF|Generates {4} Astral Power.} "
+                },
+                {
+                    "Hash": 1501151296,
+                    "Id": "155625",
+                    "Spec": "Feral",
+                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
+                },
+                {
+                    "Hash": 3325693184,
+                    "Id": "8921",
+                    "Spec": "Restoration, Guardian",
+                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec. "
+                }
+            ]
+        },
+        {
+            "Hash": 2695390055,
+            "Name": "Moonkin Aura",
+            "Descriptions": [
+                {
+                    "Hash": 3329180833,
+                    "Id": "209740",
+                    "Spec": "Balance",
+                    "Text": "Starsurge grants {1}% spell critical strike chance to {2} allies within {3} yards for {4} sec, stacking up to {5} times."
+                }
+            ]
+        },
+        {
+            "Hash": 4180081574,
+            "Name": "Moonkin Form",
+            "Descriptions": [
+                {
+                    "Hash": 583642152,
+                    "Id": "24858",
+                    "Spec": "Balance",
+                    "Text": "Shapeshift into Moonkin Form, increasing the damage of your spells by {1}% and your armor by {2}%, and granting protection from Polymorph effects.\n\nWhile in this form, single-target attacks against you have a {3}% chance to make your next Starfire instant.\n\nThe act of shapeshifting frees you from movement impairing effects."
+                },
+                {
+                    "Hash": 4251304378,
+                    "Id": "197625",
+                    "Spec": "Restoration, Feral, Guardian",
+                    "Text": "Shapeshift into Moonkin Form, increasing the damage of your spells by {1}% and your armor by {2}%, and granting protection from Polymorph effects.\n\nThe act of shapeshifting frees you from movement impairing effects."
+                }
+            ]
+        },
+        {
+            "Hash": 3910637581,
+            "Name": "Moonless Night",
+            "Descriptions": [
+                {
+                    "Hash": 2280838785,
+                    "Id": "400278",
+                    "Spec": "Guardian",
+                    "Text": "When you cast a single-target ability on an enemy afflicted by Moonfire, you cause them to burn for an additional {1}% Arcane damage."
+                }
+            ]
+        },
+        {
+            "Hash": 2888612192,
+            "Name": "Natural Recovery",
+            "Descriptions": [
+                {
+                    "Hash": 2820791485,
+                    "Id": "377796",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Healing done and healing taken increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 853370241,
+            "Name": "Nature's Balance",
+            "Descriptions": [
+                {
+                    "Hash": 1408880145,
+                    "Id": "202430",
+                    "Spec": "Balance",
+                    "Text": "While in combat you generate {1} Astral Power every {2} sec.\n\nWhile out of combat your Astral Power rebalances to {3} instead of depleting to empty."
+                }
+            ]
+        },
+        {
+            "Hash": 3989003924,
+            "Name": "Nature's Cure",
+            "Descriptions": [
+                {
+                    "Hash": 663866434,
+                    "Id": "88423",
+                    "Spec": "Restoration",
+                    "Text": "Cures harmful effects on the friendly target, removing all Magic, Curse, and Poison effects."
+                }
+            ]
+        },
+        {
+            "Hash": 1653349051,
+            "Name": "Nature's Grace",
+            "Descriptions": [
+                {
+                    "Hash": 2989233138,
+                    "Id": "393958",
+                    "Spec": "Balance",
+                    "Text": "After an Eclipse ends, you gain {1}% Haste for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3127999516,
+            "Name": "Nature's Splendor",
+            "Descriptions": [
+                {
+                    "Hash": 1542109111,
+                    "Id": "392288",
+                    "Spec": "Restoration",
+                    "Text": "The healing bonus to Regrowth from Nature's Swiftness is increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2896041592,
+            "Name": "Nature's Swiftness",
+            "Descriptions": [
+                {
+                    "Hash": 782838613,
+                    "Id": "132158",
+                    "Spec": "Restoration",
+                    "Text": "Your next Regrowth, Rebirth, or Entangling Roots is instant, free, castable in all forms, and heals for an additional {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 993426816,
+            "Name": "Nature's Vigil",
+            "Descriptions": [
+                {
+                    "Hash": 2478741077,
+                    "Id": "124974",
+                    "Spec": "Feral, Guardian, Balance",
+                    "Text": "For {1} sec, all single-target damage also heals a nearby friendly target for {2}% of the damage done."
+                },
+                {
+                    "Hash": 2571165604,
+                    "Id": "124974",
+                    "Spec": "Restoration",
+                    "Text": "For {1} sec, all single-target healing also damages a nearby enemy target for {2}% of the healing done."
+                }
+            ]
+        },
+        {
+            "Hash": 1423933021,
+            "Name": "New Moon",
+            "Descriptions": [
+                {
+                    "Hash": 9130700,
+                    "Id": "274281",
+                    "Spec": "Balance",
+                    "Text": "Deals {1}{2} Astral damage to the target and empowers New Moon to become Half Moon. \n\n{FFFFFFFF|Generates {3} Astral Power.}"
+                }
+            ]
+        },
+        {
+            "Hash": 181838500,
+            "Name": "Nourish",
+            "Descriptions": [
+                {
+                    "Hash": 491622299,
+                    "Id": "50464",
+                    "Spec": "Restoration",
+                    "Text": "Heals a friendly target for {1}.  Receives {2}% bonus from {ffffffff|Mastery: Harmony}."
+                }
+            ]
+        },
+        {
+            "Hash": 3923629191,
+            "Name": "Nurturing Dormancy",
+            "Descriptions": [
+                {
+                    "Hash": 3005423681,
+                    "Id": "392099",
+                    "Spec": "Restoration",
+                    "Text": "When your Rejuvenation heals a full health target, its duration is increased by {1} sec, up to a maximum total increase of {2} sec per cast."
+                }
+            ]
+        },
+        {
+            "Hash": 801857659,
+            "Name": "Nurturing Instinct",
+            "Descriptions": [
+                {
+                    "Hash": 1867408359,
+                    "Id": "33873",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Magical damage and healing increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2880801506,
+            "Name": "Omen of Clarity",
+            "Descriptions": [
+                {
+                    "Hash": 353083642,
+                    "Id": "16864",
+                    "Spec": "Feral",
+                    "Text": "Your auto attacks have a high chance to cause a Clearcasting state, making your next Shred, Thrash, or Brutal Slash cost no Energy and deal {1}% more damage.\n\nClearcasting can accumulate up to {2} charges. "
+                },
+                {
+                    "Hash": 931434725,
+                    "Id": "113043",
+                    "Spec": "Restoration",
+                    "Text": "Your healing over time from Lifebloom has a {1}% chance to cause a Clearcasting state, making your next Regrowth cost no mana."
+                }
+            ]
+        },
+        {
+            "Hash": 1838890747,
+            "Name": "Orbit Breaker",
+            "Descriptions": [
+                {
+                    "Hash": 609351603,
+                    "Id": "383197",
+                    "Spec": "Balance",
+                    "Text": "Every {1}th Shooting Star calls down a Full Moon at {2}% power upon its target."
+                }
+            ]
+        },
+        {
+            "Hash": 3926963193,
+            "Name": "Orbital Strike",
+            "Descriptions": [
+                {
+                    "Hash": 159580035,
+                    "Id": "390378",
+                    "Spec": "Balance",
+                    "Text": "Celestial Alignment blasts all enemies in a targeted area for {1} Astral damage and applies Stellar Flare to them.\n\nReduces the cooldown of Celestial Alignment by {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 500418243,
+            "Name": "Overgrowth",
+            "Descriptions": [
+                {
+                    "Hash": 662984950,
+                    "Id": "203651",
+                    "Spec": "Restoration",
+                    "Text": "Apply Lifebloom, Rejuvenation, Wild Growth, and Regrowth's heal over time effect to an ally."
+                }
+            ]
+        },
+        {
+            "Hash": 3856923708,
+            "Name": "Overrun",
+            "Descriptions": [
+                {
+                    "Hash": 3531647236,
+                    "Id": "202246",
+                    "Spec": "Guardian",
+                    "Text": "Charge to an enemy, stunning them for {1} sec and knocking back their allies within {2} yards."
+                }
+            ]
+        },
+        {
+            "Hash": 3340731120,
+            "Name": "Owlkin Adept",
+            "Descriptions": [
+                {
+                    "Hash": 1173150104,
+                    "Id": "354541",
+                    "Spec": "Balance",
+                    "Text": "Owlkin Frenzy can stack up to {1} times and reduces the cast time of your next Cyclone or Entangling Roots by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 752386191,
+            "Name": "Passing Seasons",
+            "Descriptions": [
+                {
+                    "Hash": 3080515119,
+                    "Id": "382550",
+                    "Spec": "Restoration",
+                    "Text": "Nature's Swiftness's cooldown is reduced by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2107992369,
+            "Name": "Photosynthesis",
+            "Descriptions": [
+                {
+                    "Hash": 2305501401,
+                    "Id": "274902",
+                    "Spec": "Restoration",
+                    "Text": "While your Lifebloom is on yourself, your periodic heals heal {1}% faster.\n\nWhile your Lifebloom is on an ally, your periodic heals on them have a {2}% chance to cause it to bloom."
+                }
+            ]
+        },
+        {
+            "Hash": 4253173497,
+            "Name": "Pouncing Strikes",
+            "Descriptions": [
+                {
+                    "Hash": 1876099412,
+                    "Id": "390772",
+                    "Spec": "Feral",
+                    "Text": "While stealthed, Rake will also stun the target for {1} sec, and deal {2}% increased damage.\n\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point."
+                }
+            ]
+        },
+        {
+            "Hash": 760699702,
+            "Name": "Power of Goldrinn",
+            "Descriptions": [
+                {
+                    "Hash": 1124754608,
+                    "Id": "394046",
+                    "Spec": "Balance",
+                    "Text": "Starsurge has a chance to summon the Spirit of Goldrinn, which immediately deals {1} Astral damage to the target."
+                }
+            ]
+        },
+        {
+            "Hash": 1348140634,
+            "Name": "Power of the Archdruid",
+            "Descriptions": [
+                {
+                    "Hash": 1217398397,
+                    "Id": "392302",
+                    "Spec": "Restoration",
+                    "Text": "Wild Growth has a {1}% chance to cause your next Rejuvenation or Regrowth to apply to {2} additional allies within {3} yards of the target."
+                }
+            ]
+        },
+        {
+            "Hash": 2345603525,
+            "Name": "Precognition",
+            "Descriptions": [
+                {
+                    "Hash": 525859810,
+                    "Id": "377360",
+                    "Spec": "Restoration, Balance",
+                    "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4112198918,
+            "Name": "Predator",
+            "Descriptions": [
+                {
+                    "Hash": 2071568621,
+                    "Id": "202021",
+                    "Spec": "Feral",
+                    "Text": "The cooldown on Tiger's Fury resets when a target dies with one of your Bleed effects active, and Tiger's Fury lasts {1} additional seconds."
+                }
+            ]
+        },
+        {
+            "Hash": 3265458760,
+            "Name": "Predatory Swiftness",
+            "Descriptions": [
+                {
+                    "Hash": 1410909342,
+                    "Id": "16974",
+                    "Spec": "Feral",
+                    "Text": "Your finishing moves have a {1}% chance per combo point to make your next Regrowth or Entangling Roots instant, free, and castable in all forms."
+                }
+            ]
+        },
+        {
+            "Hash": 2608668877,
+            "Name": "Primal Claws",
+            "Descriptions": [
+                {
+                    "Hash": 3316723625,
+                    "Id": "391037",
+                    "Spec": "Feral",
+                    "Text": "Your combo point generating abilities have a {1}% chance to generate {2} extra combo point."
+                }
+            ]
+        },
+        {
+            "Hash": 3338461607,
+            "Name": "Primal Fury",
+            "Descriptions": [
+                {
+                    "Hash": 2371872924,
+                    "Id": "159286",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "When you critically strike with an attack that generates a combo point, you gain an additional combo point.\n\nDamage over time cannot trigger this effect."
+                }
+            ]
+        },
+        {
+            "Hash": 2524246262,
+            "Name": "Primal Wrath",
+            "Descriptions": [
+                {
+                    "Hash": 3028228691,
+                    "Id": "285381",
+                    "Spec": "Feral",
+                    "Text": "Finishing move that deals instant damage and applies Rip to all enemies within {1} yards. Lasts longer per combo point.\n\n   {2} point  : {3} plus Rip for {4} sec\n   {5} points: {6} plus Rip for {7} sec\n   {8} points: {9} plus Rip for {10} sec\n   {11} points: {12} plus Rip for {13} sec\n   {14} points: {15} plus Rip for {16} sec"
+                }
+            ]
+        },
+        {
+            "Hash": 4280837201,
+            "Name": "Primordial Arcanic Pulsar",
+            "Descriptions": [
+                {
+                    "Hash": 3959894814,
+                    "Id": "393960",
+                    "Spec": "Balance",
+                    "Text": "Every {1} Astral Power spent grants Celestial Alignment for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 457187747,
+            "Name": "Protective Growth",
+            "Descriptions": [
+                {
+                    "Hash": 2090441497,
+                    "Id": "391947",
+                    "Spec": "Feral",
+                    "Text": "Your Regrowth protects you, reducing all damage you take by {1}% while your Regrowth is on you."
+                }
+            ]
+        },
+        {
+            "Hash": 571586708,
+            "Name": "Protector of the Grove",
+            "Descriptions": [
+                {
+                    "Hash": 4069682213,
+                    "Id": "209730",
+                    "Spec": "Balance",
+                    "Text": "When using Regrowth on an ally the initial heal will always have a critical effect and the cast time of Regrowth will be reduced by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1943280769,
+            "Name": "Protector of the Pack",
+            "Descriptions": [
+                {
+                    "Hash": 1197163432,
+                    "Id": "378986",
+                    "Spec": "Feral, Guardian, Balance",
+                    "Text": "Store {1}% of your damage, up to {2}. Your next Regrowth consumes all stored damage to increase its healing."
+                },
+                {
+                    "Hash": 2227793900,
+                    "Id": "378986",
+                    "Spec": "Restoration",
+                    "Text": "Store {1}% of your effective healing, up to {2}. Your next Moonfire consumes all stored healing to increase its damage dealt."
+                }
+            ]
+        },
+        {
+            "Hash": 195586750,
+            "Name": "Prowl",
+            "Descriptions": [
+                {
+                    "Hash": 2858954872,
+                    "Id": "5215",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shift into Cat Form and enter stealth."
+                }
+            ]
+        },
+        {
+            "Hash": 1734042066,
+            "Name": "Pulverize",
+            "Descriptions": [
+                {
+                    "Hash": 331162773,
+                    "Id": "80313",
+                    "Spec": "Guardian",
+                    "Text": "A devastating blow that consumes {1} stacks of your Thrash on the target to deal {2} Physical damage and reduce the damage they deal to you by {3}% for {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2497227469,
+            "Name": "Radiant Moonlight",
+            "Descriptions": [
+                {
+                    "Hash": 3931083366,
+                    "Id": "394121",
+                    "Spec": "Balance",
+                    "Text": "Full Moon becomes Full Moon once more before resetting to New Moon.\n\nFury of Elune's cooldown is reduced by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3191811339,
+            "Name": "Rage of the Sleeper",
+            "Descriptions": [
+                {
+                    "Hash": 2397954341,
+                    "Id": "200851",
+                    "Spec": "Guardian",
+                    "Text": "Unleashes the rage of Ursoc for {1} sec, preventing {2}% of all damage you take, increasing your damage done by {3}%, granting you {4}% leech, and reflecting {5} Nature damage back at your attackers."
+                }
+            ]
+        },
+        {
+            "Hash": 3563822677,
+            "Name": "Raging Frenzy",
+            "Descriptions": [
+                {
+                    "Hash": 3289340923,
+                    "Id": "236153",
+                    "Spec": "Guardian",
+                    "Text": "Your Frenzied Regeneration also generates {1} Rage over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1315968096,
+            "Name": "Raging Fury",
+            "Descriptions": [
+                {
+                    "Hash": 232620591,
+                    "Id": "391078",
+                    "Spec": "Feral",
+                    "Text": "Finishing moves extend the duration of Tiger's Fury by {1} sec per combo point spent."
+                }
+            ]
+        },
+        {
+            "Hash": 2957959651,
+            "Name": "Rake",
+            "Descriptions": [
+                {
+                    "Hash": 2412067262,
+                    "Id": "1822",
+                    "Spec": "Feral",
+                    "Text": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. Reduces the target's movement speed by {4}% for {5} sec. \n\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\n\n{FFFFFFFF|Awards {8} combo point.}"
+                },
+                {
+                    "Hash": 2124572660,
+                    "Id": "1822",
+                    "Spec": "Restoration, Guardian, Balance",
+                    "Text": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. \n\nWhile stealthed, Rake will also stun the target for {4} sec and deal {5}% increased damage.\n\n{FFFFFFFF|Awards {6} combo point.}"
+                }
+            ]
+        },
+        {
+            "Hash": 3588638425,
+            "Name": "Rampant Ferocity",
+            "Descriptions": [
+                {
+                    "Hash": 2459631435,
+                    "Id": "391709",
+                    "Spec": "Feral",
+                    "Text": "Ferocious Bite hits all nearby enemies affected by your Rip for {1}% of the damage dealt. Damage reduced beyond {2} targets."
+                }
+            ]
+        },
+        {
+            "Hash": 3671920870,
+            "Name": "Rampant Growth",
+            "Descriptions": [
+                {
+                    "Hash": 3440989497,
+                    "Id": "404521",
+                    "Spec": "Restoration",
+                    "Text": "Regrowth's healing over time is increased by {1}%, and it also applies to the target of your Lifebloom."
+                }
+            ]
+        },
+        {
+            "Hash": 2125245222,
+            "Name": "Rattle the Stars",
+            "Descriptions": [
+                {
+                    "Hash": 743141887,
+                    "Id": "393954",
+                    "Spec": "Balance",
+                    "Text": "Starsurge and Starfall reduce the cost of Starsurge and Starfall by {1}% and increase their damage by {2}% for {3} sec, stacking up to {4} times."
+                }
+            ]
+        },
+        {
+            "Hash": 3277480463,
+            "Name": "Raze",
+            "Descriptions": [
+                {
+                    "Hash": 2829678628,
+                    "Id": "400254",
+                    "Spec": "Guardian",
+                    "Text": "Strike with the might of Ursoc, dealing {1} Physical damage to all enemies in front of you. Deals reduced damage beyond {2} targets."
+                }
+            ]
+        },
+        {
+            "Hash": 1129515312,
+            "Name": "Reactive Resin",
+            "Descriptions": [
+                {
+                    "Hash": 39573892,
+                    "Id": "203399",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Casting Rejuvenation grants the target {1} charges of Reactive Resin.\n\nReactive Resin will heal the target for {2} after taking a melee critical strike, and increase the duration of Rejuvenation by {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 165696551,
+            "Name": "Rebirth",
+            "Descriptions": [
+                {
+                    "Hash": 2499366338,
+                    "Id": "20484",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% health and at least {2}% mana. Castable in combat."
+                }
+            ]
+        },
+        {
+            "Hash": 1522909236,
+            "Name": "Reforestation",
+            "Descriptions": [
+                {
+                    "Hash": 3623859356,
+                    "Id": "392356",
+                    "Spec": "Restoration",
+                    "Text": "Every {1} casts of Swiftmend grants you Incarnation: Tree of Life for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 274008199,
+            "Name": "Regenerative Heartwood",
+            "Descriptions": [
+                {
+                    "Hash": 561071605,
+                    "Id": "392116",
+                    "Spec": "Restoration",
+                    "Text": "Allies protected by your Ironbark also receive {1}% of the healing from each of your active Rejuvenations and Ironbark's duration is increased by {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 657214056,
+            "Name": "Regenesis",
+            "Descriptions": [
+                {
+                    "Hash": 3590468618,
+                    "Id": "383191",
+                    "Spec": "Restoration",
+                    "Text": "Rejuvenation healing is increased by up to {1}%, and Tranquility healing is increased by up to {2}%, healing for more on low-health targets."
+                }
+            ]
+        },
+        {
+            "Hash": 356880283,
+            "Name": "Regrowth",
+            "Descriptions": [
+                {
+                    "Hash": 1925749309,
+                    "Id": "8936",
+                    "Spec": "Feral, Guardian, Balance",
+                    "Text": "Heals a friendly target for {1} and another {2} over {3} sec. Usable while in Moonkin Form."
+                },
+                {
+                    "Hash": 3611615443,
+                    "Id": "8936",
+                    "Spec": "Restoration",
+                    "Text": "Heals a friendly target for {1} and another {2} over {3} sec. Initial heal has a {4}% increased chance for a critical effect if the target is already affected by Regrowth. Usable while in Moonkin Form."
+                }
+            ]
+        },
+        {
+            "Hash": 3754831684,
+            "Name": "Reinforced Fur",
+            "Descriptions": [
+                {
+                    "Hash": 329352793,
+                    "Id": "393618",
+                    "Spec": "Guardian",
+                    "Text": "Ironfur increases armor by an additional {1}% and Barkskin reduces damage taken by an additional {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4077821339,
+            "Name": "Reinvigoration",
+            "Descriptions": [
+                {
+                    "Hash": 1520262394,
+                    "Id": "372945",
+                    "Spec": "Guardian",
+                    "Text": "Frenzied Regeneration's cooldown is reduced by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2377570975,
+            "Name": "Rejuvenation",
+            "Descriptions": [
+                {
+                    "Hash": 2587115936,
+                    "Id": "774",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Heals the target for {1} over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3102027427,
+            "Name": "Relentless Predator",
+            "Descriptions": [
+                {
+                    "Hash": 3842846153,
+                    "Id": "393771",
+                    "Spec": "Feral",
+                    "Text": "Energy cost of Ferocious Bite reduced by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4173447800,
+            "Name": "Remove Corruption",
+            "Descriptions": [
+                {
+                    "Hash": 133372674,
+                    "Id": "2782",
+                    "Spec": "Feral, Guardian, Balance",
+                    "Text": "Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects."
+                }
+            ]
+        },
+        {
+            "Hash": 2057699590,
+            "Name": "Rend and Tear",
+            "Descriptions": [
+                {
+                    "Hash": 1176469117,
+                    "Id": "204053",
+                    "Spec": "Guardian",
+                    "Text": "Each stack of Thrash reduces the target's damage to you by {1}% and increases your damage to them by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1856164466,
+            "Name": "Renewal",
+            "Descriptions": [
+                {
+                    "Hash": 689935988,
+                    "Id": "108238",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Instantly heals you for {1}% of maximum health. Usable in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 16450431,
+            "Name": "Revitalize",
+            "Descriptions": [
+                {
+                    "Hash": 1726542057,
+                    "Id": "212040",
+                    "Spec": "Restoration",
+                    "Text": "Returns all dead party members to life with {1}% of maximum health and mana. Not castable in combat."
+                }
+            ]
+        },
+        {
+            "Hash": 492229069,
+            "Name": "Revive",
+            "Descriptions": [
+                {
+                    "Hash": 1586206876,
+                    "Id": "50769",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Not castable in combat."
+                }
+            ]
+        },
+        {
+            "Hash": 3231980261,
+            "Name": "Rip",
+            "Descriptions": [
+                {
+                    "Hash": 437936681,
+                    "Id": "1079",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Finishing move that causes Bleed damage over time. Lasts longer per combo point.\n\n   {1} point  : {2} over {3} sec\n   {4} points: {5} over {6} sec\n   {7} points: {8} over {9} sec\n   {10} points: {11} over {12} sec\n   {13} points: {14} over {15} sec"
+                }
+            ]
+        },
+        {
+            "Hash": 294738545,
+            "Name": "Rip and Tear",
+            "Descriptions": [
+                {
+                    "Hash": 4037982723,
+                    "Id": "391347",
+                    "Spec": "Feral",
+                    "Text": "Applying Rip to a target also applies a Tear that deals {1}% of the new Rip's damage over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1087095824,
+            "Name": "Sabertooth",
+            "Descriptions": [
+                {
+                    "Hash": 75150737,
+                    "Id": "202031",
+                    "Spec": "Feral",
+                    "Text": "Ferocious Bite deals {1}% increased damage and increases all damage dealt by Rip by {2}% per Combo Point spent for {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1279302170,
+            "Name": "Savage Momentum",
+            "Descriptions": [
+                {
+                    "Hash": 40504893,
+                    "Id": "205673",
+                    "Spec": "Feral",
+                    "Text": "Interrupting a spell with Skull Bash reduces the remaining cooldown of Tiger's Fury, Survival Instincts, and Dash by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1897687334,
+            "Name": "Scintillating Moonlight",
+            "Descriptions": [
+                {
+                    "Hash": 2278270324,
+                    "Id": "238049",
+                    "Spec": "Guardian",
+                    "Text": "Moonfire reduces damage dealt to you by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1802964208,
+            "Name": "Sharpened Claws",
+            "Descriptions": [
+                {
+                    "Hash": 3537387706,
+                    "Id": "202110",
+                    "Spec": "Guardian",
+                    "Text": "Maul increases the damage done by your Swipe and Thrash by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2889182112,
+            "Name": "Shooting Stars",
+            "Descriptions": [
+                {
+                    "Hash": 1872805880,
+                    "Id": "202342",
+                    "Spec": "Balance",
+                    "Text": "Moonfire, Sunfire, and Stellar Flare damage over time has a chance to call down a falling star, dealing {1} Astral damage and generating {2} Astral Power."
+                }
+            ]
+        },
+        {
+            "Hash": 3960603769,
+            "Name": "Shred",
+            "Descriptions": [
+                {
+                    "Hash": 2011994873,
+                    "Id": "5221",
+                    "Spec": "Feral",
+                    "Text": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets.\n\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point.\n\n|cFFFFFFFFAwards {5} combo point."
+                },
+                {
+                    "Hash": 3074107126,
+                    "Id": "5221",
+                    "Spec": "Restoration, Guardian, Balance",
+                    "Text": "Shred the target, causing {1} Physical damage to the target.\n\nWhile stealthed, Shred deals {2}% increased damage, has double the chance to critically strike, and generates {3} additional combo point.\n\n|cFFFFFFFFAwards {4} combo point."
+                }
+            ]
+        },
+        {
+            "Hash": 353181327,
+            "Name": "Skull Bash",
+            "Descriptions": [
+                {
+                    "Hash": 695593139,
+                    "Id": "106839",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "You charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1652145580,
+            "Name": "Solar Beam",
+            "Descriptions": [
+                {
+                    "Hash": 1183249831,
+                    "Id": "78675",
+                    "Spec": "Balance",
+                    "Text": "Summons a beam of solar light over an enemy target's location, interrupting the target and silencing all enemies within the beam.  Lasts {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3657491068,
+            "Name": "Solstice",
+            "Descriptions": [
+                {
+                    "Hash": 2905662400,
+                    "Id": "343647",
+                    "Spec": "Balance",
+                    "Text": "During the first {1} sec of every Eclipse, Shooting Stars fall {2}% more often."
+                }
+            ]
+        },
+        {
+            "Hash": 3389213643,
+            "Name": "Soothe",
+            "Descriptions": [
+                {
+                    "Hash": 3288969993,
+                    "Id": "2908",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Soothes the target, dispelling all enrage effects."
+                }
+            ]
+        },
+        {
+            "Hash": 724120922,
+            "Name": "Soul of the Forest",
+            "Descriptions": [
+                {
+                    "Hash": 3976443956,
+                    "Id": "158476",
+                    "Spec": "Feral",
+                    "Text": "Your finishing moves grant {1} Energy per combo point spent and deal {2}% increased damage."
+                },
+                {
+                    "Hash": 289338491,
+                    "Id": "158477",
+                    "Spec": "Guardian",
+                    "Text": "Mangle generates {1} more Rage and deals {2}% more damage."
+                },
+                {
+                    "Hash": 322426979,
+                    "Id": "114107",
+                    "Spec": "Balance",
+                    "Text": "Eclipse increases Wrath's Astral power generation {1}%, and increases Starfire's area effect damage by {2}%."
+                },
+                {
+                    "Hash": 4127922672,
+                    "Id": "158478",
+                    "Spec": "Restoration",
+                    "Text": "Swiftmend increases the healing of your next Regrowth or Rejuvenation by {1}%, or your next Wild Growth by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3387681536,
+            "Name": "Spring Blossoms",
+            "Descriptions": [
+                {
+                    "Hash": 864318175,
+                    "Id": "207385",
+                    "Spec": "Restoration",
+                    "Text": "Each target healed by Efflorescence is healed for an additional {1} over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4086423592,
+            "Name": "Stampeding Roar",
+            "Descriptions": [
+                {
+                    "Hash": 1288416468,
+                    "Id": "106898",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2401735801,
+            "Name": "Star Burst",
+            "Descriptions": [
+                {
+                    "Hash": 3984031930,
+                    "Id": "356517",
+                    "Spec": "Balance",
+                    "Text": "Starfall calls down collapsing stars that last {1} sec. Enemies that come into contact with a star cause it to burst, knocking nearby enemies upwards and dealing {2} Astral damage. Generates {3} Astral Power.\n\nThe Druid and their allies may pick up stars, causing them to orbit around you."
+                }
+            ]
+        },
+        {
+            "Hash": 1642494802,
+            "Name": "Starfall",
+            "Descriptions": [
+                {
+                    "Hash": 649547651,
+                    "Id": "191034",
+                    "Spec": "Balance",
+                    "Text": "Calls down waves of falling stars upon enemies within {1} yds, dealing {2} Astral damage over {3} sec. Multiple uses of this ability may overlap.\n\nExtends the duration of active Moonfires and Sunfires by {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 709632870,
+            "Name": "Starfire",
+            "Descriptions": [
+                {
+                    "Hash": 657886030,
+                    "Id": "194153",
+                    "Spec": "Balance",
+                    "Text": "Call down a burst of energy, causing {1} Arcane damage to the target, and {2} Arcane damage to all other enemies within {3} yards.\n\n{FFFFFFFF|Generates {4} Astral Power.}"
+                },
+                {
+                    "Hash": 3856269569,
+                    "Id": "197628",
+                    "Spec": "Restoration, Feral, Guardian",
+                    "Text": "Call down a burst of energy, causing {1} Arcane damage to the target, and {2} Arcane damage to all other enemies within {3} yards."
+                }
+            ]
+        },
+        {
+            "Hash": 1902602324,
+            "Name": "Starlord",
+            "Descriptions": [
+                {
+                    "Hash": 3550153187,
+                    "Id": "202345",
+                    "Spec": "Balance",
+                    "Text": "Starsurge and Starfall grant you {1}% Haste for {2} sec.\n\nStacks up to {3} times. Gaining a stack does not refresh the duration."
+                }
+            ]
+        },
+        {
+            "Hash": 2121903020,
+            "Name": "Starsurge",
+            "Descriptions": [
+                {
+                    "Hash": 3178247256,
+                    "Id": "197626, 78674",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Launch a surge of stellar energies at the target, dealing {1} Astral damage."
+                }
+            ]
+        },
+        {
+            "Hash": 362929545,
+            "Name": "Starweaver",
+            "Descriptions": [
+                {
+                    "Hash": 3089090622,
+                    "Id": "393940",
+                    "Spec": "Balance",
+                    "Text": "Starsurge has a {1}% chance to make Starfall free. Starfall has a {2}% chance to make Starsurge free."
+                }
+            ]
+        },
+        {
+            "Hash": 1712197801,
+            "Name": "Stellar Flare",
+            "Descriptions": [
+                {
+                    "Hash": 551391740,
+                    "Id": "202347",
+                    "Spec": "Balance",
+                    "Text": "Burns the target for {1} Astral damage, and then an additional {2} damage over {3} sec. If dispelled, causes {4} damage to the dispeller and blast them upwards.\n\n{FFFFFFFF|Generates {5} Astral Power.}"
+                }
+            ]
+        },
+        {
+            "Hash": 2869962891,
+            "Name": "Stellar Innervation",
+            "Descriptions": [
+                {
+                    "Hash": 305323800,
+                    "Id": "394115",
+                    "Spec": "Balance",
+                    "Text": "During Solar Eclipse, Sunfire generates {1}% additional Astral Power. During Lunar Eclipse, Moonfire generates {2}% additional Astral Power."
+                }
+            ]
+        },
+        {
+            "Hash": 1969450744,
+            "Name": "Stonebark",
+            "Descriptions": [
+                {
+                    "Hash": 47551766,
+                    "Id": "197061",
+                    "Spec": "Restoration",
+                    "Text": "Ironbark increases healing from your heal over time effects by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 66063186,
+            "Name": "Strength of the Wild",
+            "Descriptions": [
+                {
+                    "Hash": 3891223359,
+                    "Id": "236019",
+                    "Spec": "Feral",
+                    "Text": "You become further adept in Caster Form and Bear Form.\n\n{FFFFFFFF|Caster Form}\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\n\n{FFFFFFFF|Bear Form}\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\n\nYou also learn:\n\n|T132136:24|t {ffffffff|Strength of the Wild}\n"
+                }
+            ]
+        },
+        {
+            "Hash": 3267743187,
+            "Name": "Sudden Ambush",
+            "Descriptions": [
+                {
+                    "Hash": 69558501,
+                    "Id": "384667",
+                    "Spec": "Feral",
+                    "Text": "Finishing moves have a {1}% chance per combo point spent to make your next Rake or Shred deal damage as though you were stealthed. "
+                }
+            ]
+        },
+        {
+            "Hash": 1182047336,
+            "Name": "Sundered Firmament",
+            "Descriptions": [
+                {
+                    "Hash": 2314833536,
+                    "Id": "394094",
+                    "Spec": "Balance",
+                    "Text": "Every other Eclipse creates a Fury of Elune at {1}% effectiveness that follows your current target for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 4085516950,
+            "Name": "Sunfire",
+            "Descriptions": [
+                {
+                    "Hash": 1217268173,
+                    "Id": "93402",
+                    "Spec": "Balance",
+                    "Text": "A quick beam of solar light burns the enemy for {1} Nature damage and then an additional {2} Nature damage over {3} sec.\n\n{FFFFFFFF|Generates {4} Astral Power.}"
+                },
+                {
+                    "Hash": 1747300084,
+                    "Id": "93402",
+                    "Spec": "Restoration, Feral, Guardian",
+                    "Text": "A quick beam of solar light burns the enemy for {1} Nature damage and then an additional {2} Nature damage over {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3439883817,
+            "Name": "Survival Instincts",
+            "Descriptions": [
+                {
+                    "Hash": 2851743854,
+                    "Id": "61336",
+                    "Spec": "Feral, Guardian",
+                    "Text": "Reduces all damage you take by {1}% for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 414943443,
+            "Name": "Survival of the Fittest",
+            "Descriptions": [
+                {
+                    "Hash": 476057683,
+                    "Id": "203965",
+                    "Spec": "Guardian",
+                    "Text": "Reduces the cooldowns of Barkskin and Survival Instincts by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 564500662,
+            "Name": "Swiftmend",
+            "Descriptions": [
+                {
+                    "Hash": 4021815852,
+                    "Id": "18562",
+                    "Spec": "Feral, Guardian, Balance",
+                    "Text": "Consumes a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for {1}."
+                },
+                {
+                    "Hash": 2719456912,
+                    "Id": "18562",
+                    "Spec": "Restoration",
+                    "Text": "Consumes a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for {1}.\n\nSwiftmend heals the target for {2} over {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1491674272,
+            "Name": "Swipe",
+            "Descriptions": [
+                {
+                    "Hash": 2434946522,
+                    "Id": "213771",
+                    "Spec": "Guardian",
+                    "Text": "Swipe all nearby enemies, inflicting {1} Physical damage. Deals reduced damage beyond {2} targets."
+                },
+                {
+                    "Hash": 4151726261,
+                    "Id": "213764",
+                    "Spec": "Restoration, Balance",
+                    "Text": "Swipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form."
+                }
+            ]
+        },
+        {
+            "Hash": 973061863,
+            "Name": "Taste for Blood",
+            "Descriptions": [
+                {
+                    "Hash": 3262222283,
+                    "Id": "384665",
+                    "Spec": "Feral",
+                    "Text": "Ferocious Bite deals {1}% increased damage for each of your Bleeds on the target."
+                }
+            ]
+        },
+        {
+            "Hash": 2336790284,
+            "Name": "Tear Open Wounds",
+            "Descriptions": [
+                {
+                    "Hash": 2679568561,
+                    "Id": "391785",
+                    "Spec": "Feral",
+                    "Text": "Primal Wrath consumes up to {1} sec of Rip damage on targets it hits and deals {2}% of it instantly."
+                }
+            ]
+        },
+        {
+            "Hash": 1510791647,
+            "Name": "Teleport: Moonglade",
+            "Descriptions": [
+                {
+                    "Hash": 1572833084,
+                    "Id": "18960",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Teleport to the Moonglade.\n\nCasting Teleport: Moonglade while in Moonglade will return you back to near your departure point."
+                }
+            ]
+        },
+        {
+            "Hash": 1576440054,
+            "Name": "Thick Hide",
+            "Descriptions": [
+                {
+                    "Hash": 641619896,
+                    "Id": "16931",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Reduces all damage taken by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1393716309,
+            "Name": "Thorns",
+            "Descriptions": [
+                {
+                    "Hash": 75088014,
+                    "Id": "305497",
+                    "Spec": "Restoration, Feral, Balance",
+                    "Text": "Sprout thorns for {1} sec on the friendly target. When victim to melee attacks, thorns deals {2} Nature damage back to the attacker.\n\nAttackers also have their movement speed reduced by {3}% for {4} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3919100476,
+            "Name": "Thorns of Iron",
+            "Descriptions": [
+                {
+                    "Hash": 3104580443,
+                    "Id": "400222",
+                    "Spec": "Guardian",
+                    "Text": "When you cast Ironfur, also deal Physical damage equal to {1}% of your armor, split among enemies within {2} yards. Damage reduced above {3} applications."
+                }
+            ]
+        },
+        {
+            "Hash": 2889019428,
+            "Name": "Thrash",
+            "Descriptions": [
+                {
+                    "Hash": 1421962940,
+                    "Id": "77758",
+                    "Spec": "Guardian",
+                    "Text": "Strikes all nearby enemies, dealing {1} Bleed damage and an additional {2} Bleed damage over {3} sec. When applied from Bear Form, this effect can stack up to {4} times.\n\n{FFFFFFFF|Generates {5} Rage.}"
+                },
+                {
+                    "Hash": 2558497036,
+                    "Id": "106830",
+                    "Spec": "Feral",
+                    "Text": "Strikes all nearby enemies, dealing {1} Bleed damage and an additional {2} Bleed damage over {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
+                },
+                {
+                    "Hash": 953367525,
+                    "Id": "106832, 106830, 77758",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Thrash all nearby enemies, dealing immediate physical damage and periodic bleed damage. Damage varies by shapeshift form."
+                }
+            ]
+        },
+        {
+            "Hash": 2925002061,
+            "Name": "Tiger Dash",
+            "Descriptions": [
+                {
+                    "Hash": 3130502194,
+                    "Id": "252216",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shift into Cat Form and increase your movement speed by {1}%, reducing gradually over {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3354196761,
+            "Name": "Tiger's Fury",
+            "Descriptions": [
+                {
+                    "Hash": 3454745774,
+                    "Id": "5217",
+                    "Spec": "Feral",
+                    "Text": "Instantly restores {1} Energy, and increases the damage of all your attacks by {2}% for their full duration. Lasts {3} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 928677407,
+            "Name": "Tiger's Tenacity",
+            "Descriptions": [
+                {
+                    "Hash": 1328756891,
+                    "Id": "391872",
+                    "Spec": "Feral",
+                    "Text": "Tiger's Fury causes your next {1} finishing moves to restore {2} combo point."
+                }
+            ]
+        },
+        {
+            "Hash": 2438917080,
+            "Name": "Tireless Energy",
+            "Descriptions": [
+                {
+                    "Hash": 3806591646,
+                    "Id": "383352",
+                    "Spec": "Feral",
+                    "Text": "Maximum Energy increased by {1} and Energy regeneration increased by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1904681677,
+            "Name": "Tireless Pursuit",
+            "Descriptions": [
+                {
+                    "Hash": 2306400116,
+                    "Id": "377801",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "For {1} sec after leaving Cat Form or Travel Form, you retain up to {2}% movement speed."
+                }
+            ]
+        },
+        {
+            "Hash": 2811286697,
+            "Name": "Tooth and Claw",
+            "Descriptions": [
+                {
+                    "Hash": 3904057108,
+                    "Id": "135288",
+                    "Spec": "Guardian",
+                    "Text": "Autoattacks have a {1}% chance to empower your next Raze, stacking up to {2} times.\n\nEmpowered Raze deals {3}% increased damage, costs {4}% less rage, and reduces the target's damage to you by {5}% for {6} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 264045495,
+            "Name": "Toughness",
+            "Descriptions": [
+                {
+                    "Hash": 960965990,
+                    "Id": "201259",
+                    "Spec": "Guardian",
+                    "Text": "The duration of all stun effects are reduced by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 858166782,
+            "Name": "Tranquil Mind",
+            "Descriptions": [
+                {
+                    "Hash": 1391532531,
+                    "Id": "403521",
+                    "Spec": "Restoration",
+                    "Text": "Increases Omen of Clarity's chance to activate Clearcasting to {1}% and Clearcasting can stack {2} additional time."
+                }
+            ]
+        },
+        {
+            "Hash": 3430025654,
+            "Name": "Tranquility",
+            "Descriptions": [
+                {
+                    "Hash": 1500175152,
+                    "Id": "740",
+                    "Spec": "Restoration",
+                    "Text": "Heals all allies within {1} yards for {2} over {3} sec. Each heal heals the target for another {4} over {5} sec, stacking.\n\nHealing increased by {6}% when not in a raid."
+                }
+            ]
+        },
+        {
+            "Hash": 3957612038,
+            "Name": "Travel Form",
+            "Descriptions": [
+                {
+                    "Hash": 1434538859,
+                    "Id": "783",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Shapeshift into a travel form appropriate to your current location, increasing movement speed on land, in water, or in the air, and granting protection from Polymorph effects.\n\nThe act of shapeshifting frees you from movement impairing effects.\n\nLand speed increased when used out of combat. This effect is disabled in battlegrounds and arenas."
+                }
+            ]
+        },
+        {
+            "Hash": 2014800774,
+            "Name": "Twin Moonfire",
+            "Descriptions": [
+                {
+                    "Hash": 859559183,
+                    "Id": "372567",
+                    "Spec": "Guardian",
+                    "Text": "Moonfire deals {1}% increased damage and also hits another nearby enemy within {2} yds of the target."
+                }
+            ]
+        },
+        {
+            "Hash": 2597120946,
+            "Name": "Twin Moons",
+            "Descriptions": [
+                {
+                    "Hash": 859559183,
+                    "Id": "279620",
+                    "Spec": "Balance",
+                    "Text": "Moonfire deals {1}% increased damage and also hits another nearby enemy within {2} yds of the target."
+                }
+            ]
+        },
+        {
+            "Hash": 3951949470,
+            "Name": "Typhoon",
+            "Descriptions": [
+                {
+                    "Hash": 3211106120,
+                    "Id": "132469",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Blasts targets within {1} yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by {2}% for {3} sec. Usable in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 2239854675,
+            "Name": "Umbral Embrace",
+            "Descriptions": [
+                {
+                    "Hash": 3144719341,
+                    "Id": "393760",
+                    "Spec": "Balance",
+                    "Text": "Dealing Astral damage has a chance to cause your next Wrath or Starfire cast during an Eclipse to become Astral and deal {1}% additional damage."
+                }
+            ]
+        },
+        {
+            "Hash": 2856209624,
+            "Name": "Umbral Intensity",
+            "Descriptions": [
+                {
+                    "Hash": 2011762810,
+                    "Id": "383195",
+                    "Spec": "Balance",
+                    "Text": "Solar Eclipse increases the damage of Wrath by an additional {1}%. \n\nLunar Eclipse increases the damage Starfire deals to nearby enemies by an additional {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3621444807,
+            "Name": "Unbridled Swarm",
+            "Descriptions": [
+                {
+                    "Hash": 726296256,
+                    "Id": "391951",
+                    "Spec": "Restoration, Feral",
+                    "Text": "Adaptive Swarm has a {1}% chance to split into two Swarms each time it jumps."
+                }
+            ]
+        },
+        {
+            "Hash": 1119901017,
+            "Name": "Undergrowth",
+            "Descriptions": [
+                {
+                    "Hash": 2731171453,
+                    "Id": "392301",
+                    "Spec": "Restoration",
+                    "Text": "You may Lifebloom two targets at once, but Lifebloom's healing is reduced by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 4112664957,
+            "Name": "Unstoppable Growth",
+            "Descriptions": [
+                {
+                    "Hash": 1871107725,
+                    "Id": "382559",
+                    "Spec": "Restoration",
+                    "Text": "Wild Growth's healing falls off {1}% less over time."
+                }
+            ]
+        },
+        {
+            "Hash": 206133685,
+            "Name": "Untamed Savagery",
+            "Descriptions": [
+                {
+                    "Hash": 2046262588,
+                    "Id": "372943",
+                    "Spec": "Guardian",
+                    "Text": "Increases the damage and radius of Thrash by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2842040316,
+            "Name": "Ursine Adept",
+            "Descriptions": [
+                {
+                    "Hash": 80843901,
+                    "Id": "300346",
+                    "Spec": "Guardian",
+                    "Text": "Moonfire, Soothe, Remove Corruption, Innervate, and Rebirth are usable in Bear Form. Multiple uses of Ironfur may overlap.\n\nAll damage taken in Bear Form reduced by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 423944486,
+            "Name": "Ursine Vigor",
+            "Descriptions": [
+                {
+                    "Hash": 3674220928,
+                    "Id": "377842",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "For {1} sec after shifting into Bear Form, your health and armor are increased by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1648649352,
+            "Name": "Ursoc's Endurance",
+            "Descriptions": [
+                {
+                    "Hash": 1057047194,
+                    "Id": "393611",
+                    "Spec": "Guardian",
+                    "Text": "Increases the duration of Barkskin and Ironfur by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 306134930,
+            "Name": "Ursoc's Fury",
+            "Descriptions": [
+                {
+                    "Hash": 1386380917,
+                    "Id": "377210",
+                    "Spec": "Guardian",
+                    "Text": "Thrash and Maul grant you an absorb shield for {1}% of the damage dealt for {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 2788958811,
+            "Name": "Ursoc's Guidance",
+            "Descriptions": [
+                {
+                    "Hash": 2197066262,
+                    "Id": "393414",
+                    "Spec": "Guardian",
+                    "Text": "|T571586:24|t {ffffffff|Incarnation: Guardian of Ursoc}: \nEvery {1} Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by {2} sec.\n\n|T3636839:24|t {ffffffff|Convoke the Spirits}: \nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                }
+            ]
+        },
+        {
+            "Hash": 897665850,
+            "Name": "Ursol's Vortex",
+            "Descriptions": [
+                {
+                    "Hash": 1141775622,
+                    "Id": "102793",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Conjures a vortex of wind for {1} sec at the destination, reducing the movement speed of all enemies within {2} yards by {3}%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center.  Usable in all shapeshift forms."
+                }
+            ]
+        },
+        {
+            "Hash": 3900865879,
+            "Name": "Veinripper",
+            "Descriptions": [
+                {
+                    "Hash": 814669789,
+                    "Id": "391978",
+                    "Spec": "Feral",
+                    "Text": "Rip, Rake, and Thrash last {1}% longer."
+                }
+            ]
+        },
+        {
+            "Hash": 3175674668,
+            "Name": "Verdancy",
+            "Descriptions": [
+                {
+                    "Hash": 4290034340,
+                    "Id": "392325",
+                    "Spec": "Restoration",
+                    "Text": "When Lifebloom blooms, up to {1} targets within your Efflorescence are healed for {2}."
+                }
+            ]
+        },
+        {
+            "Hash": 41326561,
+            "Name": "Verdant Heart",
+            "Descriptions": [
+                {
+                    "Hash": 1978028629,
+                    "Id": "301768",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Frenzied Regeneration and Barkskin increase all healing received by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 3149769210,
+            "Name": "Verdant Infusion",
+            "Descriptions": [
+                {
+                    "Hash": 1679879612,
+                    "Id": "392410",
+                    "Spec": "Restoration",
+                    "Text": "Swiftmend no longer consumes a heal over time effect, and extends the duration of your heal over time effects on the target by {1} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 1693625174,
+            "Name": "Vicious Cycle",
+            "Descriptions": [
+                {
+                    "Hash": 482486915,
+                    "Id": "371999",
+                    "Spec": "Guardian",
+                    "Text": "Mangle increases the damage of your next Raze, and Raze increases the damage of your next Mangle by {1}%. Stacks up to {2}."
+                }
+            ]
+        },
+        {
+            "Hash": 184586360,
+            "Name": "Vulnerable Flesh",
+            "Descriptions": [
+                {
+                    "Hash": 687026278,
+                    "Id": "372618",
+                    "Spec": "Guardian",
+                    "Text": "Raze has an additional {1}% chance to critically strike."
+                }
+            ]
+        },
+        {
+            "Hash": 1137200592,
+            "Name": "Waking Dream",
+            "Descriptions": [
+                {
+                    "Hash": 1282610104,
+                    "Id": "392221",
+                    "Spec": "Restoration",
+                    "Text": "Ysera's Gift now heals every {1} sec and its healing is increased by {2}% for each of your active Rejuvenations."
+                }
+            ]
+        },
+        {
+            "Hash": 1801829784,
+            "Name": "Waning Twilight",
+            "Descriptions": [
+                {
+                    "Hash": 3347198136,
+                    "Id": "393956",
+                    "Spec": "Balance",
+                    "Text": "When you have {1} periodic effects on a target, your damage and healing on them are increased by {2}%."
+                }
+            ]
+        },
+        {
+            "Hash": 1260395433,
+            "Name": "Warrior of Elune",
+            "Descriptions": [
+                {
+                    "Hash": 948699997,
+                    "Id": "202425",
+                    "Spec": "Balance",
+                    "Text": "Your next {1} Starfires are instant cast and generate {2}% increased Astral Power."
+                }
+            ]
+        },
+        {
+            "Hash": 1180025291,
+            "Name": "Well-Honed Instincts",
+            "Descriptions": [
+                {
+                    "Hash": 1476821845,
+                    "Id": "377847",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "When you fall below {1}% health, you cast Frenzied Regeneration, up to once every {2} sec."
+                }
+            ]
+        },
+        {
+            "Hash": 3265092092,
+            "Name": "Wicked Claws",
+            "Descriptions": [
+                {
+                    "Hash": 2725968592,
+                    "Id": "203242",
+                    "Spec": "Feral",
+                    "Text": "Infected Wounds can now stack up to {1} times, and reduces {2}% of all healing received by the target per stack.\n\nInfected Wounds can now also be applied from Rip."
+                }
+            ]
+        },
+        {
+            "Hash": 820617585,
+            "Name": "Wild Charge",
+            "Descriptions": [
+                {
+                    "Hash": 3861907055,
+                    "Id": "16979",
+                    "Spec": "Guardian",
+                    "Text": "Charge to an enemy, immobilizing them for {1} sec."
+                },
+                {
+                    "Hash": 3090801448,
+                    "Id": "102383",
+                    "Spec": "Balance",
+                    "Text": "Bound backward away from your enemies."
+                },
+                {
+                    "Hash": 461212075,
+                    "Id": "49376",
+                    "Spec": "Feral",
+                    "Text": "Leap behind an enemy, dazing them for {1} sec."
+                },
+                {
+                    "Hash": 308501643,
+                    "Id": "102401, 49376, 16979, 102383",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Fly to a nearby ally's position."
+                }
+            ]
+        },
+        {
+            "Hash": 3695240624,
+            "Name": "Wild Growth",
+            "Descriptions": [
+                {
+                    "Hash": 2696487586,
+                    "Id": "48438",
+                    "Spec": "Restoration, Feral, Guardian, Balance",
+                    "Text": "Heals up to {1} injured allies within {2} yards of the target for {3} over {4} sec. Healing starts high and declines over the duration."
+                }
+            ]
+        },
+        {
+            "Hash": 2949241595,
+            "Name": "Wild Mushroom",
+            "Descriptions": [
+                {
+                    "Hash": 4282056583,
+                    "Id": "88747",
+                    "Spec": "Balance",
+                    "Text": "Grow a magical mushroom at the target enemy's location. After {1} sec, the mushroom detonates, dealing {2} Nature damage and generating up to {3} Astral Power based on targets hit."
+                }
+            ]
+        },
+        {
+            "Hash": 506369640,
+            "Name": "Wild Slashes",
+            "Descriptions": [
+                {
+                    "Hash": 2780336954,
+                    "Id": "390864",
+                    "Spec": "Feral",
+                    "Text": "Swipe and Thrash damage is increased by {1}%."
+                }
+            ]
+        },
+        {
+            "Hash": 2222193277,
+            "Name": "Wild Synthesis",
+            "Descriptions": [
+                {
+                    "Hash": 3744193408,
+                    "Id": "400533",
+                    "Spec": "Restoration",
+                    "Text": "Regrowth decreases the cast time of your next Nourish by {1}% and causes it to receive an additional {2}% bonus from {ffffffff|Mastery: Harmony}. \n\nStacks up to {3} times."
+                }
+            ]
+        },
+        {
+            "Hash": 2413742200,
+            "Name": "Wrath",
+            "Descriptions": [
+                {
+                    "Hash": 1730144915,
+                    "Id": "5176",
+                    "Spec": "Restoration, Feral, Guardian",
+                    "Text": "Hurl a ball of energy at the target, dealing {1} Nature damage."
+                },
+                {
+                    "Hash": 3571145345,
+                    "Id": "190984",
+                    "Spec": "Balance",
+                    "Text": "Hurl a ball of energy at the target, dealing {1} Nature damage.\n\n{FFFFFFFF|Generates {2} Astral Power.}"
+                }
+            ]
+        },
+        {
+            "Hash": 3300831259,
+            "Name": "Ysera's Gift",
+            "Descriptions": [
+                {
+                    "Hash": 61102952,
+                    "Id": "145108",
+                    "Spec": "Restoration",
+                    "Text": "Heals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead."
+                }
+            ]
+        }
+    ]
+}
