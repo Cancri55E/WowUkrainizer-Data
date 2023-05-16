@@ -7,7 +7,7 @@ permissions: write-all
 
 jobs:
   download-translations-with-crowdin:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Setup .NET
@@ -41,30 +41,29 @@ jobs:
           create_pull_request: false
           push_translations: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
       - name: Run DevTools project
-        run: dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- -m "update-translation" -ds "${{ github.workspace }}/Data.db" -t "${{ github.workspace }}/uk"
-        
-      - name: Checking if changes have been made
+        id: run_update_translation_cmd
         run: |
-          git add Data.db
-          if git diff --name-only --cached | grep -q "Data.db"; then
-            echo "DATA_DB_CHANGED=true" >> $GITHUB_ENV
-          else
-            echo "DATA_DB_CHANGED=false" >> $GITHUB_ENV
-          fi
+          UPDATE_TRANSLATION_RESULT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- --m "update-translation" --ds "${{ github.workspace }}/Data.db" --t "${{ github.workspace }}/uk" 2>update-translation-log.txt)
+          echo "::set-output name=output::$UPDATE_TRANSLATION_RESULT"
 
-      - name: Commit changes
-        if: env.DATA_DB_CHANGED == 'true'
+      - name: Display update translation log
+        run: |
+          cat update-translation-log.txt
+          echo "The output of the dotnet command was ${{ steps.run_update_translation_cmd.outputs.output }}"
+
+      - name: Commit translations
+        if: steps.run_update_translation_cmd.outputs.output != '0'
         uses: EndBug/add-and-commit@v9
         with:
-            message: Update Data.db and uk/*.json with latest translations from Crowdin
-            committer_name: GitHub Actions
-            committer_email: actions@github.com
-            add: 'Data.db uk/*'
+          message: Update Data.db and uk/*.json with latest translations from Crowdin
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          add: 'Data.db uk/*'
             
       - name: Download latest approved translations from Crowdin
         uses: crowdin/github-action@v1
@@ -76,28 +75,26 @@ jobs:
           create_pull_request: false
           push_translations: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
             
       - name: Run DevTools with update-approved-translation
-        run: dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- -m "update-approved-translation" -ds "${{ github.workspace }}/Data.db" -t "${{ github.workspace }}/uk"
-          
-      - name: Checking if changes have been made
+        id: run_update_approved_translation_cmd
         run: |
-          git add Data.db
-          if git diff --name-only --cached | grep -q "Data.db"; then
-            echo "DATA_DB_CHANGED=true" >> $GITHUB_ENV
-          else
-            echo "DATA_DB_CHANGED=false" >> $GITHUB_ENV
-          fi
+          UPDATE_APPROVED_TRANSLATION_RESULT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- --m "update-approved-translation" --ds "${{ github.workspace }}/Data.db" --t "${{ github.workspace }}/uk" 2>update-approved-translation-log.txt)
+          echo "::set-output name=output::$UPDATE_APPROVED_TRANSLATION_RESULT"
 
-      - name: Commit changes
-        if: env.DATA_DB_CHANGED == 'true'
+      - name: Display update approved translation log
+        run: |
+          cat update-approved-translation-log.txt
+          echo "The output of the dotnet command was ${{ steps.run_update_approved_translation_cmd.outputs.output }}"
+
+      - name: Commit approved translations
+        if: steps.run_update_approved_translation_cmd.outputs.output != '0'
         uses: EndBug/add-and-commit@v9
         with:
-            message: Update Data.db with latest approved translations from Crowdin
-            committer_name: GitHub Actions
-            committer_email: actions@github.com
-            add: 'Data.db'
-            
+          message: Update Data.db with latest approved translations from Crowdin
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          add: 'Data.db'
