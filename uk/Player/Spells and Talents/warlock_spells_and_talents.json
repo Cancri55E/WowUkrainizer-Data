@@ -831,7 +831,7 @@
           "Hash": 3631518118,
           "Id": "387976",
           "Spec": "Destruction",
-          "Text": "Rips a hole in time and space, opening a random portal that damages your target:\n\n|T607513:24|t{ffffffff|Shadowy Tear}\nDeals {1} Shadow damage over {2} sec.\n\n|T607512:24|t{ffffffff|Unstable Tear}\nDeals {3} Chaos damage over {4} sec.\n\n|T1394890:24|t{ffffffff|Chaos Tear}\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\n\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
+          "Text": "Відкриває прогалину в часі та просторі, відкриваючи випадковий портал, який завдає шкоду цілі:\n\n|T607513:24|t{ffffffff|Розрив темряви}\nЗавдає {1} шкоди від темної магії протягом {2} сек.\n\n|T607512:24|t{ffffffff|Нестабільний розрив}\nЗавдає {3} шкоди від хаосу протягом {4} сек.\n\n|T1394890:24|t{ffffffff|Розрив хаосу}\nВипускає [Стріла Хаосу], яка завдає {5} шкоди від хаосу. Ця [Стріла Хаосу] завжди завдає критичну шкоду, а ваша ймовірінсть критичного удару збільшує її шкоду.\n\n{FFFFFFFF|Генерує {6} фрагментів уламку душі.}"
         }
       ]
     },
@@ -843,7 +843,7 @@
           "Hash": 168566235,
           "Id": "603",
           "Spec": "Demonology",
-          "Text": "Inflicts impending doom upon the target, causing {1} Shadow damage after {2} sec.\n\n{FFFFFFFF|Doom damage generates {3} Soul Shard.}"
+          "Text": "Накладає згубне прокляття на ціль, яке завдає {1} шкоди від темної магії через {2} сек.\n\n{FFFFFFFF|Шкода від [Згуба] генерує {3} уламок душі.}"
         }
       ]
     },
@@ -855,7 +855,7 @@
           "Hash": 255937605,
           "Id": "389764",
           "Spec": "Affliction",
-          "Text": "If Corruption damages a target affected by your Unstable Affliction, it has a {1}% chance per stack of Malefic Affliction to deal {2} Shadow damage to nearby enemies."
+          "Text": "Якщо [Порча] вражає ціль з ефектом [Нестабільне прокляття], з ймовірністю {1}% за кожен ефект [Нестабільне прокляття], вона завдає {2} шкоди від темної магії ворогам поряд."
         }
       ]
     },
@@ -867,7 +867,7 @@
           "Hash": 1167953575,
           "Id": "234153",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done."
+          "Text": "Витягає з цілі життєву силу, завдаючи {1} шкоди від темної магії протягом {2} сек, та зцілюючи вас на {3}% від об'єму завданої шкоди."
         }
       ]
     },
@@ -879,7 +879,7 @@
           "Hash": 2153859387,
           "Id": "198590",
           "Spec": "Affliction",
-          "Text": "Drains the target's soul, causing {1} Shadow damage over {2} sec.\n\nDamage is increased by {3}% against enemies below {4}% health.\n\n{FFFFFFFF|Generates {5} Soul Shard if the target dies during this effect.}"
+          "Text": "Витягає душу з цілі, завдаючи {1} шкоди від темної магії протягом {2} сек.\n\nШкода збільшується на {3}% проти цілей з рівнем здоров'я нижче {4}%.\n\n{FFFFFFFF|Якщо ціль помирає під дією цього ефекту, генерує {5} {declension|уламок душі|уламки душі|уламків душі}.}"
         }
       ]
     },
@@ -891,7 +891,7 @@
           "Hash": 3959608896,
           "Id": "387391",
           "Spec": "Demonology",
-          "Text": "Each Soul Shard spent on Hand of Gul'dan increases the damage of your next Call Dreadstalkers by {1}%."
+          "Text": "Коли ви витрачаєте уламок душі на [Рука Гул'дана], шкода від вашого наступного [Виклик Ловчих Жаху] збільшується на {1}%."
         }
       ]
     },
@@ -903,7 +903,7 @@
           "Hash": 4250652863,
           "Id": "389775",
           "Spec": "Affliction",
-          "Text": "If Malefic Affliction exceeds {1} stacks, the target instead takes {2}% additional damage from your damage over time effects for {3} sec."
+          "Text": "Коли [Лихий недуг] накопичується до {1} разів, ціль замість цього отримує {2}% додаткової шкоди від періодичних ефектів протягом {3} сек."
         }
       ]
     },
