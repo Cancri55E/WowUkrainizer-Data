@@ -279,7 +279,7 @@
     },
     {
       "Hash": 3269154321,
-      "Name": "Виклик Мисливця Скверни",
+      "Name": "Мобілізація Мисливця Скверни",
       "Descriptions": [
         {
           "Hash": 3520593429,
@@ -309,7 +309,7 @@
           "Hash": 1720344248,
           "Id": "386194",
           "Spec": "Demonology",
-          "Text": "Атаки ваших Ловчих Жаху мають {1}% шанс на спрацювання додаткового [Укус Жаху]."
+          "Text": "Атаки ваших [Ловчі Жаху] мають {1}% шанс на спрацювання додаткового [Укус Жаху]."
         }
       ]
     },
@@ -321,7 +321,7 @@
           "Hash": 3686328777,
           "Id": "221703",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Викликає [Коло Застосувань] на {1} сек. Поки ви в зоні дії кола застосувань, ви маєте імунітет до німоти та ефектів що переривають. "
+          "Text": "Викликає [Коло Застосувань] на {1} сек. Знаходячись в зоні дії кола, ви маєте імунітет до ефектів знемовлення та переривання. "
         }
       ]
     },
@@ -333,7 +333,7 @@
           "Hash": 1575158382,
           "Id": "152108",
           "Spec": "Destruction",
-          "Text": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Immolate."
+          "Text": "Створює катаклізм в цільовій області, завдаючи {1} шкоди від полум'я темряви усім ворогам в радіусі {2} м і застосовуючи на них [Жертовний вогонь]."
         }
       ]
     },
@@ -345,7 +345,7 @@
           "Hash": 570811739,
           "Id": "196447",
           "Spec": "Destruction",
-          "Text": "Launches {1} bolts of felfire over {2} sec at random targets afflicted by your Immolate within {3} yds. Each bolt deals {4} Fire damage to the target and {5} Fire damage to nearby enemies."
+          "Text": "Запускає {1} {declension|стрілу|стріли|стріл} полум'я Скверни протягом {2} сек у випадкові цілі в радіусі {3} м з ефектом [Жертовний вогонь]. Кожна стріла завдає {4} шкоди від вогню цілі та {5} шкоди від вогню ворогам поряд."
         }
       ]
     },
@@ -357,7 +357,7 @@
           "Hash": 2382836120,
           "Id": "116858",
           "Spec": "Destruction",
-          "Text": "Unleashes a devastating blast of chaos, dealing a critical strike for {1} Chaos damage. Damage is further increased by your critical strike chance."
+          "Text": "Руйнівний вибух хаосу, який завдає {1} критичної шкоди від магії хаосу. Ймовірність критичного удару додатково збільшує шкоду."
         }
       ]
     },
@@ -369,7 +369,7 @@
           "Hash": 2824768955,
           "Id": "387275",
           "Spec": "Destruction",
-          "Text": "Chaos Bolt, Rain of Fire, and Shadowburn always gains maximum benefit from your Mastery: Chaotic Energies."
+          "Text": "[Стріла Хаосу], [Вогняна злива] та [Тіньовий опік] завжди отримують максимальний ефект [Майстерність: Хаотичні енергії]."
         }
       ]
     },
@@ -381,13 +381,13 @@
           "Hash": 1922453891,
           "Id": "119898",
           "Spec": "Demonology",
-          "Text": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \n\nFelguard: {ffffffff|Axe Toss}\nFelhunter: {ffffffff|Spell Lock}\nVoidwalker: {ffffffff|Shadow Bulwark}\nIncubus/Succubus: {ffffffff|Seduction}\nImp: {ffffffff|Singe Magic}"
+          "Text": "Ви наказуєте вашому демону застосувати його найпотужнішу здібність. Здібність залежить від вашого активного демона.\n\nВартовий Скверни: {ffffffff|Кидок сокири}\nМисливець Скверни: {ffffffff|Заборона чар}\nДемон порожнечі: {ffffffff|Захист тіней}\nІнкуб/Суккуб: {ffffffff|Спокуса}\nБіс: {ffffffff|Магія знищення}"
         },
         {
           "Hash": 1132413298,
           "Id": "119898",
           "Spec": "Destruction, Affliction",
-          "Text": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \n\nFelhunter: {ffffffff|Spell Lock}\nVoidwalker: {ffffffff|Shadow Bulwark}\nIncubus/Succubus: {ffffffff|Seduction}\nImp: {ffffffff|Singe Magic}"
+          "Text": "Ви наказуєте вашому демону застосувати його найпотужнішу здібність. Здібність залежить від вашого активного демона.\n\nМисливець Скверни: {ffffffff|Заборона чар}\nДемон порожнечі: {ffffffff|Захист тіней}\nІнкуб/Суккуб: {ffffffff|Спокуса}\nБіс: {ffffffff|Магія знищення}"
         }
       ]
     },
@@ -399,7 +399,7 @@
           "Hash": 1654613085,
           "Id": "17962",
           "Spec": "Destruction",
-          "Text": "Triggers an explosion on the target, dealing {1} Fire damage.\n\nReduces the cast time of your next Incinerate or Chaos Bolt by {2}% for {3} sec.\n\n{FFFFFFFF|Generates {4} Soul Shard Fragments.}"
+          "Text": "Викликає вибух поряд з ціллю, який завдає {1} шкоди від вогню.\n\nЗменшує час застосування вашого наступного [Спалення] або [Стріла Хаосу] на {2}% протягом {3} сек.\n\n{FFFFFFFF|Генерує {4} фрагменти уламку душі.}"
         }
       ]
     },
