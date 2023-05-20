@@ -507,7 +507,7 @@
           "Hash": 3159023290,
           "Id": "334275",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Зменшує швидкість пересування цілі на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль може діяти лише одне прокляття.}"
+          "Text": "Зменшує швидкість пересування цілі на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
         }
       ]
     },
@@ -519,7 +519,7 @@
           "Hash": 3724598343,
           "Id": "1714",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Forces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
+          "Text": "Змушує ціль говорити мовою демонів, збільшуючи її час застосування усіх здібностей на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
         }
       ]
     },
@@ -531,7 +531,7 @@
           "Hash": 2542418524,
           "Id": "702",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Increases the time between an enemy's attacks by {1}% for {2} min.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
+          "Text": "Збільшує інтервал між атаками ворога на {1}% протягом {2} хв.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
         }
       ]
     },
@@ -543,7 +543,7 @@
           "Hash": 295858089,
           "Id": "386105",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Grants access to the following abilities:\n\n|T136140:24|t{ffffffff|Curse of Tongues}:\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\n\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\nReduces the target's movement speed by {3}% for {4} sec.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
+          "Text": "Відкриває доступ до наступних здібностей:\n\n|T136140:24|t{ffffffff|Язичницьке прокляття}:\nЗмушує ціль говорити мовою демонів, збільшуючи її час застосування усіх здібностей на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}\n\n|T136162:24|t{ffffffff|Прокляття виснаження}:\nЗменшує швидкість пересування цілі на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
         }
       ]
     },
@@ -567,7 +567,7 @@
           "Hash": 3355831603,
           "Id": "387016",
           "Spec": "Affliction",
-          "Text": "Each target affected by Soul Rot increases your haste and critical strike chance by {1}% for {2} sec."
+          "Text": "Ваша швидкість і критичний удар збільшуються на {1}% протягом {2} сек за кожну ціль з ефектом [Гниття душі]."
         }
       ]
     },
@@ -579,7 +579,7 @@
           "Hash": 2949090936,
           "Id": "108416",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Sacrifices {1}% of your current health to shield you for {2}% of the sacrificed health plus an additional {3} for {4} sec. Usable while suffering from control impairing effects."
+          "Text": "Ви жертвуєте {1}% від вашого поточного здоров'я та отримуєте щит на {4} сек, який поглинає {2}% від об'єму пожертвуваного здоров'я та додатково {3}. Можна застосовувати під дією ефектів контролю."
         }
       ]
     },
@@ -591,7 +591,7 @@
           "Hash": 3335008756,
           "Id": "405327",
           "Spec": "Affliction",
-          "Text": "Shadow Bolt and Drain Soul deal an additional {1}% damage."
+          "Text": "[Тіньова стріла] та [Викрадення душі] завдають додатково {1}% шкоди."
         }
       ]
     },
@@ -603,7 +603,7 @@
           "Hash": 2190193273,
           "Id": "264874",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Reduces the cooldown of Shadowfury by {1} sec and increases its radius by {2} yards."
+          "Text": "Час відновлення [Лють тіні] зменшується на {1} сек, а її радіус збільшується на {2} м."
         }
       ]
     },
@@ -615,7 +615,7 @@
           "Hash": 3203040051,
           "Id": "264106",
           "Spec": "Affliction",
-          "Text": "Launches a bolt of death at the target, accumulating {1}% of the remaining damage from your spells on the target and dealing it over {2} sec.\n\nCounts up to {3} sec of your Corruption's damage."
+          "Text": "Випускає в ціль стрілу смерті, яка накопичує {1}% залишкової шкоди ваших періодичних ефектів на цілі та завдає цілі накопичену шкоду протягом {2} сек.\n\nНакопичує до {3} сек шкоди вашої [Порча]."
         }
       ]
     },
@@ -627,7 +627,7 @@
           "Hash": 1953873504,
           "Id": "387176",
           "Spec": "Destruction",
-          "Text": "Your Incinerate and Conflagrate casts on targets that have {1}% or less health reduce the cooldown of Soulfire by {2} sec."
+          "Text": "Ваші [Спалення] та [Займання], що застосовані до цілей з рівнем здоров'я нижче {1}%, зменшують час відновлення [Опік душі] на {2} сек."
         }
       ]
     },
@@ -639,7 +639,7 @@
           "Hash": 4274331232,
           "Id": "219272",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Your Soul Leech absorption now passively recharges at a rate of {1}% of maximum health every {2} sec, and may now absorb up to {3}% of maximum health."
+          "Text": "Щит від [Поглинання душі] пасивно відновлює свою міцність на {1}% від максимального запасу здоров'я кожні {2} сек і може поглинути шкоду в об'ємі до {3}% від максимального здоров'я."
         }
       ]
     },
@@ -651,7 +651,7 @@
           "Hash": 287370846,
           "Id": "264178",
           "Spec": "Demonology",
-          "Text": "Send the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\n\n{FFFFFFFF|Generates {2} Soul Shards.}"
+          "Text": "Випускає в ціль вогняну душу полеглого демона, що завдає {1} шкоди від темного полум'я. \n\n{FFFFFFFF|Генерує {2} уламки душ.}"
         }
       ]
     },
@@ -663,7 +663,7 @@
           "Hash": 2474358146,
           "Id": "205145",
           "Spec": "Demonology",
-          "Text": "Shadow Bolt and Demonbolt have a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul Shards and have no cast time."
+          "Text": "[Тіньова стріла] і [Демонічна стріла] з ймовірністю {1}% дозволить застосувати наступний [Виклик Ловчих Жаху] миттєво та витратити менше на {2} уламки душ."
         }
       ]
     },
@@ -675,13 +675,13 @@
           "Hash": 441601165,
           "Id": "48018",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Summons a Demonic Circle for {1} min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects."
+          "Text": "Створює демонічне коло на {1} хв. При застосуванні [Демонічне коло: Телепорт] ви телепортуєтесь до кола та знімаєте з себе усі ефекти сповільнення."
         },
         {
           "Hash": 125819202,
           "Id": "268358",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Summons a Demonic Circle for {1} min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\n\nYou also learn:\n\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\nTeleports you to your Demonic Circle and removes all movement slowing effects."
+          "Text": "Створює демонічне коло на {1} хв. При застосуванні [Демонічне коло: Телепорт] ви телепортуєтесь до кола та знімаєте з себе усі ефекти сповільнення.\n\nВи також вивчаєте:\n|T237560:24|t {ffffffff|Демонічне коло: Телепорт}\nТелепортує вас до [Демонічне коло] та знімає з вас усі ефекти сповільнення."
         }
       ]
     },
@@ -693,7 +693,7 @@
           "Hash": 3736168018,
           "Id": "48020",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Teleports you to your Demonic Circle and removes all movement slowing effects."
+          "Text": "Телепортує вас до [Демонічне коло] та знімає з вас усі ефекти сповільнення."
         }
       ]
     },
@@ -2247,7 +2247,7 @@
     },
     {
       "Hash": 1399750015,
-      "Name": "Тіньове полум'я",
+      "Name": "Темне полум'я",
       "Descriptions": [
         {
           "Hash": 1673190433,
@@ -2259,7 +2259,7 @@
     },
     {
       "Hash": 3721926209,
-      "Name": "Тіньова Лють",
+      "Name": "Лють тіні",
       "Descriptions": [
         {
           "Hash": 2123125408,
