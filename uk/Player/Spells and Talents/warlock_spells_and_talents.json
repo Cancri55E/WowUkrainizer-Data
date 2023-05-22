@@ -471,7 +471,7 @@
           "Hash": 3675373598,
           "Id": "264000",
           "Spec": "Affliction",
-          "Text": "Ваші [Агонія], [Порча], [Висушення душі] та [Нестабільне прокляття] завдають шкоду на {1}% швидше."
+          "Text": "Ваші [Агонія], [Порча], [Висушення душі] та [Нестабільне страждання] завдають шкоду на {1}% швидше."
         }
       ]
     },
@@ -855,7 +855,7 @@
           "Hash": 255937605,
           "Id": "389764",
           "Spec": "Affliction",
-          "Text": "Якщо [Порча] вражає ціль з ефектом [Нестабільне прокляття], з ймовірністю {1}% за кожен ефект [Нестабільне прокляття], вона завдає {2} шкоди від темної магії ворогам поряд."
+          "Text": "Якщо [Порча] вражає ціль з ефектом [Нестабільне страждання], з ймовірністю {1}% за кожен ефект [Нестабільне страждання], вона завдає {2} шкоди від темної магії ворогам поряд."
         }
       ]
     },
@@ -1599,7 +1599,7 @@
           "Hash": 246620203,
           "Id": "387400",
           "Spec": "Destruction",
-          "Text": "Chaos Bolt increases the damage of Chaos Bolt by {1}% and reduces the cast time of Chaos Bolt by {2}% for {3} sec.\n\nRain of Fire increases the damage of Rain of Fire by {4}% for {5} sec.\n\nShadowburn increases the damage of Shadowburn by {6}% for {7} sec."
+          "Text": "[Стріла Хаосу] збільшує шкоду від [Стріла Хаосу] на {1}% та зменшує її час застосування на {2}% протягом {3} сек.\n\n[Вогняна злива] збільшує шкоду від [Вогняна злива] на {4}% протягом {5} сек.\n\n[Тіньовий опік] збільшує шкоду від [Тіньовий опік] на {6} протягом {7} сек."
         }
       ]
     },
@@ -1611,7 +1611,7 @@
           "Hash": 1712700334,
           "Id": "389761",
           "Spec": "Affliction",
-          "Text": "Malefic Rapture causes your active Unstable Affliction to deal {1}% additional damage, up to {2}%, for the rest of its duration."
+          "Text": "[Лихе піднесення] збільшує шкоду від вашого активного [Нестабільне страждання] на {1}% до кінця його дії, максимум до {2}%."
         }
       ]
     },
@@ -1623,7 +1623,7 @@
           "Hash": 655417476,
           "Id": "324536",
           "Spec": "Affliction",
-          "Text": "Your damaging periodic effects erupt on all targets, causing {1} Shadow damage per effect."
+          "Text": "Ваші ефекти періодичної шкоди на всіх цілях вибухають, завдаючи {1} шкоди від темного полум'я за кожен ефект."
         }
       ]
     },
@@ -1635,7 +1635,7 @@
           "Hash": 3376471199,
           "Id": "387273",
           "Spec": "Affliction",
-          "Text": "Darkglare increases its damage by an additional {1}% for each damage over time effect active. Darkglare lasts an additional {2} sec."
+          "Text": "[Споглядач темряви] завдає на {1}% більше шкоди за кожен активний ефект періодичної шкоди. [Споглядач темряви] існує на {2} сек довше."
         }
       ]
     },
@@ -1647,7 +1647,7 @@
           "Hash": 1008735913,
           "Id": "387165",
           "Spec": "Destruction",
-          "Text": "Ritual of Ruin requires {1} less Soul Shards spent."
+          "Text": "[Ритуал руйнування] витрачає на {1} {declension|уламок|уламки|уламків} душі менше."
         }
       ]
     },
@@ -1659,7 +1659,7 @@
           "Hash": 480216489,
           "Id": "212628",
           "Spec": "Demonology",
-          "Text": "Your Call Dreadstalkers is now instant cast."
+          "Text": "[Виклик Ловчих Жаху] тепер застосовується миттєво."
         }
       ]
     },
@@ -1671,7 +1671,7 @@
           "Hash": 219625567,
           "Id": "77220",
           "Spec": "Destruction",
-          "Text": "Your spells deal {1}% increased damage, plus a random amount of up to {2}% additional increased damage."
+          "Text": "Ваші здібності завдають на {1}% більше шкоди, а також отримують випадковий бонус до шкоди в об'ємі до {2}%."
         }
       ]
     },
@@ -1683,7 +1683,7 @@
           "Hash": 3288826252,
           "Id": "77219",
           "Spec": "Demonology",
-          "Text": "Increases the damage done by your demons by {1}%."
+          "Text": "Збільшує шкоду ваших демонів на {1}%."
         }
       ]
     },
@@ -1695,7 +1695,7 @@
           "Hash": 3900364928,
           "Id": "77215",
           "Spec": "Affliction",
-          "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%."
+          "Text": "Збільшує шкоду ваших [Лихе піднесення], [Агонія], [Порча], [Примарна сингулярність], [Нестабільне страждання] та [Насіння порчі] на {1}%."
         }
       ]
     },
@@ -1707,7 +1707,7 @@
           "Hash": 1317938299,
           "Id": "387506",
           "Spec": "Destruction",
-          "Text": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\n\n|T460695:24|t {ffffffff|Havoc}\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt."
+          "Text": "Ваші одно цільові здібності мають {1}% шанс застосувати [Хаос] на ворога поряд на {2} сек.\n\n|T460695:24|t {ffffffff|Хаос}\nПозначає ціль міткою Хаосу на {3} сек, внаслідок чого, усі ваші одно цільові закляття також вражають ціль з міткою на {4}% від їх шкоди."
         }
       ]
     },
