@@ -1155,7 +1155,7 @@
           "Hash": 3542594943,
           "Id": "386686",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Зменшує час відновлення [Темний пакт] на {1} сек."
+          "Text": "Зменшує час відновлення [Темна угода] на {1} сек."
         }
       ]
     },
@@ -1335,7 +1335,7 @@
           "Hash": 2752749756,
           "Id": "80240",
           "Spec": "Destruction",
-          "Text": "Marks a target with Havoc for {1} sec, causing your single target spells to also strike the Havoc victim for {2}% of the damage dealt."
+          "Text": "Позначає ціль міткою Хаосу на {1} сек, внаслідок чого, усі ваші одноцільові закляття також вражають ціль з міткою на {2}% від їх шкоди."
         }
       ]
     },
@@ -1347,7 +1347,7 @@
           "Hash": 3705695246,
           "Id": "755",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Sacrifices {1}% of your maximum health to heal your summoned Demon for twice as much over {2} sec."
+          "Text": "Ви жертвуєте {1}% свого максимального здоров'я впродовж {2} сек, щоб зцілити вашого викликаного демона на вдвічі більший об'єм здоров'я."
         }
       ]
     },
@@ -1359,7 +1359,7 @@
           "Hash": 283132590,
           "Id": "56244",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Ваш \"Страх\""
+          "Text": "Ваш [Страх] змушує ворогів тремтіти на місці замість того, щоб тікати в страху."
         }
       ]
     },
@@ -1371,7 +1371,7 @@
           "Hash": 3898272633,
           "Id": "5484",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Let loose a terrifying howl, causing {1} enemies within {2} yds to flee in fear, disorienting them for {3} sec. Damage may cancel the effect."
+          "Text": "Ви видаєте жахливе виття, що змушує {1} ворогів в радіусі {2} м тікати в страху, дезорієнтуючи їх на {3} сек. Шкода знімає цей ефект."
         }
       ]
     },
@@ -1383,7 +1383,7 @@
           "Hash": 112829595,
           "Id": "386664",
           "Spec": "Destruction, Affliction, Demonology",
-          "Text": "Темний договір жертвує лише {0}% від вашого здоров'я на даний момент за для такогож обсягу щита "
+          "Text": "[Темна угода] жертвує лише {1}% вашого поточного здоров'я і дає вам щит, що поглинає таку ж кількість шкоди."
         }
       ]
     },
@@ -1395,7 +1395,7 @@
           "Hash": 562437195,
           "Id": "348",
           "Spec": "Destruction",
-          "Text": "Burns the enemy, causing {1} Fire damage immediately and an additional {2} Fire damage over {3} sec.\n\n{FFFFFFFF|Periodic damage generates {4} Soul Shard Fragment and has a {5}% chance to generate an additional {6} on critical strikes.}"
+          "Text": "Підпалює ворога, завдаючи {1} шкоди від вогню та ще {2} шкоди від вогню протягом {3} сек.\n\n{FFFFFFFF|Періодична шкода генерує {4} фрагмент уламку душі та з шансом {5}% при критичній шкоді, ще {6}.}"
         }
       ]
     },
@@ -1407,7 +1407,7 @@
           "Hash": 4054199778,
           "Id": "405670",
           "Spec": "Demonology",
-          "Text": "When your primary Felguard's Legion Strike damages only {1} target, its damage is increased by {2}%.\n \nYour primary Felguard deals {3} Physical damage after auto-attacking the same enemy {4} consecutive times."
+          "Text": "Коли ваш основний [Вартовий Скверни] завдає [Удар Легіону], він вражає лише {1} {declension|ціль|цілі|цілей}, а його шкода збільшується на {2}%.\n\nПісля {4} автоатак по одному і тому ж ворогу, ваш основний [Вартовий Скверни] завдає {3} фізичної шкоди."
         }
       ]
     },
@@ -1419,7 +1419,7 @@
           "Hash": 2128608341,
           "Id": "387445",
           "Spec": "Demonology",
-          "Text": "Summoning a Wild Imp has a {1}% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals {2}% additional damage. \n\nWhen imploded, an Imp Gang Boss will summon a Wild Imp."
+          "Text": "Виклик [Дикий Біс] має {1}% шанс викликати замість нього [Голова банди Бісів]. [Голова банди Бісів] завдає на {2}% більше шкоди.\n\nПри застосуванні [Імплозія], ваш [Голова банди Бісів] викличе [Дикий Біс]."
         }
       ]
     },
@@ -1431,7 +1431,7 @@
           "Hash": 1224281416,
           "Id": "196277",
           "Spec": "Demonology",
-          "Text": "Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing {1} Shadowflame damage to all enemies within {2} yards."
+          "Text": "Демонічні сили притягають ваших [Дикі Біси] до цілі, після чого вони вибухають, завдаючи {1} шкоди від темного полум'я усім ворогам в радіусі {2} м."
         }
       ]
     },
@@ -1443,7 +1443,7 @@
           "Hash": 1165433231,
           "Id": "231793",
           "Spec": "Destruction",
-          "Text": "Conflagrate gains an additional charge."
+          "Text": "[Займання] отримує додатковий заряд."
         }
       ]
     },
@@ -1455,7 +1455,7 @@
           "Hash": 610975003,
           "Id": "387093",
           "Spec": "Destruction",
-          "Text": "Increases the duration of Immolate by {1} sec."
+          "Text": "Збільшує тривалість [Жертовний вогонь] на {1} сек."
         }
       ]
     },
@@ -1467,7 +1467,7 @@
           "Hash": 963524231,
           "Id": "29722",
           "Spec": "Destruction",
-          "Text": "Draws fire toward the enemy, dealing {1} Fire damage.\n\n{FFFFFFFF|Generates {2} Soul Shard Fragments and an additional {3} on critical strikes.}"
+          "Text": "Спрямовує вогонь на ворога, завдаючи {1} шкоди від вогню.\n\n{FFFFFFFF|Генерує {2} {declension|фрагмент|фрагменти|фрагментів} уламку душі, та ще {3} при критичній шкоді.}"
         }
       ]
     },
@@ -1479,7 +1479,7 @@
           "Hash": 3827411836,
           "Id": "334319",
           "Spec": "Affliction",
-          "Text": "Damaging an enemy with Agony increases the damage dealt by your next Drain Life by {1}%. This effect stacks up to {2} times."
+          "Text": "Коли [Агонія] завдає шкоду ворогу, шкода від вашого наступного [Витягування життя] збільшується на {1}%. Накопичується до {2} разів."
         }
       ]
     },
@@ -1491,7 +1491,7 @@
           "Hash": 4100030557,
           "Id": "387475",
           "Spec": "Destruction",
-          "Text": "Your Infernal's melee attacks cause its target to take {1}% increased damage from its Immolation, stacking up to {2} times."
+          "Text": "Атаки ближнього бою вашого [Інфернал], збільшують отримувану ціллю шкоду від його [Жертовний вогонь] на {1}%. Накопичується до {2} разів."
         }
       ]
     },
@@ -1503,7 +1503,7 @@
           "Hash": 2133691197,
           "Id": "387549",
           "Spec": "Demonology",
-          "Text": "While your Felguard is active, your Wild Imps and Dreadstalkers deal {1}% additional damage."
+          "Text": "Коли у вас активний [Вартовий Скверни], ваші [Дикі Біси] та [Ловчі Жаху] завдають на {1}% більше шкоди."
         }
       ]
     },
@@ -1515,7 +1515,7 @@
           "Hash": 1238488470,
           "Id": "270545",
           "Spec": "Destruction",
-          "Text": "Rain of Fire damage is increased by {1}% and has a {2}% chance to generate a Soul Shard Fragment."
+          "Text": "Шкода від [Вогняна злива] збільшується на {1}% та має {2}% шанс згенерувати фрагмент уламку душі."
         }
       ]
     },
