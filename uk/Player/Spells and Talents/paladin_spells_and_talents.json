@@ -429,7 +429,7 @@
           "Hash": 2815407266,
           "Id": "6940",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Blesses a party or raid member, reducing their damage taken by {1}%, but you suffer {2}% of damage prevented.\n\nLast {3} sec, or until transferred damage would cause you to fall below {4}% health."
+          "Text": "Ви благословляєте учасника групи чи рейду, що зменшує отриману ним шкоду на {1}%, але ви отримуєте {2}% від шкоди, якій ви запобігли.\n\nТриває {3} сек, або поки перенесена шкода не призведе до падіння вашого здоров'я нижче {4}%."
         }
       ]
     },
@@ -441,7 +441,7 @@
           "Hash": 2886307673,
           "Id": "210256",
           "Spec": "Retribution",
-          "Text": "Instantly removes all stun, silence, fear and horror effects from the friendly target and reduces the duration of future such effects by {1}% for {2} sec."
+          "Text": "Миттєво знімає всі ефекти приголомшення, знемовлення, страху та жаху з дружньої цілі та зменшує майбутню тривалість цих ефектів на {1}% на {2} сек."
         }
       ]
     },
@@ -453,7 +453,7 @@
           "Hash": 2182251693,
           "Id": "204018",
           "Spec": "Protection",
-          "Text": "Blesses a party or raid member, granting immunity to magical damage and harmful effects for {1} sec.\n\nCannot be used on a target with Forbearance. Causes Forbearance for {2} sec.\n\nShares a cooldown with Blessing of Protection."
+          "Text": "Ви благословляєте учасника групи чи рейду, надаючи імунітет до магічної шкоди та шкідливих ефектів на {1} с.\n\nНе можна використовувати на цілі, що вже має ефект [Терпіння]. Викликає ефект [Терпіння] на {2} с.\n\nЧас відновлення ділиться з [Благословення захисту]."
         }
       ]
     },
@@ -477,7 +477,7 @@
           "Hash": 3667366649,
           "Id": "115750",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Emits dazzling light in all directions, blinding enemies within {1} yds, causing them to wander disoriented for {2} sec. Non-Holy damage will break the disorient effect."
+          "Text": "Випромінює сліпуче світло в усіх напрямках, що засліплює ворогів у радіусі {1} м, та змушує їх блукати дезорієнтованими протягом {2} сек. Шкода не від Сил Світла порушує ефект дезорієнтації."
         }
       ]
     },
@@ -621,7 +621,7 @@
           "Hash": 11260565,
           "Id": "317920",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Interrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. "
+          "Text": "Ефекти переривання та знемовлення для учасників групи та рейду в межах {1} м коротші на {2}%. "
         }
       ]
     },
@@ -633,7 +633,7 @@
           "Hash": 3214186424,
           "Id": "404834",
           "Spec": "Retribution",
-          "Text": "Blade of Justice casts Consecration at the target's location.\n\nThis effect can only occur every {1} sec."
+          "Text": "[Лезо Правосуддя] застосовує [Освячення] у місці знаходження цілі.\n\nЦей ефект може спрацьовувати лише кожні {1} сек."
         }
       ]
     },
@@ -645,7 +645,7 @@
           "Hash": 1709515178,
           "Id": "204054",
           "Spec": "Protection, Retribution",
-          "Text": "Your Consecration is {1}% larger, and enemies within it have {2}% reduced movement speed.\n\nYour Divine Hammer is {3}% larger, and enemies within them have {4}% reduced movement speed."
+          "Text": "Зона дії [Освячення] на {1}% більше, а швидкість пересування ворогів у ній зменшена на {2}%.\n\nЗона дії [Святий молот] на {3}% більше, а швидкість пересування ворогів у ній зменшена на {4}%."
         }
       ]
     },
@@ -657,13 +657,13 @@
           "Hash": 1100268522,
           "Id": "26573",
           "Spec": "Holy",
-          "Text": "Consecrates the land beneath you, causing {1} Holy damage over {2} sec to enemies who enter the area. Limit {3}."
+          "Text": "Освячує землю під собою, що завдає ворогам, які заходять в зону дії, {1} шкоди від Сил Світла протягом {2} сек. Ліміт {3}."
         },
         {
           "Hash": 2666902927,
           "Id": "26573",
           "Spec": "Protection",
-          "Text": "Consecrates the land beneath you, causing {1} Holy damage over {2} sec to enemies who enter the area and reducing their movement speed by {3}%. Limit {4}."
+          "Text": "Освячує землю під вами, що завдає {1} шкоди від Сили Світла протягом {2} сек ворогам, які заходять у зону дії, і знижує їх швидкість пересування на {3}%. Ліміт {4}."
         }
       ]
     },
@@ -675,7 +675,7 @@
           "Hash": 636268294,
           "Id": "379022",
           "Spec": "Protection",
-          "Text": "Consecration lasts {1} sec longer and its damage is increased by {2}%."
+          "Text": "[Освячення] триває на {1} сек довше, а його шкода збільшується на {2}%."
         }
       ]
     },
@@ -687,7 +687,7 @@
           "Hash": 2489321832,
           "Id": null,
           "Spec": "Retribution",
-          "Text": "Allows you a moment of peace as you kneel in quiet contemplation to ponder the nature of the Light."
+          "Text": "Дозволяє вам хвилину спокою, коли ви стаєте на коліна в тихому спогляданні, щоб розмірковувати про природу Світла."
         }
       ]
     },
@@ -699,7 +699,7 @@
           "Hash": 1534895337,
           "Id": "231895",
           "Spec": "Retribution",
-          "Text": "Call upon the Light and begin a crusade, increasing your haste by {1}% for {2} sec.\n\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\n\nMaximum {4} stacks.\n\nIf {ffffffff|Avenging Wrath} is known, also grants {5}% damage per stack.\n"
+          "Text": "Ви звертаєтеся до Світла та розпочинаєте хрестовий похід, що підвищує вашу швидкість на {1}% на {2} сек.\n\nКожна Сила Світла, витрачена під час [Хрестовий похід], збільшує швидкість на додаткові {3}%.\n\nНакопичується до {4} разів.\n\nЯкщо відомий {ffffffff|Гнів Помсти}, також надає {5}% шкоди за одне накопичення."
         }
       ]
     },
@@ -711,7 +711,7 @@
           "Hash": 906243186,
           "Id": "32223",
           "Spec": "Protection, Retribution",
-          "Text": "Increases mounted speed by {1}% for all party and raid members within {2} yds."
+          "Text": "Збільшує швидкість руху на {1}% для всіх учасників групи та рейду в межах {2} м."
         }
       ]
     },
@@ -723,7 +723,7 @@
           "Hash": 608561136,
           "Id": "35395",
           "Spec": "Retribution, Holy",
-          "Text": "Strike the target for {1} Physical damage.\n\n|cFFFFFFFFGenerates {2} Holy Power."
+          "Text": "Вдаряє ціль, завдавши {1} фізичної шкоди.\n\n|cFFFFFFFFУтворює {2} Сили Світла."
         }
       ]
     },
@@ -735,7 +735,7 @@
           "Hash": 1115611882,
           "Id": "204023",
           "Spec": "Protection",
-          "Text": "Judgment now has {1} charges, and Grand Crusader now also reduces the cooldown of Judgment by {2} sec."
+          "Text": "[Правосуддя] тепер має {1} {declension|заряд|заряди|зарядів}, а [Великий хрестоносець] тепер також скорочує час відновлення [Правосуддя] на {2} сек."
         }
       ]
     },
@@ -759,13 +759,13 @@
           "Hash": 762543084,
           "Id": "403042",
           "Spec": "Retribution, Holy",
-          "Text": "Increases the range of your Crusader Strike, Rebuke and auto-attacks by {1} yds. Using Crusader Strike heals you for {2}% of your maximum health."
+          "Text": "Збільшує дальність [Удар хрестоносця], [Докір] та автоматичних атак на {1} м. Використання [Удар хрестоносця] зцілює вас на {2}% від вашого максимального запасу здоров’я."
         },
         {
           "Hash": 2548471960,
           "Id": "403042",
           "Spec": "Protection",
-          "Text": "Increases the range of your Crusader Strike, Rebuke and auto-attacks by {1} yds. Using Blessed Hammer heals you for {2}% of your maximum health."
+          "Text": "Збільшує дальність [Удар хрестоносця], [Докір] та автоматичних атак на {1} м. Використання [Священний Молот] зцілює вас на {2}% від вашого максимального запасу здоров’я."
         }
       ]
     },
@@ -777,7 +777,7 @@
           "Hash": 3894924250,
           "Id": "380188",
           "Spec": "Protection",
-          "Text": "Enemies hit by Avenger's Shield deal {1}% reduced damage to you for {2} sec. Multiple applications may overlap, up to a maximum of {3}."
+          "Text": "Вороги, уражені [Щит месника], завдають вам {1}% менше шкоди на {2} сек. Ефект сумується до {3} разів."
         }
       ]
     },
@@ -789,7 +789,7 @@
           "Hash": 3679342192,
           "Id": "404542",
           "Spec": "Retribution",
-          "Text": "Crusader Strike replaces your auto-attacks and deals {1} Physical damage, but now only generates {2} Holy Power every {3} attacks.\n\nInherits Crusader Strike benefits but cannot benefit from Windfury."
+          "Text": "[Удар хрестоносця] замінює ваші автоматичні атаки та завдає {1} фізичної шкоди, але тепер генерує лише {2} {declension|одиницю Сил Світла|Сили Світла|Сил Світла} за кожні {3} {declension|атаку|атаки|атак}.\n\nУспадковує переваги [Удар хрестоносця], але не має переваг від [Шаленство вітру]."
         }
       ]
     },
@@ -801,7 +801,7 @@
           "Hash": 3081121560,
           "Id": "210378",
           "Spec": "Holy",
-          "Text": "Every {1} sec the healing done by your next Light of Dawn is increased by {2}%. Stacks up to {3} times."
+          "Text": "{declension|Кожну|Кожні|Кожні} {1} ​​сек зцілення від вашого наступного [Світло світанку] збільшується на {2}%. Накопичується до {3} разів."
         }
       ]
     },

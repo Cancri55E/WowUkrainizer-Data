@@ -9,13 +9,13 @@
           "Hash": 1999620883,
           "Id": "383269",
           "Spec": "Unholy",
-          "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain Runic Corruption instantly, and again every {7} sec."
+          "Text": "Відрощує додаткову кінцівку, що протягом {2} сек завдає {1} тіньової шкоди ворогам поблизу. Завдає зменшеної шкоди цілям після {3}. Кожні {4} сек притягує ворога що далі {5} м від вас. Один і той самий ворог може бути притягнутий не частіше ніж раз в {6} сек.\n\nОтримайте [Рунічне псування] миттєво, та знову кожні {7} сек."
         },
         {
           "Hash": 2329133338,
           "Id": "383269",
           "Spec": "Blood",
-          "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain {7} Bone Shield charges instantly, and again every {8} sec."
+          "Text": "Відрощує додаткову кінцівку, що протягом {2} сек завдає {1} тіньової шкоди ворогам поблизу. Завдає зменшеної шкоди цілям після {3}. Кожні {4} сек притягує ворога що далі {5} м від вас. Один і той самий ворог може бути притягнутий не частіше ніж раз в {6} сек.\n\nОтримайте {7} зарядів [Кістяний щит] миттєво, та знову кожні {8} сек."
         },
         {
           "Hash": 634215081,
@@ -105,7 +105,7 @@
           "Hash": 3410231503,
           "Id": "275699",
           "Spec": "Unholy",
-          "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\n\nSummons an Army of the Dead ghoul for {3} sec for each burst Festering Wound.\n\n{FFFFFFFF|Generates {4} Runes.}"
+          "Text": "Накликає загибель на ворога, завдаючи {1} од. шкоди від темної магії та вибухаючи до {2} Гнійних ран на цілі.\n\nВикликає вурдалака з Армії мертвих на {3} сек за кожен заряд Гнійних ран.\n\n{FFFFFFFF|Генерує {4} {declension|руну|руни|руни}.}"
         }
       ]
     },
@@ -213,7 +213,7 @@
           "Hash": 4085257512,
           "Id": "50842",
           "Spec": "Blood",
-          "Text": "Deals {1} Shadow damage and infects all enemies within {2} yds with Blood Plague.\n\n|Tinterface\\icons\\spell_deathknight_bloodplague.blp:24|t {FFFFFFFF|Blood Plague}\nA shadowy disease that drains {3} health from the target over {4} sec.  "
+          "Text": "Завдає {1} од. шкоди від темної магії та заражає всіх ворогів в радіусі {2} м [Кривавою чумою].\n\n|Tinterface\\icons\\spell_deathknight_bloodplague.blp:24|t {FFFFFFFF|Кривава чума}\nТемна хвороба, яка висмоктує {3} здоров'я з цілі протягом {4} сек.  "
         }
       ]
     },
@@ -237,7 +237,7 @@
           "Hash": 3010696517,
           "Id": "391386",
           "Spec": "Blood",
-          "Text": "Anti-Magic Shell heals you for {1}% of the damage it absorbs."
+          "Text": "[Антимагічний панцир] зцілює вас на {1}% від розміру шкоди, яку він поглинає."
         }
       ]
     },
@@ -249,7 +249,7 @@
           "Hash": 1885093742,
           "Id": "356456",
           "Spec": "Blood",
-          "Text": "Heart Strike deals {1}% increased damage, but also costs {2}% of your max health."
+          "Text": "[Удар серця] завдає на {1}% більше шкоди, але також коштує {2}% від вашого макс. здоров'я."
         }
       ]
     },
@@ -261,7 +261,7 @@
           "Hash": 2367237183,
           "Id": "374721",
           "Spec": "Blood",
-          "Text": "Stamina increased by {1}%."
+          "Text": "Витривалість збільшується на {1}%."
         }
       ]
     },
@@ -279,13 +279,13 @@
     },
     {
       "Hash": 718170792,
-      "Name": "Blood Tap",
+      "Name": "Витягування крові",
       "Descriptions": [
         {
           "Hash": 185524347,
           "Id": "221699",
           "Spec": "Blood",
-          "Text": "Consume the essence around you to generate {1} Rune.\n\nRecharge time reduced by {2} sec whenever a Bone Shield charge is consumed."
+          "Text": "Ви споживаєте сутність навколо вас, щоб згенерувати {1} {declension|руну|руни|рун}.\n\nЧас відновлення зменшується на {2} сек кожного разу, коли витрачається заряд [Кістяний щит]."
         }
       ]
     },
@@ -297,7 +297,7 @@
           "Hash": 2490830897,
           "Id": "206931",
           "Spec": "Blood",
-          "Text": "Drains {1} health from the target over {2} sec.\n\nYou can move, parry, dodge, and use defensive abilities while channeling this ability."
+          "Text": "Витягує {1} здоров'я з цілі протягом {2} сек.\n\nВи можете рухатись, парирувати, ухилятися та використовувати захисні здібності під час використання цієї здібності."
         }
       ]
     },
@@ -309,7 +309,7 @@
           "Hash": 2693457745,
           "Id": "391398",
           "Spec": "Blood",
-          "Text": "While Blood Shield is active, you deal {1}% increased Physical damage."
+          "Text": "Поки [Кривавий щит] активний, ви завдаєте на {1}% фізичної шкоди більше."
         }
       ]
     },
@@ -321,7 +321,7 @@
           "Hash": 1786973642,
           "Id": "195679",
           "Spec": "Blood",
-          "Text": "Your auto attacks have a chance to summon a Bloodworm.\n\nBloodworms deal minor damage to your target for {1} sec and then burst, healing you for {2}% of your missing health.\n\nIf you drop below {3}% health, your Bloodworms will immediately burst and heal you."
+          "Text": "Ваші автоматичні атаки мають шанс викликати Кровочерва.\n\nКровочерви завдають невелику кількість шкоди вашій цілі протягом {1} сек і потім вибухають, зцілюючи вас на {2}% від втраченого здоров'я.\n\nЯкщо ви опускаєтесь нижче {3}% здоров'я, ваші Кровочерви миттєво вибухають та зцілюють вас."
         }
       ]
     },
@@ -345,7 +345,7 @@
           "Hash": 1465813647,
           "Id": "194844",
           "Spec": "Blood",
-          "Text": "A whirl of bone and gore batters all nearby enemies, dealing {1} Shadow damage every {2} sec, and healing you for {3}% of your maximum health every time it deals damage (up to {4}%). Lasts {5} sec per {6} Runic Power spent. Deals reduced damage beyond {7} targets."
+          "Text": "Вихор кісток та крові атакує всіх ворогів поблизу, завдаючи їм {1} шкоди від темної магії кожні {2} сек та зцілюючи вас на {3}% від макс. запасу здоров'я кожного разу, коли він завдає шкоду (до {4}%). Діє {5} сек за кожні {6} од. витраченої сили рун. Завдає менше шкоди цілям після {7}."
         }
       ]
     },
@@ -381,7 +381,7 @@
           "Hash": 1074827542,
           "Id": "207264",
           "Spec": "Unholy",
-          "Text": "Bursting a Festering Wound deals {1}% more damage, and deals {2} Shadow damage to all nearby enemies. Deals reduced damage beyond {3} targets."
+          "Text": "Вибух Гнійної рани завдає на {1}% більше шкоди та завдає {2} шкоди від темної магії всім ворогам поблизу. Завдає менше шкоди всім цілям після {3}."
         }
       ]
     },
@@ -417,7 +417,7 @@
           "Hash": 3569382295,
           "Id": "207311",
           "Spec": "Unholy",
-          "Text": "Deals {1} Shadow damage and causes {2} Festering Wound to burst."
+          "Text": "Наносить {1} шкоди від темної магії та змушує вибухнути {2} Гнійну рану."
         }
       ]
     },
@@ -429,13 +429,13 @@
           "Hash": 1023579296,
           "Id": "316916",
           "Spec": "Frost",
-          "Text": "Obliterate hits up to {1} additional enemy while you remain in Death and Decay."
+          "Text": "[Знищення] б'є до {1} додаткових цілей коли ви знаходитесь в [Смерть та розпад]."
         },
         {
           "Hash": 3417084168,
           "Id": "316916",
           "Spec": "Blood",
-          "Text": "Heart Strike hits up to {1} additional enemies while you remain in Death and Decay."
+          "Text": "[Удар серця] б'є до {1} додаткових цілей коли ви знаходитесь в [Смерть та розпад]."
         },
         {
           "Hash": 485977033,
@@ -465,19 +465,19 @@
           "Hash": 2334940290,
           "Id": "391477",
           "Spec": "Blood",
-          "Text": "Enemies affected by Blood Plague take {1}% increased damage from you and Death Strike increases the damage of your Blood Plague by {2}% for {3} sec, stacking up to {4} times."
+          "Text": "Вороги, які постраждали від [Кривава чума], отримують на {1}% більше шкоди від вас, а [Удар смерті] збільшує шкоду від вашої [Кривава чума] на {2}% на {3} сек, накопичуючись до {4} разів."
         }
       ]
     },
     {
       "Hash": 927610918,
-      "Name": "Coil of Devastation",
+      "Name": "Спіраль спустошення",
       "Descriptions": [
         {
           "Hash": 179176606,
           "Id": "390270",
           "Spec": "Unholy",
-          "Text": "Death Coil causes the target to take an additional {1}% of the direct damage dealt over {2} sec."
+          "Text": "[Спіраль смерті] змушує ціль отримувати додатково {1}% від прямої шкоди протягом {2} сек."
         }
       ]
     },
@@ -525,7 +525,7 @@
           "Hash": 800864276,
           "Id": "390259",
           "Spec": "Unholy",
-          "Text": "Dark Transformation also empowers your Gargoyle and Army of the Dead for {1} sec, increasing their damage by {2}%."
+          "Text": "[Зловісне перетворення] також посилює вашу Гаргуллю та Армію мертвих на {1} сек, збільшуючи їх шкоду на {2}%."
         }
       ]
     },
@@ -537,7 +537,7 @@
           "Hash": 299742501,
           "Id": "274156",
           "Spec": "Blood",
-          "Text": "Strikes all enemies in front of you with a hungering attack that deals {1} Physical damage and heals you for {2}% of that damage. Deals reduced damage beyond {3} targets."
+          "Text": "Атакує всіх ворогів перед вами голодною атакою, яка завдає {1} фізичної шкоди та зцілює вас на {2}% від цієї шкоди. Завдає менше шкоди цілям після {3}."
         }
       ]
     },
@@ -597,7 +597,7 @@
           "Hash": 3446403925,
           "Id": "77606",
           "Spec": "Unholy, Blood, Frost",
-          "Text": "Places a dark ward on an enemy player that persists for {1} sec, triggering when the enemy next spends mana on a spell, and allowing the Death Knight to unleash an exact duplicate of that spell."
+          "Text": "Розміщує темного охоронця на ворожому гравці, який існує {1} сек, спрацьовує коли ворог витрачає ману на заклинання, та дозволяє лицарю смерті використати точну копію цього заклинання."
         }
       ]
     },
@@ -609,7 +609,7 @@
           "Hash": 2284922440,
           "Id": "178819",
           "Spec": "Unholy, Frost",
-          "Text": "When you kill an enemy that yields experience or honor, your next Death Strike within {1} sec is free and heals for an additional {2}% of maximum health."
+          "Text": "Коли ви вбиваєте ворога, який дає досвід або честь, ваш наступний [Удар смерті] безкоштовний у наступні {1} сек та зцілює вас додатково на {2}% від макс. запасу здоров'я."
         }
       ]
     },
@@ -645,19 +645,19 @@
           "Hash": 2370516691,
           "Id": "43265",
           "Spec": "Frost",
-          "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\n\nWhile you remain within the area, your Obliterate will hit up to {3} additional target."
+          "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваше [Знищення] завдає шкоду {3} додатковій цілі."
         },
         {
           "Hash": 1397556341,
           "Id": "43265",
           "Spec": "Blood",
-          "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\n\nWhile you remain within the area, your  Heart Strike will hit up to {3} additional targets."
+          "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваш [Удар серця] завдає шкоду {3} додатковим цілям."
         },
         {
           "Hash": 869996207,
           "Id": "43265",
           "Spec": "Unholy",
-          "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\n\nWhile you remain within the area, your  Scourge Strike will hit up to {3} enemies near the target."
+          "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваш [Удар Скари] завдає шкоду {3} ворогам біля цілі."
         }
       ]
     },
@@ -669,7 +669,7 @@
           "Hash": 1181652806,
           "Id": "203173",
           "Spec": "Blood",
-          "Text": "Chains {1} enemies together, dealing {2} Shadow damage and causing {3}% of all damage taken to also be received by the others in the chain. Lasts for {4} sec."
+          "Text": "Зв'язує {1} ворогів разом, завдаючи {2} шкоди від темної магії та змушує {3}% від всієї отримуваної цілями шкоди дублюватися в інших у цьому ланцюзі. Діє {4} сек."
         }
       ]
     },
