@@ -813,7 +813,7 @@
           "Hash": 1564676177,
           "Id": "465",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Party and raid members within {1} yds are bolstered by their devotion, reducing damage taken by {2}%."
+          "Text": "Члени групи та рейду в радіусі {1} ярду підкріплені своєю відданістю, отримують зменшену шкоду на {2}%."
         }
       ]
     },
@@ -837,7 +837,7 @@
           "Hash": 381528882,
           "Id": "406158",
           "Spec": "Retribution",
-          "Text": "Final Reckoning and Execution Sentence grant {1} Holy Power."
+          "Text": "[Остаточна розплата] та [Смертний Вирок] надають {1} Святу силу."
         }
       ]
     },
@@ -921,19 +921,19 @@
           "Hash": 927481662,
           "Id": "386738",
           "Spec": "Holy",
-          "Text": "After casting Divine Toll, you instantly cast Holy Shock every {1} sec for {2} sec."
+          "Text": "Після застосування [Святої Сплати] ви миттєво використовуєте [Святий Шок] кожну {1} секунду протягом {2} секунд."
         },
         {
           "Hash": 1598404700,
           "Id": "384027",
           "Spec": "Retribution",
-          "Text": "After casting Divine Toll, you instantly cast Judgment every {1} sec for {2} sec."
+          "Text": "Після застосування [Святої Сплати], ви миттєво застосовуєте [Правосуддя] кожну {1} секунду на {2} секунди."
         },
         {
           "Hash": 3564593088,
           "Id": "386738",
           "Spec": "Protection",
-          "Text": "After casting Divine Toll, you instantly cast Avenger's Shield every {1} sec for {2} sec."
+          "Text": "Після застосування [Святої Сплати] ви миттєво використовуєте [Щит Месника] кожну {1} секунду протягом {2} секунд."
         }
       ]
     },
@@ -993,7 +993,7 @@
           "Hash": 2308024797,
           "Id": "375576",
           "Spec": "Holy",
-          "Text": "Instantly cast Holy Shock on up to {1} targets within {2} yds."
+          "Text": "Миттєво застосовуйте [Святий Шок] до {1} цілі в межах {2} ярдів."
         },
         {
           "Hash": 3739278567,
@@ -1155,7 +1155,7 @@
           "Hash": 329103021,
           "Id": "379043",
           "Spec": "Protection",
-          "Text": "Casting Word of Glory grants you an additional {1}% block chance for {2} sec."
+          "Text": "Застосовуючи [Славень], ви отримуєте додатковий шанс блокування на {1}% на {2} секунди."
         }
       ]
     },
@@ -1167,13 +1167,13 @@
           "Hash": 3657649204,
           "Id": "406101",
           "Spec": "Protection, Holy",
-          "Text": "Shield of the Righteous grants {1}% bonus armor for {2} sec."
+          "Text": "Щит Праведників гарантує {1}% бонусної броні на {2} секунди."
         },
         {
           "Hash": 2055843875,
           "Id": "406101",
           "Spec": "Retribution",
-          "Text": "Word of Glory grants {1}% bonus armor for {2} sec."
+          "Text": "[Славень] надає {1}% бонусної броні на {2} секунди."
         }
       ]
     },
@@ -1185,7 +1185,7 @@
           "Hash": 3844143325,
           "Id": "378762",
           "Spec": "Protection",
-          "Text": "Avenger's Shield deals {1}% increased damage to its primary target."
+          "Text": "[Щит Месника] наносить збільшену шкоду на {1}% по вашій основній цілі."
         }
       ]
     },
@@ -1233,7 +1233,7 @@
           "Hash": 2731284815,
           "Id": "234299",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Each Holy Power spent reduces the remaining cooldown on Hammer of Justice by {1} sec."
+          "Text": "Кожна Свята сила, що витрачається, зменшує час відновлення на [Молота Справедливості] на {1} секунду."
         }
       ]
     },
@@ -1245,7 +1245,7 @@
           "Hash": 2727230661,
           "Id": "19750",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Expends a large amount of mana to quickly heal a friendly target for {1}."
+          "Text": "Витрачає велику кількість мани, щоб швидко зцілити дружню ціль на {1}."
         }
       ]
     },
@@ -1257,7 +1257,7 @@
           "Hash": 665554197,
           "Id": "378845",
           "Spec": "Protection",
-          "Text": "When Avenger's Shield strikes a single enemy, it deals {1}% additional Holy damage."
+          "Text": "Коли [Щит Месника] завдає удару одному ворогу, він завдає додатковий {1}% Святої Шкоди."
         }
       ]
     },
@@ -1317,13 +1317,13 @@
           "Hash": 3615627026,
           "Id": "231644",
           "Spec": "Holy",
-          "Text": "Judgment causes the target to take {1}% increased damage from your next Crusader Strike or Holy Shock."
+          "Text": "[Правосуддя] змушує ціль прийняти на {1}% більше шкоди від вашого наступного [Удару Хрестоносця] або [Святого Шоку]."
         },
         {
           "Hash": 3859173263,
           "Id": "231663",
           "Spec": "Protection, Retribution",
-          "Text": "Judgment causes the target to take {1}% increased damage from your next Holy Power ability."
+          "Text": "[Правосуддя] змушує ціль приймати на {1}% більше шкоди від вашої наступної здібності Священної сили."
         }
       ]
     },
@@ -1335,7 +1335,7 @@
           "Hash": 666363455,
           "Id": "216855",
           "Spec": "Protection",
-          "Text": "Your Flash of Light reduces all damage the target receives by {1}% for {2} sec. Stacks up to {3} times."
+          "Text": "Ваш [Спалах Світла] зменшує всю шкоду, яку отримує ціль, на {1}% протягом {2} секунд. Сумується до {3} разів."
         }
       ]
     },
@@ -1431,7 +1431,7 @@
           "Hash": 947071734,
           "Id": "62124",
           "Spec": "Protection, Retribution, Holy",
-          "Text": "Commands the attention of an enemy target, forcing them to attack you."
+          "Text": "Звертає увагу ворожої цілі, змушуючи її напасти на вас."
         }
       ]
     },
@@ -1467,7 +1467,7 @@
           "Hash": 1801839519,
           "Id": "406154",
           "Spec": "Retribution",
-          "Text": "Crusader Strike and auto-attacks deal {1}% inceased damage and deal {2}% increased critical strike damage.\n"
+          "Text": "[Удар Хрестоносця] та автоматичні атаки завдають збільшену шкоду на {1}% та завдають збільшену на {2}% шкоди від критичного удару.\n"
         }
       ]
     },

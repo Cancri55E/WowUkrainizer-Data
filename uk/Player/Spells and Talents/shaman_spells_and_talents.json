@@ -1137,7 +1137,7 @@
           "Hash": 1982375777,
           "Id": "334195",
           "Spec": "Enhancement",
-          "Text": "Each stack of Maelstrom Weapon consumed increases the damage of your next Frost Shock by {1}%, and causes your next Frost Shock to hit {2} additional target per Maelstrom Weapon stack consumed, up to {3}."
+          "Text": "Кожен поглинений ефект [Зброя Виру] збільшує шкоду від наступного [Морозний шок] на {1}%. [Морозний шок] вражає ще {2} ціль за кожен поглинений ефект [Зброя Виру] аж до {3}."
         }
       ]
     },
@@ -1161,7 +1161,7 @@
           "Hash": 3016746401,
           "Id": "5394",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\n\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional charge of {ffffffff|Healing Stream Totem}."
+          "Text": "Викликає тотем біля ваших ніг на {1} сек, який зцілює пораненого учасника рейду або групи в радіусі {2} м на {3} од. здоров'я кожні {4} сек.\n\nЯкщо ви вже знаєте {ffffffff|Healing Stream Totem}, натомість отримайте {5} додатковий заряд {ffffffff|Healing Stream Totem}."
         }
       ]
     },
@@ -1209,19 +1209,19 @@
           "Hash": 2745910570,
           "Id": "32182",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Increases haste by {1}% for all party and raid members for {2} sec.\n\nAllies receiving this effect will become Exhausted and unable to benefit from Heroism or Time Warp again for {3} min."
+          "Text": "Збільшує швидкість на {1}% для всіх учасників групи чи рейду на {2} сек.\n\nСоюзники, які отримають цей ефект, будуть виснажені й не зможуть повторно його отримати від [Жаги Крові], [Героїзму] або [Викривлення Часу] упродовж {3} хв."
         }
       ]
     },
     {
       "Hash": 3062186739,
-      "Name": "Hex",
+      "Name": "Прокляття",
       "Descriptions": [
         {
           "Hash": 2915034099,
           "Id": "51514",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Transforms the enemy into a frog for {1} sec. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit {2}. Only works on Humanoids and Beasts."
+          "Text": "Перетворює ворога на жабу на {1} сек. Під час прокляття жертва недієздатна і не може атакувати чи творити заклинання. Шкода може скасувати ефект. Ліміт {2}. Працює лише на гуманоїдів і звірів."
         }
       ]
     },
@@ -1245,19 +1245,19 @@
           "Hash": 1662862870,
           "Id": "201900",
           "Spec": "Enhancement",
-          "Text": "Melee auto-attacks with Flametongue Weapon active have a {1}% chance to reduce the cooldown of Lava Lash by {2}% and increase the damage of Lava Lash by {3}% for {4} sec."
+          "Text": "Автоматичні атаки ближнього бою з активною [Зброя язика полум'я] мають шанс {1}% зменшити час відновлення [Скипання лави] на {2}% і збільшити шкоду від [Скипання лави] на {3}% протягом {4} сек."
         }
       ]
     },
     {
       "Hash": 2332207690,
-      "Name": "Льодяний Удар",
+      "Name": "Крижаний удар",
       "Descriptions": [
         {
           "Hash": 788080594,
           "Id": "342240",
           "Spec": "Enhancement",
-          "Text": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\n\nIce Strike increases the damage of your next Frost Shock by {4}%."
+          "Text": "Вражає вашу ціль крижаним лезом, завдаючи {1} шкоди від льоду та знерухомлюючи її на {2}% протягом {3} сек.\n\n[Крижаний Удар] збільшує шкоду від наступного [Морозний шок] на {4}%."
         }
       ]
     },
@@ -1269,7 +1269,7 @@
           "Hash": 34153504,
           "Id": "210714",
           "Spec": "Elemental",
-          "Text": "Hurls frigid ice at the target, dealing {1} Frost damage and causing your next {2} Frost Shocks to deal {3}% increased damage and generate {4} Maelstrom.\n\n{FFFFFFFF|Generates {5} Maelstrom.}"
+          "Text": "Жбурляє льодяну глибу в ціль, завдаючи {1} шкоди від холоду, а ваші наступні {2} [Морозний шок] завдають на {3}% збільшеної шкоди та створюють {4} зброї виру.\n\n{FFFFFFFF|Створює {5} зброя виру.}"
         }
       ]
     },
@@ -1287,13 +1287,13 @@
     },
     {
       "Hash": 2568369742,
-      "Name": "Improved Flametongue Weapon",
+      "Name": "Поліпшена зброя язика полум'я",
       "Descriptions": [
         {
           "Hash": 3921537413,
           "Id": "382027",
           "Spec": "Elemental",
-          "Text": "Imbuing your weapon with Flametongue increases your Fire spell damage by {1}% for {2} hour."
+          "Text": "Насичує вашу зброю язиками полум'я, збільшуючи вашу шкоду від заклинань вогню на {1}% протягом {2} години."
         }
       ]
     },
@@ -1305,7 +1305,7 @@
           "Hash": 3595650798,
           "Id": "383303",
           "Spec": "Enhancement",
-          "Text": "Maelstrom Weapon now increases the damage or healing of spells it affects by {1}% per stack."
+          "Text": "Зброя виру тепер збільшує шкоду або зцілення від заклинань, на які вона впливає, на {1}% за ефект."
         }
       ]
     },
@@ -1347,13 +1347,13 @@
     },
     {
       "Hash": 230139073,
-      "Name": "Lashing Flames",
+      "Name": "Стрибуче полум'я",
       "Descriptions": [
         {
           "Hash": 2839978596,
           "Id": "334046",
           "Spec": "Enhancement",
-          "Text": "Lava Lash increases the damage of Flame Shock on its target by {1}% for {2} sec."
+          "Text": "[Скипання лави] збільшує шкоду від [Вогняний шок] по своїй цілі на {1}% протягом {2} сек."
         }
       ]
     },
@@ -1365,25 +1365,25 @@
           "Hash": 1845622457,
           "Id": "51505",
           "Spec": "Elemental",
-          "Text": "Hurls molten lava at the target, dealing {1} Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock.\n\n{FFFFFFFF|Generates {2} Maelstrom.}"
+          "Text": "Жбурляє розплавлену лаву в ціль, завдаючи {1} шкоди від вогню. [Вибух Лави] завжди завдає критичного удару, якщо на ціль діє [Вогняний шок].\n\n{FFFFFFFF|Створює {2} од. виру стихій}"
         },
         {
           "Hash": 1569839130,
           "Id": "51505",
           "Spec": "Restoration, Enhancement",
-          "Text": "Hurls molten lava at the target, dealing {1} Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock."
+          "Text": "Жбурляє розплавлену лаву в ціль, завдаючи {1} шкоди від вогню. [Вибух Лави] завжди завдає критичного удару, якщо на ціль діє [Вогняний шок]."
         }
       ]
     },
     {
       "Hash": 2899311188,
-      "Name": "Lava Lash",
+      "Name": "Скипання лави",
       "Descriptions": [
         {
           "Hash": 2541843609,
           "Id": "60103",
           "Spec": "Enhancement",
-          "Text": "Charges your off-hand weapon with lava and burns your target, dealing {1} Fire damage.\n\nDamage is increased by {2}% if your offhand weapon is imbued with Flametongue Weapon. Lava Lash will spread Flame Shock from your target to {3} nearby targets."
+          "Text": "Заряджає вашу зброю у лівій руці лавою та спалює ціль, завдаючи {1} шкоди від вогню.\n\nШкода збільшується на {2}%, якщо ваша зброя у лівій руці насичена [Зброя язика полум'я]. [Скипання лави] поширить [Вогняний шок] від вашої цілі до {3} цілей поблизу."
         }
       ]
     },
@@ -1407,7 +1407,7 @@
           "Hash": 2317774799,
           "Id": "384450",
           "Spec": "Enhancement",
-          "Text": "Consuming {1} stacks of Maelstrom Weapon will reset the cooldown of Stormstrike and increases the damage of your physical abilities by {2}% for {3} sec."
+          "Text": "Споживання {1} ефектів зброї виру скине час відновлення [Удар бурі] і збільшить шкоду від ваших фізичних здібностей на {2}% протягом {3} сек."
         }
       ]
     },
@@ -1419,13 +1419,13 @@
           "Hash": 49186552,
           "Id": "188196",
           "Spec": "Elemental",
-          "Text": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.\n\n{FFFFFFFF|Generates {2} Maelstrom.}"
+          "Text": "Жбурляє блискавку в ціль, завдаючи {1} од. шкоди від магії природи.\n\n{FFFFFFFF|Генерує {2} од. виру стихій.}"
         },
         {
           "Hash": 3278199822,
           "Id": "188196",
           "Spec": "Restoration, Enhancement",
-          "Text": "Hurls a bolt of lightning at the target, dealing {1} Nature damage."
+          "Text": "Жбурляє блискавку в ціль, завдаючи {1} од. шкоди від магії природи."
         }
       ]
     },
@@ -1437,7 +1437,7 @@
           "Hash": 171073772,
           "Id": "305483",
           "Spec": "Restoration, Elemental, Enhancement",
-          "Text": "Grips the target in lightning, stunning and dealing {1} Nature damage over {2} sec while the target is lassoed. Can move while channeling."
+          "Text": "Охоплює ціль блискавкою, приголомшуючи та завдаючи {1} шкоди від сил природи протягом {2} сек, поки на ціль накинуте ласо. Можна рухатися під час використання."
         }
       ]
     },
@@ -1449,7 +1449,7 @@
           "Hash": 493782148,
           "Id": "210689",
           "Spec": "Elemental",
-          "Text": "Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning."
+          "Text": "[Земний шок], [Вибух стихій] та [Землетрус] перетворюють вашу ціль на блискавковідвід на {1} сек. Блискавковідводи отримують {2}% усієї шкоди, яку ви завдаєте [Блискавка] та [Ланцюгова блискавка]."
         }
       ]
     },
@@ -1485,7 +1485,7 @@
           "Hash": 756676531,
           "Id": "192222",
           "Spec": "Elemental",
-          "Text": "Summons a totem at the target location that erupts dealing {1} Fire damage and applying Flame Shock to {2} enemies within {3} yards. Continues hurling liquid magma at a random nearby target every {4} sec for {5} sec, dealing {6} Fire damage to all enemies within {7} yards.\n"
+          "Text": "Викликає тотем у вибраному місці, який вибухає, завдаючи {1} шкоди від вогню та застосовуючи [Вогняний шок] до {2} ворогів у радіусі {3} метрів. Продовжує кидати рідку магму у випадкову сусідню ціль кожні {4} сек протягом {5} сек, завдаючи {6} шкоди від вогню всім ворогам у радіусі {7} метрів."
         }
       ]
     },
@@ -1509,7 +1509,7 @@
           "Hash": 3859055205,
           "Id": "353115",
           "Spec": "Restoration",
-          "Text": "Healing Tide Totem's cooldown is reduced by {1} sec and it heals for {2}% more each time it pulses."
+          "Text": "Час відновлення [Тотем зцілюючої хвилі] зменшується на {1} с, і він зцілює на {2}% більше щоразу, коли пульсує."
         }
       ]
     },
@@ -1521,13 +1521,13 @@
           "Hash": 1606058758,
           "Id": "187880",
           "Spec": "Enhancement",
-          "Text": "When you deal damage with a melee weapon, you have a chance to gain Maelstrom Weapon, stacking up to {1} times. Each stack of Maelstrom Weapon reduces the cast time of your next damage or healing spell by {2}% and increase the damage or healing of your next spell by {3}%. A maximum of {4} stacks of Maelstrom Weapon can be consumed at a time."
+          "Text": "Коли ви завдаєте шкоди зброєю ближнього бою, у вас є шанс отримати зброю виру, що накопичується до {1} разів. Кожен накопичений ефект зброї виру зменшує час застосування вашого наступного заклинання на {2}% і збільшує шкоду чи зцілення заклинання на {3}%. Одночасно можна використати щонайбільше {4} ефектів зброї виру."
         },
         {
           "Hash": 2610358154,
           "Id": "187880",
           "Spec": "Restoration, Elemental",
-          "Text": "When you deal damage with a melee weapon, you have a chance to gain Maelstrom Weapon, stacking up to {1} times. Each stack of Maelstrom Weapon reduces the cast time of your next damage or healing spell by {2}%. A maximum of {3} stacks of Maelstrom Weapon can be consumed at a time."
+          "Text": "Коли ви завдаєте шкоди зброєю ближнього бою, у вас є шанс отримати зброю виру, що накопичується до {1} разів. Кожен ефект зброї виру зменшує час використання вашого наступного заклинання на {2}%. Одночасно можна використати щонайбільше {3} ефектів зброї виру."
         }
       ]
     },
@@ -1539,7 +1539,7 @@
           "Hash": 3603930768,
           "Id": "381932",
           "Spec": "Elemental",
-          "Text": "Flame Shock damage increases the damage of your next Earth Shock, Elemental Blast, or Earthquake by {1}%, stacking up to {2} times."
+          "Text": "Періодична шкода від [Вогняний шок] збільшує шкоду від вашого наступного [Земний шок], [Вибух стихій] чи [Землетрус] на {1}%, ефект накопичується до {2} разів."
         }
       ]
     },
@@ -1551,19 +1551,19 @@
           "Hash": 3942813997,
           "Id": "381930",
           "Spec": "Enhancement",
-          "Text": "Your Stormstrike casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
+          "Text": "Ваші заклинання [Удар бурі] відновлюють {1} од. мани вам і {2} союзникам, найближчим до вас, у межах {3} метрів.\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
         },
         {
           "Hash": 175061634,
           "Id": "381930",
           "Spec": "Restoration",
-          "Text": "Your Lava Burst and Riptide casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
+          "Text": "Ваші заклинання [Вибух Лави] та [Бистрина] відновлюють {1} од. мани вам і {2} союзникам, найближчим до вас, у радіусі {3} метрів.\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
         },
         {
           "Hash": 4228806506,
           "Id": "381930",
           "Spec": "Elemental",
-          "Text": "Your Lava Burst casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
+          "Text": "Ваші заклинання [Вибух Лави] відновлюють {1} од. мани вам і {2} союзникам, найближчим до вас, у радіусі {3} метрів.\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
         }
       ]
     },
@@ -1605,7 +1605,7 @@
           "Hash": 1903390679,
           "Id": "77226",
           "Spec": "Restoration",
-          "Text": "Increases healing from your spells by up to {1}%, based on the current health of your target. Lower health targets are healed for more."
+          "Text": "Підвищує ефективність зцілющих заклинань максимум на {1}% залежно від поточного запасу здоров'я цілі. Важко поранені цілі отримують більше здоров'я."
         }
       ]
     },
@@ -2397,7 +2397,7 @@
           "Hash": 1577177185,
           "Id": "384359",
           "Spec": "Enhancement",
-          "Text": "Consuming at least {1} stacks of Hailstorm, using Ice Strike, and each explosion from Fire Nova now also grants you {2} stack of Maelstrom Weapon."
+          "Text": "Ви споживаєте принаймні {1} накопичень [Град], використовуєте [Крижаний Удар] і кожен вибух із [Коло вогню] тепер також дає вам {2} од. [Зброя Виру]."
         }
       ]
     },

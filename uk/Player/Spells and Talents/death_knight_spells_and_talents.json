@@ -249,7 +249,7 @@
           "Hash": 1885093742,
           "Id": "356456",
           "Spec": "Blood",
-          "Text": "[Удар серця] завдає на {1}% більше шкоди, але також коштує {2}% від вашого макс. здоров'я."
+          "Text": "[Удар в серце] завдає на {1}% більше шкоди, але також коштує {2}% від вашого макс. здоров'я."
         }
       ]
     },
@@ -435,7 +435,7 @@
           "Hash": 3417084168,
           "Id": "316916",
           "Spec": "Blood",
-          "Text": "[Удар серця] б'є до {1} додаткових цілей коли ви знаходитесь в [Смерть та розпад]."
+          "Text": "[Удар в серце] б'є до {1} додаткових цілей коли ви знаходитесь в [Смерть та розпад]."
         },
         {
           "Hash": 485977033,
@@ -651,7 +651,7 @@
           "Hash": 1397556341,
           "Id": "43265",
           "Spec": "Blood",
-          "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваш [Удар серця] завдає шкоду {3} додатковим цілям."
+          "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваш [Удар в серце] завдає шкоду {3} додатковим цілям."
         },
         {
           "Hash": 869996207,
@@ -681,13 +681,13 @@
           "Hash": 399214469,
           "Id": "47541",
           "Spec": "Unholy",
-          "Text": "Fires a blast of unholy energy at the target and {1} additional nearby target, causing {2} Shadow damage to an enemy or healing an Undead ally for {3} health.\n\nIncreases the duration of Dark Transformation by {4} sec."
+          "Text": "Випускає заряд нечестивої енергії у ціль та в {1} найближчу ціль, завдаючи {2} шкоди від темної магії або зцілюючи союзника нежить на {3} здоров'я.\n\nЗбільшує тривалість [Зловісне Перетворення] на {4} сек."
         },
         {
           "Hash": 2100374321,
           "Id": "47541",
           "Spec": "Blood, Frost",
-          "Text": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health."
+          "Text": "Випускає заряд нечестивої енергії у ціль, завдаючи {1} шкоди від темної магії або зцілюючи союзника нежить на {2} здоров'я."
         }
       ]
     },
@@ -801,7 +801,7 @@
     },
     {
       "Hash": 2870204087,
-      "Name": "Death's Reach",
+      "Name": "Тяга смерті",
       "Descriptions": [
         {
           "Hash": 3877836793,
@@ -999,7 +999,7 @@
     },
     {
       "Hash": 1310299618,
-      "Name": "Feasting Strikes",
+      "Name": "Жадібні удари",
       "Descriptions": [
         {
           "Hash": 713333106,
@@ -1011,7 +1011,7 @@
     },
     {
       "Hash": 1111141809,
-      "Name": "Festering Strike",
+      "Name": "Гнійний удар",
       "Descriptions": [
         {
           "Hash": 3700639044,
@@ -1023,7 +1023,7 @@
     },
     {
       "Hash": 431244904,
-      "Name": "Festermight",
+      "Name": "Сила гниття",
       "Descriptions": [
         {
           "Hash": 326170230,
@@ -1143,7 +1143,7 @@
     },
     {
       "Hash": 3014491029,
-      "Name": "Gloom Ward",
+      "Name": "Похмура печатка",
       "Descriptions": [
         {
           "Hash": 4187628214,
@@ -1155,7 +1155,7 @@
     },
     {
       "Hash": 783582263,
-      "Name": "Gorefiend's Grasp",
+      "Name": "Хватка Кровожада",
       "Descriptions": [
         {
           "Hash": 2035990986,
@@ -1191,7 +1191,7 @@
     },
     {
       "Hash": 4190131628,
-      "Name": "Удар Серця",
+      "Name": "Удар в серце",
       "Descriptions": [
         {
           "Hash": 2386668297,
@@ -1209,19 +1209,19 @@
           "Hash": 1016082547,
           "Id": "221536",
           "Spec": "Blood",
-          "Text": "Heart Strike generates {1} additional Runic Power per target hit."
+          "Text": "[Удар в серце] генерує {1} додаткову од. сили рун за кожне ураження цілі."
         }
       ]
     },
     {
       "Hash": 2191866859,
-      "Name": "Heartrend",
+      "Name": "Роздирання серця",
       "Descriptions": [
         {
           "Hash": 1929727476,
           "Id": "377655",
           "Spec": "Blood",
-          "Text": "Heart Strike has a chance to increase the damage of your next Death Strike by {1}%."
+          "Text": "[Удар в серце] має шанс збільшити шкоду вашого наступного [Удару смерті] на {1}%."
         }
       ]
     },
@@ -1317,7 +1317,7 @@
           "Hash": 2994939230,
           "Id": "374715",
           "Spec": "Blood",
-          "Text": "Bone Shield increases your Haste by {1}%."
+          "Text": "[Кістяний щит] збільшує вашу Швидкість на {1}%."
         }
       ]
     },
@@ -1347,7 +1347,7 @@
     },
     {
       "Hash": 3404047786,
-      "Name": "Improved Festering Strike",
+      "Name": "Покращений Гнійний удар",
       "Descriptions": [
         {
           "Hash": 48674310,
@@ -1371,13 +1371,13 @@
     },
     {
       "Hash": 316595751,
-      "Name": "Покращений Серцевий Удар",
+      "Name": "Покращений Удар в серце",
       "Descriptions": [
         {
           "Hash": 2648445563,
           "Id": "374717",
           "Spec": "Blood",
-          "Text": "Heart Strike damage increased by {1}%."
+          "Text": "[Удар в серце] завдає на {1}% більше шкоди."
         }
       ]
     },
@@ -1521,13 +1521,13 @@
           "Hash": 2693535172,
           "Id": "377629",
           "Spec": "Blood",
-          "Text": "Heart Strike heals you for {1}% health for each enemy hit while affected by Blood Plague."
+          "Text": "[Удар в серце] зцілює вас на {1}% за кожного ураженого ворога, що знаходиться під дією [Кривавої чуми]."
         }
       ]
     },
     {
       "Hash": 3635007005,
-      "Name": "Lichborne",
+      "Name": "Переродження",
       "Descriptions": [
         {
           "Hash": 4228187056,
@@ -1587,7 +1587,7 @@
     },
     {
       "Hash": 2365994083,
-      "Name": "Marrowrend",
+      "Name": "Розрив кісток",
       "Descriptions": [
         {
           "Hash": 897806414,
@@ -2013,7 +2013,7 @@
     },
     {
       "Hash": 3018992757,
-      "Name": "Red Thirst",
+      "Name": "Червона спрага",
       "Descriptions": [
         {
           "Hash": 2297401991,
@@ -2121,7 +2121,7 @@
     },
     {
       "Hash": 3210721316,
-      "Name": "Rune Tap",
+      "Name": "Рунний дотик",
       "Descriptions": [
         {
           "Hash": 849158533,
@@ -2133,7 +2133,7 @@
     },
     {
       "Hash": 3816069784,
-      "Name": "Runeforging",
+      "Name": "Кування рун",
       "Descriptions": [
         {
           "Hash": 698205483,
@@ -2229,7 +2229,7 @@
     },
     {
       "Hash": 964100494,
-      "Name": "Sanguine Ground",
+      "Name": "Кривава земля",
       "Descriptions": [
         {
           "Hash": 4132171107,
@@ -2313,7 +2313,7 @@
     },
     {
       "Hash": 1678342535,
-      "Name": "Strangulate",
+      "Name": "Удушення",
       "Descriptions": [
         {
           "Hash": 3910796183,
@@ -2397,7 +2397,7 @@
     },
     {
       "Hash": 155142949,
-      "Name": "Umbilicus Eternus",
+      "Name": "Вічна пуповина",
       "Descriptions": [
         {
           "Hash": 2036529773,
