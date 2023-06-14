@@ -100,6 +100,7 @@ jobs:
           add: 'Data.db'
           
       - name: Trigger WowUkrainizer repo to publish alpha version
+        if: steps.run_update_approved_translation_cmd.outputs.output != '0' || steps.run_update_translation_cmd.outputs.output != '0'
         run: |
           curl -X POST \
           -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
