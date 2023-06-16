@@ -723,7 +723,7 @@
           "Hash": 1301971315,
           "Id": "385616",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Deal {1} Arcane damage to an enemy, extracting their anima to Animacharge a combo point for {2} sec.\n\nDamaging finishing moves that consume the same number of combo points as your Animacharge function as if they consumed {3} combo points.\n\n{FFFFFFFF|Awards {4} combo points.}\n"
+          "Text": "Завдає ворогу {1} од. шкоди від таємної магії, витягуючи з нього аніму, щоб зарядити нею очко серії на {2} сек.\n\nАтакуючі завершальні прийоми, які використовують ту ж кількість очок серії, скільки заряджено анімою, діють так якби вони використали {3} очок серії.\n\n{FFFFFFFF|Надає {4} {declension|очко|очки|очок} серії.}\n"
         }
       ]
     },
@@ -759,7 +759,7 @@
           "Hash": 2119956086,
           "Id": "354843",
           "Spec": "Outlaw",
-          "Text": "Every {1} sec you remain in combat, gain {2}% chance for Sinister Strike to hit an additional time. Lose {3} stack each second while out of combat. Max {4} stacks."
+          "Text": "Кожні {1} сек поки ви в бою, [Зловісний Удар] отримує {2}% шансу вдарити додатковий раз. Кожну секунду поза боєм втрачається {3} накопичення. Максимальна кількість накопичень - {4}."
         }
       ]
     },
@@ -771,7 +771,7 @@
           "Hash": 678800825,
           "Id": "32645",
           "Spec": "Assassination",
-          "Text": "Finishing move that drives your poisoned blades in deep, dealing instant Nature damage and increasing your poison application chance by {1}%. Damage and duration increased per combo point.\n\n   {2} point  : {3} damage, {4} sec\n   {5} points: {6} damage, {7} sec\n   {8} points: {9} damage, {10} sec\n   {11} points: {12} damage, {13} sec\n   {14} points: {15} damage, {16} sec"
+          "Text": "Завершальний прийом, який глибоко встромляє ваші отруєні клинки, миттєво завдаючи шкоди від сил природи та збільшуючи ваш шанс застосування отрут на {1}%. Шкода та тривалість збільшуються за кожне очко серії.\n\n   {2} очко: {3} од. шкоди, {4} сек\n   {5} очки: {6} од. шкоди, {7} сек\n   {8} очки: {9} од. шкоди, {10} сек\n   {11} очки: {12} од. шкоди, {13} сек\n   {14} очок: {15} од. шкоди, {16} сек"
         }
       ]
     },
@@ -795,7 +795,7 @@
           "Hash": 2209010380,
           "Id": "196819",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Finishing move that disembowels the target, causing damage per combo point.\n   {1} point  : {2} damage\n   {3} points: {4} damage\n   {5} points: {6} damage\n   {7} points: {8} damage\n   {9} points: {10} damage"
+          "Text": "Завершальний прийом, який випотрошує ціль, завдаючи шкоди за кожне очко серії.\n   {1} очко: {2} од. шкоди\n   {3} очки: {4} од. шкоди\n   {5} очки: {6} од. шкоди\n   {7} очки: {8} од. шкоди\n   {9} очок: {10} од. шкоди"
         },
         {
           "Hash": 1303941587,
@@ -813,7 +813,7 @@
           "Hash": 1105999123,
           "Id": "200806",
           "Spec": "Assassination",
-          "Text": "Twist your blades into the target's wounds, causing your Bleed effects on them to bleed out {1}% faster."
+          "Text": "Проверніть свої клинки у ранах цілі, пришвидшуючи ваші ефекти кровотечі на ній на {1}%."
         }
       ]
     },
@@ -825,7 +825,7 @@
           "Hash": 1594451850,
           "Id": "382514",
           "Spec": "Subtlety",
-          "Text": "Movement speed increased by {1}% and damage taken reduced by {2}% for {3} sec after gaining Stealth, Vanish, or Shadow Dance."
+          "Text": "Швидкість пересування збільшується на {1}% та отримувана шкода зменшується на {2}% на {3} сек після отримання ефекту [Скритність], [Зникнення] чи [Танець тіней]."
         }
       ]
     },
@@ -837,7 +837,7 @@
           "Hash": 2038214440,
           "Id": "51723",
           "Spec": "Assassination",
-          "Text": "Sprays knives at all enemies within {1} yards, dealing {2} Physical damage and applying your active poisons at their normal rate. Deals reduced damage beyond {3} targets.\n\n{FFFFFFFF|Awards {4} combo point.}"
+          "Text": "Розкидує ножі у всіх ворогів в радіусі {1} м, завдаючи {2} од. фізичної шкоди та застосовуючи ваші активні отрути з їх звичайними показниками. Завдає менше шкоди по більш ніж {3} цілях.\n\n{FFFFFFFF|Надає {4} очко серії.}"
         }
       ]
     },
@@ -849,7 +849,7 @@
           "Hash": 2451681703,
           "Id": "381846",
           "Spec": "Outlaw",
-          "Text": "When Sinister Strike strikes an additional time, gain {1} additional stack of Opportunity. Max {2} stacks.\n\nHalf-cost uses of Pistol Shot consume {3} additional stack of Opportunity to fire {4} additional shot. Additional shots generate {5} fewer combo point."
+          "Text": "Коли [Зловісний Удар] вдаряє додатковий раз, [Можливість] отримає {1} додаткове накопичення. Максимально {2} {declension|накопичення|накопичення|накопичень}.\n\nВикористання [Постріл з пістоля] за половину вартості споживає {3} додаткове накопичення [Можливість] щоб вистрілити {4} додатковий раз. Додаткові постріли генерують на {5} очко серії менше."
         }
       ]
     },
@@ -897,7 +897,7 @@
           "Hash": 1826136807,
           "Id": "382525",
           "Spec": "Subtlety",
-          "Text": "Eviscerate, Rupture, and Black Powder increase the damage of the next use of the same finishing move by {1}%. Lasts {2} sec."
+          "Text": "Випатрання], [Розрив] та [Чорний Порох] збільшують шкоду від вашого наступного використання такого ж завершального прийому на {1}%. Триває {2} сек."
         }
       ]
     },
@@ -909,7 +909,7 @@
           "Hash": 3684365806,
           "Id": "91023",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Your Stealth abilities reveal a flaw in your target's defenses, causing all your attacks to bypass {1}% of that enemy's armor for {2} sec."
+          "Text": "Ваші навички скритності виявляють недоліки в захисті цілі, спричиняючи всі ваші атаки обходити {1}% її показнику броні протягом {2} сек."
         }
       ]
     },
@@ -921,7 +921,7 @@
           "Hash": 3666700254,
           "Id": "384631",
           "Spec": "Subtlety",
-          "Text": "Lash the target for {1} Shadow damage, causing each combo point spent within {2} sec to lash for an additional {3}. Dealing damage with Flagellation increases your Mastery by {4}%, persisting {5} sec after their torment fades."
+          "Text": "Шмагає ціль, завдаючи {1} од. шкоди від темної магії, спричиняючи кожне витрачене протягом {2} сек очко серії завдати додатково {3} од шкоди. Коли [Бичування] завдає шкоди, ваша Майстерність збільшується на {4}%, триває {5} сек після завершення тортур цілі."
         }
       ]
     },
@@ -969,7 +969,7 @@
           "Hash": 2377826554,
           "Id": "703",
           "Spec": "Assassination",
-          "Text": "Garrote the enemy, causing {1} Bleed damage over {2} sec.\n\n{FFFFFFFF|Awards {3} combo point.}"
+          "Text": "Накидає гарроту на шию цілі, завдаючи {1} од. від кровотечі протягом {2} сек.\n\n{FFFFFFFF|Надає {3} очко серії.}"
         }
       ]
     },
@@ -981,7 +981,7 @@
           "Hash": 1298681368,
           "Id": "196937",
           "Spec": "Outlaw",
-          "Text": "Strikes an enemy, dealing {1} Physical damage and causing the target to take {2}% increased damage from your abilities for {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
+          "Text": "Вдаряє ворога, завдаючи {1} од. фізичної шкоди, після чого ціль отримуватиме на {2}% більше шкоди від ваших навичок протягом {3} сек.\n\n{FFFFFFFF|Надає {4} очко серії.}"
         }
       ]
     },
@@ -993,7 +993,7 @@
           "Hash": 1742092938,
           "Id": "200758",
           "Spec": "Subtlety",
-          "Text": "Punctures your target with your shadow-infused blade for {1} Shadow damage, bypassing armor. Critical strikes apply Find Weakness for {2} sec.\n\n{FFFFFFFF|Awards {3} combo point.}"
+          "Text": "Вдаряє вашу ціль клинком, окутаним пітьмою, завдаючи {1} од. темної магії в обхід показнику броні. Критичні удари накладають [Пошук слабкостей] на {2} сек.\n\n{FFFFFFFF|Надає {3} очко серії.}"
         }
       ]
     },
@@ -1005,7 +1005,7 @@
           "Hash": 305086806,
           "Id": "1776",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Gouges the eyes of an enemy target, incapacitating for {1} sec. Damage will interrupt the effect.\n\nMust be in front of your target.\n\n{FFFFFFFF|Awards {2} combo point.}"
+          "Text": "Видавлює очі цілі, роблячи її недієздатною протягом {1} сек. Шкода перерве дію ефекту.\n\nВи повинні знаходитись перед ціллю.\n\n{FFFFFFFF|Надає {2} очко серії.}"
         }
       ]
     },
@@ -1119,7 +1119,7 @@
           "Hash": 2362186669,
           "Id": "319949",
           "Spec": "Subtlety",
-          "Text": "Backstab has {1}% increased critical strike chance.\n\nWhen you are behind your target, Backstab critical strikes now also expose a flaw in their defenses, applying Find Weakness for {2} sec."
+          "Text": "[Удар у спину] має на {1}% більший шанс критичного удару.\n\nКоли ви позаду цілі, критичні влучання [Удар у спину] тепер також виявляють недоліки в захисті цілі, накладаючи [Пошук слабкостей] на {2} сек."
         }
       ]
     },
@@ -1143,7 +1143,7 @@
           "Hash": 488024655,
           "Id": "381632",
           "Spec": "Assassination",
-          "Text": "Garrote deals {1}% increased damage and has no cooldown when used from Stealth and for {2} sec after breaking Stealth."
+          "Text": "[Гаррота] завдає на {1}% більше шкоди та миттєво відновлюється коли використана у стані [Скритність] та протягом {2} після розвіювання ефекту [Скритність]."
         }
       ]
     },
@@ -1215,7 +1215,7 @@
           "Hash": 1968788763,
           "Id": "319951",
           "Spec": "Subtlety",
-          "Text": "Shuriken Storm has an additional {1}% chance to crit, and its critical strikes apply Find Weakness for {2} sec."
+          "Text": "[Шторм сюрикенів] має додатково {1}% шанс на критичний удар, і також його критичні удари накладають [Пошук слабкостей] на {2} сек."
         }
       ]
     },
@@ -1275,7 +1275,7 @@
           "Hash": 27728228,
           "Id": "315584",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Coats your weapons with a Lethal Poison that lasts for {1} min. Each strike has a {2}% chance of poisoning the enemy which instantly inflicts {3} Nature damage."
+          "Text": "Покриває вашу зброю летальною отрутою, яка діє протягом {1} хв. Кожен удар має {2}% шанс отруїти ворога, миттєво завдаючи {3} од. шкоди від сил природи."
         }
       ]
     },
@@ -1335,7 +1335,7 @@
           "Hash": 2130102118,
           "Id": "196861",
           "Spec": "Assassination",
-          "Text": "Garrote silences the target for {1} sec when used from Stealth.\n\nEnemies silenced by Garrote deal {2}% reduced damage for {3} sec."
+          "Text": "[Гаррота] накладає знемовлення на ціль на {1} сек коли використана у стані [Скритність].\n\nВороги, яких душила [Гаррота], завдають на {2}% менше шкоди протягом {3} сек."
         }
       ]
     },
@@ -1371,7 +1371,7 @@
           "Hash": 222384068,
           "Id": "408",
           "Spec": "Subtlety, Assassination, Outlaw",
-          "Text": "Finishing move that stuns the target. Lasts longer per combo point, up to {1}:\n   {2} point  : {3} seconds\n   {4} points: {5} seconds\n   {6} points: {7} seconds\n   {8} points: {9} seconds\n   {10} points: {11} seconds"
+          "Text": "Завершальний прийом, що оглушує ціль. Триває довше за кожне очко серії, включно до {1}:\n   {2} очко: {3} сек\n   {4} очки: {5} сек\n   {6} очки: {7} сек\n   {8} очки: {9} сек\n   {10} очок: {11} сек"
         }
       ]
     },
@@ -1383,7 +1383,7 @@
           "Hash": 2370392800,
           "Id": "51690",
           "Spec": "Outlaw",
-          "Text": "Teleport to an enemy within {1} yards, attacking with both weapons for a total of {2} Physical damage and taking {3}% reduced damage over {4} sec.\n\nWhile Blade Flurry is active, also hits up to {5} nearby enemies for {6}% damage."
+          "Text": "Телепортує до ворога в межах {1} м, атакуючи з двох рук сумарно завдаючи {2} од. фізичної шкоди та отримуючи на {3}% менше шкоди протягом {4} сек.\n\nПоки активний [Шквал клинків], також уражає до {5} ворогів поблизу, завдаючи {6}% шкоди."
         }
       ]
     },
@@ -1395,7 +1395,7 @@
           "Hash": 4179709681,
           "Id": "385627",
           "Spec": "Assassination",
-          "Text": "Release a lethal poison from your weapons and inject it into your target, dealing {1} Nature damage instantly and an additional {2} Nature damage over {3} sec. \n\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by {4}%.\n\n{FFFFFFFF|Awards {5} combo point.}"
+          "Text": "Випускає летальну отруту з вашої зброї та вводить її у вашу ціль, миттєво завдаючи {1} од. від сил природи та додатково {2} од. від сил природи протягом {3} сек.\n\nКожного разу, як ви застосовуєте летальну отруту до цілі, що постраждала від [Згуба королів], [Згуба королів] завдає на {4}% більше шкоди.\n\n{FFFFFFFF|Надає {5} очко серії.}"
         }
       ]
     },
@@ -1419,7 +1419,7 @@
           "Hash": 2775713935,
           "Id": "381640",
           "Spec": "Assassination",
-          "Text": "Your weapon poisons, Nature damage over time, and Bleed abilities deal {1}% increased damage to targets for each weapon poison, Nature damage over time, and Bleed effect on them."
+          "Text": "Ваші отрути на зброї, періодична шкода від сил природи та навички, що накладають кровотечу, завдають на {1}% більше шкоди цілі за кожен з перелічених ефектів на ній."
         }
       ]
     },
