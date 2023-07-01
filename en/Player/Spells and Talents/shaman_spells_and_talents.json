@@ -1,2855 +1,2855 @@
 {
     "Class": "Shaman",
-    "Spells": [
-        {
+    "Spells": {
+        "0": {
             "Hash": 3241660526,
             "Name": "Acid Rain",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 739202321,
                     "Id": "378443",
                     "Spec": "Restoration",
                     "Text": "Deal {1} Nature damage every {2} sec to up to {3} enemies inside of your Healing Rain."
                 }
-            ]
+            }
         },
-        {
+        "1": {
             "Hash": 3515080371,
             "Name": "Aftershock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 154814384,
                     "Id": "273221",
                     "Spec": "Elemental",
                     "Text": "Earth Shock, Elemental Blast, and Earthquake have a {1}% chance to refund all Maelstrom spent."
                 }
-            ]
+            }
         },
-        {
+        "2": {
             "Hash": 3818047004,
             "Name": "Alpha Wolf",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 93062317,
                     "Id": "198434",
                     "Spec": "Enhancement",
                     "Text": "While Feral Spirits are active, Chain Lightning and Crash Lightning causes your wolves to attack all nearby enemies for {1} Physical damage every {2} sec for the next {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "3": {
             "Hash": 549759687,
             "Name": "Ancestral Awakening",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1004181547,
                     "Id": "382309",
                     "Spec": "Restoration",
                     "Text": "When you critically heal with your Healing Wave, Healing Surge, or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within {1} yards for {2}% of the amount healed."
                 }
-            ]
+            }
         },
-        {
+        "4": {
             "Hash": 3896083720,
             "Name": "Ancestral Defense",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4148736244,
                     "Id": "382947",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases Leech by {1}% and reduces damage taken from area-of-effect attacks by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "5": {
             "Hash": 4005908843,
             "Name": "Ancestral Guidance",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3342396288,
                     "Id": "108281",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "For the next {1} sec, {2}% of your damage and healing is converted to healing on up to {3} nearby injured party or raid members."
                 }
-            ]
+            }
         },
-        {
+        "6": {
             "Hash": 574945519,
             "Name": "Ancestral Protection Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 888949136,
                     "Id": "207399",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at the target location for {1} sec. All allies within {2} yards of the totem gain {3}% increased health. If an ally dies, the totem will be consumed to allow them to Reincarnate with {4}% health and mana.\n\nCannot reincarnate an ally who dies to massive damage."
                 }
-            ]
+            }
         },
-        {
+        "7": {
             "Hash": 107775171,
             "Name": "Ancestral Reach",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3134989599,
                     "Id": "382732",
                     "Spec": "Restoration",
                     "Text": "Chain Heal bounces an additional time and its healing is increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "8": {
             "Hash": 1249714757,
             "Name": "Ancestral Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1687996261,
                     "Id": "2008",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Cannot be cast when in combat."
                 }
-            ]
+            }
         },
-        {
+        "9": {
             "Hash": 2580770894,
             "Name": "Ancestral Vigor",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 77053532,
                     "Id": "207401",
                     "Spec": "Restoration",
                     "Text": "Targets you heal with Healing Wave, Healing Surge, Chain Heal, or Riptide's initial heal gain {1}% increased health for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "10": {
             "Hash": 2681347121,
             "Name": "Ancestral Vision",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2498035695,
                     "Id": "212048",
                     "Spec": "Restoration",
                     "Text": "Returns all dead party members to life with {1}% of maximum health and mana.  Cannot be cast when in combat."
                 }
-            ]
+            }
         },
-        {
+        "11": {
             "Hash": 777421270,
             "Name": "Ancestral Wolf Affinity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3098379573,
                     "Id": "382197",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf."
                 }
-            ]
+            }
         },
-        {
+        "12": {
             "Hash": 406892778,
             "Name": "Ascendance",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1140555234,
                     "Id": "114052",
                     "Spec": "Restoration",
                     "Text": "Transform into a Water Ascendant, duplicating all healing you deal for {1} sec and immediately healing for {2}. Ascendant healing is distributed evenly among allies within {3} yds."
                 },
-                {
+                "1": {
                     "Hash": 186472567,
                     "Id": "114050",
                     "Spec": "Elemental",
                     "Text": "Transform into a Flame Ascendant for {1} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\n\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {2} sec."
                 },
-                {
+                "2": {
                     "Hash": 1649278504,
                     "Id": "114051",
                     "Spec": "Enhancement",
                     "Text": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range."
                 }
-            ]
+            }
         },
-        {
+        "13": {
             "Hash": 308768543,
             "Name": "Ashen Catalyst",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1735378673,
                     "Id": "390370",
                     "Spec": "Enhancement",
                     "Text": "Each time Flame Shock deals periodic damage, increase the damage of your next Lava Lash by {1}% and reduce the cooldown of Lava Lash by {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "14": {
             "Hash": 3974889854,
             "Name": "Astral Bulwark",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3139582331,
                     "Id": "377933",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Astral Shift reduces damage taken by an additional {1}%."
                 }
-            ]
+            }
         },
-        {
+        "15": {
             "Hash": 3896509917,
             "Name": "Astral Recall",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2819989507,
                     "Id": "556",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Yanks you through the twisting nether back to Stormwind City. Speak to an Innkeeper in a different place to change your home location."
                 }
-            ]
+            }
         },
-        {
+        "16": {
             "Hash": 3781843143,
             "Name": "Astral Shift",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1336472861,
                     "Id": "108271",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Shift partially into the elemental planes, taking {1}% less damage for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "17": {
             "Hash": 4001418301,
             "Name": "Brimming with Life",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1103000525,
                     "Id": "381689",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "While Reincarnation is off cooldown, your maximum health is increased by {1}%. While you are at full health, Reincarnation cools down {2}% faster.\n\n"
                 }
-            ]
+            }
         },
-        {
+        "18": {
             "Hash": 29810244,
             "Name": "Call of Fire",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3776492708,
                     "Id": "378255",
                     "Spec": "Elemental",
                     "Text": "Increases the damage of your Flame Shock, Lava Burst, Lava Beam, and Fire Elemental by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "19": {
             "Hash": 1255986007,
             "Name": "Call of the Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4107314084,
                     "Id": "383011",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of {ffffffff|Totemic Recall} by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "20": {
             "Hash": 2650698326,
             "Name": "Call of Thunder",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4001662989,
                     "Id": "378241",
                     "Spec": "Elemental",
                     "Text": "Increases the damage of your Lightning Bolt, Chain Lightning, and Storm Elemental by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "21": {
             "Hash": 1665421682,
             "Name": "Capacitor Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 983441105,
                     "Id": "192058",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at the target location that gathers electrical energy from the surrounding air and explodes after {1} sec, stunning all enemies within {2} yards for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "22": {
             "Hash": 2787249273,
             "Name": "Chain Heal",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2166490003,
                     "Id": "1064",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Heals the friendly target for {1}, then jumps up to {2} yards to heal the {3} most injured nearby allies. Healing is reduced by {4}% with each jump."
                 }
-            ]
+            }
         },
-        {
+        "23": {
             "Hash": 3923603535,
             "Name": "Chain Lightning",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 365399001,
                     "Id": "188443",
                     "Spec": "Restoration",
                     "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets."
                 },
-                {
+                "1": {
                     "Hash": 3462276661,
                     "Id": "188443",
                     "Spec": "Elemental",
                     "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\n\n{FFFFFFFF|Generates {3} Maelstrom per target hit.}"
                 },
-                {
+                "2": {
                     "Hash": 2094994230,
                     "Id": "188443",
                     "Spec": "Enhancement",
                     "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\n\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\n\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec."
                 }
-            ]
+            }
         },
-        {
+        "24": {
             "Hash": 3757208043,
             "Name": "Cleanse Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 959783433,
                     "Id": "51886",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Removes all Curse effects from a friendly target."
                 }
-            ]
+            }
         },
-        {
+        "25": {
             "Hash": 2376174344,
             "Name": "Cleansing Waters",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2394900105,
                     "Id": "290250",
                     "Spec": "Restoration",
                     "Text": "Your Chain Heal and Healing Rain spells have a {1}% increased chance to critically heal, and when they critically heal the target is dispelled of all harmful magical effects."
                 }
-            ]
+            }
         },
-        {
+        "26": {
             "Hash": 986831949,
             "Name": "Cloudburst Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 714478310,
                     "Id": "157153",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at your feet for {1} sec that collects power from all of your healing spells. When the totem expires or dies, the stored power is released, healing all injured allies within {2} yards for {3}% of all healing done while it was active, divided evenly among targets.\n\nCasting this spell a second time recalls the totem and releases the healing."
                 }
-            ]
+            }
         },
-        {
+        "27": {
             "Hash": 2865142319,
             "Name": "Continuous Waves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3008043821,
                     "Id": "382046",
                     "Spec": "Restoration",
                     "Text": "Reduces the cooldown of Primordial Wave by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "28": {
             "Hash": 1936436850,
             "Name": "Control of Lava",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2671854790,
                     "Id": "204393",
                     "Spec": "Elemental",
                     "Text": "Flame Shock's damage occurs {1}% more often.\n\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {2} Fire damage and knocking them into the air."
                 }
-            ]
+            }
         },
-        {
+        "29": {
             "Hash": 2755742090,
             "Name": "Converging Storms",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2160200423,
                     "Id": "384363",
                     "Spec": "Enhancement",
                     "Text": "Each target hit by Crash Lightning increases the damage of your next Stormstrike by {1}%, up to a maximum of {2} stacks."
                 }
-            ]
+            }
         },
-        {
+        "30": {
             "Hash": 2763832525,
             "Name": "Counterstrike Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3959806155,
                     "Id": "204331",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet for {1} sec.\n\nWhenever enemies within {2} yards of the totem deal direct damage, the totem will deal {3}% of the damage dealt back to attacker. "
                 }
-            ]
+            }
         },
-        {
+        "31": {
             "Hash": 1096544449,
             "Name": "Crash Lightning",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3008002324,
                     "Id": "187874",
                     "Spec": "Enhancement",
                     "Text": "Electrocutes all enemies in front of you, dealing {1} Nature damage. Hitting {2} or more targets enhances your weapons for {3} sec, causing Stormstrike, Ice Strike, and Lava Lash to also deal {4} Nature damage to all targets in front of you. Damage reduced beyond {5} targets.\n\nEach target hit by Crash Lightning increases the damage of your next Stormstrike by {6}%, up to a maximum of {7} stacks."
                 }
-            ]
+            }
         },
-        {
+        "32": {
             "Hash": 109455662,
             "Name": "Crashing Storms",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1344910489,
                     "Id": "334308",
                     "Spec": "Enhancement",
                     "Text": "Crash Lightning damage increased by {1}%.\nChain Lightning now jumps to {2} extra targets."
                 }
-            ]
+            }
         },
-        {
+        "33": {
             "Hash": 3242093795,
             "Name": "Creation Core",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 474822747,
                     "Id": "383012",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "{ffffffff|Totemic Recall} affects an additional totem."
                 }
-            ]
+            }
         },
-        {
+        "34": {
             "Hash": 566016260,
             "Name": "Current Control",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 328983197,
                     "Id": "404015",
                     "Spec": "Restoration",
                     "Text": "Reduces the cooldown of Healing Tide Totem by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "35": {
             "Hash": 1278151108,
             "Name": "Deeply Rooted Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2420989277,
                     "Id": "378270",
                     "Spec": "Restoration",
                     "Text": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into a Water Ascendant, duplicating all healing you deal for {3} sec and immediately healing for {4}. Ascendant healing is distributed evenly among allies within {5} yds."
                 },
-                {
+                "1": {
                     "Hash": 2808140156,
                     "Id": "378270",
                     "Spec": "Elemental",
                     "Text": "Casting Lava Burst has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into a Flame Ascendant for {3} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\n\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {4} sec."
                 },
-                {
+                "2": {
                     "Hash": 267746997,
                     "Id": "378270",
                     "Spec": "Enhancement",
                     "Text": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\n\n|T135791:24|t {ffffffff|Ascendance}\n\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range."
                 }
-            ]
+            }
         },
-        {
+        "36": {
             "Hash": 594853292,
             "Name": "Deluge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 242692478,
                     "Id": "200076",
                     "Spec": "Restoration",
                     "Text": "Healing Wave, Healing Surge, and Chain Heal heal for an additional {1}% on targets affected by your Healing Rain or Riptide."
                 }
-            ]
+            }
         },
-        {
+        "37": {
             "Hash": 1028254503,
             "Name": "Doom Winds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1776687123,
                     "Id": "384352",
                     "Spec": "Enhancement",
                     "Text": "Strike your target for {1} Physical damage, increase your chance to activate Windfury Weapon by {2}%, and increases damage dealt by Windfury Weapon by {3}% for {4} sec.\n"
                 }
-            ]
+            }
         },
-        {
+        "38": {
             "Hash": 3230919591,
             "Name": "Downpour",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1172943510,
                     "Id": "207778",
                     "Spec": "Restoration",
                     "Text": "A burst of water at the target location heals up to six injured allies within {1} yards for {2}.\n\nCooldown increased by {3} sec for each target effectively healed."
                 }
-            ]
+            }
         },
-        {
+        "39": {
             "Hash": 1572811743,
             "Name": "Earth Elemental",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1739971779,
                     "Id": "198103",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Calls forth a Greater Earth Elemental to protect you and your allies for {1} sec.\n\nWhile this elemental is active, your maximum health is increased by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "40": {
             "Hash": 4108205863,
             "Name": "Earth Shield",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1054347865,
                     "Id": "974",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\n\nEarth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman."
                 },
-                {
+                "1": {
                     "Hash": 2192426463,
                     "Id": "974",
                     "Spec": "Restoration",
                     "Text": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\n\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them."
                 }
-            ]
+            }
         },
-        {
+        "41": {
             "Hash": 3952445868,
             "Name": "Earth Shock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3586025803,
                     "Id": "8042",
                     "Spec": "Elemental",
                     "Text": "Instantly shocks the target with concussive force, causing {1} Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "42": {
             "Hash": 2245480075,
             "Name": "Earthen Harmony",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1149125955,
                     "Id": "382020",
                     "Spec": "Restoration",
                     "Text": "Earth Shield reduces damage taken by {1}% and its healing is increased by {2}% if the target is below {3}% health."
                 }
-            ]
+            }
         },
-        {
+        "43": {
             "Hash": 996105239,
             "Name": "Earthen Wall Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 429450325,
                     "Id": "198838",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at the target location with {1} health for {2} sec. {3} damage from each attack against allies within {4} yards of the totem is redirected to the totem."
                 }
-            ]
+            }
         },
-        {
+        "44": {
             "Hash": 3978906113,
             "Name": "Earthgrab Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4104131035,
                     "Id": "51485",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at the target location for {1} sec. The totem pulses every {2} sec, rooting all enemies within {3} yards for {4} sec. Enemies previously rooted by the totem instead suffer {5}% movement speed reduction."
                 }
-            ]
+            }
         },
-        {
+        "45": {
             "Hash": 1222043858,
             "Name": "Earthliving Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 29083931,
                     "Id": "382021",
                     "Spec": "Restoration",
                     "Text": "Imbue your weapon with the element of Earth for {1} min. Your Riptide, Healing Wave, Healing Surge, and Chain Heal healing a {2}% chance to trigger Earthliving on the target, healing for {3} over {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "46": {
             "Hash": 2939370662,
             "Name": "Earthquake",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1196692651,
                     "Id": "61882",
                     "Spec": "Elemental",
                     "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec and has a {4}% chance to knock the enemy down."
                 }
-            ]
+            }
         },
-        {
+        "47": {
             "Hash": 3331634868,
             "Name": "Echo Chamber",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4230852303,
                     "Id": "382032",
                     "Spec": "Elemental",
                     "Text": "Increases the damage dealt by your Elemental Overloads by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "48": {
             "Hash": 1284041906,
             "Name": "Echo of the Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1621655891,
                     "Id": "333919",
                     "Spec": "Elemental",
                     "Text": "Lava Burst has an additional charge."
                 },
-                {
+                "1": {
                     "Hash": 4211651657,
                     "Id": "333919",
                     "Spec": "Restoration",
                     "Text": "Riptide and Lava Burst have an additional charge."
                 }
-            ]
+            }
         },
-        {
+        "49": {
             "Hash": 47630302,
             "Name": "Echoes of Great Sundering",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3659075199,
                     "Id": "384087",
                     "Spec": "Elemental",
                     "Text": "After casting Earth Shock, your next Earthquake deals {1}% additional damage.\n\nAfter casting Elemental Blast, your next Earthquake deals {2}% additional damage."
                 }
-            ]
+            }
         },
-        {
+        "50": {
             "Hash": 1279098974,
             "Name": "Electrified Shocks",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1172685883,
                     "Id": "382086",
                     "Spec": "Elemental",
                     "Text": "Icefury causes your Frost Shocks to damage up to {1} additional enemies and targets hit take {2}% increased Nature damage from your spells for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "51": {
             "Hash": 3483001133,
             "Name": "Electrocute",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1895961936,
                     "Id": "206642",
                     "Spec": "Restoration",
                     "Text": "When you successfully Purge a beneficial effect, the enemy suffers {1} Nature damage over {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "52": {
             "Hash": 2545852867,
             "Name": "Elemental Assault",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2005359990,
                     "Id": "210853",
                     "Spec": "Enhancement",
                     "Text": "Stormstrike damage is increased by {1}%, and Stormstrike has a {2}% chance to generate {3} stack of Maelstrom Weapon."
                 }
-            ]
+            }
         },
-        {
+        "53": {
             "Hash": 3199279641,
             "Name": "Elemental Blast",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2422951062,
                     "Id": "117014",
                     "Spec": "Enhancement",
                     "Text": "Harnesses the raw power of the elements, dealing {1} Elemental damage and increasing your Critical Strike or Haste by {2}% or Mastery by {3}% for {4} sec.\n\nIf Lava Burst is known, Elemental Blast replaces Lava Burst and gains {5} additional charge."
                 },
-                {
+                "1": {
                     "Hash": 2014446238,
                     "Id": "117014",
                     "Spec": "Elemental",
                     "Text": "Harnesses the raw power of the elements, dealing {1} Elemental damage and increasing your Critical Strike or Haste by {2}% or Mastery by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "54": {
             "Hash": 2287669165,
             "Name": "Elemental Equilibrium",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 737228432,
                     "Id": "378271",
                     "Spec": "Elemental",
                     "Text": "Dealing direct Fire, Frost, and Nature damage within {1} sec will increase all damage dealt by {2}% for {3} sec. This can only occur once every {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "55": {
             "Hash": 3564889021,
             "Name": "Elemental Fury",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1716898820,
                     "Id": "60188",
                     "Spec": "Elemental",
                     "Text": "Your damaging critical strikes deal {1}% damage instead of the usual {2}%."
                 }
-            ]
+            }
         },
-        {
+        "56": {
             "Hash": 1577494696,
             "Name": "Elemental Orbit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2314699271,
                     "Id": "383010",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases the number of Elemental Shields you can have active on yourself by {1}.\n\nYou can have Earth Shield on yourself and one ally at the same time."
                 }
-            ]
+            }
         },
-        {
+        "57": {
             "Hash": 4165417712,
             "Name": "Elemental Spirits",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4165280804,
                     "Id": "262624",
                     "Spec": "Enhancement",
                     "Text": "Your Feral Spirits are now imbued with Fire, Frost, or Lightning, increasing your damage dealt with that element by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "58": {
             "Hash": 1447462384,
             "Name": "Elemental Warding",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3007961791,
                     "Id": "381650",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces all magic damage taken by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "59": {
             "Hash": 4080505536,
             "Name": "Elemental Weapons",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 267524649,
                     "Id": "384355",
                     "Spec": "Enhancement",
                     "Text": "Increase all Fire, Frost, and Nature damage dealt by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "60": {
             "Hash": 3428539434,
             "Name": "Enfeeblement",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3470390820,
                     "Id": "378079",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "During Hex, the target is slowed by {1}% and for {2} sec after Hex ends."
                 }
-            ]
+            }
         },
-        {
+        "61": {
             "Hash": 1522172945,
             "Name": "Ethereal Form",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3216174172,
                     "Id": "210918",
                     "Spec": "Enhancement",
                     "Text": "You turn ethereal, making you immune to all physical damage, but unable to attack or cast spells and your movement speed is reduced by {1}%. Lasts for {2} sec.\n\nUse Ethereal Form again to shift out."
                 }
-            ]
+            }
         },
-        {
+        "62": {
             "Hash": 3891792118,
             "Name": "Eye of the Storm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 990580067,
                     "Id": "381708",
                     "Spec": "Elemental",
                     "Text": "Reduces the Maelstrom cost of Earth Shock and Earthquake by {1}.\n\nReduces the Maelstrom cost of Elemental Blast by {2}."
                 }
-            ]
+            }
         },
-        {
+        "63": {
             "Hash": 2446070457,
             "Name": "Far Sight",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2602145903,
                     "Id": "6196",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Changes your viewpoint to the targeted location for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "64": {
             "Hash": 208594293,
             "Name": "Feral Lunge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 949187386,
                     "Id": "196884",
                     "Spec": "Enhancement",
                     "Text": "Lunge at your enemy as a ghostly wolf, biting them to deal {1} Physical damage."
                 }
-            ]
+            }
         },
-        {
+        "65": {
             "Hash": 898598183,
             "Name": "Feral Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1424990811,
                     "Id": "51533",
                     "Spec": "Enhancement",
                     "Text": "Summons two Elemental Spirit Wolves that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Fire, Frost, or Nature damage dealt by your abilities.\n\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "66": {
             "Hash": 765415780,
             "Name": "Fire and Ice",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 782453141,
                     "Id": "382886",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases all Fire and Frost damage you deal by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "67": {
             "Hash": 2751316206,
             "Name": "Fire Elemental",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1005259546,
                     "Id": "198067",
                     "Spec": "Elemental",
                     "Text": "Calls forth a Greater Fire Elemental to rain destruction on your enemies for {1} sec. \n\nWhile the Fire Elemental is active, Flame Shock deals damage \n{2}% faster, and newly applied Flame Shocks last {3}% longer."
                 }
-            ]
+            }
         },
-        {
+        "68": {
             "Hash": 3447078260,
             "Name": "Fire Nova",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1499871697,
                     "Id": "333974",
                     "Spec": "Enhancement",
                     "Text": "Erupt a burst of fiery damage from all targets affected by your Flame Shock, dealing {1} Fire damage to up to {2} targets within {3} yds of your Flame Shock targets."
                 }
-            ]
+            }
         },
-        {
+        "69": {
             "Hash": 2992948335,
             "Name": "Flame Shock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2479135150,
                     "Id": "188389",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Sears the target with fire, causing {1} Fire damage and then an additional {2} Fire damage over {3} sec.\n\nFlame Shock can be applied to a maximum of {4} targets."
                 }
-            ]
+            }
         },
-        {
+        "70": {
             "Hash": 1975850959,
             "Name": "Flames of the Cauldron",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2662355781,
                     "Id": "378266",
                     "Spec": "Elemental",
                     "Text": "Reduces the cooldown of Flame Shock by {1} sec and Flame Shock deals damage {2}% faster."
                 }
-            ]
+            }
         },
-        {
+        "71": {
             "Hash": 275463765,
             "Name": "Flametongue Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3534137183,
                     "Id": "318038",
                     "Spec": "Enhancement",
                     "Text": "Imbue your off-hand weapon with the element of Fire for {1} min, causing each of your attacks to deal {2} additional Fire damage. "
                 },
-                {
+                "1": {
                     "Hash": 3417760765,
                     "Id": "318038",
                     "Spec": "Restoration, Elemental",
                     "Text": "Imbue your weapon with the element of Fire for {1} min, causing each of your attacks to deal {2} additional Fire damage. "
                 }
-            ]
+            }
         },
-        {
+        "72": {
             "Hash": 3597702040,
             "Name": "Flash Flood",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 790224537,
                     "Id": "280614",
                     "Spec": "Restoration",
                     "Text": "Consuming Tidal Waves reduces the cast time of your next heal by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "73": {
             "Hash": 1289581319,
             "Name": "Flash of Lightning",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 262685326,
                     "Id": "381936",
                     "Spec": "Elemental",
                     "Text": "Casting Lightning Bolt or Chain Lightning reduces the cooldown of your Nature spells by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "74": {
             "Hash": 483606635,
             "Name": "Flow of Power",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4187745430,
                     "Id": "385923",
                     "Spec": "Elemental",
                     "Text": "Increases the Maelstrom generated by Lightning Bolt and Lava Burst by {1}, and their Elemental Overloads by {2}."
                 }
-            ]
+            }
         },
-        {
+        "75": {
             "Hash": 1538756444,
             "Name": "Flow of the Tides",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1594622850,
                     "Id": "382039",
                     "Spec": "Restoration",
                     "Text": "Chain Heal bounces an additional time and casting Chain Heal on a target affected by Riptide consumes Riptide, increasing the healing of your Chain Heal by {1}%.\n\n"
                 }
-            ]
+            }
         },
-        {
+        "76": {
             "Hash": 2247871445,
             "Name": "Flurry",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 326895829,
                     "Id": "382888",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases your attack speed by {1}% for your next {2} melee swings after dealing a critical strike with a spell or ability."
                 }
-            ]
+            }
         },
-        {
+        "77": {
             "Hash": 1425467526,
             "Name": "Flux Melting",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2882452277,
                     "Id": "381776",
                     "Spec": "Elemental",
                     "Text": "Casting Frost Shock increases the damage of your next Lava Burst by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "78": {
             "Hash": 2489407244,
             "Name": "Focused Insight",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2855413687,
                     "Id": "381666",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Casting Flame Shock reduces the mana cost of your next heal by {1}% and increases its healing effectiveness by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "79": {
             "Hash": 886039770,
             "Name": "Forceful Winds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2129607996,
                     "Id": "262647",
                     "Spec": "Enhancement",
                     "Text": "Windfury causes each successive Windfury attack within {1} sec to increase the damage of Windfury by {2}%, stacking up to {3} times."
                 }
-            ]
+            }
         },
-        {
+        "80": {
             "Hash": 607273375,
             "Name": "Frost Shock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3918196408,
                     "Id": "196840",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Chills the target with frost, causing {1} Frost damage and reducing the target's movement speed by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "81": {
             "Hash": 362597458,
             "Name": "Further Beyond",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1369894627,
                     "Id": "381787",
                     "Spec": "Elemental",
                     "Text": "Casting Earth Shock or Earthquake while Ascendance is active extends the duration of Ascendance by {1} sec.\n\nCasting Elemental Blast while Ascendance is active extends the duration of Ascendance by {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "82": {
             "Hash": 2262045485,
             "Name": "Ghost Wolf",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1602491867,
                     "Id": "2645",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Turn into a Ghost Wolf, increasing movement speed by {1}% and preventing movement speed from being reduced below {2}%."
                 }
-            ]
+            }
         },
-        {
+        "83": {
             "Hash": 1919035115,
             "Name": "Go with the Flow",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2818428163,
                     "Id": "381678",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of Spirit Walk by {1} sec.\n\nReduces the cooldown of Gust of Wind by {2} sec.\n"
                 }
-            ]
+            }
         },
-        {
+        "84": {
             "Hash": 3154326952,
             "Name": "Graceful Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1642663351,
                     "Id": "192088",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of Spiritwalker's Grace by {1} sec and increases your movement speed by {2}% while it is active."
                 }
-            ]
+            }
         },
-        {
+        "85": {
             "Hash": 978819186,
             "Name": "Greater Purge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2396482355,
                     "Id": "378773",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Purges the enemy target, removing {1} beneficial Magic effects."
                 }
-            ]
+            }
         },
-        {
+        "86": {
             "Hash": 3819035325,
             "Name": "Grounding Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1511526774,
                     "Id": "204336",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet that will redirect all harmful spells cast within {1} yards on a nearby party or raid member to itself. Will not redirect area of effect spells. Lasts {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "87": {
             "Hash": 74637788,
             "Name": "Guardian's Cudgel",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3576717915,
                     "Id": "381819",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "When Capacitor Totem fades or is destroyed, another Capacitor Totem is automatically dropped in the same place."
                 }
-            ]
+            }
         },
-        {
+        "88": {
             "Hash": 2055400648,
             "Name": "Gust of Wind",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2620228561,
                     "Id": "192063",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "A gust of wind hurls you forward."
                 }
-            ]
+            }
         },
-        {
+        "89": {
             "Hash": 2173472105,
             "Name": "Hailstorm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1982375777,
                     "Id": "334195",
                     "Spec": "Enhancement",
                     "Text": "Each stack of Maelstrom Weapon consumed increases the damage of your next Frost Shock by {1}%, and causes your next Frost Shock to hit {2} additional target per Maelstrom Weapon stack consumed, up to {3}."
                 }
-            ]
+            }
         },
-        {
+        "90": {
             "Hash": 3729569471,
             "Name": "Healing Rain",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 615766361,
                     "Id": "73920",
                     "Spec": "Restoration",
                     "Text": "Blanket the target area in healing rains, restoring {1} health to up to {2} allies over {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "91": {
             "Hash": 727415692,
             "Name": "Healing Stream Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3016746401,
                     "Id": "5394",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\n\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional charge of {ffffffff|Healing Stream Totem}."
                 }
-            ]
+            }
         },
-        {
+        "92": {
             "Hash": 656918334,
             "Name": "Healing Surge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 416400678,
                     "Id": "8004",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "A quick surge of healing energy that restores {1} of a friendly target's health."
                 }
-            ]
+            }
         },
-        {
+        "93": {
             "Hash": 858393416,
             "Name": "Healing Tide Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1492248008,
                     "Id": "108280",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at your feet for {1} sec, which pulses every {2} sec, healing all party or raid members within {3} yards for {4}.\n\nHealing increased by {5}% when not in a raid."
                 }
-            ]
+            }
         },
-        {
+        "94": {
             "Hash": 1046214339,
             "Name": "Healing Wave",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3665743713,
                     "Id": "77472",
                     "Spec": "Restoration",
                     "Text": "An efficient wave of healing energy that restores {1} of a friendly targets health."
                 }
-            ]
+            }
         },
-        {
+        "95": {
             "Hash": 3580764158,
             "Name": "Heroism",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2745910570,
                     "Id": "32182",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases haste by {1}% for all party and raid members for {2} sec.\n\nAllies receiving this effect will become Exhausted and unable to benefit from Heroism or Time Warp again for {3} min."
                 }
-            ]
+            }
         },
-        {
+        "96": {
             "Hash": 3062186739,
             "Name": "Hex",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2915034099,
                     "Id": "51514",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Transforms the enemy into a frog for {1} sec. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit {2}. Only works on Humanoids and Beasts."
                 }
-            ]
+            }
         },
-        {
+        "97": {
             "Hash": 2697167764,
             "Name": "High Tide",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 705487423,
                     "Id": "157154",
                     "Spec": "Restoration",
                     "Text": "Every {1} mana you spend brings a High Tide, making your next {2} Chain Heals heal for an additional {3}% and not reduce with each jump."
                 }
-            ]
+            }
         },
-        {
+        "98": {
             "Hash": 1772849951,
             "Name": "Hot Hand",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1662862870,
                     "Id": "201900",
                     "Spec": "Enhancement",
                     "Text": "Melee auto-attacks with Flametongue Weapon active have a {1}% chance to reduce the cooldown of Lava Lash by {2}% and increase the damage of Lava Lash by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "99": {
             "Hash": 2332207690,
             "Name": "Ice Strike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 788080594,
                     "Id": "342240",
                     "Spec": "Enhancement",
                     "Text": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\n\nIce Strike increases the damage of your next Frost Shock by {4}%."
                 }
-            ]
+            }
         },
-        {
+        "100": {
             "Hash": 1613585076,
             "Name": "Icefury",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 34153504,
                     "Id": "210714",
                     "Spec": "Elemental",
                     "Text": "Hurls frigid ice at the target, dealing {1} Frost damage and causing your next {2} Frost Shocks to deal {3}% increased damage and generate {4} Maelstrom.\n\n{FFFFFFFF|Generates {5} Maelstrom.}"
                 }
-            ]
+            }
         },
-        {
+        "101": {
             "Hash": 3514949847,
             "Name": "Improved Earthliving Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1136532701,
                     "Id": "382315",
                     "Spec": "Restoration",
                     "Text": "Increases the healing of Earthliving by {1}%.\n\nEarthliving always triggers on targets below {2}% health."
                 }
-            ]
+            }
         },
-        {
+        "102": {
             "Hash": 2568369742,
             "Name": "Improved Flametongue Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3921537413,
                     "Id": "382027",
                     "Spec": "Elemental",
                     "Text": "Imbuing your weapon with Flametongue increases your Fire spell damage by {1}% for {2} hour."
                 }
-            ]
+            }
         },
-        {
+        "103": {
             "Hash": 2572188271,
             "Name": "Improved Maelstrom Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3595650798,
                     "Id": "383303",
                     "Spec": "Enhancement",
                     "Text": "Maelstrom Weapon now increases the damage or healing of spells it affects by {1}% per stack."
                 }
-            ]
+            }
         },
-        {
+        "104": {
             "Hash": 1960663508,
             "Name": "Improved Primordial Wave",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 935288443,
                     "Id": "382191",
                     "Spec": "Restoration",
                     "Text": "Primordial Wave increases the healing done by your next Healing Wave by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "105": {
             "Hash": 2793732146,
             "Name": "Improved Purify Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1625526563,
                     "Id": "383016",
                     "Spec": "Restoration",
                     "Text": "Purify Spirit additionally removes all Curse effects."
                 }
-            ]
+            }
         },
-        {
+        "106": {
             "Hash": 4081850459,
             "Name": "Inundate",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1957941154,
                     "Id": "378776",
                     "Spec": "Elemental",
                     "Text": "Your successful Purge, Cleanse Spirit, Healing Stream Totem, Hex, and Wind Shear casts generate {1} Maelstrom during combat."
                 }
-            ]
+            }
         },
-        {
+        "107": {
             "Hash": 230139073,
             "Name": "Lashing Flames",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2839978596,
                     "Id": "334046",
                     "Spec": "Enhancement",
                     "Text": "Lava Lash increases the damage of Flame Shock on its target by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "108": {
             "Hash": 2813945828,
             "Name": "Lava Burst",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1845622457,
                     "Id": "51505",
                     "Spec": "Elemental",
                     "Text": "Hurls molten lava at the target, dealing {1} Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock.\n\n{FFFFFFFF|Generates {2} Maelstrom.}"
                 },
-                {
+                "1": {
                     "Hash": 1569839130,
                     "Id": "51505",
                     "Spec": "Restoration, Enhancement",
                     "Text": "Hurls molten lava at the target, dealing {1} Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock."
                 }
-            ]
+            }
         },
-        {
+        "109": {
             "Hash": 2899311188,
             "Name": "Lava Lash",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2541843609,
                     "Id": "60103",
                     "Spec": "Enhancement",
                     "Text": "Charges your off-hand weapon with lava and burns your target, dealing {1} Fire damage.\n\nDamage is increased by {2}% if your offhand weapon is imbued with Flametongue Weapon. Lava Lash will spread Flame Shock from your target to {3} nearby targets."
                 }
-            ]
+            }
         },
-        {
+        "110": {
             "Hash": 4091447054,
             "Name": "Lava Surge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1962627598,
                     "Id": "77756",
                     "Spec": "Restoration, Elemental",
                     "Text": "Your Flame Shock damage over time has a {1}% chance to reset the remaining cooldown on Lava Burst and cause your next Lava Burst to be instant."
                 }
-            ]
+            }
         },
-        {
+        "111": {
             "Hash": 3835526860,
             "Name": "Legacy of the Frost Witch",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2317774799,
                     "Id": "384450",
                     "Spec": "Enhancement",
                     "Text": "Consuming {1} stacks of Maelstrom Weapon will reset the cooldown of Stormstrike and increases the damage of your physical abilities by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "112": {
             "Hash": 3722699993,
             "Name": "Lightning Bolt",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 49186552,
                     "Id": "188196",
                     "Spec": "Elemental",
                     "Text": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.\n\n{FFFFFFFF|Generates {2} Maelstrom.}"
                 },
-                {
+                "1": {
                     "Hash": 3278199822,
                     "Id": "188196",
                     "Spec": "Restoration, Enhancement",
                     "Text": "Hurls a bolt of lightning at the target, dealing {1} Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "113": {
             "Hash": 1026363033,
             "Name": "Lightning Lasso",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 171073772,
                     "Id": "305483",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Grips the target in lightning, stunning and dealing {1} Nature damage over {2} sec while the target is lassoed. Can move while channeling."
                 }
-            ]
+            }
         },
-        {
+        "114": {
             "Hash": 2751795956,
             "Name": "Lightning Rod",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 493782148,
                     "Id": "210689",
                     "Spec": "Elemental",
                     "Text": "Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning."
                 }
-            ]
+            }
         },
-        {
+        "115": {
             "Hash": 4028296730,
             "Name": "Lightning Shield",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1781435350,
                     "Id": "192106",
                     "Spec": "Enhancement",
                     "Text": "Surround yourself with a shield of lightning for {1} min.\n\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate a stack of Maelstrom Weapon.\n\nOnly one Elemental Shield can be active on the Shaman at a time."
                 },
-                {
+                "1": {
                     "Hash": 1463939278,
                     "Id": "192106",
                     "Spec": "Elemental",
                     "Text": "Surround yourself with a shield of lightning for {1} min.\n\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate {5} Maelstrom.\n\nOnly one Elemental Shield can be active on the Shaman at a time."
                 },
-                {
+                "2": {
                     "Hash": 3031475768,
                     "Id": "192106",
                     "Spec": "Restoration",
                     "Text": "Surround yourself with a shield of lightning for {1} min.\n\nMelee attackers have a {2}% chance to suffer {3} Nature damage.\n\nThe Shaman can have up to two Elemental Shields active on them."
                 }
-            ]
+            }
         },
-        {
+        "116": {
             "Hash": 1416690917,
             "Name": "Liquid Magma Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2747216895,
                     "Id": "192222",
                     "Spec": "Elemental",
                     "Text": "Summons a totem at the target location that erupts dealing {1} Fire damage and applying Flame Shock to {2} enemies within {3} yards. Continues hurling liquid magma at a random nearby target every {4} sec for {5} sec, dealing {6} Fire damage to all enemies within {7} yards.\n"
                 }
-            ]
+            }
         },
-        {
+        "117": {
             "Hash": 831431100,
             "Name": "Living Stream",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3936316089,
                     "Id": "382482",
                     "Spec": "Restoration",
                     "Text": "Healing Stream Totem heals for {1}% more each time it ticks."
                 }
-            ]
+            }
         },
-        {
+        "118": {
             "Hash": 2734914987,
             "Name": "Living Tide",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3859055205,
                     "Id": "353115",
                     "Spec": "Restoration",
                     "Text": "Healing Tide Totem's cooldown is reduced by {1} sec and it heals for {2}% more each time it pulses."
                 }
-            ]
+            }
         },
-        {
+        "119": {
             "Hash": 279282282,
             "Name": "Maelstrom Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1606058758,
                     "Id": "187880",
                     "Spec": "Enhancement",
                     "Text": "When you deal damage with a melee weapon, you have a chance to gain Maelstrom Weapon, stacking up to {1} times. Each stack of Maelstrom Weapon reduces the cast time of your next damage or healing spell by {2}% and increase the damage or healing of your next spell by {3}%. A maximum of {4} stacks of Maelstrom Weapon can be consumed at a time."
                 },
-                {
+                "1": {
                     "Hash": 2610358154,
                     "Id": "187880",
                     "Spec": "Restoration, Elemental",
                     "Text": "When you deal damage with a melee weapon, you have a chance to gain Maelstrom Weapon, stacking up to {1} times. Each stack of Maelstrom Weapon reduces the cast time of your next damage or healing spell by {2}%. A maximum of {3} stacks of Maelstrom Weapon can be consumed at a time."
                 }
-            ]
+            }
         },
-        {
+        "120": {
             "Hash": 3156957944,
             "Name": "Magma Chamber",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3603930768,
                     "Id": "381932",
                     "Spec": "Elemental",
                     "Text": "Flame Shock damage increases the damage of your next Earth Shock, Elemental Blast, or Earthquake by {1}%, stacking up to {2} times."
                 }
-            ]
+            }
         },
-        {
+        "121": {
             "Hash": 4177031962,
             "Name": "Mana Spring",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3942813997,
                     "Id": "381930",
                     "Spec": "Enhancement",
                     "Text": "Your Stormstrike casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
                 },
-                {
+                "1": {
                     "Hash": 175061634,
                     "Id": "381930",
                     "Spec": "Restoration",
                     "Text": "Your Lava Burst and Riptide casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
                 },
-                {
+                "2": {
                     "Hash": 4228806506,
                     "Id": "381930",
                     "Spec": "Elemental",
                     "Text": "Your Lava Burst casts restore {1} mana to you and {2} allies nearest to you within {3} yards.\n\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers."
                 }
-            ]
+            }
         },
-        {
+        "122": {
             "Hash": 250433402,
             "Name": "Mana Tide Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1684549410,
                     "Id": "16191",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at your feet for {1} sec, granting {2}% increased mana regeneration to allies within {3} yards."
                 }
-            ]
+            }
         },
-        {
+        "123": {
             "Hash": 1430611985,
             "Name": "Master of the Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1785869771,
                     "Id": "16166",
                     "Spec": "Elemental",
                     "Text": "Casting Lava Burst increases the damage or healing of your next Nature, Physical, or Frost spell by {1}%."
                 },
-                {
+                "1": {
                     "Hash": 1529858281,
                     "Id": "16166",
                     "Spec": "Restoration",
                     "Text": "Casting Lava Burst increases the damage or healing of your next Nature or Frost spell by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "124": {
             "Hash": 3666566495,
             "Name": "Mastery: Deep Healing",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1903390679,
                     "Id": "77226",
                     "Spec": "Restoration",
                     "Text": "Increases healing from your spells by up to {1}%, based on the current health of your target. Lower health targets are healed for more."
                 }
-            ]
+            }
         },
-        {
+        "125": {
             "Hash": 2283551709,
             "Name": "Mastery: Elemental Overload",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1460367653,
                     "Id": "168534",
                     "Spec": "Elemental",
                     "Text": "Your Lightning Bolt, Lava Burst, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\n"
                 }
-            ]
+            }
         },
-        {
+        "126": {
             "Hash": 3879827352,
             "Name": "Mastery: Enhanced Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 762642276,
                     "Id": "77223",
                     "Spec": "Enhancement",
                     "Text": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\n\n|T136099:24|t {ffffffff|Stormbringer}\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {4}% additional damage as Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "127": {
             "Hash": 3868447527,
             "Name": "Molten Assault",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3294488617,
                     "Id": "334033",
                     "Spec": "Enhancement",
                     "Text": "Lava Lash cooldown reduced by {1} sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to {2} enemies near the target."
                 }
-            ]
+            }
         },
-        {
+        "128": {
             "Hash": 541839849,
             "Name": "Mountains Will Fall",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 233618970,
                     "Id": "381726",
                     "Spec": "Elemental",
                     "Text": "Earth Shock, Elemental Blast, and Earthquake can trigger your Mastery: Elemental Overload at {1}% effectiveness.\n\nOverloaded Earthquakes do not knock enemies down."
                 }
-            ]
+            }
         },
-        {
+        "129": {
             "Hash": 2739202219,
             "Name": "Nature's Fury",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 626858188,
                     "Id": "381655",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases the critical strike chance of your Nature spells and abilities by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "130": {
             "Hash": 2122092991,
             "Name": "Nature's Guardian",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4289862217,
                     "Id": "30884",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "When your health is brought below {1}%, you instantly heal for {2}% of your maximum health.  Cannot occur more than once every {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "131": {
             "Hash": 2896041592,
             "Name": "Nature's Swiftness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 520311595,
                     "Id": "378081",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Your next healing or damaging Nature spell is instant cast and costs no mana."
                 }
-            ]
+            }
         },
-        {
+        "132": {
             "Hash": 1775946928,
             "Name": "Oath of the Far Seer",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1402945847,
                     "Id": "381785",
                     "Spec": "Elemental",
                     "Text": "Reduces the cooldown of Ascendance by {1} sec, and you gain {2}% additional Haste while Ascendance is active."
                 }
-            ]
+            }
         },
-        {
+        "133": {
             "Hash": 1681876834,
             "Name": "Overflowing Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2734738595,
                     "Id": "384149",
                     "Spec": "Enhancement",
                     "Text": "Your damage or healing spells will now consume up to {1} Maelstrom Weapon stacks. "
                 }
-            ]
+            }
         },
-        {
+        "134": {
             "Hash": 3877821646,
             "Name": "Overflowing Shores",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 251540688,
                     "Id": "383222",
                     "Spec": "Restoration",
                     "Text": "Healing Rain instantly restores {1} health to {2} allies within its area, and its radius is increased by {3} yards."
                 }
-            ]
+            }
         },
-        {
+        "135": {
             "Hash": 1411679087,
             "Name": "Planes Traveler",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 645696117,
                     "Id": "381647",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of Astral Shift by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "136": {
             "Hash": 1433953117,
             "Name": "Poison Cleansing Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4230618785,
                     "Id": "383013",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet that removes all Poison effects from a nearby party or raid member within {1} yards every {2} sec for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "137": {
             "Hash": 883147220,
             "Name": "Power of the Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 948630541,
                     "Id": "191861",
                     "Spec": "Elemental",
                     "Text": "Casting Lava Burst has a {1}% chance to cause your next {2} Lightning Bolt or Chain Lightning casts to trigger Elemental Overload an additional time."
                 }
-            ]
+            }
         },
-        {
+        "138": {
             "Hash": 2345603525,
             "Name": "Precognition",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 525859810,
                     "Id": "377360",
                     "Spec": "Restoration, Elemental",
                     "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "139": {
             "Hash": 1269760091,
             "Name": "Primal Elementalist",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3695920078,
                     "Id": "117013",
                     "Spec": "Elemental",
                     "Text": "Your Earth, Fire, and Storm Elementals are drawn from primal elementals {1}% more powerful than regular elementals, with additional abilities, and you gain direct control over them."
                 }
-            ]
+            }
         },
-        {
+        "140": {
             "Hash": 1974547698,
             "Name": "Primal Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2858592470,
                     "Id": "384405",
                     "Spec": "Enhancement",
                     "Text": "Primordial Wave generates {1} stacks of Maelstrom Weapon."
                 }
-            ]
+            }
         },
-        {
+        "141": {
             "Hash": 1601217413,
             "Name": "Primal Strike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1924773383,
                     "Id": "73899",
                     "Spec": "Restoration, Elemental",
                     "Text": "An instant weapon strike that causes {1} Physical damage."
                 }
-            ]
+            }
         },
-        {
+        "142": {
             "Hash": 3210774672,
             "Name": "Primal Tide Core",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1744146627,
                     "Id": "382045",
                     "Spec": "Restoration",
                     "Text": "Every {1} casts of Riptide also applies Riptide to another friendly target near your Riptide target."
                 }
-            ]
+            }
         },
-        {
+        "143": {
             "Hash": 3503305394,
             "Name": "Primordial Bond",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 787110126,
                     "Id": "381764",
                     "Spec": "Elemental",
                     "Text": "While you have an elemental active, your damage taken is reduced by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "144": {
             "Hash": 3232570134,
             "Name": "Primordial Fury",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2851253669,
                     "Id": "378193",
                     "Spec": "Elemental",
                     "Text": "Your healing critical strikes heal for {1}% healing instead of the usual {2}%.\n"
                 }
-            ]
+            }
         },
-        {
+        "145": {
             "Hash": 825516943,
             "Name": "Primordial Surge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3024038832,
                     "Id": "386474",
                     "Spec": "Elemental",
                     "Text": "Casting Primordial Wave triggers Lava Surge immediately and every {1} sec for {2} sec. Lava Surges triggered by Primordial Wave increase the damage of your next Lava Burst by {3}%."
                 }
-            ]
+            }
         },
-        {
+        "146": {
             "Hash": 2927684333,
             "Name": "Primordial Wave",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1727607424,
                     "Id": "375982",
                     "Spec": "Enhancement",
                     "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\n\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {3}% of normal damage."
                 },
-                {
+                "1": {
                     "Hash": 3149722174,
                     "Id": "375982",
                     "Spec": "Elemental",
                     "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\n\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {3}% of normal damage."
                 },
-                {
+                "2": {
                     "Hash": 3727459360,
                     "Id": "375982",
                     "Spec": "Restoration",
                     "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2} and apply Riptide to them.\n\nYour next Healing Wave will also hit all targets affected by your Riptide for {3}% of normal healing."
                 }
-            ]
+            }
         },
-        {
+        "147": {
             "Hash": 469232920,
             "Name": "Purge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2772111852,
                     "Id": "370",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Purges the enemy target, removing {1} beneficial Magic effect."
                 }
-            ]
+            }
         },
-        {
+        "148": {
             "Hash": 3760752971,
             "Name": "Purify Spirit",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4288251378,
                     "Id": "77130",
                     "Spec": "Restoration",
                     "Text": "Removes all Magic effects from a friendly target."
                 }
-            ]
+            }
         },
-        {
+        "149": {
             "Hash": 3896599364,
             "Name": "Raging Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2779624649,
                     "Id": "384143",
                     "Spec": "Enhancement",
                     "Text": "Maelstrom Weapon can now stack {1} additional times, and Maelstrom Weapon now increases the damage or healing of spells it affects by an additional {2}% per stack."
                 }
-            ]
+            }
         },
-        {
+        "150": {
             "Hash": 2993943089,
             "Name": "Refreshing Waters",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1672551781,
                     "Id": "378211, 393905",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Your Healing Surge is {1}% more effective on yourself.\n"
                 }
-            ]
+            }
         },
-        {
+        "151": {
             "Hash": 3932602609,
             "Name": "Reincarnation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2370016768,
                     "Id": "20608",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Allows you to resurrect yourself upon death with {1}% health and mana. This effect can occur only once every {2} minutes."
                 }
-            ]
+            }
         },
-        {
+        "152": {
             "Hash": 3505166010,
             "Name": "Resonant Waters",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2563439947,
                     "Id": "404539",
                     "Spec": "Restoration",
                     "Text": "Increases the duration of Mana Tide Totem by {1} sec and increases its radius by {2} yards."
                 }
-            ]
+            }
         },
-        {
+        "153": {
             "Hash": 38511663,
             "Name": "Resurgence",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3639845959,
                     "Id": "16196",
                     "Spec": "Restoration",
                     "Text": "Your direct heal criticals refund a percentage of your maximum mana: {1}% from Healing Wave, {2}% from Healing Surge or Riptide, and {3}% from Chain Heal."
                 }
-            ]
+            }
         },
-        {
+        "154": {
             "Hash": 1165579124,
             "Name": "Ride the Lightning",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2691999528,
                     "Id": "289874",
                     "Spec": "Enhancement",
                     "Text": "If there are more than {1} enemies within {2} yards when you cast Stormstrike, you also cast a Chain Lightning on the target, dealing {3} Nature damage.\n\nOtherwise, you conjure bolts of lightning to up to {4} furthest enemies within {5} yards dealing {6} Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "155": {
             "Hash": 2194880751,
             "Name": "Riptide",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3616228757,
                     "Id": "61295",
                     "Spec": "Restoration",
                     "Text": "Restorative waters wash over a friendly target, healing them for {1} and an additional {2} over {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "156": {
             "Hash": 223264419,
             "Name": "Rolling Magma",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2602210911,
                     "Id": "386443",
                     "Spec": "Elemental",
                     "Text": "Lava Burst and Lava Burst Overload damage reduces the cooldown of Primordial Wave by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "157": {
             "Hash": 1535337430,
             "Name": "Searing Flames",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2972885709,
                     "Id": "381782",
                     "Spec": "Elemental",
                     "Text": "Flame Shock damage has a {1}% chance to generate {2} Maelstrom."
                 }
-            ]
+            }
         },
-        {
+        "158": {
             "Hash": 1419195082,
             "Name": "Seasoned Winds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2478000950,
                     "Id": "355630",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Interrupting a spell with Wind Shear decreases your damage taken from that spell school by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "159": {
             "Hash": 1485090942,
             "Name": "Shamanism",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1671006755,
                     "Id": "193876",
                     "Spec": "Enhancement",
                     "Text": "Your Heroism spell now has a {1} sec. cooldown, but increases Haste by {2}%, and only affects you and your friendly target when cast for {3} sec.\n\nIn addition, Heroism is no longer affected by Exhaustion."
                 }
-            ]
+            }
         },
-        {
+        "160": {
             "Hash": 651181811,
             "Name": "Skybreaker's Fiery Demise",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1384164067,
                     "Id": "378310",
                     "Spec": "Elemental",
                     "Text": "Flame Shock damage over time critical strikes reduce the cooldown of your Fire and Storm Elemental by {1} sec, and Flame Shock has a {2}% increased critical strike chance."
                 }
-            ]
+            }
         },
-        {
+        "161": {
             "Hash": 1864782348,
             "Name": "Skyfury Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 311133514,
                     "Id": "204330",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet for {1} sec that increases the critical effect of damage and healing spells of all nearby allies within {2} yards by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "162": {
             "Hash": 2509731252,
             "Name": "Spectral Recovery",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2846422446,
                     "Id": "204261",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "While in Ghost Wolf, you heal {1}% health every {2} sec.\n\nIncreases the movement speed of Ghost Wolf by an additional {3}%."
                 }
-            ]
+            }
         },
-        {
+        "163": {
             "Hash": 2173514084,
             "Name": "Spirit Link Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3249310358,
                     "Id": "98008",
                     "Spec": "Restoration",
                     "Text": "Summons a totem at the target location for {1} sec, which reduces damage taken by all party and raid members within {2} yards by {3}%. Immediately and every {4} sec, the health of all affected players is redistributed evenly."
                 }
-            ]
+            }
         },
-        {
+        "164": {
             "Hash": 362315651,
             "Name": "Spirit Walk",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1067176021,
                     "Id": "58875",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Removes all movement impairing effects and increases your movement speed by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "165": {
             "Hash": 2909323161,
             "Name": "Spirit Wolf",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1829710906,
                     "Id": "260878",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "While transformed into a Ghost Wolf, you gain {1}% increased movement speed and {2}% damage reduction every {3} sec, stacking up to {4} times."
                 }
-            ]
+            }
         },
-        {
+        "166": {
             "Hash": 1595305981,
             "Name": "Spiritwalker's Aegis",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1934829320,
                     "Id": "378077",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "167": {
             "Hash": 2409285204,
             "Name": "Spiritwalker's Grace",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3192192219,
                     "Id": "79206",
                     "Spec": "Enhancement",
                     "Text": "Calls upon the guidance of the spirits for {1} sec, permitting movement while casting Shaman spells. Castable while casting."
                 },
-                {
+                "1": {
                     "Hash": 87785136,
                     "Id": "79206",
                     "Spec": "Restoration, Elemental",
                     "Text": "Calls upon the guidance of the spirits for {1} sec, permitting movement while casting Shaman spells. Castable while casting. Increases movement speed by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "168": {
             "Hash": 1409141641,
             "Name": "Spiritwalker's Tidal Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 397028228,
                     "Id": "404522",
                     "Spec": "Restoration",
                     "Text": "After using Mana Tide Totem, the cast time and mana cost of Healing Wave and Chain Heal is reduced by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "169": {
             "Hash": 1833671347,
             "Name": "Splintered Elements",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3961663189,
                     "Id": "382042",
                     "Spec": "Enhancement",
                     "Text": "Each additional Lightning Bolt generated by Primordial Wave increases your Haste by {1}% for {2} sec."
                 },
-                {
+                "1": {
                     "Hash": 3615630758,
                     "Id": "382042",
                     "Spec": "Elemental",
                     "Text": "Each additional Lava Burst generated by Primordial Wave increases your Haste by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "170": {
             "Hash": 1605398075,
             "Name": "Static Accumulation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 640809637,
                     "Id": "384411",
                     "Spec": "Enhancement",
                     "Text": "While Ascendance is active, generate {1} Maelstrom Weapon stack every {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "171": {
             "Hash": 4230597799,
             "Name": "Static Charge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2851733773,
                     "Id": "265046",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of Capacitor Totem by {1} sec for each enemy it stuns, up to a maximum reduction of {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "172": {
             "Hash": 491260078,
             "Name": "Static Field Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4024694430,
                     "Id": "355580",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Summons a totem with {1}% of your health at the target location for {2} sec that forms a circuit of electricity that enemies cannot pass through."
                 }
-            ]
+            }
         },
-        {
+        "173": {
             "Hash": 226329393,
             "Name": "Stoneskin Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2670965223,
                     "Id": "383017",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet for {1} sec that grants {2}% physical damage reduction to you and the {3} allies nearest to the totem within {4} yards."
                 }
-            ]
+            }
         },
-        {
+        "174": {
             "Hash": 3170411094,
             "Name": "Storm Elemental",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3988532462,
                     "Id": "192249",
                     "Spec": "Elemental",
                     "Text": "Calls forth a Greater Storm Elemental to hurl gusts of wind that damage the Shaman's enemies for {1} sec.\n\nWhile the Storm Elemental is active, each time you cast Lightning Bolt or Chain Lightning, the cast time of Lightning Bolt and Chain Lightning is reduced by {2}%, stacking up to {3} times."
                 }
-            ]
+            }
         },
-        {
+        "175": {
             "Hash": 2333800347,
             "Name": "Storm's Wrath",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 51455764,
                     "Id": "392352",
                     "Spec": "Enhancement",
                     "Text": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormbringer by {1}%. "
                 }
-            ]
+            }
         },
-        {
+        "176": {
             "Hash": 2931461522,
             "Name": "Stormblast",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 246142688,
                     "Id": "319930",
                     "Spec": "Enhancement",
                     "Text": "Stormbringer now also causes your next Stormstrike to deal {1}% additional damage as Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "177": {
             "Hash": 3761202576,
             "Name": "Stormflurry",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 812613873,
                     "Id": "344357",
                     "Spec": "Enhancement",
                     "Text": "Stormstrike has a {1}% chance to strike the target an additional time for {2}% of normal damage. This effect can chain off of itself."
                 }
-            ]
+            }
         },
-        {
+        "178": {
             "Hash": 3893648249,
             "Name": "Stormkeeper",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4151872719,
                     "Id": "191634",
                     "Spec": "Elemental",
                     "Text": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.\n\nIf you already know {ffffffff|Stormkeeper}, instead gain {4} additional charge of {ffffffff|Stormkeeper}."
                 },
-                {
+                "1": {
                     "Hash": 2627758613,
                     "Id": "383009",
                     "Spec": "Restoration",
                     "Text": "Charge yourself with lightning, causing your next {1} Lightning Bolts or Chain Lightnings to deal {2}% more damage and be instant cast."
                 }
-            ]
+            }
         },
-        {
+        "179": {
             "Hash": 440947055,
             "Name": "Stormstrike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4277300720,
                     "Id": "17364",
                     "Spec": "Enhancement",
                     "Text": "Energizes both your weapons with lightning and delivers a massive blow to your target, dealing a total of {1} Physical damage."
                 }
-            ]
+            }
         },
-        {
+        "180": {
             "Hash": 665532377,
             "Name": "Sundering",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1045466772,
                     "Id": "197214",
                     "Spec": "Enhancement",
                     "Text": "Shatters a line of earth in front of you with your main hand weapon, causing {1} Flamestrike damage and Incapacitating any enemy hit for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "181": {
             "Hash": 1345740269,
             "Name": "Surge of Power",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1895009253,
                     "Id": "262303",
                     "Spec": "Elemental",
                     "Text": "Earth Shock, Elemental Blast, and Earthquake enhance your next spell cast within {1} sec:\n\n{FFFFFFFF|Flame Shock}: The next cast also applies Flame Shock to {2} additional target within {3} yards of the target.\n\n{FFFFFFFF|Lightning Bolt}: Your next cast will cause an additional {4} Elemental Overloads.\n\n{FFFFFFFF|Chain Lightning}: Your next cast will chain to {5} additional target.\n\n{FFFFFFFF|Lava Burst}: Reduces the cooldown of your Fire and Storm Elemental by {6} sec.\n\n{FFFFFFFF|Frost Shock}: Freezes the target in place for {7} sec."
                 }
-            ]
+            }
         },
-        {
+        "182": {
             "Hash": 2768582725,
             "Name": "Surging Shields",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1117567569,
                     "Id": "382033",
                     "Spec": "Enhancement",
                     "Text": "Increases the damage dealt by Lightning Shield by {1}% and it has an additional {2}% chance to trigger Maelstrom Weapon when triggered.\n\nIncreases the healing done by Earth Shield by {3}%.\n\n"
                 },
-                {
+                "1": {
                     "Hash": 942720154,
                     "Id": "382033",
                     "Spec": "Elemental",
                     "Text": "Increases the damage dealt by Lightning Shield by {1}% and causes it to generate an additional {2} Maelstrom when triggered.\n\nIncreases the healing done by Earth Shield by {3}%.\n\n"
                 },
-                {
+                "2": {
                     "Hash": 927718406,
                     "Id": "382033",
                     "Spec": "Restoration",
                     "Text": "Increases the damage dealt by Lightning Shield by {1}%.\n\nIncreases the healing done by Earth Shield by {2}%.\n\nIncreases the amount of mana recovered when Water Shield is triggered by {3}%."
                 }
-            ]
+            }
         },
-        {
+        "183": {
             "Hash": 3729211089,
             "Name": "Swelling Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2607466143,
                     "Id": "381707",
                     "Spec": "Elemental",
                     "Text": "Increases your maximum Maelstrom by {1}."
                 }
-            ]
+            }
         },
-        {
+        "184": {
             "Hash": 140198758,
             "Name": "Swelling Waves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2928668331,
                     "Id": "204264",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "When you cast Healing Surge on yourself, you are healed for {1}% of the amount {2} sec later."
                 }
-            ]
+            }
         },
-        {
+        "185": {
             "Hash": 2241417593,
             "Name": "Swirling Currents",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 737489235,
                     "Id": "378094",
                     "Spec": "Restoration",
                     "Text": "Increases the healing done by Healing Stream Totem and Cloudburst Totem by {1}%."
                 },
-                {
+                "1": {
                     "Hash": 3247972666,
                     "Id": "378094",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Increases the healing done by Healing Stream Totem by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "186": {
             "Hash": 2039642690,
             "Name": "Swirling Maelstrom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1577177185,
                     "Id": "384359",
                     "Spec": "Enhancement",
                     "Text": "Consuming at least {1} stacks of Hailstorm, using Ice Strike, and each explosion from Fire Nova now also grants you {2} stack of Maelstrom Weapon."
                 }
-            ]
+            }
         },
-        {
+        "187": {
             "Hash": 3279631055,
             "Name": "Thorim's Invocation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 382334621,
                     "Id": "384444",
                     "Spec": "Enhancement",
                     "Text": "While Ascendance is active, Windstrike automatically consumes up to {1} Maelstrom Weapon stacks to discharge a Lightning Bolt or Chain Lightning at your enemy, whichever you most recently used."
                 }
-            ]
+            }
         },
-        {
+        "188": {
             "Hash": 3987187763,
             "Name": "Thundercharge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1161356272,
                     "Id": "204366",
                     "Spec": "Enhancement",
                     "Text": "You call down bolts of lightning, charging you and your target's weapons.  The cooldown recovery rate of all abilities is increased by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "189": {
             "Hash": 2763022005,
             "Name": "Thunderous Paws",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3334739271,
                     "Id": "378075",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Ghost Wolf removes snares and increases your movement speed by an additional {1}% for the first {2} sec. May only occur once every {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "190": {
             "Hash": 513552281,
             "Name": "Thundershock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2980286512,
                     "Id": "378779",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Thunderstorm knocks enemies up instead of away and its cooldown is reduced by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "191": {
             "Hash": 3479597028,
             "Name": "Thunderstorm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2770447476,
                     "Id": "51490",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Calls down a bolt of lightning, dealing {1} Nature damage to all enemies within {2} yards, reducing their movement speed by {3}% for {4} sec, and knocking them away from the Shaman. Usable while stunned."
                 }
-            ]
+            }
         },
-        {
+        "192": {
             "Hash": 2746493198,
             "Name": "Tidal Waves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1632304011,
                     "Id": "51564",
                     "Spec": "Restoration",
                     "Text": "Casting Riptide grants {1} stacks of Tidal Waves. Tidal Waves reduce the cast time of your next Healing Wave or Chain Heal by {2}%, or the critical effect chance of your next Healing Surge by {3}%."
                 }
-            ]
+            }
         },
-        {
+        "193": {
             "Hash": 4085193797,
             "Name": "Tide Turner",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4209171568,
                     "Id": "404019",
                     "Spec": "Restoration",
                     "Text": "The lowest health target of Healing Tide Totem is healed for {1}% more and receives {2}% increased healing from you for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "194": {
             "Hash": 582766401,
             "Name": "Tidebringer",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2442259628,
                     "Id": "236501",
                     "Spec": "Restoration",
                     "Text": "Every {1} sec, the cast time of your next Chain Heal is reduced by {2}%, and jump distance increased by {3}%. Maximum of {4} charges.\n"
                 }
-            ]
+            }
         },
-        {
+        "195": {
             "Hash": 2660086268,
             "Name": "Torrent",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2709176115,
                     "Id": "200072",
                     "Spec": "Restoration",
                     "Text": "Increases the initial heal from Riptide by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "196": {
             "Hash": 1687985132,
             "Name": "Totemic Focus",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3631544022,
                     "Id": "382201",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Increases the radius of your totem effects by {1}%.\n\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\n\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by {3} sec."
                 },
-                {
+                "1": {
                     "Hash": 670774397,
                     "Id": "382201",
                     "Spec": "Restoration",
                     "Text": "Increases the radius of your totem effects by {1}%.\n\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\n\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, Ancestral Protection, Earthen Wall, and Wind Rush Totems by {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "197": {
             "Hash": 2890185920,
             "Name": "Totemic Projection",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3591335730,
                     "Id": "108287",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Relocates your active totems to the specified location."
                 }
-            ]
+            }
         },
-        {
+        "198": {
             "Hash": 777522418,
             "Name": "Totemic Recall",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 71579054,
                     "Id": "108285",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Resets the cooldown of your most recently used totem with a base cooldown shorter than {1} minutes."
                 }
-            ]
+            }
         },
-        {
+        "199": {
             "Hash": 3734042226,
             "Name": "Totemic Surge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1983823427,
                     "Id": "381867",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of your totems by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "200": {
             "Hash": 2214143157,
             "Name": "Tranquil Air Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1446726039,
                     "Id": "383019",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet for {1} sec that prevents cast pushback and reduces the duration of all incoming interrupt effects by {2}% for you and the {3} allies nearest to the totem within {4} yards."
                 }
-            ]
+            }
         },
-        {
+        "201": {
             "Hash": 888630227,
             "Name": "Traveling Storms",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3685851587,
                     "Id": "204403",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Thunderstorm now can be cast on allies within {1} yards, reduces enemies movement speed by {2}% and knocks enemies {3}% further.\n\nThundershock knocks enemies {4}% higher."
                 }
-            ]
+            }
         },
-        {
+        "202": {
             "Hash": 718374299,
             "Name": "Tremor Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3939873723,
                     "Id": "8143",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at your feet that shakes the ground around it for {1} sec, removing Fear, Charm and Sleep effects from party and raid members within {2} yards."
                 }
-            ]
+            }
         },
-        {
+        "203": {
             "Hash": 1163291006,
             "Name": "Tumbling Waves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 973907885,
                     "Id": "382040",
                     "Spec": "Restoration",
                     "Text": "Primordial Wave has a {1}% chance to not incur its cooldown."
                 }
-            ]
+            }
         },
-        {
+        "204": {
             "Hash": 1800114789,
             "Name": "Tumultuous Fissures",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 345685439,
                     "Id": "381743",
                     "Spec": "Elemental",
                     "Text": "Increases the chance for Earthquake to knock enemies down by {1}%.\n"
                 }
-            ]
+            }
         },
-        {
+        "205": {
             "Hash": 1349184177,
             "Name": "Undercurrent",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 899895764,
                     "Id": "382194",
                     "Spec": "Restoration",
                     "Text": "For each Riptide active on an ally, your heals are {1}% more effective."
                 }
-            ]
+            }
         },
-        {
+        "206": {
             "Hash": 2654886445,
             "Name": "Undulation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3790272154,
                     "Id": "200071",
                     "Spec": "Restoration",
                     "Text": "Every third Healing Wave or Healing Surge heals for an additional {1}%."
                 }
-            ]
+            }
         },
-        {
+        "207": {
             "Hash": 3450099607,
             "Name": "Unleash Life",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2936895274,
                     "Id": "73685",
                     "Spec": "Restoration",
                     "Text": "Unleash elemental forces of Life, healing a friendly target for {1} and increasing the effect of your next healing spell.\n\n{FFFFFFFF|Riptide, Healing Wave, or Healing Surge}: {2}% increased healing.\n\n{FFFFFFFF|Chain Heal}: {3}% increased healing and bounces to {4} additional target.\n\n{FFFFFFFF|Healing Rain or Downpour}: {5} additional allies healed.\n\n{FFFFFFFF|Wellspring}: {6}% of overhealing done is converted to an absorb effect."
                 }
-            ]
+            }
         },
-        {
+        "208": {
             "Hash": 4018197275,
             "Name": "Unleash Shield",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4032740615,
                     "Id": "356736",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Unleash your Elemental Shield's energy on an enemy target:\n\n|T136051:24|t{ffffffff|Lightning Shield}: Knocks them away.\n\n|T136089:24|t{ffffffff|Earth Shield}: Roots them in place for {1} sec.\n\n|T132315:24|t{ffffffff|Water Shield}: Summons a whirlpool for {2} sec, reducing damage and healing by {3}% while they stand within it."
                 }
-            ]
+            }
         },
-        {
+        "209": {
             "Hash": 524503257,
             "Name": "Unrelenting Calamity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1099182392,
                     "Id": "382685",
                     "Spec": "Elemental",
                     "Text": "Reduces the cast time of Lightning Bolt and Chain Lightning by {1} sec.\n\nIncreases the duration of Earthquake by {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "210": {
             "Hash": 3997933934,
             "Name": "Unruly Winds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 123485157,
                     "Id": "390288",
                     "Spec": "Enhancement",
                     "Text": "Windfury Weapon has a {1}% chance to trigger a third attack."
                 }
-            ]
+            }
         },
-        {
+        "211": {
             "Hash": 1462084899,
             "Name": "Voodoo Mastery",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2908627858,
                     "Id": "204268",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Reduces the cooldown of Hex by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "212": {
             "Hash": 494164703,
             "Name": "Water Shield",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2906482612,
                     "Id": "52127",
                     "Spec": "Restoration",
                     "Text": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every few seconds. \n\nThe Shaman can have up to two Elemental Shields active on them."
                 }
-            ]
+            }
         },
-        {
+        "213": {
             "Hash": 983332254,
             "Name": "Water Totem Mastery",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 88929805,
                     "Id": "382030",
                     "Spec": "Restoration",
                     "Text": "Consuming Tidal Waves reduces the cooldown of your Healing Stream, Cloudburst, Healing Tide, Mana Tide, and Poison Cleansing totems by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "214": {
             "Hash": 3701052186,
             "Name": "Water Walking",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 952760446,
                     "Id": "546",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Allows the friendly target to walk across water for {1} min. Damage will cancel the effect."
                 }
-            ]
+            }
         },
-        {
+        "215": {
             "Hash": 2964301148,
             "Name": "Wavespeaker's Blessing",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4250258961,
                     "Id": "381946",
                     "Spec": "Restoration",
                     "Text": "Increases the duration of Riptide by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "216": {
             "Hash": 1437624384,
             "Name": "Wellspring",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2543125365,
                     "Id": "197995",
                     "Spec": "Restoration",
                     "Text": "Creates a surge of water that flows forward, healing friendly targets in a wide arc in front of you for {1}."
                 }
-            ]
+            }
         },
-        {
+        "217": {
             "Hash": 3858842032,
             "Name": "Wind Rush Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2398209634,
                     "Id": "192077",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Summons a totem at the target location for {1} sec, continually granting all allies who pass within {2} yards {3}% increased movement speed for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "218": {
             "Hash": 144617869,
             "Name": "Wind Shear",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 135595243,
                     "Id": "57994",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Disrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "219": {
             "Hash": 1152949669,
             "Name": "Windfury Totem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3663972208,
                     "Id": "8512",
                     "Spec": "Enhancement",
                     "Text": "Summons a totem at your feet for {1} min.  Party members within {2} yds have a {3}% chance when they auto-attack to swing an extra time."
                 }
-            ]
+            }
         },
-        {
+        "220": {
             "Hash": 3296215305,
             "Name": "Windfury Weapon",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1310990630,
                     "Id": "33757",
                     "Spec": "Enhancement",
                     "Text": "Imbue your main-hand weapon with the element of Wind for {1} min. Each main-hand attack has a {2}% chance to trigger three extra attacks, dealing {3} Physical damage each.\n\nWindfury causes each successive Windfury attack within {4} sec to increase the damage of Windfury by {5}%, stacking up to {6} times."
                 }
-            ]
+            }
         },
-        {
+        "221": {
             "Hash": 2998291079,
             "Name": "Winds of Al'Akir",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1671504577,
                     "Id": "382215",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Increases the movement speed bonus of Ghost Wolf by {1}%.\n\nWhen you have {2} or more totems active, your movement speed is increased by {3}%."
                 }
-            ]
+            }
         },
-        {
+        "222": {
             "Hash": 4147647193,
             "Name": "Windspeaker's Lava Resurgence",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1524135792,
                     "Id": "378268",
                     "Spec": "Elemental",
                     "Text": "When you cast Earth Shock, Elemental Blast, or Earthquake, gain Lava Surge and increase the damage of your next Lava Burst by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "223": {
             "Hash": 3164734299,
             "Name": "Witch Doctor's Ancestry",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2241265657,
                     "Id": "384447",
                     "Spec": "Enhancement",
                     "Text": "Increases the chance to gain a stack of Maelstrom Weapon by {1}%, and whenever you gain a stack of Maelstrom Weapon, the cooldown of Feral Spirits is reduced by {2} sec."
                 }
-            ]
+            }
         }
-    ]
+    }
 }

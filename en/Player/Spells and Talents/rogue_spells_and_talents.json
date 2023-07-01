@@ -1,2807 +1,2807 @@
 {
     "Class": "Rogue",
-    "Spells": [
-        {
+    "Spells": {
+        "0": {
             "Hash": 3481032766,
             "Name": "Ace Up Your Sleeve",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 207530535,
                     "Id": "381828",
                     "Spec": "Outlaw",
                     "Text": "Between the Eyes has a {1}% chance per combo point spent to grant {2} combo points."
                 }
-            ]
+            }
         },
-        {
+        "1": {
             "Hash": 1677282525,
             "Name": "Acrobatic Strikes",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2615403874,
                     "Id": "196924",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the range of your melee attacks by {1} yds."
                 }
-            ]
+            }
         },
-        {
+        "2": {
             "Hash": 218891210,
             "Name": "Adrenaline Rush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3702520438,
                     "Id": "13750",
                     "Spec": "Outlaw",
                     "Text": "Increases your Energy regeneration rate by {1}%, your maximum Energy by {2}, and your attack speed by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "3": {
             "Hash": 753472179,
             "Name": "Alacrity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 930897188,
                     "Id": "193539",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Your finishing moves have a {1}% chance per combo point to grant {2}% Haste for {3} sec, stacking up to {4} times."
                 }
-            ]
+            }
         },
-        {
+        "4": {
             "Hash": 1942609007,
             "Name": "Ambidexterity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2506724421,
                     "Id": "381822",
                     "Spec": "Outlaw",
                     "Text": "Main Gauche has an additional {1}% chance to strike while Blade Flurry is active."
                 }
-            ]
+            }
         },
-        {
+        "5": {
             "Hash": 361163322,
             "Name": "Ambush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 706735372,
                     "Id": "8676",
                     "Spec": "Assassination, Outlaw",
                     "Text": "Ambush the target, causing {1} Physical damage.\n\n{FFFFFFFF|Awards {2} combo points.}"
                 }
-            ]
+            }
         },
-        {
+        "6": {
             "Hash": 1489414713,
             "Name": "Amplifying Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3610714403,
                     "Id": "381664",
                     "Spec": "Assassination",
                     "Text": "Coats your weapons with a Lethal Poison that lasts for {1} min. Each strike has a {2}% chance to poison the enemy, dealing {3} Nature damage and applying Amplifying Poison for {4} sec. Envenom can consume {5} stacks of Amplifying Poison to deal {6}% increased damage. Max {7} stacks."
                 }
-            ]
+            }
         },
-        {
+        "7": {
             "Hash": 1768063725,
             "Name": "Arterial Precision",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4168343580,
                     "Id": "400783",
                     "Spec": "Assassination",
                     "Text": "Shiv strikes {1} additional nearby enemies and increases your Bleed damage done to affected targets by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "8": {
             "Hash": 2025388979,
             "Name": "Atrophic Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1769404345,
                     "Id": "381637",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} min. Each strike has a {2}% chance of poisoning the enemy, reducing their damage by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "9": {
             "Hash": 875038485,
             "Name": "Audacity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2296542533,
                     "Id": "381845",
                     "Spec": "Outlaw",
                     "Text": "Half-cost uses of Pistol Shot have a {1}% chance to cause your next Ambush to be usable without Stealth.\n\nChance to trigger this effect matches the chance for your Sinister Strike to strike an additional time."
                 }
-            ]
+            }
         },
-        {
+        "10": {
             "Hash": 2913371429,
             "Name": "Backstab",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 925503805,
                     "Id": "53",
                     "Spec": "Subtlety",
                     "Text": "Stab the target, causing {1} Physical damage. Damage increased by {2}% when you are behind your target, and critical strikes apply Find Weakness for {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "11": {
             "Hash": 2968791658,
             "Name": "Between the Eyes",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 514846704,
                     "Id": "315341",
                     "Spec": "Outlaw",
                     "Text": "Finishing move that deals damage with your pistol, increasing your critical strike chance against the target by {1}%.\n   {2} point : {3} damage, {4} sec\n   {5} points: {6} damage, {7} sec\n   {8} points: {9} damage, {10} sec\n   {11} points: {12} damage, {13} sec\n   {14} points: {15} damage, {16} sec"
                 }
-            ]
+            }
         },
-        {
+        "12": {
             "Hash": 1528426649,
             "Name": "Black Powder",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 30457912,
                     "Id": "319175",
                     "Spec": "Subtlety",
                     "Text": "Finishing move that launches explosive Black Powder at all nearby enemies dealing Physical damage. Deals reduced damage beyond {1} targets.\n\n   {2} point  : {3} damage\n   {4} points: {5} damage\n   {6} points: {7} damage\n   {8} points: {9} damage\n   {10} points: {11} damage\n"
                 }
-            ]
+            }
         },
-        {
+        "13": {
             "Hash": 3975680410,
             "Name": "Blackjack",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 407654984,
                     "Id": "379005",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Enemies have {1}% reduced damage and healing for {2} sec after Blind or Sap's effect on them ends."
                 }
-            ]
+            }
         },
-        {
+        "14": {
             "Hash": 3615770709,
             "Name": "Blade Flurry",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 475325286,
                     "Id": "13877",
                     "Spec": "Outlaw",
                     "Text": "Strikes up to {1} nearby targets for {2} Physical damage, and causes your single target attacks to also strike up to {3} additional nearby enemies for {4}% of normal damage for {5} sec."
                 }
-            ]
+            }
         },
-        {
+        "15": {
             "Hash": 4116406972,
             "Name": "Blade Rush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1557975193,
                     "Id": "271877",
                     "Spec": "Outlaw",
                     "Text": "Charge to your target with your blades out, dealing {1} Physical damage to the target and {2} to all other nearby enemies.\n\nWhile Blade Flurry is active, damage to non-primary targets is increased by {3}%.\n\n|cFFFFFFFFGenerates {4} Energy over {5} sec."
                 }
-            ]
+            }
         },
-        {
+        "16": {
             "Hash": 1879500216,
             "Name": "Blind",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1307446442,
                     "Id": "2094",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Blinds the target, causing it to wander disoriented for {1} sec. Damage will interrupt the effect. Limit {2}."
                 }
-            ]
+            }
         },
-        {
+        "17": {
             "Hash": 1275235892,
             "Name": "Blinding Powder",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1540554565,
                     "Id": "256165",
                     "Spec": "Outlaw",
                     "Text": "Reduces the cooldown of Blind by {1} sec and increases its range by {2} yds."
                 }
-            ]
+            }
         },
-        {
+        "18": {
             "Hash": 98957188,
             "Name": "Blindside",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 987379391,
                     "Id": "328085",
                     "Spec": "Assassination",
                     "Text": "Ambush and Mutilate have a {1}% chance to make your next Ambush free and usable without Stealth. Chance increased to {2}% if the target is under {3}% health."
                 }
-            ]
+            }
         },
-        {
+        "19": {
             "Hash": 1363001623,
             "Name": "Bloody Mess",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4290331918,
                     "Id": "381626",
                     "Spec": "Assassination",
                     "Text": "Garrote and Rupture damage increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "20": {
             "Hash": 4221110413,
             "Name": "Boarding Party",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2415763383,
                     "Id": "209752",
                     "Spec": "Outlaw",
                     "Text": "Between the Eyes increases the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "21": {
             "Hash": 3553276547,
             "Name": "Cheap Shot",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1642825553,
                     "Id": "1833",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Stuns the target for {1} sec.\n\n{FFFFFFFF|Awards {2} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "22": {
             "Hash": 1799635035,
             "Name": "Cheat Death",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3528131230,
                     "Id": "31230",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Fatal attacks instead reduce you to {1}% of your maximum health. For {2} sec afterward, you take {3}% reduced damage. Cannot trigger more often than once per {4} min."
                 }
-            ]
+            }
         },
-        {
+        "23": {
             "Hash": 913641752,
             "Name": "Cloak of Shadows",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2113763342,
                     "Id": "31224",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Provides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "24": {
             "Hash": 1093455085,
             "Name": "Cloaked in Shadows",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2570473433,
                     "Id": "382515",
                     "Spec": "Subtlety",
                     "Text": "Vanish grants you a shield for {1} sec, absorbing damage equal to {2}% of your maximum health."
                 }
-            ]
+            }
         },
-        {
+        "25": {
             "Hash": 3983220827,
             "Name": "Cold Blood",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2062556166,
                     "Id": "382245",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the critical strike chance of your next damaging ability by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "26": {
             "Hash": 534990536,
             "Name": "Combat Potency",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2881381367,
                     "Id": "61329",
                     "Spec": "Outlaw",
                     "Text": "Increases your Energy regeneration rate by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "27": {
             "Hash": 2595565261,
             "Name": "Combat Stamina",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2367237183,
                     "Id": "381877",
                     "Spec": "Outlaw",
                     "Text": "Stamina increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "28": {
             "Hash": 3214136134,
             "Name": "Control is King",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3854420683,
                     "Id": "354406",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Cheap Shot grants Slice and Dice for {1} sec and Kidney Shot restores {2} Energy per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "29": {
             "Hash": 240619326,
             "Name": "Count the Odds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2451815019,
                     "Id": "381982",
                     "Spec": "Outlaw",
                     "Text": "Ambush and Dispatch have a {1}% chance to grant you a Roll the Bones combat enhancement buff you do not already have for {2} sec.\n\nDuration and chance doubled while Stealthed."
                 }
-            ]
+            }
         },
-        {
+        "30": {
             "Hash": 3116246024,
             "Name": "Creeping Venom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 386265637,
                     "Id": "354895",
                     "Spec": "Assassination",
                     "Text": "Your Envenom applies Creeping Venom, reducing the target's movement speed by {1}% for {2} sec.  Creeping Venom is reapplied when the target moves. Max {3} stacks."
                 }
-            ]
+            }
         },
-        {
+        "31": {
             "Hash": 3721343956,
             "Name": "Crimson Tempest",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1425675922,
                     "Id": "121411",
                     "Spec": "Assassination",
                     "Text": "Finishing move that slashes all enemies within {1} yards, dealing instant damage and causing victims to bleed for additional damage. Deals reduced damage beyond {2} targets. Lasts longer per combo point.\n\n   {3} point  : {4} plus {5} over {6} sec\n   {7} points: {8} plus {9} over {10} sec\n   {11} points: {12} plus {13} over {14} sec\n   {15} points: {16} plus {17} over {18} sec\n   {19} points: {20} plus {21} over {22} sec"
                 }
-            ]
+            }
         },
-        {
+        "32": {
             "Hash": 1388718629,
             "Name": "Crimson Vial",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2202363766,
                     "Id": "185311",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Drink an alchemical concoction that heals you for {1}% of your maximum health over {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "33": {
             "Hash": 3937340288,
             "Name": "Crippling Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2046160230,
                     "Id": "3408",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} min. Each strike has a {2}% chance to poison the enemy, slowing movement speed by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "34": {
             "Hash": 199519116,
             "Name": "Cut to the Chase",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1138414625,
                     "Id": "51667",
                     "Spec": "Assassination",
                     "Text": "Envenom extends the duration of Slice and Dice by up to {1} sec per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "35": {
             "Hash": 962764643,
             "Name": "Dagger in the Dark",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2278728493,
                     "Id": "198675",
                     "Spec": "Assassination, Outlaw",
                     "Text": "Each second while Stealth is active, nearby enemies within {1} yards take an additional {2}% damage from your next Ambush for {3} sec. Stacks up to {4} times."
                 },
-                {
+                "1": {
                     "Hash": 3518342286,
                     "Id": "198675",
                     "Spec": "Subtlety",
                     "Text": "Each second while Stealth is active, nearby enemies within {1} yards take an additional {2}% damage from your next Shadowstrike for {3} sec. Stacks up to {4} times."
                 }
-            ]
+            }
         },
-        {
+        "36": {
             "Hash": 1925295186,
             "Name": "Dancing Steel",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4003437252,
                     "Id": "272026",
                     "Spec": "Outlaw",
                     "Text": "Blade Flurry strikes {1} additional enemies and its duration is increased by {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "37": {
             "Hash": 3851615003,
             "Name": "Danse Macabre",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2389310320,
                     "Id": "382528",
                     "Spec": "Subtlety",
                     "Text": "Shadow Dance increases the damage of your attacks that generate or spend combo points by {1}%, increased by an additional {2}% for each different attack used."
                 }
-            ]
+            }
         },
-        {
+        "38": {
             "Hash": 3790014464,
             "Name": "Dark Brew",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4252598853,
                     "Id": "382504",
                     "Spec": "Subtlety",
                     "Text": "Your attacks that deal Nature or Bleed damage now deal Shadow instead.\n\nShadow damage increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "39": {
             "Hash": 326869904,
             "Name": "Dark Shadow",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3266977507,
                     "Id": "245687",
                     "Spec": "Subtlety",
                     "Text": "Shadow Dance increases damage by an additional {1}%."
                 }
-            ]
+            }
         },
-        {
+        "40": {
             "Hash": 2764028738,
             "Name": "Dashing Scoundrel",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 184959315,
                     "Id": "381797",
                     "Spec": "Assassination",
                     "Text": "Envenom also increases the critical strike chance of your poisons by {1}%, and their critical strikes generate {2} Energy."
                 }
-            ]
+            }
         },
-        {
+        "41": {
             "Hash": 2935529057,
             "Name": "Deadened Nerves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1617973490,
                     "Id": "231719",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Physical damage taken reduced by {1}%.\n"
                 }
-            ]
+            }
         },
-        {
+        "42": {
             "Hash": 921462327,
             "Name": "Deadly Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1277036955,
                     "Id": "2823",
                     "Spec": "Assassination",
                     "Text": "Coats your weapons with a Lethal Poison that lasts for {1} min. Each strike has a {2}% chance to poison the enemy for {3} Nature damage over {4} sec. Subsequent poison applications will instantly deal {5} Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "43": {
             "Hash": 1817382059,
             "Name": "Deadly Precision",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2714880802,
                     "Id": "381542",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the critical strike chance of your attacks that generate combo points by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "44": {
             "Hash": 1450656041,
             "Name": "Death from Above",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2784600724,
                     "Id": "269513",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Finishing move that empowers your weapons with energy to performs a deadly attack.\n\nYou leap into the air and Eviscerate your target on the way back down, with such force that it has a {1}% stronger effect."
                 }
-            ]
+            }
         },
-        {
+        "45": {
             "Hash": 1887965545,
             "Name": "Deathmark",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2079669806,
                     "Id": "360194",
                     "Spec": "Assassination",
                     "Text": "Carve a deathmark into an enemy, dealing {1} Bleed damage over {2} sec. While marked your Garrote, Rupture, and Lethal poisons applied to the target are duplicated, dealing {3}% of normal damage."
                 }
-            ]
+            }
         },
-        {
+        "46": {
             "Hash": 2970921018,
             "Name": "Deepening Shadows",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 579171372,
                     "Id": "185314",
                     "Spec": "Subtlety",
                     "Text": "Your finishing moves reduce the remaining cooldown on Shadow Dance by {1} sec per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "47": {
             "Hash": 2123762607,
             "Name": "Deeper Daggers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3076334776,
                     "Id": "382517",
                     "Spec": "Subtlety",
                     "Text": "Eviscerate and Black Powder increase your Shadow damage dealt by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "48": {
             "Hash": 3292132998,
             "Name": "Deeper Stratagem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 224104052,
                     "Id": "193531",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Gain {1} additional max combo point.\n\nYour finishing moves that consume more than {2} combo points have increased effects, and your finishing moves deal {3}% increased damage."
                 }
-            ]
+            }
         },
-        {
+        "49": {
             "Hash": 3236799249,
             "Name": "Deft Maneuvers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2074274430,
                     "Id": "381878",
                     "Spec": "Outlaw",
                     "Text": "Increases the range of your melee attacks by {1} yards while Blade Flurry is active."
                 }
-            ]
+            }
         },
-        {
+        "50": {
             "Hash": 406901801,
             "Name": "Devious Stratagem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 224104052,
                     "Id": "394321",
                     "Spec": "Outlaw",
                     "Text": "Gain {1} additional max combo point.\n\nYour finishing moves that consume more than {2} combo points have increased effects, and your finishing moves deal {3}% increased damage."
                 }
-            ]
+            }
         },
-        {
+        "51": {
             "Hash": 3427861722,
             "Name": "Dismantle",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2761811230,
                     "Id": "207777",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Disarm the enemy, preventing the use of any weapons or shield for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "52": {
             "Hash": 1406084413,
             "Name": "Dispatch",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3930637611,
                     "Id": "2098",
                     "Spec": "Outlaw",
                     "Text": "Finishing move that dispatches the enemy, dealing damage per combo point:\n   {1} point  : {2} damage\n   {3} points: {4} damage\n   {5} points: {6} damage\n   {7} points: {8} damage\n   {9} points: {10} damage"
                 }
-            ]
+            }
         },
-        {
+        "53": {
             "Hash": 1457072879,
             "Name": "Distract",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2308568120,
                     "Id": "1725",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Throws a distraction, attracting the attention of all nearby monsters for {1} seconds. Usable while stealthed."
                 }
-            ]
+            }
         },
-        {
+        "54": {
             "Hash": 2439898139,
             "Name": "Distracting Mirage",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3566586349,
                     "Id": "354661",
                     "Spec": "Subtlety",
                     "Text": "Distract slows affected enemies by {1}% and creates a Mirage that follows an enemy for {2} sec. Reactivate Distract to teleport to your Mirage's location. "
                 }
-            ]
+            }
         },
-        {
+        "55": {
             "Hash": 4118449669,
             "Name": "Doomblade",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3250078232,
                     "Id": "381673",
                     "Spec": "Assassination",
                     "Text": "Mutilate deals an additional {1}% Bleed damage over {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "56": {
             "Hash": 2918418928,
             "Name": "Dragon-Tempered Blades",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2629282142,
                     "Id": "381801",
                     "Spec": "Assassination",
                     "Text": "You may apply {1} additional Lethal and Non-Lethal Poison to your weapons."
                 }
-            ]
+            }
         },
-        {
+        "57": {
             "Hash": 3510423575,
             "Name": "Dreadblades",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 690432209,
                     "Id": "343142",
                     "Spec": "Outlaw",
                     "Text": "Strike at an enemy, dealing {1} Physical damage and empowering your weapons for {2} sec, causing your Sinister Strike, Ambush, and Pistol Shot to fill your combo points, but your finishing moves consume {3}% of your current health."
                 }
-            ]
+            }
         },
-        {
+        "58": {
             "Hash": 3083579207,
             "Name": "Drink Up Me Hearties",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1776627087,
                     "Id": "354425",
                     "Spec": "Outlaw",
                     "Text": "Crimson Vial restores {1}% additional maximum health and grants {2}% of its healing to allies within {3} yds."
                 }
-            ]
+            }
         },
-        {
+        "59": {
             "Hash": 3669729138,
             "Name": "Echoing Reprimand",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1938981883,
                     "Id": "385616",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Deal {1} Arcane damage to an enemy, extracting their anima to Animacharge a combo point for {2} sec.\n\nDamaging finishing moves that consume the same number of combo points as your Animacharge function as if they consumed {3} combo points.\n\n{FFFFFFFF|Awards {4} combo points.}\n"
                 }
-            ]
+            }
         },
-        {
+        "60": {
             "Hash": 2540519539,
             "Name": "Elaborate Planning",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3548165245,
                     "Id": "193640",
                     "Spec": "Assassination",
                     "Text": "Your finishing moves grant {1}% increased damage done for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "61": {
             "Hash": 3214808433,
             "Name": "Elusiveness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1045565862,
                     "Id": "79008",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Evasion also reduces damage taken by {1}%, and Feint also reduces non-area-of-effect damage taken by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "62": {
             "Hash": 3203904073,
             "Name": "Enduring Brawler",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2119956086,
                     "Id": "354843",
                     "Spec": "Outlaw",
                     "Text": "Every {1} sec you remain in combat, gain {2}% chance for Sinister Strike to hit an additional time. Lose {3} stack each second while out of combat. Max {4} stacks."
                 }
-            ]
+            }
         },
-        {
+        "63": {
             "Hash": 1694294855,
             "Name": "Envenom",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 678800825,
                     "Id": "32645",
                     "Spec": "Assassination",
                     "Text": "Finishing move that drives your poisoned blades in deep, dealing instant Nature damage and increasing your poison application chance by {1}%. Damage and duration increased per combo point.\n\n   {2} point  : {3} damage, {4} sec\n   {5} points: {6} damage, {7} sec\n   {8} points: {9} damage, {10} sec\n   {11} points: {12} damage, {13} sec\n   {14} points: {15} damage, {16} sec"
                 }
-            ]
+            }
         },
-        {
+        "64": {
             "Hash": 381600267,
             "Name": "Evasion",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1455188440,
                     "Id": "5277",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases your dodge chance by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "65": {
             "Hash": 160090213,
             "Name": "Eviscerate",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2209010380,
                     "Id": "196819",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Finishing move that disembowels the target, causing damage per combo point.\n   {1} point  : {2} damage\n   {3} points: {4} damage\n   {5} points: {6} damage\n   {7} points: {8} damage\n   {9} points: {10} damage"
                 },
-                {
+                "1": {
                     "Hash": 1303941587,
                     "Id": "231716",
                     "Spec": "Subtlety",
                     "Text": "Eviscerate deals an additional {1}% damage as Shadow to targets with your Find Weakness active."
                 }
-            ]
+            }
         },
-        {
+        "66": {
             "Hash": 398630518,
             "Name": "Exsanguinate",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1105999123,
                     "Id": "200806",
                     "Spec": "Assassination",
                     "Text": "Twist your blades into the target's wounds, causing your Bleed effects on them to bleed out {1}% faster."
                 }
-            ]
+            }
         },
-        {
+        "67": {
             "Hash": 3748527433,
             "Name": "Fade to Nothing",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1594451850,
                     "Id": "382514",
                     "Spec": "Subtlety",
                     "Text": "Movement speed increased by {1}% and damage taken reduced by {2}% for {3} sec after gaining Stealth, Vanish, or Shadow Dance."
                 }
-            ]
+            }
         },
-        {
+        "68": {
             "Hash": 2623424672,
             "Name": "Fan of Knives",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2038214440,
                     "Id": "51723",
                     "Spec": "Assassination",
                     "Text": "Sprays knives at all enemies within {1} yards, dealing {2} Physical damage and applying your active poisons at their normal rate. Deals reduced damage beyond {3} targets.\n\n{FFFFFFFF|Awards {4} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "69": {
             "Hash": 3966366139,
             "Name": "Fan the Hammer",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2451681703,
                     "Id": "381846",
                     "Spec": "Outlaw",
                     "Text": "When Sinister Strike strikes an additional time, gain {1} additional stack of Opportunity. Max {2} stacks.\n\nHalf-cost uses of Pistol Shot consume {3} additional stack of Opportunity to fire {4} additional shot. Additional shots generate {5} fewer combo point."
                 }
-            ]
+            }
         },
-        {
+        "70": {
             "Hash": 2918295521,
             "Name": "Fatal Concoction",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1650613815,
                     "Id": "392384",
                     "Spec": "Assassination",
                     "Text": "Increases the damage of your weapon poisons by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "71": {
             "Hash": 4132715523,
             "Name": "Fatal Flourish",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1278878105,
                     "Id": "35551",
                     "Spec": "Outlaw",
                     "Text": "Your off-hand attacks have a {1}% chance to generate {2} Energy."
                 }
-            ]
+            }
         },
-        {
+        "72": {
             "Hash": 2655868958,
             "Name": "Feint",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2584168458,
                     "Id": "1966",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Performs an evasive maneuver, reducing damage taken from area-of-effect attacks by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "73": {
             "Hash": 637074880,
             "Name": "Finality",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1826136807,
                     "Id": "382525",
                     "Spec": "Subtlety",
                     "Text": "Eviscerate, Rupture, and Black Powder increase the damage of the next use of the same finishing move by {1}%. Lasts {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "74": {
             "Hash": 2738912680,
             "Name": "Find Weakness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3684365806,
                     "Id": "91023",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Your Stealth abilities reveal a flaw in your target's defenses, causing all your attacks to bypass {1}% of that enemy's armor for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "75": {
             "Hash": 1520226813,
             "Name": "Flagellation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3666700254,
                     "Id": "384631",
                     "Spec": "Subtlety",
                     "Text": "Lash the target for {1} Shadow damage, causing each combo point spent within {2} sec to lash for an additional {3}. Dealing damage with Flagellation increases your Mastery by {4}%, persisting {5} sec after their torment fades."
                 }
-            ]
+            }
         },
-        {
+        "76": {
             "Hash": 2956879552,
             "Name": "Fleet Footed",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3360749458,
                     "Id": "378813",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Movement speed increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "77": {
             "Hash": 1504614975,
             "Name": "Float Like a Butterfly",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3527997784,
                     "Id": "354897",
                     "Spec": "Outlaw",
                     "Text": "Restless Blades now also reduces the remaining cooldown of Evasion and Feint by {1} sec per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "78": {
             "Hash": 113324525,
             "Name": "Flying Daggers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2667850420,
                     "Id": "381631",
                     "Spec": "Assassination",
                     "Text": "Fan of Knives' radius is increased to {1} yds and deals {2}% more damage when it strikes {3} or more targets."
                 }
-            ]
+            }
         },
-        {
+        "79": {
             "Hash": 405278744,
             "Name": "Garrote",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2377826554,
                     "Id": "703",
                     "Spec": "Assassination",
                     "Text": "Garrote the enemy, causing {1} Bleed damage over {2} sec.\n\n{FFFFFFFF|Awards {3} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "80": {
             "Hash": 1172697350,
             "Name": "Ghostly Strike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1298681368,
                     "Id": "196937",
                     "Spec": "Outlaw",
                     "Text": "Strikes an enemy, dealing {1} Physical damage and causing the target to take {2}% increased damage from your abilities for {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "81": {
             "Hash": 1214139928,
             "Name": "Gloomblade",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1742092938,
                     "Id": "200758",
                     "Spec": "Subtlety",
                     "Text": "Punctures your target with your shadow-infused blade for {1} Shadow damage, bypassing armor. Critical strikes apply Find Weakness for {2} sec.\n\n{FFFFFFFF|Awards {3} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "82": {
             "Hash": 779606599,
             "Name": "Gouge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 305086806,
                     "Id": "1776",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Gouges the eyes of an enemy target, incapacitating for {1} sec. Damage will interrupt the effect.\n\nMust be in front of your target.\n\n{FFFFFFFF|Awards {2} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "83": {
             "Hash": 3373315026,
             "Name": "Grappling Hook",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 701863421,
                     "Id": "195457",
                     "Spec": "Outlaw",
                     "Text": "Launch a grappling hook and pull yourself to the target location."
                 }
-            ]
+            }
         },
-        {
+        "84": {
             "Hash": 4020040220,
             "Name": "Greenskin's Wickers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3311785655,
                     "Id": "386823",
                     "Spec": "Outlaw",
                     "Text": "Between the Eyes has a {1}% chance per Combo Point to increase the damage of your next Pistol Shot by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "85": {
             "Hash": 432311357,
             "Name": "Heavy Hitter",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3575139085,
                     "Id": "381885",
                     "Spec": "Outlaw",
                     "Text": "Attacks that generate combo points deal {1}% increased damage."
                 }
-            ]
+            }
         },
-        {
+        "86": {
             "Hash": 3621869698,
             "Name": "Hemotoxin",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1838394316,
                     "Id": "354124",
                     "Spec": "Assassination",
                     "Text": "Shiv also reduces the target's healing received by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "87": {
             "Hash": 864119242,
             "Name": "Hidden Opportunity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1426873374,
                     "Id": "383281",
                     "Spec": "Outlaw",
                     "Text": "Effects that grant a chance for Sinister Strike to strike an additional time also apply to Ambush."
                 }
-            ]
+            }
         },
-        {
+        "88": {
             "Hash": 1520469330,
             "Name": "Hit and Run",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3360749458,
                     "Id": "196922",
                     "Spec": "Outlaw",
                     "Text": "Movement speed increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "89": {
             "Hash": 3546837676,
             "Name": "Improved Adrenaline Rush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3431072451,
                     "Id": "395422",
                     "Spec": "Outlaw",
                     "Text": "Generate full combo points when you gain Adrenaline Rush, and again when it ends."
                 }
-            ]
+            }
         },
-        {
+        "90": {
             "Hash": 2751782599,
             "Name": "Improved Ambush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1143733697,
                     "Id": "381620",
                     "Spec": "Assassination, Outlaw",
                     "Text": "Ambush generates {1} additional combo point."
                 },
-                {
+                "1": {
                     "Hash": 1134188806,
                     "Id": "381620",
                     "Spec": "Subtlety",
                     "Text": "Shadowstrike generates {1} additional combo point."
                 }
-            ]
+            }
         },
-        {
+        "91": {
             "Hash": 720942529,
             "Name": "Improved Backstab",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2362186669,
                     "Id": "319949",
                     "Spec": "Subtlety",
                     "Text": "Backstab has {1}% increased critical strike chance.\n\nWhen you are behind your target, Backstab critical strikes now also expose a flaw in their defenses, applying Find Weakness for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "92": {
             "Hash": 966730356,
             "Name": "Improved Between the Eyes",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 866430939,
                     "Id": "235484",
                     "Spec": "Outlaw",
                     "Text": "Critical strikes with Between the Eyes deal four times normal damage.\n"
                 }
-            ]
+            }
         },
-        {
+        "93": {
             "Hash": 2507817135,
             "Name": "Improved Garrote",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 488024655,
                     "Id": "381632",
                     "Spec": "Assassination",
                     "Text": "Garrote deals {1}% increased damage and has no cooldown when used from Stealth and for {2} sec after breaking Stealth."
                 }
-            ]
+            }
         },
-        {
+        "94": {
             "Hash": 183644054,
             "Name": "Improved Main Gauche",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4123149321,
                     "Id": "382746",
                     "Spec": "Outlaw",
                     "Text": "Main Gauche has an additional {1}% chance to strike."
                 }
-            ]
+            }
         },
-        {
+        "95": {
             "Hash": 90816024,
             "Name": "Improved Poisons",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2243513764,
                     "Id": "381624",
                     "Spec": "Assassination",
                     "Text": "Increases the application chance of your poisons by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "96": {
             "Hash": 3761841928,
             "Name": "Improved Shadow Dance",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1135006352,
                     "Id": "393972",
                     "Spec": "Subtlety",
                     "Text": "Shadow Dance has {1} sec increased duration."
                 }
-            ]
+            }
         },
-        {
+        "97": {
             "Hash": 2246153603,
             "Name": "Improved Shadow Techniques",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2555806675,
                     "Id": "394023",
                     "Spec": "Subtlety",
                     "Text": "Shadow Techniques generates {1} additional Energy."
                 }
-            ]
+            }
         },
-        {
+        "98": {
             "Hash": 2592880185,
             "Name": "Improved Shiv",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 375175766,
                     "Id": "319032",
                     "Spec": "Assassination",
                     "Text": "Shiv now also increases your Nature damage done against the target by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "99": {
             "Hash": 1287570795,
             "Name": "Improved Shuriken Storm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1968788763,
                     "Id": "319951",
                     "Spec": "Subtlety",
                     "Text": "Shuriken Storm has an additional {1}% chance to crit, and its critical strikes apply Find Weakness for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "100": {
             "Hash": 2797694318,
             "Name": "Improved Sprint",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1460790862,
                     "Id": "231691",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Reduces the cooldown of Sprint by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "101": {
             "Hash": 2162894757,
             "Name": "Improved Wound Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 848487061,
                     "Id": "319066",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Wound Poison can now stack {1} additional times."
                 }
-            ]
+            }
         },
-        {
+        "102": {
             "Hash": 2492254100,
             "Name": "Indiscriminate Carnage",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4076903373,
                     "Id": "381802",
                     "Spec": "Assassination",
                     "Text": "Your next Garrote and your next Rupture apply to up to {1} enemies within {2} yards."
                 }
-            ]
+            }
         },
-        {
+        "103": {
             "Hash": 3788690672,
             "Name": "Inevitability",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2372807733,
                     "Id": "382512",
                     "Spec": "Subtlety",
                     "Text": "Backstab and Shadowstrike extend the duration of your Symbols of Death by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "104": {
             "Hash": 1456243070,
             "Name": "Instant Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 27728228,
                     "Id": "315584",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Coats your weapons with a Lethal Poison that lasts for {1} min. Each strike has a {2}% chance of poisoning the enemy which instantly inflicts {3} Nature damage."
                 }
-            ]
+            }
         },
-        {
+        "105": {
             "Hash": 2242483779,
             "Name": "Intent to Kill",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2639355673,
                     "Id": "381630",
                     "Spec": "Assassination",
                     "Text": "Shadowstep's cooldown is reduced by {1}% when used on a target afflicted by your Garrote."
                 }
-            ]
+            }
         },
-        {
+        "106": {
             "Hash": 751149720,
             "Name": "Internal Bleeding",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4067999658,
                     "Id": "381627",
                     "Spec": "Assassination",
                     "Text": "Kidney Shot also deals up to {1} Bleed damage over {2} sec, based on combo points spent."
                 }
-            ]
+            }
         },
-        {
+        "107": {
             "Hash": 1378037874,
             "Name": "Invigorating Shadowdust",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2624941294,
                     "Id": "382523",
                     "Spec": "Subtlety",
                     "Text": "Vanish reduces the remaining cooldown of your other Rogue abilities by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "108": {
             "Hash": 3647200561,
             "Name": "Iron Stomach",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3552301201,
                     "Id": "193546",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "109": {
             "Hash": 1463718017,
             "Name": "Iron Wire",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2130102118,
                     "Id": "196861",
                     "Spec": "Assassination",
                     "Text": "Garrote silences the target for {1} sec when used from Stealth.\n\nEnemies silenced by Garrote deal {2}% reduced damage for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "110": {
             "Hash": 1573255,
             "Name": "Keep It Rolling",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1078659954,
                     "Id": "381989",
                     "Spec": "Outlaw",
                     "Text": "Increase the remaining duration of your active Roll the Bones combat enhancements by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "111": {
             "Hash": 287735387,
             "Name": "Kick",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1495846392,
                     "Id": "1766",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "A quick kick that interrupts spellcasting and prevents any spell in that school from being cast for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "112": {
             "Hash": 3941797170,
             "Name": "Kidney Shot",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 222384068,
                     "Id": "408",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Finishing move that stuns the target. Lasts longer per combo point, up to {1}:\n   {2} point  : {3} seconds\n   {4} points: {5} seconds\n   {6} points: {7} seconds\n   {8} points: {9} seconds\n   {10} points: {11} seconds"
                 }
-            ]
+            }
         },
-        {
+        "113": {
             "Hash": 965768937,
             "Name": "Killing Spree",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2370392800,
                     "Id": "51690",
                     "Spec": "Outlaw",
                     "Text": "Teleport to an enemy within {1} yards, attacking with both weapons for a total of {2} Physical damage and taking {3}% reduced damage over {4} sec.\n\nWhile Blade Flurry is active, also hits up to {5} nearby enemies for {6}% damage."
                 }
-            ]
+            }
         },
-        {
+        "114": {
             "Hash": 2942298289,
             "Name": "Kingsbane",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4179709681,
                     "Id": "385627",
                     "Spec": "Assassination",
                     "Text": "Release a lethal poison from your weapons and inject it into your target, dealing {1} Nature damage instantly and an additional {2} Nature damage over {3} sec. \n\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by {4}%.\n\n{FFFFFFFF|Awards {5} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "115": {
             "Hash": 465367899,
             "Name": "Leeching Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 806998384,
                     "Id": "280716",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Adds a Leeching effect to your Lethal poisons, granting you {1}% Leech."
                 }
-            ]
+            }
         },
-        {
+        "116": {
             "Hash": 2235231136,
             "Name": "Lethal Dose",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2775713935,
                     "Id": "381640",
                     "Spec": "Assassination",
                     "Text": "Your weapon poisons, Nature damage over time, and Bleed abilities deal {1}% increased damage to targets for each weapon poison, Nature damage over time, and Bleed effect on them."
                 }
-            ]
+            }
         },
-        {
+        "117": {
             "Hash": 705560940,
             "Name": "Lethality",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 565999758,
                     "Id": "382238",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Critical strike chance increased by {1}%. Critical strike damage bonus of your attacks that generate combo points increased by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "118": {
             "Hash": 855758400,
             "Name": "Lightweight Shiv",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2546829229,
                     "Id": "394983",
                     "Spec": "Assassination",
                     "Text": "Shiv has {1} additional charge."
                 }
-            ]
+            }
         },
-        {
+        "119": {
             "Hash": 1729542479,
             "Name": "Lingering Shadow",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3460801057,
                     "Id": "382524",
                     "Spec": "Subtlety",
                     "Text": "After Shadow Dance ends, Backstab deals an additional {1}% damage as Shadow, fading by {2}% per sec."
                 }
-            ]
+            }
         },
-        {
+        "120": {
             "Hash": 2298632062,
             "Name": "Loaded Dice",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 605957410,
                     "Id": "256170",
                     "Spec": "Outlaw",
                     "Text": "Activating Adrenaline Rush causes your next Roll the Bones to grant at least two matches."
                 }
-            ]
+            }
         },
-        {
+        "121": {
             "Hash": 1346050594,
             "Name": "Maneuverability",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 144694446,
                     "Id": "197000",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Sprint removes all root effects and suppresses all movement-slowing effects for {1} sec when used."
                 }
-            ]
+            }
         },
-        {
+        "122": {
             "Hash": 3378595592,
             "Name": "Marked for Death",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 100325736,
                     "Id": "137619",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Marks the target, instantly generating {1} combo points. Cooldown reset if the target dies within {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "123": {
             "Hash": 88043673,
             "Name": "Master Assassin",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1805612450,
                     "Id": "255989",
                     "Spec": "Assassination",
                     "Text": "While Stealth is active and for {1} sec after breaking Stealth, your critical strike chance is increased by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "124": {
             "Hash": 4015158747,
             "Name": "Master of Shadows",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4017677746,
                     "Id": "196976",
                     "Spec": "Subtlety",
                     "Text": "Gain {1} Energy over {2} sec when you enter Stealth or activate Shadow Dance."
                 }
-            ]
+            }
         },
-        {
+        "125": {
             "Hash": 2391949247,
             "Name": "Master Poisoner",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1914028191,
                     "Id": "378436",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the non-damaging effects of your weapon poisons by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "126": {
             "Hash": 3812961374,
             "Name": "Mastery: Executioner",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2544382838,
                     "Id": "76808",
                     "Spec": "Subtlety",
                     "Text": "Increases the damage done by your finishing moves by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "127": {
             "Hash": 1708378853,
             "Name": "Mastery: Main Gauche",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3867823792,
                     "Id": "76806",
                     "Spec": "Outlaw",
                     "Text": "Your main-hand attacks have a {1}% chance to trigger an attack with your off-hand that deals {2} Physical damage."
                 }
-            ]
+            }
         },
-        {
+        "128": {
             "Hash": 3949459550,
             "Name": "Mastery: Potent Assassin",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2390714268,
                     "Id": "76803",
                     "Spec": "Assassination",
                     "Text": "Increases the damage done by your poisons by {1}%."
                 },
-                {
+                "1": {
                     "Hash": 3634102628,
                     "Id": "319473",
                     "Spec": "Assassination",
                     "Text": "Mastery: Potent Assassin also increases damage of your bleeds."
                 }
-            ]
+            }
         },
-        {
+        "129": {
             "Hash": 1509738419,
             "Name": "Mutilate",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 170882736,
                     "Id": "1329",
                     "Spec": "Assassination",
                     "Text": "Attack with both weapons, dealing a total of {1} Physical damage.\n\n{FFFFFFFF|Awards {2} combo points.}"
                 }
-            ]
+            }
         },
-        {
+        "130": {
             "Hash": 3975025295,
             "Name": "Night Terrors",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3157983926,
                     "Id": "277953",
                     "Spec": "Subtlety",
                     "Text": "Shuriken Storm reduces enemies' movement speed by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "131": {
             "Hash": 1828606725,
             "Name": "Nightstalker",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2846098013,
                     "Id": "14062",
                     "Spec": "Subtlety",
                     "Text": "While Stealth or Shadow Dance is active, your abilities deal {1}% more damage."
                 },
-                {
+                "1": {
                     "Hash": 1916013374,
                     "Id": "14062",
                     "Spec": "Assassination, Outlaw",
                     "Text": "While Stealth is active, your abilities deal {1}% more damage."
                 }
-            ]
+            }
         },
-        {
+        "132": {
             "Hash": 618595932,
             "Name": "Nimble Fingers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2234896165,
                     "Id": "378427",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Energy cost of Feint and Crimson Vial reduced by {1}."
                 }
-            ]
+            }
         },
-        {
+        "133": {
             "Hash": 3123116297,
             "Name": "Numbing Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4070121990,
                     "Id": "5761",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} min.  Each strike has a {2}% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "134": {
             "Hash": 3994912830,
             "Name": "Opportunity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2604564598,
                     "Id": "279876",
                     "Spec": "Outlaw",
                     "Text": "Sinister Strike has a {1}% chance to hit an additional time, making your next Pistol Shot half cost and double damage."
                 }
-            ]
+            }
         },
-        {
+        "135": {
             "Hash": 1604162690,
             "Name": "Perforated Veins",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3117696230,
                     "Id": "382518",
                     "Spec": "Subtlety",
                     "Text": "Shadowstrike increases the damage of your next Backstab by {1}%. Max {2} stacks."
                 }
-            ]
+            }
         },
-        {
+        "136": {
             "Hash": 3757825642,
             "Name": "Pick Lock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 69156213,
                     "Id": "1804",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Allows opening of locked chests and doors that require a skill level of up to {1}."
                 }
-            ]
+            }
         },
-        {
+        "137": {
             "Hash": 4229963119,
             "Name": "Pick Pocket",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 44885180,
                     "Id": "921",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Pick the target's pocket."
                 }
-            ]
+            }
         },
-        {
+        "138": {
             "Hash": 1355983324,
             "Name": "Pistol Shot",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2866330226,
                     "Id": "185763",
                     "Spec": "Outlaw",
                     "Text": "Draw a concealed pistol and fire a quick shot at an enemy, dealing {1} Physical damage and reducing movement speed by {2}% for {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "139": {
             "Hash": 986143086,
             "Name": "Planned Execution",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3176453767,
                     "Id": "382508",
                     "Spec": "Subtlety",
                     "Text": "Symbols of Death increases your critical strike chance by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "140": {
             "Hash": 3761893917,
             "Name": "Poison Bomb",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1783378038,
                     "Id": "255544",
                     "Spec": "Assassination",
                     "Text": "Envenom has a {1}% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals {2} Nature damage over {3} sec to all enemies within it."
                 }
-            ]
+            }
         },
-        {
+        "141": {
             "Hash": 1456958497,
             "Name": "Poisoned Knife",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2642434671,
                     "Id": "185565",
                     "Spec": "Assassination",
                     "Text": "Throws a poison-coated knife, dealing {1} damage and applying your active Lethal and Non-Lethal Poisons.\n\n{FFFFFFFF|Awards {2} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "142": {
             "Hash": 3714994361,
             "Name": "Precise Cuts",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2005456966,
                     "Id": "381985",
                     "Spec": "Outlaw",
                     "Text": "Blade Flurry damage is increased by an additional {1}% per missing target below its maximum."
                 }
-            ]
+            }
         },
-        {
+        "143": {
             "Hash": 3268207621,
             "Name": "Premeditation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1168745149,
                     "Id": "343160",
                     "Spec": "Subtlety",
                     "Text": "After entering Stealth, your next Shadowstrike grants up to {1} sec of Slice and Dice, and generates {2} additional combo points if Slice and Dice is active."
                 }
-            ]
+            }
         },
-        {
+        "144": {
             "Hash": 3566141376,
             "Name": "Prey on the Weak",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3386125933,
                     "Id": "131511",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Enemies disabled by your Cheap Shot or Kidney Shot take {1}% increased damage from all sources for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "145": {
             "Hash": 2536579989,
             "Name": "Quick Decisions",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 439963655,
                     "Id": "382503",
                     "Spec": "Subtlety",
                     "Text": "Shadowstep's cooldown is reduced by {1}%, and its maximum range is increased by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "146": {
             "Hash": 2291142222,
             "Name": "Quick Draw",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1457466114,
                     "Id": "196938",
                     "Spec": "Outlaw",
                     "Text": "Half-cost uses of Pistol Shot granted by Sinister Strike now generate {1} additional combo point, and deal {2}% additional damage."
                 }
-            ]
+            }
         },
-        {
+        "147": {
             "Hash": 1455302504,
             "Name": "Recuperator",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2947941012,
                     "Id": "378996",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Slice and Dice heals you for up to {1}% of your maximum health per {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "148": {
             "Hash": 2249967059,
             "Name": "Relentless Strikes",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2589599069,
                     "Id": "58423",
                     "Spec": "Subtlety",
                     "Text": "Your finishing moves generate {1} Energy per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "149": {
             "Hash": 2504219308,
             "Name": "Replicating Shadows",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1056203718,
                     "Id": "382506",
                     "Spec": "Subtlety",
                     "Text": "Rupture deals an additional {1}% damage as Shadow and applies to {2} additional enemy within {3} yds."
                 }
-            ]
+            }
         },
-        {
+        "150": {
             "Hash": 3983702375,
             "Name": "Resounding Clarity",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3803287941,
                     "Id": "381622",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Echoing Reprimand Animacharges {1} additional combo points."
                 }
-            ]
+            }
         },
-        {
+        "151": {
             "Hash": 742597844,
             "Name": "Restless Blades",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3175415160,
                     "Id": "79096",
                     "Spec": "Outlaw",
                     "Text": "Finishing moves reduce the remaining cooldown of many Rogue skills by {1} sec per combo point spent.\n\nAffected skills: Adrenaline Rush, Between the Eyes, Blade Flurry, Blade Rush, Dreadblades, Ghostly Strike, Grappling Hook, Keep it Rolling, Killing Spree, Marked for Death, Roll the Bones, Sprint, and Vanish."
                 }
-            ]
+            }
         },
-        {
+        "152": {
             "Hash": 2066007273,
             "Name": "Retractable Hook",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3433054508,
                     "Id": "256188",
                     "Spec": "Outlaw",
                     "Text": "Reduces the cooldown of Grappling Hook by {1} sec, and increases its retraction speed."
                 }
-            ]
+            }
         },
-        {
+        "153": {
             "Hash": 504851792,
             "Name": "Reverberation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1915062334,
                     "Id": "394332",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Echoing Reprimand's damage is increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "154": {
             "Hash": 3244829509,
             "Name": "Riposte",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3791057143,
                     "Id": "344363",
                     "Spec": "Outlaw",
                     "Text": "Dodging an attack will trigger Mastery: Main Gauche. This effect may only occur once every {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "155": {
             "Hash": 1136462550,
             "Name": "Roll the Bones",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1632909314,
                     "Id": "315508",
                     "Spec": "Outlaw",
                     "Text": "Roll the dice of fate, providing a random combat enhancement for {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "156": {
             "Hash": 521780609,
             "Name": "Rupture",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2017146526,
                     "Id": "1943",
                     "Spec": "Subtlety, Assassination",
                     "Text": "Finishing move that tears open the target, dealing Bleed damage over time. Lasts longer per combo point.\n\n   {1} point  : {2} over {3} sec\n   {4} points: {5} over {6} sec\n   {7} points: {8} over {9} sec\n   {10} points: {11} over {12} sec\n   {13} points: {14} over {15} sec"
                 }
-            ]
+            }
         },
-        {
+        "157": {
             "Hash": 2789346905,
             "Name": "Rushed Setup",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1289862626,
                     "Id": "378803",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "The Energy costs of Kidney Shot, Cheap Shot, Sap, and Distract are reduced by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "158": {
             "Hash": 2648010515,
             "Name": "Ruthlessness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 139696709,
                     "Id": "14161",
                     "Spec": "Outlaw",
                     "Text": "Your finishing moves have a {1}% chance per combo point spent to grant a combo point."
                 }
-            ]
+            }
         },
-        {
+        "159": {
             "Hash": 2185514360,
             "Name": "Safe Fall",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2934663776,
                     "Id": "1860",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Reduces damage from falling."
                 }
-            ]
+            }
         },
-        {
+        "160": {
             "Hash": 3181778646,
             "Name": "Sap",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4098112811,
                     "Id": "6770",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Incapacitates a target not in combat for {1} sec. Only works on Humanoids, Beasts, Demons, and Dragonkin. Damage will revive the target. Limit {2}."
                 }
-            ]
+            }
         },
-        {
+        "161": {
             "Hash": 1045091997,
             "Name": "Scent of Blood",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2468750092,
                     "Id": "381799",
                     "Spec": "Assassination",
                     "Text": "Each enemy afflicted by your Rupture increases your Agility by {1}%, up to a maximum of {2}%."
                 }
-            ]
+            }
         },
-        {
+        "162": {
             "Hash": 1355420150,
             "Name": "Seal Fate",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2553514540,
                     "Id": "14190",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "When you critically strike with a melee attack that generates combo points, you have a {1}% chance to gain an additional combo point per critical strike."
                 }
-            ]
+            }
         },
-        {
+        "163": {
             "Hash": 462986596,
             "Name": "Secret Stratagem",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 224104052,
                     "Id": "394320",
                     "Spec": "Subtlety",
                     "Text": "Gain {1} additional max combo point.\n\nYour finishing moves that consume more than {2} combo points have increased effects, and your finishing moves deal {3}% increased damage."
                 }
-            ]
+            }
         },
-        {
+        "164": {
             "Hash": 2828699285,
             "Name": "Secret Technique",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1481879471,
                     "Id": "280719",
                     "Spec": "Subtlety",
                     "Text": "Finishing move that creates shadow clones of yourself. You and your shadow clones each perform a piercing attack on all enemies near your target, dealing Physical damage to the primary target and reduced damage to other targets.\n   {1} point  : {2} total damage\n   {3} points: {4} total damage\n   {5} points: {6} total damage\n   {7} points: {8} total damage\n   {9} points: {10} total damage\n\nCooldown is reduced by {11} sec for every combo point you spend."
                 }
-            ]
+            }
         },
-        {
+        "165": {
             "Hash": 808945633,
             "Name": "Sepsis",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1090266552,
                     "Id": "385408",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Infect the target's blood, dealing {1} Nature damage over {2} sec and gaining {3} use of any Stealth ability. If the target survives its full duration, they suffer an additional {4} damage and you gain {5} additional use of any Stealth ability for {6} sec.\n\nCooldown reduced by {7} sec if Sepsis does not last its full duration.\n\n{FFFFFFFF|Awards {8} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "166": {
             "Hash": 1274081231,
             "Name": "Serrated Bone Spike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1084151859,
                     "Id": "385424",
                     "Spec": "Assassination",
                     "Text": "Embed a bone spike in the target, dealing {1} Physical damage and {2} Bleed damage every {3} sec until they die or leave combat. \n\nRefunds a charge when target dies.\n\n{FFFFFFFF|Awards {4} combo point plus {5} additional per active bone spike.}"
                 }
-            ]
+            }
         },
-        {
+        "167": {
             "Hash": 2516754315,
             "Name": "Shadow Blades",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3858958248,
                     "Id": "121471",
                     "Spec": "Subtlety",
                     "Text": "Draws upon surrounding shadows to empower your weapons, causing your combo point generating abilities to generate {1} additional combo point and deal {2}% additional damage as Shadow for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "168": {
             "Hash": 3340410514,
             "Name": "Shadow Dance",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3209406444,
                     "Id": "185313",
                     "Spec": "Subtlety",
                     "Text": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec. Effect not broken from taking damage or attacking.\n\nIf you already know {ffffffff|Shadow Dance}, instead gain {2} additional charge of {ffffffff|Shadow Dance}."
                 },
-                {
+                "1": {
                     "Hash": 1325171940,
                     "Id": "185313",
                     "Spec": "Assassination, Outlaw",
                     "Text": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec. Effect not broken from taking damage or attacking."
                 }
-            ]
+            }
         },
-        {
+        "169": {
             "Hash": 868043948,
             "Name": "Shadow Focus",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3278918632,
                     "Id": "108209",
                     "Spec": "Subtlety",
                     "Text": "Abilities cost {1}% less Energy while Stealth or Shadow Dance is active."
                 }
-            ]
+            }
         },
-        {
+        "170": {
             "Hash": 4248214917,
             "Name": "Shadow Techniques",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2783555615,
                     "Id": "196912",
                     "Spec": "Subtlety",
                     "Text": "Your auto attacks have a chance to generate {1} combo point and {2} Energy."
                 }
-            ]
+            }
         },
-        {
+        "171": {
             "Hash": 1165186128,
             "Name": "Shadowed Finishers",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1529674481,
                     "Id": "382511",
                     "Spec": "Subtlety",
                     "Text": "Eviscerate and Black Powder deal an additional {1}% damage as Shadow to targets with your Find Weakness active."
                 }
-            ]
+            }
         },
-        {
+        "172": {
             "Hash": 122447541,
             "Name": "Shadowrunner",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4025526506,
                     "Id": "378807",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "While Stealth or Shadow Dance is active, you move {1}% faster."
                 }
-            ]
+            }
         },
-        {
+        "173": {
             "Hash": 826654525,
             "Name": "Shadowstep",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1598698635,
                     "Id": "36554",
                     "Spec": "Outlaw",
                     "Text": "Step through the shadows to appear behind your target and gain {1}% increased movement speed for {2} sec."
                 },
-                {
+                "1": {
                     "Hash": 302574018,
                     "Id": "36554",
                     "Spec": "Subtlety, Assassination",
                     "Text": "Step through the shadows to appear behind your target and gain {1}% increased movement speed for {2} sec.\n\nIf you already know {ffffffff|Shadowstep}, instead gain {3} additional charge of {ffffffff|Shadowstep}."
                 }
-            ]
+            }
         },
-        {
+        "174": {
             "Hash": 3710490560,
             "Name": "Shadowstrike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1181146626,
                     "Id": "185438",
                     "Spec": "Subtlety",
                     "Text": "Strike the target, dealing {1} Physical damage.\n\nWhile Stealthed, you strike through the shadows and appear behind your target up to {2} yds away, dealing {3}% additional damage.\n\n{FFFFFFFF|Awards {4} combo points.}"
                 }
-            ]
+            }
         },
-        {
+        "175": {
             "Hash": 2103151245,
             "Name": "Shadowy Duel",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1105897703,
                     "Id": "207736",
                     "Spec": "Subtlety",
                     "Text": "You lock your target into a duel contained in the shadows, removing both of you from the eyes of onlookers for {1} sec.\n\nAllows access to Stealth-based abilities."
                 }
-            ]
+            }
         },
-        {
+        "176": {
             "Hash": 202260896,
             "Name": "Shiv",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1909461003,
                     "Id": "5938",
                     "Spec": "Subtlety, Outlaw",
                     "Text": "Attack with your off-hand, dealing {1} Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\n\n{FFFFFFFF|Awards {2} combo point.}"
                 },
-                {
+                "1": {
                     "Hash": 3160951812,
                     "Id": "5938",
                     "Spec": "Assassination",
                     "Text": "Attack with your poisoned blades, dealing {1} Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\n\nYour Nature damage done to the target is increased by {2}% for {3} sec.\n\n{FFFFFFFF|Awards {4} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "177": {
             "Hash": 2138393677,
             "Name": "Shot in the Dark",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3826095658,
                     "Id": "257505",
                     "Spec": "Subtlety",
                     "Text": "After entering Stealth or Shadow Dance, your next Cheap Shot is free."
                 }
-            ]
+            }
         },
-        {
+        "178": {
             "Hash": 1778319676,
             "Name": "Shroud of Concealment",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3517837182,
                     "Id": "114018",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Extend a cloak that shrouds party and raid members within {1} yards in shadows, providing stealth for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "179": {
             "Hash": 3604961618,
             "Name": "Shrouded in Darkness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3671570285,
                     "Id": "382507",
                     "Spec": "Subtlety",
                     "Text": "Shroud of Concealment increases the movement speed of all party and raid members within its radius by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "180": {
             "Hash": 839280123,
             "Name": "Shrouded Suffocation",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3083183389,
                     "Id": "385478",
                     "Spec": "Assassination",
                     "Text": "Increases Garrote damage by {1}%. Garrote generates {2} additional combo points when cast from Stealth."
                 }
-            ]
+            }
         },
-        {
+        "181": {
             "Hash": 2254591620,
             "Name": "Shuriken Storm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1966147574,
                     "Id": "197835",
                     "Spec": "Subtlety",
                     "Text": "Sprays shurikens at all enemies within {1} yards, dealing {2} Physical damage. Deals reduced damage beyond {3} targets.\n\nCritical strikes with Shuriken Storm apply Find Weakness for {4} sec.\n\n{FFFFFFFF|Awards {5} combo point per target hit.}"
                 }
-            ]
+            }
         },
-        {
+        "182": {
             "Hash": 1026915136,
             "Name": "Shuriken Tornado",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1959047873,
                     "Id": "277925",
                     "Spec": "Subtlety",
                     "Text": "Focus intently, then release a Shuriken Storm every sec for the next {1} sec. "
                 }
-            ]
+            }
         },
-        {
+        "183": {
             "Hash": 155987361,
             "Name": "Shuriken Toss",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2808967587,
                     "Id": "114014",
                     "Spec": "Subtlety",
                     "Text": "Throws a shuriken at an enemy target for {1} Physical damage.\n\n{FFFFFFFF|Awards {2} combo point.}"
                 }
-            ]
+            }
         },
-        {
+        "184": {
             "Hash": 904909100,
             "Name": "Silent Storm",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1832097469,
                     "Id": "385722",
                     "Spec": "Subtlety",
                     "Text": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have {1}% increased chance to critically strike."
                 }
-            ]
+            }
         },
-        {
+        "185": {
             "Hash": 908146698,
             "Name": "Silhouette",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2718967298,
                     "Id": "197899",
                     "Spec": "Subtlety",
                     "Text": "Shadowstep's cooldown is reduced by {1}% when cast on a friendly target."
                 }
-            ]
+            }
         },
-        {
+        "186": {
             "Hash": 3381382046,
             "Name": "Sinister Strike",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 36005881,
                     "Id": "193315",
                     "Spec": "Outlaw",
                     "Text": "Viciously strike an enemy, causing {1} Physical damage.\n\nHas a {2}% chance to hit an additional time, making your next Pistol Shot half cost and double damage.\n\n{FFFFFFFF|Awards {3} combo point each time it strikes.}"
                 }
-            ]
+            }
         },
-        {
+        "187": {
             "Hash": 3798152961,
             "Name": "Sleight of Hand",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1693405874,
                     "Id": "381839",
                     "Spec": "Outlaw",
                     "Text": "Roll the Bones has a {1}% increased chance of granting additional matches."
                 }
-            ]
+            }
         },
-        {
+        "188": {
             "Hash": 4269881952,
             "Name": "Slice and Dice",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 435463302,
                     "Id": "315496",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Finishing move that consumes combo points to increase attack speed by {1}%. Lasts longer per combo point.\n   {2} point  : {3} seconds\n   {4} points: {5} seconds\n   {6} points: {7} seconds\n   {8} points: {9} seconds\n   {10} points: {11} seconds"
                 }
-            ]
+            }
         },
-        {
+        "189": {
             "Hash": 4276878310,
             "Name": "Smoke Bomb",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1739678057,
                     "Id": "359053, 212182",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Creates a cloud of thick smoke in an {1} yard radius around the Rogue for {2} sec. Enemies are unable to target into or out of the smoke cloud. "
                 }
-            ]
+            }
         },
-        {
+        "190": {
             "Hash": 268764467,
             "Name": "Soothing Darkness",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1438901023,
                     "Id": "393970",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "You are healed for {1}% of your maximum health over {2} sec after gaining Vanish or Shadow Dance."
                 }
-            ]
+            }
         },
-        {
+        "191": {
             "Hash": 407075041,
             "Name": "Sprint",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3575120387,
                     "Id": "2983",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases your movement speed by {1}% for {2} sec. Usable while stealthed."
                 }
-            ]
+            }
         },
-        {
+        "192": {
             "Hash": 3973846120,
             "Name": "Stealth",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 578242525,
                     "Id": "1784",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Conceals you in the shadows until cancelled, allowing you to stalk enemies without being seen. "
                 }
-            ]
+            }
         },
-        {
+        "193": {
             "Hash": 3381227910,
             "Name": "Stiletto Staccato",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1700422560,
                     "Id": "382509",
                     "Spec": "Subtlety",
                     "Text": "Shadow Techniques now also reduces the remaining cooldown of Shadow Blades by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "194": {
             "Hash": 3689596079,
             "Name": "Subterfuge",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3991285808,
                     "Id": "108208",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Your abilities requiring Stealth can still be used for {1} sec after Stealth breaks."
                 }
-            ]
+            }
         },
-        {
+        "195": {
             "Hash": 3013361313,
             "Name": "Summarily Dispatched",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1824944006,
                     "Id": "381990",
                     "Spec": "Outlaw",
                     "Text": "When your Dispatch consumes {1} or more combo points, Dispatch deals {2}% increased damage and costs {3} less Energy for {4} sec.\n\nMax {5} stacks. Adding a stack does not refresh the duration."
                 }
-            ]
+            }
         },
-        {
+        "196": {
             "Hash": 3694712019,
             "Name": "Swift Death",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3477752082,
                     "Id": "394309",
                     "Spec": "Subtlety",
                     "Text": "Symbols of Death has {1} sec reduced cooldown."
                 }
-            ]
+            }
         },
-        {
+        "197": {
             "Hash": 1848128518,
             "Name": "Swift Slasher",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 180991628,
                     "Id": "381988",
                     "Spec": "Outlaw",
                     "Text": "Slice and Dice grants an additional {1}% attack speed per combo point spent."
                 }
-            ]
+            }
         },
-        {
+        "198": {
             "Hash": 2313084580,
             "Name": "Symbols of Death",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 864472894,
                     "Id": "212283",
                     "Spec": "Subtlety",
                     "Text": "Invoke ancient symbols of power, generating {1} Energy and increasing damage done by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "199": {
             "Hash": 2885127879,
             "Name": "System Shock",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 297463850,
                     "Id": "198145",
                     "Spec": "Assassination",
                     "Text": "Casting Envenom with at least {1} combo points on a target afflicted by your Garrote, Rupture, and lethal poison deals {2} Nature damage, and reduces their movement speed by {3}% for {4} sec."
                 }
-            ]
+            }
         },
-        {
+        "200": {
             "Hash": 2486408860,
             "Name": "Systemic Failure",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3552654609,
                     "Id": "381652",
                     "Spec": "Assassination",
                     "Text": "Garrote increases the damage of Ambush and Mutilate on the target by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "201": {
             "Hash": 306688169,
             "Name": "Take 'em by Surprise",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4233757188,
                     "Id": "382742",
                     "Spec": "Outlaw",
                     "Text": "Haste increased by {1}% while Stealthed and for {2} sec after leaving Stealth."
                 }
-            ]
+            }
         },
-        {
+        "202": {
             "Hash": 1446927064,
             "Name": "Take Your Cut",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3564938035,
                     "Id": "198265",
                     "Spec": "Outlaw",
                     "Text": "Roll the Bones also grants {1}% Haste for {2} sec to allies within {3} yds."
                 }
-            ]
+            }
         },
-        {
+        "203": {
             "Hash": 3092386770,
             "Name": "The First Dance",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1009734835,
                     "Id": "382505",
                     "Spec": "Subtlety",
                     "Text": "Activating Shadow Dance generates {1} combo points."
                 }
-            ]
+            }
         },
-        {
+        "204": {
             "Hash": 750665025,
             "Name": "The Rotten",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3311063342,
                     "Id": "382015",
                     "Spec": "Subtlety",
                     "Text": "After activating Symbols of Death, your next Shadowstrike or Backstab deals {1}% increased damage, generates {2} additional combo points, and is guaranteed to critically strike."
                 }
-            ]
+            }
         },
-        {
+        "205": {
             "Hash": 859585187,
             "Name": "Thick as Thieves",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 395959432,
                     "Id": "221622",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Tricks of the Trade now increases the friendly target's damage by {1}% for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "206": {
             "Hash": 2457397004,
             "Name": "Thief's Bargain",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2334342270,
                     "Id": "354825",
                     "Spec": "Subtlety",
                     "Text": "The cooldowns of Shadow Blades, Vanish, and Feint are reduced by {1}%, but using one reduces your damage by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "207": {
             "Hash": 3495411137,
             "Name": "Thief's Versatility",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 204007104,
                     "Id": "381619",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Versatility increased by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "208": {
             "Hash": 4204076943,
             "Name": "Thistle Tea",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4054727499,
                     "Id": "381623",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Restore {1} Energy. Mastery increased by {2}% for {3} sec."
                 }
-            ]
+            }
         },
-        {
+        "209": {
             "Hash": 538005654,
             "Name": "Thrown Precision",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2524445564,
                     "Id": "381629",
                     "Spec": "Assassination",
                     "Text": "Fan of Knives's damage is increased by {1}%, and it has a {2}% increased critical strike chance."
                 }
-            ]
+            }
         },
-        {
+        "210": {
             "Hash": 2103416273,
             "Name": "Tight Spender",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1663297658,
                     "Id": "381621",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Energy cost of finishing moves reduced by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "211": {
             "Hash": 3157501559,
             "Name": "Tiny Toxic Blade",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2138413939,
                     "Id": "381800",
                     "Spec": "Assassination",
                     "Text": "Shiv deals {1}% increased damage and no longer costs Energy."
                 }
-            ]
+            }
         },
-        {
+        "212": {
             "Hash": 3399644513,
             "Name": "Tricks of the Trade",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1226368795,
                     "Id": "57934",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Redirects all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next {1} sec and lasting {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "213": {
             "Hash": 3627123707,
             "Name": "Triple Threat",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2031620341,
                     "Id": "381894",
                     "Spec": "Outlaw",
                     "Text": "Sinister Strike has a {1}% chance to strike with both weapons after it strikes an additional time."
                 }
-            ]
+            }
         },
-        {
+        "214": {
             "Hash": 414700471,
             "Name": "Turn the Tables",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3172071281,
                     "Id": "198020",
                     "Spec": "Outlaw",
                     "Text": "After coming out of a stun, you deal {1}% increased damage for {2} sec."
                 }
-            ]
+            }
         },
-        {
+        "215": {
             "Hash": 3624010741,
             "Name": "Twist the Knife",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4140400444,
                     "Id": "381669",
                     "Spec": "Assassination",
                     "Text": "Envenom duration increased by {1} sec."
                 }
-            ]
+            }
         },
-        {
+        "216": {
             "Hash": 1159459005,
             "Name": "Unbreakable Stride",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3156538069,
                     "Id": "400804",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Reduces the duration of movement slowing effects {1}%."
                 }
-            ]
+            }
         },
-        {
+        "217": {
             "Hash": 915015283,
             "Name": "Vanish",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 33648300,
                     "Id": "1856",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Allows you to vanish from sight, entering stealth while in combat. For the first {1} sec after vanishing, damage and harmful effects received will not break stealth. Also breaks movement impairing effects."
                 }
-            ]
+            }
         },
-        {
+        "218": {
             "Hash": 766745701,
             "Name": "Veil of Midnight",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4076305853,
                     "Id": "198952",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "You remain enveloped by the shadows for {1} sec after Stealth or Vanish fades, increasing dodge chance by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "219": {
             "Hash": 430829598,
             "Name": "Veiltouched",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1453650299,
                     "Id": "382017",
                     "Spec": "Subtlety",
                     "Text": "Your abilities deal {1}% increased magic damage."
                 }
-            ]
+            }
         },
-        {
+        "220": {
             "Hash": 212941287,
             "Name": "Venom Rush",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3574477592,
                     "Id": "152152",
                     "Spec": "Assassination",
                     "Text": "Ambush and Mutilate refunds {1} Energy when used against a poisoned target."
                 }
-            ]
+            }
         },
-        {
+        "221": {
             "Hash": 3690918702,
             "Name": "Venomous Wounds",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 4038943182,
                     "Id": "79134",
                     "Spec": "Assassination",
                     "Text": "You regain {1} Energy each time your Garrote or Rupture deal Bleed damage to a poisoned target.\n\nIf an enemy dies while afflicted by your Rupture, you regain energy based on its remaining duration."
                 }
-            ]
+            }
         },
-        {
+        "222": {
             "Hash": 3945242404,
             "Name": "Vicious Venoms",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 3515291134,
                     "Id": "381634",
                     "Spec": "Assassination",
                     "Text": "Ambush and Mutilate deal an additional {1}% damage as Nature."
                 }
-            ]
+            }
         },
-        {
+        "223": {
             "Hash": 1459533642,
             "Name": "Vigor",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 2566189525,
                     "Id": "14983",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases your maximum Energy by {1} and your Energy regeneration by {2}%."
                 }
-            ]
+            }
         },
-        {
+        "224": {
             "Hash": 2029330984,
             "Name": "Virulent Poisons",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 1650613815,
                     "Id": "381543",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Increases the damage of your weapon poisons by {1}%."
                 }
-            ]
+            }
         },
-        {
+        "225": {
             "Hash": 2236361659,
             "Name": "Weaponmaster",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 422961951,
                     "Id": "193537",
                     "Spec": "Subtlety",
                     "Text": "Shadowstrike and Backstab have a {1}% chance to hit the target twice each time they deal damage."
                 },
-                {
+                "1": {
                     "Hash": 3055773673,
                     "Id": "200733",
                     "Spec": "Outlaw",
                     "Text": "Sinister Strike has a {1}% increased chance to strike an additional time."
                 }
-            ]
+            }
         },
-        {
+        "226": {
             "Hash": 1003968815,
             "Name": "Without a Trace",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 845507427,
                     "Id": "382513",
                     "Spec": "Subtlety",
                     "Text": "Vanish has {1} additional charge."
                 }
-            ]
+            }
         },
-        {
+        "227": {
             "Hash": 1741463343,
             "Name": "Wound Poison",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 839829027,
                     "Id": "8679",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Coats your weapons with a Lethal Poison that lasts for {1} min. Each strike has a {2}% chance to poison the enemy, which instantly inflicts {3} Nature damage and reduces all healing received by {4}% for {5} sec, stacking up to {6} times."
                 }
-            ]
+            }
         },
-        {
+        "228": {
             "Hash": 2099598827,
             "Name": "Zoldyck Recipe",
-            "Descriptions": [
-                {
+            "Descriptions": {
+                "0": {
                     "Hash": 201226205,
                     "Id": "381798",
                     "Spec": "Assassination",
                     "Text": "Your Poisons and Bleeds deal {1}% increased damage to targets below {2}% health."
                 }
-            ]
+            }
         }
-    ]
+    }
 }
