@@ -232,6 +232,12 @@
                     "Id": "106951",
                     "Spec": "Feral",
                     "Text": "Go Berserk for {1} sec. While Berserk:\n\nFinishing moves have a {2}% chance per combo point spent to refund {3} combo points.\n\nSwipe generates {4} additional combo point.\n\nRake and Shred deal damage as though you were stealthed."
+                },
+                "2": {
+                    "Hash": 2474847155,
+                    "Id": "106951",
+                    "Spec": "Balance, Feral, Guardian, Restoration",
+                    "Text": "Go Berserk for {1} sec. While Berserk:\r\n\r\nGenerate {2} combo point every {3} sec. Combo point generating abilities generate {4} additional combo point. Finishing moves restore up to {5} combo points generated over the cap.\r\n\r\nShred and Rake damage increased by {6}%."
                 }
             }
         },
@@ -280,6 +286,12 @@
                     "Id": "319439",
                     "Spec": "Feral",
                     "Text": "When you use {1} different combo point-generating abilities within {2} sec, the damage of your next {3} Rips or Ferocious Bites is increased by {4}%."
+                },
+                "1": {
+                    "Hash": 2037020259,
+                    "Id": "319439",
+                    "Spec": "Feral",
+                    "Text": "When you use {1} different combo point-generating abilities within {2} sec, the damage of your next {3} Rips or Ferocious Bites is increased by {4}% for their full duration."
                 }
             }
         },
@@ -580,6 +592,12 @@
                     "Id": "236180",
                     "Spec": "Guardian",
                     "Text": "You bolster nearby allies within {1} yards, increasing their maximum health by {2}%. "
+                },
+                "1": {
+                    "Hash": 4267520856,
+                    "Id": "236180",
+                    "Spec": "Guardian",
+                    "Text": "You bolster nearby allies within {1} yards, increasing their maximum health by {2}%.\r\n\r\nThe duration of all stun effects on you is reduced by {3}%."
                 }
             }
         },
@@ -664,6 +682,12 @@
                     "Id": "232546",
                     "Spec": "Balance",
                     "Text": "Sunfire and Moonfire generate {1} Astral Power when they are dispelled."
+                },
+                "1": {
+                    "Hash": 4050641841,
+                    "Id": "410544",
+                    "Spec": "Balance",
+                    "Text": "Enemies that dispel your Moonfire or  Sunfire suffer {1}% additional damage from their effects for {2} sec. If already vulnerable, {3}% of the remaining duration is applied to the dispeller."
                 }
             }
         },
@@ -1408,6 +1432,12 @@
                     "Id": "102543",
                     "Spec": "Feral",
                     "Text": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\n\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\n\nFinishing moves have a {3}% chance per combo point spent to refund {4} combo points.\n\nRake and Shred deal damage as though you were stealthed."
+                },
+                "1": {
+                    "Hash": 2757517369,
+                    "Id": "102543",
+                    "Spec": "Feral",
+                    "Text": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\r\n\r\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\r\n\r\nGenerate {3} combo point every {4} sec. Combo point generating abilities generate {5} additional combo point. Finishing moves restore up to {6} combo points generated over the cap.\r\n\r\nShred and Rake damage increased by {7}%."
                 }
             }
         },
@@ -1606,6 +1636,12 @@
                     "Id": "202626",
                     "Spec": "Feral",
                     "Text": "While in Cat Form, you increase the critical chance of raid members within {1} yards by {2}%.\n\nLeader of the Pack also causes allies to heal themselves for {3}% of their maximum health when they critically hit with a direct attack. The healing effect cannot occur more than once every {4} sec."
+                },
+                "1": {
+                    "Hash": 2029489039,
+                    "Id": "202626",
+                    "Spec": "Feral",
+                    "Text": "While in Cat Form, you increase the movement speed of raid members within {1} yards by {2}%.\r\n\r\nLeader of the Pack also causes allies to heal themselves for {3}% of their maximum health when they critically hit with a direct attack. The healing effect cannot occur more than once every {4} sec."
                 }
             }
         },
@@ -1804,6 +1840,24 @@
                     "Id": "289237",
                     "Spec": "Restoration",
                     "Text": "Your Guardian, Balance or Feral Affinity is amplified granting an additional effect.\n\n|T611424:24|t{ffffffff|Guardian Affinity}\nChance to be critically hit by melee attacks reduced by {1}% while in Bear Form.\n\n|T236156:24|t {ffffffff|Balance Affinity}\nAfter you enter Moonkin Form, the cast time of your Wrath and Starfire is reduced by {2}% and their damage is increased by {3}% for {4} sec.\n\n|T611425:24|t {ffffffff|Feral Affinity}\nWhile in Cat Form, your bleed damage is increased by {5}%."
+                },
+                "2": {
+                    "Hash": 4112448790,
+                    "Id": "411266",
+                    "Spec": "Balance",
+                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and generate {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
+                },
+                "3": {
+                    "Hash": 3771956661,
+                    "Id": "236144",
+                    "Spec": "Guardian",
+                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and cause you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points."
+                },
+                "4": {
+                    "Hash": 1288446487,
+                    "Id": "289237",
+                    "Spec": "Restoration",
+                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T611424:24|t{FFFFFFFF|Bear Form}\r\nIronfur grants {1}% additional armor and generates {2} Mana.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and generate {4} Mana.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Mana when cast with {7} combo points."
                 }
             }
         },
@@ -1948,6 +2002,12 @@
                     "Id": "8921",
                     "Spec": "Restoration, Guardian",
                     "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec. "
+                },
+                "3": {
+                    "Hash": 136072492,
+                    "Id": "8921",
+                    "Spec": "Guardian",
+                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\r\n\r\nHits a second target within {4} yds of the first."
                 }
             }
         },
@@ -1990,6 +2050,12 @@
                     "Id": "400278",
                     "Spec": "Guardian",
                     "Text": "When you cast a single-target ability on an enemy afflicted by Moonfire, you cause them to burn for an additional {1}% Arcane damage."
+                },
+                "1": {
+                    "Hash": 2863634922,
+                    "Id": "400278",
+                    "Spec": "Guardian",
+                    "Text": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional {1}% Arcane damage."
                 }
             }
         },
@@ -2092,6 +2158,12 @@
                     "Id": "274281",
                     "Spec": "Balance",
                     "Text": "Deals {1}{2} Astral damage to the target and empowers New Moon to become Half Moon. \n\n{FFFFFFFF|Generates {3} Astral Power.}"
+                },
+                "1": {
+                    "Hash": 2431347345,
+                    "Id": "274281",
+                    "Spec": "Balance",
+                    "Text": "Deals {1} Astral damage to the target and empowers New Moon to become Half Moon. \r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
                 }
             }
         },
@@ -2242,6 +2314,12 @@
                     "Id": "390772",
                     "Spec": "Feral",
                     "Text": "While stealthed, Rake will also stun the target for {1} sec, and deal {2}% increased damage.\n\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point."
+                },
+                "1": {
+                    "Hash": 423718469,
+                    "Id": "390772",
+                    "Spec": "Feral",
+                    "Text": "While stealthed, Rake will also stun the target for {1} sec, and deal {2}% increased damage for its full duration.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point."
                 }
             }
         },
@@ -2428,6 +2506,12 @@
                     "Id": "394121",
                     "Spec": "Balance",
                     "Text": "Full Moon becomes Full Moon once more before resetting to New Moon.\n\nFury of Elune's cooldown is reduced by {1} sec."
+                },
+                "1": {
+                    "Hash": 1136034052,
+                    "Id": "394121",
+                    "Spec": "Balance",
+                    "Text": "New Moon, Half Moon, and Full Moon deal {1}% increased damage. Full Moon becomes Full Moon once more before resetting to New Moon.\r\n\r\nFury of Elune deals {2}% increased damage and its cooldown is reduced by {3} sec."
                 }
             }
         },
@@ -2614,6 +2698,12 @@
                     "Id": "8936",
                     "Spec": "Restoration",
                     "Text": "Heals a friendly target for {1} and another {2} over {3} sec. Initial heal has a {4}% increased chance for a critical effect if the target is already affected by Regrowth. Usable while in Moonkin Form."
+                },
+                "2": {
+                    "Hash": 817892479,
+                    "Id": "8936",
+                    "Spec": "Guardian",
+                    "Text": "Heals a friendly target for {1} and another {2} over {3} sec."
                 }
             }
         },
@@ -2806,6 +2896,12 @@
                     "Id": "202342",
                     "Spec": "Balance",
                     "Text": "Moonfire, Sunfire, and Stellar Flare damage over time has a chance to call down a falling star, dealing {1} Astral damage and generating {2} Astral Power."
+                },
+                "1": {
+                    "Hash": 360654915,
+                    "Id": "202342",
+                    "Spec": "Balance",
+                    "Text": "Moonfire and Sunfire damage over time has a chance to call down a falling star, dealing {1} Astral damage and generating {2} Astral Power."
                 }
             }
         },
@@ -2902,6 +2998,12 @@
                     "Id": "158478",
                     "Spec": "Restoration",
                     "Text": "Swiftmend increases the healing of your next Regrowth or Rejuvenation by {1}%, or your next Wild Growth by {2}%."
+                },
+                "4": {
+                    "Hash": 3330157017,
+                    "Id": "114107",
+                    "Spec": "Balance",
+                    "Text": "Solar Eclipse increases Wrath's Astral power generation by {1}% and Lunar Eclipse increases Starfire's damage and Astral Power generation by {2}% for each target hit beyond the first, up to {3}%."
                 }
             }
         },
@@ -2926,6 +3028,12 @@
                     "Id": "106898",
                     "Spec": "Restoration, Feral, Guardian, Balance",
                     "Text": "Shift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 2966382188,
+                    "Id": "77761",
+                    "Spec": "Guardian",
+                    "Text": "Let loose a wild roar, increasing the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
                 }
             }
         },
@@ -3052,6 +3160,12 @@
                     "Id": "236019",
                     "Spec": "Feral",
                     "Text": "You become further adept in Caster Form and Bear Form.\n\n{FFFFFFFF|Caster Form}\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\n\n{FFFFFFFF|Bear Form}\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\n\nYou also learn:\n\n|T132136:24|t {ffffffff|Strength of the Wild}\n"
+                },
+                "1": {
+                    "Hash": 4151677491,
+                    "Id": "236019",
+                    "Spec": "Feral",
+                    "Text": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t {ffffffff|Strength of the Wild}\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
                 }
             }
         },
@@ -3250,6 +3364,12 @@
                     "Id": "106832, 106830, 77758",
                     "Spec": "Restoration, Feral, Guardian, Balance",
                     "Text": "Thrash all nearby enemies, dealing immediate physical damage and periodic bleed damage. Damage varies by shapeshift form."
+                },
+                "3": {
+                    "Hash": 1297905664,
+                    "Id": "106830",
+                    "Spec": "Feral",
+                    "Text": "Strikes all nearby enemies, dealing {1} Bleed damage and an additional {2} Bleed damage over {3} sec.\r\n\r\n{FFFFFFFF|Awards {4} combo points.}"
                 }
             }
         },
@@ -3490,6 +3610,12 @@
                     "Id": "300346",
                     "Spec": "Guardian",
                     "Text": "Moonfire, Soothe, Remove Corruption, Innervate, and Rebirth are usable in Bear Form. Multiple uses of Ironfur may overlap.\n\nAll damage taken in Bear Form reduced by {1}%."
+                },
+                "1": {
+                    "Hash": 2220173650,
+                    "Id": "300346",
+                    "Spec": "Guardian",
+                    "Text": "Moonfire, Soothe, Remove Corruption, Innervate, and Rebirth are usable in Bear Form. Multiple uses of Ironfur may overlap."
                 }
             }
         },
@@ -3712,6 +3838,18 @@
                     "Id": "102401, 49376, 16979, 102383",
                     "Spec": "Restoration, Feral, Guardian, Balance",
                     "Text": "Fly to a nearby ally's position."
+                },
+                "4": {
+                    "Hash": 768164670,
+                    "Id": "102383",
+                    "Spec": "Balance",
+                    "Text": "Grants a movement ability that varies by shapeshift form:\r\n\r\n{FFFFFFFF|Non-shapeshifted}\r\nFly to an ally's position.\r\n\r\n{FFFFFFFF|Bear Form}\r\nCharge to an enemy, immobilizing them for {1} sec.\r\n\r\n{FFFFFFFF|Cat Form}\r\nLeap behind an enemy, dazing them for {2} sec.\r\n\r\n{FFFFFFFF|Moonkin Form}\r\nBound backward.\r\n\r\n{FFFFFFFF|Travel Form}\r\nLeap forward {3} yds.\r\n\r\n{FFFFFFFF|Aquatic Form}\r\nIncreases swim speed by an additional {4}% for {5} sec."
+                },
+                "5": {
+                    "Hash": 3164441837,
+                    "Id": "16979",
+                    "Spec": "Guardian",
+                    "Text": "Grants a movement ability that varies by shapeshift form:\r\n\r\n{FFFFFFFF|Non-shapeshifted}\r\nFly to an ally's position.\r\n\r\n{FFFFFFFF|Bear Form}\r\nCharge to an enemy, immobilizing them for {1} sec.\r\n\r\n{FFFFFFFF|Cat Form}\r\nLeap behind an enemy, dazing them for {2} sec.\r\n\r\n{FFFFFFFF|Travel Form}\r\nLeap forward {3} yds.\r\n\r\n{FFFFFFFF|Aquatic Form}\r\nIncreases swim speed by an additional {4}% for {5} sec."
                 }
             }
         },
@@ -3790,6 +3928,42 @@
                     "Id": "145108",
                     "Spec": "Restoration",
                     "Text": "Heals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead."
+                }
+            }
+        },
+        "298": {
+            "Hash": 4029333603,
+            "Name": "Wild Surges",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2568309906,
+                    "Id": "406890",
+                    "Spec": "Balance",
+                    "Text": "Your Wrath and Starfire chance to critically strike is increased by {1}% and they generate {2} additional Astral Power."
+                }
+            }
+        },
+        "299": {
+            "Hash": 217634797,
+            "Name": "Wild Attunement",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3164181675,
+                    "Id": "410354",
+                    "Spec": "Feral",
+                    "Text": "After successful Cyclone casts, you are automatically shifted into Cat Form and your next Ferocious Bite, Rip, or Maim within {1} sec also casts Feral Frenzy."
+                }
+            }
+        },
+        "300": {
+            "Hash": 1865704048,
+            "Name": "Thrashing Claws",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2345892611,
+                    "Id": "405300",
+                    "Spec": "Feral",
+                    "Text": "Shred deals {1}% increased damage against bleeding targets and Shred and Brutal Slash apply the Bleed damage over time from Thrash."
                 }
             }
         }
