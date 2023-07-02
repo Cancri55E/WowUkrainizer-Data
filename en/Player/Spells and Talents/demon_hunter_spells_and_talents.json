@@ -124,6 +124,12 @@
                     "Id": "355995",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Consume Magic now affects all enemies within {1} yards of the target, and grants {2}% Leech for {3} sec."
+                },
+                "1": {
+                    "Hash": 1912955874,
+                    "Id": "355995",
+                    "Spec": "Vengeance, Havoc",
+                    "Text": "Consume Magic now affects all enemies within {1} yards of the target and generates a Lesser Soul Fragment. Each effect consumed has a {2}% chance to upgrade to a Greater Soul."
                 }
             }
         },
@@ -232,6 +238,12 @@
                     "Id": "389715",
                     "Spec": "Vengeance",
                     "Text": "Increases the radius of your Sigils by {1} yards."
+                },
+                "1": {
+                    "Hash": 1397792303,
+                    "Id": "389715",
+                    "Spec": "Vengeance",
+                    "Text": "Increases the radius of your Sigils by {1} yds."
                 }
             }
         },
@@ -640,6 +652,12 @@
                     "Id": "183752",
                     "Spec": "Vengeance",
                     "Text": "Interrupts the enemy's spellcasting and locks them from that school of magic for {1} sec.{FFFFFFFF|}"
+                },
+                "2": {
+                    "Hash": 2128560615,
+                    "Id": "183752",
+                    "Spec": "Havoc",
+                    "Text": "Interrupts the enemy's spellcasting and locks them from that school of magic for {1} sec.{FFFFFFFF|\r\n\r\nGenerates {2} Fury on a successful interrupt.}"
                 }
             }
         },
@@ -766,6 +784,12 @@
                     "Id": "198013",
                     "Spec": "Havoc",
                     "Text": "Blasts all enemies in front of you, dealing guaranteed critical strikes for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets.\n\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional {4}% for {5} sec."
+                },
+                "1": {
+                    "Hash": 177443207,
+                    "Id": "198013",
+                    "Spec": "Vengeance",
+                    "Text": "Blasts all enemies in front of you,  for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets."
                 }
             }
         },
@@ -832,6 +856,12 @@
                     "Id": "212084",
                     "Spec": "Vengeance",
                     "Text": "Unleash the fel within you, damaging enemies directly in front of you for {1} Fire damage over {2} sec. Causing damage also heals you for up to {3} health."
+                },
+                "2": {
+                    "Hash": 2409352118,
+                    "Id": "212084",
+                    "Spec": "Havoc",
+                    "Text": "Unleash the fel within you, damaging enemies directly in front of you for {1} Fire damage over {2} sec."
                 }
             }
         },
@@ -1174,6 +1204,12 @@
                     "Id": "217832",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Imprisons a demon, beast, or humanoid, incapacitating them for {1} sec. Damage will cancel the effect. Limit {2}."
+                },
+                "1": {
+                    "Hash": 3973033015,
+                    "Id": "217832",
+                    "Spec": "Vengeance, Havoc",
+                    "Text": "Imprisons a demon, beast, or humanoid, incapacitating them for {1} min. Damage will cancel the effect. Limit {2}."
                 }
             }
         },
@@ -1198,6 +1234,12 @@
                     "Id": "320361",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Increases the range of Disrupt to {1} yards."
+                },
+                "1": {
+                    "Hash": 1161561461,
+                    "Id": "320361",
+                    "Spec": "Vengeance, Havoc",
+                    "Text": "Increases the range of Disrupt to {1} yds."
                 }
             }
         },
@@ -1720,6 +1762,12 @@
                     "Id": "390154",
                     "Spec": "Havoc",
                     "Text": "Enemies hit by Throw Glaive take {1}% increased damage from Eye Beam."
+                },
+                "1": {
+                    "Hash": 3820981615,
+                    "Id": "390154",
+                    "Spec": "Havoc",
+                    "Text": "Enemies hit by Throw Glaive take {1}% increased damage from Chaos Strike and Eye Beam."
                 }
             }
         },
@@ -1888,6 +1936,12 @@
                     "Id": "228477",
                     "Spec": "Vengeance",
                     "Text": "Viciously strike up to {1} enemies in front of you for {2} Physical damage and heal yourself for {3}.\n\nConsumes up to {4} available Soul Fragments and heals you for an additional {5} for each Soul Fragment consumed."
+                },
+                "1": {
+                    "Hash": 1487213383,
+                    "Id": "228477",
+                    "Spec": "Havoc",
+                    "Text": "Viciously strike up to {1} enemies in front of you for {2} Physical damage and heal yourself for {3}.\r\n\r\nConsumes up to {4} available Soul Fragments."
                 }
             }
         },
@@ -2242,6 +2296,18 @@
                     "Id": "389695",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Increases maximum health by {1}%."
+                }
+            }
+        },
+        "175": {
+            "Hash": 1441896743,
+            "Name": "Accelerated Blade",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4258028337,
+                    "Id": "391275",
+                    "Spec": "Havoc",
+                    "Text": "Throw Glaive deals {1}% increased damage, reduced by {2}% for each previous enemy hit."
                 }
             }
         }

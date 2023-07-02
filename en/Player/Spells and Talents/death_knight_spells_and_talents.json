@@ -1972,6 +1972,12 @@
                     "Id": "46584, 46585",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time.  Lasts {1} sec."
+                },
+                "2": {
+                    "Hash": 3485770212,
+                    "Id": "46584",
+                    "Spec": "Unholy",
+                    "Text": "Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time.  Lasts {1} min."
                 }
             }
         },
@@ -1996,6 +2002,12 @@
                     "Id": "210128",
                     "Spec": "Unholy",
                     "Text": "Reanimates a nearby corpse, summoning a zombie with {1} health for {2} sec to slowly move towards your target. \n\nIf it reaches your target, it explodes stunning all enemies within {3} yards for {4} sec and dealing {5}% of enemies health in Shadow damage."
+                },
+                "1": {
+                    "Hash": 3871765739,
+                    "Id": "210128",
+                    "Spec": "Unholy",
+                    "Text": "Reanimates a nearby corpse, summoning a zombie for {1} sec that slowly moves towards your target. \r\n\r\nIf your zombie reaches its target, it explodes after {2} sec. The explosion stuns all enemies within {3} yards for {4} sec and deals {5}% of their health in Shadow damage."
                 }
             }
         },
@@ -2308,6 +2320,12 @@
                     "Id": "356332",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Rune of Spellwarding is applied to you with {1}% increased effect."
+                },
+                "1": {
+                    "Hash": 3155001615,
+                    "Id": "410320",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Reduces the cooldown of Anti-Magic Shell by {1} sec but reduces its duration by {2}%.\r\n\r\nAnti-Magic Shell is now usable on allies."
                 }
             }
         },
@@ -2596,6 +2614,18 @@
                     "Id": "212552",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by {1}% for {2} sec. Taking any action cancels the effect.\n\nWhile active, your movement speed cannot be reduced below {3}%."
+                }
+            }
+        },
+        "211": {
+            "Hash": 891032548,
+            "Name": "Bloodforged Armor",
+            "Descriptions": {
+                "0": {
+                    "Hash": 11577228,
+                    "Id": "410301",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Death Strike reduces all Physical damage taken by {1}% for {2} sec."
                 }
             }
         }

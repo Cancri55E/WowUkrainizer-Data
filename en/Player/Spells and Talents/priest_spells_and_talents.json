@@ -160,6 +160,12 @@
                     "Id": "155271",
                     "Spec": "Shadow",
                     "Text": "Your Shadowy Apparitions now deal {1}% increased damage and generate {2} Insanity."
+                },
+                "1": {
+                    "Hash": 3166684052,
+                    "Id": "155271",
+                    "Spec": "Shadow",
+                    "Text": "Your Shadowy Apparitions deal {1}% increased damage and have a chance to generate {2} Insanity."
                 }
             }
         },
@@ -436,6 +442,12 @@
                     "Id": "391095",
                     "Spec": "Shadow",
                     "Text": "Your Mind Flay, Mind Sear, and Void Torrent damage increases the damage of your periodic Shadow effects by {1}%, stacking up to {2} times."
+                },
+                "1": {
+                    "Hash": 945181798,
+                    "Id": "391095",
+                    "Spec": "Shadow",
+                    "Text": "Your Mind Flay, Mind Spike, and Void Torrent damage increase the damage of your periodic Shadow effects by {1}%, stacking up to {2} times."
                 }
             }
         },
@@ -478,6 +490,12 @@
                     "Id": "321291",
                     "Spec": "Discipline, Holy",
                     "Text": "If your Shadow Word: Death fails to kill a target at or below {1}% health, its cooldown is reset. Cannot occur more than once every {2} sec. "
+                },
+                "2": {
+                    "Hash": 2754563921,
+                    "Id": "321291",
+                    "Spec": "Shadow",
+                    "Text": "If your Shadow Word: Death fails to kill a target at or below {1}% health, its cooldown is reset. Cannot occur more than once every {2} sec.  If a target dies within {3} sec after being struck by your Shadow Word: Death, you gain {4} Insanity."
                 }
             }
         },
@@ -490,6 +508,12 @@
                     "Id": "392507",
                     "Spec": "Shadow",
                     "Text": "Your Shadow Word: Pain damage has a chance to reset the cooldown of Shadow Word: Death and enable {1}% additional damage regardless of the target's health."
+                },
+                "1": {
+                    "Hash": 3035388071,
+                    "Id": "392507",
+                    "Spec": "Shadow",
+                    "Text": "Your Shadow Word: Pain damage has a chance to reset the cooldown of Shadow Word: Death, increase its damage by {1}%, and always deal {2}% increased damage regardless of the target's health."
                 }
             }
         },
@@ -610,6 +634,12 @@
                     "Id": "392988",
                     "Spec": "Holy",
                     "Text": "When you use a Holy Word spell, you summon an image of a Naaru at your side. For {1} sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell."
+                },
+                "1": {
+                    "Hash": 2355490522,
+                    "Id": "392988",
+                    "Spec": "Holy",
+                    "Text": "When you use a Holy Word spell, you summon an image of a Naaru at your side. For {1} sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\r\n\r\nIf an image has already been summoned, that image is empowered instead."
                 }
             }
         },
@@ -748,6 +778,12 @@
                     "Id": "390685",
                     "Spec": "Discipline",
                     "Text": "Power Word: Radiance applies Atonement at an additional {1}% of its normal duration."
+                },
+                "1": {
+                    "Hash": 891878825,
+                    "Id": "390685",
+                    "Spec": "Discipline",
+                    "Text": "Reduces the cast time of Power Word: Radiance by {1}% and causes it to apply Atonement at an additional {2}% of its normal duration."
                 }
             }
         },
@@ -964,6 +1000,12 @@
                     "Id": "280752",
                     "Spec": "Shadow",
                     "Text": "Your successful Dispel Magic, Mass Dispel, Purify Disease, Vampiric Embrace, and Power Word: Shield casts generate {1} Insanity during combat."
+                },
+                "1": {
+                    "Hash": 1556231048,
+                    "Id": "280752",
+                    "Spec": "Shadow",
+                    "Text": "Your successful Dispel Magic, Mass Dispel, Purify Disease, and Power Word: Shield casts generate {1} Insanity during combat."
                 }
             }
         },
@@ -1150,6 +1192,12 @@
                     "Id": "377349",
                     "Spec": "Shadow",
                     "Text": "Mind Flay and Mind Sear have a chance to spawn a Void Tendril or Void Lasher that channels at your target for {1} sec, generating {2} Insanity every {3} sec."
+                },
+                "1": {
+                    "Hash": 1175352,
+                    "Id": "377349",
+                    "Spec": "Shadow",
+                    "Text": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t {ffffffff|Mind Flay}\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|t{ffffffff|Mind Sear}\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
                 }
             }
         },
@@ -1174,6 +1222,12 @@
                     "Id": "373310",
                     "Spec": "Shadow",
                     "Text": "Summoning Shadowfiend causes you to gain a benefit based on your target's current state or increases its duration by {1} sec if no state matches.\n\n{ffffffff|Healthy}: You and your Shadowfiend deal {2}% additional damage.\n\n{ffffffff|Enraged}: Devours the Enraged effect, increasing your Haste by {3}%.\n\n{ffffffff|Stunned}: Generates {4} Insanity every {5} sec.\n\n{ffffffff|Feared}: You and your Shadowfiend deal {6}% increased damage and do not break Fear effects."
+                },
+                "1": {
+                    "Hash": 936258807,
+                    "Id": "373310",
+                    "Spec": "Shadow",
+                    "Text": "Summoning Mindbender causes you to gain a benefit based on your target's current state or increases its duration by {1} sec if no state matches.\r\n\r\n{ffffffff|Healthy}: You and your Mindbender deal {2}% additional damage.\r\n\r\n{ffffffff|Enraged}: Devours the Enraged effect, increasing your Haste by {3}%.\r\n\r\n{ffffffff|Stunned}: Generates {4} Insanity every {5} sec.\r\n\r\n{ffffffff|Feared}: You and your Mindbender deal {6}% increased damage and do not break Fear effects."
                 }
             }
         },
@@ -1186,6 +1240,12 @@
                     "Id": "373273",
                     "Spec": "Shadow",
                     "Text": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that serves you for {2} sec.\n\nThe Thing from Beyond blasts enemies for {3} Shadow damage and deals {4}% of that damage to all enemies within {5} yards. Damage reduced beyond {6} targets."
+                },
+                "1": {
+                    "Hash": 660829474,
+                    "Id": "373273",
+                    "Spec": "Shadow",
+                    "Text": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for {2} sec.\r\n\r\n|T457655:24|t {ffffffff|Void Spike}\r\nHurls a bolt of dark magic, dealing {3} Shadow damage and {4} Shadow damage to all enemies within {5} yards of the target. Damage reduced beyond {6} targets."
                 }
             }
         },
@@ -1222,6 +1282,12 @@
                     "Id": "341167",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Mass Dispel's cooldown is reduced to {1} sec and its cast time is reduced by {2} sec."
+                },
+                "1": {
+                    "Hash": 1700038316,
+                    "Id": "341167",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Reduces the cooldown of Mass Dispel by {1} sec and reduces its cast time by {2} sec."
                 }
             }
         },
@@ -1282,6 +1348,12 @@
                     "Id": "373212",
                     "Spec": "Shadow",
                     "Text": "While you have Shadow Word: Pain, Devouring Plague, and Vampiric Touch active on the same target, your Mind Blast deals {1}% more damage.\n"
+                },
+                "1": {
+                    "Hash": 3315544667,
+                    "Id": "373212",
+                    "Spec": "Shadow",
+                    "Text": "While you have Shadow Word: Pain, Devouring Plague, and Vampiric Touch active on the same target, your Mind Blast and Void Torrent deal {1}% more damage."
                 }
             }
         },
@@ -1450,6 +1522,12 @@
                     "Id": "391228",
                     "Spec": "Shadow",
                     "Text": "Vampiric Touch has a {1}% chance to generate {2} Insanity each time it deals damage."
+                },
+                "1": {
+                    "Hash": 2826678666,
+                    "Id": "391228",
+                    "Spec": "Shadow",
+                    "Text": "Vampiric Touch deals {1}% additional damage and has a chance to generate {2} Insanity each time it deals damage."
                 }
             }
         },
@@ -1474,6 +1552,12 @@
                     "Id": "373221",
                     "Spec": "Shadow",
                     "Text": "Reduces the cooldown of Damnation and Void Torrent by {1} sec."
+                },
+                "1": {
+                    "Hash": 1463148679,
+                    "Id": "373221",
+                    "Spec": "Shadow",
+                    "Text": "Reduces the cooldown of Void Torrent by {1} sec."
                 }
             }
         },
@@ -1582,6 +1666,12 @@
                     "Id": "375994",
                     "Spec": "Shadow",
                     "Text": "The duration of your Shadow Word: Pain and Vampiric Touch is increased by {1} sec when enemies suffer Mind Flay or Mind Sear damage."
+                },
+                "1": {
+                    "Hash": 2649148232,
+                    "Id": "375994",
+                    "Spec": "Shadow",
+                    "Text": "Increases the damage of Mind Flay and Mind Spike by {1}%.\r\n\r\nThe duration of your Shadow Word: Pain and Vampiric Touch is increased by {2} sec when enemies suffer damage from Mind Flay and {3} sec when enemies suffer damage from Mind Spike."
                 }
             }
         },
@@ -1594,6 +1684,12 @@
                     "Id": "377065",
                     "Spec": "Shadow",
                     "Text": "Healing from Vampiric Touch and Devouring Plague when you are at maximum health will shield you for the same amount. Shield cannot exceed {1} damage absorbed."
+                },
+                "1": {
+                    "Hash": 3492406291,
+                    "Id": "377065",
+                    "Spec": "Shadow",
+                    "Text": "Healing from Vampiric Touch and Devouring Plague when you are at maximum health will shield you for the same amount. The shield cannot exceed {1}% of your maximum health."
                 }
             }
         },
@@ -1636,6 +1732,12 @@
                     "Id": "373202",
                     "Spec": "Shadow",
                     "Text": "Mind Blast has a {1}% chance to make your next Devouring Plague or Mind Sear cost no insanity."
+                },
+                "1": {
+                    "Hash": 284735771,
+                    "Id": "373202",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast has a {1}% chance to make your next Devouring Plague cost no Insanity and deal {2}% additional damage."
                 }
             }
         },
@@ -1672,6 +1774,12 @@
                     "Id": "391090",
                     "Spec": "Shadow",
                     "Text": "Mind Spike reduces the cast time of your next Mind Blast by {1}% and increases its critical strike chance by {2}%, stacking up to {3} times.\n\nLasts {4} sec."
+                },
+                "1": {
+                    "Hash": 3308336403,
+                    "Id": "391090",
+                    "Spec": "Shadow",
+                    "Text": "Mind Spike increases the critical strike chance of Mind Blast by {1}%, stacking up to {2} times.\r\n\r\nLasts {3} sec."
                 }
             }
         },
@@ -1732,6 +1840,12 @@
                     "Id": "2096",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Allows the caster to see through the target's eyes for {1} sec. Will not work if the target is in another instance or on another continent."
+                },
+                "1": {
+                    "Hash": 2165115629,
+                    "Id": "2096",
+                    "Spec": "Shadow, Discipline",
+                    "Text": "Allows the caster to see through the target's eyes for {1} min. Will not work if the target is in another instance or on another continent."
                 }
             }
         },
@@ -1972,6 +2086,12 @@
                     "Id": "21562",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Infuses the target with vitality, increasing their Stamina by {1}% for {2} min.\n\nIf the target is in your party or raid, all party and raid members will be affected."
+                },
+                "1": {
+                    "Hash": 3025295601,
+                    "Id": "21562",
+                    "Spec": "Shadow, Discipline",
+                    "Text": "Infuses the target with vitality, increasing their Stamina by {1}% for {2} hour.\r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
                 }
             }
         },
@@ -2152,6 +2272,12 @@
                     "Id": "199484",
                     "Spec": "Shadow",
                     "Text": "Mind Blast, Mind Flay, Mind Spike, Mindgames, Void Bolt, and Void Torrent deal {1}% of their damage to all other targets afflicted by your Vampiric Touch within {2} yards."
+                },
+                "1": {
+                    "Hash": 2336390863,
+                    "Id": "199484",
+                    "Spec": "Shadow",
+                    "Text": "Your direct damage spells inflict {1}% of their damage on all other targets afflicted by your Vampiric Touch within {2} yards.\r\n\r\nDoes not apply to damage from Shadowy Apparitions, Shadow Word: Pain, and Vampiric Touch."
                 }
             }
         },
@@ -2164,6 +2290,12 @@
                     "Id": "8122",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Lets out a psychic scream, causing {1} enemies within {2} yards to flee, disorienting them for {3} sec. Damage may interrupt the effect."
+                },
+                "1": {
+                    "Hash": 1450891477,
+                    "Id": "8122",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Lets out a psychic scream, causing all enemies within {1} yards to flee, disorienting them for {2} sec. Damage may interrupt the effect."
                 }
             }
         },
@@ -2188,6 +2320,12 @@
                     "Id": "211522",
                     "Spec": "Shadow",
                     "Text": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\n\n|T136208:24|t {ffffffff|Psyflay}\nDeals up to {3}% of the target's total health in Shadow damage every {4} sec. Also slows their movement speed by {5}% and reduces healing received by {6}%."
+                },
+                "1": {
+                    "Hash": 798710542,
+                    "Id": "211522",
+                    "Spec": "Shadow",
+                    "Text": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\r\n\r\n|T136208:24|t {ffffffff|Psyflay}"
                 }
             }
         },
@@ -2488,6 +2626,12 @@
                     "Id": "375767",
                     "Spec": "Shadow",
                     "Text": "While channeling Mind Flay or Void Torrent, your Vampiric Touch and Shadow Word: Pain on your primary target deals damage {1}% faster.\n\nWhile channeling Mind Sear, your Vampiric Touch and Shadow Word: Pain on all targets deals damage {2}% faster."
+                },
+                "1": {
+                    "Hash": 3448185858,
+                    "Id": "375767",
+                    "Spec": "Shadow",
+                    "Text": "Devouring Plague causes your Shadow Word: Pain and Vampiric Touch to deal damage {1}% faster on all targets for {2} sec."
                 }
             }
         },
@@ -2536,6 +2680,12 @@
                     "Id": "205385",
                     "Spec": "Shadow",
                     "Text": "Hurl a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage to all targets within {2} yards and applying Vampiric Touch to {3} of them.\n\n{FFFFFFFF|Generates {4} Insanity.}"
+                },
+                "1": {
+                    "Hash": 4063155587,
+                    "Id": "205385",
+                    "Spec": "Shadow",
+                    "Text": "Hurl a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}"
                 }
             }
         },
@@ -2548,6 +2698,12 @@
                     "Id": "32379",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "A word of dark binding that inflicts {1} Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.\n\nDamage increased by {2}% to targets below {3}% health."
+                },
+                "1": {
+                    "Hash": 538368731,
+                    "Id": "32379",
+                    "Spec": "Shadow",
+                    "Text": "A word of dark binding that inflicts {1} Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.\r\n\r\nDamage increased by {2}% to targets below {3}% health.\r\n\r\n{FFFFFFFF|Generates {4} Insanity.}"
                 }
             }
         },
@@ -2608,6 +2764,12 @@
                     "Id": "341491",
                     "Spec": "Shadow",
                     "Text": "Mind Blast, Devouring Plague, and Void Bolt have a {1}% chance to conjure Shadowy Apparitions and Mind Sear has a {2}% chance to conjure Shadowy Apparitions.\n\nShadowy Apparitions float towards all targets afflicted by your Vampiric Touch for {3} Shadow damage.\n\nCritical strikes with Mind Blast, Devouring Plague, and Void Bolt increase the damage of the Shadowy Apparitions they conjure by {4}%."
+                },
+                "1": {
+                    "Hash": 4032197860,
+                    "Id": "341491",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast, Devouring Plague, and Void Bolt conjure Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch for {1} Shadow damage. \r\n\r\nCritical strikes increase the damage by {2}%."
                 }
             }
         },
@@ -2620,6 +2782,12 @@
                     "Id": "375888",
                     "Spec": "Shadow",
                     "Text": "Mind Blast gains an additional charge.\n\nShadow Word: Pain periodic damage has a chance to reset the remaining cooldown on Mind Blast and cause your next Mind Blast to be instant."
+                },
+                "1": {
+                    "Hash": 3790076018,
+                    "Id": "375888",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Word: Pain periodic damage has a chance to reset the remaining cooldown on Mind Blast and cause your next Mind Blast to be instant."
                 }
             }
         },
@@ -2908,6 +3076,12 @@
                     "Id": "390705",
                     "Spec": "Discipline",
                     "Text": "Your damaging Shadow spells increase the damage of your next Holy spell cast within {1} sec sec by {2}%.\n\nYour damaging Holy spells increase the damage of your next Shadow spell cast within {3} sec sec by {4}%."
+                },
+                "1": {
+                    "Hash": 3236059511,
+                    "Id": "390705",
+                    "Spec": "Discipline",
+                    "Text": "Your damaging Shadow spells increase the damage of your next Holy spell cast within {1} sec by {2}%.\r\n\r\nYour damaging Holy spells increase the damage of your next Shadow spell cast within {3} sec by {4}%."
                 }
             }
         },
@@ -3016,6 +3190,12 @@
                     "Id": "228260",
                     "Spec": "Shadow",
                     "Text": "Releases an explosive blast of pure void energy, activating Voidform and causing {1} Shadow damage to all enemies within {2} yds of your target.\n\nDuring Voidform, this ability is replaced by Void Bolt.\n\nEach {3} Insanity spent during Voidform increases the duration of Voidform by {4} sec."
+                },
+                "1": {
+                    "Hash": 3265531913,
+                    "Id": "228260",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Releases an explosive blast of pure void energy, activating Voidform and causing {1} Shadow damage to all enemies within {2} yds of your target.\r\n\r\nDuring Voidform, this ability is replaced by Void Bolt.\r\n\r\nCasting Devouring Plague increases the duration of Voidform by {3} sec."
                 }
             }
         },
@@ -3076,6 +3256,12 @@
                     "Id": "108920",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Summons shadowy tendrils, rooting up to {1} enemy targets within {2} yards for {3} sec or until the tendril is killed."
+                },
+                "1": {
+                    "Hash": 3115021939,
+                    "Id": "108920",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Summons shadowy tendrils, rooting all enemies within {1} yards for {2} sec or until the tendril is killed."
                 }
             }
         },
@@ -3148,6 +3334,126 @@
                     "Id": "390781",
                     "Spec": "Discipline",
                     "Text": "Reduces the cast time of Light's Wrath by {1} sec and increases its critical strike chance by {2}%.\n\nSmite and Power Word: Solace deal {3}% additional damage for {4} sec after casting Light's Wrath."
+                }
+            }
+        },
+        "252": {
+            "Hash": 2709685588,
+            "Name": "Mind's Eye",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1414000675,
+                    "Id": "407470",
+                    "Spec": "Shadow",
+                    "Text": "Reduces the Insanity cost of Devouring Plague by {1}."
+                }
+            }
+        },
+        "253": {
+            "Hash": 1411992818,
+            "Name": "Surge of Insanity",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1876088154,
+                    "Id": "391399",
+                    "Spec": "Shadow",
+                    "Text": "Devouring Plague transforms your next Mind Flay or Mind Spike into a more powerful spell. Can accumulate up to {1} charges.\r\n\r\n|T425954:24|t {ffffffff|Mind Flay: Insanity}\r\nAssaults the target's mind with Shadow energy, causing {2} Shadow damage over {3} sec and slowing their movement speed by {4}%.\r\n\r\n{FFFFFFFF|Generates {5} Insanity over the duration.}\r\n\r\n|T1391678:24|t{ffffffff|Mind Spike: Insanity}\r\nBlasts the target for {6} Shadowfrost damage.\r\n\r\n{FFFFFFFF|Generates {7} Insanity.}"
+                }
+            }
+        },
+        "254": {
+            "Hash": 3663716477,
+            "Name": "Mastermind",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1308101594,
+                    "Id": "391151",
+                    "Spec": "Shadow",
+                    "Text": "Increases the critical strike chance of Mind Blast, Mind Spike, Mind Flay, and Shadow Word: Death by {1}% and increases their critical strike damage by {2}%."
+                }
+            }
+        },
+        "255": {
+            "Hash": 1381634476,
+            "Name": "Phase Shift",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3442416989,
+                    "Id": "408557",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Step into the shadows when you cast Fade, avoiding all attacks and spells for {1} sec.\r\n\r\nInterrupt effects are not affected by Phase Shift."
+                }
+            }
+        },
+        "256": {
+            "Hash": 832044541,
+            "Name": "Distorted Reality",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2631521087,
+                    "Id": "409044",
+                    "Spec": "Shadow",
+                    "Text": "Increases the damage of Devouring Plague by {1}% and causes it to deal its damage over {2} sec, but increases its Insanity cost by {3}."
+                }
+            }
+        },
+        "257": {
+            "Hash": 154064205,
+            "Name": "Thought Harvester",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2360231754,
+                    "Id": "406788",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast gains an additional charge."
+                }
+            }
+        },
+        "258": {
+            "Hash": 1434261782,
+            "Name": "Absolute Faith",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1928751499,
+                    "Id": "408853",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Leap of Faith also pulls the spirit of the {1} furthest allies within {2} yards and shields you and the affected allies for {3}."
+                }
+            }
+        },
+        "259": {
+            "Hash": 805703654,
+            "Name": "Whispering Shadows",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3749450178,
+                    "Id": "406777",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Crash applies Vampiric Touch to up to {1} targets it damages."
+                }
+            }
+        },
+        "260": {
+            "Hash": 1279635822,
+            "Name": "Voidtouched",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2563970939,
+                    "Id": "407430",
+                    "Spec": "Shadow",
+                    "Text": "Increases your Devouring Plague damage by {1}% and increases your maximum Insanity by {2}."
+                }
+            }
+        },
+        "261": {
+            "Hash": 2001319807,
+            "Name": "Phantasmal Pathogen",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1657474860,
+                    "Id": "407469",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Apparitions deal {1}% increased damage to targets affected by your Devouring Plague."
                 }
             }
         }

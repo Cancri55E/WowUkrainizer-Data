@@ -136,6 +136,12 @@
                     "Id": "205022",
                     "Spec": "Arcane",
                     "Text": "Summon a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} min."
+                },
+                "1": {
+                    "Hash": 658604553,
+                    "Id": "205022",
+                    "Spec": "Arcane",
+                    "Text": "Summon a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} hour."
                 }
             }
         },
@@ -160,6 +166,12 @@
                     "Id": "1459",
                     "Spec": "Fire, Frost, Arcane",
                     "Text": "Infuses the target with brilliance, increasing their Intellect by {1}% for {2} min.  \n\nIf the target is in your party or raid, all party and raid members will be affected."
+                },
+                "1": {
+                    "Hash": 954506769,
+                    "Id": "1459",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Infuses the target with brilliance, increasing their Intellect by {1}% for {2} hour.  \r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
                 }
             }
         },
@@ -280,6 +292,12 @@
                     "Id": "235313",
                     "Spec": "Fire",
                     "Text": "Shields you in flame, absorbing {1} damage for {2} sec.\n\nMelee attacks against you cause the attacker to take {3} Fire damage."
+                },
+                "1": {
+                    "Hash": 2358185267,
+                    "Id": "235313",
+                    "Spec": "Fire",
+                    "Text": "Shields you in flame, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you cause the attacker to take {3} Fire damage."
                 }
             }
         },
@@ -898,6 +916,12 @@
                     "Id": "203284",
                     "Spec": "Fire",
                     "Text": "After standing still in combat for {1} sec, your maximum health increases by {2}%, damage done increases by {3}%, and range of your Fire spells increase by {4} yards.\n\nThis effect stacks up to {5} times and lasts for {6} sec."
+                },
+                "1": {
+                    "Hash": 1335118410,
+                    "Id": "203284",
+                    "Spec": "Fire",
+                    "Text": "Every {1} sec in combat with no enemies closer than {2} yds, your maximum health increases by {3}%, damage done increases by {4}%, and range of your Fire spells increase by {5} yards.\r\n\r\nThis effect stacks up to {6} times and lasts for {7} sec."
                 }
             }
         },
@@ -1042,6 +1066,12 @@
                     "Id": "390612",
                     "Spec": "Frost",
                     "Text": "Places a Frost Bomb on the target. After {1} sec, the bomb explodes, dealing {2} Frost damage to the target and {3} Frost damage to all other enemies within {4} yards. All affected targets are slowed by {5}% for {6} sec. "
+                },
+                "1": {
+                    "Hash": 2138003806,
+                    "Id": "390612",
+                    "Spec": "Frost",
+                    "Text": "Places a Frost Bomb on the target. After {1} sec, the bomb explodes, dealing {2} Frost damage to the target and {3} Frost damage to all other enemies within {4} yards. All affected targets are slowed by {5}% for {6} sec. \r\n\r\nIf Frost Bomb is dispelled before it explodes, gain a charge of Brain Freeze."
                 }
             }
         },
@@ -1090,6 +1120,12 @@
                     "Id": "84714",
                     "Spec": "Frost",
                     "Text": "Launches an orb of swirling ice up to {1} yards forward which deals up to {2} Frost damage to all enemies it passes through. Deals reduced damage beyond {3} targets. Grants {4} charge of Fingers of Frost when it first damages an enemy.\n\nEnemies damaged by the Frozen Orb are slowed by {5}% for {6} sec."
+                },
+                "1": {
+                    "Hash": 1331632203,
+                    "Id": "84714",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Launches an orb of swirling ice up to {1} yards forward which deals up to {2} Frost damage to all enemies it passes through over {3} sec. Deals reduced damage beyond {4} targets. Grants {5} charge of Fingers of Frost when it first damages an enemy.\r\n\r\nEnemies damaged by the Frozen Orb are slowed by {6}% for {7} sec."
                 }
             }
         },
@@ -1138,6 +1174,12 @@
                     "Id": "390428",
                     "Spec": "Fire",
                     "Text": "Increases damage of Fireball and Scorch by {1}% but decreases your maximum health by {2}%.\n"
+                },
+                "1": {
+                    "Hash": 4203894921,
+                    "Id": "390428",
+                    "Spec": "Fire",
+                    "Text": "Increases damage of Fireball, Scorch, and Ignite by {1}% but decreases your maximum health by {2}%."
                 }
             }
         },
@@ -1222,6 +1264,12 @@
                     "Id": "11426",
                     "Spec": "Frost",
                     "Text": "Shields you with ice, absorbing {1} damage for {2} sec.\n\nMelee attacks against you reduce the attacker's movement speed by {3}%."
+                },
+                "1": {
+                    "Hash": 4235439475,
+                    "Id": "11426",
+                    "Spec": "Frost",
+                    "Text": "Shields you with ice, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you reduce the attacker's movement speed by {3}%."
                 }
             }
         },
@@ -1522,6 +1570,12 @@
                     "Id": "198100",
                     "Spec": "Arcane",
                     "Text": "Spellsteal steals all spells from the target, now has a {1} sec cooldown and costs {2}% more mana."
+                },
+                "1": {
+                    "Hash": 1517683997,
+                    "Id": "198100",
+                    "Spec": "Arcane",
+                    "Text": "Unleash a flurry of disruptive magic onto your target, stealing a beneficial magic effect every {1} sec for {2} sec.\r\n\r\nCastable while moving, but movement speed is reduced by {3}% while channeling."
                 }
             }
         },
@@ -1570,6 +1624,12 @@
                     "Id": "198158",
                     "Spec": "Arcane",
                     "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Dealing damage will cancel the effect."
+                },
+                "1": {
+                    "Hash": 2602828930,
+                    "Id": "198158",
+                    "Spec": "Arcane",
+                    "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Taking any action will cancel the effect."
                 }
             }
         },
@@ -1810,6 +1870,12 @@
                     "Id": "118",
                     "Spec": "Fire, Frost, Arcane",
                     "Text": "Transforms the enemy into a sheep, wandering around incapacitated for {1} sec. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\n\nOnly works on Beasts, Humanoids and Critters."
+                },
+                "1": {
+                    "Hash": 3474086681,
+                    "Id": "118",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters."
                 }
             }
         },
@@ -1858,6 +1924,12 @@
                     "Id": "235450",
                     "Spec": "Arcane",
                     "Text": "Shields you with an arcane force, absorbing {1} damage and reducing magic damage taken by {2}% for {3} sec.\n\nThe duration of harmful Magic effects against you is reduced by {4}%."
+                },
+                "1": {
+                    "Hash": 2116916460,
+                    "Id": "235450",
+                    "Spec": "Arcane",
+                    "Text": "Shields you with an arcane force, absorbing {1} damage and reducing magic damage taken by {2}% for {3} min.\r\n\r\nThe duration of harmful Magic effects against you is reduced by {4}%."
                 }
             }
         },
@@ -2590,6 +2662,48 @@
                     "Id": "203280",
                     "Spec": "Fire",
                     "Text": "Flamestrike reduces the cast time of Flamestrike by {1}% and increases its damage by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 3053209303,
+                    "Id": "203280",
+                    "Spec": "Fire",
+                    "Text": "Empower Flamestrike, dealing up to {1}% more damage based on enemies' distance to the center of Flamestrike."
+                }
+            }
+        },
+        "211": {
+            "Hash": 4004570720,
+            "Name": "Master Shepherd",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1290972470,
+                    "Id": "410248",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "While an enemy player is affected by your Polymorph or Mass Polymorph, your movement speed is increased by {1}% and your Versatility is increased by {2}%. \r\n\r\nAdditionally, Polymorph and Mass Polymorph no longer heal enemies."
+                }
+            }
+        },
+        "212": {
+            "Hash": 2539701339,
+            "Name": "Ethereal Blink",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1908272563,
+                    "Id": "410939",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Blink and Shimmer apply Slow at {1}% effectiveness to all enemies you Blink through. For each enemy you Blink through, the cooldown of Blink and Shimmer are reduced by {2} sec, up to {3} sec."
+                }
+            }
+        },
+        "213": {
+            "Hash": 4177481518,
+            "Name": "Icy Feet",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1607050919,
+                    "Id": "407581",
+                    "Spec": "Frost",
+                    "Text": "When your Frost Nova or Water Elemental's Freeze is dispelled or removed, become immune to snares for {1} sec. \r\n\r\nThis effect can only occur once every {2} sec."
                 }
             }
         }

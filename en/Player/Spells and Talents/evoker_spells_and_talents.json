@@ -58,6 +58,12 @@
                     "Id": "386342",
                     "Spec": "Devastation",
                     "Text": "Shattering Star generates {1} Essence."
+                },
+                "1": {
+                    "Hash": 1374352315,
+                    "Id": "386342",
+                    "Spec": "Devastation",
+                    "Text": "Shattering Star grants Essence Burst."
                 }
             }
         },
@@ -118,6 +124,12 @@
                     "Id": "364342",
                     "Spec": "Devastation, Preservation",
                     "Text": "Weave the threads of time, reducing the cooldown of a major movement ability for all party and raid members by {1}% for {2} min."
+                },
+                "1": {
+                    "Hash": 1382461162,
+                    "Id": "364342",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Weave the threads of time, reducing the cooldown of a major movement ability for all party and raid members by {1}% for {2} hour."
                 }
             }
         },
@@ -178,6 +190,12 @@
                     "Id": "375777",
                     "Spec": "Devastation",
                     "Text": "Essence abilities reduce the remaining cooldown of Eternity Surge by {1} sec."
+                },
+                "1": {
+                    "Hash": 3219015245,
+                    "Id": "375777",
+                    "Spec": "Devastation",
+                    "Text": "Disintegrate reduces the remaining cooldown of your empower spells by {1} sec each time it deals damage.\r\n\r\nPyre reduces the remaining cooldown of your empower spells by {2} sec per enemy struck, up to {3} sec."
                 }
             }
         },
@@ -544,6 +562,12 @@
                     "Id": "382411",
                     "Spec": "Devastation",
                     "Text": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds of the target when empowered.\n\n{FFFFFFFF|I:}   Damages {3} enemy.\n\n{FFFFFFFF|II:}  Damages {4} enemies.\n\n{FFFFFFFF|III:} Damages {5} enemies.\n\n{FFFFFFFF|IV:} Damages {6} enemies."
+                },
+                "2": {
+                    "Hash": 392001865,
+                    "Id": "359073",
+                    "Spec": "Devastation",
+                    "Text": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds of the target when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemies.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies."
                 }
             }
         },
@@ -580,6 +604,12 @@
                     "Id": "377100",
                     "Spec": "Preservation",
                     "Text": "Each time you gain Essence Burst, your critical healing is increased by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 3860120299,
+                    "Id": "377100",
+                    "Spec": "Preservation",
+                    "Text": "Each time you gain Essence Burst, your critical heals are {1}% effective instead of the usual {2}% for {3} sec."
                 }
             }
         },
@@ -628,6 +658,12 @@
                     "Id": "369375",
                     "Spec": "Devastation",
                     "Text": "Eternity Surge critical strikes generate {1} Essence."
+                },
+                "1": {
+                    "Hash": 609664940,
+                    "Id": "411165",
+                    "Spec": "Devastation",
+                    "Text": "Eternity Surge deals {1}% increased damage to your primary target."
                 }
             }
         },
@@ -640,6 +676,12 @@
                     "Id": "369846",
                     "Spec": "Devastation",
                     "Text": "Consuming Essence Burst reduces the remaining cooldown of Fire Breath by {1} sec."
+                },
+                "1": {
+                    "Hash": 377023620,
+                    "Id": "369846",
+                    "Spec": "Devastation",
+                    "Text": "After casting {1} Pyres, your next Pyre will explode into a Firestorm."
                 }
             }
         },
@@ -754,6 +796,12 @@
                     "Id": "375783",
                     "Spec": "Devastation, Preservation",
                     "Text": "Your empower spells' maximum level is increased by {1}."
+                },
+                "1": {
+                    "Hash": 2933718550,
+                    "Id": "411212",
+                    "Spec": "Devastation",
+                    "Text": "Your empower spells' maximum level is increased by {1}, and they reach maximum empower level {2}% faster."
                 }
             }
         },
@@ -874,6 +922,12 @@
                     "Id": "370781",
                     "Spec": "Devastation",
                     "Text": "Empower spells reach maximum level in {1}% less time."
+                },
+                "1": {
+                    "Hash": 1273284992,
+                    "Id": "370781",
+                    "Spec": "Devastation",
+                    "Text": "Deep Breath reduces the Essence costs of Disintegrate and Pyre by {1} for {2} sec after you land."
                 }
             }
         },
@@ -1960,6 +2014,54 @@
                     "Id": "374227",
                     "Spec": "Devastation, Preservation",
                     "Text": "Conjure an updraft to lift you and your {1} nearest allies within {2} yds into the air, reducing damage taken from area-of-effect attacks by {3}% and increasing movement speed by {4}% for {5} sec."
+                }
+            }
+        },
+        "160": {
+            "Hash": 1483528015,
+            "Name": "Event Horizon",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1559212634,
+                    "Id": "411164",
+                    "Spec": "Devastation",
+                    "Text": "Eternity Surge's cooldown is reduced by {1} sec."
+                }
+            }
+        },
+        "161": {
+            "Hash": 827522466,
+            "Name": "Raging Inferno",
+            "Descriptions": {
+                "0": {
+                    "Hash": 987797115,
+                    "Id": "405659",
+                    "Spec": "Devastation",
+                    "Text": "Firestorm's radius is increased by {1}%, and Pyre deals {2}% increased damage to enemies within your Firestorm."
+                }
+            }
+        },
+        "162": {
+            "Hash": 673412609,
+            "Name": "Dream Catcher",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3275466647,
+                    "Id": "410962",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Sleep Walk no longer has a cooldown, but its cast time is increased by {1} sec."
+                }
+            }
+        },
+        "163": {
+            "Hash": 2933018140,
+            "Name": "Divide and Conquer",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1400231950,
+                    "Id": "384689",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Deep Breath forms curtains of fire, preventing line of sight to enemies outside its walls and burning enemies who walk through them for {1} Fire damage. Lasts {2} sec."
                 }
             }
         }
