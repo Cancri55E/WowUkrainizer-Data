@@ -160,6 +160,12 @@
                     "Id": "155271",
                     "Spec": "Shadow",
                     "Text": "Ваші [Темні примари] завдають на {1}% більше шкоди та додають {2} од. безумства."
+                },
+                "1": {
+                    "Hash": 3166684052,
+                    "Id": "155271",
+                    "Spec": "Shadow",
+                    "Text": "Your Shadowy Apparitions deal {1}% increased damage and have a chance to generate {2} Insanity."
                 }
             }
         },
@@ -436,6 +442,12 @@
                     "Id": "391095",
                     "Spec": "Shadow",
                     "Text": "Ваші [Катування свідомості], [Вигорання свідомості] і [Потік порожнечі] збільшують шкоду від ваших періодичних ефектів темної магії на {1}%. Накопичується до {2} разів."
+                },
+                "1": {
+                    "Hash": 945181798,
+                    "Id": "391095",
+                    "Spec": "Shadow",
+                    "Text": "Your Mind Flay, Mind Spike, and Void Torrent damage increase the damage of your periodic Shadow effects by {1}%, stacking up to {2} times."
                 }
             }
         },
@@ -478,6 +490,12 @@
                     "Id": "321291",
                     "Spec": "Discipline, Holy",
                     "Text": "Якщо ваше [Слово тіні: Смерть] не вбиває ціль, яка має здоров'я менше або дорівнює {1}%, воно миттєво відновлюється. Спрацьовує лише раз на {2} сек. "
+                },
+                "2": {
+                    "Hash": 2754563921,
+                    "Id": "321291",
+                    "Spec": "Shadow",
+                    "Text": "If your Shadow Word: Death fails to kill a target at or below {1}% health, its cooldown is reset. Cannot occur more than once every {2} sec.  If a target dies within {3} sec after being struck by your Shadow Word: Death, you gain {4} Insanity."
                 }
             }
         },
@@ -490,6 +508,12 @@
                     "Id": "392507",
                     "Spec": "Shadow",
                     "Text": "Ваша шкода від [Слово тіні: Біль] має шанс відновити [Слово тіні: Смерть] і збільшити його шкоду на {1}% незалежно від поточного здоров'я цілі."
+                },
+                "1": {
+                    "Hash": 3035388071,
+                    "Id": "392507",
+                    "Spec": "Shadow",
+                    "Text": "Your Shadow Word: Pain damage has a chance to reset the cooldown of Shadow Word: Death, increase its damage by {1}%, and always deal {2}% increased damage regardless of the target's health."
                 }
             }
         },
@@ -610,6 +634,12 @@
                     "Id": "392988",
                     "Spec": "Holy",
                     "Text": "Застосування заклинань з категорії Святих слів прикликає до вас образ Наару. Наступні {1} сек, кожне закляття зцілення або завдання шкоди буде дублюватися аналогічним у Наару."
+                },
+                "1": {
+                    "Hash": 2355490522,
+                    "Id": "392988",
+                    "Spec": "Holy",
+                    "Text": "When you use a Holy Word spell, you summon an image of a Naaru at your side. For {1} sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\r\n\r\nIf an image has already been summoned, that image is empowered instead."
                 }
             }
         },
@@ -748,6 +778,12 @@
                     "Id": "390685",
                     "Spec": "Discipline",
                     "Text": "[Слово сили: Сяяння] накладає [Покуття] подовжене на додаткові {1}% від звичайного часу дії."
+                },
+                "1": {
+                    "Hash": 891878825,
+                    "Id": "390685",
+                    "Spec": "Discipline",
+                    "Text": "Reduces the cast time of Power Word: Radiance by {1}% and causes it to apply Atonement at an additional {2}% of its normal duration."
                 }
             }
         },
@@ -964,6 +1000,12 @@
                     "Id": "280752",
                     "Spec": "Shadow",
                     "Text": "Успішне застосування [Розвіювання чар], [Масове розвіювання], [Очищення хвороби], [Обійми вампіра] і [Слово сили: Щит] дає вам {1} од. безумства під час бою."
+                },
+                "1": {
+                    "Hash": 1556231048,
+                    "Id": "280752",
+                    "Spec": "Shadow",
+                    "Text": "Your successful Dispel Magic, Mass Dispel, Purify Disease, and Power Word: Shield casts generate {1} Insanity during combat."
                 }
             }
         },
@@ -1150,6 +1192,12 @@
                     "Id": "377349",
                     "Spec": "Shadow",
                     "Text": "[Катування свідомості] і [Вигорання свідомості] мають шанс породити Відросток Порожнечі або Батіг Порожнечі, які підтримують відповідні закляття протягом {1} сек, даючи {2} од. безумства кожні {3} сек."
+                },
+                "1": {
+                    "Hash": 1175352,
+                    "Id": "377349",
+                    "Spec": "Shadow",
+                    "Text": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t {ffffffff|Mind Flay}\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|t{ffffffff|Mind Sear}\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
                 }
             }
         },
@@ -1174,6 +1222,12 @@
                     "Id": "373310",
                     "Spec": "Shadow",
                     "Text": "Виклик [Породження тіні] дає вам бонус залежно від поточного стану вашої цілі або збільшує його тривалість на {1} сек, якщо стани не збігаються.\n{ffffffff|Здоровий}: Ви і ваше [Породження тіні] додатково завдаєте {2}% шкоди.\n\n{ffffffff|Несамовитий}: Поглинає ефект несамовитості, збільшуючи вашу Швидкість на {3}%.\n\n{ffffffff|Оглушений}: Дає {4} од. безумства кожні {5} сек.\n\n{ffffffff|Наляканий}: Ви і ваше [Породження тіні] завдаєте на {6}% більше шкоди, і не знімаєте ефекти страху своєю шкодою."
+                },
+                "1": {
+                    "Hash": 936258807,
+                    "Id": "373310",
+                    "Spec": "Shadow",
+                    "Text": "Summoning Mindbender causes you to gain a benefit based on your target's current state or increases its duration by {1} sec if no state matches.\r\n\r\n{ffffffff|Healthy}: You and your Mindbender deal {2}% additional damage.\r\n\r\n{ffffffff|Enraged}: Devours the Enraged effect, increasing your Haste by {3}%.\r\n\r\n{ffffffff|Stunned}: Generates {4} Insanity every {5} sec.\r\n\r\n{ffffffff|Feared}: You and your Mindbender deal {6}% increased damage and do not break Fear effects."
                 }
             }
         },
@@ -1186,6 +1240,12 @@
                     "Id": "373273",
                     "Spec": "Shadow",
                     "Text": "Після виклику [Тіньові примари], ви отримуєте ефект [Ідол Йоґ-Сарона], який накопичується. На {1} екземпляр цього ефекту, ви викликаєте [Породження потойбіччя], яке служить вам впродовж {2} сек. \n\n[Породження потойбіччя] завдає {3} од. шкоди від темної магії, а також {4}% від цього об'єму шкоди усім ворогам в радіусі {5} м. Здійснює зменшену шкоду починаючи з {6} цілі."
+                },
+                "1": {
+                    "Hash": 660829474,
+                    "Id": "373273",
+                    "Spec": "Shadow",
+                    "Text": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for {2} sec.\r\n\r\n|T457655:24|t {ffffffff|Void Spike}\r\nHurls a bolt of dark magic, dealing {3} Shadow damage and {4} Shadow damage to all enemies within {5} yards of the target. Damage reduced beyond {6} targets."
                 }
             }
         },
@@ -1222,6 +1282,12 @@
                     "Id": "341167",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Час відновлення [Масове розсіювання] зменшується на {1} сек, а час його застосування на {2} сек."
+                },
+                "1": {
+                    "Hash": 1700038316,
+                    "Id": "341167",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Reduces the cooldown of Mass Dispel by {1} sec and reduces its cast time by {2} sec."
                 }
             }
         },
@@ -1282,6 +1348,12 @@
                     "Id": "373212",
                     "Spec": "Shadow",
                     "Text": "Коли на вашу ціль одночасно діють [Слово тіні: Біль], [Ненажерна чума] і [Дотик вампіра], ваш [Вибух свідомості] завдає на {1}% більше шкоди.\n"
+                },
+                "1": {
+                    "Hash": 3315544667,
+                    "Id": "373212",
+                    "Spec": "Shadow",
+                    "Text": "While you have Shadow Word: Pain, Devouring Plague, and Vampiric Touch active on the same target, your Mind Blast and Void Torrent deal {1}% more damage."
                 }
             }
         },
@@ -1341,571 +1413,613 @@
                     "Hash": 2868136261,
                     "Id": "73325",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Підхоплює дух учасника групи або рейду і він миттєво опиняється перед вами."
+                    "Text": "Pulls the spirit of a party or raid member, instantly moving them directly in front of you."
                 }
             }
         },
         "107": {
             "Hash": 159267712,
-            "Name": "Поступливість",
+            "Name": "Lenience",
             "Descriptions": {
                 "0": {
                     "Hash": 2668809145,
                     "Id": "238063",
                     "Spec": "Discipline",
-                    "Text": "[Покуття] зменшує вхідну шкоду на {1}%."
+                    "Text": "Atonement reduces damage taken by {1}%."
                 }
             }
         },
         "108": {
             "Hash": 575309112,
-            "Name": "Левітація",
+            "Name": "Levitate",
             "Descriptions": {
                 "0": {
                     "Hash": 3360486101,
                     "Id": "1706",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Дозволяє учаснику групи або рейду парити над землею протягом {1} хв. Цей ефект дозволяє повільніше падати та ходити над водою."
+                    "Text": "Levitates a party or raid member for {1} min, floating a few feet above the ground, granting slow fall, and allowing travel over water."
                 }
             }
         },
         "109": {
             "Hash": 1896341919,
-            "Name": "Світло Наару",
+            "Name": "Light of the Naaru",
             "Descriptions": {
                 "0": {
                     "Hash": 1276121560,
                     "Id": "196985",
                     "Spec": "Holy",
-                    "Text": "Час відновлення ваших [Святі слова] додатково зменшується на {1}%, коли ви застосовуєте відповідні закляття."
+                    "Text": "The cooldowns of your Holy Words are reduced by an additional {1}% when you cast the relevant spells."
                 }
             }
         },
         "110": {
             "Hash": 1699749153,
-            "Name": "Натхнення світла",
+            "Name": "Light's Inspiration",
             "Descriptions": {
                 "0": {
                     "Hash": 3086221766,
                     "Id": "373450",
                     "Spec": "Shadow",
-                    "Text": "[Відчайдушна молитва] відновлює ще {1}% від максимального запасу здоров'я цілі."
+                    "Text": "Increases the maximum health gained from Desperate Prayer by {1}%."
                 }
             }
         },
         "111": {
             "Hash": 1135845034,
-            "Name": "Обіцянка Світла",
+            "Name": "Light's Promise",
             "Descriptions": {
                 "0": {
                     "Hash": 1258623487,
                     "Id": "322115",
                     "Spec": "Discipline",
-                    "Text": "[Слово сили: Сяяння] отримує додатковий заряд."
+                    "Text": "Power Word: Radiance gains an additional charge."
                 }
             }
         },
         "112": {
             "Hash": 3679845440,
-            "Name": "Гнів світла",
+            "Name": "Light's Wrath",
             "Descriptions": {
                 "0": {
                     "Hash": 3237158445,
                     "Id": "373178",
                     "Spec": "Discipline",
-                    "Text": "Ви накликаєте гнів світла, завдаючи {1} од. шкоди від сяйва цілі. Шкода збільшується на {2}% за кожного союзника з ефектом [Покуття]."
+                    "Text": "Invoke the Light's wrath, dealing {1} Radiant damage to the target, increased by {2}% per ally affected by your Atonement."
                 }
             }
         },
         "113": {
             "Hash": 4153342202,
-            "Name": "Ткач світла",
+            "Name": "Lightweaver",
             "Descriptions": {
                 "0": {
                     "Hash": 924745653,
                     "Id": "390992",
                     "Spec": "Holy",
-                    "Text": "[Швидке зцілення] зменшує час застосування вашого наступного [Зцілення] на {2}% протягом {1} сек і підвищує його ефективність на {3}%. Накопичується до {4} разів."
+                    "Text": "Flash Heal reduces the cast time of your next Heal within {1} sec by {2}% and increases its healing done by {3}%.\n\nStacks up to {4} times."
                 }
             }
         },
         "114": {
             "Hash": 2960527786,
-            "Name": "Колодязь світла",
+            "Name": "Lightwell",
             "Descriptions": {
                 "0": {
                     "Hash": 25174476,
                     "Id": "372835",
                     "Spec": "Holy",
-                    "Text": "Створює колодязь світла, який кожні {1} сек зцілює учасників групи або рейду, з поточним здоров'ям менше {3}%, в радіусі {2} м на од. {4} здоров'я протягом {5} сек. Колодязь існує впродовж {6} хв, або до {7} зцілення."
+                    "Text": "Creates a Holy Lightwell. Every {1} sec the Lightwell will attempt to heal party and raid members within {2} yards that are lower than {3}% health for {4} over {5} sec. Lightwell lasts for {6} min or until {7} heals are expended."
                 }
             }
         },
         "115": {
             "Hash": 84918728,
-            "Name": "Божевільний дотик",
+            "Name": "Maddening Touch",
             "Descriptions": {
                 "0": {
                     "Hash": 1313788999,
                     "Id": "391228",
                     "Spec": "Shadow",
-                    "Text": "[Дотик вампіра] має {1}% шанс дати вам {2} од. безумства кожен раз, коли він завдає шкоду."
+                    "Text": "Vampiric Touch has a {1}% chance to generate {2} Insanity each time it deals damage."
+                },
+                "1": {
+                    "Hash": 2826678666,
+                    "Id": "391228",
+                    "Spec": "Shadow",
+                    "Text": "Vampiric Touch deals {1}% additional damage and has a chance to generate {2} Insanity each time it deals damage."
                 }
             }
         },
         "116": {
             "Hash": 1157607653,
-            "Name": "Примирення",
+            "Name": "Make Amends",
             "Descriptions": {
                 "0": {
                     "Hash": 4256100459,
                     "Id": "391079",
                     "Spec": "Discipline",
-                    "Text": "Коли ваша [Сповідь] завдає шкоду, тривалість [Покуття] на вас збільшується на {1} сек, а коли [Сповідь] зцілює, тривалість [Покуття] на цілі збільшується на {2} сек."
+                    "Text": "When your Penance deals damage, the duration of Atonement on yourself is increased by {1} sec and when your Penance heals, the duration of Atonement on your target is increased by {2} sec."
                 }
             }
         },
         "117": {
             "Hash": 4092340596,
-            "Name": "Згубне прокляття",
+            "Name": "Malediction",
             "Descriptions": {
                 "0": {
                     "Hash": 1491507489,
                     "Id": "373221",
                     "Spec": "Shadow",
-                    "Text": "Зменшує час відновлення [Прокляття] і [Вихор порожнечі] на {1} сек."
+                    "Text": "Reduces the cooldown of Damnation and Void Torrent by {1} sec."
+                },
+                "1": {
+                    "Hash": 1463148679,
+                    "Id": "373221",
+                    "Spec": "Shadow",
+                    "Text": "Reduces the cooldown of Void Torrent by {1} sec."
                 }
             }
         },
         "118": {
             "Hash": 2646923310,
-            "Name": "Зловмисний намір",
+            "Name": "Malicious Intent",
             "Descriptions": {
                 "0": {
                     "Hash": 3704294407,
                     "Id": "372969",
                     "Spec": "Discipline",
-                    "Text": "Збільшує тривалість [Схизма] на {1} сек."
+                    "Text": "Increases the duration of Schism by {1} sec."
                 }
             }
         },
         "119": {
             "Hash": 1746033722,
-            "Name": "Маніпуляція",
+            "Name": "Manipulation",
             "Descriptions": {
                 "0": {
                     "Hash": 2065579901,
                     "Id": "390996",
                     "Spec": "Shadow",
-                    "Text": "Застосування [Вибух розуму], [Катування розуму] і [Пронизування розуму] зменшують час відновлення [Ігри розуму] на {1} сек."
+                    "Text": "Your Mind Blast, Mind Flay, and Mind Spike casts reduce the cooldown of Mindgames by {1} sec."
                 },
                 "1": {
                     "Hash": 943790426,
                     "Id": "390996",
                     "Spec": "Discipline",
-                    "Text": "Застосування [Кара], [Слово сили: Розрада], [Вибух розуму] і [Сповідь] зменшують час відновлення [Ігри розуму] на {1} сек."
+                    "Text": "Your Smite, Power Word: Solace, Mind Blast, and Penance casts reduce the cooldown of Mindgames by {1} sec."
                 },
                 "2": {
                     "Hash": 3808543221,
                     "Id": "390996",
                     "Spec": "Holy",
-                    "Text": "Ваші [Кара] і [Священний вогонь] зменшують час відновлення [Ігри розуму] на {1} сек."
+                    "Text": "Your Smite and Holy Fire casts reduce the cooldown of Mindgames by {1} sec."
                 }
             }
         },
         "120": {
             "Hash": 4095389757,
-            "Name": "Масове розсіювання",
+            "Name": "Mass Dispel",
             "Descriptions": {
                 "0": {
                     "Hash": 4132636412,
                     "Id": "32375",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Розвіює магію в радіусі {1} м, знімаючи усі шкідливі магічні ефекти з {2} дружніх цілей і {3} {declension|корисний магічний ефект|корисні магічні ефекти|корисних магічних ефектів} з {4} ворожих цілей. Знімає ефекти, які неможливо зняти звичайним способом."
+                    "Text": "Dispels magic in a {1} yard radius, removing all harmful Magic from {2} friendly targets and {3} beneficial Magic effect from {4} enemy targets. Potent enough to remove Magic that is normally undispellable."
                 }
             }
         },
         "121": {
             "Hash": 803836480,
-            "Name": "Масове воскресіння",
+            "Name": "Mass Resurrection",
             "Descriptions": {
                 "0": {
                     "Hash": 527908282,
                     "Id": "212036",
                     "Spec": "Discipline, Holy",
-                    "Text": "Повертає усіх мертвих учасників групи до життя з {1}% здоров'я і мани. Не може бути використане під час бою."
+                    "Text": "Brings all dead party members back to life with {1}% health and mana. Cannot be cast when in combat."
                 }
             }
         },
         "122": {
             "Hash": 1653426869,
-            "Name": "Майстерність: Відгук світла",
+            "Name": "Mastery: Echo of Light",
             "Descriptions": {
                 "0": {
                     "Hash": 110943124,
                     "Id": "77485",
                     "Spec": "Holy",
-                    "Text": "Ваші закляття зцілення прямої дії додатково відновлюють {1}% здоров'я протягом {2} сек."
+                    "Text": "Your direct healing spells heal for an additional {1}% over {2} sec."
                 }
             }
         },
         "123": {
             "Hash": 4275144972,
-            "Name": "Майстерність: Благодать",
+            "Name": "Mastery: Grace",
             "Descriptions": {
                 "0": {
                     "Hash": 1620166946,
                     "Id": "271534",
                     "Spec": "Discipline",
-                    "Text": "Ваші ефекти зцілення і поглинання ефективніші на {1}% для цілей з ефектом [Покуття]."
+                    "Text": "Your healing and absorption is increased by {1}% on targets with Atonement."
                 }
             }
         },
         "124": {
             "Hash": 2448111358,
-            "Name": "Майстерність: Підкорення тіней",
+            "Name": "Mastery: Shadow Weaving",
             "Descriptions": {
                 "0": {
                     "Hash": 2586729973,
                     "Id": "343690",
                     "Spec": "Shadow",
-                    "Text": "Ваша шкода збільшується на {1}% за кожен ефект [Слово тіні: Біль], [Дотик вампіра] і [Ненажерна чума] на цілі. Під час дії [Втілення порожнечі], цей ефект досягає максимуму."
+                    "Text": "Your damage is increased by {1}% for each of Shadow Word: Pain, Vampiric Touch and Devouring Plague on the target. During Voidform, all targets receive the maximum effect."
                 }
             }
         },
         "125": {
             "Hash": 3599256437,
-            "Name": "Психічний розпад",
+            "Name": "Mental Decay",
             "Descriptions": {
                 "0": {
                     "Hash": 551884892,
                     "Id": "375994",
                     "Spec": "Shadow",
-                    "Text": "[Катування розуму] і [Вигорання розуму] подовжують тривалість [Слово тіні: Біль] і [Дотик вампіра] на {1} сек."
+                    "Text": "The duration of your Shadow Word: Pain and Vampiric Touch is increased by {1} sec when enemies suffer Mind Flay or Mind Sear damage."
+                },
+                "1": {
+                    "Hash": 2649148232,
+                    "Id": "375994",
+                    "Spec": "Shadow",
+                    "Text": "Increases the damage of Mind Flay and Mind Spike by {1}%.\r\n\r\nThe duration of your Shadow Word: Pain and Vampiric Touch is increased by {2} sec when enemies suffer damage from Mind Flay and {3} sec when enemies suffer damage from Mind Spike."
                 }
             }
         },
         "126": {
             "Hash": 16047024,
-            "Name": "Психічна стійкість",
+            "Name": "Mental Fortitude",
             "Descriptions": {
                 "0": {
                     "Hash": 320652882,
                     "Id": "377065",
                     "Spec": "Shadow",
-                    "Text": "Надлишкове зцілення від [Дотик вампіра] і [Ненажерна чума] накладає на вас щит, що поглинає шкоду в об'ємі надлишкового зцілення. Щит поглинає не більше ніж {1} од. шкоди."
+                    "Text": "Healing from Vampiric Touch and Devouring Plague when you are at maximum health will shield you for the same amount. Shield cannot exceed {1} damage absorbed."
+                },
+                "1": {
+                    "Hash": 3492406291,
+                    "Id": "377065",
+                    "Spec": "Shadow",
+                    "Text": "Healing from Vampiric Touch and Devouring Plague when you are at maximum health will shield you for the same amount. The shield cannot exceed {1}% of your maximum health."
                 }
             }
         },
         "127": {
             "Hash": 3354524246,
-            "Name": "Вибух Розуму",
+            "Name": "Mind Blast",
             "Descriptions": {
                 "0": {
                     "Hash": 2365063718,
                     "Id": "8092",
                     "Spec": "Shadow",
-                    "Text": "Підриває свідомість цілі, завдаючи {1} од. шкоди від темної магії.\n\n{FFFFFFFF|Дає {2} од. безумства}."
+                    "Text": "Blasts the target's mind for {1} Shadow damage\n\n{FFFFFFFF|Generates {2} Insanity}."
                 },
                 "1": {
                     "Hash": 2416451100,
                     "Id": "8092",
                     "Spec": "Discipline",
-                    "Text": "Підриває свідомість цілі, завдаючи {1} од. шкоди від темної магії."
+                    "Text": "Blasts the target's mind for {1} Shadow damage."
                 }
             }
         },
         "128": {
             "Hash": 892961709,
-            "Name": "Контроль розуму",
+            "Name": "Mind Control",
             "Descriptions": {
                 "0": {
                     "Hash": 2153540036,
                     "Id": "605",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Бере під контроль ціль на {2} сек, чий рівень може бути більшим за ваш на {1}. Не можна застосовувати проти Демонів, Механізмів або Невмерлих. Має загальне зниження ефективності при застосуванні з іншими ефектами дезорієнтації."
+                    "Text": "Controls a mind up to {1} level above yours for {2} sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects."
                 }
             }
         },
         "129": {
             "Hash": 2134403198,
-            "Name": "Пожирач розуму",
+            "Name": "Mind Devourer",
             "Descriptions": {
                 "0": {
                     "Hash": 2225384474,
                     "Id": "373202",
                     "Spec": "Shadow",
-                    "Text": "Застосування [Вибух розуму] має {1}% шанс, що ваша наступна [Ненажерна чума] або [Вигорання розуму] не витратять безумства."
+                    "Text": "Mind Blast has a {1}% chance to make your next Devouring Plague or Mind Sear cost no insanity."
+                },
+                "1": {
+                    "Hash": 284735771,
+                    "Id": "373202",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast has a {1}% chance to make your next Devouring Plague cost no Insanity and deal {2}% additional damage."
                 }
             }
         },
         "130": {
             "Hash": 2545715489,
-            "Name": "Катування розуму",
+            "Name": "Mind Flay",
             "Descriptions": {
                 "0": {
                     "Hash": 3943229283,
                     "Id": "15407",
                     "Spec": "Shadow",
-                    "Text": "Атакує розум цілі темною енергією, завдаючи {1} од. шкоди від темної магії протягом {2} сек і сповільнюючи її на {3}%.\n\n{FFFFFFFF|Дає {4} од. безумства протягом дії}"
+                    "Text": "Assaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\n\n{FFFFFFFF|Generates {4} Insanity over the duration.}"
                 }
             }
         },
         "131": {
             "Hash": 1838115057,
-            "Name": "Катування розуму: Безумство",
+            "Name": "Mind Flay: Insanity",
             "Descriptions": {
                 "0": {
                     "Hash": 2617938854,
                     "Id": "391399",
                     "Spec": "Shadow",
-                    "Text": "[Ненажерна чума] перетворює ваше наступне [Катування розуму] у [Катування розуму: Безумство]. Тривалість - {1} сек.\n\n|T425954:24|t {ffffffff|Катування розуму: Безумство}\nАтакує розум цілі темною енергією, завдаючи {2} од. шкоди від темної магії протягом {3} сек і сповільнюючи її на {4}%.\n\n{FFFFFFFF|Дає {5} од. безумства протягом дії}"
+                    "Text": "Devouring Plague transforms your next Mind Flay into Mind Flay: Insanity. Lasts {1} sec.\n\n|T425954:24|t {ffffffff|Mind Flay: Insanity}\nAssaults the target's mind with Shadow energy, causing {2} Shadow damage over {3} sec and slowing their movement speed by {4}%.\n\n{FFFFFFFF|Generates {5} Insanity over the duration.}"
                 }
             }
         },
         "132": {
             "Hash": 3795150136,
-            "Name": "Спотворення розуму",
+            "Name": "Mind Melt",
             "Descriptions": {
                 "0": {
                     "Hash": 2455534008,
                     "Id": "391090",
                     "Spec": "Shadow",
-                    "Text": "[Пронизування розуму] зменшує тривалість застосування вашого наступного [Вибух розуму] на {1}% і збільшує його ймовірність критичної шкоди на {2}%. Накопичується до {3} разів.\n\nТривалість - {4} сек."
+                    "Text": "Mind Spike reduces the cast time of your next Mind Blast by {1}% and increases its critical strike chance by {2}%, stacking up to {3} times.\n\nLasts {4} sec."
+                },
+                "1": {
+                    "Hash": 3308336403,
+                    "Id": "391090",
+                    "Spec": "Shadow",
+                    "Text": "Mind Spike increases the critical strike chance of Mind Blast by {1}%, stacking up to {2} times.\r\n\r\nLasts {3} sec."
                 }
             }
         },
         "133": {
             "Hash": 2964006191,
-            "Name": "Вигорання розуму",
+            "Name": "Mind Sear",
             "Descriptions": {
                 "0": {
                     "Hash": 2300549520,
                     "Id": "48045",
                     "Spec": "Shadow",
-                    "Text": "|cFFFFFFFF{1} од. безумства кожні {2} сек.\nПідтримується|r\nЦіль випромінює їдку темну енергію, що завдає {3} од. шкоди від темної магії протягом {4} сек усім ворогам в радіусі {5} м від цілі."
+                    "Text": "|cFFFFFFFF{1} Insanity every {2} sec\nChanneled|r\nCorrosive shadow energy radiates from the target, dealing {3} Shadow damage over {4} sec to all enemies within {5} yards of the target."
                 }
             }
         },
         "134": {
             "Hash": 1149120996,
-            "Name": "Заспокоєння розуму",
+            "Name": "Mind Soothe",
             "Descriptions": {
                 "0": {
                     "Hash": 1320063219,
                     "Id": "453",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Заспокоює ворогів у цільовій області, зменшуючи їх дальність атак, направлених до вас, на {1} м. Діє тільки на гуманоїдів та драконів. Не створює загрозу. Тривалість - {2} сек."
+                    "Text": "Soothes enemies in the target area, reducing the range at which they will attack you by {1} yards. Only affects Humanoid and Dragonkin targets. Does not cause threat. Lasts {2} sec."
                 }
             }
         },
         "135": {
             "Hash": 3175847953,
-            "Name": "Пронизування розуму",
+            "Name": "Mind Spike",
             "Descriptions": {
                 "0": {
                     "Hash": 457301476,
                     "Id": "73510",
                     "Spec": "Shadow",
-                    "Text": "Вражає ціль, завдаючи {1} од. шкоди від темної магії морозу.\n\n{FFFFFFFF|Дає {2} од. безумства}."
+                    "Text": "Blasts the target for {1} Shadowfrost damage.\n\n{FFFFFFFF|Generates {2} Insanity}."
                 }
             }
         },
         "136": {
             "Hash": 2608483496,
-            "Name": "Ушкодження розуму",
+            "Name": "Mind Trauma",
             "Descriptions": {
                 "0": {
                     "Hash": 2726787325,
                     "Id": "199445",
                     "Spec": "Shadow",
-                    "Text": "При повному завершенні підтримання [Катування розуму], ви крадете {1}% швидкості в вашої цілі на {2} сек. Не можна вкрасти більше {3}% швидкості в однієї цілі.\n\nНакопичується до {4} разів."
+                    "Text": "Fully-channeled Mind Flays cause you to steal {1}% haste from the target for {2} sec. Only {3}% haste can be stolen from a single target.\n\nStacks up to {4} times."
                 }
             }
         },
         "137": {
             "Hash": 1384465853,
-            "Name": "Розумове бачення",
+            "Name": "Mind Vision",
             "Descriptions": {
                 "0": {
                     "Hash": 3025312321,
                     "Id": "2096",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Дозволяє заклинателю бачити очима цілі протягом {1} сек. Не працює, якщо ціль знаходиться в іншому підземеллі або на іншому континенті."
+                    "Text": "Allows the caster to see through the target's eyes for {1} sec. Will not work if the target is in another instance or on another continent."
+                },
+                "1": {
+                    "Hash": 2165115629,
+                    "Id": "2096",
+                    "Spec": "Shadow, Discipline",
+                    "Text": "Allows the caster to see through the target's eyes for {1} min. Will not work if the target is in another instance or on another continent."
                 }
             }
         },
         "138": {
             "Hash": 11059165,
-            "Name": "Володар розуму",
+            "Name": "Mindbender",
             "Descriptions": {
                 "0": {
                     "Hash": 382416904,
                     "Id": "200174",
                     "Spec": "Shadow",
-                    "Text": "Ви викликаєте [Володар розуму], який буде атакувати вашу ціль впродовж {1} сек.\n\n{FFFFFFFF|Дає {2} од. безумства з кожною атакою володаря.}"
+                    "Text": "Summons a Mindbender to attack the target for {1} sec.\n\n{FFFFFFFF|Generates {2} Insanity each time the Mindbender attacks.}"
                 },
                 "1": {
                     "Hash": 3420279933,
                     "Id": "123040",
                     "Spec": "Discipline",
-                    "Text": "Ви викликаєте [Володар розуму], який буде атакувати вашу ціль впродовж {1} сек.\n\n{FFFFFFFF|Відновлює вам {2}% від максимального запасу мани з кожною атакою володаря.}"
+                    "Text": "Summons a Mindbender to attack the target for {1} sec. \n\n{FFFFFFFF|Generates {2}% Mana each time the Mindbender attacks.}"
                 }
             }
         },
         "139": {
             "Hash": 2179271560,
-            "Name": "Ігри розуму",
+            "Name": "Mindgames",
             "Descriptions": {
                 "0": {
                     "Hash": 1876493821,
                     "Id": "375901",
                     "Spec": "Shadow",
-                    "Text": "Атакує розум ворога, завдаючи {1} од. шкоди від темної магії та тимчасово змінюючи його сприйняття реальності.\n\nПротягом {2} сек, наступні {3} од. шкоди, що ворог завдасть цілі, зцілять її, а наступні {4} од. зцілення завдадуть шкоду.\n\n{FFFFFFFF|Дає {5} од. безумства.}"
+                    "Text": "Assault an enemy's mind, dealing {1} Shadow damage and briefly reversing their perception of reality.\n\nFor {2} sec, the next {3} damage they deal will heal their target, and the next {4} healing they deal will damage their target.\n\n{FFFFFFFF|Generates {5} Insanity.}"
                 },
                 "1": {
                     "Hash": 446889122,
                     "Id": "375901",
                     "Spec": "Discipline, Holy",
-                    "Text": "Атакує розум ворога, завдаючи {1} од. шкоди від темної магії та тимчасово змінюючи його сприйняття реальності.\n\nПротягом {2} сек, наступні {3} од. шкоди, що ворог завдасть цілі, зцілять її, а наступні {4} од. зцілення завдадуть шкоду."
+                    "Text": "Assault an enemy's mind, dealing {1} Shadow damage and briefly reversing their perception of reality.\n\nFor {2} sec, the next {3} damage they deal will heal their target, and the next {4} healing they deal will damage their target."
                 }
             }
         },
         "140": {
             "Hash": 965200325,
-            "Name": "Чудотворець",
+            "Name": "Miracle Worker",
             "Descriptions": {
                 "0": {
                     "Hash": 1477841524,
                     "Id": "235587",
                     "Spec": "Holy",
-                    "Text": "[Святе слово: Спокій] та [Святе слово: Освячення] отримують додатковий заряд."
+                    "Text": "Holy Word: Serenity and Holy Word: Sanctify gain an additional charge."
                 }
             }
         },
         "141": {
             "Hash": 4050603853,
-            "Name": "Страждання",
+            "Name": "Misery",
             "Descriptions": {
                 "0": {
                     "Hash": 2330216817,
                     "Id": "238558",
                     "Spec": "Shadow",
-                    "Text": "[Дотик вампіра] також застосовує на ціль [Слово тіні: Біль]. [Слово тіні: Біль] триває додатково {1} сек."
+                    "Text": "Vampiric Touch also applies Shadow Word: Pain to the target. Shadow Word: Pain lasts an additional {1} sec."
                 }
             }
         },
         "142": {
             "Hash": 3248855518,
-            "Name": "Благодатний рух",
+            "Name": "Move with Grace",
             "Descriptions": {
                 "0": {
                     "Hash": 2047849737,
                     "Id": "390620",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Зменшує час відновлення [Стрибок віри] на {1} сек."
+                    "Text": "Reduces the cooldown of Leap of Faith by {1} sec."
                 }
             }
         },
         "143": {
             "Hash": 835197534,
-            "Name": "Благання",
+            "Name": "Orison",
             "Descriptions": {
                 "0": {
                     "Hash": 4155858553,
                     "Id": "390947",
                     "Spec": "Holy",
-                    "Text": "[Коло зцілення] додатково зцілює {1} {declension|союзника|союзників}, а його час відновлення зменшується на {2} сек."
+                    "Text": "Circle of Healing heals {1} additional ally and its cooldown is reduced by {2} sec."
                 }
             }
         },
         "144": {
             "Hash": 1097397366,
-            "Name": "Біль і страждання",
+            "Name": "Pain and Suffering",
             "Descriptions": {
                 "0": {
                     "Hash": 1704481575,
                     "Id": "390689",
                     "Spec": "Discipline",
-                    "Text": "[Слово тіні: Біль] і [Очищення нечестивих] завдають на {1}% більше шкоди."
+                    "Text": "Increases the damage of Shadow Word: Pain and Purge the Wicked by {1}%."
                 }
             }
         },
         "145": {
             "Hash": 2962753164,
-            "Name": "Смертельний біль",
+            "Name": "Pain of Death",
             "Descriptions": {
                 "0": {
                     "Hash": 4093682119,
                     "Id": "391288",
                     "Spec": "Shadow",
-                    "Text": "Збільшує шкоду від [Слово тіні: Смерть] на {1}%.\n\n[Слово тіні: Смерть] завдає {2}% своєї шкоди усім цілям з ефектом [Слово тіні: Біль] в радіусі {3} м."
+                    "Text": "Increases the damage dealt by Shadow Word: Death by {1}%.\n\nShadow Word: Death deals {2}% of its damage to all targets affected by your Shadow Word: Pain within {3} yards."
                 }
             }
         },
         "146": {
             "Hash": 3708777910,
-            "Name": "Пригнічення болю",
+            "Name": "Pain Suppression",
             "Descriptions": {
                 "0": {
                     "Hash": 4199525429,
                     "Id": "33206",
                     "Spec": "Discipline",
-                    "Text": "Зменшує усю вхідну шкоду дружньої цілі на {1}% протягом {2} сек. Може застосовуватись під час оглушення."
+                    "Text": "Reduces all damage taken by a friendly target by {1}% for {2} sec. Castable while stunned."
                 }
             }
         },
         "147": {
             "Hash": 1690446928,
-            "Name": "Перетворення болю",
+            "Name": "Pain Transformation",
             "Descriptions": {
                 "0": {
                     "Hash": 3662204835,
                     "Id": "372991",
                     "Spec": "Discipline",
-                    "Text": "[Пригнічення болю] також зцілює вашу ціль на {1}% від її максимального здоров'я і застосовує на неї [Покуття]."
+                    "Text": "Pain Suppression also heals your target for {1}% of their maximum health and applies Atonement."
                 }
             }
         },
         "148": {
             "Hash": 780670508,
-            "Name": "Болісне покарання",
+            "Name": "Painful Punishment",
             "Descriptions": {
                 "0": {
                     "Hash": 304213337,
                     "Id": "390686",
                     "Spec": "Discipline",
-                    "Text": "Кожна стріла [Сповіді] подовжує дію [Слово тіні: Біль] та [Очищення нечестивих] на всіх уражених ворогах на {1} сек."
+                    "Text": "Each Penance bolt extends the duration of Shadow Word: Pain and Purge the Wicked on enemies hit by {1} sec."
                 }
             }
         },
         "149": {
             "Hash": 3791124659,
-            "Name": "Сповідь",
+            "Name": "Penance",
             "Descriptions": {
                 "0": {
                     "Hash": 1477220003,
                     "Id": "47540",
                     "Spec": "Discipline",
-                    "Text": "Випускає в ціль залп священного світла, завдаючи {1} од. шкоди від світлої магії ворогу або відновлюючи союзнику {2} од. здоров'я протягом {3} сек. Можна застосовувати під час руху."
+                    "Text": "Launches a volley of holy light at the target, causing {1} Holy damage to an enemy or {2} healing to an ally over {3} sec. Castable while moving."
                 }
             }
         },
         "150": {
             "Hash": 1138180609,
-            "Name": "Пронизливий крик",
+            "Name": "Petrifying Scream",
             "Descriptions": {
                 "0": {
                     "Hash": 1092866200,
                     "Id": "55676",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "[Психічний крик] змушує ворогів тремтіти на місці замість того, щоб тікати в страху."
+                    "Text": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear."
                 }
             }
         },
         "151": {
             "Hash": 3602253437,
-            "Name": "Примара",
+            "Name": "Phantasm",
             "Descriptions": {
                 "0": {
                     "Hash": 791869313,
@@ -1917,955 +2031,1009 @@
         },
         "152": {
             "Hash": 2479013483,
-            "Name": "Понтифік",
+            "Name": "Pontifex",
             "Descriptions": {
                 "0": {
                     "Hash": 3734003878,
                     "Id": "390980",
                     "Spec": "Holy",
-                    "Text": "Критичне зцілення від [Швидке зцілення] і [Зцілення] збільшує зцілення від наступного [Святе слово] на {1}%. Накопичується до {2} разів."
+                    "Text": "Critical heals from Flash Heal and Heal increase your healing done by your next Holy Word spell by {1}%, stacking up to {2} times."
                 }
             }
         },
         "153": {
             "Hash": 827389994,
-            "Name": "Збагачення силою",
+            "Name": "Power Infusion",
             "Descriptions": {
                 "0": {
                     "Hash": 2449293387,
                     "Id": "10060",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Наповнює ціль енергією на {1} сек, збільшуючи її швидкість на {2}%.\n\nМожна застосовувати лише на гравців."
+                    "Text": "Infuses the target with power for {1} sec, increasing haste by {2}%.\n\nCan only be cast on players."
                 }
             }
         },
         "154": {
             "Hash": 2758143182,
-            "Name": "Сила темної сторони",
+            "Name": "Power of the Dark Side",
             "Descriptions": {
                 "0": {
                     "Hash": 2894126143,
                     "Id": "198068",
                     "Spec": "Discipline",
-                    "Text": "[Слово тіні: Біль] та [Очищення нечестивих] мають шанс посилити вашу наступну [Сповідь] темрявою, збільшуючи її ефективність на {1}%."
+                    "Text": "Shadow Word: Pain and Purge the Wicked have a chance to empower your next Penance with Shadow, increasing its effectiveness by {1}%."
                 }
             }
         },
         "155": {
             "Hash": 547418838,
-            "Name": "Слово сили: Бар'єр",
+            "Name": "Power Word: Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 1704849500,
                     "Id": "62618",
                     "Spec": "Discipline",
-                    "Text": "Створює священний бар'єр, щоб захистити всіх союзників в цільовій області впродовж {1} сек, який зменшує усю вхідну шкоду на {2}% і попереджує затримку використання здібностей при отриманні шкоди."
+                    "Text": "Summons a holy barrier to protect all allies at the target location for {1} sec, reducing all damage taken by {2}% and preventing damage from delaying spellcasting."
                 }
             }
         },
         "156": {
             "Hash": 3775852703,
-            "Name": "Слово сили: Стійкість",
+            "Name": "Power Word: Fortitude",
             "Descriptions": {
                 "0": {
                     "Hash": 3519618527,
                     "Id": "21562",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Наповнює ціль життєвою силою, збільшуючи її витривалість на {1}% протягом {2} хв.\n\nЯкщо ціль є учасником вашої групи або рейду, то ефект застосується на всіх учасників."
+                    "Text": "Infuses the target with vitality, increasing their Stamina by {1}% for {2} min.\n\nIf the target is in your party or raid, all party and raid members will be affected."
+                },
+                "1": {
+                    "Hash": 3025295601,
+                    "Id": "21562",
+                    "Spec": "Shadow, Discipline",
+                    "Text": "Infuses the target with vitality, increasing their Stamina by {1}% for {2} hour.\r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
                 }
             }
         },
         "157": {
             "Hash": 3686669145,
-            "Name": "Слово сили: Життя",
+            "Name": "Power Word: Life",
             "Descriptions": {
                 "0": {
                     "Hash": 892836987,
                     "Id": "373481",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Слово святої сили, що відновлює {1} од. здоров'я цілі. Якщо в цілі менше {2}% здоров'я, то [Слово сили: Життя] відновить на {3}% більше здоров'я, а його час відновлення зменшиться на {4} сек."
+                    "Text": "A word of holy power that heals the target for {1}. If the target is below {2}% health, Power Word: Life heals for {3}% more and the cooldown of Power Word: Life is reduced by {4} sec."
                 }
             }
         },
         "158": {
             "Hash": 3971369379,
-            "Name": "Слово сили: Сяяння",
+            "Name": "Power Word: Radiance",
             "Descriptions": {
                 "0": {
                     "Hash": 3186734207,
                     "Id": "194509",
                     "Spec": "Discipline",
-                    "Text": "Спалах світла, який зцілює ціль та {1} поранених союзників в радіусі {2} м від неї на {3} од. здоровʼя та застосовує до них [Покуття] на {4}% від базового часу дії."
+                    "Text": "A burst of light heals the target and {1} injured allies within {2} yards for {3}, and applies Atonement for {4}% of its normal duration."
                 }
             }
         },
         "159": {
             "Hash": 310700280,
-            "Name": "Слово сили: Щит",
+            "Name": "Power Word: Shield",
             "Descriptions": {
                 "0": {
                     "Hash": 3056857671,
                     "Id": "17",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Вкриває союзника щитом на {1} сек, що поглинає {2} од. шкоди."
+                    "Text": "Shields an ally for {1} sec, absorbing {2} damage."
                 }
             }
         },
         "160": {
             "Hash": 3492855457,
-            "Name": "Слово сили: Розрада",
+            "Name": "Power Word: Solace",
             "Descriptions": {
                 "0": {
                     "Hash": 3997726019,
                     "Id": "129250",
                     "Spec": "Discipline",
-                    "Text": "Вражає ворога небесною силою, завдаючи {1} од. шкоди від світлої магії та відновлюючи {2}% вашого максимального запасу мани."
+                    "Text": "Strikes an enemy with heavenly power, dealing {1} Holy damage and restoring {2}% of your maximum mana."
                 }
             }
         },
         "161": {
             "Hash": 729147738,
-            "Name": "Молитовне коло",
+            "Name": "Prayer Circle",
             "Descriptions": {
                 "0": {
                     "Hash": 3113380878,
                     "Id": "321377",
                     "Spec": "Holy",
-                    "Text": "Застосування [Коло зцілення] зменшує час застосування і витрати вашої [Молитва зцілення] на {1}% протягом {2} сек."
+                    "Text": "Using Circle of Healing reduces the cast time and cost of your Prayer of Healing by {1}% for {2} sec."
                 }
             }
         },
         "162": {
             "Hash": 1065953082,
-            "Name": "Молитва зцілення",
+            "Name": "Prayer of Healing",
             "Descriptions": {
                 "0": {
                     "Hash": 557493297,
                     "Id": "596",
                     "Spec": "Holy",
-                    "Text": "Потужна молитва, що відновлює {1} од. здоров'я цілі та {3} од. здоров'я союзникам в радіусі {2} м."
+                    "Text": "A powerful prayer that heals the target and the {1} nearest allies within {2} yards for {3}."
                 }
             }
         },
         "163": {
             "Hash": 2549804819,
-            "Name": "Молитва відновлення",
+            "Name": "Prayer of Mending",
             "Descriptions": {
                 "0": {
                     "Hash": 3205543888,
                     "Id": "33076",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Застосовує на союзника закляття, яке відновить йому {1} од. здоров'я при наступному отриманні шкоди, після чого переходить на іншого гравця в радіусі {2} м. Максимум переходів - {3}. Тривалість після кожного переходу - {4} сек."
+                    "Text": "Places a ward on an ally that heals them for {1} the next time they take damage, and then jumps to another ally within {2} yds. Jumps up to {3} times and lasts {4} sec after each jump."
                 }
             }
         },
         "164": {
             "Hash": 3031450528,
-            "Name": "Літанія",
+            "Name": "Prayerful Litany",
             "Descriptions": {
                 "0": {
                     "Hash": 1240979349,
                     "Id": "391209",
                     "Spec": "Holy",
-                    "Text": "[Молитва зцілення] відновлює на {1}% більше здоров'я найбільш пораненому союзнику."
+                    "Text": "Prayer of Healing heals for {1}% more to the most injured ally it affects."
                 }
             }
         },
         "165": {
             "Hash": 600704922,
-            "Name": "Молитви доброчесних",
+            "Name": "Prayers of the Virtuous",
             "Descriptions": {
                 "0": {
                     "Hash": 2238694225,
                     "Id": "390977",
                     "Spec": "Holy",
-                    "Text": "[Молитва відновлення] додатково робить {1} {declension|перехід|переходи|переходів}."
+                    "Text": "Prayer of Mending jumps {1} additional times."
                 }
             }
         },
         "166": {
             "Hash": 2345603525,
-            "Name": "Передбачення",
+            "Name": "Precognition",
             "Descriptions": {
                 "0": {
                     "Hash": 525859810,
                     "Id": "377360",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Якщо переривання застосовується на вас, коли ви не застосовуєте закляття, ви отримуєте {1}% Швидкості та стаєте невразливими до ефектів переривання, контролю та ефектів затримки застосування на {2} сек."
+                    "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
                 }
             }
         },
         "167": {
             "Hash": 54684239,
-            "Name": "Кришталеві відблиски",
+            "Name": "Prismatic Echoes",
             "Descriptions": {
                 "0": {
                     "Hash": 2615027732,
                     "Id": "390967",
                     "Spec": "Holy",
-                    "Text": "Збільшує зцілення від вашого ефекту [Майстерність: Відгук світла] на {1}%."
+                    "Text": "Increases the healing done by your Mastery: Echo of Light by {1}%."
                 }
             }
         },
         "168": {
             "Hash": 3773656863,
-            "Name": "Захисне світло",
+            "Name": "Protective Light",
             "Descriptions": {
                 "0": {
                     "Hash": 3714316562,
                     "Id": "193063",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Застосування [Швидке зцілення] на себе, зменшує вхідну шкоду на {1}% протягом {2} сек."
+                    "Text": "Casting Flash Heal on yourself reduces all damage you take by {1}% for {2} sec."
                 }
             }
         },
         "169": {
             "Hash": 1591881943,
-            "Name": "Захист немічних",
+            "Name": "Protector of the Frail",
             "Descriptions": {
                 "0": {
                     "Hash": 2027261971,
                     "Id": "373035",
                     "Spec": "Discipline",
-                    "Text": "[Пригнічення болю] отримує додатковий заряд.\n\n[Слово сили: Щит] зменшує час відновлення [Пригнічення болю] на {1} сек."
+                    "Text": "Pain Suppression gains an additional charge.\n\nPower Word: Shield reduces the cooldown of Pain Suppression by {1} sec."
                 }
             }
         },
         "170": {
             "Hash": 445819874,
-            "Name": "Психічний жах",
+            "Name": "Psychic Horror",
             "Descriptions": {
                 "0": {
                     "Hash": 2321329296,
                     "Id": "64044",
                     "Spec": "Shadow",
-                    "Text": "Лякає ціль на місці, оглушуючи її на {1} сек."
+                    "Text": "Terrifies the target in place, stunning them for {1} sec."
                 }
             }
         },
         "171": {
             "Hash": 1084022481,
-            "Name": "Психічний зв'язок",
+            "Name": "Psychic Link",
             "Descriptions": {
                 "0": {
                     "Hash": 3092186525,
                     "Id": "199484",
                     "Spec": "Shadow",
-                    "Text": "[Вибух розуму], [Катування розуму], [Пронизування розуму], [Ігри розуму], [Стріла порожнечі] і [Вихор порожнечі] завдають {1}% своєї шкоди усім іншим цілям з ефектом [Дотик вампіра] в радіусі {2} м."
+                    "Text": "Mind Blast, Mind Flay, Mind Spike, Mindgames, Void Bolt, and Void Torrent deal {1}% of their damage to all other targets afflicted by your Vampiric Touch within {2} yards."
+                },
+                "1": {
+                    "Hash": 2336390863,
+                    "Id": "199484",
+                    "Spec": "Shadow",
+                    "Text": "Your direct damage spells inflict {1}% of their damage on all other targets afflicted by your Vampiric Touch within {2} yards.\r\n\r\nDoes not apply to damage from Shadowy Apparitions, Shadow Word: Pain, and Vampiric Touch."
                 }
             }
         },
         "172": {
             "Hash": 3211255253,
-            "Name": "Психічний крик",
+            "Name": "Psychic Scream",
             "Descriptions": {
                 "0": {
                     "Hash": 4251390699,
                     "Id": "8122",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Видає психічний крик, що змушує {1} {declension|ворога|ворогів} в радіусі {2} м тікати, дезорієнтуючи їх на {3} сек. Завдана шкода перериває дію цього ефекту."
+                    "Text": "Lets out a psychic scream, causing {1} enemies within {2} yards to flee, disorienting them for {3} sec. Damage may interrupt the effect."
+                },
+                "1": {
+                    "Hash": 1450891477,
+                    "Id": "8122",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Lets out a psychic scream, causing all enemies within {1} yards to flee, disorienting them for {2} sec. Damage may interrupt the effect."
                 }
             }
         },
         "173": {
             "Hash": 1205080122,
-            "Name": "Психічний голос",
+            "Name": "Psychic Voice",
             "Descriptions": {
                 "0": {
                     "Hash": 1957954636,
                     "Id": "196704",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Зменшує час відновлення [Психічний крик] на {1} сек."
+                    "Text": "Reduces the cooldown of Psychic Scream by {1} sec."
                 }
             }
         },
         "174": {
             "Hash": 2390223895,
-            "Name": "Демон свідомості",
+            "Name": "Psyfiend",
             "Descriptions": {
                 "0": {
                     "Hash": 1573262439,
                     "Id": "211522",
                     "Spec": "Shadow",
-                    "Text": "Ви викликаєте [Демон свідомості] зі {1} од. здоров'я на {2} сек, що атакує ціль на відстані, використовуючи [Ментальні тортури].\n\n|T136208:24|t {ffffffff|Ментальні тортури}\nРаз на {4} сек завдає шкоду в об'ємі {3}% від максимального запасу здоров'я цілі. Також сповільнює ціль на {5}% та зменшує її вхідне зцілення на {6}%."
+                    "Text": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\n\n|T136208:24|t {ffffffff|Psyflay}\nDeals up to {3}% of the target's total health in Shadow damage every {4} sec. Also slows their movement speed by {5}% and reduces healing received by {6}%."
+                },
+                "1": {
+                    "Hash": 798710542,
+                    "Id": "211522",
+                    "Spec": "Shadow",
+                    "Text": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\r\n\r\n|T136208:24|t {ffffffff|Psyflay}"
                 }
             }
         },
         "175": {
             "Hash": 1004123025,
-            "Name": "Ляльковик",
+            "Name": "Puppet Master",
             "Descriptions": {
                 "0": {
                     "Hash": 3979843519,
                     "Id": "377387",
                     "Spec": "Shadow",
-                    "Text": "Коли ваше [Породження темряви] і [Володар розуму] завдають шкоду, ви отримуєте ефект [Сходження тіней].\n\nШкода від [Тіньові примари] має {1}% шанс надати ефект [Сходження тіней]."
+                    "Text": "Your Shadowfiend and Mindbender grant you Coalescing Shadows each time they deal damage.\n\nDamage from your Shadowy Apparitions has a {1}% chance to grant you Coalescing Shadows."
                 }
             }
         },
         "176": {
             "Hash": 3045554942,
-            "Name": "Очищення нечестивих",
+            "Name": "Purge the Wicked",
             "Descriptions": {
                 "0": {
                     "Hash": 1388306777,
                     "Id": "204197",
                     "Spec": "Discipline",
-                    "Text": "Очищує ціль вогнем, завдаючи {1} од. шкоди від сяйва та додаткові {2} од. шкоди від сяйва протягом {3} сек. Коли ви атакуєте ціль за допомогою [Сповідь], цей ефект поширюється на ворогів поблизу."
+                    "Text": "Cleanses the target with fire, causing {1} Radiant damage and an additional {2} Radiant damage over {3} sec. Spreads to a nearby enemy when you cast Penance on the target."
                 }
             }
         },
         "177": {
             "Hash": 4050257706,
-            "Name": "Посвята",
+            "Name": "Purification",
             "Descriptions": {
                 "0": {
                     "Hash": 2304820605,
                     "Id": "196162",
                     "Spec": "Discipline, Holy",
-                    "Text": "[Очищення] тепер має {1} {declension|заряд|заряди|зарядів}."
+                    "Text": "Purify now has a maximum of {1} charges."
                 }
             }
         },
         "178": {
             "Hash": 3382194509,
-            "Name": "Сповнення рішучості",
+            "Name": "Purified Resolve",
             "Descriptions": {
                 "0": {
                     "Hash": 3731966169,
                     "Id": "196439",
                     "Spec": "Discipline, Holy",
-                    "Text": "Зняття шкідливих ефектів за допомогою [Очищення] застосує на ціль ефект [Сповнення рішучості], що дає щит, який поглинає шкоду в об'ємі {1}% від їх максимального здоров'я. Тривалість - {2} сек."
+                    "Text": "Removing harmful effects with Purify will apply Purified Resolve to the target, granting an absorption shield equal to {1}% of their maximum health. Lasts {2} sec."
                 }
             }
         },
         "179": {
             "Hash": 4271350519,
-            "Name": "Очищення",
+            "Name": "Purify",
             "Descriptions": {
                 "0": {
                     "Hash": 825073799,
                     "Id": "527",
                     "Spec": "Discipline, Holy",
-                    "Text": "Розвіює шкідливі ефекти з цілі, знімаючи усі негативні магічні ефекти."
+                    "Text": "Dispels harmful effects on the target, removing all Magic effects."
                 }
             }
         },
         "180": {
             "Hash": 2274226857,
-            "Name": "Очищення хвороби",
+            "Name": "Purify Disease",
             "Descriptions": {
                 "0": {
                     "Hash": 983090238,
                     "Id": "213634",
                     "Spec": "Shadow",
-                    "Text": "Знімає усі ефекти хвороб з дружньої цілі."
+                    "Text": "Removes all Disease effects from a friendly target."
                 }
             }
         },
         "181": {
             "Hash": 1295784161,
-            "Name": "Швидке відновлення",
+            "Name": "Rapid Recovery",
             "Descriptions": {
                 "0": {
                     "Hash": 3712395324,
                     "Id": "391368",
                     "Spec": "Holy",
-                    "Text": "Збільшує зцілення від [Оновлення] на {1}%, але зменшує його початкову тривалість на {2} сек."
+                    "Text": "Increases healing done by Renew by {1}%, but decreases its base duration by {2} sec."
                 }
             }
         },
         "182": {
             "Hash": 1181916104,
-            "Name": "Вознесіння",
+            "Name": "Rapture",
             "Descriptions": {
                 "0": {
                     "Hash": 1145729880,
                     "Id": "47536",
                     "Spec": "Discipline",
-                    "Text": "Одразу накладає [Слово сили: Щит] на вашу ціль, і протягом наступних {1} сек [Слово сили: Щит] відновлюється миттєво, додатково поглинаючи {2}% отримуваної шкоди."
+                    "Text": "Immediately Power Word: Shield your target, and for the next {1} sec, Power Word: Shield has no cooldown and absorbs an additional {2}%."
                 }
             }
         },
         "183": {
             "Hash": 2222062643,
-            "Name": "Промінь надії",
+            "Name": "Ray of Hope",
             "Descriptions": {
                 "0": {
                     "Hash": 1813881111,
                     "Id": "197268",
                     "Spec": "Holy",
-                    "Text": "Впродовж наступних {1} сек, уся шкода та ефекти зцілення застосуються на ціль лише після завершення дії [Промінь надії]. Усе зцілення, відкладене через [Промінь надії], збільшується на {2}%."
+                    "Text": "For the next {1} sec, all damage and healing dealt to the target is delayed until Ray of Hope ends. All healing that is delayed by Ray of Hope is increased by {2}%."
                 }
             }
         },
         "184": {
             "Hash": 2021827615,
-            "Name": "Оновлення",
+            "Name": "Renew",
             "Descriptions": {
                 "0": {
                     "Hash": 1498119181,
                     "Id": "139",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Наповнює ціль вірою у світло, відновлюючи їй {1} од. здоров'я протягом {2} сек."
+                    "Text": "Fill the target with faith in the light, healing for {1} over {2} sec."
                 }
             }
         },
         "185": {
             "Hash": 2614877969,
-            "Name": "Оновлена віра",
+            "Name": "Renewed Faith",
             "Descriptions": {
                 "0": {
                     "Hash": 2081534610,
                     "Id": "341997",
                     "Spec": "Holy",
-                    "Text": "Зцілення союзників з ефектом [Оновлення] збільшується на {1}%."
+                    "Text": "Your healing on allies with your Renew is increased by {1}%."
                 }
             }
         },
         "186": {
             "Hash": 3081463883,
-            "Name": "Проникливі слова",
+            "Name": "Resonant Words",
             "Descriptions": {
                 "0": {
                     "Hash": 2045006494,
                     "Id": "372309",
                     "Spec": "Holy",
-                    "Text": "Застосування заклинань типу [Святе слово], посилює ваше наступне [Швидке зцілення] або [Зцілення] на {1}%."
+                    "Text": "Casting a Holy Word spell increases the healing of your next Heal or Flash Heal by {1}%."
                 }
             }
         },
         "187": {
             "Hash": 1534166611,
-            "Name": "Яскраве світло",
+            "Name": "Resplendent Light",
             "Descriptions": {
                 "0": {
                     "Hash": 4167271277,
                     "Id": "390765",
                     "Spec": "Discipline",
-                    "Text": "[Гнів світла] додатково завдає {1}% шкоди за кожного союзника з ефектом [Покуття]."
+                    "Text": "Light's Wrath deals an additional {1}% damage per ally affected by your Atonement."
                 }
             }
         },
         "188": {
             "Hash": 3652840284,
-            "Name": "Відшкодування",
+            "Name": "Restitution",
             "Descriptions": {
                 "0": {
                     "Hash": 3262767650,
                     "Id": "391124",
                     "Spec": "Holy",
-                    "Text": "Коли [Дух спокути] зникає, ви воскресаєте з рівнем здоров'я до {1}% від максимального запасу, залежно від об'єму відновленого здоров'я під час дії [Дух спокути]. Ви не можете отримати ефект від [Дух спокути] після воскресіння ще {2} хв."
+                    "Text": "After Spirit of Redemption expires, you will revive at up to {1}% health, based on your healing done during Spirit of Redemption. After reviving, you cannot benefit from Spirit of Redemption for {2} min."
                 }
             }
         },
         "189": {
             "Hash": 4283558457,
-            "Name": "Воскресіння",
+            "Name": "Resurrection",
             "Descriptions": {
                 "0": {
                     "Hash": 1922543190,
                     "Id": "2006",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Повертає усіх мертвих учасників групи до життя з {1}% здоров'я і мани. Не може бути використане під час бою."
+                    "Text": "Brings a dead ally back to life with {1}% health and mana. Cannot be cast when in combat."
                 }
             }
         },
         "190": {
             "Hash": 3476466091,
-            "Name": "Поринення в чистоту",
+            "Name": "Revel in Purity",
             "Descriptions": {
                 "0": {
                     "Hash": 554079476,
                     "Id": "373003",
                     "Spec": "Discipline",
-                    "Text": "[Очищення нечестивих] додатково завдає на {1}% більше шкоди та розповсюджується на {2} {declension|ціль|цілі|цілей} при застосуванні [Сповідь]."
+                    "Text": "Purge the Wicked deals {1}% additional damage and spreads to {2} additional target when casting Penance."
                 }
             }
         },
         "191": {
             "Hash": 1535619402,
-            "Name": "Молитви оживлення",
+            "Name": "Revitalizing Prayers",
             "Descriptions": {
                 "0": {
                     "Hash": 4208736646,
                     "Id": "391208",
                     "Spec": "Holy",
-                    "Text": "[Молитва зцілення] має {1}% шанс застосувати [Оновлення] тривалістю {2} сек на всіх зцілених союзників."
+                    "Text": "Prayer of Healing has a {1}% chance to apply a {2} second Renew to allies it heals."
                 }
             }
         },
         "192": {
             "Hash": 148173905,
-            "Name": "Рапсодія",
+            "Name": "Rhapsody",
             "Descriptions": {
                 "0": {
                     "Hash": 2557684800,
                     "Id": "390622",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Кожні {1} сек, що ви не застосовуєте [Священна Хвиля], шкода від вашої наступної [Священна Хвиля] збільшується на {2}%, а її зцілення на {3}%. Накопичується до {4} разів."
+                    "Text": "For every {1} sec that you do not cast Holy Nova, the damage of your next Holy Nova is increased by {2}% and its healing is increased by {3}%. This effect can stack up to {4} times."
                 }
             }
         },
         "193": {
             "Hash": 1537849425,
-            "Name": "Сан'лейн",
+            "Name": "San'layn",
             "Descriptions": {
                 "0": {
                     "Hash": 1914262419,
                     "Id": "199855",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "|T2101983:24|t {ffffffff|Вчення крові}\n[Вчення крові] дають додатково {1}% самозцілення.\n\n|T136230:24|t {ffffffff|Обійми вампіра}\nЗменшує час відновлення [Обійми вампіра] на {2} сек та збільшує їх зцілення на {3}%."
+                    "Text": "|T2101983:24|t {ffffffff|Sanguine Teachings}\nSanguine Teachings grants an additional {1}% Leech.\n\n|T136230:24|t {ffffffff|Vampiric Embrace}\nReduces the cooldown of Vampiric Embrace by {2} sec, increases its healing done by {3}%."
                 }
             }
         },
         "194": {
             "Hash": 2414503873,
-            "Name": "Священна земля",
+            "Name": "Sanctified Ground",
             "Descriptions": {
                 "0": {
                     "Hash": 3748595017,
                     "Id": "357481",
                     "Spec": "Holy",
-                    "Text": "[Святе слово: Освячення] благословляє землю божественним світлом, що дає усім стоячим у ній союзникам імунітет до усіх ефектів знемовлення та переривання. Тривалість - {1} сек."
+                    "Text": "Holy Word: Sanctify blesses the ground with divine light, causing all allies who stand within to be immune to all silence and interrupt effects. Lasts for {1} sec."
                 }
             }
         },
         "195": {
             "Hash": 313843731,
-            "Name": "Освячені молитви",
+            "Name": "Sanctified Prayers",
             "Descriptions": {
                 "0": {
                     "Hash": 2159222750,
                     "Id": "196489",
                     "Spec": "Holy",
-                    "Text": "[Святе слово: Освячення] підвищує вихідне зцілення від [Молитва зцілення] на {1}% протягом {2} сек."
+                    "Text": "Holy Word: Sanctify increases the healing done by Prayer of Healing by {1}% for {2} sec."
                 }
             }
         },
         "196": {
             "Hash": 959332745,
-            "Name": "Вчення крові",
+            "Name": "Sanguine Teachings",
             "Descriptions": {
                 "0": {
                     "Hash": 3072765750,
                     "Id": "373218",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Самозцілення збільшується на {1}%."
+                    "Text": "Increases your Leech by {1}%."
                 }
             }
         },
         "197": {
             "Hash": 3995091758,
-            "Name": "Час молитви",
+            "Name": "Say Your Prayers",
             "Descriptions": {
                 "0": {
                     "Hash": 4171389735,
                     "Id": "391186",
                     "Spec": "Holy",
-                    "Text": "[Молитва відновлення] має {1}% шанс не використати заряд при переході на нову ціль."
+                    "Text": "Prayer of Mending has a {1}% chance to not consume a charge when it jumps to a new target."
                 }
             }
         },
         "198": {
             "Hash": 2463706643,
-            "Name": "Схизма",
+            "Name": "Schism",
             "Descriptions": {
                 "0": {
                     "Hash": 3000620996,
                     "Id": "214621",
                     "Spec": "Discipline",
-                    "Text": "Атакує душу ворога потоком темної енергії, який завдає {1} од. шкоди від темної магії та збільшує вашу шкоду від заклинань до цілі на {2}% впродовж {3} сек."
+                    "Text": "Attack the enemy's soul with a surge of Shadow energy, dealing {1} Shadow damage and increasing your spell damage to the target by {2}% for {3} sec."
                 }
             }
         },
         "199": {
             "Hash": 3758878499,
-            "Name": "Крики порожнечі",
+            "Name": "Screams of the Void",
             "Descriptions": {
                 "0": {
                     "Hash": 1210132002,
                     "Id": "375767",
                     "Spec": "Shadow",
-                    "Text": "Під час підтримання [Катування розуму] або [Вихор порожнечі], ваші [Дотик вампіра] і [Слово тіні: Біль] на основній цілі завдають шкоду на {1}% швидше.\n\nПід час підтримання [Вигорання розуму], ваші [Дотик вампіра] і [Слово тіні: Біль] на усіх цілях завдають шкоду на {2}% швидше."
+                    "Text": "While channeling Mind Flay or Void Torrent, your Vampiric Touch and Shadow Word: Pain on your primary target deals damage {1}% faster.\n\nWhile channeling Mind Sear, your Vampiric Touch and Shadow Word: Pain on all targets deals damage {2}% faster."
+                },
+                "1": {
+                    "Hash": 3448185858,
+                    "Id": "375767",
+                    "Spec": "Shadow",
+                    "Text": "Devouring Plague causes your Shadow Word: Pain and Vampiric Touch to deal damage {1}% faster on all targets for {2} sec."
                 }
             }
         },
         "200": {
             "Hash": 3450918146,
-            "Name": "Пекуче світло",
+            "Name": "Searing Light",
             "Descriptions": {
                 "0": {
                     "Hash": 1468298527,
                     "Id": "372611",
                     "Spec": "Holy",
-                    "Text": "[Кара] і [Священна Хвиля] додатково завдають {1}% шкоди цілям з ефектом [Священний вогонь]."
+                    "Text": "Smite and Holy Nova deal {1}% additional damage to targets affected by your Holy Fire."
                 }
             }
         },
         "201": {
             "Hash": 4163767443,
-            "Name": "Заковування Невмерлих",
+            "Name": "Shackle Undead",
             "Descriptions": {
                 "0": {
                     "Hash": 1488932739,
                     "Id": "9484",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Сковує Невмерлого на {1} сек, перешкоджаючи будь-яким діям і пересуванню. Будь-яка шкода по цілі припиняє дію цього ефекту. Максимум цілей - {2}."
+                    "Text": "Shackles the target undead enemy for {1} sec, preventing all actions and movement. Damage will cancel the effect. Limit {2}."
                 }
             }
         },
         "202": {
             "Hash": 1463119986,
-            "Name": "Темний договір",
+            "Name": "Shadow Covenant",
             "Descriptions": {
                 "0": {
                     "Hash": 2245472314,
                     "Id": "314867",
                     "Spec": "Discipline",
-                    "Text": "Ви укладаєте тіньову угоду, зцілюючи ціль і {1} інших поранених союзників в радіусі {2} м на {3} од. здоров'я. Протягом {4} сек ваші шкода і зцілення від темної магії збільшується на {5}%, а [Ореол], [Божественна зірка] і [Сповідь] стають закляттями темної магії."
+                    "Text": "Make a shadowy pact, healing the target and {1} other injured allies within {2} yds for {3}. For {4} sec, your Shadow spells deal {5}% increased damage and healing, and Halo, Divine Star, and Penance are converted to Shadow spells."
                 }
             }
         },
         "203": {
             "Hash": 3737604626,
-            "Name": "Тіньове зіткнення",
+            "Name": "Shadow Crash",
             "Descriptions": {
                 "0": {
                     "Hash": 780428521,
                     "Id": "205385",
                     "Spec": "Shadow",
-                    "Text": "Випускає стрілу темної енергії, яка повільно рухається, завдає {1} од. шкоди від темної магії усім ворогам в радіусі {2} м і накладає ефект [Дотик вампіра] на {3} з них.\n\n{FFFFFFFF|Дає {4} од. безумства}"
+                    "Text": "Hurl a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage to all targets within {2} yards and applying Vampiric Touch to {3} of them.\n\n{FFFFFFFF|Generates {4} Insanity.}"
+                },
+                "1": {
+                    "Hash": 4063155587,
+                    "Id": "205385",
+                    "Spec": "Shadow",
+                    "Text": "Hurl a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}"
                 }
             }
         },
         "204": {
             "Hash": 721771967,
-            "Name": "Слово тіні: Смерть",
+            "Name": "Shadow Word: Death",
             "Descriptions": {
                 "0": {
                     "Hash": 792510247,
                     "Id": "32379",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Темні пута, що завдають цілі {1} од. шкоди від темної магії. Якщо ціль не помирає від [Слово тіні: Смерть], то ви отримуєте шкоду в об'ємі завданої цілі шкоди.\n\nШкода збільшується на {2}%, якщо у цілі менше {3}% здоров'я."
+                    "Text": "A word of dark binding that inflicts {1} Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.\n\nDamage increased by {2}% to targets below {3}% health."
+                },
+                "1": {
+                    "Hash": 538368731,
+                    "Id": "32379",
+                    "Spec": "Shadow",
+                    "Text": "A word of dark binding that inflicts {1} Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.\r\n\r\nDamage increased by {2}% to targets below {3}% health.\r\n\r\n{FFFFFFFF|Generates {4} Insanity.}"
                 }
             }
         },
         "205": {
             "Hash": 1464912344,
-            "Name": "Слово тіні: Біль",
+            "Name": "Shadow Word: Pain",
             "Descriptions": {
                 "0": {
                     "Hash": 1691318993,
                     "Id": "589",
                     "Spec": "Shadow",
-                    "Text": "Слово тіні, що миттєво завдає {1} од. шкоди від темної магії, і додатково {2} од. шкоди від темної магії протягом {3} сек.\n\n{FFFFFFFF|Дає {4} од. безумства}"
+                    "Text": "A word of darkness that causes {1} Shadow damage instantly, and an additional {2} Shadow damage over {3} sec.\n\n{FFFFFFFF|Generates {4} Insanity.}"
                 },
                 "1": {
                     "Hash": 4277584885,
                     "Id": "589",
                     "Spec": "Holy",
-                    "Text": "Слово тіні, що миттєво завдає {1} од. шкоди від темної магії, і додатково {2} од. шкоди від темної магії протягом {3} сек."
+                    "Text": "A word of darkness that causes {1} Shadow damage instantly, and an additional {2} Shadow damage over {3} sec."
                 }
             }
         },
         "206": {
             "Hash": 2101917462,
-            "Name": "Породження темряви",
+            "Name": "Shadowfiend",
             "Descriptions": {
                 "0": {
                     "Hash": 1746599388,
                     "Id": "34433",
                     "Spec": "Shadow",
-                    "Text": "Ви викликаєте породження темряве, яке атакує ціль впродовж {1} сек.\n\n{FFFFFFFF|Дає {2} од. безумства з кожною атакою породження.}"
+                    "Text": "Summons a shadowy fiend to attack the target for {1} sec.\n\n{FFFFFFFF|Generates {2} Insanity each time the Shadowfiend attacks.}"
                 },
                 "1": {
                     "Hash": 3844076489,
                     "Id": "34433",
                     "Spec": "Discipline, Holy",
-                    "Text": "Ви викликаєте породження темряве, яке атакує ціль впродовж {1} сек.\n\n{FFFFFFFF|Відновлює {2}% мани з кожною атакою породження.}"
+                    "Text": "Summons a shadowy fiend to attack the target for {1} sec.\n\n{FFFFFFFF|Generates {2}% Mana each time the Shadowfiend attacks.}"
                 }
             }
         },
         "207": {
             "Hash": 1588085082,
-            "Name": "Тіньове втілення",
+            "Name": "Shadowform",
             "Descriptions": {
                 "0": {
                     "Hash": 3466746138,
                     "Id": "232698",
                     "Spec": "Shadow",
-                    "Text": "Ви приймаєте форму тіні, збільшуючи шкоду від заклять на {1}%."
+                    "Text": "Assume a Shadowform, increasing your spell damage dealt by {1}%."
                 }
             }
         },
         "208": {
             "Hash": 3527034514,
-            "Name": "Тіньові примари",
+            "Name": "Shadowy Apparitions",
             "Descriptions": {
                 "0": {
                     "Hash": 1265294953,
                     "Id": "341491",
                     "Spec": "Shadow",
-                    "Text": "[Ненажерна чума], [Вибух розуму] і [Стріла порожнечі] мають {1}% шанс породити тіньову примару, а [Вигорання розуму] має {2}% шанс, породити тіньову примару.\n\nТіньова примара повільно рухається до цілей з ефектом [Дотик вампіра] і завдає {3} од. шкоди від темної магії.\n\nКритична шкода від [Вибух розуму], [Ненажерна чума], і [Стріла порожнечі] збільшує шкоду тіньових примар, яких вони породили, на {4}%."
+                    "Text": "Mind Blast, Devouring Plague, and Void Bolt have a {1}% chance to conjure Shadowy Apparitions and Mind Sear has a {2}% chance to conjure Shadowy Apparitions.\n\nShadowy Apparitions float towards all targets afflicted by your Vampiric Touch for {3} Shadow damage.\n\nCritical strikes with Mind Blast, Devouring Plague, and Void Bolt increase the damage of the Shadowy Apparitions they conjure by {4}%."
+                },
+                "1": {
+                    "Hash": 4032197860,
+                    "Id": "341491",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast, Devouring Plague, and Void Bolt conjure Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch for {1} Shadow damage. \r\n\r\nCritical strikes increase the damage by {2}%."
                 }
             }
         },
         "209": {
             "Hash": 3639173698,
-            "Name": "Тіньове прозріння",
+            "Name": "Shadowy Insight",
             "Descriptions": {
                 "0": {
                     "Hash": 3462764615,
                     "Id": "375888",
                     "Spec": "Shadow",
-                    "Text": "[Вибух розуму] отримує додатковий заряд.\n\nПеріодична шкода від [Слово тіні: Біль] має шанс відновити [Вибух розуму] і зробити його наступне застосування миттєвим."
+                    "Text": "Mind Blast gains an additional charge.\n\nShadow Word: Pain periodic damage has a chance to reset the remaining cooldown on Mind Blast and cause your next Mind Blast to be instant."
+                },
+                "1": {
+                    "Hash": 3790076018,
+                    "Id": "375888",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Word: Pain periodic damage has a chance to reset the remaining cooldown on Mind Blast and cause your next Mind Blast to be instant."
                 }
             }
         },
         "210": {
             "Hash": 3840884712,
-            "Name": "Зруйновані уявлення",
+            "Name": "Shattered Perceptions",
             "Descriptions": {
                 "0": {
                     "Hash": 4092671021,
                     "Id": "391112",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "[Ігри розуму] тривають на {1} сек довше, завдають на {2}% більше шкоди, і додатково повертають {3}% шкоди або зцілення."
+                    "Text": "Mindgames lasts an additional {1} sec, deals an additional {2}% initial damage, and reverses an additional {3}% damage or healing."
                 }
             }
         },
         "211": {
             "Hash": 2566358051,
-            "Name": "Цілковите жахіття",
+            "Name": "Sheer Terror",
             "Descriptions": {
                 "0": {
                     "Hash": 4051244286,
                     "Id": "390919",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Збільшує об'єм шкоди, необхідний, щоб зняти ваш [Психічний крик], на {1}%."
+                    "Text": "Increases the amount of damage required to break your Psychic Scream by {1}%."
                 }
             }
         },
         "212": {
             "Hash": 558824880,
-            "Name": "Дисципліна Щиту",
+            "Name": "Shield Discipline",
             "Descriptions": {
                 "0": {
                     "Hash": 4228695858,
                     "Id": "197045",
                     "Spec": "Discipline",
-                    "Text": "Якщо ваше [Слово сили: Щит] повністю поглинуло шкоду, ви відновлюєте {1}% від вашого максимального запасу мани."
+                    "Text": "When your Power Word: Shield is completely absorbed, you restore {1}% of your maximum mana."
                 }
             }
         },
         "213": {
             "Hash": 2360259957,
-            "Name": "Знемовлення",
+            "Name": "Silence",
             "Descriptions": {
                 "0": {
                     "Hash": 1652952972,
                     "Id": "15487",
                     "Spec": "Shadow",
-                    "Text": "Знемовлює ціль, забороняючи їй використовувати здібності протягом {1} сек. Якщо ціль не є гравцем, то також перериває застосування здібностей, і запобігає використанню здібностей з цієї школи на {2} сек."
+                    "Text": "Silences the target, preventing them from casting spells for {1} sec. Against non-players, also interrupts spellcasting and prevents any spell in that school from being cast for {2} sec."
                 }
             }
         },
         "214": {
             "Hash": 2018914917,
-            "Name": "Численні гріхи",
+            "Name": "Sins of the Many",
             "Descriptions": {
                 "0": {
                     "Hash": 3684469220,
                     "Id": "280391",
                     "Spec": "Discipline",
-                    "Text": "Ваша шкода збільшується максимум на {1}%, зменшуючись за кожного союзника з ефектом [Покуття]."
+                    "Text": "Your damage is increased by up to {1}%, diminishing for each ally affected by your Atonement."
                 }
             }
         },
         "215": {
             "Hash": 1201212545,
-            "Name": "Кара",
+            "Name": "Smite",
             "Descriptions": {
                 "0": {
                     "Hash": 1314288394,
                     "Id": "585",
                     "Spec": "Discipline, Holy",
-                    "Text": "Карає ворога, завдаючи {1} од. шкоди від світлої магії."
+                    "Text": "Smites an enemy for {1} Holy damage."
                 }
             }
         },
         "216": {
             "Hash": 4277169030,
-            "Name": "Захист від заклять",
+            "Name": "Spell Warding",
             "Descriptions": {
                 "0": {
                     "Hash": 3007961791,
                     "Id": "390667",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Зменшує усю вхідну магічну шкоду на {1}%."
+                    "Text": "Reduces all magic damage taken by {1}%."
                 }
             }
         },
         "217": {
             "Hash": 1327648946,
-            "Name": "Дух спокути",
+            "Name": "Spirit of Redemption",
             "Descriptions": {
                 "0": {
                     "Hash": 2535380649,
                     "Id": "20711",
                     "Spec": "Holy",
-                    "Text": "При смерті ви стаєте духом спокути на {1} сек. Ви не можете рухатись, атакувати, бути атакованими, або стати ціллю будь-якої здібності або ефекту, а ваші зцілювальні здібності не витрачають ману. Після закінчення дії цього ефекту, ви гинете."
+                    "Text": "Upon death, you become the Spirit of Redemption for {1} sec. You cannot move, attack, be attacked, or be targeted by any spells or effects, and your healing spells cost no mana. When the effect ends, you die."
                 }
             }
         },
         "218": {
             "Hash": 2384384378,
-            "Name": "Дух рятівника",
+            "Name": "Spirit of the Redeemer",
             "Descriptions": {
                 "0": {
                     "Hash": 1594765291,
                     "Id": "215982",
                     "Spec": "Holy",
-                    "Text": "Ваш [Дух спокути] тепер можна застосовувати з {1} хв часом відновлення, але його тривалість зменшується на {2} сек і ви більше не станете [Дух спокути] при смерті."
+                    "Text": "Your Spirit of Redemption is now an active ability with a {1} minute cooldown, but the duration is reduced by {2} sec and you will no longer enter Spirit of Redemption upon dying."
                 }
             }
         },
         "219": {
             "Hash": 2961005639,
-            "Name": "Сила духу",
+            "Name": "Strength of Soul",
             "Descriptions": {
                 "0": {
                     "Hash": 3235506585,
                     "Id": "197535",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Ваше [Слово сили: Щит] зменшує усю вхідну фізичну шкоду на {1}% під час дії щита."
+                    "Text": "Your Power Word: Shield reduces all Physical damage taken by {1}% while the shield persists."
                 }
             }
         },
         "220": {
             "Hash": 3640198407,
-            "Name": "Навала темряви",
+            "Name": "Surge of Darkness",
             "Descriptions": {
                 "0": {
                     "Hash": 3387558730,
                     "Id": "162448",
                     "Spec": "Shadow",
-                    "Text": "Ваша шкода від [Дотик вампіра] та [Ненажерна чума] має шанс, що ваше наступне [Пронизування розуму] завдасть на {1}% більше шкоди та застосується миттєво. Накопичується до {2} разів."
+                    "Text": "Your Vampiric Touch and Devouring Plague damage has a chance to cause your next Mind Spike to be instant cast and deal {1}% additional damage. Stacks up to {2} times."
                 }
             }
         },
         "221": {
             "Hash": 3543880925,
-            "Name": "Навала світла",
+            "Name": "Surge of Light",
             "Descriptions": {
                 "0": {
                     "Hash": 1703892209,
                     "Id": "109186",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Ваші зцілювальні здібності та [Кара] мають {1}% шанс, що ваше наступне [Швидке зцілення] застосується миттєво і не витратить ману. Накопичується до {2} разів."
+                    "Text": "Your healing spells and Smite have a {1}% chance to make your next Flash Heal instant and cost no mana. Stacks to {2}."
                 }
             }
         },
         "222": {
             "Hash": 2600951570,
-            "Name": "Символ надії",
+            "Name": "Symbol of Hope",
             "Descriptions": {
                 "0": {
                     "Hash": 1003152324,
                     "Id": "64901",
                     "Spec": "Holy",
-                    "Text": "Підвищує бойовий дух учасників рейду в радіусі {1} м. Зменшуючи час відновлення їх основної захисної здібності на {2} сек, і відновлює їм {3}% відсутньої мани протягом {4} сек."
+                    "Text": "Bolster the morale of raid members within {1} yds. They each recover {2} sec of cooldown of a major defensive ability, and regain {3}% of their missing mana, over {4} sec."
                 }
             }
         },
         "223": {
             "Hash": 2815054693,
-            "Name": "Викрадач думок",
+            "Name": "Thoughtsteal",
             "Descriptions": {
                 "0": {
                     "Hash": 1474965546,
                     "Id": "316262",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Ви проникаєте у розум ворога, намагаючись вкрасти відоме йому заклинання. У випадку успіху, жертва не зможе використовувати це заклинання впродовж {1} сек.\n\nМожна застосовувати на Гуманоїдів з маною. Якщо ви не знаходите заклинання, яке можна вкрасти, [Викрадач думок] миттєво відновлюється."
+                    "Text": "Peer into the mind of the enemy, attempting to steal a known spell. If stolen, the victim cannot cast that spell for {1} sec.\n\nCan only be used on Humanoids with mana. If you're unable to find a spell to steal, the cooldown of Thoughtsteal is reset."
                 }
             }
         },
         "224": {
             "Hash": 986306327,
-            "Name": "Болісні муки",
+            "Name": "Throes of Pain",
             "Descriptions": {
                 "0": {
                     "Hash": 1758598231,
                     "Id": "377422",
                     "Spec": "Shadow",
-                    "Text": "[Слово тіні: Біль] завдає на {1}% більше шкоди. Коли помирає ворог під дією ефекту [Слово тіні: Біль], ви отримуєте {2} од. безумства."
+                    "Text": "Shadow Word: Pain deals an additional {1}% damage. When an enemy dies while afflicted by your Shadow Word: Pain, you gain {2} Insanity."
                 },
                 "1": {
                     "Hash": 2690826032,
                     "Id": "377422",
                     "Spec": "Discipline",
-                    "Text": "[Слово тіні: Біль] і [Очищення нечестивих] завдають на {1}% більше шкоди. Коли помирає ворог під дією ефекту [Слово тіні: Біль] або [Очищення нечестивих], ви відновлюєте {2}% від максимального запасу мани."
+                    "Text": "Shadow Word: Pain and Purge the Wicked deal an additional {1}% damage. When an enemy dies while afflicted by your Shadow Word: Pain or Purge the Wicked, you gain {2}% Mana."
                 },
                 "2": {
                     "Hash": 2307995258,
                     "Id": "377422",
                     "Spec": "Holy",
-                    "Text": "[Слово тіні: Біль] завдає на {1}% більше шкоди. Коли помирає ворог під дією ефекту [Слово тіні: Біль], ви відновлюєте {2}% мани."
+                    "Text": "Shadow Word: Pain deals an additional {1}% damage. When an enemy dies while afflicted by your Shadow Word: Pain, you gain {2}% Mana."
                 }
             }
         },
         "225": {
             "Hash": 2588251675,
-            "Name": "Ухиляння від десятини",
+            "Name": "Tithe Evasion",
             "Descriptions": {
                 "0": {
                     "Hash": 1647440698,
                     "Id": "373223",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "[Слово тіні: Смерть] завдає вам на {1}% менше шкоди."
+                    "Text": "Shadow Word: Death deals {1}% less damage to you."
                 }
             }
         },
         "226": {
             "Hash": 1288407822,
-            "Name": "Замучені духи",
+            "Name": "Tormented Spirits",
             "Descriptions": {
                 "0": {
                     "Hash": 1369159855,
                     "Id": "391284",
                     "Spec": "Shadow",
-                    "Text": "Шкода від [Слово тіні: Біль] має {1}% шанс породити [Тіньові примари], які повільно рухаються до ворогів з ефектом [Дотик вампіра].\n\nКритична шкода збільшує ймовірність до {2}%."
+                    "Text": "Your Shadow Word: Pain damage has a {1}% chance to create Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch. \n\nCritical strikes increase the chance to {2}%."
                 }
             }
         },
         "227": {
             "Hash": 2956303306,
-            "Name": "Шлях світла",
+            "Name": "Trail of Light",
             "Descriptions": {
                 "0": {
                     "Hash": 3534641144,
                     "Id": "200128",
                     "Spec": "Holy",
-                    "Text": "Коли ви застосовуєте [Зцілення] або [Швидке зцілення], їх попередня ціль відновлює {1}% здоров'я від їх поточного зцілення."
+                    "Text": "When you cast Heal or Flash Heal, {1}% of the healing is replicated to the previous target you healed with Heal or Flash Heal."
                 }
             }
         },
         "228": {
             "Hash": 2207913470,
-            "Name": "Тренування мислення",
+            "Name": "Train of Thought",
             "Descriptions": {
                 "0": {
                     "Hash": 569873501,
                     "Id": "390693",
                     "Spec": "Discipline",
-                    "Text": "Ваші [Швидке зцілення] та [Оновлення] зменшують час відновлення [Слово сили: Щит] на {1} сек. \n\nВаші [Кара] та [Слово сили: Розрада] зменшують час відновлення [Сповідь] на {2} сек."
+                    "Text": "Your Flash Heal and Renew casts reduce the cooldown of Power Word: Shield by {1} sec.\n\nYour Smite and Power Word: Solace casts reduce the cooldown of Penance by {2} sec."
                 }
             }
         },
         "229": {
             "Hash": 2564340245,
-            "Name": "Прозорий образ",
+            "Name": "Translucent Image",
             "Descriptions": {
                 "0": {
                     "Hash": 3098869737,
@@ -2877,277 +3045,415 @@
         },
         "230": {
             "Hash": 2758288952,
-            "Name": "Трійця",
+            "Name": "Trinity",
             "Descriptions": {
                 "0": {
                     "Hash": 1299380356,
                     "Id": "214205",
                     "Spec": "Discipline",
-                    "Text": "[Покуття] триває на {1} сек довше, але тепер накладається лише через [Слово сили: Щит].\n\nКоли [Покуття] діє на {3} або більше союзників, ймовірність критичної шкоди від [Кара], [Сповідь] і [Породження темряви] збільшується на {2}%."
+                    "Text": "Atonement's duration is increased by {1} sec, but can only be applied through Power Word: Shield.\n\nSmite, Penance, and Shadowfiend critical strike chance increased by {2}% when you have Atonement on {3} or more allies."
                 }
             }
         },
         "231": {
             "Hash": 2085920225,
-            "Name": "Сутінкова порча",
+            "Name": "Twilight Corruption",
             "Descriptions": {
                 "0": {
                     "Hash": 2876732041,
                     "Id": "373065",
                     "Spec": "Discipline",
-                    "Text": "[Темний договір] додатково збільшує шкоду і зцілення від заклинань темної магії на {1}%."
+                    "Text": "Shadow Covenant increases Shadow spell damage and healing by an additional {1}%."
                 }
             }
         },
         "232": {
             "Hash": 4257579422,
-            "Name": "Сутінкова рівновага",
+            "Name": "Twilight Equilibrium",
             "Descriptions": {
                 "0": {
                     "Hash": 2982432723,
                     "Id": "390705",
                     "Spec": "Discipline",
-                    "Text": "Ваші шкідливі закляття темної магії збільшують шкоду від наступного закляття світлої магії на {2}% впродовж {1} сек.\n\nВаші шкідливі закляття світлої магії збільшують шкоду від наступного закляття темної магії на {4}% впродовж {3} сек."
+                    "Text": "Your damaging Shadow spells increase the damage of your next Holy spell cast within {1} sec sec by {2}%.\n\nYour damaging Holy spells increase the damage of your next Shadow spell cast within {3} sec sec by {4}%."
+                },
+                "1": {
+                    "Hash": 3236059511,
+                    "Id": "390705",
+                    "Spec": "Discipline",
+                    "Text": "Your damaging Shadow spells increase the damage of your next Holy spell cast within {1} sec by {2}%.\r\n\r\nYour damaging Holy spells increase the damage of your next Shadow spell cast within {3} sec by {4}%."
                 }
             }
         },
         "233": {
             "Hash": 2073908596,
-            "Name": "Близнюки жриці Сонця",
+            "Name": "Twins of the Sun Priestess",
             "Descriptions": {
                 "0": {
                     "Hash": 3597227184,
                     "Id": "373466",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "При застосуванні [Збагачення силою] на союзника, він також накладає свої ефекти на вас із {1}% ефективністю."
+                    "Text": "Power Infusion also grants you {1}% of its effects when used on an ally."
                 }
             }
         },
         "234": {
             "Hash": 1553862274,
-            "Name": "Поворот долі",
+            "Name": "Twist of Fate",
             "Descriptions": {
                 "0": {
                     "Hash": 2267462448,
                     "Id": "390972",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Після зцілення або ураження цілі з рівнем здоров'я нижчим за {1}%, ваша шкода і зцілення збільшуються на {2}% протягом {3} сек."
+                    "Text": "After damaging or healing a target below {1}% health, gain {2}% increased damage and healing for {3} sec."
                 }
             }
         },
         "235": {
             "Hash": 3197889400,
-            "Name": "Безмежне сяйво",
+            "Name": "Ultimate Radiance",
             "Descriptions": {
                 "0": {
                     "Hash": 3337971330,
                     "Id": "236499",
                     "Spec": "Discipline",
-                    "Text": "[Слово сили: Сяяння] тепер застосовується миттєво і відновлює на {1}% більше здоров'я."
+                    "Text": "Your Power Word: Radiance is now instant cast and the healing is increased by {1}%."
                 }
             }
         },
         "236": {
             "Hash": 1085185200,
-            "Name": "Розгортання мороку",
+            "Name": "Unfurling Darkness",
             "Descriptions": {
                 "0": {
                     "Hash": 2022753812,
                     "Id": "341273",
                     "Spec": "Shadow",
-                    "Text": "Після застосування [Дотик вампіра] на ціль, впродовж {1} сек ваш наступний [Дотик вампіра] застосовується миттєво та одразу завдає {2} од. шкоди від темної магії.\n\nСпрацьовує не частіше ніж раз на {3} сек."
+                    "Text": "After casting Vampiric Touch on a target, your next Vampiric Touch within {1} sec is instant cast and deals {2} Shadow damage immediately.\n\nThis effect cannot occur more than once every {3} sec."
                 }
             }
         },
         "237": {
             "Hash": 817659520,
-            "Name": "Непохитна воля",
+            "Name": "Unwavering Will",
             "Descriptions": {
                 "0": {
                     "Hash": 2545571496,
                     "Id": "373456",
                     "Spec": "Shadow",
-                    "Text": "Поки у вас більше {1}% здоров'я, [Швидке зцілення] застосовується на {2}% швидше."
+                    "Text": "While above {1}% health, the cast time of your Flash Heal is reduced by {2}%."
                 },
                 "1": {
                     "Hash": 2163371262,
                     "Id": "373456",
                     "Spec": "Discipline",
-                    "Text": "Поки у вас більше {1}% здоров'я, [Швидке зцілення] і [Кара] застосовуються на {2}% швидше."
+                    "Text": "While above {1}% health, the cast time of your Flash Heal and Smite are reduced by {2}%."
                 },
                 "2": {
                     "Hash": 2145396266,
                     "Id": "373456",
                     "Spec": "Holy",
-                    "Text": "Поки у вас більше {1}% здоров'я, [Швидке зцілення], [Зцілення], [Молитва зцілення] і [Кара] застосовуються на {2}% швидше."
+                    "Text": "While above {1}% health, the cast time of your Flash Heal, Heal, Prayer of Healing, and Smite are reduced by {2}%."
                 }
             }
         },
         "238": {
             "Hash": 2152274176,
-            "Name": "Обійми вампіра",
+            "Name": "Vampiric Embrace",
             "Descriptions": {
                 "0": {
                     "Hash": 1190931637,
                     "Id": "15286",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Огортає вас темною енергією на {1} сек, а ваші закляття темної магії, що діють на одну ціль, зцілюють союзника поряд на {2}% від об'єму завданої шкоди."
+                    "Text": "Fills you with the embrace of Shadow energy for {1} sec, causing you to heal a nearby ally for {2}% of any single-target Shadow spell damage you deal."
                 }
             }
         },
         "239": {
             "Hash": 98439508,
-            "Name": "Дотик вампіра",
+            "Name": "Vampiric Touch",
             "Descriptions": {
                 "0": {
                     "Hash": 3464180299,
                     "Id": "34914",
                     "Spec": "Shadow",
-                    "Text": "Дотик темряви, що завдає {1} од. шкоди від темної магії протягом {2} сек, і відновлює вам здоров'я в об'ємі {3}% від завданої шкоди. Ворога, який розвіяв цей ефект, охоплює страх на {4} сек.\n\n{FFFFFFFF|Дає {5} од. безумства.}"
+                    "Text": "A touch of darkness that causes {1} Shadow damage over {2} sec, and heals you for {3}% of damage dealt. If Vampiric Touch is dispelled, the dispeller flees in Horror for {4} sec.\n\n{FFFFFFFF|Generates {5} Insanity.}"
                 }
             }
         },
         "240": {
             "Hash": 2861481634,
-            "Name": "Виверження порожнечі",
+            "Name": "Void Eruption",
             "Descriptions": {
                 "0": {
                     "Hash": 2730479216,
                     "Id": "228260",
                     "Spec": "Shadow",
-                    "Text": "Вивільняє руйнівний заряд чистої енергії порожнечі, який активує [Втілення порожнечі] і завдає {1} од. шкоди від темної магії усім ворогам в радіусі {2} м від вашої цілі.\n\nПід час дії [Втілення порожнечі], ця здібність замінюється на [Стріла порожнечі].\n\nКожні {3} витрачені од. безумства під час дії [Втілення порожнечі], збільшують тривалість [Втілення порожнечі] на {4} сек."
+                    "Text": "Releases an explosive blast of pure void energy, activating Voidform and causing {1} Shadow damage to all enemies within {2} yds of your target.\n\nDuring Voidform, this ability is replaced by Void Bolt.\n\nEach {3} Insanity spent during Voidform increases the duration of Voidform by {4} sec."
+                },
+                "1": {
+                    "Hash": 3265531913,
+                    "Id": "228260",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Releases an explosive blast of pure void energy, activating Voidform and causing {1} Shadow damage to all enemies within {2} yds of your target.\r\n\r\nDuring Voidform, this ability is replaced by Void Bolt.\r\n\r\nCasting Devouring Plague increases the duration of Voidform by {3} sec."
                 }
             }
         },
         "241": {
             "Hash": 3701715852,
-            "Name": "Породження порожнечі",
+            "Name": "Void Origins",
             "Descriptions": {
                 "0": {
                     "Hash": 3293217032,
                     "Id": "228630",
                     "Spec": "Shadow",
-                    "Text": "[Виверження порожнечі] і [Темне вознесіння] тепер застосовуються миттєво."
+                    "Text": "Void Eruption and Dark Ascension are now instant cast."
                 }
             }
         },
         "242": {
             "Hash": 170032776,
-            "Name": "Захист порожнечі",
+            "Name": "Void Shield",
             "Descriptions": {
                 "0": {
                     "Hash": 3802423390,
                     "Id": "280749",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Коли ви застосовуєте [Слово сили: Щит] на себе, {1}% завданої шкоди відновлює запас міцності щита."
+                    "Text": "When cast on yourself, {1}% of damage you deal refills your Power Word: Shield."
                 }
             }
         },
         "243": {
             "Hash": 3631996863,
-            "Name": "Крок у порожнечу",
+            "Name": "Void Shift",
             "Descriptions": {
                 "0": {
                     "Hash": 302378327,
                     "Id": "108968",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Ви та ваш цільовий учасник групи або рейду обмінюєтеся відсотками здоров'я. Збільшує нижній відсоток здоров'я до {1}%, якщо він нижчий за цю величину."
+                    "Text": "You and the currently targeted party or raid member swap health percentages. Increases the lower health percentage of the two to {1}% if below that amount."
                 }
             }
         },
         "244": {
             "Hash": 3851138812,
-            "Name": "Заклинатель порожнечі",
+            "Name": "Void Summoner",
             "Descriptions": {
                 "0": {
                     "Hash": 7248427,
                     "Id": "390770",
                     "Spec": "Discipline",
-                    "Text": "Застосування [Кара], [Слово сили: Розрада], [Вибух розуму] і [Сповідь] зменшують час відновлення [Володар розуму] на {1} сек."
+                    "Text": "Your Smite, Power Word: Solace, Mind Blast, and Penance casts reduce the cooldown of Mindbender by {1} sec."
                 }
             }
         },
         "245": {
             "Hash": 3429278518,
-            "Name": "Мацаки порожнечі",
+            "Name": "Void Tendrils",
             "Descriptions": {
                 "0": {
                     "Hash": 2088946760,
                     "Id": "108920",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Викликає темний мацак, що знерухомлює до {1} ворожих цілей в радіусі {2} м на {3} сек або до його вбивства."
+                    "Text": "Summons shadowy tendrils, rooting up to {1} enemy targets within {2} yards for {3} sec or until the tendril is killed."
+                },
+                "1": {
+                    "Hash": 3115021939,
+                    "Id": "108920",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Summons shadowy tendrils, rooting all enemies within {1} yards for {2} sec or until the tendril is killed."
                 }
             }
         },
         "246": {
             "Hash": 1243599361,
-            "Name": "Вихор порожнечі",
+            "Name": "Void Torrent",
             "Descriptions": {
                 "0": {
                     "Hash": 1302303645,
                     "Id": "263165",
                     "Spec": "Shadow",
-                    "Text": "Направляє на ціль потік енергії порожнечі, завдаючи {1} од. шкоди від темної магії протягом {2} сек.\n\n{FFFFFFFF|Дає {3} од. безумства протягом дії}"
+                    "Text": "Channel a torrent of void energy into the target, dealing {1} Shadow damage over {2} sec.\n\n{FFFFFFFF|Generates {3} Insanity over the duration.}"
                 }
             }
         },
         "247": {
             "Hash": 191352771,
-            "Name": "Залп порожнечі",
+            "Name": "Void Volley",
             "Descriptions": {
                 "0": {
                     "Hash": 3838150025,
                     "Id": "357711",
                     "Spec": "Shadow",
-                    "Text": "Після застосування [Виверження порожнечі] або [Темне вознесіння], впродовж {2} сек, кожні {1} сек випускає стрілу темної енергії, яка повільно рухається у випадковому напрямку, завдаючи {3} од. шкоди від темної магії усім цілям в радіусі {4} м, і змушує їх тікати в страху протягом {5} сек."
+                    "Text": "After casting Void Eruption or Dark Ascension, send a slow-moving bolt of Shadow energy at a random location every {1} sec for {2} sec, dealing {3} Shadow damage to all targets within {4} yds, and causing them to flee in Horror for {5} sec."
                 }
             }
         },
         "248": {
             "Hash": 1803723323,
-            "Name": "Радість і горе",
+            "Name": "Weal and Woe",
             "Descriptions": {
                 "0": {
                     "Hash": 2130087857,
                     "Id": "390786",
                     "Spec": "Discipline",
-                    "Text": "Кожна хвиля від [Сповідь] збільшує шкоду вашої наступної [Кара] або [Слово сили: Розрада] на {1}%, або збільшує поглинання від вашого наступного [Слово сили: Щит] на {2}%.\n\nНакопичується до {3} разів."
+                    "Text": "Your Penance bolts increase the damage of your next Smite or Power Word: Solace by {1}%, or the absorb of your next Power Word: Shield by {2}%.\n\nStacks up to {3} times."
                 }
             }
         },
         "249": {
             "Hash": 3381790106,
-            "Name": "Шепіт проклятих",
+            "Name": "Whispers of the Damned",
             "Descriptions": {
                 "0": {
                     "Hash": 820369210,
                     "Id": "391137",
                     "Spec": "Shadow",
-                    "Text": "Критична шкода від [Вибух розуму] і [Пронизування розуму] додатково дає {1} од. безумства."
+                    "Text": "Your Mind Blast and Mind Spike critical strikes generate an additional {1} Insanity."
                 }
             }
         },
         "250": {
             "Hash": 488809092,
-            "Name": "Слова побожних",
+            "Name": "Words of the Pious",
             "Descriptions": {
                 "0": {
                     "Hash": 1881668987,
                     "Id": "377438",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Впродовж {1} сек після застосування [Слово сили: Щит], ваша шкода і зцілення від [Кара] і [Священна Хвиля] збільшується на {2}%."
+                    "Text": "For {1} sec after casting Power Word: Shield, you deal {2}% additional damage and healing with Smite and Holy Nova."
                 }
             }
         },
         "251": {
             "Hash": 761457061,
-            "Name": "Випущений гнів",
+            "Name": "Wrath Unleashed",
             "Descriptions": {
                 "0": {
                     "Hash": 2188782045,
                     "Id": "390781",
                     "Spec": "Discipline",
-                    "Text": "Зменшує час застосування [Гнів світла] на {1} сек і збільшує його ймовірність критичної шкоди на {2}%.\n\n[Кара] і [Слово сили: Розрада] додатково завдають {3}% шкоди впродовж {4} сек після застосування [Гнів світла]."
+                    "Text": "Reduces the cast time of Light's Wrath by {1} sec and increases its critical strike chance by {2}%.\n\nSmite and Power Word: Solace deal {3}% additional damage for {4} sec after casting Light's Wrath."
+                }
+            }
+        },
+        "252": {
+            "Hash": 2709685588,
+            "Name": "Mind's Eye",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1414000675,
+                    "Id": "407470",
+                    "Spec": "Shadow",
+                    "Text": "Reduces the Insanity cost of Devouring Plague by {1}."
+                }
+            }
+        },
+        "253": {
+            "Hash": 1411992818,
+            "Name": "Surge of Insanity",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1876088154,
+                    "Id": "391399",
+                    "Spec": "Shadow",
+                    "Text": "Devouring Plague transforms your next Mind Flay or Mind Spike into a more powerful spell. Can accumulate up to {1} charges.\r\n\r\n|T425954:24|t {ffffffff|Mind Flay: Insanity}\r\nAssaults the target's mind with Shadow energy, causing {2} Shadow damage over {3} sec and slowing their movement speed by {4}%.\r\n\r\n{FFFFFFFF|Generates {5} Insanity over the duration.}\r\n\r\n|T1391678:24|t{ffffffff|Mind Spike: Insanity}\r\nBlasts the target for {6} Shadowfrost damage.\r\n\r\n{FFFFFFFF|Generates {7} Insanity.}"
+                }
+            }
+        },
+        "254": {
+            "Hash": 3663716477,
+            "Name": "Mastermind",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1308101594,
+                    "Id": "391151",
+                    "Spec": "Shadow",
+                    "Text": "Increases the critical strike chance of Mind Blast, Mind Spike, Mind Flay, and Shadow Word: Death by {1}% and increases their critical strike damage by {2}%."
+                }
+            }
+        },
+        "255": {
+            "Hash": 1381634476,
+            "Name": "Phase Shift",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3442416989,
+                    "Id": "408557",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Step into the shadows when you cast Fade, avoiding all attacks and spells for {1} sec.\r\n\r\nInterrupt effects are not affected by Phase Shift."
+                }
+            }
+        },
+        "256": {
+            "Hash": 832044541,
+            "Name": "Distorted Reality",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2631521087,
+                    "Id": "409044",
+                    "Spec": "Shadow",
+                    "Text": "Increases the damage of Devouring Plague by {1}% and causes it to deal its damage over {2} sec, but increases its Insanity cost by {3}."
+                }
+            }
+        },
+        "257": {
+            "Hash": 154064205,
+            "Name": "Thought Harvester",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2360231754,
+                    "Id": "406788",
+                    "Spec": "Shadow",
+                    "Text": "Mind Blast gains an additional charge."
+                }
+            }
+        },
+        "258": {
+            "Hash": 1434261782,
+            "Name": "Absolute Faith",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1928751499,
+                    "Id": "408853",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Leap of Faith also pulls the spirit of the {1} furthest allies within {2} yards and shields you and the affected allies for {3}."
+                }
+            }
+        },
+        "259": {
+            "Hash": 805703654,
+            "Name": "Whispering Shadows",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3749450178,
+                    "Id": "406777",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Crash applies Vampiric Touch to up to {1} targets it damages."
+                }
+            }
+        },
+        "260": {
+            "Hash": 1279635822,
+            "Name": "Voidtouched",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2563970939,
+                    "Id": "407430",
+                    "Spec": "Shadow",
+                    "Text": "Increases your Devouring Plague damage by {1}% and increases your maximum Insanity by {2}."
+                }
+            }
+        },
+        "261": {
+            "Hash": 2001319807,
+            "Name": "Phantasmal Pathogen",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1657474860,
+                    "Id": "407469",
+                    "Spec": "Shadow",
+                    "Text": "Shadow Apparitions deal {1}% increased damage to targets affected by your Devouring Plague."
                 }
             }
         }
