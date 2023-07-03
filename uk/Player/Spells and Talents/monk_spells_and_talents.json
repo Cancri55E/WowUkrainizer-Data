@@ -3,3241 +3,3127 @@
     "Spells": {
         "0": {
             "Hash": 2978098500,
-            "Name": "Accumulating Mist",
+            "Name": "Концентрований туман",
             "Descriptions": {
                 "0": {
                     "Hash": 3439441375,
                     "Id": "388564",
                     "Spec": "Mistweaver",
-                    "Text": "Zen Pulse's damage and healing is increased by {1}% each time Soothing Mist heals, up to {2} times. \n\nWhen your Soothing Mist channel ends, this effect is canceled."
+                    "Text": "Шкода та зцілення від [Імпульс Дзен] збільшується на {1}% щоразу, коли [Заспокійливий туман] відновлює здоров'я. Накопичується до {2} разів.\n\nЕфект спадає при закінченні підтримання [Заспокійливий туман]."
                 }
             }
         },
         "1": {
             "Hash": 1767429260,
-            "Name": "Admonishment",
+            "Name": "Застереження",
             "Descriptions": {
                 "0": {
                     "Hash": 3750311347,
                     "Id": "207025",
                     "Spec": "Brewmaster",
-                    "Text": "You focus the assault on this target, increasing their damage taken by {1}% for {2} sec.  Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\n\nYour melee attacks refresh the duration of Focused Assault."
+                    "Text": "Ви концентруєте зусилля на обраній цілі, збільшуючи шкоду по ній на {1}% протягом {2} сек. Кожен окремий гравець, який атакує ціль, додатково збільшує шкоду по ній на {3}%. Накопичується до {4} разів."
                 }
             }
         },
         "2": {
             "Hash": 4154302089,
-            "Name": "Afterlife",
+            "Name": "Життя після смерті",
             "Descriptions": {
                 "0": {
                     "Hash": 1818423101,
                     "Id": "116092",
                     "Spec": "Windwalker",
-                    "Text": "When you kill an enemy, you summon a Healing Sphere, healing you for {1} when you walk through it.\n\nWhen you kill an enemy with Blackout Kick, you have a {2}% chance to summon a Chi Sphere, granting {3} Chi when you walk through it."
+                    "Text": "Коли ви вбиваєте ворога, ви викликаєте [Зцілююча сфера]. Сфера відновлює вам {1} од. здоров'я, коли ви проходите крізь неї. \n\nКоли ви вбиваєте ворога з [Карколомний удар], ви маєте {2}% шанс викликати сферу Чі, яка дає вам {3} од. Чі коли ви проходите крізь неї."
                 }
             }
         },
         "3": {
             "Hash": 730982940,
-            "Name": "Alpha Tiger",
+            "Name": "Альфа-тигр",
             "Descriptions": {
                 "0": {
                     "Hash": 4043561551,
                     "Id": "287503",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Attacking new challengers with Tiger Palm fills you with the spirit of Xuen, granting you {1}% haste for {2} sec. \n\nThis effect cannot occur more than once every {3} sec per target."
+                    "Text": "Застосування [Тигрова лапа] проти нових цілей, наповнює вас духом Суеня, що дає вам {1}% швидкості на {2} сек.\n\nСпрацьовує не частіше, ніж раз на {3} сек на кожну ціль."
                 }
             }
         },
         "4": {
             "Hash": 2154045098,
-            "Name": "Ancient Concordance",
+            "Name": "Стародавня згода",
             "Descriptions": {
                 "0": {
                     "Hash": 3373164908,
                     "Id": "388740",
                     "Spec": "Mistweaver",
-                    "Text": "Your Blackout Kicks strike {1} targets and have an additional {2}% chance to reset the cooldown of your Rising Sun Kick while within your Faeline Stomp."
+                    "Text": "Ваш [Карколомний удар] тепер вражає {1} цілі та має додатково {2}% шанс відновити [Удар висхідного сонця], доки ви знаходитесь під дією [Поступ магії Фей]."
                 }
             }
         },
         "5": {
             "Hash": 3099821981,
-            "Name": "Ancient Teachings",
+            "Name": "Стародавні техніки",
             "Descriptions": {
                 "0": {
                     "Hash": 855591075,
                     "Id": "388023",
                     "Spec": "Mistweaver",
-                    "Text": "After casting Essence Font or Faeline Stomp, your Tiger Palm, Blackout Kick, and Rising Sun Kick heal an injured ally within {1} yds for {2}% of the damage done. Lasts {3} sec."
-                },
-                "1": {
-                    "Hash": 3934080292,
-                    "Id": "388023",
-                    "Spec": "Mistweaver",
-                    "Text": "After casting Essence Font or Faeline Stomp, your Tiger Palm, Blackout Kick, and Rising Sun Kick heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them. Lasts {4} sec."
+                    "Text": "Після застосування [Купіль есенції] або [Поступ магії Фей], ваші [Тигрова лапа], [Карколомний удар] і [Удар висхідного сонця] зцілюють пораненого союзника в радіусі {1} м на {2}% завданої шкоди. Триває {3} сек."
                 }
             }
         },
         "6": {
             "Hash": 3828832330,
-            "Name": "Anvil & Stave",
+            "Name": "Ковадло і Палиця",
             "Descriptions": {
                 "0": {
                     "Hash": 1677193633,
                     "Id": "386937",
                     "Spec": "Brewmaster",
-                    "Text": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by {1} sec. This effect can only occur once every {2} sec."
+                    "Text": "Щоразу, коли ви ухиляєтеся або ворог промахується повз вас, час відновлення ваших відварів зменшується на {1} сек. Це може статися не частіше, ніж раз на {2} сек."
                 }
             }
         },
         "7": {
             "Hash": 2558355381,
-            "Name": "Ascension",
+            "Name": "Піднесення",
             "Descriptions": {
                 "0": {
                     "Hash": 2592516491,
                     "Id": "115396",
                     "Spec": "Windwalker",
-                    "Text": "Increases your maximum Chi by {1}, maximum Energy by {2}, and your Energy regeneration by {3}%."
+                    "Text": "Збільшує максимальний запас Чі на {1}, максимальний запас енергії на {2} од, і вашу швидкість відновлення енергії на {3}%."
                 }
             }
         },
         "8": {
             "Hash": 675385940,
-            "Name": "Attenuation",
+            "Name": "Згасання",
             "Descriptions": {
                 "0": {
                     "Hash": 1131949017,
                     "Id": "386941",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Bonedust Brew's Shadow damage or healing is increased by {1}%, and when Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {2} sec."
+                    "Text": "[Відвар з костяного пилу] зцілює і завдає шкоди від темної магії на {1}% більше, а коли [Відвар з костяного пилу] завдає шкоду або зцілює його час відновлення зменшується на {2} сек."
                 }
             }
         },
         "9": {
             "Hash": 2873553706,
-            "Name": "Avert Harm",
+            "Name": "Відвернення ударів",
             "Descriptions": {
                 "0": {
                     "Hash": 1491368714,
                     "Id": "202162",
                     "Spec": "Brewmaster",
-                    "Text": "Guard the {1} closest players within {2} yards for {3} sec, allowing you to Stagger {4}% of damage they take."
+                    "Text": "Ви захищаєте {1} найближчих союзників в радіусі {2} м на {3} сек: Протягом цього часу, ви отримуєте {4}% шкоди замість них і відвертаєте її через [Похитування]."
                 }
             }
         },
         "10": {
             "Hash": 1755716997,
-            "Name": "Awakened Faeline",
+            "Name": "Пробуджений магічний потік",
             "Descriptions": {
                 "0": {
                     "Hash": 1668508048,
                     "Id": "388779",
                     "Spec": "Mistweaver",
-                    "Text": "Your abilities reset Faeline Stomp {1}% more often. While within Faeline Stomp, your Tiger Palms strike twice and your Spinning Crane Kick heals {2} nearby allies for {3}% of the damage done."
+                    "Text": "Ваші здібності відновлюють [Поступ магії Фей] на {1}% частіше. Доки на вас діє ефект [Поступ магії Фей], ваша [Тигрова лапа] спрацьовує двічі, а [Круговий удар журавля] зцілює {2} союзників поряд на {3}% завданої шкоди."
                 }
             }
         },
         "11": {
             "Hash": 1767084492,
-            "Name": "Black Ox Brew",
+            "Name": "Відвар Чорного Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 3076568915,
                     "Id": "115399",
                     "Spec": "Brewmaster",
-                    "Text": "Chug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and resets the cooldown of Celestial Brew."
+                    "Text": "Ви робите ковток відвару Чорного Бика, який миттєво відновлює вашу енергію, [Божественний відвар] і заряди [Очищувальний відвар]."
                 }
             }
         },
         "12": {
             "Hash": 1828254972,
-            "Name": "Blackout Combo",
+            "Name": "Серія нокаутів",
             "Descriptions": {
                 "0": {
                     "Hash": 3916301208,
                     "Id": "196736",
                     "Spec": "Brewmaster",
-                    "Text": "Blackout Kick also empowers your next ability:\n\nTiger Palm: Damage increased by {1}%.\nBreath of Fire: Periodic damage increased by {2}%, and damage reduction increased by {3}%.\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\nPurifying Brew: Pauses Stagger damage for {6} sec."
+                    "Text": "[Карколомний удар] тепер також підсилює вашу наступну здібність:\n\n[Тигрова лапа]: Шкода збільшується на {1}%.\n[Вогняний подих]: Періодична шкода збільшується на {2}%, а зменшення шкоди збільшується на {3}%.\n[Удар діжкою]: Додатково зменшує час відновлення ваших відварів на {4} сек.\n[Божественний відвар]: Ви отримуєте ще {5} накопичень ефекту [Очищена енергія Чі].\n[Очищувальний відвар]: Зупиняє отримання шкоди від [Похитування] на {6} сек."
                 }
             }
         },
         "13": {
             "Hash": 2542828828,
-            "Name": "Blackout Kick",
+            "Name": "Карколомний удар",
             "Descriptions": {
                 "0": {
                     "Hash": 2210254366,
                     "Id": "205523",
                     "Spec": "Brewmaster",
-                    "Text": "Strike with a blast of Chi energy, dealing {1} Physical damage and granting Shuffle for {2} sec."
+                    "Text": "Ви вражаєте ціль вибухом енергії Чі, завдаючи {1} од. фізичної шкоди, і отримуєте ефект [Уникнення] на {2} сек."
                 },
                 "1": {
                     "Hash": 853260792,
                     "Id": "100784",
                     "Spec": "Windwalker",
-                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\n\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\n"
+                    "Text": "Ви вражаєте ціль вибухом енергії Чі, завдаючи {1} од. фізичної шкоди.\n\nЗменшує час відновлення [Удар висхідного сонця] і [Кулаки люті] на {2} сек при застосуванні.\n"
                 },
                 "2": {
                     "Hash": 2356440461,
                     "Id": "100784",
                     "Spec": "Mistweaver",
-                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\n"
+                    "Text": "Ви вражаєте ціль вибухом енергії Чі, завдаючи {1} од. фізичної шкоди.\n"
                 }
             }
         },
         "14": {
             "Hash": 483199272,
-            "Name": "Bob and Weave",
+            "Name": "Ухиляйся та бий",
             "Descriptions": {
                 "0": {
                     "Hash": 3129657456,
                     "Id": "280515",
                     "Spec": "Brewmaster",
-                    "Text": "Stagger duration increased by {1} sec, causing Staggered damage to instead be applied over {2} sec."
+                    "Text": "Збільшує тривалість [Похитування] на {1} сек, що відкладає отриману шкоду ще на {2} сек."
                 }
             }
         },
         "15": {
             "Hash": 3141782455,
-            "Name": "Bonedust Brew",
+            "Name": "Відвар з кісткового пилу",
             "Descriptions": {
                 "0": {
                     "Hash": 3335636216,
                     "Id": "386276",
                     "Spec": "Windwalker",
-                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\n\nSpinning Crane Kick refunds {4} Chi when striking enemies with your Bonedust Brew active."
+                    "Text": "Ви проливаєте на землю відвар з кісток ваших ворогів, який покриває усіх ваших ворогів на {1} сек. Ваші здібності із шансом в {2}% можуть вразити ту саму ціль повторно, зцілюючи або завдаючи шкоду від темної магії на {3}% від початкового об'єму.\n\n[Круговий удар журавля] відновлює {4} од. енергії Чі, коли вражає ворогів під дією ефекту [Відвар з кісткового пилу]."
                 },
                 "1": {
                     "Hash": 2950640235,
                     "Id": "386276",
                     "Spec": "Brewmaster",
-                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\n\nTiger Palm and Keg Smash reduce the cooldown of your brews by an additional {4} sec when striking enemies with your Bonedust Brew active.\n\nYour abilities have a low chance to cast Bonedust Brew at your target's location."
+                    "Text": "Ви проливаєте на землю відвар з кісток ваших ворогів, який покриває усіх ваших ворогів на {1} сек. Ваші здібності із шансом в {2}% можуть вразити ту саму ціль повторно, зцілюючи або завдаючи шкоду від темної магії на {3}% від початкового об'єму.\n\nКоли [Тигрова лапа] і [Удар діжкою] вражають ворогів з ефектом [Відвар з костяного пилу], вони додатково зменшують час відновлення ваших відварів на {4} сек.\n\nВаші здібності мають низький шанс пролити [Відвар з костяного пилу] на місце вашої цілі."
                 }
             }
         },
         "16": {
             "Hash": 2628807132,
-            "Name": "Bounce Back",
+            "Name": "Відскок",
             "Descriptions": {
                 "0": {
                     "Hash": 2661705934,
                     "Id": "389577",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "When a hit deals more than {1}% of your maximum health, reduce all damage you take by {2}% for {3} sec.\n\nThis effect cannot occur more than once every {4}  seconds."
+                    "Text": "Коли ворожа атака завдає вам шкоду більшу за {1}% від вашого максимального запасу здоров'я, уся вхідна шкода зменшується на {2}% протягом {3} сек. \n\nЦей ефект спрацьовує лише раз  на {4} сек."
                 }
             }
         },
         "17": {
             "Hash": 1273818485,
-            "Name": "Bountiful Brew",
+            "Name": "Блаженний відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 2989493822,
                     "Id": "386949",
                     "Spec": "Brewmaster",
-                    "Text": "Your abilities have a low chance to cast Bonedust Brew at your target's location."
+                    "Text": "Ваші здібності мають невеликий шанс застосувати [Відвар з костяного пилу] поряд з вашою поточною ціллю."
                 }
             }
         },
         "18": {
             "Hash": 2876568155,
-            "Name": "Breath of Fire",
+            "Name": "Вогняний подих",
             "Descriptions": {
                 "0": {
                     "Hash": 2256475395,
                     "Id": "115181",
                     "Spec": "Brewmaster",
-                    "Text": "Breathe fire on targets in front of you, causing {1} Fire damage. Deals reduced damage to secondary targets.\n\nTargets affected by Keg Smash will also burn, taking {2} Fire damage and dealing {3}% reduced damage to you for {4} sec."
+                    "Text": "Ви робите вогняний подих на цілі перед собою, завдаючи {1} од. шкоди від вогню. Завдає зменшену шкоду вторинним цілям. \n\nЦілі уражені [Удар діжкою] будуть підпалені, що завдасть їм {2} од. шкоди від вогню і зменшить їх шкоду по вас на {3}% протягом {4} сек."
                 }
             }
         },
         "19": {
             "Hash": 1187657583,
-            "Name": "Brewmaster's Balance",
+            "Name": "Гармонія броваря",
             "Descriptions": {
                 "0": {
                     "Hash": 2254164822,
                     "Id": "245013",
                     "Spec": "Brewmaster",
-                    "Text": "Your Armor is increased by {1}% and Stamina increased by {2}%."
+                    "Text": "Ваша броня зростає на {1}%, а витривалість на {2}%."
                 }
             }
         },
         "20": {
             "Hash": 2576081956,
-            "Name": "Burst of Life",
+            "Name": "Життєвий порив",
             "Descriptions": {
                 "0": {
                     "Hash": 642032086,
                     "Id": "399226",
                     "Spec": "Mistweaver",
-                    "Text": "Life Cocoon's cooldown is reduced by {1} sec, but its absorb amount is reduced by {2}%. When Life Cocoon expires, it releases a burst of mist that restores {3} health to {4} nearby allies."
-                },
-                "1": {
-                    "Hash": 1027296414,
-                    "Id": "399226",
-                    "Spec": "Mistweaver",
-                    "Text": "When Life Cocoon expires, it releases a burst of mist that restores {1} health to {2} nearby allies."
+                    "Text": "[Кокон життя] відновлюється на {1} сек швидше, але поглинає на {2}% менше шкоди. Коли [Кокон життя] закінчується, він випускає хвилю туману, що відновлює {3} од. здоров'я {4} союзникам неподалік."
                 }
             }
         },
         "21": {
             "Hash": 1246194013,
-            "Name": "Call to Arms",
+            "Name": "До зброї!",
             "Descriptions": {
                 "0": {
                     "Hash": 1648471809,
                     "Id": "397251",
                     "Spec": "Brewmaster",
-                    "Text": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec."
+                    "Text": "[Зброя Ордену] викликає Нюцзао, Чорного Бика вам на допомогу протягом {1} сек."
                 }
             }
         },
         "22": {
             "Hash": 723651848,
-            "Name": "Calming Coalescence",
+            "Name": "Заспокійливе злиття",
             "Descriptions": {
                 "0": {
                     "Hash": 2963778100,
                     "Id": "388218",
                     "Spec": "Mistweaver",
-                    "Text": "Each time Soothing Mist heals, the absorb amount of your next Life Cocoon is increased by {1}%, stacking up to {2} times."
+                    "Text": "Кожен раз, коли [Заспокійливий туман] відновлює здоров'я, ваш наступний [Кокон життя] поглине на {1}% більше шкоди. Накопичується до {2} разів."
                 }
             }
         },
         "23": {
             "Hash": 503337380,
-            "Name": "Calming Presence",
+            "Name": "Заспокійлива присутність",
             "Descriptions": {
                 "0": {
                     "Hash": 641619896,
                     "Id": "388664",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces all damage taken by {1}%."
+                    "Text": "Зменшує усю отримувану шкоду на {1}%."
                 }
             }
         },
         "24": {
             "Hash": 767800593,
-            "Name": "Celerity",
+            "Name": "Стрімкість",
             "Descriptions": {
                 "0": {
                     "Hash": 2251742275,
                     "Id": "115173",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces the cooldown of Roll by {1} sec and increases its maximum number of charges by {2}."
+                    "Text": "Час відновлення [Перекат] зменшується на {1} сек, а кількість його зарядів збільшується на {2}."
                 }
             }
         },
         "25": {
             "Hash": 3048801781,
-            "Name": "Celestial Brew",
+            "Name": "Божественний відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 3321263677,
                     "Id": "322507",
                     "Spec": "Brewmaster",
-                    "Text": "A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing {1} damage."
+                    "Text": "Ковток міцного відвару, який перетворює звільнену Чі, що витікає з вашого тіла, в божественний щит, поглинаючи {1} од. шкоди."
                 }
             }
         },
         "26": {
             "Hash": 3680645477,
-            "Name": "Celestial Flames",
+            "Name": "Небесне полум'я",
             "Descriptions": {
                 "0": {
                     "Hash": 573581647,
                     "Id": "325177",
                     "Spec": "Brewmaster",
-                    "Text": "Drinking from Brews has a {1}% chance to coat the Monk with Celestial Flames for {2} sec.\n\nWhile Celestial Flames is active, Spinning Crane Kick applies Breath of Fire and Breath of Fire reduces the damage affected enemies deal to you by an additional {3}%.\n\n"
+                    "Text": "Пиття відварів має {1}% шанс обгорнути монаха небесним полум'ям на {2} сек.\n\nДоки дії цей ефект, [Круговий удар журавля] застосовує [Вогняний подих], який зменшує вхідну по вас шкоду уражених ним ворогів на {3}%."
                 }
             }
         },
         "27": {
             "Hash": 752232606,
-            "Name": "Celestial Fortune",
+            "Name": "Небесна удача",
             "Descriptions": {
                 "0": {
                     "Hash": 559881562,
                     "Id": "216519",
                     "Spec": "Brewmaster",
-                    "Text": "You have a chance equal to your critical strike chance to be healed for an additional {1}% of the amount healed."
+                    "Text": "З ймовірністю критичної шкоди, ви додатково зцілюєте {1}% від відновленого здоров'я."
                 }
             }
         },
         "28": {
             "Hash": 2239613432,
-            "Name": "Celestial Harmony",
+            "Name": "Небесна гармонія",
             "Descriptions": {
                 "0": {
                     "Hash": 2545928798,
                     "Id": "343655",
                     "Spec": "Mistweaver",
-                    "Text": "While active, Yu'lon and Chi'Ji heal up to {1} nearby targets with Enveloping Breath when you cast Enveloping Mist, healing for {2} over {3} sec, and increasing the healing they receive from you by {4}%.\n\nWhen activated, Yu'lon and Chi'Ji apply Chi Cocoons to {5} targets within {6} yds, absorbing {7} damage for {8} sec."
+                    "Text": "Коли ви застосовуєте [Оповиваючий туман], Ю'лон і Чі'Джи зцілюють на {2} од. здоров'я до {1} цілей поряд ефектом [Огортаючий подих] протягом {3} сек і збільшують вхідне до них зцілення на {4}%. \n\nПри активації Ю'лон і Чі'Джи застосовують [Кокон Чі] на {5} цілей в радіусі {6} м на {8} сек, які поглинають {7} од. шкоди."
                 }
             }
         },
         "29": {
             "Hash": 2936202251,
-            "Name": "Charred Passions",
+            "Name": "Обгорілі пристрасті",
             "Descriptions": {
                 "0": {
                     "Hash": 4056751895,
                     "Id": "386965",
                     "Spec": "Brewmaster",
-                    "Text": "Your Breath of Fire ignites your right leg in flame for {1} sec, causing your Blackout Kick and Spinning Crane Kick to deal {2}% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target."
+                    "Text": "Ваш [Вогняний подих] підпалює вашу праву ногу на {1} сек, внаслідок чого ваш [Карколомний удар] і [Круговий удар журавля] завдадуть додатково {2} од. шкоди від вогню і відновлять тривалість ефекту [Вогняний подих] на цілі."
                 }
             }
         },
         "30": {
             "Hash": 2557130746,
-            "Name": "Chi Burst",
+            "Name": "Вибух енергії Чі",
             "Descriptions": {
                 "0": {
                     "Hash": 2156983584,
                     "Id": "123986",
                     "Spec": "Windwalker",
-                    "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n\n\nChi Burst generates {5} Chi per enemy target damaged, up to a maximum of {6}."
+                    "Text": "Направляє потік енергії Чі на {1} м перед вами, який завдає {2} од. шкоди від сил природи усім ворогам, а також зцілює монаха та усіх його союзників на {3} од. здоров'я на своєму шляху. Зцілення зменшено більше як {4} цілям.\n\n[Вибух енергії Чі] відновлює {5} од. енергії Чі за кожного уражену ціль, максимум до {6} цілей."
                 },
                 "1": {
                     "Hash": 835639514,
                     "Id": "123986",
                     "Spec": "Brewmaster",
-                    "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n\n\nCasting Chi Burst does not prevent avoiding attacks."
+                    "Text": "Направляє потік енергії Чі на {1} м перед вами, який завдає {2} од. шкоди від сил природи усім ворогам, а також зцілює монаха та усіх його союзників на {3} од. здоров'я на своєму шляху. Зцілення зменшено більше як {4} цілям.\n\nВикористання [Вибух енергії Чі] не перешкоджає уникненню атак."
                 },
                 "2": {
                     "Hash": 1148630245,
                     "Id": "123986",
                     "Spec": "Mistweaver",
-                    "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n"
+                    "Text": "Направляє потік енергії Чі на {1} м перед вами, який завдає {2} од. шкоди від сил природи усім ворогам, а також зцілює монаха та усіх його союзників на {3} од. здоров'я на своєму шляху. Зцілення зменшено більше як {4} цілям.\n"
                 }
             }
         },
         "31": {
             "Hash": 4294034818,
-            "Name": "Chi Surge",
+            "Name": "Прилив Чі",
             "Descriptions": {
                 "0": {
                     "Hash": 64114777,
                     "Id": "393400",
                     "Spec": "Brewmaster",
-                    "Text": "Weapons of Order releases a surge of chi at your target's location, dealing {1} Nature damage split evenly between all targets over {2} sec.\n\nReduce the cooldown of Weapons of Order by {3} sec per affected enemy, to a maximum of {4} sec."
+                    "Text": "[Зброя Ордену] випускає сплеск Чі на місце вашої цілі, завдаючи {1} од. шкоди від сил природи розподілено між усіма цілями протягом {2} сек.\n\nЗменшує час відновлення [Зброя Ордену] на {3} сек за кожну уражену ціль, максимум до {4} сек."
                 }
             }
         },
         "32": {
             "Hash": 1869013851,
-            "Name": "Chi Torpedo",
+            "Name": "Політ Чі",
             "Descriptions": {
                 "0": {
                     "Hash": 3456660218,
                     "Id": "115008",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Torpedoes you forward a long distance and increases your movement speed by {1}% for {2} sec, stacking up to {3} times."
+                    "Text": "Переносить вас вперед на велику відстань, збільшуючи вашу швидкість пересування на {1}% протягом {2} сек. Накопичується до {3} разів."
                 }
             }
         },
         "33": {
             "Hash": 1525168889,
-            "Name": "Chi Wave",
+            "Name": "Хвиля енергії Чі",
             "Descriptions": {
                 "0": {
                     "Hash": 81263552,
                     "Id": "115098",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "A wave of Chi energy flows through friends and foes, dealing {1} Nature damage or {2} healing. Bounces up to {3} times to targets within {4} yards."
+                    "Text": "Хвиля енергії Чі проходить крізь союзників і ворогів, завдаючи {1} од. шкоди від сил природи або зцілюючи {2} од. здоров'я. Відскакує до {3} разів на цілі в радіусі {4} м."
                 }
             }
         },
         "34": {
             "Hash": 3609414445,
-            "Name": "Chrysalis",
+            "Name": "Лялечка",
             "Descriptions": {
                 "0": {
                     "Hash": 2101767638,
                     "Id": "202424",
                     "Spec": "Mistweaver",
-                    "Text": "Reduces the cooldown of Life Cocoon by {1} sec."
+                    "Text": "Зменшує час відновлення [Кокон життя] на {1} сек."
                 }
             }
         },
         "35": {
             "Hash": 2443341738,
-            "Name": "Clash",
+            "Name": "Зіткнення",
             "Descriptions": {
                 "0": {
                     "Hash": 2143818511,
                     "Id": "324312",
                     "Spec": "Brewmaster",
-                    "Text": "You and the target charge each other, meeting halfway then rooting all targets within {1} yards for {2} sec."
+                    "Text": "Ви та ваша ціль кидаєтесь назустріч один одному та стикаєтесь на пів шляху, знерухомлюючи усі цілі в радіусі {1} м на {2} сек."
                 }
             }
         },
         "36": {
             "Hash": 3643801195,
-            "Name": "Close to Heart",
+            "Name": "Близько до серця",
             "Descriptions": {
                 "0": {
                     "Hash": 437454472,
                     "Id": "389574",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You and your allies within {1} yards have {2}% increased healing taken from all sources."
+                    "Text": "Будь-яке зцілення вас і ваших союзників в радіусі {1} м збільшується на {2}%."
                 }
             }
         },
         "37": {
             "Hash": 4090591913,
-            "Name": "Clouded Focus",
+            "Name": "Затуманений погляд",
             "Descriptions": {
                 "0": {
                     "Hash": 2985273165,
                     "Id": "388047",
                     "Spec": "Mistweaver",
-                    "Text": "Healing with Enveloping Mists or Vivify while channeling Soothing Mists increases their healing done by {1}% and reduces their mana cost by {2}%. Stacks up to {3} times.\n\nWhen your Soothing Mists channel ends, this effect is cancelled."
+                    "Text": "Застосування [Оповиваючий туман] або [Оживлення], під час підтримання [Заспокійливий туман], збільшують їх зцілення на {1}%, а їх витрати мани зменшуються на {2}%. Накопичується до {3} разів.\n\nЕфект скасовується по закінченню підтримання [Заспокійливий туман]."
                 }
             }
         },
         "38": {
             "Hash": 1394103930,
-            "Name": "Counteract Magic",
+            "Name": "Протидія магії",
             "Descriptions": {
                 "0": {
                     "Hash": 768545049,
                     "Id": "353502",
                     "Spec": "Mistweaver",
-                    "Text": "Removing hostile magic effects from a target increases the healing they receive from you by {1}% for {2} sec, stacking up to {3} times."
+                    "Text": "Коли ви знімаєте шкідливі ефекти з цілі, ефективність вашого зцілення до неї зростає на {1}% протягом {2} сек. Накопичується до {3} разів."
                 }
             }
         },
         "39": {
             "Hash": 3821277616,
-            "Name": "Counterstrike",
+            "Name": "Зворотний удар",
             "Descriptions": {
                 "0": {
                     "Hash": 1014017099,
                     "Id": "383785",
                     "Spec": "Brewmaster",
-                    "Text": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals {1}% increased damage."
+                    "Text": "Щоразу, коли ви ухиляєтеся або ворог промахується повз вас, ваша наступна [Тигрова лапа] або [Круговий удар журавля] завдають на {1}% більше шкоди."
                 }
             }
         },
         "40": {
             "Hash": 3920889339,
-            "Name": "Crackling Jade Lightning",
+            "Name": "Тріскуча нефритова блискавка",
             "Descriptions": {
                 "0": {
                     "Hash": 1051493020,
                     "Id": "117952",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Channel Jade lightning, causing {1} Nature damage over {2} sec to the target and sometimes knocking back melee attackers."
+                    "Text": "Ви підтримуєте нефритову блискавку, що завдає {1} од. шкоди від сил природи протягом {2} сек, і деколи відкидає ворогів, які атакують вас у ближньому бою."
                 }
             }
         },
         "41": {
             "Hash": 3589373028,
-            "Name": "Crane Vortex",
+            "Name": "Вихор Журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 2793373718,
                     "Id": "388848",
                     "Spec": "Windwalker",
-                    "Text": "Spinning Crane Kick damage increased by {1}%."
+                    "Text": "[Круговий удар журавля] завдає на {1}% більше шкоди."
                 }
             }
         },
         "42": {
             "Hash": 3847352300,
-            "Name": "Dampen Harm",
+            "Name": "Пом'якшення ударів",
             "Descriptions": {
                 "0": {
                     "Hash": 3006649440,
                     "Id": "122278",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces all damage you take by {1}% to {2}% for {3} sec, with larger attacks being reduced by more."
+                    "Text": "Зменшує усю отримувану шкоду в розмірі від {1}% до {2}% на {3} сек. Сильніші атаки послаблюються більше."
                 }
             }
         },
         "43": {
             "Hash": 251280217,
-            "Name": "Dance of Chi-Ji",
+            "Name": "Танець Чі-Джі",
             "Descriptions": {
                 "0": {
                     "Hash": 2683096244,
                     "Id": "325201",
                     "Spec": "Windwalker",
-                    "Text": "Spending Chi has a chance to make your next Spinning Crane Kick free and deal an additional {1}% damage."
+                    "Text": "Витрати Чі мають шанс, що ваш наступний [Круговий удар журавля] не витратить Чі і завдасть додатково {1}% шкоди."
                 }
             }
         },
         "44": {
             "Hash": 4155052222,
-            "Name": "Dancing Mists",
+            "Name": "Танцюючі тумани",
             "Descriptions": {
                 "0": {
                     "Hash": 4251354727,
                     "Id": "388701",
                     "Spec": "Mistweaver",
-                    "Text": "Renewing Mist has a {1}% chance to immediately spread to an additional target when initially cast or when traveling to a new target."
+                    "Text": "[Відновлювальний туман] має {1}% шанс миттєво розповсюдитись на іншу ціль при застосуванні або переході на іншу ціль."
                 }
             }
         },
         "45": {
             "Hash": 698103972,
-            "Name": "Dematerialize",
+            "Name": "Розчинення в повітрі",
             "Descriptions": {
                 "0": {
                     "Hash": 2514698330,
                     "Id": "353361",
                     "Spec": "Mistweaver, Brewmaster",
-                    "Text": "Demateralize into mist while stunned, reducing damage taken by {1}%. Each second you remain stunned reduces this bonus by {2}%."
+                    "Text": "Ви перетворюєтесь на туман під час оглушення, зменшуючи вхідну шкоду на {1}%. Сила ефекту зменшується на {2}% з кожною секундою оглушення."
                 }
             }
         },
         "46": {
             "Hash": 275028052,
-            "Name": "Detox",
+            "Name": "Детоксикація",
             "Descriptions": {
                 "0": {
                     "Hash": 2109379644,
                     "Id": "115450",
                     "Spec": "Mistweaver",
-                    "Text": "Removes all Magic, Poison, and Disease effects from the target."
+                    "Text": "Знімає усі ефекти отруєння, хвороб і магічні ефекти з цілі."
                 },
                 "1": {
                     "Hash": 307117818,
                     "Id": "218164",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Removes all Poison and Disease effects from the target."
+                    "Text": "Знімає усі ефекти отруєння і хвороб з цілі."
                 }
             }
         },
         "47": {
             "Hash": 2010191341,
-            "Name": "Diffuse Magic",
+            "Name": "Розсіяна магія",
             "Descriptions": {
                 "0": {
                     "Hash": 469420065,
                     "Id": "122783",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces magic damage you take by {1}% for {2} sec, and transfers all currently active harmful magical effects on you back to their original caster if possible."
+                    "Text": "Зменшує усю вхідну магічну шкоду на {1}% протягом {2} сек, і переносить з вас усі шкідливі магічні ефекти до свого початкового заклинателя, якщо це можливо."
                 }
             }
         },
         "48": {
             "Hash": 2626149684,
-            "Name": "Disable",
+            "Name": "Знесилення",
             "Descriptions": {
                 "0": {
                     "Hash": 663411296,
                     "Id": "116095",
                     "Spec": "Windwalker",
-                    "Text": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks. Targets already snared will be rooted for {3} sec instead."
+                    "Text": "Зменшує швидкість пересування цілі на {1}% протягом {2} сек. Тривалість ефекту оновлюється вашими атаками ближнього бою. Вже сповільнені цілі будуть знерухомлені на {3} сек."
                 },
                 "1": {
                     "Hash": 3793371108,
                     "Id": "116095",
                     "Spec": "Mistweaver, Brewmaster",
-                    "Text": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks."
+                    "Text": "Зменшує швидкість пересування цілі на {1}% протягом {2} сек. Ваші атаки ближнього бою відновлюють тривалість цього ефекту."
                 }
             }
         },
         "49": {
             "Hash": 1821097766,
-            "Name": "Disabling Reach",
+            "Name": "Ураження на відстані",
             "Descriptions": {
                 "0": {
                     "Hash": 2377986003,
                     "Id": "201769",
                     "Spec": "Windwalker",
-                    "Text": "Disable now has a {1} yard range."
+                    "Text": "[Знесилення] тепер має дальність дії {1} м."
                 }
             }
         },
         "50": {
             "Hash": 1330158045,
-            "Name": "Dome of Mist",
+            "Name": "Туманний купол",
             "Descriptions": {
                 "0": {
                     "Hash": 3659738715,
                     "Id": "202577",
                     "Spec": "Mistweaver",
-                    "Text": "Enveloping Mist transforms {1}% of its remaining periodic healing into a Dome of Mist when dispelled.\n\n|T1381295:24|t {ffffffff|Dome of Mist}\nAbsorbs damage. All healing received by the Monk increased by {2}%. Lasts {3} sec."
+                    "Text": "[Оповиваючий туман] перетворює {1}% залишкового періодичного зцілення у [Туманний купол] при розвіюванні.\n\n|T1381295:24|t {ffffffff|Туманний купол}\nПоглинає шкоду. Вхідне зцілення для монаха збільшується на {2}%. Ефект триває {3} сек."
                 }
             }
         },
         "51": {
             "Hash": 833132135,
-            "Name": "Double Barrel",
+            "Name": "Подвійна діжка",
             "Descriptions": {
                 "0": {
                     "Hash": 4165266780,
                     "Id": "202335",
                     "Spec": "Brewmaster",
-                    "Text": "Your next Keg Smash deals {1}% additional damage, and stuns all targets it hits for {2} sec."
+                    "Text": "Ваш наступний [Удар діжкою] додатково завдає {1}% шкоди та оглушує усі уражені цілі на {2} сек."
                 }
             }
         },
         "52": {
             "Hash": 365402366,
-            "Name": "Dragonfire Brew",
+            "Name": "Відвар полум'я дракона",
             "Descriptions": {
                 "0": {
                     "Hash": 2390165180,
                     "Id": "383994",
                     "Spec": "Brewmaster",
-                    "Text": "After using Breath of Fire, you breathe fire {1} additional times, each dealing {2} Fire damage.\n\nBreath of Fire damage increased by up to {3}% based on your level of Stagger."
+                    "Text": "Після застосування [Вогняний подих], ви робите ще {1} {declension|додатковий подих вогнем|додаткові подихи вогнем|додаткових подихів вогнем}, кожен з яких завдає {2} од. шкоди від вогню.\n\n[Вогняний подих] завдає до {3}% більше шкоди, залежно від поточної сили [Похитування]."
                 }
             }
         },
         "53": {
             "Hash": 2757815957,
-            "Name": "Drinking Horn Cover",
+            "Name": "Чохол від рогу для пиття",
             "Descriptions": {
                 "0": {
                     "Hash": 2514352900,
                     "Id": "391370",
                     "Spec": "Windwalker",
-                    "Text": "The duration of Storm, Earth, and Fire is extended by {1} sec for every Chi you spend."
+                    "Text": "Тривалість [Буря, земля і вогонь] продовжується на {1} сек за кожну од. витраченої енергії Чі."
                 }
             }
         },
         "54": {
             "Hash": 3561284075,
-            "Name": "Dust in the Wind",
+            "Name": "Пил у повітрі",
             "Descriptions": {
                 "0": {
                     "Hash": 120556704,
                     "Id": "394093",
                     "Spec": "Windwalker",
-                    "Text": "Bonedust Brew's radius increased by {1}%."
+                    "Text": "Радіус [Відвар з костяного пилу] збільшується на {1}%."
                 }
             }
         },
         "55": {
             "Hash": 161282941,
-            "Name": "Echoing Reverberation",
+            "Name": "Резонуюче відлуння",
             "Descriptions": {
                 "0": {
                     "Hash": 2657993803,
                     "Id": "388604",
                     "Spec": "Mistweaver",
-                    "Text": "Zen Pulse triggers a second time at {1}% effectiveness if cast on targets with Enveloping Mist."
+                    "Text": "[Імпульс Дзен] спрацьовує вдруге з {1}% ефективністю, якщо застосовується до цілей з ефектом [Оповиваючий туман]."
                 }
             }
         },
         "56": {
             "Hash": 1443383226,
-            "Name": "Eerie Fermentation",
+            "Name": "Моторошне бродіння",
             "Descriptions": {
                 "0": {
                     "Hash": 2961790263,
                     "Id": "205147",
                     "Spec": "Brewmaster",
-                    "Text": "You gain up to {1}% movement speed  and {2}% magical damage reduction based on your current level of Stagger."
+                    "Text": "Залежно від поточного рівня [Похитування], ваша швидкість пересування збільшується максимум до {1}%, а зменшення магічної шкоди зростає максимум до {2}%."
                 }
             }
         },
         "57": {
             "Hash": 243480375,
-            "Name": "Elusive Footwork",
+            "Name": "Невловимі рухи",
             "Descriptions": {
                 "0": {
                     "Hash": 2901383120,
                     "Id": "387046",
                     "Spec": "Brewmaster",
-                    "Text": "Blackout Kick deals an additional {1}% damage. Blackout Kick critical hits grant an additional {2} stacks of Elusive Brawler."
+                    "Text": "[Карколомний удар] додатково завдає {1}% шкоди. Критична шкода від [Карколомний удар] додатково дає {2} ефекти [Невловний забіяка]."
                 }
             }
         },
         "58": {
             "Hash": 1599852703,
-            "Name": "Elusive Mists",
+            "Name": "Невловимі тумани",
             "Descriptions": {
                 "0": {
                     "Hash": 3080594240,
                     "Id": "388681",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces all damage taken while channelling Soothing Mists by {1}%."
+                    "Text": "Зменшує усю вхідну шкоду під час підтримування [Заспокійливий туман] на {1}%."
                 }
             }
         },
         "59": {
             "Hash": 905410861,
-            "Name": "Eminence",
+            "Name": "Величність",
             "Descriptions": {
                 "0": {
                     "Hash": 993174180,
                     "Id": "353584",
                     "Spec": "Mistweaver",
-                    "Text": "Transcendence: Transfer can now be cast if you are stunned.  Cooldown reduced by {1} sec if you are not."
+                    "Text": "[Трансцендентність: Перенесення] тепер може застосовуватись під час оглушення. Час відновлення скорочується на {1} сек, якщо ви не оглушені."
                 }
             }
         },
         "60": {
             "Hash": 3107484308,
-            "Name": "Empowered Tiger Lightning",
+            "Name": "Посилена тигрова блискавка",
             "Descriptions": {
                 "0": {
                     "Hash": 3265996944,
                     "Id": "323999",
                     "Spec": "Windwalker",
-                    "Text": "Xuen strikes your enemies with Empowered Tiger Lightning every {1} sec, dealing {2}% of the damage you and your summons have dealt to those targets in the last {3} sec."
+                    "Text": "Сюень вражає ваших ворогів [Посилена тигрова блискавка] кожні {1} сек, яка завдає {2}% від об'єму шкоди, яку завдали ви та ваші супутники впродовж останніх {3} сек."
                 }
             }
         },
         "61": {
             "Hash": 245416792,
-            "Name": "Enveloping Mist",
+            "Name": "Оповиваючий туман",
             "Descriptions": {
                 "0": {
                     "Hash": 2708886241,
                     "Id": "124682",
                     "Spec": "Mistweaver",
-                    "Text": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%. \n\nApplies Renewing Mist for {4} seconds to an ally within {5} yds."
+                    "Text": "Охоплює ціль зцілюючим туманом, який відновлює {1} од. здоров'я протягом {2} сек, і збільшує зцілення від інших ваших здібностей на {3}%.\n\nЗастосовує [Відновлювальний туман] на {4} сек на союзника в радіусі {5} м."
                 }
             }
         },
         "62": {
             "Hash": 1065552982,
-            "Name": "Escape from Reality",
+            "Name": "Втеча з реальності",
             "Descriptions": {
                 "0": {
                     "Hash": 4073142441,
                     "Id": "394110",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within {1} sec, ignoring its cooldown.\n\nDuring this time, if you cast Vivify on yourself, its healing is increased by {2}% and {3}% of its cost is refunded."
+                    "Text": "Після застосування [Трансцендентність: Перенесення], ви можете застосувати [Трансцендентність: Перенесення] знову протягом {1} сек, незалежно від його поточного часу відновлення.\n\nЯкщо ви застосуєте [Оживлення] на себе протягом цього часу, його зцілення зросте на {2}% і ви відновите {3}% витраченого ресурсу."
                 }
             }
         },
         "63": {
             "Hash": 1695194383,
-            "Name": "Essence Font",
+            "Name": "Купіль есенції",
             "Descriptions": {
                 "0": {
                     "Hash": 3817975531,
                     "Id": "191837",
                     "Spec": "Mistweaver",
-                    "Text": "Unleashes a rapid twirl of healing bolts at up to {1} allies within {2} yds, every {3} sec for {4} sec. Each bolt heals a target for {5}, plus an additional {6} over {7} sec.\n\nGust of Mists will heal affected targets twice. Castable while moving."
+                    "Text": "Ви швидко випускаєте заряди цілющої енергії максимум у {1} союзників в радіусі {2} м кожні {3} сек протягом {4} сек. Кожен заряд зцілює ціль на {5} од. здоров'я і додатково на {6} здоров'я протягом {7} сек.\n\n[Туманний потік] двічі зцілить союзників з цим ефектом. Можна застосовувати під час руху."
                 }
             }
         },
         "64": {
             "Hash": 476589686,
-            "Name": "Expeditious Fortification",
+            "Name": "Швидке укріплення",
             "Descriptions": {
                 "0": {
                     "Hash": 2393061374,
                     "Id": "388813",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Fortifying Brew cooldown reduced by {1} min."
+                    "Text": "Час відновлення [Зміцнюючий напій] зменшується на {1} хв."
                 }
             }
         },
         "65": {
             "Hash": 3881809935,
-            "Name": "Expel Harm",
+            "Name": "Усунення шкоди",
             "Descriptions": {
                 "0": {
                     "Hash": 4115889685,
                     "Id": "322101",
                     "Spec": "Windwalker",
-                    "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\n|cFFFFFFFFGenerates {4} Chi."
+                    "Text": "Ви виштовхуєте негативну енергію Чі з вашого тіла, що зцілює вас на {1} од. здоров'я і завдає шкоду від магії природи, ворогам в радіусі {3} м, у розмірі {2}% від відновленого здоров'я.\n\n|cFFFFFFFFГенерує {4} од. Чі.|r"
                 },
                 "1": {
                     "Hash": 2268931682,
                     "Id": "322101",
                     "Spec": "Brewmaster",
-                    "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm."
+                    "Text": "Ви виштовхуєте негативну енергію Чі з вашого тіла, що зцілює вас на {1} од. здоров'я і завдає шкоду від магії природи, ворогам в радіусі {3} м, у розмірі {2}% від відновленого здоров'я.\n\nПритягує позитивну енергію Чі всіх ваших [Зцілююча сфера], щоб збільшити зцілення від [Усунення шкоди]."
                 },
                 "2": {
                     "Hash": 321032091,
                     "Id": "322101",
                     "Spec": "Mistweaver",
-                    "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\nMay be cast during Soothing Mist, and will additionally heal the Soothing Mist target."
+                    "Text": "Ви виштовхуєте негативну енергію Чі з вашого тіла, що зцілює вас на {1} од. здоров'я і завдає шкоду від магії природи, ворогам в радіусі {3} м, у розмірі {2}% від відновленого здоров'я.\n\nМоже застосовуватись під час [Заспокійливий туман], а його ціль отримає додаткове зцілення."
                 }
             }
         },
         "66": {
             "Hash": 4247245257,
-            "Name": "Exploding Keg",
+            "Name": "Вибухова діжка",
             "Descriptions": {
                 "0": {
                     "Hash": 3201768516,
                     "Id": "325153",
                     "Spec": "Brewmaster",
-                    "Text": "Hurls a flaming keg at the target location, dealing {1} Fire damage to nearby enemies, causing your attacks against them to deal {2} additional Fire damage, and causing their melee attacks to deal {3}% reduced damage for the next {4} sec."
+                    "Text": "Кидає палаючу діжку в обране місце, яка завдає {1} од. шкоди від вогню усім ворогам поруч, що дозволяє вашим атакам завдавати їм додатково {2} од. шкоди від вогню від ваших атак, і зменшує їхню шкоду від атак ближнього бою на {3} протягом наступних {4} сек."
                 }
             }
         },
         "67": {
             "Hash": 3536553105,
-            "Name": "Eye of the Tiger",
+            "Name": "Тигрове око",
             "Descriptions": {
                 "0": {
                     "Hash": 4074404577,
                     "Id": "196607",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Tiger Palm also applies Eye of the Tiger, dealing {1} Nature damage to the enemy and {2} healing to the Monk over {3} sec. Limit {4} target."
+                    "Text": "[Тигрова лапа] також накладає ефект [Тигрове око], що завдає {1} од. шкоди від сил природи ворогу і відновлює {2} од. здоров'я монаху протягом {3} сек. Максимум {4} ціль."
                 }
             }
         },
         "68": {
             "Hash": 3490786159,
-            "Name": "Face Palm",
+            "Name": "Лапою по обличчю",
             "Descriptions": {
                 "0": {
                     "Hash": 3726791581,
                     "Id": "389942",
                     "Spec": "Brewmaster",
-                    "Text": "Tiger Palm has a {1}% chance to deal {2}% of normal damage and reduce the remaining cooldown of your Brews by {3} additional sec."
+                    "Text": "[Тигрова лапа] має {1}% шанс завдати {2}% базової шкоди та зменшити час відновлення ваших відварів на {3} сек."
                 }
             }
         },
         "69": {
             "Hash": 2562567122,
-            "Name": "Faeline Harmony",
+            "Name": "Чарівна гармонія ",
             "Descriptions": {
                 "0": {
                     "Hash": 3056213689,
                     "Id": "391412",
                     "Spec": "Windwalker",
-                    "Text": "Your abilities reset Faeline Stomp {1}% more often. Enemies and allies hit by Faeline Stomp are affected by Fae Exposure, increasing your damage and healing against them by {2}% for {3} sec."
+                    "Text": "Ваші здібності відновлюють [Поступ магії Фей] на {1}% частіше. Вороги й союзники, які були вражені [Поступ магії Фей] отримують ефект [Магічний вплив Фей], що збільшує шкоду або зцілення на {2}% протягом {3} сек."
                 }
             }
         },
         "70": {
             "Hash": 1327400138,
-            "Name": "Faeline Stomp",
+            "Name": "Поступ магії Фей",
             "Descriptions": {
                 "0": {
                     "Hash": 920083405,
                     "Id": "388193",
                     "Spec": "Mistweaver",
-                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Up to {7} allies caught in the faeline are healed with an Essence Font bolt.\n\nYour abilities have a {8}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                    "Text": "Сильний удар по землі, що вивільняє магічну смугу на {1} сек, завдаючи {2} од. шкоди від сил природи максимум {3} цілям, і відновлює {4} од. здоров'я максимум {5} цілям в радіусі {6} м від магічної смуги. Максимум до {7} ворогів, що потрапили у смугу, отримають зцілення від [Купіль есенції].\n\nДоки ви знаходитесь на магічній смузі, ваші здібності мають {8}% шанс відновити [Поступ магії Фей]."
                 },
                 "1": {
                     "Hash": 3215055234,
                     "Id": "388193",
                     "Spec": "Windwalker",
-                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Up to {7} enemies caught in the faeline suffer an additional {8} damage.\n\nYour abilities have a {9}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                    "Text": "Сильний удар по землі, що вивільняє магічну смугу на {1} сек, завдаючи {2} од. шкоди від сил природи максимум {3} цілям, і відновлює {4} од. здоров'я максимум {5} цілям в радіусі {6} м від магічної смуги. Максимум до {7} ворогів, що потрапили у смугу, отримають {8} од. додаткової шкоди. \n\nДоки ви знаходитесь на магічній смузі, ваші здібності мають {9}% шанс відновити [Поступ магії Фей]."
                 }
             }
         },
         "71": {
             "Hash": 1429282943,
-            "Name": "Fast Feet",
+            "Name": "Гнучкість рухів",
             "Descriptions": {
                 "0": {
                     "Hash": 3645151573,
                     "Id": "388809",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Rising Sun Kick deals {1}% increased damage. Spinning Crane Kick deals {2}% additional damage.\n"
+                    "Text": "[Удар висхідного сонця] завдає на {1}% більше шкоди.\n[Круговий удар журавля] додатково завдає {2}% шкоди.\n"
                 }
             }
         },
         "72": {
             "Hash": 2632726071,
-            "Name": "Fatal Flying Guillotine",
+            "Name": "Смертельна літаюча гільйотина",
             "Descriptions": {
                 "0": {
                     "Hash": 2654389274,
                     "Id": "394923",
                     "Spec": "Windwalker",
-                    "Text": "Touch of Death strikes up to {1} additional nearby targets. This Touch of Death is always an Improved Touch of Death."
+                    "Text": "[Дотик смерті] додатково вражає до {1} цілей поблизу. Цей [Дотик смерті] має властивості [Покращений дотик смерті]."
                 }
             }
         },
         "73": {
             "Hash": 790235773,
-            "Name": "Fatal Touch",
+            "Name": "Смертельний дотик",
             "Descriptions": {
                 "0": {
                     "Hash": 3621931479,
                     "Id": "394123",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Touch of Death cooldown reduced by {1} sec."
+                    "Text": "[Дотик смерті] відновлюється на {1} сек швидше."
                 }
             }
         },
         "74": {
             "Hash": 2059829877,
-            "Name": "Ferocity of Xuen",
+            "Name": "Жорстокість Сюеня",
             "Descriptions": {
                 "0": {
                     "Hash": 2897234743,
                     "Id": "388674",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Increases all damage dealt by {1}%."
+                    "Text": "Збільшує усю завдану шкоду на {1}%."
                 }
             }
         },
         "75": {
             "Hash": 2755251932,
-            "Name": "Fists of Fury",
+            "Name": "Кулаки люті",
             "Descriptions": {
                 "0": {
                     "Hash": 3738850866,
                     "Id": "113656",
                     "Spec": "Windwalker",
-                    "Text": "Pummels all targets in front of you, dealing {1} Physical damage over {2} sec to your primary target and {3} damage over {4} sec to all other enemies. Deals reduced damage beyond {5} targets. Can be channeled while moving."
+                    "Text": "Ви трощите всі цілі перед вами, завдаючи {1} од. фізичної шкоди протягом {2} сек і {3} од. фізичної шкоди протягом {4} сек усім цілям поряд. Здійснює зменшену шкоду більше як {5} цілям."
                 }
             }
         },
         "76": {
             "Hash": 2522588172,
-            "Name": "Flashing Fists",
+            "Name": "Мерехтливі кулаки",
             "Descriptions": {
                 "0": {
                     "Hash": 2990681149,
                     "Id": "388854",
                     "Spec": "Windwalker",
-                    "Text": "Fists of Fury damage increased by {1}%."
+                    "Text": "Шкода від [Кулаки люті] збільшується на {1}%."
                 }
             }
         },
         "77": {
             "Hash": 4246138201,
-            "Name": "Fluidity of Motion",
+            "Name": "Плавність рухів",
             "Descriptions": {
                 "0": {
                     "Hash": 479267826,
                     "Id": "387230",
                     "Spec": "Brewmaster",
-                    "Text": "Blackout Kick's cooldown is reduced by {1} sec and its damage by {2}%."
-                },
-                "1": {
-                    "Hash": 3359673725,
-                    "Id": "387230",
-                    "Spec": "Brewmaster",
-                    "Text": "Blackout Kick's cooldown is reduced by {1} sec and its damage is reduced by {2}%."
+                    "Text": "[Карколомний удар] відновлюється на {1} сек швидше і завдає на {2}% більше шкоди."
                 }
             }
         },
         "78": {
             "Hash": 2997177972,
-            "Name": "Flying Serpent Kick",
+            "Name": "Удар летючого змія",
             "Descriptions": {
                 "0": {
                     "Hash": 1510353777,
                     "Id": "101545",
                     "Spec": "Windwalker",
-                    "Text": "Soar forward through the air at high speed for {1} sec.\n \nIf used again while active, you will land, dealing {2} damage to all enemies within {3} yards and reducing movement speed by {4}% for {5} sec."
+                    "Text": "Ви здіймаєтесь у повітря і летите вперед на високій швидкості протягом {1} сек.\n\nПри повторному застосуванні під час дії ви приземлитеся, завдаючи {2} од. шкоди усім ворогам в радіусі {3} м і сповільнюючи їх на {4}% протягом {5} сек."
                 }
             }
         },
         "79": {
             "Hash": 3591541482,
-            "Name": "Focused Thunder",
+            "Name": "Осередок грому",
             "Descriptions": {
                 "0": {
                     "Hash": 3142949225,
                     "Id": "197895",
                     "Spec": "Mistweaver",
-                    "Text": "Thunder Focus Tea now empowers your next {1} spells."
+                    "Text": "[Чай з громовим концентратом] тепер підсилює {1} ваші наступні здібності."
                 }
             }
         },
         "80": {
             "Hash": 2126053164,
-            "Name": "Font of Life",
+            "Name": "Купіль життя",
             "Descriptions": {
                 "0": {
                     "Hash": 2660926861,
                     "Id": "337209",
                     "Spec": "Mistweaver",
-                    "Text": "Your Essence Font's initial heal is increased by {1} and has a chance to reduce the cooldown of Thunder Focus Tea by {2} sec."
+                    "Text": "Початкове зцілення від [Купіль есенції] збільшується на {1} од. та має шанс зменшити час відновлення [Чай з громовим концентратом] на {2} сек."
                 }
             }
         },
         "81": {
             "Hash": 1128522522,
-            "Name": "Forbidden Technique",
+            "Name": "Заборонена техніка",
             "Descriptions": {
                 "0": {
                     "Hash": 2038464726,
                     "Id": "393098",
                     "Spec": "Windwalker",
-                    "Text": "Touch of Death deals {1}% increased damage and can be used a second time within {2} sec before its cooldown is triggered."
+                    "Text": "[Дотик смерті] завдає на {1}% більше шкоди та тепер може застосовуватись повторно впродовж {2} сек, після чого почнеться його час відновлення."
                 }
             }
         },
         "82": {
             "Hash": 1584386768,
-            "Name": "Fortifying Brew",
+            "Name": "Зміцнюючий напій",
             "Descriptions": {
                 "0": {
                     "Hash": 1694125017,
                     "Id": "115203",
                     "Spec": "Brewmaster",
-                    "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%, increasing your armor by {4}% and dodge chance by {5}%."
+                    "Text": "Перетворює вашу шкіру на камінь на {1} сек, що збільшує ваш максимальний рівень здоров'я на {2}%, зменшує усю вхідну шкоду на {3}%, збільшує броню на {4}% і ймовірність ухилення на {5}%."
                 },
                 "1": {
                     "Hash": 336560320,
                     "Id": "115203",
                     "Spec": "Mistweaver, Windwalker",
-                    "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%."
+                    "Text": "Перетворює вашу шкіру на камінь на {1} сек, що збільшує ваш максимальний запас здоров'я на {2}% і зменшує усю вхідну шкоду на {3}%."
                 }
             }
         },
         "83": {
             "Hash": 562086068,
-            "Name": "Fortifying Brew: Determination",
+            "Name": "Зміцнюючий відвар: Рішучість",
             "Descriptions": {
                 "0": {
                     "Hash": 342789103,
                     "Id": "322960",
                     "Spec": "Brewmaster",
-                    "Text": "Fortifying Brew increases Stagger effectiveness by {1}% while active.\n\nCombines with other Fortifying Brew effects."
+                    "Text": "Доки діє [Зміцнюючий напій], ефективність [Похитування] зростає на {1}%."
                 }
             }
         },
         "84": {
             "Hash": 211264985,
-            "Name": "Fundamental Observation",
+            "Name": "Фундаментальні спостереження",
             "Descriptions": {
                 "0": {
                     "Hash": 75838292,
                     "Id": "387035",
                     "Spec": "Brewmaster",
-                    "Text": "Zen Meditation has {1}% reduced cooldown and is no longer cancelled when you move or when you are hit by melee attacks."
+                    "Text": "[Дзен-медитація] відновлюється на {1}% швидше і не припиняється під час руху або коли вас вражає атака ближнього бою."
                 }
             }
         },
         "85": {
             "Hash": 342241525,
-            "Name": "Fury of Xuen",
+            "Name": "Гнів Сюеня",
             "Descriptions": {
                 "0": {
                     "Hash": 600418269,
                     "Id": "396166",
                     "Spec": "Windwalker",
-                    "Text": "Your Combo Strikes grant a stacking {1}% chance for your next Fists of Fury to grant {2}% Haste and invoke Xuen, The White Tiger for {3} sec."
+                    "Text": "Активація [Комбінації ударів] має {1}% шанс, що ваші наступні [Кулаки люті] підвищать вашу швидкість на {2}% і викличуть Сюеня, Білого Тигра на {3} сек."
                 }
             }
         },
         "86": {
             "Hash": 4271202819,
-            "Name": "Gai Plin's Imperial Brew",
+            "Name": "Імператорське пиво Гая Пліна",
             "Descriptions": {
                 "0": {
                     "Hash": 694563488,
                     "Id": "383700",
                     "Spec": "Brewmaster",
-                    "Text": "Purifying Brew instantly heals you for {1}% of the purified Stagger damage."
+                    "Text": "[Очищувальний відвар] миттєво зцілює вас у розмірі {1}% від зменшеної шкоди від [Похитування]."
                 }
             }
         },
         "87": {
             "Hash": 195060853,
-            "Name": "Generous Pour",
+            "Name": "Щедра порція",
             "Descriptions": {
                 "0": {
                     "Hash": 2965282665,
                     "Id": "389575",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You and your allies within {1} yards have {2}% increased avoidance."
+                    "Text": "Ви та ваші союзники в радіусі {1} м додатково отримуєте {2}% ухилення."
                 }
             }
         },
         "88": {
             "Hash": 2782891578,
-            "Name": "Gift of the Celestials",
+            "Name": "Дар вічних",
             "Descriptions": {
                 "0": {
                     "Hash": 1228017480,
                     "Id": "388212",
                     "Spec": "Mistweaver",
-                    "Text": "Reduces the cooldown of Invoke Yul'on, the Jade Serpent by {1} min, but decreases its duration to {2} sec. "
+                    "Text": "Час відновлення [Виклик Юл'она, Нефритової змії] зменшується на {1} хв, але його тривалість зменшується на {2} сек. "
                 }
             }
         },
         "89": {
             "Hash": 1246240994,
-            "Name": "Gift of the Ox",
+            "Name": "Дар Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 1116487252,
                     "Id": "124502",
                     "Spec": "Brewmaster",
-                    "Text": "When you take damage, you have a chance to summon a Healing Sphere.\n\n|T606546:24|t{ffffffff|Healing Sphere}:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
-                },
-                "1": {
-                    "Hash": 2613368729,
-                    "Id": "124502",
-                    "Spec": "Windwalker",
-                    "Text": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:"
+                    "Text": "Коли ви отримуєте шкоду, ви можете викликати зцілюючу сферу.\n\n|T606546:24|t{ffffffff|Зцілююча сфера}:\nВикликає зцілюючу сферу, яку бачите тільки ви. Рух крізь сферу зцілює вас на {1} од. здоров'я."
                 }
             }
         },
         "90": {
             "Hash": 1171324125,
-            "Name": "Glory of the Dawn",
+            "Name": "Велич сходу сонця",
             "Descriptions": {
                 "0": {
                     "Hash": 3682229087,
                     "Id": "392958",
                     "Spec": "Windwalker",
-                    "Text": "Rising Sun Kick has a {1}% chance to trigger a second time, dealing {2} Physical damage and restoring {3} Chi."
+                    "Text": "[Удар висхідного сонця] має {1}% шанс спрацювати повторно, завдаючи {2} од. фізичної шкоди та відновлюючи {3} од. Чі."
                 }
             }
         },
         "91": {
             "Hash": 2455519422,
-            "Name": "Grace of the Crane",
+            "Name": "Грація Журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 3086306179,
                     "Id": "388811",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Increases all healing taken by {1}%."
+                    "Text": "Збільшує усе вхідне зцілення на {1}%."
                 }
             }
         },
         "92": {
             "Hash": 660919200,
-            "Name": "Graceful Exit",
+            "Name": "Граціозний відхід",
             "Descriptions": {
                 "0": {
                     "Hash": 2621833486,
                     "Id": "387256",
                     "Spec": "Brewmaster",
-                    "Text": "After you successfully dodge or an enemy misses you, you gain {1}% increased movement speed for {2} sec. Max {3} stacks."
+                    "Text": "Щоразу, коли ви ухиляєтеся або ворог промахується повз вас, ваша швидкість пересування збільшується на {1}% протягом {2} сек. Накопичується до {3} разів."
                 }
             }
         },
         "93": {
             "Hash": 171302720,
-            "Name": "Grapple Weapon",
+            "Name": "Захоплення зброї",
             "Descriptions": {
                 "0": {
                     "Hash": 2206225839,
                     "Id": "233759",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You fire off a rope spear, grappling the target's weapons and shield, returning them to you for {1} sec."
+                    "Text": "Ви кидаєте спис прив'язаний мотузкою, що вибиває з рук зброю і щит цілі на {1} сек."
                 }
             }
         },
         "94": {
             "Hash": 3118449881,
-            "Name": "Guided Meditation",
+            "Name": "Керована медитація",
             "Descriptions": {
                 "0": {
                     "Hash": 1926409511,
                     "Id": "202200",
                     "Spec": "Brewmaster",
-                    "Text": "The cooldown of Zen Meditation is reduced by {1}%. While Zen Meditation is active, all harmful spells cast against your allies within {2} yards are redirected to you.\n\nZen Meditation is no longer cancelled when being struck by a melee attack."
+                    "Text": "Час відновлення [Дзен-медитація] зменшується на {1}%. Доки діє [Дзен-медитація], усі здібності, що завдають шкоду, застосовані проти ваших союзників в радіусі {2} м, перенаправляються на вас. \n\n[Дзен-медитація] тепер не переривається атаками ближнього бою."
                 }
             }
         },
         "95": {
             "Hash": 3535067677,
-            "Name": "Hardened Soles",
+            "Name": "Загартовані підошви",
             "Descriptions": {
                 "0": {
                     "Hash": 2008225679,
                     "Id": "391383",
                     "Spec": "Windwalker",
-                    "Text": "Blackout Kick critical strike chance increased by {1}% and critical damage increased by {2}%."
+                    "Text": "Ймовірність критичної шкоди від [Карколомний удар] збільшується на {1}%, а його критична шкода збільшується на {2}%."
                 }
             }
         },
         "96": {
             "Hash": 1926354252,
-            "Name": "Hasty Provocation",
+            "Name": "Легковажна провокація",
             "Descriptions": {
                 "0": {
                     "Hash": 1239213049,
                     "Id": "328670",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Provoked targets move towards you at {1}% increased speed."
+                    "Text": "Провоковані цілі рухаються до вас із підвищеною на {1}% швидкістю."
                 }
             }
         },
         "97": {
             "Hash": 2806636092,
-            "Name": "Healing Elixir",
+            "Name": "Цілющий еліксир",
             "Descriptions": {
                 "0": {
                     "Hash": 1684273123,
                     "Id": "122281",
                     "Spec": "Mistweaver, Brewmaster",
-                    "Text": "Drink a healing elixir, healing you for {1}% of your maximum health."
+                    "Text": "Ви п'єте цілющий еліксир, який відновлює {1}% вашого максимального запасу здоров'я."
                 }
             }
         },
         "98": {
             "Hash": 2109617130,
-            "Name": "Healing Sphere",
+            "Name": "Зцілююча сфера",
             "Descriptions": {
                 "0": {
                     "Hash": 3538828491,
                     "Id": "205234",
                     "Spec": "Mistweaver",
-                    "Text": "Coalesces a Healing Sphere out of the mists at the target location after {1} sec.  If allies walk through it, they consume the sphere, healing themselves for {2} and dispelled of all harmful periodic magic effects.\n\nMaximum of {3} Healing Spheres can be active by the Monk at any given time."
+                    "Text": "Створює з туману [Зцілююча сфера] в цільовій області через {1} сек. Якщо союзник пройде крізь сферу, то він поглине її, відновлюючи собі  {2} од. здоров'я і знімаючи усі шкідливі періодичні магічні ефекти.\n\nМаксимум може існувати до {3} сфер одночасно."
                 }
             }
         },
         "99": {
             "Hash": 3385156939,
-            "Name": "High Tolerance",
+            "Name": "Відмінна стійкість",
             "Descriptions": {
                 "0": {
                     "Hash": 3402834685,
                     "Id": "196737",
                     "Spec": "Brewmaster",
-                    "Text": "Stagger is {1}% more effective at delaying damage.\n\nYou gain up to {2}% Haste based on your current level of Stagger."
+                    "Text": "[Похитування] відкладає отримання шкоди на {1}% ефективніше.\n\nВи отримуєте до {2}% швидкості, залежно від поточного об'єму відкладеної шкоди від [Похитування]."
                 }
             }
         },
         "100": {
             "Hash": 1196379030,
-            "Name": "Hit Combo",
+            "Name": "Вдала комбінація",
             "Descriptions": {
                 "0": {
                     "Hash": 2597551238,
                     "Id": "196740",
                     "Spec": "Windwalker",
-                    "Text": "Each successive attack that triggers Combo Strikes in a row grants {1}% increased damage, stacking up to {2} times."
+                    "Text": "Кожна наступна успішна атака, яка активує ефект [Майстерність: Комбінації ударів] збільшує вихідну шкоду на {1}%. Накопичується до {2} разів."
                 }
             }
         },
         "101": {
             "Hash": 4181317877,
-            "Name": "Hit Scheme",
+            "Name": "План атаки",
             "Descriptions": {
                 "0": {
                     "Hash": 4133002995,
                     "Id": "383695",
                     "Spec": "Brewmaster",
-                    "Text": "Dealing damage with Blackout Kick increases the damage of your next Keg Smash by {1}%, stacking up to {2} times."
+                    "Text": "Завдання шкоди від [Карколомний удар], збільшує шкоду від вашого наступного [Удар діжкою] на {1}%. Накопичується до {2} разів."
                 }
             }
         },
         "102": {
             "Hash": 1519417628,
-            "Name": "Hot Trub",
+            "Name": "Гарячий осад",
             "Descriptions": {
                 "0": {
                     "Hash": 1519003090,
                     "Id": "202126",
                     "Spec": "Brewmaster",
-                    "Text": "Purifying Brew deals {1}% of your purified staggered damage as Fire, divided between all enemies within {2} yards."
-                },
-                "1": {
-                    "Hash": 1903002216,
-                    "Id": "410346",
-                    "Spec": "Brewmaster",
-                    "Text": "Purifying Brew deals {1}% of cleared damage split among nearby enemies. After clearing {2}% of your maximum health in Stagger damage, your next Breath of Fire incapacitates targets for {3} sec."
+                    "Text": "[Очищувальний відвар] завдає {1}% шкоди вогнем від скасованої відкладеної шкоди під час [Похитування]. Шкода розподіляється між усіма ворогами в радіусі {2} м."
                 }
             }
         },
         "103": {
             "Hash": 2081780956,
-            "Name": "Improved Celestial Brew",
+            "Name": "Покращений Божественний відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 1207471784,
                     "Id": "322510",
                     "Spec": "Brewmaster",
-                    "Text": "Purifying Brew increases the absorption of your next Celestial Brew by up to {1}%, based on Stagger purified."
+                    "Text": "[Очищувальний відвар] збільшує поглинання вашого наступного [Божественний відвар] до {1}%, залежно від скасованої шкоди від [Похитування]."
                 }
             }
         },
         "104": {
             "Hash": 2665647329,
-            "Name": "Improved Detox",
+            "Name": "Покращена детоксикація",
             "Descriptions": {
                 "0": {
                     "Hash": 3983054586,
                     "Id": "388874",
                     "Spec": "Mistweaver",
-                    "Text": "Detox additionally removes all Poison and Disease effects."
+                    "Text": "[Детоксикація] додатково знімає усі ефекти отруєння і хвороб."
                 }
             }
         },
         "105": {
             "Hash": 2603604467,
-            "Name": "Improved Invoke Niuzao, the Black Ox",
+            "Name": "Покращений виклик Нюцзао, Чорного Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 2823960524,
                     "Id": "322740",
                     "Spec": "Brewmaster",
-                    "Text": "Purifying Stagger damage while Niuzao is active increases the damage of Niuzao's next Stomp by {1}% of damage purified, split between all enemies."
+                    "Text": "Доки дух Нюцзао з вами, зменшення шкоди від [Похитування] збільшує шкоду від наступного тупоту Нюцзао на {1}% зменшеної шкоди."
                 }
             }
         },
         "106": {
             "Hash": 4130494935,
-            "Name": "Improved Paralysis",
+            "Name": "Покращений параліч",
             "Descriptions": {
                 "0": {
                     "Hash": 2774186915,
                     "Id": "344359",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Reduces the cooldown of Paralysis by {1} sec."
+                    "Text": "Зменшує час відновлення [Параліч] на {1} сек."
                 }
             }
         },
         "107": {
             "Hash": 2105499637,
-            "Name": "Improved Purifying Brew",
+            "Name": "Покращений очищувальний відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 2207074606,
                     "Id": "343743",
                     "Spec": "Brewmaster",
-                    "Text": "Purifying Brew now has {1} charges."
+                    "Text": "[Очищувальний відвар] тепер має {1} заряди."
                 }
             }
         },
         "108": {
             "Hash": 1979270638,
-            "Name": "Improved Roll",
+            "Name": "Покращений перекат",
             "Descriptions": {
                 "0": {
                     "Hash": 987635406,
                     "Id": "328669",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Grants an additional charge of Roll and Chi Torpedo."
+                    "Text": "Дає додатковий заряд для [Перекат] і [Політ Чі]."
                 }
             }
         },
         "109": {
             "Hash": 1452423292,
-            "Name": "Improved Touch of Death",
+            "Name": "Покращений дотик смерті",
             "Descriptions": {
                 "0": {
                     "Hash": 2087710098,
                     "Id": "322113",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Touch of Death can now be used on targets with less than {1}% health remaining, dealing {2}% of your maximum health in damage."
+                    "Text": "[Дотик смерті] тепер можна застосувати на цілі з поточним рівнем здоров'я нижче {1}%, завдаючи шкоду, в об'ємі {2}% від вашого максимального запасу здоров'я. "
                 }
             }
         },
         "110": {
             "Hash": 3433775569,
-            "Name": "Improved Vivify",
+            "Name": "Покращене оживлення",
             "Descriptions": {
                 "0": {
                     "Hash": 1444037249,
                     "Id": "231602",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Vivify healing is increased by {1}%."
+                    "Text": "[Оживлення] зцілює на {1}% більше здоров'я."
                 }
             }
         },
         "111": {
             "Hash": 413119516,
-            "Name": "Incendiary Breath",
+            "Name": "Запальний подих",
             "Descriptions": {
                 "0": {
                     "Hash": 604980912,
                     "Id": "202272",
                     "Spec": "Brewmaster",
-                    "Text": "Increases the radius and damage of Breath of Fire by {1}%, causing it to disorient all targets it strikes for {2} sec, but its cooldown is increased by {3}%."
+                    "Text": "Збільшує радіус дії і шкоду від [Вогняний подих] на {1}%. Уражені цілі дезорієнтуються на {2} сек, а час відновлення збільшується на {3}%."
                 }
             }
         },
         "112": {
             "Hash": 4101088855,
-            "Name": "Inner Peace",
+            "Name": "Внутрішня гармонія",
             "Descriptions": {
                 "0": {
                     "Hash": 1849489347,
                     "Id": "397768",
                     "Spec": "Windwalker",
-                    "Text": "Increases maximum Energy by {1}.\nTiger Palm damage increased by {2}%."
+                    "Text": "Збільшує максимальний об'єм енергії на {1} од, а [Тигрова лапа] завдає на {2}% більше шкоди."
                 }
             }
         },
         "113": {
             "Hash": 604748822,
-            "Name": "Invigorating Mists",
+            "Name": "Бадьорливі тумани",
             "Descriptions": {
                 "0": {
                     "Hash": 4034748418,
                     "Id": "274586",
                     "Spec": "Mistweaver",
-                    "Text": "Vivify heals all allies with your Renewing Mist active for {1}.\n"
+                    "Text": "[Оживлення] зцілює усіх союзників з ефектом [Відновлювальний туман] на {1} од. здоров'я.\n"
                 }
             }
         },
         "114": {
             "Hash": 727617542,
-            "Name": "Invoke Chi-Ji, the Red Crane",
+            "Name": "Виклик Чі-Джі, Червоного Журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 625034453,
                     "Id": "325197",
                     "Spec": "Mistweaver",
-                    "Text": "Summon an effigy of Chi-Ji for {1} sec that kicks up a Gust of Mist when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {2} allies for {3}, and reducing the cost and cast time of your next Enveloping Mist by {4}%, stacking.\n\nChi-Ji's presence makes you immune to movement impairing effects."
+                    "Text": "Виклиє дух Чі-Джи на {1} сек, який застосовує [Туманний потік] кожен раз, коли ви застосовуєте [Карколомний удар], [Удар висхідного сонця] або [Круговий удар журавля], що зцілює {3} од. здоров'я максимум до {2} цілей, зменшує витрати і час застосування наступного [Оповиваючий туман] на {4}%. Цей ефект накопичується.\n\nПрисутність Чі-Джи поряд з вами, робить вас несприятливим до ефектів обмеження руху."
                 }
             }
         },
         "115": {
             "Hash": 1106917879,
-            "Name": "Invoke Niuzao, the Black Ox",
+            "Name": "Виклик Нюцзао, Чорного Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 3412009469,
                     "Id": "132578",
                     "Spec": "Brewmaster",
-                    "Text": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies.\n\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao."
+                    "Text": "Викликає дух Нюцзао, Чорного Бика на {1} сек. Нюцзао атакує вашу основну ціль і деколи тупотить, вражаючи усіх ворогів поряд.\n\nДоки діє цей ефект Нюцзао отримує {2}% шкоди від [Похитування] замість вас."
                 }
             }
         },
         "116": {
             "Hash": 3177357260,
-            "Name": "Invoke Xuen, the White Tiger",
+            "Name": "Пробудження Сюеня, Білого Тигра",
             "Descriptions": {
                 "0": {
                     "Hash": 757794975,
                     "Id": "123904",
                     "Spec": "Windwalker",
-                    "Text": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage.\n\nEvery {6} sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing {7}% of the damage you have dealt to those targets in the last {8} sec."
-                },
-                "1": {
-                    "Hash": 3583519542,
-                    "Id": "123904",
-                    "Spec": "Mistweaver, Brewmaster",
-                    "Text": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage."
+                    "Text": "Викликає дух Сюеня, Білого Тигра на {1} сек. Сюень атакує вашу головну ціль, а також кожні {4} сек запускає [Тигрова блискавка] у {2} ворогів в радіусі {3} м, яка завдає {5} од. шкоди від сил природи.\n\nСюень вражає ваших ворогів [Посилена тигрова блискавка] кожні {6} сек, яка завдає {7}% від об'єму шкоди, яку завдали ви і ваші супутники впродовж останніх {8} сек."
                 }
             }
         },
         "117": {
             "Hash": 2669135799,
-            "Name": "Invoke Yu'lon, the Jade Serpent",
+            "Name": "Виклик Ю'лона, Нефритового Змія",
             "Descriptions": {
                 "0": {
                     "Hash": 1570766535,
                     "Id": "322118",
                     "Spec": "Mistweaver",
-                    "Text": "Summons an effigy of Yu'lon, the Jade Serpent for {1} sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to {2} allies for {3} over {4} sec. \n\nEnveloping Mist costs {5}% less mana while Yu'lon is active."
+                    "Text": "Викликає дух Ю'лона, Нефритову Змію на {1} сек. Ю'лон буде зцілювати поранених цілей, застосовуючи [Заспокійливий подих Юл'она], який відновить максимум {2} союзникам {3} од. здоров'я протягом {4} сек.\n\nДоки дух Ю'лона з вами, [Оповиваючий туман] витрачає на {5}% менше мани."
                 }
             }
         },
         "118": {
             "Hash": 2639963769,
-            "Name": "Invoker's Delight",
+            "Name": "Захоплення заклинателя",
             "Descriptions": {
                 "0": {
                     "Hash": 3171520164,
                     "Id": "388661",
                     "Spec": "Mistweaver, Windwalker",
-                    "Text": "You gain {1}% haste for {2} sec after summoning your Celestial. "
+                    "Text": "Після виклику вашого Вічного, ви отримуєте {1}% швидкості на {2} сек. "
                 }
             }
         },
         "119": {
             "Hash": 1892324704,
-            "Name": "Ironshell Brew",
+            "Name": "Відвар Залізного панциру",
             "Descriptions": {
                 "0": {
                     "Hash": 584150918,
                     "Id": "388814",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Increases Armor while Fortifying Brew is active by {1}%.\nIncreases Dodge while Fortifying Brew is active by {2}%.\n"
+                    "Text": "Доки діє [Зміцнюючий напій], броня збільшується на {1}%, а ймовірність ухилення збільшується на {2}%."
                 }
             }
         },
         "120": {
             "Hash": 3297067060,
-            "Name": "Jade Bond",
+            "Name": "Нефритовий зв'язок",
             "Descriptions": {
                 "0": {
                     "Hash": 798425226,
                     "Id": "388031",
                     "Spec": "Mistweaver",
-                    "Text": "Abilities that activate Gust of Mist reduce the cooldown on Invoke Yul'on, the Jade Serpent by {1} sec, and Yu'lon's Soothing Breath healing is increased by {2}%."
+                    "Text": "Здібності, які активують ефект [Туманний потік] зменшують час відновлення [Виклик Юл'она, Нефритової змії] на {1} сек, а [Заспокійливий подих Юл'она] зцілює на {2}% більше здоров'я."
                 }
             }
         },
         "121": {
             "Hash": 295195145,
-            "Name": "Jade Ignition",
+            "Name": "Нефритовий розпал",
             "Descriptions": {
                 "0": {
                     "Hash": 1591216916,
                     "Id": "392979",
                     "Spec": "Windwalker",
-                    "Text": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\n\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} Nature damage to all enemies within {3} yards. The damage is increased by {4}% for each stack of Chi Energy."
+                    "Text": "Коли ви завдаєте шкоду через [Кулаки люті], ви отримуєте заряд енергії Чі, що накопичується до {1} разів. [Круговий удар журавля] вивільняє цю енергію у вигляді вибуху Чі, завдаючи {2} од. шкоди від сил природи усім ворогам в радіусі {3} м. Шкода збільшується на {4}% за кожен накопичений заряд."
                 }
             }
         },
         "122": {
             "Hash": 3890562055,
-            "Name": "Keg Smash",
+            "Name": "Удар діжкою",
             "Descriptions": {
                 "0": {
                     "Hash": 1493508169,
                     "Id": "121253",
                     "Spec": "Brewmaster",
-                    "Text": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\n\nGrants Shuffle for {6} sec and reduces the remaining cooldown on your Brews by {7} sec."
-                },
-                "1": {
-                    "Hash": 2639544007,
-                    "Id": "121253",
-                    "Spec": "Mistweaver, Windwalker",
-                    "Text": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets."
+                    "Text": "Ви кидаєте діжку з відваром у вашу ціль, що завдає {1} од. фізичної шкоди усім ворогам в радіусі {2} м і зменшує їх швидкість пересування на {3}% протягом {4} сек. Здійснює зменшену шкоду більше як {5} цілям.\n\nДає ефект [Уникнення] на {6} сек і зменшує час відновлення ваших відварів на {7} сек."
                 }
             }
         },
         "123": {
             "Hash": 3145225052,
-            "Name": "Last Emperor's Capacitor",
+            "Name": "Підсилення останнього імператора",
             "Descriptions": {
                 "0": {
                     "Hash": 1002153059,
                     "Id": "392989",
                     "Spec": "Windwalker",
-                    "Text": "Chi spenders increase the damage of your next Crackling Jade Lightning by {1}% and reduce its cost by {2}%, stacking up to {3} times."
+                    "Text": "Здібності, які витрачають енергію Чі, збільшують шкоду від вашої наступної [Тріскуча нефритова блискавка] на {1}% і зменшують її витрати енергії на {2}%. Накопичується до {3} разів."
                 }
             }
         },
         "124": {
             "Hash": 2186440539,
-            "Name": "Leg Sweep",
+            "Name": "Круговий удар ногою",
             "Descriptions": {
                 "0": {
                     "Hash": 2563209942,
                     "Id": "119381",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Knocks down all enemies within {1} yards, stunning them for {2} sec."
+                    "Text": "Збиває з ніг усіх ворогів в радіусі {1} м, оглушуючи їх на {2} сек."
                 }
             }
         },
         "125": {
             "Hash": 1551368115,
-            "Name": "Legacy of Wisdom",
+            "Name": "Спадок мудрості",
             "Descriptions": {
                 "0": {
                     "Hash": 3552132001,
                     "Id": "404408",
                     "Spec": "Mistweaver",
-                    "Text": "Sheilun's Gift heals {1} additional allies and its cast time is reduced by {2} sec."
+                    "Text": "[Дар Шейлун] зцілює {1} додаткові цілі, а його час застосування зменшується на {2} сек."
                 }
             }
         },
         "126": {
             "Hash": 2895542249,
-            "Name": "Life Cocoon",
+            "Name": "Кокон життя",
             "Descriptions": {
                 "0": {
                     "Hash": 733924206,
                     "Id": "116849",
                     "Spec": "Mistweaver",
-                    "Text": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%."
+                    "Text": "Загортає ціль у кокон з енергії Чі на {1} сек, який поглинає {2} од. шкоди та підсилює усі ефекти періодичного зцілення на {3}%."
                 }
             }
         },
         "127": {
             "Hash": 16556100,
-            "Name": "Lifecycles",
+            "Name": "Життєві цикли",
             "Descriptions": {
                 "0": {
                     "Hash": 2491134245,
                     "Id": "197915",
                     "Spec": "Mistweaver",
-                    "Text": "Enveloping Mist reduces the mana cost of your next Vivify by {1}%.\n\nVivify reduces the mana cost of your next Enveloping Mist by {2}%."
+                    "Text": "[Оповиваючий туман] зменшує витрати мани на ваше наступне [Оживлення] на {1}%.\n\n[Оживлення] зменшує витрати мани на ваш наступний [Оповиваючий туман] на {2}%."
                 }
             }
         },
         "128": {
             "Hash": 984078722,
-            "Name": "Light Brewing",
+            "Name": "Легкі відвари",
             "Descriptions": {
                 "0": {
                     "Hash": 3046190262,
                     "Id": "325093",
                     "Spec": "Brewmaster",
-                    "Text": "Reduces the cooldown of Purifying Brew and Celestial Brew by {1}%."
+                    "Text": "Зменшує час відновлення [Очищувальний відвар] і [Божественний відвар] на {1}%."
                 }
             }
         },
         "129": {
             "Hash": 3965331029,
-            "Name": "Mana Tea",
+            "Name": "Мана-чай",
             "Descriptions": {
                 "0": {
                     "Hash": 1969357197,
                     "Id": "197908",
                     "Spec": "Mistweaver",
-                    "Text": "Reduces the mana cost of your spells by {1}% for {2} sec."
+                    "Text": "Зменшує витрати мани вашими здібностями на {1}% протягом {2} сек."
                 }
             }
         },
         "130": {
             "Hash": 1373608446,
-            "Name": "Mark of the Crane",
+            "Name": "Знак журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 571462183,
                     "Id": "220357",
                     "Spec": "Windwalker",
-                    "Text": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. Stacks up to {3} times."
+                    "Text": "[Круговий удар журавля] завдає на {1}% більше шкоди за кожну окрему ціль, яку ви вразили [Тигрова лапа], [Карколомний удар] або [Удар висхідного сонця] за останні {2} сек. Накопичується до {3} разів."
                 }
             }
         },
         "131": {
             "Hash": 2922752426,
-            "Name": "Mastery of Mist",
+            "Name": "Опанування туману",
             "Descriptions": {
                 "0": {
                     "Hash": 1330907485,
                     "Id": "281231",
                     "Spec": "Mistweaver",
-                    "Text": "Renewing Mist now has {1} charges."
+                    "Text": "[Відновлювальний туман] тепер має {1} заряди."
                 }
             }
         },
         "132": {
             "Hash": 1554332813,
-            "Name": "Mastery: Combo Strikes",
+            "Name": "Майстерність: Комбінації ударів",
             "Descriptions": {
                 "0": {
                     "Hash": 680545719,
                     "Id": "115636",
                     "Spec": "Windwalker",
-                    "Text": "Your abilities deal {1}% more damage when they are not a repeat of the previous ability."
+                    "Text": "Ваші здібності завдають на {1}% більше шкоди, якщо вони не повторюють попередню."
                 }
             }
         },
         "133": {
             "Hash": 2053981949,
-            "Name": "Mastery: Elusive Brawler",
+            "Name": "Майстерність: Невловний забіяка",
             "Descriptions": {
                 "0": {
                     "Hash": 3698917811,
                     "Id": "117906",
                     "Spec": "Brewmaster",
-                    "Text": "Each time you are hit by a melee attack, or hit with Blackout Kick, you gain stacking {1}% increased Dodge chance until your next successful Dodge.\n\nAlso increases your attack power by {2}%."
+                    "Text": "Кожен раз, коли ви застосовуєте атаку ближнього бою або [Карколомний удар], ймовірність ухилення збільшується на {1}% до вашого наступного вдалого ухилення. Цей ефект накопичується. \n\nТакож збільшує силу атаки на {2}%."
                 }
             }
         },
         "134": {
             "Hash": 1503892254,
-            "Name": "Mastery: Gust of Mists",
+            "Name": "Майстерність: Туманний потік",
             "Descriptions": {
                 "0": {
                     "Hash": 3013639128,
                     "Id": "117907",
                     "Spec": "Mistweaver",
-                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                    "Text": "[Відновлювальний туман], [Оповиваючий туман], [Усунення шкоди], [Відновлення життєвих сил] та [Оживлення] викликають порив цілющого туману, що миттєво відновлює {1} од. здоров'я вашій основній цілі."
                 }
             }
         },
         "135": {
             "Hash": 2476497048,
-            "Name": "Mending Proliferation",
+            "Name": "Цілюще охоплення",
             "Descriptions": {
                 "0": {
                     "Hash": 2478941165,
                     "Id": "388509",
                     "Spec": "Mistweaver",
-                    "Text": "Each time Enveloping Mist heals, its healing bonus has a {1}% chance to spread to an injured ally within {2} yds."
+                    "Text": "Кожен раз, коли [Оповиваючий туман] відновлює здоров'я, він має {1}% шанс поширитись на пораненого гравця в радіусі {2} м."
                 }
             }
         },
         "136": {
             "Hash": 993340751,
-            "Name": "Meridian Strikes",
+            "Name": "Вирішальні удари",
             "Descriptions": {
                 "0": {
                     "Hash": 1523373278,
                     "Id": "391330",
                     "Spec": "Windwalker",
-                    "Text": "When you Combo Strike, the cooldown of Touch of Death is reduced by {1} sec.\n\nTouch of Death deals an additional {2}% damage."
+                    "Text": "Коли спрацьовує [Майстерність: Комбінації ударів], час відновлення [Дотик смерті] зменшується на {1} сек.\n\n[Дотик смерті] завдає на {2}% більше шкоди."
                 }
             }
         },
         "137": {
             "Hash": 787251177,
-            "Name": "Microbrew",
+            "Name": "Мала порція",
             "Descriptions": {
                 "0": {
                     "Hash": 2026551640,
                     "Id": "202107",
                     "Spec": "Brewmaster",
-                    "Text": "Reduces the cooldown of Fortifying Brew by {1}%."
+                    "Text": "Зменшує час відновлення [Зміцнюючий напій] на {1}%."
                 }
             }
         },
         "138": {
             "Hash": 1004177551,
-            "Name": "Mighty Ox Kick",
+            "Name": "Могутній удар Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 4025099460,
                     "Id": "202370",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You perform a Mighty Ox Kick, hurling your enemy a distance behind you."
+                    "Text": "Ви виконуєте могутній удар Бика, відкидаючи ворога на відстань позаду себе."
                 }
             }
         },
         "139": {
             "Hash": 1578054184,
-            "Name": "Mist Wrap",
+            "Name": "Окутування туманом",
             "Descriptions": {
                 "0": {
                     "Hash": 2358651875,
                     "Id": "197900",
                     "Spec": "Mistweaver",
-                    "Text": "Increases Enveloping Mist's duration by {1} sec and its healing bonus by {2}%."
+                    "Text": "[Оповиваючий туман] триває на {1} сек довше, а його зцілення збільшується на {2}%."
                 }
             }
         },
         "140": {
             "Hash": 69144552,
-            "Name": "Mists of Life",
+            "Name": "Тумани життя",
             "Descriptions": {
                 "0": {
                     "Hash": 420182374,
                     "Id": "388548",
                     "Spec": "Mistweaver",
-                    "Text": "Life Cocoon applies Renewing Mist and Enveloping Mist to the target. "
+                    "Text": "[Кокон життя] також застосовує на ціль [Відновлювальний туман] і [Оповиваючий туман]. "
                 }
             }
         },
         "141": {
             "Hash": 2069818759,
-            "Name": "Misty Peaks",
+            "Name": "Туманні вершини",
             "Descriptions": {
                 "0": {
                     "Hash": 4077773358,
                     "Id": "388682",
                     "Spec": "Mistweaver",
-                    "Text": "Renewing Mist's heal over time effect has a {1}% chance to proc Enveloping Mist for {2} sec."
+                    "Text": "Ефект періодичного зцілення від [Відновлювальний туман] має {1}% шанс застосувати [Оповиваючий туман] на {2} сек."
                 }
             }
         },
         "142": {
             "Hash": 366194480,
-            "Name": "Mystic Touch",
+            "Name": "Містичний дотик",
             "Descriptions": {
                 "0": {
                     "Hash": 3019281822,
                     "Id": "8647",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Your damage weakens the target, increasing Physical damage taken by {1}%."
+                    "Text": "Ваша шкода послаблює ціль, збільшуючи фізичну шкоду по ній на {1}%."
                 }
             }
         },
         "143": {
             "Hash": 182389045,
-            "Name": "Nimble Brew",
+            "Name": "Відвар спритності",
             "Descriptions": {
                 "0": {
                     "Hash": 916069149,
                     "Id": "354540",
                     "Spec": "Brewmaster",
-                    "Text": "Douse allies in the targeted area with Nimble Brew, preventing the next full loss of control effect within {1} sec."
+                    "Text": "Обливає союзників в цільовій області відваром спритності, що попереджує наступний ефект втрати контролю. Ефект триває {1} сек."
                 }
             }
         },
         "144": {
             "Hash": 3415282085,
-            "Name": "Niuzao's Essence",
+            "Name": "Есенція Нюцзао",
             "Descriptions": {
                 "0": {
                     "Hash": 538911070,
                     "Id": "232876",
                     "Spec": "Brewmaster",
-                    "Text": "Drinking a Purifying Brew will dispel all snares affecting you."
+                    "Text": "Пиття [Очищувальний відвар] знімає з вас усі ефекти сповільнення."
                 }
             }
         },
         "145": {
             "Hash": 2701233104,
-            "Name": "Nourishing Chi",
+            "Name": "Живильна енергія Чі",
             "Descriptions": {
                 "0": {
                     "Hash": 2528612557,
                     "Id": "387765",
                     "Spec": "Mistweaver",
-                    "Text": "Life Cocoon increases healing over time received by an additional {1}%, and this effect lingers for an additional {2} sec after the cocoon is removed."
+                    "Text": "Періодичне зцілення від [Кокон життя] збільшується на {1}%, а ефект зцілення зберігається ще {2} сек після закінчення дії кокону."
                 }
             }
         },
         "146": {
             "Hash": 2593644251,
-            "Name": "Open Palm Strikes",
+            "Name": "Удари долонею",
             "Descriptions": {
                 "0": {
                     "Hash": 2655142960,
                     "Id": "392970",
                     "Spec": "Windwalker",
-                    "Text": "Fists of Fury damage increased by {1}%. When Fists of Fury deals damage, it has a {2}% chance to refund {3} Chi."
+                    "Text": "[Кулаки люті] завдають на {1}% більше шкоди. Коли [Кулаки люті] завдають шкоду, вони мають {2}% шанс відновити {3} енергію Чі."
                 }
             }
         },
         "147": {
             "Hash": 2581439491,
-            "Name": "Overflowing Mists",
+            "Name": "Переповнені тумани",
             "Descriptions": {
                 "0": {
                     "Hash": 2364882475,
                     "Id": "388511",
                     "Spec": "Mistweaver",
-                    "Text": "Your Enveloping Mists heal the target for {1}% of their maximum health each time they take damage."
+                    "Text": "Ваш [Оповиваючий туман] зцілює ціль на {1}% її максимального запасу здоров'я кожен раз, коли вона отримує шкоду."
                 }
             }
         },
         "148": {
             "Hash": 2027956544,
-            "Name": "Paralysis",
+            "Name": "Параліч",
             "Descriptions": {
                 "0": {
                     "Hash": 989010784,
                     "Id": "115078",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Incapacitates the target for {1} sec. Limit {2}. Damage will cancel the effect."
-                },
-                "1": {
-                    "Hash": 2265288724,
-                    "Id": "115078",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Incapacitates the target for {1} min. Limit {2}. Damage will cancel the effect."
+                    "Text": "Паралізує ціль на {1} сек. Максимум можна паралізувати {2} ціль одночасно. Будь-яка шкода по цілі припиняє дію цього ефекту."
                 }
             }
         },
         "149": {
             "Hash": 2427519294,
-            "Name": "Peaceful Mending",
+            "Name": "Миротворче зцілення",
             "Descriptions": {
                 "0": {
                     "Hash": 2379217276,
                     "Id": "388593",
                     "Spec": "Mistweaver",
-                    "Text": "Allies targeted by Soothing Mist receive {1}% more healing from your Enveloping Mist and Renewing Mist effects."
+                    "Text": "Союзники, що стали цілями [Заспокійливий туман], отримують на {1}% більше зцілення від ваших ефектів [Оповиваючий туман] і [Відновлювальний туман]."
                 }
             }
         },
         "150": {
             "Hash": 3264640421,
-            "Name": "Peaceweaver",
+            "Name": "Ткач миру",
             "Descriptions": {
                 "0": {
                     "Hash": 2809361546,
                     "Id": "353313",
                     "Spec": "Mistweaver",
-                    "Text": "Revival's cooldown is reduced by {1}%, and provides immunity to magical damage and harmful effects for {2} sec."
+                    "Text": "[Відновлення життєвих сил] відновлюється на {1}% швидше й дає імунітет до магічної шкоди та шкідливих ефектів протягом {2} сек."
                 }
             }
         },
         "151": {
             "Hash": 635431432,
-            "Name": "Perpetual Paralysis",
+            "Name": "Постійний параліч",
             "Descriptions": {
                 "0": {
                     "Hash": 2338696740,
                     "Id": "357495",
                     "Spec": "Windwalker",
-                    "Text": "Paralysis range reduced by {1} yards, but spreads to {2} new enemies when removed."
+                    "Text": "Дальність дії [Параліч] зменшується на {1} м, але ефект розповсюджується на {2} ворогів, коли знімається."
                 }
             }
         },
         "152": {
             "Hash": 375163518,
-            "Name": "Power Strikes",
+            "Name": "Посилені удари",
             "Descriptions": {
                 "0": {
                     "Hash": 2735536716,
                     "Id": "121817",
                     "Spec": "Windwalker",
-                    "Text": "Every {1} sec, your next Tiger Palm will generate {2} additional Chi and deal {3}% additional damage."
+                    "Text": "Кожні {1} сек, ваша наступна [Тигрова лапа] накопичить додатково {2} {declension|енергію|енергії} Чі та додатково завдасть {3} од. шкоди."
                 }
             }
         },
         "153": {
             "Hash": 2345603525,
-            "Name": "Precognition",
+            "Name": "Передбачення",
             "Descriptions": {
                 "0": {
                     "Hash": 525859810,
                     "Id": "377360",
                     "Spec": "Mistweaver",
-                    "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
+                    "Text": "Коли на вас накладають ефект переривання, а ви не застосовуєте здібність, ви отримуєте {1}% швидкості та імунітет до ефектів контролю, переривань і затримки застосування на {2} сек."
                 }
             }
         },
         "154": {
             "Hash": 2052048850,
-            "Name": "Pressure Points",
+            "Name": "Вразливі місця",
             "Descriptions": {
                 "0": {
                     "Hash": 1909632642,
                     "Id": "345829",
                     "Spec": "Windwalker",
-                    "Text": "Killing a player with Touch of Death reduces the remaining cooldown of Touch of Karma by {1} sec."
+                    "Text": "Вбивство гравця за допомогою [Дотик смерті] зменшує час відновлення [Помста карми] на {1} сек."
                 }
             }
         },
         "155": {
             "Hash": 436733006,
-            "Name": "Pretense of Instability",
+            "Name": "Удавана нестабільність",
             "Descriptions": {
                 "0": {
                     "Hash": 2286107283,
                     "Id": "393516",
                     "Spec": "Brewmaster",
-                    "Text": "Activating Purifying Brew or Celestial Brew grants you {1}% dodge for {2} sec."
+                    "Text": "Застосування [Очищувальний відвар] або [Божественний відвар] збільшує ухилення на {1}% протягом {2} сек."
                 }
             }
         },
         "156": {
             "Hash": 2096734770,
-            "Name": "Profound Rebuttal",
+            "Name": "Рішучий опір",
             "Descriptions": {
                 "0": {
                     "Hash": 3451934157,
                     "Id": "392910",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Expel Harm's critical healing is increased by {1}%."
+                    "Text": "Критичне зцілення від [Усунення шкоди] збільшується на {1}%."
                 }
             }
         },
         "157": {
             "Hash": 3747036995,
-            "Name": "Provoke",
+            "Name": "Провокація",
             "Descriptions": {
                 "0": {
                     "Hash": 1326023168,
                     "Id": "115546",
                     "Spec": "Brewmaster",
-                    "Text": "Taunts the target to attack you.\n\nThis ability can be targeted on your Statue of the Black Ox, causing the same effect on all enemies within  {1} yards of the statue."
+                    "Text": "Провокує ціль, щоб вона атакувала вас.\n\nЦя здібність може бути застосована на вашу Статую Чорного Бика, що застосує цей ефект на усіх ворогів в радіусі {1} м від статуї."
                 },
                 "1": {
                     "Hash": 4177245906,
                     "Id": "115546",
                     "Spec": "Mistweaver, Windwalker",
-                    "Text": "Taunts the target to attack you."
+                    "Text": "Провокує ціль атакувати вас."
                 }
             }
         },
         "158": {
             "Hash": 3072520462,
-            "Name": "Purifying Brew",
+            "Name": "Очищувальний відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 713901619,
                     "Id": "119582",
                     "Spec": "Brewmaster",
-                    "Text": "Clears {1}% of your damage delayed with Stagger.\n\nInstantly heals you for {2}% of the damage cleared."
+                    "Text": "Скасовує {1}% шкоди відкладеної [Похитування].\n\nМиттєво відновлює вам здоров'я в об'ємі {2}% від відкладеної шкоди."
                 }
             }
         },
         "159": {
             "Hash": 1338007360,
-            "Name": "Quick Sip",
+            "Name": "Швидкий ковток",
             "Descriptions": {
                 "0": {
                     "Hash": 3015321332,
                     "Id": "388505",
                     "Spec": "Brewmaster",
-                    "Text": "Purify {1}% of your Staggered damage each time you gain {2} sec of Shuffle duration."
+                    "Text": "Зцілює вас на {1}% відкладеної шкоди від  [Похитування] кожні {2} сек дії [Уникнення]."
                 }
             }
         },
         "160": {
             "Hash": 2712167213,
-            "Name": "Rapid Diffusion",
+            "Name": "Швидке поширення",
             "Descriptions": {
                 "0": {
                     "Hash": 2833316154,
                     "Id": "388847",
                     "Spec": "Mistweaver",
-                    "Text": "Rising Sun Kick and Enveloping Mist apply Renewing Mist for {1} seconds to an ally within {2} yds."
+                    "Text": "[Удар висхідного сонця] і [Оповиваючий туман] застосовують ефект [Відновлювальний туман] на союзника в радіусі {2} м на {1} сек."
                 }
             }
         },
         "161": {
             "Hash": 1685329104,
-            "Name": "Reawaken",
+            "Name": "Повторне пробудження",
             "Descriptions": {
                 "0": {
                     "Hash": 2498035695,
                     "Id": "212051",
                     "Spec": "Mistweaver",
-                    "Text": "Returns all dead party members to life with {1}% of maximum health and mana. Cannot be cast when in combat."
+                    "Text": "Повертає усіх мертвих учасників групи до життя з {1}% від максимального здоров'я і мани. Не може застосовуватись під час бою."
                 }
             }
         },
         "162": {
             "Hash": 861626285,
-            "Name": "Refreshing Breeze",
+            "Name": "Освіжаючий бриз",
             "Descriptions": {
                 "0": {
                     "Hash": 811735982,
                     "Id": "353508",
                     "Spec": "Mistweaver",
-                    "Text": "During Soothing Mist's channel, Expel Harm's healing is increased by {1}%, and dispels {2} Magic, Disease, and Poison effect from the target. Stacks each time Soothing Mist heals the target."
+                    "Text": "Під час підтримання [Заспокійливий туман], зцілення від [Усунення шкоди] збільшується на {1}% та знімає {2} {declension|шкідливий магічний ефект|шкідливі магічні ефекти|шкідливих магічних ефектів}, хвороби та отруєння з цілі. Ефект накопичується кожен раз, коли [Заспокійливий туман] відновлює здоров'я."
                 }
             }
         },
         "163": {
             "Hash": 1245385930,
-            "Name": "Refreshing Jade Wind",
+            "Name": "Освіжаючий нефритовий вітер",
             "Descriptions": {
                 "0": {
                     "Hash": 922842300,
                     "Id": "196725",
                     "Spec": "Mistweaver",
-                    "Text": "Summon a whirling tornado around you, causing {1} healing over {2} sec to up to {3} allies within {4} yards."
+                    "Text": "Ви викликаєте вихор навколо себе, який зцілює {1} од. здоров'я максимум {3} цілям в радіусі {4} м протягом {2} сек."
                 }
             }
         },
         "164": {
             "Hash": 1645762062,
-            "Name": "Renewing Mist",
+            "Name": "Відновлювальний туман",
             "Descriptions": {
                 "0": {
                     "Hash": 4255535570,
                     "Id": "115151",
                     "Spec": "Mistweaver",
-                    "Text": "Surrounds the target with healing mists, restoring {1} health over {2} sec.\n\nIf Renewing Mist heals a target past maximum health, it will travel to another injured ally within {3} yds."
+                    "Text": "Оточує ціль зцілюючим туманом, відновлюючи {1} од. здоров'я протягом {2} сек.\n\nЯкщо [Відновлювальний туман] зцілює союзника з повним запасом здоров'я, він переходить на іншу поранену ціль в радіусі {3} м."
                 }
             }
         },
         "165": {
             "Hash": 3836552588,
-            "Name": "Resonant Fists",
+            "Name": "Резонуючі кулаки",
             "Descriptions": {
                 "0": {
                     "Hash": 3886015899,
                     "Id": "389578",
                     "Spec": "Mistweaver, Windwalker",
-                    "Text": "Your attacks have a chance to resonate, dealing {1} Nature damage to enemies within {2} yds."
+                    "Text": "Ваші атаки мають шанс відскочити, завдаючи {1} од. шкоди від сил природи ворогам в радіусі {2} м."
                 }
             }
         },
         "166": {
             "Hash": 912848286,
-            "Name": "Resplendent Mist",
+            "Name": "Мерехтливий туман",
             "Descriptions": {
                 "0": {
                     "Hash": 2905439965,
                     "Id": "388020",
                     "Spec": "Mistweaver",
-                    "Text": "Gust of Mists has a {1}% chance to do {2}% more healing."
+                    "Text": "[Туманний потік] має {1}% шанс відновити на {2}% більше здоров'я."
                 }
             }
         },
         "167": {
             "Hash": 3081902551,
-            "Name": "Restoral",
+            "Name": "Відновлення здоров'я",
             "Descriptions": {
                 "0": {
                     "Hash": 2286869580,
                     "Id": "388615",
                     "Spec": "Mistweaver",
-                    "Text": "Heals all party and raid members within {1} yds for {2} and clears them of all harmful Poison and Disease effects. \n\nCastable while stunned.\n\nHealing increased by {3}% when not in a raid."
+                    "Text": "Зцілює усіх учасників групи або рейду в радіусі {1} м на {2} здоров'я, та очищує їх від всіх ворожих ефектів отрути та хвороб.\n\nМоже застосовуватись під час оглушення.\n\nЗцілення збільшується на {3}% поза рейдом."
                 }
             }
         },
         "168": {
             "Hash": 3671463925,
-            "Name": "Resuscitate",
+            "Name": "Воскресіння",
             "Descriptions": {
                 "0": {
                     "Hash": 1687996261,
                     "Id": "115178",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Cannot be cast when in combat."
+                    "Text": "Закликаючи душу до тіла, повертає загиблого до життя з {1}% максимального здоров'я та мани. Не може бути застосовано в бою."
                 }
             }
         },
         "169": {
             "Hash": 2462458558,
-            "Name": "Reverse Harm",
+            "Name": "Обернення шкоди",
             "Descriptions": {
                 "0": {
                     "Hash": 1820621437,
                     "Id": "342928",
                     "Spec": "Windwalker",
-                    "Text": "Increases the healing done by Expel Harm by {1}%, and your Expel Harm now generates {2} additional Chi."
+                    "Text": "[Усунення шкоди] зцілює на {1}% більше здоров'я і тепер дає {2} {declension|додаткову|додаткові|додаткових} од. Чі."
                 }
             }
         },
         "170": {
             "Hash": 2441366323,
-            "Name": "Revival",
+            "Name": "Відновлення життєвих сил",
             "Descriptions": {
                 "0": {
                     "Hash": 1074708700,
                     "Id": "115310",
                     "Spec": "Mistweaver",
-                    "Text": "Heals all party and raid members within {1} yds for {2} and clears them of all harmful Magical, Poison, and Disease effects.\n\nHealing increased by {3}% when not in a raid."
+                    "Text": "Зцілює усіх учасників групи або рейду в радіусі {1} м на {2} од. здоров'я, та очищує їх від всіх ворожих ефектів магії, отрути та хвороб.\n\nЗцілення збільшується на {3}% поза рейдом."
                 }
             }
         },
         "171": {
             "Hash": 3361066692,
-            "Name": "Ride the Wind",
+            "Name": "Осідлати вітер",
             "Descriptions": {
                 "0": {
                     "Hash": 535962089,
                     "Id": "201372",
                     "Spec": "Windwalker",
-                    "Text": "Flying Serpent Kick clears all snares from you when used and forms a path of wind in its wake, causing all allies who stand in it to have {1}% increased movement speed and to be immune to movement slowing effects."
+                    "Text": "[Удар летючого змія] знімає з вас усі ефекти сповільнення і створює потік вітру, що збільшує швидкість пересування усіх союзників, хто стоїть у ньому на {1}% і дає їм імунітет до ефектів сповільнення."
                 }
             }
         },
         "172": {
             "Hash": 932176335,
-            "Name": "Ring of Peace",
+            "Name": "Коло Миру",
             "Descriptions": {
                 "0": {
                     "Hash": 3130185205,
                     "Id": "116844",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Form a Ring of Peace at the target location for {1} sec. Enemies that enter will be ejected from the Ring."
+                    "Text": "Створює [Коло Миру] в цільовій області на {1} сек. Вороги, що знаходяться у колі, будуть викинуті з нього."
                 }
             }
         },
         "173": {
             "Hash": 3941082952,
-            "Name": "Rising Mist",
+            "Name": "Висхідний туман",
             "Descriptions": {
                 "0": {
                     "Hash": 654079744,
                     "Id": "274909",
                     "Spec": "Mistweaver",
-                    "Text": "Rising Sun Kick heals all allies with your Renewing Mist, Enveloping Mist, or Essence Font for {1}, and extends those effects by {2} sec, up to {3}% of their original duration."
+                    "Text": "[Удар висхідного сонця] зцілює усіх союзників з вашим ефектом [Відновлювальний туман], [Оповиваючий туман] або [Купіль есенції] на {1} од. здоров`я, і подовжує дію цих ефектів на {2} сек, до {3}% їхньої початкової тривалості."
                 }
             }
         },
         "174": {
             "Hash": 2066904112,
-            "Name": "Rising Star",
+            "Name": "Висхідна зірка",
             "Descriptions": {
                 "0": {
                     "Hash": 3177451441,
                     "Id": "388849",
                     "Spec": "Windwalker",
-                    "Text": "Rising Sun Kick damage increased by {1}% and critical strike damage increased by {2}%."
+                    "Text": "[Удар висхідного сонця] завдає на {1}% більше шкоди, а критична шкода зростає на {2}%."
                 }
             }
         },
         "175": {
             "Hash": 1846535493,
-            "Name": "Rising Sun Kick",
+            "Name": "Удар висхідного сонця",
             "Descriptions": {
                 "0": {
                     "Hash": 836831240,
                     "Id": "107428",
                     "Spec": "Windwalker",
-                    "Text": "Kick upwards, dealing {1} Physical damage, and reducing the effectiveness of healing on the target for {2} sec."
+                    "Text": "Жорстокий удар, який завдає {1} од. фізичної шкоди та знижує ефективність лікування цілі на {2} сек."
                 },
                 "1": {
                     "Hash": 2610936800,
                     "Id": "107428",
                     "Spec": "Mistweaver",
-                    "Text": "Kick upwards, dealing {1} Physical damage.\n\nApplies Renewing Mist for {2} seconds to an ally within {3} yds"
+                    "Text": "Жорстокий удар, який завдає {1} од. фізичної шкоди.\n\nЗастосовує [Відновлювальний туман] на союзника в радіусі {3} м на {2} сек."
                 },
                 "2": {
                     "Hash": 1117402162,
                     "Id": "107428",
                     "Spec": "Brewmaster",
-                    "Text": "Kick upwards, dealing {1} Physical damage."
+                    "Text": "Удар ногою, що завдає {1} од. фізичної шкоди."
                 }
             }
         },
         "176": {
             "Hash": 3531058191,
-            "Name": "Rodeo",
+            "Name": "Родео",
             "Descriptions": {
                 "0": {
                     "Hash": 4099174550,
                     "Id": "355917",
                     "Spec": "Brewmaster",
-                    "Text": "Every {1} sec while Clash is off cooldown, your next Clash can be reactivated immediately to wildly Clash an additional enemy. This effect can stack up to {2} times."
+                    "Text": "Кожні {1} сек, що ваше [Зіткнення] готове до застосування, ваше наступне [Зіткнення] може застосуватися негайно і вразить додатково ворога. Цей ефект накопичується до {2} разів."
                 }
             }
         },
         "177": {
             "Hash": 3883618640,
-            "Name": "Roll",
+            "Name": "Перекат",
             "Descriptions": {
                 "0": {
                     "Hash": 640043028,
                     "Id": "109132",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Roll a short distance."
+                    "Text": "Робить перекат на невелику відстань."
                 }
             }
         },
         "178": {
             "Hash": 666123584,
-            "Name": "Rushing Jade Wind",
+            "Name": "Шквальний нефритовий вітер",
             "Descriptions": {
                 "0": {
                     "Hash": 2998363054,
                     "Id": "116847",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. Deals reduced damage beyond {4} targets."
+                    "Text": "Ви викликаєте бурливий смерч навколо себе, який завдає {1} од. фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. Здійснює зменшену шкоду більше як {4} цілям."
                 }
             }
         },
         "179": {
             "Hash": 2083684303,
-            "Name": "Sal'salabim's Strength",
+            "Name": "Сила Сал'салабіма",
             "Descriptions": {
                 "0": {
                     "Hash": 3180937604,
                     "Id": "383697",
                     "Spec": "Brewmaster",
-                    "Text": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset."
+                    "Text": "Коли ви застосовуєте [Удар діжкою], [Вогняний подих] миттєво відновлюється."
                 }
             }
         },
         "180": {
             "Hash": 291946365,
-            "Name": "Save Them All",
+            "Name": "Врятувати їх усіх",
             "Descriptions": {
                 "0": {
                     "Hash": 3119901925,
                     "Id": "389579",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "When your healing spells heal an ally whose health is below {1}% maximum health, you gain an additional {2}% healing for the next {3} sec."
+                    "Text": "Коли ваші зцілюючі здібності відновлюють здоров'я союзника, рівень здоров'я якого нижче {1}%, ваше зцілення збільшується на {2}% протягом {3} сек."
                 }
             }
         },
         "181": {
             "Hash": 3543920177,
-            "Name": "Scalding Brew",
+            "Name": "Пекучий відвар",
             "Descriptions": {
                 "0": {
                     "Hash": 522692007,
                     "Id": "383698",
                     "Spec": "Brewmaster",
-                    "Text": "Keg Smash deals an additional {1}% damage to targets affected by Breath of Fire."
+                    "Text": "[Удар діжкою] додатково завдає {1}% шкоди цілям, які знаходяться під дією ефекту [Вогняний подих]."
                 }
             }
         },
         "182": {
             "Hash": 1760367193,
-            "Name": "Secret Infusion",
+            "Name": "Таємний настій",
             "Descriptions": {
                 "0": {
                     "Hash": 726723047,
                     "Id": "388491",
                     "Spec": "Mistweaver",
-                    "Text": "After using Thunder Focus Tea, your next spell gives {1}% of a stat for {2} sec:\n{ffffffff|Enveloping Mist}: Critical strike\n{ffffffff|Renewing Mist}: Haste\n{ffffffff|Vivify}: Mastery\n{ffffffff|Rising Sun Kick}: Versatility\n{ffffffff|Essence Font}: Haste"
+                    "Text": "Після застосування [Чай з громовим концентратом], ваша наступна здібність збільшить одну з ваших характеристик на {1}% протягом {2} сек:\n{ffffffff|Оповиваючий туман}: Критична шкода\n{ffffffff|Відновлювальний туман}: Швидкість\n{ffffffff|Оживлення}: Майстерність\n{ffffffff|Удар висхідного сонця}: Універсальність\n{ffffffff|Купіль есенції}: Швидкість"
                 }
             }
         },
         "183": {
             "Hash": 1971103279,
-            "Name": "Serenity",
+            "Name": "Самовладання",
             "Descriptions": {
                 "0": {
                     "Hash": 3648014131,
                     "Id": "152173",
                     "Spec": "Windwalker",
-                    "Text": "Enter an elevated state of mental and physical serenity for {1} sec. While in this state, you deal {2}% increased damage and healing, and all Chi consumers are free and cool down {3}% more quickly."
+                    "Text": "Ви входите у стан психічного та фізичного спокою на {1} сек. Ваша шкода і вихідне зцілення збільшуються на {2}% у цьому стані, а усі здібності, що витрачають енергію Чі тепер відновлюються на {3}% швидше і не споживають Чі."
                 }
             }
         },
         "184": {
             "Hash": 284654401,
-            "Name": "Shadowboxing Treads",
+            "Name": "Сандалі для бою з тінню",
             "Descriptions": {
                 "0": {
                     "Hash": 1996744103,
                     "Id": "392982",
                     "Spec": "Windwalker",
-                    "Text": "Blackout Kick damage increased by {1}% and strikes an additional {2} targets."
+                    "Text": "[Карколомний удар] завдає на {1}% більше шкоди та вражає {2} додаткові цілі."
                 },
                 "1": {
                     "Hash": 2227421121,
                     "Id": "387638",
                     "Spec": "Brewmaster",
-                    "Text": "Blackout Kick's damage increased by {1}% and it strikes an additional {2} targets."
+                    "Text": "[Карколомний удар] завдає на {1}% більше шкоди та вражає {2} додаткові цілі."
                 }
             }
         },
         "185": {
             "Hash": 2183596996,
-            "Name": "Shaohao's Lessons",
+            "Name": "Уроки Шаохао",
             "Descriptions": {
                 "0": {
                     "Hash": 1219450825,
                     "Id": "400089",
                     "Spec": "Mistweaver",
-                    "Text": "Each time you cast Sheilun's Gift, you learn one of Shaohao's Lessons for up to {1} sec, with the duration based on how many clouds of mist are consumed.\n\n{ffffffff|Lesson of Doubt}: Your spells and abilities deal up to {2}% more healing and damage to targets, based on their current health.\n\n{ffffffff|Lesson of Despair}: Your Critical Strike is increased by {3}% while above {4}% health.\n\n{ffffffff|Lesson of Fear}: Decreases your damage taken by {5}% and increases your Haste by {6}%.\n\n{ffffffff|Lesson of Anger}: {7}% of the damage or healing you deal is duplicated every {8} sec."
+                    "Text": "Кожен раз, коли ви застосовуєте [Дар Шейлун], ви отримуєте один з ефектів [Уроки Шаохао]. Тривалість ефекту - до {1} сек, залежно від кількості поглинутих хмар туману.\n{ffffffff|Урок сумніву}: Шкода і зцілення від ваших заклять та здібностей збільшуються на максимум на {2}%, залежно від поточного здоров'я цілі.\n{ffffffff|Урок відчаю}: Критична шкода збільшується на {3}%, коли рівень здоров'я нижчий за {4}%.\n{ffffffff|Урок страху}: Зменшує вхідну шкоду на {5}% і збільшує вашу швидкість на {6}%.\n{ffffffff|Урок гніву}: {7}% вашої шкоди або зцілення повторюється кожні {8} сек."
                 }
             }
         },
         "186": {
             "Hash": 1813370479,
-            "Name": "Sheilun's Gift",
+            "Name": "Дар Шейлун",
             "Descriptions": {
                 "0": {
                     "Hash": 856227294,
                     "Id": "399491",
                     "Spec": "Mistweaver",
-                    "Text": "Draws in all nearby clouds of mist, healing the friendly target and up to {1} nearby allies for {2} per cloud absorbed.\n\nA cloud of mist is generated every {3} sec while in combat."
+                    "Text": "Поглинає усі розташовані поряд туманні хмари, зцілюючи союзника і {1} цілі поряд на {2} од. здоров'я за кожну поглинуту хмару.\n\nХмара утворюється кожні {3} сек у бою."
                 }
             }
         },
         "187": {
             "Hash": 176273904,
-            "Name": "Shuffle",
+            "Name": "Уникнення",
             "Descriptions": {
                 "0": {
                     "Hash": 673921744,
                     "Id": "322120",
                     "Spec": "Brewmaster",
-                    "Text": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by {1}%.\n\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick."
+                    "Text": "Вчення Нюцзао дозволяє вам ухилятися під час бою, збільшуючи ефективність [Похитування] на {1}%.\n\nВи отримуєте ефект [Уникнення] при застосуванні [Удар діжкою], [Карколомний удар] і [Круговий удар журавля]."
                 }
             }
         },
         "188": {
             "Hash": 1977812793,
-            "Name": "Skyreach",
+            "Name": "Досягти небес",
             "Descriptions": {
                 "0": {
                     "Hash": 3238839307,
                     "Id": "392991",
                     "Spec": "Windwalker",
-                    "Text": "Tiger Palm now has a {1} yard range and dashes you to the target when used.\n\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} sec per target."
-                },
-                "1": {
-                    "Hash": 211136227,
-                    "Id": "392991",
-                    "Spec": "Windwalker",
-                    "Text": "Tiger Palm now has a {1} yard range and dashes you to the target when used.\r\n\r\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} min per target."
+                    "Text": "Радіус дії [Тигрова лапа] збільшується до {1} м, а при використанні швидко переносить вас до цілі.\n\n[Тигрова лапа] також надає ефект, який збільшує ймовірність критичної шкоди по цілі на {2}% протягом {3} сек. Ефект накладається лише раз на {4} сек на одну ціль."
                 }
             }
         },
         "189": {
             "Hash": 3136179091,
-            "Name": "Skytouch",
+            "Name": "Дотик до небес",
             "Descriptions": {
                 "0": {
                     "Hash": 1736727532,
                     "Id": "405044",
                     "Spec": "Windwalker",
-                    "Text": "Tiger Palm now has a {1} yard range.\n\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} sec per target."
-                },
-                "1": {
-                    "Hash": 3003991743,
-                    "Id": "405044",
-                    "Spec": "Windwalker",
-                    "Text": "Tiger Palm now has a {1} yard range.\r\n\r\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} min per target."
+                    "Text": "Радіус дії [Тигрова лапа] збільшується до {1} м.\n\n[Тигрова лапа] також надає ефект, який збільшує ймовірність критичної шкоди по цілі на {2}% протягом {3} сек. Ефект накладається лише раз на {4} сек на одну ціль."
                 }
             }
         },
         "190": {
             "Hash": 3960780120,
-            "Name": "Song of Chi-Ji",
+            "Name": "Пісня Чі-Джі",
             "Descriptions": {
                 "0": {
                     "Hash": 250364823,
                     "Id": "198898",
                     "Spec": "Mistweaver",
-                    "Text": "Conjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for {1} sec."
+                    "Text": "Створює хмару гіпнотичного туману, яка повільно рухається вперед. Вороги, яких торкнувся туман, заснуть і будуть дезорієнтовані на {1} сек.. "
                 }
             }
         },
         "191": {
             "Hash": 1597503897,
-            "Name": "Soothing Mist",
+            "Name": "Заспокійливий туман",
             "Descriptions": {
                 "0": {
                     "Hash": 2676602647,
                     "Id": "115175",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target."
+                    "Text": "Відновлює цілі {1} од. здоров'я протягом {2} сек. Під час підтримання цього ефект, ваші [Оповиваючий туман] і [Оживлення] можуть бути застосовані на ціль миттєво."
                 },
                 "1": {
                     "Hash": 3174019964,
                     "Id": "115175",
                     "Spec": "Mistweaver",
-                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\n\nEach heal has a chance to cause a Gust of Mists on the target."
+                    "Text": "Відновлює цілі {1} од. здоров'я протягом {2} сек. Під час підтримання цього ефект, ваші [Оповиваючий туман] і [Оживлення] можуть бути застосовані на ціль миттєво.\n\nКожне зцілення має шанс застосувати ефект [Туманний потік] на вашу ціль."
                 }
             }
         },
         "192": {
             "Hash": 612499249,
-            "Name": "Spear Hand Strike",
+            "Name": "Удар спису",
             "Descriptions": {
                 "0": {
                     "Hash": 1747978994,
                     "Id": "116705",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Jabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for {1} sec."
+                    "Text": "Ви робите удар у горло, що перериває застосування здібностей, і запобігає використанню здібностей з цієї школи на {1} сек."
                 }
             }
         },
         "193": {
             "Hash": 170112933,
-            "Name": "Special Delivery",
+            "Name": "Спец-доставка!",
             "Descriptions": {
                 "0": {
                     "Hash": 738687122,
                     "Id": "196730",
                     "Spec": "Brewmaster",
-                    "Text": "Drinking from your Brews has a {1}% chance to toss a keg high into the air that lands nearby after {2} sec, dealing {3} damage to all enemies within {4} yards and reducing their movement speed by {5}% for {6} sec."
+                    "Text": "Пиття ваших відварів має {1}% шанс підкинути вгору діжку, що впаде на землю неподалік через {2} сек, завдаючи {3} од. шкоди усім ворогам в радіусі {4} м і зменшуючи їх швидкість пересування на {5}% протягом {6} сек."
                 }
             }
         },
         "194": {
             "Hash": 93644259,
-            "Name": "Spinning Crane Kick",
+            "Name": "Круговий удар журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 1310999339,
                     "Id": "101546",
                     "Spec": "Windwalker",
-                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to all enemies within {3} yds. Deals reduced damage beyond {4} targets.\n\nSpinning Crane Kick's damage is increased by {5}% for each unique target you've struck in the last {6} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. Stacks up to {7} times."
+                    "Text": "Оберт, під час удару в повітрі, що завдає {1} од. фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. Здійснює зменшену шкоду більше як {4} цілям.\n\nШкода від [Круговий удар журавля] збільшується на {5}% за кожного окремого ворога, що був уражений [Тигрова лапа], [Карколомний удар] або [Удар висхідного сонця] за останні {6} сек. Накопичується до {7} разів."
                 },
                 "1": {
                     "Hash": 4103592572,
                     "Id": "101546",
                     "Spec": "Mistweaver",
-                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to all enemies within {3} yds. Deals reduced damage beyond {4} targets."
+                    "Text": "Оберт, під час удару в повітрі, що завдає {1} од. фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. Здійснює зменшену шкоду більше як {4} цілям."
                 },
                 "2": {
                     "Hash": 2317706654,
                     "Id": "322729",
                     "Spec": "Brewmaster",
-                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds. \n\nDealing damage with Spinning Crane Kick grants Shuffle for {4} sec, and your Healing Spheres travel towards you. "
+                    "Text": "Оберт, під час удару в повітрі, що завдає {1} од. фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. \n\nЗавдання шкоди через [Круговий удар журавля] дає вам ефект [Уникнення] на {4} сек, а ваші [Зцілююча сфера] рухаються до вас. "
                 }
             }
         },
         "195": {
             "Hash": 1304368794,
-            "Name": "Spirit of the Crane",
+            "Name": "Дух журавля",
             "Descriptions": {
                 "0": {
                     "Hash": 2897719653,
                     "Id": "210802",
                     "Spec": "Mistweaver",
-                    "Text": "Teachings of the Monastery causes each additional Blackout Kick to restore {1}% mana."
+                    "Text": "Завдяки [Вчення монастиря], кожен додатковий [Карколомний удар] відновить вам {1}% від максимального запасу мани."
                 }
             }
         },
         "196": {
             "Hash": 2983491198,
-            "Name": "Spirit of the Ox",
+            "Name": "Дух Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 44109193,
                     "Id": "400629",
                     "Spec": "Brewmaster",
-                    "Text": "Rising Sun Kick and Blackout Kick have a chance to summon a Healing Sphere.\n\n|T606546:24|t{ffffffff|Healing Sphere}:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
+                    "Text": "[Удар висхідного сонця] і [Карколомний удар] мають шанс створити [Зцілююча сфера].\n\nЗцілююча сфера:\n|T606546:24|t{ffffffff|Зцілююча сфера}:\nВикликає [Зцілююча сфера], яку бачите тільки ви. Рух крізь сферу зцілює вас на {1} од. здоров'я."
                 }
             }
         },
         "197": {
             "Hash": 3472454607,
-            "Name": "Spiritual Focus",
+            "Name": "Духовне зосередження",
             "Descriptions": {
                 "0": {
                     "Hash": 3950401786,
                     "Id": "280197",
                     "Spec": "Windwalker",
-                    "Text": "Every {1} Chi you spend reduces the cooldown of Storm, Earth, and Fire by {2} sec."
+                    "Text": "Коли ви витрачаєте {1} од. Чі, час відновлення [Буря, земля і вогонь] зменшується на {2} сек."
                 }
             }
         },
         "198": {
             "Hash": 3615005538,
-            "Name": "Stagger",
+            "Name": "Похитування",
             "Descriptions": {
                 "0": {
                     "Hash": 2456518148,
                     "Id": "115069",
                     "Spec": "Brewmaster",
-                    "Text": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness."
+                    "Text": "Ви ухиляєтесь від атак, відкладаючи частину фізичної шкоди на {1} сек, залежно від вашої спритності. Діє і на магічні атаки, але з {2}% ефективністю."
                 }
             }
         },
         "199": {
             "Hash": 2951368125,
-            "Name": "Staggering Strikes",
+            "Name": "Похитуючі удари",
             "Descriptions": {
                 "0": {
                     "Hash": 1059265773,
                     "Id": "387625",
                     "Spec": "Brewmaster",
-                    "Text": "When you Blackout Kick, your Stagger is reduced by {1}."
+                    "Text": "Коли ви застосовуєте [Карколомний удар], відкладена шкода від [Похитування] зменшується на {1} од."
                 }
             }
         },
         "200": {
             "Hash": 1589891751,
-            "Name": "Storm, Earth, and Fire",
+            "Name": "Буря, земля і вогонь",
             "Descriptions": {
                 "0": {
                     "Hash": 4053677989,
                     "Id": "137639",
                     "Spec": "Windwalker",
-                    "Text": "Split into {1} elemental spirits for {2} sec, each spirit dealing {3}% of normal damage and healing.\n\nYou directly control the Storm spirit, while Earth and Fire spirits mimic your attacks on nearby enemies.\n\nWhile active, casting Storm, Earth, and Fire again will cause the spirits to fixate on your target."
+                    "Text": "Ви розділюєтесь на {1} духи стихій на {2} сек. Кожен дух зцілює та завдає шкоду у розмірі {3}% від звичайного об'єму.\n\nВи керуєте духом Бурі, поки духи Землі та Вогню атакують усіх цілей поряд.\n\nПовторне застосування, під дією цього ефекту, змусить усіх духів сфокусуватися на вашій цілі."
                 }
             }
         },
         "201": {
             "Hash": 3357770263,
-            "Name": "Stormstout's Last Keg",
+            "Name": "Остання діжка Буремного Портеру",
             "Descriptions": {
                 "0": {
                     "Hash": 3205019099,
                     "Id": "383707",
                     "Spec": "Brewmaster",
-                    "Text": "Keg Smash deals {1}% additional damage, and has {2} additional charge."
+                    "Text": "[Удар діжкою] додатково завдає {1}% шкоди та має {2} додатковий заряд."
                 }
             }
         },
         "202": {
             "Hash": 2315583895,
-            "Name": "Strength of Spirit",
+            "Name": "Сила духу",
             "Descriptions": {
                 "0": {
                     "Hash": 1603082621,
                     "Id": "387276",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Expel Harm's healing is increased by up to {1}%, based on your missing health."
+                    "Text": "Зцілення від [Усунення шкоди] збільшується на {1}%, залежно від вашої нестачі здоров'я."
                 }
             }
         },
         "203": {
             "Hash": 3231077305,
-            "Name": "Strike of the Windlord",
+            "Name": "Удар Повелителя вітрів",
             "Descriptions": {
                 "0": {
                     "Hash": 4179719900,
                     "Id": "392983",
                     "Spec": "Windwalker",
-                    "Text": "Strike with both fists at all enemies in front of you, dealing {1} damage and reducing movement speed by {2}% for {3} sec."
+                    "Text": "Удар двома кулаками усіх ворогів перед вами, який завдає {1} од. шкоди та зменшує швидкість пересування на {2} протягом {3} сек."
                 }
             }
         },
         "204": {
             "Hash": 3248153824,
-            "Name": "Summon Black Ox Statue",
+            "Name": "Виклик статуї Чорного Бика",
             "Descriptions": {
                 "0": {
                     "Hash": 3018880685,
                     "Id": "115315",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Summons a Black Ox Statue at the target location for {1} min, pulsing threat to all enemies within {2} yards.\n\nYou may cast Provoke on the statue to taunt all enemies near the statue."
+                    "Text": "Встановлює статую Чорного Бика в обраному місці на {1} хв, створюючи загрозу для усіх ворогів в радіусі {2} м.\n\nВи можете застосувати [Провокація] на статую, щоб спровокувати усіх ворогів біля неї."
                 }
             }
         },
         "205": {
             "Hash": 4195199758,
-            "Name": "Summon Jade Serpent Statue",
+            "Name": "Виклик статуї Нефритової Змії",
             "Descriptions": {
                 "0": {
                     "Hash": 818511396,
                     "Id": "115313",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Summons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for {1} over {2} sec."
+                    "Text": "Встановлює статую Нефритової змії в обраному місці. Коли ви підтримуєте [Заспокійливий туман] на цілі, статуя теж починає підтримувати цей ефект на ній, зцілюючи на {1} од. здоров'я протягом {2} сек."
                 }
             }
         },
         "206": {
             "Hash": 105903989,
-            "Name": "Summon White Tiger Statue",
+            "Name": "Виклик статуї Білого Тигра",
             "Descriptions": {
                 "0": {
                     "Hash": 1624423269,
                     "Id": "388686",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Summons a White Tiger Statue at the target location for {1} sec, pulsing {2} damage to all enemies every {3} sec for {4} sec."
+                    "Text": "Встановлює статую Білого Тигра в обраному місці на {1} сек, що завдає {2} од. шкоди усім ворогам кожні {3} сек протягом {4} сек."
                 }
             }
         },
         "207": {
             "Hash": 2162679004,
-            "Name": "Tea of Plenty",
+            "Name": "Розмаїтий чай",
             "Descriptions": {
                 "0": {
                     "Hash": 3928347181,
                     "Id": "388517",
                     "Spec": "Mistweaver",
-                    "Text": "Thunder Focus Tea also empowers {1} additional Renewing Mist, Essence Font, or Rising Sun Kick at random."
+                    "Text": "[Чай з громовим концентратом] також випадково підсилює {1} додаткові здібності [Відновлювальний туман], [Купіль есенції] або [Удар висхідного сонця]."
                 }
             }
         },
         "208": {
             "Hash": 1600640355,
-            "Name": "Tea of Serenity",
+            "Name": "Заспокійливий чай",
             "Descriptions": {
                 "0": {
                     "Hash": 477184336,
                     "Id": "393460",
                     "Spec": "Mistweaver",
-                    "Text": "Thunder Focus Tea also empowers {1} additional Renewing Mist, Enveloping Mist, or Vivify at random."
+                    "Text": "[Чай з громовим концентратом] також випадково підсилює {1} додаткові здібності [Відновлювальний туман], [Оповиваючий туман] або [Оживлення]."
                 }
             }
         },
         "209": {
             "Hash": 3568561580,
-            "Name": "Teachings of the Monastery",
+            "Name": "Вчення монастиря",
             "Descriptions": {
                 "0": {
                     "Hash": 4277603321,
                     "Id": "116645",
                     "Spec": "Mistweaver, Windwalker",
-                    "Text": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\n\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.\n\n"
+                    "Text": "[Тигрова лапа] змушує ваш наступний [Карколомний удар] вразити ціль ще раз, накопичуючись до {1} разів.\n\n[Карколомний удар] має {2}% шанс відновити [Удар висхідного сонця].\n\n"
                 }
             }
         },
         "210": {
             "Hash": 966012304,
-            "Name": "Tear of Morning",
+            "Name": "Ранкова сльоза",
             "Descriptions": {
                 "0": {
                     "Hash": 346809849,
                     "Id": "387991",
                     "Spec": "Mistweaver",
-                    "Text": "Casting Vivify or Enveloping Mist on a target with Renewing Mist has a {1}% chance to spread the Renewing Mist to another target.\n\nYour Vivify healing through Renewing Mist is increased by {2}% and your Enveloping Mist also heals allies with Renewing Mist for {3}% of its healing."
+                    "Text": "Застосування [Оживлення] або [Оповиваючий туман] на ціль з ефектом [Відновлювальний туман] має {1}% шанс розповсюдити [Відновлювальний туман] на іншу ціль. \n\nВаше зцілення від [Оживлення] через [Відновлювальний туман] збільшується на {2}%, а ваш [Оповиваючий туман] також зцілює союзників з ефектом [Відновлювальний туман] на {3}% його зцілення."
                 }
             }
         },
         "211": {
             "Hash": 3003412138,
-            "Name": "Thunder Focus Tea",
+            "Name": "Чай з громовим концентратом",
             "Descriptions": {
                 "0": {
                     "Hash": 1150506415,
                     "Id": "116680",
                     "Spec": "Mistweaver",
-                    "Text": "Receive a jolt of energy, empowering your next {1} spells cast:\n\n{ffffffff|Enveloping Mist}: Immediately heals for {2} and is instant cast.\n{ffffffff|Renewing Mist}: Duration increased by {3} sec.\n{ffffffff|Vivify}: No mana cost.\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {4} sec.\n{ffffffff|Essence Font}: Channels {5}% faster. "
+                    "Text": "Ви отримуєте прилив енергії, заряджаючи {1} ваші наступні здібності: \n\n{ffffffff|Оповиваючий туман}: Одразу відновлює {2} од. здоров'я і застосовується миттєво. \n{ffffffff|Відновлювальний туман}: Тривалість збільшена на {3} сек.\n{ffffffff|Оживлення}: Не витрачає ману.\n{ffffffff|Удар висхідного сонця}: Час відновлення зменшено на {4} сек.\n{ffffffff|Купіль есенції}: Підтримання займає на {5} менше часу. "
                 }
             }
         },
         "212": {
             "Hash": 4162082693,
-            "Name": "Thunderfist",
+            "Name": "Громовий Кулак",
             "Descriptions": {
                 "0": {
                     "Hash": 3555395109,
                     "Id": "392985",
                     "Spec": "Windwalker",
-                    "Text": "Strike of the Windlord grants you a stack of Thunderfist for each enemy struck. Thunderfist discharges upon melee strikes, dealing {1} Nature damage."
+                    "Text": "[Удар Повелителя вітрів] накопичує ефект [Громовий Кулак] за кожного ураженого ворога. Ефект [Громовий Кулак] споживається при атаках ближнього бою, завдаючи {1} од. шкоди від сил природи."
                 }
             }
         },
         "213": {
             "Hash": 2930655377,
-            "Name": "Thunderous Focus Tea",
+            "Name": "Громовий чай із заправкою",
             "Descriptions": {
                 "0": {
                     "Hash": 1142021776,
                     "Id": "353936",
                     "Spec": "Mistweaver",
-                    "Text": "Thunder Focus Tea can now additionally cause Crackling Jade Lightning's knockback immediately, or cause Essence Font to increase your movement speed by {1}% and provide immunity to movement impairing effects."
-                },
-                "1": {
-                    "Hash": 1184200563,
-                    "Id": "353936",
-                    "Spec": "Mistweaver",
-                    "Text": "Thunder Focus Tea can now additionally cause Crackling Jade Lightning's knockback immediately or cause Roll and Chi Torpedo to refund a charge on use and heal you for {1}."
+                    "Text": "[Чай з громовим концентратом] тепер може негайно викликати ефект відкидання від [Тріскуча нефритова блискавка], або підсилити вашу наступну [Купіль есенції], що вона збільшить швидкість пересування на {1}% і надасть імунітет до ефектів обмеження руху."
                 }
             }
         },
         "214": {
             "Hash": 3963081004,
-            "Name": "Tiger Palm",
+            "Name": "Тигрова лапа",
             "Descriptions": {
                 "0": {
                     "Hash": 4088993260,
                     "Id": "100780",
                     "Spec": "Mistweaver",
-                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage."
+                    "Text": "Ви робите удар лапою, завдаючи {1} од. фізичної шкоди."
                 },
                 "1": {
                     "Hash": 1715410535,
                     "Id": "100780",
                     "Spec": "Brewmaster",
-                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\n\nReduces the remaining cooldown on your Brews by {2} sec."
+                    "Text": "Ви робите удар лапою, завдаючи {1} од. фізичної шкоди.\n\nЗменшує відновлення час ваших відварів на {2} сек."
                 },
                 "2": {
                     "Hash": 2439962842,
                     "Id": "100780",
                     "Spec": "Windwalker",
-                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\n\nTiger Palm has an {2}% chance to make your next Blackout Kick cost no Chi.\n\n|cFFFFFFFFGenerates {3} Chi."
+                    "Text": "Ви робите удар лапою, завдаючи {1} од. фізичної шкоди.\n\n[Тигрова лапа] має {2}% шанс, що ваш наступний [Карколомний удар] не витратить енергію Чі.\n|cFFFFFFFFГенерує {3} од. Чі."
                 }
             }
         },
         "215": {
             "Hash": 2018797776,
-            "Name": "Tiger Tail Sweep",
+            "Name": "Змах тигрового хвоста",
             "Descriptions": {
                 "0": {
                     "Hash": 778630201,
                     "Id": "264348",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Increases the range of Leg Sweep by {1} yds and reduces its cooldown by {2} sec."
+                    "Text": "Збільшує дальність [Круговий удар ногою] на {1} м і зменшує його час відновлення на {2} сек."
                 }
             }
         },
         "216": {
             "Hash": 2611723036,
-            "Name": "Tiger's Lust",
+            "Name": "Жага тигра",
             "Descriptions": {
                 "0": {
                     "Hash": 3065490793,
                     "Id": "116841",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Increases a friendly target's movement speed by {1}% for {2} sec and removes all roots and snares."
+                    "Text": "Збільшує швидкість пересування дружньої цілі на {1}% протягом {2} сек і знімає усі ефекти знерухомлення і сповільнення."
                 }
             }
         },
         "217": {
             "Hash": 1768582408,
-            "Name": "Tigereye Brew",
+            "Name": "Відвар сили тигра",
             "Descriptions": {
                 "0": {
                     "Hash": 1692085937,
                     "Id": "247483",
                     "Spec": "Windwalker",
-                    "Text": "Consumes up to {1} stacks of Tigereye Brew to empower your Physical abilities with wind for {2} sec per stack consumed. Damage of your strikes are reduced, but bypass armor.\n\nFor each {3} Chi you consume, you gain a stack of Tigereye Brew."
+                    "Text": "Споживає до {1} накопичень [Відвар сили тигра], щоб підсилити ваші здібності, що завдають фізичну шкоду, на {2} сек за кожне спожите накопичення. Ваші удари завдають менше шкоди, але ігнорують броню. \n\nЗа кожні {3} спожиті од. Чі, ви отримуєте ефект [Відвар сили тигра]."
                 }
             }
         },
         "218": {
             "Hash": 2419444117,
-            "Name": "Touch of Death",
+            "Name": "Дотик смерті",
             "Descriptions": {
                 "0": {
                     "Hash": 1103113678,
                     "Id": "322109",
                     "Spec": "Windwalker",
-                    "Text": "You exploit the enemy target's weakest point, instantly killing creatures if they have less health than you. Deals damage equal to {1}% of your maximum health against players and stronger creatures under {2}% health.\n\nSpawns {3} Chi Spheres, granting {4} Chi when you walk through them."
+                    "Text": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. Завдає шкоду, в об'ємі до {1}% вашого максимального здоров'я, гравцям і сильнішим істотам з рівнем здоров'я нижче {2}%.\n\nСтворює {3} сфери Чі, що дають {4} од. Чі, коли ви проходите крізь них."
                 },
                 "1": {
                     "Hash": 1706360794,
                     "Id": "322109",
                     "Spec": "Mistweaver",
-                    "Text": "You exploit the enemy target's weakest point, instantly killing them.\n\nOnly usable on creatures that have less health than you."
+                    "Text": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот.\n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш."
                 },
                 "2": {
                     "Hash": 2824310530,
                     "Id": "322109",
                     "Spec": "Brewmaster",
-                    "Text": "You exploit the enemy target's weakest point, instantly killing them.\n\nOnly usable on creatures that have less health than you.\n\nReduces delayed Stagger damage by {1}% of damage dealt."
+                    "Text": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот.\n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш.\n\nЗменшує відкладену шкоду від [Похитування] на {1}% від завданої шкоди."
                 }
             }
         },
         "219": {
             "Hash": 195064946,
-            "Name": "Touch of Karma",
+            "Name": "Помста карми",
             "Descriptions": {
                 "0": {
                     "Hash": 3944452918,
                     "Id": "122470",
                     "Spec": "Windwalker",
-                    "Text": "Absorbs all damage taken for {1} sec, up to {2}% of your maximum health, and redirects {3}% of that amount to the enemy target as Nature damage over {4} sec."
+                    "Text": "Поглинає усю шкоду протягом {1} сек, максимум до {2}% від вашого максимального здоров'я, і перенаправляє {3}% цього об'єму ворожій цілі шкодою від сил природи протягом {4} сек."
                 }
             }
         },
         "220": {
             "Hash": 1360736888,
-            "Name": "Touch of the Tiger",
+            "Name": "Дотик тигра",
             "Descriptions": {
                 "0": {
                     "Hash": 831353914,
                     "Id": "388856",
                     "Spec": "Windwalker",
-                    "Text": "Tiger Palm damage increased by {1}%."
+                    "Text": "[Тигрова лапа] завдає на {1}% більше шкоди."
                 }
             }
         },
         "221": {
             "Hash": 1950095488,
-            "Name": "Training of Niuzao",
+            "Name": "Вчення Нюцзао",
             "Descriptions": {
                 "0": {
                     "Hash": 4141251052,
                     "Id": "383714",
                     "Spec": "Brewmaster",
-                    "Text": "Gain up to {1}% Mastery based on your current level of Stagger."
+                    "Text": "Ви отримуєте до {1}% майстерності, залежно від вашого поточного рівня [Похитування] "
                 }
             }
         },
         "222": {
             "Hash": 403264583,
-            "Name": "Tranquil Spirit",
+            "Name": "Безтурботний дух",
             "Descriptions": {
                 "0": {
                     "Hash": 743263495,
                     "Id": "393357",
                     "Spec": "Brewmaster",
-                    "Text": "When a Gift of the Ox Healing Sphere is consumed or you cast Expel Harm, your current Stagger amount is lowered by {1}%."
-                },
-                "1": {
-                    "Hash": 1421623408,
-                    "Id": "393357",
-                    "Spec": "Brewmaster",
-                    "Text": "When you consume a Healing Sphere or cast Expel Harm, your current Stagger amount is lowered by {1}%."
+                    "Text": "Коли ви поглинаєте [Зцілююча сфера] від [Дар Бика] або застосовуєте [Усунення шкоди], ваш об'єм відкладеної шкоди від [Похитування] зменшується на {1}%."
                 }
             }
         },
         "223": {
             "Hash": 1518268304,
-            "Name": "Transcendence",
+            "Name": "Трансцендентність",
             "Descriptions": {
                 "0": {
                     "Hash": 3563254831,
                     "Id": "101643",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Split your body and spirit, leaving your spirit behind for {1} min. Use Transcendence: Transfer to swap locations with your spirit."
+                    "Text": "Ваш відділяється від тіла на {1} сек. \nЗастосування [Трансцендентність]: Ви міняєтесь місцями з вашим духом."
                 }
             }
         },
         "224": {
             "Hash": 2205860722,
-            "Name": "Transcendence: Transfer",
+            "Name": "Трансцендентність: Перенесення",
             "Descriptions": {
                 "0": {
                     "Hash": 617802144,
                     "Id": "119996",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Your body and spirit swap locations."
+                    "Text": "Ваш дух і тіло міняються місцями."
                 }
             }
         },
         "225": {
             "Hash": 59760301,
-            "Name": "Transfer the Power",
+            "Name": "Розподіл сил",
             "Descriptions": {
                 "0": {
                     "Hash": 2499245598,
                     "Id": "195300",
                     "Spec": "Windwalker",
-                    "Text": "Blackout Kick and Rising Sun Kick increase damage dealt by your next Fists of Fury by {1}%, stacking up to {2} times."
+                    "Text": "[Карколомний удар] і [Удар висхідного сонця] збільшують шкоду від ваших наступних [Кулаки люті] на {1}%. Накопичується до {2} разів."
                 }
             }
         },
         "226": {
             "Hash": 1367924823,
-            "Name": "Turbo Fists",
+            "Name": "Турбокулаки",
             "Descriptions": {
                 "0": {
                     "Hash": 91608793,
                     "Id": "287681",
                     "Spec": "Windwalker",
-                    "Text": "Fists of Fury now deals full damage to all targets hit, reduces all targets movement speed by {1}%, and you Parry all attacks while channelling Fists of Fury."
-                },
-                "1": {
-                    "Hash": 2081545539,
-                    "Id": "287681",
-                    "Spec": "Windwalker",
-                    "Text": "Fists of Fury now reduces all targets movement speed by {1}%, and you Parry all attacks while channelling Fists of Fury."
+                    "Text": "[Кулаки люті] тепер завдають повну шкоду усім ураженим цілям, зменшують їх швидкість пересування на {1}%, а ви відбиваєте усі атаки під час підтримання [Кулаки люті]."
                 }
             }
         },
         "227": {
             "Hash": 3534474007,
-            "Name": "Unison",
+            "Name": "Унісон",
             "Descriptions": {
                 "0": {
                     "Hash": 3611179198,
                     "Id": "388477",
                     "Spec": "Mistweaver",
-                    "Text": "Soothing Mist heals a second injured ally within {1} yds for {2}% of the amount healed."
+                    "Text": "[Заспокійливий туман] зцілює другу поранену ціль в радіусі {1} м на {2}% від відновленого здоров'я."
                 }
             }
         },
         "228": {
             "Hash": 2548724312,
-            "Name": "Uplifted Spirits",
+            "Name": "Піднесені духи",
             "Descriptions": {
                 "0": {
                     "Hash": 3240155032,
                     "Id": "388551",
                     "Spec": "Mistweaver",
-                    "Text": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Revival by {1} sec, and Revival heals targets for {2}% of Revival's heal over {3} sec."
+                    "Text": "[Удар висхідного сонця] і критичні ефекти від [Оживлення] зменшують час відновлення [Відновлення життєвих сил] на {1} сек, a [Відновлення життєвих сил] зцілює союзників на {2}% від його загального зцілення протягом {3} сек."
                 }
             }
         },
         "229": {
             "Hash": 2621205298,
-            "Name": "Upwelling",
+            "Name": "Висхідний потік",
             "Descriptions": {
                 "0": {
                     "Hash": 177026939,
                     "Id": "274963",
                     "Spec": "Mistweaver",
-                    "Text": "For every {1} sec Essence Font spends off cooldown, your next Essence Font may be channeled for {2} additional second.\n\nThe duration of Essence Font's heal over time is increased by {3} sec."
+                    "Text": "За кожні {1} сек, коли [Купіль есенції] готова до застосування, наступна [Купіль есенції] буде тривати на {2} сек довше.\n\nТривалість періодичного ефекту зцілення від [Купіль есенції] збільшується на {3} сек."
                 }
             }
         },
         "230": {
             "Hash": 2861472083,
-            "Name": "Veil of Pride",
+            "Name": "Вуаль гордості",
             "Descriptions": {
                 "0": {
                     "Hash": 1927103120,
                     "Id": "400053",
                     "Spec": "Mistweaver",
-                    "Text": "Increases Sheilun's Gift cloud of mist generation to every {1} sec. "
+                    "Text": "[Дар Шейлун] тепер створює хмару туману кожні {1} сек. "
                 }
             }
         },
         "231": {
             "Hash": 2305196404,
-            "Name": "Vigorous Expulsion",
+            "Name": "Вивільнення енергії",
             "Descriptions": {
                 "0": {
                     "Hash": 3639452426,
                     "Id": "392900",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Expel Harm's healing increased by {1}% and critical strike chance increased by {2}%. "
+                    "Text": "Зцілення від [Усунення шкоди] збільшується на {1}%, а ймовірність критичної шкоди збільшується на {2}%."
                 }
             }
         },
         "232": {
             "Hash": 857472412,
-            "Name": "Vivacious Vivification",
+            "Name": "Бадьоре оживлення",
             "Descriptions": {
                 "0": {
                     "Hash": 1795927767,
                     "Id": "388812",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Every {1} sec, your next Vivify becomes instant."
+                    "Text": "Кожні {1} сек, ваше наступне [Оживлення] стає постійним."
                 }
             }
         },
         "233": {
             "Hash": 1043156280,
-            "Name": "Vivify",
+            "Name": "Оживлення",
             "Descriptions": {
                 "0": {
                     "Hash": 91494204,
                     "Id": "116670",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Causes a surge of invigorating mists, healing the target for {1}."
+                    "Text": "Викликає прилив живильного туману, що відновлює {1} од. здоров'я цілі."
                 },
                 "1": {
                     "Hash": 233184943,
                     "Id": "116670",
                     "Spec": "Mistweaver",
-                    "Text": "Causes a surge of invigorating mists, healing the target for {1} and all allies with your Renewing Mist active for {2}."
+                    "Text": "Викликає прилив живильного туману, що відновлює {1} од. здоров'я цілі, а союзникам під дією ефекту [Відновлювальний туман] {2} од. здоров'я."
                 }
             }
         },
         "234": {
             "Hash": 401241097,
-            "Name": "Walk with the Ox",
+            "Name": "Прогулянка з Биком",
             "Descriptions": {
                 "0": {
                     "Hash": 1053536096,
                     "Id": "387219",
                     "Spec": "Brewmaster",
-                    "Text": "Abilities that grant Shuffle reduce the cooldown on Invoke Niuzao, the Black Ox by {1} sec, and Niuzao's Stomp deals an additional {2}% damage. "
+                    "Text": "Здібності, що дають [Уникнення], зменшують час відновлення [Виклик Нюцзао, Чорного Бика] на {1} сек, а тупіт Нюцзао додатково завдає {2}% шкоди. "
                 }
             }
         },
         "235": {
             "Hash": 3129253917,
-            "Name": "Way of the Fae",
+            "Name": "Шлях Фей",
             "Descriptions": {
                 "0": {
                     "Hash": 2241927720,
                     "Id": "392994",
                     "Spec": "Windwalker",
-                    "Text": "Increases the initial damage of Faeline Stomp by {1}% per target hit by that damage, up to a maximum of {2}% additional damage."
+                    "Text": "Збільшує початкову шкоду від [Поступ магії Фей] на {1}% за кожну уражену ціль, максимум до {2}% додаткової шкоди."
                 }
             }
         },
         "236": {
             "Hash": 1930860081,
-            "Name": "Weapons of Order",
+            "Name": "Зброя Ордену",
             "Descriptions": {
                 "0": {
                     "Hash": 2308833383,
                     "Id": "387184",
                     "Spec": "Brewmaster",
-                    "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash take {3}% increased damage from you for {4} sec, stacking up to {5} times."
+                    "Text": "Протягом наступних {1} сек ваша Майстерність додатково зростає на {2}%. [Удар діжкою] відновлюється миттєво, а вороги уражені [Удар діжкою] отримують на {3}% шкоди від вас протягом {4} сек. Накопичується до {5} разів."
                 }
             }
         },
         "237": {
             "Hash": 1557849056,
-            "Name": "Whirling Dragon Punch",
+            "Name": "Вихровий удар дракона",
             "Descriptions": {
                 "0": {
                     "Hash": 397194848,
                     "Id": "152175",
                     "Spec": "Windwalker",
-                    "Text": "Performs a devastating whirling upward strike, dealing {1} damage to all nearby enemies. Only usable while both Fists of Fury and Rising Sun Kick are on cooldown."
+                    "Text": "Б'є згори нищівним вихровим ударом, що завдає {1} од. шкоди усім ворогам поруч. Може застосовуватись лише коли [Кулаки люті] і [Удар висхідного сонця] відновлюються."
                 }
             }
         },
         "238": {
             "Hash": 1072706123,
-            "Name": "Widening Whirl",
+            "Name": "Розширення вихору",
             "Descriptions": {
                 "0": {
                     "Hash": 3127546543,
                     "Id": "388846",
                     "Spec": "Windwalker",
-                    "Text": "Spinning Crane Kick radius increased by {1}%. "
+                    "Text": "Дальність [Круговий удар журавля] збільшується на {1}%. "
                 }
             }
         },
         "239": {
             "Hash": 4293911883,
-            "Name": "Wind Waker",
+            "Name": "Вітрохід",
             "Descriptions": {
                 "0": {
                     "Hash": 3623004172,
                     "Id": "357633",
                     "Spec": "Brewmaster, Windwalker",
-                    "Text": "Your movement enhancing abilities increases Windwalking on allies by {1}%, stacking {2} additional times. Movement impairing effects are removed at {3} stacks."
+                    "Text": "Ваші здібності, що впливають на швидкість пересування, підсилюють ефект [Зі швидкістю вітру] на ваших союзниках на {1}%, що накопичується додатково {2} рази. Знімає усі негативні ефекти пересування по накопиченню {3} ефектів."
                 }
             }
         },
         "240": {
             "Hash": 3047075590,
-            "Name": "Windwalking",
+            "Name": "Зі швидкістю вітру",
             "Descriptions": {
                 "0": {
                     "Hash": 2286626563,
                     "Id": "157411",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You and your allies within {1} yards have {2}% increased movement speed."
+                    "Text": "Швидкість пересування вас і ваших союзників в радіусі {1} м збільшується на {2}%."
                 }
             }
         },
         "241": {
             "Hash": 694267249,
-            "Name": "Xuen's Battlegear",
+            "Name": "Бойова форма Сюеня",
             "Descriptions": {
                 "0": {
                     "Hash": 669217583,
                     "Id": "392993",
                     "Spec": "Windwalker",
-                    "Text": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by {1} sec.\n\nWhen Fists of Fury ends, the critical strike chance of Rising Sun Kick is increased by {2}% for {3} sec."
+                    "Text": "Критична шкода від [Удар висхідного сонця] зменшує час відновлення ваших [Кулаки люті] на {1} сек.\n\nКоли ефект [Кулаки люті] закінчується, ймовірність критичної шкоди від [Удар висхідного сонця] збільшується на {2}% протягом {3} сек."
                 }
             }
         },
         "242": {
             "Hash": 1529658234,
-            "Name": "Xuen's Bond",
+            "Name": "Зв'язок з Суенем",
             "Descriptions": {
                 "0": {
                     "Hash": 1527857125,
                     "Id": "392986",
                     "Spec": "Windwalker",
-                    "Text": "Abilities that activate Combo Strikes reduce the cooldown of Invoke Xuen, the White Tiger by {1} sec, and Xuen's damage is increased by {2}%."
+                    "Text": "Здібності, які активують ефект [Комбінації ударів] зменшують час відновлення [Пробудження Сюеня, Білого Тигра] на {1} сек. Накопичується до {2} разів."
                 }
             }
         },
         "243": {
             "Hash": 2329054652,
-            "Name": "Yu'lon's Whisper",
+            "Name": "Шепіт Ю'лона",
             "Descriptions": {
                 "0": {
                     "Hash": 1450771849,
                     "Id": "388038",
                     "Spec": "Mistweaver",
-                    "Text": "Activating Thunder Focus Tea causes you to exhale the breath of Yu'lon, healing up to {1} allies within {2} yards for {3} over {4} sec."
+                    "Text": "Застосування [Чай з громовим концентратом] викликає у вас подих Ю'лона, який зцілює максимум до {1} цілей в радіусі {2} м на {3} од. здоров'я протягом {4} сек."
                 }
             }
         },
         "244": {
             "Hash": 1000264802,
-            "Name": "Zen Flight",
+            "Name": "Політ Дзен",
             "Descriptions": {
                 "0": {
                     "Hash": 272933352,
                     "Id": "125883",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "You fly through the air at a quick speed on a meditative cloud."
+                    "Text": "Ви летите в повітрі з великою швидкістю на хмарі для медитацій."
                 }
             }
         },
         "245": {
             "Hash": 361000935,
-            "Name": "Zen Focus Tea",
+            "Name": "Чай Дзен-зосередження",
             "Descriptions": {
                 "0": {
                     "Hash": 2079489707,
                     "Id": "209584",
                     "Spec": "Mistweaver",
-                    "Text": "Provides immunity to Silence and Interrupt effects for {1} sec."
+                    "Text": "Надає імунітет до ефектів знемовлення і переривання на {1} сек."
                 }
             }
         },
         "246": {
             "Hash": 447749963,
-            "Name": "Zen Meditation",
+            "Name": "Дзен-медитація",
             "Descriptions": {
                 "0": {
                     "Hash": 1456429661,
                     "Id": "115176",
                     "Spec": "Brewmaster",
-                    "Text": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action will cancel this effect."
+                    "Text": "Зменшує усю отриману шкоду на {1}% протягом {2} сек. При ураженні атакою ближнього бою або виконанні іншої дії цей ефект знімається."
                 }
             }
         },
         "247": {
             "Hash": 2227161629,
-            "Name": "Zen Pilgrimage",
+            "Name": "Дзен-паломництво",
             "Descriptions": {
                 "0": {
                     "Hash": 949482411,
                     "Id": "126892",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
-                    "Text": "Your spirit travels to your home temple, leaving your body behind. \n\nUse Zen Pilgrimage again to return back to near your departure point."
+                    "Text": "Ваш дух переноситься у рідний храм, лишаючи тіло.\n\nЗастосуйте повторно, щоб повернутися до початкового місця."
                 }
             }
         },
         "248": {
             "Hash": 4116066065,
-            "Name": "Zen Pulse",
+            "Name": "Імпульс Дзен",
             "Descriptions": {
                 "0": {
                     "Hash": 3570950773,
                     "Id": "124081",
                     "Spec": "Mistweaver",
-                    "Text": "Trigger a Zen Pulse around an ally.  Deals {1} damage to all enemies within {2} yds of the target. The ally is healed for {3} per enemy damaged."
-                }
-            }
-        },
-        "249": {
-            "Hash": 3481281411,
-            "Name": "Fae Accord",
-            "Descriptions": {
-                "0": {
-                    "Hash": 977680970,
-                    "Id": "406888",
-                    "Spec": "Mistweaver",
-                    "Text": "Faeline Stomp's cooldown is reduced by {1} sec.\r\n\r\nEnemies struck by Faeline Stomp are snared by {2}% for {3} sec."
-                }
-            }
-        },
-        "250": {
-            "Hash": 2755108870,
-            "Name": "Zen Spheres",
-            "Descriptions": {
-                "0": {
-                    "Hash": 38438365,
-                    "Id": "410777",
-                    "Spec": "Mistweaver",
-                    "Text": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Increases your healing done to the target by {1}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Target deals {2}% less damage to you, and takes {3}% increased damage from all sources."
-                }
-            }
-        },
-        "251": {
-            "Hash": 1606543164,
-            "Name": "Stormspirit Strikes",
-            "Descriptions": {
-                "0": {
-                    "Hash": 486976043,
-                    "Id": "411098",
-                    "Spec": "Windwalker",
-                    "Text": "Striking more than one enemy with Fists of Fury summons a Storm Spirit to focus your secondary target for {1} sec, which will mimic any of your attacks that do not also strike the target for {2}% of normal damage."
+                    "Text": "Створює [Імпульс Дзен] навколо союзника, який завдає {1} од. шкоди усім ворогам в радіусі {2} м від цілі та зцілює союзника на {3} од. здоров'я за кожну уражену ціль."
                 }
             }
         }
