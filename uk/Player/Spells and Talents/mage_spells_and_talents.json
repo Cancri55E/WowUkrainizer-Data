@@ -3,2593 +3,2707 @@
     "Spells": {
         "0": {
             "Hash": 2467525704,
-            "Name": "Накопичувальний захист",
+            "Name": "Accumulative Shielding",
             "Descriptions": {
                 "0": {
                     "Hash": 1403462674,
                     "Id": "382800",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Доки діє щит, ваші бар'єри відновлюється на {1}% швидше."
+                    "Text": "Your barrier's cooldown recharges {1}% faster while the shield persists."
                 }
             }
         },
         "1": {
             "Hash": 2602621285,
-            "Name": "Гнів Алекстрази",
+            "Name": "Alexstrasza's Fury",
             "Descriptions": {
                 "0": {
                     "Hash": 2622614458,
                     "Id": "235870",
                     "Spec": "Fire",
-                    "Text": "[Полум'я Фенікса] і [Дихання Дракона] завжди завдають критичну шкоду, а [Дихання Дракона] сприяє [Спалах успіху]."
+                    "Text": "Phoenix Flames and Dragon's Breath always critically strike and Dragon's Breath contributes to Hot Streak."
                 }
             }
         },
         "2": {
             "Hash": 2318755339,
-            "Name": "Маніпуляція часом",
+            "Name": "Alter Time",
             "Descriptions": {
                 "0": {
                     "Hash": 1490552836,
                     "Id": "342245",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Змінює тканину часу, повертаючи вас до поточного місця розташування та здоров'я, після повторного застосування або через {1} сек. Не спрацьовує при смерті або на великій відстані від початкової точки."
+                    "Text": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} seconds.  Effect negated by long distance or death."
                 }
             }
         },
         "3": {
             "Hash": 1413523524,
-            "Name": "Розширення",
+            "Name": "Amplification",
             "Descriptions": {
                 "0": {
                     "Hash": 2054452225,
                     "Id": "236628",
                     "Spec": "Arcane",
-                    "Text": "Коли діє [Чистий Розум], [Таємні Стріли] випускають {1} {declension|додаткову стрілу|додаткові стріли|додаткових стріл}."
+                    "Text": "When Clearcast, Arcane Missiles fires {1} additional missiles."
                 }
             }
         },
         "4": {
             "Hash": 1492142878,
-            "Name": "Таємний обстріл",
+            "Name": "Arcane Barrage",
             "Descriptions": {
                 "0": {
                     "Hash": 3270053226,
                     "Id": "44425",
                     "Spec": "Arcane",
-                    "Text": "Випускають у ворога заряди таємної магії, які завдають {1}% шкоди від таємної магії.\n\nЗа кожен [Таємний заряд], додатково завдає {2}% шкоди. \n\n{FFFFFFFF|Споживає всі [Таємний заряд].}"
+                    "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \n\nFor each Arcane Charge, deals {2}% additional damage.\n\n{FFFFFFFF|Consumes all Arcane Charges.}"
                 }
             }
         },
         "5": {
             "Hash": 2194499751,
-            "Name": "Таємний спалах",
+            "Name": "Arcane Blast",
             "Descriptions": {
                 "0": {
                     "Hash": 2550877591,
                     "Id": "30451",
                     "Spec": "Arcane",
-                    "Text": "Підриває ціль енергією, завдаючи {1} шкоди від таємної магії.\n\nКожен [Таємний Заряд] збільшує шкоду на {2}%, витрати мани на {3}%, і зменшує тривалість застосування на {4}%.\n\n{FFFFFFFF|Генерує {5} [Таємний заряд].}"
+                    "Text": "Blasts the target with energy, dealing {1} Arcane damage.\n\nEach Arcane Charge increases damage by {2}% and mana cost by {3}%, and reduces cast time by {4}%.\n\n{FFFFFFFF|Generates {5} Arcane Charge.}"
                 }
             }
         },
         "6": {
             "Hash": 2796212962,
-            "Name": "Таємне бомбардування",
+            "Name": "Arcane Bombardment",
             "Descriptions": {
                 "0": {
                     "Hash": 530251198,
                     "Id": "384581",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Обстріл] завдає {1}% додаткової шкоди проти цілей в яких менше {2}% здоров'я."
+                    "Text": "Arcane Barrage deals an additional {1}% damage against targets below {2}% health."
                 }
             }
         },
         "7": {
             "Hash": 600953145,
-            "Name": "Таємне відлуння",
+            "Name": "Arcane Echo",
             "Descriptions": {
                 "0": {
                     "Hash": 109272391,
                     "Id": "342231",
                     "Spec": "Arcane",
-                    "Text": "Завдання прямої шкоди ворогам з ефектом [Дотик Мага], спричиняє вибух, який завдає {1} шкоди від таємної магії усім ворогам поруч. Здійснює зменшену шкоду більше як {2} цілям."
+                    "Text": "Direct damage you deal to enemies affected by Touch of the Magi, causes an explosion that deals {1} Arcane damage to all nearby enemies. Deals reduced damage beyond {2} targets."
                 }
             }
         },
         "8": {
             "Hash": 3892220245,
-            "Name": "Таємне посилення",
+            "Name": "Arcane Empowerment",
             "Descriptions": {
                 "0": {
                     "Hash": 708345003,
                     "Id": "276741",
                     "Spec": "Arcane",
-                    "Text": "[Чистий Розум] тепер накопичується на {1} {declension|раз|рази|разів} більше, і посилює шкоду від [Таємні Стріли] на {2}% за кожне накопичення.\n\n[Чистий Розум] більше не зменшує витрати мани [Таємний Вибух]."
+                    "Text": "Clearcasting can now stack {1} additional times, and increases the damage of Arcane Missiles by {2}% per stack.\n\nClearcasting no longer reduces the mana cost of Arcane Explosion."
                 }
             }
         },
         "9": {
             "Hash": 3382062741,
-            "Name": "Таємний вибух",
+            "Name": "Arcane Explosion",
             "Descriptions": {
                 "0": {
                     "Hash": 552893636,
                     "Id": "1449",
                     "Spec": "Fire, Frost",
-                    "Text": "Спричиняє вибуху магії навколо заклинателя, завдаючи {1} шкоди від таємної магії всім ворогам в радіусі {2} м."
+                    "Text": "Causes an explosion of magic around the caster, dealing {1} Arcane damage to all enemies within {2} yards."
                 },
                 "1": {
                     "Hash": 1161199459,
                     "Id": "1449",
                     "Spec": "Arcane",
-                    "Text": "Спричиняє вибуху магії навколо заклинателя, завдаючи {1} шкоди від таємної магії всім ворогам в радіусі {2} м.\n\n{FFFFFFFF|Генерує {3} [Таємний Заряд], коли будь-яка ціль зазнає шкоди.}"
+                    "Text": "Causes an explosion of magic around the caster, dealing {1} Arcane damage to all enemies within {2} yards.\n\n{FFFFFFFF|Generates {3} Arcane Charge if any targets are hit.}"
                 }
             }
         },
         "10": {
             "Hash": 918779708,
-            "Name": "Таємний фамільяр",
+            "Name": "Arcane Familiar",
             "Descriptions": {
                 "0": {
                     "Hash": 2599803962,
                     "Id": "205022",
                     "Spec": "Arcane",
-                    "Text": "Викликає Фамільяра, який атакує ваших ворогів і збільшує максимальний об'єм мани на {1}% впродовж {2} хв."
+                    "Text": "Summon a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} min."
+                },
+                "1": {
+                    "Hash": 658604553,
+                    "Id": "205022",
+                    "Spec": "Arcane",
+                    "Text": "Summon a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} hour."
                 }
             }
         },
         "11": {
             "Hash": 2271078583,
-            "Name": "Таємна гармонія",
+            "Name": "Arcane Harmony",
             "Descriptions": {
                 "0": {
                     "Hash": 1193567984,
                     "Id": "384452",
                     "Spec": "Arcane",
-                    "Text": "Кожного разу, коли [Таємні Стріли] влучають у ворога, шкода від вашого наступного [Таємний Обстріл] збільшується на {1}%. Накопичується до {2} разів."
+                    "Text": "Each time Arcane Missiles hits an enemy, the damage of your next Arcane Barrage is increased by {1}%. This effect stacks up to {2} times."
                 }
             }
         },
         "12": {
             "Hash": 3035700941,
-            "Name": "Таємний розум",
+            "Name": "Arcane Intellect",
             "Descriptions": {
                 "0": {
                     "Hash": 3732793942,
                     "Id": "1459",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Посилює ціль блиском, що підвищує її Інтелект на {1}% впродовж {2} хв.\n\nЯкщо ціль є учасником вашої групи або рейду, то ефект застосується на всіх учасників."
+                    "Text": "Infuses the target with brilliance, increasing their Intellect by {1}% for {2} min.  \n\nIf the target is in your party or raid, all party and raid members will be affected."
+                },
+                "1": {
+                    "Hash": 954506769,
+                    "Id": "1459",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Infuses the target with brilliance, increasing their Intellect by {1}% for {2} hour.  \r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
                 }
             }
         },
         "13": {
             "Hash": 2565954345,
-            "Name": "Таємні стріли",
+            "Name": "Arcane Missiles",
             "Descriptions": {
                 "0": {
                     "Hash": 1469470982,
                     "Id": "5143",
                     "Spec": "Arcane",
-                    "Text": "Запускає п'ять хвиль магічних стріл у ворога за {1} сек, завдаючи загалом {2} шкоди від таємної магії."
+                    "Text": "Launches five waves of Arcane Missiles at the enemy over {1} sec, causing a total of {2} Arcane damage."
                 }
             }
         },
         "14": {
             "Hash": 2387423904,
-            "Name": "Таємна сфера",
+            "Name": "Arcane Orb",
             "Descriptions": {
                 "0": {
                     "Hash": 193404694,
                     "Id": "153626",
                     "Spec": "Arcane",
-                    "Text": "Запускає [Таємна Сфера] перед вами, що рухається {1} м, завдаючи {2} шкоди від таємної магії усім ворогам на своєму шляху.\n\n{FFFFFFFF|Генерує {3} [Таємний заряд] при застосуванні та при кожному завданні шкоди.}"
+                    "Text": "Launches an Arcane Orb forward from your position, traveling up to {1} yards, dealing {2} Arcane damage to enemies it passes through.\n\n{FFFFFFFF|Grants {3} Arcane Charge when cast and every time it deals damage.}"
                 }
             }
         },
         "15": {
             "Hash": 3002997766,
-            "Name": "Таємна сила",
+            "Name": "Arcane Power",
             "Descriptions": {
                 "0": {
                     "Hash": 4181088190,
                     "Id": "321739",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Сплеск] триває додатково {1} сек, і збільшує шкоду від заклинань на {2}%."
+                    "Text": "Arcane Surge lasts an additional {1} sec and grants {2}% increased Spell Damage."
                 }
             }
         },
         "16": {
             "Hash": 972337756,
-            "Name": "Таємний сплеск",
+            "Name": "Arcane Surge",
             "Descriptions": {
                 "0": {
                     "Hash": 2421483269,
                     "Id": "365350",
                     "Spec": "Arcane",
-                    "Text": "Витрачає всю наявну ману, щоб підірвати вашу ворожу ціль і ворогів поряд, завдаючи до {1} шкоди від таємної магії, залежно від витраченої мани. Завдає менше шкоди цілям після {2}.\n\nПротягом наступних {3} сек, ваша мана відновлюється на {4}% швидше, а шкода від заклять збільшується на {5}%."
+                    "Text": "Expend all of your current mana to annihilate your enemy target and nearby enemies for up to {1} Arcane damage based on Mana spent. Deals reduced damage beyond {2} targets.\n\nFor the next {3} sec, your Mana Regeneration is increased by {4}% and Spell Damage is increased by {5}%."
                 }
             }
         },
         "17": {
             "Hash": 2559215403,
-            "Name": "Таємний темп",
+            "Name": "Arcane Tempo",
             "Descriptions": {
                 "0": {
                     "Hash": 1097884333,
                     "Id": "383980",
                     "Spec": "Arcane",
-                    "Text": "Споживає [Таємний заряд] збільшуючи швидкість на {1}% протягом {2} сек. Накопичується до {3} разів."
+                    "Text": "Consuming Arcane Charges increases your Haste by {1}% for {2} seconds, stacks up to {3} times."
                 }
             }
         },
         "18": {
             "Hash": 531413637,
-            "Name": "Таємні наглядачі",
+            "Name": "Arcane Warding",
             "Descriptions": {
                 "0": {
                     "Hash": 3521355859,
                     "Id": "383092",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Зменшує вхідну магічну шкоду на {1}%."
+                    "Text": "Reduces magic damage taken by {1}%."
                 }
             }
         },
         "19": {
             "Hash": 1293204915,
-            "Name": "Чарівна сфера",
+            "Name": "Arcanosphere",
             "Descriptions": {
                 "0": {
                     "Hash": 3391882311,
                     "Id": "353128",
                     "Spec": "Arcane",
-                    "Text": "Створює сферу таємної енергії, даючи посилення на {1} сек. Коли зникає, сфера проникає через бар'єр, відштовхує ворогів і завдає до {2} шкоди від таємної магії."
+                    "Text": "Builds a sphere of Arcane energy, gaining power over {1} sec. Upon release, the sphere passes through any barriers, knocking enemies back and dealing up to {2} Arcane damage."
                 }
             }
         },
         "20": {
             "Hash": 1737480683,
-            "Name": "Таємний розкол",
+            "Name": "Arcing Cleave",
             "Descriptions": {
                 "0": {
                     "Hash": 1013714503,
                     "Id": "231564",
                     "Spec": "Arcane",
-                    "Text": "За кожен [Таємний заряд], [Таємний Обстріл] вражає {1} додаткову ціль поряд, завдаючи їй {2}% шкоди."
+                    "Text": "For each Arcane Charge, Arcane Barrage hits {1} additional nearby target for {2}% damage."
                 }
             }
         },
         "21": {
             "Hash": 2509260235,
-            "Name": "Вибухова хвиля",
+            "Name": "Blast Wave",
             "Descriptions": {
                 "0": {
                     "Hash": 3771861846,
                     "Id": "157981",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Спричиняє вибух навколо себе, завдаючи {1} шкоди від вогню усім ворогам в радіусі {2} м, відкидаючи та знижуючи їх швидкість пересування на {3}% протягом {4} сек."
+                    "Text": "Causes an explosion around yourself, dealing {1} Fire damage to all enemies within {2} yards, knocking them back, and reducing movement speed by {3}% for {4} sec."
                 }
             }
         },
         "22": {
             "Hash": 3096369472,
-            "Name": "Пекучий бар'єр",
+            "Name": "Blazing Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 3246478583,
                     "Id": "235313",
                     "Spec": "Fire",
-                    "Text": "Покриває вас вогняним щитом, який поглинає {1} шкоди протягом {2} сек.\n\nАтакуючи вас в ближньому бою, нападник отримає {3} шкоди від вогню."
+                    "Text": "Shields you in flame, absorbing {1} damage for {2} sec.\n\nMelee attacks against you cause the attacker to take {3} Fire damage."
+                },
+                "1": {
+                    "Hash": 2358185267,
+                    "Id": "235313",
+                    "Spec": "Fire",
+                    "Text": "Shields you in flame, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you cause the attacker to take {3} Fire damage."
                 }
             }
         },
         "23": {
             "Hash": 1938105798,
-            "Name": "Стрибок",
+            "Name": "Blink",
             "Descriptions": {
                 "0": {
                     "Hash": 2878517579,
                     "Id": "1953",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Переносить вас вперед на {1} м або до найближчої перешкоди, і знімає з вас усі ефекти оглушення та обмеження пересування."
+                    "Text": "Teleports you forward {1} yds or until reaching an obstacle, and frees you from all stuns and bonds."
                 }
             }
         },
         "24": {
             "Hash": 938233763,
-            "Name": "Заметіль",
+            "Name": "Blizzard",
             "Descriptions": {
                 "0": {
                     "Hash": 2180686661,
                     "Id": "190356",
                     "Spec": "Frost",
-                    "Text": "Засипає цільову область крижаними уламками, завдаючи {1} шкоди від магії холоду за {2} сек, та знижує швидкість пересування на {3}% протягом {4} сек."
+                    "Text": "Ice shards pelt the target area, dealing {1} Frost damage over {2} sec and reducing movement speed by {3}% for {4} sec."
                 }
             }
         },
         "25": {
             "Hash": 3169295050,
-            "Name": "Заморозок кісток",
+            "Name": "Bone Chilling",
             "Descriptions": {
                 "0": {
                     "Hash": 3896464951,
                     "Id": "205027",
                     "Spec": "Frost",
-                    "Text": "Всякий раз, коли ви намагаєтесь заморозити ціль, ви отримуєте [Заморозок Кісток], що збільшує шкоду від заклять на {1}% протягом {2} сек. Накопичується до {3} разів."
+                    "Text": "Whenever you attempt to chill a target, you gain Bone Chilling, increasing spell damage you deal by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
         },
         "26": {
             "Hash": 2261406936,
-            "Name": "Замороження мозку",
+            "Name": "Brain Freeze",
             "Descriptions": {
                 "0": {
                     "Hash": 4179793010,
                     "Id": "190447",
                     "Spec": "Frost",
-                    "Text": "[Крижана стріла] має {1}% шанс відновити [Шквал], а ваш наступний [Шквал] завдасть на {2}% більше шкоди."
+                    "Text": "Frostbolt has a {1}% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal {2}% increased damage."
                 }
             }
         },
         "27": {
             "Hash": 2567997099,
-            "Name": "Поклик сонячного короля",
+            "Name": "Call of the Sun King",
             "Descriptions": {
                 "0": {
                     "Hash": 199565581,
                     "Id": "343222",
                     "Spec": "Fire",
-                    "Text": "[Полум'я Фенікса] отримує {1} {declension|додатковий заряд|додаткові заряди|додаткових зарядів}."
+                    "Text": "Phoenix Flames gains {1} additional charge."
                 }
             }
         },
         "28": {
             "Hash": 2026303235,
-            "Name": "Поступова сила",
+            "Name": "Cascading Power",
             "Descriptions": {
                 "0": {
                     "Hash": 3980656013,
                     "Id": "384276",
                     "Spec": "Arcane",
-                    "Text": "Споживає [Кристал Мани] та дає до {1} {declension|накопичення|накопичень} [Чистого Розуму]."
+                    "Text": "Consuming a Mana Gem grants up to {1} Clearcasting stacks."
                 }
             }
         },
         "29": {
             "Hash": 2986435647,
-            "Name": "Припікання",
+            "Name": "Cauterize",
             "Descriptions": {
                 "0": {
                     "Hash": 1188673135,
                     "Id": "86949",
                     "Spec": "Fire",
-                    "Text": "Смертельна шкода відновлює вам до {1}% здоров'я, а потім спалює вас на {2}% від вашого максимального здоров'я за {3} сек.\n\nКоли ви палаєте, ефекти уповільнення ігноруються, а ваша швидкість пересування зростає на {4}%.\n\nСпрацьовує не частіше ніж раз на {5} хв."
+                    "Text": "Fatal damage instead brings you to {1}% health and then burns you for {2}% of your maximum health over {3} sec.\n\nWhile burning, movement slowing effects are suppressed and your movement speed is increased by {4}%.\n\nThis effect cannot occur more than once every {5} min."
                 }
             }
         },
         "30": {
             "Hash": 2839221026,
-            "Name": "Ланцюгова реакція",
+            "Name": "Chain Reaction",
             "Descriptions": {
                 "0": {
                     "Hash": 1522133636,
                     "Id": "278309",
                     "Spec": "Frost",
-                    "Text": "Ваші [Крижані Списи], задіяні проти приморожених цілей, посилюють шкоду від ваших [Крижані Списи] на {1}% протягом {2} сек. Накопичується до {3} разів."
+                    "Text": "Your Ice Lances against frozen targets increase the damage of your Ice Lances by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
         },
         "31": {
             "Hash": 3386120787,
-            "Name": "Заряджена сфера",
+            "Name": "Charged Orb",
             "Descriptions": {
                 "0": {
                     "Hash": 2963680004,
                     "Id": "384651",
                     "Spec": "Arcane",
-                    "Text": "[Таємна Сфера] отримує {1} додатковий заряд."
+                    "Text": "Arcane Orb gains {1} additional charge."
                 }
             }
         },
         "32": {
             "Hash": 1908009046,
-            "Name": "Промерзлий до кісток",
+            "Name": "Chilled to the Bone",
             "Descriptions": {
                 "0": {
                     "Hash": 1983379570,
                     "Id": "198126",
                     "Spec": "Frost",
-                    "Text": "Ваша [Крижана Зірка] і [Замороження] вашого Водяного Елементаля завдають {1} шкоди від магії холоду коли ефект закінчується.\n\nШкода подвоюється, якщо [Крижана Зоря] або [Замороження] будуть розвіяні."
+                    "Text": "Your Frost Nova and your Water Elemental's Freeze deals {1} Frost damage when the effect ends.\n\nDamage is doubled if Frost Nova or Freeze are dispelled."
                 }
             }
         },
         "33": {
             "Hash": 2725238883,
-            "Name": "Зсув часу",
+            "Name": "Chrono Shift",
             "Descriptions": {
                 "0": {
                     "Hash": 555915980,
                     "Id": "235711",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Обстріл] сповільнює ворогів на {1}% та збільшує вашу швидкість пересування на {2}% протягом {3} сек."
+                    "Text": "Arcane Barrage slows enemies by {1}% and increases your movement speed by {2}% for {3} sec."
                 }
             }
         },
         "34": {
             "Hash": 3901046114,
-            "Name": "Чистий розум",
+            "Name": "Clearcasting",
             "Descriptions": {
                 "0": {
                     "Hash": 1573249480,
                     "Id": "79684",
                     "Spec": "Arcane",
-                    "Text": "За кожні {1} витраченої мани, ви маєте {2}% шанс отримати ефект [Чистий Розум], що дозволить застосувати ваш наступний [Таємний Обстріл] та [Таємний Вибух] без витрат мани та з підвищеною швидкістю підтримання на {3}%."
+                    "Text": "For each {1} mana you spend, you have a {2}% chance to gain Clearcasting, making your next Arcane Missiles or Arcane Explosion free and channel {3}% faster."
                 }
             }
         },
         "35": {
             "Hash": 2355467573,
-            "Name": "Холодний фронт",
+            "Name": "Cold Front",
             "Descriptions": {
                 "0": {
                     "Hash": 2586177689,
                     "Id": "382110",
                     "Spec": "Frost",
-                    "Text": "Застосовуючи {1} [Крижана стріла] або [Шквал], ви накликаєте [Крижана Куля] на вашу ціль. Шкода по ворожій цілі подвоюється."
+                    "Text": "Casting {1} Frostbolts or Flurries calls down a Frozen Orb toward your target. Hitting an enemy player counts as double."
                 }
             }
         },
         "36": {
             "Hash": 4209356314,
-            "Name": "Заморозки",
+            "Name": "Cold Snap",
             "Descriptions": {
                 "0": {
                     "Hash": 4218580068,
                     "Id": "235219",
                     "Spec": "Frost",
-                    "Text": "Відновлює ваші [Крижаний бар'єр], [Крижана Зірка], [Конус Холоду], і [Крижана Перешкода]."
+                    "Text": "Resets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, and Ice Block."
                 }
             }
         },
         "37": {
             "Hash": 3009648214,
-            "Name": "Спалення",
+            "Name": "Combustion",
             "Descriptions": {
                 "0": {
                     "Hash": 3279267147,
                     "Id": "190319",
                     "Spec": "Fire",
-                    "Text": "Вас охоплює полум'я на {1} сек., посилюючи критичну шкоду ваших заклинань на {2}%. Можна застосувати під час застосування інших заклинань."
+                    "Text": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells."
                 }
             }
         },
         "38": {
             "Hash": 2298374374,
-            "Name": "Кометна Буря",
+            "Name": "Comet Storm",
             "Descriptions": {
                 "0": {
                     "Hash": 3301447365,
                     "Id": "153595",
                     "Spec": "Frost",
-                    "Text": "Викликає шквал з {1} крижаних комет. на ціль і навколо неї, що спричиняє до {2} шкоди від магії холоду всім ворогам в радіусі {3} м від їх падіння."
+                    "Text": "Calls down a series of {1} icy comets on and around the target, that deals up to {2} Frost damage to all enemies within {3} yds of its impacts."
                 }
             }
         },
         "39": {
             "Hash": 1917830678,
-            "Name": "Насичений холод",
+            "Name": "Concentrated Coolness",
             "Descriptions": {
                 "0": {
                     "Hash": 3634650285,
                     "Id": "198148",
                     "Spec": "Frost",
-                    "Text": "Шкода Льодяної Сфери посилена на {1}% тепер застосовується по зоні із радіусом {2} метри, але більше не може пересуватись. "
+                    "Text": "Frozen Orb's damage is increased by {1}% and is now castable at a location with a {2} yard range but no longer moves. "
                 }
             }
         },
         "40": {
             "Hash": 734428179,
-            "Name": "Зосередженість",
+            "Name": "Concentration",
             "Descriptions": {
                 "0": {
                     "Hash": 3574161852,
                     "Id": "384374",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Вибух] має шанс дати [Зосередженість], яка дозволяє не поглинути ваш наступний [Чистий Розум]."
+                    "Text": "Arcane Blast has a chance to grant Concentration, which causes your next Clearcasting to not be consumed."
                 }
             }
         },
         "41": {
             "Hash": 138986016,
-            "Name": "Конус холоду",
+            "Name": "Cone of Cold",
             "Descriptions": {
                 "0": {
                     "Hash": 3168102680,
                     "Id": "120",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Цілі в конусі перед вами отримують {1} шкоди від магії холоду та уповільнюються на {2}% протягом {3} сек."
+                    "Text": "Targets in a cone in front of you take {1} Frost damage and have movement slowed by {2}% for {3} sec."
                 }
             }
         },
         "42": {
             "Hash": 583304231,
-            "Name": "Пожежа",
+            "Name": "Conflagration",
             "Descriptions": {
                 "0": {
                     "Hash": 3463202867,
                     "Id": "205023",
                     "Spec": "Fire",
-                    "Text": "[Вогняний шар] застосовує [Пожежа] до цілі, завдаючи додатково {1} шкоди від вогню за {2} сек.\n\nВороги з ефектом [Пожежа] або [Підпал] мають {3}% шанс спалахнути та завдати {4} шкоди від вогню ворогам поряд."
+                    "Text": "Fireball applies Conflagration to the target, dealing an additional {1} Fire damage over {2} sec.\n\nEnemies affected by either Conflagration or Ignite have a {3}% chance to flare up and deal {4} Fire damage to nearby enemies."
                 }
             }
         },
         "43": {
             "Hash": 1205769180,
-            "Name": "Формування мана кристалу",
+            "Name": "Conjure Mana Gem",
             "Descriptions": {
                 "0": {
                     "Hash": 390605890,
                     "Id": "759",
                     "Spec": "Arcane",
-                    "Text": "Начакловує [Мана Кристал], який можна застосовувати, щоб миттєво відновити {1}% мани та збільшити шкоду від заклинань на {2}% протягом {3} сек. Має до {4} зарядів.\n\n{ffffffff|Начакловані Предмети}\n[Начакловані Предмети] зникають після виходу з гри більше ніж на {5} хв."
+                    "Text": "Conjures a Mana Gem that can be used to instantly restore {1}% mana and grant {2}% spell damage for {3} sec. Holds up to {4} charges.\n\n{ffffffff|Conjured Items}\nConjured items disappear if logged out for more than {5} minutes."
                 }
             }
         },
         "44": {
             "Hash": 1702326712,
-            "Name": "Чаклування оновлення",
+            "Name": "Conjure Refreshment",
             "Descriptions": {
                 "0": {
                     "Hash": 779996573,
                     "Id": "190336",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Начакловує мана-їжу для вас і ваших союзників. Начакловані предмети зникають після виходу з гри більше ніж на {1} хв."
+                    "Text": "Conjures mana food for you and your allies. Conjured items disappear if logged out for more than {1} minutes."
                 }
             }
         },
         "45": {
             "Hash": 4047739866,
-            "Name": "Контрольоване Знищення",
+            "Name": "Controlled Destruction",
             "Descriptions": {
                 "0": {
                     "Hash": 3433391995,
                     "Id": "383669",
                     "Spec": "Fire",
-                    "Text": "Коли ціль має більше ніж {2}% здоров'я або менше {3}% здоров'я, то початкова шкода від [Вогняна брила] збільшується на {1}%."
+                    "Text": "Pyroblast's initial damage is increased by {1}% when the target is above {2}% health or below {3}% health."
                 }
             }
         },
         "46": {
             "Hash": 4053820486,
-            "Name": "Контрчари",
+            "Name": "Counterspell",
             "Descriptions": {
                 "0": {
                     "Hash": 984849344,
                     "Id": "2139",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Перериває застосування заклять, та запобігає використанню заклять з цієї школи на {1} сек."
+                    "Text": "Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for {1} sec."
                 }
             }
         },
         "47": {
             "Hash": 1744401192,
-            "Name": "Тріскуча енергія",
+            "Name": "Crackling Energy",
             "Descriptions": {
                 "0": {
                     "Hash": 3243989665,
                     "Id": "321752",
                     "Spec": "Arcane",
-                    "Text": "Посилює шкоду від [Таємний Вибух] і [Таємний Спалах] на {1}%."
+                    "Text": "Increases Arcane Explosion and Arcane Blast damage by {1}%."
                 }
             }
         },
         "48": {
             "Hash": 4192824350,
-            "Name": "Критична маса",
+            "Name": "Critical Mass",
             "Descriptions": {
                 "0": {
                     "Hash": 404710484,
                     "Id": "117216",
                     "Spec": "Fire",
-                    "Text": "Ваші закляття мають {1}% підвищеного шансу завдати критичної шкоди.\n\nВи отримуєте на {2}% більше характеристик критичного удару з усіх джерел."
+                    "Text": "Your spells have a {1}% increased chance to deal a critical strike.\n\nYou gain {2}% more of the Critical Strike stat from all sources."
                 }
             }
         },
         "49": {
             "Hash": 1246701778,
-            "Name": "Кріо-охолодження",
+            "Name": "Cryo-Freeze",
             "Descriptions": {
                 "0": {
                     "Hash": 1679167610,
                     "Id": "382292",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Коли ви всередині [Крижана Перешкода] ви відновлюєте {1}% максимального здоров'я протягом дії."
+                    "Text": "While inside Ice Block, you heal for {1}% of your maximum health over the duration."
                 }
             }
         },
         "50": {
             "Hash": 871680509,
-            "Name": "Глибокий розкол",
+            "Name": "Deep Shatter",
             "Descriptions": {
                 "0": {
                     "Hash": 2032052519,
                     "Id": "378749",
                     "Spec": "Frost",
-                    "Text": "Ваша [Крижана стріла] завдає {1}% додаткової шкоди замороженим цілям."
+                    "Text": "Your Frostbolt deals {1}% additional damage to Frozen targets."
                 }
             }
         },
         "51": {
             "Hash": 1287002732,
-            "Name": "Зміщення",
+            "Name": "Displacement",
             "Descriptions": {
                 "0": {
                     "Hash": 2110178242,
                     "Id": "389713",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Переносить вас на місце, де ви востаннє застосовували [Стрибок]. Може бути використане упродовж {1} сек після застосування [Стрибок]."
+                    "Text": "Teleports you back to where you last Blinked. Only usable within {1} sec of Blinking."
                 }
             }
         },
         "52": {
             "Hash": 3868202488,
-            "Name": "Перенаправлена енергія",
+            "Name": "Diverted Energy",
             "Descriptions": {
                 "0": {
                     "Hash": 919629306,
                     "Id": "382270",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Ваші [Бар'єри] зцілюють вас на {1}% поглинутої шкоди."
+                    "Text": "Your Barriers heal you for {1}% of the damage absorbed."
                 }
             }
         },
         "53": {
             "Hash": 1921560014,
-            "Name": "Подих дракона",
+            "Name": "Dragon's Breath",
             "Descriptions": {
                 "0": {
                     "Hash": 3312543586,
                     "Id": "31661",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Вороги в конусі перед вами отримують {1} шкоди від вогню та дезорієнтуються на {2} сек. Шкода знімає цей ефект."
+                    "Text": "Enemies in a cone in front of you take {1} Fire damage and are disoriented for {2} sec. Damage will cancel the effect."
                 }
             }
         },
         "54": {
             "Hash": 1756352081,
-            "Name": "Стріла темної криги",
+            "Name": "Ebonbolt",
             "Descriptions": {
                 "0": {
                     "Hash": 3894169571,
                     "Id": "257537",
                     "Spec": "Frost",
-                    "Text": "Запускає стрілу з криги у ворога, завдаючи {1} шкоди від магії холоду та дає вам ефект [Замороження Мозку]. "
+                    "Text": "Launch a bolt of ice at the enemy, dealing {1} Frost damage and granting you Brain Freeze. "
                 }
             }
         },
         "55": {
             "Hash": 399621225,
-            "Name": "Заряджені бар'єри",
+            "Name": "Energized Barriers",
             "Descriptions": {
                 "0": {
                     "Hash": 1931008867,
                     "Id": "386828",
                     "Spec": "Fire",
-                    "Text": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати {2} {declension|заряд|заряди|зарядів} [Вогняний вибух].\n\nЗастосування вашого бар'єру знімає всі ефекти сповільнення."
+                    "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted {2} Fire Blast charge. \n\nCasting your barrier removes all snare effects."
                 },
                 "1": {
                     "Hash": 2636435525,
                     "Id": "386828",
                     "Spec": "Frost",
-                    "Text": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати ефект [Морозні пальці].\n\nЗастосування вашого бар'єру знімає всі ефекти сповільнення."
+                    "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted Fingers of Frost. \n\nCasting your barrier removes all snare effects."
                 },
                 "2": {
                     "Hash": 798547233,
                     "Id": "386828",
                     "Spec": "Arcane",
-                    "Text": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати ефект [Чистий Розум].\n\nЗастосування вашого бар'єру знімає всі ефекти сповільнення."
+                    "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted Clearcasting. \n\nCasting your barrier removes all snare effects."
                 }
             }
         },
         "56": {
             "Hash": 3116024812,
-            "Name": "Просвітлення",
+            "Name": "Enlightened",
             "Descriptions": {
                 "0": {
                     "Hash": 1613293006,
                     "Id": "321387",
                     "Spec": "Arcane",
-                    "Text": "Коли у вас більше {1}% мани, ваша шкода від таємної магії збільшується на {2}%. Коли у вас менше {3}% мани, швидкість її відновлення збільшується на {4}%."
+                    "Text": "Arcane damage dealt while above {1}% mana is increased by {2}%, Mana Regen while below {3}% is increased by {4}%."
                 }
             }
         },
         "57": {
             "Hash": 18676556,
-            "Name": "Вічна мерзлота",
+            "Name": "Everlasting Frost",
             "Descriptions": {
                 "0": {
                     "Hash": 97522662,
                     "Id": "385167",
                     "Spec": "Frost",
-                    "Text": "[Крижана Куля] завдає додатково {1}% шкоди, а її тривалість збільшується на {2} сек."
+                    "Text": "Frozen Orb deals an additional {1}% damage and its duration is increased by {2} sec."
                 }
             }
         },
         "58": {
             "Hash": 3875794694,
-            "Name": "Втілення",
+            "Name": "Evocation",
             "Descriptions": {
                 "0": {
                     "Hash": 3437701063,
                     "Id": "12051",
                     "Spec": "Arcane",
-                    "Text": "Збільшує регенерацію мани на {1}% на {2} сек."
+                    "Text": "Increases your mana regeneration by {1}% for {2} sec."
                 }
             }
         },
         "59": {
             "Hash": 3100014296,
-            "Name": "Відчуй жар",
+            "Name": "Feel the Burn",
             "Descriptions": {
                 "0": {
                     "Hash": 3301892333,
                     "Id": "383391",
                     "Spec": "Fire",
-                    "Text": "[Вогняний Вибух] збільшує вашу майстерність на {1}% протягом {2} сек. Накопичується до {3} разів."
+                    "Text": "Fire Blast increases your Mastery by {1}% for {2} sec. This effect stacks up to {3} times."
                 }
             }
         },
         "60": {
             "Hash": 2089471455,
-            "Name": "Палке мерехтіння",
+            "Name": "Fervent Flickering",
             "Descriptions": {
                 "0": {
                     "Hash": 3918142856,
                     "Id": "387044",
                     "Spec": "Fire",
-                    "Text": "Шкода від [Підпал] має {1}% шанс відновити [Вогняний Вибух] на {2} сек."
+                    "Text": "Ignite's damage has a {1}% chance to reduce the cooldown of Fire Blast by {2} sec."
                 }
             }
         },
         "61": {
             "Hash": 1853182964,
-            "Name": "Лихоманкове заклинання",
+            "Name": "Fevered Incantation",
             "Descriptions": {
                 "0": {
                     "Hash": 1532022648,
                     "Id": "383810",
                     "Spec": "Fire",
-                    "Text": "Кожен ваш послідовний критичний удар збільшує вашу критичну шкоду на {1}%, до {2}% протягом {3} сек."
+                    "Text": "Each consecutive critical strike you deal increases critical strike damage you deal by {1}%, up to {2}% for {3} sec."
                 }
             }
         },
         "62": {
             "Hash": 1489062206,
-            "Name": "Вогняний порив",
+            "Name": "Fiery Rush",
             "Descriptions": {
                 "0": {
                     "Hash": 3013382424,
                     "Id": "383634",
                     "Spec": "Fire",
-                    "Text": "Поки [Спалення] активне, ваші [Вогняний вибух] та [Полум'я Фенікса] відновлюються на {1}% швидше."
+                    "Text": "While Combustion is active, your Fire Blast and Phoenix Flames recharge {1}% faster."
                 }
             }
         },
         "63": {
             "Hash": 544276266,
-            "Name": "Морозні пальці",
+            "Name": "Fingers of Frost",
             "Descriptions": {
                 "0": {
                     "Hash": 2788252093,
                     "Id": "112965",
                     "Spec": "Frost",
-                    "Text": "[Крижана стріла] має шанс у {1}%, а [Крижана сфера] має шанс у {2}% згенерувати заряд [Крижані Пальці].\n\n[Крижані Пальці] збільшують шкоду від наступного [Крижаний Спис] начебто ціль була заморожена.\n\nМаксимум {3} заряди."
+                    "Text": "Frostbolt has a {1}% chance and Frozen Orb damage has a {2}% to grant a charge of Fingers of Frost.\n\nFingers of Frost causes your next Ice Lance to deal damage as if the target were frozen.\n\nMaximum {3} charges."
                 }
             }
         },
         "64": {
             "Hash": 2425981719,
-            "Name": "Вогняний вибух",
+            "Name": "Fire Blast",
             "Descriptions": {
                 "0": {
                     "Hash": 3815896016,
                     "Id": "108853",
                     "Spec": "Fire",
-                    "Text": "Підриває ворога, завдаючи йому {1} шкоди від вогню.\n\n{FFFFFFFF|Вогонь:} Можна використовувати під час руху. Завжди завдає критичну шкоду."
+                    "Text": "Blasts the enemy for {1} Fire damage. \n\n{FFFFFFFF|Fire:} Castable while casting other spells. Always deals a critical strike."
                 },
                 "1": {
                     "Hash": 1609557398,
                     "Id": "319836",
                     "Spec": "Frost, Arcane",
-                    "Text": "Підриває ворога, завдаючи йому {1} вогняної шкоди."
+                    "Text": "Blasts the enemy for {1} Fire damage."
                 }
             }
         },
         "65": {
             "Hash": 2197704226,
-            "Name": "Вогняний шар",
+            "Name": "Fireball",
             "Descriptions": {
                 "0": {
                     "Hash": 1239154910,
                     "Id": "133",
                     "Spec": "Fire",
-                    "Text": "Кидає вогняну кулю, що завдає {1} шкоди від вогню."
+                    "Text": "Throws a fiery ball that causes {1} Fire damage."
                 }
             }
         },
         "66": {
             "Hash": 622743914,
-            "Name": "Вогнепад",
+            "Name": "Firefall",
             "Descriptions": {
                 "0": {
                     "Hash": 1396000811,
                     "Id": "384033",
                     "Spec": "Fire",
-                    "Text": "Завдаючи шкоду ворогу через [Вогняний шар] або [Вогняна брила] {1} разів, ваш наступний [Вогняний шар] викличе [Метеор] на вашу ціль. Влучення по ворожому гравцю зараховується двічі."
+                    "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball to call down a Meteor on your target. Hitting an enemy player counts as double."
                 }
             }
         },
         "67": {
             "Hash": 1153191717,
-            "Name": "Вогняний розум",
+            "Name": "Firemind",
             "Descriptions": {
                 "0": {
                     "Hash": 2878454956,
                     "Id": "383499",
                     "Spec": "Fire",
-                    "Text": "Поглинання ефекту [Спалах успіху] збільшує Інтелект на {1}% на {2} сек. Накопичується до {3} разів."
+                    "Text": "Consuming Hot Streak grants you {1}% increased Intellect for {2} sec. This effect stacks up to {3} times."
                 }
             }
         },
         "68": {
             "Hash": 1292234542,
-            "Name": "Запалювач",
+            "Name": "Firestarter",
             "Descriptions": {
                 "0": {
                     "Hash": 3328132294,
                     "Id": "205026",
                     "Spec": "Fire",
-                    "Text": "Ваші [Вогняний шар] та [Вогняна брила] завжди завдають критичну шкоду цілям, у яких більше {1}% здоров'я."
+                    "Text": "Your Fireball and Pyroblast spells always deal a critical strike when the target is above {1}% health."
                 }
             }
         },
         "69": {
             "Hash": 3522791930,
-            "Name": "Вогняний каталізатор",
+            "Name": "Flame Accelerant",
             "Descriptions": {
                 "0": {
                     "Hash": 2478601793,
                     "Id": "203275",
                     "Spec": "Fire",
-                    "Text": "Якщо ви не застосовували [Вогняний шар] протягом {1} сек, ваш наступний [Вогняний шар] завдасть на {2}% більше шкоди зі зменшеним на {3}% часом застосування."
+                    "Text": "If you have not cast Fireball for {1} sec, your next Fireball will deal {2}% increased damage with a {3}% reduced cast time."
                 }
             }
         },
         "70": {
             "Hash": 3591155661,
-            "Name": "Живильне полум'я",
+            "Name": "Flame On",
             "Descriptions": {
                 "0": {
                     "Hash": 3015247534,
                     "Id": "205029",
                     "Spec": "Fire",
-                    "Text": "Зменшує час відновлення [Вогняний вибух] на {1} сек, та збільшує його максимальну кількість зарядів на {2}."
+                    "Text": "Reduces the cooldown of Fire Blast by {1} seconds and increases the maximum number of charges by {2}."
                 }
             }
         },
         "71": {
             "Hash": 257565907,
-            "Name": "Вогняний слід",
+            "Name": "Flame Patch",
             "Descriptions": {
                 "0": {
                     "Hash": 2425512982,
                     "Id": "205037",
                     "Spec": "Fire",
-                    "Text": "[Вогняний Удар] залишає позаду клаптик вогню що підпалює ворогів всередині та завдає {1} шкоди від вогню протягом {2} сек. "
+                    "Text": "Flamestrike leaves behind a patch of flames that burns enemies within it for {1} Fire damage over {2} sec. "
                 }
             }
         },
         "72": {
             "Hash": 3053436481,
-            "Name": "Вогняна гармата",
+            "Name": "Flamecannon",
             "Descriptions": {
                 "0": {
                     "Hash": 3378289631,
                     "Id": "203284",
                     "Spec": "Fire",
-                    "Text": "Кожні {1} сек знаходження у бою, ваше максимальне здоров'я збільшується на {2}%, шкода збільшується на {3}%, а відстань ваших Вогняних заклинань збільшується на {4} м.\n\nНакопичується до {5} разів і триває {6} сек."
+                    "Text": "After standing still in combat for {1} sec, your maximum health increases by {2}%, damage done increases by {3}%, and range of your Fire spells increase by {4} yards.\n\nThis effect stacks up to {5} times and lasts for {6} sec."
+                },
+                "1": {
+                    "Hash": 1335118410,
+                    "Id": "203284",
+                    "Spec": "Fire",
+                    "Text": "Every {1} sec in combat with no enemies closer than {2} yds, your maximum health increases by {3}%, damage done increases by {4}%, and range of your Fire spells increase by {5} yards.\r\n\r\nThis effect stacks up to {6} times and lasts for {7} sec."
                 }
             }
         },
         "73": {
             "Hash": 2957856377,
-            "Name": "Вогняний удар",
+            "Name": "Flamestrike",
             "Descriptions": {
                 "0": {
                     "Hash": 2167004273,
                     "Id": "2120",
                     "Spec": "Fire",
-                    "Text": "Викликає стовп вогню, підпалюючи ворогів всередині зони на {1} шкоди від вогню та зменшує їх швидкість пересування на {2}% протягом {3} сек."
+                    "Text": "Calls down a pillar of fire, burning all enemies within the area for {1} Fire damage and reducing their movement speed by {2}% for {3} sec."
                 }
             }
         },
         "74": {
             "Hash": 1856912915,
-            "Name": "Швидке Замороження",
+            "Name": "Flash Freeze",
             "Descriptions": {
                 "0": {
                     "Hash": 699631256,
                     "Id": "379993",
                     "Spec": "Frost",
-                    "Text": "Кожна з ваших [Бурульки] завдає {1}% додаткової шкоди, а коли [Бурульки] завдають шкоду, ви маєте {2}% шанс отримати ефект [Морозні пальці]."
+                    "Text": "Each of your Icicles deals {1}% additional damage, and when an Icicle deals damage you have a {2}% chance to gain the Fingers of Frost effect."
                 }
             }
         },
         "75": {
             "Hash": 4130956078,
-            "Name": "Плин часу",
+            "Name": "Flow of Time",
             "Descriptions": {
                 "0": {
                     "Hash": 2409745875,
                     "Id": "382268",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Час відновлення [Стрибок] зменшується на {1} сек."
+                    "Text": "The cooldown of Blink is reduced by {1} sec."
                 }
             }
         },
         "76": {
             "Hash": 2247871445,
-            "Name": "Шквал",
+            "Name": "Flurry",
             "Descriptions": {
                 "0": {
                     "Hash": 4162574087,
                     "Id": "44614",
                     "Spec": "Frost",
-                    "Text": "Скеровує крижаний шквал, що б'є по цілі {1} {declension|раз|рази|разів}, загалом завдаючи {2} шкоди від магії холоду. Кожний удар знижує швидкість пересування цілі на {3}% протягом{4} сек, та застосовує до цілі [Зимовий Холод].\n\n[Зимовий Холод] дозволяє завдавати шкоди цілі так, ніби вона заморожена."
+                    "Text": "Unleash a flurry of ice, striking the target {1} times for a total of {2} Frost damage. Each hit reduces the target's movement speed by {3}% for {4} sec and applies Winter's Chill to the target.\n\nWinter's Chill causes the target to take damage from your spells as if it were frozen."
                 }
             }
         },
         "77": {
             "Hash": 2678795040,
-            "Name": "Передбачення",
+            "Name": "Foresight",
             "Descriptions": {
                 "0": {
                     "Hash": 2576128994,
                     "Id": "384861",
                     "Spec": "Arcane",
-                    "Text": "Стояння упродовж {1} сек, надає [Передбачення], що дозволяє застосовувати чари під час руху протягом {2} сек. Починає діяти коли ви починаєте рухатись."
+                    "Text": "Standing still for {1} sec grants you Foresight, allowing you to cast while moving for {2} sec. This duration begins when you start moving."
                 }
             }
         },
         "78": {
             "Hash": 3813671795,
-            "Name": "Розділений мороз",
+            "Name": "Fractured Frost",
             "Descriptions": {
                 "0": {
                     "Hash": 1080957304,
                     "Id": "378448",
                     "Spec": "Frost",
-                    "Text": "Ваша [Крижана стріла] має {1}% шанс вразити ще {2} {declension|додаткову ціль|додаткові цілі|додаткових цілей}."
+                    "Text": "Your Frostbolt has a {1}% chance to hit up to {2} additional targets."
                 }
             }
         },
         "79": {
             "Hash": 3478455918,
-            "Name": "Морозний холод",
+            "Name": "Freezing Cold",
             "Descriptions": {
                 "0": {
                     "Hash": 1979399951,
                     "Id": "386763",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Вороги уражені [Конус Холоду] замерзають на місті на {1} сек, а не сповільнюються.\n\nКоли знерухомлення закінчується або розвіюється, ваша ціль сповільнюється на {2}%. Ефект слабшає протягом {3} сек."
+                    "Text": "Enemies hit by Cone of Cold are frozen in place for {1} sec instead of snared.\n\nWhen your roots expire or are dispelled, your target is snared by {2}%, decaying over {3} sec."
                 }
             }
         },
         "80": {
             "Hash": 3745027320,
-            "Name": "Крижаний дощ",
+            "Name": "Freezing Rain",
             "Descriptions": {
                 "0": {
                     "Hash": 3688855169,
                     "Id": "270233",
                     "Spec": "Frost",
-                    "Text": "[Крижана Куля] робить застосування вашої [Заметіль] миттєвим, і збільшує її шкоду на {1}% протягом {2} сек."
+                    "Text": "Frozen Orb makes Blizzard instant cast and increases its damage done by {1}% for {2} sec."
                 }
             }
         },
         "81": {
             "Hash": 2441713765,
-            "Name": "Морозні вітри",
+            "Name": "Freezing Winds",
             "Descriptions": {
                 "0": {
                     "Hash": 2380847737,
                     "Id": "382103",
                     "Spec": "Frost",
-                    "Text": "Коли [Крижана Куля] активна, ви отримуєте [Морозні пальці] кожні {1} сек."
+                    "Text": "While Frozen Orb is active, you gain Fingers of Frost every {1} sec."
                 }
             }
         },
         "82": {
             "Hash": 2654158462,
-            "Name": "Непрохідні вітри",
+            "Name": "Frigid Winds",
             "Descriptions": {
                 "0": {
                     "Hash": 2734789845,
                     "Id": "235224",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Всі ваші ефекти сповільнення додатково зменшують швидкість пересування цілі на {1}%."
+                    "Text": "All of your snare effects reduce the target's movement speed by an additional {1}%."
                 }
             }
         },
         "83": {
             "Hash": 2772057082,
-            "Name": "З попелу",
+            "Name": "From the Ashes",
             "Descriptions": {
                 "0": {
                     "Hash": 2994734128,
                     "Id": "342344",
                     "Spec": "Fire",
-                    "Text": "Збільшує вашу Майстерність на {1}% за кожний готовий до застосування заряд [Полум'я Фенікса], а ваша пряма критична шкода відновлює [Полум'я Фенікса] на {2} сек."
+                    "Text": "Increases Mastery by {1}% for each charge of Phoenix Flames off cooldown and your direct-damage critical strikes reduce its cooldown by {2} sec."
                 }
             }
         },
         "84": {
             "Hash": 4010118779,
-            "Name": "Крижана бомба",
+            "Name": "Frost Bomb",
             "Descriptions": {
                 "0": {
                     "Hash": 3405910432,
                     "Id": "390612",
                     "Spec": "Frost",
-                    "Text": "Розміщує крижану бомбу на цілі. Після {1} сек, ця бомба вибухає, завдаючи цілі {2} шкоди від магії холоду та {3} шкоди від магії холоду цілям в радіусі {4} метрів. Всі уражені цілі сповільнюються на {5}% протягом {6} сек. "
+                    "Text": "Places a Frost Bomb on the target. After {1} sec, the bomb explodes, dealing {2} Frost damage to the target and {3} Frost damage to all other enemies within {4} yards. All affected targets are slowed by {5}% for {6} sec. "
+                },
+                "1": {
+                    "Hash": 2138003806,
+                    "Id": "390612",
+                    "Spec": "Frost",
+                    "Text": "Places a Frost Bomb on the target. After {1} sec, the bomb explodes, dealing {2} Frost damage to the target and {3} Frost damage to all other enemies within {4} yards. All affected targets are slowed by {5}% for {6} sec. \r\n\r\nIf Frost Bomb is dispelled before it explodes, gain a charge of Brain Freeze."
                 }
             }
         },
         "85": {
             "Hash": 2997713548,
-            "Name": "Крижана зірка",
+            "Name": "Frost Nova",
             "Descriptions": {
                 "0": {
                     "Hash": 317376368,
                     "Id": "122",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Підриває ворогів в радіусі {1} м від вас, завдаючи {2} шкоди від магії холоду і приморожуючи їх на місці на {3} сек. Шкода перериває ефект примороження."
+                    "Text": "Blasts enemies within {1} yds of you for {2} Frost damage and freezes them in place for {3} sec. Damage may interrupt the freeze effect."
                 }
             }
         },
         "86": {
             "Hash": 971802050,
-            "Name": "Обмороження",
+            "Name": "Frostbite",
             "Descriptions": {
                 "0": {
                     "Hash": 96083047,
                     "Id": "378756",
                     "Spec": "Frost",
-                    "Text": "Ваш ефект [Холоднеча] має {1}% шанс приморозити ціль на {2} сек."
+                    "Text": "Gives your Chill effects a {1}% chance to freeze the target for {2} sec."
                 }
             }
         },
         "87": {
             "Hash": 1064463860,
-            "Name": "Крижана стріла",
+            "Name": "Frostbolt",
             "Descriptions": {
                 "0": {
                     "Hash": 3861519146,
                     "Id": "116",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Запускає крижану стрілу у ворога, завдаючи {1} шкоди від магії холоду та сповільнюючи його на {2}% протягом {3} сек."
+                    "Text": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec."
                 }
             }
         },
         "88": {
             "Hash": 1703877800,
-            "Name": "Крижана куля",
+            "Name": "Frozen Orb",
             "Descriptions": {
                 "0": {
                     "Hash": 539100097,
                     "Id": "84714",
                     "Spec": "Frost",
-                    "Text": "Запускає кулю кружляючої криги на {1} м вперед, яка завдає до {2} шкоди від магії холоду всім ворогам на своєму шляху. Здійснює зменшену шкоду більше як {3} цілям. Коли куля вперше завдає шкоду, ви отримуєте {4} {declension|заряд|заряди|зарядів} ефекту [Морозні пальці].\n\nВороги вражені [Крижана Куля] сповільнюються на {5}% протягом {6} сек."
+                    "Text": "Launches an orb of swirling ice up to {1} yards forward which deals up to {2} Frost damage to all enemies it passes through. Deals reduced damage beyond {3} targets. Grants {4} charge of Fingers of Frost when it first damages an enemy.\n\nEnemies damaged by the Frozen Orb are slowed by {5}% for {6} sec."
+                },
+                "1": {
+                    "Hash": 1331632203,
+                    "Id": "84714",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Launches an orb of swirling ice up to {1} yards forward which deals up to {2} Frost damage to all enemies it passes through over {3} sec. Deals reduced damage beyond {4} targets. Grants {5} charge of Fingers of Frost when it first damages an enemy.\r\n\r\nEnemies damaged by the Frozen Orb are slowed by {6}% for {7} sec."
                 }
             }
         },
         "89": {
             "Hash": 654872872,
-            "Name": "Крижаний дотик",
+            "Name": "Frozen Touch",
             "Descriptions": {
                 "0": {
                     "Hash": 657483145,
                     "Id": "205030",
                     "Spec": "Frost",
-                    "Text": "[Крижана стріла] дає вам [Морозні пальці] і [Замороження Мозку] на {1}% частіше."
+                    "Text": "Frostbolt grants you Fingers of Frost and Brain Freeze {1}% more often."
                 }
             }
         },
         "90": {
             "Hash": 27103902,
-            "Name": "Льодовиковий штурм",
+            "Name": "Glacial Assault",
             "Descriptions": {
                 "0": {
                     "Hash": 74349306,
                     "Id": "378947",
                     "Spec": "Frost",
-                    "Text": "[Шквал] має {1}% шансу кожного разу, коли завдає шкоди, прикликати крижану комету, що розлітається у вашу ціль і ворогів поряд, завдаючи {2} шкоди від магії холоду."
+                    "Text": "Flurry has a {1}% chance each hit to call down an icy comet, crashing into your target and nearby enemies for {2} Frost damage."
                 }
             }
         },
         "91": {
             "Hash": 1375451002,
-            "Name": "Льодовий шип",
+            "Name": "Glacial Spike",
             "Descriptions": {
                 "0": {
                     "Hash": 4195934321,
                     "Id": "199786",
                     "Spec": "Frost",
-                    "Text": "Начакловує величезний шип з криги, який вбирає в себе всі [Бурульки]. Він пронизує вашу ціль, завдаючи {1} шкоди плюс всю шкоду накопичену з ваших [Бурульки], та приморожує ціль до місця на {2} сек. Шкода перериває ефект примороження.\n\nПотребує для застосування {3} [Бурульки].\n\n{FFFFFFFF|Пасивно:} [Крижаний Спис] більше не запускає [Бурульки]."
+                    "Text": "Conjures a massive spike of ice, and merges your current Icicles into it. It impales your target, dealing {1} damage plus all of the damage stored in your Icicles, and freezes the target in place for {2} sec. Damage may interrupt the freeze effect.\n\nRequires {3} Icicles to cast.\n\n{FFFFFFFF|Passive:} Ice Lance no longer launches Icicles."
                 }
             }
         },
         "92": {
             "Hash": 3662983656,
-            "Name": "Кришталева гармата",
+            "Name": "Glass Cannon",
             "Descriptions": {
                 "0": {
                     "Hash": 155053777,
                     "Id": "390428",
                     "Spec": "Fire",
-                    "Text": "Підвищує шкоду ваших [Вогняний шар] і [Опік] на {1}%, але зменшує ваш максимальний рівень здоров'я на {2}%.\n"
+                    "Text": "Increases damage of Fireball and Scorch by {1}% but decreases your maximum health by {2}%.\n"
+                },
+                "1": {
+                    "Hash": 4203894921,
+                    "Id": "390428",
+                    "Spec": "Fire",
+                    "Text": "Increases damage of Fireball, Scorch, and Ignite by {1}% but decreases your maximum health by {2}%."
                 }
             }
         },
         "93": {
             "Hash": 1444838141,
-            "Name": "Покращена невидимість",
+            "Name": "Greater Invisibility",
             "Descriptions": {
                 "0": {
                     "Hash": 3769095989,
                     "Id": "110959",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Робить вас невидимим і не дозволяє взяти вас за ціль протягом {1} сек, знімаючи усю загрозу. Будь-яка ваша дія знімає цей ефект.\n\nВи отримуєте на {2}% зменшену шкоду коли невидимі та ще {3} сек після появи."
+                    "Text": "Makes you invisible and untargetable for {1} sec, removing all threat. Any action taken cancels this effect.\n\nYou take {2}% reduced damage while invisible and for {3} sec after reappearing."
                 }
             }
         },
         "94": {
             "Hash": 3631617947,
-            "Name": "Велика вогняна брила",
+            "Name": "Greater Pyroblast",
             "Descriptions": {
                 "0": {
                     "Hash": 1199862737,
                     "Id": "203286",
                     "Spec": "Fire",
-                    "Text": "Уражує ціль величезною вогняною брилою, що завдає шкоду від вогню в об'ємі {1}% від загального здоров'я цілі."
+                    "Text": "Hurls an immense fiery boulder that deals up to {1}% of the target's total health in Fire damage."
                 }
             }
         },
         "95": {
             "Hash": 2825177131,
-            "Name": "Град",
+            "Name": "Hailstones",
             "Descriptions": {
                 "0": {
                     "Hash": 2740400380,
                     "Id": "381244",
                     "Spec": "Frost",
-                    "Text": "Застосовуючи [Крижаний Спис] по заморожених цілях, ви маєте {1}% шанс створити [Бурулька]."
+                    "Text": "Casting Ice Lance on Frozen targets has a {1}% chance to generate an Icicle."
                 }
             }
         },
         "96": {
             "Hash": 3311591279,
-            "Name": "Гармонічне відлуння",
+            "Name": "Harmonic Echo",
             "Descriptions": {
                 "0": {
                     "Hash": 900033610,
                     "Id": "384683",
                     "Spec": "Arcane",
-                    "Text": "Завдаючи шкоди ворогам з ефектом [Яскравий Спалах], ви випускаєте відлуння до вашої поточної цілі та {1} найближчих ворогів, яке їм завдає {2}% цієї шкоди."
+                    "Text": "Damage dealt to enemies affected by Radiant Spark's vulnerability echo to your current enemy target and {1} nearby enemies for {2}% of the damage dealt."
                 }
             }
         },
         "97": {
             "Hash": 3949158488,
-            "Name": "Спалах успіху",
+            "Name": "Hot Streak",
             "Descriptions": {
                 "0": {
                     "Hash": 2639030321,
                     "Id": "195283",
                     "Spec": "Fire",
-                    "Text": "Коли ви завдаєте дві підряд критичних шкоди Вогняними закляттями, ви зможете застосувати ваші наступні [Вогняна брила] або [Вогняний Удар] миттєво, і завдати подвійної шкоди від [Підпал]."
+                    "Text": "Getting two direct-damage critical strikes in a row with Fire spells will make your next Pyroblast or Flamestrike spell instant cast, and cause double the normal Ignite damage."
                 }
             }
         },
         "98": {
             "Hash": 4082010343,
-            "Name": "Перегрів",
+            "Name": "Hyperthermia",
             "Descriptions": {
                 "0": {
                     "Hash": 2170477792,
                     "Id": "383860",
                     "Spec": "Fire",
-                    "Text": "Коли [Спалах успіху] активується, ви маєте невеликий шанс, що ваші [Вогняна брила] і [Вогняний Удар] застосуються миттєво і гарантовано завдадуть критичну шкоду впродовж {1} сек."
+                    "Text": "When Hot Streak activates, you have a low chance to cause all Pyroblasts and Flamestrikes to have no cast time and be guaranteed critical strikes for {1} sec."
                 }
             }
         },
         "99": {
             "Hash": 1201359262,
-            "Name": "Крижаний бар'єр",
+            "Name": "Ice Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 3692424387,
                     "Id": "11426",
                     "Spec": "Frost",
-                    "Text": "Покриває вас крижаним щитом, що поглинає {1} шкоди протягом {2} сек.\n\nАтаки ближнього бою зменшують швидкість пересування атакувальника на {3}%."
+                    "Text": "Shields you with ice, absorbing {1} damage for {2} sec.\n\nMelee attacks against you reduce the attacker's movement speed by {3}%."
+                },
+                "1": {
+                    "Hash": 4235439475,
+                    "Id": "11426",
+                    "Spec": "Frost",
+                    "Text": "Shields you with ice, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you reduce the attacker's movement speed by {3}%."
                 }
             }
         },
         "100": {
             "Hash": 2866896268,
-            "Name": "Крижана перешкода",
+            "Name": "Ice Block",
             "Descriptions": {
                 "0": {
                     "Hash": 2715203795,
                     "Id": "45438",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Вас охоплює крига, захищаючи вас від усіх атак і шкоди протягом {1} сек, але упродовж цього часу ви не можете атакувати, рухатись або застосовувати закляття.\n\nВикликає [Переохолодження], що запобігає повторному накладанню [Крижана Перешкода] на {2} сек."
+                    "Text": "Encases you in a block of ice, protecting you from all attacks and damage for {1} sec, but during that time you cannot attack, move, or cast spells.\n\nCauses Hypothermia, preventing you from recasting Ice Block for {2} sec."
                 }
             }
         },
         "101": {
             "Hash": 3652702906,
-            "Name": "Закликач криги",
+            "Name": "Ice Caller",
             "Descriptions": {
                 "0": {
                     "Hash": 3240247080,
                     "Id": "236662",
                     "Spec": "Frost",
-                    "Text": "Кожного разу коли [Заметіль] завдає шкоду, [Крижана Куля] відновлюється на {1} сек."
+                    "Text": "Each time Blizzard deals damage, the cooldown of Frozen Orb is reduced by {1} sec."
                 }
             }
         },
         "102": {
             "Hash": 1340137720,
-            "Name": "Крижаний дрейф",
+            "Name": "Ice Floes",
             "Descriptions": {
                 "0": {
                     "Hash": 4009529784,
                     "Id": "108839",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Дозволяє застосувати вашу наступну класове заклинання, з часом застосування менше {1} сек, під час руху. Не впливає на глобальне відновлення і може застосовуватись під час застосування іншої здібності."
+                    "Text": "Makes your next Mage spell with a cast time shorter than {1} sec castable while moving. Unaffected by the global cooldown and castable while casting."
                 }
             }
         },
         "103": {
             "Hash": 3797702469,
-            "Name": "Форма криги",
+            "Name": "Ice Form",
             "Descriptions": {
                 "0": {
                     "Hash": 1117511808,
                     "Id": "198144",
                     "Spec": "Frost",
-                    "Text": "Ваше тіло перетворюється в кригу, що збільшує шкоду від [Крижана стріла] на {1}% і дає вам імунітет до ефектів оглушення та відкидання. Триває {2} сек."
+                    "Text": "Your body turns into Ice, increasing your Frostbolt damage done by {1}% and granting immunity to stun and knockback effects. Lasts {2} sec."
                 }
             }
         },
         "104": {
             "Hash": 2377116024,
-            "Name": "Крижаний спис",
+            "Name": "Ice Lance",
             "Descriptions": {
                 "0": {
                     "Hash": 1983275785,
                     "Id": "30455",
                     "Spec": "Frost",
-                    "Text": "Уламок, що швидко летить у ціль, завдаючи їй {1} шкоди від магії холоду.\n\nШкода [Крижаного Списа] потроюється проти заморожених цілей."
+                    "Text": "Quickly fling a shard of ice at the target, dealing {1} Frost damage.\n\nIce Lance damage is tripled against frozen targets."
                 }
             }
         },
         "105": {
             "Hash": 614419905,
-            "Name": "Крижана зірка",
+            "Name": "Ice Nova",
             "Descriptions": {
                 "0": {
                     "Hash": 610264721,
                     "Id": "157997",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Здіймає вихор крижаного вітру навколо ворога, завдаючи цілі {1} шкоди від магії холоду та зменшеної шкоди всім ворогам в радіусі {2} м та приморожує їх на місці на {3} сек."
+                    "Text": "Causes a whirl of icy wind around the enemy, dealing {1} Frost damage to the target and reduced damage to all other enemies within {2} yards, and freezing them in place for {3} sec."
                 }
             }
         },
         "106": {
             "Hash": 2996157677,
-            "Name": "Крижана стіна",
+            "Name": "Ice Wall",
             "Descriptions": {
                 "0": {
                     "Hash": 3062881320,
                     "Id": "352278",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Начакловує стіну з криги, довжиною {1} м, що перекриває поле зору. Стіна має {2}% від вашого максимального здоров'я і зникає через {3} сек."
+                    "Text": "Conjures an Ice Wall {1} yards long that obstructs line of sight. The wall has {2}% of your maximum health and lasts up to {3} sec."
                 }
             }
         },
         "107": {
             "Hash": 3029837027,
-            "Name": "Крижаний оберіг",
+            "Name": "Ice Ward",
             "Descriptions": {
                 "0": {
                     "Hash": 600375132,
                     "Id": "205036",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "[Крижана Зірка] тепер має {1} {declension|заряд|заряди|зарядів}."
+                    "Text": "Frost Nova now has {1} charges."
                 }
             }
         },
         "108": {
             "Hash": 3666503350,
-            "Name": "Крижаний рушій",
+            "Name": "Icy Propulsion",
             "Descriptions": {
                 "0": {
                     "Hash": 2121504124,
                     "Id": "378433",
                     "Spec": "Frost",
-                    "Text": "Ваша критична шкода від одно-цільових заклять, відновлює [Крижані Вени] на {1} сек."
+                    "Text": "Your damaging single target spell critical hits reduce the cooldown of Icy Veins by {1} sec."
                 }
             }
         },
         "109": {
             "Hash": 1631111665,
-            "Name": "Стигла кров",
+            "Name": "Icy Veins",
             "Descriptions": {
                 "0": {
                     "Hash": 2423306653,
                     "Id": "12472",
                     "Spec": "Frost",
-                    "Text": "Пришвидшує застосування заклинань протягом {1} сек, збільшуючи вашу швидкість на {2}% та запобігаючи затримкам під час застосування заклинань."
+                    "Text": "Accelerates your spellcasting for {1} sec, granting {2}% haste and preventing damage from delaying your spellcasts."
                 }
             }
         },
         "110": {
             "Hash": 823965382,
-            "Name": "Осяяні думки",
+            "Name": "Illuminated Thoughts",
             "Descriptions": {
                 "0": {
                     "Hash": 959646110,
                     "Id": "384060",
                     "Spec": "Arcane",
-                    "Text": "[Чистий Розум] має {1}% підвищеного шансу на спрацювання."
+                    "Text": "Clearcasting has a {1}% increased chance to proc."
                 }
             }
         },
         "111": {
             "Hash": 3298526963,
-            "Name": "Стимул",
+            "Name": "Impetus",
             "Descriptions": {
                 "0": {
                     "Hash": 992307469,
                     "Id": "383676",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Спалах] має {1}% шансу згенерувати додатковий [Таємний Заряд]. Якщо ви вже отримали максимальну кількість зарядів, то ваша шкода від таємної магії збільшується на {2}% протягом {3} сек. "
+                    "Text": "Arcane Blast has a {1}% chance to generate an additional Arcane Charge. If you were to gain an Arcane Charge while at maximum charges instead gain {2}% Arcane damage for {3} sec. "
                 }
             }
         },
         "112": {
             "Hash": 1598933520,
-            "Name": "Покращені таємні стріли",
+            "Name": "Improved Arcane Missiles",
             "Descriptions": {
                 "0": {
                     "Hash": 1927097672,
                     "Id": "383661",
                     "Spec": "Arcane",
-                    "Text": "Підвищує шкоду від [Таємних ракет] на {1}%."
+                    "Text": "Increases Arcane Missiles damage by {1}%.\n"
                 }
             }
         },
         "113": {
             "Hash": 27510237,
-            "Name": "Покращений чистий розум",
+            "Name": "Improved Clearcasting",
             "Descriptions": {
                 "0": {
                     "Hash": 2646613450,
                     "Id": "321420",
                     "Spec": "Arcane",
-                    "Text": "[Чистий Розум] накопичується додатково {1} {declension|раз|рази|разів}."
+                    "Text": "Clearcasting can stack up to {1} additional times."
                 }
             }
         },
         "114": {
             "Hash": 3431079628,
-            "Name": "Покращене спалення",
+            "Name": "Improved Combustion",
             "Descriptions": {
                 "0": {
                     "Hash": 1495101974,
                     "Id": "383967",
                     "Spec": "Fire",
-                    "Text": "[Спалення] підвищує Майстерність у розмірі {1}% від поточного показника Критичного Удару і триває на {2} сек довше. "
+                    "Text": "Combustion grants Mastery equal to {1}% of your Critical Strike stat and lasts {2} sec longer. "
                 }
             }
         },
         "115": {
             "Hash": 3379287791,
-            "Name": "Покращений вогняний удар",
+            "Name": "Improved Flamestrike",
             "Descriptions": {
                 "0": {
                     "Hash": 1032082044,
                     "Id": "343230",
                     "Spec": "Fire",
-                    "Text": "Тривалість застосування [Вогняний Удар] зменшується на {1} сек, а його радіус збільшується на {2}%."
+                    "Text": "Flamestrike's cast time is reduced by {1} sec and its radius is increased by {2}%."
                 }
             }
         },
         "116": {
             "Hash": 3419144962,
-            "Name": "Покращена крижана зірка",
+            "Name": "Improved Frost Nova",
             "Descriptions": {
                 "0": {
                     "Hash": 1581536856,
                     "Id": "343183",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Тривалість [Крижана Зірка] збільшується на {1} сек."
+                    "Text": "Frost Nova duration is increased by {1} sec."
                 }
             }
         },
         "117": {
             "Hash": 798861457,
-            "Name": "Покращений призматичний бар'єр",
+            "Name": "Improved Prismatic Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 215988502,
                     "Id": "321745",
                     "Spec": "Arcane",
-                    "Text": "[Призматичний Бар'єр] додатково зменшує вхідну магічну шкоду на {1}%, а тривалість шкідливих магічних ефектів на {2}%."
+                    "Text": "Prismatic Barrier further reduces magical damage taken by an additional {1}% and duration of harmful Magic effects by {2}%."
                 }
             }
         },
         "118": {
             "Hash": 1851162262,
-            "Name": "Покращений опік",
+            "Name": "Improved Scorch",
             "Descriptions": {
                 "0": {
                     "Hash": 2908736345,
                     "Id": "383604",
                     "Spec": "Fire",
-                    "Text": "Застосовуючи [Опік] по цілях в яких менше {1}% здоров'я підвищує отримувану шкоду по цілі на {2}% на {3} сек., складається до {4} раз.\n\nДодатково, критична шкода від [Опік] підвищує вашу швидкість пересування на {5}% протягом {6} сек."
+                    "Text": "Casting Scorch on targets below {1}% health increase the target's damage taken from you by {2}% for {3} sec, stacking up to {4} times. \n\nAdditionally, Scorch critical strikes increase your movement speed by {5}% for {6} sec."
                 }
             }
         },
         "119": {
             "Hash": 2816122391,
-            "Name": "Чари стрімкості",
+            "Name": "Incantation of Swiftness",
             "Descriptions": {
                 "0": {
                     "Hash": 411150793,
                     "Id": "382293",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "[Невидимість] підвищує швидкість вашого руху на {1}% на {2} сек."
+                    "Text": "Invisibility increases your movement speed by {1}% for {2} sec."
                 }
             }
         },
         "120": {
             "Hash": 2179282672,
-            "Name": "Чарівний потік",
+            "Name": "Incanter's Flow",
             "Descriptions": {
                 "0": {
                     "Hash": 2289602703,
                     "Id": "1463",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Під час бою, вас надихає чарівна енергія, що збільшує вашу шкоду на {1}%, а потім кожні {3} сек поступово затухає до {2}% посилення шкоди."
+                    "Text": "Magical energy flows through you while in combat, building up to {1}% increased damage and then diminishing down to {2}% increased damage, cycling every {3} sec."
                 }
             }
         },
         "121": {
             "Hash": 3193507799,
-            "Name": "Запальні виверження",
+            "Name": "Incendiary Eruptions",
             "Descriptions": {
                 "0": {
                     "Hash": 3710689890,
                     "Id": "383665",
                     "Spec": "Fire",
-                    "Text": "Вороги уражені [Вогняний слід] з ймовірністю {1}% перетворюються на [Жива Бомба]."
+                    "Text": "Enemies damaged by Flame Patch have a {1}% chance to erupt into a Living Bomb."
                 }
             }
         },
         "122": {
             "Hash": 2114855429,
-            "Name": "Невидимість",
+            "Name": "Invisibility",
             "Descriptions": {
                 "0": {
                     "Hash": 1176292467,
                     "Id": "66",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Робить вас невидимим на {1} сек, щосекунди зменшуючи загрозу. Коли діє невидимість, ви стаєте недосяжними для ворогів. Триває {2} сек. Будь-яка дія знімає цей ефект."
+                    "Text": "Turns you invisible over {1} sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts {2} sec. Taking any action cancels the effect."
                 }
             }
         },
         "123": {
             "Hash": 761206673,
-            "Name": "Розпалювання",
+            "Name": "Kindling",
             "Descriptions": {
                 "0": {
                     "Hash": 3899603222,
                     "Id": "155148",
                     "Spec": "Fire",
-                    "Text": "Критичні удари ваших [Вогняний шар], [Вогняна брила], [Вогняний вибух] та [Полум'я Фенікса] зменшують час відновлення вашого [Спалення] на {1} сек."
+                    "Text": "Your Fireball, Pyroblast, Fire Blast, and Phoenix Flames critical strikes reduce the remaining cooldown on Combustion by {1} sec."
                 }
             }
         },
         "124": {
             "Hash": 1778911868,
-            "Name": "Клептоманія",
+            "Name": "Kleptomania",
             "Descriptions": {
                 "0": {
                     "Hash": 2200078284,
                     "Id": "198100",
                     "Spec": "Arcane",
-                    "Text": "[Викрадення чарів] викрадає всі закляття з цілі й тепер має {1} сек часу відновлення, та витрачає на {2}% більше мани."
+                    "Text": "Spellsteal steals all spells from the target, now has a {1} sec cooldown and costs {2}% more mana."
+                },
+                "1": {
+                    "Hash": 1517683997,
+                    "Id": "198100",
+                    "Spec": "Arcane",
+                    "Text": "Unleash a flurry of disruptive magic onto your target, stealing a beneficial magic effect every {1} sec for {2} sec.\r\n\r\nCastable while moving, but movement speed is reduced by {3}% while channeling."
                 }
             }
         },
         "125": {
             "Hash": 626985761,
-            "Name": "Жива бомба",
+            "Name": "Living Bomb",
             "Descriptions": {
                 "0": {
                     "Hash": 1839315277,
                     "Id": "44457",
                     "Spec": "Fire",
-                    "Text": "Ціль перетворюється на живу бомбу, отримуючи {1} шкоди від вогню протягом {2} сек, а потім вибухає і додатково завдає {3} шкоди від вогню собі та зменшену шкоду усім ворогам в радіусі {4} м.\n\nІнші вороги, уражені вибухом, також стають живими бомбами, але далі ефект не розповсюджується."
+                    "Text": "The target becomes a Living Bomb, taking {1} Fire damage over {2} sec, and then exploding to deal an additional {3} Fire damage to the target and reduced damage to all other enemies within {4} yards.\n\nOther enemies hit by this explosion also become a Living Bomb, but this effect cannot spread further."
                 }
             }
         },
         "126": {
             "Hash": 2753829889,
-            "Name": "Самотня зима",
+            "Name": "Lonely Winter",
             "Descriptions": {
                 "0": {
                     "Hash": 3691120990,
                     "Id": "205024",
                     "Spec": "Frost",
-                    "Text": "[Крижана стріла], [Крижаний Спис] і [Шквал] завдають {1}% підвищеної шкоди. "
+                    "Text": "Frostbolt, Ice Lance, and Flurry deal {1}% increased damage. "
                 }
             }
         },
         "127": {
             "Hash": 1311139401,
-            "Name": "Мана адепт",
+            "Name": "Mana Adept",
             "Descriptions": {
                 "0": {
                     "Hash": 2725268434,
                     "Id": "321526",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Обстріл] відновлює вам {1}% від максимальної мани за кожен витрачений [Таємний заряд]."
+                    "Text": "Arcane Barrage grants you {1}% of your maximum mana per Arcane Charge spent."
                 }
             }
         },
         "128": {
             "Hash": 2853531595,
-            "Name": "Масова невидимість",
+            "Name": "Mass Invisibility",
             "Descriptions": {
                 "0": {
                     "Hash": 3853030862,
                     "Id": "198158",
                     "Spec": "Arcane",
-                    "Text": "Ви та ваші союзники в радіусі {1} м стаєте невидимими на {2} сек. Завдання шкоди знімає цей ефект."
+                    "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Dealing damage will cancel the effect."
+                },
+                "1": {
+                    "Hash": 2602828930,
+                    "Id": "198158",
+                    "Spec": "Arcane",
+                    "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Taking any action will cancel the effect."
                 }
             }
         },
         "129": {
             "Hash": 3163116016,
-            "Name": "Масове перетворення",
+            "Name": "Mass Polymorph",
             "Descriptions": {
                 "0": {
                     "Hash": 3262789278,
                     "Id": "383121",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Перетворює всіх ворогів в радіусі {1} м в овець, що бігають довкола дезорієнтованими упродовж {2} хв. Під час перетворення, жертви не можуть робити жодної дії, але швидко відновлюють здоров'я. Шкода знімає цей ефект.\n\nПрацює тільки на Звірів, Гуманоїдів і Створінь."
+                    "Text": "Transforms all enemies within {1} yards into sheep, wandering around incapacitated for {2} min. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\n\nOnly works on Beasts, Humanoids and Critters."
                 }
             }
         },
         "130": {
             "Hash": 3761079608,
-            "Name": "Масове уповільнення",
+            "Name": "Mass Slow",
             "Descriptions": {
                 "0": {
                     "Hash": 2815400065,
                     "Id": "391102",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Уповільнення застосовується на всіх ворогів в радіусі {1} м від цілі."
+                    "Text": "Slow applies to all enemies within {1} yds of your target."
                 }
             }
         },
         "131": {
             "Hash": 900429365,
-            "Name": "Майстер втечі",
+            "Name": "Master of Escape",
             "Descriptions": {
                 "0": {
                     "Hash": 1275037747,
                     "Id": "210476",
                     "Spec": "Arcane",
-                    "Text": "Зменшує час відновлення [Покращена Невидимість] на {1} сек."
+                    "Text": "Reduces the cooldown of Greater Invisibility by {1} sec."
                 }
             }
         },
         "132": {
             "Hash": 841672273,
-            "Name": "Повелитель вогню",
+            "Name": "Master of Flame",
             "Descriptions": {
                 "0": {
                     "Hash": 2643855956,
                     "Id": "384174",
                     "Spec": "Fire",
-                    "Text": "Коли [Спалення] неактивно, [Підпал] завдає на {1}% більше шкоди. [Вогняний вибух] накладає [Підпал] на {2} {declension|додаткову ціль|додаткові цілі|додаткових цілей} під час [Спалення]."
+                    "Text": "Ignite deals {1}% more damage while Combustion is not active. Fire Blast spreads Ignite to {2} additional nearby targets during Combustion."
                 }
             }
         },
         "133": {
             "Hash": 2885108757,
-            "Name": "Повелитель часу",
+            "Name": "Master of Time",
             "Descriptions": {
                 "0": {
                     "Hash": 2129826534,
                     "Id": "342249",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Зменшує час відновлення [Маніпуляція часом] на {1} сек.\n\n[Маніпуляція часом] відновлює [Стрибок], коли ви повертаєтесь у початкове місце."
+                    "Text": "Reduces the cooldown of Alter Time by {1} sec. \n\nAlter Time resets the cooldown of Blink when you return to your original location."
                 }
             }
         },
         "134": {
             "Hash": 4238303216,
-            "Name": "Майстерність: Бурульки",
+            "Name": "Mastery: Icicles",
             "Descriptions": {
                 "0": {
                     "Hash": 584446297,
                     "Id": "76613",
                     "Spec": "Frost",
-                    "Text": "Застосовуючи [Крижана стріла] або [Шквал] вам дається [Бурулька]. Застосовуючи [Крижаний Спис], ви запускаєте [Бурульки] у ціль, кожна з яких завдає {1} шкоди від магії холоду.\n\nМожна накопичити до {2} [Бурульки]. Кожна надлишкова [Бурулька] автоматично буде запущена.\n\n[Крижана Куля] завдає на {3}% більше шкоди."
+                    "Text": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\n\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\n\nIncreases the damage of Frozen Orb by {3}%."
                 }
             }
         },
         "135": {
             "Hash": 3430506994,
-            "Name": "Майстерність: Підпал",
+            "Name": "Mastery: Ignite",
             "Descriptions": {
                 "0": {
                     "Hash": 3146286782,
                     "Id": "12846",
                     "Spec": "Fire",
-                    "Text": "Ваша ціль згорає на додаткові {1}% протягом {2} сек від загальної прямої шкоди, спричиненої [Вогняний шар], [Вогняний вибух], [Опік], [Вогняна брила], [Полум'я Фенікса] і [Вогняний Удар]. Якщо накласти цей ефект повторно, то уся залишкова шкода перейде до нового [Підпал].\n\nШкода від [Підпал] має {3}% шанс відновити [Вогняний вибух] на {4} сек.\n\n[Вогняний вибух] розповсюджує ваш [Підпал] на {5} ворогів поблизу."
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\n\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\n\nFire Blast causes your Ignites to spread to {5} nearby enemies."
                 }
             }
         },
         "136": {
             "Hash": 3703122243,
-            "Name": "Майстерність: Вчений",
+            "Name": "Mastery: Savant",
             "Descriptions": {
                 "0": {
                     "Hash": 1420453063,
                     "Id": "190740",
                     "Spec": "Arcane",
-                    "Text": "Збільшує вашу швидкість відновлення мани та її максимальний запас на {1}%.\n\n[Таємний заряд] додатково збільшує шкоду від [Таємний Спалах] на {2}%, а від [Таємний Обстріл] на {3}%.\n\nЗбільшує усю іншу шкоду від таємної магії на {4}%."
+                    "Text": "Increases your Mana regeneration rate and maximum Mana by {1}%.\n\nArcane Charges increase the damage of Arcane Blast by an additional {2}% and Arcane Barrage by {3}%.\n\nIncreases all other Arcane damage by {4}%"
                 }
             }
         },
         "137": {
             "Hash": 3303574511,
-            "Name": "Метеор",
+            "Name": "Meteor",
             "Descriptions": {
                 "0": {
                     "Hash": 789541432,
                     "Id": "153561",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Викликає метеор, що приземлюється на ціль через {1} сек, завдаючи {2} шкоди від вогню, поділено порівну між усіма цілями в радіусі {3} м, та підпалює землю, завдаючи {4} шкоди від вогню упродовж {5} сек усім ворогам в цій області. "
+                    "Text": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage, split evenly between all targets within {3} yards, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area. "
                 }
             }
         },
         "138": {
             "Hash": 4081973918,
-            "Name": "Дзеркальна копія",
+            "Name": "Mirror Image",
             "Descriptions": {
                 "0": {
                     "Hash": 2669221501,
                     "Id": "55342",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Створює {1} {declension|копію|копії|копій} поблизу вас на {2} сек, які застосовують чари та атакують ваших ворогів.\n\nПоки копії активні, вхідна шкода зменшується на {3}%. Отримання прямої шкоди призведе до зникнення однієї з копій."
+                    "Text": "Creates {1} copies of you nearby for {2} sec, which cast spells and attack your enemies.\n\nWhile your images are active damage taken is reduced by {3}%. Taking direct damage will cause one of your images to dissipate."
                 }
             }
         },
         "139": {
             "Hash": 2352217700,
-            "Name": "Позавимірна влучність",
+            "Name": "Nether Precision",
             "Descriptions": {
                 "0": {
                     "Hash": 3272442103,
                     "Id": "383782",
                     "Spec": "Arcane",
-                    "Text": "Поглинання ефекту [Чистий Розум] збільшує шкоду від {1} {declension|вашого наступного|ваших наступних|ваших наступних} [Таємний Спалах] на {2}%."
+                    "Text": "Consuming Clearcasting increases the damage of your next {1} Arcane Blasts by {2}%."
                 }
             }
         },
         "140": {
             "Hash": 2881810189,
-            "Name": "Позавимірний буревій",
+            "Name": "Nether Tempest",
             "Descriptions": {
                 "0": {
                     "Hash": 1074866132,
                     "Id": "114923",
                     "Spec": "Arcane",
-                    "Text": "Насилає на ціль позавимірний буревій, який завдає цілі та ворогам в радіусі {3} м {1} шкоди від таємної магії протягом {2} сек. Максимум цілей - {4}. Завдає зменшену шкоду неосновній цілі.\n\nШкода збільшується на {5}% за кожен [Таємний заряд]."
+                    "Text": "Places a Nether Tempest on the target which deals {1} Arcane damage over {2} sec to the target and nearby enemies within {3} yards. Limit {4} target. Deals reduced damage to secondary targets.\n\nDamage increased by {5}% per Arcane Charge."
                 }
             }
         },
         "141": {
             "Hash": 150335343,
-            "Name": "Броня вітру потойбіччя",
+            "Name": "Netherwind Armor",
             "Descriptions": {
                 "0": {
                     "Hash": 2219409373,
                     "Id": "198062",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Зменшує шанс отримання критичної шкоди на {1}%."
+                    "Text": "Reduces the chance you will suffer a critical strike by {1}%."
                 }
             }
         },
         "142": {
             "Hash": 139957487,
-            "Name": "Обстріл Сферами",
+            "Name": "Orb Barrage",
             "Descriptions": {
                 "0": {
                     "Hash": 262106483,
                     "Id": "384858",
                     "Spec": "Arcane",
-                    "Text": "Поглинання ефекту [Чистий Розум] зменшує час відновлення [Таємна Сфера] на {1} сек.\n\nЗастосувавши [Таємні Стріли] {2} {declension|раз|рази|разів} ви випускаєте у ворога [Таємна Сфера]. [Таємні Стріли] застосовані під дією ефекту [Чистий Розум] рахуються за {3} застосування."
+                    "Text": "Consuming Clearcasting reduces the cooldown of Arcane Orb by {1} sec.\n\nAdditionally, casting Arcane Missiles {2} times fires an Arcane Orb toward your target. Clearcast Arcane Missiles count as {3}."
                 }
             }
         },
         "143": {
             "Hash": 1582611899,
-            "Name": "Переповнення енергію",
+            "Name": "Overflowing Energy",
             "Descriptions": {
                 "0": {
                     "Hash": 797741481,
                     "Id": "390218",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Критична шкода ваших заклять збільшується на {1}%. Коли ви не завдаєте критичної шкоди по цілі, шанс завдати критичну шкоду закляттями зростає на {2}%, максимум до {3}%, кожні {4} сек.\n\nКоли ваші закляття завдають критичну шкоду, [Переповнення Енергію] відновлюється."
+                    "Text": "Your spell critical strike damage is increased by {1}%. When your direct damage spells fail to critically strike a target, your spell critical strike chance is increased by {2}%, up to {3}% for {4} sec. \n\nWhen your spells critically strike Overflowing Energy is reset."
                 }
             }
         },
         "144": {
             "Hash": 96902268,
-            "Name": "Вічна мерзлота",
+            "Name": "Perpetual Winter",
             "Descriptions": {
                 "0": {
                     "Hash": 2266633478,
                     "Id": "378198",
                     "Spec": "Frost",
-                    "Text": "[Шквал] тепер має {1} {declension|заряд|заряди|зарядів}. "
+                    "Text": "Flurry now has {1} charges. "
                 }
             }
         },
         "145": {
             "Hash": 911649662,
-            "Name": "Полум'я фенікса",
+            "Name": "Phoenix Flames",
             "Descriptions": {
                 "0": {
                     "Hash": 2891768493,
                     "Id": "257541",
                     "Spec": "Fire",
-                    "Text": "Випускає Фенікса, який завдає цілі {1} шкоди від вогню, і зменшену шкоду усім ворогам неподалік."
+                    "Text": "Hurls a Phoenix that deals {1} Fire damage to the target and reduced damage to other nearby enemies."
                 }
             }
         },
         "146": {
             "Hash": 1164896451,
-            "Name": "Переродження фенікса",
+            "Name": "Phoenix Reborn",
             "Descriptions": {
                 "0": {
                     "Hash": 984487303,
                     "Id": "383476",
                     "Spec": "Fire",
-                    "Text": "Цілі з ефектом [Підпал] мають шанс спалахнути полум'ям, що завдає їм {1} шкоди від вогню та відновлює [Полум'я Фенікса] на {2} сек."
+                    "Text": "Targets affected by your Ignite have a chance to erupt in flame, taking {1} additional Fire damage and reducing the remaining cooldown of Phoenix Flames by {2} sec."
                 }
             }
         },
         "147": {
             "Hash": 1528729225,
-            "Name": "Пронизливий холод",
+            "Name": "Piercing Cold",
             "Descriptions": {
                 "0": {
                     "Hash": 3416752198,
                     "Id": "378919",
                     "Spec": "Frost",
-                    "Text": "Критична шкода від [Крижана стріла] та [Бурульки] збільшується на {1}%."
+                    "Text": "Frostbolt and Icicle critical strike damage increased by {1}%."
                 }
             }
         },
         "148": {
             "Hash": 3654443259,
-            "Name": "Перетворення",
+            "Name": "Polymorph",
             "Descriptions": {
                 "0": {
                     "Hash": 2950974949,
                     "Id": "118",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Перетворює ворога у вівцю, що бігає довкола дезорієнтованим впродовж {1} сек. Під час перетворення, жертва не може робити жодну дію, але швидко відновлює своє здоров'я. Шкода знімає цей ефект. Ліміт - {2}.\n\nСпрацьовує тільки на Звірів, Гуманоїдів і Створінь."
+                    "Text": "Transforms the enemy into a sheep, wandering around incapacitated for {1} sec. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\n\nOnly works on Beasts, Humanoids and Critters."
+                },
+                "1": {
+                    "Hash": 3474086681,
+                    "Id": "118",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters."
                 }
             }
         },
         "149": {
             "Hash": 2430382557,
-            "Name": "Портал",
+            "Name": "Portal",
             "Descriptions": {
                 "0": {
                     "Hash": 279943217,
                     "Id": "343140",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Створює портал, що телепортує учасників групи, які ним скористалися, до Столиці."
+                    "Text": "Creates a portal, teleporting group members that use it to a Major City."
                 }
             }
         },
         "150": {
             "Hash": 2345603525,
-            "Name": "Передбачення",
+            "Name": "Precognition",
             "Descriptions": {
                 "0": {
                     "Hash": 525859810,
                     "Id": "377360",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Коли на вас накладають ефект переривання, а ви не застосовуєте здібність, ви отримуєте {1}% швидкості та імунітет до ефектів контролю, переривань і затримки застосування на {2} сек."
+                    "Text": "If an interrupt is used on you while you are not casting, gain {1}% Haste and become immune to crowd control, interrupt, and cast pushback effects for {2} sec."
                 }
             }
         },
         "151": {
             "Hash": 1270254495,
-            "Name": "Величність розуму",
+            "Name": "Presence of Mind",
             "Descriptions": {
                 "0": {
                     "Hash": 630443350,
                     "Id": "205025",
                     "Spec": "Arcane",
-                    "Text": "Дозволяє миттєво застосувати {1} {declension|ваш наступний|ваші наступні|ваших наступних} [Таємний Спалах]."
+                    "Text": "Causes your next {1} Arcane Blasts to be instant cast."
                 }
             }
         },
         "152": {
             "Hash": 2800922759,
-            "Name": "Призматичний бар'єр",
+            "Name": "Prismatic Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 1864666807,
                     "Id": "235450",
                     "Spec": "Arcane",
-                    "Text": "Вас оточує щит таємної магії, який поглинає {1} шкоди та зменшує вхідну магічну шкоду на {2}% протягом {3} сек.\n\nТривалість шкідливих магічних ефектів на вас зменшується на {4}%."
+                    "Text": "Shields you with an arcane force, absorbing {1} damage and reducing magic damage taken by {2}% for {3} sec.\n\nThe duration of harmful Magic effects against you is reduced by {4}%."
+                },
+                "1": {
+                    "Hash": 2116916460,
+                    "Id": "235450",
+                    "Spec": "Arcane",
+                    "Text": "Shields you with an arcane force, absorbing {1} damage and reducing magic damage taken by {2}% for {3} min.\r\n\r\nThe duration of harmful Magic effects against you is reduced by {4}%."
                 }
             }
         },
         "153": {
             "Hash": 2196625649,
-            "Name": "Призматична мантія",
+            "Name": "Prismatic Cloak",
             "Descriptions": {
                 "0": {
                     "Hash": 3430804728,
                     "Id": "198064",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Після вашого [Стрибку], ви отримуєте на {1}% менше магічної шкоди на {2} сек."
+                    "Text": "After you Blink, you take {1}% less magical damage for {2} sec."
                 }
             }
         },
         "154": {
             "Hash": 3340170278,
-            "Name": "Дивовижний мислитель",
+            "Name": "Prodigious Savant",
             "Descriptions": {
                 "0": {
                     "Hash": 786509081,
                     "Id": "384612",
                     "Spec": "Arcane",
-                    "Text": "[Таємний заряд] збільшує бонус Майстерності при застосуванні [Таємний Спалах] і [Таємний Обстріл] на {1}%."
+                    "Text": "Arcane Charges further increase Mastery effectiveness of Arcane Blast and Arcane Barrage by {1}%."
                 }
             }
         },
         "155": {
             "Hash": 3010396726,
-            "Name": "Вогняна брила",
+            "Name": "Pyroblast",
             "Descriptions": {
                 "0": {
                     "Hash": 3571899136,
                     "Id": "11366",
                     "Spec": "Fire",
-                    "Text": "Випускає величезну вогняну брилу, що завдає {1} шкоди від вогню."
+                    "Text": "Hurls an immense fiery boulder that causes {1} Fire damage."
                 }
             }
         },
         "156": {
             "Hash": 2589131500,
-            "Name": "Піроклазм",
+            "Name": "Pyroclasm",
             "Descriptions": {
                 "0": {
                     "Hash": 2464719013,
                     "Id": "269650",
                     "Spec": "Fire",
-                    "Text": "Після поглинання ефекту [Спалах успіху], ви маєте {1}% шанс, що ваша наступна [Вогняна брила] впродовж {2} сек, що застосовується не миттєво, завдасть на {3}% більше шкоди.\n\nНакопичується до {4} разів."
+                    "Text": "Consuming Hot Streak has a {1}% chance to make your next non-instant Pyroblast cast within {2} sec deal {3}% additional damage.\n\nMaximum {4} stacks."
                 }
             }
         },
         "157": {
             "Hash": 4227632411,
-            "Name": "Пірокінез",
+            "Name": "Pyrokinesis",
             "Descriptions": {
                 "0": {
                     "Hash": 1323899970,
                     "Id": "203283",
                     "Spec": "Fire",
-                    "Text": "Ваш [Вогняний шар] зменшує час відновлення [Спалення] на {1} сек."
+                    "Text": "Your Fireball reduces the cooldown of your Combustion by {1} sec."
                 }
             }
         },
         "158": {
             "Hash": 2262389093,
-            "Name": "Піроман",
+            "Name": "Pyromaniac",
             "Descriptions": {
                 "0": {
                     "Hash": 3643039084,
                     "Id": "205020",
                     "Spec": "Fire",
-                    "Text": "Застосування [Вогняна брила] або [Вогняний Удар] під час дії [Спалах успіху] має {1} шанс повторно активувати [Спалах успіху]."
+                    "Text": "Casting Pyroblast or Flamestrike while Hot Streak is active has an {1}% chance to instantly reactivate Hot Streak."
                 }
             }
         },
         "159": {
             "Hash": 1528389215,
-            "Name": "Піротехніка",
+            "Name": "Pyrotechnics",
             "Descriptions": {
                 "0": {
                     "Hash": 924082195,
                     "Id": "157642",
                     "Spec": "Fire",
-                    "Text": "Кожен раз, коли [Вогняний шар] не завдає критичну шкоду, його ймовірність критичної шкоди зростає на {1}%. Ефект накопичується. Дія ефекту закінчується, коли [Вогняний шар] завдає критичну шкоду."
+                    "Text": "Each time your Fireball fails to critically strike a target, it gains a stacking {1}% increased critical strike chance. Effect ends when Fireball critically strikes."
                 }
             }
         },
         "160": {
             "Hash": 2254965102,
-            "Name": "Кмітливий розум",
+            "Name": "Quick Witted",
             "Descriptions": {
                 "0": {
                     "Hash": 343844484,
                     "Id": "382297",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Коли ви успішно перериваєте застосування здібності ворога за допомогою [Контрчари], їх час відновлення зменшується на {1} сек."
+                    "Text": "Successfully interrupting an enemy with Counterspell reduces its cooldown by {1} sec."
                 }
             }
         },
         "161": {
             "Hash": 2714259285,
-            "Name": "Яскравий спалах",
+            "Name": "Radiant Spark",
             "Descriptions": {
                 "0": {
                     "Hash": 4047209724,
                     "Id": "376103",
                     "Spec": "Arcane",
-                    "Text": "Створює яскравий спалах, який завдає {1} шкоди від таємної магії, і додатково {2} шкоди протягом {3} сек.\n\nЦілі отримують на {4}% більше шкоди від усіх заклять, що завдають миттєву шкоду. Накопичується при кожному влучанні. Ефект спадає після {5} заклинань.\n"
+                    "Text": "Conjure a radiant spark that causes {1} Arcane damage instantly, and an additional {2} damage over {3} sec.\n\nThe target takes {4}% increased damage from your direct damage spells, stacking each time they are struck. This effect ends after {5} spells.\n"
                 }
             }
         },
         "162": {
             "Hash": 42466441,
-            "Name": "Морозний промінь",
+            "Name": "Ray of Frost",
             "Descriptions": {
                 "0": {
                     "Hash": 3234187381,
                     "Id": "205021",
                     "Spec": "Frost",
-                    "Text": "Ви випускаєте морозний промінь у ворога упродовж {1} сек, завдаючи {2} шкоди від магії холоду кожні {3} сек, та сповільнює її швидкість пересування на {4}%. Кожного разу коли [Морозний промінь] завдає шкоду, його шкода й сповільнення збільшуються на {5}%.\n\nГенерує {6} зарядів [Морозні пальці] протягом дії."
+                    "Text": "Channel an icy beam at the enemy for {1} sec, dealing {2} Frost damage every {3} sec and slowing movement by {4}%. Each time Ray of Frost deals damage, its damage and snare increases by {5}%.\n\nGenerates {6} charges of Fingers of Frost over its duration."
                 }
             }
         },
         "163": {
             "Hash": 15290498,
-            "Name": "Повторне поглинання",
+            "Name": "Reabsorption",
             "Descriptions": {
                 "0": {
                     "Hash": 2282389815,
                     "Id": "382820",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Кожен раз, коли [Дзеркальна копія] отримує направлену шкоду, ви зцілюєтесь на {1}% від вашого максимального здоров'я."
+                    "Text": "You are healed for {1}% of your maximum health whenever a Mirror Image dissipates due to direct damage."
                 }
             }
         },
         "164": {
             "Hash": 3160031634,
-            "Name": "Копії копій",
+            "Name": "Reduplication",
             "Descriptions": {
                 "0": {
                     "Hash": 720048906,
                     "Id": "382569",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Щоразу, коли [Дзеркальна копія] щезає через отриману шкоду, [Дзеркальна копія] відновлюється на {1} сек."
+                    "Text": "Mirror Image's cooldown is reduced by {1} sec whenever a Mirror Image dissipates due to direct damage."
                 }
             }
         },
         "165": {
             "Hash": 2526429699,
-            "Name": "Зняття прокляття",
+            "Name": "Remove Curse",
             "Descriptions": {
                 "0": {
                     "Hash": 651675212,
                     "Id": "475",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Знімає усі Прокляття з дружньої цілі. "
+                    "Text": "Removes all Curses from a friendly target. "
                 }
             }
         },
         "166": {
             "Hash": 1276415081,
-            "Name": "Резонанс",
+            "Name": "Resonance",
             "Descriptions": {
                 "0": {
                     "Hash": 296574184,
                     "Id": "205028",
                     "Spec": "Arcane",
-                    "Text": "[Таємний Обстріл] завдає на {1}% більше шкоди за кожну уражену ціль."
+                    "Text": "Arcane Barrage deals {1}% increased damage per target it hits."
                 }
             }
         },
         "167": {
             "Hash": 3001992456,
-            "Name": "Відлуння",
+            "Name": "Reverberate",
             "Descriptions": {
                 "0": {
                     "Hash": 2155286604,
                     "Id": "281482",
                     "Spec": "Arcane",
-                    "Text": "Коли [Таємний Вибух] вражає принаймні {1} {declension|ціль|цілі|цілей}, він має {2}% шанс створити додатковий [Таємний заряд]."
+                    "Text": "If Arcane Explosion hits at least {1} targets, it has a {2}% chance to generate an extra Arcane Charge."
                 }
             }
         },
         "168": {
             "Hash": 229979501,
-            "Name": "Міцна Крига",
+            "Name": "Rigid Ice",
             "Descriptions": {
                 "0": {
                     "Hash": 2145452839,
                     "Id": "382481",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "[Крижана Зірка] може витримати на {1}% більше шкоди перед руйнуванням."
+                    "Text": "Frost Nova can withstand {1}% more damage before breaking."
                 }
             }
         },
         "169": {
             "Hash": 3587416472,
-            "Name": "Вогняне кільце",
+            "Name": "Ring of Fire",
             "Descriptions": {
                 "0": {
                     "Hash": 1417585587,
                     "Id": "353082",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Створює в цільовій області вогняне кільце на {1} сек. Вороги що знаходяться всередині кільця палають і отримують шкоду, в об'ємі {2}% від їх максимального здоров'я упродовж {3} сек."
+                    "Text": "Summons a Ring of Fire for {1} sec at the target location. Enemies entering the ring burn for {2}% of their total health over {3} sec."
                 }
             }
         },
         "170": {
             "Hash": 2223961444,
-            "Name": "Крижане кільце",
+            "Name": "Ring of Frost",
             "Descriptions": {
                 "0": {
                     "Hash": 2673830774,
                     "Id": "113724",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Створює в цільовій області крижане кільце на {1} сек. Вороги, що входять в кільце дезорієнтуються на {2} сек. Максимум цілей - {3}.\n\nКоли дезорієнтація проходить, вороги сповільнюються на {4}% протягом {5} сек."
+                    "Text": "Summons a Ring of Frost for {1} sec at the target location. Enemies entering the ring are incapacitated for {2} sec. Limit {3} targets.\n\nWhen the incapacitate expires, enemies are slowed by {4}% for {5} sec."
                 }
             }
         },
         "171": {
             "Hash": 1386002166,
-            "Name": "Правило трійці",
+            "Name": "Rule of Threes",
             "Descriptions": {
                 "0": {
                     "Hash": 2229775208,
                     "Id": "264354",
                     "Spec": "Arcane",
-                    "Text": "Коли ви отримуєте ваш третій [Таємний заряд], ваш наступний [Таємний Спалах] або [Таємні Стріли] витратять на {1}% менше мани."
+                    "Text": "When you gain your third Arcane Charge, the cost of your next Arcane Blast or Arcane Missiles is reduced by {1}%."
                 }
             }
         },
         "172": {
             "Hash": 1193963980,
-            "Name": "Руна сили",
+            "Name": "Rune of Power",
             "Descriptions": {
                 "0": {
                     "Hash": 1090202290,
                     "Id": "116011",
                     "Spec": "Fire",
-                    "Text": "Розміщує на землю [Руна Сили] на {1} сек, яка збільшує шкоду від заклять на {2}%, коли ви стоїте радіусі {3} м від неї.\n\nЗастосування [Спалення] також створить [Руна Сили] на вашому місці."
+                    "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Combustion will also create a Rune of Power at your location."
                 },
                 "1": {
                     "Hash": 151525376,
                     "Id": "116011",
                     "Spec": "Frost",
-                    "Text": "Розміщує на землю [Руна Сили] на {1} сек, яка збільшує шкоду від заклять на {2}%, коли ви стоїте радіусі {3} м від неї.\n\nЗастосування [Стигла кров] також створить [Руна Сили] на вашому місці."
+                    "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Icy Veins will also create a Rune of Power at your location."
                 },
                 "2": {
                     "Hash": 1655383777,
                     "Id": "116011",
                     "Spec": "Arcane",
-                    "Text": "Розміщує на землю [Руна Сили] на {1} сек, яка збільшує шкоду від заклять на {2}%, коли ви стоїте радіусі {3} м від неї.\n\nЗастосування [Таємна Сила] також створить [Руна Сили] на вашому місці."
+                    "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Arcane Power will also create a Rune of Power at your location."
                 }
             }
         },
         "173": {
             "Hash": 3755510276,
-            "Name": "Опік",
+            "Name": "Scorch",
             "Descriptions": {
                 "0": {
                     "Hash": 693732538,
                     "Id": "2948",
                     "Spec": "Fire",
-                    "Text": "Обпалює ворога, завдаючи {1} шкоди від вогню. Можна застосовувати під час руху."
+                    "Text": "Scorches an enemy for {1} Fire damage. Castable while moving."
                 }
             }
         },
         "174": {
             "Hash": 3923592668,
-            "Name": "Обпікаючий дотик",
+            "Name": "Searing Touch",
             "Descriptions": {
                 "0": {
                     "Hash": 4232502400,
                     "Id": "269644",
                     "Spec": "Fire",
-                    "Text": "[Опік] завдає на {1}% більше шкоди та гарантовано завдає критичну шкоду коли в цілі менше {2}% здоров'я."
+                    "Text": "Scorch deals {1}% increased damage and is a guaranteed Critical Strike when the target is below {2}% health."
                 }
             }
         },
         "175": {
             "Hash": 4048630080,
-            "Name": "Друзки",
+            "Name": "Shatter",
             "Descriptions": {
                 "0": {
                     "Hash": 4010497904,
                     "Id": "12982",
                     "Spec": "Frost",
-                    "Text": "Примножує шанс критичної шкоди ваших заклять по заморожених цілях на {1}, і додатково збільшує шанс критичної шкоди на {2}%."
+                    "Text": "Multiplies the critical strike chance of your spells against frozen targets by {1}, and adds an additional {2}% critical strike chance."
                 }
             }
         },
         "176": {
             "Hash": 84439404,
-            "Name": "Зсувна сила",
+            "Name": "Shifting Power",
             "Descriptions": {
                 "0": {
                     "Hash": 2497482586,
                     "Id": "382440",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Викликає силу Нічних Фей, завдаючи {1} шкоди від сил природи за {2} сек ворогам в радіусі {3} м.\n\nПід час підтримання, відновлення ваших класових здібностей зменшується на {4} сек упродовж {5} сек."
+                    "Text": "Draw power from the Night Fae, dealing {1} Nature damage over {2} sec to enemies within {3} yds. \n\nWhile channeling, your Mage ability cooldowns are reduced by {4} sec over {5} sec."
                 }
             }
         },
         "177": {
             "Hash": 4219198252,
-            "Name": "Мерехтіння",
+            "Name": "Shimmer",
             "Descriptions": {
                 "0": {
                     "Hash": 1706565029,
                     "Id": "212653",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Переносить вас вперед на {1} м або до найближчої перешкоди. Не впливає на глобальне відновлення і може застосовуватись під час застосування іншої здібності."
+                    "Text": "Teleports you {1} yards forward, unless something is in the way. Unaffected by the global cooldown and castable while casting."
                 }
             }
         },
         "178": {
             "Hash": 2976358326,
-            "Name": "Буревій магічної енергії",
+            "Name": "Siphon Storm",
             "Descriptions": {
                 "0": {
                     "Hash": 3605876656,
                     "Id": "384187",
                     "Spec": "Arcane",
-                    "Text": "[Втілення] дає {1} [Таємний заряд], а під час підтримання [Втілення] ваш інтелект зростає на {2}% кожні {3} сек. Тривалість - {4} сек."
+                    "Text": "Evocation grants {1} Arcane Charge, and while channeling Evocation, your Intellect is increased by {2}% every {3} sec. Lasts {4} sec."
                 }
             }
         },
         "179": {
             "Hash": 1943396707,
-            "Name": "Слизька Крига",
+            "Name": "Slick Ice",
             "Descriptions": {
                 "0": {
                     "Hash": 3743029746,
                     "Id": "382144",
                     "Spec": "Frost",
-                    "Text": "Доки діє [Стигла кров], кожна застосована [Крижана стріла] зменшує час застосування [Крижана стріла] на {1}% і збільшує її шкоду на {2}%. Накопичується до {3} разів."
+                    "Text": "While Icy Veins is active, each Frostbolt you cast reduces the cast time of Frostbolt by {1}% and increases its damage by {2}%, stacking up to {3} times."
                 }
             }
         },
         "180": {
             "Hash": 3433953180,
-            "Name": "Вихровий потік",
+            "Name": "Slipstream",
             "Descriptions": {
                 "0": {
                     "Hash": 3286205533,
                     "Id": "236457",
                     "Spec": "Arcane",
-                    "Text": "[Чистий Розум] дозволяє застосовувати [Таємні Стріли] під час руху.\n\n[Втілення] можна підтримувати під час руху."
+                    "Text": "Clearcasting allows Arcane Missiles to be channeled while moving.\n\nEvocation can be channeled while moving."
                 }
             }
         },
         "181": {
             "Hash": 2207858937,
-            "Name": "Сповільнення",
+            "Name": "Slow",
             "Descriptions": {
                 "0": {
                     "Hash": 2036051214,
                     "Id": "31589",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Зменшує швидкість руху цілі на {1}% упродовж {2} сек. "
+                    "Text": "Reduces the target's movement speed by {1}% for {2} sec. "
                 }
             }
         },
         "182": {
             "Hash": 165204220,
-            "Name": "Сповільнене падіння",
+            "Name": "Slow Fall",
             "Descriptions": {
                 "0": {
                     "Hash": 2184818116,
                     "Id": "130",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Уповільнює падіння учасника групи на {1} сек."
+                    "Text": "Slows a group member's falling speed for {1} sec."
                 }
             }
         },
         "183": {
             "Hash": 1840042188,
-            "Name": "Миттєве заморожування",
+            "Name": "Snap Freeze",
             "Descriptions": {
                 "0": {
                     "Hash": 2925314458,
                     "Id": "378901",
                     "Spec": "Frost",
-                    "Text": "[Стигла кров] дає заряд [Замороження Мозку] і [Морозні пальці]."
+                    "Text": "Icy Veins grants a charge of Brain Freeze and Fingers of Frost."
                 }
             }
         },
         "184": {
             "Hash": 4084997906,
-            "Name": "Сніговий замет",
+            "Name": "Snowdrift",
             "Descriptions": {
                 "0": {
                     "Hash": 463875511,
                     "Id": "389794",
                     "Spec": "Frost",
-                    "Text": "Викликає потужну хуртовину, яка кружляє навколо вас упродовж {1} сек, та сповільнює ворогів на {2}% та завдає {3} шкоди від магії холоду кожні {4} сек.\n\nВороги, що потрапили в [Сніговий Замет] на {5} сек поступово примерзають в кризі та оглушуються на {6} сек."
+                    "Text": "Summon a strong Blizzard that surrounds you for {1} sec that slows enemies by {2}% and deals {3} Frost damage every {4} sec. \n\nEnemies that are caught in Snowdrift for {5} sec consecutively become Frozen in ice, stunned for {6} sec."
                 }
             }
         },
         "185": {
             "Hash": 2403734348,
-            "Name": "Завірюха",
+            "Name": "Snowstorm",
             "Descriptions": {
                 "0": {
                     "Hash": 1197325124,
                     "Id": "381706",
                     "Spec": "Frost",
-                    "Text": "[Заметіль] має шанс {1}% збільшити шкоду вашого [Конус Холоду] на {2}%. Накопичується до {3} разів."
+                    "Text": "Blizzard has an {1}% chance to increase the damage of your next Cone of Cold by {2}%, stacking up to {3} times."
                 }
             }
         },
         "186": {
             "Hash": 251910624,
-            "Name": "Викрадення чарів",
+            "Name": "Spellsteal",
             "Descriptions": {
                 "0": {
                     "Hash": 1952514390,
                     "Id": "30449",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Краде корисний магічний ефект з цілі. Цей ефект діє максимум {1} хв. "
+                    "Text": "Steals a beneficial magic effect from the target. This effect lasts a maximum of {1} min. "
                 }
             }
         },
         "187": {
             "Hash": 3684035811,
-            "Name": "Дошкульний холод",
+            "Name": "Splintering Cold",
             "Descriptions": {
                 "0": {
                     "Hash": 3120131520,
                     "Id": "379049",
                     "Spec": "Frost",
-                    "Text": "[Крижана стріла] та [Шквал] мають шанс {1}% згенерувати {2} [Бурульки]."
+                    "Text": "Frostbolt and Flurry have a {1}% chance to generate {2} Icicles."
                 }
             }
         },
         "188": {
             "Hash": 3078050998,
-            "Name": "Розколота крига",
+            "Name": "Splitting Ice",
             "Descriptions": {
                 "0": {
                     "Hash": 3481930234,
                     "Id": "56377",
                     "Spec": "Frost",
-                    "Text": "Ваші [Крижаний Спис] та [Бурульки] тепер завдають на {1}% більше шкоди та вражають ще одну ціль поруч на {2}% від їх шкоди.\n\nВаші [Стріла темної криги] та [Льодовий Шип] теж вражають ціль поруч на {3}% від їх шкоди."
+                    "Text": "Your Ice Lance and Icicles now deal {1}% increased damage, and hit a second nearby target for {2}% of their damage.\n\nYour Ebonbolt and Glacial Spike also hit a second nearby target for {3}% of its damage."
                 }
             }
         },
         "189": {
             "Hash": 2538976491,
-            "Name": "Нижче Нуля",
+            "Name": "Subzero",
             "Descriptions": {
                 "0": {
                     "Hash": 3753110842,
                     "Id": "380154",
                     "Spec": "Frost",
-                    "Text": "Ваші закляття Льоду завдають на {1}% більше шкоди знерухомленим або замороженим цілям."
+                    "Text": "Your Frost spells deal {1}% more damage to targets that are rooted and frozen."
                 }
             }
         },
         "190": {
             "Hash": 3126716342,
-            "Name": "Виклик водяного елементаля",
+            "Name": "Summon Water Elemental",
             "Descriptions": {
                 "0": {
                     "Hash": 2522316193,
                     "Id": "31687",
                     "Spec": "Frost",
-                    "Text": "Викликає Водяного Елементаля, що слідує за вами та бореться за вас."
+                    "Text": "Summons a Water Elemental to follow and fight for you."
                 }
             }
         },
         "191": {
             "Hash": 2580887394,
-            "Name": "Благословення сонячного короля",
+            "Name": "Sun King's Blessing",
             "Descriptions": {
                 "0": {
                     "Hash": 528630471,
                     "Id": "383886",
                     "Spec": "Fire",
-                    "Text": "Після споживання {1} ефекту [Спалах успіху], ваші наступні [Вогняна брила] або [Вогняний Удар], що застосовані не миттєво впродовж {2} сек, дають вам ефект [Спалення] на {3} сек."
+                    "Text": "After consuming {1} Hot Streaks, your next non-instant Pyroblast or Flamestrike cast within {2} sec grants you Combustion for {3} sec."
                 }
             }
         },
         "192": {
             "Hash": 3742468294,
-            "Name": "Наднова",
+            "Name": "Supernova",
             "Descriptions": {
                 "0": {
                     "Hash": 139635301,
                     "Id": "157980",
                     "Spec": "Arcane",
-                    "Text": "Випромінює таємну енергію навколо цільового ворога або союзника, завдаючи {1} шкоди від таємної магії усім ворогам в радіусі {2} м і підкидає їх у повітря. Основна ворожа ціль отримає на {3}% більше шкоди."
+                    "Text": "Pulses arcane energy around the target enemy or ally, dealing {1} Arcane damage to all enemies within {2} yards, and knocking them upward. A primary enemy target will take {3}% increased damage."
                 }
             }
         },
         "193": {
             "Hash": 1402497497,
-            "Name": "Телепорт",
+            "Name": "Teleport",
             "Descriptions": {
                 "0": {
                     "Hash": 2504863905,
                     "Id": "343127",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Телепортує вас до Столиці."
+                    "Text": "Teleports you to a major city."
                 }
             }
         },
         "194": {
             "Hash": 1252914044,
-            "Name": "Загартоване полум'я",
+            "Name": "Tempered Flames",
             "Descriptions": {
                 "0": {
                     "Hash": 4123970367,
                     "Id": "383659",
                     "Spec": "Fire",
-                    "Text": "[Вогняна брила] застосовується на {1}% швидше і має збільшену ймовірність критичної шкоди на {2}%. Тривалість [Спалення] зменшується на {3}%. "
+                    "Text": "Pyroblast has a {1}% reduced cast time and a {2}% increased critical strike chance. The duration of Combustion is reduced by {3}%. "
                 }
             }
         },
         "195": {
             "Hash": 3208019213,
-            "Name": "Бар'єр бурі",
+            "Name": "Tempest Barrier",
             "Descriptions": {
                 "0": {
                     "Hash": 2011218606,
                     "Id": "382289",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Після вашого [Стрибок], ви отримуєте щит, що поглинає шкоду, в об'ємі {1}% від вашого максимального здоров'я впродовж {2} сек."
+                    "Text": "Gain a shield that absorbs {1}% of your maximum health for {2} sec after you Blink."
                 }
             }
         },
         "196": {
             "Hash": 1297001288,
-            "Name": "Часовий щит",
+            "Name": "Temporal Shield",
             "Descriptions": {
                 "0": {
                     "Hash": 2958666238,
                     "Id": "198111",
                     "Spec": "Arcane",
-                    "Text": "Вкриває вас часовим щитом на {1} сек. По закінченню дії щита, ви відновите здоров'я в об'ємі {2}% від отриманої шкоди під час його дії."
+                    "Text": "Envelops you in a temporal shield for {1} sec. {2}% of all damage taken while shielded will be instantly restored when the shield ends."
                 }
             }
         },
         "197": {
             "Hash": 1385427485,
-            "Name": "Прискорення часу",
+            "Name": "Temporal Velocity",
             "Descriptions": {
                 "0": {
                     "Hash": 3842169893,
                     "Id": "382826",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Після застосування [Стрибок] ваша швидкість пересування збільшується на {1}% протягом {2} сек, а після повернення через [Маніпуляція часом] на {3}% протягом {4} сек."
+                    "Text": "Increases your movement speed by {1}% for {2} sec after casting Blink and {3}% for {4} sec after returning from Alter Time."
                 }
             }
         },
         "198": {
             "Hash": 732198221,
-            "Name": "Деформація часу",
+            "Name": "Temporal Warp",
             "Descriptions": {
                 "0": {
                     "Hash": 1678243044,
                     "Id": "386539",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Коли на вас діє [Часовий Зсув] або інший схожий ефект, ви можете скористатись [Викривлення Часу], щоб отримати {1}% Швидкості на {2} сек."
+                    "Text": "While you have Temporal Displacement or other similar effects, you may use Time Warp to grant yourself {1}% Haste for {2} sec."
                 }
             }
         },
         "199": {
             "Hash": 870272592,
-            "Name": "Теплова порожнеча",
+            "Name": "Thermal Void",
             "Descriptions": {
                 "0": {
                     "Hash": 2163870387,
                     "Id": "155149",
                     "Spec": "Frost",
-                    "Text": "[Стигла кров] триває на {1} сек довше.\n\nВаш [Крижаний Спис], застосований проти заморожених цілей, подовжує дію [Стигла кров] на додаткові {2} сек."
+                    "Text": "Icy Veins' duration is increased by {1} sec.\n\nYour Ice Lances against frozen targets extend your Icy Veins by an additional {2} sec."
                 }
             }
         },
         "200": {
             "Hash": 885276350,
-            "Name": "Часова аномалія",
+            "Name": "Time Anomaly",
             "Descriptions": {
                 "0": {
                     "Hash": 3507122350,
                     "Id": "383243",
                     "Spec": "Fire",
-                    "Text": "В будь-який момент, ви маєте шанс отримати [Спалення] на {1} сек, {2} {declension|заряд|заряди|зарядів} [Вогняний вибух] або [Викривлення Часу] на {3} сек."
+                    "Text": "At any moment, you have a chance to gain Combustion for {1} sec, {2} Fire Blast charge, or Time Warp for {3} sec."
                 },
                 "1": {
                     "Hash": 4101830287,
                     "Id": "383243",
                     "Spec": "Frost",
-                    "Text": "В будь-який момент, ви маєте шанс отримати [Стигла кров] на {1} сек, [Морозні пальці], або [Викривлення Часу] на {2} сек."
+                    "Text": "At any moment, you have a chance to gain Icy Veins for {1} sec, Fingers of Frost, or Time Warp for {2} sec."
                 },
                 "2": {
                     "Hash": 1234119253,
                     "Id": "383243",
                     "Spec": "Arcane",
-                    "Text": "В будь-який момент, ви маєте шанс отримати [Таємний Сплеск] на {1} сек, [Чистий Розум], або [Викривлення Часу] на {2} сек."
+                    "Text": "At any moment, you have a chance to gain Arcane Surge for {1} sec, Clearcasting, or Time Warp for {2} sec."
                 }
             }
         },
         "201": {
             "Hash": 4284803817,
-            "Name": "Маніпуляція часом",
+            "Name": "Time Manipulation",
             "Descriptions": {
                 "0": {
                     "Hash": 1115443503,
                     "Id": "387807",
                     "Spec": "Fire",
-                    "Text": "Застосування [Вогняний вибух] зменшує час відновлення ваших здібностей втрати контролю на {1} сек."
+                    "Text": "Casting Fire Blast reduces the cooldown of your loss of control abilities by {1} sec."
                 },
                 "1": {
                     "Hash": 669062225,
                     "Id": "387807",
                     "Spec": "Frost",
-                    "Text": "Застосування [Крижаний Спис] по заморожених цілях, зменшує час відновлення ваших здібностей втрати контролю на {1} сек."
+                    "Text": "Casting Ice Lance on Frozen targets reduces the cooldown of your loss of control abilities by {1} sec."
                 },
                 "2": {
                     "Hash": 2080053492,
                     "Id": "387807",
                     "Spec": "Arcane",
-                    "Text": "Застосування [Таємні Стріли] під дією [Чистий Розум] зменшує час відновлення ваших здібностей втрати контролю на {1} сек."
+                    "Text": "Casting Clearcasting Arcane Missiles reduces the cooldown of your loss of control abilities by {1} sec."
                 }
             }
         },
         "202": {
             "Hash": 3291337090,
-            "Name": "Викривлення часу",
+            "Name": "Time Warp",
             "Descriptions": {
                 "0": {
                     "Hash": 3876086991,
                     "Id": "80353",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Деформує тік часу, підвищуючи швидкість на {1}% для усіх учасників групи або рейду на {2} сек.\n\nСоюзники не зможуть знову отримати користь від [Жаги Крові], [Героїзму] або [Деформації Часу] упродовж {3} хв."
+                    "Text": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\n\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min."
                 }
             }
         },
         "203": {
             "Hash": 120691073,
-            "Name": "Том Антонідаса",
+            "Name": "Tome of Antonidas",
             "Descriptions": {
                 "0": {
                     "Hash": 2983489357,
                     "Id": "382490",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Збільшує Швидкість на {1}%. "
+                    "Text": "Increases Haste by {1}%. "
                 }
             }
         },
         "204": {
             "Hash": 2416554279,
-            "Name": "Том Роніна",
+            "Name": "Tome of Rhonin",
             "Descriptions": {
                 "0": {
                     "Hash": 673153164,
                     "Id": "382493",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Збільшує ймовірність критичної шкоди на {1}%."
+                    "Text": "Increases Critical Strike chance by {1}%."
                 }
             }
         },
         "205": {
             "Hash": 1392652019,
-            "Name": "Дотик мага",
+            "Name": "Touch of the Magi",
             "Descriptions": {
                 "0": {
                     "Hash": 3976531459,
                     "Id": "321507",
                     "Spec": "Arcane",
-                    "Text": "Застосовує [Дотик Мага] на поточну ціль, накопичуючи {1}% завданої по цілі шкоди протягом {2} сек, а потім викликає вибух, який завдає шкоду від таємної магії в об'ємі накопиченої шкоди основній цілі та зменшену шкоду усім ворогам поруч.\n\n{FFFFFFFF|Дає {3} [Таємний заряд].}"
+                    "Text": "Applies Touch of the Magi to your current target, accumulating {1}% of the damage you deal to the target for {2} sec, and then exploding for that amount of Arcane damage to the target and reduced damage to all nearby enemies.\n\n{FFFFFFFF|Generates {3} Arcane Charges.}"
                 }
             }
         },
         "206": {
             "Hash": 4197833463,
-            "Name": "Нестабільна детонація",
+            "Name": "Volatile Detonation",
             "Descriptions": {
                 "0": {
                     "Hash": 907704331,
                     "Id": "389627",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Значно збільшує ефект відштовхування від [Вибухова Хвиля], і зменшує її час відновлення на {1} сек."
+                    "Text": "Greatly increases the effect of Blast Wave's knockback. Blast Wave's cooldown is reduced by {1} seconds."
                 }
             }
         },
         "207": {
             "Hash": 2364442792,
-            "Name": "Дикий вогонь",
+            "Name": "Wildfire",
             "Descriptions": {
                 "0": {
                     "Hash": 142356036,
                     "Id": "383489",
                     "Spec": "Fire",
-                    "Text": "[Підпал] завдає на {1}% більше шкоди. Коли ви застосовуєте [Спалення], ваш показник Критичного Удару збільшується на {2}%, а показник Критичного Удару максимум {3} союзників поряд зростає на {4}% протягом {5} сек."
+                    "Text": "Ignite deals {1}% additional damage. When you activate Combustion, you gain {2}% Critical Strike, and up to {3} nearby allies gain {4}% Critical Strike for {5} sec."
                 }
             }
         },
         "208": {
             "Hash": 261199477,
-            "Name": "Захист зими",
+            "Name": "Winter's Protection",
             "Descriptions": {
                 "0": {
                     "Hash": 1413087770,
                     "Id": "382424",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Час відновлення [Крижана Перешкода] зменшується на {1} сек."
+                    "Text": "The cooldown of Ice Block is reduced by {1} sec."
                 }
             }
         },
         "209": {
             "Hash": 3982909709,
-            "Name": "Зимова пора",
+            "Name": "Wintertide",
             "Descriptions": {
                 "0": {
                     "Hash": 3160037891,
                     "Id": "378406",
                     "Spec": "Frost",
-                    "Text": "Підвищує шкоду [Крижана стріла] на {1}%. [Льодяні Пальці] дозволяють [Крижаним Списам] завдати {2}% додаткової шкоди [Замороженим] цілям."
+                    "Text": "Increases Frostbolt damage by {1}%. Fingers of Frost empowered Ice Lances deal {2}% increased damage to Frozen targets."
                 }
             }
         },
         "210": {
             "Hash": 4198870213,
-            "Name": "Світ у вогні",
+            "Name": "World in Flames",
             "Descriptions": {
                 "0": {
                     "Hash": 3586219285,
                     "Id": "203280",
                     "Spec": "Fire",
-                    "Text": "[Вогняний Удар] зменшує час застосування [Вогняний Удар] на {1}% і збільшує його шкоду на {2}% протягом {3} сек."
+                    "Text": "Flamestrike reduces the cast time of Flamestrike by {1}% and increases its damage by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 3053209303,
+                    "Id": "203280",
+                    "Spec": "Fire",
+                    "Text": "Empower Flamestrike, dealing up to {1}% more damage based on enemies' distance to the center of Flamestrike."
+                }
+            }
+        },
+        "211": {
+            "Hash": 4004570720,
+            "Name": "Master Shepherd",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1290972470,
+                    "Id": "410248",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "While an enemy player is affected by your Polymorph or Mass Polymorph, your movement speed is increased by {1}% and your Versatility is increased by {2}%. \r\n\r\nAdditionally, Polymorph and Mass Polymorph no longer heal enemies."
+                }
+            }
+        },
+        "212": {
+            "Hash": 2539701339,
+            "Name": "Ethereal Blink",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1908272563,
+                    "Id": "410939",
+                    "Spec": "Fire, Frost, Arcane",
+                    "Text": "Blink and Shimmer apply Slow at {1}% effectiveness to all enemies you Blink through. For each enemy you Blink through, the cooldown of Blink and Shimmer are reduced by {2} sec, up to {3} sec."
+                }
+            }
+        },
+        "213": {
+            "Hash": 4177481518,
+            "Name": "Icy Feet",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1607050919,
+                    "Id": "407581",
+                    "Spec": "Frost",
+                    "Text": "When your Frost Nova or Water Elemental's Freeze is dispelled or removed, become immune to snares for {1} sec. \r\n\r\nThis effect can only occur once every {2} sec."
                 }
             }
         }
