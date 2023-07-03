@@ -38,6 +38,7 @@ jobs:
           upload_sources: false
           upload_translations: false
           download_translations: true
+          export_only_approved: false
           create_pull_request: false
           push_translations: false
         env:
@@ -98,13 +99,4 @@ jobs:
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: 'Data.db'
-          
-      - name: Trigger WowUkrainizer repo to publish alpha version
-        if: steps.run_update_approved_translation_cmd.outputs.output != '0' || steps.run_update_translation_cmd.outputs.output != '0'
-        run: |
-          curl -X POST \
-          -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/Cancri55E/WowUkrainizer/actions/workflows/push-alpha.yml/dispatches \
-          -d '{"ref":"develop"}'
 
