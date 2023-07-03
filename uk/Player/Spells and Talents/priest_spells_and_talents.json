@@ -447,7 +447,7 @@
                     "Hash": 945181798,
                     "Id": "391095",
                     "Spec": "Shadow",
-                    "Text": "Your Mind Flay, Mind Spike, and Void Torrent damage increase the damage of your periodic Shadow effects by {1}%, stacking up to {2} times."
+                    "Text": "Ваші [Катування свідомості], [Пронзання свідомості] і [Потік порожнечі] збільшують шкоду від ваших періодичних ефектів темної магії на {1}%. Накопичується до {2} разів."
                 }
             }
         },
@@ -495,7 +495,7 @@
                     "Hash": 2754563921,
                     "Id": "321291",
                     "Spec": "Shadow",
-                    "Text": "If your Shadow Word: Death fails to kill a target at or below {1}% health, its cooldown is reset. Cannot occur more than once every {2} sec.  If a target dies within {3} sec after being struck by your Shadow Word: Death, you gain {4} Insanity."
+                    "Text": "Якщо ваше [Слово тіні: Смерть] не вбиває ціль, яка має здоров'я менше або дорівнює {1}%, воно миттєво відновлюється. Спрацьовує лише раз на {2} сек. Якщо ціль помирає впродовж {3} сек після ураження [Слово тіні: Смерть], ви отримуєте {4} од. безумства."
                 }
             }
         },
@@ -513,7 +513,7 @@
                     "Hash": 3035388071,
                     "Id": "392507",
                     "Spec": "Shadow",
-                    "Text": "Your Shadow Word: Pain damage has a chance to reset the cooldown of Shadow Word: Death, increase its damage by {1}%, and always deal {2}% increased damage regardless of the target's health."
+                    "Text": "Шкода від вашого [Слово тіні: Біль], має шанс миттєво відновити [Слово тіні: Смерть], збільшуючи його шкоду на {1}% та завдаючи на {2}% більше шкоди незалежно від поточного здоров'я цілі."
                 }
             }
         },
@@ -639,7 +639,7 @@
                     "Hash": 2355490522,
                     "Id": "392988",
                     "Spec": "Holy",
-                    "Text": "When you use a Holy Word spell, you summon an image of a Naaru at your side. For {1} sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\r\n\r\nIf an image has already been summoned, that image is empowered instead."
+                    "Text": "Застосування заклинань з категорії Святих слів прикликає до вас образ Наару. Наступні {1} сек, кожне закляття зцілення або завдання шкоди буде дублюватися аналогічним у Наару.\n\nЯкщо образ вже був прикликаний, то він підсилюється."
                 }
             }
         },
@@ -783,7 +783,7 @@
                     "Hash": 891878825,
                     "Id": "390685",
                     "Spec": "Discipline",
-                    "Text": "Reduces the cast time of Power Word: Radiance by {1}% and causes it to apply Atonement at an additional {2}% of its normal duration."
+                    "Text": "Зменшує час застосування [Слово сили: Сяяння] на {1}% та застосовує [Покуття] із {2}% від базової тривалості."
                 }
             }
         },
@@ -1005,7 +1005,7 @@
                     "Hash": 1556231048,
                     "Id": "280752",
                     "Spec": "Shadow",
-                    "Text": "Your successful Dispel Magic, Mass Dispel, Purify Disease, and Power Word: Shield casts generate {1} Insanity during combat."
+                    "Text": "Успішне застосування [Розвіювання чар], [Масове розвіювання], [Очищення хвороби] і [Слово сили: Щит] дає вам {1} од. безумства під час бою."
                 }
             }
         },
@@ -1197,7 +1197,7 @@
                     "Hash": 1175352,
                     "Id": "377349",
                     "Spec": "Shadow",
-                    "Text": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t {ffffffff|Mind Flay}\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|t{ffffffff|Mind Sear}\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
+                    "Text": "[Катування свідомості], [Пронзання свідомості] і [Потік порожнечі] мають шанс породити Відросток Порожнечі або Батіг Порожнечі, які підтримують [Вигорання розуму] на вашій цілі.\n\n|T136208:24|t {ffffffff|Катування свідомості}\nАтакує розум цілі темною енергією, завдаючи {1} од. шкоди від темної магії протягом {2} сек і сповільнюючи її на {3}%.\n\n|T237565:24|t{ffffffff|Вигорання свідомості}\nЦіль випромінює їдку темну енергію, що завдає {5} од. шкоди від темної магії протягом {6} сек усім ворогам в радіусі {7} м від цілі. Завдає зменшену шкоду більше як {8} цілям.\n\n{FFFFFFFF|Генерує {9} од. безумства протягом дії.}"
                 }
             }
         },
@@ -1227,7 +1227,7 @@
                     "Hash": 936258807,
                     "Id": "373310",
                     "Spec": "Shadow",
-                    "Text": "Summoning Mindbender causes you to gain a benefit based on your target's current state or increases its duration by {1} sec if no state matches.\r\n\r\n{ffffffff|Healthy}: You and your Mindbender deal {2}% additional damage.\r\n\r\n{ffffffff|Enraged}: Devours the Enraged effect, increasing your Haste by {3}%.\r\n\r\n{ffffffff|Stunned}: Generates {4} Insanity every {5} sec.\r\n\r\n{ffffffff|Feared}: You and your Mindbender deal {6}% increased damage and do not break Fear effects."
+                    "Text": "Виклик [Володар розуму] дає вам бонус залежно від поточного стану вашої цілі або збільшує його тривалість на {1} сек, якщо стани не збігаються.\n{ffffffff|Здоровий}: Ви і ваше [Володар розуму] додатково завдаєте {2}% шкоди.\n\n{ffffffff|Несамовитий}: Поглинає ефект несамовитості, збільшуючи вашу Швидкість на {3}%.\n\n{ffffffff|Оглушений}: Дає {4} од. безумства кожні {5} сек.\n\n{ffffffff|Наляканий}: Ви і ваше [Володар розуму] завдаєте на {6}% більше шкоди, і не знімаєте ефекти страху своєю шкодою."
                 }
             }
         },
@@ -1245,7 +1245,7 @@
                     "Hash": 660829474,
                     "Id": "373273",
                     "Spec": "Shadow",
-                    "Text": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for {2} sec.\r\n\r\n|T457655:24|t {ffffffff|Void Spike}\r\nHurls a bolt of dark magic, dealing {3} Shadow damage and {4} Shadow damage to all enemies within {5} yards of the target. Damage reduced beyond {6} targets."
+                    "Text": "Після виклику [Тіньові примари], ви отримуєте ефект [Ідол Йоґ-Сарона], який накопичується. На {1} екземпляр цього ефекту, ви викликаєте [Породження потойбіччя], яке застосовує [Пронзання порожнечі] у ворогів поблизу впродовж {2} сек. \n\n|T457655:24|t {ffffffff|Пронзання порожнечі}\nВипускає стрілу темної магії, завдаючи {3} од. шкоди від темної магії, а також {4} од. шкоди від темної магії усім ворогам в радіусі {5} м від цілі. Здійснює зменшену шкоду більше як {6} цілям."
                 }
             }
         },
@@ -1287,7 +1287,7 @@
                     "Hash": 1700038316,
                     "Id": "341167",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Reduces the cooldown of Mass Dispel by {1} sec and reduces its cast time by {2} sec."
+                    "Text": "Час відновлення [Масове розсіювання] зменшується на {1} сек, а його час застосування зменшується на {2} сек."
                 }
             }
         },
@@ -1353,7 +1353,7 @@
                     "Hash": 3315544667,
                     "Id": "373212",
                     "Spec": "Shadow",
-                    "Text": "While you have Shadow Word: Pain, Devouring Plague, and Vampiric Touch active on the same target, your Mind Blast and Void Torrent deal {1}% more damage."
+                    "Text": "Коли на вашу ціль одночасно діють [Слово тіні: Біль], [Ненажерна чума] і [Дотик вампіра], ваші [Вибух свідомості] та [Потік порожнечі] завдають на {1}% більше шкоди."
                 }
             }
         },
@@ -1527,7 +1527,7 @@
                     "Hash": 2826678666,
                     "Id": "391228",
                     "Spec": "Shadow",
-                    "Text": "Vampiric Touch deals {1}% additional damage and has a chance to generate {2} Insanity each time it deals damage."
+                    "Text": "[Дотик вампіра] завдає на {1}% більше шкоди та має шанс згенерувати {2} од. безумства, щоразу, коли він завдає шкоду."
                 }
             }
         },
@@ -1551,13 +1551,13 @@
                     "Hash": 1491507489,
                     "Id": "373221",
                     "Spec": "Shadow",
-                    "Text": "Зменшує час відновлення [Прокляття] і [Вихор порожнечі] на {1} сек."
+                    "Text": "Зменшує час відновлення [Прокляття] і [Потік порожнечі] на {1} сек."
                 },
                 "1": {
                     "Hash": 1463148679,
                     "Id": "373221",
                     "Spec": "Shadow",
-                    "Text": "Reduces the cooldown of Void Torrent by {1} sec."
+                    "Text": "Зменшує час відновлення [Потік порожнечі] на {1} сек."
                 }
             }
         },
@@ -1581,7 +1581,7 @@
                     "Hash": 2065579901,
                     "Id": "390996",
                     "Spec": "Shadow",
-                    "Text": "Застосування [Вибух розуму], [Катування розуму] і [Пронизування розуму] зменшують час відновлення [Ігри розуму] на {1} сек."
+                    "Text": "Застосування [Вибух розуму], [Катування свідомості] і [Пронзання свідомості] зменшують час відновлення [Ігри розуму] на {1} сек."
                 },
                 "1": {
                     "Hash": 943790426,
@@ -1665,13 +1665,13 @@
                     "Hash": 551884892,
                     "Id": "375994",
                     "Spec": "Shadow",
-                    "Text": "[Катування розуму] і [Вигорання розуму] подовжують тривалість [Слово тіні: Біль] і [Дотик вампіра] на {1} сек."
+                    "Text": "[Катування свідомості] і [Вигорання розуму] подовжують тривалість [Слово тіні: Біль] і [Дотик вампіра] на {1} сек."
                 },
                 "1": {
                     "Hash": 2649148232,
                     "Id": "375994",
                     "Spec": "Shadow",
-                    "Text": "Increases the damage of Mind Flay and Mind Spike by {1}%.\r\n\r\nThe duration of your Shadow Word: Pain and Vampiric Touch is increased by {2} sec when enemies suffer damage from Mind Flay and {3} sec when enemies suffer damage from Mind Spike."
+                    "Text": "Збільшує шкоду від [Катування свідомості] та [Пронзання свідомості] на {1}%.\n\n[Катування свідомості] подовжує тривалість ваших [Слово тіні: Біль] і [Дотик вампіра] на {2} сек, а [Пронзання свідомості] на {3} сек."
                 }
             }
         },
@@ -1689,13 +1689,13 @@
                     "Hash": 3492406291,
                     "Id": "377065",
                     "Spec": "Shadow",
-                    "Text": "Healing from Vampiric Touch and Devouring Plague when you are at maximum health will shield you for the same amount. The shield cannot exceed {1}% of your maximum health."
+                    "Text": "Надлишкове зцілення від [Дотик вампіра] і [Ненажерна чума] накладає на вас щит, що поглинає шкоду в об'ємі надлишкового зцілення. Щит поглинає не більше {1}% від вашого максимального здоров'я."
                 }
             }
         },
         "127": {
             "Hash": 3354524246,
-            "Name": "Вибух Розуму",
+            "Name": "Вибух свідомості",
             "Descriptions": {
                 "0": {
                     "Hash": 2365063718,
@@ -1737,13 +1737,13 @@
                     "Hash": 284735771,
                     "Id": "373202",
                     "Spec": "Shadow",
-                    "Text": "Mind Blast has a {1}% chance to make your next Devouring Plague cost no Insanity and deal {2}% additional damage."
+                    "Text": "Застосування [Вибух розуму] має {1}% шанс, що ваша наступна [Ненажерна чума] не витратить безумства та завдасть на {2}% більше шкоди."
                 }
             }
         },
         "130": {
             "Hash": 2545715489,
-            "Name": "Катування розуму",
+            "Name": "Катування свідомості",
             "Descriptions": {
                 "0": {
                     "Hash": 3943229283,
@@ -1755,13 +1755,13 @@
         },
         "131": {
             "Hash": 1838115057,
-            "Name": "Катування розуму: Безумство",
+            "Name": "Катування свідомості: Безумство",
             "Descriptions": {
                 "0": {
                     "Hash": 2617938854,
                     "Id": "391399",
                     "Spec": "Shadow",
-                    "Text": "[Ненажерна чума] перетворює ваше наступне [Катування розуму] у [Катування розуму: Безумство]. Тривалість - {1} сек.\n\n|T425954:24|t {ffffffff|Катування розуму: Безумство}\nАтакує розум цілі темною енергією, завдаючи {2} од. шкоди від темної магії протягом {3} сек і сповільнюючи її на {4}%.\n\n{FFFFFFFF|Дає {5} од. безумства протягом дії}"
+                    "Text": "[Ненажерна чума] перетворює ваше наступне [Катування свідомості] у [Катування свідомості: Безумство]. Тривалість - {1} сек.\n\n|T425954:24|t {ffffffff|Катування свідомості: Безумство}\nАтакує розум цілі темною енергією, завдаючи {2} од. шкоди від темної магії протягом {3} сек і сповільнюючи її на {4}%.\n\n{FFFFFFFF|Дає {5} од. безумства протягом дії}"
                 }
             }
         },
@@ -1773,13 +1773,13 @@
                     "Hash": 2455534008,
                     "Id": "391090",
                     "Spec": "Shadow",
-                    "Text": "[Пронизування розуму] зменшує тривалість застосування вашого наступного [Вибух розуму] на {1}% і збільшує його ймовірність критичної шкоди на {2}%. Накопичується до {3} разів.\n\nТривалість - {4} сек."
+                    "Text": "[Пронзання свідомості] зменшує тривалість застосування вашого наступного [Вибух розуму] на {1}% і збільшує його ймовірність критичної шкоди на {2}%. Накопичується до {3} разів.\n\nТривалість - {4} сек."
                 },
                 "1": {
                     "Hash": 3308336403,
                     "Id": "391090",
                     "Spec": "Shadow",
-                    "Text": "Mind Spike increases the critical strike chance of Mind Blast by {1}%, stacking up to {2} times.\r\n\r\nLasts {3} sec."
+                    "Text": "[Пронзання свідомості] збільшує ймовірність критичної шкоди вашого [Вибух свідомості] на {1}%. Накопичується до {2} разів.\n\nТриває {3} сек."
                 }
             }
         },
@@ -1809,7 +1809,7 @@
         },
         "135": {
             "Hash": 3175847953,
-            "Name": "Пронизування розуму",
+            "Name": "Пронзання свідомості",
             "Descriptions": {
                 "0": {
                     "Hash": 457301476,
@@ -1827,7 +1827,7 @@
                     "Hash": 2726787325,
                     "Id": "199445",
                     "Spec": "Shadow",
-                    "Text": "При повному завершенні підтримання [Катування розуму], ви крадете {1}% швидкості в вашої цілі на {2} сек. Не можна вкрасти більше {3}% швидкості в однієї цілі.\n\nНакопичується до {4} разів."
+                    "Text": "При повному завершенні підтримання [Катування свідомості], ви крадете {1}% швидкості в вашої цілі на {2} сек. Не можна вкрасти більше {3}% швидкості в однієї цілі.\n\nНакопичується до {4} разів."
                 }
             }
         },
@@ -1845,7 +1845,7 @@
                     "Hash": 2165115629,
                     "Id": "2096",
                     "Spec": "Shadow, Discipline",
-                    "Text": "Allows the caster to see through the target's eyes for {1} min. Will not work if the target is in another instance or on another continent."
+                    "Text": "Дозволяє заклинателю бачити очима цілі протягом {1} хв. Не працює, якщо ціль знаходиться в іншому підземеллі або на іншому континенті."
                 }
             }
         },
@@ -2091,7 +2091,7 @@
                     "Hash": 3025295601,
                     "Id": "21562",
                     "Spec": "Shadow, Discipline",
-                    "Text": "Infuses the target with vitality, increasing their Stamina by {1}% for {2} hour.\r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
+                    "Text": "Наповнює ціль життєвою силою, збільшуючи її витривалість на {1}% протягом {2} год.\n\nЯкщо ціль є учасником вашої групи або рейду, то ефект застосується на всіх учасників."
                 }
             }
         },
@@ -2271,13 +2271,13 @@
                     "Hash": 3092186525,
                     "Id": "199484",
                     "Spec": "Shadow",
-                    "Text": "[Вибух розуму], [Катування розуму], [Пронизування розуму], [Ігри розуму], [Стріла порожнечі] і [Вихор порожнечі] завдають {1}% своєї шкоди усім іншим цілям з ефектом [Дотик вампіра] в радіусі {2} м."
+                    "Text": "[Вибух розуму], [Катування свідомості], [Пронзання свідомості], [Ігри розуму], [Стріла порожнечі] і [Потік порожнечі] завдають {1}% своєї шкоди усім іншим цілям з ефектом [Дотик вампіра] в радіусі {2} м."
                 },
                 "1": {
                     "Hash": 2336390863,
                     "Id": "199484",
                     "Spec": "Shadow",
-                    "Text": "Your direct damage spells inflict {1}% of their damage on all other targets afflicted by your Vampiric Touch within {2} yards.\r\n\r\nDoes not apply to damage from Shadowy Apparitions, Shadow Word: Pain, and Vampiric Touch."
+                    "Text": "Ваші закляття прямої дії завдають {1}% своєї шкоди усім іншим цілям з ефектом [Дотик вампіра] в радіусі {2} м.\n\nНе діє на шкоду від [Тіньові примари], [Слово тіні: Біль] та [Дотик вампіра]."
                 }
             }
         },
@@ -2295,7 +2295,7 @@
                     "Hash": 1450891477,
                     "Id": "8122",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Lets out a psychic scream, causing all enemies within {1} yards to flee, disorienting them for {2} sec. Damage may interrupt the effect."
+                    "Text": "Видає психічний крик, що змушує усіх ворогів в радіусі {1} м тікати, дезорієнтуючи їх на {2} сек. Завдана шкода перериває дію цього ефекту."
                 }
             }
         },
@@ -2325,7 +2325,7 @@
                     "Hash": 798710542,
                     "Id": "211522",
                     "Spec": "Shadow",
-                    "Text": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\r\n\r\n|T136208:24|t {ffffffff|Psyflay}"
+                    "Text": "Ви викликаєте [Демон свідомості] з {1} од. здоров'я на {2} сек, що атакує ціль на відстані, використовуючи [Ментальні тортури].\n\n|T136208:24|t {ffffffff|Ментальні тортури}"
                 }
             }
         },
@@ -2625,13 +2625,13 @@
                     "Hash": 1210132002,
                     "Id": "375767",
                     "Spec": "Shadow",
-                    "Text": "Під час підтримання [Катування розуму] або [Вихор порожнечі], ваші [Дотик вампіра] і [Слово тіні: Біль] на основній цілі завдають шкоду на {1}% швидше.\n\nПід час підтримання [Вигорання розуму], ваші [Дотик вампіра] і [Слово тіні: Біль] на усіх цілях завдають шкоду на {2}% швидше."
+                    "Text": "Під час підтримання [Катування свідомості] або [Потік порожнечі], ваші [Дотик вампіра] і [Слово тіні: Біль] на основній цілі завдають шкоду на {1}% швидше.\n\nПід час підтримання [Вигорання розуму], ваші [Дотик вампіра] і [Слово тіні: Біль] на усіх цілях завдають шкоду на {2}% швидше."
                 },
                 "1": {
                     "Hash": 3448185858,
                     "Id": "375767",
                     "Spec": "Shadow",
-                    "Text": "Devouring Plague causes your Shadow Word: Pain and Vampiric Touch to deal damage {1}% faster on all targets for {2} sec."
+                    "Text": "Після застосування [Ненажерна чума], ваші [Слово тіні: Біль] та [Дотик вампіра] завдаватимуть шкоду усім цілям на {1}% швидше впродовж {2} сек."
                 }
             }
         },
@@ -2685,7 +2685,7 @@
                     "Hash": 4063155587,
                     "Id": "205385",
                     "Spec": "Shadow",
-                    "Text": "Hurl a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}"
+                    "Text": "Випускає стрілу темної енергії, яка повільно рухається та завдає {1} од. шкоди від темної магії.\n\n{FFFFFFFF|Дає {2} од. безумства}"
                 }
             }
         },
@@ -2703,7 +2703,7 @@
                     "Hash": 538368731,
                     "Id": "32379",
                     "Spec": "Shadow",
-                    "Text": "A word of dark binding that inflicts {1} Shadow damage to the target. If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.\r\n\r\nDamage increased by {2}% to targets below {3}% health.\r\n\r\n{FFFFFFFF|Generates {4} Insanity.}"
+                    "Text": "Темні пута, що завдають цілі {1} од. шкоди від темної магії. Якщо ціль не помирає від [Слово тіні: Смерть], то ви отримуєте шкоду в об'ємі завданої цілі шкоди.\n\nШкода збільшується на {2}%, якщо у цілі менше {3}% здоров'я.\n\n{FFFFFFFF|Дає {4} од. безумства.}"
                 }
             }
         },
@@ -2769,7 +2769,7 @@
                     "Hash": 4032197860,
                     "Id": "341491",
                     "Spec": "Shadow",
-                    "Text": "Mind Blast, Devouring Plague, and Void Bolt conjure Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch for {1} Shadow damage. \r\n\r\nCritical strikes increase the damage by {2}%."
+                    "Text": "[Ненажерна чума], [Вибух розуму] і [Стріла порожнечі] породжують тіньові примари, які повільно рухаються до усіх цілей з ефектом [Дотик вампіра] та завдають {1} од. шкоди від темної магії.\n\nКритичні удари збільшують шкоду на {2}%."
                 }
             }
         },
@@ -2787,7 +2787,7 @@
                     "Hash": 3790076018,
                     "Id": "375888",
                     "Spec": "Shadow",
-                    "Text": "Shadow Word: Pain periodic damage has a chance to reset the remaining cooldown on Mind Blast and cause your next Mind Blast to be instant."
+                    "Text": "Періодична шкода від [Слово тіні: Біль] має шанс миттєво відновити [Вибух свідомості] та дозволить застосувати його миттєво."
                 }
             }
         },
@@ -2919,7 +2919,7 @@
                     "Hash": 3387558730,
                     "Id": "162448",
                     "Spec": "Shadow",
-                    "Text": "Ваша шкода від [Дотик вампіра] та [Ненажерна чума] має шанс, що ваше наступне [Пронизування розуму] завдасть на {1}% більше шкоди та застосується миттєво. Накопичується до {2} разів."
+                    "Text": "Ваша шкода від [Дотик вампіра] та [Ненажерна чума] має шанс, що ваше наступне [Пронзання свідомості] завдасть на {1}% більше шкоди та застосується миттєво. Накопичується до {2} разів."
                 }
             }
         },
@@ -3081,7 +3081,7 @@
                     "Hash": 3236059511,
                     "Id": "390705",
                     "Spec": "Discipline",
-                    "Text": "Your damaging Shadow spells increase the damage of your next Holy spell cast within {1} sec by {2}%.\r\n\r\nYour damaging Holy spells increase the damage of your next Shadow spell cast within {3} sec by {4}%."
+                    "Text": "Ваші шкідливі закляття темної магії збільшують шкоду від наступного закляття світлої магії на {2}% впродовж {1} сек.\n\nВаші шкідливі закляття світлої магії збільшують шкоду від наступного закляття темної магії на {4}% впродовж {3} сек."
                 }
             }
         },
@@ -3195,7 +3195,7 @@
                     "Hash": 3265531913,
                     "Id": "228260",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Releases an explosive blast of pure void energy, activating Voidform and causing {1} Shadow damage to all enemies within {2} yds of your target.\r\n\r\nDuring Voidform, this ability is replaced by Void Bolt.\r\n\r\nCasting Devouring Plague increases the duration of Voidform by {3} sec."
+                    "Text": "Вивільняє руйнівний заряд чистої енергії порожнечі, який активує [Втілення порожнечі] і завдає {1} од. шкоди від темної магії усім ворогам в радіусі {2} м від вашої цілі.\n\nПід час дії [Втілення порожнечі], ця здібність замінюється на [Стріла порожнечі].\n\nЗастосування [Ненажерна чума] збільшує тривалість [Втілення порожнечі] на {3} сек."
                 }
             }
         },
@@ -3261,13 +3261,13 @@
                     "Hash": 3115021939,
                     "Id": "108920",
                     "Spec": "Shadow, Discipline, Holy",
-                    "Text": "Summons shadowy tendrils, rooting all enemies within {1} yards for {2} sec or until the tendril is killed."
+                    "Text": "Викликає тіньові відростки, що знерухомлюють усіх ворогів в радіусі {1} м на {2} сек або до вбивства відростка."
                 }
             }
         },
         "246": {
             "Hash": 1243599361,
-            "Name": "Вихор порожнечі",
+            "Name": "Потік порожнечі",
             "Descriptions": {
                 "0": {
                     "Hash": 1302303645,
@@ -3309,7 +3309,7 @@
                     "Hash": 820369210,
                     "Id": "391137",
                     "Spec": "Shadow",
-                    "Text": "Критична шкода від [Вибух розуму] і [Пронизування розуму] додатково дає {1} од. безумства."
+                    "Text": "Критична шкода від [Вибух розуму] і [Пронзання свідомості] додатково дає {1} од. безумства."
                 }
             }
         },
@@ -3339,13 +3339,13 @@
         },
         "252": {
             "Hash": 2709685588,
-            "Name": "Mind's Eye",
+            "Name": "Око свідомості",
             "Descriptions": {
                 "0": {
                     "Hash": 1414000675,
                     "Id": "407470",
                     "Spec": "Shadow",
-                    "Text": "Reduces the Insanity cost of Devouring Plague by {1}."
+                    "Text": "[Ненажерна чума] витрачає на {1} од. безумства менше."
                 }
             }
         },
@@ -3357,7 +3357,7 @@
                     "Hash": 1876088154,
                     "Id": "391399",
                     "Spec": "Shadow",
-                    "Text": "Devouring Plague transforms your next Mind Flay or Mind Spike into a more powerful spell. Can accumulate up to {1} charges.\r\n\r\n|T425954:24|t {ffffffff|Mind Flay: Insanity}\r\nAssaults the target's mind with Shadow energy, causing {2} Shadow damage over {3} sec and slowing their movement speed by {4}%.\r\n\r\n{FFFFFFFF|Generates {5} Insanity over the duration.}\r\n\r\n|T1391678:24|t{ffffffff|Mind Spike: Insanity}\r\nBlasts the target for {6} Shadowfrost damage.\r\n\r\n{FFFFFFFF|Generates {7} Insanity.}"
+                    "Text": "[Ненажерна чума] перетворює ваше наступне [Катування свідомості] або [Пронзання свідомості] в більш потужне закляття. Може накопичувати до {1} {declension|заряду|зарядів|зарядів}.\n\n|T425954:24|t {ffffffff|Катування свідомості: Безумство}\nАтакує розум цілі темною енергією, завдаючи {2} од. шкоди від темної магії протягом {3} сек, та сповільнює її на {4}%. \n\n{FFFFFFFF|Дає {5} од. безумства протягом дії.}\n\n|T1391678:24|t{ffffffff|Пронзання свідомості: Безумство}\nВражає ціль, завдаючи {6} од. шкоди від темної магії морозу.\n\n{FFFFFFFF|Дає {7} од. безумства.}"
                 }
             }
         },
