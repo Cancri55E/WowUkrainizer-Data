@@ -9,7 +9,7 @@
                     "Hash": 601135937,
                     "Id": "131894",
                     "Spec": "Beast Mastery",
-                    "Text": "Викликає зграю воронів, які атакують ціль, завдаючи {1} фізичної шкоди за {2} сек. [Зграя воронів] відновлюється, якщо ціль помирає під дією цього ефекту."
+                    "Text": "Викликає зграю воронів, які атакують ціль, завдаючи {1} фізичної шкоди впродовж {2} сек. [Зграя воронів] відновлюється, якщо ціль помирає під дією цього ефекту."
                 }
             }
         },
@@ -166,6 +166,12 @@
                     "Id": "193530",
                     "Spec": "Beast Mastery",
                     "Text": "Ви робите [Постріл кобри] у вашу поточну ціль, та ще у {1} {declension|ворога|ворогів|ворогів} поряд з нею. Протягом наступних {2} сек ваш [Постріл кобри] вражає ще {3} {declension|ціль|цілі|цілей} та витрачає на {4} од. менше концентрації."
+                },
+                "1": {
+                    "Hash": 428837459,
+                    "Id": "193530",
+                    "Spec": "Beast Mastery",
+                    "Text": "Fire off a Cobra Shot at your current target and {1} other enemies near your current target. For the next {2} sec, your Cobra Shot will fire at {3} extra targets and Cobra Shot Focus cost is reduced by {4}."
                 }
             }
         },
@@ -334,6 +340,12 @@
                     "Id": "378739",
                     "Spec": "Beast Mastery",
                     "Text": "Доки діє [Поклик дикої природи], [Пронизуючий постріл] діє на усіх ваших вихованців."
+                },
+                "1": {
+                    "Hash": 2313974306,
+                    "Id": "407412",
+                    "Spec": "Beast Mastery",
+                    "Text": "While Call of the Wild is active, your pets have the effects of Beast Cleave, and Cobra Shot applies Serpent Sting to any target hit."
                 }
             }
         },
@@ -358,6 +370,12 @@
                     "Id": "378880",
                     "Spec": "Marksmanship",
                     "Text": "Кожен {1} [Магічний постріл] дає ефект [Бомбардування], внаслідок чого наступний [Багатозарядний постріл] активує [Оманливі постріли] незалежно від кількості уражених цілей."
+                },
+                "1": {
+                    "Hash": 3721930388,
+                    "Id": "405804",
+                    "Spec": "Marksmanship",
+                    "Text": "Kill Shot now grants the Trick Shots effect."
                 }
             }
         },
@@ -544,6 +562,12 @@
                     "Id": "199483",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Ви і ваш вихованець зливаєтеся з оточенням стаючи невидимими на {1} сек. Ви відновлюєте {2}% від максимального здоров'я з інтервалом в {3} сек."
+                },
+                "1": {
+                    "Hash": 860246155,
+                    "Id": "199483",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "You and your pet blend into the surroundings and gain stealth for {1} min. While camouflaged, you will heal for {2}% of maximum health every {3} secs."
                 }
             }
         },
@@ -682,6 +706,18 @@
                     "Id": "360952",
                     "Spec": "Survival",
                     "Text": "Ви і ваш вихованець робите ривок до вашого ворога і атакуєте його, загалом завдаючи {1} фізичної шкоди. Ваш зв'язок з вихованцем міцнішає протягом {2} сек, внаслідок чого наступна базова атака вашого вихованця посилить наступну здібність: \n\n{ffffffff|Бомба з вогняним запалом}: Збільшує початкову шкоду на {3}%.\n\n{ffffffff|Вбивчий постріл}: Викликає в цілі кровотечу, що завдасть {4}% шкоди від [Вбивчий постріл] протягом {5} сек."
+                },
+                "1": {
+                    "Hash": 72770987,
+                    "Id": "266779",
+                    "Spec": "Survival",
+                    "Text": "You and your pet attack as one, increasing all damage you both deal by {1}% for {2} sec.\r\n\r\nWhile Coordinated Assault is active, Kill Command's chance to reset is increased by {3}%."
+                },
+                "2": {
+                    "Hash": 3665294440,
+                    "Id": "266779",
+                    "Spec": "Beast Mastery, Marksmanship",
+                    "Text": "You and your pet attack as one, increasing all damage you both deal by {1}% for {2} sec."
                 }
             }
         },
@@ -898,6 +934,12 @@
                     "Id": "6197",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Змінює вашу точку огляду на вказане місце на {1} сек. Використовується лише просто неба."
+                },
+                "1": {
+                    "Hash": 1614215914,
+                    "Id": "6197",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Changes your viewpoint to the targeted location for {1} min. Only usable outdoors."
                 }
             }
         },
@@ -994,6 +1036,12 @@
                     "Id": "321297",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Ви отримуєте безпосередній контроль над вашим вихованцем і бачите його очима впродовж {1} сек."
+                },
+                "1": {
+                    "Hash": 2273977753,
+                    "Id": "321297",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Take direct control of your pet and see through its eyes for {1} min."
                 }
             }
         },
@@ -1090,6 +1138,12 @@
                     "Id": "187650",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Встановлює заморожувальну пастку в цільову область, яка спрацьовує на першого ворога, паралізуючи ціль на {1} сек. Шкода по цілі знімає цей ефект. Максимум - {2} пастка. Пастка існує протягом {3} сек."
+                },
+                "1": {
+                    "Hash": 1453961379,
+                    "Id": "187650",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Hurls a frost trap to the target location that incapacitates the first enemy that approaches for {1} min. Damage will break the effect. Limit {2}. Trap will exist for {3} min."
                 }
             }
         },
@@ -1162,6 +1216,12 @@
                     "Id": "236776",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Встановлює вогняну пастку у вказане місце, яка вибухає при наближенні ворога, завдає {1} шкоди від вогню і відкидає усіх ворогів. Пастка існує {2} хв."
+                },
+                "1": {
+                    "Hash": 2292565931,
+                    "Id": "236776",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Hurls a fire trap to the target location that explodes when an enemy approaches, causing {1} Fire damage and knocking all enemies away.  Trap will exist for {2} min."
                 }
             }
         },
@@ -1330,6 +1390,12 @@
                     "Id": "248518",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Протягом {1} сек після застосування шкідливого закляття до цілі, усі шкідливі закляття будуть перенаправлені до вашого вихованця.\n\nВаш вихованець повинен бути в радіусі {2} м від цілі для вдалого перенаправлення."
+                },
+                "1": {
+                    "Hash": 2426292952,
+                    "Id": "248518",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Misdirection now causes the next {1} hostile spells cast on your target within {2} sec to be redirected to your pet, but its cooldown is increased by {3} sec.\r\n\r\nYour pet must be within {4} yards of the target for spells to be redirected."
                 }
             }
         },
@@ -1498,6 +1564,12 @@
                     "Id": "190852",
                     "Spec": "Marksmanship",
                     "Text": "[Прицільний постріл] з шансом {1}% може створити {2} додаткові [Вітрова стріла], які додатково вражають ціль на {3} фізичної шкоди. Надбавки для [Прицільний постріл] також збільшують шкоду від [Вітрова стріла]."
+                },
+                "1": {
+                    "Hash": 2492596494,
+                    "Id": "406425",
+                    "Spec": "Marksmanship",
+                    "Text": "Aimed Shot coalesces {1} extra Wind Arrows that also shoot your target for {2} Physical damage.\r\n\r\nEvery {3} Wind Arrows fired generates {4} Focus and grants {5} charge of Aimed Shot.\r\n\r\nModifiers to Aimed Shot damage also increase the damage of Wind Arrows."
                 }
             }
         },
@@ -1570,6 +1642,12 @@
                     "Id": "378934",
                     "Spec": "Survival",
                     "Text": "Збільшує відстань ваших ударів ближнього бою і здібностей на {1} м."
+                },
+                "1": {
+                    "Hash": 2048450704,
+                    "Id": "378934",
+                    "Spec": "Survival",
+                    "Text": "Increases the range of your melee attacks and abilities by {1} yds.\r\n\r\nAuto-attacks with a two-handed weapon reduce the cooldown of Wildfire Bombs by {2} sec."
                 }
             }
         },
@@ -1696,6 +1774,12 @@
                     "Id": "2643",
                     "Spec": "Beast Mastery",
                     "Text": "Випускає декілька зарядів, які вражають усіх ворогів в радіусі {1} м від поточної цілі та завдають {2} фізичної шкоди. Здійснює зменшену шкоду більше як {3} цілям."
+                },
+                "2": {
+                    "Hash": 2391549081,
+                    "Id": "2643",
+                    "Spec": "Beast Mastery",
+                    "Text": "Fires several missiles, hitting all nearby enemies within {1} yds of your current target for {2} Physical damage. Deals reduced damage beyond {3} targets."
                 }
             }
         },
@@ -1882,6 +1966,12 @@
                     "Id": "248443",
                     "Spec": "Marksmanship",
                     "Text": "Застосування [Прицільний постріл] зменшує час відновлення [Дух черепахи] та [Жвавість] на {1} сек."
+                },
+                "1": {
+                    "Hash": 3300817699,
+                    "Id": "248443",
+                    "Spec": "Marksmanship",
+                    "Text": "Casting Aimed Shot provides you with Ranger's Finesse. After gaining {1} stacks of Ranger's Finesse, increase your next Volley's radius and duration by {2}% or your next Bursting Shot's slow by an additional {3}% and its knockback distance.\r\n\r\nConsuming Ranger's Finesse reduces the remaining cooldown of Aspect of the Turtle by {4} sec."
                 }
             }
         },
@@ -2236,6 +2326,12 @@
                     "Id": "162488",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Встановлює [Сталева пастка] у вказане місце, яка спрацьовує на першого ворога, сповільнює його на {1} сек і викликає кровотечу на {2} шкоди протягом {3} сек. Шкода не від [Сталева пастка] знімає ефект знерухомлення. Пастка існує {4} хв. Ліміт {5}."
+                },
+                "1": {
+                    "Hash": 2913890804,
+                    "Id": "162488",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Hurls a Steel Trap to the target location that snaps shut on the first enemy that approaches, immobilizing them for {1} sec and causing them to bleed for {2} damage over {3} sec. \r\n\r\nDamage other than Steel Trap may break the immobilization effect. Trap will exist for {4} min. Limit {5}."
                 }
             }
         },
@@ -2368,6 +2464,12 @@
                     "Id": "187698",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Встановлює [Смоляна пастка] у вказане місце, яка при наближенні ворога створить калюжу смоли в радіусі {1} м навколо себе на {2} сек. Усі вороги мають на {3}% зменшену швидкість пересування доки знаходятся у цій області. Пастка існує  {4} сек."
+                },
+                "1": {
+                    "Hash": 1787111088,
+                    "Id": "187698",
+                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Text": "Hurls a tar trap to the target location that creates a {1} yd radius pool of tar around itself for {2} sec when the first enemy approaches. All enemies have {3}% reduced movement speed while in the area of effect. Trap will exist for {4} min."
                 }
             }
         },
@@ -2404,6 +2506,12 @@
                     "Id": "356976",
                     "Spec": "Beast Mastery",
                     "Text": "[Звіриний гнів] надихає вас і усіх союзних вихованців поряд на {1} сек, збільшуючи швидкість атаки на {2}% та надаючи імунітет до ефектів страху і жахання."
+                },
+                "1": {
+                    "Hash": 295522951,
+                    "Id": "356976",
+                    "Spec": "Beast Mastery",
+                    "Text": "Bestial Wrath now provides immunity to Fear and Horror effects for you and your pets for {1} sec. Nearby allied pets are also inspired, increasing their attack speed by {2}%."
                 }
             }
         },
@@ -2704,6 +2812,30 @@
                     "Id": null,
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Різноманітні інструменти, що допоможуть вам керувати вашим супутником."
+                }
+            }
+        },
+        "220": {
+            "Hash": 1361708755,
+            "Name": "Sticky Tar Bomb",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1704899796,
+                    "Id": "407028",
+                    "Spec": "Survival",
+                    "Text": "Throw a Sticky Tar Bomb that coats your target's weapons with tar, disarming them for {1} sec. \r\n\r\nAfter {2} sec, Sticky Tar Bomb explodes onto nearby enemies. Other enemies that are hit by the explosion are affected by Sticky Tar Bomb but this effect cannot spread further."
+                }
+            }
+        },
+        "221": {
+            "Hash": 172319009,
+            "Name": "In the Rhythm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4170996875,
+                    "Id": "407404",
+                    "Spec": "Marksmanship",
+                    "Text": "When Rapid Fire fully finishes channeling, gain {1}% haste for {2} sec."
                 }
             }
         }

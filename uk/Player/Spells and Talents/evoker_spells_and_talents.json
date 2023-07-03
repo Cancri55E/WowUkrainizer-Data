@@ -58,6 +58,12 @@
                     "Id": "386342",
                     "Spec": "Devastation",
                     "Text": "[Нищівна Зоря] генерує {1} {declension | одиницю | одиниці | одиниць} Есенції."
+                },
+                "1": {
+                    "Hash": 1374352315,
+                    "Id": "386342",
+                    "Spec": "Devastation",
+                    "Text": "Shattering Star grants Essence Burst."
                 }
             }
         },
@@ -118,6 +124,12 @@
                     "Id": "364342",
                     "Spec": "Devastation, Preservation",
                     "Text": "Ви переплітаєте нитки часу, зменшуючи час відновлення основної здібності мобільності для всіх учасників групи або рейду на {1}% протягом {2} хв."
+                },
+                "1": {
+                    "Hash": 1382461162,
+                    "Id": "364342",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Weave the threads of time, reducing the cooldown of a major movement ability for all party and raid members by {1}% for {2} hour."
                 }
             }
         },
@@ -178,6 +190,12 @@
                     "Id": "375777",
                     "Spec": "Devastation",
                     "Text": "Ваші здібності Есенції зменшують поточний час відновлення [Сплеск Вічності] на {1} сек."
+                },
+                "1": {
+                    "Hash": 3219015245,
+                    "Id": "375777",
+                    "Spec": "Devastation",
+                    "Text": "Disintegrate reduces the remaining cooldown of your empower spells by {1} sec each time it deals damage.\r\n\r\nPyre reduces the remaining cooldown of your empower spells by {2} sec per enemy struck, up to {3} sec."
                 }
             }
         },
@@ -526,6 +544,18 @@
                     "Id": "369297",
                     "Spec": "Preservation",
                     "Text": "[Живе Полум'я] має {1}% шанс, що ваша наступна здібність з витратою Есенції не витратить ресурс. Накопичується до {2} разів."
+                },
+                "2": {
+                    "Hash": 3167207749,
+                    "Id": "396187",
+                    "Spec": "Augmentation",
+                    "Text": "Your Living Flame has a {1}% chance, and your Azure Strike has a {2}% chance, to make your next Eruption cost no Essence."
+                },
+                "3": {
+                    "Hash": 2183626675,
+                    "Id": "396187",
+                    "Spec": "Augmentation",
+                    "Text": "Your Living Flame has a {1}% chance, and your Azure Strike has a {2}% chance, to make your next Eruption cost no Essence. Stacks {3} times."
                 }
             }
         },
@@ -544,6 +574,12 @@
                     "Id": "382411",
                     "Spec": "Devastation",
                     "Text": "Ви фокусуєте енергію і випускаєте залп чистої магії, завдаючи ворогу {1} шкоди від морозних чар. При заряджанні завдає шкоди додатковим ворогам в радіусі {2} м.\n\n{FFFFFFFF|I:}  Вражає {3} {declension | ворога | ворогів}.\n\n{FFFFFFFF|II:}  Вражає {4} {declension | ворога | ворогів}.\n\n{FFFFFFFF|III:} Вражає {5} {declension | ворога | ворогів}.\n\n{FFFFFFFF|IV:} Вражає {6} {declension | ворога | ворогів}."
+                },
+                "2": {
+                    "Hash": 392001865,
+                    "Id": "359073",
+                    "Spec": "Devastation",
+                    "Text": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds of the target when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemies.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies."
                 }
             }
         },
@@ -580,6 +616,12 @@
                     "Id": "377100",
                     "Spec": "Preservation",
                     "Text": "Кожен раз, коли ви отримуєте [Імпульс Есенції], ваше критичне зцілення збільшуються на {1}% на {2} сек."
+                },
+                "1": {
+                    "Hash": 3860120299,
+                    "Id": "377100",
+                    "Spec": "Preservation",
+                    "Text": "Each time you gain Essence Burst, your critical heals are {1}% effective instead of the usual {2}% for {3} sec."
                 }
             }
         },
@@ -628,6 +670,12 @@
                     "Id": "369375",
                     "Spec": "Devastation",
                     "Text": "Критична шкода від [Сплеск Вічності] генерує {1} Есенції."
+                },
+                "1": {
+                    "Hash": 609664940,
+                    "Id": "411165",
+                    "Spec": "Devastation",
+                    "Text": "Eternity Surge deals {1}% increased damage to your primary target."
                 }
             }
         },
@@ -640,6 +688,12 @@
                     "Id": "369846",
                     "Spec": "Devastation",
                     "Text": "Поглинання [Імпульс Есенції] відновлює ваш [Вогняний Подих] на {1} сек."
+                },
+                "1": {
+                    "Hash": 377023620,
+                    "Id": "369846",
+                    "Spec": "Devastation",
+                    "Text": "After casting {1} Pyres, your next Pyre will explode into a Firestorm."
                 }
             }
         },
@@ -670,6 +724,12 @@
                     "Id": "382266",
                     "Spec": "Devastation",
                     "Text": "Ви робите вдих, концентруючи своє внутрішнє полум'я. Відпустіть, щоб видихнути і обпалити ворогів у конусі перед собою, завдаючи  {1} шкоди від вогню.. Шкода зменшується після {2} цілей.\n\nЗаряджання призводить до того, що більша частина шкоди завдається миттєво, а не періодично.\n\n{FFFFFFFF|I:}   Завдає {3} шкоди миттєво і {4} протягом {5} сек.\n\n{FFFFFFFF|II:}  Завдає {6} шкоди миттєво і {7} протягом {8} сек.\n\n{FFFFFFFF|III:} Завдає {9} шкоди миттєво і {10} протягом {11} сек.\n\n{FFFFFFFF|IV:} Завдає {12} шкоди миттєво і {13} протягом {14} сек."
+                },
+                "2": {
+                    "Hash": 1466739697,
+                    "Id": "382266",
+                    "Spec": "Augmentation",
+                    "Text": "Inhale, stoking your inner flame. Release to exhale, burning enemies in a cone in front of you for {1} Fire damage, reduced beyond {2} targets.\r\n\r\nIncreases the duration of your active Ebon Might effects by {3} sec.\r\n\r\nEmpowering causes more of the damage to be dealt immediately instead of over time.\r\n\r\n{FFFFFFFF|I:}   Deals {4} damage instantly and {5} over {6} sec.\r\n\r\n{FFFFFFFF|II:}  Deals {7} damage instantly and {8} over {9} sec.\r\n\r\n{FFFFFFFF|III:} Deals {10} damage instantly and {11} over {12} sec.\r\n\r\n{FFFFFFFF|IV:} Deals {13} damage instantly and {14} over {15} sec."
                 }
             }
         },
@@ -754,6 +814,12 @@
                     "Id": "375783",
                     "Spec": "Devastation, Preservation",
                     "Text": "Максимальний рівень ваших заряджувальних здібностей збільшено на {1}."
+                },
+                "1": {
+                    "Hash": 2933718550,
+                    "Id": "411212",
+                    "Spec": "Devastation",
+                    "Text": "Your empower spells' maximum level is increased by {1}, and they reach maximum empower level {2}% faster."
                 }
             }
         },
@@ -874,6 +940,12 @@
                     "Id": "370781",
                     "Spec": "Devastation",
                     "Text": "Заряджувальні здібності досягають максимального рівня на {1}% швидше."
+                },
+                "1": {
+                    "Hash": 1273284992,
+                    "Id": "370781",
+                    "Spec": "Devastation",
+                    "Text": "Deep Breath reduces the Essence costs of Disintegrate and Pyre by {1} for {2} sec after you land."
                 }
             }
         },
@@ -1120,6 +1192,12 @@
                     "Id": "369913",
                     "Spec": "Devastation, Preservation",
                     "Text": "[Дезінтеграція] застосовується на {1}% швидше."
+                },
+                "1": {
+                    "Hash": 1375210517,
+                    "Id": "369913",
+                    "Spec": "Augmentation",
+                    "Text": "Disintegrate channels {1}% faster and Eruption's cast time is reduced by {2}%."
                 }
             }
         },
@@ -1384,6 +1462,12 @@
                     "Id": "387787",
                     "Spec": "Devastation, Preservation",
                     "Text": "[Джерело Магії] формує зв'язок з вашим союзником, зцілюючи вас на {1}% від його зцілення коли у вас менше {2}% здоров'я."
+                },
+                "1": {
+                    "Hash": 3282001101,
+                    "Id": "387787",
+                    "Spec": "Augmentation",
+                    "Text": "Your Leech is increased by {1}%."
                 }
             }
         },
@@ -1960,6 +2044,666 @@
                     "Id": "374227",
                     "Spec": "Devastation, Preservation",
                     "Text": "Створює висхідний потік, який підіймає вас і {1} найближчих союзників в радіусі {2} м в повітря, зменшуючи вхідну шкоду від атак по площі на {3}% і збільшуючи швидкість пересування на {4}% протягом {5} сек."
+                }
+            }
+        },
+        "160": {
+            "Hash": 1483528015,
+            "Name": "Event Horizon",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1559212634,
+                    "Id": "411164",
+                    "Spec": "Devastation",
+                    "Text": "Eternity Surge's cooldown is reduced by {1} sec."
+                }
+            }
+        },
+        "161": {
+            "Hash": 827522466,
+            "Name": "Raging Inferno",
+            "Descriptions": {
+                "0": {
+                    "Hash": 987797115,
+                    "Id": "405659",
+                    "Spec": "Devastation",
+                    "Text": "Firestorm's radius is increased by {1}%, and Pyre deals {2}% increased damage to enemies within your Firestorm."
+                }
+            }
+        },
+        "162": {
+            "Hash": 673412609,
+            "Name": "Dream Catcher",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3275466647,
+                    "Id": "410962",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Sleep Walk no longer has a cooldown, but its cast time is increased by {1} sec."
+                }
+            }
+        },
+        "163": {
+            "Hash": 2933018140,
+            "Name": "Divide and Conquer",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1400231950,
+                    "Id": "384689",
+                    "Spec": "Devastation, Preservation",
+                    "Text": "Deep Breath forms curtains of fire, preventing line of sight to enemies outside its walls and burning enemies who walk through them for {1} Fire damage. Lasts {2} sec."
+                }
+            }
+        },
+        "164": {
+            "Hash": 460885027,
+            "Name": "Bronze Attunement",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1585366078,
+                    "Id": "403265",
+                    "Spec": "Augmentation",
+                    "Text": "Attune to Bronze magic, granting you and your {1} nearest allies {2}% increased movement speed."
+                }
+            }
+        },
+        "165": {
+            "Hash": 3759110146,
+            "Name": "Symbiotic Bloom",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3001170251,
+                    "Id": "410685",
+                    "Spec": "Augmentation",
+                    "Text": "Emerald Blossom increases targets' healing received by {1}% for {2} sec."
+                }
+            }
+        },
+        "166": {
+            "Hash": 400679532,
+            "Name": "Tectonic Locus",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3120596408,
+                    "Id": "408002",
+                    "Spec": "Augmentation",
+                    "Text": "Upheaval deals {1}% increased damage to the primary target, and launches them higher."
+                }
+            }
+        },
+        "167": {
+            "Hash": 1615143078,
+            "Name": "Inferno's Blessing",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4102209655,
+                    "Id": "410261",
+                    "Spec": "Augmentation",
+                    "Text": "Fire Breath grants the inferno's blessing for {1} sec to you and your allies affected by Ebon Might, giving their damaging attacks and spells a high chance to deal an additional {2} Fire damage."
+                }
+            }
+        },
+        "168": {
+            "Hash": 1420551708,
+            "Name": "Overlord",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4158491818,
+                    "Id": "410260",
+                    "Spec": "Augmentation",
+                    "Text": "Deep Breath casts an Eruption at the first {1} enemies struck."
+                }
+            }
+        },
+        "169": {
+            "Hash": 3336848192,
+            "Name": "Born in Flame",
+            "Descriptions": {
+                "0": {
+                    "Hash": 384182341,
+                    "Id": "414937",
+                    "Spec": "Augmentation",
+                    "Text": "Casting Ebon Might grants Burnout immediately and every {1} sec for {2} sec, reducing the cast time of Living Flame by {3}%."
+                }
+            }
+        },
+        "170": {
+            "Hash": 2526701957,
+            "Name": "Bestow Weyrnstone",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3901322869,
+                    "Id": "408233",
+                    "Spec": "Augmentation",
+                    "Text": "Conjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\r\n\r\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within {1} yds."
+                }
+            }
+        },
+        "171": {
+            "Hash": 1329127873,
+            "Name": "Upheaval",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1225170743,
+                    "Id": "396286",
+                    "Spec": "Augmentation",
+                    "Text": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius."
+                },
+                "1": {
+                    "Hash": 1187456634,
+                    "Id": "408092",
+                    "Spec": "Augmentation",
+                    "Text": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius.\r\n\r\n{FFFFFFFF|IV:} {6} yd radius."
+                }
+            }
+        },
+        "172": {
+            "Hash": 188006984,
+            "Name": "Tomorrow, Today",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1369620237,
+                    "Id": "412723",
+                    "Spec": "Augmentation",
+                    "Text": "Time Skip channels for {1} sec longer."
+                }
+            }
+        },
+        "173": {
+            "Hash": 1191376181,
+            "Name": "Spatial Paradox",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2222324833,
+                    "Id": "406732",
+                    "Spec": "Augmentation",
+                    "Text": "Evoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by {1}% for {2} sec.\r\n\r\nAffects the nearest healer within {3} yds, if you do not have a healer targeted."
+                }
+            }
+        },
+        "174": {
+            "Hash": 3536862244,
+            "Name": "Stretch Time",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1158309717,
+                    "Id": "410352",
+                    "Spec": "Augmentation",
+                    "Text": "While flying during Deep Breath, {1}% of damage you would take is instead dealt over {2} sec."
+                }
+            }
+        },
+        "175": {
+            "Hash": 808580292,
+            "Name": "Prolong Life",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3787362077,
+                    "Id": "410687",
+                    "Spec": "Augmentation",
+                    "Text": "Your effects that extend Ebon Might also extend Symbiotic Bloom."
+                }
+            }
+        },
+        "176": {
+            "Hash": 1331843866,
+            "Name": "Nourishing Sands",
+            "Descriptions": {
+                "0": {
+                    "Hash": 373305022,
+                    "Id": "406041",
+                    "Spec": "Augmentation",
+                    "Text": "When you kill an enemy that yields experience or honor, the cooldown of Emerald Blossom is refreshed and your next Emerald Blossom within {1} sec restores an additional {2}% of maximum health to you."
+                }
+            }
+        },
+        "177": {
+            "Hash": 3871205740,
+            "Name": "Time Skip",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1602740689,
+                    "Id": "404977",
+                    "Spec": "Augmentation",
+                    "Text": "Surge forward in time, causing your cooldowns to recover {1}% faster for {2} sec."
+                }
+            }
+        },
+        "178": {
+            "Hash": 2589229494,
+            "Name": "Breath of Eons",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3019890032,
+                    "Id": "403631",
+                    "Spec": "Augmentation",
+                    "Text": "Fly to the targeted location, exposing Temporal Wounds on enemies in your path for {1} sec.\r\n\r\nTemporal Wounds accumulate {2}% of damage dealt by your allies affected by Ebon Might, then critically strike for that amount as Arcane damage.\r\n\r\nApplies Ebon Might for {3} sec.\r\n\r\nRemoves all root effects. You are immune to movement impairing and loss of control effects while flying."
+                }
+            }
+        },
+        "179": {
+            "Hash": 3489930300,
+            "Name": "Eruption",
+            "Descriptions": {
+                "0": {
+                    "Hash": 972997281,
+                    "Id": "395160",
+                    "Spec": "Augmentation",
+                    "Text": "Cause a violent eruption beneath an enemy's feet, dealing {1} Volcanic damage split between them and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec."
+                }
+            }
+        },
+        "180": {
+            "Hash": 3652626634,
+            "Name": "Anachronism",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2190855672,
+                    "Id": "407869",
+                    "Spec": "Augmentation",
+                    "Text": "Prescience has a {1}% chance to grant Essence Burst."
+                }
+            }
+        },
+        "181": {
+            "Hash": 1873340559,
+            "Name": "Geomancy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 856906599,
+                    "Id": "410787",
+                    "Spec": "Augmentation",
+                    "Text": "Azure Strike reduces the remaining cooldown of Landslide by {1} sec per target hit."
+                }
+            }
+        },
+        "182": {
+            "Hash": 3697261170,
+            "Name": "Unyielding Domain",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1004754224,
+                    "Id": "412733",
+                    "Spec": "Augmentation",
+                    "Text": "Upheaval cannot be interrupted, and has an additional {1}% chance to critically strike."
+                }
+            }
+        },
+        "183": {
+            "Hash": 1071425459,
+            "Name": "Dream of Spring",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2750201625,
+                    "Id": "414969",
+                    "Spec": "Augmentation",
+                    "Text": "Emerald Blossom no longer has a cooldown, deals {1}% increased healing, and increases the duration of your active Ebon Might effects by {2} sec, but costs {3} Essence."
+                }
+            }
+        },
+        "184": {
+            "Hash": 86474489,
+            "Name": "Momentum Shift",
+            "Descriptions": {
+                "0": {
+                    "Hash": 446439013,
+                    "Id": "408004",
+                    "Spec": "Augmentation",
+                    "Text": "Consuming Essence Burst grants you {1}% Intellect for {2} sec. Stacks up to {3} times."
+                }
+            }
+        },
+        "185": {
+            "Hash": 2419585197,
+            "Name": "Seismic Slam",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2378408066,
+                    "Id": "408543",
+                    "Spec": "Augmentation",
+                    "Text": "Landslide causes enemies who are mid-air to be slammed to the ground, stunning them for {1} sec."
+                }
+            }
+        },
+        "186": {
+            "Hash": 3298271677,
+            "Name": "Interwoven Threads",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2371279112,
+                    "Id": "412713",
+                    "Spec": "Augmentation",
+                    "Text": "The cooldowns of your spells are reduced by {1}%."
+                }
+            }
+        },
+        "187": {
+            "Hash": 359134177,
+            "Name": "Motes of Possibility",
+            "Descriptions": {
+                "0": {
+                    "Hash": 908141301,
+                    "Id": "409267",
+                    "Spec": "Augmentation",
+                    "Text": "Essence abilities have a chance to form a mote of diverted time near you. Anyone who comes in contact with the mote gains {1} seconds of reduced cooldown to their major ability."
+                }
+            }
+        },
+        "188": {
+            "Hash": 197476309,
+            "Name": "Pupil of Alexstrasza",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1723880157,
+                    "Id": "407814",
+                    "Spec": "Augmentation",
+                    "Text": "When cast at an enemy, Living Flame strikes {1} additional enemy for {2}% damage."
+                }
+            }
+        },
+        "189": {
+            "Hash": 2698153211,
+            "Name": "Perilous Fate",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1211037395,
+                    "Id": "410253",
+                    "Spec": "Augmentation",
+                    "Text": "Breath of Eons reduces enemies' movement speed by {1}%, and reduces their attack speed by {2}%, for {3} sec."
+                }
+            }
+        },
+        "190": {
+            "Hash": 2565045465,
+            "Name": "Echoing Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3620162922,
+                    "Id": "410784",
+                    "Spec": "Augmentation",
+                    "Text": "Azure Strike has a {1}% chance per target hit to echo, casting again."
+                }
+            }
+        },
+        "191": {
+            "Hash": 2045686111,
+            "Name": "Ebon Might",
+            "Descriptions": {
+                "0": {
+                    "Hash": 492086481,
+                    "Id": "395152",
+                    "Spec": "Augmentation",
+                    "Text": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and prefers to imbue damage dealers.\r\n\r\nEruption, Deep Breath, and your empower spells extend the duration of these effects."
+                },
+                "1": {
+                    "Hash": 1003283004,
+                    "Id": "395152",
+                    "Spec": "Augmentation",
+                    "Text": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and prefers to imbue damage dealers.\r\n\r\nEruption, Breath of Eons, and your empower spells extend the duration of these effects."
+                }
+            }
+        },
+        "192": {
+            "Hash": 544520660,
+            "Name": "Chrono Ward",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2571311798,
+                    "Id": "409676",
+                    "Spec": "Augmentation",
+                    "Text": "When allies deal damage with Temporal Wounds, they gain a shield for {1}% of the damage dealt. Absorption cannot exceed {2}% of your maximum health."
+                }
+            }
+        },
+        "193": {
+            "Hash": 2643383306,
+            "Name": "Prescience",
+            "Descriptions": {
+                "0": {
+                    "Hash": 198140068,
+                    "Id": "409311",
+                    "Spec": "Augmentation",
+                    "Text": "Grant an ally the gift of foresight, increasing their critical strike chance by {1}% for {2} sec.\r\n\r\nAffects the nearest ally within {3} yds, preferring damage dealers, if you do not have an ally targeted."
+                }
+            }
+        },
+        "194": {
+            "Hash": 643879930,
+            "Name": "Molten Blood",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3785562372,
+                    "Id": "410643",
+                    "Spec": "Augmentation",
+                    "Text": "When cast, Blistering Scales grants the target a shield that absorbs up to {1} damage for {2} sec based on their missing health. Lower health targets gain a larger shield."
+                }
+            }
+        },
+        "195": {
+            "Hash": 2436222739,
+            "Name": "Regenerative Chitin",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1803929160,
+                    "Id": "406907",
+                    "Spec": "Augmentation",
+                    "Text": "Blistering Scales has {1} more scales, and casting Eruption restores {2} scale."
+                }
+            }
+        },
+        "196": {
+            "Hash": 1881602123,
+            "Name": "Timelessness",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1013372126,
+                    "Id": "412710",
+                    "Spec": "Augmentation",
+                    "Text": "Enchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by {1}% for {2} min. Less effective on tank-specialized allies. \r\n\r\nMay only be placed on one target at a time."
+                }
+            }
+        },
+        "197": {
+            "Hash": 2322229272,
+            "Name": "Black Attunement",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2388631381,
+                    "Id": "403264",
+                    "Spec": "Augmentation",
+                    "Text": "Attune to Black magic, granting you and your {1} nearest allies {2}% increased maximum health."
+                }
+            }
+        },
+        "198": {
+            "Hash": 2424646752,
+            "Name": "Aspects' Favor",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1518118965,
+                    "Id": "407243",
+                    "Spec": "Augmentation",
+                    "Text": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by {1}% for {2} sec.\r\n\r\nHover activates Bronze Attunement, and amplifies it to increase movement speed by {3}% for {4} sec."
+                }
+            }
+        },
+        "199": {
+            "Hash": 621047687,
+            "Name": "Blistering Scales",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2732799037,
+                    "Id": "360827",
+                    "Spec": "Augmentation",
+                    "Text": "Protect an ally with {1} explosive dragonscales, increasing their Armor by {2}% of your own.\r\n\r\nMelee attacks against the target cause {3} scale to explode, dealing {4} Volcanic damage to enemies near them. This damage can only occur every few sec.\r\n\r\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one."
+                }
+            }
+        },
+        "200": {
+            "Hash": 1375793519,
+            "Name": "Reactive Hide",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3576532634,
+                    "Id": "409329",
+                    "Spec": "Augmentation",
+                    "Text": "Each time Blistering Scales explodes it deals {1}% more damage for {2} sec, stacking {3} times."
+                }
+            }
+        },
+        "201": {
+            "Hash": 1763539494,
+            "Name": "Sands of Time",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3034341494,
+                    "Id": "395153",
+                    "Spec": "Augmentation",
+                    "Text": "{ffffffff|Eruption} increases the duration of your active Ebon Might effects by {1} sec.\r\n\r\nYour empower spells increase the duration of your active Ebon Might effects by {2} sec.\r\n\r\n{ffffffff|Breath of Eons} increases the duration of your active Ebon Might effects by {3} sec.\r\n\r\nThis effect can critically strike, increasing the duration of Ebon Might by an additional {4}%."
+                }
+            }
+        },
+        "202": {
+            "Hash": 3220423731,
+            "Name": "Close as Clutchmates",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1976336177,
+                    "Id": "396043",
+                    "Spec": "Augmentation",
+                    "Text": "{ffffffff|Ebon Might} and {ffffffff|Breath of Eons} are {1}% more effective when not in a raid."
+                }
+            }
+        },
+        "203": {
+            "Hash": 2187332232,
+            "Name": "Volcanism",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4104119623,
+                    "Id": "406904",
+                    "Spec": "Augmentation",
+                    "Text": "Eruption's Essence cost is reduced by {1}."
+                }
+            }
+        },
+        "204": {
+            "Hash": 3503986729,
+            "Name": "Accretion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2843094947,
+                    "Id": "407876",
+                    "Spec": "Augmentation",
+                    "Text": "Eruption reduces the remaining cooldown of Upheaval by {1} sec."
+                }
+            }
+        },
+        "205": {
+            "Hash": 244547820,
+            "Name": "Defy Fate",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1505577873,
+                    "Id": "404195",
+                    "Spec": "Augmentation",
+                    "Text": "Fatal attacks are diverted into a nearby timeline, preventing the damage, and your death, in this one.\r\n\r\nThe release of temporal energy restores {1} health to you, and {2} to {3} nearby allies, over {4} sec. Healing starts high and declines over the duration.\r\n\r\nMay only occur once every {5} min."
+                }
+            }
+        },
+        "206": {
+            "Hash": 1941255895,
+            "Name": "Ignition Rush",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2700607324,
+                    "Id": "408775",
+                    "Spec": "Augmentation",
+                    "Text": "Essence Burst reduces the cast time of Eruption by {1}%."
+                }
+            }
+        },
+        "207": {
+            "Hash": 3515464617,
+            "Name": "Plot the Future",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2893135463,
+                    "Id": "407866",
+                    "Spec": "Augmentation",
+                    "Text": "Deep Breath grants you Fury of the Aspects for {1} sec after you land, without causing Exhaustion."
+                }
+            }
+        },
+        "208": {
+            "Hash": 3156011541,
+            "Name": "Dreamwalker's Embrace",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1878565430,
+                    "Id": "415651",
+                    "Spec": "Augmentation",
+                    "Text": "Verdant Embrace tethers you to an ally, increasing movement speed by {1}% and slowing and siphoning {2} life from enemies who come in contact with the tether.\r\n\r\nThe tether lasts up to {3} sec or until you move more than {4} yards away from your ally."
+                }
+            }
+        },
+        "209": {
+            "Hash": 1913997504,
+            "Name": "Ricocheting Pyroclast",
+            "Descriptions": {
+                "0": {
+                    "Hash": 207477833,
+                    "Id": "406659",
+                    "Spec": "Augmentation",
+                    "Text": "Eruption deals {1}% more damage per enemy struck, up to {2}%."
+                }
+            }
+        },
+        "210": {
+            "Hash": 3657022389,
+            "Name": "Draconic Attunements",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1314162764,
+                    "Id": "403208",
+                    "Spec": "Augmentation",
+                    "Text": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\r\n\r\n|T5199619:24|t{ffffffff|Black Attunement}: You and your {1} nearest allies have {2}% increased maximum health.\r\n\r\n|T5199623:24|t{ffffffff|Bronze Attunement}:You and your {3} nearest allies have {4}% increased movement speed."
+                }
+            }
+        },
+        "211": {
+            "Hash": 213633008,
+            "Name": "Potent Mana",
+            "Descriptions": {
+                "0": {
+                    "Hash": 743595073,
+                    "Id": "418101",
+                    "Spec": "Augmentation",
+                    "Text": "Source of Magic increases the target's healing and damage done by {1}%."
+                }
+            }
+        },
+        "212": {
+            "Hash": 829216736,
+            "Name": "Mastery: Timewalker",
+            "Descriptions": {
+                "0": {
+                    "Hash": 845827462,
+                    "Id": "406380",
+                    "Spec": "Augmentation",
+                    "Text": "Casting an empower spell grants Shifting Sands to {1} ally, preferring damage dealers, increasing their Versatility by {2}% for {3} sec.\r\n\r\nThe durations of Shifting Sands, Breath of Eons, and your other helpful auras are increased by {4}%."
+                }
+            }
+        },
+        "213": {
+            "Hash": 3084964629,
+            "Name": "Fate Mirror",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2276515747,
+                    "Id": "412774",
+                    "Spec": "Augmentation",
+                    "Text": "Prescience grants the ally a chance for their spells and abilities to echo their damage or healing, dealing {1}% of the amount again."
                 }
             }
         }

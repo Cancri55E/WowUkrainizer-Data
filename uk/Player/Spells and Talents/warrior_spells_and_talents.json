@@ -136,6 +136,12 @@
                     "Id": "6673",
                     "Spec": "Fury, Protection, Arms",
                     "Text": "Збільшує силу атаки всіх учасників групи та рейду в радіусі {1} м на {2}% протягом {3} хв."
+                },
+                "1": {
+                    "Hash": 6173447,
+                    "Id": "6673",
+                    "Spec": "Fury, Protection, Arms",
+                    "Text": "Increases the attack power of all raid and party members within {1} yards by {2}% for {3} hour."
                 }
             }
         },
@@ -346,6 +352,12 @@
                     "Id": "383154",
                     "Spec": "Arms",
                     "Text": "Ефекти кровотеч від [Глибокі рани] та [Громовий рев] тривають на {1} сек довше, а їх ймовірність критичної шкоди збільшується на {2}%."
+                },
+                "1": {
+                    "Hash": 2027344491,
+                    "Id": "383154",
+                    "Spec": "Arms",
+                    "Text": "Deep Wounds, Rend and Thunderous Roar's Bleed effects last {1} sec longer and have a {2}% increased critical strike chance.\r\n\r\nIf you have Rend, Mortal Strike inflicts Rend on targets below {3}% health"
                 }
             }
         },
@@ -358,6 +370,12 @@
                     "Id": "329038",
                     "Spec": "Fury",
                     "Text": "Ви отримуєте {1} од. гніву за {2} сек. і знімаєте з себе всі ефекти знерухомлення та сповільнення, але ціною {3} власного здоров'я."
+                },
+                "1": {
+                    "Hash": 3311504643,
+                    "Id": "329038",
+                    "Spec": "Fury",
+                    "Text": "You gain {1} Rage over {2} sec, and all snares and roots are cleared from you, but at a cost of {3}% of your health."
                 }
             }
         },
@@ -406,6 +424,12 @@
                     "Id": "213871",
                     "Spec": "Protection",
                     "Text": "Захищає союзника, перенаправляючи {1}% його вхідної фізичної шкоди на вас. Коли він отримує фізичну шкоду, ваш [Удар щитом] має {2}% шанс відновитися. Ефект буде скасовано, якщо ціль опиниться далі ніж {3} м від вас. Тривалість - {4} сек.\n\nТільки одна ціль одночасно може бути під дією ефекту [Захисник]."
+                },
+                "1": {
+                    "Hash": 1293966041,
+                    "Id": "213871",
+                    "Spec": "Protection",
+                    "Text": "Protect an ally, causing {1}% of all Physical damage they take to be transfered to you. When the target takes Physical damage, your Shield Slam cooldown has a {2}% chance to be reset. Bodyguard is cancelled if the target is further than {3} yards from you. Lasts {4} min.\r\n\r\nOnly one target can be Bodyguarded at a time."
                 }
             }
         },
@@ -700,6 +724,12 @@
                     "Id": "199261",
                     "Spec": "Fury",
                     "Text": "Збільшує вашу вхідну та вихідну шкоду на {1}% протягом {2} сек, ціною {3}% вашого здоров'я. Накопичується до {4} разів."
+                },
+                "1": {
+                    "Hash": 3974400817,
+                    "Id": "199261",
+                    "Spec": "Fury",
+                    "Text": "Increases your damage taken and done by {1}% for {2} sec at the cost of {3}% of your health. Stacks up to {4} times."
                 }
             }
         },
@@ -976,6 +1006,12 @@
                     "Id": "198877",
                     "Spec": "Fury",
                     "Text": "Збільшує тривалість ефекту вашого [Шаленство] на {1} сек, а ваш [Гнівний удар] подовжує тривалість [Шаленство] на {2} сек."
+                },
+                "1": {
+                    "Hash": 620155419,
+                    "Id": "411764",
+                    "Spec": "Fury",
+                    "Text": "You have a chance to become Enraged while you are suffering movement impairing effects.\r\n\r\nWhile Enraged, suffering loss of control effects have a chance to grant you Recklessness for {1} sec."
                 }
             }
         },
@@ -1960,6 +1996,12 @@
                     "Id": "213915",
                     "Spec": "Fury, Protection, Arms",
                     "Text": "Відбиті закляття завдають на {1}% більше шкоди нападнику."
+                },
+                "1": {
+                    "Hash": 3514288083,
+                    "Id": "213915",
+                    "Spec": "Fury, Protection, Arms",
+                    "Text": "Spell Reflection reflects the next {1} incoming spells cast on you and reflected spells deal {2}% extra damage to the attacker.\r\n\r\nSpell Reflection's cooldown is increased by {3} sec."
                 }
             }
         },
@@ -2146,6 +2188,12 @@
                     "Id": "198912",
                     "Spec": "Protection",
                     "Text": "Ви б'єте ціль щитом, завдаючи {1}{2} фізичної шкоди, зменшуючи її завдану шкоду на {3}%. Якщо ціль застосовує заклинання, [Удар Щитом] миттєво відновлюється.\n\n{FFFFFFFF|Генерує {4} од. гніву.}"
+                },
+                "1": {
+                    "Hash": 4093508638,
+                    "Id": "198912",
+                    "Spec": "Protection",
+                    "Text": "When Shield Slam is used on targets that are casting, it reduces their damage done by {1}% for {2} sec and the cooldown is instantly reset."
                 }
             }
         },
@@ -2632,6 +2680,12 @@
                     "Id": "199045",
                     "Spec": "Protection",
                     "Text": "[Громовий Удар] знерухомлює усі уражені цілі на {1} сек."
+                },
+                "1": {
+                    "Hash": 1130669469,
+                    "Id": "199045",
+                    "Spec": "Protection",
+                    "Text": "Thunder Clap roots all targets it damages for {1} sec."
                 }
             }
         },

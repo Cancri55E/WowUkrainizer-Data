@@ -82,6 +82,12 @@
                     "Id": "381664",
                     "Spec": "Assassination",
                     "Text": "Вкриває зброю смертельною отрутою, що діє {1} хв. Кожен удар має {2}% шанс отруїти ворога, завдаючи {3} од. шкоди від сил природи та застосовуючи [Посилення отрути] на {4} сек. [Отруєння] може поглинути {5} накопичень [Посилення отрути] щоб завдати на {6}% більше шкоди. Накопичується до {7} разів."
+                },
+                "1": {
+                    "Hash": 2118975437,
+                    "Id": "381664",
+                    "Spec": "Assassination",
+                    "Text": "Coats your weapons with a Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance to poison the enemy, dealing {3} Nature damage and applying Amplifying Poison for {4} sec. Envenom can consume {5} stacks of Amplifying Poison to deal {6}% increased damage. Max {7} stacks."
                 }
             }
         },
@@ -106,6 +112,12 @@
                     "Id": "381637",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Покриває зброю нелетальною отрутою, яка діє {1} хв. Кожен удар має {2}% шанс отруїти ворога, зменшуючи його шкоду на {3}% на {4} сек."
+                },
+                "1": {
+                    "Hash": 307968393,
+                    "Id": "381637",
+                    "Spec": "Subtlety, Assassination",
+                    "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance of poisoning the enemy, reducing their damage by {3}% for {4} sec."
                 }
             }
         },
@@ -202,6 +214,12 @@
                     "Id": "2094",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Засліплює ціль, змушуючи її блукати дезорієнтованою протягом {1} секунди. Шкода перерве ефект. Ліміт {2}."
+                },
+                "1": {
+                    "Hash": 1177342405,
+                    "Id": "2094",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Blinds the target, causing it to wander disoriented for {1} min. Damage will interrupt the effect. Limit {2}."
                 }
             }
         },
@@ -406,6 +424,12 @@
                     "Id": "3408",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Покриває вашу зброю нелетальною отрутою, яка діє протягом {1} хв. Кожен удар має {2}% шанс отруїти ворога, зменшуючи швидкість пересування на {3}% на {4} сек."
+                },
+                "1": {
+                    "Hash": 4120559764,
+                    "Id": "3408",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance to poison the enemy, slowing movement speed by {3}% for {4} sec."
                 }
             }
         },
@@ -436,6 +460,12 @@
                     "Id": "198675",
                     "Spec": "Subtlety",
                     "Text": "Кожну секунду поки активний стан [Скритність], вороги в радіусі {1} м отримають на {2}% більшу шкоду від вашого наступного [Тіньовий удар] протягом {3} сек. Накопичується до {4} разів."
+                },
+                "2": {
+                    "Hash": 17520649,
+                    "Id": "198675",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Each second while Stealth is active, nearby enemies within {1} yards take an additional {2}% damage from you for {3} sec. Stacks up to {4} times."
                 }
             }
         },
@@ -520,6 +550,12 @@
                     "Id": "2823",
                     "Spec": "Assassination",
                     "Text": "Покриває вашу зброю летальною отрутою, яки діє {1} хв. Кожен удар має {2}% шанс отруїти ворога, завдаючи {3} од. шкоди від сил природи протягом {4} сек. Подальші застосування отрути миттєво завдаватимуть {5} од. шкоди від сил природи."
+                },
+                "1": {
+                    "Hash": 4109982171,
+                    "Id": "2823",
+                    "Spec": "Assassination",
+                    "Text": "Coats your weapons with a Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance to poison the enemy for {3} Nature damage over {4} sec. Subsequent poison applications will instantly deal {5} Nature damage."
                 }
             }
         },
@@ -1276,6 +1312,12 @@
                     "Id": "315584",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Покриває вашу зброю летальною отрутою, яка діє протягом {1} хв. Кожен удар має {2}% шанс отруїти ворога, миттєво завдаючи {3} од. шкоди від сил природи."
+                },
+                "1": {
+                    "Hash": 2827905263,
+                    "Id": "315584",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Coats your weapons with a Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance of poisoning the enemy which instantly inflicts {3} Nature damage."
                 }
             }
         },
@@ -1480,6 +1522,12 @@
                     "Id": "197000",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "[Спринт] усуває всі ефекти знерухомлення та зменшує вплив всіх ефектів, що уповільнюють рух, на {1} сек з моменту використання."
+                },
+                "1": {
+                    "Hash": 2750605140,
+                    "Id": "197000",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Sprint has {1}% reduced cooldown and {2}% reduced duration."
                 }
             }
         },
@@ -1492,6 +1540,12 @@
                     "Id": "137619",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Позначає ціль, одразу генеруючи {1} {declension|очко серії|очки серії|очок серії}. Перезаряджається якщо ціль померла протягом {2} сек."
+                },
+                "1": {
+                    "Hash": 2159847585,
+                    "Id": "137619",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Marks the target, instantly generating {1} combo points. Cooldown reset if the target dies within {2} min."
                 }
             }
         },
@@ -1636,6 +1690,12 @@
                     "Id": "5761",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Вкриває вашу зброю нелетальною отрутою, яка діє {1} хв. Кожен удар має {2}% шанс отруїти ворога, затуманюючи його розум та зменшуючи його швидкість атаки та читання заклинань на {3}% на {4} сек."
+                },
+                "1": {
+                    "Hash": 1069880861,
+                    "Id": "5761",
+                    "Spec": "Subtlety, Assassination",
+                    "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} hour.  Each strike has a {2}% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by {3}% for {4} sec."
                 }
             }
         },
@@ -1960,6 +2020,12 @@
                     "Id": "6770",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Дезорієнтує ціль, що не знаходиться в бою на {1} сек. Працює лише проти Гуманоїдів, Звірів, Демонів, та Драконідів. Шкода приведе ціль до тями. Ліміт {2}."
+                },
+                "1": {
+                    "Hash": 2266266712,
+                    "Id": "6770",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Incapacitates a target not in combat for {1} min. Only works on Humanoids, Beasts, Demons, and Dragonkin. Damage will revive the target. Limit {2}."
                 }
             }
         },
@@ -2674,6 +2740,12 @@
                     "Id": "198952",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Ви залишаєтеся у тіні протягом {1} сек після того, як [Скритність] або [Зникнення] розвіюються, збільшуючи шанс ухилення на {2}%."
+                },
+                "1": {
+                    "Hash": 151004166,
+                    "Id": "198952",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Cloak of Shadows now also removes harmful physical effects and increases dodge chance by {1}%."
                 }
             }
         },
@@ -2788,6 +2860,12 @@
                     "Id": "8679",
                     "Spec": "Subtlety, Assassination, Outlaw",
                     "Text": "Вкриває зброю смертельною отрутою, що діє {1} хв. Кожен удар має {2}% шанс отруїти ворога, завдаючи {3} од. пошкодження від сил природи та застосовуючи [Підсилювальна отрута] на {4} сек. [Отрута] може поглинути {5} накопичень [Підсилювальна отрута] щоб завдати на {6}% збільшену шкоду. Накопичується до {7} разів."
+                },
+                "1": {
+                    "Hash": 4150230796,
+                    "Id": "8679",
+                    "Spec": "Subtlety, Assassination, Outlaw",
+                    "Text": "Coats your weapons with a Lethal Poison that lasts for {1} hour. Each strike has a {2}% chance to poison the enemy, which instantly inflicts {3} Nature damage and reduces all healing received by {4}% for {5} sec, stacking up to {6} times."
                 }
             }
         },
@@ -2800,6 +2878,18 @@
                     "Id": "381798",
                     "Spec": "Assassination",
                     "Text": "Ваша шкода від отрут та кровотечі на {1}% більша, по цілях зі здоров'ям нижче {2}%."
+                }
+            }
+        },
+        "229": {
+            "Hash": 1467403382,
+            "Name": "Dirty Tricks",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4113411512,
+                    "Id": "108216",
+                    "Spec": "Outlaw",
+                    "Text": "Cheap Shot, Gouge, and Sap no longer cost Energy."
                 }
             }
         }

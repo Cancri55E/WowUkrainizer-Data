@@ -520,6 +520,12 @@
                     "Id": "1714",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Змушує ціль говорити мовою демонів, збільшуючи її час застосування усіх заклинань на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
+                },
+                "1": {
+                    "Hash": 749624624,
+                    "Id": "1714",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Forces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} min.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
                 }
             }
         },
@@ -544,6 +550,12 @@
                     "Id": "386105",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Відкриває доступ до наступних здібностей:\n\n|T136140:24|t{ffffffff|Язичницьке прокляття}:\nЗмушує ціль говорити мовою демонів, збільшуючи її час застосування усіх заклинань на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}\n\n|T136162:24|t{ffffffff|Прокляття виснаження}:\nЗменшує швидкість пересування цілі на {1}% протягом {2} сек.\n\n{FF8282FF|Прокляття: На кожну ціль чорнокнижника може діяти лише одне його прокляття.}"
+                },
+                "1": {
+                    "Hash": 1947597105,
+                    "Id": "386105",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} min.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {3}% for {4} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
                 }
             }
         },
@@ -1240,6 +1252,12 @@
                     "Id": "108503",
                     "Spec": "Destruction, Affliction",
                     "Text": "Ви приносите в жертву свого демона-прислужника та отримуєте його здібність, яка активується [Керування демоном]. Також, час від часу, ваші здібності додатково завдають {1} шкоди від темної магії.\n\nТриває {2} хв або до виклику демона-прислужника."
+                },
+                "1": {
+                    "Hash": 1945122411,
+                    "Id": "108503",
+                    "Spec": "Destruction, Affliction",
+                    "Text": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts {2} hour or until you summon a demon pet."
                 }
             }
         },
@@ -1660,6 +1678,12 @@
                     "Id": "212628",
                     "Spec": "Demonology",
                     "Text": "[Виклик Ловчих Жаху] тепер застосовується миттєво."
+                },
+                "1": {
+                    "Hash": 3766405296,
+                    "Id": "212628",
+                    "Spec": "Demonology",
+                    "Text": "Reduces the cast time of your Call Dreadstalkers, Summon Vilefiend, and Summon Demonic Tyrant by {1}% and reduces the cooldown of Call Dreadstalkers by {2} sec."
                 }
             }
         },
@@ -2098,6 +2122,12 @@
                     "Id": "387103",
                     "Spec": "Destruction",
                     "Text": "Збільшує шкоду від [Займання], [Обстріл демонічним вогнем], [Тіньовий опік] та [Опік душі] на {1}%."
+                },
+                "1": {
+                    "Hash": 1839860915,
+                    "Id": "387103",
+                    "Spec": "Destruction",
+                    "Text": "Increases the damage of Conflagrate, Shadowburn, and Soulfire by {1}%."
                 }
             }
         },
@@ -2836,6 +2866,42 @@
                     "Id": "317031",
                     "Spec": "Affliction",
                     "Text": "[Порча] застосовується миттєво та одразу завдає {1} шкоди."
+                }
+            }
+        },
+        "229": {
+            "Hash": 1745226089,
+            "Name": "Soul Rip",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1738010325,
+                    "Id": "410598",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Fracture the soul of up to {1} target players within {2} yds into the shadows, reducing their damage done by {3}% and healing received by {4}% for {5} sec. Souls are fractured up to {6} yds from the player's location.\r\n\r\nPlayers can retrieve their souls to remove this effect."
+                }
+            }
+        },
+        "230": {
+            "Hash": 2983377472,
+            "Name": "Impish Instincts",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2801158429,
+                    "Id": "409835",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Taking direct Physical damage reduces the cooldown of Demonic Circle by {1} sec.\r\n\r\nCannot occur more than once every {2} sec."
+                }
+            }
+        },
+        "231": {
+            "Hash": 1264266896,
+            "Name": "The Houndmaster's Stratagem",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2701492947,
+                    "Id": "267170",
+                    "Spec": "Demonology",
+                    "Text": "Dreadbite causes the target to take {1}% additional Shadowflame damage from your spell and abilities for the next {2} sec."
                 }
             }
         }

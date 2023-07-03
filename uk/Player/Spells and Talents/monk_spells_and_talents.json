@@ -70,6 +70,12 @@
                     "Id": "388023",
                     "Spec": "Mistweaver",
                     "Text": "Після застосування [Купіль есенції] або [Поступ магії Фей], ваші [Тигрова лапа], [Карколомний удар] і [Удар висхідного сонця] зцілюють пораненого союзника в радіусі {1} м на {2}% завданої шкоди. Триває {3} сек."
+                },
+                "1": {
+                    "Hash": 3934080292,
+                    "Id": "388023",
+                    "Spec": "Mistweaver",
+                    "Text": "After casting Essence Font or Faeline Stomp, your Tiger Palm, Blackout Kick, and Rising Sun Kick heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them. Lasts {4} sec."
                 }
             }
         },
@@ -268,6 +274,12 @@
                     "Id": "399226",
                     "Spec": "Mistweaver",
                     "Text": "[Кокон життя] відновлюється на {1} сек швидше, але поглинає на {2}% менше шкоди. Коли [Кокон життя] закінчується, він випускає хвилю туману, що відновлює {3} од. здоров'я {4} союзникам неподалік."
+                },
+                "1": {
+                    "Hash": 1027296414,
+                    "Id": "399226",
+                    "Spec": "Mistweaver",
+                    "Text": "When Life Cocoon expires, it releases a burst of mist that restores {1} health to {2} nearby allies."
                 }
             }
         },
@@ -994,6 +1006,12 @@
                     "Id": "387230",
                     "Spec": "Brewmaster",
                     "Text": "[Карколомний удар] відновлюється на {1} сек швидше і завдає на {2}% більше шкоди."
+                },
+                "1": {
+                    "Hash": 3359673725,
+                    "Id": "387230",
+                    "Spec": "Brewmaster",
+                    "Text": "Blackout Kick's cooldown is reduced by {1} sec and its damage is reduced by {2}%."
                 }
             }
         },
@@ -1144,6 +1162,12 @@
                     "Id": "124502",
                     "Spec": "Brewmaster",
                     "Text": "Коли ви отримуєте шкоду, ви можете викликати зцілюючу сферу.\n\n|T606546:24|t{ffffffff|Зцілююча сфера}:\nВикликає зцілюючу сферу, яку бачите тільки ви. Рух крізь сферу зцілює вас на {1} од. здоров'я."
+                },
+                "1": {
+                    "Hash": 2613368729,
+                    "Id": "124502",
+                    "Spec": "Windwalker",
+                    "Text": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:"
                 }
             }
         },
@@ -1300,6 +1324,12 @@
                     "Id": "202126",
                     "Spec": "Brewmaster",
                     "Text": "[Очищувальний відвар] завдає {1}% шкоди вогнем від скасованої відкладеної шкоди під час [Похитування]. Шкода розподіляється між усіма ворогами в радіусі {2} м."
+                },
+                "1": {
+                    "Hash": 1903002216,
+                    "Id": "410346",
+                    "Spec": "Brewmaster",
+                    "Text": "Purifying Brew deals {1}% of cleared damage split among nearby enemies. After clearing {2}% of your maximum health in Stagger damage, your next Breath of Fire incapacitates targets for {3} sec."
                 }
             }
         },
@@ -1468,6 +1498,12 @@
                     "Id": "123904",
                     "Spec": "Windwalker",
                     "Text": "Викликає дух Сюеня, Білого Тигра на {1} сек. Сюень атакує вашу головну ціль, а також кожні {4} сек запускає [Тигрова блискавка] у {2} ворогів в радіусі {3} м, яка завдає {5} од. шкоди від сил природи.\n\nСюень вражає ваших ворогів [Посилена тигрова блискавка] кожні {6} сек, яка завдає {7}% від об'єму шкоди, яку завдали ви і ваші супутники впродовж останніх {8} сек."
+                },
+                "1": {
+                    "Hash": 3583519542,
+                    "Id": "123904",
+                    "Spec": "Mistweaver, Brewmaster",
+                    "Text": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage."
                 }
             }
         },
@@ -1540,6 +1576,12 @@
                     "Id": "121253",
                     "Spec": "Brewmaster",
                     "Text": "Ви кидаєте діжку з відваром у вашу ціль, що завдає {1} од. фізичної шкоди усім ворогам в радіусі {2} м і зменшує їх швидкість пересування на {3}% протягом {4} сек. Здійснює зменшену шкоду більше як {5} цілям.\n\nДає ефект [Уникнення] на {6} сек і зменшує час відновлення ваших відварів на {7} сек."
+                },
+                "1": {
+                    "Hash": 2639544007,
+                    "Id": "121253",
+                    "Spec": "Mistweaver, Windwalker",
+                    "Text": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets."
                 }
             }
         },
@@ -1852,6 +1894,12 @@
                     "Id": "115078",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
                     "Text": "Паралізує ціль на {1} сек. Максимум можна паралізувати {2} ціль одночасно. Будь-яка шкода по цілі припиняє дію цього ефекту."
+                },
+                "1": {
+                    "Hash": 2265288724,
+                    "Id": "115078",
+                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Text": "Incapacitates the target for {1} min. Limit {2}. Damage will cancel the effect."
                 }
             }
         },
@@ -2356,6 +2404,12 @@
                     "Id": "392991",
                     "Spec": "Windwalker",
                     "Text": "Радіус дії [Тигрова лапа] збільшується до {1} м, а при використанні швидко переносить вас до цілі.\n\n[Тигрова лапа] також надає ефект, який збільшує ймовірність критичної шкоди по цілі на {2}% протягом {3} сек. Ефект накладається лише раз на {4} сек на одну ціль."
+                },
+                "1": {
+                    "Hash": 211136227,
+                    "Id": "392991",
+                    "Spec": "Windwalker",
+                    "Text": "Tiger Palm now has a {1} yard range and dashes you to the target when used.\r\n\r\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} min per target."
                 }
             }
         },
@@ -2368,6 +2422,12 @@
                     "Id": "405044",
                     "Spec": "Windwalker",
                     "Text": "Радіус дії [Тигрова лапа] збільшується до {1} м.\n\n[Тигрова лапа] також надає ефект, який збільшує ймовірність критичної шкоди по цілі на {2}% протягом {3} сек. Ефект накладається лише раз на {4} сек на одну ціль."
+                },
+                "1": {
+                    "Hash": 3003991743,
+                    "Id": "405044",
+                    "Spec": "Windwalker",
+                    "Text": "Tiger Palm now has a {1} yard range.\r\n\r\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} min per target."
                 }
             }
         },
@@ -2674,6 +2734,12 @@
                     "Id": "353936",
                     "Spec": "Mistweaver",
                     "Text": "[Чай з громовим концентратом] тепер може негайно викликати ефект відкидання від [Тріскуча нефритова блискавка], або підсилити вашу наступну [Купіль есенції], що вона збільшить швидкість пересування на {1}% і надасть імунітет до ефектів обмеження руху."
+                },
+                "1": {
+                    "Hash": 1184200563,
+                    "Id": "353936",
+                    "Spec": "Mistweaver",
+                    "Text": "Thunder Focus Tea can now additionally cause Crackling Jade Lightning's knockback immediately or cause Roll and Chi Torpedo to refund a charge on use and heal you for {1}."
                 }
             }
         },
@@ -2806,6 +2872,12 @@
                     "Id": "393357",
                     "Spec": "Brewmaster",
                     "Text": "Коли ви поглинаєте [Зцілююча сфера] від [Дар Бика] або застосовуєте [Усунення шкоди], ваш об'єм відкладеної шкоди від [Похитування] зменшується на {1}%."
+                },
+                "1": {
+                    "Hash": 1421623408,
+                    "Id": "393357",
+                    "Spec": "Brewmaster",
+                    "Text": "When you consume a Healing Sphere or cast Expel Harm, your current Stagger amount is lowered by {1}%."
                 }
             }
         },
@@ -2854,6 +2926,12 @@
                     "Id": "287681",
                     "Spec": "Windwalker",
                     "Text": "[Кулаки люті] тепер завдають повну шкоду усім ураженим цілям, зменшують їх швидкість пересування на {1}%, а ви відбиваєте усі атаки під час підтримання [Кулаки люті]."
+                },
+                "1": {
+                    "Hash": 2081545539,
+                    "Id": "287681",
+                    "Spec": "Windwalker",
+                    "Text": "Fists of Fury now reduces all targets movement speed by {1}%, and you Parry all attacks while channelling Fists of Fury."
                 }
             }
         },
@@ -3124,6 +3202,42 @@
                     "Id": "124081",
                     "Spec": "Mistweaver",
                     "Text": "Створює [Імпульс Дзен] навколо союзника, який завдає {1} од. шкоди усім ворогам в радіусі {2} м від цілі та зцілює союзника на {3} од. здоров'я за кожну уражену ціль."
+                }
+            }
+        },
+        "249": {
+            "Hash": 3481281411,
+            "Name": "Fae Accord",
+            "Descriptions": {
+                "0": {
+                    "Hash": 977680970,
+                    "Id": "406888",
+                    "Spec": "Mistweaver",
+                    "Text": "Faeline Stomp's cooldown is reduced by {1} sec.\r\n\r\nEnemies struck by Faeline Stomp are snared by {2}% for {3} sec."
+                }
+            }
+        },
+        "250": {
+            "Hash": 2755108870,
+            "Name": "Zen Spheres",
+            "Descriptions": {
+                "0": {
+                    "Hash": 38438365,
+                    "Id": "410777",
+                    "Spec": "Mistweaver",
+                    "Text": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Increases your healing done to the target by {1}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Target deals {2}% less damage to you, and takes {3}% increased damage from all sources."
+                }
+            }
+        },
+        "251": {
+            "Hash": 1606543164,
+            "Name": "Stormspirit Strikes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 486976043,
+                    "Id": "411098",
+                    "Spec": "Windwalker",
+                    "Text": "Striking more than one enemy with Fists of Fury summons a Storm Spirit to focus your secondary target for {1} sec, which will mimic any of your attacks that do not also strike the target for {2}% of normal damage."
                 }
             }
         }
