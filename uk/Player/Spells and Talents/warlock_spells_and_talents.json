@@ -843,7 +843,7 @@
                     "Hash": 3631518118,
                     "Id": "387976",
                     "Spec": "Destruction",
-                    "Text": "Відкриває прогалину в часі та просторі, відкриваючи випадковий портал, який завдає шкоду цілі:\n\n|T607513:24|t{ffffffff|Розрив темряви}\nЗавдає {1} шкоди від темної магії протягом {2} сек.\n\n|T607512:24|t{ffffffff|Нестабільний розрив}\nЗавдає {3} шкоди від хаосу протягом {4} сек.\n\n|T1394890:24|t{ffffffff|Розрив хаосу}\nВипускає [Стріла Хаосу], яка завдає {5} шкоди від хаосу. Ця [Стріла Хаосу] завжди завдає критичну шкоду, а ваша ймовірінсть критичного удару збільшує її шкоду.\n\n{FFFFFFFF|Генерує {6} фрагментів уламку душі.}"
+                    "Text": "Відкриває прогалину в часі та просторі, відкриваючи випадковий портал, який завдає шкоду цілі:\n\n|T607513:24|t{ffffffff|Розрив темряви}\nЗавдає {1} шкоди від темної магії протягом {2} сек.\n\n|T607512:24|t{ffffffff|Нестабільний розрив}\nЗавдає {3} шкоди від хаосу протягом {4} сек.\n\n|T1394890:24|t{ffffffff|Розрив хаосу}\nВипускає [Стріла Хаосу], яка завдає {5} шкоди від хаосу. Ця [Стріла Хаосу] завжди завдає критичну шкоду, а ваша ймовірність критичного удару збільшує її шкоду.\n\n{FFFFFFFF|Генерує {6} фрагментів уламку душі.}"
                 }
             }
         },
@@ -2871,37 +2871,37 @@
         },
         "229": {
             "Hash": 1745226089,
-            "Name": "Soul Rip",
+            "Name": "Розрив душі",
             "Descriptions": {
                 "0": {
                     "Hash": 1738010325,
                     "Id": "410598",
                     "Spec": "Destruction, Affliction, Demonology",
-                    "Text": "Fracture the soul of up to {1} target players within {2} yds into the shadows, reducing their damage done by {3}% and healing received by {4}% for {5} sec. Souls are fractured up to {6} yds from the player's location.\r\n\r\nPlayers can retrieve their souls to remove this effect."
+                    "Text": "Розколює душі максимум {1} цілям в радіусі {2} м, зменшуючи завдану ними шкоду на {3}% та отримуване ними зцілення на {4}% на {5} сек. Уламки душ розлітаються на відстань до {6} м від гравця.\n\nГравці можуть зняти цей ефект зібравши уламки душі."
                 }
             }
         },
         "230": {
             "Hash": 2983377472,
-            "Name": "Impish Instincts",
+            "Name": "Бісові інстинкти",
             "Descriptions": {
                 "0": {
                     "Hash": 2801158429,
                     "Id": "409835",
                     "Spec": "Destruction, Affliction, Demonology",
-                    "Text": "Taking direct Physical damage reduces the cooldown of Demonic Circle by {1} sec.\r\n\r\nCannot occur more than once every {2} sec."
+                    "Text": "Отримування прямої фізичної шкоди зменшує час відновлення [Демонічне коло] на {1} сек.\n\nСпрацьовує лише раз на {2} сек."
                 }
             }
         },
         "231": {
             "Hash": 1264266896,
-            "Name": "The Houndmaster's Stratagem",
+            "Name": "Тактика псаря",
             "Descriptions": {
                 "0": {
                     "Hash": 2701492947,
                     "Id": "267170",
                     "Spec": "Demonology",
-                    "Text": "Dreadbite causes the target to take {1}% additional Shadowflame damage from your spell and abilities for the next {2} sec."
+                    "Text": "[Укус Жаху] збільшує отримувану ціллю шкоду від темного полум'я ваших заклинань та здібностей на {1}% протягом наступних {2} сек."
                 }
             }
         }
