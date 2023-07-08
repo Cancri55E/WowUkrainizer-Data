@@ -2127,7 +2127,7 @@
                     "Hash": 3120596408,
                     "Id": "408002",
                     "Spec": "Augmentation",
-                    "Text": "Upheaval deals {1}% increased damage to the primary target, and launches them higher."
+                    "Text": "[Потрясіння] завдає на {1}% більше шкоди основній цілі та підкидає їх вище."
                 }
             }
         },
@@ -2139,7 +2139,7 @@
                     "Hash": 4102209655,
                     "Id": "410261",
                     "Spec": "Augmentation",
-                    "Text": "Fire Breath grants the inferno's blessing for {1} sec to you and your allies affected by Ebon Might, giving their damaging attacks and spells a high chance to deal an additional {2} Fire damage."
+                    "Text": "[Вогняний Подих] накладає [Благословення пекельного вогню] на вас та ваших союзників з ефектом [Чорна сила] на {1} сек, надаючи їх атакам та шкідливим закляттям шанс додатково завдати {2} од. шкоди від вогню."
                 }
             }
         },
@@ -2163,19 +2163,19 @@
                     "Hash": 384182341,
                     "Id": "414937",
                     "Spec": "Augmentation",
-                    "Text": "Casting Ebon Might grants Burnout immediately and every {1} sec for {2} sec, reducing the cast time of Living Flame by {3}%."
+                    "Text": "Застосування [Чорна сила] надає вам ефект [Вигорання] миттєво та кожні {1} сек протягом {2} сек, зменшуючи час застосування [Живе полум'я] на {3}%."
                 }
             }
         },
         "170": {
             "Hash": 2526701957,
-            "Name": "Дар камінів Вейрнів",
+            "Name": "Дар Вейрніту",
             "Descriptions": {
                 "0": {
                     "Hash": 3901322869,
                     "Id": "408233",
                     "Spec": "Augmentation",
-                    "Text": "Conjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\r\n\r\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within {1} yds."
+                    "Text": "Створює пару Вейрнітів, один для вас та один для вашої цілі. Тільки один союзник може носити ваш Вейрніт одночасно. \n\nНосій Вейрніту може активувати його, щоб перенестися на місце іншого Вейрніту, якщо вони знаходяться в межах {1} м."
                 }
             }
         },
@@ -2187,13 +2187,13 @@
                     "Hash": 1225170743,
                     "Id": "396286",
                     "Spec": "Augmentation",
-                    "Text": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius."
+                    "Text": "Ви вбираєте земну силу з-під ніг ваших ворогів та підкидаєте їх, завдаючи {1} од. вулканічної шкоди цілі та ворогам поряд.\n\nЗбільшує тривалість ваших активних ефектів [Чорна сила] на {2} сек.\n\nЗаряджання збільшує радіус ураження.\n\n{FFFFFFFF|I:}   {3} м радіус.\n\n{FFFFFFFF|II:}  {4} м радіус.\n\n{FFFFFFFF|III:} {5} м радіус."
                 },
                 "1": {
                     "Hash": 1187456634,
                     "Id": "408092",
                     "Spec": "Augmentation",
-                    "Text": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius.\r\n\r\n{FFFFFFFF|IV:} {6} yd radius."
+                    "Text": "Ви вбираєте земну силу з-під ніг ваших ворогів та підкидаєте їх, завдаючи {1} од. вулканічної шкоди цілі та ворогам поряд.\n\nЗбільшує тривалість ваших активних ефектів [Чорна сила] на {2} сек.\n\nЗаряджання збільшує радіус ураження.\n\n{FFFFFFFF|I:}   {3} м радіус.\n\n{FFFFFFFF|II:}  {4} м радіус.\n\n{FFFFFFFF|III:} {5} м радіус.\n\n{FFFFFFFF|IV:} {6} м радіус."
                 }
             }
         },
@@ -2205,7 +2205,7 @@
                     "Hash": 1369620237,
                     "Id": "412723",
                     "Spec": "Augmentation",
-                    "Text": "Time Skip channels for {1} sec longer."
+                    "Text": "[Пропуск часу] підтримується на {1} сек довше."
                 }
             }
         },
@@ -2217,7 +2217,7 @@
                     "Hash": 2222324833,
                     "Id": "406732",
                     "Spec": "Augmentation",
-                    "Text": "Evoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by {1}% for {2} sec.\r\n\r\nAffects the nearest healer within {3} yds, if you do not have a healer targeted."
+                    "Text": "Створює парадокс для вас і союзного цілителя, що дозволяє застосовувати закляття під час пересування та збільшує дальність більшості заклинань на {1}% на {2} сек.\n\nВпливає на найближчого цілителя в радіусі {3} м, якщо у вас немає цілі-цілителя."
                 }
             }
         },
@@ -2241,7 +2241,7 @@
                     "Hash": 3787362077,
                     "Id": "410687",
                     "Spec": "Augmentation",
-                    "Text": "Your effects that extend Ebon Might also extend Symbiotic Bloom."
+                    "Text": "Ваші ефекти, які подовжують тривалість [Чорна сила] також подовжують [Симбіотичний цвіт]."
                 }
             }
         },
@@ -2253,7 +2253,7 @@
                     "Hash": 373305022,
                     "Id": "406041",
                     "Spec": "Augmentation",
-                    "Text": "When you kill an enemy that yields experience or honor, the cooldown of Emerald Blossom is refreshed and your next Emerald Blossom within {1} sec restores an additional {2}% of maximum health to you."
+                    "Text": "Коли ви вбиваєте ворога, що дає досвід або честь, [Смарагдовий Цвіт] миттєво відновлюється, а ваш наступний [Смарагдовий Цвіт] застосований впродовж {1} сек, додатково відновить вам {2}% від максимального здоров'я."
                 }
             }
         },
@@ -2265,7 +2265,7 @@
                     "Hash": 1602740689,
                     "Id": "404977",
                     "Spec": "Augmentation",
-                    "Text": "Surge forward in time, causing your cooldowns to recover {1}% faster for {2} sec."
+                    "Text": "Ви переноситесь вперед у часі, прискорюючи відновлення ваших здібностей на {1}% на {2} сек."
                 }
             }
         },
@@ -2277,7 +2277,7 @@
                     "Hash": 3019890032,
                     "Id": "403631",
                     "Spec": "Augmentation",
-                    "Text": "Fly to the targeted location, exposing Temporal Wounds on enemies in your path for {1} sec.\r\n\r\nTemporal Wounds accumulate {2}% of damage dealt by your allies affected by Ebon Might, then critically strike for that amount as Arcane damage.\r\n\r\nApplies Ebon Might for {3} sec.\r\n\r\nRemoves all root effects. You are immune to movement impairing and loss of control effects while flying."
+                    "Text": "Ви летите в цільову область, накладаючи [Часові рани] на ворогів на вашому шляху на {1} сек.\n\n[Часові рани] накопичують {2}% завданої шкоди вашими союзниками з ефектом [Чорна сила], а потім завдає критичний удар накопиченою кількістю у вигляді шкоди від таємної магії.\n\nНакладає [Чорна сила] на {3} сек.\n\nЗнімає усі ефекти знерухомлення. Ви отримуєте імунітет до ефектів обмеження пересування та втрати контролю під час польоту."
                 }
             }
         },
@@ -2289,7 +2289,7 @@
                     "Hash": 972997281,
                     "Id": "395160",
                     "Spec": "Augmentation",
-                    "Text": "Cause a violent eruption beneath an enemy's feet, dealing {1} Volcanic damage split between them and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec."
+                    "Text": "Викликає потужне виверження під ногами ваших ворогів, завдаючи {1} од. вулканічної шкоди, рівномірно розподіленої між ними та ворогами поруч.\n\nПодовжує тривалість ваших активних ефектів [Чорна сила] на {2} сек."
                 }
             }
         },
@@ -2301,7 +2301,7 @@
                     "Hash": 2190855672,
                     "Id": "407869",
                     "Spec": "Augmentation",
-                    "Text": "Prescience has a {1}% chance to grant Essence Burst."
+                    "Text": "[Передбачення] має {1}% шанс надати [Імпульс Есенції]."
                 }
             }
         },
@@ -2313,7 +2313,7 @@
                     "Hash": 856906599,
                     "Id": "410787",
                     "Spec": "Augmentation",
-                    "Text": "Azure Strike reduces the remaining cooldown of Landslide by {1} sec per target hit."
+                    "Text": "[Лазурний Удар] зменшує час відновлення вашого [Обвал] на {1} сек за кожну уражену ціль."
                 }
             }
         },
@@ -2325,7 +2325,7 @@
                     "Hash": 1004754224,
                     "Id": "412733",
                     "Spec": "Augmentation",
-                    "Text": "Upheaval cannot be interrupted, and has an additional {1}% chance to critically strike."
+                    "Text": "[Потрясіння] неможливо перервати та воно має додатковий {1}% шанс завдати критичну шкоду."
                 }
             }
         },
@@ -2337,7 +2337,7 @@
                     "Hash": 2750201625,
                     "Id": "414969",
                     "Spec": "Augmentation",
-                    "Text": "Emerald Blossom no longer has a cooldown, deals {1}% increased healing, and increases the duration of your active Ebon Might effects by {2} sec, but costs {3} Essence."
+                    "Text": "[Смарагдовий Цвіт] більше не має часу відновлення, зцілює на {1}% більше здоров'я та подовжує тривалість ваших активних ефектів [Чорна сила] на {2} сек, але витрачає на {3} од. Есенції більше."
                 }
             }
         },
@@ -2349,7 +2349,7 @@
                     "Hash": 446439013,
                     "Id": "408004",
                     "Spec": "Augmentation",
-                    "Text": "Consuming Essence Burst grants you {1}% Intellect for {2} sec. Stacks up to {3} times."
+                    "Text": "Поглинання ефекту [Імпульс Есенції] збільшує Інтелект на {1}% на {2} сек. Накопичується до {3} разів."
                 }
             }
         },
@@ -2361,7 +2361,7 @@
                     "Hash": 2378408066,
                     "Id": "408543",
                     "Spec": "Augmentation",
-                    "Text": "Landslide causes enemies who are mid-air to be slammed to the ground, stunning them for {1} sec."
+                    "Text": "[Обвал] прибиває до землі ворогів, які знаходяться у повітрі, оглушуючи їх на {1} сек."
                 }
             }
         },
@@ -2373,19 +2373,19 @@
                     "Hash": 2371279112,
                     "Id": "412713",
                     "Spec": "Augmentation",
-                    "Text": "The cooldowns of your spells are reduced by {1}%."
+                    "Text": "Час відновлення ваших заклинань зменшується на {1}%."
                 }
             }
         },
         "187": {
             "Hash": 359134177,
-            "Name": "Частки можливостей",
+            "Name": "Частинка можливостей",
             "Descriptions": {
                 "0": {
                     "Hash": 908141301,
                     "Id": "409267",
                     "Spec": "Augmentation",
-                    "Text": "Essence abilities have a chance to form a mote of diverted time near you. Anyone who comes in contact with the mote gains {1} seconds of reduced cooldown to their major ability."
+                    "Text": "Ваші здібності Есенції мають шанс створити частинку перенаправленого часу поряд з вами. Кожен, хто контактує з частинкою, зменшує час відновлення своєї основної здібності на {1} сек."
                 }
             }
         },
@@ -2397,7 +2397,7 @@
                     "Hash": 1723880157,
                     "Id": "407814",
                     "Spec": "Augmentation",
-                    "Text": "When cast at an enemy, Living Flame strikes {1} additional enemy for {2}% damage."
+                    "Text": "При застосуванні на ворога, [Живе полум'я] вражає {1} {declension|додаткового ворога|додаткових ворогів|додаткових ворогів} на {2}% шкоди."
                 }
             }
         },
@@ -2409,7 +2409,7 @@
                     "Hash": 1211037395,
                     "Id": "410253",
                     "Spec": "Augmentation",
-                    "Text": "Breath of Eons reduces enemies' movement speed by {1}%, and reduces their attack speed by {2}%, for {3} sec."
+                    "Text": "[Подих епох] зменшує швидкість пересування ворогів на {1}%, та зменшує їх швидкість атаки на {2}%, на {3} сек."
                 }
             }
         },
@@ -2421,7 +2421,7 @@
                     "Hash": 3620162922,
                     "Id": "410784",
                     "Spec": "Augmentation",
-                    "Text": "Azure Strike has a {1}% chance per target hit to echo, casting again."
+                    "Text": "[Лазурний Удар] має {1}% шанс спрацювати повторно за кожну уражену ціль."
                 }
             }
         },
@@ -2439,7 +2439,7 @@
                     "Hash": 1003283004,
                     "Id": "395152",
                     "Spec": "Augmentation",
-                    "Text": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and prefers to imbue damage dealers.\r\n\r\nEruption, Breath of Eons, and your empower spells extend the duration of these effects."
+                    "Text": "Збільшує основну характеристику {1} {declension|вашого найближчого союзника|ваших найближчих союзників|ваших найближчих союзників} на {2}% від вашої власної та збільшує завдану вами шкоду на {3}% на {4} сек.\n\nВпливає лише на {5} {declension|союзника|союзники|союзників} одночасно та пріорітетно підсилює бійців.\n\n[Виверження], [Подих епох] та ваші заряджувані заклинання подовжують тривалість цих ефектів."
                 }
             }
         },
@@ -2451,7 +2451,7 @@
                     "Hash": 2571311798,
                     "Id": "409676",
                     "Spec": "Augmentation",
-                    "Text": "When allies deal damage with Temporal Wounds, they gain a shield for {1}% of the damage dealt. Absorption cannot exceed {2}% of your maximum health."
+                    "Text": "Коли союзники завдають шкоду у [Часові рани], вони отримують щит, що поглинає {1}% від завданої шкоди. Міцність щита не може перевищувати {2}% від вашого максимального здоров'я."
                 }
             }
         },
@@ -2463,7 +2463,7 @@
                     "Hash": 198140068,
                     "Id": "409311",
                     "Spec": "Augmentation",
-                    "Text": "Grant an ally the gift of foresight, increasing their critical strike chance by {1}% for {2} sec.\r\n\r\nAffects the nearest ally within {3} yds, preferring damage dealers, if you do not have an ally targeted."
+                    "Text": "Надає союзнику дар передбачення, збільшуючи його шанс критичного удару на {1}% на {2} сек.\n\nВпливає на найближчого союзника в радіусі {3} м, пріоритетно обираючи бійців, якщо у вас немає цілі."
                 }
             }
         },
@@ -2475,7 +2475,7 @@
                     "Hash": 3785562372,
                     "Id": "410643",
                     "Spec": "Augmentation",
-                    "Text": "When cast, Blistering Scales grants the target a shield that absorbs up to {1} damage for {2} sec based on their missing health. Lower health targets gain a larger shield."
+                    "Text": "При застосуванні, [Пухирчаста луска] надає цілі щит, який поглинає до {1} од. шкоди протягом {2} сек, залежно від втраченого запасу здоров'я. Цілі з меншим рівнем здоров'я отримують більший щит."
                 }
             }
         },
@@ -2487,7 +2487,7 @@
                     "Hash": 1803929160,
                     "Id": "406907",
                     "Spec": "Augmentation",
-                    "Text": "Blistering Scales has {1} more scales, and casting Eruption restores {2} scale."
+                    "Text": "[Пухирчаста луска] має на {1} {declension|луску|луски|лусок}, а застосування [Виверження] відновлює {2} {declension|луску|луски|лусок}."
                 }
             }
         },
@@ -2499,7 +2499,7 @@
                     "Hash": 1013372126,
                     "Id": "412710",
                     "Spec": "Augmentation",
-                    "Text": "Enchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by {1}% for {2} min. Less effective on tank-specialized allies. \r\n\r\nMay only be placed on one target at a time."
+                    "Text": "Зачаровує союзника та викидає його з нормального часоплину, зменшуючи загрозу, яку він генерує на {1}% на {2} хв. Ефективність зменшується для союзників із танковою спеціалізацією.\n\nМожна застосовувати лише на одну ціль одночасно."
                 }
             }
         },
@@ -2511,7 +2511,7 @@
                     "Hash": 2388631381,
                     "Id": "403264",
                     "Spec": "Augmentation",
-                    "Text": "Attune to Black magic, granting you and your {1} nearest allies {2}% increased maximum health."
+                    "Text": "Ви налаштовуєтесь на чорну магію, збільшуючи максимальний рівень здоров'я вас та {1} {declension|найближчого союзника|найближчих союзників|найближчих союзників} на {2}%."
                 }
             }
         },
@@ -2649,7 +2649,7 @@
         },
         "209": {
             "Hash": 1913997504,
-            "Name": "Ricocheting Pyroclast",
+            "Name": "Рикошетна тефра",
             "Descriptions": {
                 "0": {
                     "Hash": 207477833,
@@ -2661,7 +2661,7 @@
         },
         "210": {
             "Hash": 3657022389,
-            "Name": "Draconic Attunements",
+            "Name": "Драконячі настанови",
             "Descriptions": {
                 "0": {
                     "Hash": 1314162764,
@@ -2673,7 +2673,7 @@
         },
         "211": {
             "Hash": 213633008,
-            "Name": "Potent Mana",
+            "Name": "Потужна мана",
             "Descriptions": {
                 "0": {
                     "Hash": 743595073,
@@ -2685,7 +2685,7 @@
         },
         "212": {
             "Hash": 829216736,
-            "Name": "Mastery: Timewalker",
+            "Name": "Майстерність: Мандрівник часом",
             "Descriptions": {
                 "0": {
                     "Hash": 845827462,
@@ -2697,7 +2697,7 @@
         },
         "213": {
             "Hash": 3084964629,
-            "Name": "Fate Mirror",
+            "Name": "Дзеркало долі",
             "Descriptions": {
                 "0": {
                     "Hash": 2276515747,
