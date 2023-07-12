@@ -106,6 +106,12 @@
                     "Id": "275699",
                     "Spec": "Unholy",
                     "Text": "Накликає загибель на ворога, завдаючи {1} од. шкоди від темної магії та розриваючи до {2} [Гнійна рана] на цілі.\n\nВикликає вурдалака з Армії мертвих на {3} сек за кожен заряд [Гнійна рана].\n\n{FFFFFFFF|Генерує {4} {declension|руну|руни|руни}.}"
+                },
+                "1": {
+                    "Hash": 4161013850,
+                    "Id": "275699",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons an Army of the Dead ghoul for {3} sec for each Festering Wound you burst.\r\n\r\n{FFFFFFFF|Generates {4} Runes.}"
                 }
             }
         },
@@ -442,6 +448,12 @@
                     "Id": "316916",
                     "Spec": "Unholy",
                     "Text": "[Удар Скари] б'є додатково {1} цілі коли ви знаходитесь в [Смерть та розпад]."
+                },
+                "3": {
+                    "Hash": 3758293907,
+                    "Id": "316916",
+                    "Spec": "Frost",
+                    "Text": "Obliterate hits up to {1} additional enemies while you remain in Death and Decay."
                 }
             }
         },
@@ -658,6 +670,12 @@
                     "Id": "43265",
                     "Spec": "Unholy",
                     "Text": "Псує землю у вказаному місці, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій області.\n\nПоки ви знаходитесь в цій області, ваш [Удар Скари] завдає шкоду {3} ворогам біля цілі."
+                },
+                "3": {
+                    "Hash": 2038407311,
+                    "Id": "43265",
+                    "Spec": "Frost",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional targets."
                 }
             }
         },
@@ -2326,6 +2344,12 @@
                     "Id": "410320",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Зменшує час відновлення [Антимагічний панцир] на {1} сек, але зменшує його тривалість на {2}%.\n\n[Антимагічний панцир] тепер можна використати на союзниках."
+                },
+                "2": {
+                    "Hash": 161648102,
+                    "Id": "410320",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Anti-Magic Shell is now usable on allies and its cooldown is reduced by {1} sec."
                 }
             }
         },

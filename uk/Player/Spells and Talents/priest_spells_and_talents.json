@@ -46,6 +46,12 @@
                     "Id": "341240",
                     "Spec": "Shadow",
                     "Text": "[Втілення порожнечі] і [Темне вознесіння] підвищують шанс критичного удару на {1}% протягом {2} сек, зменшуючись на {3}% щосекунди."
+                },
+                "1": {
+                    "Hash": 1846493772,
+                    "Id": "341240",
+                    "Spec": "Shadow",
+                    "Text": "Voidform and Dark Ascension increase the critical strike chance of your spells by {1}% for {2} sec, reducing by {3}% every sec."
                 }
             }
         },
@@ -742,6 +748,12 @@
                     "Id": "391339",
                     "Spec": "Holy",
                     "Text": "[Оновлення] миттєво зцілює на {1}% від обʼєму свого повного періодичного зцілення."
+                },
+                "1": {
+                    "Hash": 124820288,
+                    "Id": "391339",
+                    "Spec": "Holy",
+                    "Text": "Renew casts instantly heal your target for {1}% of its total periodic effect."
                 }
             }
         },
@@ -1828,6 +1840,12 @@
                     "Id": "199445",
                     "Spec": "Shadow",
                     "Text": "При повному завершенні підтримання [Катування свідомості], ви крадете {1}% швидкості в вашої цілі на {2} сек. Не можна вкрасти більше {3}% швидкості в однієї цілі.\n\nНакопичується до {4} разів."
+                },
+                "1": {
+                    "Hash": 239351346,
+                    "Id": "199445",
+                    "Spec": "Shadow",
+                    "Text": "Siphon haste from enemies, stealing {1}% haste per stack of Mind Trauma, stacking up to {2} times. Mind Spike and fully channeled Mind Flays grant {3} stack of Mind Trauma and fully channeled Void Torrents grant {4} stacks of Mind Trauma. Lasts {5} sec.\r\n\r\nYou can only gain {6} stacks of Mind Trauma from a single enemy."
                 }
             }
         },
@@ -2362,6 +2380,12 @@
                     "Id": "196162",
                     "Spec": "Discipline, Holy",
                     "Text": "[Очищення] тепер має {1} {declension|заряд|заряди|зарядів}."
+                },
+                "1": {
+                    "Hash": 910632828,
+                    "Id": "196439",
+                    "Spec": "Discipline, Holy",
+                    "Text": "Purify now has a maximum of {1} charges.\r\n\r\nRemoving harmful effects with Purify grants your target an absorption shield equal to {2}% of their maximum health. Lasts {3} sec."
                 }
             }
         },
@@ -2542,6 +2566,12 @@
                     "Id": "390622",
                     "Spec": "Shadow, Discipline, Holy",
                     "Text": "Кожні {1} сек, що ви не застосовуєте [Священна Хвиля], шкода від вашої наступної [Священна Хвиля] збільшується на {2}%, а її зцілення на {3}%. Накопичується до {4} разів."
+                },
+                "1": {
+                    "Hash": 2901629367,
+                    "Id": "390622",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Every {1} sec, the damage of your next Holy Nova is increased by {2}% and its healing is increased by {3}%. \r\n\r\nStacks up to {4} times."
                 }
             }
         },
@@ -3454,6 +3484,108 @@
                     "Id": "407469",
                     "Spec": "Shadow",
                     "Text": "[Тіньові примари] завдають на {1}% більше шкоди цілям з ефектом [Ненажерна чума]."
+                }
+            }
+        },
+        "262": {
+            "Hash": 3144673871,
+            "Name": "Voidform",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2331776863,
+                    "Id": "228264",
+                    "Spec": "Shadow",
+                    "Text": "Activated by casting Void Eruption. Twists your Shadowform with the powers of the Void, increasing spell damage you deal by {1}%, and refreshing Mind Blast's cooldown.\r\n\r\nLasts {2} sec. Casting Devouring Plague increases the duration of Voidform by {3} sec."
+                }
+            }
+        },
+        "263": {
+            "Hash": 427268426,
+            "Name": "Benevolence",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2915490618,
+                    "Id": "415416",
+                    "Spec": "Shadow, Discipline, Holy",
+                    "Text": "Increases the healing of your spells by {1}%."
+                }
+            }
+        },
+        "264": {
+            "Hash": 3617603705,
+            "Name": "Essence Devourer",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1867456857,
+                    "Id": "415479",
+                    "Spec": "Shadow, Discipline",
+                    "Text": "Attacks from your Shadowfiend siphon life from enemies, healing a nearby injured ally for {1}.\r\n\r\nAttacks from your Mindbender siphon life from enemies, healing a nearby injured ally for {2}."
+                },
+                "1": {
+                    "Hash": 3851204856,
+                    "Id": "415479",
+                    "Spec": "Holy",
+                    "Text": "Attacks from your Shadowfiend siphon life from enemies, healing a nearby injured ally for {1}."
+                }
+            }
+        },
+        "265": {
+            "Hash": 429502020,
+            "Name": "Void Bolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2741215112,
+                    "Id": "228266",
+                    "Spec": "Shadow",
+                    "Text": "For the duration of Voidform, your Void Eruption ability is replaced by Void Bolt:"
+                },
+                "1": {
+                    "Hash": 429502020,
+                    "Id": "228266",
+                    "Spec": "Shadow",
+                    "Text": "Void Bolt"
+                },
+                "2": {
+                    "Hash": 1155586176,
+                    "Id": "228266",
+                    "Spec": "Shadow",
+                    "Text": "Sends a bolt of pure void energy at the enemy, causing {1} Shadow damage and extending the duration of Shadow Word: Pain and Vampiric Touch on all nearby targets by {2} sec. \r\n\r\nRequires Voidform.\r\n\r\n{FFFFFFFF|Generates {3} Insanity.}"
+                }
+            }
+        },
+        "266": {
+            "Hash": 3819360721,
+            "Name": "Luminous Barrier",
+            "Descriptions": {
+                "0": {
+                    "Hash": 676567498,
+                    "Id": "271466",
+                    "Spec": "Discipline",
+                    "Text": "Create a shield on all allies within {1} yards, absorbing {2} damage on each of them for {3} sec.\r\n\r\nAbsorption increased by {4}% when not in a raid."
+                }
+            }
+        },
+        "267": {
+            "Hash": 719252052,
+            "Name": "Epiphany",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3852391995,
+                    "Id": "414553",
+                    "Spec": "Holy",
+                    "Text": "Your Holy Words have a {1}% chance to reset the cooldown of Prayer of Mending."
+                }
+            }
+        },
+        "268": {
+            "Hash": 739008272,
+            "Name": "Seraphic Crescendo",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3237405331,
+                    "Id": "419110",
+                    "Spec": "Holy",
+                    "Text": "Reduces the cooldown of by Divine Hymn by {1} sec and causes it to channel {2}% faster. Additionally, the healing bonus from Divine Hymn now lasts an additional {3} sec."
                 }
             }
         }
