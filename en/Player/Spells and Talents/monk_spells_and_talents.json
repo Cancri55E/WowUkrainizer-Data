@@ -160,6 +160,12 @@
                     "Id": "196736",
                     "Spec": "Brewmaster",
                     "Text": "Blackout Kick also empowers your next ability:\n\nTiger Palm: Damage increased by {1}%.\nBreath of Fire: Periodic damage increased by {2}%, and damage reduction increased by {3}%.\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\nPurifying Brew: Pauses Stagger damage for {6} sec."
+                },
+                "1": {
+                    "Hash": 1585181783,
+                    "Id": "196736",
+                    "Spec": "Brewmaster",
+                    "Text": "Blackout Kick also empowers your next ability:\r\n\r\nTiger Palm: Damage increased by {1}%.\r\nBreath of Fire: Damage increased by {2}%, and damage reduction increased by {3}%.\r\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\r\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\r\nPurifying Brew: Pauses Stagger damage for {6} sec."
                 }
             }
         },
@@ -292,6 +298,12 @@
                     "Id": "397251",
                     "Spec": "Brewmaster",
                     "Text": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec."
+                },
+                "1": {
+                    "Hash": 2199258901,
+                    "Id": "397251",
+                    "Spec": "Brewmaster",
+                    "Text": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
                 }
             }
         },
@@ -424,6 +436,12 @@
                     "Id": "393400",
                     "Spec": "Brewmaster",
                     "Text": "Weapons of Order releases a surge of chi at your target's location, dealing {1} Nature damage split evenly between all targets over {2} sec.\n\nReduce the cooldown of Weapons of Order by {3} sec per affected enemy, to a maximum of {4} sec."
+                },
+                "1": {
+                    "Hash": 882003488,
+                    "Id": "393400",
+                    "Spec": "Brewmaster",
+                    "Text": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T3565447:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
                 }
             }
         },
@@ -1048,6 +1066,12 @@
                     "Id": "337209",
                     "Spec": "Mistweaver",
                     "Text": "Your Essence Font's initial heal is increased by {1} and has a chance to reduce the cooldown of Thunder Focus Tea by {2} sec."
+                },
+                "1": {
+                    "Hash": 3245882408,
+                    "Id": "337209",
+                    "Spec": "Mistweaver",
+                    "Text": "Your Essence Font's initial heal is increased by {1}% and has a chance to reduce the cooldown of Thunder Focus Tea by {2} sec."
                 }
             }
         },
@@ -1138,6 +1162,12 @@
                     "Id": "389575",
                     "Spec": "Mistweaver, Brewmaster, Windwalker",
                     "Text": "You and your allies within {1} yards have {2}% increased avoidance."
+                },
+                "1": {
+                    "Hash": 2179579966,
+                    "Id": "389575",
+                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Text": "You and your allies within {1} yards take {2}% reduced damage from area-of-effect attacks."
                 }
             }
         },
@@ -1276,6 +1306,12 @@
                     "Id": "205234",
                     "Spec": "Mistweaver",
                     "Text": "Coalesces a Healing Sphere out of the mists at the target location after {1} sec.  If allies walk through it, they consume the sphere, healing themselves for {2} and dispelled of all harmful periodic magic effects.\n\nMaximum of {3} Healing Spheres can be active by the Monk at any given time."
+                },
+                "1": {
+                    "Hash": 3497109422,
+                    "Id": "205234",
+                    "Spec": "Mistweaver",
+                    "Text": "Coalesces a Healing Sphere out of the mists at the target location after {1} sec.  If allies walk through it, they consume the sphere, healing themselves for {2} and dispelling all harmful periodic magic effects.\r\n\r\nMaximum of {3} Healing Spheres can be active by the Monk at any given time."
                 }
             }
         },
@@ -3058,6 +3094,12 @@
                     "Id": "387184",
                     "Spec": "Brewmaster",
                     "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash take {3}% increased damage from you for {4} sec, stacking up to {5} times."
+                },
+                "1": {
+                    "Hash": 1182517313,
+                    "Id": "387184",
+                    "Spec": "Brewmaster",
+                    "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash or Rising Sun Kick take {3}% increased damage from you for {4} sec, stacking up to {5} times."
                 }
             }
         },
@@ -3238,6 +3280,42 @@
                     "Id": "411098",
                     "Spec": "Windwalker",
                     "Text": "Striking more than one enemy with Fists of Fury summons a Storm Spirit to focus your secondary target for {1} sec, which will mimic any of your attacks that do not also strike the target for {2}% of normal damage."
+                }
+            }
+        },
+        "252": {
+            "Hash": 3608456580,
+            "Name": "Yu'lon's Grace",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1359059417,
+                    "Id": "414131",
+                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Text": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for {1}% of your max health every {2} sec in combat, stacking up to {3}%."
+                }
+            }
+        },
+        "253": {
+            "Hash": 1569501097,
+            "Name": "Dance of the Wind",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4225248288,
+                    "Id": "414132",
+                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Text": "Your dodge chance is increased by {1}%."
+                }
+            }
+        },
+        "254": {
+            "Hash": 1330483556,
+            "Name": "Press the Advantage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3281397997,
+                    "Id": "418359",
+                    "Spec": "Brewmaster",
+                    "Text": "Your main hand auto attacks reduce the cooldown on your brews by {1} sec and block your target's chi, dealing {2} additional Nature damage and increasing your damage dealt by {3}% for {4} sec. \r\n\r\nUpon reaching {5} stacks, your next cast of Rising Sun Kick or Keg Smash consumes all stacks to strike again at {6}% effectiveness. This bonus attack can trigger effects on behalf of Tiger Palm at reduced effectiveness."
                 }
             }
         }

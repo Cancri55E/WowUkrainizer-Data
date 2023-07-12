@@ -70,6 +70,12 @@
                     "Id": "108281",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "For the next {1} sec, {2}% of your damage and healing is converted to healing on up to {3} nearby injured party or raid members."
+                },
+                "1": {
+                    "Hash": 2201932333,
+                    "Id": "108281",
+                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Text": "For the next {1} sec, {2}% of your healing done and {3}% of your damage done is converted to healing on up to {4} nearby injured party or raid members, up to {5} healing to each target per second."
                 }
             }
         },
@@ -226,6 +232,12 @@
                     "Id": "381689",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "While Reincarnation is off cooldown, your maximum health is increased by {1}%. While you are at full health, Reincarnation cools down {2}% faster.\n\n"
+                },
+                "1": {
+                    "Hash": 69761613,
+                    "Id": "381689",
+                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Text": "Maximum health increased by {1}%, and while you are at full health, Reincarnation cools down {2}% faster."
                 }
             }
         },
@@ -616,6 +628,12 @@
                     "Id": "61882",
                     "Spec": "Elemental",
                     "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec and has a {4}% chance to knock the enemy down."
+                },
+                "1": {
+                    "Hash": 899141734,
+                    "Id": "61882",
+                    "Spec": "Elemental",
+                    "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec and has a {4}% chance to knock the enemy down. Multiple uses of Earthquake may overlap."
                 }
             }
         },
@@ -940,6 +958,18 @@
                     "Id": "188389",
                     "Spec": "Elemental, Enhancement",
                     "Text": "Sears the target with fire, causing {1} Fire damage and then an additional {2} Fire damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Fire damage and knocking them into the air."
+                },
+                "2": {
+                    "Hash": 137143167,
+                    "Id": "188389",
+                    "Spec": "Restoration",
+                    "Text": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets."
+                },
+                "3": {
+                    "Hash": 1170811009,
+                    "Id": "188389",
+                    "Spec": "Elemental, Enhancement",
+                    "Text": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Volcanic damage and knocking them into the air."
                 }
             }
         },

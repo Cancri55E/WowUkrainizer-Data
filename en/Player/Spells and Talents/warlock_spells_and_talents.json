@@ -436,6 +436,12 @@
                     "Id": "387355",
                     "Spec": "Destruction",
                     "Text": "Summon Infernal reduces the Soul Shard cost of your next {1} casts of Chaos Bolt, Shadowburn, or Rain of Fire by {2}."
+                },
+                "1": {
+                    "Hash": 169092991,
+                    "Id": "417234",
+                    "Spec": "Destruction",
+                    "Text": "Summon Infernal increases the damage of your next {1} casts of Chaos Bolt by {2}% or your next {3} casts of Rain of Fire by {4}%."
                 }
             }
         },
@@ -754,6 +760,12 @@
                     "Id": "111771",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per {1} min."
+                },
+                "1": {
+                    "Hash": 3428476971,
+                    "Id": "111771",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per {1} sec."
                 }
             }
         },
@@ -868,6 +880,12 @@
                     "Id": "389764",
                     "Spec": "Affliction",
                     "Text": "If Corruption damages a target affected by your Unstable Affliction, it has a {1}% chance per stack of Malefic Affliction to deal {2} Shadow damage to nearby enemies."
+                },
+                "1": {
+                    "Hash": 2825290842,
+                    "Id": "416621",
+                    "Spec": "Affliction",
+                    "Text": "When Seed of Corruption deals damage to a target suffering from your Unstable Affliction they explode, dealing {1} Shadow damage to all enemies within {2} yards."
                 }
             }
         },
@@ -916,6 +934,12 @@
                     "Id": "389775",
                     "Spec": "Affliction",
                     "Text": "If Malefic Affliction exceeds {1} stacks, the target instead takes {2}% additional damage from your damage over time effects for {3} sec."
+                },
+                "1": {
+                    "Hash": 2538899579,
+                    "Id": "389775",
+                    "Spec": "Affliction",
+                    "Text": "Malefic Rapture causes targets suffering from your Unstable Affliction to take {1}% additional damage from your damage over time effects for {2} sec."
                 }
             }
         },
@@ -1000,6 +1024,12 @@
                     "Id": "386200",
                     "Spec": "Demonology",
                     "Text": "Felstorm and Dreadbite deal {1}% additional damage."
+                },
+                "1": {
+                    "Hash": 3863626378,
+                    "Id": "386200",
+                    "Spec": "Demonology",
+                    "Text": "Your primary Felguard's Legion Strike damage is increased by {1}%. \r\n\r\nYour primary Felguard's Felstorm damage is increased by {2}%."
                 }
             }
         },
@@ -1036,6 +1066,12 @@
                     "Id": "333889",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by {1} sec.\n"
+                },
+                "1": {
+                    "Hash": 2039911819,
+                    "Id": "333889",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by {1}%."
                 }
             }
         },
@@ -1258,6 +1294,12 @@
                     "Id": "108503",
                     "Spec": "Destruction, Affliction",
                     "Text": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts {2} hour or until you summon a demon pet."
+                },
+                "2": {
+                    "Hash": 355375187,
+                    "Id": "108503",
+                    "Spec": "Destruction, Affliction",
+                    "Text": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts until canceled or until you summon a demon pet."
                 }
             }
         },
@@ -1282,6 +1324,12 @@
                     "Id": "111898",
                     "Spec": "Demonology",
                     "Text": "Summons a Felguard who attacks the target for {1} sec that deals {2}% increased damage.\n\nThis Felguard will stun their target when summoned."
+                },
+                "1": {
+                    "Hash": 2006125073,
+                    "Id": "111898",
+                    "Spec": "Demonology",
+                    "Text": "Summons a Felguard who attacks the target for {1} sec that deals {2}% increased damage.\r\n\r\nThis Felguard will stun and interrupt their target when summoned."
                 }
             }
         },
@@ -1642,6 +1690,12 @@
                     "Id": "324536",
                     "Spec": "Affliction",
                     "Text": "Your damaging periodic effects erupt on all targets, causing {1} Shadow damage per effect."
+                },
+                "1": {
+                    "Hash": 3759637079,
+                    "Id": "324536",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Your damaging periodic effects from your spells erupt on all targets, causing {1} Shadow damage per effect."
                 }
             }
         },
@@ -1804,6 +1858,12 @@
                     "Id": "386648",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "When Fear ends, the target is slowed by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 56201998,
+                    "Id": "386648",
+                    "Spec": "Destruction, Affliction, Demonology",
+                    "Text": "Increases the amount of damage required to break your fear effects by {1}%."
                 }
             }
         },
@@ -1978,6 +2038,12 @@
                     "Id": "335052",
                     "Spec": "Affliction",
                     "Text": "Unstable Affliction can now be applied to up to {1} targets."
+                },
+                "1": {
+                    "Hash": 2992529976,
+                    "Id": "335052",
+                    "Spec": "Affliction",
+                    "Text": "Unstable Affliction can now be applied to up to {1} targets, but its damage is reduced by {2}%."
                 }
             }
         },
@@ -2110,6 +2176,12 @@
                     "Id": "212371",
                     "Spec": "Affliction",
                     "Text": "Each time your Drain Life deals damage, it increases the duration of your Unstable Affliction, Corruption and Agony on the target by {1} sec."
+                },
+                "1": {
+                    "Hash": 4048418463,
+                    "Id": "212371",
+                    "Spec": "Affliction",
+                    "Text": "Shadow Bolt damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {1} sec.\r\n\r\nDrain Life, Drain Soul, and Oblivion damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {2} sec."
                 }
             }
         },
@@ -2902,6 +2974,78 @@
                     "Id": "267170",
                     "Spec": "Demonology",
                     "Text": "Dreadbite causes the target to take {1}% additional Shadowflame damage from your spell and abilities for the next {2} sec."
+                }
+            }
+        },
+        "232": {
+            "Hash": 3582646977,
+            "Name": "Xavius' Gambit",
+            "Descriptions": {
+                "0": {
+                    "Hash": 33425978,
+                    "Id": "416615",
+                    "Spec": "Affliction",
+                    "Text": "Unstable Affliction deals {1}% increased damage."
+                }
+            }
+        },
+        "233": {
+            "Hash": 1922821098,
+            "Name": "Oblivion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1794695598,
+                    "Id": "417537",
+                    "Spec": "Affliction",
+                    "Text": "Unleash wicked magic upon your target's soul, dealing {1} Shadow damage over {2} sec.\r\n\r\nDeals {3}% increased damage, up to {4}%, per damage over time effect you have active on the target."
+                }
+            }
+        },
+        "234": {
+            "Hash": 432892166,
+            "Name": "Imp-erator",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3787149590,
+                    "Id": "416230",
+                    "Spec": "Demonology",
+                    "Text": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by {1}%."
+                }
+            }
+        },
+        "235": {
+            "Hash": 44706594,
+            "Name": "Malefic Impact",
+            "Descriptions": {
+                "0": {
+                    "Hash": 377056209,
+                    "Id": "416341",
+                    "Spec": "Demonology",
+                    "Text": "Increases Hand of Gul'dan damage by {1}% and the critical strike chance of Hand of Gul'dan by {2}%."
+                }
+            }
+        },
+        "236": {
+            "Hash": 3989947740,
+            "Name": "Heavy Handed",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3005019907,
+                    "Id": "416183",
+                    "Spec": "Demonology",
+                    "Text": "Increases your primary Felguard's critical strike chance by {1}%."
+                }
+            }
+        },
+        "237": {
+            "Hash": 3962004334,
+            "Name": "Cavitation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1247636985,
+                    "Id": "416154",
+                    "Spec": "Demonology",
+                    "Text": "Your primary Felguard's damaging critical strikes deal {1}% increased damage."
                 }
             }
         }

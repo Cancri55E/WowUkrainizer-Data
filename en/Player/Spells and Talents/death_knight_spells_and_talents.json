@@ -106,6 +106,12 @@
                     "Id": "275699",
                     "Spec": "Unholy",
                     "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\n\nSummons an Army of the Dead ghoul for {3} sec for each burst Festering Wound.\n\n{FFFFFFFF|Generates {4} Runes.}"
+                },
+                "1": {
+                    "Hash": 4161013850,
+                    "Id": "275699",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons an Army of the Dead ghoul for {3} sec for each Festering Wound you burst.\r\n\r\n{FFFFFFFF|Generates {4} Runes.}"
                 }
             }
         },
@@ -442,6 +448,12 @@
                     "Id": "316916",
                     "Spec": "Unholy",
                     "Text": "Scourge Strike hits up to {1} additional enemies while you remain in Death and Decay."
+                },
+                "3": {
+                    "Hash": 3758293907,
+                    "Id": "316916",
+                    "Spec": "Frost",
+                    "Text": "Obliterate hits up to {1} additional enemies while you remain in Death and Decay."
                 }
             }
         },
@@ -658,6 +670,12 @@
                     "Id": "43265",
                     "Spec": "Unholy",
                     "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\n\nWhile you remain within the area, your  Scourge Strike will hit up to {3} enemies near the target."
+                },
+                "3": {
+                    "Hash": 2038407311,
+                    "Id": "43265",
+                    "Spec": "Frost",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional targets."
                 }
             }
         },
@@ -2326,6 +2344,12 @@
                     "Id": "410320",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Reduces the cooldown of Anti-Magic Shell by {1} sec but reduces its duration by {2}%.\r\n\r\nAnti-Magic Shell is now usable on allies."
+                },
+                "2": {
+                    "Hash": 161648102,
+                    "Id": "410320",
+                    "Spec": "Unholy, Blood, Frost",
+                    "Text": "Anti-Magic Shell is now usable on allies and its cooldown is reduced by {1} sec."
                 }
             }
         },
