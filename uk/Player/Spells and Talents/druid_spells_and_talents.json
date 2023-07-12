@@ -237,7 +237,7 @@
                     "Hash": 2474847155,
                     "Id": "106951",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go Berserk for {1} sec. While Berserk:\r\n\r\nGenerate {2} combo point every {3} sec. Combo point generating abilities generate {4} additional combo point. Finishing moves restore up to {5} combo points generated over the cap.\r\n\r\nShred and Rake damage increased by {6}%."
+                    "Text": "Ви впадаєте у несамовитість на {1} сек. Поки діє Берсерк:\n\nВи генеруєте {2} комбо лічільник кожні {3} сек. Здібності для генерації комбо лічільників додатково генерують {4} комбо лічільників. Завершальні здібності відновлюють до {5} комбо лічільників згенерованих поверх ліміту.\n\nШкода від Роздряпати та Проколоти збільшена на {6}%."
                 }
             }
         },
@@ -291,7 +291,7 @@
                     "Hash": 2037020259,
                     "Id": "319439",
                     "Spec": "Feral",
-                    "Text": "When you use {1} different combo point-generating abilities within {2} sec, the damage of your next {3} Rips or Ferocious Bites is increased by {4}% for their full duration."
+                    "Text": "Коли ви використовуєте {1} різних здібностей для генерування комбо лічильників протягом {2} секунд, шкода від наступних {3} Розірвати або Лютий Укус збільшується на {4}% протягом їх повної тривалості."
                 }
             }
         },
@@ -597,7 +597,7 @@
                     "Hash": 4267520856,
                     "Id": "236180",
                     "Spec": "Guardian",
-                    "Text": "You bolster nearby allies within {1} yards, increasing their maximum health by {2}%.\r\n\r\nThe duration of all stun effects on you is reduced by {3}%."
+                    "Text": "Ви підсилюєте союзників поблизу в радіусі {1} ярдів, збільшуючи їх максимальний рівень здоров’я на {2}%.\n\nТривалість усіх ефектів приголомшення на вас зменшується на {3}%."
                 }
             }
         },
@@ -687,7 +687,7 @@
                     "Hash": 4050641841,
                     "Id": "410544",
                     "Spec": "Balance",
-                    "Text": "Enemies that dispel your Moonfire or  Sunfire suffer {1}% additional damage from their effects for {2} sec. If already vulnerable, {3}% of the remaining duration is applied to the dispeller."
+                    "Text": "Вороги, які розвіюють ваш Місячний Вогонь або Сонячний Вогонь, отримують {1}% додаткової шкоди від їх ефектів протягом {2} сек. Якщо вони вже мають вразливість, то {3}% від залишку тривалості застосовується до розсіювача."
                 }
             }
         },
@@ -1437,7 +1437,7 @@
                     "Hash": 2757517369,
                     "Id": "102543",
                     "Spec": "Feral",
-                    "Text": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\r\n\r\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\r\n\r\nGenerate {3} combo point every {4} sec. Combo point generating abilities generate {5} additional combo point. Finishing moves restore up to {6} combo points generated over the cap.\r\n\r\nShred and Rake damage increased by {7}%."
+                    "Text": "Покращена форма кота, яка надає всі ваші відомі ефекти Берсерка та триває {1} сек. Ви можете змінювати форму та виходити з цієї покращеної форми Кота протягом її дії. Під час Втілення:\n\nВитрати енергії на всі здібності у формі кота зменшуються на {2}%, а Крастися можна використати один раз під час бою.\n\nВи генеруєте {3} комбо лічільник кожні {4} сек. Здібності для генерації комбо лічільників додатково генерують {5} комбо лічільників. Завершальні здібності відновлюють до {6} комбо лічільників згенерованих поверх ліміту.\nШкода від Роздряпати та Проколоти збільшена на {7}%."
                 }
             }
         },
@@ -1641,7 +1641,7 @@
                     "Hash": 2029489039,
                     "Id": "202626",
                     "Spec": "Feral",
-                    "Text": "While in Cat Form, you increase the movement speed of raid members within {1} yards by {2}%.\r\n\r\nLeader of the Pack also causes allies to heal themselves for {3}% of their maximum health when they critically hit with a direct attack. The healing effect cannot occur more than once every {4} sec."
+                    "Text": "У формі кота ви збільшуєте швидкість пересування учасників рейду в межах {1} ярдів на {2}%.\n\nЛідер Зграї також змушує союзників відновлювати собі {3}% їх максимального здоров’я, коли вони завдають критичного удару прямою атакою. Лікувальний ефект не може відбуватися частіше ніж раз на {4} с."
                 }
             }
         },
@@ -1845,19 +1845,19 @@
                     "Hash": 4112448790,
                     "Id": "411266",
                     "Spec": "Balance",
-                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and generate {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
+                    "Text": "Ваші здібності посилюються на основі вашої поточної форми, надаючи додатковий ефект.\n\n|T236157:24|t {FFFFFFFF|Caster Form}\nОмолодження та Швидке Загоєння зцілюють на {1}% більше та генерують {2} Астральної Сили.\n\n|T236156:24|t {FFFFFFFF|Bear Form}\nЗалізне Хутро надає {3}% додаткової броні та генерує {4} Астральної Сили.\n\n|T611425:24|t {FFFFFFFF|Cat Form}\nРозірвати, Людий укус і Калічення завдають {5}% додаткової шкоди та генерують {6} Астральної Сили під час використання з {7} комбо лічильниками."
                 },
                 "3": {
                     "Hash": 3771956661,
                     "Id": "236144",
                     "Spec": "Guardian",
-                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and cause you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points."
+                    "Text": "Ваші здібності посилюються на основі вашої поточної форми, надаючи додатковий ефект.\n\n|T236157:24|t {FFFFFFFF|Caster Form}\nОмолодження та Швидке Загоєння зцілюють на {1}% більше та змушують вас миттєво генерувати {2} люті після входу у форму Ведмедя.\n\n|T236156:24|t {FFFFFFFF|Moonkin Form}\nГнів, Зоряний Вогонь і Зоряна Хвиля завдають {3}% додаткової шкоди та змушують вас миттєво генерувати {4} гніву після входу у Форму Ведмедя.\n\n|T611425:24|t {FFFFFFFF|Cat Form}\nРозірвати, Людий укус і Калічення завдають {5}% додаткової шкоди та змушують вас миттєво генерувати {6} гніву після входу у Форму Ведмедя під час використання з {7} комбо лічильниками."
                 },
                 "4": {
                     "Hash": 1288446487,
                     "Id": "289237",
                     "Spec": "Restoration",
-                    "Text": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T611424:24|t{FFFFFFFF|Bear Form}\r\nIronfur grants {1}% additional armor and generates {2} Mana.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and generate {4} Mana.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Mana when cast with {7} combo points."
+                    "Text": "Ваші здібності посилюються на основі вашої поточної форми, надаючи додатковий ефект.\n\n|T611424:24|t{FFFFFFFF|Bear Form}\nЗалізне хутро надає {1}% додаткової броні та генерує {2} мани.\n\n|T236156:24|t {FFFFFFFF|Moonkin Form}\nГнів, Зоряний Вогонь і Зоряна Хвиля завдають {3}% додаткової шкоди та генерують {4} мани.\n\n|T611425:24|t {FFFFFFFF|Cat Form}\nРозірвати, Людий укус і Калічення завдають {5}% додаткової шкоди та генерують {6} мани під час використання з {7} комбо лічильниками."
                 }
             }
         },
@@ -2007,7 +2007,7 @@
                     "Hash": 136072492,
                     "Id": "8921",
                     "Spec": "Guardian",
-                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec.\r\n\r\nHits a second target within {4} yds of the first."
+                    "Text": "Швидкий промінь місячного світла опаляє ворога, завдаючи {1} шкоди від таємної магії, а потім додатково {2} шкоди від таємної магії протягом {3} с.\n\nВражає другу ціль у межах {4} ярдів від першої."
                 }
             }
         },
@@ -2055,7 +2055,7 @@
                     "Hash": 2863634922,
                     "Id": "400278",
                     "Spec": "Guardian",
-                    "Text": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional {1}% Arcane damage."
+                    "Text": "Ваші здібності ближнього бою, що завдають прямої шкоди ворогам, ураженим Місячним Вогнем, змушують їх горіти, завдаючи {1}% додаткової шкоди від Таємної Магії."
                 }
             }
         },
@@ -2163,7 +2163,7 @@
                     "Hash": 2431347345,
                     "Id": "274281",
                     "Spec": "Balance",
-                    "Text": "Deals {1} Astral damage to the target and empowers New Moon to become Half Moon. \r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
+                    "Text": "Завдає {1} Астральної шкоди цілі та дає підсилює Молодий Місяць до Півмісяця.\n\n{FFFFFFFF|Генерує {2} Астральної сили.}"
                 }
             }
         },
@@ -2319,7 +2319,7 @@
                     "Hash": 423718469,
                     "Id": "390772",
                     "Spec": "Feral",
-                    "Text": "While stealthed, Rake will also stun the target for {1} sec, and deal {2}% increased damage for its full duration.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo point."
+                    "Text": "У стані непомітності Проколоти також приголомшує ціль на {1} с і завдає на {2}% більше шкоди протягом усього часу дії.\n\nУ стані непомітності Роздряпати завдає на {3}% більше шкоди, має подвоєний шанс завдати критичного удару і генерує {4} додаткових комбо лічильників."
                 }
             }
         },
@@ -2511,7 +2511,7 @@
                     "Hash": 1136034052,
                     "Id": "394121",
                     "Spec": "Balance",
-                    "Text": "New Moon, Half Moon, and Full Moon deal {1}% increased damage. Full Moon becomes Full Moon once more before resetting to New Moon.\r\n\r\nFury of Elune deals {2}% increased damage and its cooldown is reduced by {3} sec."
+                    "Text": "Молодий Місяць, Півмісяць і Повний Місяць завдають на {1}% більше шкоди. Повний Місяць ще раз стає Повним Місяцем перед тим як повернутись у Молодий Місяць.\n\nЛють Елуни завдає на {2}% більше шкоди, і час відновлення зменшується на {3} с."
                 }
             }
         },
@@ -2631,7 +2631,7 @@
                     "Hash": 2439985686,
                     "Id": "409785",
                     "Spec": "Restoration",
-                    "Text": "Enemies have their movement speed reduced by {1}% for {2} sec when removing your Restoration heal over time effects, stacking.  Enemies are silenced and rooted for {3} sec at {4} stacks."
+                    "Text": "Швидкість пересування ворогів зменшується на {1}% протягом {2} с коли вони прибирають ваші ефекти зцілення з часом, ефект накопичується. Вороги будуть знемовлені та знеруховлені на {3} при {4} накопиченнях."
                 }
             }
         },
@@ -2703,7 +2703,7 @@
                     "Hash": 817892479,
                     "Id": "8936",
                     "Spec": "Guardian",
-                    "Text": "Heals a friendly target for {1} and another {2} over {3} sec."
+                    "Text": "Лікує дружню ціль на {1} і ще на {2} протягом {3} сек."
                 }
             }
         },
@@ -2901,7 +2901,7 @@
                     "Hash": 360654915,
                     "Id": "202342",
                     "Spec": "Balance",
-                    "Text": "Moonfire and Sunfire damage over time has a chance to call down a falling star, dealing {1} Astral damage and generating {2} Astral Power."
+                    "Text": "Шкода завдана Місячним Вогнем та Сонячним Вогнем має шанс викликати падаючу зірку, завдаючи {1} Астральної шкоди та генеруючи {2} Астральної Сили."
                 }
             }
         },
@@ -3003,7 +3003,7 @@
                     "Hash": 3330157017,
                     "Id": "114107",
                     "Spec": "Balance",
-                    "Text": "Solar Eclipse increases Wrath's Astral power generation by {1}% and Lunar Eclipse increases Starfire's damage and Astral Power generation by {2}% for each target hit beyond the first, up to {3}%."
+                    "Text": "Сонячне Затемнення збільшує генерацію Астральної сили Гніву на {1}%, а Місячне Затемнення збільшує шкоду і генерацію Астральної сили Зоряного Вогню на {2}% за кожну уражену ціль після першої, до {3}%."
                 }
             }
         },
@@ -3033,7 +3033,7 @@
                     "Hash": 2966382188,
                     "Id": "77761",
                     "Spec": "Guardian",
-                    "Text": "Let loose a wild roar, increasing the movement speed of all friendly players within {1} yards by {2}% for {3} sec."
+                    "Text": "Вивільніть дикий рев, збільшуючи швидкість руху всіх дружніх гравців у радіусі {1} ярдів на {2}% протягом {3} сек."
                 }
             }
         },
