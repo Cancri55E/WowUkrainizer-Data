@@ -67,43 +67,9 @@ jobs:
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: 'Data.db uk/*'
-            
-      - name: Download latest approved translations from Crowdin
-        uses: crowdin/github-action@v1
-        with:
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          export_only_approved: true
-          create_pull_request: false
-          push_translations: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-            
-      - name: Run DevTools with update-approved-translation
-        id: run_update_approved_translation_cmd
-        run: |
-          UPDATE_APPROVED_TRANSLATION_RESULT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release -- --m "update-approved-translation" --ds "${{ github.workspace }}/Data.db" --t "${{ github.workspace }}/uk" 2>update-approved-translation-log.txt)
-          echo "::set-output name=output::$UPDATE_APPROVED_TRANSLATION_RESULT"
-
-      - name: Display update approved translation log
-        run: |
-          cat update-approved-translation-log.txt
-          echo "The output of the dotnet command was ${{ steps.run_update_approved_translation_cmd.outputs.output }}"
-
-      - name: Commit approved translations
-        if: steps.run_update_approved_translation_cmd.outputs.output != '0'
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: Update Data.db with latest approved translations from Crowdin
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-          add: 'Data.db'
           
       - name: Trigger WowUkrainizer repo to publish alpha version
-        if: steps.run_update_approved_translation_cmd.outputs.output != '0' || steps.run_update_translation_cmd.outputs.output != '0'
+        if: steps.run_update_translation_cmd.outputs.output != '0'
         run: |
           curl -X POST \
           -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
