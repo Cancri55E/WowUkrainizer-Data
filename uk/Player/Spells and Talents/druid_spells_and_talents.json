@@ -207,7 +207,7 @@
                     "Hash": 591078845,
                     "Id": "22812",
                     "Spec": "Balance, Feral, Guardian",
-                    "Text": "Your skin becomes as tough as bark, reducing all damage you take by {1}%, increasing healing received by {2}%, and preventing damage from delaying your spellcasts. Lasts {3} sec.\r\n\r\nUsable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms."
+                    "Text": "Ваша шкіра стає міцною як кора, зменшуючи отриману шкоду на {1}%, а також збільшує отримуване відновлення на {2}%, і запобігає зменшенню промови заклинання під час отримання шкоди. Протягом {3} сек."
                 }
             }
         },
@@ -639,7 +639,7 @@
                     "Hash": 2061061403,
                     "Id": "233673",
                     "Spec": "Restoration",
-                    "Text": "Efflorescence removes all snare effects from friendly targets when it heals and its Mana cost is reduced by {1}%."
+                    "Text": "Розквіт усуває всі ефекти уповільнення з дружніх цілей, коли вона зцілює і зменшує її вартість на {1}%."
                 }
             }
         },
@@ -951,7 +951,7 @@
                     "Hash": 2779914532,
                     "Id": "393427",
                     "Spec": "Guardian",
-                    "Text": "Thrash has a {1}% chance to trigger an additional Thrash.\r\n\r\nThrash stacks {2} additional time."
+                    "Text": "Шмагання має {1}% шанс активувати додаткове Шмагання.\nШмагання накладає {2} додаткових ефекти."
                 }
             }
         },
@@ -1545,7 +1545,7 @@
                     "Hash": 297037307,
                     "Id": "377811",
                     "Spec": "Guardian",
-                    "Text": "Frenzied Regeneration's healing is increased by up to {1}% based on your missing health.\r\n\r\nFrenzied Regeneration has {2} additional charge."
+                    "Text": "Зцілення від Шаленої регенерації збільшується на {1}% залежно від вашого втраченого здоров’я.\nШалена регенерація має {2} додаткових заряди."
                 }
             }
         },
@@ -1737,7 +1737,7 @@
                     "Hash": 3345261589,
                     "Id": "204066",
                     "Spec": "Guardian",
-                    "Text": "Summons a beam of lunar light at your location, increasing your mastery by {1}%, dealing {2} Arcane damage and healing you for {3} over {4} sec."
+                    "Text": "Викликає промінь місячного світла у вашу область, збільшуючи вашу майстерність на {1}%, завдаючи {2} шкоди таємної магії та зцілюючи вас на {3} протягом {4} с."
                 }
             }
         },
@@ -1767,7 +1767,7 @@
                     "Hash": 6236900,
                     "Id": "415169",
                     "Spec": "Balance",
-                    "Text": "Starfall deals {1}% increased damage."
+                    "Text": "Зорепад завдає на {1}% більше шкоди."
                 }
             }
         },
@@ -2055,7 +2055,7 @@
                     "Hash": 938350962,
                     "Id": "8921",
                     "Spec": "Guardian",
-                    "Text": "A quick beam of lunar light burns the enemy for {1} Arcane damage and then an additional {2} Arcane damage over {3} sec, and causes enemies to deal {4}% less damage to you.\n\nHits a second target within {5} yds of the first."
+                    "Text": "Швидкий промінь місячного світла спалює ворога, завдаючи {1} шкоди від таємної магії, а потім додатково {2} шкоди від таємної магії протягом {3} с, і змушує ворогів завдавати вам на {4}% менше шкоди.\nВражає другу ціль у межах {5} ярдів від першої."
                 }
             }
         },
@@ -4077,37 +4077,37 @@
         },
         "301": {
             "Hash": 1917187743,
-            "Name": "Owlkin Frenzy",
+            "Name": "Совине божевілля",
             "Descriptions": {
                 "0": {
                     "Hash": 486293408,
                     "Id": "231042",
                     "Spec": "Balance",
-                    "Text": "While in Moonkin Form, single-target attacks against you have a {1}% chance make your next Starfire instant."
+                    "Text": "Перебуваючи у формі Місячного совуха, атаки по одній цілі мають {1}% шанс зробити ваш наступний Зоряний вогонь миттєвим."
                 }
             }
         },
         "302": {
             "Hash": 520297734,
-            "Name": "Rising Light, Falling Night",
+            "Name": "Сходження світла, Падіння ночі",
             "Descriptions": {
                 "0": {
                     "Hash": 1788832178,
                     "Id": "417712",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Increases your damage and healing by {1}% during the day.\n\nIncreases your Versatility by {2}% during the night."
+                    "Text": "Збільшує шкоду та зцілення яке ви завдаєте на {1}% протягом дня.\n\nЗбільшує вашу універсальність на {2}% у ночі."
                 }
             }
         },
         "303": {
             "Hash": 1314300345,
-            "Name": "Dire Fixation",
+            "Name": "Жахлива фіксація",
             "Descriptions": {
                 "0": {
                     "Hash": 3422933521,
                     "Id": "417710",
                     "Spec": "Feral",
-                    "Text": "Attacking an enemy with Shred fixates your attention on it for {1} sec. You can fixate on a single target at once. Your attacks deal {2}% increased damage to your fixated target."
+                    "Text": "\nАтака ворога за допомогою Подрібнення зосереджує вашу увагу на ньому на {1} сек. Ви можете фокусуватися на одній цілі за раз. Ваші атаки завдають на {2}% більшої шкоди вашій фокусованій цілі."
                 }
             }
         }
