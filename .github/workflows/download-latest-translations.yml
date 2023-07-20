@@ -75,5 +75,5 @@ jobs:
           -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/Cancri55E/WowUkrainizer/actions/workflows/package.yml/dispatches \
-          -d '{"ref":"develop"}'
+          -d '{"ref":"master"}'
 
