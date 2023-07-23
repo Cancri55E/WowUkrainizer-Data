@@ -75,7 +75,7 @@
                     "Hash": 2201932333,
                     "Id": "108281",
                     "Spec": "Restoration, Elemental, Enhancement",
-                    "Text": "For the next {1} sec, {2}% of your healing done and {3}% of your damage done is converted to healing on up to {4} nearby injured party or raid members, up to {5} healing to each target per second."
+                    "Text": "Протягом наступних {1} сек, {2}% зцілення та {3}% завданої шкоди відновлює здоров'я {4} найближчим пораненим учасникам групи або рейду, максимум до {5} од. здоров'я кожній цілі щосекунди."
                 }
             }
         },
@@ -633,7 +633,7 @@
                     "Hash": 899141734,
                     "Id": "61882",
                     "Spec": "Elemental",
-                    "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec and has a {4}% chance to knock the enemy down. Multiple uses of Earthquake may overlap."
+                    "Text": "Викликає землетрус в радіусі {1} м, завдаючи {2} од. фізичної шкоди протягом {3} сек та має {4}% шанс збити ворога з ніг. Багаторазові застосування [Землетрус] накладаються один на одного."
                 }
             }
         },
@@ -963,13 +963,13 @@
                     "Hash": 137143167,
                     "Id": "188389",
                     "Spec": "Restoration",
-                    "Text": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets."
+                    "Text": "Обпалює ціль вогнем, завдаючи {1} од. вулканічної шкоди, а потім ще додатково {2} од. вулканічної шкоди протягом {3} сек.\n\n[Вогняний шок] можна накласти максимум на {4} {declension|ціль|цілі|цілей}."
                 },
                 "3": {
                     "Hash": 1170811009,
                     "Id": "188389",
                     "Spec": "Elemental, Enhancement",
-                    "Text": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Volcanic damage and knocking them into the air."
+                    "Text": "Обпалює ціль вогнем, завдаючи {1} од. вулканічної шкоди, а потім ще додатково {2} од. вулканічної шкоди протягом {3} сек.\n\n[Вогняний шок] можна накласти максимум на {4} {declension|ціль|цілі|цілей}.\n\nЯкщо ворог розвіє [Вогняний шок], то під ним з'явиться вулканічне виверження, що завдає {5} од. вулканічної шкоди та підкидає його у повітря."
                 }
             }
         },
