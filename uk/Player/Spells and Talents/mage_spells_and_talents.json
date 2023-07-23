@@ -39,7 +39,7 @@
                     "Hash": 1862827131,
                     "Id": "342245",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} sec.  Effect negated by long distance or death."
+                    "Text": "Змінює тканину часу, повертаючи вас до поточного місця розташування та здоров'я, після повторного застосування або через {1} сек. Не спрацьовує при смерті або на великій відстані від початкової точки."
                 }
             }
         },
@@ -207,7 +207,7 @@
                     "Hash": 3892172678,
                     "Id": "153626",
                     "Spec": "Arcane",
-                    "Text": "Launches an Arcane Orb forward from your position, traveling up to {1} yds, dealing {2} Arcane damage to enemies it passes through.\r\n\r\n{FFFFFFFF|Grants {3} Arcane Charge when cast and every time it deals damage.}"
+                    "Text": "Ви запускаєте [Таємна сфера] перед собою, що рухається {1} м, завдаючи {2} од. шкоди від таємної магії усім ворогам на своєму шляху.\n\n{FFFFFFFF|Генерує {3} [Таємний заряд] при застосуванні та при кожному завданні шкоди.}"
                 }
             }
         },
@@ -249,7 +249,7 @@
                     "Hash": 1339722895,
                     "Id": "383980",
                     "Spec": "Arcane",
-                    "Text": "Consuming Arcane Charges increases your Haste by {1}% for {2} sec, stacks up to {3} times."
+                    "Text": "Поглинання ефекту [Таємний заряд] збільшує вашу Швидкість на {1}% на {2} сек. Накопичується до {3} разів."
                 }
             }
         },
@@ -303,7 +303,7 @@
                     "Hash": 1291642917,
                     "Id": "157981",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Causes an explosion around yourself, dealing {1} Fire damage to all enemies within {2} yds, knocking them back, and reducing movement speed by {3}% for {4} sec."
+                    "Text": "Спричиняє вибух навколо себе, завдаючи {1} од. шкоди від вогню усім ворогам в радіусі {2} м, відкидаючи та знижуючи їх швидкість пересування на {3}% протягом {4} сек."
                 }
             }
         },
@@ -339,7 +339,7 @@
                     "Hash": 4274303997,
                     "Id": "1953",
                     "Spec": "Frost",
-                    "Text": "Teleports you forward {1} yds or until reaching an obstacle, and frees you from all stuns and bonds.\r\n\r\nGain a shield that absorbs {2}% of your maximum health for {3} sec after you Blink."
+                    "Text": "Телепортує вас вперед на {1} м або до найближчої перешкоди, а також звільняє вас від усіх ефектів оглушення і знерухомлення.\n\nНакладає щит, який поглинає {2}% від вашого максимального здоров'я протягом {3} сек після застосування [Стрибок]."
                 }
             }
         },
@@ -393,7 +393,7 @@
                     "Hash": 270725318,
                     "Id": "343222",
                     "Spec": "Fire",
-                    "Text": "Phoenix Flames deals {1}% increased damage and gains {2} additional charge."
+                    "Text": "[Полум'я фенікса] завдає {1}% більше шкоди та отримує {2} {declension|додатковий заряд|додаткові заряди|додаткових зарядів}."
                 }
             }
         },
@@ -483,7 +483,7 @@
                     "Hash": 2198992415,
                     "Id": "79684",
                     "Spec": "Arcane",
-                    "Text": "For each {1} mana you spend, you have a {2}% chance to gain Clearcasting, making your next Arcane Missiles or Arcane Explosion free."
+                    "Text": "За кожні витрачені {1} од. мани ви маєте {2}% шанс отримати ефект [Чистий розум], що дозволить застосовувати ваш наступний [Таємні стріли] або [Таємний вибух] без витрат мани."
                 }
             }
         },
@@ -513,7 +513,7 @@
                     "Hash": 1360738157,
                     "Id": "235219",
                     "Spec": "Frost",
-                    "Text": "Resets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block."
+                    "Text": "Миттєво відновлює [Крижаний бар'єр], [Крижана зірка], [Конус холоду], [Крижаний холод] і [Крижана перешкода]."
                 }
             }
         },
@@ -591,7 +591,7 @@
                     "Hash": 1287583035,
                     "Id": "205023",
                     "Spec": "Fire",
-                    "Text": "Fireball and Pyroblast apply Conflagration to the target, dealing an additional {1} Fire damage over {2} sec.\n\nEnemies affected by either Conflagration or Ignite have a {3}% chance to flare up and deal {4} Fire damage to nearby enemies."
+                    "Text": "[Вогняний шар] та [Вогняна брила] накладає на ціль ефект [Пожежа], завдаючи додатково {1} од. шкоди від вогню протягом {2} сек.\n\nВороги, на яких діють [Пожежа] або [Підпал], мають {3}% шанс спалахнути та завдати {4} од. шкоди від вогню ворогам поблизу."
                 }
             }
         },
@@ -609,7 +609,7 @@
                     "Hash": 2328451877,
                     "Id": "759",
                     "Spec": "Arcane",
-                    "Text": "Conjures a Mana Gem that can be used to instantly restore {1}% mana and grant {2}% spell damage for {3} sec. Holds up to {4} charges.\r\n\r\n{ffffffff|Conjured Items}\r\nConjured items disappear if logged out for more than {5} min."
+                    "Text": "Вичакловує [Мана кристал], який при використанні миттєво відновлює {1}% мани та надає {2}% шкоди від заклинань на {3} сек. Має до {4} зарядів.\n\n{ffffffffff|Зачаровані предмети}\nЗачаровані предмети зникають, після виходу з гри більше ніж на {5} хв."
                 }
             }
         },
@@ -639,7 +639,7 @@
                     "Hash": 4090373747,
                     "Id": "383669",
                     "Spec": "Fire",
-                    "Text": "Pyroblast's damage is increased by {1}% when the target is above {2}% health or below {3}% health."
+                    "Text": "Шкода від [Вогняна брила] збільшується на {1}%, коли у цілі більше {2}% здоров'я або менше {3}% здоров'я."
                 }
             }
         },
@@ -717,7 +717,7 @@
                     "Hash": 4173828001,
                     "Id": "389713",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Teleports you back to where you last Blinked and heals you for {1} health. Only usable within {2} sec of Blinking."
+                    "Text": "Переносить вас на місце, де ви востаннє застосовували [Стрибок] і зцілює вас на {1} здоров'я. Може бути використане упродовж {2} сек після застосування [Стрибок]."
                 }
             }
         },
@@ -831,7 +831,7 @@
                     "Hash": 2969434549,
                     "Id": "383391",
                     "Spec": "Fire",
-                    "Text": "Fire Blast and Phoenix Flames increase your mastery by {1}% for {2} sec. This effect stacks up to {3} times."
+                    "Text": "[Вогняний вибух] і [Полум'я фенікса] збільшують вашу майстерність на {1}% на {2} сек. Цей ефект накопичується до {3} разів."
                 }
             }
         },
@@ -915,7 +915,7 @@
                     "Hash": 1443079329,
                     "Id": "133",
                     "Spec": "Fire",
-                    "Text": "Throws a fiery ball that causes {1} Fire damage.\r\n\r\nEach time your Fireball fails to critically strike a target, it gains a stacking {2}% increased critical strike chance. Effect ends when Fireball critically strikes."
+                    "Text": "Кидає вогняну кулю, яка завдає {1} од. шкоди від вогню.\n\nЩоразу, коли ваш [Вогняний шар] не завдає критичного удару по цілі, він отримує додатковий шанс критичного удару на {2}%. Ефект закінчується, коли [Вогняний шар] завдає критичного удару."
                 }
             }
         },
@@ -933,7 +933,7 @@
                     "Hash": 3584523823,
                     "Id": "384033",
                     "Spec": "Fire",
-                    "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball to call down a Meteor on your target."
+                    "Text": "Завдаючи шкоду ворогу {1} разів за допомогою [Вогняний шар] або [Вогняна брила] призводить до того, що ваш наступний [Вогняний шар] викликає [Метеор] на вашу ціль."
                 }
             }
         },
@@ -987,7 +987,7 @@
                     "Hash": 1294263190,
                     "Id": "205029",
                     "Spec": "Fire",
-                    "Text": "Reduces the cooldown of Fire Blast by {1} sec and increases the maximum number of charges by {2}."
+                    "Text": "Зменшує час відновлення [Вогняний вибух] на {1} сек і збільшує максимальну кількість зарядів на {2}."
                 }
             }
         },
@@ -1023,7 +1023,7 @@
                     "Hash": 1689192857,
                     "Id": "203284",
                     "Spec": "Fire",
-                    "Text": "Every {1} sec in combat with no enemy players or creatures closer than {2} yds, your maximum health increases by {3}%, damage done increases by {4}%, and range of your Fire spells increase by {5} yards.\r\n\r\nThis effect stacks up to {6} times and lasts for {7} sec."
+                    "Text": "Кожні {1} сек знаходження в бою, коли ворожі гравці або істоти не знаходяться ближче, ніж {2} ярдів, ваше максимальне здоров'я збільшується на {3}%, завдана шкода збільшується на {4}%, а дальність дії ваших заклинань магії вогню збільшується на {5} ярдів.\n\nЦей ефект накомичується до {6} разів і триває {7} сек."
                 }
             }
         },
@@ -1065,7 +1065,7 @@
                     "Hash": 4149808908,
                     "Id": "382268",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "The cooldowns of Blink and Shimmer are reduced by {1} sec."
+                    "Text": "Час відновлення [Стрибок] і [Мерехтіння] зменшується на {1} сек."
                 }
             }
         },
