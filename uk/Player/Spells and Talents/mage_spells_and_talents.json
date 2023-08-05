@@ -1707,7 +1707,7 @@
                     "Hash": 1281357902,
                     "Id": "66",
                     "Spec": "Arcane",
-                    "Text": "Turns you invisible over {1} sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts {2} sec. Taking any action cancels the effect.\r\n\r\nIncreases your movement speed by {3}% for {4} sec."
+                    "Text": "Робить вас невидимим протягом {1} сек, зменшуючи загрозу щосекунди. Під час невидимості, вороги не можуть обрати вас ціллю. Триває {2} сек. Будь-яка дія скасовує цей ефект.\n\nЗбільшує вашу швидкість пересування на {3}% протягом {4} сек."
                 }
             }
         },
@@ -1725,7 +1725,7 @@
                     "Hash": 3436814900,
                     "Id": "155148",
                     "Spec": "Fire",
-                    "Text": "Your Fireball, Pyroblast, Fire Blast, Scorch and Phoenix Flames critical strikes reduce the remaining cooldown on Combustion by {1} sec."
+                    "Text": "Критична шкода від ваших [Вогняний шар], [Вогняна брила], [Вогняний вибух] та [Полум'я Фенікса] зменшує час відновлення [Спалення] на {1} сек."
                 }
             }
         },
@@ -1761,7 +1761,7 @@
                     "Hash": 1596761569,
                     "Id": "44457",
                     "Spec": "Fire",
-                    "Text": "The target becomes a Living Bomb, taking {1} Fire damage over {2} sec, and then exploding to deal an additional {3} Fire damage to the target and reduced damage to all other enemies within {4} yds.\r\n\r\nOther enemies hit by this explosion also become a Living Bomb, but this effect cannot spread further."
+                    "Text": "Ціль перетворюється на живу бомбу, отримуючи {1} од. шкоди від вогню протягом {2} сек, а потім вибухає і додатково завдає {3} од. шкоди від вогню собі та зменшену шкоду усім ворогам в радіусі {4} м.\n\nІнші вороги, уражені вибухом, також стають живими бомбами, але далі ефект не розповсюджується."
                 }
             }
         },
@@ -1809,7 +1809,7 @@
                     "Hash": 2833976235,
                     "Id": "414664",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Taking any action will cancel the effect.\r\n\r\nDoes not affect allies in combat."
+                    "Text": "Ви та ваші союзники в радіусі {1} м миттєво стають невидимими на {2} сек. Будь-яка дія скасовує цей ефект.\n\nНе діє на союзників у бою."
                 }
             }
         },
@@ -1875,7 +1875,7 @@
                     "Hash": 2724124059,
                     "Id": "342249",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Reduces the cooldown of Alter Time by {1} sec. \r\n\r\nAlter Time resets the cooldown of Blink and Shimmer when you return to your original location."
+                    "Text": "Зменшує час відновлення [Маніпуляція часом] на {1} сек.\n\n[Маніпуляція часом] миттєво відновлює [Стрибок] та [Мерехтіння] коли ви повертаєтесь у початкову позицію."
                 }
             }
         },
@@ -1893,7 +1893,7 @@
                     "Hash": 3314533614,
                     "Id": "76613",
                     "Spec": "Frost",
-                    "Text": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%."
+                    "Text": "Застосування [Крижана стріла] або [Шквал] надає вам [Бурулька]. Застосування [Крижаний Спис] негайно випускає усі накопичені [Бурульки], кожна з яких завдає {1} од. шкоди від магії холоду.\n\nНакопичується до {2} [Бурульки]. Усі надлишкові [Бурульки] негайно випускаються по цілі.\n\nЗбільшує шкоду від [Крижана Куля], [Заметіль] і [Кометна буря] на {3}%.\n\nЗбільшує шкоду від [Крижаний Спис], [Льодовий шип] і [Морозний промінь] на {4}%."
                 }
             }
         },
@@ -1911,7 +1911,7 @@
                     "Hash": 3879198882,
                     "Id": "12846",
                     "Spec": "Fire",
-                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                    "Text": "[Вогняний шар], [Вогняний вибух], [Опік], [Вогняна брила], [Полум'я Фенікса] і [Вогняний удар] підпалюють ціль, завдаючи {1}% від прямої завданої ними шкоди протягом {2} сек. Якщо цей ефект накладається повторно, уся залишкова шкода додається до нового ефекту [Підпал].\n\n[Вогняний вибух] розповсюджує ефект [Підпал] на {3} ворогів неподалік."
                 }
             }
         },
@@ -1941,7 +1941,7 @@
                     "Hash": 3461627833,
                     "Id": "153561",
                     "Spec": "Fire",
-                    "Text": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage to all enemies hit reduced beyond {3} targets, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area."
+                    "Text": "Викликає метеор, що падає у цільову область через {1} сек, завдаючи {2} од. шкоди від вогню. Шкода зменшується, якщо цілей більше {3}. Також підпалює землю, завдаючи {4} од. шкоди від вогню упродовж {5} сек усім ворогам в цій області."
                 }
             }
         },
@@ -1983,7 +1983,7 @@
                     "Hash": 2005255718,
                     "Id": "114923",
                     "Spec": "Arcane",
-                    "Text": "Places a Nether Tempest on the target which deals {1} Arcane damage over {2} sec to the target and nearby enemies within {3} yds. Limit {4} target. Deals reduced damage to secondary targets.\r\n\r\nDamage increased by {5}% per Arcane Charge."
+                    "Text": "Насилає на ціль позавимірний буревій, який завдає цілі та ворогам в радіусі {3} м {1} од. шкоди від таємної магії протягом {2} сек. Максимум цілей - {4}. Завдає зменшену шкоду неосновній цілі.\n\nШкода збільшується на {5}% за кожен [Таємний заряд]."
                 }
             }
         },
@@ -2013,7 +2013,7 @@
                     "Hash": 1203845072,
                     "Id": "384858",
                     "Spec": "Arcane",
-                    "Text": "Arcane Barrage has a {1}% chance per Arcane Charge consumed to launch an Arcane Orb in front of you."
+                    "Text": "[Таємний обстріл] має {1}% шанс запустити перед вами [Таємна Сфера] за кожний поглинутий [Таємний заряд]."
                 }
             }
         },
@@ -2463,13 +2463,13 @@
                     "Hash": 3979618193,
                     "Id": "212653",
                     "Spec": "Fire, Arcane",
-                    "Text": "Teleports you {1} yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting."
+                    "Text": "Переносить вас вперед на {1} м або до найближчої перешкоди. Не впливає на глобальне відновлення і може застосовуватись під час застосування іншої здібності."
                 },
                 "2": {
                     "Hash": 3790561881,
                     "Id": "212653",
                     "Spec": "Frost",
-                    "Text": "Teleports you {1} yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.\r\n\r\nGain a shield that absorbs {2}% of your maximum health for {3} sec after you Shimmer."
+                    "Text": "Переносить вас вперед на {1} м або до найближчої перешкоди. Не впливає на глобальне відновлення і може застосовуватись під час застосування іншої здібності.\n\nНадає вам щит, що поглинає {2}% від вашого максимального здоров'я протягом {3} сек після застосовування [Мерехтіння]."
                 }
             }
         },
@@ -2487,7 +2487,7 @@
                     "Hash": 58270672,
                     "Id": "384187",
                     "Spec": "Arcane",
-                    "Text": "Evocation channels {1}% faster and while channeling Evocation, your Intellect is increased by {2}% every {3} sec. Lasts {4} sec."
+                    "Text": "[Втілення] підтримується на {1}% швидше, а під час підтримання ваш Інтелект збільшується на {2}% кожні {3} сек. Триває {4} сек."
                 }
             }
         },
@@ -2613,7 +2613,7 @@
                     "Hash": 579956528,
                     "Id": "56377",
                     "Spec": "Frost",
-                    "Text": "Your Ice Lance and Icicles now deal {1}% increased damage, and hit a second nearby target for {2}% of their damage.\r\n\r\nYour Glacial Spike also hits a second nearby target for {3}% of its damage."
+                    "Text": "Ваші [Крижаний Спис] та [Бурульки] тепер завдають на {1}% більше шкоди та вражають ще одну ціль поруч на {2}% від їх шкоди.\n\nВаш [Льодовий шип] теж вражає ціль поруч на {3}% від його шкоди."
                 }
             }
         },
@@ -2655,7 +2655,7 @@
                     "Hash": 2939996525,
                     "Id": "383886",
                     "Spec": "Fire",
-                    "Text": "After consuming {1} Hot Streaks, your next non-instant Pyroblast or Flamestrike cast within {2} sec grants you Combustion for {3} sec and deals {4}% additional damage."
+                    "Text": "Після поглинання {1} {declension|ефекту|ефектів|ефектів} [Спалах успіху], ваші наступні [Вогняна брила] або [Вогняний Удар], що застосовані не миттєво впродовж {2} сек, дають вам ефект [Спалення] на {3} сек та завдають на {4}% більше шкоди."
                 }
             }
         },
@@ -2673,7 +2673,7 @@
                     "Hash": 1534118221,
                     "Id": "157980",
                     "Spec": "Arcane",
-                    "Text": "Pulses arcane energy around the target enemy or ally, dealing {1} Arcane damage to all enemies within {2} yds, and knocking them upward. A primary enemy target will take {3}% increased damage."
+                    "Text": "Випромінює таємну енергію навколо ворожої цілі або союзника, завдаючи {1} од. шкоди від таємної магії усім ворогам в радіусі {2} м і підкидає їх у повітря. Основна ворожа ціль отримає на {3}% більше шкоди."
                 }
             }
         },
@@ -2871,7 +2871,7 @@
                     "Hash": 1192727769,
                     "Id": "389627",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Greatly increases the effect of Blast Wave's knockback. Blast Wave's cooldown is reduced by {1} sec."
+                    "Text": "Значно збільшує ефект відштовхування від [Вибухова Хвиля] та зменшує її час відновлення на {1} сек."
                 }
             }
         },
@@ -2889,7 +2889,7 @@
                     "Hash": 1675229160,
                     "Id": "383489",
                     "Spec": "Fire",
-                    "Text": "Your critical strike damage is increased by {1}%. When you activate Combustion, you gain {2}% additional critical strike damage, and up to {3} nearby allies gain {4}% critical strike for {5} sec."
+                    "Text": "Ваша критична шкода збільшується на {1}%. Коли ви застосовуєте [Спалення], ваш показник Критичного Удару збільшується на {2}%, а показник Критичного Удару максимум {3} союзників поряд зростає на {4}% на {5} сек."
                 }
             }
         },
@@ -2973,181 +2973,181 @@
         },
         "214": {
             "Hash": 4047656329,
-            "Name": "Fuel the Fire",
+            "Name": "Підживлення вогню",
             "Descriptions": {
                 "0": {
                     "Hash": 4255972031,
                     "Id": "416094",
                     "Spec": "Fire",
-                    "Text": "Flamestrike has a chance equal to {1}% of your spell critical strike chance to build up to a Hot Streak."
+                    "Text": "[Вогняний удар] надає ефект [Спалах успіху] з шансом, що дорівнює {1}% від вашого шансу критичного удару заклинань."
                 }
             }
         },
         "215": {
             "Hash": 4121603277,
-            "Name": "Mass Barrier",
+            "Name": "Масовий бар'єр",
             "Descriptions": {
                 "0": {
                     "Hash": 3341289669,
                     "Id": "414660",
                     "Spec": "Fire",
-                    "Text": "Cast Blazing Barrier on yourself and {1} nearby allies."
+                    "Text": "Застосовує [Пекучий бар'єр] на вас та {1} {declension|союзника|союзників|союзників} поруч."
                 },
                 "1": {
                     "Hash": 3452439705,
                     "Id": "414660",
                     "Spec": "Frost",
-                    "Text": "Cast Ice Barrier on yourself and {1} nearby allies."
+                    "Text": "Застосовує [Крижаний бар'єр] на вас та {1} {declension|союзника|союзників|союзників} поруч."
                 },
                 "2": {
                     "Hash": 312594066,
                     "Id": "414660",
                     "Spec": "Arcane",
-                    "Text": "Cast Prismatic Barrier on yourself and {1} nearby allies."
+                    "Text": "Застосовує [Призматичний бар'єр] на вас та {1} {declension|союзника|союзників|союзників} поруч."
                 }
             }
         },
         "216": {
             "Hash": 2431950310,
-            "Name": "Intensifying Flame",
+            "Name": "Посилювальне полум'я",
             "Descriptions": {
                 "0": {
                     "Hash": 733492945,
                     "Id": "416714",
                     "Spec": "Fire",
-                    "Text": "While Ignite is on {1} or fewer enemies it flares up dealing an additional {2}% of its damage to affected targets."
+                    "Text": "Доки [Спалення] діє на {1} або менше ворогів, воно спалахує, завдаючи додатково {2}% від своєї шкоди усім цілям."
                 }
             }
         },
         "217": {
             "Hash": 1040528442,
-            "Name": "Inflame",
+            "Name": "Розпалення",
             "Descriptions": {
                 "0": {
                     "Hash": 2823883957,
                     "Id": "417467",
                     "Spec": "Fire",
-                    "Text": "Hot Streak increases the amount of Ignite damage from Pyroblast or Flamestrike by an additional {1}%."
+                    "Text": "[Спалах успіху] збільшує шкоду ефекту [Спалення] від [Вогняна брила] або [Вогняний удар] на {1}%."
                 }
             }
         },
         "218": {
             "Hash": 1636572999,
-            "Name": "Convection",
+            "Name": "Конвекція",
             "Descriptions": {
                 "0": {
                     "Hash": 3353761236,
                     "Id": "416715",
                     "Spec": "Fire",
-                    "Text": "Each time Living Bomb explodes it has a {1}% chance to reduce its cooldown by {2} sec."
+                    "Text": "Щоразу, коли [Жива Бомба] вибухає, вона має {1}% шанс зменшити свій час відновлення на {2} сек."
                 }
             }
         },
         "219": {
             "Hash": 3971100737,
-            "Name": "Deep Impact",
+            "Name": "Глибоке ураження",
             "Descriptions": {
                 "0": {
                     "Hash": 3943739937,
                     "Id": "416719",
                     "Spec": "Fire",
-                    "Text": "Meteor's damage is increased by {1}% but is now split evenly between all enemies hit. Additionally, its cooldown is reduced by {2} sec."
+                    "Text": "Шкода від [Метеор] збільшується на {1}%, але тепер вона розділяється порівну між усіма ураженими ворогами. Також, його час відновлення зменшується на {2} сек."
                 }
             }
         },
         "220": {
             "Hash": 851470293,
-            "Name": "Improved Mass Invisibility",
+            "Name": "Покращена масова невидимість",
             "Descriptions": {
                 "0": {
                     "Hash": 1133775236,
                     "Id": "415945",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "The cooldown of Mass Invisibility is reduced by {1} min and can affect allies in combat."
+                    "Text": "Час відновлення [Масова невидимість] зменшується на {1} хв. [Масова невидимість] тепер діє на союзників у бою."
                 }
             }
         },
         "221": {
             "Hash": 1590072718,
-            "Name": "Unleashed Inferno",
+            "Name": "Вивільнене пекло",
             "Descriptions": {
                 "0": {
                     "Hash": 1295274403,
                     "Id": "416506",
                     "Spec": "Fire",
-                    "Text": "While Combustion is active your Fireball, Pyroblast, Fire Blast, Scorch, and Phoenix Flames deal {1}% increased damage and reduce the cooldown of Combustion by {2} sec."
+                    "Text": "Доки діє [Спалення], ваші [Вогняний шар], [Вогняна брила], [Вогняний вибух], [Опік] та [Полум'я Фенікса] завдають на {1}% більше шкоди та зменшують час відновлення [Спалення] на {2} сек."
                 }
             }
         },
         "222": {
             "Hash": 774399501,
-            "Name": "Surging Blaze",
+            "Name": "Бурливий спалах",
             "Descriptions": {
                 "0": {
                     "Hash": 1864296452,
                     "Id": "343230",
                     "Spec": "Fire",
-                    "Text": "Flamestrike and Pyroblast cast times are reduced by {1} sec and damage dealt increased by {2}%."
+                    "Text": "Час застосування ваших [Вогняний удар] та [Вогняна брила] зменшується на {1} сек, а їх шкода збільшується на {2}%."
                 }
             }
         },
         "223": {
             "Hash": 507948232,
-            "Name": "Ice Cold",
+            "Name": "Крижаний холод",
             "Descriptions": {
                 "0": {
                     "Hash": 2134400732,
                     "Id": "414659",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Ice Block now reduces all damage taken by {1}% for {2} sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown."
+                    "Text": "[Крижана перешкода] тепер зменшує усю отримувану шкоду на {1}% протягом {2} сек, але більше не надає імунітет, не знерухомлює, не позбавляє можливості атакувати та застосовувати заклинання. Не впливає на глобальний час відновлення."
                 }
             }
         },
         "224": {
             "Hash": 4136646815,
-            "Name": "Coldest Snap",
+            "Name": "Найхолодніший сплеск",
             "Descriptions": {
                 "0": {
                     "Hash": 61326006,
                     "Id": "417493",
                     "Spec": "Frost",
-                    "Text": "Cone of Cold's cooldown is increased to {1} sec and if Cone of Cold hits {2} or more enemies it resets the cooldown of Frozen Orb and Comet Storm. In addition, Cone of Cold applies Winter's Chill to all enemies hit.\r\n\r\nCone of Cold's cooldown can no longer be reduced by your cooldown reduction effects."
+                    "Text": "Час відновлення [Конус холоду] збільшується до {1} сек, та тепер якщо [Конус холоду] вражає {2} або більше ворогів, [Крижана Куля] та [Кометна буря] миттєво відновлюються. Також, [Конус холоду] застосовує ефект [Зимовий Холод] на усіх уражених ворогів.\n\nЧас відновлення [Конус холоду] тепер не зменшується вашими ефектами зменшення часу відновлення."
                 }
             }
         },
         "225": {
             "Hash": 104169042,
-            "Name": "Winter's Blessing",
+            "Name": "Благословення зими",
             "Descriptions": {
                 "0": {
                     "Hash": 3466294739,
                     "Id": "417489",
                     "Spec": "Frost",
-                    "Text": "Your Haste is increased by {1}%.\r\n\r\nYou gain {2}% more of the Haste stat from all sources."
+                    "Text": "Ваша Швидкість збільшується на {1}%.\n\nВи отримуєте на {2}% більше Швидкості з усіх джерел."
                 }
             }
         },
         "226": {
             "Hash": 1710944039,
-            "Name": "Cryopathy",
+            "Name": "Кріопатія",
             "Descriptions": {
                 "0": {
                     "Hash": 1730191790,
                     "Id": "417491",
                     "Spec": "Frost",
-                    "Text": "Each time you consume Fingers of Frost the damage of your next Ray of Frost is increased by {1}%, stacking up to {2}%. Icy Veins grants {3} stacks instantly."
+                    "Text": "Щоразу, коли ви поглинаєте ефект [Морозні пальці], шкода від вашого наступного [Морозний промінь] збільшується на {1}%. Накопичується до {2} разів. [Стигла кров] миттєво надає {3} накопичення ефекту."
                 }
             }
         },
         "227": {
             "Hash": 2905748645,
-            "Name": "Splintering Ray",
+            "Name": "Розсічений промінь",
             "Descriptions": {
                 "0": {
                     "Hash": 3953363814,
                     "Id": "418733",
                     "Spec": "Frost",
-                    "Text": "Ray of Frost deals {1}% of its damage to {2} nearby enemies."
+                    "Text": "[Морозний промінь] завдає {1}% своєї шкоди {2} ворогам поблизу."
                 }
             }
         },
