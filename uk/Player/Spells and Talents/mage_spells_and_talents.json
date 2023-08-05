@@ -531,7 +531,7 @@
         },
         "38": {
             "Hash": 2298374374,
-            "Name": "Кометна Буря",
+            "Name": "Кометна буря",
             "Descriptions": {
                 "0": {
                     "Hash": 3301447365,
@@ -1167,7 +1167,7 @@
                     "Hash": 693644019,
                     "Id": "342344",
                     "Spec": "Fire",
-                    "Text": "Increases Mastery by {1}% for each charge of Phoenix Flames on cooldown and your direct-damage critical strikes reduce its cooldown by {2} sec."
+                    "Text": "Збільшує вашу Майстерність на {1}% за кожний заряд [Полум'я Фенікса], що відновлюється, а ваша пряма критична шкода відновлює [Полум'я Фенікса] на {2} сек."
                 }
             }
         },
@@ -1245,7 +1245,7 @@
                     "Hash": 1190181946,
                     "Id": "84714",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Launches an orb of swirling ice up to {1} yds forward which deals up to {2} Frost damage to all enemies it passes through over {3} sec. Deals reduced damage beyond {4} targets. Grants {5} charge of Fingers of Frost when it first damages an enemy.\r\n\r\nEnemies damaged by the Frozen Orb are slowed by {6}% for {7} sec."
+                    "Text": "Запускає кулю кружляючої криги на {1} м вперед, яка завдає до {2} од. шкоди від магії холоду всім ворогам на своєму шляху протягом {3} сек. Здійснює зменшену шкоду більше як {4} цілям. Коли куля вперше завдає шкоду, ви отримуєте {5} {declension|заряд|заряди|зарядів} ефекту [Морозні пальці].\n\nВороги уражені [Крижана куля] сповільнюються на {6}% протягом {7} сек."
                 }
             }
         },
@@ -1263,7 +1263,7 @@
                     "Hash": 2478154704,
                     "Id": "205030",
                     "Spec": "Frost",
-                    "Text": "Frostbolt grants you Fingers of Frost {1}% more often and Brain Freeze {2}% more often."
+                    "Text": "[Крижана стріла] надає вам ефект [Морозні пальці] на {1}% частіше, а ефект [Замороження мозку] на {2}% частіше."
                 }
             }
         },
@@ -1281,7 +1281,7 @@
                     "Hash": 287376760,
                     "Id": "378947",
                     "Spec": "Frost",
-                    "Text": "Your Comet Storm now increases the damage enemies take from you by {1}% for {2} sec and Flurry has a {3}% chance each hit to call down an icy comet, crashing into your target and nearby enemies for {4} Frost damage."
+                    "Text": "Ваша [Кометна буря] тепер збільшує шкоду, яку вороги отримують від вас на {1}% протягом {2} сек, а [Шквал] має {3}% шанс випустити комету з кожним ударом, яка падає на вашу ціль і ворогів поряд та завдає {4} од. шкоди від магії холоду."
                 }
             }
         },
@@ -1329,7 +1329,7 @@
                     "Hash": 3706723769,
                     "Id": "110959",
                     "Spec": "Arcane",
-                    "Text": "Makes you invisible and untargetable for {1} sec, removing all threat. Any action taken cancels this effect.\r\n\r\nYou take {2}% reduced damage while invisible and for {3} sec after reappearing.\r\n\r\nIncreases your movement speed by {4}% for {5} sec."
+                    "Text": "Робить вас невидимим та не дозволяє обрати вас ціллю протягом {1} сек, знімаючи весь рівень загрози. Будь-яка дія скасовує цей ефект.\n\nВи отримуєте на {2}% менше шкоди під час невидимості та ще {3} сек після появи.\n\nЗбільшує вашу швидкість пересування на {4}% на {5} сек."
                 }
             }
         },
@@ -1395,7 +1395,7 @@
                     "Hash": 2016103164,
                     "Id": "383860",
                     "Spec": "Fire",
-                    "Text": "While Combustion is not active, consuming Hot Streak has a low chance to cause all Pyroblasts and Flamestrikes to have no cast time and be guaranteed critical strikes for {1} sec."
+                    "Text": "Коли [Спалення] неактивне, поглинання ефекту [Спалах успіху] має низький шанс, що протягом наступних {1} сек усі ваші [Вогняна брила] та [Вогняний удар] будуть застосовуватись миттєво та гарантовано завдадуть критичну шкоду."
                 }
             }
         },
@@ -1491,7 +1491,7 @@
                     "Hash": 1537202648,
                     "Id": "157997",
                     "Spec": "Fire, Frost, Arcane",
-                    "Text": "Causes a whirl of icy wind around the enemy, dealing {1} Frost damage to the target and reduced damage to all other enemies within {2} yds, and freezing them in place for {3} sec."
+                    "Text": "Здіймає вихор крижаного вітру навколо ворога, завдаючи цілі {1} од. шкоди від магії холоду та зменшеної шкоди всім ворогам в радіусі {2} м та приморожує їх на місці на {3} сек."
                 }
             }
         },
@@ -1545,7 +1545,7 @@
                     "Hash": 565413256,
                     "Id": "12472",
                     "Spec": "Frost",
-                    "Text": "Accelerates your spellcasting for {1} sec, granting {2}% haste and preventing damage from delaying your spellcasts.\r\n\r\nActivating Icy Veins summons a water elemental to your side for its duration. The water elemental's abilities grant you Frigid Empowerment  increasing the Frost damage you deal by {3}%, up to {4}%."
+                    "Text": "Прискорює ваше читання заклять на {1} сек, надаючи {2}% швидкості та запобігаючи затримці застосування при отриманні шкоди.\n\n[Стигла кров] викликає Водяного елементаля на вашу сторону протягом її дії. Здібності елементаля надають вам ефект [Крижане підсилення], що збільшує завдану вами шкоду від магії холоду на {3}%, максимум до {4}%."
                 }
             }
         },
