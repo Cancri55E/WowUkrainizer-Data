@@ -45,7 +45,7 @@
                     "Hash": 2473449816,
                     "Id": "406157",
                     "Spec": "Retribution",
-                    "Text": "Шкода від критичних ударів ваших здібностей збільшується на {1}%. Критичні удари здібності [Молот гніву] активують [Священний молот], який крутиться по спіралі, завдаючи ворогам {2} од. шкоди від магії світла."
+                    "Text": "Шкода від критичних ударів ваших здібностей збільшується на {1}%. Критичні удари здібності [Молот гніву] активують [Священний молот], який крутиться по спіралі, завдаючи ворогам {2} од. шкоди від світлої магії."
                 }
             }
         },
@@ -1209,7 +1209,7 @@
         },
         "87": {
             "Hash": 1521606265,
-            "Name": "Видих",
+            "Name": "Випал",
             "Descriptions": {
                 "0": {
                     "Hash": 2320173771,
@@ -2235,7 +2235,7 @@
         },
         "163": {
             "Hash": 1640233628,
-            "Name": "Майстерність: Світлоносець",
+            "Name": "Майстерність: Світлоносний",
             "Descriptions": {
                 "0": {
                     "Hash": 2776240964,
@@ -3441,85 +3441,85 @@
         },
         "253": {
             "Hash": 576761384,
-            "Name": "Glistening Radiance",
+            "Name": "Блискуче сяйво",
             "Descriptions": {
                 "0": {
                     "Hash": 172134907,
                     "Id": "414139",
                     "Spec": "Holy",
-                    "Text": "Spending Holy Power has a {1}% chance to trigger Glimmer of Light's healing and damage."
+                    "Text": "Коли ви витрачаєте силу світла, ваші ефекти [Відблиск світла] з ймовірністю {1}% спрацьовують, зцілюючи чи завдаючи шкоди."
                 }
             }
         },
         "254": {
             "Hash": 1542837353,
-            "Name": "Glorious Dawn",
+            "Name": "Славетний світанок",
             "Descriptions": {
                 "0": {
                     "Hash": 3068336440,
                     "Id": "414065",
                     "Spec": "Holy",
-                    "Text": "Holy Shock has a {1}% chance to refund a charge when cast, increasing by {2}% for each Glimmer of Light you have active.\r\n\r\nGlimmer of Light's healing and damage is increased by {3}%."
+                    "Text": "[Святе потрясіння] з ймовірністю {1}% відновлює заряд при застосуванні, ймовірність збільшується на {2}% за кожен ваш активний [Відблиск світла].\n\nЗцілення та шкода від [Відблиск світла] збільшуються на {3}%."
                 }
             }
         },
         "255": {
             "Hash": 3013354204,
-            "Name": "Denounce",
+            "Name": "Звинувачення",
             "Descriptions": {
                 "0": {
                     "Hash": 978131761,
                     "Id": "2812",
                     "Spec": "Holy",
-                    "Text": "Casts down the enemy with a bolt of Holy Light, causing {1} Holy damage and preventing the target from causing critical effects for the next {2} sec."
+                    "Text": "Ви випускаєте у ворога стрілу святого світла, завдаючи {1} од. шкоди від світлої магії та не даючи цілі завдавати критичних ударів протягом наступних {2} сек."
                 }
             }
         },
         "256": {
             "Hash": 376124616,
-            "Name": "Beacon of the Lightbringer",
+            "Name": "Маяк світлоносного",
             "Descriptions": {
                 "0": {
                     "Hash": 3893268573,
                     "Id": "197446",
                     "Spec": "Holy",
-                    "Text": "Mastery: Lightbringer now increases your healing based on the target's proximity to either you or your Beacon of Light, whichever is closer."
+                    "Text": "[Майстерність: Світлоносний] тепер збільшує ваше зцілення залежно від близькості цілі до вас чи вашого найближчого [Маяк світла], залежно від того хто ближче."
                 }
             }
         },
         "257": {
             "Hash": 3561203736,
-            "Name": "Righteous Judgment",
+            "Name": "Праведний суд",
             "Descriptions": {
                 "0": {
                     "Hash": 1539336091,
                     "Id": "414113",
                     "Spec": "Holy",
-                    "Text": "Judgment has a {1}% chance to cast Consecration at the target's location.\r\n\r\nThe limit on Consecration does not apply to this effect."
+                    "Text": "[Правосуддя] з ймовірністю {1}% залишає [Освячення] у місці знаходження цілі.\n\nОбмеження на [Освячення] не поширюється на цей ефект."
                 }
             }
         },
         "258": {
             "Hash": 3396663178,
-            "Name": "Hand of Divinity",
+            "Name": "Рука святості",
             "Descriptions": {
                 "0": {
                     "Hash": 1587850902,
                     "Id": "414273",
                     "Spec": "Holy",
-                    "Text": "Call upon the Light to empower your spells, causing your next {1} Holy Lights to heal {2}% more, cost {3}% less mana, and be instant cast."
+                    "Text": "Ви звертаєтесь до Світла, щоб підсилити свої заклинання, після чого ваші наступні {1} {declension|застосування|застосування|застосувань} [Світло святості] зцілюють на {2}% більше, витрачають на {3}% менше мани і застосовуються миттєво."
                 }
             }
         },
         "259": {
             "Hash": 84984223,
-            "Name": "Shining Righteousness",
+            "Name": "Світло праведності",
             "Descriptions": {
                 "0": {
                     "Hash": 744051620,
                     "Id": "414443",
                     "Spec": "Holy",
-                    "Text": "Shield of the Righteous deals {1} damage to its first target struck.\r\n\r\nEvery {2} Shields of the Righteous make your next Word of Glory or Light of Dawn cost no Holy Power."
+                    "Text": "[Щит праведника] завдає {1} од. шкоди першій ураженій цілі.\n\nКожні {2} {declension|застосування|застосування|застосувань} [Щит праведника] дозволяють застосувати наступний [Славень] чи [Світло світанку] без витрат сили світла."
                 }
             }
         },
@@ -3537,73 +3537,73 @@
         },
         "261": {
             "Hash": 965406352,
-            "Name": "Light's Conviction",
+            "Name": "Світлі переконання",
             "Descriptions": {
                 "0": {
                     "Hash": 325644773,
                     "Id": "414073",
                     "Spec": "Holy",
-                    "Text": "Holy Shock now has {1} charges."
+                    "Text": "[Святе потрясіння] тепер має {1} {declension|заряд|заряди|зарядів}."
                 }
             }
         },
         "262": {
             "Hash": 3621939363,
-            "Name": "Divine Plea",
+            "Name": "Святе благання",
             "Descriptions": {
                 "0": {
                     "Hash": 1192939227,
                     "Id": "415244",
                     "Spec": "Holy",
-                    "Text": "After casting Daybreak, you restore {1} Mana over {2} sec, but your healing and damage is decreased by {3}%.\r\n\r\nDaybreak no longer restores Mana from each Glimmer consumed."
+                    "Text": "Після застосування [Світання], ви відновлюєте {1} од. мани протягом {2} сек, але ваші зцілення та шкода зменшуються на {3}%.\n\n[Світання] більше не відновлює ману від кожного використаного [Відблиск світла]."
                 }
             }
         },
         "263": {
             "Hash": 84342239,
-            "Name": "Overflowing Light",
+            "Name": "Переповнення світлом",
             "Descriptions": {
                 "0": {
                     "Hash": 110122378,
                     "Id": "414127",
                     "Spec": "Holy",
-                    "Text": "{1}% of Glimmer of Light's overhealing is converted into an absorb shield. The shield amount cannot exceed {2}% of your max health."
+                    "Text": "{1}% надлишкового зцілення від [Відблиск світла] перетворюється на щит, що поглинає шкоду. Обсяг поглинання не може перевищувати {2}% від вашого максимального запасу здоров'я."
                 }
             }
         },
         "264": {
             "Hash": 2894157443,
-            "Name": "Holy Infusion",
+            "Name": "Наповнення світлом",
             "Descriptions": {
                 "0": {
                     "Hash": 3546950595,
                     "Id": "414214",
                     "Spec": "Holy",
-                    "Text": "Crusader Strike generates {1} additional Holy Power and deals {2}% more damage."
+                    "Text": "[Удар хрестоносця] генерує {1} од. сили світла додатково і завдає на {2}% більше шкоди."
                 }
             }
         },
         "265": {
             "Hash": 3226896084,
-            "Name": "Blessed Focus",
+            "Name": "Благословенне зосередження",
             "Descriptions": {
                 "0": {
                     "Hash": 1797880354,
                     "Id": "414708",
                     "Spec": "Holy",
-                    "Text": "Glimmer of Light's healing and damage is increased by {1}%, but it can only affect {2} target at a time."
+                    "Text": "[Відблиск світла] зцілює і завдає шкоди на {1}% більше, але одночасно може діяти тільки на {2} {declension|ціль|цілі|цілей}."
                 }
             }
         },
         "266": {
             "Hash": 539620457,
-            "Name": "Awestruck",
+            "Name": "Зворушення",
             "Descriptions": {
                 "0": {
                     "Hash": 864164642,
                     "Id": "417855",
                     "Spec": "Holy",
-                    "Text": "Holy Shock, Holy Light, and Flash of Light critical healing increased by {1}%."
+                    "Text": "Критичне зцілення здібностей [Святе потрясіння], [Світло святості] та [Спалах світла] збільшується на {1}%."
                 }
             }
         }
