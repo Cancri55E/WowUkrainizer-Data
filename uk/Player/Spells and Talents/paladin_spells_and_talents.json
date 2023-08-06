@@ -3309,7 +3309,7 @@
                     "Hash": 4225308299,
                     "Id": "255937",
                     "Spec": "Retribution",
-                    "Text": "Ви кидаєтеся на своїх ворогів і робите {1} шкоди випромінюванням усім ворогам в межах {2} м перед вами, що зменшує їх швидкість пересування на {3}% на {4} сек.\n\nТакож приголомшує демонів та немертвих ворогів на {5} сек.\n\n|cFFFFFFFFГенерує {6} {declension|сила світла|сили світла|сил світла}."
+                    "Text": "Ви замахуєтесь на своїх ворогів і завдаєте {1} од. шкоди від сяйва усім ворогам на відстані до {2} м перед вами, що зменшує їх швидкість пересування на {3}% на {4} сек.\n\nДемони та немертві вороги також отримують приголомшення на {5} сек.\n\n|cFFFFFFFFГенерує {6} од. сили світла."
                 }
             }
         },
@@ -3333,13 +3333,13 @@
                     "Hash": 2486696049,
                     "Id": "85673",
                     "Spec": "Protection",
-                    "Text": "Закликає світло, щоб зцілити дружню ціль за {1} од.\n\n{FFFFFFFF|Protection:} При використанні на себе, зцілення збільшується на {2}% від втраченого здоров'я."
+                    "Text": "Закликає світло, щоб зцілити дружню ціль на {1} од.\n\n{FFFFFFFF|Захист:} При використанні на себе, зцілення збільшується на {2}%, залежно рівня від втраченого здоров'я."
                 },
                 "1": {
                     "Hash": 883760967,
                     "Id": "85673",
                     "Spec": "Retribution, Holy",
-                    "Text": "Закликає світло, щоб зцілити дружню ціль за {1} од."
+                    "Text": "Закликає світло, щоб зцілити дружню ціль на {1} од."
                 }
             }
         },
@@ -3375,67 +3375,67 @@
                     "Hash": 1871419002,
                     "Id": "85256",
                     "Spec": "Protection, Holy",
-                    "Text": "Unleashes a powerful weapon strike that deals {1} Holy damage to an enemy target."
+                    "Text": "Ви здійснюєте потужний удар зброєю по ворожій цілі, завдаючи {1} од. шкоди від світлої магії."
                 }
             }
         },
         "248": {
             "Hash": 4001334569,
-            "Name": "Searing Glare",
+            "Name": "Пекучий відблиск",
             "Descriptions": {
                 "0": {
                     "Hash": 1624971701,
                     "Id": "410126",
                     "Spec": "Protection, Retribution, Holy",
-                    "Text": "Call upon the light to blind your enemies in a {1} yd cone, causing enemies to miss their spells and attacks for {2} sec."
+                    "Text": "Ви звертаєтесь до світла, щоб засліпити ваших ворогів у конусі до {1} м, не дозволяючи їм застосовувати заклинання та здібності протягом {2} сек."
                 }
             }
         },
         "249": {
             "Hash": 1310308355,
-            "Name": "Rising Sunlight",
+            "Name": "Зростання світла",
             "Descriptions": {
                 "0": {
                     "Hash": 3770714879,
                     "Id": "414203",
                     "Spec": "Holy",
-                    "Text": "After casting Daybreak, your next {1} Holy Shocks cast {2} additional times."
+                    "Text": "Після застосування [Світання], ваші наступні {1} [Святе потрясіння] спрацьовують додатково {2} {declension|раз|рази|разів}."
                 }
             }
         },
         "250": {
             "Hash": 1887627455,
-            "Name": "Merciful Auras",
+            "Name": "Милосердні аури",
             "Descriptions": {
                 "0": {
                     "Hash": 2039721269,
                     "Id": "183415",
                     "Spec": "Holy",
-                    "Text": "Your auras restore {1} health to {2} injured allies within {3} yds every {4} sec.\r\n\r\nWhile Aura Mastery is active, heals all allies within {5} yds and healing is increased by {6}%."
+                    "Text": "Ваші аури відновлюють {1} од. здоров'я до {2} поранених союзників в радіусі {3} м кожні {4} сек.\n\nПоки діє [Майстерність аури], зцілює всіх союзників в радіусі {5} м і зцілення збільшується на {6}%."
                 }
             }
         },
         "251": {
             "Hash": 2617561805,
-            "Name": "Light's Protection",
+            "Name": "Світлий захист",
             "Descriptions": {
                 "0": {
                     "Hash": 3832358244,
                     "Id": "416799",
                     "Spec": "Holy",
-                    "Text": "Your allies with Glimmer of Light take {1}% reduced damage, split evenly among them."
+                    "Text": "Союзники, на яких діє ваш [Відблиск світла] отримують шкоду, зменшену на {1}% і розподілену рівномірно між ними."
                 }
             }
         },
         "252": {
             "Hash": 1602899011,
-            "Name": "Reclamation",
+            "Name": "Перевиховання",
             "Descriptions": {
                 "0": {
                     "Hash": 3112465269,
                     "Id": "415364",
                     "Spec": "Holy",
-                    "Text": "Holy Shock and Crusader Strike refund up to {1}% of their Mana cost and deal up to {2}% more healing or damage, based on the target's missing health."
+                    "Text": "[Святе потрясіння] та [Удар хрестоносця] повертають до {1}% витрат мани та здійснюють додатково до {2}% більше зцілення або завдають шкоди, залежно від рівня втраченого здоров'я цілі."
                 }
             }
         },
@@ -3525,13 +3525,13 @@
         },
         "260": {
             "Hash": 1413476626,
-            "Name": "Daybreak",
+            "Name": "Світання",
             "Descriptions": {
                 "0": {
                     "Hash": 276362681,
                     "Id": "414170",
                     "Spec": "Holy",
-                    "Text": "Absorb your active Glimmer of Lights, triggering their effects at {1}% value and granting {2} Mana per Glimmer of Light consumed."
+                    "Text": "Поглинає ваші активні ефекти [Відблиск світла], від чого ефект спрацьовує з ефективністю {1}% і відновлює вам {2} од. мани за кожен спожитий [Відблиск світла]."
                 }
             }
         },
