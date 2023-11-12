@@ -19,8 +19,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4101551753,
-                    "Id": "389609",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "389614",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by {1}% for {2} sec."
                 }
             }
@@ -31,8 +31,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 950143210,
-                    "Id": "386613",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "386614",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Drain Life heals for {1}% of the amount drained over {2} sec."
                 }
             }
@@ -55,9 +55,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2961414238,
-                    "Id": "980",
-                    "Spec": "Affliction",
+                    "Id": "980, 17941",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Inflicts increasing agony on the target, causing up to {1} Shadow damage over {2} sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.\n\n{FFFFFFFF|Agony damage sometimes generates {3} Soul Shard.}"
+                },
+                "1": {
+                    "Hash": 1863122312,
+                    "Id": "231792",
+                    "Spec": "Affliction",
+                    "Text": "Agony may now ramp up to {1} stacks."
                 }
             }
         },
@@ -70,6 +76,12 @@
                     "Id": "328774",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\n\n{ffffffff|Curse of Exhaustion}\nReduces the target's movement speed by an additional {2}%.\n\n{ffffffff|Curse of Tongues}\nIncreases casting time by an additional {3}%.\n\n{ffffffff|Curse of Weakness}\nEnemy is unable to critically strike."
+                },
+                "1": {
+                    "Hash": 2665672042,
+                    "Id": "328774",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\r\n\r\nCurse of Exhaustion\r\nReduces the target's movement speed by an additional {2}%.\r\n\r\nCurse of Tongues\r\nIncreases casting time by an additional {3}%.\r\n\r\nCurse of Weakness\r\nEnemy is unable to critically strike."
                 }
             }
         },
@@ -79,8 +91,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 812418970,
-                    "Id": "386174",
-                    "Spec": "Demonology",
+                    "Id": "386174, 386176",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your Felguard deals {1}% more damage and takes {2}% less damage."
                 }
             }
@@ -91,8 +103,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1708363367,
-                    "Id": "387494",
-                    "Spec": "Demonology",
+                    "Id": "387494, 387496, 387502",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your Felguard deals {1}% additional damage. Soul Strike now deals {2}% of its damage to nearby enemies."
                 }
             }
@@ -118,6 +130,12 @@
                     "Id": "387159",
                     "Spec": "Destruction",
                     "Text": "When Chaos Bolt or Rain of Fire consumes a charge of Ritual of Ruin, you summon a Blasphemy for {1} sec.\n\n|T1371266:24|t {ffffffff|Blasphemy}\nSummons a Blasphemy from the Twisting Nether, impacting for {2} Fire damage and stunning all enemies in the area for {3} sec.\n\nThe Blasphemy will serve you for {4} sec, dealing {5} damage to all nearby enemies every {6} sec and generating {7} Soul Shard Fragment every {8} sec."
+                },
+                "1": {
+                    "Hash": 1762518934,
+                    "Id": "387159",
+                    "Spec": "Destruction",
+                    "Text": "When Chaos Bolt or Rain of Fire consumes a charge of Ritual of Ruin, you summon a Blasphemy for {1} sec.\r\n\r\n|T1371266:24|t Blasphemy\r\nSummons a Blasphemy from the Twisting Nether, impacting for {2} Fire damage and stunning all enemies in the area for {3} sec.\r\n\r\nThe Blasphemy will serve you for {4} sec, dealing {5} damage to all nearby enemies every {6} sec and generating {7} Soul Shard Fragment every {8} sec."
                 }
             }
         },
@@ -127,8 +145,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 743739596,
-                    "Id": "196406",
-                    "Spec": "Destruction",
+                    "Id": "117828, 196406",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Conflagrate reduces the cast time of your next Incinerate, Chaos Bolt, or Soul Fire by {1}%. Maximum {2} charges."
                 }
             }
@@ -139,8 +157,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1474170313,
-                    "Id": "387384",
-                    "Spec": "Destruction",
+                    "Id": "387385",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases your critical strike chance by {1}%.\n\nPhysical attacks against you have a {2}% chance to make your next Incinerate instant cast. This effect can only occur once every {3} sec."
                 }
             }
@@ -164,8 +182,14 @@
                 "0": {
                     "Hash": 3999775216,
                     "Id": "200546",
-                    "Spec": "Destruction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your single target spells have a {1}% chance to curse the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {2}% of the damage dealt. Lasts {3} sec."
+                },
+                "1": {
+                    "Hash": 1009245293,
+                    "Id": "200546",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Curses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {1}% of the damage dealt. Lasts {2} sec."
                 }
             }
         },
@@ -188,8 +212,14 @@
                 "0": {
                     "Hash": 4150865413,
                     "Id": "710",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Banishes an enemy Demon, Aberration, or Elemental, preventing any action for {1} sec. Limit {2}. Casting Banish again on the target will cancel the effect."
+                },
+                "1": {
+                    "Hash": 710906239,
+                    "Id": "710",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Banishes an enemy Demon, Aberration, Undead, or Elemental, preventing any action for {1} sec. Limit {2}. Casting Banish again on the target will cancel the effect."
                 }
             }
         },
@@ -199,8 +229,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3319191896,
-                    "Id": "267211",
-                    "Spec": "Demonology",
+                    "Id": "267211, 267213",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Tear open a portal to the nether above the target location, from which several Bilescourge will pour out of and crash into the ground over {1} sec, dealing {2} Shadow damage to all enemies within {3} yards."
                 }
             }
@@ -235,8 +265,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1059953555,
-                    "Id": "387153",
-                    "Spec": "Destruction",
+                    "Id": "387153, 387154",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Chaos Bolt and Rain of Fire increase the damage of your next {1} Incinerates by {2}%. Shadowburn increases the damage of your next Incinerate by {3}%.\n\nStacks up to {4} times."
                 }
             }
@@ -250,6 +280,12 @@
                     "Id": "111400",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Increases your movement speed by {1}%, but also damages you for {2}% of your maximum health every {3} sec. Movement impairing effects may not reduce you below {4}% of normal movement speed. Lasts until canceled."
+                },
+                "1": {
+                    "Hash": 2454748695,
+                    "Id": "111400",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Increases your movement speed by {1}%, but also damages you for {2}% of your maximum health every {3} sec. Movement impairing effects may not reduce you below {4}% of normal movement speed. Lasts {5} sec."
                 }
             }
         },
@@ -259,8 +295,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3950242694,
-                    "Id": "104316",
-                    "Spec": "Demonology",
+                    "Id": "104316, 193332",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons {1} ferocious Dreadstalkers to attack the target for {2} sec."
                 }
             }
@@ -334,6 +370,18 @@
                     "Id": "152108",
                     "Spec": "Destruction",
                     "Text": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Immolate."
+                },
+                "1": {
+                    "Hash": 548956008,
+                    "Id": "152108",
+                    "Spec": "Destruction",
+                    "Text": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Agony, Unstable Affliction, Corruption, or Immolate."
+                },
+                "2": {
+                    "Hash": 1617582492,
+                    "Id": "152108",
+                    "Spec": "Destruction",
+                    "Text": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Agony and Unstable Affliction."
                 }
             }
         },
@@ -343,8 +391,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 570811739,
-                    "Id": "196447",
-                    "Spec": "Destruction",
+                    "Id": "196447, 196448, 409890",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Launches {1} bolts of felfire over {2} sec at random targets afflicted by your Immolate within {3} yds. Each bolt deals {4} Fire damage to the target and {5} Fire damage to nearby enemies."
                 }
             }
@@ -358,6 +406,12 @@
                     "Id": "116858",
                     "Spec": "Destruction",
                     "Text": "Unleashes a devastating blast of chaos, dealing a critical strike for {1} Chaos damage. Damage is further increased by your critical strike chance."
+                },
+                "1": {
+                    "Hash": 2855858155,
+                    "Id": "215279",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Unleashes a devastating blast of chaos, causing {1} Chaos damage. Chaos Bolt always critically strikes and your critical strike chance increases its damage."
                 }
             }
         },
@@ -388,6 +442,18 @@
                     "Id": "119898",
                     "Spec": "Destruction, Affliction",
                     "Text": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \n\nFelhunter: {ffffffff|Spell Lock}\nVoidwalker: {ffffffff|Shadow Bulwark}\nIncubus/Succubus: {ffffffff|Seduction}\nImp: {ffffffff|Singe Magic}"
+                },
+                "2": {
+                    "Hash": 1532984353,
+                    "Id": "119898",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelhunter: Spell Lock\r\nVoidwalker: Shadow Bulwark\r\nIncubus/Succubus: Seduction\r\nImp: Singe Magic"
+                },
+                "3": {
+                    "Hash": 1930438001,
+                    "Id": "119898",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelguard: Axe Toss\r\nFelhunter: Spell Lock\r\nVoidwalker: Shadow Bulwark\r\nIncubus/Succubus: Seduction\r\nImp: Singe Magic"
                 }
             }
         },
@@ -397,9 +463,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1654613085,
-                    "Id": "17962",
-                    "Spec": "Destruction",
+                    "Id": "17962, 245330",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Triggers an explosion on the target, dealing {1} Fire damage.\n\nReduces the cast time of your next Incinerate or Chaos Bolt by {2}% for {3} sec.\n\n{FFFFFFFF|Generates {4} Soul Shard Fragments.}"
+                },
+                "1": {
+                    "Hash": 1291174761,
+                    "Id": "17962, 245330",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Triggers an explosion on the target, dealing {1} Fire damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard Fragments.}"
                 }
             }
         },
@@ -409,8 +481,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1145311017,
-                    "Id": "387108",
-                    "Spec": "Destruction",
+                    "Id": "387109, 387110",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Conflagrate and Shadowburn have a {1}% chance to guarantee your next cast of the ability to critically strike, and increase its damage by your critical strike chance."
                 }
             }
@@ -424,6 +496,18 @@
                     "Id": "172",
                     "Spec": "Affliction, Demonology",
                     "Text": "Corrupts the target, causing {1} Shadow damage over {2} sec."
+                },
+                "1": {
+                    "Hash": 2505073573,
+                    "Id": "334342",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Corruption now instantly deals {1} damage."
+                },
+                "2": {
+                    "Hash": 3575166801,
+                    "Id": "172, 146739, 367831",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Corrupts the target, causing {1} Shadow damage and an additional {2} Shadow damage over {3} sec."
                 }
             }
         },
@@ -433,14 +517,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3509453632,
-                    "Id": "387355",
-                    "Spec": "Destruction",
+                    "Id": "387355, 387356",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summon Infernal reduces the Soul Shard cost of your next {1} casts of Chaos Bolt, Shadowburn, or Rain of Fire by {2}."
                 },
                 "1": {
                     "Hash": 169092991,
-                    "Id": "417234",
-                    "Spec": "Destruction",
+                    "Id": "417234, 417282",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summon Infernal increases the damage of your next {1} casts of Chaos Bolt by {2}% or your next {3} casts of Rain of Fire by {4}%."
                 }
             }
@@ -452,8 +536,14 @@
                 "0": {
                     "Hash": 3560120991,
                     "Id": "6201",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Creates a Healthstone that can be consumed to restore {1}% health."
+                },
+                "1": {
+                    "Hash": 3079900004,
+                    "Id": "6201",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Creates a Healthstone that can be consumed to restore {1}% health.\r\n\r\nWhen you use a Healthstone, gain {2}% Leech for {3} sec."
                 }
             }
         },
@@ -499,8 +589,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2925324118,
-                    "Id": "387522",
-                    "Spec": "Destruction",
+                    "Id": "387522, 387547",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When Chaos Bolt damages a target afflicted by Havoc, it explodes, dealing {1} damage to enemies within {2} yards."
                 }
             }
@@ -512,7 +602,7 @@
                 "0": {
                     "Hash": 3159023290,
                     "Id": "334275",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Reduces the target's movement speed by {1}% for {2} sec.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
                 }
             }
@@ -530,7 +620,7 @@
                 "1": {
                     "Hash": 749624624,
                     "Id": "1714",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Forces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} min.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
                 }
             }
@@ -542,7 +632,7 @@
                 "0": {
                     "Hash": 2542418524,
                     "Id": "702",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the time between an enemy's attacks by {1}% for {2} min.\n\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
                 }
             }
@@ -583,8 +673,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3355831603,
-                    "Id": "387016",
-                    "Spec": "Affliction",
+                    "Id": "387016, 387018",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Each target affected by Soul Rot increases your haste and critical strike chance by {1}% for {2} sec."
                 }
             }
@@ -596,7 +686,7 @@
                 "0": {
                     "Hash": 2949090936,
                     "Id": "108416",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Sacrifices {1}% of your current health to shield you for {2}% of the sacrificed health plus an additional {3} for {4} sec. Usable while suffering from control impairing effects."
                 }
             }
@@ -620,7 +710,7 @@
                 "0": {
                     "Hash": 2190193273,
                     "Id": "264874",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Reduces the cooldown of Shadowfury by {1} sec and increases its radius by {2} yards."
                 }
             }
@@ -658,6 +748,12 @@
                     "Id": "219272",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Your Soul Leech absorption now passively recharges at a rate of {1}% of maximum health every {2} sec, and may now absorb up to {3}% of maximum health."
+                },
+                "1": {
+                    "Hash": 1415758140,
+                    "Id": "219272",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Soul Leech absorption now passively recharges at a rate of {1}% of maximum health every {2} sec, and may now absorb up to {3}% of maximum health.\r\n\r\nIncreases your armor by {4}%."
                 }
             }
         },
@@ -668,8 +764,14 @@
                 "0": {
                     "Hash": 287370846,
                     "Id": "264178",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Send the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\n\n{FFFFFFFF|Generates {2} Soul Shards.}"
+                },
+                "1": {
+                    "Hash": 276076247,
+                    "Id": "264178",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Send the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage."
                 }
             }
         },
@@ -682,6 +784,18 @@
                     "Id": "205145",
                     "Spec": "Demonology",
                     "Text": "Shadow Bolt and Demonbolt have a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul Shards and have no cast time."
+                },
+                "1": {
+                    "Hash": 300473927,
+                    "Id": "205145, 205146",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Shadow Bolt has a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul [plural|Shard|Shards] and have no cast time."
+                },
+                "2": {
+                    "Hash": 3886985337,
+                    "Id": "205145, 205146",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Shadow Bolt and Demonbolt have a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul [plural|Shard|Shards] and have no cast time."
                 }
             }
         },
@@ -700,6 +814,18 @@
                     "Id": "268358",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Summons a Demonic Circle for {1} min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\n\nYou also learn:\n\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\nTeleports you to your Demonic Circle and removes all movement slowing effects."
+                },
+                "2": {
+                    "Hash": 3960135092,
+                    "Id": "268358",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t Demonic Circle: Teleport\r\nTeleports you to your Demonic Circle and removes all movement slowing effects."
+                },
+                "3": {
+                    "Hash": 3511118921,
+                    "Id": "268358",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t Demonic Circle: Teleport\r\nTeleports you to your Demonic Circle and removes all movement slowing effects."
                 }
             }
         },
@@ -721,8 +847,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 613780027,
-                    "Id": "267102",
-                    "Spec": "Demonology",
+                    "Id": "264173, 267102",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When your Wild Imps expend all of their energy or are imploded, you have a {1}% chance to absorb their life essence, granting you a stack of Demonic Core. \n\nWhen your summoned Dreadstalkers fade away, you have a {2}% chance to absorb their life essence, granting you a stack of Demonic Core.\n\nDemonic Core reduces the cast time of Demonbolt by {3}%. Maximum {4} stacks."
                 }
             }
@@ -764,8 +890,14 @@
                 "1": {
                     "Hash": 3428476971,
                     "Id": "111771",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per {1} sec."
+                },
+                "2": {
+                    "Hash": 2582705832,
+                    "Id": "113942",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Faded into the nether and unable to use another Demonic Gateway."
                 }
             }
         },
@@ -776,13 +908,13 @@
                 "0": {
                     "Hash": 32093178,
                     "Id": "386858",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the attack speed of your primary pet by {1}%. "
                 },
                 "1": {
                     "Hash": 1184447206,
                     "Id": "386858",
-                    "Spec": "Destruction, Affliction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the attack speed of your primary pet by {1}%. \n\nIncreases Grimoire of Sacrifice damage by {2}%."
                 }
             }
@@ -856,6 +988,18 @@
                     "Id": "387976",
                     "Spec": "Destruction",
                     "Text": "Rips a hole in time and space, opening a random portal that damages your target:\n\n|T607513:24|t{ffffffff|Shadowy Tear}\nDeals {1} Shadow damage over {2} sec.\n\n|T607512:24|t{ffffffff|Unstable Tear}\nDeals {3} Chaos damage over {4} sec.\n\n|T1394890:24|t{ffffffff|Chaos Tear}\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\n\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
+                },
+                "1": {
+                    "Hash": 1424399228,
+                    "Id": "196586",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Rips a hole in time and space, opening a portal that damages your target.\r\n\r\n{FFFFFFFF|Generates {1} Soul Shard Fragments.}"
+                },
+                "2": {
+                    "Hash": 906984009,
+                    "Id": "387976",
+                    "Spec": "Destruction",
+                    "Text": "Rips a hole in time and space, opening a random portal that damages your target:\r\n\r\n|T607513:24|tShadowy Tear\r\nDeals {1} Shadow damage over {2} sec.\r\n\r\n|T607512:24|tUnstable Tear\r\nDeals {3} Chaos damage over {4} sec.\r\n\r\n|T1394890:24|tChaos Tear\r\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\r\n\r\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
                 }
             }
         },
@@ -883,8 +1027,8 @@
                 },
                 "1": {
                     "Hash": 2825290842,
-                    "Id": "416621",
-                    "Spec": "Affliction",
+                    "Id": "416621, 416699",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When Seed of Corruption deals damage to a target suffering from your Unstable Affliction they explode, dealing {1} Shadow damage to all enemies within {2} yards."
                 }
             }
@@ -896,8 +1040,14 @@
                 "0": {
                     "Hash": 1167953575,
                     "Id": "234153",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done."
+                },
+                "1": {
+                    "Hash": 1262078397,
+                    "Id": "234153",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done.\r\n\r\nDrain Life heals for {4}% more while below {5}% health."
                 }
             }
         },
@@ -908,7 +1058,7 @@
                 "0": {
                     "Hash": 2153859387,
                     "Id": "198590",
-                    "Spec": "Affliction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Drains the target's soul, causing {1} Shadow damage over {2} sec.\n\nDamage is increased by {3}% against enemies below {4}% health.\n\n{FFFFFFFF|Generates {5} Soul Shard if the target dies during this effect.}"
                 }
             }
@@ -937,8 +1087,8 @@
                 },
                 "1": {
                     "Hash": 2538899579,
-                    "Id": "389775",
-                    "Spec": "Affliction",
+                    "Id": "389775, 389868",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Malefic Rapture causes targets suffering from your Unstable Affliction to take {1}% additional damage from your damage over time effects for {2} sec."
                 }
             }
@@ -961,8 +1111,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2132326629,
-                    "Id": "196412",
-                    "Spec": "Destruction",
+                    "Id": "196414",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Chaos Bolt and Shadowburn increases the damage you deal to the target by {1}% for {2} sec."
                 }
             }
@@ -998,7 +1148,7 @@
                 "0": {
                     "Hash": 846175217,
                     "Id": "126",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile."
                 }
             }
@@ -1009,9 +1159,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1697597920,
-                    "Id": "5782",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "5782, 118699",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Strikes fear in the enemy, disorienting for {1} sec. Damage may cancel the effect. Limit {2}."
+                },
+                "1": {
+                    "Hash": 4052853292,
+                    "Id": "5782, 118699",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Strikes fear in the enemy, disorienting for {1} sec. Damage may cancel the effect. Limit {2}.\r\n\r\nIncreases the amount of damage required to break your fear effects by {3}%."
+                },
+                "2": {
+                    "Hash": 427640396,
+                    "Id": "342914",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "You no longer suffer spell pushback when casting Fear."
                 }
             }
         },
@@ -1039,8 +1201,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1486703742,
-                    "Id": "386124",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "386124, 387846, 387847",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When Soul Leech absorbs damage, {1}% of damage taken is absorbed and spread out over {2} sec.\n\nReduces damage taken by {3}%."
                 }
             }
@@ -1070,7 +1232,7 @@
                 "1": {
                     "Hash": 2039911819,
                     "Id": "333889",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by {1}%."
                 }
             }
@@ -1129,8 +1291,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3700213830,
-                    "Id": "387399",
-                    "Spec": "Demonology",
+                    "Id": "387399, 387402",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Each time Felstorm deals damage, it increases the damage the target takes from you and your pets by {1}% for {2} sec, up to {3}%."
                 }
             }
@@ -1142,7 +1304,7 @@
                 "0": {
                     "Hash": 1267277486,
                     "Id": "389367",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Soul Leech also heals you for {1}% and your pet for {2}% of the absorption it grants."
                 }
             }
@@ -1177,8 +1339,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1852025035,
-                    "Id": "387259",
-                    "Spec": "Destruction",
+                    "Id": "387263",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When your Immolate deals periodic damage to a target above {1}% health, gain {2}% Haste for {3} sec.\n\nStacks up to {4} times."
                 }
             }
@@ -1226,7 +1388,7 @@
                 "0": {
                     "Hash": 283533061,
                     "Id": "248855",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the range of your Demonic Gateway by {1} yards, and reduces the cast time by {2}%.  Reduces the time between how often players can take your Demonic Gateway by {3} sec."
                 }
             }
@@ -1252,6 +1414,24 @@
                     "Id": "387084",
                     "Spec": "Destruction",
                     "Text": "Every Soul Shard you spend reduces the cooldown of Summon Infernal by {1} sec."
+                },
+                "3": {
+                    "Hash": 1368434554,
+                    "Id": "387084",
+                    "Spec": "Destruction",
+                    "Text": "Summon Infernal cooldown is reduced by {1} sec."
+                },
+                "4": {
+                    "Hash": 3910477192,
+                    "Id": "387084",
+                    "Spec": "Destruction",
+                    "Text": "Summon Darkglare cooldown is reduced by {1} sec."
+                },
+                "5": {
+                    "Hash": 3664673889,
+                    "Id": "387084",
+                    "Spec": "Destruction",
+                    "Text": "Summon Demonic Tyrant cooldown is reduced by {1} sec."
                 }
             }
         },
@@ -1262,7 +1442,7 @@
                 "0": {
                     "Hash": 1549637295,
                     "Id": "386689",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Drain Life now channels {1}% faster and restores health {2}% faster."
                 }
             }
@@ -1273,8 +1453,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 386414603,
-                    "Id": "389992",
-                    "Spec": "Affliction",
+                    "Id": "389992, 390097",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When Darkglare deals damage, it deals {1}% of that damage to all enemies affected by your damage over time effects."
                 }
             }
@@ -1300,6 +1480,12 @@
                     "Id": "108503",
                     "Spec": "Destruction, Affliction",
                     "Text": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts until canceled or until you summon a demon pet."
+                },
+                "3": {
+                    "Hash": 1639977710,
+                    "Id": "108503, 196099, 196100",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts {2} sec or until you summon a demon pet."
                 }
             }
         },
@@ -1339,8 +1525,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 827010990,
-                    "Id": "386833",
-                    "Spec": "Demonology",
+                    "Id": "386542, 386601, 386609, 386833",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your Felguard hurls his axe towards the target location, erupting when it lands and dealing {1} Shadowflame damage every {2} sec for {3} sec to nearby enemies.\n\nWhile unarmed, your Felguard's basic attacks deal damage to all nearby enemies and attacks {4}% faster."
                 }
             }
@@ -1354,6 +1540,12 @@
                     "Id": "387578",
                     "Spec": "Demonology",
                     "Text": "When Nether Portal ends, you summon a Pit Lord that gains power based on how many demons you summoned, up to {1} demons, while Nether Portal was active. The Pit Lord lasts for {2} sec."
+                },
+                "1": {
+                    "Hash": 1384652667,
+                    "Id": "387578, 427688",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "When Nether Portal ends, you summon a Pit Lord that blasts your target for {1} Fire damage every {2} sec for {3} sec."
                 }
             }
         },
@@ -1363,9 +1555,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2873103575,
-                    "Id": "105174",
-                    "Spec": "Demonology",
+                    "Id": "86040, 104317, 105174, 279910",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\n\nDeals up to {1} Shadowflame damage on impact to all enemies within {2} yds of the target and summons up to {3} Wild Imps, based on Soul Shards consumed."
+                },
+                "1": {
+                    "Hash": 3939364626,
+                    "Id": "86040, 104317, 105174, 279910",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\r\n\r\nDeals up to {1} Shadowflame damage on impact to all enemies within {2} yds of the target, applies Doom to each target, and summons up to {3} Wild Imps, based on Soul Shards consumed."
                 }
             }
         },
@@ -1387,8 +1585,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2592777456,
-                    "Id": "387301",
-                    "Spec": "Affliction",
+                    "Id": "387301, 387310",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your Haunt spell also increases the damage of your damage over time effects to all targets by {1}% while active."
                 }
             }
@@ -1412,7 +1610,7 @@
                 "0": {
                     "Hash": 3705695246,
                     "Id": "755",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Sacrifices {1}% of your maximum health to heal your summoned Demon for twice as much over {2} sec."
                 }
             }
@@ -1436,7 +1634,7 @@
                 "0": {
                     "Hash": 3898272633,
                     "Id": "5484",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Let loose a terrifying howl, causing {1} enemies within {2} yds to flee in fear, disorienting them for {3} sec. Damage may cancel the effect."
                 }
             }
@@ -1459,8 +1657,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 562437195,
-                    "Id": "348",
-                    "Spec": "Destruction",
+                    "Id": "348, 157736",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Burns the enemy, causing {1} Fire damage immediately and an additional {2} Fire damage over {3} sec.\n\n{FFFFFFFF|Periodic damage generates {4} Soul Shard Fragment and has a {5}% chance to generate an additional {6} on critical strikes.}"
                 }
             }
@@ -1474,6 +1672,12 @@
                     "Id": "405670",
                     "Spec": "Demonology",
                     "Text": "When your primary Felguard's Legion Strike damages only {1} target, its damage is increased by {2}%.\n \nYour primary Felguard deals {3} Physical damage after auto-attacking the same enemy {4} consecutive times."
+                },
+                "1": {
+                    "Hash": 723467135,
+                    "Id": "405681",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "When you consume a Demonic Core, your primary Felguard carves your target, dealing {1} Physical damage."
                 }
             }
         },
@@ -1486,6 +1690,12 @@
                     "Id": "387445",
                     "Spec": "Demonology",
                     "Text": "Summoning a Wild Imp has a {1}% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals {2}% additional damage. \n\nWhen imploded, an Imp Gang Boss will summon a Wild Imp."
+                },
+                "1": {
+                    "Hash": 2549776700,
+                    "Id": "387445, 387458",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summoning a Wild Imp has a {1}% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals {2}% additional damage. \r\n\r\nImplosions from Imp Gang Boss deal {3}% increased damage."
                 }
             }
         },
@@ -1495,8 +1705,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1224281416,
-                    "Id": "196277",
-                    "Spec": "Demonology",
+                    "Id": "196277, 196278",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing {1} Shadowflame damage to all enemies within {2} yards."
                 }
             }
@@ -1531,8 +1741,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 963524231,
-                    "Id": "29722",
-                    "Spec": "Destruction",
+                    "Id": "29722, 244670",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Draws fire toward the enemy, dealing {1} Fire damage.\n\n{FFFFFFFF|Generates {2} Soul Shard Fragments and an additional {3} on critical strikes.}"
                 }
             }
@@ -1543,8 +1753,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3827411836,
-                    "Id": "334319",
-                    "Spec": "Affliction",
+                    "Id": "334319, 334320",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Damaging an enemy with Agony increases the damage dealt by your next Drain Life by {1}%. This effect stacks up to {2} times."
                 }
             }
@@ -1555,8 +1765,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4100030557,
-                    "Id": "387475",
-                    "Spec": "Destruction",
+                    "Id": "387475, 387476",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your Infernal's melee attacks cause its target to take {1}% increased damage from its Immolation, stacking up to {2} times."
                 }
             }
@@ -1567,8 +1777,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2133691197,
-                    "Id": "387549",
-                    "Spec": "Demonology",
+                    "Id": "387549, 387552",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "While your Felguard is active, your Wild Imps and Dreadstalkers deal {1}% additional damage."
                 }
             }
@@ -1594,6 +1804,12 @@
                     "Id": "267216",
                     "Spec": "Demonology",
                     "Text": "You passively summon a Wild Imp to fight for you every {1} sec. While in combat, you also have a {2}% chance to summon an additional Demon to fight for you for {3} sec."
+                },
+                "1": {
+                    "Hash": 80168848,
+                    "Id": "267216",
+                    "Spec": "Demonology",
+                    "Text": "You passively summon a Wild Imp to fight for you every {1} sec."
                 }
             }
         },
@@ -1603,8 +1819,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2439767760,
-                    "Id": "386344",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "386344, 388068",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your spells and abilities have a chance to summon an Inquisitor's Eye that deals {1} Shadowflame damage every {2} sec for {3} sec."
                 }
             }
@@ -1651,8 +1867,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2187475883,
-                    "Id": "386646",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "386647",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When you use a Healthstone, gain {1}% Leech for {2} sec."
                 }
             }
@@ -1663,8 +1879,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 246620203,
-                    "Id": "387400",
-                    "Spec": "Destruction",
+                    "Id": "387400, 387409, 387413, 387414",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Chaos Bolt increases the damage of Chaos Bolt by {1}% and reduces the cast time of Chaos Bolt by {2}% for {3} sec.\n\nRain of Fire increases the damage of Rain of Fire by {4}% for {5} sec.\n\nShadowburn increases the damage of Shadowburn by {6}% for {7} sec."
                 }
             }
@@ -1693,8 +1909,8 @@
                 },
                 "1": {
                     "Hash": 3759637079,
-                    "Id": "324536",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "324536, 324540",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your damaging periodic effects from your spells erupt on all targets, causing {1} Shadow damage per effect."
                 }
             }
@@ -1774,6 +1990,48 @@
                     "Id": "77215",
                     "Spec": "Affliction",
                     "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "1": {
+                    "Hash": 1873769413,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "2": {
+                    "Hash": 1559323398,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "3": {
+                    "Hash": 1110789988,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "4": {
+                    "Hash": 68996835,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "5": {
+                    "Hash": 4044572626,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "6": {
+                    "Hash": 2230394771,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%."
+                },
+                "7": {
+                    "Hash": 1731534941,
+                    "Id": "77215",
+                    "Spec": "Affliction",
+                    "Text": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Phantom Singularity, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%."
                 }
             }
         },
@@ -1786,6 +2044,18 @@
                     "Id": "387506",
                     "Spec": "Destruction",
                     "Text": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\n\n|T460695:24|t {ffffffff|Havoc}\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt."
+                },
+                "1": {
+                    "Hash": 3647840361,
+                    "Id": "387506",
+                    "Spec": "Destruction",
+                    "Text": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\r\n\r\n|T460695:24|t Havoc\r\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt."
+                },
+                "2": {
+                    "Hash": 2605812993,
+                    "Id": "387506",
+                    "Spec": "Destruction",
+                    "Text": "Your single target spells have a {1}% chance to apply Bane of Havoc below a nearby enemy for {2} sec.\r\n\r\n|T1380866:24|t Bane of Havoc\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for {3}% of the damage dealt. Lasts {4} sec."
                 }
             }
         },
@@ -1795,8 +2065,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1938981361,
-                    "Id": "6789",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "6789, 108396",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Horrifies an enemy target into fleeing, incapacitating for {1} sec and healing you for {2}% of maximum health."
                 }
             }
@@ -1810,6 +2080,12 @@
                     "Id": "387526",
                     "Spec": "Demonology",
                     "Text": "When Nether Portal summons a demon, it has a {1}% chance to summon an additional demon."
+                },
+                "1": {
+                    "Hash": 368841637,
+                    "Id": "387526, 421970",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Demons summoned from your Nether Portal deal {1}% increased damage."
                 }
             }
         },
@@ -1843,8 +2119,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 594510522,
-                    "Id": "108558",
-                    "Spec": "Affliction",
+                    "Id": "108558, 264571",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Corruption damage has a chance to cause your next Shadow Bolt or Drain Soul to deal {1}% increased damage. \n\nShadow Bolt is instant cast and Drain Soul channels {2}% faster when affected."
                 }
             }
@@ -1885,9 +2161,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4012976276,
-                    "Id": "386759",
-                    "Spec": "Affliction",
+                    "Id": "386759, 386760",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Refreshing Corruption, Agony, Unstable Affliction, or Siphon Life with less than {1} seconds remaining will deal {2} Shadow damage and has a {3}% chance to grant you a Soul Shard."
+                },
+                "1": {
+                    "Hash": 660375223,
+                    "Id": "289367",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Refreshing Corruption, Agony, or Siphon Life with less than {1} seconds remaining will deal {2} Shadow damage and has a {3}% chance to grant you a Soul Shard."
                 }
             }
         },
@@ -1909,8 +2191,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 922016427,
-                    "Id": "205179",
-                    "Spec": "Affliction",
+                    "Id": "205179, 205246",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Places a phantom singularity above the target, which consumes the life of all enemies within {1} yards, dealing {2} damage over {3} sec, healing you for {4}% of the damage done."
                 }
             }
@@ -1933,8 +2215,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 7159079,
-                    "Id": "387279",
-                    "Spec": "Destruction",
+                    "Id": "387279, 387283",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Consuming Soul Shards increases your Mastery by {1}% for {2} sec for each shard spent. Gaining a stack does not refresh the duration."
                 }
             }
@@ -1945,8 +2227,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 482373692,
-                    "Id": "264130",
-                    "Spec": "Demonology",
+                    "Id": "264130, 334581",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Instantly sacrifice up to {1} Wild Imps, generating {2} charges of Demonic Core that cause Demonbolt to deal {3}% additional damage."
                 }
             }
@@ -1987,8 +2269,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3380629091,
-                    "Id": "387095",
-                    "Spec": "Destruction",
+                    "Id": "387096",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Enemies affected by your Rain of Fire take {1}% increased damage from your Fire spells."
                 }
             }
@@ -2011,8 +2293,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 385844616,
-                    "Id": "266086",
-                    "Spec": "Destruction",
+                    "Id": "266086, 266087",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "While your initial Infernal is active, every Soul Shard you spend has a {1}% chance to summon an additional Infernal that lasts {2} sec."
                 }
             }
@@ -2023,9 +2305,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1131573999,
-                    "Id": "5740",
-                    "Spec": "Destruction",
+                    "Id": "5740, 42223",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Calls down a rain of hellfire, dealing {1} Fire damage over {2} sec to enemies in the area.\n\nRain of Fire has a {3}% chance to generate a Soul Shard Fragment."
+                },
+                "1": {
+                    "Hash": 3763282772,
+                    "Id": "5740, 42223",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Calls down a rain of hellfire, dealing {1} Fire damage over {2} sec to enemies in the area."
                 }
             }
         },
@@ -2068,6 +2356,12 @@
                     "Id": "390173",
                     "Spec": "Demonology",
                     "Text": "Demonic Tyrant deals {1}% additional damage.\n\nActive Wild Imps grant {2} stack of Demonic Servitude. Active greater demons grant {3} stacks of Demonic Servitude.\n\nDemonic Tyrant deals {4}% additional damage for each stack of Demonic Servitude active at the time of his summon."
+                },
+                "1": {
+                    "Hash": 3574872792,
+                    "Id": "427684",
+                    "Spec": "Demonology",
+                    "Text": "Summon Demonic Tyrant empowers {1} additional Wild Imps and deals {2}% increased damage for each demon he empowers."
                 }
             }
         },
@@ -2089,8 +2383,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1847160925,
-                    "Id": "205148",
-                    "Spec": "Destruction",
+                    "Id": "205148, 266030",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Your spells have a chance to grant you {1}% Haste for {2} sec."
                 }
             }
@@ -2114,7 +2408,7 @@
                 "0": {
                     "Hash": 350292649,
                     "Id": "342601",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Begins a ritual that sacrifices a random participant to summon a doomguard. Requires the caster and {1} additional party members to complete the ritual."
                 }
             }
@@ -2125,8 +2419,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2203882943,
-                    "Id": "387156",
-                    "Spec": "Destruction",
+                    "Id": "387156, 387157, 387158",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Every {1} Soul Shards spent grants Ritual of Ruin, making your next Chaos Bolt or Rain of Fire consume no Soul Shards and have its cast time reduced by {2}%."
                 }
             }
@@ -2138,7 +2432,7 @@
                 "0": {
                     "Hash": 2170475972,
                     "Id": "698",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Begins a ritual to create a summoning portal, requiring the caster and {1} allies to complete. This portal can be used to summon party and raid members."
                 }
             }
@@ -2149,9 +2443,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 761965997,
-                    "Id": "205184",
-                    "Spec": "Destruction",
+                    "Id": "205184, 265931",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Conflagrate increases your Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 386974926,
+                    "Id": "205184, 265931",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Conflagrate increases your Soul Fire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec."
+                },
+                "2": {
+                    "Hash": 3288229726,
+                    "Id": "205184, 265931",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Conflagrate increases your Channel Demonfire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec."
+                },
+                "3": {
+                    "Hash": 1994781579,
+                    "Id": "205184, 265931",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Conflagrate increases your Soul Fire, Channel Demonfire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec."
                 }
             }
         },
@@ -2161,8 +2473,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3261517997,
-                    "Id": "387569",
-                    "Spec": "Destruction",
+                    "Id": "387569, 387570",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Each time your spells duplicate from Havoc, gain {1}% increased damage for {2} sec. Stacks up to {3} times."
                 }
             }
@@ -2269,8 +2581,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 275367750,
-                    "Id": "27243",
-                    "Spec": "Affliction",
+                    "Id": "27243, 27285",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Embeds a demon seed in the enemy target that will explode after {1} sec, dealing {2} Shadow damage to all enemies within {3} yards and applying Corruption to them.\n\nThe seed will detonate early if the target is hit by other detonations, or takes {4} damage from your spells."
                 }
             }
@@ -2294,7 +2606,7 @@
                 "0": {
                     "Hash": 149505213,
                     "Id": "686",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Sends a shadowy bolt at the enemy, causing {1} Shadow damage.\n\n{FFFFFFFF|Generates {2} Soul Shard.}"
                 }
             }
@@ -2305,8 +2617,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1189989492,
-                    "Id": "32388",
-                    "Spec": "Affliction",
+                    "Id": "32388, 32390",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Shadow Bolt and Drain Soul apply Shadow Embrace, increasing your damage dealt to the target by {1}% for {2} sec. Stacks up to {3} times."
                 }
             }
@@ -2332,6 +2644,12 @@
                     "Id": "387322",
                     "Spec": "Demonology",
                     "Text": "When your summoned Dreadstalkers fade away, they increase the damage of your Demonbolt by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 833379963,
+                    "Id": "272945",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "When your summoned Dreadstalkers fade away, they increase the damage of your Demonbolt by {1} for {2} sec."
                 }
             }
         },
@@ -2341,8 +2659,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 170581919,
-                    "Id": "17877",
-                    "Spec": "Destruction",
+                    "Id": "17877, 245731",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Blasts a target for {1} Shadowflame damage, gaining {2}% critical strike chance on targets that have {3}% or less health.\n\n{FFFFFFFF|Restores {4} Soul Shard and refunds a charge if the target dies within {5} sec.}"
                 }
             }
@@ -2354,7 +2672,7 @@
                 "0": {
                     "Hash": 1673190433,
                     "Id": "384069",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Slows enemies in a {1} yard cone in front of you by {2}% for {3} sec."
                 }
             }
@@ -2366,7 +2684,7 @@
                 "0": {
                     "Hash": 2123125408,
                     "Id": "30283",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Stuns all enemies within {1} yds for {2} sec."
                 }
             }
@@ -2414,7 +2732,7 @@
                 "0": {
                     "Hash": 3323041964,
                     "Id": "215941",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Every Soul Shard you spend has a {1}% chance to be refunded."
                 }
             }
@@ -2425,8 +2743,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 433347291,
-                    "Id": "6353",
-                    "Spec": "Destruction",
+                    "Id": "6353, 281490",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Burns the enemy's soul, dealing {1} Fire damage and applying Immolate.\n\n{FFFFFFFF|Generates {2} Soul Shard.}"
                 }
             }
@@ -2440,6 +2758,12 @@
                     "Id": "199471",
                     "Spec": "Affliction",
                     "Text": "When you kill a target, its soul bursts into flames, dealing {1} Shadowflame damage to nearby enemies. Deals reduced damage beyond {2} targets."
+                },
+                "1": {
+                    "Hash": 3490996720,
+                    "Id": "199581",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Shadowflame damage to enemies within {2} yards."
                 }
             }
         },
@@ -2449,9 +2773,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 99188850,
-                    "Id": "108370",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "108366, 108370",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb {1}% of the damage dealt, up to {2}% of maximum health."
+                },
+                "1": {
+                    "Hash": 398711209,
+                    "Id": "108366, 108370",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb {1}% of the damage dealt for {2} sec, up to {3}% of maximum health."
                 }
             }
         },
@@ -2461,14 +2791,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2329498277,
-                    "Id": "108415",
-                    "Spec": "Demonology",
+                    "Id": "108446",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "{1}% of all damage you take is taken by your demon pet instead. "
                 },
                 "1": {
                     "Hash": 2631585389,
-                    "Id": "108415",
-                    "Spec": "Destruction, Affliction",
+                    "Id": "108446",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "{1}% of all damage you take is taken by your demon pet instead. \n\nWhile Grimoire of Sacrifice is active, your Stamina is increased by {2}%."
                 }
             }
@@ -2492,19 +2822,19 @@
                 "0": {
                     "Hash": 3006024787,
                     "Id": "246985",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Soul Shards are generated by your Shadow Bolt.\n\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\n\nWhile out of combat you regenerate up to {1} Soul Shards."
                 },
                 "1": {
                     "Hash": 3102734029,
                     "Id": "246985",
-                    "Spec": "Destruction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Soul Shard Fragments are generated by many of your spells.\n\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\n\nWhile out of combat you regenerate up to {1} Soul Shards."
                 },
                 "2": {
                     "Hash": 3603172842,
                     "Id": "246985",
-                    "Spec": "Affliction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Soul Shards are generated by your Agony's damage over time.\n\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\n\nWhile out of combat you regenerate up to {1} Soul Shards."
                 }
             }
@@ -2516,8 +2846,26 @@
                 "0": {
                     "Hash": 1541012516,
                     "Id": "264057",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Command your Felguard to strike into the soul of its enemy, dealing {1} Shadow damage.\n\n{FFFFFFFF|Generates {2} Soul Shard.}"
+                },
+                "1": {
+                    "Hash": 393448541,
+                    "Id": "264057",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Command your Felguard to strike into the soul of its enemy, dealing {1} Shadow damage."
+                },
+                "2": {
+                    "Hash": 950253402,
+                    "Id": "267964",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Strike into the soul of the enemy, dealing {1} Shadow damage."
+                },
+                "3": {
+                    "Hash": 2043849097,
+                    "Id": "267964",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Strike into the soul of the enemy, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}"
                 }
             }
         },
@@ -2530,6 +2878,12 @@
                     "Id": "386951",
                     "Spec": "Affliction",
                     "Text": "Copies your damage over time effects from the target, preserving their duration.\n\nYour next use of Soul Swap within {1} sec will exhale a copy damage of the effects onto a new target."
+                },
+                "1": {
+                    "Hash": 3668805511,
+                    "Id": "386951",
+                    "Spec": "Affliction",
+                    "Text": "Copies your damage over time effects and Haunt from the target, preserving their duration.\r\n\r\nYour next use of Soul Swap within {1} sec will exhale a copy damage of the effects onto a new target."
                 }
             }
         },
@@ -2542,6 +2896,12 @@
                     "Id": "389630",
                     "Spec": "Affliction",
                     "Text": "Whenever Unstable Affliction deals damage, the cooldown of Soul Rot is reduced by {1} sec."
+                },
+                "1": {
+                    "Hash": 2920426091,
+                    "Id": "389630",
+                    "Spec": "Affliction",
+                    "Text": "Soul Rot cooldown is reduced by {1} sec."
                 }
             }
         },
@@ -2563,8 +2923,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1707825830,
-                    "Id": "385899",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Id": "385899, 387626, 387633, 387636, 387641",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Consumes a Soul Shard, unlocking the hidden power of your spells.\n\n{FFFFFFFF|Demonic Circle: Teleport}: Increases your movement speed by {1}% and makes you immune to snares and roots for {2} sec.\n\n{FFFFFFFF|Demonic Gateway}: Can be cast instantly.\n\n{FFFFFFFF|Drain Life}: Gain an absorb shield equal to the amount of healing done for {3} sec. This shield cannot exceed {4}% of your maximum health.\n\n{FFFFFFFF|Health Funnel}: Restores {5}% more health and reduces the damage taken by your pet by {6}% for {7} sec.\n\n{FFFFFFFF|Healthstone}: Increases the healing of your Healthstone by {8}% and increases your maximum health by {9}% for {10} sec."
                 }
             }
@@ -2578,6 +2938,12 @@
                     "Id": "20707",
                     "Spec": "Destruction, Affliction, Demonology",
                     "Text": "Stores the soul of the target party or raid member, allowing resurrection upon death. Also castable to resurrect a dead target. Targets resurrect with {1}% health and at least {2}% mana."
+                },
+                "1": {
+                    "Hash": 1150890894,
+                    "Id": "231811",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Soulstone may be used to instantly resurrect a dead target."
                 }
             }
         },
@@ -2590,6 +2956,12 @@
                     "Id": "196226",
                     "Spec": "Affliction",
                     "Text": "Seed of Corruption now embeds demon seeds into {1} additional nearby enemies."
+                },
+                "1": {
+                    "Hash": 1339093687,
+                    "Id": "196226",
+                    "Spec": "Affliction",
+                    "Text": "Seed of Corruption now consumes a Soul Shard, if available, to embeds demon seeds into {1} additional nearby enemies."
                 }
             }
         },
@@ -2602,6 +2974,12 @@
                     "Id": "387602",
                     "Spec": "Demonology",
                     "Text": "When your Wild Imps cast Fel Firebolt, you gain an application of Stolen Power. After you reach {1} applications, your next Demonbolt deals {2}% increased damage or your next Shadow Bolt deals {3}% increased damage."
+                },
+                "1": {
+                    "Hash": 3743744841,
+                    "Id": "387604",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Increases the damage of Demonbolt by {1}% and Shadow Bolt by {2}%."
                 }
             }
         },
@@ -2624,7 +3002,7 @@
                 "0": {
                     "Hash": 44222888,
                     "Id": "1098",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Subjugates the target demon up to level {1}, forcing it to do your bidding for {2} min."
                 }
             }
@@ -2650,6 +3028,18 @@
                     "Id": "265187",
                     "Spec": "Demonology",
                     "Text": "Summon a Demonic Tyrant to increase the duration of all of your current lesser demons by {1} sec, and increase the damage of all of your other demons by {2}%, while damaging your target."
+                },
+                "1": {
+                    "Hash": 3720969687,
+                    "Id": "265187, 265273",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to {1} of your Wild Imps by {2} sec. Your Demonic Tyrant increases the damage of affected demons by {3}%, while damaging your target."
+                },
+                "2": {
+                    "Hash": 2383469724,
+                    "Id": "265187, 265273",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to {1} of your Wild Imps by {2} sec. Your Demonic Tyrant increases the damage of affected demons by {3}%, while damaging your target.\r\n\r\n{FFFFFFFF|Generates {4} Soul Shards.}"
                 }
             }
         },
@@ -2672,7 +3062,7 @@
                 "0": {
                     "Hash": 200143703,
                     "Id": "691",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons a Felhunter under your command, able to disrupt the spell casts of your enemies."
                 }
             }
@@ -2684,7 +3074,7 @@
                 "0": {
                     "Hash": 3402968296,
                     "Id": "688",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons an Imp under your command that casts ranged Firebolts."
                 }
             }
@@ -2695,8 +3085,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 687215551,
-                    "Id": "1122",
-                    "Spec": "Destruction",
+                    "Id": "1122, 111685, 335236",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons an Infernal from the Twisting Nether, impacting for {1} Fire damage and stunning all enemies in the area for {2} sec.\n\nThe Infernal will serve you for {3} sec, dealing {4} damage to all nearby enemies every {5} sec and generating {6} Soul Shard Fragment every {7} sec."
                 }
             }
@@ -2708,7 +3098,7 @@
                 "0": {
                     "Hash": 1632388568,
                     "Id": "366222",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking.\n"
                 }
             }
@@ -2720,7 +3110,7 @@
                 "0": {
                     "Hash": 3768463708,
                     "Id": "386256",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons a Soulkeeper that consumes all Tormented Souls you've collected, blasting nearby enemies for {1} Chaos damage per soul consumed over {2} sec. Deals reduced damage beyond {3} targets and only one Soulkeeper can be active at a time.\n\nYou collect Tormented Souls from each target you kill and occasionally escaped souls you previously collected.\n"
                 }
             }
@@ -2744,7 +3134,7 @@
                 "0": {
                     "Hash": 1335465407,
                     "Id": "697",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Summons a Voidwalker under your command, able to withstand heavy punishment."
                 }
             }
@@ -2797,8 +3187,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1064542754,
-                    "Id": "387600",
-                    "Spec": "Demonology",
+                    "Id": "387600, 387601",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "When your Wild Imps expire or die, your other demons are inspired and gain {1}% additional damage, stacking up to {2} times."
                 }
             }
@@ -2809,8 +3199,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 556971380,
-                    "Id": "387075",
-                    "Spec": "Affliction",
+                    "Id": "387075, 387079",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "While Agony, Corruption, and Unstable Affliction are active, your Shadow Bolt has a {1}% chance and your Drain Soul has a {2}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly."
                 }
             }
@@ -2821,8 +3211,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 828780804,
-                    "Id": "405798",
-                    "Spec": "Demonology",
+                    "Id": "405802",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Hand of Gul'dan has a {1}% chance to burn its target for {2} additional Shadowflame damage every {3} sec for {4} sec."
                 }
             }
@@ -2846,7 +3236,7 @@
                 "0": {
                     "Hash": 3099469698,
                     "Id": "104773",
-                    "Spec": "Destruction, Affliction, Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Hardens your skin, reducing all damage you take by {1}% and granting immunity to interrupt, silence, and pushback effects for {2} sec."
                 }
             }
@@ -2860,6 +3250,42 @@
                     "Id": "316099",
                     "Spec": "Affliction",
                     "Text": "Afflicts one target with {1} Shadow damage over {2} sec. \n\nIf dispelled, deals {3} damage to the dispeller and silences them for {4} sec.\n\n{FFFFFFFF|Generates {5} Soul Shard if the target dies while afflicted.}"
+                },
+                "1": {
+                    "Hash": 288584440,
+                    "Id": "30108, 233490, 233496, 233497, 233498, 233499",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Afflicts the target with {1} Shadow damage over {2} sec. You may afflict a target with up to {3} Unstable Afflictions at once.\r\n\r\nYou deal {4}% increased damage to targets affected by your Unstable Affliction.\r\n\r\nIf dispelled, deals {5} damage to the dispeller and silences them for {6} sec."
+                },
+                "2": {
+                    "Hash": 1343398187,
+                    "Id": "30108, 233490, 233496, 233497, 233498, 233499",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Afflicts the target with {1} Shadow damage over {2} sec. You may afflict a target with up to {3} Unstable Afflictions at once.\r\n\r\nYou deal {4}% increased damage to targets affected by your Unstable Affliction.\r\n\r\nIf dispelled, deals {5} damage to the dispeller and silences them for {6} sec.\r\n\r\n{FFFFFFFF|Refunds {7} Soul [plural|Shard|Shards] if the target dies while afflicted.}"
+                },
+                "3": {
+                    "Hash": 940659299,
+                    "Id": "196364, 316099",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Afflicts one target with {1} Shadow damage over {2} sec. \r\n\r\nIf dispelled, deals {3} damage to the dispeller and silences them for {4} sec."
+                },
+                "4": {
+                    "Hash": 3594804388,
+                    "Id": "196364, 316099",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Afflicts one target with {1} Shadow damage over {2} sec. \r\n\r\nIf dispelled, deals {3} damage to the dispeller and silences them for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Soul [plural|Shard|Shards] if the target dies while afflicted.}"
+                },
+                "5": {
+                    "Hash": 1974491877,
+                    "Id": "231791",
+                    "Spec": "Affliction",
+                    "Text": "Unstable Affliction generates {1} Soul [plural|Shard|Shards] if the target dies."
+                },
+                "6": {
+                    "Hash": 1415490775,
+                    "Id": "334315",
+                    "Spec": "Affliction",
+                    "Text": "Unstable Affliction's duration is increased by {1} seconds."
                 }
             }
         },
@@ -2869,8 +3295,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 712164893,
-                    "Id": "278350",
-                    "Spec": "Affliction",
+                    "Id": "278350, 386931",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Unleashes a vile explosion at the target location, dealing {1} Shadow damage over {2} sec to {3} enemies within {4} yds and applies Agony and Curse of Exhaustion to them."
                 }
             }
@@ -2893,8 +3319,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1397521461,
-                    "Id": "387065",
-                    "Spec": "Affliction",
+                    "Id": "387065, 387066",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Corruption and Agony each grant an application of Wrath of Consumption when a target dies, increasing all periodic damage dealt by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -2906,13 +3332,13 @@
                 "0": {
                     "Hash": 248278440,
                     "Id": "386864",
-                    "Spec": "Demonology",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the damage done by your primary pet by {1}%. "
                 },
                 "1": {
                     "Hash": 863302834,
                     "Id": "386864",
-                    "Spec": "Destruction, Affliction",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Increases the damage done by your primary pet by {1}%. \n\nIncreases Grimoire of Sacrifice damage by {2}%."
                 }
             }
@@ -2971,8 +3397,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2701492947,
-                    "Id": "267170",
-                    "Spec": "Demonology",
+                    "Id": "267170, 270569",
+                    "Spec": "Affliction, Demonology, Destruction",
                     "Text": "Dreadbite causes the target to take {1}% additional Shadowflame damage from your spell and abilities for the next {2} sec."
                 }
             }
@@ -3048,6 +3474,1641 @@
                     "Text": "Your primary Felguard's damaging critical strikes deal {1}% increased damage."
                 }
             }
+        },
+        "238": {
+            "Hash": 936774141,
+            "Name": "Deliberate Corruption",
+            "Descriptions": {}
+        },
+        "239": {
+            "Hash": 2033561190,
+            "Name": "Doom Bolt Volley",
+            "Descriptions": {}
+        },
+        "240": {
+            "Hash": 3106532833,
+            "Name": "Use Soulstone",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2091293282,
+                    "Id": "3026, 6203, 20707",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Stores the soul of the target party or raid member, allowing resurrection upon death. Targets resurrect with {1}% health and at least {2}% mana."
+                },
+                "1": {
+                    "Hash": 1845680209,
+                    "Id": "3026, 6203, 20707",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Stores the soul of the target party or raid member, allowing resurrection upon death. Also castable to resurrect a dead target. Targets resurrect with {1}% health and at least {2}% mana."
+                }
+            }
+        },
+        "241": {
+            "Hash": 558583395,
+            "Name": "Firebolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1188904074,
+                    "Id": "3110",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Fire damage to a target.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "242": {
+            "Hash": 2291601537,
+            "Name": "Consuming Shadows",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3707335864,
+                    "Id": "3716",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Drains {1} health from all nearby enemies.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "243": {
+            "Hash": 3617833629,
+            "Name": "Healthstone",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3375683540,
+                    "Id": "6262",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Instantly restores {1}% health."
+                },
+                "1": {
+                    "Hash": 210411497,
+                    "Id": "6262",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Instantly restores {1}% health, plus an additional {2}% over {3} sec."
+                }
+            }
+        },
+        "244": {
+            "Hash": 1289905172,
+            "Name": "Seduction",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4023939405,
+                    "Id": "6358",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Seduces the target, disorienting and causing them to walk towards the demon for {1} sec. Damage may break the effect. Only usable against Humanoids."
+                }
+            }
+        },
+        "245": {
+            "Hash": 395877368,
+            "Name": "Whiplash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3449023995,
+                    "Id": "6360",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Whips the enemy, reducing movement speed by {1}% and increasing damage taken by the demon by {2}% for {3} sec, stacking {4} times.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "246": {
+            "Hash": 2567663850,
+            "Name": "Lash of Pain",
+            "Descriptions": {
+                "0": {
+                    "Hash": 878635407,
+                    "Id": "7814",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Lashes the target, dealing {1} Shadow damage.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "247": {
+            "Hash": 475499437,
+            "Name": "Lesser Invisibility",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1084118495,
+                    "Id": "7870",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Makes the Succubus invisible for {1} min.  Not usable in combat. Any action will break the effect.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nReapply when the Succubus leaves combat.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "248": {
+            "Hash": 1598386747,
+            "Name": "Suffering",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3475226494,
+                    "Id": "17735",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Voidwalker taunts the target to attack it for {1} sec, and increases its threat against the target.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nTaunts the current target if it is not attacking the Voidwalker and taunts any target who attacks its master.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "249": {
+            "Hash": 3391397255,
+            "Name": "Shadow Bulwark",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4097324788,
+                    "Id": "17767",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Temporarily increases current and maximum health by {1}% for {2} sec.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nUse this ability when below {3}% health.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "250": {
+            "Hash": 1068928272,
+            "Name": "Immolation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2822988537,
+                    "Id": "19483",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Burns nearby enemies for {1} fire damage every {2} sec."
+                },
+                "1": {
+                    "Hash": 3663768340,
+                    "Id": "20153",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals Fire damage to all nearby enemies."
+                }
+            }
+        },
+        "251": {
+            "Hash": 960918047,
+            "Name": "Spell Lock",
+            "Descriptions": {
+                "0": {
+                    "Hash": 984849344,
+                    "Id": "19647",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for {1} sec."
+                }
+            }
+        },
+        "252": {
+            "Hash": 3303622886,
+            "Name": "Devour Magic",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1500407412,
+                    "Id": "19658",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Heals and energizes when an effect is dispelled."
+                }
+            }
+        },
+        "253": {
+            "Hash": 1245313005,
+            "Name": "Infernal Awakening",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3960858371,
+                    "Id": "22703",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "An infernal falls from the sky, dealing {1} Fire damage to all targets, stunning them for {2} sec."
+                }
+            }
+        },
+        "254": {
+            "Hash": 687385974,
+            "Name": "Pursuit",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3856530851,
+                    "Id": "30151",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Felguard charges an enemy, causing {1} Physical damage and increasing its movement speed by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nUse anytime the Felguard's target is further than {4} yards away.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                },
+                "1": {
+                    "Hash": 2004781373,
+                    "Id": "30153",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Charge an enemy, instantly causing {1}% weapon damage and increasing the Felguard's movement speed by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nUse anytime the Felguard's target is further than {4} yards away.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "255": {
+            "Hash": 2903455133,
+            "Name": "Legion Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3092868193,
+                    "Id": "30213",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "A strong attack that deals {1} damage to all enemies in front of it, and reduces the effectiveness of any healing the victim receives by {2}% for {3} sec.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "256": {
+            "Hash": 1507206193,
+            "Name": "Avoidance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3843055396,
+                    "Id": "32233",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Reduces the damage your pet takes from area of effect attacks by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                },
+                "1": {
+                    "Hash": 2270654284,
+                    "Id": "190019",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Reduces the damage your summoned demon takes from creature area of effect attacks by an additional {1}%."
+                }
+            }
+        },
+        "257": {
+            "Hash": 3883796356,
+            "Name": "Shadow Bite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3265117920,
+                    "Id": "54049",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Bites the enemy, causing {1} Shadow damage.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "258": {
+            "Hash": 2189716687,
+            "Name": "Felguard",
+            "Descriptions": {
+                "0": {
+                    "Hash": 430009119,
+                    "Id": "56285",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Felguard will equip a random two-handed axe, mace, sword, or polearm from your backpack."
+                }
+            }
+        },
+        "259": {
+            "Hash": 338989261,
+            "Name": "Soulwell",
+            "Descriptions": {
+                "0": {
+                    "Hash": 577186985,
+                    "Id": "58275",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Soulwell glows with an eerie light."
+                }
+            }
+        },
+        "260": {
+            "Hash": 2584171467,
+            "Name": "Doom Bolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2859001853,
+                    "Id": "85692",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Sends a shadowy bolt at the enemy, causing {1} Shadow damage. Deals {2}% additional damage to targets below {3}% health."
+                }
+            }
+        },
+        "261": {
+            "Hash": 833869580,
+            "Name": "Wild Imp",
+            "Descriptions": {}
+        },
+        "262": {
+            "Hash": 3129875152,
+            "Name": "Soul Swap Exhale",
+            "Descriptions": {}
+        },
+        "263": {
+            "Hash": 3201340458,
+            "Name": "Felstorm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1241265290,
+                    "Id": "89751, 89753",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Felguard recklessly swings its weapon, striking all nearby enemies within {1} yards for {2} Physical damage every {3} sec for {4} sec. The Felguard cannot take any other action during Felstorm. Deals reduced damage beyond {5} targets."
+                }
+            }
+        },
+        "264": {
+            "Hash": 749607889,
+            "Name": "Axe Toss",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3183837744,
+                    "Id": "89766, 347008",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Felguard hurls its weapon, stunning and interrupting the target for {1} sec."
+                }
+            }
+        },
+        "265": {
+            "Hash": 1404338905,
+            "Name": "Flee",
+            "Descriptions": {
+                "0": {
+                    "Hash": 13080802,
+                    "Id": "89792",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Escapes to the Master, removing all stuns and roots from himself.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nCast when the Imp is stunned or rooted.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                },
+                "1": {
+                    "Hash": 2901839660,
+                    "Id": "93282",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Escapes to the Master. Flee removes all stun and roots."
+                }
+            }
+        },
+        "266": {
+            "Hash": 1246504474,
+            "Name": "The Codex of Xerrath",
+            "Descriptions": {
+                "0": {
+                    "Hash": 819131813,
+                    "Id": "101508",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Corrupts all of your Warlock fire spells, infusing them with fel magic."
+                }
+            }
+        },
+        "267": {
+            "Hash": 815716986,
+            "Name": "Fel Firebolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1151273292,
+                    "Id": "104318",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Fire damage to a target."
+                },
+                "1": {
+                    "Hash": 3669099436,
+                    "Id": "334591",
+                    "Spec": "Demonology",
+                    "Text": "Teaches your Wild Imps how to spend {1}% less energy when casting Fel Firebolt."
+                }
+            }
+        },
+        "268": {
+            "Hash": 2906712126,
+            "Name": "Grimoire of Service",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2614531041,
+                    "Id": "108501, 216187",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a second demon which fights for you for {1} sec and deals {2}% increased damage. {3} min cooldown. The demon will immmediately use one of its special abilities when summoned:\r\n\r\nGrimoire: Imp: Cleanses {4} harmful Magic effect from you.\r\nGrimoire: Voidwalker Taunts its target.\r\nGrimoire: Succubus Seduces its target.\r\nGrimoire: Felhunter Interrupts its target."
+                },
+                "1": {
+                    "Hash": 3391127385,
+                    "Id": "108501, 216187",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a second demon which fights for you for {1} sec and deals {2}% increased damage. {3} min cooldown. The demon will immmediately use one of its special abilities when summoned:\r\n\r\nGrimoire: Imp: Cleanses {4} harmful Magic effect from you.\r\nGrimoire: Voidwalker Taunts its target.\r\nGrimoire: Succubus Seduces its target.\r\nGrimoire: Felhunter Interrupts its target.\r\nGrimoire: Felguard Stuns its target."
+                }
+            }
+        },
+        "269": {
+            "Hash": 3159671978,
+            "Name": "Grimoire: Imp",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4262001145,
+                    "Id": "111859",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons an Imp who attacks the target for {1} sec.\r\n\r\nImps cast ranged Firebolts and cleanse a hostile magic effect from their master."
+                }
+            }
+        },
+        "270": {
+            "Hash": 1587175753,
+            "Name": "Grimoire: Voidwalker",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1728834736,
+                    "Id": "111895",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Voidwalker who attacks the target for {1} sec.\r\n\r\nVoidwalkers will taunt their target when summoned."
+                }
+            }
+        },
+        "271": {
+            "Hash": 3877257930,
+            "Name": "Grimoire: Succubus",
+            "Descriptions": {
+                "0": {
+                    "Hash": 911934279,
+                    "Id": "111896",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Succubus who attacks the target for {1} sec.\r\n\r\nSuccubi will seduce their target if it is Humanoid."
+                }
+            }
+        },
+        "272": {
+            "Hash": 2238156110,
+            "Name": "Grimoire: Felhunter",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4264245511,
+                    "Id": "111897",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Felhunter who attacks the target for {1} sec.\r\n\r\nFelhunters will Spell Lock their target when summoned."
+                }
+            }
+        },
+        "273": {
+            "Hash": 1829911845,
+            "Name": "Threatening Presence",
+            "Descriptions": {
+                "0": {
+                    "Hash": 997629609,
+                    "Id": "112042",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Intimidates any target the Voidwalker attacks, increasing threat generation.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nAlways keep this effect active.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                },
+                "1": {
+                    "Hash": 937380397,
+                    "Id": "134477",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Intimidates any target the Felguard attacks, increasing threat generation.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nAlways keep this effect active.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "274": {
+            "Hash": 4125145410,
+            "Name": "Dark Soul: Instability",
+            "Descriptions": {
+                "0": {
+                    "Hash": 861688531,
+                    "Id": "113858",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Infuses your soul with unstable power, increasing your critical strike chance by {1}% for {2} sec."
+                }
+            }
+        },
+        "275": {
+            "Hash": 928150421,
+            "Name": "Dark Soul: Misery",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3178414708,
+                    "Id": "113860",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Infuses your soul with the misery of fallen foes, increasing haste by {1}% for {2} sec."
+                }
+            }
+        },
+        "276": {
+            "Hash": 3050835777,
+            "Name": "Void Reflexes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3399366200,
+                    "Id": "117225",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Life in the twisting nether has made this demon particularly agile, increasing its chance to dodge and parry by {1}%."
+                }
+            }
+        },
+        "277": {
+            "Hash": 1715750801,
+            "Name": "Grimoire of Supremacy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2363917009,
+                    "Id": "152107",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "You are able to maintain control over even greater demons indefinitely, allowing you to summon a Doomguard or Infernal as a permanent pet."
+                }
+            }
+        },
+        "278": {
+            "Hash": 3225766228,
+            "Name": "Cripple",
+            "Descriptions": {
+                "0": {
+                    "Hash": 667485793,
+                    "Id": "170995",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Cripples the target, reducing movement speed by {1}% for {2} sec ({3} sec in PvP)."
+                }
+            }
+        },
+        "279": {
+            "Hash": 1982142286,
+            "Name": "Burning Presence",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2194859385,
+                    "Id": "171011",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Intimidates any target you attack, increasing your threat generation.\r\n\r\nAlso increases chance to dodge and parry by {1}%, and reduces physical damage taken by {2}%.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nAlways keep this effect active.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "280": {
+            "Hash": 4250289029,
+            "Name": "Seethe",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3258268223,
+                    "Id": "171014",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Infernal taunts the target to attack it.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nTaunts the current target if it is not attacking the Infernal and taunts any target who attacks its master.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "281": {
+            "Hash": 3437995443,
+            "Name": "Meteor Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 653172751,
+                    "Id": "171017",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The infernal releases a powerful burst of flames, dealing {1} Fire damage to nearby targets, and stunning them for {2} sec."
+                }
+            }
+        },
+        "282": {
+            "Hash": 2814103626,
+            "Name": "Torch Magic",
+            "Descriptions": {
+                "0": {
+                    "Hash": 471042099,
+                    "Id": "171021",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Purges {1} beneficial magic effect from an enemy.\r\n\r\n{FFFFFFFF|Auto-Cast:}\r\nUse on the Infernal's current target.\r\n\r\n{FF777777|(Right-Click to toggle)}"
+                }
+            }
+        },
+        "283": {
+            "Hash": 3275215787,
+            "Name": "Shadow Lock",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3064927949,
+                    "Id": "171138",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Counter an enemy's spellcast, preventing any spell from that school of magic from being cast for {1} sec."
+                }
+            }
+        },
+        "284": {
+            "Hash": 1152353904,
+            "Name": "Demonic Synergy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1079658766,
+                    "Id": "171982",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Damage done by you or your demon has a chance to grant the other one {1}% increased damage for {2} sec."
+                }
+            }
+        },
+        "285": {
+            "Hash": 2891936471,
+            "Name": "Chaos Barrage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 602348218,
+                    "Id": "187394, 387985",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Chaos damage."
+                }
+            }
+        },
+        "286": {
+            "Hash": 2362287180,
+            "Name": "Shadowy Inspiration",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1084750450,
+                    "Id": "196269, 196606",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Demonic Empowerment also causes your next Shadow Bolt to be Instant."
+                }
+            }
+        },
+        "287": {
+            "Hash": 2455880130,
+            "Name": "Hand of Doom",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1668702660,
+                    "Id": "196283",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hand of Gul'dan now also applies Doom to all enemies it hits."
+                }
+            }
+        },
+        "288": {
+            "Hash": 4169976512,
+            "Name": "Shadowy Tear",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2490261991,
+                    "Id": "196639",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Shadowy Tear."
+                },
+                "1": {
+                    "Hash": 3634201015,
+                    "Id": "394235",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Shadow damage over {2} sec."
+                }
+            }
+        },
+        "289": {
+            "Hash": 1644902882,
+            "Name": "Soul Effigy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3578968204,
+                    "Id": "205178",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Creates a Soul Effigy bound to the target, which is attackable only by you. {1}% of all damage taken by the Effigy is duplicated on the original target. Limit {2}. Lasts {3} min."
+                },
+                "1": {
+                    "Hash": 2688583815,
+                    "Id": "205247, 205260",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Creates a Soul Effigy bound to the target, which is attackable only by you. {1}% of all damage taken by the Effigy is duplicated on the original target. Limit {2}. Lasts {3} sec."
+                }
+            }
+        },
+        "290": {
+            "Hash": 3024561250,
+            "Name": "Dreadbite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1074192429,
+                    "Id": "205196, 271971",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Bite the target, dealing Shadow damage."
+                }
+            }
+        },
+        "291": {
+            "Hash": 1863825047,
+            "Name": "Eye Beam",
+            "Descriptions": {
+                "0": {
+                    "Hash": 485869978,
+                    "Id": "205231",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Fires an eye beam that deals {1} Shadow damage."
+                }
+            }
+        },
+        "292": {
+            "Hash": 719987311,
+            "Name": "Thal'kiel's Consumption",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2562128843,
+                    "Id": "211714, 211715",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "{FFFFCC99|Thal'kiel} drains {1}% of the life from your demon servants and unleashes a blast of Shadow damage at your current target equal to the life he stole. "
+                }
+            }
+        },
+        "293": {
+            "Hash": 313737539,
+            "Name": "Varo'then's Restraint",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3067557245,
+                    "Id": "213014, 213229",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Chaos Bolt has a {1}% chance to strike an additional enemy within {2} yards."
+                }
+            }
+        },
+        "294": {
+            "Hash": 3244263444,
+            "Name": "Chaos Tear",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3828911557,
+                    "Id": "394243, 394246",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Fires a Chaos Bolt, dealing {1} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage."
+                }
+            }
+        },
+        "295": {
+            "Hash": 4282233280,
+            "Name": "Reap Souls",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3819462319,
+                    "Id": "216698, 216708",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Consume all Tormented Souls collected by {FFFFCC99|Ulthalesh}, increasing your damage by {1}% and doubling the effect of all of {FFFFCC99|Ulthalesh}'s other traits for {2} sec per soul consumed.\r\n\r\n{FFFFCC99|Ulthalesh} collects Tormented Souls from each target you kill and occasionally escaped souls it previously collected."
+                }
+            }
+        },
+        "296": {
+            "Hash": 566738839,
+            "Name": "Deadwind Harvester",
+            "Descriptions": {}
+        },
+        "297": {
+            "Hash": 4200175866,
+            "Name": "Lord of Flames",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3396199090,
+                    "Id": "224103, 226802, 226804",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Once every {1} minutes, Summon Infernal will summon {2} additional Infernals to serve you for {3} sec."
+                },
+                "1": {
+                    "Hash": 340817366,
+                    "Id": "224103, 226802, 226804",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Once every {1} minutes, your Infernal's Meteor Strike will summon {2} additional Infernals to serve you for {3} sec."
+                }
+            }
+        },
+        "298": {
+            "Hash": 1846352220,
+            "Name": "Jaws of Shadow",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1539892513,
+                    "Id": "242922",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Increases the damage of Fel Firebolt by {1}%."
+                }
+            }
+        },
+        "299": {
+            "Hash": 1313414239,
+            "Name": "Searing Bolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 59147743,
+                    "Id": "243050",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Sends a searing bolt at the enemy, causing {1} Fire damage, and an additional {2} Fire damage over {3} sec, stacking up to {4} times."
+                },
+                "1": {
+                    "Hash": 464719686,
+                    "Id": "423886",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Sends a searing bolt at the enemy, causing {1} Fire damage, and an additional {2} Fire damage over {3} sec."
+                }
+            }
+        },
+        "300": {
+            "Hash": 3106663158,
+            "Name": "Empowered Healthstone",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3825937206,
+                    "Id": "262031, 262080",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Healthstone heals you for an additional {1}% of your maximum health over {2} sec and makes your spell casts not delayed by taking damage."
+                }
+            }
+        },
+        "301": {
+            "Hash": 2308825671,
+            "Name": "Embers",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1928124496,
+                    "Id": "264364, 264365",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Generates {1} Soul Shard Fragment every {2} sec."
+                }
+            }
+        },
+        "302": {
+            "Hash": 549841572,
+            "Name": "Burning Ember",
+            "Descriptions": {}
+        },
+        "303": {
+            "Hash": 1304759977,
+            "Name": "Shadow Shield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3580273070,
+                    "Id": "264993",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Encases the Voidwalker in shadow energy, reducing physical damage taken by {1}%."
+                }
+            }
+        },
+        "304": {
+            "Hash": 1156088971,
+            "Name": "Demonic Power",
+            "Descriptions": {}
+        },
+        "305": {
+            "Hash": 3306148644,
+            "Name": "Demonfire Blast",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4190029061,
+                    "Id": "265279, 270481",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deal {1} Shadowflame damage to your enemy target."
+                }
+            }
+        },
+        "306": {
+            "Hash": 2294276751,
+            "Name": "Demonfire",
+            "Descriptions": {}
+        },
+        "307": {
+            "Hash": 1281347203,
+            "Name": "Meaty Rampage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3128036129,
+                    "Id": "265391, 265392, 265393",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Smacks the target multiple times with cooked meat, inflicting {1} Physical damage twice."
+                }
+            }
+        },
+        "308": {
+            "Hash": 1064208425,
+            "Name": "Flashover",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2046069065,
+                    "Id": "267115",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Conflagrate deals {1}% increased damage and grants an additional charge of Backdraft."
+                }
+            }
+        },
+        "309": {
+            "Hash": 3000444190,
+            "Name": "Demonic Consumption",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2571231348,
+                    "Id": "267971, 267972",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Demon Commander now drains {1}% of the life from your demon servants to empower himself."
+                }
+            }
+        },
+        "310": {
+            "Hash": 2327074633,
+            "Name": "Summon Prince Malchezaar",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3373283833,
+                    "Id": "267986",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon Prince Malchezaar to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "311": {
+            "Hash": 3496927765,
+            "Name": "Summon Illidari Satyr",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3733961351,
+                    "Id": "267987",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon an Illidari Satyr to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "312": {
+            "Hash": 709114253,
+            "Name": "Summon Vicious Hellhound",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1164371733,
+                    "Id": "267988",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Vicious Hellhound to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "313": {
+            "Hash": 3679634556,
+            "Name": "Summon Eyes of Gul'dan",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3156262326,
+                    "Id": "267989",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon Eyes of Gul'dan to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "314": {
+            "Hash": 795801942,
+            "Name": "Summon Void Terror",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3619302021,
+                    "Id": "267991",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Void Terror to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "315": {
+            "Hash": 92477961,
+            "Name": "Summon Bilescourge",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2580596218,
+                    "Id": "267992",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Bilescourge to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "316": {
+            "Hash": 2559966149,
+            "Name": "Summon Shivarra",
+            "Descriptions": {
+                "0": {
+                    "Hash": 942955147,
+                    "Id": "267994",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Shivarra to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "317": {
+            "Hash": 2499545703,
+            "Name": "Summon Wrathguard",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1820525949,
+                    "Id": "267995",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Wrathguard to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "318": {
+            "Hash": 628175751,
+            "Name": "Summon Darkhound",
+            "Descriptions": {
+                "0": {
+                    "Hash": 506631522,
+                    "Id": "267996",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon a Darkhound to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "319": {
+            "Hash": 4032547765,
+            "Name": "Bile Spit",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2973300815,
+                    "Id": "267997",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Vilefiend spits a ball of bile at its target, dealing {1} Nature damage and an additional {2} Nature damage every {3} sec for {4} sec."
+                }
+            }
+        },
+        "320": {
+            "Hash": 2198622190,
+            "Name": "Headbutt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2189646129,
+                    "Id": "267999",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Vilefiend rams its bladed head into the target, dealing {1} Physical damage."
+                }
+            }
+        },
+        "321": {
+            "Hash": 1231850222,
+            "Name": "Summon Ur'zul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2305285957,
+                    "Id": "268001",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summon an Ur'zul to fight for you for the next {1} sec."
+                }
+            }
+        },
+        "322": {
+            "Hash": 2463915776,
+            "Name": "Shadow Slash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 205783005,
+                    "Id": "272012",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Satyr strikes at out with its weapons, dealing Shadow damage."
+                }
+            }
+        },
+        "323": {
+            "Hash": 3717345516,
+            "Name": "Demon Fangs",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3184974626,
+                    "Id": "272013",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Vicious Hellhound chomps at its target, dealing Shadowflame damage."
+                }
+            }
+        },
+        "324": {
+            "Hash": 1904127244,
+            "Name": "Eye of Gul'dan",
+            "Descriptions": {
+                "0": {
+                    "Hash": 848290372,
+                    "Id": "272131",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Eye of Gul'dan stares deep into the target's soul, causing Shadowflame damage every {1} sec for {2} sec."
+                }
+            }
+        },
+        "325": {
+            "Hash": 1830745638,
+            "Name": "Double Breath",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2069454444,
+                    "Id": "272156",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Void Terror unleashes a breath of Fire and Shadow at the target, dealing Shadowflame damage."
+                }
+            }
+        },
+        "326": {
+            "Hash": 2091800272,
+            "Name": "Toxic Bile",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3894388558,
+                    "Id": "272167",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Bilescourge spits wads of Toxic Bile at its target, dealing Nature damage."
+                }
+            }
+        },
+        "327": {
+            "Hash": 2836585740,
+            "Name": "Multi-Slash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1915894682,
+                    "Id": "272172",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Shivarra stabs wildly at her target with all weapons at the same time, dealing physical damage."
+                }
+            }
+        },
+        "328": {
+            "Hash": 2067732002,
+            "Name": "Overhead Assault",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3496251590,
+                    "Id": "272432",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Wrathguard smashes its target with a heavy overhand swing."
+                }
+            }
+        },
+        "329": {
+            "Hash": 80422276,
+            "Name": "Fel Bite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1435507187,
+                    "Id": "272435",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Darkhound bites its target, causing serious Physical damage."
+                }
+            }
+        },
+        "330": {
+            "Hash": 2745084262,
+            "Name": "Many Faced Bite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1175679311,
+                    "Id": "272439",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Ur'zul rears up and bites its target, dealing Physical damage. \r\n\r\nYou're not sure which face actually bit you after thinking about it."
+                }
+            }
+        },
+        "331": {
+            "Hash": 3618615571,
+            "Name": "Impending Catastrophe",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3316347516,
+                    "Id": "322167, 322170",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Call forth a cloud of chaotic anima that travels to the target enemy, dealing {1} Shadow damage to enemies in its path. When the anima reaches the target it explodes, inflicting either Curse of Weakness or Curse of Tongues, and dealing {2} Shadow damage over {3} sec to all nearby enemies."
+                }
+            }
+        },
+        "332": {
+            "Hash": 2463080194,
+            "Name": "Decimating Bolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 335737697,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Demonbolts by {3}%.\r\n\r\nDecimating Bolt's damage, and the bonus to Shadow Bolt both increase as your target's health decreases."
+                },
+                "1": {
+                    "Hash": 994101786,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next Drain Soul by {2}%.\r\n\r\nDecimating Bolt's damage, and the bonus to Drain Soul both increase as your target's health decreases."
+                },
+                "2": {
+                    "Hash": 1502689813,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Demonbolts by {3}%. This value is reduced while using Fire and Brimstone.\r\n\r\nDecimating Bolt's damage, and the bonus to Shadow Bolt both increase as your target's health decreases."
+                },
+                "3": {
+                    "Hash": 846804119,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next Drain Soul by {2}%. This value is reduced while using Fire and Brimstone.\r\n\r\nDecimating Bolt's damage, and the bonus to Drain Soul both increase as your target's health decreases."
+                },
+                "4": {
+                    "Hash": 249116391,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Demonbolts by {3}%.\r\n\r\nDecimating Bolt's damage, and the bonus to Demonbolt both increase as your target's health decreases."
+                },
+                "5": {
+                    "Hash": 3409066650,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Demonbolts by {3}%. This value is reduced while using Fire and Brimstone.\r\n\r\nDecimating Bolt's damage, and the bonus to Demonbolt both increase as your target's health decreases."
+                },
+                "6": {
+                    "Hash": 2318521089,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Incinerates by {3}%.\r\n\r\nDecimating Bolt's damage, and the bonus to Incinerate both increase as your target's health decreases."
+                },
+                "7": {
+                    "Hash": 1451305491,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next Incinerates by {2}%.\r\n\r\nDecimating Bolt's damage, and the bonus to Incinerate both increase as your target's health decreases."
+                },
+                "8": {
+                    "Hash": 3132080353,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next {2} Incinerates by {3}%. This value is reduced while using Fire and Brimstone.\r\n\r\nDecimating Bolt's damage, and the bonus to Incinerate both increase as your target's health decreases."
+                },
+                "9": {
+                    "Hash": 3967669360,
+                    "Id": "325299, 327059, 327070, 327072",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Hurl bolts of decimating magic at your target, dealing {1} Shadow damage and increasing the damage of your next Incinerates by {2}%. This value is reduced while using Fire and Brimstone.\r\n\r\nDecimating Bolt's damage, and the bonus to Incinerate both increase as your target's health decreases."
+                }
+            }
+        },
+        "333": {
+            "Hash": 3504546292,
+            "Name": "Grim Inquisitor's Dread Calling",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3959608896,
+                    "Id": "337141, 337142, 342997, 387391, 387392, 387393",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Each Soul Shard spent on Hand of Gul'dan increases the damage of your next Call Dreadstalkers by {1}%."
+                }
+            }
+        },
+        "334": {
+            "Hash": 422850278,
+            "Name": "Tyrant's Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1079379445,
+                    "Id": "339784",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "After your Demonic Tyrant expires, gain a stack of Demonic Core and increase the damage your demons deal by {FFFFFFFF|{1}%} for {2} sec."
+                }
+            }
+        },
+        "335": {
+            "Hash": 3156597489,
+            "Name": "Malicious Imp-Pact",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2950148300,
+                    "Id": "364198",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Hand of Gul'dan has a {1}% chance per Soul Shard to summon a Malicious Imp. When slain, Malicious Imp will either deal {2} Fire damage to all nearby enemies of your Implosion or deal it to your current target."
+                }
+            }
+        },
+        "336": {
+            "Hash": 2537284775,
+            "Name": "Doombolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2000389026,
+                    "Id": "364261",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Shadowflame damage to the target."
+                }
+            }
+        },
+        "337": {
+            "Hash": 19992311,
+            "Name": "Spite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1799867328,
+                    "Id": "364262",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Shadowflame damage to nearby enemies.\r\n"
+                }
+            }
+        },
+        "338": {
+            "Hash": 3103264523,
+            "Name": "Return Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2682157286,
+                    "Id": "364263",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Restores {1} of their summoner's Soul Shards."
+                }
+            }
+        },
+        "339": {
+            "Hash": 1751770105,
+            "Name": "Calamitous Crescendo",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1650751913,
+                    "Id": "364322",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "While Agony, Corruption, and Unstable Affliction are active, your Shadow Bolt has a {1}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly."
+                },
+                "1": {
+                    "Hash": 597376475,
+                    "Id": "364322",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "While Agony, Corruption, and Unstable Affliction are active, your Drain Soul has a {1}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly."
+                }
+            }
+        },
+        "340": {
+            "Hash": 386518643,
+            "Name": "Impending Ruin",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3176072694,
+                    "Id": "364348, 364349",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Every {1} Soul Shards spent grants Ritual of Ruin, making your next Chaos Bolt or Rain of Fire consume no Soul Shards and have no cast time."
+                }
+            }
+        },
+        "341": {
+            "Hash": 1689138950,
+            "Name": "Summon Blasphemy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3872254407,
+                    "Id": "367679, 367680, 387160, 387161",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Blasphemy from the Twisting Nether, impacting for {1} Fire damage and stunning all enemies in the area for {2} sec.\r\n\r\nThe Blasphemy will serve you for {3} sec, dealing {4} damage to all nearby enemies every {5} sec and generating {6} Soul Shard Fragment every {7} sec."
+                }
+            }
+        },
+        "342": {
+            "Hash": 2591450591,
+            "Name": "Blasphemy",
+            "Descriptions": {}
+        },
+        "343": {
+            "Hash": 3019883708,
+            "Name": "Blasphemous Existence",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1697614636,
+                    "Id": "367819",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "The Blasphemy ignites, dealing {1} Shadowflame damage to all targets."
+                }
+            }
+        },
+        "344": {
+            "Hash": 128811316,
+            "Name": "Soulburn: Demonic Circle",
+            "Descriptions": {}
+        },
+        "345": {
+            "Hash": 180279651,
+            "Name": "Soulburn: Healthstone",
+            "Descriptions": {}
+        },
+        "346": {
+            "Hash": 3719947031,
+            "Name": "Soulburn: Health Funnel",
+            "Descriptions": {}
+        },
+        "347": {
+            "Hash": 156413489,
+            "Name": "Tormented Soul",
+            "Descriptions": {}
+        },
+        "348": {
+            "Hash": 430635289,
+            "Name": "Soul Combustion",
+            "Descriptions": {}
+        },
+        "349": {
+            "Hash": 5754185,
+            "Name": "Fiendish Wrath",
+            "Descriptions": {}
+        },
+        "350": {
+            "Hash": 3670489881,
+            "Name": "Fel Explosion",
+            "Descriptions": {}
+        },
+        "351": {
+            "Hash": 4272207849,
+            "Name": "Fel Resilience",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2355152235,
+                    "Id": "386869",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Damage taken reduced by {1}%."
+                }
+            }
+        },
+        "352": {
+            "Hash": 386518643,
+            "Name": "Impending Ruin",
+            "Descriptions": {}
+        },
+        "353": {
+            "Hash": 424538233,
+            "Name": "Soul Cleave",
+            "Descriptions": {}
+        },
+        "354": {
+            "Hash": 989438344,
+            "Name": "Felseeker",
+            "Descriptions": {}
+        },
+        "355": {
+            "Hash": 396131924,
+            "Name": "Unstable Tear",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2666115896,
+                    "Id": "387979",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Deals {1} Chaos damage over {2} sec."
+                }
+            }
+        },
+        "356": {
+            "Hash": 3026809342,
+            "Name": "Fel Barrage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2542838541,
+                    "Id": "388070",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Blasts the enemy target with a bolt of fel magic, causing {1} Shadowflame damage. "
+                }
+            }
+        },
+        "357": {
+            "Hash": 2985264437,
+            "Name": "Cruel Inspiration",
+            "Descriptions": {
+                "0": {
+                    "Hash": 508767084,
+                    "Id": "394215",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "When Agony grants you a Soul Shard, you have a chance to gain Cruel Inspiration, increasing your haste by {1}% for {2} sec."
+                }
+            }
+        },
+        "358": {
+            "Hash": 978858274,
+            "Name": "Cruel Epiphany",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3086658584,
+                    "Id": "394253",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Cruel Inspiration also grants {1} charges of Cruel Epiphany, up to {2} charges. Each charge of Cruel Epiphany increases the damage of your next Malefic Rapture or Seed of Corruption by {3}%."
+                }
+            }
+        },
+        "359": {
+            "Hash": 357760747,
+            "Name": "Chaos Maelstrom",
+            "Descriptions": {
+                "0": {
+                    "Hash": 711612241,
+                    "Id": "394679",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Consuming Soul Shards has a chance to grant you Chaos Maelstrom, increasing your critical strike chance by {1}% for {2} sec."
+                }
+            }
+        },
+        "360": {
+            "Hash": 1962745662,
+            "Name": "Blazing Meteor",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1510467992,
+                    "Id": "394776",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Demonbolt has a chance to make your next Hand of Gul'dan instant and deal {1}% increased damage."
+                }
+            }
+        },
+        "361": {
+            "Hash": 2162666255,
+            "Name": "Umbrafire Embers",
+            "Descriptions": {
+                "0": {
+                    "Hash": 104159233,
+                    "Id": "409652",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Demonfire bolts increase your Fire damage by {1}% for {2} sec, stacking up to {3} times. Gaining a stack does not refresh the duration. Casting Channel Demonfire resets this effect."
+                }
+            }
+        },
+        "362": {
+            "Hash": 975111140,
+            "Name": "Fury of Ruvaraad",
+            "Descriptions": {
+                "0": {
+                    "Hash": 413028385,
+                    "Id": "409708, 409725",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Grimoire: Felguard damage increased by {1}%. While Grimoire: Felguard is active, all of your demons deal {2}% additional damage."
+                }
+            }
+        },
+        "363": {
+            "Hash": 2959362660,
+            "Name": "Rite of Ruvaraad",
+            "Descriptions": {}
+        },
+        "364": {
+            "Hash": 2886358231,
+            "Name": "Infirmity",
+            "Descriptions": {
+                "0": {
+                    "Hash": 122958306,
+                    "Id": "409765",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Enemies damaged by Phantom Singularity gain Infirmity for its duration and enemies damaged by Vile Taint gain Infirmity for {1} sec, increasing damage taken by {2}%."
+                }
+            }
+        },
+        "365": {
+            "Hash": 2395168844,
+            "Name": "Lord Banehollow's Soulstone",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3670101807,
+                    "Id": "416229",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Your Soulstone tethers your ally's soul to a floating orb."
+                }
+            }
+        },
+        "366": {
+            "Hash": 3080350697,
+            "Name": "Shadow Invocation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4147812351,
+                    "Id": "422054",
+                    "Spec": "Demonology",
+                    "Text": "Bilescourge Bombers deal {1}% increased damage, and your spells now have a chance to summon a Bilescourge Bomber."
+                }
+            }
+        },
+        "367": {
+            "Hash": 502683810,
+            "Name": "Chaosbringer",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4214466217,
+                    "Id": "422057",
+                    "Spec": "Destruction",
+                    "Text": "Chaos Bolt damage increased by {1}%. Rain of Fire damage increased by {2}%. Shadowburn damage increased by {3}%."
+                }
+            }
+        },
+        "368": {
+            "Hash": 848709223,
+            "Name": "Doom Brand",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3820821349,
+                    "Id": "423583, 423584",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Consuming a Demonic Core applies a Doom Brand that explodes after {1} sec, dealing {2} Shadow damage to nearby enemies or {3} Shadow damage to a single enemy. Hand of Gul'dan reduces the duration of your Doom Brands by {4} sec per Soul Shard spent."
+                }
+            }
+        },
+        "369": {
+            "Hash": 908493139,
+            "Name": "Doomfiend",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3149555317,
+                    "Id": "423585",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "When Doom Brand is removed, you have a chance to summon a Doomfiend that casts {1} Doom Bolt Volleys before departing. Each Doom Bolt Volley deals {2} Shadow damage to up to {3} enemies or {4} Shadow damage to a single enemy."
+                }
+            }
+        },
+        "370": {
+            "Hash": 475853588,
+            "Name": "Umbrafire Kindling",
+            "Descriptions": {
+                "0": {
+                    "Hash": 157507491,
+                    "Id": "423765",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Soul Rot grants {1} Umbrafire Kindling which increase the damage of your next Malefic Rapture to deal {2}% or your next Seed of Corruption by {3}%. Additionally, Umbrafire Kindling causes Malefic Rapture to extend the duration of your damage over time effects and Haunt by {4} sec."
+                }
+            }
+        },
+        "371": {
+            "Hash": 3605668960,
+            "Name": "Flame Rift",
+            "Descriptions": {
+                "0": {
+                    "Hash": 873013053,
+                    "Id": "423874",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Summons a Flame Rift."
+                }
+            }
+        },
+        "372": {
+            "Hash": 3239377556,
+            "Name": "Dimensional Cinder",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3042231401,
+                    "Id": "427285",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Bolts from Dimensional Rifts now deal {1}% of damage dealt to nearby enemies. Immolate periodic damage has a chance to grant a charge of Dimensional Rift."
+                }
+            }
+        },
+        "373": {
+            "Hash": 24651269,
+            "Name": "Fel Invocation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 376732114,
+                    "Id": "428351, 428453, 428455",
+                    "Spec": "Affliction, Demonology, Destruction",
+                    "Text": "Soul Strike deals {1}% increased damage and generates a Soul Shard.\r\n\r\nReduces the cast time of Summon Vilefiend by {2} sec and your Vilefiend now deals {3} Nature damage to nearby enemies every {4} sec while active."
+                }
+            }
+        },
+        "374": {
+            "Hash": 581491167,
+            "Name": "Caustic Presence",
+            "Descriptions": {}
         }
     }
 }
