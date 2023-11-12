@@ -8,7 +8,7 @@
                 "0": {
                     "Hash": 1403462674,
                     "Id": "382800",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Your barrier's cooldown recharges {1}% faster while the shield persists."
                 }
             }
@@ -22,6 +22,12 @@
                     "Id": "235870",
                     "Spec": "Fire",
                     "Text": "Phoenix Flames and Dragon's Breath always critically strike and Dragon's Breath contributes to Hot Streak."
+                },
+                "1": {
+                    "Hash": 3087454380,
+                    "Id": "235870",
+                    "Spec": "Fire",
+                    "Text": "Phoenix Flames and Dragon's Breath always critically strikes and Dragon's Breath deals {1}% increased critical strike damage contributes to Hot Streak. \r\n"
                 }
             }
         },
@@ -31,15 +37,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1490552836,
-                    "Id": "342245",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "108978, 110909, 342246",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} seconds.  Effect negated by long distance or death."
                 },
                 "1": {
                     "Hash": 1862827131,
                     "Id": "342245",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} sec.  Effect negated by long distance or death."
+                },
+                "2": {
+                    "Hash": 1430525816,
+                    "Id": "127140, 342247",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Returns the caster to their previous location and health."
                 }
             }
         },
@@ -52,6 +64,12 @@
                     "Id": "236628",
                     "Spec": "Arcane",
                     "Text": "When Clearcast, Arcane Missiles fires {1} additional missiles."
+                },
+                "1": {
+                    "Hash": 752536163,
+                    "Id": "236628, 321758",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When Clearcast, Arcane Missiles fires {1} additional [plural|missile|missiles]."
                 }
             }
         },
@@ -64,6 +82,24 @@
                     "Id": "44425",
                     "Spec": "Arcane",
                     "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \n\nFor each Arcane Charge, deals {2}% additional damage.\n\n{FFFFFFFF|Consumes all Arcane Charges.}"
+                },
+                "1": {
+                    "Hash": 4040160001,
+                    "Id": "44425",
+                    "Spec": "Arcane",
+                    "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage, grants you {3}% of your maximum mana,.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}"
+                },
+                "2": {
+                    "Hash": 3366976016,
+                    "Id": "44425",
+                    "Spec": "Arcane",
+                    "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage and hits {3} additional nearby [plural|Target|targets] for {4}% of its damage.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}"
+                },
+                "3": {
+                    "Hash": 2146949717,
+                    "Id": "44425",
+                    "Spec": "Arcane",
+                    "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage, grants you {3}% of your maximum mana, and hits {4} additional nearby [plural|Target|targets] for {5}% of its damage.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}"
                 }
             }
         },
@@ -76,6 +112,18 @@
                     "Id": "30451",
                     "Spec": "Arcane",
                     "Text": "Blasts the target with energy, dealing {1} Arcane damage.\n\nEach Arcane Charge increases damage by {2}% and mana cost by {3}%, and reduces cast time by {4}%.\n\n{FFFFFFFF|Generates {5} Arcane Charge.}"
+                },
+                "1": {
+                    "Hash": 915674770,
+                    "Id": "88084",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Blasts the target with energy, dealing {1} Arcane damage. Generates an Arcane Charge.\r\n\r\nArcane Blast's damage is increased by {2}% per Arcane Charge, and its mana cost is increased by {3}% per Arcane Charge."
+                },
+                "2": {
+                    "Hash": 3797884880,
+                    "Id": "222321",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deal {1} Arcane damage."
                 }
             }
         },
@@ -97,8 +145,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 109272391,
-                    "Id": "342231",
-                    "Spec": "Arcane",
+                    "Id": "342231, 342232",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Direct damage you deal to enemies affected by Touch of the Magi, causes an explosion that deals {1} Arcane damage to all nearby enemies. Deals reduced damage beyond {2} targets."
                 }
             }
@@ -121,14 +169,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 552893636,
-                    "Id": "1449",
-                    "Spec": "Fire, Frost",
+                    "Id": "1449, 414381",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Causes an explosion of magic around the caster, dealing {1} Arcane damage to all enemies within {2} yards."
                 },
                 "1": {
                     "Hash": 1161199459,
-                    "Id": "1449",
-                    "Spec": "Arcane",
+                    "Id": "1449, 414381",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Causes an explosion of magic around the caster, dealing {1} Arcane damage to all enemies within {2} yards.\n\n{FFFFFFFF|Generates {3} Arcane Charge if any targets are hit.}"
                 }
             }
@@ -145,8 +193,8 @@
                 },
                 "1": {
                     "Hash": 658604553,
-                    "Id": "205022",
-                    "Spec": "Arcane",
+                    "Id": "205022, 210126",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Summon a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} hour."
                 }
             }
@@ -157,8 +205,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1193567984,
-                    "Id": "384452",
-                    "Spec": "Arcane",
+                    "Id": "384452, 384455",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Each time Arcane Missiles hits an enemy, the damage of your next Arcane Barrage is increased by {1}%. This effect stacks up to {2} times."
                 }
             }
@@ -176,7 +224,7 @@
                 "1": {
                     "Hash": 954506769,
                     "Id": "1459",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Infuses the target with brilliance, increasing their Intellect by {1}% for {2} hour.  \r\n\r\nIf the target is in your party or raid, all party and raid members will be affected."
                 }
             }
@@ -187,8 +235,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1469470982,
-                    "Id": "5143",
-                    "Spec": "Arcane",
+                    "Id": "5143, 7268",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Launches five waves of Arcane Missiles at the enemy over {1} sec, causing a total of {2} Arcane damage."
                 }
             }
@@ -205,8 +253,8 @@
                 },
                 "1": {
                     "Hash": 3892172678,
-                    "Id": "153626",
-                    "Spec": "Arcane",
+                    "Id": "153626, 153640",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Launches an Arcane Orb forward from your position, traveling up to {1} yds, dealing {2} Arcane damage to enemies it passes through.\r\n\r\n{FFFFFFFF|Grants {3} Arcane Charge when cast and every time it deals damage.}"
                 }
             }
@@ -229,8 +277,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2421483269,
-                    "Id": "365350",
-                    "Spec": "Arcane",
+                    "Id": "365350, 365362",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Expend all of your current mana to annihilate your enemy target and nearby enemies for up to {1} Arcane damage based on Mana spent. Deals reduced damage beyond {2} targets.\n\nFor the next {3} sec, your Mana Regeneration is increased by {4}% and Spell Damage is increased by {5}%."
                 }
             }
@@ -247,8 +295,8 @@
                 },
                 "1": {
                     "Hash": 1339722895,
-                    "Id": "383980",
-                    "Spec": "Arcane",
+                    "Id": "383997",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Consuming Arcane Charges increases your Haste by {1}% for {2} sec, stacks up to {3} times."
                 }
             }
@@ -286,6 +334,12 @@
                     "Id": "231564",
                     "Spec": "Arcane",
                     "Text": "For each Arcane Charge, Arcane Barrage hits {1} additional nearby target for {2}% damage."
+                },
+                "1": {
+                    "Hash": 3615408789,
+                    "Id": "231564",
+                    "Spec": "Arcane",
+                    "Text": "For each Arcane Charge, Arcane Barrage hits {1} additional nearby [plural|Target|targets] for {2}% damage."
                 }
             }
         },
@@ -302,7 +356,7 @@
                 "1": {
                     "Hash": 1291642917,
                     "Id": "157981",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Causes an explosion around yourself, dealing {1} Fire damage to all enemies within {2} yds, knocking them back, and reducing movement speed by {3}% for {4} sec."
                 }
             }
@@ -313,8 +367,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3246478583,
-                    "Id": "235313",
-                    "Spec": "Fire",
+                    "Id": "235314",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Shields you in flame, absorbing {1} damage for {2} sec.\n\nMelee attacks against you cause the attacker to take {3} Fire damage."
                 },
                 "1": {
@@ -322,6 +376,18 @@
                     "Id": "235313",
                     "Spec": "Fire",
                     "Text": "Shields you in flame, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you cause the attacker to take {3} Fire damage."
+                },
+                "2": {
+                    "Hash": 1909460242,
+                    "Id": "235313",
+                    "Spec": "Fire",
+                    "Text": "Shields you in flame, absorbing {1} damage and reducing Physical damage taken by {2}% for {3} min.\r\n\r\nMelee attacks against you cause the attacker to take {4} Fire damage."
+                },
+                "3": {
+                    "Hash": 1657210601,
+                    "Id": "235314",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Shields you in flame, absorbing {1} damage and reducing Physical damage taken by {2}% for {3} sec.\r\n\r\nMelee attacks against you cause the attacker to take {4} Fire damage."
                 }
             }
         },
@@ -332,13 +398,13 @@
                 "0": {
                     "Hash": 2878517579,
                     "Id": "1953",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you forward {1} yds or until reaching an obstacle, and frees you from all stuns and bonds."
                 },
                 "1": {
                     "Hash": 4274303997,
                     "Id": "1953",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you forward {1} yds or until reaching an obstacle, and frees you from all stuns and bonds.\r\n\r\nGain a shield that absorbs {2}% of your maximum health for {3} sec after you Blink."
                 }
             }
@@ -349,9 +415,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2180686661,
-                    "Id": "190356",
-                    "Spec": "Frost",
+                    "Id": "12486, 190356, 190357",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Ice shards pelt the target area, dealing {1} Frost damage over {2} sec and reducing movement speed by {3}% for {4} sec."
+                },
+                "1": {
+                    "Hash": 283021710,
+                    "Id": "12486, 190356, 190357",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Ice shards pelt the target area, dealing {1} Frost damage over {2} sec and reducing movement speed by {3}% for {4} sec.\r\n\r\nEach time Blizzard deals damage, the cooldown of Frozen Orb is reduced by {5} sec."
                 }
             }
         },
@@ -361,8 +433,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3896464951,
-                    "Id": "205027",
-                    "Spec": "Frost",
+                    "Id": "205027, 205766",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Whenever you attempt to chill a target, you gain Bone Chilling, increasing spell damage you deal by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -373,9 +445,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4179793010,
-                    "Id": "190447",
-                    "Spec": "Frost",
+                    "Id": "190446, 190447",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Frostbolt has a {1}% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal {2}% increased damage."
+                },
+                "1": {
+                    "Hash": 1863913959,
+                    "Id": "231584",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Brain Freeze causes your next Flurry to  apply Winter's Chill to the target. \r\n\r\nWinter's Chill causes the target to take damage from your spells as if it were frozen."
                 }
             }
         },
@@ -415,8 +493,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1188673135,
-                    "Id": "86949",
-                    "Spec": "Fire",
+                    "Id": "86949, 87023, 87024",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Fatal damage instead brings you to {1}% health and then burns you for {2}% of your maximum health over {3} sec.\n\nWhile burning, movement slowing effects are suppressed and your movement speed is increased by {4}%.\n\nThis effect cannot occur more than once every {5} min."
                 }
             }
@@ -427,8 +505,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1522133636,
-                    "Id": "278309",
-                    "Spec": "Frost",
+                    "Id": "278309, 278310",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Your Ice Lances against frozen targets increase the damage of your Ice Lances by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -463,8 +541,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 555915980,
-                    "Id": "235711",
-                    "Spec": "Arcane",
+                    "Id": "235711, 236298, 236299",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Arcane Barrage slows enemies by {1}% and increases your movement speed by {2}% for {3} sec."
                 }
             }
@@ -481,9 +559,15 @@
                 },
                 "1": {
                     "Hash": 2198992415,
-                    "Id": "79684",
-                    "Spec": "Arcane",
+                    "Id": "79684, 263725",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "For each {1} mana you spend, you have a {2}% chance to gain Clearcasting, making your next Arcane Missiles or Arcane Explosion free."
+                },
+                "2": {
+                    "Hash": 2072032606,
+                    "Id": "79684, 263725",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "For each {1} mana you spend, you have a {2}% chance to gain Clearcasting, making your next Arcane Missiles or Arcane Explosion free.\r\n\r\nArcane Missiles fires {3} additional missile."
                 }
             }
         },
@@ -493,8 +577,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2586177689,
-                    "Id": "382110",
-                    "Spec": "Frost",
+                    "Id": "327284, 327327, 327330, 382110, 382113, 382114",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting {1} Frostbolts or Flurries calls down a Frozen Orb toward your target. Hitting an enemy player counts as double."
                 }
             }
@@ -514,6 +598,12 @@
                     "Id": "235219",
                     "Spec": "Frost",
                     "Text": "Resets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block."
+                },
+                "2": {
+                    "Hash": 3440397033,
+                    "Id": "235219",
+                    "Spec": "Frost",
+                    "Text": "Resets the cooldown of your Ice Barrier, Frost Nova, Ice Cold, and Ice Block."
                 }
             }
         },
@@ -526,6 +616,24 @@
                     "Id": "190319",
                     "Spec": "Fire",
                     "Text": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells."
+                },
+                "1": {
+                    "Hash": 1299096002,
+                    "Id": "190319",
+                    "Spec": "Fire",
+                    "Text": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells."
+                },
+                "2": {
+                    "Hash": 2747632112,
+                    "Id": "190319",
+                    "Spec": "Fire",
+                    "Text": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {3}% Critical Strike, and up to {4} nearby allies gain {5}% Critical Strike for {6} sec."
+                },
+                "3": {
+                    "Hash": 3977744810,
+                    "Id": "190319",
+                    "Spec": "Fire",
+                    "Text": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {4}% Critical Strike, and up to {5} nearby allies gain {6}% Critical Strike for {7} sec."
                 }
             }
         },
@@ -535,8 +643,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3301447365,
-                    "Id": "153595",
-                    "Spec": "Frost",
+                    "Id": "153595, 153596, 228601",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Calls down a series of {1} icy comets on and around the target, that deals up to {2} Frost damage to all enemies within {3} yds of its impacts."
                 }
             }
@@ -559,8 +667,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3574161852,
-                    "Id": "384374",
-                    "Spec": "Arcane",
+                    "Id": "384374, 384379",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Arcane Blast has a chance to grant Concentration, which causes your next Clearcasting to not be consumed."
                 }
             }
@@ -572,8 +680,20 @@
                 "0": {
                     "Hash": 3168102680,
                     "Id": "120",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Targets in a cone in front of you take {1} Frost damage and have movement slowed by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 423522341,
+                    "Id": "120",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Targets in a cone in front of you take {1} Frost damage and are frozen in place for {2} sec."
+                },
+                "2": {
+                    "Hash": 3612515643,
+                    "Id": "212792",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Slowed by {1}% for {2} sec."
                 }
             }
         },
@@ -589,8 +709,8 @@
                 },
                 "1": {
                     "Hash": 1287583035,
-                    "Id": "205023",
-                    "Spec": "Fire",
+                    "Id": "205023, 205345, 226757",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Fireball and Pyroblast apply Conflagration to the target, dealing an additional {1} Fire damage over {2} sec.\n\nEnemies affected by either Conflagration or Ignite have a {3}% chance to flare up and deal {4} Fire damage to nearby enemies."
                 }
             }
@@ -610,6 +730,12 @@
                     "Id": "759",
                     "Spec": "Arcane",
                     "Text": "Conjures a Mana Gem that can be used to instantly restore {1}% mana and grant {2}% spell damage for {3} sec. Holds up to {4} charges.\r\n\r\n{ffffffff|Conjured Items}\r\nConjured items disappear if logged out for more than {5} min."
+                },
+                "2": {
+                    "Hash": 1866962898,
+                    "Id": "759",
+                    "Spec": "Arcane",
+                    "Text": "Conjures a Mana Gem that can be used to instantly restore {1}% mana and grant {2}% spell damage for {3} sec. Holds up to {4} charges.\r\n\r\nConjured Items\r\nConjured items disappear if logged out for more than {5} min."
                 }
             }
         },
@@ -620,7 +746,7 @@
                 "0": {
                     "Hash": 779996573,
                     "Id": "190336",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Conjures mana food for you and your allies. Conjured items disappear if logged out for more than {1} minutes."
                 }
             }
@@ -650,7 +776,7 @@
                 "0": {
                     "Hash": 984849344,
                     "Id": "2139",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for {1} sec."
                 }
             }
@@ -715,8 +841,8 @@
                 },
                 "1": {
                     "Hash": 4173828001,
-                    "Id": "389713",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "389713, 389714, 414462",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you back to where you last Blinked and heals you for {1} health. Only usable within {2} sec of Blinking."
                 }
             }
@@ -740,8 +866,14 @@
                 "0": {
                     "Hash": 3312543586,
                     "Id": "31661",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Enemies in a cone in front of you take {1} Fire damage and are disoriented for {2} sec. Damage will cancel the effect."
+                },
+                "1": {
+                    "Hash": 1260407726,
+                    "Id": "31661",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Enemies in a cone in front of you take {1} Fire damage and are disoriented for {2} sec. Damage will cancel the effect.\r\n\r\nAlways deals a critical strike and contributes to Hot Streak."
                 }
             }
         },
@@ -752,8 +884,20 @@
                 "0": {
                     "Hash": 3894169571,
                     "Id": "257537",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Launch a bolt of ice at the enemy, dealing {1} Frost damage and granting you Brain Freeze. "
+                },
+                "1": {
+                    "Hash": 745358344,
+                    "Id": "214634, 228599, 257538",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals {1} Shadowfrost damage and causes Brain Freeze."
+                },
+                "2": {
+                    "Hash": 3358764352,
+                    "Id": "257537",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Launch a bolt of ice at the enemy, dealing {1} Frost damage and granting you Brain Freeze.\r\n\r\nDeals {2} Frost damage to a second nearby target. "
                 }
             }
         },
@@ -764,19 +908,19 @@
                 "0": {
                     "Hash": 1931008867,
                     "Id": "386828",
-                    "Spec": "Fire",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted {2} Fire Blast charge. \n\nCasting your barrier removes all snare effects."
                 },
                 "1": {
                     "Hash": 2636435525,
                     "Id": "386828",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted Fingers of Frost. \n\nCasting your barrier removes all snare effects."
                 },
                 "2": {
                     "Hash": 798547233,
                     "Id": "386828",
-                    "Spec": "Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "When your barrier receives melee attacks, you have a {1}% chance to be granted Clearcasting. \n\nCasting your barrier removes all snare effects."
                 }
             }
@@ -787,8 +931,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1613293006,
-                    "Id": "321387",
-                    "Spec": "Arcane",
+                    "Id": "321387, 321388, 321390",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Arcane damage dealt while above {1}% mana is increased by {2}%, Mana Regen while below {3}% is increased by {4}%."
                 }
             }
@@ -829,8 +973,8 @@
                 },
                 "1": {
                     "Hash": 2969434549,
-                    "Id": "383391",
-                    "Spec": "Fire",
+                    "Id": "383395",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Fire Blast and Phoenix Flames increase your mastery by {1}% for {2} sec. This effect stacks up to {3} times."
                 }
             }
@@ -853,8 +997,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1532022648,
-                    "Id": "383810",
-                    "Spec": "Fire",
+                    "Id": "383810, 383811",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Each consecutive critical strike you deal increases critical strike damage you deal by {1}%, up to {2}% for {3} sec."
                 }
             }
@@ -865,8 +1009,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3013382424,
-                    "Id": "383634",
-                    "Spec": "Fire",
+                    "Id": "383637",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While Combustion is active, your Fire Blast and Phoenix Flames recharge {1}% faster."
                 }
             }
@@ -877,8 +1021,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2788252093,
-                    "Id": "112965",
-                    "Spec": "Frost",
+                    "Id": "44544, 112965",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Frostbolt has a {1}% chance and Frozen Orb damage has a {2}% to grant a charge of Fingers of Frost.\n\nFingers of Frost causes your next Ice Lance to deal damage as if the target were frozen.\n\nMaximum {3} charges."
                 }
             }
@@ -896,8 +1040,20 @@
                 "1": {
                     "Hash": 1609557398,
                     "Id": "319836",
-                    "Spec": "Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Blasts the enemy for {1} Fire damage."
+                },
+                "2": {
+                    "Hash": 253148858,
+                    "Id": "231568",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Fire Blast always deals a critical strike."
+                },
+                "3": {
+                    "Hash": 1418941507,
+                    "Id": "319836",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Blasts the enemy for {1} Fire damage.\r\n\r\n{FFFFFFFF|Fire:} Always deals a critical strike."
                 }
             }
         },
@@ -916,6 +1072,18 @@
                     "Id": "133",
                     "Spec": "Fire",
                     "Text": "Throws a fiery ball that causes {1} Fire damage.\r\n\r\nEach time your Fireball fails to critically strike a target, it gains a stacking {2}% increased critical strike chance. Effect ends when Fireball critically strikes."
+                },
+                "2": {
+                    "Hash": 570335989,
+                    "Id": "88082",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Hurls a fiery ball that causes {1} Fire damage."
+                },
+                "3": {
+                    "Hash": 1823541845,
+                    "Id": "222305",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deal {1} Fire damage and an additional {2} Fire damage over {3} sec."
                 }
             }
         },
@@ -934,6 +1102,18 @@
                     "Id": "384033",
                     "Spec": "Fire",
                     "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball to call down a Meteor on your target."
+                },
+                "2": {
+                    "Hash": 3854423231,
+                    "Id": "384033, 384035, 384038",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball or Pyroblast to call down a Meteor on your target."
+                },
+                "3": {
+                    "Hash": 288727927,
+                    "Id": "384033, 384035, 384038",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball or Pyroblast to call down a Meteor on your target at {2}% effectiveness."
                 }
             }
         },
@@ -943,8 +1123,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2878454956,
-                    "Id": "383499",
-                    "Spec": "Fire",
+                    "Id": "383499, 383501",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Consuming Hot Streak grants you {1}% increased Intellect for {2} sec. This effect stacks up to {3} times."
                 }
             }
@@ -967,8 +1147,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2478601793,
-                    "Id": "203275",
-                    "Spec": "Fire",
+                    "Id": "203275, 203277",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "If you have not cast Fireball for {1} sec, your next Fireball will deal {2}% increased damage with a {3}% reduced cast time."
                 }
             }
@@ -1000,6 +1180,24 @@
                     "Id": "205037",
                     "Spec": "Fire",
                     "Text": "Flamestrike leaves behind a patch of flames that burns enemies within it for {1} Fire damage over {2} sec. "
+                },
+                "1": {
+                    "Hash": 2967834075,
+                    "Id": "205037",
+                    "Spec": "Fire",
+                    "Text": "Flamestrike leaves behind a patch of flames that burns enemies within it for {1} Fire damage over {2} sec. Deals reduced damage beyond {3} targets."
+                },
+                "2": {
+                    "Hash": 1079262418,
+                    "Id": "205470",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Flame patch burning enemies."
+                },
+                "3": {
+                    "Hash": 3885811093,
+                    "Id": "205472",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Burning enemies for {1} Fire damage."
                 }
             }
         },
@@ -1036,6 +1234,18 @@
                     "Id": "2120",
                     "Spec": "Fire",
                     "Text": "Calls down a pillar of fire, burning all enemies within the area for {1} Fire damage and reducing their movement speed by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 4248263409,
+                    "Id": "2120",
+                    "Spec": "Fire",
+                    "Text": "Calls down a pillar of fire, burning all enemies within the area for {1} Fire damage and reducing their movement speed by {2}% for {3} sec. Deals reduced damage beyond {4} targets."
+                },
+                "2": {
+                    "Hash": 3489792658,
+                    "Id": "2120",
+                    "Spec": "Fire",
+                    "Text": "Calls down a pillar of fire, burning all enemies within the area for {1} Fire damage and reducing their movement speed by {2}% for {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nLeaves behind a patch of flames that burns enemies within it for {5} Fire damage over {6} sec."
                 }
             }
         },
@@ -1064,7 +1274,7 @@
                 "1": {
                     "Hash": 4149808908,
                     "Id": "382268",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "The cooldowns of Blink and Shimmer are reduced by {1} sec."
                 }
             }
@@ -1075,9 +1285,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4162574087,
-                    "Id": "44614",
-                    "Spec": "Frost",
+                    "Id": "44614, 228354, 228358",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Unleash a flurry of ice, striking the target {1} times for a total of {2} Frost damage. Each hit reduces the target's movement speed by {3}% for {4} sec and applies Winter's Chill to the target.\n\nWinter's Chill causes the target to take damage from your spells as if it were frozen."
+                },
+                "1": {
+                    "Hash": 283162515,
+                    "Id": "44614, 228354, 228358",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Unleash a flurry of ice, striking the target {1} times for a total of {2} Frost damage. Each hit reduces the target's movement speed by {3}% for {4} sec, has a {5}% chance to activate Glacial Assault, and applies Winter's Chill to the target.\r\n\r\nWinter's Chill causes the target to take damage from your spells as if it were frozen."
                 }
             }
         },
@@ -1087,8 +1303,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2576128994,
-                    "Id": "384861",
-                    "Spec": "Arcane",
+                    "Id": "384861, 384865",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Standing still for {1} sec grants you Foresight, allowing you to cast while moving for {2} sec. This duration begins when you start moving."
                 }
             }
@@ -1111,8 +1327,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1979399951,
-                    "Id": "386763",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "386763, 386770, 394255",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Enemies hit by Cone of Cold are frozen in place for {1} sec instead of snared.\n\nWhen your roots expire or are dispelled, your target is snared by {2}%, decaying over {3} sec."
                 }
             }
@@ -1123,8 +1339,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3688855169,
-                    "Id": "270233",
-                    "Spec": "Frost",
+                    "Id": "270232, 270233",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Frozen Orb makes Blizzard instant cast and increases its damage done by {1}% for {2} sec."
                 }
             }
@@ -1135,8 +1351,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2380847737,
-                    "Id": "382103",
-                    "Spec": "Frost",
+                    "Id": "327364, 327478, 382103, 382106",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While Frozen Orb is active, you gain Fingers of Frost every {1} sec."
                 }
             }
@@ -1148,7 +1364,7 @@
                 "0": {
                     "Hash": 2734789845,
                     "Id": "235224",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "All of your snare effects reduce the target's movement speed by an additional {1}%."
                 }
             }
@@ -1196,7 +1412,7 @@
                 "0": {
                     "Hash": 317376368,
                     "Id": "122",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Blasts enemies within {1} yds of you for {2} Frost damage and freezes them in place for {3} sec. Damage may interrupt the freeze effect."
                 }
             }
@@ -1207,8 +1423,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 96083047,
-                    "Id": "378756",
-                    "Spec": "Frost",
+                    "Id": "378756, 378760",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Gives your Chill effects a {1}% chance to freeze the target for {2} sec."
                 }
             }
@@ -1219,9 +1435,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3861519146,
-                    "Id": "116",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "116, 228597",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 3069047234,
+                    "Id": "116, 228597",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec.\r\n\r\nFrostbolt deals {4}% additional damage to Frozen targets."
+                },
+                "2": {
+                    "Hash": 2160639468,
+                    "Id": "59638",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Inflicts Frost damage to an enemy and reduces its movement speed for {1} sec."
+                },
+                "3": {
+                    "Hash": 924287294,
+                    "Id": "222320",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deal {1} Frost damage and reduces the target's movement speed by {2}% for {3} sec."
                 }
             }
         },
@@ -1243,9 +1477,15 @@
                 },
                 "2": {
                     "Hash": 1190181946,
-                    "Id": "84714",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "84714, 84721, 289308",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Launches an orb of swirling ice up to {1} yds forward which deals up to {2} Frost damage to all enemies it passes through over {3} sec. Deals reduced damage beyond {4} targets. Grants {5} charge of Fingers of Frost when it first damages an enemy.\r\n\r\nEnemies damaged by the Frozen Orb are slowed by {6}% for {7} sec."
+                },
+                "3": {
+                    "Hash": 2858046303,
+                    "Id": "84714, 84721, 289308",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Launches an orb of swirling ice up to {1} yds forward which deals up to {2} Frost damage to all enemies it passes through over {3} sec. Deals reduced damage beyond {4} targets. Grants {5} charge of Fingers of Frost when it first damages an enemy.\r\n\r\nWhile Frozen Orb is active, you gain Fingers of Frost every {6} sec.\r\n\r\nEnemies damaged by the Frozen Orb are slowed by {7}% for {8} sec."
                 }
             }
         },
@@ -1279,8 +1519,8 @@
                 },
                 "1": {
                     "Hash": 287376760,
-                    "Id": "378947",
-                    "Spec": "Frost",
+                    "Id": "378947, 379029, 417490",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Your Comet Storm now increases the damage enemies take from you by {1}% for {2} sec and Flurry has a {3}% chance each hit to call down an icy comet, crashing into your target and nearby enemies for {4} Frost damage."
                 }
             }
@@ -1291,8 +1531,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4195934321,
-                    "Id": "199786",
-                    "Spec": "Frost",
+                    "Id": "199786, 228600",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Conjures a massive spike of ice, and merges your current Icicles into it. It impales your target, dealing {1} damage plus all of the damage stored in your Icicles, and freezes the target in place for {2} sec. Damage may interrupt the freeze effect.\n\nRequires {3} Icicles to cast.\n\n{FFFFFFFF|Passive:} Ice Lance no longer launches Icicles."
                 }
             }
@@ -1321,14 +1561,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3769095989,
-                    "Id": "110959",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "110959, 110960, 113862",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Makes you invisible and untargetable for {1} sec, removing all threat. Any action taken cancels this effect.\n\nYou take {2}% reduced damage while invisible and for {3} sec after reappearing."
                 },
                 "1": {
                     "Hash": 3706723769,
-                    "Id": "110959",
-                    "Spec": "Arcane",
+                    "Id": "110959, 110960, 113862",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Makes you invisible and untargetable for {1} sec, removing all threat. Any action taken cancels this effect.\r\n\r\nYou take {2}% reduced damage while invisible and for {3} sec after reappearing.\r\n\r\nIncreases your movement speed by {4}% for {5} sec."
                 }
             }
@@ -1363,8 +1603,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 900033610,
-                    "Id": "384683",
-                    "Spec": "Arcane",
+                    "Id": "384685",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Damage dealt to enemies affected by Radiant Spark's vulnerability echo to your current enemy target and {1} nearby enemies for {2}% of the damage dealt."
                 }
             }
@@ -1393,8 +1633,8 @@
                 },
                 "1": {
                     "Hash": 2016103164,
-                    "Id": "383860",
-                    "Spec": "Fire",
+                    "Id": "383860, 383874",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While Combustion is not active, consuming Hot Streak has a low chance to cause all Pyroblasts and Flamestrikes to have no cast time and be guaranteed critical strikes for {1} sec."
                 }
             }
@@ -1411,9 +1651,15 @@
                 },
                 "1": {
                     "Hash": 4235439475,
-                    "Id": "11426",
-                    "Spec": "Frost",
+                    "Id": "11426, 414661",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Shields you with ice, absorbing {1} damage for {2} min.\r\n\r\nMelee attacks against you reduce the attacker's movement speed by {3}%."
+                },
+                "2": {
+                    "Hash": 1089678193,
+                    "Id": "11426, 414661",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Shields you with ice, absorbing {1} damage and increasing your armor by {2}% for {3} min.\r\n\r\nMelee attacks against you reduce the attacker's movement speed by {4}%."
                 }
             }
         },
@@ -1424,8 +1670,14 @@
                 "0": {
                     "Hash": 2715203795,
                     "Id": "45438",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Encases you in a block of ice, protecting you from all attacks and damage for {1} sec, but during that time you cannot attack, move, or cast spells.\n\nCauses Hypothermia, preventing you from recasting Ice Block for {2} sec."
+                },
+                "1": {
+                    "Hash": 1809085485,
+                    "Id": "45438",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Encases you in a block of ice, protecting you from all attacks and damage for {1} sec, but during that time you cannot attack, move, or cast spells.\r\n\r\nWhile inside Ice Block, you heal for {2}% of your maximum health over the duration.\r\n\r\nCauses Hypothermia, preventing you from recasting Ice Block for {3} sec."
                 }
             }
         },
@@ -1448,7 +1700,7 @@
                 "0": {
                     "Hash": 4009529784,
                     "Id": "108839",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Makes your next Mage spell with a cast time shorter than {1} sec castable while moving. Unaffected by the global cooldown and castable while casting."
                 }
             }
@@ -1471,9 +1723,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1983275785,
-                    "Id": "30455",
-                    "Spec": "Frost",
+                    "Id": "30455, 228598",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Quickly fling a shard of ice at the target, dealing {1} Frost damage.\n\nIce Lance damage is tripled against frozen targets."
+                },
+                "1": {
+                    "Hash": 1651414939,
+                    "Id": "30455, 228598",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Quickly fling a shard of ice at the target, dealing {1} Frost damage, and {2} Frost damage to a second nearby target.\r\n\r\nIce Lance damage is tripled against frozen targets."
                 }
             }
         },
@@ -1490,7 +1748,7 @@
                 "1": {
                     "Hash": 1537202648,
                     "Id": "157997",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Causes a whirl of icy wind around the enemy, dealing {1} Frost damage to the target and reduced damage to all other enemies within {2} yds, and freezing them in place for {3} sec."
                 }
             }
@@ -1514,7 +1772,7 @@
                 "0": {
                     "Hash": 600375132,
                     "Id": "205036",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Frost Nova now has {1} charges."
                 }
             }
@@ -1567,8 +1825,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 992307469,
-                    "Id": "383676",
-                    "Spec": "Arcane",
+                    "Id": "383676, 393939",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Arcane Blast has a {1}% chance to generate an additional Arcane Charge. If you were to gain an Arcane Charge while at maximum charges instead gain {2}% Arcane damage for {3} sec. "
                 }
             }
@@ -1628,7 +1886,7 @@
                 "0": {
                     "Hash": 1581536856,
                     "Id": "343183",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Frost Nova duration is increased by {1} sec."
                 }
             }
@@ -1651,8 +1909,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2908736345,
-                    "Id": "383604",
-                    "Spec": "Fire",
+                    "Id": "383604, 383608",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting Scorch on targets below {1}% health increase the target's damage taken from you by {2}% for {3} sec, stacking up to {4} times. \n\nAdditionally, Scorch critical strikes increase your movement speed by {5}% for {6} sec."
                 }
             }
@@ -1666,6 +1924,18 @@
                     "Id": "382293",
                     "Spec": "Fire, Frost, Arcane",
                     "Text": "Invisibility increases your movement speed by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 1090681705,
+                    "Id": "337278",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Invisibility increases your movement speed by {FFFFFFFF|{1}%} for {2} sec."
+                },
+                "2": {
+                    "Hash": 4156496073,
+                    "Id": "337278",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Greater Invisibility increases your movement speed by {FFFFFFFF|{1}%} for {2} sec."
                 }
             }
         },
@@ -1675,8 +1945,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2289602703,
-                    "Id": "1463",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "1463, 116267",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Magical energy flows through you while in combat, building up to {1}% increased damage and then diminishing down to {2}% increased damage, cycling every {3} sec."
                 }
             }
@@ -1699,14 +1969,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1176292467,
-                    "Id": "66",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "66, 32612",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Turns you invisible over {1} sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts {2} sec. Taking any action cancels the effect."
                 },
                 "1": {
                     "Hash": 1281357902,
-                    "Id": "66",
-                    "Spec": "Arcane",
+                    "Id": "66, 32612",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Turns you invisible over {1} sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts {2} sec. Taking any action cancels the effect.\r\n\r\nIncreases your movement speed by {3}% for {4} sec."
                 }
             }
@@ -1742,7 +2012,7 @@
                 "1": {
                     "Hash": 1517683997,
                     "Id": "198100",
-                    "Spec": "Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Unleash a flurry of disruptive magic onto your target, stealing a beneficial magic effect every {1} sec for {2} sec.\r\n\r\nCastable while moving, but movement speed is reduced by {3}% while channeling."
                 }
             }
@@ -1759,8 +2029,8 @@
                 },
                 "1": {
                     "Hash": 1596761569,
-                    "Id": "44457",
-                    "Spec": "Fire",
+                    "Id": "44457, 44461, 217694, 244813",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "The target becomes a Living Bomb, taking {1} Fire damage over {2} sec, and then exploding to deal an additional {3} Fire damage to the target and reduced damage to all other enemies within {4} yds.\r\n\r\nOther enemies hit by this explosion also become a Living Bomb, but this effect cannot spread further."
                 }
             }
@@ -1810,6 +2080,12 @@
                     "Id": "414664",
                     "Spec": "Fire, Frost, Arcane",
                     "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Taking any action will cancel the effect.\r\n\r\nDoes not affect allies in combat."
+                },
+                "3": {
+                    "Hash": 3861409033,
+                    "Id": "414664",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "You and your allies within {1} yards instantly become invisible for {2} sec. Taking any action will cancel the effect.\r\n\r\n\r\n\r\n[Does not affect allies in combat.]"
                 }
             }
         },
@@ -1820,7 +2096,7 @@
                 "0": {
                     "Hash": 3262789278,
                     "Id": "383121",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Transforms all enemies within {1} yards into sheep, wandering around incapacitated for {2} min. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\n\nOnly works on Beasts, Humanoids and Critters."
                 }
             }
@@ -1832,8 +2108,14 @@
                 "0": {
                     "Hash": 2815400065,
                     "Id": "391102",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Slow applies to all enemies within {1} yds of your target."
+                },
+                "1": {
+                    "Hash": 4212133454,
+                    "Id": "391104",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Slow applies to everything within {1} yards of your target."
                 }
             }
         },
@@ -1874,7 +2156,7 @@
                 "1": {
                     "Hash": 2724124059,
                     "Id": "342249",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Reduces the cooldown of Alter Time by {1} sec. \r\n\r\nAlter Time resets the cooldown of Blink and Shimmer when you return to your original location."
                 }
             }
@@ -1891,9 +2173,51 @@
                 },
                 "1": {
                     "Hash": 3314533614,
-                    "Id": "76613",
-                    "Spec": "Frost",
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%."
+                },
+                "2": {
+                    "Hash": 2755225022,
+                    "Id": "321684",
+                    "Spec": "Frost",
+                    "Text": "Increases the damage of Frozen Orb by {1}%."
+                },
+                "3": {
+                    "Hash": 175009193,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched."
+                },
+                "4": {
+                    "Hash": 3348625084,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched."
+                },
+                "5": {
+                    "Hash": 1841861537,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched."
+                },
+                "6": {
+                    "Hash": 1503340570,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%."
+                },
+                "7": {
+                    "Hash": 1415273079,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%."
+                },
+                "8": {
+                    "Hash": 3814717512,
+                    "Id": "76613, 148022, 205473",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%."
                 }
             }
         },
@@ -1939,9 +2263,15 @@
                 },
                 "1": {
                     "Hash": 3461627833,
-                    "Id": "153561",
-                    "Spec": "Fire",
+                    "Id": "153561, 155158, 351140",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage to all enemies hit reduced beyond {3} targets, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area."
+                },
+                "2": {
+                    "Hash": 3678368980,
+                    "Id": "153561, 155158, 351140",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage, split evenly between all targets within {3} yds, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area."
                 }
             }
         },
@@ -1952,8 +2282,20 @@
                 "0": {
                     "Hash": 2669221501,
                     "Id": "55342",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Creates {1} copies of you nearby for {2} sec, which cast spells and attack your enemies.\n\nWhile your images are active damage taken is reduced by {3}%. Taking direct damage will cause one of your images to dissipate."
+                },
+                "1": {
+                    "Hash": 3640413971,
+                    "Id": "55342",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Creates {1} copies of you nearby for {2} sec, which cast spells and attack your enemies.\r\n\r\nWhile your images are active damage taken is reduced by {3}%. Taking direct damage will cause one of your images to dissipate.\r\n\r\nYou are healed for {4}% of your maximum health whenever a Mirror Image dissipates due to direct damage."
+                },
+                "2": {
+                    "Hash": 4122047954,
+                    "Id": "55342",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Creates {1} copies of you nearby for {2} sec, which cast spells and attack your enemies.\r\n\r\nWhile your images are active damage taken is reduced by {3}%. Taking direct damage will cause one of your images to dissipate.\r\n\r\nMirror Image's cooldown is reduced by {4} sec whenever a Mirror Image dissipates due to direct damage."
                 }
             }
         },
@@ -1963,9 +2305,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3272442103,
-                    "Id": "383782",
-                    "Spec": "Arcane",
+                    "Id": "383783",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Consuming Clearcasting increases the damage of your next {1} Arcane Blasts by {2}%."
+                },
+                "1": {
+                    "Hash": 1069985617,
+                    "Id": "336889",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Consuming Clearcasting increases the damage of your next {1} Arcane Blasts by {FFFFFFFF|{2}%}."
                 }
             }
         },
@@ -1981,8 +2329,8 @@
                 },
                 "1": {
                     "Hash": 2005255718,
-                    "Id": "114923",
-                    "Spec": "Arcane",
+                    "Id": "114923, 114954",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Places a Nether Tempest on the target which deals {1} Arcane damage over {2} sec to the target and nearby enemies within {3} yds. Limit {4} target. Deals reduced damage to secondary targets.\r\n\r\nDamage increased by {5}% per Arcane Charge."
                 }
             }
@@ -2011,8 +2359,8 @@
                 },
                 "1": {
                     "Hash": 1203845072,
-                    "Id": "384858",
-                    "Spec": "Arcane",
+                    "Id": "384858, 384859, 384860",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Arcane Barrage has a {1}% chance per Arcane Charge consumed to launch an Arcane Orb in front of you."
                 }
             }
@@ -2023,8 +2371,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 797741481,
-                    "Id": "390218",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "390218, 394195",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Your spell critical strike damage is increased by {1}%. When your direct damage spells fail to critically strike a target, your spell critical strike chance is increased by {2}%, up to {3}% for {4} sec. \n\nWhen your spells critically strike Overflowing Energy is reset."
                 }
             }
@@ -2047,9 +2395,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2891768493,
-                    "Id": "257541",
-                    "Spec": "Fire",
+                    "Id": "257541, 257542",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Hurls a Phoenix that deals {1} Fire damage to the target and reduced damage to other nearby enemies."
+                },
+                "1": {
+                    "Hash": 1809072536,
+                    "Id": "257541, 257542",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Hurls a Phoenix that deals {1} Fire damage to the target and reduced damage to other nearby enemies.\r\n\r\nAlways deals a critical strike."
                 }
             }
         },
@@ -2062,6 +2416,12 @@
                     "Id": "383476",
                     "Spec": "Fire",
                     "Text": "Targets affected by your Ignite have a chance to erupt in flame, taking {1} additional Fire damage and reducing the remaining cooldown of Phoenix Flames by {2} sec."
+                },
+                "1": {
+                    "Hash": 648953494,
+                    "Id": "383479",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals {1} Fire damage and reduces the cooldown of Phoenix Flames by {2} sec."
                 }
             }
         },
@@ -2102,7 +2462,7 @@
                 "0": {
                     "Hash": 279943217,
                     "Id": "343140",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Creates a portal, teleporting group members that use it to a Major City."
                 }
             }
@@ -2128,6 +2488,18 @@
                     "Id": "205025",
                     "Spec": "Arcane",
                     "Text": "Causes your next {1} Arcane Blasts to be instant cast."
+                },
+                "1": {
+                    "Hash": 3478039363,
+                    "Id": "205025",
+                    "Spec": "Arcane",
+                    "Text": "Causes your next {1} Arcane [plural|Blast|Blasts] to be instant cast."
+                },
+                "2": {
+                    "Hash": 1396622393,
+                    "Id": "205025",
+                    "Spec": "Arcane",
+                    "Text": "Causes your next {1} Arcane [plural|Blast|Blasts] to be instant cast and deal {2}% of normal damage."
                 }
             }
         },
@@ -2182,6 +2554,30 @@
                     "Id": "11366",
                     "Spec": "Fire",
                     "Text": "Hurls an immense fiery boulder that causes {1} Fire damage."
+                },
+                "1": {
+                    "Hash": 3182392020,
+                    "Id": "11366",
+                    "Spec": "Fire",
+                    "Text": "Hurls an immense fiery boulder that causes {1} Fire damage and an additional {2} Fire damage over {3} sec."
+                },
+                "2": {
+                    "Hash": 1081413444,
+                    "Id": "11366",
+                    "Spec": "Fire",
+                    "Text": "Hurls an immense fiery boulder that causes {1} Fire damage.\r\n\r\nPyroblast's initial damage is increased by {2}% when the target is above {3}% health or below {4}% health."
+                },
+                "3": {
+                    "Hash": 4194687544,
+                    "Id": "11366",
+                    "Spec": "Fire",
+                    "Text": "Hurls an immense fiery boulder that causes {1} Fire damage and an additional {2} Fire damage over {3} sec.\r\n\r\nPyroblast's initial damage is increased by {4}% when the target is above {5}% health or below {6}% health."
+                },
+                "4": {
+                    "Hash": 2445088386,
+                    "Id": "321711, 321712",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals an additional {1} Fire damage over {2} sec."
                 }
             }
         },
@@ -2191,8 +2587,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2464719013,
-                    "Id": "269650",
-                    "Spec": "Fire",
+                    "Id": "269650, 269651",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Consuming Hot Streak has a {1}% chance to make your next non-instant Pyroblast cast within {2} sec deal {3}% additional damage.\n\nMaximum {4} stacks."
                 }
             }
@@ -2227,8 +2623,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 924082195,
-                    "Id": "157642",
-                    "Spec": "Fire",
+                    "Id": "157642, 157644",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Each time your Fireball fails to critically strike a target, it gains a stacking {1}% increased critical strike chance. Effect ends when Fireball critically strikes."
                 }
             }
@@ -2275,8 +2671,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2282389815,
-                    "Id": "382820",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "382998",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "You are healed for {1}% of your maximum health whenever a Mirror Image dissipates due to direct damage."
                 }
             }
@@ -2288,7 +2684,7 @@
                 "0": {
                     "Hash": 720048906,
                     "Id": "382569",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Mirror Image's cooldown is reduced by {1} sec whenever a Mirror Image dissipates due to direct damage."
                 }
             }
@@ -2300,7 +2696,7 @@
                 "0": {
                     "Hash": 651675212,
                     "Id": "475",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Removes all Curses from a friendly target. "
                 }
             }
@@ -2359,9 +2755,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2673830774,
-                    "Id": "113724",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "82691, 113724, 321329",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Summons a Ring of Frost for {1} sec at the target location. Enemies entering the ring are incapacitated for {2} sec. Limit {3} targets.\n\nWhen the incapacitate expires, enemies are slowed by {4}% for {5} sec."
+                },
+                "1": {
+                    "Hash": 434661115,
+                    "Id": "136511",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Summons a Ring of Frost at the target location. Enemies entering the ring will become frozen for {1} sec. Lasts {2} sec. {3} yd radius. Limit {4} targets."
                 }
             }
         },
@@ -2371,8 +2773,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2229775208,
-                    "Id": "264354",
-                    "Spec": "Arcane",
+                    "Id": "264354, 264774",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "When you gain your third Arcane Charge, the cost of your next Arcane Blast or Arcane Missiles is reduced by {1}%."
                 }
             }
@@ -2383,20 +2785,20 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1090202290,
-                    "Id": "116011",
-                    "Spec": "Fire",
+                    "Id": "116011, 116014",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Combustion will also create a Rune of Power at your location."
                 },
                 "1": {
                     "Hash": 151525376,
-                    "Id": "116011",
-                    "Spec": "Frost",
+                    "Id": "116011, 116014",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Icy Veins will also create a Rune of Power at your location."
                 },
                 "2": {
                     "Hash": 1655383777,
-                    "Id": "116011",
-                    "Spec": "Arcane",
+                    "Id": "116011, 116014",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Places a Rune of Power on the ground for {1} sec which increases your spell damage by {2}% while you stand within {3} yds.\n\nCasting Arcane Power will also create a Rune of Power at your location."
                 }
             }
@@ -2410,6 +2812,12 @@
                     "Id": "2948",
                     "Spec": "Fire",
                     "Text": "Scorches an enemy for {1} Fire damage. Castable while moving."
+                },
+                "1": {
+                    "Hash": 2259194286,
+                    "Id": "2948",
+                    "Spec": "Fire",
+                    "Text": "Scorches an enemy for {1} Fire damage. Castable while moving.\r\n\r\nScorch critical strikes increase your movement speed by {2}% for {3} sec."
                 }
             }
         },
@@ -2443,9 +2851,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2497482586,
-                    "Id": "382440",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "382440, 382445",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Draw power from the Night Fae, dealing {1} Nature damage over {2} sec to enemies within {3} yds. \n\nWhile channeling, your Mage ability cooldowns are reduced by {4} sec over {5} sec."
+                },
+                "1": {
+                    "Hash": 2766826995,
+                    "Id": "325130",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Draw power from the ground beneath, dealing {1} Nature damage over {2} sec to enemies within {3} yds. \r\n\r\nWhile channeling, your Mage ability cooldowns are reduced by {4} sec over {5} sec."
                 }
             }
         },
@@ -2462,13 +2876,13 @@
                 "1": {
                     "Hash": 3979618193,
                     "Id": "212653",
-                    "Spec": "Fire, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you {1} yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting."
                 },
                 "2": {
                     "Hash": 3790561881,
                     "Id": "212653",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you {1} yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.\r\n\r\nGain a shield that absorbs {2}% of your maximum health for {3} sec after you Shimmer."
                 }
             }
@@ -2488,6 +2902,12 @@
                     "Id": "384187",
                     "Spec": "Arcane",
                     "Text": "Evocation channels {1}% faster and while channeling Evocation, your Intellect is increased by {2}% every {3} sec. Lasts {4} sec."
+                },
+                "2": {
+                    "Hash": 3581667451,
+                    "Id": "384187, 384265, 384267",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Evocation grants {1} Arcane Charge, channels {2}% faster and while channeling Evocation, your Intellect is increased by {3}% every {4} sec. Lasts {5} sec."
                 }
             }
         },
@@ -2497,8 +2917,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3743029746,
-                    "Id": "382144",
-                    "Spec": "Frost",
+                    "Id": "382144, 382148",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While Icy Veins is active, each Frostbolt you cast reduces the cast time of Frostbolt by {1}% and increases its damage by {2}%, stacking up to {3} times."
                 }
             }
@@ -2522,8 +2942,14 @@
                 "0": {
                     "Hash": 2036051214,
                     "Id": "31589",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Reduces the target's movement speed by {1}% for {2} sec. "
+                },
+                "1": {
+                    "Hash": 747463970,
+                    "Id": "31589",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Reduces the target's movement speed by {1}% for {2} sec.\r\n\r\nApplies to enemies within {3} yds of the target. "
                 }
             }
         },
@@ -2569,8 +2995,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1197325124,
-                    "Id": "381706",
-                    "Spec": "Frost",
+                    "Id": "381522, 381706",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Blizzard has an {1}% chance to increase the damage of your next Cone of Cold by {2}%, stacking up to {3} times."
                 }
             }
@@ -2582,8 +3008,14 @@
                 "0": {
                     "Hash": 1952514390,
                     "Id": "30449",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Steals a beneficial magic effect from the target. This effect lasts a maximum of {1} min. "
+                },
+                "1": {
+                    "Hash": 3258348320,
+                    "Id": "30449",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Steals all beneficial magic effects from the target. These effects lasts a maximum of {1} min. "
                 }
             }
         },
@@ -2653,8 +3085,8 @@
                 },
                 "1": {
                     "Hash": 2939996525,
-                    "Id": "383886",
-                    "Spec": "Fire",
+                    "Id": "383882, 383883, 383886",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "After consuming {1} Hot Streaks, your next non-instant Pyroblast or Flamestrike cast within {2} sec grants you Combustion for {3} sec and deals {4}% additional damage."
                 }
             }
@@ -2684,7 +3116,7 @@
                 "0": {
                     "Hash": 2504863905,
                     "Id": "343127",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Teleports you to a major city."
                 }
             }
@@ -2707,8 +3139,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2011218606,
-                    "Id": "382289",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "382290",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Gain a shield that absorbs {1}% of your maximum health for {2} sec after you Blink."
                 }
             }
@@ -2731,8 +3163,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3842169893,
-                    "Id": "382826",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "382824, 382826, 384360",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Increases your movement speed by {1}% for {2} sec after casting Blink and {3}% for {4} sec after returning from Alter Time."
                 }
             }
@@ -2743,8 +3175,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1678243044,
-                    "Id": "386539",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Id": "327351, 327355, 386539, 386540",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While you have Temporal Displacement or other similar effects, you may use Time Warp to grant yourself {1}% Haste for {2} sec."
                 }
             }
@@ -2758,6 +3190,12 @@
                     "Id": "155149",
                     "Spec": "Frost",
                     "Text": "Icy Veins' duration is increased by {1} sec.\n\nYour Ice Lances against frozen targets extend your Icy Veins by an additional {2} sec."
+                },
+                "1": {
+                    "Hash": 3083355952,
+                    "Id": "155149",
+                    "Spec": "Frost",
+                    "Text": "Icy Veins' duration is increased by {1} sec.\r\n\r\nYour Ice Lances against frozen targets extend your Icy Veins by an additional {2} sec and Glacial Spike extends it an addtional {3} sec."
                 }
             }
         },
@@ -2792,19 +3230,19 @@
                 "0": {
                     "Hash": 1115443503,
                     "Id": "387807",
-                    "Spec": "Fire",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting Fire Blast reduces the cooldown of your loss of control abilities by {1} sec."
                 },
                 "1": {
                     "Hash": 669062225,
                     "Id": "387807",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting Ice Lance on Frozen targets reduces the cooldown of your loss of control abilities by {1} sec."
                 },
                 "2": {
                     "Hash": 2080053492,
                     "Id": "387807",
-                    "Spec": "Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Casting Clearcasting Arcane Missiles reduces the cooldown of your loss of control abilities by {1} sec."
                 }
             }
@@ -2816,8 +3254,32 @@
                 "0": {
                     "Hash": 3876086991,
                     "Id": "80353",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\n\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min."
+                },
+                "1": {
+                    "Hash": 2531525242,
+                    "Id": "80353",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Warp the flow of time, increasing haste by {1}% and time rate by {2}% for all party and raid members for {3} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {4} min."
+                },
+                "2": {
+                    "Hash": 3422694989,
+                    "Id": "80353",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min.\r\n\r\nWhen the effect ends, all affected players are frozen in time for {4} sec."
+                },
+                "3": {
+                    "Hash": 3228373778,
+                    "Id": "80353",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Warp the flow of time, increasing haste by {1}% and time rate by {2}% for all party and raid members for {3} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {4} min.\r\n\r\nWhen the effect ends, all affected players are frozen in time for {5} sec."
+                },
+                "4": {
+                    "Hash": 2509021706,
+                    "Id": "342242",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "At any moment, you have a chance to gain Arcane Power for {1} sec, gain Evocation for {2} sec, or gain Time Warp for {3} sec."
                 }
             }
         },
@@ -2851,9 +3313,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3976531459,
-                    "Id": "321507",
-                    "Spec": "Arcane",
+                    "Id": "210833, 321507",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Applies Touch of the Magi to your current target, accumulating {1}% of the damage you deal to the target for {2} sec, and then exploding for that amount of Arcane damage to the target and reduced damage to all nearby enemies.\n\n{FFFFFFFF|Generates {3} Arcane Charges.}"
+                },
+                "1": {
+                    "Hash": 2357881127,
+                    "Id": "210725, 210824",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Arcane Blast has a {1}% chance to apply Touch of the Magi, accumulating {2}% of the damage you deal to the target for {3} sec, and then exploding for that amount of Arcane damage to the target and all nearby enemies."
                 }
             }
         },
@@ -2870,7 +3338,7 @@
                 "1": {
                     "Hash": 1192727769,
                     "Id": "389627",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Greatly increases the effect of Blast Wave's knockback. Blast Wave's cooldown is reduced by {1} sec."
                 }
             }
@@ -2887,8 +3355,8 @@
                 },
                 "1": {
                     "Hash": 1675229160,
-                    "Id": "383489",
-                    "Spec": "Fire",
+                    "Id": "383489, 383492, 383493",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Your critical strike damage is increased by {1}%. When you activate Combustion, you gain {2}% additional critical strike damage, and up to {3} nearby allies gain {4}% critical strike for {5} sec."
                 }
             }
@@ -2990,19 +3458,19 @@
                 "0": {
                     "Hash": 3341289669,
                     "Id": "414660",
-                    "Spec": "Fire",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Cast Blazing Barrier on yourself and {1} nearby allies."
                 },
                 "1": {
                     "Hash": 3452439705,
                     "Id": "414660",
-                    "Spec": "Frost",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Cast Ice Barrier on yourself and {1} nearby allies."
                 },
                 "2": {
                     "Hash": 312594066,
                     "Id": "414660",
-                    "Spec": "Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Cast Prismatic Barrier on yourself and {1} nearby allies."
                 }
             }
@@ -3013,8 +3481,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 733492945,
-                    "Id": "416714",
-                    "Spec": "Fire",
+                    "Id": "419800",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "While Ignite is on {1} or fewer enemies it flares up dealing an additional {2}% of its damage to affected targets."
                 }
             }
@@ -3062,7 +3530,7 @@
                 "0": {
                     "Hash": 1133775236,
                     "Id": "415945",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "The cooldown of Mass Invisibility is reduced by {1} min and can affect allies in combat."
                 }
             }
@@ -3098,8 +3566,20 @@
                 "0": {
                     "Hash": 2134400732,
                     "Id": "414659",
-                    "Spec": "Fire, Frost, Arcane",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Ice Block now reduces all damage taken by {1}% for {2} sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown."
+                },
+                "1": {
+                    "Hash": 614402632,
+                    "Id": "414658",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your blood runs cold, reducing all damage you take by {1}% for {2} sec.\r\n\r\nCauses Hypothermia, preventing you from recasting Ice Cold for {3} sec."
+                },
+                "2": {
+                    "Hash": 1276102772,
+                    "Id": "414658",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your blood runs cold, reducing all damage you take by {1}% for {2} sec.\r\n\r\nWhile Ice Cold is active, you heal for {3}% of your maximum health over the duration.\r\n\r\nCauses Hypothermia, preventing you from recasting Ice Cold for {4} sec."
                 }
             }
         },
@@ -3133,8 +3613,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1730191790,
-                    "Id": "417491",
-                    "Spec": "Frost",
+                    "Id": "417491, 417492",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Each time you consume Fingers of Frost the damage of your next Ray of Frost is increased by {1}%, stacking up to {2}%. Icy Veins grants {3} stacks instantly."
                 }
             }
@@ -3145,8 +3625,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3953363814,
-                    "Id": "418733",
-                    "Spec": "Frost",
+                    "Id": "418735",
+                    "Spec": "Arcane, Fire, Frost",
                     "Text": "Ray of Frost deals {1}% of its damage to {2} nearby enemies."
                 }
             }
@@ -3162,6 +3642,892 @@
                     "Text": "Clearcasting makes your next Arcane Missiles channel {1}% faster or Arcane Explosion echo for {2}% damage."
                 }
             }
+        },
+        "229": {
+            "Hash": 535633833,
+            "Name": "Replenish Mana",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3990106491,
+                    "Id": "5405",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Restores {1}% mana."
+                }
+            }
+        },
+        "230": {
+            "Hash": 1123927385,
+            "Name": "Ignite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2112658610,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "1": {
+                    "Hash": 4099796306,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "2": {
+                    "Hash": 3879198882,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "3": {
+                    "Hash": 3281310421,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "4": {
+                    "Hash": 2494868965,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "5": {
+                    "Hash": 3734366117,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "6": {
+                    "Hash": 3567131049,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "7": {
+                    "Hash": 3954999328,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+                },
+                "8": {
+                    "Hash": 3977788815,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "9": {
+                    "Hash": 414778932,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "10": {
+                    "Hash": 3146286782,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "11": {
+                    "Hash": 2218151967,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "12": {
+                    "Hash": 3668271369,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "13": {
+                    "Hash": 2887062488,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "14": {
+                    "Hash": 1170049362,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                },
+                "15": {
+                    "Hash": 3885638311,
+                    "Id": "12654, 12846",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nIgnite's damage has a {3}% chance to reduce the cooldown of Fire Blast by {4} sec.\r\n\r\nFire Blast causes your Ignites to spread to {5} nearby enemies."
+                }
+            }
+        },
+        "231": {
+            "Hash": 2993771687,
+            "Name": "Waterbolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2280272917,
+                    "Id": "31707",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals {1} Frost damage to the target."
+                }
+            }
+        },
+        "232": {
+            "Hash": 1605502012,
+            "Name": "Freeze",
+            "Descriptions": {
+                "0": {
+                    "Hash": 547999465,
+                    "Id": "33395",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Blasts enemies in a {1} yard radius with frost, freezing them in place for up to {2} sec. Damage caused may interrupt the effect."
+                }
+            }
+        },
+        "233": {
+            "Hash": 762381122,
+            "Name": "Hypothermia",
+            "Descriptions": {
+                "0": {
+                    "Hash": 703764813,
+                    "Id": "41425",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "As a side-effect of exposure to intense cold, the caster cannot Ice Block or Ice Cold again for {1} sec."
+                }
+            }
+        },
+        "234": {
+            "Hash": 4142682567,
+            "Name": "Winter's Chill",
+            "Descriptions": {}
+        },
+        "235": {
+            "Hash": 3866761186,
+            "Name": "Heating Up",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2849657285,
+                    "Id": "48107",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Scored a spell critical. A second spell critical in a row will make your next Pyroblast or Flamestrike spell instant cast, and cause double the normal Ignite damage."
+                }
+            }
+        },
+        "236": {
+            "Hash": 2949463322,
+            "Name": "Arcane Momentum",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2595030323,
+                    "Id": "56384",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your Blink spell teleports you in the direction you are moving instead of the direction you are facing."
+                }
+            }
+        },
+        "237": {
+            "Hash": 4156005078,
+            "Name": "Crittermorph",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4167998718,
+                    "Id": "56599",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When cast on critters, your Polymorph spells now last {1} day and can be cast on multiple targets."
+                }
+            }
+        },
+        "238": {
+            "Hash": 1507206193,
+            "Name": "Avoidance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3843055396,
+                    "Id": "65220",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Reduces the damage your pet takes from area of effect attacks by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                }
+            }
+        },
+        "239": {
+            "Hash": 993090034,
+            "Name": "Icicle",
+            "Descriptions": {}
+        },
+        "240": {
+            "Hash": 788828677,
+            "Name": "Icicles",
+            "Descriptions": {}
+        },
+        "241": {
+            "Hash": 1445971291,
+            "Name": "Temporal Displacement",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1533736114,
+                    "Id": "80354",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Cannot benefit from Time Warp or other similar effects."
+                }
+            }
+        },
+        "242": {
+            "Hash": 3189647902,
+            "Name": "Cauterized",
+            "Descriptions": {}
+        },
+        "243": {
+            "Hash": 1564068672,
+            "Name": "Blazing Speed",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2732699945,
+                    "Id": "108843",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Suppresses movement slowing effects and increases your movement speed by {1}% for {2} sec.  Castable while another spell is in progress and unaffected by global cooldown."
+                }
+            }
+        },
+        "244": {
+            "Hash": 4060154142,
+            "Name": "Conjured Items",
+            "Descriptions": {
+                "0": {
+                    "Hash": 135382802,
+                    "Id": "118812",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Conjured items disappear if logged out for more than {1} min."
+                }
+            }
+        },
+        "245": {
+            "Hash": 1381138204,
+            "Name": "Illusion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 600515782,
+                    "Id": "131784",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Transforms the Mage to look like another player for {1} min."
+                }
+            }
+        },
+        "246": {
+            "Hash": 1069394066,
+            "Name": "Water Jet",
+            "Descriptions": {
+                "0": {
+                    "Hash": 24628438,
+                    "Id": "135029",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Channels a jet of icy water at the target, dealing {1} Frost damage to the target over {2} sec.\r\n\r\nWater Jet automatically activates Brain Freeze."
+                },
+                "1": {
+                    "Hash": 695599182,
+                    "Id": "135029",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Channels a jet of icy water at the target, slowing the target by {1}% and dealing {2} Frost damage to the target over {3} sec.\r\n\r\nWater Jet automatically activates Brain Freeze."
+                }
+            }
+        },
+        "247": {
+            "Hash": 1711147473,
+            "Name": "Evaporation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 511611489,
+                    "Id": "147971",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Reduces the size of your Water Elemental by {1}%."
+                }
+            }
+        },
+        "248": {
+            "Hash": 1198644187,
+            "Name": "Meteor Burn",
+            "Descriptions": {}
+        },
+        "249": {
+            "Hash": 1197321790,
+            "Name": "Overpowered",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1747147662,
+                    "Id": "155147",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Arcane Power now increases damage by {1}% and reduces mana costs by {2}%."
+                }
+            }
+        },
+        "250": {
+            "Hash": 3477507047,
+            "Name": "Unstable Magic",
+            "Descriptions": {
+                "0": {
+                    "Hash": 269193365,
+                    "Id": "157976, 157977, 157978, 157979",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Frostbolt has a {1}% chance to explode on impact, dealing {2}% additional damage to the target and all other enemies within {3} yds."
+                },
+                "1": {
+                    "Hash": 3230482673,
+                    "Id": "157976, 157977, 157978, 157979",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Arcane Blast has a {1}% chance to explode on impact, dealing {2}% additional damage to the target and all other enemies within {3} yds."
+                },
+                "2": {
+                    "Hash": 2057309620,
+                    "Id": "157976, 157977, 157978, 157979",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Fireball has a {1}% chance to explode on impact, dealing {2}% additional damage to the target and all other enemies within {3} yds."
+                }
+            }
+        },
+        "251": {
+            "Hash": 1809996828,
+            "Name": "Aegwynn's Ascendance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1074573571,
+                    "Id": "187677",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "An emanation of mana-fueled Arcane damage."
+                }
+            }
+        },
+        "252": {
+            "Hash": 1022934075,
+            "Name": "Molten Skin",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2068508755,
+                    "Id": "194315",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Blazing Barrier reduces all Physical damage you take by {1}%."
+                }
+            }
+        },
+        "253": {
+            "Hash": 2338528669,
+            "Name": "Aftershocks",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2189178533,
+                    "Id": "194431, 194432",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Flamestrike calls down {1} additional pillar of fire each time it is cast."
+                }
+            }
+        },
+        "254": {
+            "Hash": 1762881304,
+            "Name": "Phoenix's Flames",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4177927095,
+                    "Id": "194466, 224637",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Hurls a Phoenix that causes {1} Fire damage to the target and splashes {2} Fire damage to other nearby enemies. This damage is always a critical strike."
+                }
+            }
+        },
+        "255": {
+            "Hash": 2218893909,
+            "Name": "Cinderstorm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3476865246,
+                    "Id": "198928, 198929",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Throws a spread of {1} cinders that travel in an arc, each dealing {2} Fire damage to enemies it hits. Damage increased by {3}% if the target is affected by your Ignite."
+                }
+            }
+        },
+        "256": {
+            "Hash": 1000083974,
+            "Name": "Conflagration Flare Up",
+            "Descriptions": {}
+        },
+        "257": {
+            "Hash": 3785867549,
+            "Name": "Chilled",
+            "Descriptions": {
+                "0": {
+                    "Hash": 133458526,
+                    "Id": "205708",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Chilled, reducing movement speed by {1}% for {2} sec."
+                }
+            }
+        },
+        "258": {
+            "Hash": 628806351,
+            "Name": "Arcane Linguist",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1960131133,
+                    "Id": "210086",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "You are able to comprehend your allies' racial languages."
+                }
+            }
+        },
+        "259": {
+            "Hash": 989308259,
+            "Name": "Mark of Aluneth",
+            "Descriptions": {
+                "0": {
+                    "Hash": 231488708,
+                    "Id": "210726",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Creates a runic prison at the target's location, slowing enemy movement speed by {1}%, inflicting {2} Arcane damage over {3} sec, and then detonating for Arcane damage equal to {4}% of your maximum mana.\r\n"
+                },
+                "1": {
+                    "Hash": 3920035278,
+                    "Id": "211056",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Reduces movement speed by {1}%."
+                },
+                "2": {
+                    "Hash": 3958424271,
+                    "Id": "211076",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals {1} Arcane damage to all targets within {2} yds."
+                },
+                "3": {
+                    "Hash": 3740421765,
+                    "Id": "211088",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Deals {1} Arcane damage to enemies within {2} yds."
+                },
+                "4": {
+                    "Hash": 1434709337,
+                    "Id": "224968",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Creates a rune around the target, inflicting {1} Arcane damage over {2} sec to all enemies within {3} yds, and then detonating for Arcane damage equal to {4}% of your maximum mana."
+                }
+            }
+        },
+        "260": {
+            "Hash": 1629804120,
+            "Name": "Arcane Assault",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3435843942,
+                    "Id": "225119",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. "
+                }
+            }
+        },
+        "261": {
+            "Hash": 4150867825,
+            "Name": "Glacial Insulation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3283812176,
+                    "Id": "235297",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Ice Barrier increases your armor by {1}% while active, and Ice Block applies Ice Barrier to you when it fades."
+                }
+            }
+        },
+        "262": {
+            "Hash": 253244536,
+            "Name": "Blazing Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1062504538,
+                    "Id": "235365",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Blink ignites a Blazing Barrier around you."
+                }
+            }
+        },
+        "263": {
+            "Hash": 2719544936,
+            "Name": "Frenetic Speed",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2455917531,
+                    "Id": "236058, 236060",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting Scorch increases your movement speed by {1}% for {2} sec."
+                }
+            }
+        },
+        "264": {
+            "Hash": 2597102782,
+            "Name": "Time and Space",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1637509966,
+                    "Id": "238126, 240689, 240692",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When you cast Arcane Explosion, Aluneth will echo the Arcane Explosion for {1}% of its damage, at the location of your previous Arcane Explosion cast within {2} sec."
+                }
+            }
+        },
+        "265": {
+            "Hash": 1770462899,
+            "Name": "Contained Infernal Core",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2218759862,
+                    "Id": "248099, 248146, 248147",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting {1} Fireballs or Pyroblasts calls down a Meteor at your target."
+                }
+            }
+        },
+        "266": {
+            "Hash": 29592500,
+            "Name": "Erupting Infernal Core",
+            "Descriptions": {}
+        },
+        "267": {
+            "Hash": 791306437,
+            "Name": "Shattered Fragments of Sindragosa",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2350204188,
+                    "Id": "248100, 248176, 248177",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting {1} Frostbolts or Flurries calls down a Comet Storm at your target."
+                }
+            }
+        },
+        "268": {
+            "Hash": 1526935163,
+            "Name": "Rage of the Frost Wyrm",
+            "Descriptions": {}
+        },
+        "269": {
+            "Hash": 3742869453,
+            "Name": "Equipoise",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1309483158,
+                    "Id": "264352, 264353",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "While you are above {1}% mana, Arcane Blast deals {2} additional damage.\r\n\r\nWhile you are below {3}% mana, Arcane Blast's cost is reduced by {4}."
+                }
+            }
+        },
+        "270": {
+            "Hash": 782171944,
+            "Name": "Radiant Spark Vulnerability",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4047209724,
+                    "Id": "307454, 376103, 376104",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Conjure a radiant spark that causes {1} Arcane damage instantly, and an additional {2} damage over {3} sec.\r\n\r\nThe target takes {4}% increased damage from your direct damage spells, stacking each time they are struck. This effect ends after {5} spells.\r\n"
+                }
+            }
+        },
+        "271": {
+            "Hash": 1873310308,
+            "Name": "Tormenting Backlash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 175688006,
+                    "Id": "317589, 320035",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Conjure {1} mirrors to torment the enemy for {2} sec. Whenever the target attacks, casts a spell, or uses an ability, a mirror is consumed to inflict {3} Shadow damage and their movement and cast speed are slowed by {4}%. This effect cannot be triggered more often than once per {5} sec.\r\n\r\nThe final mirror will instead inflict {6} Shadow damage to the enemy, Rooting and Silencing them for {7} sec.\r\n\r\nWhenever a mirror is consumed you gain Clearcasting."
+                },
+                "1": {
+                    "Hash": 1139340013,
+                    "Id": "317589, 320035",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Conjure {1} mirrors to torment the enemy for {2} sec. Whenever the target attacks, casts a spell, or uses an ability, a mirror is consumed to inflict {3} Shadow damage and their movement and cast speed are slowed by {4}%. This effect cannot be triggered more often than once per {5} sec.\r\n\r\nThe final mirror will instead inflict {6} Shadow damage to the enemy, Rooting and Silencing them for {7} sec.\r\n\r\nWhenever a mirror is consumed your Fire Blast cooldown is reduced by {8} sec."
+                },
+                "2": {
+                    "Hash": 2831016119,
+                    "Id": "317589, 320035",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Conjure {1} mirrors to torment the enemy for {2} sec. Whenever the target attacks, casts a spell, or uses an ability, a mirror is consumed to inflict {3} Shadow damage and their movement and cast speed are slowed by {4}%. This effect cannot be triggered more often than once per {5} sec.\r\n\r\nThe final mirror will instead inflict {6} Shadow damage to the enemy, Rooting and Silencing them for {7} sec.\r\n\r\nWhenever a mirror is consumed you gain Brain Freeze."
+                }
+            }
+        },
+        "272": {
+            "Hash": 3245750369,
+            "Name": "Agonizing Backlash",
+            "Descriptions": {}
+        },
+        "273": {
+            "Hash": 3703612297,
+            "Name": "Echoes of Elisande",
+            "Descriptions": {
+                "0": {
+                    "Hash": 255844755,
+                    "Id": "320919",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Time Warp also increases the rate at which time passes by {1}%."
+                }
+            }
+        },
+        "274": {
+            "Hash": 596011272,
+            "Name": "Timebreaker's Paradox",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3000720278,
+                    "Id": "320920",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Time Warp lasts {1}% longer, but causes all affected players to be frozen in time for {2} sec at the end."
+                },
+                "1": {
+                    "Hash": 1778653480,
+                    "Id": "356346",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Frozen in time for {1} sec."
+                }
+            }
+        },
+        "275": {
+            "Hash": 1899359588,
+            "Name": "Focus Magic",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4123638100,
+                    "Id": "321358",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Increases the target's chance to critically hit with spells by {1}% for {2} min. When the target critically hits your Intellect and chance to critically hit with spells is increased by {3}% for {4} sec. Cannot be cast on self. Limit {5} target."
+                },
+                "1": {
+                    "Hash": 1042482613,
+                    "Id": "321363",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Increases the target's chance to critically hit with spells by {1}% for {2} sec. When the target critically hits your Intellect and chance to critically hit with spells is increased by {3}% for {4} sec. Cannot be cast on self. Limit {5} target."
+                }
+            }
+        },
+        "276": {
+            "Hash": 1860702599,
+            "Name": "Disciplinary Command",
+            "Descriptions": {
+                "0": {
+                    "Hash": 722842060,
+                    "Id": "327365, 327371",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Casting a Frost, Fire and Arcane spell within {1} sec of each other increases your Critical Strike damage of all your spells by {2}%. This effect can only occur once every {3} sec."
+                }
+            }
+        },
+        "277": {
+            "Hash": 3783508298,
+            "Name": "Molten Skyfall",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1396000811,
+                    "Id": "333167, 333170, 333182",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Damaging an enemy with {1} Fireballs or Pyroblasts causes your next Fireball to call down a Meteor on your target. Hitting an enemy player counts as double."
+                }
+            }
+        },
+        "278": {
+            "Hash": 1838799270,
+            "Name": "Siphoned Malice",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3947748005,
+                    "Id": "337090",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Each time a Mirror of Torment is consumed your spell damage is increased by {FFFFFFFF|{1}%} for {2} sec, stacking {3} times."
+                }
+            }
+        },
+        "279": {
+            "Hash": 4104567411,
+            "Name": "Fae Tendrils",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3003952972,
+                    "Id": "342372, 342373",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Shifting Power entangles enemies it hits, rooting them in place for {1} sec."
+                }
+            }
+        },
+        "280": {
+            "Hash": 445747065,
+            "Name": "Frost Storm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1816608952,
+                    "Id": "363544",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your spells have a {1}% chance to call down a Comet Storm on your target enemy. This effect cannot occur more than once every {2} sec."
+                }
+            }
+        },
+        "281": {
+            "Hash": 2621820091,
+            "Name": "Arcane Lucidity",
+            "Descriptions": {
+                "0": {
+                    "Hash": 319139992,
+                    "Id": "363685",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Touch of the Magi's duration is increased by {1} sec and grants {2}% mana regeneration for {3} sec."
+                }
+            }
+        },
+        "282": {
+            "Hash": 4052763365,
+            "Name": "Numbing Blast",
+            "Descriptions": {}
+        },
+        "283": {
+            "Hash": 3902751978,
+            "Name": "Fury of the Sun King",
+            "Descriptions": {}
+        },
+        "284": {
+            "Hash": 3007222042,
+            "Name": "Displacement Beacon",
+            "Descriptions": {}
+        },
+        "285": {
+            "Hash": 1068940492,
+            "Name": "Touch of Ice",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2584300682,
+                    "Id": "394994",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Consuming Fingers of Frost increases spell damage by {1}% for {2} sec."
+                }
+            }
+        },
+        "286": {
+            "Hash": 676503518,
+            "Name": "Bursting Energy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2612493644,
+                    "Id": "395006",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When Arcane Blast or Arcane Explosion critically strikes at least one target, the critical strike chance of your next Arcane Barrage is increased by {1}%, stacking up to {2} times."
+                }
+            }
+        },
+        "287": {
+            "Hash": 235668681,
+            "Name": "Charring Embers",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2410719458,
+                    "Id": "408665",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Phoenix Flames applies Charring Embers to all enemies it damages, increasing their damage taken from you by {1}% for {2} sec."
+                }
+            }
+        },
+        "288": {
+            "Hash": 2113130713,
+            "Name": "Calefaction",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3094926406,
+                    "Id": "408673, 408674, 409964",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When your direct damage spells hit an enemy affected by Charring Embers {1} times the damage of your next {2} Phoenix Flames is increased by {3}% and they refund a charge on use."
+                }
+            }
+        },
+        "289": {
+            "Hash": 2060003290,
+            "Name": "Flame's Fury",
+            "Descriptions": {}
+        },
+        "290": {
+            "Hash": 236564463,
+            "Name": "Shattered Ice",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1810176582,
+                    "Id": "408763",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Flurry and Ice Lance damage increased by {1}%. Flurry causes an explosion on impact, dealing {2}% of its damage to nearby enemies, damage reduced beyond {3} targets."
+                }
+            }
+        },
+        "291": {
+            "Hash": 3214833303,
+            "Name": "Arcane Overload",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2486721118,
+                    "Id": "409022",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "For every {1} Mana spent on and during Arcane Surge, your spell damage is increased by {2}% for {3} sec after Arcane Surge fades, stacking up to {4} times. Mana regeneration is increased by {5}% for this time."
+                }
+            }
+        },
+        "292": {
+            "Hash": 1433171386,
+            "Name": "Frigid Empowerment",
+            "Descriptions": {
+                "0": {
+                    "Hash": 357831377,
+                    "Id": "417487, 417488",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Your water elemental's abilities apply Frigid Empowerment increasing the Frost damage you deal by {1}%, up to {2}%."
+                }
+            }
+        },
+        "293": {
+            "Hash": 1554127295,
+            "Name": "Glacial Blast",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2972763189,
+                    "Id": "424120",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Glacial Spike damage increased by {1}% and it explodes when it Shatters a frozen target, dealing {2}% of its damage dealt to nearby enemies. Deals reduced damage beyond {3} targets."
+                }
+            }
+        },
+        "294": {
+            "Hash": 3322844222,
+            "Name": "Searing Rage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 938455679,
+                    "Id": "424285",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "When Pyroblast and Flamestrike critically strike you gain Searing Rage, increasing your critical strike damage by {1}% for {2} sec, stacking up to {3}%. "
+                }
+            }
+        },
+        "295": {
+            "Hash": 2241432595,
+            "Name": "Forethought",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1834661893,
+                    "Id": "424293",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "Consuming Clearcasting grants increased spell damage by {1}% for {2} sec, stacking up to {3}%.\r\n"
+                }
+            }
+        },
+        "296": {
+            "Hash": 3118674506,
+            "Name": "Arcane Artillery",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1846213210,
+                    "Id": "424331, 424334",
+                    "Spec": "Arcane, Fire, Frost",
+                    "Text": "After consuming Clearcasting {1} times, your next Arcane Missiles consumes Arcane Battery, dealing {2}% increased damage to your primary target and fires at up to {3} nearby enemies dealing {4}% increased damage."
+                }
+            }
+        },
+        "297": {
+            "Hash": 3807272180,
+            "Name": "Arcane Battery",
+            "Descriptions": {}
         }
     }
 }
