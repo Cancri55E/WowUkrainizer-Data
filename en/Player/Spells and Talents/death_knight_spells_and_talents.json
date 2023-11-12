@@ -7,21 +7,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1999620883,
-                    "Id": "383269",
-                    "Spec": "Unholy",
+                    "Id": "323710, 323798, 383269, 383312, 383313",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain Runic Corruption instantly, and again every {7} sec."
                 },
                 "1": {
                     "Hash": 2329133338,
-                    "Id": "383269",
-                    "Spec": "Blood",
+                    "Id": "323710, 323798, 383269, 383312, 383313",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain {7} Bone Shield charges instantly, and again every {8} sec."
                 },
                 "2": {
                     "Hash": 634215081,
-                    "Id": "383269",
-                    "Spec": "Frost",
+                    "Id": "323710, 323798, 383269, 383312, 383313",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\n\nGain Rime instantly, and again every {7} sec."
+                },
+                "3": {
+                    "Hash": 3334507219,
+                    "Id": "323710, 323798, 383269, 383312, 383313",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.\r\n\r\nGain  instantly, and again every {7} sec."
                 }
             }
         },
@@ -34,6 +40,12 @@
                     "Id": "377047",
                     "Spec": "Frost",
                     "Text": "Frostwyrm's Fury has {1}% reduced cooldown and Freezes all enemies hit for {2} sec."
+                },
+                "1": {
+                    "Hash": 2066073574,
+                    "Id": "377048",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Freezes enemies for {1} sec."
                 }
             }
         },
@@ -68,7 +80,7 @@
                 "0": {
                     "Hash": 1568133751,
                     "Id": "205727",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Reduces the cooldown of Anti-Magic Shell by {1} sec and increases its duration and amount absorbed by {2}%."
                 }
             }
@@ -80,8 +92,20 @@
                 "0": {
                     "Hash": 381936970,
                     "Id": "48707",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects. Damage absorbed generates Runic Power."
+                },
+                "1": {
+                    "Hash": 3228378640,
+                    "Id": "48707",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects."
+                },
+                "2": {
+                    "Hash": 2939670843,
+                    "Id": "49088",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Surrounds the Death Knight in an Anti-Magic Shell, absorbing {1}% of the damage dealt by harmful spells. Damage absorbed by Anti-Magic Shell energizes the Death Knight with additional Runic Power. Lasts {2} sec."
                 }
             }
         },
@@ -91,8 +115,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2961871641,
-                    "Id": "51052",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "51052, 145629",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Places an Anti-Magic Zone that reduces spell damage taken by party or raid members by {1}%. The Anti-Magic Zone lasts for {2} sec or until it absorbs {3} damage."
                 }
             }
@@ -109,9 +133,21 @@
                 },
                 "1": {
                     "Hash": 4161013850,
-                    "Id": "275699",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "275699, 343758",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons an Army of the Dead ghoul for {3} sec for each Festering Wound you burst.\r\n\r\n{FFFFFFFF|Generates {4} Runes.}"
+                },
+                "2": {
+                    "Hash": 67862334,
+                    "Id": "220143",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Strikes the enemy, dealing {1} Physical damage and bursting up to {2} Festering Wounds on the target, summoning a member of your Army of the Dead for {3} sec for each burst Festering Wound."
+                },
+                "3": {
+                    "Hash": 3625182564,
+                    "Id": "275699, 343758",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons an Army of the Dead ghoul for {3} sec for every {4} Festering [plural|Wound|Wounds] you burst.\r\n\r\n{FFFFFFFF|Generates {5} Runes.}"
                 }
             }
         },
@@ -124,6 +160,12 @@
                     "Id": "276837",
                     "Spec": "Unholy",
                     "Text": "Apocalypse's cooldown is reduced by {1} sec. Additionally, Death Coil and Epidemic reduce the cooldown of Army of the Dead by {2} sec."
+                },
+                "1": {
+                    "Hash": 2098261632,
+                    "Id": "276837",
+                    "Spec": "Unholy",
+                    "Text": "Apocalypse's cooldown is reduced by {1} sec. Additionally, Death Coil reduces the cooldown of Army of the Dead by {2} sec."
                 }
             }
         },
@@ -133,8 +175,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 298404102,
-                    "Id": "42650",
-                    "Spec": "Unholy",
+                    "Id": "42650, 42651, 221180",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Summons a legion of ghouls who swarms your enemies, fighting anything they can for {1} sec."
                 }
             }
@@ -145,8 +187,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 225490449,
-                    "Id": "221562",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "108194, 221562",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Lifts the enemy target off the ground, crushing their throat with dark energy and stunning them for {1} sec."
                 }
             }
@@ -169,8 +211,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 280128671,
-                    "Id": "207142",
-                    "Spec": "Frost",
+                    "Id": "207142, 207150",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing {1} Frost damage."
                 }
             }
@@ -205,8 +247,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1306248212,
-                    "Id": "207167",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "207167, 317898",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Targets in a cone in front of you are blinded, causing them to wander disoriented for {1} sec. Damage may cancel the effect.\n\nWhen Blinding Sleet ends, enemies are slowed by {2}% for {3} sec."
                 }
             }
@@ -229,8 +271,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 201130055,
-                    "Id": "374598",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "374606, 374609",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "When you fall below {1}% health you drain {2} health from nearby enemies. Can only occur every {3} min."
                 }
             }
@@ -325,8 +367,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1786973642,
-                    "Id": "195679",
-                    "Spec": "Blood",
+                    "Id": "195679, 196361",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your auto attacks have a chance to summon a Bloodworm.\n\nBloodworms deal minor damage to your target for {1} sec and then burst, healing you for {2}% of your missing health.\n\nIf you drop below {3}% health, your Bloodworms will immediately burst and heal you."
                 }
             }
@@ -337,8 +379,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1168418275,
-                    "Id": "377098",
-                    "Spec": "Frost",
+                    "Id": "377098, 377101, 377103",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Consuming Killing Machine grants {1}% critical strike chance for {2} sec, stacking up to {3} times. At {4} stacks your next Killing Machine consumes the stacks and grants you {5}% increased Frost damage for {6} sec."
                 }
             }
@@ -349,8 +391,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1465813647,
-                    "Id": "194844",
-                    "Spec": "Blood",
+                    "Id": "194844, 196528, 196545",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "A whirl of bone and gore batters all nearby enemies, dealing {1} Shadow damage every {2} sec, and healing you for {3}% of your maximum health every time it deals damage (up to {4}%). Lasts {5} sec per {6} Runic Power spent. Deals reduced damage beyond {7} targets."
                 }
             }
@@ -373,8 +415,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2490607076,
-                    "Id": "374504",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "374557",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal {1}% increased damage for {2} sec."
                 }
             }
@@ -385,8 +427,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1074827542,
-                    "Id": "207264",
-                    "Spec": "Unholy",
+                    "Id": "207264, 207267",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Bursting a Festering Wound deals {1}% more damage, and deals {2} Shadow damage to all nearby enemies. Deals reduced damage beyond {3} targets."
                 }
             }
@@ -398,8 +440,14 @@
                 "0": {
                     "Hash": 2090856518,
                     "Id": "45524",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Shackles the target with frozen chains, reducing movement speed by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 3005664212,
+                    "Id": "45524",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Shackles the target and {1} nearby enemy with frozen chains, reducing movement speed by {2}% for {3} sec."
                 }
             }
         },
@@ -409,8 +457,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1956773104,
-                    "Id": "305392",
-                    "Spec": "Frost",
+                    "Id": "204167, 305392",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Deals {1} Frost damage to the target and reduces their movement speed by {2}% for {3} sec.\n\nChill Streak bounces up to {4} times between closest targets within {5} yards."
                 }
             }
@@ -440,20 +488,38 @@
                 "1": {
                     "Hash": 3417084168,
                     "Id": "316916",
-                    "Spec": "Blood",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Heart Strike hits up to {1} additional enemies while you remain in Death and Decay."
                 },
                 "2": {
                     "Hash": 485977033,
                     "Id": "316916",
-                    "Spec": "Unholy",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Scourge Strike hits up to {1} additional enemies while you remain in Death and Decay."
                 },
                 "3": {
                     "Hash": 3758293907,
                     "Id": "316916",
-                    "Spec": "Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Obliterate hits up to {1} additional enemies while you remain in Death and Decay."
+                },
+                "4": {
+                    "Hash": 3230547253,
+                    "Id": "316916",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Scourge Strike additional enemies while you remain in Death and Decay."
+                },
+                "5": {
+                    "Hash": 819224517,
+                    "Id": "316916",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Clawing Shadows additional enemies while you remain in Death and Decay."
+                },
+                "6": {
+                    "Hash": 1182543376,
+                    "Id": "316916",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Clawing Shadows hits up to {1} additional enemies while you remain in Death and Decay."
                 }
             }
         },
@@ -463,8 +529,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1464555108,
-                    "Id": "389679",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "389681",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death Grip slows enemy movement speed by {1}% for {2} sec."
                 }
             }
@@ -475,8 +541,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2334940290,
-                    "Id": "391477",
-                    "Spec": "Blood",
+                    "Id": "391477, 391481",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Enemies affected by Blood Plague take {1}% increased damage from you and Death Strike increases the damage of your Blood Plague by {2}% for {3} sec, stacking up to {4} times."
                 }
             }
@@ -499,8 +565,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3147282986,
-                    "Id": "281208",
-                    "Spec": "Frost",
+                    "Id": "281209, 281210",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Every {1} sec, gain a stack of Cold Heart, causing your next Chains of Ice to deal {2} Frost damage. Stacks up to {3} times."
                 }
             }
@@ -523,8 +589,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 69111767,
-                    "Id": "378848",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "378849",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Successfully interrupting an enemy with Mind Freeze grants {1} Runic Power and reduces its cooldown by {2} sec."
                 }
             }
@@ -535,9 +601,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 800864276,
-                    "Id": "390259",
-                    "Spec": "Unholy",
+                    "Id": "390259, 390260, 390264",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Dark Transformation also empowers your Gargoyle and Army of the Dead for {1} sec, increasing their damage by {2}%."
+                },
+                "1": {
+                    "Hash": 3604560325,
+                    "Id": "390259, 390260, 390264",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Dark Transformation also empowers your Dark Arbiter and Army of the Dead for {1} sec, increasing their damage by {2}%."
                 }
             }
         },
@@ -550,6 +622,12 @@
                     "Id": "274156",
                     "Spec": "Blood",
                     "Text": "Strikes all enemies in front of you with a hungering attack that deals {1} Physical damage and heals you for {2}% of that damage. Deals reduced damage beyond {3} targets."
+                },
+                "1": {
+                    "Hash": 2482526634,
+                    "Id": "205223, 205224",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Strikes all enemies in front of you with a hungering attack that deals {1} Physical damage and heals you for {2}% of that damage."
                 }
             }
         },
@@ -560,7 +638,7 @@
                 "0": {
                     "Hash": 1372060182,
                     "Id": "111673",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Dominates the target undead creature up to level {1}, forcing it to do your bidding for {2} min."
                 }
             }
@@ -571,8 +649,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2768934246,
-                    "Id": "81136",
-                    "Spec": "Blood",
+                    "Id": "81136, 81141",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your auto attacks on targets infected with your Blood Plague have a chance to make your next Death and Decay cost no runes and reset its cooldown."
                 }
             }
@@ -583,8 +661,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4057634415,
-                    "Id": "49028",
-                    "Spec": "Blood",
+                    "Id": "49028, 81256, 364197",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Summons a rune weapon for {1} sec that mirrors your melee attacks and bolsters your defenses.\n\nWhile active, you gain {2}% parry chance."
                 }
             }
@@ -596,7 +674,7 @@
                 "0": {
                     "Hash": 3437420192,
                     "Id": "56222",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Command the target to attack you."
                 }
             }
@@ -619,8 +697,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2284922440,
-                    "Id": "178819",
-                    "Spec": "Unholy, Frost",
+                    "Id": "101568, 178819",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "When you kill an enemy that yields experience or honor, your next Death Strike within {1} sec is free and heals for an additional {2}% of maximum health."
                 }
             }
@@ -631,9 +709,45 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3126558295,
-                    "Id": "63560",
-                    "Spec": "Unholy",
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your ghoul deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the ghoul's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "1": {
+                    "Hash": 1506053549,
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your ghoul deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. The ghoul's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "2": {
+                    "Hash": 3239883588,
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your abomination deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. The abomination's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "3": {
+                    "Hash": 1684454647,
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your geist deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. The geist's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "4": {
+                    "Hash": 2848571444,
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your abomination deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the abomination's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "5": {
+                    "Hash": 1425050392,
+                    "Id": "63560, 344955",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your geist deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the geist's abilities are empowered and take on new functions while the transformation is active."
+                },
+                "6": {
+                    "Hash": 601549037,
+                    "Id": "325554",
+                    "Spec": "Unholy",
+                    "Text": "Dark Transformation grants your ghoul {1}% energy."
                 }
             }
         },
@@ -667,8 +781,8 @@
                 },
                 "2": {
                     "Hash": 869996207,
-                    "Id": "43265",
-                    "Spec": "Unholy",
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\n\nWhile you remain within the area, your  Scourge Strike will hit up to {3} enemies near the target."
                 },
                 "3": {
@@ -676,6 +790,42 @@
                     "Id": "43265",
                     "Spec": "Frost",
                     "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional targets."
+                },
+                "4": {
+                    "Hash": 2920117793,
+                    "Id": "52212, 341340",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the ground targeted by the Death Knight, causing Shadow damage every sec that targets remain in the area for {1} sec."
+                },
+                "5": {
+                    "Hash": 4119092592,
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and  Heart Strike will hit up to {3} additional targets."
+                },
+                "6": {
+                    "Hash": 21265851,
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional [plural|Target|targets]."
+                },
+                "7": {
+                    "Hash": 4096175753,
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and  Scourge Strike will hit up to {3} enemies near the target."
+                },
+                "8": {
+                    "Hash": 3438983127,
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your  Clawing Shadows will hit up to {3} enemies near the target."
+                },
+                "9": {
+                    "Hash": 2741614661,
+                    "Id": "43265, 188290",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and  Clawing Shadows will hit up to {3} enemies near the target."
                 }
             }
         },
@@ -698,14 +848,38 @@
                 "0": {
                     "Hash": 399214469,
                     "Id": "47541",
-                    "Spec": "Unholy",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Fires a blast of unholy energy at the target and {1} additional nearby target, causing {2} Shadow damage to an enemy or healing an Undead ally for {3} health.\n\nIncreases the duration of Dark Transformation by {4} sec."
                 },
                 "1": {
                     "Hash": 2100374321,
                     "Id": "47541",
-                    "Spec": "Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health."
+                },
+                "2": {
+                    "Hash": 840249606,
+                    "Id": "47541",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Fires a blast of unholy energy at the target and {1} additional nearby target, causing {2} Shadow damage to an enemy or healing an Undead ally for {3} health."
+                },
+                "3": {
+                    "Hash": 3924262122,
+                    "Id": "47541",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health.\r\n\r\nIncreases the duration of Dark Transformation by {3} sec."
+                },
+                "4": {
+                    "Hash": 1972371895,
+                    "Id": "47632",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Fire a blast of unholy energy, causing Shadow damage to an enemy target or healing a friendly Undead target."
+                },
+                "5": {
+                    "Hash": 1870920719,
+                    "Id": "47633",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Fire a blast of unholy energy, causing Shadow damage to an enemy target or healing damage from a friendly Undead target."
                 }
             }
         },
@@ -716,7 +890,7 @@
                 "0": {
                     "Hash": 1086364669,
                     "Id": "50977",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Opens a gate which you can use to return to Ebon Hold.\n\nUsing a Death Gate while in Ebon Hold will return you back to near your departure point."
                 }
             }
@@ -728,14 +902,26 @@
                 "0": {
                     "Hash": 2211635590,
                     "Id": "49576",
-                    "Spec": "Blood",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and forcing the enemy to attack you."
                 },
                 "1": {
                     "Hash": 3201359350,
                     "Id": "49576",
-                    "Spec": "Unholy, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you."
+                },
+                "2": {
+                    "Hash": 3832352236,
+                    "Id": "49576",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and slowing their movement speed by {1}% for {2} sec."
+                },
+                "3": {
+                    "Hash": 1191962543,
+                    "Id": "49576",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and slowing their movement speed by {1}% for {2} sec and forcing the enemy to attack you."
                 }
             }
         },
@@ -746,7 +932,7 @@
                 "0": {
                     "Hash": 1352694023,
                     "Id": "48743",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Create a death pact that heals you for {1}% of your maximum health, but absorbs incoming healing equal to {2}% of your max health for {3} sec."
                 }
             }
@@ -757,8 +943,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3800277987,
-                    "Id": "377537",
-                    "Spec": "Unholy",
+                    "Id": "377537, 377540",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death Coil and Epidemic debilitate your enemy applying Death Rot causing them to take {1}% increased Shadow damage, up to {2}% from you for {3} sec. If Death Coil or Epidemic consume Sudden Doom it applies two stacks of Death Rot."
                 }
             }
@@ -769,14 +955,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 603818472,
-                    "Id": "49998",
-                    "Spec": "Frost",
+                    "Id": "45470, 49998, 66188",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Focuses dark power into a strike with both weapons, that deals a total of {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health."
                 },
                 "1": {
                     "Hash": 3136838431,
-                    "Id": "49998",
-                    "Spec": "Unholy, Blood",
+                    "Id": "45470, 49998, 66188",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Focuses dark power into a strike that deals {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health."
                 }
             }
@@ -788,7 +974,7 @@
                 "0": {
                     "Hash": 2715605777,
                     "Id": "48265",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "For {1} sec, your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks.\n\n{FFFFFFFF|Passive:} You cannot be slowed below {4}% of normal speed."
                 }
             }
@@ -812,7 +998,7 @@
                 "0": {
                     "Hash": 3735928509,
                     "Id": "356367",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death's Advance, Death and Decay, and Death Grip have {1} additional charge."
                 }
             }
@@ -824,7 +1010,7 @@
                 "0": {
                     "Hash": 3877836793,
                     "Id": "276079",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Increases the range of Death Grip by {1} yds.\n\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip."
                 }
             }
@@ -859,9 +1045,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 908107135,
-                    "Id": "152280",
-                    "Spec": "Unholy",
+                    "Id": "152280, 156000, 218100",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\n\nWhile you remain within your Defile, your Scourge Strike will hit {3} enemies near the target.\n\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {4}%, up to {5}%."
+                },
+                "1": {
+                    "Hash": 903382593,
+                    "Id": "152280, 156000, 218100",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {4}%, up to {5}%."
+                },
+                "2": {
+                    "Hash": 1990615720,
+                    "Id": "152280, 156000, 218100",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Scourge Strike will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {7}%, up to {8}%."
+                },
+                "3": {
+                    "Hash": 3651433052,
+                    "Id": "152280, 156000, 218100",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {7}%, up to {8}%."
                 }
             }
         },
@@ -916,6 +1120,18 @@
                     "Id": "47568",
                     "Spec": "Unholy, Blood",
                     "Text": "Empower your rune weapon, gaining {1}% Haste and generating {2} Rune and {3} Runic Power instantly and every {4} sec for {5} sec.\n"
+                },
+                "2": {
+                    "Hash": 2937482653,
+                    "Id": "47568",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec.\r\n"
+                },
+                "3": {
+                    "Hash": 3918594869,
+                    "Id": "47568",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec.\r\n\r\nIf you already know Empower Rune Weapon, instead gain {6} additional [plural|charge|charges] of Empower Rune Weapon."
                 }
             }
         },
@@ -937,8 +1153,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2386276115,
-                    "Id": "377190",
-                    "Spec": "Frost",
+                    "Id": "377192, 377195",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "When Pillar of Frost expires, your Strength is increased by {1}% for {2} sec. This effect lasts {3} sec longer for each Obliterate and Frostscythe critical strike during Pillar of Frost."
                 }
             }
@@ -950,7 +1166,7 @@
                 "0": {
                     "Hash": 3097766457,
                     "Id": "392566",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by {1}% and the damage they deal to you by {2}% for {3} sec."
                 }
             }
@@ -961,9 +1177,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3978131096,
-                    "Id": "207317",
-                    "Spec": "Unholy",
+                    "Id": "207317, 212739, 215969",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them.\n\nIncreases the duration of Dark Transformation by {3} sec."
+                },
+                "1": {
+                    "Hash": 1409624143,
+                    "Id": "207317, 212739, 215969",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them."
                 }
             }
         },
@@ -985,8 +1207,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3261947378,
-                    "Id": "376938",
-                    "Spec": "Frost",
+                    "Id": "376974",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Remorseless Winter deals {1}% increased damage to enemies it hits, stacking up to {2} times."
                 }
             }
@@ -1021,8 +1243,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 713333106,
-                    "Id": "390161",
-                    "Spec": "Unholy",
+                    "Id": "390161, 390162",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Festering Strike has a {1}% chance to generate {2} Rune and grant Runic Corruption."
                 }
             }
@@ -1045,9 +1267,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 326170230,
-                    "Id": "377590",
-                    "Spec": "Unholy",
+                    "Id": "377590, 377591",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Popping a Festering Wound increases your Strength by {1}% for {2} sec stacking. Does not refresh duration."
+                },
+                "1": {
+                    "Hash": 1804974871,
+                    "Id": "274373",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bursting a Festering Wound grants you {1} Strength for {2} sec, stacking. Stacking this effect does not extend its duration."
                 }
             }
         },
@@ -1072,6 +1300,12 @@
                     "Id": "377073",
                     "Spec": "Frost",
                     "Text": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} runes."
+                },
+                "1": {
+                    "Hash": 2594327414,
+                    "Id": "377073, 377074",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} [plural|rune|runes]."
                 }
             }
         },
@@ -1081,9 +1315,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1017302322,
-                    "Id": "49143",
-                    "Spec": "Frost",
+                    "Id": "49143, 66196, 222026, 325464",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Chill your weapon with icy power and quickly strike the enemy, dealing {1} Frost damage."
+                },
+                "1": {
+                    "Hash": 4291633706,
+                    "Id": "49143, 66196, 222026, 325464",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Chill your weapons with icy power and quickly strike the enemy with both, dealing a total of {1} Frost damage."
                 }
             }
         },
@@ -1105,8 +1345,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1265238604,
-                    "Id": "377226",
-                    "Spec": "Frost",
+                    "Id": "377243, 377245, 377253",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Aid grants you {3}% Mastery for {4} sec, up to {5}%.\n"
                 }
             }
@@ -1117,8 +1357,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2014475674,
-                    "Id": "279302",
-                    "Spec": "Frost",
+                    "Id": "279302, 279303, 410790",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Summons a frostwyrm who breathes on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
                 }
             }
@@ -1129,8 +1369,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1817208295,
-                    "Id": "194912",
-                    "Spec": "Frost",
+                    "Id": "194912, 211805",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Each Rune spent during Remorseless Winter increases its damage by {1}%, and extends its duration by {2} sec."
                 }
             }
@@ -1141,8 +1381,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 971302898,
-                    "Id": "377587",
-                    "Spec": "Unholy",
+                    "Id": "377588, 377589",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Dark Transformation also increases the attack speed and damage of you and your Monstrosity by {1}%."
                 }
             }
@@ -1153,8 +1393,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2448421511,
-                    "Id": "194913",
-                    "Spec": "Frost",
+                    "Id": "194913, 195975",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Summon glacial spikes from the ground that advance forward, each dealing {1} Frost damage and applying Razorice to enemies near their eruption point."
                 }
             }
@@ -1190,8 +1430,14 @@
                 "0": {
                     "Hash": 2882184001,
                     "Id": "273952",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death and Decay reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec."
+                },
+                "1": {
+                    "Hash": 13007900,
+                    "Id": "273952",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Defile reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec."
                 }
             }
         },
@@ -1204,6 +1450,12 @@
                     "Id": "276023",
                     "Spec": "Unholy",
                     "Text": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}% or Epidemic by {4}%."
+                },
+                "1": {
+                    "Hash": 4181387879,
+                    "Id": "276023",
+                    "Spec": "Unholy",
+                    "Text": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}%."
                 }
             }
         },
@@ -1216,6 +1468,24 @@
                     "Id": "206930",
                     "Spec": "Blood",
                     "Text": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec, plus {5} Runic Power per additional enemy struck.|r"
+                },
+                "1": {
+                    "Hash": 2383934061,
+                    "Id": "228645",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power.}"
+                },
+                "2": {
+                    "Hash": 17613217,
+                    "Id": "206930, 210738, 368938",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power, plus {6} Runic Power per additional enemy struck.}"
+                },
+                "3": {
+                    "Hash": 2663720400,
+                    "Id": "316575",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Generates {1} additional Runic Power."
                 }
             }
         },
@@ -1237,8 +1507,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1929727476,
-                    "Id": "377655",
-                    "Spec": "Blood",
+                    "Id": "377655, 377656",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Heart Strike has a chance to increase the damage of your next Death Strike by {1}%."
                 }
             }
@@ -1249,8 +1519,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 539978468,
-                    "Id": "273946",
-                    "Spec": "Blood",
+                    "Id": "273946, 273947",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Each enemy hit by Blood Boil increases the damage and healing done by your next Death Strike by {1}%, stacking up to {2} times."
                 }
             }
@@ -1264,6 +1534,12 @@
                     "Id": "57330",
                     "Spec": "Frost",
                     "Text": "Blow the Horn of Winter, gaining {1} Runes and generating {2} Runic Power."
+                },
+                "1": {
+                    "Hash": 1965954825,
+                    "Id": "57330",
+                    "Spec": "Frost",
+                    "Text": "Blow the Horn of Winter, gaining {1} [plural|Rune|Runes] and generating {2} Runic Power."
                 }
             }
         },
@@ -1273,9 +1549,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4112783186,
-                    "Id": "49184",
-                    "Spec": "Frost",
+                    "Id": "49184, 237680",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Blast the target with a frigid wind, dealing {1} Frost damage to that foe, and reduced damage to all other enemies within {2} yards, infecting all targets with Frost Fever.\n\n|Tinterface\\icons\\spell_deathknight_frostfever.blp:24|t {FFFFFFFF|Frost Fever}\nA disease that deals {3} Frost damage over {4} sec and has a chance to grant the Death Knight {5} Runic Power each time it deals damage."
+                },
+                "1": {
+                    "Hash": 991895938,
+                    "Id": "49184, 237680",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Blast the target with a frigid wind, dealing {1} Frost damage and applying Frost Fever to the target.\r\n\r\n|Tinterface\\icons\\spell_deathknight_frostfever.blp:24|t {FFFFFFFF|Frost Fever}\r\nA disease that deals {2} Frost damage over {3} sec and has a chance to grant the Death Knight {4} Runic Power each time it deals damage."
                 }
             }
         },
@@ -1286,7 +1568,7 @@
                 "0": {
                     "Hash": 1424518251,
                     "Id": "48792",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your blood freezes, granting immunity to Stun effects and reducing all damage you take by {1}% for {2} sec."
                 }
             }
@@ -1312,6 +1594,12 @@
                     "Id": "207126",
                     "Spec": "Frost",
                     "Text": "Your Frost Strike and Obliterate critical strikes reduce the remaining cooldown of Pillar of Frost by {1} sec."
+                },
+                "1": {
+                    "Hash": 1073982470,
+                    "Id": "207126",
+                    "Spec": "Frost",
+                    "Text": "Your Frost Strike, Frostscythe, and Obliterate critical strikes reduce the remaining cooldown of Pillar of Frost by {1} sec."
                 }
             }
         },
@@ -1321,8 +1609,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1188382207,
-                    "Id": "194878",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "194878, 194879",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your Runic Power spending abilities increase your melee attack speed by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -1441,9 +1729,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3770765711,
-                    "Id": "253593",
-                    "Spec": "Frost",
+                    "Id": "253593, 253595, 253597",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\n\nObliterate consumes a stack to deal an additional {3} Frost damage."
+                },
+                "1": {
+                    "Hash": 2448264568,
+                    "Id": "253593, 253595, 253597",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\r\n\r\nObliterate and Frostscythe consume a stack to deal an additional {3} Frost damage."
                 }
             }
         },
@@ -1456,6 +1750,12 @@
                     "Id": "207272",
                     "Spec": "Unholy",
                     "Text": "Your ghoul's Claw attack has a {1}% chance to cause a Festering Wound on the target."
+                },
+                "1": {
+                    "Hash": 1668015658,
+                    "Id": "207272",
+                    "Spec": "Unholy",
+                    "Text": "Your abomination's Cleaver attack has a {1}% chance to cause a Festering Wound on the target."
                 }
             }
         },
@@ -1477,8 +1777,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3465155344,
-                    "Id": "391566",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "391566, 391568",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your auto-attacks reduce the target's auto-attack speed by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -1516,6 +1816,24 @@
                     "Id": "51128",
                     "Spec": "Frost",
                     "Text": "Your auto attack critical strikes have a chance to make your next Obliterate deal Frost damage and critically strike."
+                },
+                "1": {
+                    "Hash": 2370798596,
+                    "Id": "51124",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your auto attack has a chance to cause your next Obliterate to be a guaranteed critical strike."
+                },
+                "2": {
+                    "Hash": 1495690626,
+                    "Id": "51124",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your auto attack has a chance to cause your next Obliterate or Frostscythe to be a guaranteed critical strike."
+                },
+                "3": {
+                    "Hash": 3348014985,
+                    "Id": "51128",
+                    "Spec": "Frost",
+                    "Text": "Your auto attack critical strikes have a chance to make your next Obliterate critically strike."
                 }
             }
         },
@@ -1537,8 +1855,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2693535172,
-                    "Id": "377629",
-                    "Spec": "Blood",
+                    "Id": "377629, 377633",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Heart Strike heals you for {1}% health for each enemy hit while affected by Blood Plague."
                 }
             }
@@ -1550,8 +1868,14 @@
                 "0": {
                     "Hash": 4228187056,
                     "Id": "49039",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, reducing damage taken by {3}%, and making you immune to Charm, Fear, and Sleep."
+                },
+                "1": {
+                    "Hash": 38037151,
+                    "Id": "49039",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, and making you immune to Charm, Fear, and Sleep."
                 }
             }
         },
@@ -1586,7 +1910,7 @@
                 "0": {
                     "Hash": 1994826044,
                     "Id": "391546",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death's Advance grants an additional {1}% movement speed over the first {2} sec."
                 }
             }
@@ -1612,6 +1936,18 @@
                     "Id": "195182",
                     "Spec": "Blood",
                     "Text": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\n\n|Tinterface\\icons\\ability_deathknight_boneshield.blp:24|t {FFFFFFFF|Bone Shield}\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}. Each melee attack against you consumes a charge. Lasts {4} sec or until all charges are consumed."
+                },
+                "1": {
+                    "Hash": 2994939230,
+                    "Id": "316746, 374715",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bone Shield increases your Haste by {1}%."
+                },
+                "2": {
+                    "Hash": 2441642657,
+                    "Id": "195182",
+                    "Spec": "Blood",
+                    "Text": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\r\n\r\n|Tinterface\\icons\\ability_deathknight_boneshield.blp:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}, and your Haste by {4}%. Each melee attack against you consumes a charge. Lasts {5} sec or until all charges are consumed."
                 }
             }
         },
@@ -1694,7 +2030,7 @@
                 "0": {
                     "Hash": 178230569,
                     "Id": "47528",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Smash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
                 }
             }
@@ -1720,6 +2056,12 @@
                     "Id": "207061",
                     "Spec": "Frost",
                     "Text": "Consuming the Killing Machine effect has a {1}% chance to grant you {2} Rune."
+                },
+                "1": {
+                    "Hash": 3038739402,
+                    "Id": "207062",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Grants the Death Knight {1} rune."
                 }
             }
         },
@@ -1777,9 +2119,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3650979722,
-                    "Id": "49020",
-                    "Spec": "Frost",
+                    "Id": "222024, 325461",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "A brutal attack that deals {1} Physical damage."
+                },
+                "1": {
+                    "Hash": 3149207345,
+                    "Id": "222024, 325461",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A brutal attack with both weapons that deals a total of {1} Physical damage.\r\n"
+                },
+                "2": {
+                    "Hash": 1211718704,
+                    "Id": "222024, 325461",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A brutal attack that deals {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active.\r\n"
+                },
+                "3": {
+                    "Hash": 1443172500,
+                    "Id": "222024, 325461",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A brutal attack with both weapons that deals a total of {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active.\r\n"
                 }
             }
         },
@@ -1789,9 +2149,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3033478846,
-                    "Id": "281238",
-                    "Spec": "Frost",
+                    "Id": "281238, 281327",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "While Pillar of Frost is active, Frost Strike and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
+                },
+                "1": {
+                    "Hash": 779570278,
+                    "Id": "281238, 281327",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "While Pillar of Frost is active, Frost Strike, Glacial Advance, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
+                },
+                "2": {
+                    "Hash": 2240969396,
+                    "Id": "281238, 281327",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "While Pillar of Frost is active, Frost Strike, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
+                },
+                "3": {
+                    "Hash": 1908923383,
+                    "Id": "281238, 281327",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "While Pillar of Frost is active, Frost Strike, Glacial Advance,, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
                 }
             }
         },
@@ -1802,7 +2180,7 @@
                 "0": {
                     "Hash": 2781615135,
                     "Id": "51986",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "You are as hard to stop as death itself, increasing your mounted speed by {1}%."
                 }
             }
@@ -1813,8 +2191,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2086721497,
-                    "Id": "219786",
-                    "Spec": "Blood",
+                    "Id": "219786, 219788",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "While you have at least {1} Bone Shield charges, the cost of Death Strike is reduced by {2} Runic Power.\n\nAdditionally, your maximum Runic Power is increased by {3}."
                 }
             }
@@ -1825,8 +2203,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 233945346,
-                    "Id": "77575",
-                    "Spec": "Unholy",
+                    "Id": "77575, 196780, 196782",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Deals {1} Shadow damage to the target and infects all nearby enemies with Virulent Plague.\n\n|Tinterface\\icons\\ability_creature_disease_02.blp:24|t {FFFFFFFF|Virulent Plague}\nA disease that deals {2} Shadow damage over {3} sec. It erupts when the infected target dies, dealing {4} Shadow damage to nearby enemies."
                 }
             }
@@ -1838,7 +2216,7 @@
                 "0": {
                     "Hash": 3948842486,
                     "Id": "3714",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Activates a freezing aura for {1} min that creates ice beneath your feet, allowing party or raid members within {2} yards to walk on water.\n\nUsable while mounted, but being attacked or damaged will cancel the effect."
                 }
             }
@@ -1850,7 +2228,7 @@
                 "0": {
                     "Hash": 647963378,
                     "Id": "207200",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your auto attack damage grants you an absorb shield equal to {1}% of the damage dealt."
                 }
             }
@@ -1861,8 +2239,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1078473076,
-                    "Id": "374747",
-                    "Spec": "Blood",
+                    "Id": "374747, 374748",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "When Crimson Scourge is consumed, you gain {1}% Versatility for {2} sec."
                 }
             }
@@ -1885,8 +2263,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1527743280,
-                    "Id": "377351",
-                    "Spec": "Frost",
+                    "Id": "377359",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Enemies suffer {1}% increased damage from Chill Streak each time they are struck by it."
                 }
             }
@@ -1909,8 +2287,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1998774080,
-                    "Id": "390175",
-                    "Spec": "Unholy",
+                    "Id": "390175, 390178",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Scourge Strike causes your disease damage to occur {1}% more quickly for {2} sec.\n"
                 }
             }
@@ -1933,8 +2311,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 296673069,
-                    "Id": "114556",
-                    "Spec": "Blood",
+                    "Id": "114556, 116888",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "An unholy pact that prevents fatal damage, instead absorbing incoming healing equal to the damage prevented, lasting {1} sec.\n\nIf any healing absorption remains when this effect expires, you will die. This effect may only occur every {2} min."
                 }
             }
@@ -1945,8 +2323,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2891974362,
-                    "Id": "377076",
-                    "Spec": "Frost",
+                    "Id": "341724, 341725, 377076",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Obliterate has a {1}% increased chance to trigger Rime and Howling Blast generates {2} Runic Power while Rime is active."
                 }
             }
@@ -1958,7 +2336,7 @@
                 "0": {
                     "Hash": 2721272058,
                     "Id": "288853",
-                    "Spec": "Unholy",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Raises an Abomination for {1} sec which wanders and attacks enemies near where it was summoned, applying Festering Wound when it melees targets, and affecting all those nearby with Virulent Plague."
                 }
             }
@@ -1970,7 +2348,7 @@
                 "0": {
                     "Hash": 914363486,
                     "Id": "61999",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Pours dark energy into a dead target, reuniting spirit and body to allow the target to reenter battle with {1}% health and at least {2}% mana."
                 }
             }
@@ -1993,9 +2371,27 @@
                 },
                 "2": {
                     "Hash": 3485770212,
+                    "Id": "46585",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time.  Lasts {1} min."
+                },
+                "3": {
+                    "Hash": 3267438957,
                     "Id": "46584",
                     "Spec": "Unholy",
-                    "Text": "Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time.  Lasts {1} min."
+                    "Text": "Raises an abomination to fight by your side. You can have a maximum of one abomination at a time."
+                },
+                "4": {
+                    "Hash": 558124564,
+                    "Id": "46584",
+                    "Spec": "Unholy",
+                    "Text": "Raises a geist to fight by your side. You can have a maximum of one geist at a time."
+                },
+                "5": {
+                    "Hash": 435501550,
+                    "Id": "46585",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Raises a geist to fight by your side.  You can have a maximum of one geist at a time. Lasts {1} min."
                 }
             }
         },
@@ -2071,8 +2467,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3910422987,
-                    "Id": "317610",
-                    "Spec": "Blood",
+                    "Id": "317610, 317614",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "While Crimson Scourge is active, your next Death and Decay heals you for {1} health per Bone Shield charge and you immediately gain {2} Runic Power."
                 }
             }
@@ -2083,8 +2479,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3065015646,
-                    "Id": "196770",
-                    "Spec": "Frost",
+                    "Id": "196770, 196771, 211793",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Drain the warmth of life from all nearby enemies within {1} yards, dealing {2} Frost damage over {3} sec and reducing their movement speed by {4}%."
                 }
             }
@@ -2110,6 +2506,18 @@
                     "Id": "59057",
                     "Spec": "Frost",
                     "Text": "Obliterate has a {1}% chance to cause your next Howling Blast to consume no runes and deal {2}% additional damage."
+                },
+                "1": {
+                    "Hash": 1033929094,
+                    "Id": "59052",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your next Howling Blast will consume no Runes, generate no Runic Power, and deal {1}% additional damage."
+                },
+                "2": {
+                    "Hash": 2995188326,
+                    "Id": "59057",
+                    "Spec": "Frost",
+                    "Text": "Obliterate has a {1}% chance and Frostscythe has a {2}% chance to cause your next Howling Blast to consume no runes and deal {3}% additional damage."
                 }
             }
         },
@@ -2131,9 +2539,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1993636731,
-                    "Id": "390275",
-                    "Spec": "Unholy",
+                    "Id": "390276",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Sudden Doom causes your next Death Coil to also increase your Scourge Strike damage against the target by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 998165860,
+                    "Id": "390276",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Sudden Doom causes your next Death Coil to also increase your Clawing Shadows damage against the target by {1}% for {2} sec."
                 }
             }
         },
@@ -2143,8 +2557,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1804408657,
-                    "Id": "374574",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "374585",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Consuming a Rune has a chance to increase your Strength by {1}% for {2} sec."
                 }
             }
@@ -2179,8 +2593,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3609354934,
-                    "Id": "207104",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "207104, 221322",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Auto attacks have a chance to generate {1} Runic Power."
                 }
             }
@@ -2206,6 +2620,12 @@
                     "Id": "51462",
                     "Spec": "Unholy",
                     "Text": "Each Runic Power you spend has a {1}% chance to increase your Rune regeneration rate by {2}% for {3} sec."
+                },
+                "1": {
+                    "Hash": 2104683862,
+                    "Id": "51460",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Increases your rune regeneration rate for {1} sec."
                 }
             }
         },
@@ -2218,6 +2638,12 @@
                     "Id": "81229",
                     "Spec": "Frost",
                     "Text": "Each Runic Power you spend has a {1}% chance to instantly grant you a Rune."
+                },
+                "1": {
+                    "Hash": 2408035745,
+                    "Id": "193486",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Gain a Rune."
                 }
             }
         },
@@ -2251,8 +2677,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 954273727,
-                    "Id": "327574",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "327574, 327611",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Sacrifice your ghoul to deal {1} Shadow damage to all nearby enemies and heal for {2}% of your maximum health. Deals reduced damage beyond {3} targets."
                 }
             }
@@ -2263,8 +2689,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4132171107,
-                    "Id": "391458",
-                    "Spec": "Blood",
+                    "Id": "391458, 391459",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "You deal {1}% more damage and receive {2}% more healing while standing in your Death and Decay."
                 }
             }
@@ -2275,8 +2701,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2984266516,
-                    "Id": "55090",
-                    "Spec": "Unholy",
+                    "Id": "55090, 70890",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "An unholy strike that deals {1} Physical damage and {2} Shadow damage, and causes {3} Festering Wound to burst."
                 }
             }
@@ -2299,8 +2725,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3224941875,
-                    "Id": "377640",
-                    "Spec": "Blood",
+                    "Id": "377640, 377642",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "When Bone Shield is consumed it shatters dealing {1} shadow damage to nearby enemies. This damage is tripled while you are within your Death and Decay."
                 }
             }
@@ -2323,8 +2749,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2331745449,
-                    "Id": "343294",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "343294, 343295",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Strike an enemy for {1} Shadowfrost damage and afflict the enemy with Soul Reaper. \n\nAfter {2} sec, if the target is below {3}% health this effect will explode dealing an additional {4} Shadowfrost damage to the target. If the enemy that yields experience or honor dies while afflicted by Soul Reaper, gain Runic Corruption."
                 }
             }
@@ -2371,9 +2797,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1789831824,
-                    "Id": "49530",
-                    "Spec": "Unholy",
+                    "Id": "49530, 81340",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Your auto attacks have a chance to make your next Death Coil or Epidemic cost no Runic Power."
+                },
+                "1": {
+                    "Hash": 2129738689,
+                    "Id": "49530, 81340",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your auto attacks have a chance to make your next Death Coil cost no Runic Power."
                 }
             }
         },
@@ -2419,8 +2851,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 345290964,
-                    "Id": "206970",
-                    "Spec": "Blood",
+                    "Id": "374776",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Enemies hit by Gorefiend's Grasp take {1}% increased damage from you for {2} sec. Additionally, reduces the cooldown on Gorefiend's Grasp by {3} sec."
                 }
             }
@@ -2446,6 +2878,12 @@
                     "Id": "391517",
                     "Spec": "Blood",
                     "Text": "After Vampiric Blood expires, you absorb damage equal to {1} times the damage your Blood Plague dealt during Vampiric Blood."
+                },
+                "1": {
+                    "Hash": 934409579,
+                    "Id": "391519",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Absorbing damage dealt by Blood Plague."
                 }
             }
         },
@@ -2458,6 +2896,12 @@
                     "Id": "207289",
                     "Spec": "Unholy",
                     "Text": "Strike your target dealing {1} Shadow damage, infecting the target with {2} Festering Wounds and sending you into an Unholy Frenzy increasing haste by {3}% for {4} sec."
+                },
+                "1": {
+                    "Hash": 2062522970,
+                    "Id": "207289",
+                    "Spec": "Unholy",
+                    "Text": "Strike your target dealing {1} Shadow damage, infecting the target with {2} Festering Wounds and sending you into an Unholy Frenzy increasing all damage done by {3}% for {4} sec."
                 }
             }
         },
@@ -2479,8 +2923,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 715697496,
-                    "Id": "115989",
-                    "Spec": "Unholy",
+                    "Id": "115989, 115994",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Surrounds yourself with a vile swarm of insects for {1} sec, stinging all nearby enemies and infecting them with Virulent Plague and an unholy disease that deals {2} damage over {3} sec, stacking up to {4} times."
                 }
             }
@@ -2527,8 +2971,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1001490695,
-                    "Id": "374265",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Id": "374271",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Gain {1}% Haste while you remain within your Death and Decay."
                 }
             }
@@ -2539,8 +2983,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3967506870,
-                    "Id": "319230",
-                    "Spec": "Unholy",
+                    "Id": "319230, 319233, 319236, 319240, 319245",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Dark Transformation creates an unholy pact between you and your pet, igniting flaming chains that deal {1} Shadow damage over {2} sec to enemies between you and your pet."
                 }
             }
@@ -2551,9 +2995,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2481923900,
-                    "Id": "376905",
-                    "Spec": "Frost",
+                    "Id": "376907",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Damaging an enemy with a Runic Power ability increases your Strength by {1}% for {2} sec, stacks up to {3} times."
+                },
+                "1": {
+                    "Hash": 2528966013,
+                    "Id": "338501",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Frost Strike increases your strength by {FFFFFFFF|{1}%} for {2} seconds, stacks up to {3} times."
                 }
             }
         },
@@ -2576,8 +3026,20 @@
                 "0": {
                     "Hash": 2367237183,
                     "Id": "48263",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Stamina increased by {1}%.\n"
+                },
+                "1": {
+                    "Hash": 328814802,
+                    "Id": "48263",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Stamina increased by {1}%.\r\nDamage taken reduced by {2}%."
+                },
+                "2": {
+                    "Hash": 3025027523,
+                    "Id": "316714",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Increases Stamina by {1}%.\r\nDamage taken reduced by {2}%."
                 }
             }
         },
@@ -2599,8 +3061,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1395758934,
-                    "Id": "273953",
-                    "Spec": "Blood",
+                    "Id": "273953, 274009",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Death Strike's healing is increased by {1}% and grants you {2}% Leech for {3} sec."
                 }
             }
@@ -2624,7 +3086,7 @@
                 "0": {
                     "Hash": 1094542641,
                     "Id": "206967",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Damage taken below {1}% Health is reduced by {2}%."
                 }
             }
@@ -2636,7 +3098,7 @@
                 "0": {
                     "Hash": 1244359277,
                     "Id": "212552",
-                    "Spec": "Unholy, Blood, Frost",
+                    "Spec": "Blood, Frost, Unholy",
                     "Text": "Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by {1}% for {2} sec. Taking any action cancels the effect.\n\nWhile active, your movement speed cannot be reduced below {3}%."
                 }
             }
@@ -2650,6 +3112,1118 @@
                     "Id": "410301",
                     "Spec": "Unholy, Blood, Frost",
                     "Text": "Death Strike reduces all Physical damage taken by {1}% for {2} sec."
+                }
+            }
+        },
+        "212": {
+            "Hash": 83018829,
+            "Name": "Dual Wield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1174969014,
+                    "Id": "674",
+                    "Spec": "Frost",
+                    "Text": "Allows one-hand and off-hand weapons to be equipped in the off-hand."
+                }
+            }
+        },
+        "213": {
+            "Hash": 1360313669,
+            "Name": "Shell Shield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3475467072,
+                    "Id": "26064",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "The Turtle partially withdraws into its shell, reducing damage taken by {1}% for {2} sec."
+                }
+            }
+        },
+        "214": {
+            "Hash": 3787086987,
+            "Name": "Death Strike Off-Hand",
+            "Descriptions": {}
+        },
+        "215": {
+            "Hash": 3779092698,
+            "Name": "Claw",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3646863335,
+                    "Id": "47468, 91776",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Claw the enemy, dealing {1} Physical damage."
+                },
+                "1": {
+                    "Hash": 815735544,
+                    "Id": "47468",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Claw the enemy, dealing {1} Physical damage.\r\n\r\n{FFE55BB0|Dark Transformation: Rakes with deformed claws, dealing {2} Shadow damage to all enemies nearby the monstrosity.}"
+                },
+                "2": {
+                    "Hash": 248571990,
+                    "Id": "199373",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Claw the enemy, dealing {1}% of normal melee damage."
+                }
+            }
+        },
+        "216": {
+            "Hash": 877845122,
+            "Name": "Gnaw",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3051056384,
+                    "Id": "47481",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bite and tear at a target's limbs, dealing light damage and stunning for {1} sec."
+                },
+                "1": {
+                    "Hash": 4190834303,
+                    "Id": "47481",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bite and tear at a target's limbs, dealing light damage and stunning for {1} sec.\r\n\r\n{FFE55BB0|Dark Transformation: Strike an enemy with a smashing attack, dealing {2} Physical damage and stunning for {3} sec.}"
+                },
+                "2": {
+                    "Hash": 4146555417,
+                    "Id": "91800",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bite and tear at a target's limbs, stunning it for {1} sec and dealing damage."
+                }
+            }
+        },
+        "217": {
+            "Hash": 1661863198,
+            "Name": "Leap",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1352236445,
+                    "Id": "47482, 91809",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Leap behind an enemy target."
+                },
+                "1": {
+                    "Hash": 2153349320,
+                    "Id": "47482",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Leap behind an enemy target.\r\n\r\n{FFE55BB0|Dark Transformation: Charge an enemy, interrupting spellcasting and immobilizing them for {1} sec.}"
+                }
+            }
+        },
+        "218": {
+            "Hash": 1502758539,
+            "Name": "Huddle",
+            "Descriptions": {
+                "0": {
+                    "Hash": 831334958,
+                    "Id": "47484, 91838",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Go into a defensive crouch, reducing all damage taken by {1}% but preventing other actions for {2} sec."
+                },
+                "1": {
+                    "Hash": 3563012479,
+                    "Id": "47484",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Go into a defensive crouch, reducing all damage taken by {1}% but preventing other actions for {2} sec.\r\n\r\n{FFE55BB0|Dark Transformation: Unleash a fortifying roar, reducing all damage taken by {3}% for {4} sec.}"
+                }
+            }
+        },
+        "219": {
+            "Hash": 3469135691,
+            "Name": "Obliterate Off-Hand",
+            "Descriptions": {}
+        },
+        "220": {
+            "Hash": 2342975612,
+            "Name": "Endless Rune Waltz",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1510847160,
+                    "Id": "366008",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "While your Dancing Rune Weapon is active Heart Strike extends the duration of Dancing Rune Weapon by {1} seconds and increases your Strength by {2}%, persisting for {3} seconds after Dancing Rune Weapon ends."
+                }
+            }
+        },
+        "221": {
+            "Hash": 4159212241,
+            "Name": "Frost Strike Off-Hand",
+            "Descriptions": {}
+        },
+        "222": {
+            "Hash": 140151818,
+            "Name": "Razorice",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1287300052,
+                    "Id": "51714",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Engrave your weapon with a rune that causes {1}% extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks by {2}%, stacking up to {3} times. \r\n\r\nModifying your rune requires a Runeforge in Ebon Hold."
+                },
+                "1": {
+                    "Hash": 82345656,
+                    "Id": "51714",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Engrave your weapon with a rune that causes {1}% extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks by {2}%, stacking up to {3} times. "
+                }
+            }
+        },
+        "223": {
+            "Hash": 499841496,
+            "Name": "Gargoyle Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1356488693,
+                    "Id": "51963",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Inflicts {1} Plague damage to an enemy."
+                }
+            }
+        },
+        "224": {
+            "Hash": 2363269303,
+            "Name": "Death's Due",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1585520730,
+                    "Id": "315442",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Learn Death's Due, replacing Death and Decay.\r\n"
+                },
+                "1": {
+                    "Hash": 2690082626,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Heart Strike will hit up to {3} additional targets and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "2": {
+                    "Hash": 2674061040,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Heart Strike will hit up to {3} additional targets and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "3": {
+                    "Hash": 266550580,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "4": {
+                    "Hash": 3268730088,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Scourge Strike will hit up to {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "5": {
+                    "Hash": 2963589234,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Scourge Strike will hit up to {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "6": {
+                    "Hash": 3424376338,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Clawing Shadows will hit up to {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                },
+                "7": {
+                    "Hash": 666199765,
+                    "Id": "324164, 324165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Clawing Shadows will hit up to {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength."
+                }
+            }
+        },
+        "225": {
+            "Hash": 64898621,
+            "Name": "Unholy Strength",
+            "Descriptions": {
+                "0": {
+                    "Hash": 794779104,
+                    "Id": "53365",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Affixes your rune weapon with a rune that has a chance to heal you for {1}% and increase total Strength by {2}% for {3} sec."
+                }
+            }
+        },
+        "226": {
+            "Hash": 3224315523,
+            "Name": "Blood Plague",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1531894900,
+                    "Id": "55078",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A shadowy disease that drains {1} health from the target over {2} sec.  "
+                }
+            }
+        },
+        "227": {
+            "Hash": 1454895454,
+            "Name": "Frost Fever",
+            "Descriptions": {
+                "0": {
+                    "Hash": 555584162,
+                    "Id": "195617, 220890, 292493",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Grants the Death Knight {1} runic power."
+                }
+            }
+        },
+        "228": {
+            "Hash": 2211308068,
+            "Name": "Geist",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4206536262,
+                    "Id": "58707",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Raise Dead spell summons a geist instead of a ghoul. \r\n\r\n"
+                },
+                "1": {
+                    "Hash": 3067443674,
+                    "Id": "58707",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Raise Dead spell summons a geist instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
+                }
+            }
+        },
+        "229": {
+            "Hash": 2103015527,
+            "Name": "Foul Menagerie",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1421020086,
+                    "Id": "58723",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Causes your Army of the Dead spell to summon an assortment of undead minions."
+                }
+            }
+        },
+        "230": {
+            "Hash": 1507206193,
+            "Name": "Avoidance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3315158959,
+                    "Id": "62137",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Reduces the damage your summoned ghoul takes from creature area of effect attacks  by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                }
+            }
+        },
+        "231": {
+            "Hash": 2126202166,
+            "Name": "Blood Shield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1613195529,
+                    "Id": "77535",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When you deal damage with Death Strike while in Blood Presence, you gain a percentage of your health gained as a physical absorption shield."
+                }
+            }
+        },
+        "232": {
+            "Hash": 3666025609,
+            "Name": "Blood Burst",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2185418100,
+                    "Id": "81280",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bursts in a shower of blood."
+                }
+            }
+        },
+        "233": {
+            "Hash": 106082565,
+            "Name": "Parry",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1505216917,
+                    "Id": "82246",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Gives a chance to parry enemy melee attacks."
+                }
+            }
+        },
+        "234": {
+            "Hash": 1959600965,
+            "Name": "Sweeping Claws",
+            "Descriptions": {
+                "0": {
+                    "Hash": 47109865,
+                    "Id": "91778",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Rakes an enemy with deformed claws, dealing {1} Shadow damage to the target and nearby enemies."
+                }
+            }
+        },
+        "235": {
+            "Hash": 2226320726,
+            "Name": "Monstrous Blow",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1951039866,
+                    "Id": "91797",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Strike an enemy with a smashing attack, dealing {1} Physical damage and stunning for {2} sec."
+                }
+            }
+        },
+        "236": {
+            "Hash": 2490300974,
+            "Name": "Shambling Rush",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2964648160,
+                    "Id": "91802, 91807",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Charge an enemy, interrupting spellcasting and immobilizing them for {1} sec."
+                }
+            }
+        },
+        "237": {
+            "Hash": 2731813602,
+            "Name": "Putrid Bulwark",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2441321424,
+                    "Id": "91837",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Unleash a fortifying roar, reducing all damage taken by {1}% for {2} sec."
+                }
+            }
+        },
+        "238": {
+            "Hash": 4169920904,
+            "Name": "Shroud of Purgatory",
+            "Descriptions": {}
+        },
+        "239": {
+            "Hash": 1534458937,
+            "Name": "Perdition",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2994983739,
+                    "Id": "123981",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "You cannot benefit from Purgatory again for {1} min."
+                }
+            }
+        },
+        "240": {
+            "Hash": 272301149,
+            "Name": "Corpse Exploder",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1615131196,
+                    "Id": "127344",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Cause a target corpse to explode in a shower of gore. Does not affect mechanical or elemental corpses."
+                }
+            }
+        },
+        "241": {
+            "Hash": 1616486295,
+            "Name": "Skeleton",
+            "Descriptions": {
+                "0": {
+                    "Hash": 619931218,
+                    "Id": "147963",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\n"
+                },
+                "1": {
+                    "Hash": 990926950,
+                    "Id": "147963",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
+                }
+            }
+        },
+        "242": {
+            "Hash": 3244829509,
+            "Name": "Riposte",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1545937471,
+                    "Id": "161797",
+                    "Spec": "Blood",
+                    "Text": "You gain Parry equal to {1}% of your Critical Strike from gear."
+                }
+            }
+        },
+        "243": {
+            "Hash": 3452277111,
+            "Name": "Sindragosa's Fury",
+            "Descriptions": {
+                "0": {
+                    "Hash": 508626012,
+                    "Id": "190778, 190780",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Summons Sindragosa, who breathes frost on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
+                }
+            }
+        },
+        "244": {
+            "Hash": 2017235292,
+            "Name": "Frost Breath",
+            "Descriptions": {}
+        },
+        "245": {
+            "Hash": 2552407307,
+            "Name": "Virulent Plague",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3712822510,
+                    "Id": "191587, 191685",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A disease that deals {1} Shadow damage over {2} sec. It erupts when the infected target dies, dealing {3} Shadow damage to nearby enemies."
+                }
+            }
+        },
+        "246": {
+            "Hash": 3236016348,
+            "Name": "Virulent Eruption",
+            "Descriptions": {}
+        },
+        "247": {
+            "Hash": 3461688229,
+            "Name": "Festering Wound",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1611249556,
+                    "Id": "194310, 194311, 195757",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power."
+                },
+                "1": {
+                    "Hash": 144989652,
+                    "Id": "197147",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Festering Strike applies a pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power.\r\n\r\nStacks up to {3} times on any target."
+                }
+            }
+        },
+        "248": {
+            "Hash": 1469821440,
+            "Name": "Frozen Pulse",
+            "Descriptions": {
+                "0": {
+                    "Hash": 987986196,
+                    "Id": "194909, 195750",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "While you have fewer than {1} full [plural|Rune|Runes], your auto attacks radiate intense cold, inflicting {2} Frost damage on all nearby enemies."
+                }
+            }
+        },
+        "249": {
+            "Hash": 3793594166,
+            "Name": "Pestilent Pustules",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1203274251,
+                    "Id": "194917",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bursting a Festering Wound has a {1}% chance to grant you Runic Corruption."
+                }
+            }
+        },
+        "250": {
+            "Hash": 3164134334,
+            "Name": "Bone Shield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 628297733,
+                    "Id": "195181",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Surrounds you with a barrier of whirling bones, increasing Armor by {1}. Each melee attack against you consumes a charge. Lasts {2} sec or until all charges are consumed."
+                },
+                "1": {
+                    "Hash": 332839313,
+                    "Id": "195181",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Surrounds you with a barrier of whirling bones, increasing Armor by {1}, and your Haste by {2}%. Each melee attack against you consumes a charge. Lasts {3} sec or until all charges are consumed."
+                }
+            }
+        },
+        "251": {
+            "Hash": 2809659162,
+            "Name": "Blood Strike",
+            "Descriptions": {}
+        },
+        "252": {
+            "Hash": 2135047932,
+            "Name": "Bloodworm",
+            "Descriptions": {}
+        },
+        "253": {
+            "Hash": 3785867549,
+            "Name": "Chilled",
+            "Descriptions": {}
+        },
+        "254": {
+            "Hash": 1892324558,
+            "Name": "Endless Rune Waltz Energize",
+            "Descriptions": {}
+        },
+        "255": {
+            "Hash": 2447476259,
+            "Name": "Volatile Shielding",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2175875174,
+                    "Id": "207188",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Anti-Magic Shell absorbs {1}% more damage, and generates {2}% additional Runic Power."
+                }
+            }
+        },
+        "256": {
+            "Hash": 280893012,
+            "Name": "Sludge Belcher",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2697587287,
+                    "Id": "207313",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Raise Dead now summons an abomination instead of a ghoul, with improved innate abilities."
+                }
+            }
+        },
+        "257": {
+            "Hash": 372648915,
+            "Name": "Spell Eater",
+            "Descriptions": {
+                "0": {
+                    "Hash": 764997844,
+                    "Id": "207321",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Anti-Magic Shell absorbs {1}% more magic damage and lasts {2} sec longer."
+                }
+            }
+        },
+        "258": {
+            "Hash": 34666098,
+            "Name": "Dark Arbiter",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4230005234,
+                    "Id": "207349",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Summon a Val'kyr into the area to attack the target for {1} sec.\r\n\r\nThe Val'kyr gains {2}% increased damage for every {3} Runic Power you spend.\r\n\r\n{FFFFFFFF|Generates {4} Runic Power.}"
+                }
+            }
+        },
+        "259": {
+            "Hash": 4178572842,
+            "Name": "Koltira's Newfound Will",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4158027711,
+                    "Id": "208782, 208783",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Obliterate deals {1}% more damage and has a {2}% chance to refund {3} [plural|rune|runes]."
+                }
+            }
+        },
+        "260": {
+            "Hash": 1092441594,
+            "Name": "Dark Empowerment",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2889948623,
+                    "Id": "211947",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Spending Runic Power increases damage done."
+                }
+            }
+        },
+        "261": {
+            "Hash": 2990966228,
+            "Name": "Skulker Shot",
+            "Descriptions": {
+                "0": {
+                    "Hash": 104344442,
+                    "Id": "212423",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A ranged shot that causes Physical damage."
+                }
+            }
+        },
+        "262": {
+            "Hash": 331528268,
+            "Name": "Necrotic Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1375885584,
+                    "Id": "223829",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A vicious strike that deals {1} Plague damage, and converts {2} Festering [plural|Wound|Wounds] into a Necrotic Wound, absorbing up to {3}% of the target's maximum health in healing received."
+                }
+            }
+        },
+        "263": {
+            "Hash": 4166639607,
+            "Name": "Coils of Devastation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 179176606,
+                    "Id": "253367, 390271",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Death Coil causes the target to take an additional {1}% of the direct damage dealt over {2} sec."
+                }
+            }
+        },
+        "264": {
+            "Hash": 1695045903,
+            "Name": "Horrid Experimentation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2472000433,
+                    "Id": "273095, 273096",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When Dark Transformation expires, the unholy energy in your ghoul is expelled, dealing {1} Shadow damage to all nearby enemies."
+                }
+            }
+        },
+        "265": {
+            "Hash": 2536117801,
+            "Name": "Echoing Howl",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2861268015,
+                    "Id": "275918",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When empowered by Rime, Howling Blast causes a secondary burst of icy wind around you that deals {1} Frost damage to nearby enemies."
+                }
+            }
+        },
+        "266": {
+            "Hash": 3498215636,
+            "Name": "Last Surprise",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1886843030,
+                    "Id": "279606, 390220",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When your ghouls expire, they explode in viscera dealing {1} Shadow damage to nearby enemies. "
+                }
+            }
+        },
+        "267": {
+            "Hash": 3567846011,
+            "Name": "Helchains",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2827594794,
+                    "Id": "286835, 286836, 286954, 286978, 286979, 290814",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Dark Transformations ignites you and your pet with flaming chains that deal {1} Fire damage every sec to enemies between you for {2} sec. "
+                }
+            }
+        },
+        "268": {
+            "Hash": 3616145423,
+            "Name": "Frostwhelp's Indignation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 502904354,
+                    "Id": "287320, 287321, 287338",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Indignation grants you {3} Mastery for {4} sec, up to {5}."
+                }
+            }
+        },
+        "269": {
+            "Hash": 3143985059,
+            "Name": "Shadow Bolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4156874202,
+                    "Id": "288546, 317791",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Deals {1} Shadow damage."
+                }
+            }
+        },
+        "270": {
+            "Hash": 1064463860,
+            "Name": "Frostbolt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 616172569,
+                    "Id": "288548, 317792",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Deals {1} Frost damage and reduces their movement speed by {2}% for {3} sec."
+                }
+            }
+        },
+        "271": {
+            "Hash": 2177949561,
+            "Name": "Strive for Perfection",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4247574741,
+                    "Id": "296321, 296330, 302656",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When  activates, heal for {1}% of maximum health."
+                },
+                "1": {
+                    "Hash": 658866560,
+                    "Id": "296321, 296330, 302656",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When Vampiric Blood activates, heal for {1}% of maximum health."
+                },
+                "2": {
+                    "Hash": 1878775813,
+                    "Id": "296321, 296330, 302656",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When Empower Rune Weapon activates, heal for {1}% of maximum health."
+                },
+                "3": {
+                    "Hash": 1487141226,
+                    "Id": "296321, 296330, 302656",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When Apocalypse activates, heal for {1}% of maximum health."
+                }
+            }
+        },
+        "272": {
+            "Hash": 871239790,
+            "Name": "Vision of Perfection",
+            "Descriptions": {}
+        },
+        "273": {
+            "Hash": 3900542700,
+            "Name": "Swarming Mist",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1317761885,
+                    "Id": "311730, 312546",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "A heavy mist surrounds you for {1} sec, increasing your Dodge by {2}%. \r\n\r\nDeals {3} Shadow damage every {4} sec to enemies within {5} yds. Every time it deals damage you gain {6} Runic Power, up to a maximum of {7} Runic Power. Deals reduced damage beyond {8} targets."
+                }
+            }
+        },
+        "274": {
+            "Hash": 2106866195,
+            "Name": "Rune Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2875967319,
+                    "Id": "316239",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Strike the target for {1} Physical damage. This attack cannot be dodged, blocked, or parried."
+                }
+            }
+        },
+        "275": {
+            "Hash": 3858822103,
+            "Name": "Frostreaper",
+            "Descriptions": {
+                "0": {
+                    "Hash": 616898501,
+                    "Id": "317214",
+                    "Spec": "Frost",
+                    "Text": "Killing Machine also causes your next Obliterate to deal Frost damage."
+                }
+            }
+        },
+        "276": {
+            "Hash": 2139995273,
+            "Name": "Hypothermic Presence",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2888609346,
+                    "Id": "321995",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Embrace the ice in your veins, reducing the Runic Power cost of your abilities by {1}% for {2} sec. Does not trigger the global cooldown."
+                }
+            }
+        },
+        "277": {
+            "Hash": 2858120776,
+            "Name": "Rune of Sanguination",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1303259262,
+                    "Id": "326808, 326809",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Death Strike deals increased damage based on the target's missing health. When you fall below {1}% Health, you heal for {2}% of your maximum health over {3} sec. \r\n\r\nCan only occur once every {4} minutes."
+                }
+            }
+        },
+        "278": {
+            "Hash": 3272080463,
+            "Name": "Satiated",
+            "Descriptions": {}
+        },
+        "279": {
+            "Hash": 3382658222,
+            "Name": "Rune of Spellwarding",
+            "Descriptions": {
+                "0": {
+                    "Hash": 412324148,
+                    "Id": "326867, 326868",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Passive: Deflects {1}% of all spell damage.\r\n\r\nTaking magic damage has a chance to grant you a shield that absorbs {2} magic damage for {3} sec. When an enemy damages the shield, their cast speed is reduced by {4}% for {5} sec.\r\n"
+                }
+            }
+        },
+        "280": {
+            "Hash": 517458857,
+            "Name": "Lethargy",
+            "Descriptions": {}
+        },
+        "281": {
+            "Hash": 2748129637,
+            "Name": "Rune of Hysteria",
+            "Descriptions": {
+                "0": {
+                    "Hash": 597601283,
+                    "Id": "326918",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Increases maximum Runic Power by {1}.\r\n\r\nYour attacks have a chance to increase Runic Power generation by {2}% for {3} sec.\r\n\r\n"
+                }
+            }
+        },
+        "282": {
+            "Hash": 886045640,
+            "Name": "Rune of Unending Thirst",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3757012072,
+                    "Id": "326984",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your Movement speed while dead is increased by {1}%. When you kill an enemy that yields experience or honor, gain {2}% Haste and Movement Speed and heal for {3}% of your maximum health."
+                }
+            }
+        },
+        "283": {
+            "Hash": 3831896976,
+            "Name": "Rune of Razorice",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1287300052,
+                    "Id": "332944",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Engrave your weapon with a rune that causes {1}% extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks by {2}%, stacking up to {3} times. \r\n\r\nModifying your rune requires a Runeforge in Ebon Hold.\r\n"
+                },
+                "1": {
+                    "Hash": 82345656,
+                    "Id": "332944",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Engrave your weapon with a rune that causes {1}% extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks by {2}%, stacking up to {3} times. \r\n"
+                }
+            }
+        },
+        "284": {
+            "Hash": 4238284486,
+            "Name": "Toxic Accumulator",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1136284104,
+                    "Id": "333388",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Enemies damaged by Death's Due take {1}% increased damage from Death's Due, stacking up to {2} times."
+                }
+            }
+        },
+        "285": {
+            "Hash": 3751061100,
+            "Name": "Abomination's Frenzy",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2663142224,
+                    "Id": "353546",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Abomination Limb's duration is increased by {1} sec and the frequency it grants  is increased by {2} sec. The first time an enemy is damaged by Abomination Limb they take {3}% increased damage from you for {4} sec."
+                },
+                "1": {
+                    "Hash": 55795505,
+                    "Id": "353546",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Abomination Limb's duration is increased by {1} sec and the frequency it grants Bone Shield is increased by {2} sec. The first time an enemy is damaged by Abomination Limb they take {3}% increased damage from you for {4} sec."
+                },
+                "2": {
+                    "Hash": 130129679,
+                    "Id": "353546",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Abomination Limb's duration is increased by {1} sec and the frequency it grants Rime is increased by {2} sec. The first time an enemy is damaged by Abomination Limb they take {3}% increased damage from you for {4} sec."
+                },
+                "3": {
+                    "Hash": 3617967433,
+                    "Id": "353546",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Abomination Limb's duration is increased by {1} sec and the frequency it grants Runic Corruption is increased by {2} sec. The first time an enemy is damaged by Abomination Limb they take {3}% increased damage from you for {4} sec."
+                }
+            }
+        },
+        "286": {
+            "Hash": 3629403840,
+            "Name": "Harvest Time",
+            "Descriptions": {
+                "0": {
+                    "Hash": 436010092,
+                    "Id": "363885, 363887, 367954",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your minions deal {1}% increased damage. When Soul Reaper's secondary effect triggers, this bonus increases to {2}% for {3} seconds."
+                },
+                "1": {
+                    "Hash": 766892739,
+                    "Id": "364173",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Every {1}th Scourge Strike casts Soul Reaper on your target. Soul Reaper's secondary effect grants your Ghoul {2}% attack speed and summons an Army of the Dead ghoul."
+                }
+            }
+        },
+        "287": {
+            "Hash": 698768415,
+            "Name": "Arctic Assault",
+            "Descriptions": {
+                "0": {
+                    "Hash": 396545968,
+                    "Id": "364384",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Remorseless Winter grants {1}% Critical Strike while active.\r\n\r\n\r\n\r\n\r\n"
+                }
+            }
+        },
+        "288": {
+            "Hash": 3652784736,
+            "Name": "Remnant's Despair",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2808337029,
+                    "Id": "368690",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your damaging spells have a chance to inflict Despair upon your enemies, increasing the effect of your Diseases against them by {1} for {2} seconds. You have a greater chance to inflict Despair against enemies who are at higher health.\r\n\r\n"
+                }
+            }
+        },
+        "289": {
+            "Hash": 1367868484,
+            "Name": "Vigorous Lifeblood",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3342873137,
+                    "Id": "394570",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "After {1} Bone Shield charges are consumed gain {2}% damage and Haste for {3} sec.\r\n"
+                }
+            }
+        },
+        "290": {
+            "Hash": 3604211304,
+            "Name": "Vile Infusion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2411917230,
+                    "Id": "394863",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Bursting a Festering Wound grants your ghoul Vile Infusion, increasing their damage by {1}% and Haste by {2}% for {3} sec."
+                }
+            }
+        },
+        "291": {
+            "Hash": 3235464343,
+            "Name": "Ghoulish Infusion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2236143304,
+                    "Id": "394899",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Your primary ghoul's attacks have a {1}% chance to increase your damage and Haste by {2}% for {3} sec. This chance is increased to {4}% during Vile Infusion."
+                }
+            }
+        },
+        "292": {
+            "Hash": 27972299,
+            "Name": "Vampiric Strength",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2611015531,
+                    "Id": "408356",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "When you would gain Vampiric Blood you are infused with Vampiric Strength, granting you {1}% Strength for {2} sec. Your Heart Strike and Blood Boil extend the duration of Vampiric Strength by {3} sec."
+                }
+            }
+        },
+        "293": {
+            "Hash": 2705815234,
+            "Name": "Wrath of the Frostwyrm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1951838240,
+                    "Id": "408368, 410879",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Frostwyrm's Fury causes enemies hit to take {1}% increased damage from your critical strikes for {2} sec."
+                }
+            }
+        },
+        "294": {
+            "Hash": 2107010026,
+            "Name": "Lingering Chill",
+            "Descriptions": {}
+        },
+        "295": {
+            "Hash": 405120183,
+            "Name": "Master of Death",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2038753046,
+                    "Id": "408375, 408376, 408377",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Death Coil and Epidemic damage increased by {1}%. Casting Death Coil or Epidemic grants a stack of Master of Death, up to {2}. Dark Transformation consumes Master of Death and grants {3}% Mastery for each stack for {4} sec."
+                }
+            }
+        },
+        "296": {
+            "Hash": 94048395,
+            "Name": "Death Dealer",
+            "Descriptions": {}
+        },
+        "297": {
+            "Hash": 2001632181,
+            "Name": "Doom Dealer",
+            "Descriptions": {}
+        },
+        "298": {
+            "Hash": 2713156563,
+            "Name": "Chilling Rage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 294458565,
+                    "Id": "424165",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Chill Streak's range is increased by {1} yds and can bounce off of you. Each time Chill Streak bounces your damage is increased by {2}% for {3} sec, stacking up to {4} times."
+                }
+            }
+        },
+        "299": {
+            "Hash": 372460660,
+            "Name": "Amplify Damage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 977046295,
+                    "Id": "424949",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Each Rune you spend increases the duration of your active Magi by {1} sec and your Magi will now also cast Amplify Damage, increasing the damage you deal by {2}% for {3} sec."
+                }
+            }
+        },
+        "300": {
+            "Hash": 2515277086,
+            "Name": "Ashen Decay",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1644888101,
+                    "Id": "425719, 425721",
+                    "Spec": "Blood, Frost, Unholy",
+                    "Text": "Consuming Runic Power has a chance to cause your next Heart Strike to apply Ashen Decay, reducing damage dealt to you by {1}% and increasing your damage dealt to afflicted targets by {2}% for {3} sec."
                 }
             }
         }
