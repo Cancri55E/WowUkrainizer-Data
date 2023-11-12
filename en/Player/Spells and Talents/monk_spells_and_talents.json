@@ -7,8 +7,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3439441375,
-                    "Id": "388564",
-                    "Spec": "Mistweaver",
+                    "Id": "388564, 388566",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Zen Pulse's damage and healing is increased by {1}% each time Soothing Mist heals, up to {2} times. \n\nWhen your Soothing Mist channel ends, this effect is canceled."
                 }
             }
@@ -31,9 +31,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1818423101,
-                    "Id": "116092",
-                    "Spec": "Windwalker",
+                    "Id": "116092, 125355, 163272",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "When you kill an enemy, you summon a Healing Sphere, healing you for {1} when you walk through it.\n\nWhen you kill an enemy with Blackout Kick, you have a {2}% chance to summon a Chi Sphere, granting {3} Chi when you walk through it."
+                },
+                "1": {
+                    "Hash": 3967043921,
+                    "Id": "322719",
+                    "Spec": "Windwalker",
+                    "Text": "When you kill an enemy with Blackout Kick, you have a {1}% chance to summon a Chi Sphere, granting {2} Chi when you walk through it.\r\n"
                 }
             }
         },
@@ -73,8 +79,8 @@
                 },
                 "1": {
                     "Hash": 3934080292,
-                    "Id": "388023",
-                    "Spec": "Mistweaver",
+                    "Id": "388023, 388024, 388026",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "After casting Essence Font or Faeline Stomp, your Tiger Palm, Blackout Kick, and Rising Sun Kick heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them. Lasts {4} sec."
                 }
             }
@@ -110,7 +116,7 @@
                 "0": {
                     "Hash": 1131949017,
                     "Id": "386941",
-                    "Spec": "Brewmaster, Windwalker",
+                    "Spec": "Windwalker",
                     "Text": "Bonedust Brew's Shadow damage or healing is increased by {1}%, and when Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {2} sec."
                 }
             }
@@ -163,8 +169,8 @@
                 },
                 "1": {
                     "Hash": 1585181783,
-                    "Id": "196736",
-                    "Spec": "Brewmaster",
+                    "Id": "196736, 228563",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Blackout Kick also empowers your next ability:\r\n\r\nTiger Palm: Damage increased by {1}%.\r\nBreath of Fire: Damage increased by {2}%, and damage reduction increased by {3}%.\r\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\r\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\r\nPurifying Brew: Pauses Stagger damage for {6} sec."
                 }
             }
@@ -176,20 +182,122 @@
                 "0": {
                     "Hash": 2210254366,
                     "Id": "205523",
-                    "Spec": "Brewmaster",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike with a blast of Chi energy, dealing {1} Physical damage and granting Shuffle for {2} sec."
                 },
                 "1": {
                     "Hash": 853260792,
                     "Id": "100784",
-                    "Spec": "Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\n\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\n"
                 },
                 "2": {
                     "Hash": 2356440461,
-                    "Id": "100784",
-                    "Spec": "Mistweaver",
+                    "Id": "228649",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\n"
+                },
+                "3": {
+                    "Hash": 1258739707,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n"
+                },
+                "4": {
+                    "Hash": 677612777,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces Stagger by {2}.\r\n"
+                },
+                "5": {
+                    "Hash": 290692083,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nReduces Stagger by {3}.\r\n"
+                },
+                "6": {
+                    "Hash": 2265813454,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nCritical hits grant an additional {2} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "7": {
+                    "Hash": 832023433,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nCritical hits grant an additional {3} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "8": {
+                    "Hash": 2756574326,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces Stagger by {2}.\r\n\r\nCritical hits grant an additional {3} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "9": {
+                    "Hash": 1488038883,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nReduces Stagger by {3}.\r\n\r\nCritical hits grant an additional {4} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "10": {
+                    "Hash": 3975012747,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nStrikes up to {3} additionaltargettargets.\r\n"
+                },
+                "11": {
+                    "Hash": 2060449568,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nReduces Stagger by {3}.\r\n"
+                },
+                "12": {
+                    "Hash": 2093878590,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nStrikes up to {3} additionaltargettargets.\r\n\r\nReduces Stagger by {4}.\r\n"
+                },
+                "13": {
+                    "Hash": 3842189945,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nCritical hits grant an additional {3} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "14": {
+                    "Hash": 3103243498,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nStrikes up to {3} additionaltargettargets.\r\n\r\nCritical hits grant an additional {4} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "15": {
+                    "Hash": 4220370350,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nReduces Stagger by {3}.\r\n\r\nCritical hits grant an additional {4} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "16": {
+                    "Hash": 1499830480,
+                    "Id": "100784",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.\r\n\r\nStrikes up to {3} additionaltargettargets.\r\n\r\nReduces Stagger by {4}.\r\n\r\nCritical hits grant an additional {5} [plural|stack|stacks] of Elusive Brawler.\r\n"
+                },
+                "17": {
+                    "Hash": 436096705,
+                    "Id": "205523",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike with a blast of Chi energy, dealing {1} Physical damage."
+                },
+                "18": {
+                    "Hash": 1453519375,
+                    "Id": "261916",
+                    "Spec": "Windwalker",
+                    "Text": "Blackout Kick costs {1} fewer Chi."
+                },
+                "19": {
+                    "Hash": 1002479936,
+                    "Id": "261917",
+                    "Spec": "Windwalker",
+                    "Text": "Blackout Kick reduces the cooldown of Rising Sun Kick and Fists of Fury by {1} sec."
                 }
             }
         },
@@ -202,6 +310,12 @@
                     "Id": "280515",
                     "Spec": "Brewmaster",
                     "Text": "Stagger duration increased by {1} sec, causing Staggered damage to instead be applied over {2} sec."
+                },
+                "1": {
+                    "Hash": 2064833076,
+                    "Id": "280515",
+                    "Spec": "Brewmaster",
+                    "Text": "Increases the duration of Stagger by {1} sec."
                 }
             }
         },
@@ -218,8 +332,92 @@
                 "1": {
                     "Hash": 2950640235,
                     "Id": "386276",
-                    "Spec": "Brewmaster",
+                    "Spec": "Windwalker",
                     "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\n\nTiger Palm and Keg Smash reduce the cooldown of your brews by an additional {4} sec when striking enemies with your Bonedust Brew active.\n\nYour abilities have a low chance to cast Bonedust Brew at your target's location."
+                },
+                "2": {
+                    "Hash": 788114335,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\n"
+                },
+                "3": {
+                    "Hash": 1833424232,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nTiger Palm and Keg Smash reduce the cooldown of your brews by an additional {4} sec when striking enemies with your Bonedust Brew active."
+                },
+                "4": {
+                    "Hash": 77955134,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\n\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location."
+                },
+                "5": {
+                    "Hash": 2531106174,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\n\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {4} sec."
+                },
+                "6": {
+                    "Hash": 1442327716,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nTiger Palm and Keg Smash reduce the cooldown of your brews by an additional {4} sec when striking enemies with your Bonedust Brew active.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
+                },
+                "7": {
+                    "Hash": 699319441,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\n\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {4} sec."
+                },
+                "8": {
+                    "Hash": 3998651996,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nTiger Palm and Keg Smash reduce the cooldown of your brews by an additional {4} sec when striking enemies with your Bonedust Brew active.\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
+                },
+                "9": {
+                    "Hash": 3539220498,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nSpinning Crane Kick refunds {4} Chi when striking enemies with your Bonedust Brew active.\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location."
+                },
+                "10": {
+                    "Hash": 3072436137,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nSpinning Crane Kick refunds {4} Chi when striking enemies with your Bonedust Brew active.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
+                },
+                "11": {
+                    "Hash": 2933878454,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nSpinning Crane Kick refunds {4} Chi when striking enemies with your Bonedust Brew active.\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
+                },
+                "12": {
+                    "Hash": 2021706976,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nGust of Mists heals targets with your Bonedust Brew active for an additional {4}."
+                },
+                "13": {
+                    "Hash": 2398497804,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nGust of Mists heals targets with your Bonedust Brew active for an additional {4}.\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location."
+                },
+                "14": {
+                    "Hash": 3494798279,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nGust of Mists heals targets with your Bonedust Brew active for an additional {4}.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
+                },
+                "15": {
+                    "Hash": 2759135964,
+                    "Id": "386276",
+                    "Spec": "Windwalker",
+                    "Text": "Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for {1} sec. Your abilities have a {2}% chance to affect the target a second time at {3}% effectiveness as Shadow damage or healing.\r\n\r\nGust of Mists heals targets with your Bonedust Brew active for an additional {4}.\r\n\r\nYour abilities have a low chance to cast Bonedust Brew at your target's location.\r\n\r\nWhen Bonedust Brew deals Shadow damage or healing, its cooldown is reduced by {5} sec."
                 }
             }
         },
@@ -230,7 +428,7 @@
                 "0": {
                     "Hash": 2661705934,
                     "Id": "389577",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "When a hit deals more than {1}% of your maximum health, reduce all damage you take by {2}% for {3} sec.\n\nThis effect cannot occur more than once every {4}  seconds."
                 }
             }
@@ -253,9 +451,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2256475395,
-                    "Id": "115181",
-                    "Spec": "Brewmaster",
+                    "Id": "115181, 123725",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Breathe fire on targets in front of you, causing {1} Fire damage. Deals reduced damage to secondary targets.\n\nTargets affected by Keg Smash will also burn, taking {2} Fire damage and dealing {3}% reduced damage to you for {4} sec."
+                },
+                "1": {
+                    "Hash": 2717439517,
+                    "Id": "330907",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Breathe fire on targets in front of you, causing {1} Fire damage.\r\n\r\nTargets affected by Keg Smash will also burn, taking {2} Fire damage and dealing {3}% reduced damage to you for {4} sec."
                 }
             }
         },
@@ -283,8 +487,8 @@
                 },
                 "1": {
                     "Hash": 1027296414,
-                    "Id": "399226",
-                    "Spec": "Mistweaver",
+                    "Id": "399230",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "When Life Cocoon expires, it releases a burst of mist that restores {1} health to {2} nearby allies."
                 }
             }
@@ -304,6 +508,24 @@
                     "Id": "397251",
                     "Spec": "Brewmaster",
                     "Text": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
+                },
+                "2": {
+                    "Hash": 4256621124,
+                    "Id": "397251",
+                    "Spec": "Brewmaster",
+                    "Text": "Weapons of Order calls forth Xuen, the White Tiger to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
+                },
+                "3": {
+                    "Hash": 487813775,
+                    "Id": "397251",
+                    "Spec": "Brewmaster",
+                    "Text": "Weapons of Order calls forth Yu'lon, the Jade Serpent to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
+                },
+                "4": {
+                    "Hash": 237814229,
+                    "Id": "397251",
+                    "Spec": "Brewmaster",
+                    "Text": "Weapons of Order calls forth Chi-Ji, the Red Crane to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
                 }
             }
         },
@@ -313,8 +535,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2963778100,
-                    "Id": "388218",
-                    "Spec": "Mistweaver",
+                    "Id": "388218, 388220",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each time Soothing Mist heals, the absorb amount of your next Life Cocoon is increased by {1}%, stacking up to {2} times."
                 }
             }
@@ -338,7 +560,7 @@
                 "0": {
                     "Hash": 2251742275,
                     "Id": "115173",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces the cooldown of Roll by {1} sec and increases its maximum number of charges by {2}."
                 }
             }
@@ -352,6 +574,18 @@
                     "Id": "322507",
                     "Spec": "Brewmaster",
                     "Text": "A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing {1} damage."
+                },
+                "1": {
+                    "Hash": 3034626527,
+                    "Id": "322507",
+                    "Spec": "Brewmaster",
+                    "Text": "A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing {1} damage.\r\n\r\nPurifying Stagger damage increases absorption by up to {2}%."
+                },
+                "2": {
+                    "Hash": 159098143,
+                    "Id": "425965",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your attacks against targets afflicted by Breath of Fire have a chance to deal {1}% extra damage as Shadowflame, and each Celestial Brew also grants a Stagger absorb for {2}% of the Shadowflame damage you have dealt, causing damage delayed by Stagger to instead be prevented."
                 }
             }
         },
@@ -361,8 +595,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 573581647,
-                    "Id": "325177",
-                    "Spec": "Brewmaster",
+                    "Id": "325177, 325190",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Drinking from Brews has a {1}% chance to coat the Monk with Celestial Flames for {2} sec.\n\nWhile Celestial Flames is active, Spinning Crane Kick applies Breath of Fire and Breath of Fire reduces the damage affected enemies deal to you by an additional {3}%.\n\n"
                 }
             }
@@ -373,8 +607,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 559881562,
-                    "Id": "216519",
-                    "Spec": "Brewmaster",
+                    "Id": "216519, 216521",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You have a chance equal to your critical strike chance to be healed for an additional {1}% of the amount healed."
                 }
             }
@@ -397,8 +631,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4056751895,
-                    "Id": "386965",
-                    "Spec": "Brewmaster",
+                    "Id": "338138, 338140, 338141, 386959, 386963, 386965",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your Breath of Fire ignites your right leg in flame for {1} sec, causing your Blackout Kick and Spinning Crane Kick to deal {2}% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target."
                 }
             }
@@ -409,20 +643,20 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2156983584,
-                    "Id": "123986",
-                    "Spec": "Windwalker",
+                    "Id": "123986, 130654, 148135, 261682",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n\n\nChi Burst generates {5} Chi per enemy target damaged, up to a maximum of {6}."
                 },
                 "1": {
                     "Hash": 835639514,
-                    "Id": "123986",
-                    "Spec": "Brewmaster",
+                    "Id": "123986, 130654, 148135, 261682",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n\n\nCasting Chi Burst does not prevent avoiding attacks."
                 },
                 "2": {
                     "Hash": 1148630245,
-                    "Id": "123986",
-                    "Spec": "Mistweaver",
+                    "Id": "123986, 130654, 148135, 261682",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing reduced beyond {4} targets.\n"
                 }
             }
@@ -442,6 +676,12 @@
                     "Id": "393400",
                     "Spec": "Brewmaster",
                     "Text": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T3565447:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
+                },
+                "2": {
+                    "Hash": 1908852843,
+                    "Id": "393786",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t Press the Advantage:\r\nDeals {2} Nature damage.\r\n\r\n|T3565447:24|t Weapons of Order:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
                 }
             }
         },
@@ -451,8 +691,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3456660218,
-                    "Id": "115008",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "115008, 119085",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Torpedoes you forward a long distance and increases your movement speed by {1}% for {2} sec, stacking up to {3} times."
                 }
             }
@@ -463,8 +703,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 81263552,
-                    "Id": "115098",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "115098, 132463, 132466, 132467",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "A wave of Chi energy flows through friends and foes, dealing {1} Nature damage or {2} healing. Bounces up to {3} times to targets within {4} yards."
                 }
             }
@@ -490,6 +730,12 @@
                     "Id": "324312",
                     "Spec": "Brewmaster",
                     "Text": "You and the target charge each other, meeting halfway then rooting all targets within {1} yards for {2} sec."
+                },
+                "1": {
+                    "Hash": 2896313409,
+                    "Id": "128845, 128846, 330909",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You and the target charge each other, meeting halfway then stunning all targets within {1} yards."
                 }
             }
         },
@@ -499,8 +745,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 437454472,
-                    "Id": "389574",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "389574, 389684",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You and your allies within {1} yards have {2}% increased healing taken from all sources."
                 }
             }
@@ -511,8 +757,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2985273165,
-                    "Id": "388047",
-                    "Spec": "Mistweaver",
+                    "Id": "388047, 388048",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Healing with Enveloping Mists or Vivify while channeling Soothing Mists increases their healing done by {1}% and reduces their mana cost by {2}%. Stacks up to {3} times.\n\nWhen your Soothing Mists channel ends, this effect is cancelled."
                 }
             }
@@ -535,8 +781,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1014017099,
-                    "Id": "383785",
-                    "Spec": "Brewmaster",
+                    "Id": "383785, 383800",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals {1}% increased damage."
                 }
             }
@@ -548,7 +794,7 @@
                 "0": {
                     "Hash": 1051493020,
                     "Id": "117952",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Channel Jade lightning, causing {1} Nature damage over {2} sec to the target and sometimes knocking back melee attackers."
                 }
             }
@@ -572,7 +818,7 @@
                 "0": {
                     "Hash": 3006649440,
                     "Id": "122278",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces all damage you take by {1}% to {2}% for {3} sec, with larger attacks being reduced by more."
                 }
             }
@@ -583,8 +829,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2683096244,
-                    "Id": "325201",
-                    "Spec": "Windwalker",
+                    "Id": "325202",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Spending Chi has a chance to make your next Spinning Crane Kick free and deal an additional {1}% damage."
                 }
             }
@@ -626,8 +872,14 @@
                 "1": {
                     "Hash": 307117818,
                     "Id": "218164",
-                    "Spec": "Brewmaster, Windwalker",
+                    "Spec": "Windwalker",
                     "Text": "Removes all Poison and Disease effects from the target."
+                },
+                "2": {
+                    "Hash": 108574395,
+                    "Id": "115450",
+                    "Spec": "Mistweaver",
+                    "Text": "Removes all Magic effects from the target."
                 }
             }
         },
@@ -638,7 +890,7 @@
                 "0": {
                     "Hash": 469420065,
                     "Id": "122783",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces magic damage you take by {1}% for {2} sec, and transfers all currently active harmful magical effects on you back to their original caster if possible."
                 }
             }
@@ -649,14 +901,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 663411296,
-                    "Id": "116095",
-                    "Spec": "Windwalker",
+                    "Id": "116095, 116706",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks. Targets already snared will be rooted for {3} sec instead."
                 },
                 "1": {
                     "Hash": 3793371108,
-                    "Id": "116095",
-                    "Spec": "Mistweaver, Brewmaster",
+                    "Id": "116095, 116706",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks."
                 }
             }
@@ -703,8 +955,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2390165180,
-                    "Id": "383994",
-                    "Spec": "Brewmaster",
+                    "Id": "383994, 387621",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "After using Breath of Fire, you breathe fire {1} additional times, each dealing {2} Fire damage.\n\nBreath of Fire damage increased by up to {3}% based on your level of Stagger."
                 }
             }
@@ -766,6 +1018,12 @@
                     "Id": "387046",
                     "Spec": "Brewmaster",
                     "Text": "Blackout Kick deals an additional {1}% damage. Blackout Kick critical hits grant an additional {2} stacks of Elusive Brawler."
+                },
+                "1": {
+                    "Hash": 853318044,
+                    "Id": "387046, 387047",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Blackout Kick deals an additional {1}% damage. Blackout Kick critical hits grant an additional {2} [plural|stack|stacks] of Elusive Brawler."
                 }
             }
         },
@@ -799,8 +1057,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3265996944,
-                    "Id": "323999",
-                    "Spec": "Windwalker",
+                    "Id": "335913, 360829",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Xuen strikes your enemies with Empowered Tiger Lightning every {1} sec, dealing {2}% of the damage you and your summons have dealt to those targets in the last {3} sec."
                 }
             }
@@ -814,6 +1072,12 @@
                     "Id": "124682",
                     "Spec": "Mistweaver",
                     "Text": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%. \n\nApplies Renewing Mist for {4} seconds to an ally within {5} yds."
+                },
+                "1": {
+                    "Hash": 2970670290,
+                    "Id": "344008",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%. "
                 }
             }
         },
@@ -823,8 +1087,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4073142441,
-                    "Id": "394110",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "343249, 343250, 343539, 343543, 394110",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within {1} sec, ignoring its cooldown.\n\nDuring this time, if you cast Vivify on yourself, its healing is increased by {2}% and {3}% of its cost is refunded."
                 }
             }
@@ -835,9 +1099,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3817975531,
-                    "Id": "191837",
-                    "Spec": "Mistweaver",
+                    "Id": "191837, 191840",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Unleashes a rapid twirl of healing bolts at up to {1} allies within {2} yds, every {3} sec for {4} sec. Each bolt heals a target for {5}, plus an additional {6} over {7} sec.\n\nGust of Mists will heal affected targets twice. Castable while moving."
+                },
+                "1": {
+                    "Hash": 1323225583,
+                    "Id": "191837, 191840",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Unleashes a rapid twirl of healing bolts at up to {1} allies within {2} yds, every {3} sec for {4} sec. Each bolt heals a target for {5}, plus an additional {6} over {7} sec.\r\n\r\nGust of Mists will heal affected targets twice. Castable while moving.\r\n\r\nEach bolt has a chance to reduce the cooldown of Thunder Focus Tea by {8} sec."
                 }
             }
         },
@@ -859,14 +1129,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4115889685,
-                    "Id": "322101",
-                    "Spec": "Windwalker",
+                    "Id": "115129, 322101",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\n|cFFFFFFFFGenerates {4} Chi."
                 },
                 "1": {
                     "Hash": 2268931682,
-                    "Id": "322101",
-                    "Spec": "Brewmaster",
+                    "Id": "115129, 322101",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm."
                 },
                 "2": {
@@ -874,6 +1144,24 @@
                     "Id": "322101",
                     "Spec": "Mistweaver",
                     "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\n\nMay be cast during Soothing Mist, and will additionally heal the Soothing Mist target."
+                },
+                "3": {
+                    "Hash": 3153927249,
+                    "Id": "115129, 322101",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards."
+                },
+                "4": {
+                    "Hash": 1111720713,
+                    "Id": "115129, 322101",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\r\n\r\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm.\r\n\r\n|cFFFFFFFFGenerates {4} Chi."
+                },
+                "5": {
+                    "Hash": 500485100,
+                    "Id": "322104",
+                    "Spec": "Mistweaver",
+                    "Text": "Expel Harm benefits from Mastery: Gust of Mists."
                 }
             }
         },
@@ -883,8 +1171,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3201768516,
-                    "Id": "325153",
-                    "Spec": "Brewmaster",
+                    "Id": "325153, 388867",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Hurls a flaming keg at the target location, dealing {1} Fire damage to nearby enemies, causing your attacks against them to deal {2} additional Fire damage, and causing their melee attacks to deal {3}% reduced damage for the next {4} sec."
                 }
             }
@@ -895,8 +1183,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4074404577,
-                    "Id": "196607",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "196607, 196608",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Tiger Palm also applies Eye of the Tiger, dealing {1} Nature damage to the enemy and {2} healing to the Monk over {3} sec. Limit {4} target."
                 }
             }
@@ -907,8 +1195,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3726791581,
-                    "Id": "389942",
-                    "Spec": "Brewmaster",
+                    "Id": "213116, 227679, 389942",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Tiger Palm has a {1}% chance to deal {2}% of normal damage and reduce the remaining cooldown of your Brews by {3} additional sec."
                 }
             }
@@ -964,6 +1252,12 @@
                     "Id": "394923",
                     "Spec": "Windwalker",
                     "Text": "Touch of Death strikes up to {1} additional nearby targets. This Touch of Death is always an Improved Touch of Death."
+                },
+                "1": {
+                    "Hash": 3271442765,
+                    "Id": "394923",
+                    "Spec": "Windwalker",
+                    "Text": "Touch of Death strikes up to {1} additional nearby targettargets. This Touch of Death is always an Improved Touch of Death."
                 }
             }
         },
@@ -974,7 +1268,7 @@
                 "0": {
                     "Hash": 3621931479,
                     "Id": "394123",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Touch of Death cooldown reduced by {1} sec."
                 }
             }
@@ -1000,6 +1294,18 @@
                     "Id": "113656",
                     "Spec": "Windwalker",
                     "Text": "Pummels all targets in front of you, dealing {1} Physical damage over {2} sec to your primary target and {3} damage over {4} sec to all other enemies. Deals reduced damage beyond {5} targets. Can be channeled while moving."
+                },
+                "1": {
+                    "Hash": 4091719208,
+                    "Id": "113656, 117418, 120086",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Pummels all targets in front of you, dealing {1} Physical damage to your primary target and {2} damage to all other enemies over {3} sec. Deals reduced damage beyond {4} targets. Can be channeled while moving."
+                },
+                "2": {
+                    "Hash": 2572628413,
+                    "Id": "330898, 345714",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Pummels all targets in front of you, dealing {1} Physical damage over {2} sec to your primary target and {3} damage over {4} sec to up to {5} other targets. "
                 }
             }
         },
@@ -1039,9 +1345,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1510353777,
-                    "Id": "101545",
-                    "Spec": "Windwalker",
+                    "Id": "101545, 123586",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Soar forward through the air at high speed for {1} sec.\n \nIf used again while active, you will land, dealing {2} damage to all enemies within {3} yards and reducing movement speed by {4}% for {5} sec."
+                },
+                "1": {
+                    "Hash": 1071934490,
+                    "Id": "115057",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Land yourself, dealing {1} damage to all enemies within {2} yards, and slowing them by {3}% for {4} sec."
                 }
             }
         },
@@ -1093,15 +1405,51 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1694125017,
-                    "Id": "115203",
-                    "Spec": "Brewmaster",
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%, increasing your armor by {4}% and dodge chance by {5}%."
                 },
                 "1": {
                     "Hash": 336560320,
-                    "Id": "115203",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%."
+                },
+                "2": {
+                    "Hash": 795528331,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec."
+                },
+                "3": {
+                    "Hash": 4431676,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec, increasing the effectiveness of Stagger by {2}%."
+                },
+                "4": {
+                    "Hash": 4055524687,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, increasing the effectiveness of Stagger by {3}%, reducing all damage you take by {4}%."
+                },
+                "5": {
+                    "Hash": 1863319262,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec, increasing your armor by {2}% and dodge chance by {3}%."
+                },
+                "6": {
+                    "Hash": 2103471206,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec, increasing the effectiveness of Stagger by {2}%, increasing your armor by {3}% and dodge chance by {4}%."
+                },
+                "7": {
+                    "Hash": 1554002405,
+                    "Id": "115203, 120954",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, increasing the effectiveness of Stagger by {3}%, reducing all damage you take by {4}%, increasing your armor by {5}% and dodge chance by {6}%."
                 }
             }
         },
@@ -1135,9 +1483,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 600418269,
-                    "Id": "396166",
-                    "Spec": "Windwalker",
+                    "Id": "396166, 396167, 396168",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your Combo Strikes grant a stacking {1}% chance for your next Fists of Fury to grant {2}% Haste and invoke Xuen, The White Tiger for {3} sec."
+                },
+                "1": {
+                    "Hash": 1049076123,
+                    "Id": "287062, 287063",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your Combo Strikes grant a stacking {1}% chance for your next Fists of Fury to grant {2} Haste and invoke Xuen, The White Tiger for {3} sec."
                 }
             }
         },
@@ -1147,8 +1501,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 694563488,
-                    "Id": "383700",
-                    "Spec": "Brewmaster",
+                    "Id": "383700, 383701",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Purifying Brew instantly heals you for {1}% of the purified Stagger damage."
                 }
             }
@@ -1165,8 +1519,8 @@
                 },
                 "1": {
                     "Hash": 2179579966,
-                    "Id": "389575",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "389575, 389685",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You and your allies within {1} yards take {2}% reduced damage from area-of-effect attacks."
                 }
             }
@@ -1180,6 +1534,12 @@
                     "Id": "388212",
                     "Spec": "Mistweaver",
                     "Text": "Reduces the cooldown of Invoke Yul'on, the Jade Serpent by {1} min, but decreases its duration to {2} sec. "
+                },
+                "1": {
+                    "Hash": 889883022,
+                    "Id": "388212",
+                    "Spec": "Mistweaver",
+                    "Text": "Reduces the cooldown of Invoke Chi-Ji, the Red Crane by {1} min, but decreases its duration to {2} sec. "
                 }
             }
         },
@@ -1198,6 +1558,12 @@
                     "Id": "124502",
                     "Spec": "Windwalker",
                     "Text": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:"
+                },
+                "2": {
+                    "Hash": 1604317564,
+                    "Id": "124502, 124503, 124506, 124507, 178173",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|tHealing Sphere:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
                 }
             }
         },
@@ -1231,8 +1597,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2621833486,
-                    "Id": "387256",
-                    "Spec": "Brewmaster",
+                    "Id": "387254, 387256",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "After you successfully dodge or an enemy misses you, you gain {1}% increased movement speed for {2} sec. Max {3} stacks."
                 }
             }
@@ -1291,8 +1657,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1684273123,
-                    "Id": "122281",
-                    "Spec": "Mistweaver, Brewmaster",
+                    "Id": "122281, 428439",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Drink a healing elixir, healing you for {1}% of your maximum health."
                 }
             }
@@ -1333,8 +1699,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2597551238,
-                    "Id": "196740",
-                    "Spec": "Windwalker",
+                    "Id": "196740, 196741",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each successive attack that triggers Combo Strikes in a row grants {1}% increased damage, stacking up to {2} times."
                 }
             }
@@ -1345,8 +1711,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4133002995,
-                    "Id": "383695",
-                    "Spec": "Brewmaster",
+                    "Id": "383695, 383696",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Dealing damage with Blackout Kick increases the damage of your next Keg Smash by {1}%, stacking up to {2} times."
                 }
             }
@@ -1436,7 +1802,7 @@
                 "0": {
                     "Hash": 987635406,
                     "Id": "328669",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Grants an additional charge of Roll and Chi Torpedo."
                 }
             }
@@ -1498,6 +1864,12 @@
                     "Id": "274586",
                     "Spec": "Mistweaver",
                     "Text": "Vivify heals all allies with your Renewing Mist active for {1}.\n"
+                },
+                "1": {
+                    "Hash": 340715851,
+                    "Id": "274586",
+                    "Spec": "Mistweaver",
+                    "Text": "Vivify heals all allies with your Renewing Mist active for {1}, reduced beyond {2} allies.\r\n"
                 }
             }
         },
@@ -1510,6 +1882,12 @@
                     "Id": "325197",
                     "Spec": "Mistweaver",
                     "Text": "Summon an effigy of Chi-Ji for {1} sec that kicks up a Gust of Mist when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {2} allies for {3}, and reducing the cost and cast time of your next Enveloping Mist by {4}%, stacking.\n\nChi-Ji's presence makes you immune to movement impairing effects."
+                },
+                "1": {
+                    "Hash": 701683472,
+                    "Id": "358522",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Summon an effigy of Chi-Ji that kicks up a Gust of Mist when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {1} allies for {2}, and reducing the cost and cast time of your next Enveloping Mist by {3}%, stacking.\r\n\r\nChi-Ji's presence makes you immune to movement impairing effects.\r\n"
                 }
             }
         },
@@ -1519,9 +1897,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3412009469,
+                    "Id": "132578, 358520, 395267",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies.\n\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao."
+                },
+                "1": {
+                    "Hash": 2178503409,
                     "Id": "132578",
                     "Spec": "Brewmaster",
-                    "Text": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies.\n\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao."
+                    "Text": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies for {2} plus {3}% of Stagger damage you have recently purified.\r\n\r\nWhile active, {4}% of damage delayed by Stagger is instead Staggered by Niuzao."
+                },
+                "2": {
+                    "Hash": 916186485,
+                    "Id": "358520, 395267",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies for {2} plus {3}% of Stagger damage recently purified.\r\n\r\nWhile active, {4}% of damage delayed by Stagger is instead Staggered by Niuzao."
                 }
             }
         },
@@ -1531,14 +1921,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 757794975,
-                    "Id": "123904",
-                    "Spec": "Windwalker",
+                    "Id": "123904, 123996",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage.\n\nEvery {6} sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing {7}% of the damage you have dealt to those targets in the last {8} sec."
                 },
                 "1": {
                     "Hash": 3583519542,
-                    "Id": "123904",
-                    "Spec": "Mistweaver, Brewmaster",
+                    "Id": "123904, 123996, 358518",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage."
                 }
             }
@@ -1552,6 +1942,12 @@
                     "Id": "322118",
                     "Spec": "Mistweaver",
                     "Text": "Summons an effigy of Yu'lon, the Jade Serpent for {1} sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to {2} allies for {3} over {4} sec. \n\nEnveloping Mist costs {5}% less mana while Yu'lon is active."
+                },
+                "1": {
+                    "Hash": 2874100222,
+                    "Id": "358521",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Summons an effigy of Yu'lon, the Jade Serpent for {1} sec. Yu'lon heals nearby allies with Celestial Breath for {2}."
                 }
             }
         },
@@ -1561,8 +1957,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3171520164,
-                    "Id": "388661",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Id": "388661, 388663",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You gain {1}% haste for {2} sec after summoning your Celestial. "
                 }
             }
@@ -1588,6 +1984,12 @@
                     "Id": "388031",
                     "Spec": "Mistweaver",
                     "Text": "Abilities that activate Gust of Mist reduce the cooldown on Invoke Yul'on, the Jade Serpent by {1} sec, and Yu'lon's Soothing Breath healing is increased by {2}%."
+                },
+                "1": {
+                    "Hash": 1610599785,
+                    "Id": "388031",
+                    "Spec": "Mistweaver",
+                    "Text": "Abilities that activate Gust of Mist reduce the cooldown on Invoke Chi-Ji, the Red Crane by {1} sec, and Chi-Ji's Gusts of Mists healing is increased by {2}%."
                 }
             }
         },
@@ -1600,6 +2002,12 @@
                     "Id": "392979",
                     "Spec": "Windwalker",
                     "Text": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\n\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} Nature damage to all enemies within {3} yards. The damage is increased by {4}% for each stack of Chi Energy."
+                },
+                "1": {
+                    "Hash": 2826939224,
+                    "Id": "337483, 337571, 393057",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\r\n\r\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} damage to all enemies within {3} yards. The damage is increased by {4}% for each stack of Chi Energy."
                 }
             }
         },
@@ -1609,14 +2017,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1493508169,
-                    "Id": "121253",
-                    "Spec": "Brewmaster",
+                    "Id": "121253, 330911",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\n\nGrants Shuffle for {6} sec and reduces the remaining cooldown on your Brews by {7} sec."
                 },
                 "1": {
                     "Hash": 2639544007,
-                    "Id": "121253",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Id": "121253, 330911",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets."
                 }
             }
@@ -1640,7 +2048,7 @@
                 "0": {
                     "Hash": 2563209942,
                     "Id": "119381",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Knocks down all enemies within {1} yards, stunning them for {2} sec."
                 }
             }
@@ -1666,6 +2074,12 @@
                     "Id": "116849",
                     "Spec": "Mistweaver",
                     "Text": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%."
+                },
+                "1": {
+                    "Hash": 1260326463,
+                    "Id": "116849",
+                    "Spec": "Mistweaver",
+                    "Text": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%.\r\n\r\nApplies Renewing Mist and Enveloping Mist to the target."
                 }
             }
         },
@@ -1678,6 +2092,12 @@
                     "Id": "197915",
                     "Spec": "Mistweaver",
                     "Text": "Enveloping Mist reduces the mana cost of your next Vivify by {1}%.\n\nVivify reduces the mana cost of your next Enveloping Mist by {2}%."
+                },
+                "1": {
+                    "Hash": 3280652003,
+                    "Id": "197915",
+                    "Spec": "Mistweaver",
+                    "Text": "Vivify has a {1}% chance to cause your next Rising Sun Kick or Enveloping Mist to generate {2} stack of Mana Tea.\r\n\r\nEnveloping Mist and Rising Sun Kick have a {3}% chance to cause your next Vivify to generate {4} stack of Mana Tea."
                 }
             }
         },
@@ -1700,8 +2120,20 @@
                 "0": {
                     "Hash": 1969357197,
                     "Id": "197908",
-                    "Spec": "Mistweaver",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Reduces the mana cost of your spells by {1}% for {2} sec."
+                },
+                "1": {
+                    "Hash": 409531030,
+                    "Id": "115294",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Consumes {1} stack of Mana Tea per {2} sec to restore {3} Mana and reduces the Mana cost of your spells by {4}% for {5} sec per stack of Mana Tea consumed after drinking.\r\n\r\nCan be cast while moving, but movement speed is reduced by {6}% while channeling."
+                },
+                "2": {
+                    "Hash": 1421690465,
+                    "Id": "115869",
+                    "Spec": "Mistweaver",
+                    "Text": "For every {1} Mana you spend, you gain {2} stack of Mana Tea, with a chance equal to your critical strike chance to generate {3} extra stack.\r\n\r\n|T608949:24|tMana Tea:\r\nConsumes {4} stack of Mana Tea per {5} sec to restore {6} Mana and reduces the Mana cost of your spells by {7}% for {8} sec per stack of Mana Tea consumed after drinking.\r\n\r\nCan be cast while moving, but movement speed is reduced by {9}% while channeling."
                 }
             }
         },
@@ -1747,8 +2179,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3698917811,
-                    "Id": "117906",
-                    "Spec": "Brewmaster",
+                    "Id": "117906, 195630",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each time you are hit by a melee attack, or hit with Blackout Kick, you gain stacking {1}% increased Dodge chance until your next successful Dodge.\n\nAlso increases your attack power by {2}%."
                 }
             }
@@ -1759,9 +2191,195 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3013639128,
-                    "Id": "117907",
-                    "Spec": "Mistweaver",
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "1": {
+                    "Hash": 2189987740,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "2": {
+                    "Hash": 2463358814,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "3": {
+                    "Hash": 2355493356,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "4": {
+                    "Hash": 2769615716,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "5": {
+                    "Hash": 1825504540,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "6": {
+                    "Hash": 3394284626,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "7": {
+                    "Hash": 1443053691,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "8": {
+                    "Hash": 705106133,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "9": {
+                    "Hash": 2709967152,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "10": {
+                    "Hash": 589547876,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "11": {
+                    "Hash": 3411502440,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "12": {
+                    "Hash": 244436794,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "13": {
+                    "Hash": 1877965272,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "14": {
+                    "Hash": 2498914353,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "15": {
+                    "Hash": 34657217,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "16": {
+                    "Hash": 337611593,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "17": {
+                    "Hash": 2751951970,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "18": {
+                    "Hash": 2282483514,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "19": {
+                    "Hash": 1685855070,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "20": {
+                    "Hash": 972555669,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "21": {
+                    "Hash": 4046775047,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "22": {
+                    "Hash": 1641382194,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "23": {
+                    "Hash": 4262668145,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}."
+                },
+                "24": {
+                    "Hash": 2526588864,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "25": {
+                    "Hash": 2383267831,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "26": {
+                    "Hash": 2648386902,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "27": {
+                    "Hash": 689939197,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "28": {
+                    "Hash": 1942589959,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "29": {
+                    "Hash": 2871769114,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "30": {
+                    "Hash": 3303150707,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+                },
+                "31": {
+                    "Hash": 3307885840,
+                    "Id": "117907, 191894",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist, Enveloping Mist, Expel Harm, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
                 }
             }
         },
@@ -1771,8 +2389,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2478941165,
-                    "Id": "388509",
-                    "Spec": "Mistweaver",
+                    "Id": "388508, 388509",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each time Enveloping Mist heals, its healing bonus has a {1}% chance to spread to an injured ally within {2} yds."
                 }
             }
@@ -1846,6 +2464,12 @@
                     "Id": "388682",
                     "Spec": "Mistweaver",
                     "Text": "Renewing Mist's heal over time effect has a {1}% chance to proc Enveloping Mist for {2} sec."
+                },
+                "1": {
+                    "Hash": 2873285864,
+                    "Id": "388682",
+                    "Spec": "Mistweaver",
+                    "Text": "Renewing Mist's heal over time effect has a {1}% chance to apply Enveloping Mist for {2} sec."
                 }
             }
         },
@@ -1855,8 +2479,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3019281822,
-                    "Id": "8647",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "8647, 113746",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your damage weakens the target, increasing Physical damage taken by {1}%."
                 }
             }
@@ -1894,6 +2518,12 @@
                     "Id": "387765",
                     "Spec": "Mistweaver",
                     "Text": "Life Cocoon increases healing over time received by an additional {1}%, and this effect lingers for an additional {2} sec after the cocoon is removed."
+                },
+                "1": {
+                    "Hash": 1779316810,
+                    "Id": "387765, 387766",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Life Cocoon increases healing over time received by an additional {1}%, and this effect lingers on you for an additional {2} sec after the cocoon is removed."
                 }
             }
         },
@@ -1906,6 +2536,12 @@
                     "Id": "392970",
                     "Spec": "Windwalker",
                     "Text": "Fists of Fury damage increased by {1}%. When Fists of Fury deals damage, it has a {2}% chance to refund {3} Chi."
+                },
+                "1": {
+                    "Hash": 4247085221,
+                    "Id": "279922, 392973",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "When Fists of Fury deals damage, it has a {1}% chance to refund {2} Chi, and it deals {3} additional damage."
                 }
             }
         },
@@ -1915,8 +2551,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2364882475,
-                    "Id": "388511",
-                    "Spec": "Mistweaver",
+                    "Id": "388511, 388513",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your Enveloping Mists heal the target for {1}% of their maximum health each time they take damage."
                 }
             }
@@ -1934,7 +2570,7 @@
                 "1": {
                     "Hash": 2265288724,
                     "Id": "115078",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Incapacitates the target for {1} min. Limit {2}. Damage will cancel the effect."
                 }
             }
@@ -1981,8 +2617,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2735536716,
-                    "Id": "121817",
-                    "Spec": "Windwalker",
+                    "Id": "121283, 121817, 129914",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Every {1} sec, your next Tiger Palm will generate {2} additional Chi and deal {3}% additional damage."
                 }
             }
@@ -2020,6 +2656,12 @@
                     "Id": "393516",
                     "Spec": "Brewmaster",
                     "Text": "Activating Purifying Brew or Celestial Brew grants you {1}% dodge for {2} sec."
+                },
+                "1": {
+                    "Hash": 743424783,
+                    "Id": "393515",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Increases Dodge by {1}%."
                 }
             }
         },
@@ -2030,7 +2672,7 @@
                 "0": {
                     "Hash": 3451934157,
                     "Id": "392910",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Expel Harm's critical healing is increased by {1}%."
                 }
             }
@@ -2041,15 +2683,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1326023168,
-                    "Id": "115546",
-                    "Spec": "Brewmaster",
+                    "Id": "115546, 116189, 118635",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Taunts the target to attack you.\n\nThis ability can be targeted on your Statue of the Black Ox, causing the same effect on all enemies within  {1} yards of the statue."
                 },
                 "1": {
                     "Hash": 4177245906,
-                    "Id": "115546",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Id": "115546, 116189, 118635",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Taunts the target to attack you."
+                },
+                "2": {
+                    "Hash": 3471203226,
+                    "Id": "115546, 116189, 118635",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Taunts the target to attack you and causes them to move toward you at {1}% increased speed."
+                },
+                "3": {
+                    "Hash": 823755889,
+                    "Id": "115546, 116189, 118635",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Taunts the target to attack you and causes them to move toward you at {1}% increased speed.\r\n\r\nThis ability can be targeted on your Statue of the Black Ox, causing the same effect on all enemies within  {2} yards of the statue."
                 }
             }
         },
@@ -2059,9 +2713,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 713901619,
-                    "Id": "119582",
-                    "Spec": "Brewmaster",
+                    "Id": "119582, 325092",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Clears {1}% of your damage delayed with Stagger.\n\nInstantly heals you for {2}% of the damage cleared."
+                },
+                "1": {
+                    "Hash": 114557222,
+                    "Id": "119582, 325092",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Clears {1}% of your damage delayed with Stagger."
+                },
+                "2": {
+                    "Hash": 1956447712,
+                    "Id": "119582, 325092",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger"
+                },
+                "3": {
+                    "Hash": 1966230532,
+                    "Id": "119582, 325092",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger\r\n\r\nInstantly heals you for {3}% of the damage cleared."
                 }
             }
         },
@@ -2071,8 +2743,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3015321332,
-                    "Id": "388505",
-                    "Spec": "Brewmaster",
+                    "Id": "383764, 388505",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Purify {1}% of your Staggered damage each time you gain {2} sec of Shuffle duration."
                 }
             }
@@ -2119,8 +2791,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 922842300,
-                    "Id": "196725",
-                    "Spec": "Mistweaver",
+                    "Id": "162530, 196725",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summon a whirling tornado around you, causing {1} healing over {2} sec to up to {3} allies within {4} yards."
                 }
             }
@@ -2131,8 +2803,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4255535570,
-                    "Id": "115151",
-                    "Spec": "Mistweaver",
+                    "Id": "115151, 119607, 119611",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Surrounds the target with healing mists, restoring {1} health over {2} sec.\n\nIf Renewing Mist heals a target past maximum health, it will travel to another injured ally within {3} yds."
                 }
             }
@@ -2144,7 +2816,7 @@
                 "0": {
                     "Hash": 3886015899,
                     "Id": "389578",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your attacks have a chance to resonate, dealing {1} Nature damage to enemies within {2} yds."
                 }
             }
@@ -2194,6 +2866,12 @@
                     "Id": "342928",
                     "Spec": "Windwalker",
                     "Text": "Increases the healing done by Expel Harm by {1}%, and your Expel Harm now generates {2} additional Chi."
+                },
+                "1": {
+                    "Hash": 352396418,
+                    "Id": "287771, 290461",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals a friendly target for {1}% of their maximum health, and causes {2}% of the amount healed to instantly be dealt to the nearest enemy as Nature damage within {3} yards. \r\n\r\n|cFFFFFFFFGenerates {4} Chi."
                 }
             }
         },
@@ -2228,7 +2906,7 @@
                 "0": {
                     "Hash": 3130185205,
                     "Id": "116844",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Form a Ring of Peace at the target location for {1} sec. Enemies that enter will be ejected from the Ring."
                 }
             }
@@ -2239,8 +2917,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 654079744,
-                    "Id": "274909",
-                    "Spec": "Mistweaver",
+                    "Id": "274909, 274912",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Rising Sun Kick heals all allies with your Renewing Mist, Enveloping Mist, or Essence Font for {1}, and extends those effects by {2} sec, up to {3}% of their original duration."
                 }
             }
@@ -2263,14 +2941,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 836831240,
-                    "Id": "107428",
-                    "Spec": "Windwalker",
+                    "Id": "107428, 185099",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Kick upwards, dealing {1} Physical damage, and reducing the effectiveness of healing on the target for {2} sec."
                 },
                 "1": {
                     "Hash": 2610936800,
-                    "Id": "107428",
-                    "Spec": "Mistweaver",
+                    "Id": "107428, 185099",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Kick upwards, dealing {1} Physical damage.\n\nApplies Renewing Mist for {2} seconds to an ally within {3} yds"
                 },
                 "2": {
@@ -2278,6 +2956,12 @@
                     "Id": "107428",
                     "Spec": "Brewmaster",
                     "Text": "Kick upwards, dealing {1} Physical damage."
+                },
+                "3": {
+                    "Hash": 3274450065,
+                    "Id": "107428, 185099",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Kick upwards, dealing {1} Physical damage, and reducing the effectiveness of healing on the target for {2} sec.\r\n\r\nApplies Renewing Mist for {3} seconds to an ally within {4} yds"
                 }
             }
         },
@@ -2300,7 +2984,7 @@
                 "0": {
                     "Hash": 640043028,
                     "Id": "109132",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Roll a short distance."
                 }
             }
@@ -2311,8 +2995,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2998363054,
-                    "Id": "116847",
-                    "Spec": "Brewmaster, Windwalker",
+                    "Id": "116847, 148187",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. Deals reduced damage beyond {4} targets."
                 }
             }
@@ -2336,8 +3020,14 @@
                 "0": {
                     "Hash": 3119901925,
                     "Id": "389579",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "When your healing spells heal an ally whose health is below {1}% maximum health, you gain an additional {2}% healing for the next {3} sec."
+                },
+                "1": {
+                    "Hash": 160903308,
+                    "Id": "390105",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Healing increased by {1}%"
                 }
             }
         },
@@ -2362,6 +3052,12 @@
                     "Id": "388491",
                     "Spec": "Mistweaver",
                     "Text": "After using Thunder Focus Tea, your next spell gives {1}% of a stat for {2} sec:\n{ffffffff|Enveloping Mist}: Critical strike\n{ffffffff|Renewing Mist}: Haste\n{ffffffff|Vivify}: Mastery\n{ffffffff|Rising Sun Kick}: Versatility\n{ffffffff|Essence Font}: Haste"
+                },
+                "1": {
+                    "Hash": 535742662,
+                    "Id": "388491, 388497",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "After using Thunder Focus Tea, your next spell gives {1}% of a stat for {2} sec:\r\nEnveloping Mist: Critical strike\r\nRenewing Mist: Haste\r\nVivify: Mastery\r\nRising Sun Kick: Versatility\r\nEssence Font: Haste"
                 }
             }
         },
@@ -2392,6 +3088,12 @@
                     "Id": "387638",
                     "Spec": "Brewmaster",
                     "Text": "Blackout Kick's damage increased by {1}% and it strikes an additional {2} targets."
+                },
+                "2": {
+                    "Hash": 2273580991,
+                    "Id": "387638",
+                    "Spec": "Brewmaster",
+                    "Text": "Blackout Kick's damage increased by {1}% and it strikes an additional {2} targettargets."
                 }
             }
         },
@@ -2401,8 +3103,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1219450825,
-                    "Id": "400089",
-                    "Spec": "Mistweaver",
+                    "Id": "400089, 400097, 400100, 400103, 400106",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Each time you cast Sheilun's Gift, you learn one of Shaohao's Lessons for up to {1} sec, with the duration based on how many clouds of mist are consumed.\n\n{ffffffff|Lesson of Doubt}: Your spells and abilities deal up to {2}% more healing and damage to targets, based on their current health.\n\n{ffffffff|Lesson of Despair}: Your Critical Strike is increased by {3}% while above {4}% health.\n\n{ffffffff|Lesson of Fear}: Decreases your damage taken by {5}% and increases your Haste by {6}%.\n\n{ffffffff|Lesson of Anger}: {7}% of the damage or healing you deal is duplicated every {8} sec."
                 }
             }
@@ -2416,6 +3118,12 @@
                     "Id": "399491",
                     "Spec": "Mistweaver",
                     "Text": "Draws in all nearby clouds of mist, healing the friendly target and up to {1} nearby allies for {2} per cloud absorbed.\n\nA cloud of mist is generated every {3} sec while in combat."
+                },
+                "1": {
+                    "Hash": 2200037185,
+                    "Id": "205406",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Draws in all nearby clouds of mist generated by {FFFFCC99|Sheilun}, healing the target for {1} per cloud absorbed."
                 }
             }
         },
@@ -2473,8 +3181,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 250364823,
-                    "Id": "198898",
-                    "Spec": "Mistweaver",
+                    "Id": "198898, 198909",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Conjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for {1} sec."
                 }
             }
@@ -2485,15 +3193,111 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2676602647,
-                    "Id": "115175",
-                    "Spec": "Brewmaster, Windwalker",
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target."
                 },
                 "1": {
                     "Hash": 3174019964,
-                    "Id": "115175",
-                    "Spec": "Mistweaver",
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\n\nEach heal has a chance to cause a Gust of Mists on the target."
+                },
+                "2": {
+                    "Hash": 3613860365,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target."
+                },
+                "3": {
+                    "Hash": 4193078222,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target."
+                },
+                "4": {
+                    "Hash": 1403257293,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target."
+                },
+                "5": {
+                    "Hash": 563251222,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "6": {
+                    "Hash": 3290206169,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "7": {
+                    "Hash": 447270234,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "8": {
+                    "Hash": 2562697306,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "9": {
+                    "Hash": 3393384504,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target."
+                },
+                "10": {
+                    "Hash": 1506332319,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target."
+                },
+                "11": {
+                    "Hash": 2835051784,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target."
+                },
+                "12": {
+                    "Hash": 1797065590,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "13": {
+                    "Hash": 3535091036,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "14": {
+                    "Hash": 725713845,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "15": {
+                    "Hash": 148430844,
+                    "Id": "115175, 198533",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
+                },
+                "16": {
+                    "Hash": 361664731,
+                    "Id": "209525",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec.\r\n\r\nWhile channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel."
+                },
+                "17": {
+                    "Hash": 2587115936,
+                    "Id": "328283",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} over {2} sec."
                 }
             }
         },
@@ -2504,7 +3308,7 @@
                 "0": {
                     "Hash": 1747978994,
                     "Id": "116705",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Jabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for {1} sec."
                 }
             }
@@ -2515,8 +3319,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 738687122,
-                    "Id": "196730",
-                    "Spec": "Brewmaster",
+                    "Id": "196730, 196733, 196734",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Drinking from your Brews has a {1}% chance to toss a keg high into the air that lands nearby after {2} sec, dealing {3} damage to all enemies within {4} yards and reducing their movement speed by {5}% for {6} sec."
                 }
             }
@@ -2542,6 +3346,48 @@
                     "Id": "322729",
                     "Spec": "Brewmaster",
                     "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds. \n\nDealing damage with Spinning Crane Kick grants Shuffle for {4} sec, and your Healing Spheres travel towards you. "
+                },
+                "3": {
+                    "Hash": 756073446,
+                    "Id": "322700",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Dealing damage with Spinning Crane Kick grants Shuffle for {1} sec, and causes your Gift of the Ox healing spheres to travel towards your location."
+                },
+                "4": {
+                    "Hash": 1405186088,
+                    "Id": "322729",
+                    "Spec": "Brewmaster",
+                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds.  "
+                },
+                "5": {
+                    "Hash": 3897484860,
+                    "Id": "322729",
+                    "Spec": "Brewmaster",
+                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds.  \r\n\r\nSpinning Crane Kick's damage is increased by {4}% for each unique target you've struck in the last {5} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
+                },
+                "6": {
+                    "Hash": 2515651417,
+                    "Id": "322729",
+                    "Spec": "Brewmaster",
+                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds. \r\n\r\nDealing damage with Spinning Crane Kick grants Shuffle for {4} sec, and your Healing Spheres travel towards you. \r\n\r\nSpinning Crane Kick's damage is increased by {5}% for each unique target you've struck in the last {6} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
+                },
+                "7": {
+                    "Hash": 4292934229,
+                    "Id": "330901",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to up to {3} enemies within {4} yds."
+                },
+                "8": {
+                    "Hash": 489661709,
+                    "Id": "330901",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to up to {3} enemies within {4} yds.\r\n\r\nSpinning Crane Kick's damage is increased by {5}% for each unique target you've struck in the last {6} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
+                },
+                "9": {
+                    "Hash": 1291298083,
+                    "Id": "343730",
+                    "Spec": "Windwalker",
+                    "Text": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
                 }
             }
         },
@@ -2551,8 +3397,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2897719653,
-                    "Id": "210802",
-                    "Spec": "Mistweaver",
+                    "Id": "210803",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Teachings of the Monastery causes each additional Blackout Kick to restore {1}% mana."
                 }
             }
@@ -2566,6 +3412,12 @@
                     "Id": "400629",
                     "Spec": "Brewmaster",
                     "Text": "Rising Sun Kick and Blackout Kick have a chance to summon a Healing Sphere.\n\n|T606546:24|t{ffffffff|Healing Sphere}:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
+                },
+                "1": {
+                    "Hash": 3173625770,
+                    "Id": "400629",
+                    "Spec": "Brewmaster",
+                    "Text": "Rising Sun Kick and Blackout Kick have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|tHealing Sphere:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
                 }
             }
         },
@@ -2587,9 +3439,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2456518148,
-                    "Id": "115069",
-                    "Spec": "Brewmaster",
+                    "Id": "115069, 124255, 124273, 124274, 124275",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness."
+                },
+                "1": {
+                    "Hash": 2749374960,
+                    "Id": "115069, 124255, 124273, 124274, 124275",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness.\r\n\r\nGain up to {3}% Mastery based on your current level of Stagger."
                 }
             }
         },
@@ -2626,6 +3484,12 @@
                     "Id": "383707",
                     "Spec": "Brewmaster",
                     "Text": "Keg Smash deals {1}% additional damage, and has {2} additional charge."
+                },
+                "1": {
+                    "Hash": 2646651811,
+                    "Id": "383707",
+                    "Spec": "Brewmaster",
+                    "Text": "Keg Smash deals {1}% additional damage, and has {2} additional charges."
                 }
             }
         },
@@ -2636,7 +3500,7 @@
                 "0": {
                     "Hash": 1603082621,
                     "Id": "387276",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Expel Harm's healing is increased by up to {1}%, based on your missing health."
                 }
             }
@@ -2647,8 +3511,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4179719900,
-                    "Id": "392983",
-                    "Spec": "Windwalker",
+                    "Id": "392983, 395519, 395521",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike with both fists at all enemies in front of you, dealing {1} damage and reducing movement speed by {2}% for {3} sec."
                 }
             }
@@ -2660,7 +3524,7 @@
                 "0": {
                     "Hash": 3018880685,
                     "Id": "115315",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons a Black Ox Statue at the target location for {1} min, pulsing threat to all enemies within {2} yards.\n\nYou may cast Provoke on the statue to taunt all enemies near the statue."
                 }
             }
@@ -2672,7 +3536,7 @@
                 "0": {
                     "Hash": 818511396,
                     "Id": "115313",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for {1} over {2} sec."
                 }
             }
@@ -2684,7 +3548,7 @@
                 "0": {
                     "Hash": 1624423269,
                     "Id": "388686",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Summons a White Tiger Statue at the target location for {1} sec, pulsing {2} damage to all enemies every {3} sec for {4} sec."
                 }
             }
@@ -2719,9 +3583,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4277603321,
-                    "Id": "116645",
-                    "Spec": "Mistweaver, Windwalker",
+                    "Id": "116645, 202090",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\n\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.\n\n"
+                },
+                "1": {
+                    "Hash": 1610462041,
+                    "Id": "116645, 202090",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\r\n\r\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.\r\n\r\nEach additional Blackout Kick restores {3}% mana."
                 }
             }
         },
@@ -2746,6 +3616,30 @@
                     "Id": "116680",
                     "Spec": "Mistweaver",
                     "Text": "Receive a jolt of energy, empowering your next {1} spells cast:\n\n{ffffffff|Enveloping Mist}: Immediately heals for {2} and is instant cast.\n{ffffffff|Renewing Mist}: Duration increased by {3} sec.\n{ffffffff|Vivify}: No mana cost.\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {4} sec.\n{ffffffff|Essence Font}: Channels {5}% faster. "
+                },
+                "1": {
+                    "Hash": 1627729460,
+                    "Id": "116680, 274062",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Receive a jolt of energy, empowering your next spell cast:\r\n\r\nEnveloping Mist: Immediately heals for {1} and is instant cast.\r\nRenewing Mist: Duration increased by {2} sec.\r\nVivify: No mana cost.\r\nRising Sun Kick: Cooldown reduced by {3} sec.\r\nEssence Font: Channels {4}% faster. "
+                },
+                "2": {
+                    "Hash": 4274501033,
+                    "Id": "116680, 274062",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Receive a jolt of energy, empowering your next {1} spells cast:\r\n\r\nEnveloping Mist: Immediately heals for {2} and is instant cast.\r\nRenewing Mist: Duration increased by {3} sec.\r\nVivify: No mana cost.\r\nRising Sun Kick: Cooldown reduced by {4} sec.\r\nEssence Font: Channels {5}% faster. "
+                },
+                "3": {
+                    "Hash": 3214561914,
+                    "Id": "116680, 274062",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Receive a jolt of energy, empowering your next spell cast:\r\n\r\nEnveloping Mist: Immediately heals for {1} and is instant cast.\r\nRenewing Mist: Duration increased by {2} sec.\r\nVivify: No mana cost.\r\nRising Sun Kick: Cooldown reduced by {3} sec.\r\nEssence Font: Channels {4}% faster. \r\nCrackling Jade Lightning: Knockback applied immediately.\r\nRoll: Refund a charge and heal yourself for {5}."
+                },
+                "4": {
+                    "Hash": 2361079031,
+                    "Id": "116680, 274062",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Receive a jolt of energy, empowering your next {1} spells cast:\r\n\r\nEnveloping Mist: Immediately heals for {2} and is instant cast.\r\nRenewing Mist: Duration increased by {3} sec.\r\nVivify: No mana cost.\r\nRising Sun Kick: Cooldown reduced by {4} sec.\r\nEssence Font: Channels {5}% faster. \r\nCrackling Jade Lightning: Knockback applied immediately.\r\nRoll: Refund a charge and heal yourself for {6}."
                 }
             }
         },
@@ -2755,8 +3649,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3555395109,
-                    "Id": "392985",
-                    "Spec": "Windwalker",
+                    "Id": "238131, 242390, 392985, 393565, 393566",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike of the Windlord grants you a stack of Thunderfist for each enemy struck. Thunderfist discharges upon melee strikes, dealing {1} Nature damage."
                 }
             }
@@ -2773,8 +3667,8 @@
                 },
                 "1": {
                     "Hash": 1184200563,
-                    "Id": "353936",
-                    "Spec": "Mistweaver",
+                    "Id": "353936, 407058",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Thunder Focus Tea can now additionally cause Crackling Jade Lightning's knockback immediately or cause Roll and Chi Torpedo to refund a charge on use and heal you for {1}."
                 }
             }
@@ -2785,21 +3679,39 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4088993260,
-                    "Id": "100780",
-                    "Spec": "Mistweaver",
+                    "Id": "100780, 346602",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike with the palm of your hand, dealing {1} Physical damage."
                 },
                 "1": {
                     "Hash": 1715410535,
                     "Id": "100780",
-                    "Spec": "Brewmaster",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\n\nReduces the remaining cooldown on your Brews by {2} sec."
                 },
                 "2": {
                     "Hash": 2439962842,
                     "Id": "100780",
-                    "Spec": "Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\n\nTiger Palm has an {2}% chance to make your next Blackout Kick cost no Chi.\n\n|cFFFFFFFFGenerates {3} Chi."
+                },
+                "3": {
+                    "Hash": 4270976351,
+                    "Id": "100780",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Chi."
+                },
+                "4": {
+                    "Hash": 2465895369,
+                    "Id": "100780",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\nReduces the remaining cooldown on your Brews by {2} sec.\r\n\r\n|cFFFFFFFFGenerates {3} Chi."
+                },
+                "5": {
+                    "Hash": 1911769061,
+                    "Id": "100780",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\nTiger Palm has an {2}% chance to make your next Blackout Kick cost no Chi."
                 }
             }
         },
@@ -2810,7 +3722,7 @@
                 "0": {
                     "Hash": 778630201,
                     "Id": "264348",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Increases the range of Leg Sweep by {1} yds and reduces its cooldown by {2} sec."
                 }
             }
@@ -2822,7 +3734,7 @@
                 "0": {
                     "Hash": 3065490793,
                     "Id": "116841",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Increases a friendly target's movement speed by {1}% for {2} sec and removes all roots and snares."
                 }
             }
@@ -2846,20 +3758,68 @@
                 "0": {
                     "Hash": 1103113678,
                     "Id": "322109",
-                    "Spec": "Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You exploit the enemy target's weakest point, instantly killing creatures if they have less health than you. Deals damage equal to {1}% of your maximum health against players and stronger creatures under {2}% health.\n\nSpawns {3} Chi Spheres, granting {4} Chi when you walk through them."
                 },
                 "1": {
                     "Hash": 1706360794,
                     "Id": "322109",
-                    "Spec": "Mistweaver",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You exploit the enemy target's weakest point, instantly killing them.\n\nOnly usable on creatures that have less health than you."
                 },
                 "2": {
                     "Hash": 2824310530,
                     "Id": "322109",
-                    "Spec": "Brewmaster",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You exploit the enemy target's weakest point, instantly killing them.\n\nOnly usable on creatures that have less health than you.\n\nReduces delayed Stagger damage by {1}% of damage dealt."
+                },
+                "3": {
+                    "Hash": 467909514,
+                    "Id": "322109",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You exploit the enemy target's weakest point, instantly killing creatures if they have less health than you. Deals damage equal to {1}% of your maximum health against players and stronger creatures under {2}% health."
+                },
+                "4": {
+                    "Hash": 736844319,
+                    "Id": "322109",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You exploit the enemy target's weakest point, instantly killing creatures if they have less health than you. Deals damage equal to {1}% of your maximum health against players and stronger creatures under {2}% health.\r\n\r\nReduces delayed Stagger damage by {3}% of damage dealt."
+                },
+                "5": {
+                    "Hash": 3488144937,
+                    "Id": "322109",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You exploit the enemy target's weakest point, instantly killing them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nIncreases the Monk's Physical damage by {1}% for {2} sec."
+                },
+                "6": {
+                    "Hash": 672161297,
+                    "Id": "322109",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You exploit the enemy target's weakest point, instantly killing creatures if they have less health than you. Deals damage equal to {1}% of your maximum health against players and stronger creatures under {2}% health.\r\n\r\nIncreases the Monk's Physical damage by {3}% for {4} sec."
+                },
+                "7": {
+                    "Hash": 1254696159,
+                    "Id": "322109",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "You exploit the enemy target's weakest point, instantly killing them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nSpawns {1} Chi Spheres, granting {2} Chi when you walk through them."
+                },
+                "8": {
+                    "Hash": 1740744540,
+                    "Id": "325095",
+                    "Spec": "Brewmaster",
+                    "Text": "Touch of Death reduces delayed Stagger damage by {1}% of damage dealt."
+                },
+                "9": {
+                    "Hash": 2032729457,
+                    "Id": "325215",
+                    "Spec": "Windwalker",
+                    "Text": "Touch of Death spawns {1} Chi Spheres, granting {2} Chi when you walk through them."
+                },
+                "10": {
+                    "Hash": 1981530471,
+                    "Id": "344360",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Touch of Death increases the Monk's Physical damage by {1}% for {2} sec."
                 }
             }
         },
@@ -2869,8 +3829,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3944452918,
-                    "Id": "122470",
-                    "Spec": "Windwalker",
+                    "Id": "122470, 124280, 125174",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Absorbs all damage taken for {1} sec, up to {2}% of your maximum health, and redirects {3}% of that amount to the enemy target as Nature damage over {4} sec."
                 }
             }
@@ -2893,8 +3853,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4141251052,
-                    "Id": "383714",
-                    "Spec": "Brewmaster",
+                    "Id": "383714, 383733",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Gain up to {1}% Mastery based on your current level of Stagger."
                 }
             }
@@ -2924,7 +3884,7 @@
                 "0": {
                     "Hash": 3563254831,
                     "Id": "101643",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Split your body and spirit, leaving your spirit behind for {1} min. Use Transcendence: Transfer to swap locations with your spirit."
                 }
             }
@@ -2947,9 +3907,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2499245598,
-                    "Id": "195300",
-                    "Spec": "Windwalker",
+                    "Id": "195300, 195321",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Blackout Kick and Rising Sun Kick increase damage dealt by your next Fists of Fury by {1}%, stacking up to {2} times."
+                },
+                "1": {
+                    "Hash": 2734505783,
+                    "Id": "195300, 195321",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Rushing Jade Wind, Blackout Kick and Rising Sun Kick increase damage dealt by your next Fists of Fury by {1}%, stacking up to {2} times."
                 }
             }
         },
@@ -2977,8 +3943,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3611179198,
-                    "Id": "388477",
-                    "Spec": "Mistweaver",
+                    "Id": "388477, 388478",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Soothing Mist heals a second injured ally within {1} yds for {2}% of the amount healed."
                 }
             }
@@ -2989,9 +3955,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3240155032,
-                    "Id": "388551",
-                    "Spec": "Mistweaver",
+                    "Id": "388551, 388555",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Revival by {1} sec, and Revival heals targets for {2}% of Revival's heal over {3} sec."
+                },
+                "1": {
+                    "Hash": 1195409145,
+                    "Id": "388551, 388555",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Restoral by {1} sec, and Restoral heals targets for {2}% of Restoral's heal over {3} sec."
                 }
             }
         },
@@ -3026,7 +3998,7 @@
                 "0": {
                     "Hash": 3639452426,
                     "Id": "392900",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Expel Harm's healing increased by {1}% and critical strike chance increased by {2}%. "
                 }
             }
@@ -3038,8 +4010,14 @@
                 "0": {
                     "Hash": 1795927767,
                     "Id": "388812",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Every {1} sec, your next Vivify becomes instant."
+                },
+                "1": {
+                    "Hash": 3949612829,
+                    "Id": "392883",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your next Vivify is instant."
                 }
             }
         },
@@ -3050,7 +4028,7 @@
                 "0": {
                     "Hash": 91494204,
                     "Id": "116670",
-                    "Spec": "Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Causes a surge of invigorating mists, healing the target for {1}."
                 },
                 "1": {
@@ -3058,6 +4036,12 @@
                     "Id": "116670",
                     "Spec": "Mistweaver",
                     "Text": "Causes a surge of invigorating mists, healing the target for {1} and all allies with your Renewing Mist active for {2}."
+                },
+                "2": {
+                    "Hash": 1805225099,
+                    "Id": "116670",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Causes a surge of invigorating mists, healing the target for {1} and all allies with your Renewing Mist active for {2}, reduced beyond {3} allies."
                 }
             }
         },
@@ -3091,8 +4075,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2308833383,
-                    "Id": "387184",
-                    "Spec": "Brewmaster",
+                    "Id": "311054, 311123, 312106, 387179",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash take {3}% increased damage from you for {4} sec, stacking up to {5} times."
                 },
                 "1": {
@@ -3100,6 +4084,24 @@
                     "Id": "387184",
                     "Spec": "Brewmaster",
                     "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash or Rising Sun Kick take {3}% increased damage from you for {4} sec, stacking up to {5} times."
+                },
+                "2": {
+                    "Hash": 1293511145,
+                    "Id": "311054, 311123, 312106, 387179, 387184",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, "
+                },
+                "3": {
+                    "Hash": 3921318455,
+                    "Id": "311054, 311123, 312106, 387179, 387184",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Rising Sun Kick reduces Chi costs by {3} for {4} sec, and Blackout Kick reduces the cooldown of affected abilities by an additional {5} sec."
+                },
+                "4": {
+                    "Hash": 1544786184,
+                    "Id": "311054, 311123, 312106, 387179, 387184",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Essence Font cooldown is reset instantly and heals up to {3} nearby allies for {4} health on channel start and end."
                 }
             }
         },
@@ -3109,8 +4111,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 397194848,
-                    "Id": "152175",
-                    "Spec": "Windwalker",
+                    "Id": "152175, 158221, 196742",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Performs a devastating whirling upward strike, dealing {1} damage to all nearby enemies. Only usable while both Fists of Fury and Rising Sun Kick are on cooldown."
                 }
             }
@@ -3146,7 +4148,7 @@
                 "0": {
                     "Hash": 2286626563,
                     "Id": "157411",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You and your allies within {1} yards have {2}% increased movement speed."
                 }
             }
@@ -3157,8 +4159,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 669217583,
-                    "Id": "392993",
-                    "Spec": "Windwalker",
+                    "Id": "337481, 337482, 392993",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by {1} sec.\n\nWhen Fists of Fury ends, the critical strike chance of Rising Sun Kick is increased by {2}% for {3} sec."
                 }
             }
@@ -3181,8 +4183,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1450771849,
-                    "Id": "388038",
-                    "Spec": "Mistweaver",
+                    "Id": "388038, 388044",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Activating Thunder Focus Tea causes you to exhale the breath of Yu'lon, healing up to {1} allies within {2} yards for {3} over {4} sec."
                 }
             }
@@ -3194,7 +4196,7 @@
                 "0": {
                     "Hash": 272933352,
                     "Id": "125883",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "You fly through the air at a quick speed on a meditative cloud."
                 }
             }
@@ -3220,6 +4222,18 @@
                     "Id": "115176",
                     "Spec": "Brewmaster",
                     "Text": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action will cancel this effect."
+                },
+                "1": {
+                    "Hash": 3578434983,
+                    "Id": "115176",
+                    "Spec": "Brewmaster",
+                    "Text": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action other than movement will cancel this effect."
+                },
+                "2": {
+                    "Hash": 772257711,
+                    "Id": "328682",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Zen Meditation is no longer cancelled by moving."
                 }
             }
         },
@@ -3241,9 +4255,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3570950773,
-                    "Id": "124081",
-                    "Spec": "Mistweaver",
+                    "Id": "124081, 198487, 388609, 388668, 405426",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Trigger a Zen Pulse around an ally.  Deals {1} damage to all enemies within {2} yds of the target. The ally is healed for {3} per enemy damaged."
+                },
+                "1": {
+                    "Hash": 1420294173,
+                    "Id": "124081, 198487, 388668, 405426",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Trigger a Zen Pulse around an ally.  Deals {1} damage to all enemies within {2} yds of the target. The ally is healed for {3} per enemy damaged.\r\n\r\nZen Pulse triggers a second time at {4}% effectiveness if cast on targets with Enveloping Mist."
                 }
             }
         },
@@ -3289,8 +4309,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1359059417,
-                    "Id": "414131",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Id": "414131, 414143",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for {1}% of your max health every {2} sec in combat, stacking up to {3}%."
                 }
             }
@@ -3302,7 +4322,7 @@
                 "0": {
                     "Hash": 4225248288,
                     "Id": "414132",
-                    "Spec": "Mistweaver, Brewmaster, Windwalker",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your dodge chance is increased by {1}%."
                 }
             }
@@ -3313,9 +4333,715 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3281397997,
-                    "Id": "418359",
-                    "Spec": "Brewmaster",
+                    "Id": "418360, 418361",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
                     "Text": "Your main hand auto attacks reduce the cooldown on your brews by {1} sec and block your target's chi, dealing {2} additional Nature damage and increasing your damage dealt by {3}% for {4} sec. \r\n\r\nUpon reaching {5} stacks, your next cast of Rising Sun Kick or Keg Smash consumes all stacks to strike again at {6}% effectiveness. This bonus attack can trigger effects on behalf of Tiger Palm at reduced effectiveness."
+                }
+            }
+        },
+        "255": {
+            "Hash": 83018829,
+            "Name": "Dual Wield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1174969014,
+                    "Id": "674",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Allows one-hand and off-hand weapons to be equipped in the off-hand."
+                },
+                "1": {
+                    "Hash": 3776519764,
+                    "Id": "124146",
+                    "Spec": "Brewmaster, Windwalker",
+                    "Text": "You may equip one-handed weapons in your off-hand."
+                }
+            }
+        },
+        "256": {
+            "Hash": 841626134,
+            "Name": "Dash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1708612314,
+                    "Id": "61684",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Increases your pet's movement speed by {1}% for {2} sec."
+                }
+            }
+        },
+        "257": {
+            "Hash": 1507206193,
+            "Name": "Avoidance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3843055396,
+                    "Id": "65220",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Reduces the damage your pet takes from area of effect attacks by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                }
+            }
+        },
+        "258": {
+            "Hash": 352125144,
+            "Name": "Heavy Stagger",
+            "Descriptions": {}
+        },
+        "259": {
+            "Hash": 3935633197,
+            "Name": "Moderate Stagger",
+            "Descriptions": {}
+        },
+        "260": {
+            "Hash": 1064706883,
+            "Name": "Light Stagger",
+            "Descriptions": {}
+        },
+        "261": {
+            "Hash": 3547611438,
+            "Name": "Energizing Elixir",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1494159599,
+                    "Id": "115288",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Chug an Energizing Elixir, granting {1} Chi and generating {2} Energy over {3} sec."
+                }
+            }
+        },
+        "262": {
+            "Hash": 114333775,
+            "Name": "Ironskin Brew",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3380275587,
+                    "Id": "115308, 215479",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "A swig of strong brew allows you to Stagger substantially more damage for {1} sec. \r\n\r\nShares charges with Purifying Brew."
+                }
+            }
+        },
+        "263": {
+            "Hash": 1384158020,
+            "Name": "Mortal Wounds",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1414581868,
+                    "Id": "115804",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Grievously wounds the target, reducing the effectiveness of any healing received for {1} sec."
+                }
+            }
+        },
+        "264": {
+            "Hash": 818272016,
+            "Name": "Chi Sphere",
+            "Descriptions": {}
+        },
+        "265": {
+            "Hash": 106082565,
+            "Name": "Parry",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1505216917,
+                    "Id": "116812",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Gives a chance to parry enemy melee attacks."
+                }
+            }
+        },
+        "266": {
+            "Hash": 2180515398,
+            "Name": "Elusive Brawler",
+            "Descriptions": {}
+        },
+        "267": {
+            "Hash": 1630425703,
+            "Name": "Gust of Mists",
+            "Descriptions": {}
+        },
+        "268": {
+            "Hash": 2044894509,
+            "Name": "Purified Chi",
+            "Descriptions": {}
+        },
+        "269": {
+            "Hash": 3920523067,
+            "Name": "Leather Specialization",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2510302227,
+                    "Id": "120224",
+                    "Spec": "Mistweaver",
+                    "Text": "Increases your Intellect by {1}% while wearing only Leather armor."
+                },
+                "1": {
+                    "Hash": 3994087124,
+                    "Id": "120225",
+                    "Spec": "Brewmaster",
+                    "Text": "Increases your Stamina by {1}% while wearing only Leather armor."
+                },
+                "2": {
+                    "Hash": 2192591983,
+                    "Id": "120227",
+                    "Spec": "Windwalker",
+                    "Text": "Increases your Agility by {1}% while wearing only Leather armor."
+                }
+            }
+        },
+        "270": {
+            "Hash": 1437105143,
+            "Name": "Crackling Tiger Lightning",
+            "Descriptions": {}
+        },
+        "271": {
+            "Hash": 3134496537,
+            "Name": "Rising Tiger Kick",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2193373928,
+                    "Id": "125152",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your Rising Sun Kick's visual is altered to the color of the White Tiger."
+                }
+            }
+        },
+        "272": {
+            "Hash": 2762162875,
+            "Name": "Fighting Pose",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1072120686,
+                    "Id": "125874",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your spirit now appears in a fighting pose when using Transcendence."
+                }
+            }
+        },
+        "273": {
+            "Hash": 217486412,
+            "Name": "Energy Sphere",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3001362252,
+                    "Id": "138311, 327257, 327264, 327276, 345727, 347480, 388193, 388201, 388207",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Stagger is {7}% more effective for {8} sec against enemies caught in the faeline suffer an additional {9} damage.\r\n\r\nYour abilities have a {10}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                },
+                "1": {
+                    "Hash": 634214663,
+                    "Id": "138311, 327257, 327264, 327276, 345727, 347480, 388193, 388201, 388207",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Stagger is {7}% more effective for {8} sec against enemies caught in the faeline.\r\n\r\nYour abilities have a {9}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                },
+                "2": {
+                    "Hash": 3215055234,
+                    "Id": "138311, 327257, 327264, 327276, 345727, 347480, 388193, 388201, 388207",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Up to {7} enemies caught in the faeline suffer an additional {8} damage.\r\n\r\nYour abilities have a {9}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                },
+                "3": {
+                    "Hash": 920083405,
+                    "Id": "138311, 327257, 327264, 327276, 345727, 347480, 388193, 388201, 388207",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike the ground fiercely to expose a faeline for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restores {4} health to up to {5} allies within {6} yds caught in the faeline. Up to {7} allies caught in the faeline are healed with an Essence Font bolt.\r\n\r\nYour abilities have a {8}% chance of resetting the cooldown of Faeline Stomp while fighting on a faeline."
+                }
+            }
+        },
+        "274": {
+            "Hash": 1268120370,
+            "Name": "Critical Strikes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 47873328,
+                    "Id": "157445",
+                    "Spec": "Brewmaster, Windwalker",
+                    "Text": "Increases your chance to critically strike by {1}%."
+                }
+            }
+        },
+        "275": {
+            "Hash": 3741384312,
+            "Name": "Crosswinds",
+            "Descriptions": {
+                "0": {
+                    "Hash": 196570077,
+                    "Id": "195650, 195653, 196061",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "During Fists of Fury, Wind Spirit images of you attack your Fists of Fury targets for a total of {1} additional Physical damage."
+                }
+            }
+        },
+        "276": {
+            "Hash": 2436519656,
+            "Name": "Hidden Master's Forbidden Touch",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2038464726,
+                    "Id": "213112, 213114",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Touch of Death deals {1}% increased damage and can be used a second time within {2} sec before its cooldown is triggered."
+                }
+            }
+        },
+        "277": {
+            "Hash": 1189543501,
+            "Name": "Storm, Earth, and Fire: Fixate",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1745985377,
+                    "Id": "221771",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Direct your Earth and Fire spirits to focus their attacks only on the target."
+                }
+            }
+        },
+        "278": {
+            "Hash": 1983475282,
+            "Name": "Stomp",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3163355291,
+                    "Id": "227291",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Stomps the ground, dealing {1} Physical damage to all nearby enemies."
+                }
+            }
+        },
+        "279": {
+            "Hash": 2935747539,
+            "Name": "Surging Mist",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1611493292,
+                    "Id": "227344",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals the target for {1} and increases the healing they take from Surging Mist by {2}% for {3} sec.  Stacks up to {4} times."
+                }
+            }
+        },
+        "280": {
+            "Hash": 2501477019,
+            "Name": "The Emperor's Capacitor",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1002153059,
+                    "Id": "235053, 235054, 392989, 393039",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Chi spenders increase the damage of your next Crackling Jade Lightning by {1}% and reduce its cost by {2}%, stacking up to {3} times."
+                }
+            }
+        },
+        "281": {
+            "Hash": 2773153787,
+            "Name": "Master of Combinations",
+            "Descriptions": {
+                "0": {
+                    "Hash": 41831972,
+                    "Id": "238095, 240672",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Triggering Combo Strikes has a chance to grant {1} Mastery to you and {2} allies for {3} sec."
+                }
+            }
+        },
+        "282": {
+            "Hash": 372018544,
+            "Name": "Spitfire",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4097955026,
+                    "Id": "242580",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Tiger Palm has a {1}% chance to reset the cooldown of Breath of Fire."
+                }
+            }
+        },
+        "283": {
+            "Hash": 512534026,
+            "Name": "Inner Strength",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3745992939,
+                    "Id": "261769",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Each Chi you spend reduces damage taken by {1}% for {2} sec, stacking up to {3} times."
+                }
+            }
+        },
+        "284": {
+            "Hash": 1179540625,
+            "Name": "Fist of the White Tiger",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3764408062,
+                    "Id": "261947, 261977, 261978",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Strike with the technique of the White Tiger, dealing {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Chi."
+                }
+            }
+        },
+        "285": {
+            "Hash": 2521553995,
+            "Name": "Good Karma",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3040760925,
+                    "Id": "280195, 285594",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "{1}% of the damage redirected by Touch of Karma also heals you."
+                }
+            }
+        },
+        "286": {
+            "Hash": 3484254016,
+            "Name": "Soothing Breath",
+            "Descriptions": {}
+        },
+        "287": {
+            "Hash": 1649503100,
+            "Name": "Fallen Brew",
+            "Descriptions": {}
+        },
+        "288": {
+            "Hash": 1630425703,
+            "Name": "Gust of Mists",
+            "Descriptions": {}
+        },
+        "289": {
+            "Hash": 289377099,
+            "Name": "Enveloping Breath",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2545928798,
+                    "Id": "325209, 343655",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "While active, Yu'lon and Chi'Ji heal up to {1} nearby targets with Enveloping Breath when you cast Enveloping Mist, healing for {2} over {3} sec, and increasing the healing they receive from you by {4}%.\r\n\r\nWhen activated, Yu'lon and Chi'Ji apply Chi Cocoons to {5} targets within {6} yds, absorbing {7} damage for {8} sec."
+                }
+            }
+        },
+        "290": {
+            "Hash": 3348478307,
+            "Name": "Celestial Breath",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2591870457,
+                    "Id": "325212",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Yu'lon dashes to three allies, healing them for {1}."
+                }
+            }
+        },
+        "291": {
+            "Hash": 1630425703,
+            "Name": "Gust of Mists",
+            "Descriptions": {}
+        },
+        "292": {
+            "Hash": 96073652,
+            "Name": "Fallen Order",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1809388217,
+                    "Id": "327004, 327005, 327006",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Opens a mystic portal for {1} sec. Every {2} sec, it summons a spirit of your order's fallen Ox, Crane, or Tiger adepts for {3} sec.\r\n\r\nFallen Tiger adepts assist for an additional {4} sec, and will also assault with Fists of Fury."
+                }
+            }
+        },
+        "293": {
+            "Hash": 661840927,
+            "Name": "Fortifying Ingredients",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1060613329,
+                    "Id": "336874",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Fortifying Brew grants you a shield equal to {FFFFFFFF|{1}%} of your maximum health for {2} sec."
+                }
+            }
+        },
+        "294": {
+            "Hash": 936888754,
+            "Name": "Keefer's Skyreach",
+            "Descriptions": {
+                "0": {
+                    "Hash": 211136227,
+                    "Id": "337334, 337341, 344021, 392991, 393047, 393050",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Tiger Palm now has a {1} yard range and dashes you to the target when used.\r\n\r\nTiger Palm also applies an effect which increases your critical strike chance by {2}% for {3} sec on the target. This effect cannot be applied more than once every {4} min per target."
+                }
+            }
+        },
+        "295": {
+            "Hash": 2428529469,
+            "Name": "Skyreach Exhaustion",
+            "Descriptions": {}
+        },
+        "296": {
+            "Hash": 2610416138,
+            "Name": "Pressure Point",
+            "Descriptions": {}
+        },
+        "297": {
+            "Hash": 2497516226,
+            "Name": "Chi Energy",
+            "Descriptions": {}
+        },
+        "298": {
+            "Hash": 2404233488,
+            "Name": "Evasive Stride",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2575537292,
+                    "Id": "343764",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "During Shuffle, Heavy Stagger has a {FFFFFFFF|{1}%} chance to heal you instead of dealing damage."
+                }
+            }
+        },
+        "299": {
+            "Hash": 2076842429,
+            "Name": "Fae Exposure",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3056213689,
+                    "Id": "356773, 356774, 391412, 395413, 395414",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Your abilities reset Faeline Stomp {1}% more often. Enemies and allies hit by Faeline Stomp are affected by Fae Exposure, increasing your damage and healing against them by {2}% for {3} sec."
+                }
+            }
+        },
+        "300": {
+            "Hash": 709421834,
+            "Name": "Primordial Potential",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2928886983,
+                    "Id": "363911, 363924",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "After {1} offensive abilities, your next {2} offensive abilities deal an additional {3}% damage."
+                }
+            }
+        },
+        "301": {
+            "Hash": 3235438349,
+            "Name": "Primordial Power",
+            "Descriptions": {}
+        },
+        "302": {
+            "Hash": 219163547,
+            "Name": "Primordial Mending",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1359510880,
+                    "Id": "364277",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Drinking Thunder Focus Tea summons a Progenitor Rune of Healing, increasing all healing dealt while inside its bounds by {1}."
+                }
+            }
+        },
+        "303": {
+            "Hash": 2986807531,
+            "Name": "Keg of the Heavens",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2416295177,
+                    "Id": "366793",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Heals for {1}.\r\n"
+                },
+                "1": {
+                    "Hash": 3913397965,
+                    "Id": "366794",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Increase maximum health by {1}.\r\n"
+                }
+            }
+        },
+        "304": {
+            "Hash": 807757689,
+            "Name": "Claw of the White Tiger",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3747937135,
+                    "Id": "389541, 391400",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Deals {1} Nature damage."
+                }
+            }
+        },
+        "305": {
+            "Hash": 1287841962,
+            "Name": "Chi Explosion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1591216916,
+                    "Id": "393056",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\r\n\r\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} Nature damage to all enemies within {3} yards. The damage is increased by {4}% for each stack of Chi Energy."
+                }
+            }
+        },
+        "306": {
+            "Hash": 2222314911,
+            "Name": "Brewmaster's Rhythm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3967736698,
+                    "Id": "394797",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by {1}% for {2} sec, stacking up to {3} times."
+                }
+            }
+        },
+        "307": {
+            "Hash": 824420908,
+            "Name": "Kicks of Flowing Momentum",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1623272011,
+                    "Id": "394944",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Fists of Fury increases the damage dealt by your next {1} Rising Sun Kicks or Spinning Crane Kicks by {2}%."
+                }
+            }
+        },
+        "308": {
+            "Hash": 4038048969,
+            "Name": "Fists of Flowing Momentum",
+            "Descriptions": {
+                "0": {
+                    "Hash": 71441876,
+                    "Id": "394949, 394951",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Fists of Fury now instead enhances your next {1} Rising Sun Kicks or Spinning Crane Kicks and enhanced kicks increase the damage of your next Fists of Fury by {2}%, stacking up to {3} times."
+                }
+            }
+        },
+        "309": {
+            "Hash": 1488449874,
+            "Name": "Lesson of Doubt",
+            "Descriptions": {}
+        },
+        "310": {
+            "Hash": 2998185959,
+            "Name": "Lesson of Despair",
+            "Descriptions": {}
+        },
+        "311": {
+            "Hash": 2272478483,
+            "Name": "Lesson of Fear",
+            "Descriptions": {}
+        },
+        "312": {
+            "Hash": 426436305,
+            "Name": "Lesson of Anger",
+            "Descriptions": {}
+        },
+        "313": {
+            "Hash": 386987720,
+            "Name": "Chi Cocoon",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1066596238,
+                    "Id": "406139",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage."
+                }
+            }
+        },
+        "314": {
+            "Hash": 3258466179,
+            "Name": "Leverage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2780652803,
+                    "Id": "408503",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Rising Sun Kick grants a stack of Elusive Brawler, and when you dodge, the damage and critical strike chance of your next Spinning Crane Kick or Rising Sun Kick is increased by {1}%, stacking up to {2}."
+                }
+            }
+        },
+        "315": {
+            "Hash": 3597998168,
+            "Name": "Soulfang Vitality",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3979054242,
+                    "Id": "410082",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Drinking a Tea or gaining Soulfang Infusion increases the healing of your Vivify and Renewing Mists by {1}% for {2} sec."
+                }
+            }
+        },
+        "316": {
+            "Hash": 2521196087,
+            "Name": "Shadowflame Nova",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3792396738,
+                    "Id": "410139",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Rising Sun Kick deals {1}% increased damage and goes nova, dealing {2} Shadowflame damage to all enemies within {3} yds."
+                }
+            }
+        },
+        "317": {
+            "Hash": 1696280225,
+            "Name": "Shadowflame Vulnerability",
+            "Descriptions": {
+                "0": {
+                    "Hash": 907160795,
+                    "Id": "411376",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Fists of Fury deals {1}% increased damage to the primary target and increases Shadowflame Nova damage you deal to all targets hit by {2}% for {3} sec."
+                }
+            }
+        },
+        "318": {
+            "Hash": 362758642,
+            "Name": "Energizing Brew",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2887077637,
+                    "Id": "422031",
+                    "Spec": "Mistweaver",
+                    "Text": "Mana Tea now channels {1}% faster and generates {2}% more Mana."
+                }
+            }
+        },
+        "319": {
+            "Hash": 807238585,
+            "Name": "Chi Harmony",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1141595737,
+                    "Id": "423439",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Renewing Mist applies Chi Harmony to its initial target, increasing their healing taken from you by {1}% for {2} sec."
+                }
+            }
+        },
+        "320": {
+            "Hash": 3714327478,
+            "Name": "Blackout Reinforcement",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3276579979,
+                    "Id": "424454",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Free Spinning Crane Kicks grant Blackout Reinforcement, increasing the damage of your next Blackout Kick by {1}%. Melee abilities have a chance to grant Blackout Reinforcement."
+                }
+            }
+        },
+        "321": {
+            "Hash": 1377019666,
+            "Name": "Charred Dreams",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1109596657,
+                    "Id": "425298, 425299",
+                    "Spec": "Brewmaster, Mistweaver, Windwalker",
+                    "Text": "Breath of Fire deals {1}% bonus damage as Shadowflame and causes you to heal for {2}% of your Fire damage dealt."
                 }
             }
         }
