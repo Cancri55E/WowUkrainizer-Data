@@ -265,13 +265,13 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2678767110,
-                    "Id": "217200",
-                    "Spec": "Beast Mastery",
+                    "Id": "217200, 246152, 272790",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fire a shot that tears through your enemy, causing them to bleed for {1} damage over {2} sec.\n\nSends your pet into a frenzy, increasing attack speed by {3}% for {4} sec, stacking up to {5} times.\n\n{FFFFFFFF|Generates {6} Focus over {7} sec.}"
                 },
                 "1": {
                     "Hash": 2029332076,
-                    "Id": "217200, 246152",
+                    "Id": "217200, 246152, 272790",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fire a shot that tears through your enemy, causing them to bleed for {1} damage over {2} sec and  increases your critical strike chance by {3}% for {4} sec, stacking up to {5} [plural|Time|times].\r\rSends your pet into a frenzy, increasing attack speed by {6}% for {7} sec, stacking up to {8} times.\r\r{FFFFFFFF|Generates {9} Focus over {10} sec.}"
                 },
@@ -313,13 +313,13 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2704992490,
-                    "Id": "115939, 118455",
+                    "Id": "115939, 118455, 268877",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "After you Multi-Shot, your pet's melee attacks also strike all nearby enemies for {1}% of the damage  for the next {2} sec. Deals reduced damage beyond {3} targets."
                 },
                 "1": {
                     "Hash": 3020473267,
-                    "Id": "115939, 118455",
+                    "Id": "115939, 118455, 268877",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "After you Multi-Shot, your pet's melee attacks also strike all nearby enemies for {1}% of the damage and Kill Command strikes all nearby enemies for {2}% of the damage for the next {3} sec. Deals reduced damage beyond {4} targets."
                 },
@@ -350,7 +350,7 @@
                 "0": {
                     "Hash": 1486193592,
                     "Id": "378007",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Pet damage increased by {1}%."
                 }
             }
@@ -361,26 +361,26 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1555421838,
-                    "Id": "19574",
-                    "Spec": "Beast Mastery",
+                    "Id": "19574, 186254, 344572",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Sends you and your pet into a rage, instantly dealing {1} Physical damage to its target, and increasing all damage you both deal by {2}% for {3} sec. Removes all crowd control effects from your pet. "
                 },
                 "1": {
                     "Hash": 4030490757,
-                    "Id": "19574",
-                    "Spec": "Beast Mastery",
+                    "Id": "19574, 186254, 344572",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Sends you and your pet into a rage, instantly dealing {1} Physical damage to its target, and increasing all damage you both deal by {2}% for {3} sec. Removes all crowd control effects from your pet. \r\rBestial Wrath's remaining cooldown is reduced by {4} sec each time you use Barbed Shot."
                 },
                 "2": {
                     "Hash": 3724501128,
-                    "Id": "19574",
-                    "Spec": "Beast Mastery",
+                    "Id": "19574, 186254, 344572",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Sends you and your pet into a rage, instantly dealing {1} Physical damage to its target, and increasing all damage you both deal by {2}% for {3} sec. Removes all crowd control effects from your pet.  and activating Bestial Wrath grants {4} [plural|charge|charges] of Barbed Shot."
                 },
                 "3": {
                     "Hash": 2320358262,
-                    "Id": "19574",
-                    "Spec": "Beast Mastery",
+                    "Id": "19574, 186254, 344572",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Sends you and your pet into a rage, instantly dealing {1} Physical damage to its target, and increasing all damage you both deal by {2}% for {3} sec. Removes all crowd control effects from your pet. \r\rBestial Wrath's remaining cooldown is reduced by {4} sec each time you use Barbed Shot and activating Bestial Wrath grants {5} [plural|charge|charges] of Barbed Shot."
                 },
                 "4": {
@@ -415,8 +415,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3650896495,
-                    "Id": "321468",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "321469",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Targets rooted by Binding Shot, knocked back by High Explosive Trap, incapacitated by Scatter Shot, or stunned by Intimidation deal {1}% less damage to you for {2} sec after the effect ends."
                 }
             }
@@ -427,13 +427,13 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1582812571,
-                    "Id": "109248",
+                    "Id": "109248, 117405, 117526",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fires a magical projectile, tethering the enemy and any other enemies within {1} yds for {2} sec, stunning them for {3} sec if they move more than {4} yds from the arrow."
                 },
                 "1": {
                     "Hash": 852543029,
-                    "Id": "109248, 117405",
+                    "Id": "109248, 117405, 117526",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fires a magical projectile, tethering the enemy and any other enemies within {1} yds for {2} sec, stunning them for {3} sec if they move more than {4} yds from the arrow.\r\rTargets stunned by Binding Shot deal {5}% less damage to you for {6} sec after the effect ends."
                 },
@@ -464,7 +464,7 @@
                 "0": {
                     "Hash": 3592944807,
                     "Id": "260248, 260249",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Kill Command causes the target to bleed for {1} damage over {2} sec.\n\nYou and your pet gain {3}% attack speed for every bleeding enemy within {4} yds."
                 }
             }
@@ -584,7 +584,7 @@
                 "0": {
                     "Hash": 2456481061,
                     "Id": "389019, 389020",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Each additional target your Rapid Fire or Aimed Shot ricochets to from Trick Shots increases the damage of Multi-Shot by {1}% for {2} sec, stacking up to {3} times. The duration of this effect is not refreshed when gaining a stack."
                 }
             }
@@ -596,7 +596,7 @@
                 "0": {
                     "Hash": 2870673085,
                     "Id": "204089, 204090",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "When your abilities damage a target below {1}% health, you gain {2}% increased critical strike chance for {3} sec, stacking up to {4} times."
                 }
             }
@@ -607,14 +607,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2584682966,
-                    "Id": "186387",
-                    "Spec": "Marksmanship",
+                    "Id": "186387, 224729",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fires an explosion of bolts at all enemies in front of you, knocking them back, snaring them by {1}% for {2} sec, and dealing {3} Physical damage."
                 },
                 "1": {
                     "Hash": 4007374814,
-                    "Id": "186387",
-                    "Spec": "Marksmanship",
+                    "Id": "186387, 224729",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fires an explosion of bolts at all enemies in front of you, knocking them back, snaring them by {1}% for {2} sec, and dealing {3} Physical damage.\r\rWhen you fall below {4}% heath, Bursting Shot's cooldown is immediately reset. This can only occur once every {5} sec."
                 },
                 "2": {
@@ -682,6 +682,12 @@
                     "Id": "361582",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "You sound the call of the wild, summoning {1} of your active pets for {2}. During this time, a random pet from your stable will appear every {3} sec to assault your target for {4} sec."
+                },
+                "3": {
+                    "Hash": 2819967717,
+                    "Id": "359844, 361582",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You sound the call of the wild, summoning {1} of your active pets for {2} sec. During this time, a random pet from your stable will appear every {3} sec to assault your target for {4} sec. \r\n\r\nEach time Call of the Wild summons a pet, the cooldown of Barbed Shot and Kill Command are reduced by {5}%."
                 }
             }
         },
@@ -772,6 +778,12 @@
                     "Id": "199483",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "You and your pet blend into the surroundings and gain stealth for {1} min. While camouflaged, you will heal for {2}% of maximum health every {3} secs."
+                },
+                "2": {
+                    "Hash": 1418613443,
+                    "Id": "199483",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You and your pet blend into the surroundings and gain stealth for {1} min. While camouflaged, you will heal for {2}% of maximum health every {3} sec."
                 }
             }
         },
@@ -812,7 +824,7 @@
                 "0": {
                     "Hash": 4029275299,
                     "Id": "342049, 344120, 344121",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "A two-headed shot that hits your primary target for {1} Nature damage and another nearby target for {2} Frost damage."
                 },
                 "1": {
@@ -830,7 +842,7 @@
                 "3": {
                     "Hash": 2671325685,
                     "Id": "342049, 344120, 344121",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "A two-headed shot that hits your primary target for {1} Nature damage and another nearby target for {2} Frost damage.\r\rChimaera Shot has a {3}% chance to reduce the cooldown of Rapid Fire by {4} sec."
                 }
             }
@@ -964,6 +976,30 @@
                     "Id": "360969, 361736, 361738",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "You and your pet charge your enemy, striking them for a combined {1} Physical damage. You and your pet's bond is then strengthened for {2}, causing your pet's Basic Attack to empower your next spell cast:"
+                },
+                "5": {
+                    "Hash": 764551019,
+                    "Id": "360952, 360969, 361049, 361736, 361738",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You and your pet charge your enemy, striking them for a combined {1} Physical damage. You and your pet's bond is then strengthened for {2} sec, causing your pet's Basic Attack to empower your next spell cast:\r\n\r\nWildfire Bomb: Increase the initial damage by {3}%\r\nKill Shot: Bleed the target for {4}% of Kill Shot's damage over {5} sec."
+                },
+                "6": {
+                    "Hash": 869832512,
+                    "Id": "360952, 360969, 361049, 361736, 361738",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You and your pet charge your enemy, striking them for a combined {1} Physical damage. You and your pet's bond is then strengthened for {2} sec, causing your pet's Basic Attack to empower your next spell cast:\r\n\r\nWildfire Bomb: Increase the initial damage by {3}%\r\nKill Shot: Bleed the target for {4}% of Kill Shot's damage over {5} sec.\r\n\r\nWildfire Bomb's cooldown is reset when Coordinated Assault is applied and when it is removed."
+                },
+                "7": {
+                    "Hash": 1764208116,
+                    "Id": "360952, 360969, 361049, 361736, 361738",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You and your pet charge your enemy, striking them for a combined {1} Physical damage. You and your pet's bond is then strengthened for {2} sec, causing your pet's Basic Attack to empower your next spell cast:\r\n\r\nWildfire Bomb: Increase the initial damage by {3}%\r\nKill Shot: Bleed the target for {4}% of Kill Shot's damage over {5} sec.\r\n\r\nKill Shot strikes up to {6} additional target while Coordinated Assault is active."
+                },
+                "8": {
+                    "Hash": 3158111879,
+                    "Id": "360952, 360969, 361049, 361736, 361738",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "You and your pet charge your enemy, striking them for a combined {1} Physical damage. You and your pet's bond is then strengthened for {2} sec, causing your pet's Basic Attack to empower your next spell cast:\r\n\r\nWildfire Bomb: Increase the initial damage by {3}%\r\nKill Shot: Bleed the target for {4}% of Kill Shot's damage over {5} sec.\r\n\r\nWildfire Bomb's cooldown is reset when Coordinated Assault is applied and when it is removed.\r\n\r\nKill Shot strikes up to {6} additional target while Coordinated Assault is active."
                 }
             }
         },
@@ -991,8 +1027,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 802170239,
-                    "Id": "147362",
-                    "Spec": "Marksmanship",
+                    "Id": "147362, 187707",
+                    "Spec": "Marksmanship, Survival",
                     "Text": "Interrupts spellcasting, preventing any spell in that school from being cast for {1} sec."
                 }
             }
@@ -1070,7 +1106,7 @@
                 "0": {
                     "Hash": 2338860416,
                     "Id": "378769, 378770",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Aimed Shot has a {1}% and Rapid Fire has a {2}% chance to grant a charge of Kill Shot, and cause your next Kill Shot to be usable on any target regardless of their current health."
                 }
             }
@@ -1093,8 +1129,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3649103672,
-                    "Id": "120679",
-                    "Spec": "Beast Mastery",
+                    "Id": "120679, 120694, 281036",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Summons a powerful wild beast that attacks the target and roars, increasing your Haste by {1}% for {2} sec."
                 },
                 "1": {
@@ -1238,7 +1274,7 @@
                 "1": {
                     "Hash": 1614215914,
                     "Id": "6197",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Changes your viewpoint to the targeted location for {1} min. Only usable outdoors."
                 }
             }
@@ -1250,7 +1286,7 @@
                 "0": {
                     "Hash": 1956872520,
                     "Id": "389449, 389450",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Trueshot lasts an additional {1} sec, reduces the Focus cost of Arcane Shot, Chimaera Shot, and Multi-Shot by {2}%, and reduces the Focus Cost of Aimed Shot by {3}%."
                 }
             }
@@ -1358,7 +1394,7 @@
                 "1": {
                     "Hash": 2273977753,
                     "Id": "321297",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Take direct control of your pet and see through its eyes for {1} min."
                 }
             }
@@ -1465,8 +1501,8 @@
                 },
                 "1": {
                     "Hash": 1453961379,
-                    "Id": "187650",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "3355, 187650, 187651",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurls a frost trap to the target location that incapacitates the first enemy that approaches for {1} min. Damage will break the effect. Limit {2}. Trap will exist for {3} min."
                 }
             }
@@ -1495,8 +1531,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2206092944,
-                    "Id": "203415",
-                    "Spec": "Survival",
+                    "Id": "203413, 203415",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Furiously strikes all enemies in front of you, dealing {1} Physical damage over {2} sec. Critical strike chance increased by {3}% against any target below {4}% health. Deals reduced damage beyond {5} targets.\n\nKill Command cooldown resets reduce the cooldown of Fury of the Eagle by {6} sec."
                 },
                 "1": {
@@ -1513,8 +1549,8 @@
                 },
                 "3": {
                     "Hash": 3481363845,
-                    "Id": "203415",
-                    "Spec": "Survival",
+                    "Id": "203413, 203415",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Furiously strikes all enemies in front of you, dealing {1} Physical damage over {2} sec. Critical strike chance increased by {3}% against any target below {4}% health. Deals reduced damage beyond {5} targets.\r\rKill Command cooldown resets reduce the cooldown of Fury of the Eagle by {6} sec and Fury of the Eagle critical strikes reduce the cooldown of Wildfire Bomb and Flanking Strike by {7} sec."
                 }
             }
@@ -1567,8 +1603,8 @@
                 },
                 "1": {
                     "Hash": 2292565931,
-                    "Id": "236776",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "236775, 236776, 236777",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurls a fire trap to the target location that explodes when an enemy approaches, causing {1} Fire damage and knocking all enemies away.  Trap will exist for {2} min."
                 },
                 "2": {
@@ -1576,6 +1612,12 @@
                     "Id": "236775, 236776, 236777",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurls a fire trap to the target location that explodes when an enemy approaches, causing {1} Fire damage and knocking all enemies away. Trap will exist for {2} sec.\r\rTargets knocked back by High Explosive Trap deal {3}% less damage to you for {4} sec after being knocked back."
+                },
+                "3": {
+                    "Hash": 1657101986,
+                    "Id": "236775, 236776, 236777",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurls a fire trap to the target location that explodes when an enemy approaches, causing {1} Fire damage and knocking all enemies away. Trap will exist for {2} min.\r\n\r\nTargets knocked back by High Explosive Trap deal {3}% less damage to you for {4} sec after being knocked back."
                 }
             }
         },
@@ -1612,6 +1654,12 @@
                     "Id": "257284",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Apply Hunter's Mark to the target, causing the target to always be seen and tracked by the Hunter.\n\nOnly one Hunter's Mark can be applied at a time."
+                },
+                "1": {
+                    "Hash": 493016152,
+                    "Id": "257284",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Apply Hunter's Mark to the target, causing the target to always be seen and tracked by the Hunter.\r\n\r\nHunter's Mark increases all damage dealt to targets above {1}% health by {2}%. Only one Hunter's Mark damage increase can be applied to a target at a time.\r\n\r\nHunter's Mark can only be applied to one target at a time. When applying Hunter's Mark in combat, the ability goes on cooldown for {3} sec."
                 }
             }
         },
@@ -1760,8 +1808,20 @@
                 "0": {
                     "Hash": 3906934580,
                     "Id": "19577",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Commands your pet to intimidate the target, stunning it for {1} sec."
+                },
+                "1": {
+                    "Hash": 1814105692,
+                    "Id": "19577",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Commands your pet to intimidate the target, stunning it for {1} sec.\r\n\r\nTargets stunned by Intimidation deal {2}% less damage to you for {3} sec after the effect ends."
+                },
+                "2": {
+                    "Hash": 1114964077,
+                    "Id": "24394",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Command your pet to intimidate the target, stunning it for {1} sec."
                 }
             }
         },
@@ -1801,8 +1861,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2821789662,
-                    "Id": "34026, 83381",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Id": "34026, 83381, 426703",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Give the command to kill, causing your pet to savagely deal {1} Physical damage to the enemy."
                 },
                 "1": {
@@ -2012,7 +2072,7 @@
                 "0": {
                     "Hash": 1828342094,
                     "Id": "155228, 164273",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Increases your damage by {1}% when you do not have an active pet."
                 }
             }
@@ -2044,6 +2104,12 @@
                     "Id": "389654",
                     "Spec": "Beast Mastery",
                     "Text": "Each temporary beast summoned reduces the cooldown of Aspect of the Wild by {1} sec."
+                },
+                "1": {
+                    "Hash": 2321977891,
+                    "Id": "424558",
+                    "Spec": "Beast Mastery",
+                    "Text": "Each time Barbed Shot deals damage, the cooldown of Kill Command is reduced by {1} sec."
                 }
             }
         },
@@ -2089,8 +2155,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 26239613,
-                    "Id": "263135",
-                    "Spec": "Survival",
+                    "Id": "263135, 263140",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "You and your pet's Focus spending abilities deal {1}% increased damage.\n\nWhile your pet is active, you both regenerate {2}% of maximum health every {3} sec."
                 }
             }
@@ -2131,7 +2197,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3564850080,
-                    "Id": "34477",
+                    "Id": "34477, 35079",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Misdirects all threat you cause to the targeted party or raid member, beginning with your next attack within {1} sec and lasting for {2} sec."
                 },
@@ -2149,14 +2215,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1820164104,
-                    "Id": "259387, 265888",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "259387, 259388, 265888",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "A brutal attack that deals {1} Physical damage and grants you Mongoose Fury.\n\n{FFFFFFFF|Mongoose Fury}\nIncreases the damage of Mongoose Bite by {2}% for {3} sec, stacking up to {4} times. Successive attacks do not increase duration."
                 },
                 "1": {
                     "Hash": 480155218,
-                    "Id": "259387",
-                    "Spec": "Survival",
+                    "Id": "259387, 259388",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "A brutal attack that deals {1} Physical damage and grants you Mongoose Fury.\r\r{FFFFFFFF|Mongoose Fury}\rIncreases the damage of Mongoose Bite by {2}% and the chance for Kill Command to reset by {3}% for {4} sec, stacking up to {5} times. Successive attacks do not increase duration."
                 }
             }
@@ -2311,25 +2377,25 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2554874839,
-                    "Id": "378014",
+                    "Id": "378014, 378015, 378016",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Serpent Sting's damage applies Latent Poison to the target, stacking up to {1} times. Raptor Strike consumes all stacks of Latent Poison, dealing {2} Nature damage to the target per stack consumed."
                 },
                 "1": {
                     "Hash": 191453130,
-                    "Id": "378014",
+                    "Id": "378014, 378015, 378016",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Serpent Sting's damage applies Latent Poison to the target, stacking up to {1} times. Barbed Shot consumes all stacks of Latent Poison, dealing {2} Nature damage to the target per stack consumed."
                 },
                 "2": {
                     "Hash": 126287119,
-                    "Id": "378014",
+                    "Id": "378014, 378015, 378016",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Serpent Sting's damage applies Latent Poison to the target, stacking up to {1} times. Aimed Shot consumes all stacks of Latent Poison, dealing {2} Nature damage to the target per stack consumed."
                 },
                 "3": {
                     "Hash": 1796133403,
-                    "Id": "378014",
+                    "Id": "378014, 378015, 378016",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Serpent Sting's damage applies Latent Poison to the target, stacking up to {1} times. Mongoose Bite consumes all stacks of Latent Poison, dealing {2} Nature damage to the target per stack consumed."
                 }
@@ -2425,14 +2491,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2280220005,
-                    "Id": "257044",
-                    "Spec": "Marksmanship",
+                    "Id": "257044, 257045, 263585",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Shoot a stream of {1} shots at your target over {2} sec, dealing a total of {3} Physical damage. Usable while moving.\n\n{FFFFFFFF|Each shot generates {4} Focus.}"
                 },
                 "1": {
                     "Hash": 3986548487,
-                    "Id": "257044",
-                    "Spec": "Marksmanship",
+                    "Id": "257044, 257045, 263585",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Shoot a stream of {1} shots at your target over {2} sec, dealing a total of {3} Physical damage. Usable while moving.\r\rRapid Fire causes your next Aimed Shot to cast {4}% faster.\r\r{FFFFFFFF|Each shot generates {5} Focus.}"
                 },
                 "2": {
@@ -2456,7 +2522,7 @@
                 "0": {
                     "Hash": 2323731133,
                     "Id": "186270, 265189",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "A vicious slash dealing {1} Physical damage."
                 }
             }
@@ -2468,7 +2534,7 @@
                 "0": {
                     "Hash": 426619227,
                     "Id": "384790, 385638, 388998",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "When the Trick Shots effect fades or is consumed, or after gaining Deathblow, your next Kill Shot will deal {1}% increased damage, and shred up to {2} targets near your Kill Shot target for {3}% of the damage dealt by Kill Shot over {4} sec."
                 }
             }
@@ -2815,8 +2881,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3537253687,
-                    "Id": "360966",
-                    "Spec": "Survival",
+                    "Id": "360966, 378957, 389881",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "You and your pet charge your enemy, striking them for {1} Physical damage. You then become one with your pet for {2} sec. While active, your pet damage is increased by {3}%, Raptor Strike and Mongoose Bite deal an additional {4}% damage over {5} sec, and Kill Command has a {6}% increased chance to reset."
                 },
                 "1": {
@@ -2833,7 +2899,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2004534678,
-                    "Id": "201430",
+                    "Id": "201430, 201594",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Summon a herd of stampeding animals from the wilds around you that deal {1} Physical damage to your enemies over {2} sec.\n\nEnemies struck by the stampede are snared by {3}%, and you have {4}% increased critical strike chance against them for {5} sec."
                 },
@@ -2852,7 +2918,7 @@
                 "0": {
                     "Hash": 444579232,
                     "Id": "193533, 193534",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Using Steady Shot twice in a row increases your haste by {1}% for {2} sec."
                 }
             }
@@ -2887,8 +2953,8 @@
                 },
                 "1": {
                     "Hash": 2913890804,
-                    "Id": "162488",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "162480, 162487, 162488, 162496",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurls a Steel Trap to the target location that snaps shut on the first enemy that approaches, immobilizing them for {1} sec and causing them to bleed for {2} damage over {3} sec. \r\n\r\nDamage other than Steel Trap may break the immobilization effect. Trap will exist for {4} min. Limit {5}."
                 }
             }
@@ -3012,7 +3078,7 @@
                     "Text": "Tames a beast to be your companion.  If you lose the beast's attention for any reason, the taming process will fail.\n\nYou must dismiss any active beast companions and have an empty Call Pet slot before you can begin taming a new beast. Only Beast Mastery specialized Hunters can tame Exotic Beasts."
                 },
                 "1": {
-                    "Hash": 3193768237,
+                    "Hash": 4014025885,
                     "Id": "1515",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "|CFFFF2020You must dismiss your current pet before you can tame another one.|CFFFFD200\n\nTames a beast to be your companion.  If you lose the beast's attention for any reason, the taming process will fail.\n\nYou must dismiss any active beast companions and have an empty Call Pet slot before you can begin taming a new beast. Only Beast Mastery specialized Hunters can tame Exotic Beasts."
@@ -3037,8 +3103,8 @@
                 },
                 "1": {
                     "Hash": 1787111088,
-                    "Id": "187698",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Id": "187698, 187699",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurls a tar trap to the target location that creates a {1} yd radius pool of tar around itself for {2} sec when the first enemy approaches. All enemies have {3}% reduced movement speed while in the area of effect. Trap will exist for {4} min."
                 },
                 "2": {
@@ -3046,6 +3112,12 @@
                     "Id": "135299",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Place a tar trap that creates a slick around itself for {1} sec when the first enemy approaches it. All enemies within {2} yards will be slowed by {3}% while in the area of effect. Trap will exist for {4} sec."
+                },
+                "3": {
+                    "Hash": 1008378565,
+                    "Id": "135299",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Place a tar trap that creates a slick around itself for {1} sec when the first enemy approaches it. All enemies within {2} yards will be slowed by {3}% while in the area of effect. Trap will exist for {4} min."
                 }
             }
         },
@@ -3068,7 +3140,7 @@
                 "0": {
                     "Hash": 1162002136,
                     "Id": "265895, 265898",
-                    "Spec": "Survival, Beast Mastery, Marksmanship",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Harpoon has a {1} sec reduced cooldown, and deals {2} Physical damage and generates {3} Focus over {4} sec. Killing an enemy resets the cooldown of Harpoon."
                 }
             }
@@ -3200,7 +3272,7 @@
                 "0": {
                     "Hash": 3812041241,
                     "Id": "257621, 257622",
-                    "Spec": "Marksmanship, Beast Mastery, Survival",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "When Multi-Shot hits {1} or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to {2} additional targets for {3}% of normal damage."
                 }
             }
@@ -3277,8 +3349,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1461782146,
-                    "Id": "260243",
-                    "Spec": "Marksmanship",
+                    "Id": "260243, 260247",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Rain a volley of arrows down over {1} sec, dealing up to {2} Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active."
                 },
                 "1": {
@@ -3358,6 +3430,12 @@
                     "Id": "378442",
                     "Spec": "Beast Mastery",
                     "Text": "While Call of the Wild is active, Barbed Shot has a {1}% chance to gain a charge any time Focus is spent.\n"
+                },
+                "1": {
+                    "Hash": 3209024078,
+                    "Id": "424567",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "While Call of the Wild is active, each time you Kill Command, your Kill Command target takes {1}% increased damage from all of your pets, stacking up to {2} times."
                 }
             }
         },
@@ -3394,6 +3472,12 @@
                     "Id": "259495, 265157, 265163, 269747",
                     "Spec": "Survival, Beast Mastery, Marksmanship",
                     "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in wildfire, scorching them for {2} Fire damage over {3} sec."
+                },
+                "1": {
+                    "Hash": 114246935,
+                    "Id": "259495, 265157, 265163, 269747",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in wildfire, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target."
                 }
             }
         },
@@ -3448,6 +3532,12 @@
                     "Id": "378905",
                     "Spec": "Marksmanship",
                     "Text": "Each Wind Arrow fired has a {1}% chance to grant you {2} sec of Trueshot."
+                },
+                "1": {
+                    "Hash": 3807955163,
+                    "Id": "378905, 424571",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Each Wind Arrow fired reduces the cooldown of Rapid Fire by {1} sec, and every {2} Wind Arrows fired increases the duration of your next Trueshot by {3} sec, up to a maximum of {4} sec."
                 }
             }
         },
@@ -3520,6 +3610,12 @@
                     "Id": "13809, 13810",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Place a frost trap that creates an ice slick around itself for {1} sec when the first enemy approaches it. All enemies within {2} yards will be slowed by {3}% while in the area of effect. Trap will exist for {4} sec."
+                },
+                "1": {
+                    "Hash": 2327660880,
+                    "Id": "13809, 13810",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Place a frost trap that creates an ice slick around itself for {1} sec when the first enemy approaches it. All enemies within {2} yards will be slowed by {3}% while in the area of effect. Trap will exist for {4} min."
                 }
             }
         },
@@ -3553,7 +3649,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 427060541,
-                    "Id": "24450",
+                    "Id": "24450, 90328",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Puts your pet in stealth mode, but slows its movement speed by {1}%. The first attack from stealth receives a {2}% bonus to damage.  Lasts until cancelled."
                 }
@@ -4048,6 +4144,12 @@
                     "Id": "260231",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in volatile wildfire, scorching them for {2} Fire damage over {3} sec.\r\rVolatile Bomb reacts violently with poison, causing an extra {4} Fire damage against enemies suffering from your Serpent Sting, and applies Serpent Sting to up to {5} targets."
+                },
+                "1": {
+                    "Hash": 436523429,
+                    "Id": "260231, 271045, 271047, 271048, 271049",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in volatile wildfire, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nVolatile Bomb reacts violently with poison, causing an extra {6} Fire damage against enemies suffering from your Serpent Sting, and applies Serpent Sting to up to {7} targets."
                 }
             }
         },
@@ -4324,6 +4426,12 @@
                     "Id": "270323, 270327, 270329, 270332",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in pheromones, causing them to suffer {2} Fire damage over {3} sec.\r\rKill Command has a {4}% chance to reset against targets coated with Pheromone Bomb."
+                },
+                "1": {
+                    "Hash": 3384197592,
+                    "Id": "270323, 270327, 270329, 270332",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and coating enemies in pheromones, causing them to suffer {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nKill Command has a {6}% chance to reset against targets coated with Pheromone Bomb."
                 }
             }
         },
@@ -4354,6 +4462,30 @@
                     "Id": "270335, 270336, 270338, 270339",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and impaling enemies with burning shrapnel, scorching them for {2} Fire damage over {3} sec.\r\rMongoose Bite and Butchery apply Internal Bleeding, causing {4} damage over {5} sec. Internal Bleeding stacks up to {6} times."
+                },
+                "4": {
+                    "Hash": 2187430125,
+                    "Id": "270335, 270336, 270338, 270339, 270343",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and impaling enemies with burning shrapnel, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nRaptor Strike and Carve apply Internal Bleeding, causing {6} damage over {7} sec. Internal Bleeding stacks up to {8} times."
+                },
+                "5": {
+                    "Hash": 413978140,
+                    "Id": "270335, 270336, 270338, 270339, 270343",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and impaling enemies with burning shrapnel, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nMongoose Bite and Carve apply Internal Bleeding, causing {6} damage over {7} sec. Internal Bleeding stacks up to {8} times."
+                },
+                "6": {
+                    "Hash": 3582045020,
+                    "Id": "270335, 270336, 270338, 270339, 270343",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and impaling enemies with burning shrapnel, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nRaptor Strike and Butchery apply Internal Bleeding, causing {6} damage over {7} sec. Internal Bleeding stacks up to {8} times."
+                },
+                "7": {
+                    "Hash": 185158386,
+                    "Id": "270335, 270336, 270338, 270339, 270343",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Hurl a bomb at the target, exploding for {1} Fire damage in a cone and impaling enemies with burning shrapnel, scorching them for {2} Fire damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nDeals {5}% increased damage to your primary target.\r\n\r\nMongoose Bite and Butchery apply Internal Bleeding, causing {6} damage over {7} sec. Internal Bleeding stacks up to {8} times."
                 }
             }
         },
@@ -4516,6 +4648,12 @@
                     "Id": "324156",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Fire a shot at your enemy, dealing {1} Shadow damage and then causing them to bleed for {2} Shadow damage over {3}. Each time Flayed Shot deals damage, you have a {4}% chance to gain Flayer's Mark, causing your next Kill Shot to be free, usable on any target regardless of their current health, and deal {5}% increased damage."
+                },
+                "1": {
+                    "Hash": 2844783797,
+                    "Id": "324156",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Fire a shot at your enemy, dealing {1} Shadow damage and then causing them to bleed for {2} Shadow damage over {3} sec. Each time Flayed Shot deals damage, you have a {4}% chance to gain Flayer's Mark, causing your next Kill Shot to be free, usable on any target regardless of their current health, and deal {5}% increased damage."
                 }
             }
         },
@@ -4525,7 +4663,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2132923753,
-                    "Id": "328275",
+                    "Id": "328275, 328757, 328837",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Evoke the energy of Wild Spirits at the target location, dealing {1} Nature damage and apply Wild Mark to all enemy targets within the area for {2} sec.\r\rWhile the Wild Spirits are active, each damaging ability you or your pet use against a target in the area will strike up to {3} nearby targets for {4} Nature damage."
                 }
@@ -4549,7 +4687,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 388600553,
-                    "Id": "336822, 336826",
+                    "Id": "336822, 336826, 378750, 392296",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Cobra Shot has a {1}% chance to make your next Kill Command consume no Focus."
                 }
@@ -4573,7 +4711,7 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2645025674,
-                    "Id": "339928, 339929",
+                    "Id": "339929",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Your auto attacks have a {1}% chance to cause your next Rapid Fire to deal{FFFFFFFF| {2}%} increased damage for each shot."
                 }
@@ -4717,13 +4855,13 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3169710996,
-                    "Id": "394366",
+                    "Id": "394366, 394371",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Arcane Shot and Multi-Shot critical hits cause your next Aimed Shot to cause the target to bleed for {1}% of damage dealt over {2} sec."
                 },
                 "1": {
                     "Hash": 3014094694,
-                    "Id": "394366",
+                    "Id": "394366, 394371",
                     "Spec": "Beast Mastery, Marksmanship, Survival",
                     "Text": "Chimaera Shot and Multi-Shot critical hits cause your next Aimed Shot to cause the target to bleed for {1}% of damage dealt over {2} sec."
                 }
@@ -4788,6 +4926,71 @@
                     "Text": "Every {1} Focus spent reduces the cooldown of Wildfire Bomb by {2} sec, and the target of your latest Kill Command takes {3}% increased damage from Wildfire Bomb for {4} sec."
                 }
             }
+        },
+        "319": {
+            "Hash": 723880092,
+            "Name": "Bite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3836089885,
+                    "Id": "17253",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Bite the enemy, causing {1} damage. Deals {2}% more damage and costs {3}% more Focus when your pet has {4} or more Focus."
+                }
+            }
+        },
+        "320": {
+            "Hash": 1384158020,
+            "Name": "Mortal Wounds",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1414581868,
+                    "Id": "115804",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Grievously wounds the target, reducing the effectiveness of any healing received for {1} sec."
+                }
+            }
+        },
+        "321": {
+            "Hash": 419159479,
+            "Name": "Savagery",
+            "Descriptions": {
+                "0": {
+                    "Hash": 643597725,
+                    "Id": "424557",
+                    "Spec": "Beast Mastery",
+                    "Text": "Kill Command damage is increased by {1}%. Barbed Shot lasts {2} sec longer."
+                }
+            }
+        },
+        "322": {
+            "Hash": 1180372227,
+            "Name": "Fury Strikes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3592961548,
+                    "Id": "425830",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Fury of the Eagle increases you and your pet's critical strike chance by {1}% and critical damage dealt by {2}% for {3} sec."
+                }
+            }
+        },
+        "323": {
+            "Hash": 89051070,
+            "Name": "Contained Explosion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1493200397,
+                    "Id": "426344, 428464",
+                    "Spec": "Beast Mastery, Marksmanship, Survival",
+                    "Text": "Fury of the Eagle throws a free Wildfire Bomb at your current target at {1}% effectiveness, causes your next Wildfire Bomb to not incur a cooldown, and increases the damage Wildfire Bomb deals to your primary target by {2}% for {3} sec."
+                }
+            }
+        },
+        "324": {
+            "Hash": 534556367,
+            "Name": "Light the Fuse",
+            "Descriptions": {}
         }
     }
 }
