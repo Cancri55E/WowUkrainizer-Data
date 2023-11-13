@@ -32,7 +32,7 @@
                 "0": {
                     "Hash": 2740804332,
                     "Id": "391409",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує ваш шанс парирування на {1}%."
                 }
             }
@@ -56,7 +56,7 @@
                 "0": {
                     "Hash": 4257630860,
                     "Id": "207347",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує шанс критичної шкоди від [Аура спалення] на {1}%."
                 }
             }
@@ -79,15 +79,21 @@
                 },
                 "2": {
                     "Hash": 3547503721,
-                    "Id": "188499",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "320402",
+                    "Spec": "Havoc",
                     "Text": "Зменшує час відновлення [Танок клинків] на {1} сек."
                 },
                 "3": {
                     "Hash": 113847881,
-                    "Id": "188499",
-                    "Spec": "Havoc",
+                    "Id": "188499, 199552, 200685, 391374, 391378",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Завдає вашій основній цілі {1} од. шкоди від магії хаосу, а також {2} од. фізичної шкоди всім ворогам поблизу. Завдає зменшену шкоду, якщо цілей більше {3}."
+                },
+                "4": {
+                    "Hash": 34540133,
+                    "Id": "188499, 199552, 200685, 391374, 391378",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Strike nearby enemies for {1} Physical damage. Deals reduced damage beyond {2} targets."
                 }
             }
         },
@@ -98,13 +104,13 @@
                 "0": {
                     "Hash": 3008612364,
                     "Id": "320416",
-                    "Spec": "Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Ривок скверни] отримує додатковий заряд."
                 },
                 "1": {
                     "Hash": 91736019,
                     "Id": "320416",
-                    "Spec": "Vengeance",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Інфернальний удар] отримує додатковий заряд."
                 }
             }
@@ -145,8 +151,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 631681764,
-                    "Id": "198589",
-                    "Spec": "Havoc",
+                    "Id": "198589, 212800",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує ваш шанс ухилитися від атак на {1}% та зменшує вхідну шкоду на {2}% на {3} сек."
                 }
             }
@@ -160,6 +166,12 @@
                     "Id": "320386",
                     "Spec": "Vengeance, Havoc",
                     "Text": "[Кидання глефи] рикошетить у ще {1} {declension|додаткову ціль|додаткові цілі|додаткових цілей}."
+                },
+                "1": {
+                    "Hash": 944411106,
+                    "Id": "320386",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw Glaive ricochets to {1} additional [plural|Target|targets]."
                 }
             }
         },
@@ -217,9 +229,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3974479125,
-                    "Id": "391189",
-                    "Spec": "Havoc",
+                    "Id": "391189, 391191",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Укус демона] та [Кидання глефи] залишають на ворогах відкриті рани, які завдають {1} шкоди від магії хаосу за {2} сек. та збільшують вхідну шкоду від вашої [Аура спалення] на {3}%.\n\nМоже бути залучена максимум на {4} {declension|цілі|цілях|цілях}."
+                },
+                "1": {
+                    "Hash": 620080543,
+                    "Id": "391189, 391191",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Demon's Bite and Throw Glaive leave open wounds on your enemies, dealing {1} Chaos damage over {2} sec and increasing damage taken from your Immolation Aura by {3}%.\r\n\r\nMay be applied to up to {4} targets."
                 }
             }
         },
@@ -229,8 +247,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3549288452,
-                    "Id": "389720",
-                    "Spec": "Vengeance",
+                    "Id": "389720, 391171",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви отримуєте на {1}% меншу шкоду після закінчення дії [Шипи демона], цей бонус зменшується на {2}% за сек."
                 }
             }
@@ -250,6 +268,12 @@
                     "Id": "389715",
                     "Spec": "Vengeance",
                     "Text": "Збільшує радіус дії ваших Печаток на {1} м."
+                },
+                "2": {
+                    "Hash": 187063219,
+                    "Id": "389715",
+                    "Spec": "Vengeance",
+                    "Text": "Increases the duration of your Sigils by {1} sec and radius by {2} yds."
                 }
             }
         },
@@ -259,8 +283,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 16697884,
-                    "Id": "255260",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "1490, 255260",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ваша шкода відмічає ворога, збільшуючи магічну шкоду по ньому на {1}%."
                 }
             }
@@ -272,7 +296,7 @@
                 "0": {
                     "Hash": 2315383268,
                     "Id": "320412",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Кожен ворог, якого ви приголомшили своєю [Зірка хаосу], має {1}% шанс згенерувати малий Фрагмент душі."
                 }
             }
@@ -284,8 +308,14 @@
                 "0": {
                     "Hash": 3914975177,
                     "Id": "179057",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вивільняє енергію скверни, завдаючи ворогам {1} од. шкоди від магії хаосу, приголомшуючи їх на {2} сек."
+                },
+                "1": {
+                    "Hash": 2427956299,
+                    "Id": "179057",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Unleash an eruption of fel energy, dealing {1} Chaos damage and stunning all nearby enemies for {2} sec.\r\n\r\nEach enemy stunned by Chaos Nova has a {3}% chance to generate a Lesser Soul Fragment."
                 }
             }
         },
@@ -295,8 +325,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1861348075,
-                    "Id": "162794",
-                    "Spec": "Havoc",
+                    "Id": "162794, 193840, 199547, 222031, 344862",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розрізає ціль, завдаючи їй {1} од. шкоди від магії хаосу. [Удар хаосу] має {2}% шанс компенсувати {3} од. люті."
                 }
             }
@@ -307,8 +337,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1114838241,
-                    "Id": "389687",
-                    "Spec": "Havoc",
+                    "Id": "389687, 390195",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Танок клинків] збільшує на {1} сек. критичний шанс [Удар хаосу] на {2}-{3}% і він повністю повертає витрачену лють."
                 }
             }
@@ -346,6 +376,12 @@
                     "Id": "336639",
                     "Spec": "Vengeance",
                     "Text": "Шкода від [Аура спалення] збільшує час дії вашого [Вогняне клеймо] на {1} сек."
+                },
+                "1": {
+                    "Hash": 3266343104,
+                    "Id": "336639",
+                    "Spec": "Vengeance",
+                    "Text": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by {1} sec."
                 }
             }
         },
@@ -355,8 +391,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1107046624,
-                    "Id": "213010",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "213010, 213011",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви зцілюєтесь на {1}% від всієї вогняної шкоди, яку ви наносите."
                 }
             }
@@ -380,13 +416,13 @@
                 "0": {
                     "Hash": 1818314486,
                     "Id": "390152",
-                    "Spec": "Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Пронизливий погляд] закликає на допомогу союзного мисливця на демонів спеціалізації Помста, який наносить {1} од. шкоди від вогню протягом {2} сек. Ця шкода відновлює вам до {3} од. здоров'я."
                 },
                 "1": {
                     "Hash": 1241544868,
                     "Id": "390152",
-                    "Spec": "Vengeance",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Спустошення скверни] закликає на допомогу союзного мисливця на демонів спеціалізації Хаос, який наносить {1} од. шкоди від магії хаосу протягом {2} сек. Завдає менше шкоди цілям після {3}."
                 }
             }
@@ -410,8 +446,14 @@
                 "0": {
                     "Hash": 3904930601,
                     "Id": "278326",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Поглинає {1} корисний магічний ефект, знімаючи його з цілі."
+                },
+                "1": {
+                    "Hash": 1595388047,
+                    "Id": "278326",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Consume {1} beneficial Magic effect removing it from the target and granting you {2} Fury."
                 }
             }
         },
@@ -460,6 +502,12 @@
                     "Id": "258887",
                     "Spec": "Havoc",
                     "Text": "[Танок клинків], [Удар хаосу], та [Глефова буря] зменшують час відновлення [Пронизливий погляд] на {1} сек."
+                },
+                "1": {
+                    "Hash": 1290089165,
+                    "Id": "258887",
+                    "Spec": "Havoc",
+                    "Text": "Blade Dance, Chaos Strike, Throw Glaive, and Glaive Tempest reduce the cooldown of Eye Beam by {1} sec."
                 }
             }
         },
@@ -496,6 +544,18 @@
                     "Id": "196718",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Прикликає темряву радіусом {1} м навколо вас, даючи союзникам в ній {2}% шанс ігнорувати вхідну атаку. Діє {3} сек."
+                },
+                "1": {
+                    "Hash": 2563166916,
+                    "Id": "196718, 209426",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Summons darkness around you in an {1} yd radius, granting friendly targets a {2}% chance to avoid all damage from an attack. Lasts {3} sec.\r\n\r\nChance to avoid damage increased by {4}% when not in a raid."
+                },
+                "2": {
+                    "Hash": 4134637959,
+                    "Id": "196718, 209426",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Summons darkness around you in a {1} yd radius, granting friendly targets a {2}% chance to avoid all damage from an attack. Lasts {3} sec.\r\n\r\nChance to avoid damage increased by {4}% when not in a raid."
                 }
             }
         },
@@ -517,9 +577,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3290273582,
-                    "Id": "203555",
-                    "Spec": "Havoc",
+                    "Id": "203555, 203796",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ваші автоматичні атаки наносять додатково {1} од. шкоди від темної магії та генерують {2}-{3} од. люті."
+                },
+                "1": {
+                    "Hash": 3408020514,
+                    "Id": "203555, 203796",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Your auto attacks deal an additional {1} Chaos damage and generate {2}-{3} Fury."
                 }
             }
         },
@@ -529,8 +595,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3774781747,
-                    "Id": "388111",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "388111, 394933",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вороги наносять на {1}% менше магічної шкоди по вас протягом {2} сек після того, як на них подіяла будь-яка ваша Печатка."
                 }
             }
@@ -541,9 +607,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3711942467,
-                    "Id": "203720",
-                    "Spec": "Vengeance",
+                    "Id": "203720, 203819",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Наповнює силою скверни, збільшуючи вашу броню на {1}, а ваш шанс Парирування на {2}% на {3} сек."
+                },
+                "1": {
+                    "Hash": 3565095365,
+                    "Id": "203720, 203819",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Surge with fel power, increasing your Armor by {1}."
+                },
+                "2": {
+                    "Hash": 852660489,
+                    "Id": "391159",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "While Demon Spikes is active, melee attacks against you cause the attacker to take {1} Physical damage. Generates high threat."
                 }
             }
         },
@@ -556,6 +634,12 @@
                     "Id": "162243",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Швидко атакує, завдаючи {1} од. фізичної шкоди.\n\nГенерує від {2} до {3} од. люті."
+                },
+                "1": {
+                    "Hash": 2922176093,
+                    "Id": "162243, 344859",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Quickly attack for {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} to {3} Fury.}"
                 }
             }
         },
@@ -566,13 +650,13 @@
                 "0": {
                     "Hash": 1676671196,
                     "Id": "213410",
-                    "Spec": "Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Пронизливий погляд] змушує вас перейти у демонічну форму на {1} сек після того, як він завершує завдання шкоди."
                 },
                 "1": {
                     "Hash": 11597326,
-                    "Id": "213410",
-                    "Spec": "Vengeance",
+                    "Id": "213410, 321453",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Спустошення скверни] змушує вас перейти у демонічну форму на {1} сек після того, як воно завершує завдання шкоди."
                 }
             }
@@ -583,8 +667,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4139936446,
-                    "Id": "206478",
-                    "Spec": "Havoc",
+                    "Id": "206478, 210041",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Удар хаосу] може породити малий Фрагмент душі. Споживання будь-якого Фрагмента душі дає {1} од. люті."
                 }
             }
@@ -649,14 +733,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 306959612,
-                    "Id": "183752",
-                    "Spec": "Havoc",
+                    "Id": "183752, 218903",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Перериває заклинання цілі та блокує їй використання тієї ж школи магії на {1} сек.|cFFFFFFFF\n\nГенерує {2} од. люті при успішному перериванні.|r"
                 },
                 "1": {
                     "Hash": 954654000,
-                    "Id": "183752",
-                    "Spec": "Vengeance",
+                    "Id": "183752, 218903",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Перериває заклинання цілі та блокує їй використання тієї ж школи магії на {1} сек.{FFFFFFFF|}"
                 },
                 "2": {
@@ -674,7 +758,7 @@
                 "0": {
                     "Hash": 946074280,
                     "Id": "183782",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Переривання] генерує {1} од. люті після успішного переривання закляття."
                 }
             }
@@ -686,7 +770,7 @@
                 "0": {
                     "Hash": 4115190346,
                     "Id": "196055",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви можете стрибнути знову, коли знаходитесь біля верхньої точки вашого першого стрибка."
                 }
             }
@@ -700,6 +784,12 @@
                     "Id": "389732",
                     "Spec": "Vengeance",
                     "Text": "[Вогняне клеймо] має на {1} сек зменшений час оновлення та {2} додатковий заряд."
+                },
+                "1": {
+                    "Hash": 4260711800,
+                    "Id": "389732",
+                    "Spec": "Vengeance",
+                    "Text": "Fiery Brand has {1} sec reduced cooldown and {2} additional [plural|charge|charges]."
                 }
             }
         },
@@ -709,9 +799,39 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2411377821,
-                    "Id": "390163",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "307046, 339893, 339894, 389815, 389860, 390163, 394985",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від таємної магії, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка. Завдає зменшену шкоду цілям після {4}."
+                },
+                "1": {
+                    "Hash": 3050164247,
+                    "Id": "307046, 339893, 339894, 389815, 389860, 390163, 394985",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Kyrian Sigil at the target location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond {4} targets."
+                },
+                "2": {
+                    "Hash": 4219320736,
+                    "Id": "327839",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Kyrian Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Arcane damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                },
+                "3": {
+                    "Hash": 527311973,
+                    "Id": "327839",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Kyrian Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                },
+                "4": {
+                    "Hash": 2466758013,
+                    "Id": "389858",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Arcane damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                },
+                "5": {
+                    "Hash": 1686415391,
+                    "Id": "389858",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
                 }
             }
         },
@@ -722,13 +842,13 @@
                 "0": {
                     "Hash": 1100418708,
                     "Id": "391397",
-                    "Spec": "Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Час відновлення у [Ривок скверни] зменшений на {1}%."
                 },
                 "1": {
                     "Hash": 1566463684,
                     "Id": "391397",
-                    "Spec": "Vengeance",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Час відновлення у [Інфернальний удар] зменшений на {1}%."
                 }
             }
@@ -739,8 +859,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 295895621,
-                    "Id": "258860",
-                    "Spec": "Havoc",
+                    "Id": "258860, 320338",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розсікає всіх ворогів попереду вас, завдаючи їм {1} од. шкоди від магії хаосу, та збільшуючи шкоду від [Удар хаосу] та [Танок клинків] по ворогах на {2}% на {3} сек. Наносить менше шкоди цілям після {4}."
                 }
             }
@@ -787,15 +907,33 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2583483508,
-                    "Id": "198013",
-                    "Spec": "Havoc",
+                    "Id": "198013, 198030",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вибухає всіх ворогів поперед вас, завдаючи їм до {1} од. шкоди від магії хаосу протягом {2} сек. Наносить менше шкоди цілям після {3}.\n\nКоли [Пронизливий погляд] закінчує завдання шкоди, ваша Швидкість збільшується на додаткові {4}% на {5} сек."
                 },
                 "1": {
                     "Hash": 177443207,
-                    "Id": "198013",
-                    "Spec": "Vengeance",
+                    "Id": "198013, 198030",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вражає всіх ворогів попереду вас, завдаючи їм до {1} шкоди від магії хаосу протягом {2} сек. Завдає зменшену шкоду більше ніж {3} цілям."
+                },
+                "2": {
+                    "Hash": 373226704,
+                    "Id": "198013, 198030",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Blasts all enemies in front of you, dealing guaranteed critical strikes for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets."
+                },
+                "3": {
+                    "Hash": 1715979807,
+                    "Id": "198013, 198030",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Blasts all enemies in front of you,  for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional {4}% for {5} sec."
+                },
+                "4": {
+                    "Hash": 3030645355,
+                    "Id": "333389, 346505, 391058",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Blasts all enemies in front of you, dealing guaranteed critical strikes for up to {1} Chaos damage over {2} sec. Deals reduced damage to secondary targets."
                 }
             }
         },
@@ -817,8 +955,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 818350814,
-                    "Id": "207697",
-                    "Spec": "Vengeance",
+                    "Id": "207693",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Розсічення душі] зцілює вас додатково на {1} протягом {2} сек."
                 }
             }
@@ -844,6 +982,12 @@
                     "Id": "258925",
                     "Spec": "Havoc",
                     "Text": "Звільняє потік енергії скверни на {1} сек, завдаючи {2} од. шкоди від магії хаосу всім ворогам у радіусі {3} м. Завдає зменшену шкоду цілям після {4}."
+                },
+                "1": {
+                    "Hash": 1417430288,
+                    "Id": "258925, 258926",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Unleash a torrent of Fel energy, rapidly consuming Fury to inflict {1} Chaos damage to all enemies within {2} yds, lasting {3} sec or until Fury is depleted. Deals reduced damage beyond {4} targets."
                 }
             }
         },
@@ -859,14 +1003,14 @@
                 },
                 "1": {
                     "Hash": 3969832918,
-                    "Id": "212084",
-                    "Spec": "Vengeance",
+                    "Id": "212084, 212105, 212106, 333105, 333110, 333120, 346502, 346503, 393831, 393834",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Звільняє скверну в середині вас, завдаючи всім ворогам попереду вас {1} од. шкоди від вогню протягом {2} сек. Завдана шкода також відновлює вам до {3} здоров'я."
                 },
                 "2": {
                     "Hash": 2409352118,
-                    "Id": "212084",
-                    "Spec": "Havoc",
+                    "Id": "212084, 212105, 212106, 333110, 333120, 346503, 393834",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вивільняє скверну всередині вас, завдаючи ворогам перед вами {1} вогняної шкоди протягом {2} сек."
                 }
             }
@@ -901,9 +1045,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1245740608,
-                    "Id": "195072",
-                    "Spec": "Havoc",
+                    "Id": "192611, 195072, 344865",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви робите ривок вперед, завдаючи всім на шляху {1} од. шкоди від магії хаосу."
+                },
+                "1": {
+                    "Hash": 887406486,
+                    "Id": "427785",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Rush back towards where you started, incinerating anything in your path for {1} Chaos damage."
                 }
             }
         },
@@ -913,15 +1063,39 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2425275472,
-                    "Id": "232893",
-                    "Spec": "Vengeance",
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви робите ривок до цілі та завдаєте {1} од. вогняної шкоди.\n\n[Косіння] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
                 },
                 "1": {
                     "Hash": 936168027,
-                    "Id": "232893",
-                    "Spec": "Havoc",
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви робите ривок до цілі та завдаєте {1} од. вогняної шкоди.\n\n[Укус демона] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
+                },
+                "2": {
+                    "Hash": 395334389,
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Charge to your target and deal {1} Fire damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                },
+                "3": {
+                    "Hash": 1294708270,
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                },
+                "4": {
+                    "Hash": 3784810002,
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon Blades has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                },
+                "5": {
+                    "Hash": 2556243395,
+                    "Id": "213243, 232893",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nShear has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
                 }
             }
         },
@@ -931,14 +1105,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3570577156,
-                    "Id": "389846",
-                    "Spec": "Havoc",
+                    "Id": "389846, 389847",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Ривок скверни] збільшує вашу швидкість руху на {1}% на {2} сек."
                 },
                 "1": {
                     "Hash": 1209462855,
-                    "Id": "389846",
-                    "Spec": "Vengeance",
+                    "Id": "389846, 389847",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Інфернальний удар] збільшує вашу швидкість руху на {1}% на {2} сек."
                 }
             }
@@ -961,9 +1135,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1274801646,
-                    "Id": "204021",
-                    "Spec": "Vengeance",
+                    "Id": "204021, 207744, 207771",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Відмічає ворога демонічним символом, миттєво завдаючи йому {1} од. вогняної шкоди та {2} од. вогняної шкоди протягом {3} сек. Цей ворог наноситиме по вас на {4}% менше шкоди протягом {5} сек."
+                },
+                "1": {
+                    "Hash": 601425106,
+                    "Id": "204021, 207744, 207771",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Brand an enemy with a demonic symbol, instantly dealing {1} Fire damage. The enemy's damage done to you is reduced by {2}% for {3} sec."
+                },
+                "2": {
+                    "Hash": 3768124437,
+                    "Id": "209245",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Brands a target with a burning demonic symbol, instantly dealing {1} Fire damage and reducing the damage they do by {2}% for {3} sec."
+                },
+                "3": {
+                    "Hash": 3039349959,
+                    "Id": "320962",
+                    "Spec": "Vengeance",
+                    "Text": "Fiery Brand deals {1} Fire damage every {2} sec."
                 }
             }
         },
@@ -973,8 +1165,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2142801471,
-                    "Id": "389220",
-                    "Spec": "Vengeance",
+                    "Id": "212818, 389220",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Вогняне клеймо] також збільшує вогняну шкоду, яку ви завдаєте по цій цілі, на {1}%."
                 }
             }
@@ -1012,6 +1204,12 @@
                     "Id": "389694",
                     "Spec": "Vengeance, Havoc",
                     "Text": "[Печатка вогню] генерує {1} додаткової люті за кожне попадання по цілі."
+                },
+                "1": {
+                    "Hash": 769902477,
+                    "Id": "389694",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Sigil of Flame deals {1}% increased damage and generates {2} additional Fury per target hit."
                 }
             }
         },
@@ -1036,6 +1234,42 @@
                     "Id": "391429",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Ваші здібності, які наносять шкоду, мають шанс прикликати демона з Театру Болю на {1} сек. [Кидання глефи] наносить летальну шкоду цьому демону, який вибухає після смерті, наносячи {2} од. шкоди від темної магії ворогам навколо та зцілюючи вас на {3}% від макс. запасу здоров'я. Вибух наносить менше шкоди цілям після {4}."
+                },
+                "1": {
+                    "Hash": 1164159524,
+                    "Id": "329554, 391430",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Your damaging abilities have a chance to call forth a demon from the Theater of Pain for {1} sec. Throw Glaive deals lethal damage to the demon, which explodes on death, dealing {2} Shadow damage to nearby enemies and healing you for {3}% of your maximum health. The explosion deals reduced damage beyond {4} targets."
+                },
+                "2": {
+                    "Hash": 2912435936,
+                    "Id": "329554, 391430",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Your damaging abilities have a chance to call forth a demon from the Theater of Pain for {1} sec. Throw Glaive deals lethal damage to the demon, which explodes on death, dealing {2} Chaos damage to nearby enemies and healing you for {3}% of your maximum health. The explosion deals reduced damage beyond {4} targets."
+                },
+                "3": {
+                    "Hash": 2960315162,
+                    "Id": "350631, 391429",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Spectral Sight has {1} sec increased cooldown and now reveals a condemned demon for {2} sec. Eye Beam and Throw Glaive deal lethal damage to the demon, granting {3}% increased damage for {4} sec.\r\n\r\nThe demon explodes on death, dealing {5} Shadow damage to nearby enemies and healing you for {6}% of your maximum health. The explosion deals reduced damage beyond {7} targets."
+                },
+                "4": {
+                    "Hash": 1644900481,
+                    "Id": "350631, 391429",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Spectral Sight has {1} sec increased cooldown and now reveals a condemned demon for {2} sec. Eye Beam and Throw Glaive deal lethal damage to the demon, granting {3}% increased damage for {4} sec.\r\n\r\nThe demon explodes on death, dealing {5} Chaos damage to nearby enemies and healing you for {6}% of your maximum health. The explosion deals reduced damage beyond {7} targets."
+                },
+                "5": {
+                    "Hash": 1072290990,
+                    "Id": "350631, 391429",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Spectral Sight has {1} sec increased cooldown and now reveals a condemned demon for {2} sec. Fel Devastation and Throw Glaive deal lethal damage to the demon, granting {3}% increased damage for {4} sec.\r\n\r\nThe demon explodes on death, dealing {5} Shadow damage to nearby enemies and healing you for {6}% of your maximum health. The explosion deals reduced damage beyond {7} targets."
+                },
+                "6": {
+                    "Hash": 190100828,
+                    "Id": "350631, 391429",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Spectral Sight has {1} sec increased cooldown and now reveals a condemned demon for {2} sec. Fel Devastation and Throw Glaive deal lethal damage to the demon, granting {3}% increased damage for {4} sec.\r\n\r\nThe demon explodes on death, dealing {5} Chaos damage to nearby enemies and healing you for {6}% of your maximum health. The explosion deals reduced damage beyond {7} targets."
                 }
             }
         },
@@ -1045,8 +1279,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1257381070,
-                    "Id": "263642",
-                    "Spec": "Vengeance",
+                    "Id": "225919, 225921, 263642",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Швидко розрізає вашу ціль, завдаючи {1} од. фізичної шкоди, та відколює {2} малих Фрагменти душі з них.\n\n{FFFFFFFF|Генерує {3} од. люті.}"
                 }
             }
@@ -1072,6 +1306,12 @@
                     "Id": "343311",
                     "Spec": "Havoc",
                     "Text": "Коли ви закінчуєте повне підтримування [Пронизливий погляд], ваша Швидкість збільшується на {1}% на {2} сек."
+                },
+                "1": {
+                    "Hash": 704126,
+                    "Id": "273232, 343312",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When Eye Beam finishes fully channeling, your Haste is increased by {1} for {2} sec."
                 }
             }
         },
@@ -1093,8 +1333,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2924845548,
-                    "Id": "342817",
-                    "Spec": "Havoc",
+                    "Id": "342817, 342857",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Запускає дві демонічні глефи у вихор енергії, завдаючи {1} од. шкоди від магії хаосу протягом {2} сек всім ворогам поряд. Наносить менше шкоди цілям після {3}."
                 }
             }
@@ -1106,7 +1346,7 @@
                 "0": {
                     "Hash": 2056203925,
                     "Id": "131347",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує швидкість падіння.\n\nВи можете активувати цю здібність натисканням клавіші стрибку під час падіння."
                 }
             }
@@ -1154,7 +1394,7 @@
                 "0": {
                     "Hash": 3521355859,
                     "Id": "389696",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує отримувану магічну шкоду на {1}%."
                 }
             }
@@ -1172,19 +1412,19 @@
                 "1": {
                     "Hash": 2651863324,
                     "Id": "320364",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Аура спалення] миттєво наносить {1} од. вогняної шкоди всім ворогам в радіусі {2} м."
                 },
                 "2": {
                     "Hash": 4183354807,
                     "Id": "320377",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc",
                     "Text": "Збільшує час дії [Аура спалення] на {1} сек."
                 },
                 "3": {
                     "Hash": 3465803817,
                     "Id": "320378",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Vengeance",
                     "Text": "Зменшує час відновлення [Аура спалення] на {1} сек."
                 },
                 "4": {
@@ -1214,7 +1454,7 @@
                 "1": {
                     "Hash": 3973033015,
                     "Id": "217832",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ув'язнює демона, звіра або гуманоїда, паралізуючи його на {1} хв. Шкода скасовує цей ефект. Діє максимум на {2} {declension|ціль|цілі|цілей}."
                 }
             }
@@ -1244,7 +1484,7 @@
                 "1": {
                     "Hash": 1161561461,
                     "Id": "320361",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує дистанцію [Переривання] до {1} м."
                 }
             }
@@ -1268,7 +1508,7 @@
                 "0": {
                     "Hash": 3343680390,
                     "Id": "320418",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує час відновлення [Печатка нещастя] на {1} сек."
                 }
             }
@@ -1279,9 +1519,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2265981967,
-                    "Id": "320331",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "320334",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Аура спалення] збільшує вашу броню на {1}% та наносить атакуючим вас у ближньому бою ворогам {2} од. шкоди від вогню."
+                },
+                "1": {
+                    "Hash": 4173205473,
+                    "Id": "320334",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Immolation Aura increases your armor by {1}% and causes melee attackers to suffer {2} Chaos damage."
                 }
             }
         },
@@ -1291,8 +1537,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 123021601,
-                    "Id": "189110",
-                    "Spec": "Vengeance",
+                    "Id": "189110, 189112",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Стрибок у цільову точку, який наносить {1} од. шкоди від вогню всім ворогам в радіусі {2} м."
                 }
             }
@@ -1306,6 +1552,12 @@
                     "Id": "388108",
                     "Spec": "Havoc",
                     "Text": "Якщо ви атакуєте ворога перше, ніж він атакує вас, ваш шанс Критичного Удару збільшується на {1}% на {2} сек.\n\nВикористання [Мстивий відступ] відновлює можливість активувати цей ефект на тих цілях, з якими ви вже в бою."
+                },
+                "1": {
+                    "Hash": 1725933117,
+                    "Id": "388108, 391215",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Damaging an enemy before they damage you increases your critical strike chance by {1}% for {2} sec.\r\n\r\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with."
                 }
             }
         },
@@ -1318,6 +1570,12 @@
                     "Id": "389693",
                     "Spec": "Havoc",
                     "Text": "При активації демонічної форми ваш наступний [Удар хаосу] вивільняє внутрішнього демона, наносячи {1} од. шкоди від магії хаосу всім ворогам поряд з вами."
+                },
+                "1": {
+                    "Hash": 2412527656,
+                    "Id": "389693, 390137, 390139, 390145",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal {1} Chaos damage to all nearby enemies. Deals reduced damage beyond {2} targets."
                 }
             }
         },
@@ -1340,7 +1598,7 @@
                 "0": {
                     "Hash": 3177537150,
                     "Id": "393822",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує вашу Майстерність на {1}%."
                 }
             }
@@ -1354,6 +1612,12 @@
                     "Id": "388113",
                     "Spec": "Havoc",
                     "Text": "[Зірка Хаосу], [Пронизливий погляд] та [Ривок Скверни] отримують бонус, коли ви атакуєте {1} {declension|ціль|цілі|цілей}.\n\n|T135795:24|t {ffffffff|Зірка Хаосу}:\nТривалість приголомшення збільшується на {2} сек.\n\n|T1305156:24|t {ffffffff|Пронизливий Погляд}:\nЗавдає на {3}% більше шкоди.\n\n|T1247261:24|t {ffffffff|Ривок Скверни}:\nГенерує {4}-{5} од. люті."
+                },
+                "1": {
+                    "Hash": 1486015411,
+                    "Id": "388113",
+                    "Spec": "Havoc",
+                    "Text": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking {1} target.\r\n\r\n|T135795:24|t Chaos Nova:\r\nStun duration increased by {2} sec.\r\n\r\n|T1305156:24|t Eye Beam:\r\nDeals {3}% increased damage.\r\n\r\n|T1344649:24|t Immolation Aura:\r\nAlways critically strikes."
                 }
             }
         },
@@ -1400,7 +1664,7 @@
                 "0": {
                     "Hash": 1871338765,
                     "Id": "389781",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує час дії [Темрява] на {1} сек."
                 }
             }
@@ -1424,7 +1688,7 @@
                 "0": {
                     "Hash": 3280885349,
                     "Id": "389849",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Спектральний зір] діє додатково протягом {1} сек, якщо його ефект було перервано атакою або отриманою шкодою."
                 }
             }
@@ -1435,9 +1699,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 377404902,
-                    "Id": "389763",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "213405, 389763",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Кидання глефи] має {1} заряди, а також сповільнює ворогів на {2}% на {3} сек."
+                },
+                "1": {
+                    "Hash": 2423186766,
+                    "Id": "203556",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw Glaive has {1} additional charge."
                 }
             }
         },
@@ -1450,6 +1720,12 @@
                     "Id": "185164",
                     "Spec": "Havoc",
                     "Text": "Збільшує шкоду від магії хаосу на {1}% та вашу швидкість руху на {2}%."
+                },
+                "1": {
+                    "Hash": 2991459292,
+                    "Id": "185164",
+                    "Spec": "Havoc",
+                    "Text": "Increases your Chaos damage by {1}%."
                 }
             }
         },
@@ -1462,6 +1738,18 @@
                     "Id": "203747",
                     "Spec": "Vengeance",
                     "Text": "Збільшує броню на {1}% від вашої Спритності. Бонус броні подвоюється, коли [Шипи демона] активні.\n\nТакож збільшує вашу силу атаки на {2}%."
+                },
+                "1": {
+                    "Hash": 2828002213,
+                    "Id": "203747",
+                    "Spec": "Vengeance",
+                    "Text": "Increases Armor by {1}% of your Agility. Armor bonus is doubled while Demon Spikes is active."
+                },
+                "2": {
+                    "Hash": 1945724172,
+                    "Id": "321299",
+                    "Spec": "Vengeance",
+                    "Text": "Mastery increases your Attack Power."
                 }
             }
         },
@@ -1489,9 +1777,93 @@
                 },
                 "3": {
                     "Hash": 2202765644,
-                    "Id": "191427",
-                    "Spec": "Havoc",
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Стрибок у повітря та вибухове приземлення, яке наносить {1} од. шкоди від магії хаосу всім ворогам в радіусі {2} м, та приголомшує їх на {3} сек. Гравці ошелешені на {4} сек замість цього.\n\nПісля приземлення ви перетворюєтесь у могутнього демона на {5} сек, суттєво підсилюючи свій [Удар хаосу] та [Танок клинків], та отримуєте {6}% Швидкості і {7}% Самозцілення."
+                },
+                "4": {
+                    "Hash": 2831208397,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste."
+                },
+                "5": {
+                    "Hash": 2135781685,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste."
+                },
+                "6": {
+                    "Hash": 2377959736,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Versatility."
+                },
+                "7": {
+                    "Hash": 3094710252,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Versatility."
+                },
+                "8": {
+                    "Hash": 1565109159,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Leech."
+                },
+                "9": {
+                    "Hash": 3145497028,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste, {7}% Versatility, and {8}% Leech."
+                },
+                "10": {
+                    "Hash": 4085746716,
+                    "Id": "162264, 191427, 200166, 247121",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste, {7}% Versatility, and {8}% Leech."
+                },
+                "11": {
+                    "Hash": 3611890082,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%."
+                },
+                "12": {
+                    "Hash": 1926715341,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. Versatility increased by {4}%."
+                },
+                "13": {
+                    "Hash": 3523263789,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment."
+                },
+                "14": {
+                    "Hash": 3068409351,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. Versatility increased by {4}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment."
+                },
+                "15": {
+                    "Hash": 1083336271,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}% and {4} additional Fury."
+                },
+                "16": {
+                    "Hash": 285287047,
+                    "Id": "187827",
+                    "Spec": "Vengeance",
+                    "Text": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. Versatility increased by {4}% and {5} additional Fury."
+                },
+                "17": {
+                    "Hash": 2480649541,
+                    "Id": "320645",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When you activate Metamorphosis, the cooldown of Eye Beam and Blade Dance is immediately reset."
                 }
             }
         },
@@ -1528,6 +1900,12 @@
                     "Id": "206476",
                     "Spec": "Havoc",
                     "Text": "[Ривок скверни], [Полювання] та [Мстивий відступ] збільшують вашу шкоду на {1}% на {2} сек."
+                },
+                "1": {
+                    "Hash": 986084941,
+                    "Id": "206476, 208628",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Fel Rush, The Hunt, and Vengeful Retreat increase your damage done by {1}% for {2} sec, up to a maximum of {3} sec."
                 }
             }
         },
@@ -1561,8 +1939,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2009084836,
-                    "Id": "207387",
-                    "Spec": "Vengeance",
+                    "Id": "207387, 212988",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Поглинання Фрагменту душі зменшує всю вхідну шкоду на {1}% на {2} сек.\n\nМоже накопичуватися багато разів."
                 }
             }
@@ -1586,7 +1964,7 @@
                 "0": {
                     "Hash": 2958282062,
                     "Id": "389783",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує час відновлення [Темрява] на {1} сек."
                 }
             }
@@ -1600,6 +1978,12 @@
                     "Id": "389799",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Всі Печатки тепер розташовуються у точці вашої поточної цілі, а час дії ефектів Печаток збільшено на {1} сек."
+                },
+                "1": {
+                    "Hash": 1133604428,
+                    "Id": "389799",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "All Sigils are now placed at your target's location."
                 }
             }
         },
@@ -1610,7 +1994,7 @@
                 "0": {
                     "Hash": 323911387,
                     "Id": "320654",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Майстерність збільшує вашу швидкість руху."
                 }
             }
@@ -1633,8 +2017,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3644797469,
-                    "Id": "388107",
-                    "Spec": "Havoc",
+                    "Id": "388107, 390197",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Кожного разу, коли [Аура спалення] завдає критичну шкоду, {1}% цієї шкоди зберігається до {2} разів як Вогонь люті.\n\nКоли термін дії [Аура спалення] закінчується, вона вибухає і наносить ворогам навколо всю шкоду, накопичену Вогнем люті."
                 }
             }
@@ -1681,8 +2065,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1731569638,
-                    "Id": "390142",
-                    "Spec": "Havoc",
+                    "Id": "390142, 390212",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Покидаючи демонічну форму, ви отримуєте заряд [Ривок скверни], а шкода від наступного [Танок клинків] збільшена на {1}%."
                 }
             }
@@ -1708,6 +2092,12 @@
                     "Id": "343014",
                     "Spec": "Vengeance",
                     "Text": "Коли [Вогняне клеймо] спадає з вашої первинної цілі, ви отримуєте щит, який поглинає до {1} од. шкоди протягом {2} сек, в залежності від кількості шкоди, яку ви нанесли під час дії [Вогняне клеймо]. "
+                },
+                "1": {
+                    "Hash": 3029305288,
+                    "Id": "343011, 343013",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "The duration of Fiery Brand is increased by {1} sec."
                 }
             }
         },
@@ -1754,7 +2144,7 @@
                 "0": {
                     "Hash": 4262554617,
                     "Id": "320421",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує час відновлення [Метаморфоза] на {1} сек."
                 }
             }
@@ -1774,6 +2164,12 @@
                     "Id": "390154",
                     "Spec": "Havoc",
                     "Text": "Вороги, що були ураженні вашим [Кидання глефи], отримують на {1}% більше шкоди від [Пронизливий погляд] та [Удар хаосу]."
+                },
+                "2": {
+                    "Hash": 3859940169,
+                    "Id": "390154, 390155",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Enemies hit by Chaos Strike or Throw Glaive take {1}% increased damage from Chaos Strike and Throw Glaive for {2} sec."
                 }
             }
         },
@@ -1796,7 +2192,7 @@
                 "0": {
                     "Hash": 391681788,
                     "Id": "389824",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зцілення від of [Розколоті душі] збільшене на {1}%."
                 }
             }
@@ -1807,8 +2203,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2570264798,
-                    "Id": "178940",
-                    "Spec": "Havoc",
+                    "Id": "178940, 178963, 228532, 328951, 328953",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Вбивство ворога інколи створює Фрагмент душі який поглинається, коли ви підходите до нього, зцілюючи вас на {1}% від макс. запасу здоров'я та який генерує {2} люті.\n\nЯкщо Фрагмент душі було витягнуто з демона, ви наносите на {3}% збільшену шкоду протягом {4} сек."
                 },
                 "1": {
@@ -1834,6 +2230,18 @@
                     "Id": "203783",
                     "Spec": "Havoc",
                     "Text": "[Косіння] розколює душу цілі, залишаючи малий Фрагмент душі на {1} сек.\n\nПоглинання малого Фрагменту душі зцілює вас на {2}% від розміру шкоди, яку ви отримали за останні {3} сек, мінімум на {4}% від макс. запасу здоров'я."
+                },
+                "2": {
+                    "Hash": 270251456,
+                    "Id": "203782",
+                    "Spec": "Vengeance",
+                    "Text": "Shears an enemy for {1} Physical damage, and shatters a Lesser Soul Fragment from your target.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                },
+                "3": {
+                    "Hash": 3000774488,
+                    "Id": "203782",
+                    "Spec": "Vengeance",
+                    "Text": "Shears an enemy for {1} Physical damage, and shatters two Lesser Soul Fragments from your target.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
                 }
             }
         },
@@ -1867,9 +2275,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2229203356,
-                    "Id": "202138",
-                    "Spec": "Vengeance",
+                    "Id": "202138, 389807",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розміщує Печатку ланцюгів в цільовій точці, яка активується через {1} сек.\n\nВсі вороги в області дії Печатки стягуються до її центру та сповільнюються на {2}% на {3} сек."
+                },
+                "1": {
+                    "Hash": 296113077,
+                    "Id": "204843",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Slows enemies by {1}% for {2} sec."
+                },
+                "2": {
+                    "Hash": 2587451480,
+                    "Id": "207665",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Chains at your location that activates after {1} sec.\r\n\r\nAll enemies affected by the sigil are pulled to its center and are snared, reducing movement speed by {2}% for {3} sec."
                 }
             }
         },
@@ -1879,9 +2299,33 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1002067042,
-                    "Id": "204596",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "204596, 204598, 389787",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розміщує [Печатка вогню] у цільовій точці, яка активується через {1} сек.\n\nНаносить {2} од. шкоди від вогню та додатково {3} од. шкоди від вогню протягом {4} сек всім ворогам, на яких подіяла ця Печатка.\n\n{FFffffff|Генерує {5} од. люті.}"
+                },
+                "1": {
+                    "Hash": 2805430564,
+                    "Id": "204513",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Flame at your location that activates after {1} sec.\r\n\r\nDeals {2} Fire damage, and an additional {3} Fire damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}"
+                },
+                "2": {
+                    "Hash": 633253328,
+                    "Id": "204596, 204598, 389787",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Chaos damage, and an additional {3} Chaos damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}"
+                },
+                "3": {
+                    "Hash": 1121426923,
+                    "Id": "389810",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Fire damage, and an additional {3} Fire damage over {4} sec, to all enemies affected by the sigil.\r\n\r\nGenerates {5} Fury."
+                },
+                "4": {
+                    "Hash": 717451223,
+                    "Id": "425672",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Sigil of Flame's periodic damage has a chance to flare up, shattering an additional Soul Fragment from a target and dealing {1} additional damage. Each {2} Fury you spend reduces its cooldown by {3} sec."
                 }
             }
         },
@@ -1891,9 +2335,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1122570590,
-                    "Id": "207684",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "207684, 389813",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розміщує Печатку нещастя у цільовій точці, яка активується через {1} сек.\n\nЗмушує всіх ворогів у області дії піддатися страху і вони дезорієнтуються на {2} сек."
+                },
+                "1": {
+                    "Hash": 1709679386,
+                    "Id": "202140",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Misery at your location that activates after {1} sec.\r\n\r\nCauses all enemies affected by the sigil to cower in fear. Targets are disoriented for {2} sec."
+                },
+                "2": {
+                    "Hash": 1894730605,
+                    "Id": "207685",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Disorient affected enemies for {1} sec."
                 }
             }
         },
@@ -1903,9 +2359,21 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3207370076,
-                    "Id": "202137",
-                    "Spec": "Vengeance",
+                    "Id": "202137, 389809",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Розміщує Печатку тиші у цільовій точці, яка активується через {1} сек.\n\nНакладає мовчання на всіх ворогів в області дії Печатки на {2} сек."
+                },
+                "1": {
+                    "Hash": 1772914881,
+                    "Id": "204490",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Silence affected enemies for {1} sec."
+                },
+                "2": {
+                    "Hash": 1027616153,
+                    "Id": "207682",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Place a Sigil of Silence at your location that activates after {1} sec.\r\n\r\nSilences all enemies affected by the sigil for {2} sec."
                 }
             }
         },
@@ -1918,6 +2386,12 @@
                     "Id": "263648",
                     "Spec": "Vengeance",
                     "Text": "Накладає щит на {1} сек, який поглинає {2} од. шкоди.\n\nПоглинає всі Фрагменти душі в радіусі {3} м, щоб додати {4} од. поглинання до щита за кожен Фрагмент."
+                },
+                "1": {
+                    "Hash": 3394860443,
+                    "Id": "263648",
+                    "Spec": "Vengeance",
+                    "Text": "Shield yourself for {1} sec, absorbing {2} damage.\r\n\r\nConsumes all available Soul Fragments to add {3} to the shield per fragment."
                 }
             }
         },
@@ -1927,8 +2401,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 840062827,
-                    "Id": "207407",
-                    "Spec": "Vengeance",
+                    "Id": "207407, 214743",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Проникає у душу цілі, наносячи {1} од. шкоди від вогню та додатково {2} од. шкоди від вогню протягом {3} сек.  Миттєво відколює {4} малих Фрагментів душі від цілі та {5} малий Фрагмент душі додатково кожні {6} сек."
                 }
             }
@@ -1939,14 +2413,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1487094335,
-                    "Id": "228477",
-                    "Spec": "Vengeance",
+                    "Id": "228477, 228478",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Злісно атакує до {1} ворогів перед вами, завдаючи {2} од. фізичної шкоди та зцілюючи вас на {3}.\n\nПоглинає до {4} доступних Фрагментів душі та зцілює вас додатково на {5} за кожен Фрагмент душі."
                 },
                 "1": {
                     "Hash": 1487213383,
-                    "Id": "228477",
-                    "Spec": "Havoc",
+                    "Id": "228477, 228478",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Жорстоко б'є до {1} ворогів перед вами, завдаючи їм {2} фізичної шкоди та зцілюючи вас на {3}.\n\nВитрачає до {4} доступних Фрагментів душі."
                 }
             }
@@ -1957,8 +2431,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3539584572,
-                    "Id": "391165",
-                    "Spec": "Vengeance",
+                    "Id": "391165, 391166, 391172",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Кожні {1} Фрагментів душі, які ви поглинаєте, збільшують шкоду від вашого наступного [Розсічення душі] або [Бомба духів] на {2}%."
                 }
             }
@@ -1969,8 +2443,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3478861731,
-                    "Id": "204909",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "217996",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Самозцілення збільшене на {1}%.\n\nВи отримуєте додатково {2}% Самозцілення коли активна [Метаморфоза]."
                 }
             }
@@ -1984,6 +2458,12 @@
                     "Id": "395446",
                     "Spec": "Vengeance, Havoc",
                     "Text": "Щоразу, коли ваші Печатки діють на ворога, вони генерують {1} малий Фрагмент душі. "
+                },
+                "1": {
+                    "Hash": 1369175350,
+                    "Id": "395446",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Afflicting an enemy with a Sigil generates {1} Lesser Soul [plural|Fragment|Fragments]. "
                 }
             }
         },
@@ -2029,14 +2509,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3628608101,
-                    "Id": "188501",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "320379",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує час відновлення [Спектральний зір] на {1} сек."
                 },
                 "1": {
                     "Hash": 2156281837,
                     "Id": "188501",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Дозволяє вам бачити ворогів та скарби скрізь фізичні бар'єри, а також ворогів у стані непомітності та невидимості. Діє {1} сек.\n\nАтака або отримання шкоди перериває ефект."
                 }
             }
@@ -2047,8 +2527,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3669603338,
-                    "Id": "247454",
-                    "Spec": "Vengeance",
+                    "Id": "227255, 247454, 247455, 247456",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Витрачає до {1} доступних Фрагментів душі та потім вибухає, завдаючи {2} од. шкоди від вогню ворогам навколо за кожен витрачений Фрагмент, та накладає на них [Крихкість] на {3} сек, зцілюючи вас на {4}% від шкоди яку ви їм нанесли. Наносить менше шкоди цілям після {5}."
                 }
             }
@@ -2072,7 +2552,7 @@
                 "0": {
                     "Hash": 2219345955,
                     "Id": "320313",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Поглинання магії] генерує {1} од. люті, коли воно успішно знімає магічний ефект з цілі."
                 }
             }
@@ -2083,8 +2563,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 676142968,
-                    "Id": "389688",
-                    "Spec": "Havoc",
+                    "Id": "389688, 389890",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Мстивий відступ] має зменшений на {1} сек час відновлення та генерує {2} од. люті протягом {3} сек."
                 }
             }
@@ -2095,9 +2575,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2528175764,
-                    "Id": "370965",
-                    "Spec": "Vengeance, Havoc",
+                    "Id": "323802, 323996, 333762, 345335, 370965, 370966, 370969, 370970",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви робите ривок у ціль, наносячи {1} од. шкоди від сил природи, знерухомлюючи її на {2} сек та наносячи {3} од. шкоди від сил природи протягом {4} сек ворогам на вашому шляху. Діє максимум на {5} цілей. \n\nПогоня оживляє вашу душу, зцілюючи вас на {6}% шкоди, яку ви наносите цілі під дією [Полювання] протягом {7} сек."
+                },
+                "1": {
+                    "Hash": 393959590,
+                    "Id": "323802, 323996, 333762, 345335, 370965, 370966, 370969, 370970",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Charge to your target, striking them for {1} Chaos damage, rooting them in place for {2} sec and inflicting {3} Chaos damage over {4} sec to up to {5} enemies in your path. \r\n\r\nThe pursuit invigorates your soul, healing you for {6}% of the damage you deal to your Hunt target for {7} sec."
                 }
             }
         },
@@ -2119,15 +2605,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 397308150,
-                    "Id": "204157",
-                    "Spec": "Vengeance",
+                    "Id": "204157, 346665",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Кидає демонічну глефу у ціль, завдаючи {1} од. фізичної шкоди. Глефа може відскочити у додаткову ціль на відстані до {2} м від першої. Створює високий рівень загрози."
                 },
                 "1": {
                     "Hash": 1303731041,
-                    "Id": "185123",
-                    "Spec": "Havoc",
+                    "Id": "337819",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Кидає демонічну глефу у ціль, завдаючи {1} од. фізичної шкоди. Глефа може відскочити у {2} додаткові цілі на відстані до {3} м від першої."
+                },
+                "2": {
+                    "Hash": 1928797795,
+                    "Id": "337819",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw a demonic glaive at the target, dealing {1} Physical damage. The glaive can ricochet to an additional enemy within {2} yards.\r\n\r\n"
+                },
+                "3": {
+                    "Hash": 2469633465,
+                    "Id": "204157, 346665",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw a demonic glaive at the target, dealing {1} Physical damage. The glaive can ricochet to {2} additional enemies within {3} yards. Generates high threat."
                 }
             }
         },
@@ -2138,7 +2636,7 @@
                 "0": {
                     "Hash": 4177245906,
                     "Id": "185245",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Провокує ціль атакувати вас."
                 }
             }
@@ -2161,8 +2659,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3157238795,
-                    "Id": "258881",
-                    "Spec": "Havoc",
+                    "Id": "258881, 258883",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Фінальний удар [Танок клинків] наносить додатково {1} од. шкоди від магії хаосу протягом {2} сек."
                 }
             }
@@ -2173,9 +2671,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3997046327,
-                    "Id": "347461",
-                    "Spec": "Havoc",
+                    "Id": "347461, 347462",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "При активації [Аура спалення] збільшує шкоду від вашого наступного [Ривок скверни] на {1}%. Діє {2} сек."
+                },
+                "1": {
+                    "Hash": 394228480,
+                    "Id": "275144, 275147, 275148",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Activating Immolation Aura will cause your inner demon to slam into nearby enemies at the end of your next Fel Rush, dealing {1} Chaos damage."
                 }
             }
         },
@@ -2198,7 +2702,7 @@
                 "0": {
                     "Hash": 2551508521,
                     "Id": "206477",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Зменшує вартість використання [Зірка хаосу] на {1}% та її час відновлення на {2}%."
                 }
             }
@@ -2222,7 +2726,7 @@
                 "0": {
                     "Hash": 4285088989,
                     "Id": "320770",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує максимальний запас люті на {1}."
                 }
             }
@@ -2234,7 +2738,7 @@
                 "0": {
                     "Hash": 2551344181,
                     "Id": "320635",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Мстивий відступ] зменшує швидкість руху всіх ворогів навколо на {1}% протягом {2} сек."
                 }
             }
@@ -2245,15 +2749,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3032651824,
-                    "Id": "198793",
-                    "Spec": "Vengeance",
+                    "Id": "198793, 198813",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Прибирає з вас всі ефекти сповільнення і ви робите стрибок геть. Найближчі вороги отримують {1} фізичної шкоди."
                 },
                 "1": {
                     "Hash": 3582178825,
-                    "Id": "198793",
-                    "Spec": "Havoc",
+                    "Id": "198793, 198813",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Ви знімаєте з себе всі ефекти сповільнення та стрибаєте геть. Найближчі вороги отримують {1} од. фізичної шкоди та сповільнюються на {2}% на {3} сек."
+                },
+                "2": {
+                    "Hash": 2605271775,
+                    "Id": "198793, 198813",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Remove all snares and vault away. Nearby enemies take {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} Fury over {3} sec if you damage an enemy.}"
+                },
+                "3": {
+                    "Hash": 845554212,
+                    "Id": "198793, 198813",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Remove all snares and vault away. Nearby enemies take {1} Physical damage and have their movement speed reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Fury over {5} sec if you damage an enemy.}"
                 }
             }
         },
@@ -2275,8 +2791,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3602618943,
-                    "Id": "390808",
-                    "Spec": "Vengeance",
+                    "Id": "390808, 392997",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "[Аура спалення] генерує {1}-{2} од. люті коли вона завдає критичну шкоду.\n\nЦей ефект може спрацьовувати раз на {3} сек."
                 }
             }
@@ -2300,7 +2816,7 @@
                 "0": {
                     "Hash": 1060158317,
                     "Id": "389695",
-                    "Spec": "Vengeance, Havoc",
+                    "Spec": "Havoc, Vengeance",
                     "Text": "Збільшує максимальний запас здоров'я на {1}%."
                 }
             }
@@ -2314,6 +2830,509 @@
                     "Id": "391275",
                     "Spec": "Havoc",
                     "Text": "[Кидання глефи] завдає на {1}% більше шкоди. Цей ефект зменшується на {2}% за кожне попереднє попадання по ворогу."
+                }
+            }
+        },
+        "176": {
+            "Hash": 83018829,
+            "Name": "Dual Wield",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1174969014,
+                    "Id": "674",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Allows one-hand and off-hand weapons to be equipped in the off-hand."
+                }
+            }
+        },
+        "177": {
+            "Hash": 1384158020,
+            "Name": "Mortal Wounds",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1414581868,
+                    "Id": "115804, 356608",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Grievously wounds the target, reducing the effectiveness of any healing received for {1} sec."
+                }
+            }
+        },
+        "178": {
+            "Hash": 2480041842,
+            "Name": "Demon Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3565257260,
+                    "Id": "163073, 208195, 347765",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Consuming a Soul Fragment that came from a Demon causes you to deal {1}% increased damage for {2} sec."
+                }
+            }
+        },
+        "179": {
+            "Hash": 3656477809,
+            "Name": "Consume Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4127133409,
+                    "Id": "203794, 204255",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Shear shatters the target's soul, leaving a Lesser Soul Fragment behind for {1} sec.\r\n\r\nConsuming a Lesser Soul Fragment heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health."
+                }
+            }
+        },
+        "180": {
+            "Hash": 2400739737,
+            "Name": "Annihilation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1568054462,
+                    "Id": "201427, 201428, 227518",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Slice your target for {1} Chaos damage. Annihilation has a {2}% chance to refund {3} Fury."
+                }
+            }
+        },
+        "181": {
+            "Hash": 809381561,
+            "Name": "Fury of the Illidari",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2122478041,
+                    "Id": "201467, 201628, 201789",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throws two demonic glaives in a whirlwind of energy, causing {1} Chaos damage over {2} sec to all nearby enemies."
+                }
+            }
+        },
+        "182": {
+            "Hash": 3662424938,
+            "Name": "Rage of the Illidari",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1825912365,
+                    "Id": "201472, 217070",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When Fury of the Illidari ends, {1}% of the damage it dealt erupts in an explosion of fel energy, dividing that Chaos damage among all nearby enemies."
+                }
+            }
+        },
+        "183": {
+            "Hash": 2880259609,
+            "Name": "Anguish of the Deceiver",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1518875469,
+                    "Id": "201473, 202443, 202446",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Each time Eye Beam deals damage to a target, it also applies Anguish. When Anguish expires, it deals {1} Chaos damage to the victim per application."
+                }
+            }
+        },
+        "184": {
+            "Hash": 234668890,
+            "Name": "Anguish",
+            "Descriptions": {}
+        },
+        "185": {
+            "Hash": 2024619208,
+            "Name": "Prepared",
+            "Descriptions": {
+                "0": {
+                    "Hash": 188858901,
+                    "Id": "203551, 203650",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Reduces the cooldown of Vengeful Retreat by {1} sec, and generates {2} Fury over {3} sec if you damage at least one enemy with Vengeful Retreat."
+                }
+            }
+        },
+        "186": {
+            "Hash": 106082565,
+            "Name": "Parry",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1505216917,
+                    "Id": "203724",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Gives a chance to parry enemy melee attacks."
+                }
+            }
+        },
+        "187": {
+            "Hash": 2096323590,
+            "Name": "Soul Fragment",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1401902909,
+                    "Id": "203795, 210042",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Consume a Soul Fragment, healing you for {1} health."
+                }
+            }
+        },
+        "189": {
+            "Hash": 919771888,
+            "Name": "Soul Fragments",
+            "Descriptions": {
+                "0": {
+                    "Hash": 630472201,
+                    "Id": "203981",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Consuming a nearby Soul Fragment heals you."
+                }
+            }
+        },
+        "190": {
+            "Hash": 3244829509,
+            "Name": "Riposte",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1545937471,
+                    "Id": "207197",
+                    "Spec": "Vengeance",
+                    "Text": "You gain Parry equal to {1}% of your Critical Strike from gear."
+                }
+            }
+        },
+        "191": {
+            "Hash": 2170048590,
+            "Name": "Abyssal Strike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3061097081,
+                    "Id": "207550",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Infernal Strike creates a Sigil of Flame when you land."
+                }
+            }
+        },
+        "192": {
+            "Hash": 394716746,
+            "Name": "Nemesis",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4070670746,
+                    "Id": "208605",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Increases damage against Humanoids by {1}%."
+                }
+            }
+        },
+        "193": {
+            "Hash": 3243748422,
+            "Name": "Uncontained Fel",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1856263960,
+                    "Id": "209261",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "You cannot benefit from Last Resort again for {1} min."
+                }
+            }
+        },
+        "194": {
+            "Hash": 2309472115,
+            "Name": "Death Sweep",
+            "Descriptions": {
+                "0": {
+                    "Hash": 382528891,
+                    "Id": "210152, 210153, 210155, 393054, 393055",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Strike {1} nearby enemies for {2} Physical damage. Deals reduced damage beyond {3} targets."
+                },
+                "1": {
+                    "Hash": 2565840209,
+                    "Id": "210152, 210153, 210155, 393054, 393055",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Strike your primary target for {1} Chaos damage and {2} nearby enemies for {3} Physical damage. Deals reduced damage beyond {4} targets."
+                }
+            }
+        },
+        "195": {
+            "Hash": 3618072165,
+            "Name": "Chaos Blades",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3113428105,
+                    "Id": "211796",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Attack with pure Fel power, dealing Chaos damage equal to {1}% weapon damage."
+                },
+                "1": {
+                    "Hash": 1482372661,
+                    "Id": "211797",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Attack with pure Fel power, dealing Chaos damage equal to {1}% off-hand weapon damage."
+                },
+                "2": {
+                    "Hash": 2031045944,
+                    "Id": "247938",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Increases all damage done by {1}% for {2} sec.\r\n\r\nWhile active, your auto attack deals {3}% increased damage, and causes Chaos damage."
+                }
+            }
+        },
+        "196": {
+            "Hash": 1268120370,
+            "Name": "Critical Strikes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 47873328,
+                    "Id": "221351",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Increases your chance to critically strike by {1}%."
+                }
+            }
+        },
+        "197": {
+            "Hash": 151541221,
+            "Name": "Chaotic Blades",
+            "Descriptions": {
+                "0": {
+                    "Hash": 271401350,
+                    "Id": "337567",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Increases the damage of Chaos Strike by {1}% for {2} sec.\r\n\r\nWhile active, your Chaos Strikes have a {3}% chance to refund {4} Fury.\r\n"
+                }
+            }
+        },
+        "198": {
+            "Hash": 3084640114,
+            "Name": "Fel Bombardment",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2209457616,
+                    "Id": "337775, 337849",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Immolation Aura damage has a chance to grant you a stack of Fel Bombardment, increasing the damage that your next Throw Glaive deals to your primary target by {1}% and launching an additional glaive at a nearby target. This effect stacks up to {2} times."
+                }
+            }
+        },
+        "199": {
+            "Hash": 1992767448,
+            "Name": "Blazing Slaughter",
+            "Descriptions": {
+                "0": {
+                    "Hash": 568151060,
+                    "Id": "355892",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "The Hunt engulfs you with Immolation Aura upon reaching your target and you gain {1}% Agility for {2} sec for each enemy hit."
+                }
+            }
+        },
+        "200": {
+            "Hash": 2626676463,
+            "Name": "Blind Faith",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3234714581,
+                    "Id": "355894, 356070",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Elysian Decree shatters {1} additional Lesser Soul Fragments and grants you Blind Faith for {2} sec. For each Lesser Soul Fragment you consume while Blind Faith is active you gain {3} Fury and {4}% Versatility, up to {5}%."
+                }
+            }
+        },
+        "201": {
+            "Hash": 2023373183,
+            "Name": "Soulscar",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1292463668,
+                    "Id": "388106, 390181",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw Glaive causes targets to take an additional {1}% of damage dealt as Chaos over {2} sec."
+                }
+            }
+        },
+        "202": {
+            "Hash": 3386545530,
+            "Name": "Seething Chaos",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3607517025,
+                    "Id": "394934",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Chaos Strike and Blade Dance have a {1}% chance to increase damage you deal by {2}% for {3} sec. Chaos Strike and Blade Dance critical strikes increase this chance to {4}%."
+                }
+            }
+        },
+        "203": {
+            "Hash": 3036616291,
+            "Name": "Decrepit Souls",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1239724219,
+                    "Id": "394958",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Spirit Bomb and Soul Cleave have a {1}% chance to deal {2}% more damage and cause targets they hit to deal {3}% less damage to you for {4} sec."
+                }
+            }
+        },
+        "204": {
+            "Hash": 2397672297,
+            "Name": "Seething Fury",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1210117104,
+                    "Id": "408737",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Every {1} Fury you spend, gain Seething Fury, increasing your Agility by {2}% for {3} sec."
+                }
+            }
+        },
+        "205": {
+            "Hash": 645371096,
+            "Name": "Seething Potential",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2549239766,
+                    "Id": "408754, 408757",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Each time you gain Seething Fury, gain {1} Fury and the damage of your next Eye Beam is increased by {2}%, stacking {3} times."
+                }
+            }
+        },
+        "207": {
+            "Hash": 3575701118,
+            "Name": "Fires of Fel",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1488062719,
+                    "Id": "409645",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Soul Fragments heal for {1}% more and generating a Soul Fragment increases your Fire damage by {2}% for {3} sec. Multiple applications may overlap."
+                }
+            }
+        },
+        "208": {
+            "Hash": 1006327193,
+            "Name": "Recrimination",
+            "Descriptions": {
+                "0": {
+                    "Hash": 153299727,
+                    "Id": "409877",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Shear and Fracture deal Fire damage, and after consuming {1} Soul Fragments, your next cast of Shear or Fracture will apply Fiery Brand for {2} sec to its target."
+                }
+            }
+        },
+        "209": {
+            "Hash": 2947028976,
+            "Name": "Fiery Resolve",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2265235010,
+                    "Id": "425653",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When you attack a target afflicted by Sigil of Flame, your damage and healing are increased by {1}% and your Stamina is increased by {2}% for {3} sec, stacking up to {4}."
+                }
+            }
+        },
+        "210": {
+            "Hash": 3942786909,
+            "Name": "Inertia",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3850674096,
+                    "Id": "427640, 427641",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When empowered by Unbound Chaos, Fel Rush increases your damage done by {1}% for {2} sec."
+                }
+            }
+        },
+        "211": {
+            "Hash": 4253684158,
+            "Name": "A Fire Inside",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4118239781,
+                    "Id": "427775",
+                    "Spec": "Havoc",
+                    "Text": "Immolation Aura has {1} additional [plural|charge|charges] and {2}% chance to refund a charge when used.\r\n\r\nYou can have multiple Immolation Auras active at a time."
+                }
+            }
+        },
+        "212": {
+            "Hash": 172137736,
+            "Name": "Deflecting Dance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1033969614,
+                    "Id": "427776",
+                    "Spec": "Havoc",
+                    "Text": "You deflect incoming attacks while Blade Dancing, absorbing damage up to {1}% of your maximum health."
+                }
+            }
+        },
+        "213": {
+            "Hash": 3210970038,
+            "Name": "Dash of Chaos",
+            "Descriptions": {
+                "0": {
+                    "Hash": 316579793,
+                    "Id": "427793",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "For {1} sec after using Fel Rush, activating it again will dash back towards your initial location."
+                }
+            }
+        },
+        "214": {
+            "Hash": 2119694048,
+            "Name": "Chaotic Disposition",
+            "Descriptions": {
+                "0": {
+                    "Hash": 683732724,
+                    "Id": "428492, 428493",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Each time you deal Chaos damage, there is a {1}% chance to duplicate {2}% of the damage, up to {3} total [plural|Time|times]. "
+                }
+            }
+        },
+        "215": {
+            "Hash": 4032300916,
+            "Name": "Illuminated Sigils",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3300697901,
+                    "Id": "428557",
+                    "Spec": "Vengeance",
+                    "Text": "Sigil skills have {1} additional [plural|charge|charges].\r\n\r\nYou have {2}% increased chance to parry attacks from enemies afflicted by your Sigil of Flame."
+                }
+            }
+        },
+        "216": {
+            "Hash": 3383061040,
+            "Name": "Ascending Flame",
+            "Descriptions": {
+                "0": {
+                    "Hash": 121659717,
+                    "Id": "428603",
+                    "Spec": "Vengeance",
+                    "Text": "Sigil of Flame's initial damage is increased by {1}%.\r\n\r\nMultiple applications of Sigil of Flame may overlap."
+                }
+            }
+        },
+        "217": {
+            "Hash": 436094945,
+            "Name": "Live by the Glaive",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3604968759,
+                    "Id": "428607, 428608",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "When you parry an attack or have one of your attacks parried, restore {1}% of max health and {2} Fury. \r\n\r\nThis effect may only occur once every {3} sec."
+                }
+            }
+        },
+        "218": {
+            "Hash": 3628347693,
+            "Name": "Champion of the Glaive",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4115837146,
+                    "Id": "429211",
+                    "Spec": "Havoc, Vengeance",
+                    "Text": "Throw Glaive has {1} charges and {2} yard increased range."
                 }
             }
         }

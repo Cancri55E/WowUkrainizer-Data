@@ -7,8 +7,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 739202321,
-                    "Id": "378443",
-                    "Spec": "Restoration",
+                    "Id": "378597",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Завдає {1} од. шкоди від сил природи кожні {2} сек максимум {3} ворогам в зоні дії вашого [Цілющий дощ]."
                 }
             }
@@ -31,8 +31,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 93062317,
-                    "Id": "198434",
-                    "Spec": "Enhancement",
+                    "Id": "198455, 198486",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Доки [Дух дикого вовка] активні, [Ланцюгова блискавка] та [Руйнівна блискавка] підсилює ваших вовків {2} сек., в результаті чого їх атаки чинять шкоду всім найближчим ворогам {1} раз в {3} сек."
                 }
             }
@@ -73,8 +73,8 @@
                 },
                 "1": {
                     "Hash": 2201932333,
-                    "Id": "108281",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "108281, 114911",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Протягом наступних {1} сек, {2}% зцілення та {3}% завданої шкоди відновлює здоров'я {4} найближчим пораненим учасникам групи або рейду, максимум до {5} од. здоров'я кожній цілі щосекунди."
                 }
             }
@@ -85,8 +85,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 888949136,
-                    "Id": "207399",
-                    "Spec": "Restoration",
+                    "Id": "207399, 207495, 207498",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає тотем у вказаному місці на {1} сек. Здоровʼя всіх союзників в радіусі {2} м збільшується на {3}%. Якщо хтось з союзників помирає, тотем зникає, даючи можливість небіжчику відродитися із {4}% здоровʼя та мани.\n\nНе відроджує тих, хто помер від миттєвої великої шкоди."
                 }
             }
@@ -121,8 +121,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 77053532,
-                    "Id": "207401",
-                    "Spec": "Restoration",
+                    "Id": "207400",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ваші [Хвиля зцілення], [Сплеск зцілення], [Ланцюгове зцілення] або [Бистрина] відновлюють здоров'я цілі, її максимальний запас здоров'я збільшується на {1}% протягом {2} сек."
                 }
             }
@@ -169,9 +169,21 @@
                 },
                 "2": {
                     "Hash": 1649278504,
-                    "Id": "114051",
-                    "Spec": "Enhancement",
+                    "Id": "114051, 344548",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ви перетворюєтеся на [Перероджений служитель вітру] на {1} сек, миттєво завдаючи {2} од. шкоди від сил природи усім ворогам в радіусі {3} м, зменшуючи час відновлення [Штормовий удар] на {4}%, а ваші автоатаки та [Штормовий удар] перетворюються на \nвітрові атаки, які оминають броню та мають {5} м дальність дії."
+                },
+                "3": {
+                    "Hash": 2437272221,
+                    "Id": "114052, 114083, 294020",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Transform into a Water Ascendant, duplicating all healing you deal at {1}% effectiveness for {2} sec and immediately healing for {3}. Ascendant healing is distributed evenly among allies within {4} yds."
+                },
+                "4": {
+                    "Hash": 56052065,
+                    "Id": "114051, 344548",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range.\r\n\r\nWhile Ascendance is active, generate {6} Maelstrom Weapon [plural|stack|stacks] every {7} sec."
                 }
             }
         },
@@ -181,8 +193,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1735378673,
-                    "Id": "390370",
-                    "Spec": "Enhancement",
+                    "Id": "390371",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Щоразу, коли [Вогняний шок] завдає періодичну шкоду, шкода від вашого наступного [Скипання лави] збільшується на {1}%, а час відновлення [Скипання лави] зменшується на {2} сек."
                 }
             }
@@ -218,7 +230,7 @@
                 "0": {
                     "Hash": 1336472861,
                     "Id": "108271",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ви частково зливаєтеся зі стихіями, зменшуючи отримувану шкоду на {1}% протягом {2} сек."
                 }
             }
@@ -235,8 +247,8 @@
                 },
                 "1": {
                     "Hash": 69761613,
-                    "Id": "381689",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "381684",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Максимальний рівень здоров'я збільшується на {1}%. Коли у вас максимальний рівень здоров'я, [Реінкарнація] відновлюється на {2}% швидше."
                 }
             }
@@ -284,7 +296,7 @@
                 "0": {
                     "Hash": 983441105,
                     "Id": "192058",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає тотем у вказане місце, який збирає електричну енергію з навколишнього повітря і вибухає через {1} сек, приголомшуючи всіх ворогів в радіусі {2} м на {3} сек."
                 }
             }
@@ -296,7 +308,7 @@
                 "0": {
                     "Hash": 2166490003,
                     "Id": "1064",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Лікує дружню ціль на {1} од. здоров'я, а потім переходить максимум на {2} м та зцілює {3} найбільш поранених союзників, що знаходяться поруч. Зцілення зменшується на {4}% з кожним переходом."
                 }
             }
@@ -314,14 +326,26 @@
                 "1": {
                     "Hash": 3462276661,
                     "Id": "188443",
-                    "Spec": "Elemental",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кидає блискавку у ворога, завдаючи {1} од. шкоди від сил природи, а потім переходить на ворогів поруч. Вражає загалом {2} {declension|ціль|цілі|цілей}.\n\n{FFFFFFFF|Генерує {3} од. виру стихій за кожну уражену ціль.}"
                 },
                 "2": {
                     "Hash": 2094994230,
                     "Id": "188443",
-                    "Spec": "Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кидає блискавку у ворога, завдаючи {1} од. шкоди від сил природи, а потім переходить на ворогів поруч. Вражає загалом {2} {declension|ціль|цілі|цілей}.\n\nЯкщо [Ланцюгова блискавка] вражає більше {3} цілей, шкода від вашої наступної [Руйнівна блискавка] збільшується на {4}% за кожну уражену ціль.\n\nКожна ціль, в яку влучає [Ланцюгова блискавка], зменшує час відновлення [Руйнівна блискавка] на {5} сек."
+                },
+                "3": {
+                    "Hash": 2767756378,
+                    "Id": "188443",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\r\n\r\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom per target hit.}"
+                },
+                "4": {
+                    "Hash": 112755790,
+                    "Id": "191732",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Inflicts Nature damage to up to {1} enemies."
                 }
             }
         },
@@ -355,8 +379,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 714478310,
-                    "Id": "157153",
-                    "Spec": "Restoration",
+                    "Id": "157153, 157503",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає біля вас тотем на {1} сек, який збирає всю силу ваших зцілюючих заклять. Коли тотем зникає, вся збережена сила вивільняється, зціюючи всіх поранених союзників в радіусі {2} м на {3}% від всього здійсненого під час активності тотема зцілення, рівномірно розподіляючись між цілями.\n\nВикористання цього закляття вдруге перевикличе тотем і вивільнить залишкове зцілення."
                 }
             }
@@ -382,6 +406,12 @@
                     "Id": "204393",
                     "Spec": "Elemental",
                     "Text": "[Вогняний шок] завдає шкоду на {1}% частіше.\n\nЯкщо ворог розвіює [Вогняний шок], під ним з'являється вулканічне виверження, яке завдає {2} од. шкоди від вогню і підкидає його у повітря."
+                },
+                "1": {
+                    "Hash": 1291561681,
+                    "Id": "204395, 236746",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "If Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {1} Volcanic damage and knocking them into the air."
                 }
             }
         },
@@ -391,8 +421,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2160200423,
-                    "Id": "384363",
-                    "Spec": "Enhancement",
+                    "Id": "198300",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожна ціль уражена [Руйнівна блискавка], збільшує шкоду від вашого наступного [Удар бурі] на {1}%. Накопичується до {2} разів."
                 }
             }
@@ -415,9 +445,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3008002324,
-                    "Id": "187874",
-                    "Spec": "Enhancement",
+                    "Id": "187874, 187878, 195592, 333964",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вражає усіх ворогів перед собою, завдаючи {1} од. шкоди від сил природи. Якщо ви вражаєте {2} або більше цілей, ваша зброя стає потужнішою на {3} сек, а [Удар бурі], [Крижаний удар] та [Скипання лави] також завдають {4} од. шкоди від сил природи усім ворогам перед вами. Здійснює зменшену шкоду більше як {5} цілям.\n\nКожна ціль, уражена [Руйнівна блискавка], збільшує шкоду від вашого наступного [Удар бурі] на {6}%. Накопичується до {7} разів."
+                },
+                "1": {
+                    "Hash": 2224694674,
+                    "Id": "187874, 187878, 195592, 333964",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Electrocutes all enemies in front of you, dealing {1} Nature damage. Hitting {2} or more targets enhances your weapons for {3} sec, causing Stormstrike, Ice Strike, and Lava Lash to also deal {4} Nature damage to all targets in front of you. Damage reduced beyond {5} targets."
                 }
             }
         },
@@ -529,8 +565,8 @@
                 },
                 "1": {
                     "Hash": 2282986855,
-                    "Id": "198103",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "188616, 198103, 381755",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає на захист вас та ваших союзників [Великий елементаль землі] на {1} хв.\n\nПоки цей елементаль активний, ваш максимальний запас здоров'я збільшується на {2}%."
                 }
             }
@@ -541,14 +577,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1054347865,
-                    "Id": "974",
-                    "Spec": "Elemental, Enhancement",
+                    "Id": "379, 974",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Захищає ціль земляним щитом, збільшуючи ефективність ваших зцілювальних заклинання на ній на {1}%, та відновлює їй {2} од. здоров'я при отриманні шкоди. Цей ефект спрацьовує лише раз на кілька секунд. Максимальна кількість зарядів - {3}.\n\n[Щит землі] може бути накладений лише на одну ціль одночасно. Шаман може мати лише один активний елементальний щит одночасно."
                 },
                 "1": {
                     "Hash": 2192426463,
-                    "Id": "974",
-                    "Spec": "Restoration",
+                    "Id": "379, 974",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Захищає ціль земляним щитом, збільшуючи ефективність ваших зцілювальних заклинання на ній на {1}%, та відновлює їй {2} од. здоров'я при отриманні шкоди. Цей ефект спрацьовує лише раз на кілька секунд. Максимальна кількість зарядів - {3}.\n\n[Щит землі] може бути накладений лише на Шамана та ще одну ціль одночасно. Шаман може мати до двох активних елементальних щитів одночасно."
                 }
             }
@@ -559,9 +595,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3586025803,
-                    "Id": "8042",
-                    "Spec": "Elemental",
+                    "Id": "8042, 381725",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Миттєво вражає ціль з приголомшливою силою, завдаючи {1} од. шкоди від сил природи."
+                },
+                "1": {
+                    "Hash": 1901225269,
+                    "Id": "8042, 381725",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Instantly shocks the target with concussive force, causing {1} Nature damage.\r\n\r\nEarth Shock will consume all stacks of Fulmination to deal extra Nature damage to your target."
                 }
             }
         },
@@ -583,8 +625,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 429450325,
-                    "Id": "198838",
-                    "Spec": "Restoration",
+                    "Id": "198838, 198839",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає тотем у вказаному місці з {1} од. здоровʼя на {2} сек. В радіусі {4} метрів від тотема, {3} шкоди від кожної атаки по союзниках перенаправляється в нього."
                 }
             }
@@ -596,7 +638,7 @@
                 "0": {
                     "Hash": 4104131035,
                     "Id": "51485",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає у вказаному місці тотем на {1} сек. Тотем пульсує кожні {2} сек., знерухомлюючи всіх ворогів в радіусі {3} м на {4} сек. Швидкість пересування ворогів, які вже були знерухомлені, знижується на {5}% при повторному впливі тотема."
                 }
             }
@@ -613,8 +655,8 @@
                 },
                 "1": {
                     "Hash": 2837175686,
-                    "Id": "382021",
-                    "Spec": "Restoration",
+                    "Id": "382021, 382022, 382024",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Насичує вашу зброю стихією Землі на {1} год. Ваші [Бистрина], [Хвиля зцілення], [Сплеск зцілення] та [Ланцюгове зцілення] мають {2}% шанс накласти на ціль ефект [Життя Землі], який відновлює {3} од. здоров'я протягом {4} сек."
                 }
             }
@@ -634,6 +676,12 @@
                     "Id": "61882",
                     "Spec": "Elemental",
                     "Text": "Викликає землетрус в радіусі {1} м від вказаної області, завдаючи {2} од. фізичної шкоди протягом {3} сек та має {4}% шанс збити ворога з ніг. Багаторазові застосування [Землетрус] накладаються один на одного."
+                },
+                "2": {
+                    "Hash": 2762587431,
+                    "Id": "298762, 298765",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Causes the earth within {1} yards of the target location to tremble and break, dealing {2} Physical damage over {3} sec."
                 }
             }
         },
@@ -664,6 +712,18 @@
                     "Id": "333919",
                     "Spec": "Restoration",
                     "Text": "[Бистрина] та [Викид лави] отримують додатковий заряд."
+                },
+                "2": {
+                    "Hash": 3717682281,
+                    "Id": "108283",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lava Burst now has {1} charges. Effects that reset its remaining cooldown will instead grant {2} charge."
+                },
+                "3": {
+                    "Hash": 1232582148,
+                    "Id": "108283",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Riptide, Healing Stream Totem, and Lava Burst now have {1} charges. Effects that reset their remaining cooldown will instead grant {2} charge."
                 }
             }
         },
@@ -685,8 +745,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1172685883,
-                    "Id": "382086",
-                    "Spec": "Elemental",
+                    "Id": "382089",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Крижана лють] дозволяє вашому [Морозний шок] вражати до {1} {declension|додаткового ворога|додаткових ворогів|додаткових ворогів}, а уражені цілі протягом {3} сек отримують від ваших заклинань на {2}% більше шкоди від сил природи."
                 }
             }
@@ -727,9 +787,15 @@
                 },
                 "1": {
                     "Hash": 2014446238,
-                    "Id": "117014",
-                    "Spec": "Elemental",
+                    "Id": "117014, 118522, 120588, 173183, 173184",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Опановує первісну силу стихій та завдає {1} од. шкоди від магії стихій, збільшуючи показник Критичного удару чи Швидкість на {2}% або Майстерність на {3}% протягом {4} сек."
+                },
+                "2": {
+                    "Hash": 3466752918,
+                    "Id": "117014, 118522, 120588, 173183, 173184",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Harnesses the raw power of the elements, dealing {1} Elemental damage and increasing your Critical Strike or Haste by {2}% or Mastery by {3}% for {4} sec.\r\n\r\nIf Lava Burst is known, Elemental Blast replaces Lava Burst and gains {5} additional [plural|charge|charges]."
                 }
             }
         },
@@ -739,8 +805,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 737228432,
-                    "Id": "378271",
-                    "Spec": "Elemental",
+                    "Id": "336730, 347348, 347349, 378275, 378277",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви завдаєте пряму шкоду від вогню, магії холоду та сил природи протягом {1} сек, ваша шкода збільшується на {2}% протягом {3} сек. Спрацьовує лише раз на {4} сек."
                 }
             }
@@ -754,6 +820,12 @@
                     "Id": "60188",
                     "Spec": "Elemental",
                     "Text": "Ваші критичні атаки завдають {1}% шкоди замість звичайних {2}%."
+                },
+                "1": {
+                    "Hash": 3170686458,
+                    "Id": "343190",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Elemental Fury now also causes your healing critical strikes to heal for {1}% instead of the normal {2}%."
                 }
             }
         },
@@ -823,8 +895,8 @@
                 },
                 "1": {
                     "Hash": 3590777876,
-                    "Id": "378079",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "378080",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ваша ціль [Перетворення] сповільнюється на {1}% під час дії, та ще на {2} сек після закінчення дії [Перетворення]."
                 }
             }
@@ -866,7 +938,7 @@
                 "1": {
                     "Hash": 3492530292,
                     "Id": "6196",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Переносить вашу точку огляду у вказане місце на {1} хв."
                 }
             }
@@ -877,8 +949,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 949187386,
-                    "Id": "196884",
-                    "Spec": "Enhancement",
+                    "Id": "196881, 196884, 215802",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ви кидаєтесь на ворога в подобі примарного вовка та кусаєте його, завдаючи {1} од. фізичної шкоди."
                 }
             }
@@ -889,15 +961,27 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1424990811,
-                    "Id": "51533",
-                    "Spec": "Enhancement",
+                    "Id": "51533, 198506, 228562, 333957",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає двох духів вовків стихій, які допомагають вам у битві протягом {1} сек. Вони невразливі до ефектів обмеження руху, а кожен викликаний дух збільшує вашу шкоду від вогню, магії холоду або сил природи на {2}%.\n\nДух вовка миттєво генерує один ефект [Зброя виру], а потім ще один ефект кожні {3} сек протягом {4} сек."
                 },
                 "1": {
                     "Hash": 404355601,
-                    "Id": "51533",
-                    "Spec": "Restoration, Elemental",
+                    "Id": "51533, 198506, 228562, 333957",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає двох духів вовків стихій, які допомагають вам у битві протягом {1} сек. Вони невразливі до ефектів обмеження руху, а кожен викликаний дух збільшує вашу фізичну шкоду від ваших здібностей на {2}%.\n\n[Дух дикого вовка] миттєво генерує один ефект [Зброя виру], а потім ще один ефект кожні {3} сек протягом {4} сек."
+                },
+                "2": {
+                    "Hash": 3174510217,
+                    "Id": "51533, 198506, 228562, 333957",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons two Spirit Raptors that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Feral Spirit summoned grants you {2}% increased Physical damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec."
+                },
+                "3": {
+                    "Hash": 641150116,
+                    "Id": "51533, 198506, 228562, 333957",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons two Elemental Spirit Raptors that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Fire, Frost, or Nature damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec."
                 }
             }
         },
@@ -919,8 +1003,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1005259546,
-                    "Id": "198067",
-                    "Spec": "Elemental",
+                    "Id": "188592, 198067",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає [Великий вогняний елементаль], який атакує ваших ворогів протягом {1} сек.\n\nПоки вогняний елементаль активний, [Вогняний шок] завдає шкоду на {2}% швидше, а нові накладені ефекти [Вогняний шок] тривають на {3}% довше."
                 }
             }
@@ -937,9 +1021,21 @@
                 },
                 "1": {
                     "Hash": 904746621,
-                    "Id": "333974",
-                    "Spec": "Enhancement",
+                    "Id": "333974, 333977",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає вогняний спалах на усіх цілях з ефектом [Вогняний шок], завдаючи {1} од. шкоди від вогняного удару максимум {2} цілям в радіусі {3} м від цілей з ефектом [Вогняний шок]."
+                },
+                "2": {
+                    "Hash": 1942281757,
+                    "Id": "198480",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Deals {1} Fire damage to all targets within {2} yards."
+                },
+                "3": {
+                    "Hash": 201152343,
+                    "Id": "333974, 333977",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Erupt a burst of fiery damage from all targets affected by your Flame Shock, dealing {1} Flamestrike damage to up to {2} targets within {3} yds of your Flame Shock targets.\r\n\r\nEach eruption from Fire Nova generates {4} [plural|stack|stacks] of Maelstrom Weapon."
                 }
             }
         },
@@ -962,13 +1058,13 @@
                 "2": {
                     "Hash": 137143167,
                     "Id": "188389",
-                    "Spec": "Restoration",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Обпалює ціль вогнем, завдаючи {1} од. вулканічної шкоди, а потім ще додатково {2} од. вулканічної шкоди протягом {3} сек.\n\n[Вогняний шок] можна накласти максимум на {4} {declension|ціль|цілі|цілей}."
                 },
                 "3": {
                     "Hash": 1170811009,
                     "Id": "188389",
-                    "Spec": "Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Обпалює ціль вогнем, завдаючи {1} од. вулканічної шкоди, а потім ще додатково {2} од. вулканічної шкоди протягом {3} сек.\n\n[Вогняний шок] можна накласти максимум на {4} {declension|ціль|цілі|цілей}.\n\nЯкщо ворог розвіє [Вогняний шок], то під ним з'явиться вулканічне виверження, що завдає {5} од. вулканічної шкоди та підкидає його у повітря."
                 }
             }
@@ -1069,8 +1165,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 326895829,
-                    "Id": "382888",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "382889",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Після успішного критичного удару заклинання або здібності, швидкість атаки збільшується на {1}% для {2} наступних атак ближнього бою."
                 }
             }
@@ -1081,8 +1177,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2882452277,
-                    "Id": "381776",
-                    "Spec": "Elemental",
+                    "Id": "381777",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Морозний шок] збільшує шкоду від вашого наступного [Викид лави] на {1}%."
                 }
             }
@@ -1093,8 +1189,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2855413687,
-                    "Id": "381666",
-                    "Spec": "Elemental, Enhancement",
+                    "Id": "381668",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Вогняний шок] зменшує витрати мани на наступне заклинання зцілення на {1}% та збільшує його ефективність лікування на {2}%."
                 }
             }
@@ -1105,8 +1201,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2129607996,
-                    "Id": "262647",
-                    "Spec": "Enhancement",
+                    "Id": "262652",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожна наступна атака [Шаленство вітру] впродовж {1} сек, збільшує шкоду від цих атак на {2}%. Накопичується до {3} разів."
                 }
             }
@@ -1117,8 +1213,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3918196408,
-                    "Id": "196840",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "196840, 289439",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Охолоджує ціль морозом, завдаючи {1} од. шкоди від магії холоду та знижуючи швидкість пересування цілі на {2}% протягом {3} сек."
                 }
             }
@@ -1142,7 +1238,7 @@
                 "0": {
                     "Hash": 1602491867,
                     "Id": "2645",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Перетворює вас на примарного вовка, збільшуючи швидкість пересування на {1}%, та запобігає зниженню швидкості пересування нижче {2}%."
                 }
             }
@@ -1178,7 +1274,7 @@
                 "0": {
                     "Hash": 2396482355,
                     "Id": "378773",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Очищає ворожу ціль, знімаючи з неї {1} {declension|позитивний магічний ефект|позитивні магічні ефекти|позитивних магічних ефектів}."
                 }
             }
@@ -1214,7 +1310,7 @@
                 "0": {
                     "Hash": 2620228561,
                     "Id": "192063",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Порив вітру штовхає вас вперед."
                 }
             }
@@ -1225,9 +1321,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1982375777,
-                    "Id": "334195",
-                    "Spec": "Enhancement",
+                    "Id": "334196",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожен поглинений ефект [Зброя Виру] збільшує шкоду від наступного [Морозний шок] на {1}%. [Морозний шок] вражає ще {2} {declension|ціль|цілі|цілей} за кожен поглинений ефект [Зброя Виру], максимум до {3}."
+                },
+                "1": {
+                    "Hash": 1467994265,
+                    "Id": "334196",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Each stack of Maelstrom Weapon consumed increases the damage of your next Frost Shock by {1}%, and causes your next Frost Shock to hit {2} additional target per Maelstrom Weapon stack consumed, up to {3}.\r\n\r\nConsuming at least {4} [plural|stack|stacks] of Hailstorm generates {5} [plural|stack|stacks] of Maelstrom Weapon."
                 }
             }
         },
@@ -1237,8 +1339,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 615766361,
-                    "Id": "73920",
-                    "Spec": "Restoration",
+                    "Id": "73920, 73921",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Цілющі дощі заливають вказану область, відновлюючи {1} од. здоров’я максимум {2} {declension|союзнику|союзникам|союзникам} протягом {3} сек."
                 }
             }
@@ -1252,6 +1354,30 @@
                     "Id": "5394",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Викликає біля вас тотем на {1} сек, який зцілює пораненого учасника групи або рейду в радіусі {2} м на {3} од. здоров'я кожні {4} сек.\n\nЯкщо ви вже знаєте {ffffffff|Тотем цілющого потоку}, натомість ви отримуєте {5} {declension|додатковий заряд|додаткові заряди|додактових зарядів} {ffffffff|Тотем цілющого потоку}."
+                },
+                "1": {
+                    "Hash": 3429989255,
+                    "Id": "52042",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Heals an injured nearby raid or party member."
+                },
+                "2": {
+                    "Hash": 1746416300,
+                    "Id": "5394, 5672",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Healing Stream Totem, instead gain {5} additional [plural|charge|charges] of Healing Stream Totem."
+                },
+                "3": {
+                    "Hash": 2310543181,
+                    "Id": "5394, 5672",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Cloudburst Totem, instead gain {5} additional [plural|charge|charges] of Cloudburst Totem."
+                },
+                "4": {
+                    "Hash": 1995282245,
+                    "Id": "5394, 5672",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Cloudburst Totem, instead gain {5} additional [plural|charge|charges] of Cloudburst Totem."
                 }
             }
         },
@@ -1262,7 +1388,7 @@
                 "0": {
                     "Hash": 416400678,
                     "Id": "8004",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Швидкий приплив цілющої енергії, який відновлює {1} од. здоров'я дружній цілі."
                 }
             }
@@ -1316,7 +1442,7 @@
                 "1": {
                     "Hash": 3552860575,
                     "Id": "51514",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Перетворює ворога на жабу на {1} хв. Під час перетворення жертва недієздатна і не може атакувати чи застосовувати заклинання. Шкода скасовує цей ефект. Ліміт - {2}. Працює лише на гуманоїдів і звірів."
                 }
             }
@@ -1327,8 +1453,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 705487423,
-                    "Id": "157154",
-                    "Spec": "Restoration",
+                    "Id": "288675",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви витрачаєте {1} од. мани, з'являється [Висока хвиля], яка збільшує зцілення від {2} ваших наступних [Ланцюгове зцілення] на {3}% та не зменшується з кожним переходом."
                 }
             }
@@ -1339,8 +1465,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1662862870,
-                    "Id": "201900",
-                    "Spec": "Enhancement",
+                    "Id": "215785",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Автоматичні атаки ближнього бою з активною [Зброя язика полум'я] мають шанс {1}% зменшити час відновлення [Скипання лави] на {2}% і збільшити шкоду від [Скипання лави] на {3}% протягом {4} сек."
                 }
             }
@@ -1351,9 +1477,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 788080594,
-                    "Id": "342240",
-                    "Spec": "Enhancement",
+                    "Id": "342240, 384357",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вражає вашу ціль крижаним лезом, завдаючи {1} од. шкоди від магії холоду та знерухомлюючи її на {2}% протягом {3} сек.\n\n[Крижаний Удар] збільшує шкоду від наступного [Морозний шок] на {4}%."
+                },
+                "1": {
+                    "Hash": 325115602,
+                    "Id": "342240, 384357",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\r\n\r\nIce Strike increases the damage of your next Frost Shock by {4}% and generates {5} [plural|stack|stacks] of Maelstrom Weapon."
                 }
             }
         },
@@ -1387,8 +1519,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3921537413,
-                    "Id": "382027",
-                    "Spec": "Elemental",
+                    "Id": "382028",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Насичує вашу зброю язиками полум'я, збільшуючи вашу шкоду від заклинань вогню на {1}% протягом {2} год."
                 }
             }
@@ -1441,8 +1573,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1957941154,
-                    "Id": "378776",
-                    "Spec": "Elemental",
+                    "Id": "378777",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Успішні заклинання [Очищення], [Очищення духу], [Тотем цілющого потоку], [Перетворення] та [Порив вітру] генерують {1} од. виру стихій під час бою."
                 }
             }
@@ -1453,8 +1585,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2839978596,
-                    "Id": "334046",
-                    "Spec": "Enhancement",
+                    "Id": "334168",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Скипання лави] збільшує шкоду по ураженій цілі від вашого [Вогняний шок] на {1}% протягом {2} сек."
                 }
             }
@@ -1465,14 +1597,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1845622457,
-                    "Id": "51505",
-                    "Spec": "Elemental",
+                    "Id": "51505, 77451, 285452, 285466",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Жбурляє розплавлену лаву в ціль, завдаючи {1} од. шкоди від вогню. [Викид лави] завжди завдає критичну шкоду, якщо на ціль діє [Вогняний шок].\n\n{FFFFFFFF|Генерує {2} од. виру стихій}"
                 },
                 "1": {
                     "Hash": 1569839130,
-                    "Id": "51505",
-                    "Spec": "Restoration, Enhancement",
+                    "Id": "51505, 77451, 285452, 285466",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Жбурляє розплавлену лаву в ціль, завдаючи {1} од. шкоди від вогню. [Викид лави] завжди завдає критичну шкоду, якщо на ціль діє [Вогняний шок]."
                 }
             }
@@ -1486,6 +1618,24 @@
                     "Id": "60103",
                     "Spec": "Enhancement",
                     "Text": "Заряджає вашу зброю у лівій руці лавою та спалює ціль, завдаючи {1} од. шкоди від вогню.\n\nШкода збільшується на {2}%, якщо ваша зброя у лівій руці насичена [Зброя язика полум'я]. [Скипання лави] поширить [Вогняний шок] від вашої цілі до {3} цілей поблизу."
+                },
+                "1": {
+                    "Hash": 2822788751,
+                    "Id": "60103",
+                    "Spec": "Enhancement",
+                    "Text": "Charges your off-hand weapon with lava and burns your target, dealing {1} Fire damage.\r\n\r\nDamage is increased by {2}% if your offhand weapon is imbued with Flametongue Weapon. "
+                },
+                "2": {
+                    "Hash": 1045989914,
+                    "Id": "60103",
+                    "Spec": "Enhancement",
+                    "Text": "Charges your off-hand weapon with lava and burns your target, dealing {1} Fire damage.\r\n\r\nDamage is increased by {2}% if your offhand weapon is imbued with Flametongue Weapon. \r\n\r\nLava Lash increases the damage of Flame Shock on its target by {3}% for {4} sec."
+                },
+                "3": {
+                    "Hash": 1332073994,
+                    "Id": "60103",
+                    "Spec": "Enhancement",
+                    "Text": "Charges your off-hand weapon with lava and burns your target, dealing {1} Fire damage.\r\n\r\nDamage is increased by {2}% if your offhand weapon is imbued with Flametongue Weapon. Lava Lash will spread Flame Shock from your target to {3} nearby targets.\r\n\r\nLava Lash increases the damage of Flame Shock on its target by {4}% for {5} sec."
                 }
             }
         },
@@ -1498,6 +1648,12 @@
                     "Id": "77756",
                     "Spec": "Restoration, Elemental",
                     "Text": "Періодична шкода від вашого [Вогняний шок] має {1}% шанс відновити [Викид лави] і зробить його наступне застосування миттєвим."
+                },
+                "1": {
+                    "Hash": 1806575372,
+                    "Id": "77762",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "The Shaman's next Lava Burst casts instantly."
                 }
             }
         },
@@ -1510,6 +1666,12 @@
                     "Id": "384450",
                     "Spec": "Enhancement",
                     "Text": "Поглинання {1} {declension|ефекту|ефектів|ефектів} [Зброя виру] миттєво відновить [Штормовий удар] і збільшить шкоду від ваших фізичних здібностей на {2}% протягом {3} сек."
+                },
+                "1": {
+                    "Hash": 3989199933,
+                    "Id": "335899, 335901, 384451",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Consuming {1} stacks of Maelstrom Weapon will reset the cooldown of Stormstrike and cause your next Stormstrike to deal {2}% increased damage."
                 }
             }
         },
@@ -1520,14 +1682,20 @@
                 "0": {
                     "Hash": 49186552,
                     "Id": "188196",
-                    "Spec": "Elemental",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Жбурляє блискавку в ціль, завдаючи {1} од. шкоди від сил природи.\n\n{FFFFFFFF|Генерує {2} од. виру стихій.}"
                 },
                 "1": {
                     "Hash": 3278199822,
                     "Id": "188196",
-                    "Spec": "Restoration, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Жбурляє блискавку в ціль, завдаючи {1} од. шкоди від сил природи."
+                },
+                "2": {
+                    "Hash": 17672930,
+                    "Id": "318044",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Reduces the cast time of Lightning Bolt by {1} sec."
                 }
             }
         },
@@ -1537,8 +1705,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 171073772,
-                    "Id": "305483",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "305483, 305485",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Охоплює ціль блискавкою, приголомшуючи її та завдаючи {1} од. шкоди від сил природи протягом {2} сек, поки на ціль накинуте ласо. Дозволяє рухатись під час підтримання."
                 }
             }
@@ -1549,8 +1717,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 493782148,
-                    "Id": "210689",
-                    "Spec": "Elemental",
+                    "Id": "197209, 197568",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Земний шок], [Вибух стихій] та [Землетрус] перетворюють вашу ціль на блискавковідвід на {1} сек. Така ціль отримує {2}% усієї шкоди, яку ви завдаєте [Блискавка] та [Ланцюгова блискавка]."
                 }
             }
@@ -1580,20 +1748,74 @@
                 "3": {
                     "Hash": 1915857393,
                     "Id": "192106",
-                    "Spec": "Restoration",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Оточує вас блискавичним щитом на {1} год.\n\nНападники в ближньому бою мають {2}% шанс отримати {3} од. шкоди від сил природи.\n\nШаман може мати до двох активних елементальних щитів одночасно."
                 },
                 "4": {
                     "Hash": 1198182851,
                     "Id": "192106",
-                    "Spec": "Elemental",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Оточує вас блискавичним щитом на {1} год.\n\nНападники в ближньому бою мають {2}% шанс отримати {3} од. шкоди від сил природи та {4}% шанс згенерувати {5} од. виру стихій.\n\nШаман може мати лише один активний елементальний щит одночасно."
                 },
                 "5": {
                     "Hash": 1945141966,
                     "Id": "192106",
-                    "Spec": "Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Оточує вас блискавичним щитом на {1} год.\n\nНападники в ближньому бою мають {2}% шанс отримати {3} од. шкоди від сил природи та {4}% шанс накопичити ефект [Зброя виру].\n\nШаман може мати лише один активний елементальний щит одночасно."
+                },
+                "6": {
+                    "Hash": 124369389,
+                    "Id": "192106",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} hour.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage.\r\n\r\nOnly one Elemental Shield can be active on the Shaman at a time."
+                },
+                "7": {
+                    "Hash": 2095993336,
+                    "Id": "192106",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} hour.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate {5} Maelstrom.\r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
+                },
+                "8": {
+                    "Hash": 870363065,
+                    "Id": "192106",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} hour.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate a stack of Maelstrom Weapon.\r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
+                },
+                "9": {
+                    "Hash": 291002596,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage.\r\n\r\nOnly one Elemental Shield can be active on the Shaman at a time."
+                },
+                "10": {
+                    "Hash": 2146755007,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate {5} Maelstrom.\r\n\r\nOnly one Elemental Shield can be active on the Shaman at a time."
+                },
+                "11": {
+                    "Hash": 1987639429,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage.\r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
+                },
+                "12": {
+                    "Hash": 571460994,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate {5} Maelstrom.\r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
+                },
+                "13": {
+                    "Hash": 2660212661,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate a stack of Maelstrom Weapon.\r\n\r\nOnly one Elemental Shield can be active on the Shaman at a time."
+                },
+                "14": {
+                    "Hash": 61882215,
+                    "Id": "192109",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Surround yourself with a shield of lightning for {1} sec.\r\n\r\nMelee attackers have a {2}% chance to suffer {3} Nature damage and have a {4}% chance to generate a stack of Maelstrom Weapon.\r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
                 }
             }
         },
@@ -1603,8 +1825,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2747216895,
-                    "Id": "192222",
-                    "Spec": "Elemental",
+                    "Id": "192222, 192226, 192231, 383061, 395349",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає тотем у вказаному місці, який вибухає, завдаючи {1} од. шкоди від вогню, та застосовує [Вогняний шок] до {2} {declension|ворога|ворогів|ворогів} у радіусі {3} м. Продовжує кидати рідку магму у випадкову ціль поряд кожні {4} сек протягом {5} сек, завдаючи {6} од. шкоди від вогню усім ворогам в радіусі {7} м.\n"
                 }
             }
@@ -1645,14 +1867,14 @@
                 },
                 "1": {
                     "Hash": 2610358154,
-                    "Id": "187880",
-                    "Spec": "Restoration, Elemental",
+                    "Id": "344179",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви завдаєте шкоду зброєю ближнього бою, ви маєте шанс отримати ефект [Зброя виру], що накопичується до {1} разів. Кожен накопичений ефект зменшує час застосування вашого наступного заклинання на {2}%. Одночасно можна поглинути до {3} ефектів [Зброя виру]."
                 },
                 "2": {
                     "Hash": 496606066,
-                    "Id": "187880",
-                    "Spec": "Enhancement",
+                    "Id": "344179",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви завдаєте шкоду зброєю ближнього бою, ви маєте шанс отримати ефект [Зброя виру], що накопичується до {1} разів. Кожен накопичений ефект зменшує час застосування вашого наступного заклинання шкоди або зцілення на {2}% та збільшує його шкоду на {3}% або зцілення на {4}%. \n\nОдночасно можна поглинути до {5} {declension|ефекту|ефектів|ефектів} [Зброя виру]."
                 }
             }
@@ -1663,8 +1885,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3603930768,
-                    "Id": "381932",
-                    "Spec": "Elemental",
+                    "Id": "381933",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Шкода від [Вогняний шок] збільшує шкоду від вашого наступного [Земний шок], [Вибух стихій] чи [Землетрус] на {1}%. Накопичується до {2} разів."
                 }
             }
@@ -1675,20 +1897,20 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3942813997,
-                    "Id": "381930",
-                    "Spec": "Enhancement",
+                    "Id": "381931, 404550, 404551",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ваш [Штормовий удар] відновлює {1} од. мани вам і {2} союзникам поблизу в радіусі {3} м.\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
                 },
                 "1": {
                     "Hash": 175061634,
-                    "Id": "381930",
-                    "Spec": "Restoration",
+                    "Id": "381931, 404550, 404551",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ваші [Викид лави] та [Бистрина] відновлюють {1} од. мани вам і {2} союзникам поблизу в радіусі {3} м..\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
                 },
                 "2": {
                     "Hash": 4228806506,
-                    "Id": "381930",
-                    "Spec": "Elemental",
+                    "Id": "381931, 404550, 404551",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ваші заклинання [Вибух Лави] відновлюють {1} од. мани вам і {2} союзникам поблизу в радіусі {3} м.\n\nСоюзники можуть отримати цей ефект лише від одного джерела мани шамана за раз, надаючи перевагу цілителям."
                 }
             }
@@ -1699,8 +1921,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1684549410,
-                    "Id": "16191",
-                    "Spec": "Restoration",
+                    "Id": "16191, 320763",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає поруч з вами тотем на {1} сек, який підсилює регенерацію мани союзникам на {2}% в радіусі {3} м."
                 }
             }
@@ -1711,14 +1933,14 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1785869771,
-                    "Id": "16166",
-                    "Spec": "Elemental",
+                    "Id": "260734",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Застосування [Викид лави] збільшує шкоду або зцілення ваших наступних заклять сил природи, магії холоду або фізичних заклять на {1}%."
                 },
                 "1": {
                     "Hash": 1529858281,
-                    "Id": "16166",
-                    "Spec": "Restoration",
+                    "Id": "260734",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Застосування [Викид лави] збільшує шкоду або зцілення ваших наступних заклять сил природи або магії холоду на {1}%."
                 }
             }
@@ -1744,6 +1966,48 @@
                     "Id": "168534",
                     "Spec": "Elemental",
                     "Text": "Ваш [Заряд Блискавки], [Викид лави] та [Ланцюгова блискавка] мають {1}% шанс спрацювати повторно на ту саму ціль, завдаючи {2}% від базової шкоди та генеруючи менше од. виру стихій.\n"
+                },
+                "1": {
+                    "Hash": 3239413673,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "2": {
+                    "Hash": 2713589828,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Elemental Blast, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "3": {
+                    "Hash": 2054607348,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Icefury, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "4": {
+                    "Hash": 3144445149,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Elemental Blast, Icefury, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "5": {
+                    "Hash": 3111591586,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Elemental Blast, Lava Burst, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "6": {
+                    "Hash": 2955823629,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Icefury, Lava Burst, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
+                },
+                "7": {
+                    "Hash": 1618478588,
+                    "Id": "168534",
+                    "Spec": "Elemental",
+                    "Text": "Your Lightning Bolt, Elemental Blast, Icefury, Lava Burst, and Chain Lightning casts have a {1}% chance to trigger a second cast on the same target, dealing {2}% of normal damage and generating less Maelstrom.\r\n"
                 }
             }
         },
@@ -1801,8 +2065,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4289862217,
-                    "Id": "30884",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "31616",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ваше здоров'я опускається нижче {1}%, ви миттєво зцілюєтесь на {2}% від вашого максимального здоров'я. Спрацьовує лише раз на {3} сек."
                 }
             }
@@ -1814,7 +2078,7 @@
                 "0": {
                     "Hash": 520311595,
                     "Id": "378081",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ваше наступне закляття зцілення або шкоди від сил природи застосується миттєво та не витратить мани."
                 }
             }
@@ -1852,6 +2116,12 @@
                     "Id": "383222",
                     "Spec": "Restoration",
                     "Text": "[Цілющий дощ] миттєво відновлює {1} од. здоров'я {2} союзникам у своїй області, а його радіус збільшується на {3} м."
+                },
+                "1": {
+                    "Hash": 1876499400,
+                    "Id": "383223",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Healing Rain instantly restores {1} health to {2} allies within its area, and its radius is increased by {3} [plural|yard|yards]."
                 }
             }
         },
@@ -1873,8 +2143,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4230618785,
-                    "Id": "383013",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "383013, 383014, 403922",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає біля вас тотем, що знімає всі ефекти Отрути з учасника групи або рейду в радіусі {1} м кожні {2} сек протягом {3} сек."
                 }
             }
@@ -1885,8 +2155,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 948630541,
-                    "Id": "191861",
-                    "Spec": "Elemental",
+                    "Id": "191877",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Викид лави] із {1}% шансом дозволить {2} {declension|вашому|вашим|вашим} [Блискавка] або [Ланцюгова блискавка] додатково активувати [Перевантаження стихій]."
                 }
             }
@@ -1934,7 +2204,7 @@
                 "0": {
                     "Hash": 1924773383,
                     "Id": "73899",
-                    "Spec": "Restoration, Elemental",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Миттєвий удар зброєю, що завдає {1} од. фізичної шкоди."
                 }
             }
@@ -1957,8 +2227,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 787110126,
-                    "Id": "381764",
-                    "Spec": "Elemental",
+                    "Id": "381761",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Поки у вас є активний елементаль, отримувана шкода зменшується на {1}%."
                 }
             }
@@ -1993,21 +2263,123 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1727607424,
-                    "Id": "375982",
-                    "Spec": "Enhancement",
+                    "Id": "327162, 327163, 327164",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вражає вашу ціль первісною хвилею, завдаючи {1} од. шкоди від темної магії, та застосовує на неї [Вогняний шок], або зцілює союзнику {2} од здоров'я.\n\nНаступний [Блискавка] також вразить всіх цілей з ефектом [Вогняний шок] на {3}% від звичайної шкоди."
                 },
                 "1": {
                     "Hash": 3149722174,
-                    "Id": "375982",
-                    "Spec": "Elemental",
+                    "Id": "327162, 327163, 327164",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вражає вашу ціль первісною хвилею, завдаючи {1} од. шкоди від темної магії, та застосовує на неї [Вогняний шок], або зцілює союзнику {2} од здоров'я.\n\nНаступний [Викид лави] також вразить всіх цілей з ефектом [Вогняний шок] на {3}% від звичайної шкоди."
                 },
                 "2": {
                     "Hash": 3727459360,
-                    "Id": "375982",
-                    "Spec": "Restoration",
+                    "Id": "327162, 327163, 327164",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вражає вашу ціль первісною хвилею, завдаючи {1} од. шкоди від темної магії, та застосовує на неї [Вогняний шок], або зцілює союзнику {2} од здоров'я.\n\n\nНаступна [Хвиля зцілення] також вразить всіх цілей з ефектом [Бистрина] на {3}% від звичайного зцілення."
+                },
+                "3": {
+                    "Hash": 808266210,
+                    "Id": "327162, 327163, 327164",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {3}% of normal damage."
+                },
+                "4": {
+                    "Hash": 2557641214,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage."
+                },
+                "5": {
+                    "Hash": 3889856166,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage."
+                },
+                "6": {
+                    "Hash": 2217608898,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "7": {
+                    "Hash": 2880917885,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "8": {
+                    "Hash": 914203386,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage."
+                },
+                "9": {
+                    "Hash": 3687302560,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "10": {
+                    "Hash": 3789132349,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing."
+                },
+                "11": {
+                    "Hash": 4209172391,
+                    "Id": "375982, 375984, 375985",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "12": {
+                    "Hash": 3865839315,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage."
+                },
+                "13": {
+                    "Hash": 903086976,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage."
+                },
+                "14": {
+                    "Hash": 546830392,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "15": {
+                    "Hash": 1210139391,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "16": {
+                    "Hash": 2403647513,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage."
+                },
+                "17": {
+                    "Hash": 3817548397,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+                },
+                "18": {
+                    "Hash": 802363159,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing."
+                },
+                "19": {
+                    "Hash": 2538393885,
+                    "Id": "428332",
+                    "Spec": "Restoration",
+                    "Text": "Blast your target with a Primordial Wave, healing them for {1} and apply Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
                 }
             }
         },
@@ -2020,6 +2392,12 @@
                     "Id": "370",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Очищає ворожу ціль, знімаючи {1} позитивний магічний ефект."
+                },
+                "1": {
+                    "Hash": 477133649,
+                    "Id": "370",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Purges the enemy target, removing {1} beneficial Magic [plural|effect|effects]."
                 }
             }
         },
@@ -2032,6 +2410,12 @@
                     "Id": "77130",
                     "Spec": "Restoration",
                     "Text": "Знімає всі Магічні ефекти з дружньої цілі."
+                },
+                "1": {
+                    "Hash": 1316637697,
+                    "Id": "77130",
+                    "Spec": "Restoration",
+                    "Text": "Removes all Magic and Curse effects from a friendly target."
                 }
             }
         },
@@ -2072,7 +2456,7 @@
                 "0": {
                     "Hash": 2370016768,
                     "Id": "20608",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Дозволяє вам воскреснути після смерті з {1}% здоров'я та мани. Спрацьовує лише раз на {2} хв."
                 }
             }
@@ -2143,8 +2527,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2972885709,
-                    "Id": "381782",
-                    "Spec": "Elemental",
+                    "Id": "381783",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Шкода від [Вогняний шок] має {1}% шанс згенерувати {2} од. виру стихій."
                 }
             }
@@ -2224,6 +2608,12 @@
                     "Id": "98008",
                     "Spec": "Restoration",
                     "Text": "Викликає у вказаному місці тотем на {1} сек, який зменшує отримувану шкоду усіх учасників групи та рейду в радіусі {2} м на {3}%. Одразу та кожні {4} сек рівномірно перерозподіляє здоров'я всіх уражених гравців."
+                },
+                "1": {
+                    "Hash": 889839489,
+                    "Id": "98007",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "The Spirit Link Totem reduces damage taken by all party and raid members within {1} yards by {2}%. Every {3} sec, the health of all affected players is redistributed, such that each player ends up with the same percentage of their maximum health."
                 }
             }
         },
@@ -2234,7 +2624,7 @@
                 "0": {
                     "Hash": 1067176021,
                     "Id": "58875",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Знімає всі ефекти обмеження пересування та збільшує швидкість пересування на {1}% протягом {2} сек."
                 }
             }
@@ -2245,8 +2635,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1829710906,
-                    "Id": "260878",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "260881",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Перетворюючись на [Примарний вовк], ваша швидкість пересування збільшується на {1}%, а отримувана шкода зменшується на {2}% кожні {3} сек. Накопичується до {4} разів."
                 }
             }
@@ -2257,8 +2647,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1934829320,
-                    "Id": "378077",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "378078",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви застосовуєте [Благодать духовного мандрівника], ви стаєте несприйнятливими до ефектів знемовлення та переривання впродовж {1} сек."
                 }
             }
@@ -2270,13 +2660,13 @@
                 "0": {
                     "Hash": 3192192219,
                     "Id": "79206",
-                    "Spec": "Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ви звертаєтесь до духів, настанови яких дозволяють вам застосовувати шаманські заклинання під час руху впродовж {1} сек. Можна застосовувати під час застосування інший заклинань."
                 },
                 "1": {
                     "Hash": 87785136,
                     "Id": "79206",
-                    "Spec": "Restoration, Elemental",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Ви звертаєтесь до духів, настанови яких дозволяють вам застосовувати шаманські заклинання під час руху впродовж {1} сек. Можна застосовувати під час застосування інший заклинань. Збільшує вашу швидкість пересування на {2}%."
                 }
             }
@@ -2287,8 +2677,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 397028228,
-                    "Id": "404522",
-                    "Spec": "Restoration",
+                    "Id": "404522, 404523",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Після застосування [Тотем припливу мани], час застосування та витрати мани ваших [Хвиля зцілення] та [Ланцюгове зцілення] зменшуються на {1}% протягом {2} сек."
                 }
             }
@@ -2299,15 +2689,39 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3961663189,
-                    "Id": "382042",
-                    "Spec": "Enhancement",
+                    "Id": "354648",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожен додатковий [Блискавка], що згенерувала [Первісна хвиля], збільшує вашу Швидкість на {1}% протягом {2} сек."
                 },
                 "1": {
                     "Hash": 3615630758,
-                    "Id": "382042",
-                    "Spec": "Elemental",
+                    "Id": "354648",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожен додатковий [Викид лави], що згенерувала [Первісна хвиля], збільшує вашу Швидкість на {1}% протягом {2} сек."
+                },
+                "2": {
+                    "Hash": 1239546270,
+                    "Id": "354648",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Each additional Healing Wave generated by Primordial Wave increases your Haste by {1}% for {2} sec."
+                },
+                "3": {
+                    "Hash": 1180828056,
+                    "Id": "382043",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Lightning Bolt generated by Primordial Wave for {3} sec."
+                },
+                "4": {
+                    "Hash": 3042146218,
+                    "Id": "382043",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Lava Burst generated by Primordial Wave for {3} sec."
+                },
+                "5": {
+                    "Hash": 721833502,
+                    "Id": "382043",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Healing Wave generated by Primordial Wave for {3} sec."
                 }
             }
         },
@@ -2338,6 +2752,12 @@
                     "Id": "265046",
                     "Spec": "Restoration, Elemental, Enhancement",
                     "Text": "Час відновлення [Тотем конденсації] зменшується на {1} сек за кожного приголомшеного ворога. Максимальне зменшення - {2} сек."
+                },
+                "1": {
+                    "Hash": 1220105230,
+                    "Id": "118905",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Stuns enemies within {1} yards for {2} sec."
                 }
             }
         },
@@ -2359,8 +2779,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2670965223,
-                    "Id": "383017",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "383017, 383018",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає поруч з вами тотем на {1} сек, що зменшує отримувану фізичну шкоду у вас та {3} найближчих союзників в радіусі {4} м на {2}%."
                 }
             }
@@ -2371,8 +2791,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3988532462,
-                    "Id": "192249",
-                    "Spec": "Elemental",
+                    "Id": "157299, 192249, 263806",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає [Великий штормовий елементаль], який направляє пориви вітру, що завдають шкоду ворогам протягом {1} сек.\n\nДоки діє [Штормовий елеманталь], кожне застосування ваших [Блискавка] та [Ланцюгова блискавка] зменшує час застосування [Блискавка] та [Ланцюгова блискавка] на {2}%. Накопичується до {3} разів."
                 }
             }
@@ -2395,8 +2815,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 246142688,
-                    "Id": "319930",
-                    "Spec": "Enhancement",
+                    "Id": "319930, 390287",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Буревісник] тепер також підсилює ваш наступний [Штормовий удар], внаслідок чого він завдає додатково {1}% шкоди від сил природи."
                 }
             }
@@ -2428,6 +2848,30 @@
                     "Id": "383009",
                     "Spec": "Restoration",
                     "Text": "Ви заряджаєте себе блискавкою, що збільшує шкоду від {1} {declension|вашого наступного|ваших наступних|ваших наступних} [Блискавка] чи [Ланцюгова блискавка] на {2}% та дозволяє застосувати їх миттєво."
+                },
+                "2": {
+                    "Hash": 375557615,
+                    "Id": "191634",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target."
+                },
+                "3": {
+                    "Hash": 1878092040,
+                    "Id": "191634",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.\r\n\r\nIf you already know Stormkeeper, instead gain {4} additional [plural|charge|charges] of Stormkeeper."
+                },
+                "4": {
+                    "Hash": 989973515,
+                    "Id": "205495",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Raises {FFFFCC99|The Fist of Ra-den} to the sky and absorbs all nearby electric energy, causing your next {1} casts of Lightning Bolt or Chain Lightning to be instant and deal {2}% increased damage."
+                },
+                "5": {
+                    "Hash": 1534556327,
+                    "Id": "320137",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Charge yourself with lightning, causing your next {1} Chain Lightnings to deal {2}% more damage and be instant cast."
                 }
             }
         },
@@ -2437,9 +2881,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4277300720,
-                    "Id": "17364",
-                    "Spec": "Enhancement",
+                    "Id": "17364, 32175, 32176",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Заряджає вашу зброю в обох руках та завдає сильного удару по цілі, завдаючи загалом од. {1} фізичної шкоди."
+                },
+                "1": {
+                    "Hash": 3190917431,
+                    "Id": "17364, 32175, 32176",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Energizes both your weapons with lightning and delivers a massive blow to your target, dealing a total of {1} Physical damage.\r\n\r\nStormstrike has a {2}% chance to generate {3} [plural|stack|stacks] of Maelstrom Weapon."
                 }
             }
         },
@@ -2587,9 +3037,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3334739271,
-                    "Id": "378075",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "378076",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Примарний вовк] збільшує вашу швидкість пересування на {1}% протягом перших {2} сек. Спрацьовує лише раз на {3} сек."
+                },
+                "1": {
+                    "Hash": 2757887558,
+                    "Id": "338036",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Ghost Wolf increases your movement speed by an additional {FFFFFFFF|{1}%} for the first {2} sec. May only occur once every {3} sec."
                 }
             }
         },
@@ -2612,8 +3068,14 @@
                 "0": {
                     "Hash": 2770447476,
                     "Id": "51490",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає удар блискавки, який завдає {1} од. шкоди від сил природи усім ворогам в радіусі {2} м, зменшує швидкість пересування на {3}% протягом {4} сек та відкидає їх від шамана. Можна застосовувати під час приголомшення."
+                },
+                "1": {
+                    "Hash": 410217389,
+                    "Id": "51490",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Calls down a bolt of lightning, dealing {1} Nature damage to all enemies within {2} yards, reducing their movement speed by {3}% for {4} sec, and knocking them upward. Usable while stunned."
                 }
             }
         },
@@ -2629,8 +3091,8 @@
                 },
                 "1": {
                     "Hash": 3743619102,
-                    "Id": "51564",
-                    "Spec": "Restoration",
+                    "Id": "53390",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Застосовування [Бистрина] дає {1} накопичення ефекту [Глибинні хвилі]. [Глибинні хвилі] зменшують час застосовування вашої наступної [Хвиля зцілення] або [Ланцюгове зцілення] на {2}%, або збільшує шанс критичного ефекту вашого наступного [Сплеск зцілення] на {3}%."
                 }
             }
@@ -2641,8 +3103,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 4209171568,
-                    "Id": "404019",
-                    "Spec": "Restoration",
+                    "Id": "404072",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "[Тотем припливу зцілення] зцілює свою ціль з найнижчим рівнем здоров'я на {1}% ефективніше, а також вона отримує на {2}% більше зцілення від вас протягом {3} сек."
                 }
             }
@@ -2653,8 +3115,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2442259628,
-                    "Id": "236501",
-                    "Spec": "Restoration",
+                    "Id": "236502",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Кожні {1} сек, час застосовування вашого наступного [Ланцюгове зцілення] зменшується на {2}%, а відстань перескакування збільшується на {3}%. Максимум зарядів - {4}.\n"
                 }
             }
@@ -2696,7 +3158,7 @@
                 "0": {
                     "Hash": 3591335730,
                     "Id": "108287",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Переміщує ваші активні тотеми у вказане місце."
                 }
             }
@@ -2708,7 +3170,7 @@
                 "0": {
                     "Hash": 71579054,
                     "Id": "108285",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Скидає час відновлення останнього використаного вами тотема зі базовим часом відновлення менше {1} хв."
                 }
             }
@@ -2731,8 +3193,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1446726039,
-                    "Id": "383019",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "383019, 383020",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає біля вас тотем на {1} сек, який запобігає відштовхуванню та зменшує тривалість всіх вхідних ефектів переривання на {2}% для вас та для {3} найближчих союзників в радіусі {4} м від тотема."
                 }
             }
@@ -2756,7 +3218,7 @@
                 "0": {
                     "Hash": 3939873723,
                     "Id": "8143",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає біля вас тотем, який здригає землю навколо впродовж {1} сек, усуваючи ефекти страху, зачаровування та сну з учасників групи та рейду в радіусі {2} м."
                 }
             }
@@ -2824,6 +3286,12 @@
                     "Id": "73685",
                     "Spec": "Restoration",
                     "Text": "Вивільняє стихійні сили життя, відновлюючи дружній цілі {1} од. здоров'я та підсилюючи ваше наступне зцілююче заклинання.\n\n{FFFFFFFF|Бистрина, Хвиля зцілення, або Сплеск зцілення}: зцілення збільшується на {2}%.\n\n{FFFFFFFF|Ланцюгове зцілення}: зцілює на {3}% більше та перестрибує на {4} {declension|додаткову ціль|додаткові цілі|додаткових цілей}. \n\n{FFFFFFFF|Цілющий дощ або Злива}: зцілює {5} {declension|додаткову ціль|додаткові цілі|додаткових цілей}.\n\n{FFFFFFFF|Джерело}: {6}% надлишкового зцілення перетворюється в ефект поглинання шкоди."
+                },
+                "2": {
+                    "Hash": 1924707641,
+                    "Id": "73685",
+                    "Spec": "Restoration",
+                    "Text": "Unleash elemental forces of Life, healing a friendly target for {1} and increasing the effect of your next healing spell.\r\n\r\n{FFFFFFFF|Riptide, Healing Wave, or Healing Surge}: {2}% increased healing.\r\n\r\n{FFFFFFFF|Chain Heal}: {3}% increased healing and bounces to {4} additional [plural|Target|targets].\r\n\r\n{FFFFFFFF|Healing Rain or Downpour}: Affects {5} additional targets.\r\n\r\n{FFFFFFFF|Wellspring}: {6}% of overhealing done is converted to an absorb effect."
                 }
             }
         },
@@ -2881,9 +3349,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2906482612,
-                    "Id": "52127",
-                    "Spec": "Restoration",
+                    "Id": "52127, 52128",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Вас оточує щит з водяних куль, який відновлює {1} од. мани кожні {2} сек. Щоразу, коли ви отримуєте удар в ближньому бою, щит відновлює вам {3}% від максимального запасу мани. Цей ефект спрацьовує лише раз на кілька секунд.\n\nШаман може мати до двох активних Елементальних щитів одночасно."
+                },
+                "1": {
+                    "Hash": 3644208052,
+                    "Id": "52127, 52128",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every few seconds. \r\n\r\nOnly one of your Elemental Shields can be active on you at once."
                 }
             }
         },
@@ -2929,8 +3403,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2543125365,
-                    "Id": "197995",
-                    "Spec": "Restoration",
+                    "Id": "197995, 197997",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Створює хвилю води, яка пливе вперед, зцілюючи союзні цілі у великій дузі перед вами на {1} од. здоров'я."
                 }
             }
@@ -2941,8 +3415,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 2398209634,
-                    "Id": "192077",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Id": "192077, 192082",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає тотем у вказаному місці на {1} сек, який постійно збільшує швидкість пересування союзників, які проходять в радіусі {2} м, на {3}% протягом {4} сек."
                 }
             }
@@ -2954,7 +3428,7 @@
                 "0": {
                     "Hash": 135595243,
                     "Id": "57994",
-                    "Spec": "Restoration, Elemental, Enhancement",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Порушує сконцентрованість цілі ударом вітру, який перериває застосування заклинань та запобігає використанню заклинань з цієї школи на {1} сек."
                 }
             }
@@ -2965,8 +3439,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 3663972208,
-                    "Id": "8512",
-                    "Spec": "Enhancement",
+                    "Id": "8512, 327942",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Викликає біля вас тотем на {1} хв. Учасники групи в радіусі {2} м мають {3}% шанс, під час автоматичної атаки, завдати додатковий удар."
                 }
             }
@@ -3007,9 +3481,15 @@
             "Descriptions": {
                 "0": {
                     "Hash": 1524135792,
-                    "Id": "378268",
-                    "Spec": "Elemental",
+                    "Id": "378269",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Коли ви застосовуєте [Земний шок], [Вибух стихій], або [Землетрус], ви отримуєте ефект [Сплеск лави], а шкода від вашого наступного [Викид лави] збільшується на {1}%."
+                },
+                "1": {
+                    "Hash": 3199727243,
+                    "Id": "378269",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "When you cast Earth Shock, Elemental Blast, or Earthquake, gain Volcanic Surge and increase the damage of your next Lava Burst by {1}%."
                 }
             }
         },
@@ -3055,8 +3535,8 @@
             "Descriptions": {
                 "0": {
                     "Hash": 420457792,
-                    "Id": "408572",
-                    "Spec": "Elemental",
+                    "Id": "408575",
+                    "Spec": "Elemental, Enhancement, Restoration",
                     "Text": "Збільшує шкоду від [Блискавка] і [Ланцюгова блискавка] на {1}%, а шкоду від [Викид лави] на {2}%.\n\n[Сплеск лави] має на {3}% збільшений шанс активації та замість свого звичайного ефекту зменшує час застосування вашого наступного [Блискавка] або [Ланцюгова блискавка] на {4}%. Накопичується до {5} разів."
                 }
             }
@@ -3070,6 +3550,1153 @@
                     "Id": "410673",
                     "Spec": "Enhancement",
                     "Text": "Ефект [Зброя виру] більше не підсилює [Сплеск зцілення] або [Ланцюгове зцілення]. Замість цього, коли ви витрачаєте ефект [Зброя виру] на шкідливе закляття, ваші [Сплеск зцілення] або [Ланцюгове зцілення] отримують {1}% підсилення від ефекту [Зброя виру] за кожний витрачений ефект."
+                }
+            }
+        },
+        "228": {
+            "Hash": 1022382544,
+            "Name": "Block",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1054631814,
+                    "Id": "107",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Gives a chance to block enemy melee and ranged attacks."
+                }
+            }
+        },
+        "229": {
+            "Hash": 3073753476,
+            "Name": "Earthbind Totem",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1081885995,
+                    "Id": "2484",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summons a totem at the target location for {1} sec that slows the movement speed of enemies within {2} yards by {3}%."
+                }
+            }
+        },
+        "230": {
+            "Hash": 3463134267,
+            "Name": "Earthbind",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3889750189,
+                    "Id": "3600, 116947",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Reduces the movement speed of all nearby enemies by {1}%."
+                }
+            }
+        },
+        "231": {
+            "Hash": 135198736,
+            "Name": "Healing Stream",
+            "Descriptions": {}
+        },
+        "232": {
+            "Hash": 2291737624,
+            "Name": "Earth Shock Overload",
+            "Descriptions": {}
+        },
+        "233": {
+            "Hash": 1168274085,
+            "Name": "Flametongue Attack",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3929716414,
+                    "Id": "10444, 318038",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your weapon with the element of Fire for {1} hour, causing each of your attacks to deal {2} additional Fire damage. "
+                },
+                "1": {
+                    "Hash": 4046092832,
+                    "Id": "10444, 318038",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your off-hand weapon with the element of Fire for {1} hour, causing each of your attacks to deal {2} additional Fire damage. "
+                },
+                "2": {
+                    "Hash": 1645537423,
+                    "Id": "10444, 318038",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your weapon with the element of Fire for {1} hour, causing each of your attacks to deal {2} additional Fire damage and increasing the damage of your Fire spells by {3}%. "
+                },
+                "3": {
+                    "Hash": 722544237,
+                    "Id": "10444, 318038",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your off-hand weapon with the element of Fire for {1} hour, causing each of your attacks to deal {2} additional Fire damage and increasing the damage of your Fire spells by {3}%. "
+                }
+            }
+        },
+        "234": {
+            "Hash": 1060081439,
+            "Name": "Stormstrike Off-Hand",
+            "Descriptions": {}
+        },
+        "235": {
+            "Hash": 4189025625,
+            "Name": "Windfury Attack",
+            "Descriptions": {
+                "0": {
+                    "Hash": 721900804,
+                    "Id": "25504, 33757",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your main-hand weapon with the element of Wind for {1} hour. Each main-hand attack has a {2}% chance to trigger two extra attacks, dealing {3} Physical damage each."
+                },
+                "1": {
+                    "Hash": 4130188236,
+                    "Id": "25504, 33757",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your main-hand weapon with the element of Wind for {1} hour. Each main-hand attack has a {2}% chance to trigger three extra attacks, dealing {3} Physical damage each."
+                },
+                "2": {
+                    "Hash": 1433762046,
+                    "Id": "25504, 33757",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your main-hand weapon with the element of Wind for {1} hour. Each main-hand attack has a {2}% chance to trigger two extra attacks, dealing {3} Physical damage each.\r\n\r\nWindfury causes each successive Windfury attack within {4} sec to increase the damage of Windfury by {5}%, stacking up to {6} times."
+                },
+                "3": {
+                    "Hash": 123600111,
+                    "Id": "25504, 33757",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Imbue your main-hand weapon with the element of Wind for {1} hour. Each main-hand attack has a {2}% chance to trigger three extra attacks, dealing {3} Physical damage each.\r\n\r\nWindfury causes each successive Windfury attack within {4} sec to increase the damage of Windfury by {5}%, stacking up to {6} times."
+                }
+            }
+        },
+        "236": {
+            "Hash": 3448644593,
+            "Name": "Angered Earth",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3367191696,
+                    "Id": "36213",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Taunts all enemies within {1} yards."
+                }
+            }
+        },
+        "237": {
+            "Hash": 3717546258,
+            "Name": "Lightning Bolt Overload",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1493013871,
+                    "Id": "45284, 214816",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Casts a bolt of lightning at the target for {1} Nature damage."
+                }
+            }
+        },
+        "238": {
+            "Hash": 2284871724,
+            "Name": "Chain Lightning Overload",
+            "Descriptions": {
+                "0": {
+                    "Hash": 365399001,
+                    "Id": "45297, 188443",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets."
+                }
+            }
+        },
+        "239": {
+            "Hash": 927230725,
+            "Name": "Lava Burst Overload",
+            "Descriptions": {}
+        },
+        "240": {
+            "Hash": 2425981719,
+            "Name": "Fire Blast",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2495002098,
+                    "Id": "57984, 275382",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Inflicts Fire damage to an enemy."
+                }
+            }
+        },
+        "241": {
+            "Hash": 1268228875,
+            "Name": "Ember Blast",
+            "Descriptions": {}
+        },
+        "242": {
+            "Hash": 3940035483,
+            "Name": "Spirit Hunt",
+            "Descriptions": {
+                "0": {
+                    "Hash": 409253650,
+                    "Id": "58877",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Spirit Wolves' attacks heal them and their master for {1}% of damage done."
+                }
+            }
+        },
+        "243": {
+            "Hash": 740612144,
+            "Name": "Earthgrab",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1844535576,
+                    "Id": "64695",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Roots targets for {1} sec."
+                }
+            }
+        },
+        "244": {
+            "Hash": 1507206193,
+            "Name": "Avoidance",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3843055396,
+                    "Id": "65220",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Reduces the damage your pet takes from area of effect attacks by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                }
+            }
+        },
+        "245": {
+            "Hash": 2708935518,
+            "Name": "Restorative Mists",
+            "Descriptions": {}
+        },
+        "246": {
+            "Hash": 4054018609,
+            "Name": "Lava Beam",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3685132776,
+                    "Id": "114074",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Unleashes a blast of superheated flame at the enemy, dealing {1} Fire damage and then jumping to additional nearby enemies. Damage is increased by {2}% after each jump. Affects {3} total targets.  \r\n\r\n{FFFFFFFF|Generates {4} Maelstrom per target hit.} "
+                }
+            }
+        },
+        "247": {
+            "Hash": 521374183,
+            "Name": "Windlash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1203847699,
+                    "Id": "114089, 114093",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "A massive gust of air that deals {1} Physical damage."
+                }
+            }
+        },
+        "248": {
+            "Hash": 3917651474,
+            "Name": "Windlash Off-Hand",
+            "Descriptions": {}
+        },
+        "249": {
+            "Hash": 2139237404,
+            "Name": "Lava Beam Overload",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1867952059,
+                    "Id": "114738",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Unleash a blast of superheated flame at the enemy, dealing {1} Fire damage and then jumping to additional nearby enemies. Affects up to {2} total targets."
+                }
+            }
+        },
+        "250": {
+            "Hash": 3542800032,
+            "Name": "Healing Tide",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1895024983,
+                    "Id": "114942",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Heals injured allies."
+                }
+            }
+        },
+        "251": {
+            "Hash": 3824555719,
+            "Name": "Windstrike",
+            "Descriptions": {
+                "0": {
+                    "Hash": 62468230,
+                    "Id": "115356, 115357, 115360",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Hurl a staggering blast of wind at an enemy, dealing a total of {1} Physical damage, bypassing armor."
+                }
+            }
+        },
+        "252": {
+            "Hash": 3884903817,
+            "Name": "Windstrike Off-Hand",
+            "Descriptions": {}
+        },
+        "253": {
+            "Hash": 4142966808,
+            "Name": "Elemental Blast: Critical Strike",
+            "Descriptions": {}
+        },
+        "254": {
+            "Hash": 2913949283,
+            "Name": "Elemental Blast Overload",
+            "Descriptions": {}
+        },
+        "255": {
+            "Hash": 2666965912,
+            "Name": "Elemental Blast: Haste",
+            "Descriptions": {}
+        },
+        "256": {
+            "Hash": 3998648671,
+            "Name": "Elemental Blast: Mastery",
+            "Descriptions": {}
+        },
+        "257": {
+            "Hash": 3303574511,
+            "Name": "Meteor",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2827213376,
+                    "Id": "117588",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Call down a molten meteor on your target, dealing {1} damage to up to {2} enemies within {3} yards of your target."
+                }
+            }
+        },
+        "258": {
+            "Hash": 3070477914,
+            "Name": "Immolate",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2853317734,
+                    "Id": "118297",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Burns an enemy, then inflicts additional Fire damage every {1} sec for {2} sec."
+                }
+            }
+        },
+        "259": {
+            "Hash": 1734042066,
+            "Name": "Pulverize",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1473051727,
+                    "Id": "118345",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Smashes an enemy with a rocky fist, stunning the target for {1} sec."
+                }
+            }
+        },
+        "260": {
+            "Hash": 1193463446,
+            "Name": "Lightning Blast",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4167610469,
+                    "Id": "191726, 275384",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Inflicts Nature damage to an enemy."
+                }
+            }
+        },
+        "261": {
+            "Hash": 4119743172,
+            "Name": "Rushing Streams",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3316231621,
+                    "Id": "147074",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Healing Stream Totem now heals two targets at once."
+                }
+            }
+        },
+        "262": {
+            "Hash": 2840545912,
+            "Name": "Lingering Ancestors",
+            "Descriptions": {
+                "0": {
+                    "Hash": 333300190,
+                    "Id": "148080",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Resurrecting someone with Ancestral Spirit causes a ghostly ancestor to follow them around for a short time."
+                }
+            }
+        },
+        "263": {
+            "Hash": 604016087,
+            "Name": "Adaptation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1050593391,
+                    "Id": "152244",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Increases the effect of your pet's Combat Experience to {1}% increased damage. Your pet now gains the following abilities, regardless of its active spec:\r\n|cFFFFFFFF\r\nSpiked Collar\r\nRoar of Sacrifice\r\nCornered\r\nBoar's Speed\r\nLast Stand\r\nBlood of the Rhino\r\nGreat Stamina|r"
+                }
+            }
+        },
+        "264": {
+            "Hash": 2238699063,
+            "Name": "Combat Experience",
+            "Descriptions": {
+                "0": {
+                    "Hash": 580850628,
+                    "Id": "156843",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Increases all damage done by your pet by {1}%."
+                }
+            }
+        },
+        "265": {
+            "Hash": 2892172956,
+            "Name": "Cloudburst",
+            "Descriptions": {}
+        },
+        "266": {
+            "Hash": 185054535,
+            "Name": "Wind Gust",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3721056889,
+                    "Id": "157331",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Conjures a gust of wind that deals {1} Nature damage to an enemy."
+                }
+            }
+        },
+        "267": {
+            "Hash": 2111329840,
+            "Name": "Call Lightning",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1386358024,
+                    "Id": "157348",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Call down a lightning strike on an enemy, dealing {1} Nature damage, and leaving the Storm Elemental charged with energy for {2} sec.\r\n\r\nWhile charged, the Storm Elemental's damage is increased by {3}%."
+                }
+            }
+        },
+        "268": {
+            "Hash": 386335786,
+            "Name": "Tempest",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4280788212,
+                    "Id": "157375, 269005",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Channel the energy of the storms at your target, causing {1} Nature damage to all enemies within {2} yards every {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nThe damage of this ability increases by {5}% every time it deals damage."
+                }
+            }
+        },
+        "269": {
+            "Hash": 1157509915,
+            "Name": "Earthen Rage",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2261700886,
+                    "Id": "170374, 170379",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your damaging spells incite the earth around you to come to your aid for {1} sec, repeatedly dealing {2} Nature damage to your most recently attacked target."
+                }
+            }
+        },
+        "270": {
+            "Hash": 779358876,
+            "Name": "Fulmination",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4247102943,
+                    "Id": "190493, 260111",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lightning Bolt, Lava Burst, Chain Lighting, and their Overload spells have a {1}% chance to generate a stack of Fulmination, up to {2} stacks. \r\n\r\nEarth Shock will discharge all stacks of Fulmination on the target, causing an extra {3} Nature damage per stack of Fulmination.\r\n\r\nEarthquake's cast time is reduced by {4}% per stack of Fulmination, and Earthquake deals {5}% more damage for each stack of Fulmination.\r\n"
+                },
+                "1": {
+                    "Hash": 2586548404,
+                    "Id": "190493, 260111",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lightning Bolt, Lava Burst, Chain Lighting, and their Overload spells have a {1}% chance to generate a stack of Fulmination, up to {2} stacks. \r\n\r\nEarth Shock and Elemental Blast will discharge all stacks of Fulmination on the target, causing an extra {3} Nature damage per stack of Fulmination.\r\n\r\nEarthquake's cast time is reduced by {4}% per stack of Fulmination, and Earthquake deals {5}% more damage for each stack of Fulmination.\r\n"
+                }
+            }
+        },
+        "271": {
+            "Hash": 3340768981,
+            "Name": "Shocking Blast",
+            "Descriptions": {}
+        },
+        "272": {
+            "Hash": 944846133,
+            "Name": "Wind Rush",
+            "Descriptions": {}
+        },
+        "273": {
+            "Hash": 89760574,
+            "Name": "Liquid Magma",
+            "Descriptions": {}
+        },
+        "274": {
+            "Hash": 1522424267,
+            "Name": "Magma Eruption",
+            "Descriptions": {}
+        },
+        "275": {
+            "Hash": 667822950,
+            "Name": "Crashing Storm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2316395040,
+                    "Id": "192246, 210797",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Crash Lightning also electrifies the ground, leaving an electrical field behind which damages enemies within it for {1} Nature damage over {2} sec. "
+                }
+            }
+        },
+        "276": {
+            "Hash": 2403734348,
+            "Name": "Snowstorm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2936707935,
+                    "Id": "198483",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Deals {1} Frost damage to all targets within {2} yards."
+                }
+            }
+        },
+        "277": {
+            "Hash": 547682114,
+            "Name": "Thunder Bite",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1024993851,
+                    "Id": "198485",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Deals {1} Nature damage, jumping to up to {2} targets."
+                }
+            }
+        },
+        "278": {
+            "Hash": 1092082884,
+            "Name": "Imbue the Elements",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1565234371,
+                    "Id": "198735, 199019, 199022",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Rockbiter Weapon has a chance to cause Doomhammer upheave rocks and smash them into your target, causing {1} Nature damage every {2} for {3} sec."
+                }
+            }
+        },
+        "279": {
+            "Hash": 1404405197,
+            "Name": "Earthen Might",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2588503843,
+                    "Id": "409689",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Sundering increases your Mastery by {1}% for {2} sec."
+                }
+            }
+        },
+        "280": {
+            "Hash": 337510328,
+            "Name": "Unleash Doom",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2034628428,
+                    "Id": "198736, 199053, 199054, 199055",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Stormstrike has a chance to unleash the power of {FFFFCC99|Doomhammer}, causing your special attacks to heave molten lava or lightning spikes at your target for {1} Fire or Nature damage."
+                }
+            }
+        },
+        "281": {
+            "Hash": 3434117023,
+            "Name": "Unleash Lava",
+            "Descriptions": {}
+        },
+        "282": {
+            "Hash": 2485266450,
+            "Name": "Unleash Lightning",
+            "Descriptions": {}
+        },
+        "283": {
+            "Hash": 2765058890,
+            "Name": "Earthen Wall",
+            "Descriptions": {}
+        },
+        "284": {
+            "Hash": 1588508802,
+            "Name": "Stormbringer",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3722858388,
+                    "Id": "201846",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike."
+                },
+                "1": {
+                    "Hash": 3109398080,
+                    "Id": "201846",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {2}% additional damage as Nature damage."
+                },
+                "2": {
+                    "Hash": 3896321985,
+                    "Id": "222251",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Inflicts {1} Nature damage to all enemies within {2} yds."
+                }
+            }
+        },
+        "285": {
+            "Hash": 1983475282,
+            "Name": "Stomp",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4037825889,
+                    "Id": "202044",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Shakes the ground with thundering force, doing {1} Nature damage to all enemies within {2} yards, and Provoking them. This ability causes a moderate amount of additional threat."
+                }
+            }
+        },
+        "286": {
+            "Hash": 2924778750,
+            "Name": "Feral Swipe",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1224361321,
+                    "Id": "202045",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Swipe at the target, causing {1} Physical damage, and an additional {2} Bleed damage over {3} sec."
+                }
+            }
+        },
+        "287": {
+            "Hash": 3824412219,
+            "Name": "Ancestral Protection",
+            "Descriptions": {}
+        },
+        "288": {
+            "Hash": 4073631119,
+            "Name": "Stormlash",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2570566634,
+                    "Id": "207835",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Whenever you attack with enhanced weapons you have a chance to enhance up to {1} allies, causing their attacks and spellcasts to deal additional Nature damage."
+                }
+            }
+        },
+        "289": {
+            "Hash": 152471898,
+            "Name": "Eye of the Twisting Nether",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3576097898,
+                    "Id": "207994, 207995, 207998, 207999",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Damaging enemies with your Fire, Frost, or Nature abilities increases all damage you deal by {1}% for {2} sec. Each element adds a separate application."
+                }
+            }
+        },
+        "290": {
+            "Hash": 4092652613,
+            "Name": "Fire of the Twisting Nether",
+            "Descriptions": {}
+        },
+        "291": {
+            "Hash": 83378300,
+            "Name": "Chill of the Twisting Nether",
+            "Descriptions": {}
+        },
+        "292": {
+            "Hash": 1177006276,
+            "Name": "Shock of the Twisting Nether",
+            "Descriptions": {}
+        },
+        "293": {
+            "Hash": 2088426049,
+            "Name": "The Deceiver's Blood Pact",
+            "Descriptions": {
+                "0": {
+                    "Hash": 374571789,
+                    "Id": "214131, 214134",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Earth Shock has a {1}% chance to refund all of the Maelstrom spent."
+                }
+            }
+        },
+        "294": {
+            "Hash": 2752936532,
+            "Name": "Icefury Overload",
+            "Descriptions": {
+                "0": {
+                    "Hash": 990143119,
+                    "Id": "219271",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Hurls frigid ice at the target, dealing {1} Frost damage.\r\n\r\n{FFFFFFFF|Generates {2} Maelstrom.}"
+                }
+            }
+        },
+        "295": {
+            "Hash": 2284684595,
+            "Name": "Molten Weapon",
+            "Descriptions": {
+                "0": {
+                    "Hash": 4165280804,
+                    "Id": "224125, 224126, 224127, 392375",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your Feral Spirits are now imbued with Fire, Frost, or Lightning, increasing your damage dealt with that element by {1}%."
+                }
+            }
+        },
+        "296": {
+            "Hash": 2453571129,
+            "Name": "Icy Edge",
+            "Descriptions": {}
+        },
+        "297": {
+            "Hash": 2568271931,
+            "Name": "Crackling Surge",
+            "Descriptions": {}
+        },
+        "298": {
+            "Hash": 1116233180,
+            "Name": "Earthen Weapon",
+            "Descriptions": {}
+        },
+        "299": {
+            "Hash": 173210967,
+            "Name": "Unlimited Power",
+            "Descriptions": {
+                "0": {
+                    "Hash": 848226874,
+                    "Id": "260895, 272737",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "When your spells cause an elemental overload, you gain {1}% Haste for {2} sec. Gaining a stack does not refresh the duration."
+                }
+            }
+        },
+        "300": {
+            "Hash": 70323146,
+            "Name": "Strength of Earth",
+            "Descriptions": {
+                "0": {
+                    "Hash": 791125704,
+                    "Id": "273465, 273466",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Flame Shock causes your next melee ability to deal an additional {1} Nature damage."
+                }
+            }
+        },
+        "301": {
+            "Hash": 3300729757,
+            "Name": "Ember Elemental",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2936979240,
+                    "Id": "275385, 275386",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "When your Fire Elemental expires, it leaves behind a Ember Elemental to continue attacking your enemies for {1} sec."
+                },
+                "1": {
+                    "Hash": 1753092359,
+                    "Id": "275385, 275386",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "When your Storm Elemental expires, it leaves behind a Spark Elemental to continue attacking your enemies for {1} sec."
+                }
+            }
+        },
+        "302": {
+            "Hash": 131358426,
+            "Name": "Spark Elemental",
+            "Descriptions": {}
+        },
+        "303": {
+            "Hash": 2251309443,
+            "Name": "Lightning Conduit",
+            "Descriptions": {
+                "0": {
+                    "Hash": 361362710,
+                    "Id": "275391, 275394",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Stormstrike marks the target as a Lightning Conduit for {1} min. Stormstrike deals {2} Nature damage to all enemies you've marked as Conduits."
+                }
+            }
+        },
+        "304": {
+            "Hash": 2948320572,
+            "Name": "Rumbling Tremors",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2973519943,
+                    "Id": "278709, 279556",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your Earth Elemental spawns Tremors that deal {1} Physical damage to enemies within {2} yds every {3} seconds. Earth Elemental's auto attack damage is increased by {4}."
+                }
+            }
+        },
+        "305": {
+            "Hash": 4125592503,
+            "Name": "Roiling Storm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3864676110,
+                    "Id": "279515",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your Stormbringer-empowered Stormstrikes deal {1} additional damage. Every {2} seconds, gain Stormbringer."
+                }
+            }
+        },
+        "306": {
+            "Hash": 1618513773,
+            "Name": "Tectonic Thunder",
+            "Descriptions": {
+                "0": {
+                    "Hash": 775438241,
+                    "Id": "286976",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Earthquake deals {1} Physical damage instantly, and has a {2}% chance to make your next Chain Lightning be instant cast."
+                }
+            }
+        },
+        "307": {
+            "Hash": 148166347,
+            "Name": "Earthquake Overload",
+            "Descriptions": {}
+        },
+        "308": {
+            "Hash": 3522581398,
+            "Name": "Echoing Shock",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2493564683,
+                    "Id": "320125",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Shock the target for {1} Elemental damage and create an ancestral echo, causing your next damage or healing spell to be cast a second time {2} sec later for free."
+                }
+            }
+        },
+        "309": {
+            "Hash": 2710785146,
+            "Name": "Surge of Earth",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1202732797,
+                    "Id": "320746, 320747",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Consume up to {1} charges of Earth Shield to heal up to {2} allies near your Earth Shield target for {3} per charge consumed."
+                }
+            }
+        },
+        "310": {
+            "Hash": 1937698297,
+            "Name": "Chain Harvest",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2597265268,
+                    "Id": "320751, 320752, 368583",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Send a wave of anima at the target, which then jumps to additional nearby targets. Deals {1} Shadow damage to up to {2} enemies, and restores {3} health to up to {4} allies.\r\n\r\nFor each target critically struck, the cooldown of Chain Harvest is reduced by {5} sec."
+                },
+                "1": {
+                    "Hash": 2020751637,
+                    "Id": "320751, 320752, 368583",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Send a wave of anima at the target, which then jumps to additional nearby targets. Deals {1} Shadow damage to up to {2} enemies, and restores {3} health to up to {4} allies.\r\n\r\nFor each target critically struck, the cooldown of Chain Harvest is reduced by {5} sec.\r\n\r\nGenerates {6} Maelstrom per target damaged or healed."
+                }
+            }
+        },
+        "311": {
+            "Hash": 1195632422,
+            "Name": "Vesper Totem",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3693352843,
+                    "Id": "324519, 324520, 324522",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Summon a totem at the target location for {1} sec. Your next {2} damage spells or abilities will cause the totem to radiate {3} Arcane damage to up to {4} enemies near the totem, and your next {5} healing spells will heal up to {6} allies near the totem for {7} health.\r\n\r\nCasting this ability again while the totem is active will relocate the totem."
+                }
+            }
+        },
+        "312": {
+            "Hash": 2256110575,
+            "Name": "Fae Transfusion",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2827635752,
+                    "Id": "328928, 328930, 328933",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Transfer the life force of up to {1} enemies in the targeted area, dealing {2} Nature damage evenly split to each enemy target over {3} sec. \r\n\r\nPressing Fae Transfusion again within {4} sec will release {5}% of all damage from Fae Transfusion, healing up to {6} allies within {7} yds."
+                },
+                "1": {
+                    "Hash": 288272328,
+                    "Id": "328928, 328930, 328933",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Transfer the life force of up to {1} enemies in the targeted area, dealing {2} Nature damage evenly split to each enemy target over {3} sec. \r\n\r\nFully channeling Fae Transfusion generates {4} [plural|stack|stacks] of Maelstrom Weapon.\r\n\r\nPressing Fae Transfusion again within {5} sec will release {6}% of all damage from Fae Transfusion, healing up to {7} allies within {8} yds."
+                }
+            }
+        },
+        "313": {
+            "Hash": 644584101,
+            "Name": "Bottle of Swirling Maelstrom",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2848460757,
+                    "Id": "329580, 350122",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Increase the damage of Earthquake by {1}% and the damage of Earth Shock by {2}%."
+                },
+                "1": {
+                    "Hash": 1534412095,
+                    "Id": "329580, 350122",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "The effects of Maelstrom Weapon are increased by {1}%."
+                },
+                "2": {
+                    "Hash": 156380884,
+                    "Id": "329580, 350122",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Deal {1} Nature damage every {2} sec to all enemies inside of your Healing Rain."
+                }
+            }
+        },
+        "314": {
+            "Hash": 2756904403,
+            "Name": "Chains of Devastation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 96082525,
+                    "Id": "336736, 336737",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Casting Chain Heal makes your next Chain Lightning instant cast and deal {1}% increased damage. Casting Chain Lightning makes your next Chain Heal instant cast and consume no mana."
+                },
+                "1": {
+                    "Hash": 761306569,
+                    "Id": "336736, 336737",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Casting Chain Heal makes your next Chain Lightning instant cast. Casting Chain Lightning makes your next Chain Heal instant cast."
+                }
+            }
+        },
+        "315": {
+            "Hash": 244801177,
+            "Name": "Static Discharge",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3952944765,
+                    "Id": "342243",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Discharge excess energy from your Lightning Shield, dealing {1} Nature damage to an enemy within {2} yds every {3} sec for {4} sec.\r\n\r\nTargets with your Flame Shock on them are preferred."
+                }
+            }
+        },
+        "316": {
+            "Hash": 2954034392,
+            "Name": "Fireheart",
+            "Descriptions": {
+                "0": {
+                    "Hash": 784219488,
+                    "Id": "364523",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "While your Fire Elemental is active, your Lava Burst deals {1}% additional damage and you gain Lava Surge every {2} sec."
+                },
+                "1": {
+                    "Hash": 3437891154,
+                    "Id": "364523",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "While your Storm Elemental is active, your Lava Burst deals {1}% additional damage and you gain Lava Surge every {2} sec."
+                }
+            }
+        },
+        "317": {
+            "Hash": 2179081348,
+            "Name": "Heal the Soul",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3409992929,
+                    "Id": "366779",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Your critical healing increases the critical chance of your next Chain Heal by {1}%, stacking up to {2} times."
+                }
+            }
+        },
+        "318": {
+            "Hash": 117151718,
+            "Name": "Poison Cleansing",
+            "Descriptions": {}
+        },
+        "319": {
+            "Hash": 2149451567,
+            "Name": "Stoneskin",
+            "Descriptions": {}
+        },
+        "320": {
+            "Hash": 3633664816,
+            "Name": "Tranquil Air",
+            "Descriptions": {}
+        },
+        "321": {
+            "Hash": 1996107185,
+            "Name": "Seismic Accumulation",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2623395571,
+                    "Id": "394651",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lightning Bolt, Chain Lightning, and Lava Burst increase the damage of your next Earth Shock or Earthquake by {1}%, stacking up to {2} times."
+                },
+                "1": {
+                    "Hash": 3737047247,
+                    "Id": "394651",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lightning Bolt, Chain Lightning, and Lava Burst increase the damage of your next Elemental Blast or Earthquake by {1}%, stacking up to {2} times."
+                }
+            }
+        },
+        "322": {
+            "Hash": 1646190885,
+            "Name": "Maelstrom of Elements",
+            "Descriptions": {
+                "0": {
+                    "Hash": 88558944,
+                    "Id": "394677",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Stormstrike increases the damage of your next direct Fire, Frost, or Nature spell by {1}% and causes it to generate {2} additional stack of Maelstrom Weapon."
+                }
+            }
+        },
+        "323": {
+            "Hash": 1991873100,
+            "Name": "Totemic Inspiration",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2849133268,
+                    "Id": "394733",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "While Healing Stream Totem is active, your chance to critically strike is increased by {1}%."
+                },
+                "1": {
+                    "Hash": 1670082922,
+                    "Id": "394733",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "While Cloudburst Totem is active, your chance to critically strike is increased by {1}%."
+                }
+            }
+        },
+        "324": {
+            "Hash": 3233097713,
+            "Name": "Fury of the Storm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1586374893,
+                    "Id": "396006",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Consuming Maelstrom Weapon stacks increases your Haste by {1}% per stack for {2} sec."
+                }
+            }
+        },
+        "325": {
+            "Hash": 3431140965,
+            "Name": "Tidewaters",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3204075270,
+                    "Id": "409354",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "When you cast Healing Rain, each ally with your Riptide on them is area healed by Tidewaters for {1}."
+                }
+            }
+        },
+        "326": {
+            "Hash": 743250284,
+            "Name": "Rainstorm",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2789878874,
+                    "Id": "409386, 409391",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Each ally healed by Tidewaters increases your healing done by {1}% for {2} sec and increases the healing of your next Healing Wave or Healing Surge by {3}%, or your next Chain Heal by {4}%."
+                }
+            }
+        },
+        "327": {
+            "Hash": 3546696283,
+            "Name": "Swelling Rain",
+            "Descriptions": {}
+        },
+        "328": {
+            "Hash": 1541289960,
+            "Name": "Volcanic Strength",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3448306615,
+                    "Id": "409833, 409834",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Sundering increases your Physical and Fire damage dealt by {1}% for {2} sec and your next {3} Chain Lightning casts deal {4}% increased damage and refund {5}% of Maelstrom Weapon stacks consumed."
+                }
+            }
+        },
+        "329": {
+            "Hash": 75347648,
+            "Name": "Crackling Thunder",
+            "Descriptions": {}
+        },
+        "330": {
+            "Hash": 294825318,
+            "Name": "Primal Fracture",
+            "Descriptions": {
+                "0": {
+                    "Hash": 3478646581,
+                    "Id": "410018",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "For {1} sec after you consume Stormkeeper, your Lightning Bolt, Lava Burst, Icefury, and Frost Shock generate {2}% more Maelstrom, and your Chain Lightning, Lava Beam, and Earthquake deal {3}% increased critical damage."
+                }
+            }
+        },
+        "331": {
+            "Hash": 263172081,
+            "Name": "Tidal Reservoir",
+            "Descriptions": {
+                "0": {
+                    "Hash": 2439696001,
+                    "Id": "424461",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Chain Heal, Healing Surge, and Healing Wave mark their initial target with a Tidal Reservoir, causing them to receive {1}% of all Riptide healing you deal for {2} sec."
+                }
+            }
+        },
+        "332": {
+            "Hash": 2235115913,
+            "Name": "Molten Charge",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1691240793,
+                    "Id": "426578, 427729",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Lava Burst burns your target for {1}% additional damage over {2} sec, and after consuming Primordial Wave, your next {3} casts of Lava Burst to also hit up to {4} additional targets affected by your Flame Shock for {5}% of normal damage."
+                }
+            }
+        },
+        "333": {
+            "Hash": 2855738400,
+            "Name": "Molten Slag",
+            "Descriptions": {}
+        },
+        "334": {
+            "Hash": 811110980,
+            "Name": "Tempest Strikes",
+            "Descriptions": {
+                "0": {
+                    "Hash": 1994135674,
+                    "Id": "428071, 428078",
+                    "Spec": "Elemental, Enhancement, Restoration",
+                    "Text": "Stormstrike, Ice Strike, and Lava Lash have a {1}% chance to discharge electricity at your target, dealing {2} Nature damage."
                 }
             }
         }
