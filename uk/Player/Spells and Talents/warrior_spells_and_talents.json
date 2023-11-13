@@ -2541,7 +2541,7 @@
         },
         "166": {
             "Hash": 3586479797,
-            "Name": "Удар Щитом",
+            "Name": "Удар щитом",
             "Descriptions": {
                 "0": {
                     "Hash": 584204395,
@@ -3691,78 +3691,78 @@
                     "Hash": 4235573803,
                     "Id": "218826, 218834, 218835",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Odyn has granted you a second chance to defeat that which has bested you in combat.  Do this within {1} sec and Odyn will grant you your life and restore {2}% of your health."
+                    "Text": "Одін дає вам другий шанс подолати того, хто переміг вас у бою. Якщо вам це вдасться впродовж {1} сек, то Одін поверне вас до життя та відновить  {2}% від максимального здоров'я."
                 }
             }
         },
         "247": {
             "Hash": 1518001345,
-            "Name": "Gaze of the Val'kyr",
+            "Name": "Погляд Валь'кіри",
             "Descriptions": {}
         },
         "248": {
             "Hash": 3858199798,
-            "Name": "Bloody Rage",
+            "Name": "Кривава лють",
             "Descriptions": {
                 "0": {
                     "Hash": 3724885369,
                     "Id": "242952, 242953",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Raging Blow increases the damage and healing of your next Bloodthirst by {1}%, stacking up to {2} times."
+                    "Text": "[Гнівний удар] збільшує шкоду та зцілення від вашої наступної [Кровожерливість] на {1}%. Накопичується до {2} разів."
                 }
             }
         },
         "249": {
             "Hash": 2446647486,
-            "Name": "Deadly Calm",
+            "Name": "Мертвий спокій",
             "Descriptions": {
                 "0": {
                     "Hash": 3300115236,
                     "Id": "262228",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Reduces the Rage cost of your next {1} abilities by {2}%."
+                    "Text": "Зменшує витрати гніву в {1} {declension|вашої наступної здібності|ваших наступних здібностей|ваших наступних здібностей} на {2}%."
                 }
             }
         },
         "250": {
             "Hash": 1891949754,
-            "Name": "Seismic Wave",
+            "Name": "Сейсмічна хвиля",
             "Descriptions": {
                 "0": {
                     "Hash": 2180476882,
                     "Id": "278497",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Overpower causes a seismic wave that deals {1} Physical damage to enemies in a {2} yd line."
+                    "Text": "[Злам] викликає сейсмічну хвилю, яка завдає {1} од. фізичної шкоди ворогам по лінії довжиною {2} м."
                 }
             }
         },
         "251": {
             "Hash": 2828320588,
-            "Name": "Iron Fortress",
+            "Name": "Залізна фортеця",
             "Descriptions": {
                 "0": {
                     "Hash": 1296374576,
                     "Id": "279142",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Increases Block by {1}, and blocking an attack deals {2} Physical damage to the attacker. Critical blocks deal double damage."
+                    "Text": "Збільшує ймовірність блокування на {1} од, а блокування атаки завдає {2} од. Фізичної шкоди нападнику. Критичне блокування подвоює завдану шкоду."
                 }
             }
         },
         "252": {
             "Hash": 2451230204,
-            "Name": "Siegebreaker",
+            "Name": "Штурмовик",
             "Descriptions": {
                 "0": {
                     "Hash": 4160431136,
                     "Id": "280772, 280773",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Break the enemy's defenses, dealing {1} Physical damage, and increasing your damage done to the target by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}"
+                    "Text": "Пробиває захист ворога, завдаючи {1} од. фізичної шкоди та збільшує завдану вами по цілі шкоду на {2}% на {3} сек.\\\n\n{FFFFFFFF|Генерує {4} од. гніву.}"
                 }
             }
         },
         "253": {
             "Hash": 1180593549,
-            "Name": "Gushing Wound",
+            "Name": "Кровоточива рана",
             "Descriptions": {}
         },
         "254": {
@@ -3773,13 +3773,13 @@
                     "Hash": 332421584,
                     "Id": "317485, 317488, 317489, 330325",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Condemn a foe to suffer for their sins, causing {1} Shadow damage. Only usable on enemies who are above {2}% health or below {3}% health.\r\n\r\nThe primary target is weakened, preventing {4} damage they would deal to you."
+                    "Text": "Ви прирікаєте ворога на страждання за його гріхи, завдаючи {1} од. шкоди від темної магії. Застосовується тільки на ворогів з рівнем здоров'я вище {2}% або нижче {3}%.\n\nОсновна ціль послаблюється, зменшуючи шкоду, яку б вона вам завдала на {4} од."
                 },
                 "1": {
                     "Hash": 2942109404,
                     "Id": "317485, 317488, 317489, 330325",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Condemn a foe to suffer for their sins, causing {1} Shadow damage. Only usable on enemies who are above {2}% health or below {3}% health.\r\n\r\nThe primary target is weakened, preventing {4} damage they would deal to you.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}"
+                    "Text": "Ви прирікаєте ворога на страждання за його гріхи, завдаючи {1} од. шкоди від темної магії. Застосовується тільки на ворогів з рівнем здоров'я вище {2}% або нижче {3}%.\n\nОсновна ціль послаблюється, зменшуючи шкоду, яку б вона вам завдала на {4} од.\n\n{FFFFFFFF|Генерує {5} од. гніву.}"
                 }
             }
         },
@@ -3790,224 +3790,224 @@
         },
         "256": {
             "Hash": 2700674252,
-            "Name": "Conqueror's Banner",
+            "Name": "Стяг завойовника",
             "Descriptions": {
                 "0": {
                     "Hash": 1124384022,
                     "Id": "325862, 343672",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Brandish the Conqueror's Banner, granting {1} Mastery and {2}% increased movement speed to you and your {3} nearest allies, and preventing movement speed from being reduced below {4}%. Lasts {5} sec.\r\n\r\n{FFFFFFFF|Generates {6} Rage per sec.}"
+                    "Text": "Встановлює стяг завойовника, який збільшує Майстерність на {1} од. та швидкість пересування на {2}% вам та {3} {declension|найближчому союзнику|найближчим союзникам|найближчим союзникам}, а також попереджує зниженню швидкості пересування нижче {4}%. Триває {5} сек.\n\n{FFFFFFFF|Генерує {6} од. гніву щосекунди.}"
                 }
             }
         },
         "257": {
             "Hash": 1635896015,
-            "Name": "Conqueror's Frenzy",
+            "Name": "Шаленство завойовника",
             "Descriptions": {}
         },
         "258": {
             "Hash": 3000823191,
-            "Name": "Ancient Aftershock",
+            "Name": "Повторний поштовх Древніх",
             "Descriptions": {
                 "0": {
                     "Hash": 1899990525,
                     "Id": "326062, 326076, 343607",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Unleash a wave of anima, dealing {1} Nature damage to up to {2} enemies and knocking them down for {3} sec.\r\n\r\nThe ground will continue to expel anima, dealing {4} Nature damage to up to {5} enemies and generating {6} Rage per enemy over {7} sec. Every {8} sec, targets are briefly knocked down."
+                    "Text": "Вивільняє хвилю аніми, завдаючи {1} од. шкоди від сил природи максимум {2} ворогам, та збиває їх з ніг на {3} сек.\n\nЗемля продовжить вивільняти аніму, завдаючи {4} од. шкоди від сил природи максимум {5} ворогам, та генеруватиме {6} од. гніву за кожного ворога впродовж {7} сек. Кожні {8} сек цілі будуть ненадовго збиті з ніг."
                 }
             }
         },
         "259": {
             "Hash": 1581641310,
-            "Name": "Repulsive Pennant",
+            "Name": "Відразливий стяг",
             "Descriptions": {
                 "0": {
                     "Hash": 1241717886,
                     "Id": "333858, 333860, 350605",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "While Conqueror's Banner is active, deal {1} Shadow damage to all enemies within {2} yds of you every {3} sec."
+                    "Text": "Доки діє [Стяг завойовника], завдає {1} од. шкоди від темної магії усім ворогам в радіусі {2} м від вас кожні {3} сек."
                 }
             }
         },
         "260": {
             "Hash": 4177340060,
-            "Name": "Hateful Fetish",
+            "Name": "Ненависне захоплення",
             "Descriptions": {
                 "0": {
                     "Hash": 997201589,
                     "Id": "333891, 333892",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Conqueror's Banner makes you immune to crowd control effects and grants you {1}% Leech."
+                    "Text": "[Стяг завойовника] надає вам імунітет до ефектів контролю та збільшує Самозцілення на {1}%."
                 }
             }
         },
         "261": {
             "Hash": 2024687722,
-            "Name": "Crushing Blow",
+            "Name": "Нищівний удар",
             "Descriptions": {
                 "0": {
                     "Hash": 745686259,
                     "Id": "335097, 335098, 335100",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Strike a mighty blow with both weapons that deals a total of {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} Rage.}"
+                    "Text": "Ви робите потужний удар зброєю в обох руках, який завдає {1} од. фізичної шкоди.\n\n{FFFFFFFF|Генерує {2} од. гніву.}"
                 },
                 "1": {
                     "Hash": 1635808192,
                     "Id": "335097, 335098, 335100",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Strike a mighty blow with both weapons that deals a total of {1} Physical damage.\r\n\r\nCrushing Blow has a {2}% chance to instantly reset its own cooldown.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}"
+                    "Text": "Потужний удар зброєю в обох руках, який завдає {1} од. фізичної шкоди.\n\n[Нищівний удар] має {2}% шанс миттєво відновитися при застосуванні.\n\n{FFFFFFFF|Генерує {3} од. гніву.}"
                 }
             }
         },
         "262": {
             "Hash": 2364991167,
-            "Name": "Seeing Red",
+            "Name": "У барвах полум'я",
             "Descriptions": {
                 "0": {
                     "Hash": 1337735855,
                     "Id": "364006, 364010",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Consuming {1} rage grants a stack of Seeing Red, which transforms at {2} stacks into Outburst, causing your next Shield Slam or Thunder Clap to be {3}% more effective and grant Ignore Pain."
+                    "Text": "Витрата {1} од. гніву накладає ефект [Багряний погляд], який при {2} накопиченнях перетворюється на [Спалах жорстокості], що збільшує шкоду від вашого наступного [Потужний удар щитом] або [Громовий удар] на {3}% та дає ефект [Ігнорування болю]."
                 }
             }
         },
         "263": {
             "Hash": 916109256,
-            "Name": "Outburst",
+            "Name": "Спалах гніву",
             "Descriptions": {}
         },
         "264": {
             "Hash": 4060500940,
-            "Name": "Pile On",
+            "Name": "Навала",
             "Descriptions": {
                 "0": {
                     "Hash": 2789537443,
                     "Id": "366769",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Tactician has a {1}% increased chance to proc against enemies with Colossus Smash and causes your next Overpower to grant {2}% Strength, up to {3}% for {4} sec."
+                    "Text": "Ефект [Тактик] може спрацювати зі збільшеним на {1}% шансом при застосуванні на ворогів з ефектом [Колосальний удар], а ваш наступний [Злам] даватиме {2}% Сили, максимум до {3}% впродовж {4} сек."
                 }
             }
         },
         "265": {
             "Hash": 1032719950,
-            "Name": "Fatal Mark",
+            "Name": "Фатальна мітка",
             "Descriptions": {}
         },
         "267": {
             "Hash": 273587226,
-            "Name": "Vanguard's Determination",
+            "Name": "Рішучість авангарду",
             "Descriptions": {
                 "0": {
                     "Hash": 525913628,
                     "Id": "394056",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Revenge grants you Vanguard's Determination, increasing your damage done and reducing damage you take by {1}% for {2} sec seconds."
+                    "Text": "[Помста] надає вам ефект [Рішучість авангарду, який збільшує завдану шкоду та зменшує отримувану шкоду на {1}% впродовж {2} сек."
                 }
             }
         },
         "268": {
             "Hash": 4068661344,
-            "Name": "Strike Vulnerabilities",
+            "Name": "Удар по вразливостях",
             "Descriptions": {
                 "0": {
                     "Hash": 1220951127,
                     "Id": "394173",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Mortal Strike, Cleave, & Execute critical strikes increase your damage and critical strike chance by {1}% for {2} sec. "
+                    "Text": "Критична шкода від [Смертельний удар], [Розсічення] та [Страта] збільшує вашу шкоду та ймовірність критичного удару на {1}% на {2} сек. "
                 }
             }
         },
         "269": {
             "Hash": 635377230,
-            "Name": "Merciless Assault",
+            "Name": "Безжальний напад",
             "Descriptions": {
                 "0": {
                     "Hash": 481557286,
                     "Id": "409983",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Rampage causes your next Bloodthirst to have a {1}% increased critical strike chance, deal {2}% increased damage and generate {3} additional Rage. Stacking up to {4} times."
+                    "Text": "[Буяння] збільшить ймовірність критичної шкоди вашої наступної [Кровожерливість] на {1}%, її шкоду на {2}%, а також вона згенерує на {3} од. більше гніву. Накопичується до {4} разів."
                 }
             }
         },
         "270": {
             "Hash": 1333304844,
-            "Name": "Crushing Advance",
+            "Name": "Руйнівна перевага",
             "Descriptions": {
                 "0": {
                     "Hash": 164478361,
                     "Id": "410138",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Deep Wounds critical strikes have a chance to increase the damage of your next Mortal Strike by {1}% and cause it to deal {2} Physical damage to enemies in front of you, stacking up to {3} times. Damage reduced above {4} targets."
+                    "Text": "Критична шкода від [Глибокі рани] викличе ефект: наступний [Смертельний удар] завдаватиме на {1}% більше шкоди, а також {2} од. фізичної шкоди ворогам перед вами. Накопичується до {3} разів. Здійснює зменшену шкоду більше як {4} цілям."
                 },
                 "1": {
                     "Hash": 541304858,
                     "Id": "411703",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "A wave of force dealing {1} Physical damage to enemies in front of you."
+                    "Text": "Ударна хвиля, яка завдає {1} од. фізичної шкоди ворогам перед вами."
                 }
             }
         },
         "271": {
             "Hash": 1011417128,
-            "Name": "Earthen Tenacity",
+            "Name": "Земна стійкість",
             "Descriptions": {
                 "0": {
                     "Hash": 4003684215,
                     "Id": "410218",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "For {1} sec after Last Stand ends, Shield Slam unleashes a wave of force dealing {2} Physical damage to enemies in front of you and reducing damage they deal to you by {3}% for {4} sec."
+                    "Text": "Впродовж {1} сек по закінченню дії [Остання битва], [Потужний удар щитом] вивільняє ударну хвилю, яка завдає {2} од. фізичної шкоди ворогам перед вами, зменшуючи завдану ними по вас шкоду на {3}% впродовж {4} сек."
                 }
             }
         },
         "272": {
             "Hash": 766437935,
-            "Name": "Earthen Smash",
+            "Name": "Земний розгром",
             "Descriptions": {
                 "0": {
                     "Hash": 3799149612,
                     "Id": "410219",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Shield Slam unleashes a wave of force dealing {1} Physical damage to enemies in front of you and reducing damage they deal to you by {2}% for {3} sec."
+                    "Text": "[Потужний удар щитом] вивільняє ударну хвилю, яка завдає {1} од. фізичної шкоди ворогам перед вами, зменшуючи завдану ними по вас шкоду на {2}% впродовж {3} сек."
                 }
             }
         },
         "273": {
             "Hash": 1387577728,
-            "Name": "Furious Bloodthirst",
+            "Name": "Несамовита кровожерливість",
             "Descriptions": {
                 "0": {
                     "Hash": 1707728737,
                     "Id": "423211",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Odyn's Fury deals {1}% increased damage and causes your next {2} Bloodthirsts to deal {3}% additional damage and have {4}% increased critical strike chance against its primary target."
+                    "Text": "[Лють Одіна] завдає на {1}% більше шкоди та збільшує шкоду {2} {declension|вашої наступної| ваших наступних|ваших наступних} [Кровожерливість] на {3}%, а їх ймовірність критичної шкоди по основній цілі на {4}%."
                 }
             }
         },
         "274": {
             "Hash": 3131340211,
-            "Name": "Fervid",
+            "Name": "Палкість",
             "Descriptions": {
                 "0": {
                     "Hash": 2417775256,
                     "Id": "425517, 425534, 427413",
                     "Spec": "Arms, Fury, Protection",
-                    "Text": "Spending Rage has a chance to cause your next Shield Slam to consume your bleeds on a target, instantly dealing {1}% of the remaining damage of your Deep Wounds and Rend and {2}% of Thunderous Roar's, and reducing your damage taken by {3}% for {4} sec."
+                    "Text": "Коли ви витрачаєте гнів, ваш наступний [Потужний удар щитом] може поглинути усі ефект кровотеч з цілі, завдаючи при цьому {1}% залишкової шкоди від ваших [Глибокі рани] і [Роздирання] та {2}% шкоди від [Громовий рев], зменшуючи отримувану вами шкоду на {3}% на {4} сек."
                 }
             }
         },
         "275": {
             "Hash": 4224055693,
-            "Name": "Fervid Bite",
+            "Name": "Палкий укус",
             "Descriptions": {}
         },
         "276": {
             "Hash": 3358885315,
-            "Name": "Fervid Opposition",
+            "Name": "Палке протистояння",
             "Descriptions": {}
         },
         "277": {
             "Hash": 2855011766,
-            "Name": "Finishing Wound",
+            "Name": "Фінальна рана",
             "Descriptions": {
                 "0": {
                     "Hash": 2511199127,
