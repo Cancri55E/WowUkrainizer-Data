@@ -801,13 +801,13 @@
                     "Hash": 2654384571,
                     "Id": "233755",
                     "Spec": "Restoration, Balance",
-                    "Text": "Збільшує кількість шкоди, необхідної для скасування [Сплетене коріння] на {1}%."
+                    "Text": "Збільшує кількість шкоди, необхідної для скасування [Заплутуючі корені] на {1}%."
                 },
                 "1": {
                     "Hash": 3276259513,
                     "Id": "233755",
                     "Spec": "Restoration",
-                    "Text": "Збільшує кількість шкоди, необхідної для скасування ваших [Сплетене коріння] та [Масове заплутування] на {1}%."
+                    "Text": "Збільшує кількість шкоди, необхідної для скасування ваших [Заплутуючі корені] та [Масове заплутування] на {1}%."
                 }
             }
         },
@@ -915,7 +915,7 @@
                     "Hash": 2610479837,
                     "Id": "372152",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your next Regrowth heals for an additional {1}% and is free, instant, and castable in all forms."
+                    "Text": "Ваше наступне [Відновлення] не витратить мани, зцілить на {1}% здоров'я та його можна буде застосувати будь-якій формі."
                 }
             }
         },
@@ -933,7 +933,7 @@
                     "Hash": 4240773338,
                     "Id": "424248",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "When Eclipse ends or when you enter combat, enter a Dreamstate, reducing the cast time of your next {1} Starfires or Wraths by {2}% and increasing their damage by {3}%."
+                    "Text": "По закінченню дії [Затемнення] або при початку бою ви входите в [Стан Сну], що зменшує час застосування {1} {declension|вашого наступного|ваших наступних|ваших наступних} [Зоряний вогонь] або [Гнів] на {2}%, збільшуючи їх шкоду на {3}%."
                 }
             }
         },
@@ -1005,13 +1005,13 @@
                     "Hash": 4059286761,
                     "Id": "81262, 81269",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Restores {1} health to three injured allies within {2} yards of the initial target every {3} sec for {4} sec."
+                    "Text": "Відновлює {1} од. здоров'я трьом пораненим союзникам в радіусі {2} м від основної цілі кожні {3} сек впродовж {4} сек."
                 },
                 "2": {
                     "Hash": 2608476390,
                     "Id": "145205",
                     "Spec": "Restoration",
-                    "Text": "Grows a healing blossom at the target location, restoring {1} health to four injured allies within {2} yards every {3} sec for {4} sec. Limit {5}."
+                    "Text": "Вирощує зцілюючий цвіт у вказаному місці, що відновлює {1} од. здоров'я чотирьом пораненим союзникам в радіусі {2} м кожні {3} сек протягом {4} сек. Обмеження - {5}."
                 }
             }
         },
@@ -1041,7 +1041,7 @@
                     "Hash": 1278745296,
                     "Id": "393991",
                     "Spec": "Balance",
-                    "Text": "|T571586:24|t Incarnation: Chosen of Elune\r\nReduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nCooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                    "Text": "|T571586:24|t Втілення: Обранець Елуни\nЗменшує витрати астральної сили на [Зоряний сплеск] на {1} од., а витрати астральної сили на [Зорепад] на {2} од.\n\n|T3636839:24|t Виклик духів\nЧас відновлення зменшений на {3}%, а його час дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати особливе заклинання або здібність."
                 }
             }
         },
@@ -1059,7 +1059,7 @@
                     "Hash": 673601087,
                     "Id": "392124, 392147",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Wild Growth momentarily shifts your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for {1}."
+                    "Text": "[Дикий ріст] моментально переносить вашу свідомість у Смарагдовий Сон, миттєво зцілюючи од. {1} здоров'я всім союзникам, на яких діє ваше [Омолодження] або [Відновлення]."
                 }
             }
         },
@@ -1095,13 +1095,13 @@
                     "Hash": 1182463431,
                     "Id": "202226",
                     "Spec": "Guardian",
-                    "Text": "[Сплетене коріння] тепер миттєве заклинання з {1} сек часом відновленням, але з {2} м радіусом дії. Воно може бути використане у формах перевтілення."
+                    "Text": "[Заплутуючі корені] тепер миттєве заклинання з {1} сек часом відновленням, але з {2} м радіусом дії. Воно може бути використане у формах перевтілення."
                 }
             }
         },
         "63": {
             "Hash": 3658634925,
-            "Name": "Сплетене коріння",
+            "Name": "Заплутуючі корені",
             "Descriptions": {
                 "0": {
                     "Hash": 3462946313,
@@ -1113,13 +1113,13 @@
                     "Hash": 239003296,
                     "Id": "339",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Roots the target in place for {1} sec. Damage may cancel the effect.\r\n\r\n{0033AA11|Tree of Life: Instant cast.}"
+                    "Text": "Знерухомлює ціль на {1} сек. Шкода може скасувати цей ефект.\n\n{0033AA11|Дерево життя: Миттєве застосування.}"
                 },
                 "2": {
                     "Hash": 76542672,
                     "Id": "343238",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Entangling Roots can withstand {1}% more damage before breaking."
+                    "Text": "[Заплутуючі корені] можуть витримати на {1}% більше шкоди перед руйнуванням."
                 }
             }
         },
@@ -1149,7 +1149,7 @@
                     "Hash": 3220970993,
                     "Id": "300349",
                     "Spec": "Feral",
-                    "Text": "Soothe, Remove Corruption, and Innervate are usable in Cat Form."
+                    "Text": "[Угамування], [Зняття псування] та [Насичення] можуть бути використані у формі Кота."
                 }
             }
         },
@@ -1191,13 +1191,13 @@
                     "Hash": 2243000327,
                     "Id": "210631, 210649",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Berserk increases all damage you deal by {1}% for {2} sec."
+                    "Text": "[Берсерк] збільшує усю завдану вами шкоду на {1}% на {2} сек."
                 },
                 "2": {
                     "Hash": 1788464191,
                     "Id": "210631, 210649",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Incarnation: King of the Jungle increases all damage you deal by {1}% for {2} sec."
+                    "Text": "[Втілення: Король джунглів] збільшує усю завдану вами шкоду на {1}% на {2} сек."
                 }
             }
         },
@@ -1257,7 +1257,7 @@
                     "Hash": 3598900177,
                     "Id": "393427",
                     "Spec": "Guardian",
-                    "Text": "Thrash has a {1}% chance to trigger an additional Thrash.\r\n\r\nThrash stacks {2} additional [plural|Time|times]."
+                    "Text": "[Шмагання] має {1}% шанс активувати ще одне [Шмагання].\n\n[Шмагання] накопичується додатково {2} {declension|раз|рази|разів}]."
                 }
             }
         },
@@ -1275,13 +1275,13 @@
                     "Hash": 59047286,
                     "Id": "165962",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Shapeshift into flight form, increasing movement speed and allowing you to fly.  Cannot use in combat. \r\n\r\nThe act of shapeshifting frees the caster of movement impairing effects."
+                    "Text": "Ви перевтілюєтесь у політну форму. Вашу швидкість пересування  збільшується та ви отримуєте можливість літати. Не може застосовуватись під час бою.\n\nПри зміні форми звільняє вас від ефектів обмеження руху."
                 },
                 "2": {
                     "Hash": 533145883,
                     "Id": "276029",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "After training Expert Riding, your Travel Form allows you to fly and increases your movement speed by {1}%."
+                    "Text": "Після вивчення [Майстерна верхова їзда], ваша [Мандрівна форма] дозволяє вам літати та збільшує вашу швидкість пересування на {1}%."
                 }
             }
         },
@@ -1323,7 +1323,7 @@
                     "Hash": 958659950,
                     "Id": "248280",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Summons a stand of {1} Treants for {2} sec which immediately taunt and attack enemies in the targeted area."
+                    "Text": "Викликає {1} Ентів на {2} сек, які миттєво провокують та атакують ворогів у вказаній області."
                 }
             }
         },
@@ -1389,7 +1389,7 @@
                     "Hash": 3939383528,
                     "Id": "22842",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Heals you for {1}% health over {2} sec."
+                    "Text": "Зцілює вам {1}% від максимального здоров'я за {2} сек."
                 }
             }
         },
@@ -1419,7 +1419,7 @@
                     "Hash": 949491142,
                     "Id": "394081, 394083",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "When a Faerie Dragon is summoned, your spells deal {1}% increased damage for {2} sec."
+                    "Text": "Після виклику Чарівного дракончика, ваші заклинання завдають на {1}% більше шкоди впродовж {2} сек."
                 }
             }
         },
@@ -1449,7 +1449,7 @@
                     "Hash": 1320413628,
                     "Id": "81281, 88747, 88751",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Grow a magical mushroom at the target enemy's location. After {1} sec, the mushroom detonates, dealing {2} Nature damage and then an additional {3} Nature damage over {4} sec. Affected targets are slowed by {5}%.\r\n\r\nGenerates up to {6} Astral Power based on targets hit."
+                    "Text": "Вирощує магічний гриб у місці розташування ворога. Через {1} сек гриб вибухає, завдаючи {2} од. шкоди від сил природи та ще {3} од. шкоди від сил природи впродовж {4} сек. Уражені цілі сповільнюються на {5}%.\n\n\nГенерує до {6} од. астральної сили, залежно від кількості уражених ворогів."
                 }
             }
         },
@@ -1539,7 +1539,7 @@
                     "Hash": 922286312,
                     "Id": "201671",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Reduces the Rage cost of your next Ironfur by {1}%."
+                    "Text": "Зменшує витрати гніву на ваше наступне [Залізне хутро] на {1}%."
                 }
             }
         },
@@ -1635,19 +1635,19 @@
                     "Hash": 3341758149,
                     "Id": "108291, 108292, 108293, 108294, 319454",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {2}% and damage increased by {3}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%."
+                    "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Баланс:} Тривалість застосування заклинанань категорії \"Баланс\" зменшуєть на {2}%, а їх шкода збільшується на {3}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {4} {declension|очко|очки|очок} серії кожні {5} сек перебуваючи у формі Кота, а фізична шкода збільшується на {6}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {7}% Витривалості, а декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {8} {declension|заряд|заряди|заряді}\n\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {9}%, а витрати мани зменшуються на {10}%."
                 },
                 "5": {
                     "Hash": 2195969368,
                     "Id": "108291, 108292, 108293, 108294, 319454",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {2} Combo Point every {3} sec while in Cat Form and Physical damage increased by {4}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {5}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {6} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {7}%, and mana costs reduced by {8}%."
+                    "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек перебуваючи у формі Кота, а фізична шкода збільшується на {4}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {5}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {6} {declension|заряд|заряди|зарядів}.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {7}%, а витрати мани зменшуються на {8}%."
                 },
                 "6": {
                     "Hash": 2814886809,
                     "Id": "108291, 108292, 108293, 108294, 319454",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Abilities not associated with your specialization are substantially empowered for {1} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {2}% and damage increased by {3}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {4}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {5} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {6}%, and mana costs reduced by {7}%."
+                    "Text": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Баланс:} Тривалість застосування заклинанань категорії \"Баланс\" зменшуєть на {2}%, а їх шкода збільшується на {3}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {4}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {5} {declension|заряд|заряди|зарядів}.\n\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {6}%, а витрати мани зменшуються на {7}%."
                 },
                 "7": {
                     "Hash": 1890563967,
@@ -1905,7 +1905,7 @@
                     "Hash": 3721079656,
                     "Id": "33891",
                     "Spec": "Restoration",
-                    "Text": "Ви перевтілюєтесь у Дерево Життя, збільшуючи зцілення на {1}%, збільшуючи Броню на {2}%, та отримуєте захист від ефектів перетворення. Ефективність ваших [Омолодження], [Дикий ріст], [Відновлення] та [Сплетене коріння] покращується.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту."
+                    "Text": "Ви перевтілюєтесь у Дерево Життя, збільшуючи зцілення на {1}%, збільшуючи Броню на {2}%, та отримуєте захист від ефектів перетворення. Ефективність ваших [Омолодження], [Дикий ріст], [Відновлення] та [Заплутуючі корені] покращується.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту."
                 }
             }
         },
@@ -2913,7 +2913,7 @@
                     "Hash": 1173150104,
                     "Id": "354541",
                     "Spec": "Balance",
-                    "Text": "[Совине божевілля] може накопичуватися до {1} разів та зменшує час застосування вашого наступного [Циклон] або [Сплетене коріння] на {2}%."
+                    "Text": "[Совине божевілля] може накопичуватися до {1} разів та зменшує час застосування вашого наступного [Циклон] або [Заплутуючі корені] на {2}%."
                 }
             }
         },
@@ -3027,7 +3027,7 @@
                     "Hash": 1410909342,
                     "Id": "16974, 69369",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Ваші завершальні удари мають {1}% шанс за кожне очко серії зробити ваше наступне [Відновлення] або [Сплетене коріння] миттєвим, безвитратним та дозволити їх застосування у будь-якій формі."
+                    "Text": "Ваші завершальні удари мають {1}% шанс за кожне очко серії зробити ваше наступне [Відновлення] або [Заплутуючі корені] миттєвим, безвитратним та дозволити їх застосування у будь-якій формі."
                 }
             }
         },
@@ -5107,13 +5107,13 @@
         },
         "308": {
             "Hash": 1240368050,
-            "Name": "Expert Riding",
+            "Name": "Майстерна верхова їзда",
             "Descriptions": {
                 "0": {
                     "Hash": 1999408530,
                     "Id": "34090",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You can now ride flying mounts."
+                    "Text": "Тепер ви можете керувати літаючими засобами пересування."
                 }
             }
         },
