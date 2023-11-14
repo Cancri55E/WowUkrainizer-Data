@@ -63,7 +63,7 @@
                     "Hash": 1384373717,
                     "Id": "207640",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "For each Rejuvenation you have active, Regrowth's cost is reduced by {1}% and critical effect chance is increased by {2}%, up to a maximum of {3}%."
+                    "Text": "За кожне активне [Омолодження] витрати мани на [Відновлення] зменшуються на {1}%, а ймовірність критичного ефекту збільшується на {2}%, максимум до {3}%."
                 }
             }
         },
@@ -153,13 +153,13 @@
                     "Hash": 4151552766,
                     "Id": "391548",
                     "Spec": "Feral",
-                    "Text": "|T571586:24|tIncarnation: Avatar of Ashamane\r\nDuring Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                    "Text": "|T571586:24|t Втілення: Аватар Попелястогривої: \nПід час дії [Втілення: Аватар Попелястогривої] та ще впродовж {1} сек після закінчення, [Розрив] та [Роздирання] збільшують шкоду по цілях від ваших здібностей на {2}%.\n\n|T3636839:24|t Виклик духів: \nЧас відновлення [Виклик духів] зменшується на {3}%, а його тривалість дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати посилене заклинання або здібність."
                 },
                 "2": {
                     "Hash": 735692128,
                     "Id": "421440, 421442",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "During Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities."
+                    "Text": "Під час дії [Втілення: Аватар Попелястогривої] та ще впродовж {1} сек після закінчення, [Розрив] та [Роздирання] збільшують шкоду по цілях від ваших здібностей на {2}%."
                 }
             }
         },
@@ -177,7 +177,7 @@
                     "Hash": 1469757668,
                     "Id": "202359",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Generates {1} Astral Power."
+                    "Text": "Генерує {1} од. астральної сили."
                 }
             }
         },
@@ -249,13 +249,13 @@
                     "Hash": 3519776570,
                     "Id": "17057",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain {1} Rage upon shapeshifting into Bear Form."
+                    "Text": "Ви отримуєте {1} од. гніву при переході в [Форма ведмедя]."
                 },
                 "2": {
                     "Hash": 2073569067,
                     "Id": "270100",
                     "Spec": "Guardian",
-                    "Text": "Bear Form gives an additional {1}% Stamina.\r\n"
+                    "Text": "[Форма ведмедя] додатково дає {1}% Витривалості.\n"
                 }
             }
         },
@@ -285,91 +285,91 @@
                     "Hash": 1584824188,
                     "Id": "106951, 343216, 343223, 405189, 405191",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go Berserk for {1} sec. While Berserk:\r\n\r\nGenerate {2} combo [plural|point|points] every {3} sec. Combo point generating abilities generate {4} additional combo [plural|point|points]. Finishing moves restore up to {5} combo points generated over the cap.\r\n\r\nShred and Rake damage increased by {6}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Під час дії цього ефекту:\n\nВи отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек. Здібності, що генерують очки серії, додатково дають {4} {declension|очко|очки|очок} серії. Завершальні прийоми відновлюють до {5} {declension|очко|очки|очок} серії згенерованих понад ліміту.\n\nШкода від [Подрібнення] та [Роздирання] збільшується на {6}%."
                 },
                 "4": {
                     "Hash": 2829794168,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, and reducing the cost of Maul by {3}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка, збільшуючи вашу Швидкість на {2}% та зменшуючи витрати гніву на [Дроблення] на {3}%."
                 },
                 "5": {
                     "Hash": 2333363404,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Mangle, Thrash, and Growl by {2}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка, зменшуючи час відновлення [Нівечення], [Шмагання] і [Гарчання] на {2}%."
                 },
                 "6": {
                     "Hash": 1758813150,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Mangle, Thrash, and Growl by {3}%, and reducing the cost of Maul by {4}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Ваша Швидкість збільшується на {2}%, час відновлення [Нівечення], [Шмагання] та [Гарчання] зменшується на {3}%, а витрати ресурсу на [Дроблення] зменшуються на {4}%."
                 },
                 "7": {
                     "Hash": 831351962,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, and reducing the cost of Ironfur by {3}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, а витрати ресурсу на [Залізне хутро] зменшуються на {3}%."
                 },
                 "8": {
                     "Hash": 2230865750,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, and reducing the cost of Maul and Ironfur by {4}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Ваша Швидкість збільшується на {2}%, час відновлення [Шалена регенерація] зменшується на {3}%, а витрати ресурсу на [Дроблення] та [Залізне хутро] зменшуються на {4}%."
                 },
                 "9": {
                     "Hash": 1736270259,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, Mangle, Thrash, and Growl by {3}%, and reducing the cost of Ironfur by {4}%."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, а [Нівечення], [Шмагання] та [Гарчання] на {3}%, а витрати ресурсу на [Залізне хутро] зменшуються на {4}%."
                 },
                 "10": {
                     "Hash": 9409286,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "11": {
                     "Hash": 2853974572,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, and reducing the cost of Maul by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка, збільшуючи вашу Швидкість на {2}% та зменшуючи витрати гніву на [Дроблення] на {3}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "12": {
                     "Hash": 4131366128,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Mangle, Thrash, and Growl by {2}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка, зменшуючи витрати гніву на [Нівечення], [Шмагання] і [Гарчання] на {2}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "13": {
                     "Hash": 1301896901,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Mangle, Thrash, and Growl by {3}%, and reducing the cost of Maul by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка, збільшуючи вашу Швидкість на {2}% та зменшуючи витрати гніву на [Нівечення], [Шмагання] і [Гарчання] на {3}%, а витрати гніву на [Дроблення] на {4}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "14": {
                     "Hash": 838287625,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, and reducing the cost of Ironfur by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, а витрати ресурсу на [Залізне хутро] зменшуються на {3}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "15": {
                     "Hash": 4198850032,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, and reducing the cost of Maul and Ironfur by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Ваша Швидкість збільшується на {2}%, час відновлення [Шалена регенерація] зменшується на {3}%, а витрати ресурсу на [Дроблення] та [Залізне хутро] зменшуються на {4}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "16": {
                     "Hash": 233828701,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, Mangle, Thrash, and Growl by {3}%, and reducing the cost of Ironfur by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, [Нівечення], [Шмагання] і [Гарчання] на {3}%, а витрати ресурсу на [Залізне хутро] зменшуються на {4}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 },
                 "17": {
                     "Hash": 2136341917,
                     "Id": "50334",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, Mangle, Thrash, and Growl by {4}%, and reducing the cost of Maul and Ironfur by {5}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
+                    "Text": "На {1} сек ви перетворюєтесь на берсерка. Ваша Швидкість збільшується на {2}%, час відновлення [Шалена регенерація] зменшується на {3}%, а [Нівечення], [Шмагання] та [Гарчання] на {4}%, а витрати ресурсу на [Дроблення] та [Залізне хутро] зменшуються на {5}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем."
                 }
             }
         },
@@ -387,7 +387,7 @@
                     "Hash": 2062543282,
                     "Id": "384668, 391140",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "During Incarnation: Avatar of Ashamane your combo point-generating abilities bleed the target for an additional {1}% of their damage over {2} sec."
+                    "Text": "Під час дії [Інкарнація: Аватар Попелястогривої], ваші вміння, які генерують очки серії, викликають у цілі кровотечу, що завдає додатково {1}% від їх шкоди протягом {2} сек."
                 }
             }
         },
@@ -405,7 +405,7 @@
                     "Hash": 452126248,
                     "Id": "391174",
                     "Spec": "Feral",
-                    "Text": "Each combo point spent reduces the cooldown of Incarnation: Avatar of Ashamane by {1} sec."
+                    "Text": "Кожне витрачене очко серії зменшує час відновлення [Інкарнація: Аватар Попелястогривої] на {1} сек."
                 }
             }
         },
@@ -423,7 +423,7 @@
                     "Hash": 2703945193,
                     "Id": "203961, 203962",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Thrash also generates {1} Rage each time it deals damage, on up to {2} targets."
+                    "Text": "[Шмагання] також генерує {1} од. люті щоразу, коли воно завдає шкоди, максимум {2} цілям."
                 }
             }
         },
@@ -483,49 +483,49 @@
                     "Hash": 180472375,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals reduced damage beyond {2} targets.\r\n\r\n{FFFFFFFF|Awards {3} combo [plural|point|points].}"
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає зменшену шкоду цілям після {2}.\n\n{FFFFFFFF|Генерує {3} {declension|очко|очки|очок} серії.}"
                 },
                 "2": {
                     "Hash": 1648277451,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Deals reduced damage beyond {3} targets.\r\n\r\n{FFFFFFFF|Awards {4} combo [plural|point|points].}"
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Завдає зменшену шкоду цілям після {3}.\n\n{FFFFFFFF|Генерує {4} {declension|очко|очки|очок} серії.}"
                 },
                 "3": {
                     "Hash": 2820978393,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Applies the Bleed from Thrash. Deals reduced damage beyond {2} targets.\r\n\r\n{FFFFFFFF|Awards {3} combo [plural|point|points].}"
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Викликає кровотечу від [Шмагання]. Завдає зменшену шкоду цілям після {2}.\n\n{FFFFFFFF|Генерує {3} {declension|очко|очки|очок} серії.}"
                 },
                 "4": {
                     "Hash": 2605753913,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Applies the Bleed from Thrash. Deals reduced damage beyond {3} targets.\r\n\r\n{FFFFFFFF|Awards {4} combo [plural|point|points].}"
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Викликає кровотечу від [Шмагання]. Завдає зменшену шкоду цілям після {3}.\n\n{FFFFFFFF|Генерує {4} {declension|очко|очки|очок} серії.}"
                 },
                 "5": {
                     "Hash": 3645798770,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals reduced damage beyond {2} targets."
+                    "Text": "Атакує всіх ворогів поблизу потужним ріжучим ударом, завдаючи {1} од. фізичної шкоди. Завдає менше шкоди цілям після {2}."
                 },
                 "6": {
                     "Hash": 867813661,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Deals reduced damage beyond {3} targets."
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Завдає зменшену шкоду цілям після {3}."
                 },
                 "7": {
                     "Hash": 1638085064,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Applies the Bleed from Thrash. Deals reduced damage beyond {2} targets."
+                    "Text": "Атакує всіх ворогів поблизу потужним ріжучим ударом, завдаючи {1} од. фізичної шкоди. Викликає кровотечу від [Шмагання]. Завдає менше шкоди цілям після {2}."
                 },
                 "8": {
                     "Hash": 1077760319,
                     "Id": "202028",
                     "Spec": "Feral",
-                    "Text": "Strikes all nearby enemies with a massive slash, inflicting {1} Physical damage. Deals {2}% increased damage against bleeding targets. Applies the Bleed from Thrash. Deals reduced damage beyond {3} targets."
+                    "Text": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} од. фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Викликає кровотечу від [Шмагання]. Завдає зменшену шкоду цілям після {3}."
                 }
             }
         },
@@ -621,7 +621,7 @@
                     "Hash": 585385992,
                     "Id": "102352",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Heals the target for {1} every {2} sec for {3} sec."
+                    "Text": "Відновлює цілі {1} од. здоров'я кожні {2} сек впродовж {3} сек."
                 }
             }
         },
@@ -633,13 +633,13 @@
                     "Hash": 575999173,
                     "Id": "393371",
                     "Spec": "Restoration",
-                    "Text": "|T236157:24|t {ffffffff|Інкарнація: Дерево Життя}: \nПід час [Втілення: Дерево Життя] ви отримуєте [Чистий розум] на {1} сек. Час відновлення [Втілення: Дерево Життя] зменшується на {2} сек, коли [Житєцвіт] квітне, та на {3} сек, коли [Відновлення] критично зцілює.\n\n|T3636839:24|t {ffffffff|Викликання духів}: \nЧас відновлення [Виклик духів] зменшений на {4}%, а його тривалість дії та кількість заклинань зменшені на {5}%. [Виклик духів] має збільшений шанс використати особливі заклинання та здібності."
+                    "Text": "|T236157:24|t {ffffffff|Інкарнація: Дерево Життя}: \nПід час [Втілення: Дерево Життя] ви отримуєте [Чистий розум] на {1} сек. Час відновлення [Втілення: Дерево Життя] зменшується на {2} сек, коли [Житєцвіт] квітне, та на {3} сек, коли [Відновлення] критично зцілює.\n\n|T3636839:24|t {ffffffff|Виклик духів}: \nЧас відновлення [Виклик духів] зменшений на {4}%, а його тривалість дії та кількість заклинань зменшені на {5}%. [Виклик духів] має збільшений шанс використати особливі заклинання та здібності."
                 },
                 "1": {
                     "Hash": 2502561961,
                     "Id": "393371",
                     "Spec": "Restoration",
-                    "Text": "|T236157:24|t Incarnation: Tree of Life\r\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Grove Guardians fade.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+                    "Text": "|T236157:24|t Інкарнація: Дерево Життя: \nПід час [Втілення: Дерево Життя] ви викликаєте [Хранителя гаю] кожні {1} сек. Час відновлення [Втілення: Дерево Життя] зменшується на {2} сек, коли [Хранителя гаю] зникає.\n\n|T3636839:24|t Виклик духів: \nЧас відновлення [Виклик духів] зменшений на {3}%, а його тривалість дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати особливі заклинання та здібності."
                 }
             }
         },
@@ -699,25 +699,25 @@
                     "Hash": 2121615157,
                     "Id": "391528",
                     "Spec": "Restoration",
-                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec. Chance to use an exceptional spell or ability is increased.\r\n\r\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                    "Text": "Закликає Нічну фею для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Дикий ріст], [Швидке відновлення], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
                 },
                 "5": {
                     "Hash": 1607233187,
                     "Id": "391528",
                     "Spec": "Restoration",
-                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec. Chance to use an exceptional spell or ability is increased.\r\n\r\nYou will cast Starsurge, Starfall, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                    "Text": "Закликає Нічну фею для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Зоряний сплеск], [Зорепад], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
                 },
                 "6": {
                     "Hash": 235267472,
                     "Id": "391528",
                     "Spec": "Restoration",
-                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec. Chance to use an exceptional spell or ability is increased.\r\n\r\nYou will cast Ferocious Bite, Shred, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                    "Text": "Закликає Нічну фею для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Лютий укус], [Подрібнення], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
                 },
                 "7": {
                     "Hash": 3066285128,
                     "Id": "391528",
                     "Spec": "Restoration",
-                    "Text": "Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec. Chance to use an exceptional spell or ability is increased.\r\n\r\nYou will cast Mangle, Ironfur, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
+                    "Text": "Закликає Нічну фею для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Нівечення], [Залізне хутро], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Шмагання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
                 }
             }
         },
@@ -879,13 +879,13 @@
                     "Hash": 1245011776,
                     "Id": "391700",
                     "Spec": "Feral",
-                    "Text": "[Роздирання] також застосовує [Роздирання] на {1} {declension|додаткову ціль|додаткові цілі|додаткових цілей} \n поряд."
+                    "Text": "[Роздирання] також застосовує [Роздирання] на {1} {declension|додаткову ціль|додаткові цілі|додаткових цілей} поряд."
                 },
                 "1": {
                     "Hash": 2187614139,
                     "Id": "391700",
                     "Spec": "Feral",
-                    "Text": "Rake also applies Rake to {1} additional nearby [plural|Target|targets]."
+                    "Text": "[Роздирання] також застосовує [Роздирання] на {1} {declension|додаткову ціль|додаткові цілі|додаткових цілей} поряд."
                 }
             }
         },
