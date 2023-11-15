@@ -2715,7 +2715,7 @@
                     "Hash": 435178362,
                     "Id": "275779",
                     "Spec": "Protection",
-                    "Text": "Judges the target, dealing {1} Holy damage."
+                    "Text": "Засуджує ціль, завдаючи їй {1} од. шкоди від світлої магії."
                 },
                 "4": {
                     "Hash": 3324880080,
@@ -2727,7 +2727,7 @@
                     "Hash": 3480989097,
                     "Id": "275779",
                     "Spec": "Protection",
-                    "Text": "Judges the target, dealing {1} Holy damage, and causing them to take {2}% increased damage from your next Holy Power ability."
+                    "Text": "Засуджує ціль, завдаючи їй {1} од. шкоди від світлої магії, і збільшуючи на {2}% шкоду, яку вона отримає від застосування до неї вашої наступної здібності, що витрачає силу світла."
                 },
                 "6": {
                     "Hash": 2912919768,
@@ -2739,7 +2739,7 @@
                     "Hash": 3825709044,
                     "Id": "275779",
                     "Spec": "Protection",
-                    "Text": "Judges the target, dealing {1} Holy damage.\r\n\r\n|cFFFFFFFFGenerates {2} Holy Power."
+                    "Text": "Засуджує ціль, завдаючи їй {1} од. шкоди від світлої магії.\n\n|cFFFFFFFFгенерує {2} од. сили світла."
                 },
                 "8": {
                     "Hash": 909840689,
@@ -2757,7 +2757,7 @@
                     "Hash": 3954003733,
                     "Id": "275773",
                     "Spec": "Holy",
-                    "Text": "Judges the target, dealing {1} Holy damage, and preventing {2} damage dealt by the target."
+                    "Text": "Засуджує ціль, завдаючи їй {1} од. шкоди від світлої магії, і дозволяє уникнути {2} од. шкоди, якої вона вам завдасть."
                 },
                 "11": {
                     "Hash": 903735893,
@@ -4113,13 +4113,13 @@
                     "Hash": 2838061925,
                     "Id": "339376",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Wake of Ashes burns the target for an additional {FFFFFFFF|{1}%} damage over {2} sec."
+                    "Text": "[Пробудження з попелу] підпалює ціль, завдаючи додатково {FFFFFFFF|{1}%} шкоди протягом {2} сек."
                 },
                 "2": {
                     "Hash": 2164828472,
                     "Id": "383350, 383351",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Wake of Ashes burns the target for an additional {1}% damage over {2} sec."
+                    "Text": "[Пробудження з попелу] підпалює ціль, завдаючи додатково {1}% шкоди протягом {2} сек."
                 },
                 "3": {
                     "Hash": 654886499,
@@ -4131,7 +4131,7 @@
                     "Hash": 2561467212,
                     "Id": "403695",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Wake of Ashes slows targets by {1}% and burns the target for an additional {2} Radiant damage over {3} sec.\r\n"
+                    "Text": "[Пробудження з попелу] сповільнює цілі на {1}% та підпалює ціль, завдаючи додатково {2} од. шкоди від сяйва протягом {3} сек.\n"
                 }
             }
         },
@@ -4952,7 +4952,7 @@
                     "Hash": 1137805308,
                     "Id": "180290",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Wake of Ashes also generates {1} Holy Power and causes all enemies hit to burn for {2} Radiant damage over {3} sec."
+                    "Text": "[Пробудження з попелу] також генерує {1} од. сили світла та підпалює усіх вражених ворогів, завдаючи {2} од. шкоди від сяйва протягом {3} сек."
                 }
             }
         },
