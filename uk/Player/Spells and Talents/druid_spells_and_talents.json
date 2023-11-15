@@ -4671,7 +4671,7 @@
         },
         "279": {
             "Hash": 897665850,
-            "Name": "Вир Урсула",
+            "Name": "Вир Урсола",
             "Descriptions": {
                 "0": {
                     "Hash": 1141775622,
@@ -4971,7 +4971,7 @@
                     "Hash": 2519351518,
                     "Id": "279729",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Solar Empowerment causes Wrath to explode on impact for {1}% additional damage to all nearby enemies."
+                    "Text": "[Сонячне підсилення] підсилює [Гнів], внаслідок чого він вибухатиме при контакті, завдаючи {1}% додаткової шкоди усім ворогам поблизу."
                 }
             }
         },
@@ -4989,7 +4989,7 @@
                     "Hash": 465113665,
                     "Id": "145108, 145109, 145110",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Heals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead.\r\n\r\nHealing is increased by {3}% for each of your active Rejuvenations."
+                    "Text": "Зцілює вам {1}% від вашого максимального здоров'я кожні {2} сек. Якщо ваш запас здоров'я повний, то замість вас буде зцілено пораненого учасника групи або рейду.\n\nЗцілення збільшується на {3}% за кожний активний ефект [Омолодження]."
                 }
             }
         },
@@ -5031,7 +5031,7 @@
                     "Hash": 1101692576,
                     "Id": "405300",
                     "Spec": "Feral",
-                    "Text": "Shred deals {1}% increased damage against bleeding targets and Shred and Swipe apply the Bleed damage over time from Thrash."
+                    "Text": "[Подрібнення] завдає на {1}% більше шкоди цілям з ефектами кровотечі. [Подрібнення] та [Розмах] накладають періодичний ефект кровотечі від [Шмагання]."
                 }
             }
         },
@@ -5084,7 +5084,7 @@
                     "Hash": 2710279615,
                     "Id": "5421",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Increases swimming speed by {1}% and allow's the druid to breathe underwater."
+                    "Text": "Збільшує швидкість плавання на {1}% та дозволяє друїду дихати під водою."
                 }
             }
         },
@@ -5096,7 +5096,7 @@
                     "Hash": 931434725,
                     "Id": "16870, 113043",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your healing over time from Lifebloom has a {1}% chance to cause a Clearcasting state, making your next Regrowth cost no mana."
+                    "Text": "Ваше періодичне зцілення від [Життєцвіт] має {1}% шанс спричинити стан [Чистий розум], і ваше наступне [Відновлення] не коштуватиме мани."
                 }
             }
         },
@@ -5137,7 +5137,7 @@
                     "Hash": 3605070644,
                     "Id": "48517, 48518, 79577",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t Eclipse (Solar)\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t Eclipse (Lunar)\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
+                    "Text": "Застосувавши [Зоряний вогонь] {1} {declension|раз|рази|разів} ви підсилюєте [Гнів] на {2} сек. Застосувавши [Гнів] {3} {declension|раз|рази|разів} ви підсилюєте [Зоряний вогонь] на {4} сек.\n\n|T236152:24|t Затемнення (Сонячне)\nЗаклинання сил природи завдають {5}% додаткової шкоди, а шкода від [Гнів] збільшується на {6}%.\n\n|T236151:24|t Затемнення (Місячне)\nЗаклинання таємної магії завдають {7}% додаткової шкоди, а шкода, яку завдає [Зоряний вогонь] ворогам поблизу, збільшується на {8}%."
                 }
             }
         },
@@ -5159,7 +5159,7 @@
                     "Hash": 2935904794,
                     "Id": "52610",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Finishing move that increases damage by {1}% and energy regeneration rate by {2}% while in Cat Form. Lasts longer per combo point:\r\n\r\n   {3} point  : {4} seconds\r\n   {5} points: {6} seconds\r\n   {7} points: {8} seconds\r\n   {9} points: {10} seconds\r\n   {11} points: {12} seconds"
+                    "Text": "Завершальна атака, яка збільшує шкоду на {1}% та швидкість регенерації енергії на {2}% у формі Кота. Триває довще за кожне очко серії.\n\n   {3} {declension|очки|очки|очок}: {4} сек\n   {5} {declension|очки|очки|очок}: {6} сек\n   {7} {declension|очки|очки|очок}: {8} сек\n   {9} {declension|очки|очки|очок}: {10} сек\n   {11} {declension|очки|очки|очок}: {12} сек"
                 }
             }
         },
@@ -5171,7 +5171,7 @@
                     "Hash": 3296772243,
                     "Id": "58158",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Each time you shapeshift into Bear Form, your shapeshifted form will be randomly selected."
+                    "Text": "Щоразу, коли ви перетворюєтесь на ведмедя, ваша форма перетворення обиратиметься випадково."
                 }
             }
         },
@@ -5183,19 +5183,19 @@
                     "Hash": 2510302227,
                     "Id": "86093, 86104",
                     "Spec": "Balance, Restoration",
-                    "Text": "Increases your Intellect by {1}% while wearing only Leather armor."
+                    "Text": "Коли ви носите лише шкіряні обладунки, ваш Інтелект збільшується на {1}%."
                 },
                 "1": {
                     "Hash": 850736281,
                     "Id": "86096",
                     "Spec": "Guardian",
-                    "Text": "Increases your Stamina in Bear Form by {1}% while wearing only Leather armor."
+                    "Text": "Коли ви носите лише шкіряні обладунки, ваша Витривалість у формі Ведмедя збільшується на {1}%."
                 },
                 "2": {
                     "Hash": 2192591983,
                     "Id": "86097",
                     "Spec": "Feral",
-                    "Text": "Increases your Agility by {1}% while wearing only Leather armor."
+                    "Text": "Коли ви носите лише шкіряні обладунки, ваша Спритність збільшується на {1}%."
                 }
             }
         },
@@ -5236,7 +5236,7 @@
                     "Hash": 1785366601,
                     "Id": "114282",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Shapeshift into Treant Form."
+                    "Text": "Ви перетворюєтесь на дереваня."
                 }
             }
         },
@@ -5248,7 +5248,7 @@
                     "Hash": 1657346467,
                     "Id": "125972",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Reduces damage from falling while in Cat Form."
+                    "Text": "Зменшує шкоду від падіння у формі Кота."
                 }
             }
         },
@@ -5260,7 +5260,7 @@
                     "Hash": 2305580606,
                     "Id": "127757",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Allows the Druid to befriend an ambient creature, which will follow the Druid for {1} hour."
+                    "Text": "Друїд може приборкати дику тварину. Вона буде ходити за друїдом протягом {1} год."
                 }
             }
         },
@@ -5272,7 +5272,7 @@
                     "Hash": 3294184716,
                     "Id": "137542",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Bolts of lightning deal {1} damage to nearby enemies."
+                    "Text": "Блискавки, що завдають {1} од. шкоди ворогам поблизу."
                 }
             }
         },
@@ -5289,7 +5289,7 @@
                     "Hash": 47873328,
                     "Id": "157447",
                     "Spec": "Feral, Guardian",
-                    "Text": "Increases your chance to critically strike by {1}%."
+                    "Text": "Збільшує ваш шанс критичного удару на {1}%."
                 }
             }
         },
@@ -5301,13 +5301,13 @@
                     "Hash": 1540016020,
                     "Id": "164862",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You flap your wings, slowing your falling speed."
+                    "Text": "Ви махаєте крилами, сповільнюючи швидкість падіння."
                 },
                 "1": {
                     "Hash": 3703595865,
                     "Id": "164862",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You descend on starry dust, slowing your falling speed."
+                    "Text": "Ви спускаєтеся на зоряному пилу, сповільнюючи швидкість падіння."
                 }
             }
         },
@@ -5319,7 +5319,7 @@
                     "Hash": 897698013,
                     "Id": "171891",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your Starfall takes on a more solar appearance. "
+                    "Text": "Ваш зорепад набуває більш сонячного вигляду. "
                 }
             }
         },
@@ -5331,7 +5331,7 @@
                     "Hash": 286608571,
                     "Id": "188046, 188083, 394065, 394076",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for {1} sec."
+                    "Text": "Ваш [Місячний вогонь] та [Сонячний вогонь] мають шанс викликати Чарівного дракончика, який допомагатиме вам у бою протягом {1} сек."
                 }
             }
         },
@@ -5348,7 +5348,7 @@
                     "Hash": 1217398397,
                     "Id": "189877, 339064",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Wild Growth has a {1}% chance to cause your next Rejuvenation or Regrowth to apply to {2} additional allies within {3} yards of the target."
+                    "Text": "З {1}% шансом після застосування [Дикий ріст], ваше наступне [Відновлення] або [Омолодження] застосується на {2} {declension|додаткового союзника|додаткових союзників|додаткових союзників} в радіусі {3} м від цілі."
                 }
             }
         },
@@ -5360,13 +5360,13 @@
                     "Hash": 3931605061,
                     "Id": "193753",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Teleports the caster to the Emerald Dreamway.\r\n\r\nCasting Dreamwalk again while in the Emerald Dreamway will return you back to near your departure point."
+                    "Text": "Телепортує заклинателя у Смарагдовий снопровід.\n\nПовторне застосування [Снохід] у Смарагдовому снопроводі поверне вас у початкову точку."
                 },
                 "1": {
                     "Hash": 34410808,
                     "Id": "293887",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Teleports the caster to the Emerald Dreamway."
+                    "Text": "Телепортує заклинателя у Смарагдовий снопровід."
                 }
             }
         },
@@ -5378,13 +5378,13 @@
                     "Hash": 2559480112,
                     "Id": "197488",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T1029587:24|t Astral Influence\r\nIncreases the range of all of your abilities by {1} yards.\r\n\r\nYou also learn:\r\n\r\n|T136036:24|t Moonkin Form\r\n|T135730:24|t Starsurge\r\n|T135753:24|t Starfire\r\n|T236216:24|t Sunfire\r\n|T236170:24|tTyphoon"
+                    "Text": "Ви отримуєте:\n\n|T1029587:24|t Астральний вплив\nЗбільшує відстань дії усіх ваших здібностей на {1} м.\n\nВи також вивчаєте:\n\n|T136036:24|t Форма місячного совуха\n|T135730:24|t Зоряний сплеск\n|T135753:24|t Зоряний вогонь\n|T236216:24|t Сонячний вогонь\n|T236170:24|t Тайфун"
                 },
                 "1": {
                     "Hash": 2123161093,
                     "Id": "197632",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T1029587:24|t Astral Influence\r\nIncreases the range of all of your abilities by {1} yards.\r\n\r\nYou also learn:\r\n\r\n|T136036:24|t Moonkin Form\r\n|T135730:24|t Starsurge\r\n|T135753:24|t Starfire\r\n|T236170:24|tTyphoon"
+                    "Text": "Ви отримуєте:\n\n|T1029587:24|t Астральний вплив\nЗбільшує відстань дії усіх ваших здібностей на {1} м.\n\nВи також вивчаєте:\n\n|T136036:24|t Форма місячного совуха\n|T135730:24|t Зоряний сплеск\n|T135753:24|t Зоряний вогонь\n|T236170:24|t Тайфун"
                 }
             }
         },
@@ -5396,13 +5396,13 @@
                     "Hash": 2813525316,
                     "Id": "197490",
                     "Spec": "Balance, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T132120:24|t Feline Swiftness\r\nIncreases your movement speed by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132122:24|t Rake\r\n|T132152:24|t Rip\r\n|T134296:24|t Swipe\r\n|T132134:24|t Maim\r\n\r\nYour energy regeneration is increased by {2}%."
+                    "Text": "Ви отримуєте:\n\n|T1029587:24|t Котяча прудкість\nЗбільшує вашу швидкість пересування на {1}%.\n\nВи також вивчаєте:\n\n|T132122:24|t Роздирання\n|T132152:24|t Розрив\n|T134296:24|t Розмах\n|T132134:24|t Калічення\n\nВаша швидкість регенерації енергії збільшується на {2}%."
                 },
                 "1": {
                     "Hash": 4048208300,
                     "Id": "202155",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T132120:24|t Feline Swiftness\r\nIncreases your movement speed by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132122:24|t Rake\r\n|T132152:24|t Rip\r\n|T132134:24|t Maim\r\n\r\nYour energy regeneration is increased by {2}%."
+                    "Text": "Ви отримуєте:\n\n|T132120:24|t Котяча прудкість\nЗбільшує вашу швидкість пересування на {1}%.\n\nВи також вивчаєте:\n\n|T132122:24|t Роздирання\n|T132152:24|t Розрив\n|T132134:24|t Калічення\n\nВаша швидкість регенерації енергії збільшується на {2}%."
                 }
             }
         },
@@ -5414,13 +5414,13 @@
                     "Hash": 429357231,
                     "Id": "197491",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T134355:24|t Thick Hide\r\nReduces all damage taken by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T451161:24|t Thrash\r\n|T132091:24|t Frenzied Regeneration\r\n|T132121:24|t Incapacitating Roar"
+                    "Text": "Ви отримуєте:\n\n|T134355:24|t Товста шкіра\nЗменшує усю отримувану шкоду на {1}%.\n\nВи також вивчаєте:\n\n|T451161:24|t Шмагання\n|T132091:24|t Шалена регенерація\n|T132121:24|t Паралізуючий рев"
                 },
                 "1": {
                     "Hash": 2630252665,
                     "Id": "217615",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T134355:24|t Thick Hide\r\nReduces all damage taken by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132091:24|t Frenzied Regeneration\r\n|T132121:24|t Incapacitating Roar"
+                    "Text": "Ви отримуєте:\n\n|T134355:24|t Товста шкіра\nЗменшує усю отримувану шкоду на {1}%.\n\nВи також вивчаєте:\n\n|T132091:24|t Шалена регенерація\n|T132121:24|t Паралізуючий рев"
                 }
             }
         },
@@ -5432,13 +5432,13 @@
                     "Hash": 2609068874,
                     "Id": "197492",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T134157:24|t Ysera's Gift\r\nHeals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead.\r\n\r\nYou also learn:\r\n\r\n|T136081:24|t Rejuvenation\r\n|T134914:24|t Swiftmend\r\n|T236153:24|t Wild Growth\r\n|T571588:24|tUrsol's Vortex"
+                    "Text": "Ви отримуєте:\n\n|T134157:24|t Дар Ізери\nВідновлює вам {1}% від машого максимального здоров'я кожні {2} сек. Якщо ваше здоров'я повне, то замість вас зцілюється поранений учасник групи або рейду.\n\nВи також вивчаєте:\n\n|T136081:24|t Омолодження\n|T134914:24|t Швидке відновлення\n|T236153:24|t Дикий ріст\n|T571588:24|t Вир Урсола"
                 },
                 "1": {
                     "Hash": 2487128487,
                     "Id": "197492",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You gain:\r\n\r\n|T134157:24|t Ysera's Gift\r\nHeals you for {1}% of your maximum health every {2} sec. If you are at full health, an injured party or raid member will be healed instead.\r\n\r\nHealing is increased by {3}% for each of your active Rejuvenations.\r\n\r\nYou also learn:\r\n\r\n|T136081:24|t Rejuvenation\r\n|T134914:24|t Swiftmend\r\n|T236153:24|t Wild Growth\r\n|T571588:24|tUrsol's Vortex"
+                    "Text": "Ви отримуєте:\n\n|T134157:24|t Дар Ізери\nВідновлює вам {1}% від машого максимального здоров'я кожні {2} сек. Якщо ваше здоров'я повне, то замість вас зцілюється поранений учасник групи або рейду.\n\nЗцілення збільшується на {3}% за кожний активний ефект [Омолодження].\n\nВи також вивчаєте:\n\n|T136081:24|t Омолодження\n|T134914:24|t Швидке відновлення\n|T236153:24|t Дикий ріст\n|T571588:24|t Вир Урсола"
                 }
             }
         },
@@ -5450,7 +5450,7 @@
                     "Hash": 1383565787,
                     "Id": "202461",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Can cast while moving while inside Starfall."
+                    "Text": "Ви можете застосовувати закляття на ходу в області дії [Зорепад]."
                 }
             }
         },
@@ -5462,13 +5462,13 @@
                     "Hash": 909892303,
                     "Id": "202768",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Deals {1} Arcane damage to the target and empowers Half Moon to become Full Moon.\r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
+                    "Text": "Завдає цілі {1} од. шкоди від таємної магії та посилює [Півмісяць] до [Повний місяць].\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}"
                 },
                 "1": {
                     "Hash": 2612115477,
                     "Id": "274282",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Deals {1} Astral damage to the target and empowers Half Moon to become Full Moon.\r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
+                    "Text": "Завдає цілі {1} од. астральної шкоди та посилює [Півмісяць] до [Повний місяць].\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}"
                 }
             }
         },
@@ -5948,7 +5948,7 @@
         },
         "374": {
             "Hash": 1159225685,
-            "Name": "Renewing Bloom",
+            "Name": "Відновлювальний цвіт",
             "Descriptions": {
                 "0": {
                     "Hash": 3605287427,
@@ -5960,7 +5960,7 @@
         },
         "375": {
             "Hash": 1295773389,
-            "Name": "Celestial Pillar",
+            "Name": "Небесний стовп",
             "Descriptions": {
                 "0": {
                     "Hash": 2491545427,
@@ -5972,27 +5972,27 @@
         },
         "376": {
             "Hash": 287330735,
-            "Name": "Celestial Infusion",
+            "Name": "Небесне насичення",
             "Descriptions": {}
         },
         "377": {
             "Hash": 1124756377,
-            "Name": "Frenzied Assault",
+            "Name": "Шалений наступ",
             "Descriptions": {}
         },
         "378": {
             "Hash": 1762848023,
-            "Name": "Tear",
+            "Name": "Батування",
             "Descriptions": {}
         },
         "379": {
             "Hash": 565590960,
-            "Name": "Parting Skies",
+            "Name": "Розкол небес",
             "Descriptions": {}
         },
         "380": {
             "Hash": 3420240455,
-            "Name": "Touch the Cosmos",
+            "Name": "Дотик космосу",
             "Descriptions": {
                 "0": {
                     "Hash": 4010098160,
@@ -6004,7 +6004,7 @@
         },
         "381": {
             "Hash": 3027388955,
-            "Name": "Bloody Healing",
+            "Name": "Криваве зцілення",
             "Descriptions": {
                 "0": {
                     "Hash": 449056624,
@@ -6016,7 +6016,7 @@
         },
         "382": {
             "Hash": 3749622403,
-            "Name": "Critical Growth",
+            "Name": "Потужне розростання",
             "Descriptions": {
                 "0": {
                     "Hash": 4103508075,
@@ -6028,7 +6028,7 @@
         },
         "383": {
             "Hash": 2535820841,
-            "Name": "Swiping Mangle",
+            "Name": "Розмашисте нівечення",
             "Descriptions": {
                 "0": {
                     "Hash": 86131775,
@@ -6040,12 +6040,12 @@
         },
         "384": {
             "Hash": 2060520335,
-            "Name": "Overpowering Aura",
+            "Name": "Непереборна аура",
             "Descriptions": {}
         },
         "385": {
             "Hash": 3600706647,
-            "Name": "Crashing Star",
+            "Name": "Падаюча зірка",
             "Descriptions": {
                 "0": {
                     "Hash": 3273526423,
@@ -6057,7 +6057,7 @@
         },
         "386": {
             "Hash": 3266106722,
-            "Name": "Shadows of the Predator",
+            "Name": "Тіні хижака",
             "Descriptions": {
                 "0": {
                     "Hash": 1359233618,
@@ -6069,7 +6069,7 @@
         },
         "387": {
             "Hash": 395280799,
-            "Name": "Predator Revealed",
+            "Name": "Викритий хижак",
             "Descriptions": {
                 "0": {
                     "Hash": 2308417224,
@@ -6081,7 +6081,7 @@
         },
         "388": {
             "Hash": 3080745342,
-            "Name": "Furious Regeneration",
+            "Name": "Люта регенерація",
             "Descriptions": {
                 "0": {
                     "Hash": 3025850144,
@@ -6093,7 +6093,7 @@
         },
         "389": {
             "Hash": 1207789621,
-            "Name": "Indomitable Guardian",
+            "Name": "Незламний захисник",
             "Descriptions": {
                 "0": {
                     "Hash": 1981240743,
@@ -6111,7 +6111,7 @@
         },
         "390": {
             "Hash": 2123263883,
-            "Name": "Tenacious Flourishing",
+            "Name": "Стійке процвітання",
             "Descriptions": {
                 "0": {
                     "Hash": 3777017878,
@@ -6123,12 +6123,12 @@
         },
         "391": {
             "Hash": 2095118437,
-            "Name": "Blossoming Infusion",
+            "Name": "Квітуче насичення",
             "Descriptions": {}
         },
         "392": {
             "Hash": 3212704647,
-            "Name": "Rising Light, Falling Night - Day",
+            "Name": "Сходження світла, Падіння ночі -День",
             "Descriptions": {
                 "0": {
                     "Hash": 3063077230,
@@ -6140,7 +6140,7 @@
         },
         "393": {
             "Hash": 2893928069,
-            "Name": "Rising Light, Falling Night - Night",
+            "Name": "Сходження світла, Падіння ночі - Ніч",
             "Descriptions": {
                 "0": {
                     "Hash": 3554266574,
@@ -6152,7 +6152,7 @@
         },
         "394": {
             "Hash": 3546256011,
-            "Name": "Saber Jaws",
+            "Name": "Щелепи шаблезуба",
             "Descriptions": {
                 "0": {
                     "Hash": 612997265,
@@ -6164,7 +6164,7 @@
         },
         "395": {
             "Hash": 1654275850,
-            "Name": "Smoldering Frenzy",
+            "Name": "Тліюче шаленство",
             "Descriptions": {
                 "0": {
                     "Hash": 2590723067,
@@ -6176,7 +6176,7 @@
         },
         "396": {
             "Hash": 831259235,
-            "Name": "Burning Frenzy",
+            "Name": "Палаюче безумство",
             "Descriptions": {
                 "0": {
                     "Hash": 2272715444,
@@ -6188,7 +6188,7 @@
         },
         "397": {
             "Hash": 192367390,
-            "Name": "Dream Thorns",
+            "Name": "Шипи Сну",
             "Descriptions": {
                 "0": {
                     "Hash": 361558188,
@@ -6200,7 +6200,7 @@
         },
         "398": {
             "Hash": 1159944889,
-            "Name": "Blazing Thorns",
+            "Name": "Розпечені шипи",
             "Descriptions": {
                 "0": {
                     "Hash": 2631076102,
@@ -6212,7 +6212,7 @@
         },
         "399": {
             "Hash": 3765543576,
-            "Name": "Liveliness",
+            "Name": "Жвавість",
             "Descriptions": {
                 "0": {
                     "Hash": 2044478065,
