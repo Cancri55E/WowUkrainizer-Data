@@ -5480,13 +5480,13 @@
                     "Hash": 4050612222,
                     "Id": "202771",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Deals {1} Arcane damage to the target and reduced damage to all other nearby enemies, and resets Full Moon to become New Moon.\r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
+                    "Text": "Завдає цілі {1} од. шкоди від таємної магії та зменшену шкоду усім ворогам поряд, а також переводить [Повний місяць] у [Новий місяць].\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}"
                 },
                 "1": {
                     "Hash": 1955490566,
                     "Id": "274283",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Deals {1} Astral damage to the target and nearby enemies, and resets Full Moon to become New Moon. Deals reduced damage to secondary targets.\r\n\r\n{FFFFFFFF|Generates {2} Astral Power.}"
+                    "Text": "Завдає цілі та ворогам поряд {1} од. астральної шкоди, а також переводить [Повний місяць] у [Новий місяць]. Завдає зменшену шкоду неосновній цілі.\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}"
                 }
             }
         },
@@ -5498,7 +5498,7 @@
                     "Hash": 1211230532,
                     "Id": "203001, 394047",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Deals {1} Arcane damage."
+                    "Text": "Завдає {1} од. шкоди від таємної магії."
                 }
             }
         },
@@ -5522,7 +5522,7 @@
                     "Hash": 49672127,
                     "Id": "209405, 209406, 209407",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Starsurge and Starfall each have a {1}% chance to make the other free."
+                    "Text": "[Зоряний сплеск] та [Зорепад] із {1}% шансом дозволить застосувати наступне з цих двох заклять без витрат ресурсу."
                 }
             }
         },
@@ -5539,7 +5539,7 @@
                     "Hash": 195197681,
                     "Id": "210053",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Shapeshift into a mountable travel form, increasing movement speed by {1}%.  Also protects the caster from Polymorph effects.  Only usable outdoors.\r\n\r\nThe act of shapeshifting frees the caster of movement impairing effects."
+                    "Text": "Ви перевтілюєтесь у верхову мандрівну форму, збільшуючи вашу швидкість пересування  на {1}%. Також захищає заклинателя від ефектів [Перетворення]. Застосовується лише просто неба.\n\nЗміна форми звільняє заклинателя від ефектів обмеження руху."
                 }
             }
         },
@@ -5551,7 +5551,7 @@
                     "Hash": 1957797382,
                     "Id": "210650, 210655",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "When you shapeshift out of Cat Form, you gain {1}% increased dodge chance and armor for {2} sec or until you shapeshift back into Cat Form. Can only occur once every {3} sec."
+                    "Text": "Коли ви перевтілюєтесь з форми Кота, ваша ймовірність ухилення збільшується на {1}%, а броня на {2} сек або до повернення у форму Кота. Спрацьовує лише раз на {3} сек."
                 }
             }
         },
@@ -5563,7 +5563,7 @@
                     "Hash": 3265107522,
                     "Id": "210702, 210705",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your combo point generators against targets bleeding from your Rip have a {1}% chance to awaken the Spirit of Ashamane, which inflicts a Shadowy duplicate of that Rip on the target."
+                    "Text": "Ваші здібності, які генерують очки серії, застосовані проти ворогів з ефектом кровотечі від [Розрив], мають {1}% шанс пробудити Дух Попелястогривої, який застосовує тіньову копію [Розрив] на вашу ціль."
                 }
             }
         },
@@ -5580,7 +5580,7 @@
                     "Hash": 3182175329,
                     "Id": "210722, 210723",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Unleash Ashamane's Frenzy, clawing your target {1} times over {2} sec for {3} Physical damage and an additional {4} Bleed damage over {5} sec.\r\n\r\n{FFFFFFFF|Awards {6} combo [plural|point|points].}"
+                    "Text": "Вивільняє несамовиту лють, завдаючи вашій цілі од. {3} фізичної шкоди {1} {declension|раз|рази|разів} протягом {2} сек та додатково {4} од. шкоди від кровотечі протягом {5} сек.\n\n{FFFFFFFF|Дає {6} {declension|очко|очки|очок} серії.}"
                 }
             }
         },
@@ -5592,7 +5592,7 @@
                     "Hash": 3032287753,
                     "Id": "231437",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Allows your Travel Form to take on the form of a Lunarwing Owl."
+                    "Text": "Дозволяє вашій [Мандрівна форма] прийняти образ місяцекрилої сови."
                 }
             }
         },
@@ -5609,7 +5609,7 @@
                     "Hash": 2447016883,
                     "Id": "272873",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "While Celestial Alignment is active, your damaging spells call a Streaking Star, dealing an additional {1} damage when they are not a repeat of the previous ability."
+                    "Text": "Доки діє [Небесне вирівнювання], ваші шкідливі закляття викликають стрімку зірку, яка завдає {1} од. шкоди, якщо ви не застосовуєте одну й ту саму здібність повторно."
                 }
             }
         },
@@ -5621,7 +5621,7 @@
                     "Hash": 1548646815,
                     "Id": "276026",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Ferocious Bite has a {1}% chance per combo point to increase the damage of your next Maim by {2} per combo point."
+                    "Text": "З {1}% шансом за кожне оч. серії, [Лютий укус] може збільшити шкоду від вашого наступного [Калічення] на {2} од. за кожне оч. серії."
                 }
             }
         },
@@ -5633,7 +5633,7 @@
                     "Hash": 365528883,
                     "Id": "285564, 285646",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Each enemy hit by Thrash reduces the cost of Swipe by {1} Energy for the next {2} sec."
+                    "Text": "Кожний ворог, уражений вашим [Шмагання], зменшує витрати на [Розмах] на {1} од. енергії впродовж наступних {2} сек."
                 }
             }
         },
@@ -5645,7 +5645,7 @@
                     "Hash": 3957301161,
                     "Id": "289315",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Consuming Gore grants you {1} mastery for {2} sec and has a {3}% chance to activate Gore."
+                    "Text": "Поглинання ефекту [Грубий удар] дає вам {1} майстерності на {2} сек та {3}% шанс активувати [Грубий удар]."
                 }
             }
         },
@@ -5657,7 +5657,7 @@
                     "Hash": 2341590089,
                     "Id": "323557",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "For {1} sec, Druid spells you cast increase your damage and healing by {2}%, and haste by {3}%, stacking.\r\n\r\nIf you spend {4} sec idle, the Frenzy overcomes you, consuming {5}% of your health per stack, stunning you for {6} sec, and ending."
+                    "Text": "Впродовж {1} сек, друїдські закляття які ви застосовуєте збільшують шкоду та зцілення на {2}%, а швидкість на {3}%. Ефект накопичується.\n\nЯкщо ви нічого не робите протягом {4} сек, вас охоплює шаленство, поглинаючи {5}% вашого здоров'я за кожне накопичення та приголомшує вас {6} сек, після чого закінчується."
                 }
             }
         },
@@ -5669,7 +5669,7 @@
                     "Hash": 2887655597,
                     "Id": "326228",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "If you cast Innervate on somebody else, you gain its effect at {1}% effectiveness."
+                    "Text": "Застосувавши [Насичення] на когось іншого, ви отримаєте {1}% його ефекту."
                 }
             }
         },
@@ -5681,55 +5681,55 @@
                     "Hash": 3991522060,
                     "Id": "326446",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Damager}\r\nEnergize your bonded partner, granting them {2}% of your damage as additional Arcane damage, healing, or absorption.\r\n\r\n{FFFFFFFF|Damager Partner}\r\nThey energize you, granting you {3}% of their damage as additional Arcane damage, healing, or absorption."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Боєць}\nНаповнює енергію вашого зв'язаного напарника, підсилюючи його ефекти зцілення та поглинання на {2}% від вашої шкоди, а також його шкоду у цьому ж розмірі у вигляді шкоди від таємної магії.\n\n{FFFFFFFF|Боєць-напарник}\nНапарник підсилює вас, підсилюючи ваші ефекти зцілення та поглинання на {4}% від його шкоди, а також вашу шкоду у цьому ж розмірі у вигляді шкоди від таємної магії."
                 },
                 "1": {
                     "Hash": 2097410227,
                     "Id": "326446",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Tank}\r\nProtect your bonded partner, redirecting {2}% of damage they take to you, unless you fall below {3}% health.\r\n\r\n{FFFFFFFF|Damager Partner}\r\nThey energize you, granting you {4}% of their damage as additional Arcane damage, healing, or absorption."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Танк}\nВи захищаєте вашого зв'язаного напарника, перенаправляючи {2}% отриманої ним шкоди на себе, допоки ваш рівень здоров'я не впаде нижче {3}%.\n\n{FFFFFFFF|Боєць-напарник}\nНапарник підсилює вас, підсилюючи ваші ефекти зцілення та поглинання на {4}% від його шкоди, а також вашу шкоду у цьому ж розмірі у вигляді шкоди від таємної магії."
                 },
                 "2": {
                     "Hash": 2992249446,
                     "Id": "326446",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Healer}\r\nFocus on your bonded partner, replicating {2}% of all healing you deal onto them.\r\n\r\n{FFFFFFFF|Damager Partner}\r\nThey energize you, granting you {3}% of their damage as additional Arcane damage, healing, or absorption."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Цілитель}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {2}% усього вашого зцілення.\n\n{FFFFFFFF|Боєць-напарник}\nНапарник підсилює вас, підсилюючи ваші ефекти зцілення та поглинання на {3}% від його шкоди, а також вашу шкоду у цьому ж розмірі у вигляді шкоди від таємної магії."
                 },
                 "3": {
                     "Hash": 3013498528,
                     "Id": "326462",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Damager}\r\nEnergize your bonded partner, granting them {2}% of your damage as additional Arcane damage, healing, or absorption.\r\n\r\n{FFFFFFFF|Tank Partner}\r\nThey protect you, redirecting {3}% of damage you take to them, for {4} sec or until they fall below {5}% health."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Боєць}\nНаповнює енергію вашого зв'язаного напарника, підсилюючи його ефекти зцілення та поглинання на {2}% від вашої шкоди, а також його шкоду у цьому ж розмірі у вигляді шкоди від таємної магії.\n\n{FFFFFFFF|Танк-напарник}\nВас захищає ваш зв'язаний напарник, перенаправляючи {3}% отриманої вами шкоди на себе вродовж {4} сек або допоки його рівень здоров'я не впаде нижче {5}%."
                 },
                 "4": {
                     "Hash": 652775608,
                     "Id": "326462",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Tank}\r\nProtect your bonded partner, redirecting {2}% of damage they take to you, unless you fall below {3}% health.\r\n\r\n{FFFFFFFF|Tank Partner}\r\nThey protect you, redirecting {4}% of damage you take to them, for {5} sec or until they fall below {6}% health."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Танк}\nВи захищаєте вашого зв'язаного напарника, перенаправляючи {2}% отриманої ним шкоди на себе, допоки ваш рівень здоров'я не впаде нижче {3}%.\n\n{FFFFFFFF|Танк-напарник}\nВас захищає ваш зв'язаний напарник, перенаправляючи {4}% отриманої вами шкоди на себе вродовж {5} сек або допоки його рівень здоров'я не впаде нижче {6}%."
                 },
                 "5": {
                     "Hash": 1868022698,
                     "Id": "326462",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Healer}\r\nFocus on your bonded partner, replicating {2}% of all healing you deal onto them.\r\n\r\n{FFFFFFFF|Tank Partner}\r\nThey protect you, redirecting {3}% of damage you take to them, for {4} sec or until they fall below {5}% health."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Цілитель}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {2}% усього вашого зцілення.\n\n{FFFFFFFF|Танк-напарник}\nВас захищає ваш зв'язаний напарник, перенаправляючи {3}% отриманої вами шкоди на себе вродовж {4} сек або допоки його рівень здоров'я не впаде нижче {5}%."
                 },
                 "6": {
                     "Hash": 245643543,
                     "Id": "326647",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Damager}\r\nEnergize your bonded partner, granting them {2}% of your damage as additional Arcane damage, healing, or absorption.\r\n\r\n{FFFFFFFF|Healer Partner}\r\nThey focus on you, replicating {3}% of all healing they deal onto you."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Боєць}\nНаповнює енергію вашого зв'язаного напарника, підсилюючи його ефекти зцілення та поглинання на {2}% від вашої шкоди, а також його шкоду у цьому ж розмірі у вигляді шкоди від таємної магії.\n\n{FFFFFFFF|Цілитель-напарник}\nВаш напарник фокусуєтесь на вас, внаслідок чого ви отримуєте {3}% усього його зцілення."
                 },
                 "7": {
                     "Hash": 232641340,
                     "Id": "326647",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Tank}\r\nProtect your bonded partner, redirecting {2}% of damage they take to you, unless you fall below {3}% health.\r\n\r\n{FFFFFFFF|Healer Partner}\r\nThey focus on you, replicating {4}% of all healing they deal onto you."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Танк}\nВи захищаєте вашого зв'язаного напарника, перенаправляючи {2}% отриманої ним шкоди на себе, допоки ваш рівень здоров'я не впаде нижче {3}%.\n\n{FFFFFFFF|Цілитель-напарник}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {4}% усього вашого зцілення."
                 },
                 "8": {
                     "Hash": 1437070878,
                     "Id": "326647",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Empower the bond for {1} sec:\r\n\r\n{FFFFFFFF|Healer}\r\nFocus on your bonded partner, replicating {2}% of all healing you deal onto them.\r\n\r\n{FFFFFFFF|Healer Partner}\r\nThey focus on you, replicating {3}% of all healing they deal onto you."
+                    "Text": "Посилює зв'язок на {1} сек:\n\n{FFFFFFFF|Цілитель}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {2}% усього вашого зцілення.\n\n{FFFFFFFF|Цілитель-напарник}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {3}% усього вашого зцілення."
                 }
             }
         },
@@ -6158,7 +6158,7 @@
                     "Hash": 612997265,
                     "Id": "421432",
                     "Spec": "Feral",
-                    "Text": "When you spend extra Energy on Ferocious Bite, the extra damage is increased by {1}%.\r\n\r\n\r\n"
+                    "Text": "Коли ви витрачаєте додаткову енергію на [Лютий укус], додаткова шкода збільшується на {1}%.\n\n\n"
                 }
             }
         },
