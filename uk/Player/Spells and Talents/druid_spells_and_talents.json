@@ -5741,7 +5741,7 @@
                     "Hash": 2104590526,
                     "Id": "327022, 327139, 338411",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Energize your bonded partner, granting them {1}% of your damage as additional Arcane damage, healing, or absorption."
+                    "Text": "Наповнює енергію вашого зв'язаного напарника, підсилюючи його ефекти зцілення та поглинання на {1}% від вашої шкоди, а також його шкоду у цьому ж розмірі у вигляді шкоди від таємної магії."
                 }
             }
         },
@@ -5753,7 +5753,7 @@
                     "Hash": 1123128711,
                     "Id": "327037",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Protect your bonded partner, redirecting {1}% of damage they take to you, unless you fall below {2}% health."
+                    "Text": "Ви захищаєте вашого зв'язаного напарника, перенаправляючи {1}% отриманої ним шкоди на себе, допоки ваш рівень здоров'я не впаде нижче {2}%."
                 }
             }
         },
@@ -5765,7 +5765,7 @@
                     "Hash": 1477898542,
                     "Id": "327071, 327148",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Focus on your bonded partner, replicating {1}% of all healing you deal onto them."
+                    "Text": "Ви фокусуєтесь на вашому напарнику, внаслідок чого він отримує {1}% усього вашого зцілення."
                 }
             }
         },
@@ -5777,19 +5777,19 @@
                     "Hash": 3911587342,
                     "Id": "327097",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "{FFFFFFFF|Damager}\r\nEnergize your bonded partner, granting them {1}% of your damage as additional Arcane damage, healing, or absorption."
+                    "Text": "{FFFFFFFF|Боєць}\nНаповнює енергію вашого зв'язаного напарника, підсилюючи його ефекти зцілення та поглинання на {1}% від вашої шкоди, а також його шкоду у цьому ж розмірі у вигляді шкоди від таємної магії."
                 },
                 "1": {
                     "Hash": 3826999717,
                     "Id": "327097",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "{FFFFFFFF|Tank}\r\nProtect your bonded partner, redirecting {1}% of damage they take to you, unless you fall below {2}% health."
+                    "Text": "{FFFFFFFF|Танк}\nВи захищаєте вашого зв'язаного напарника, перенаправляючи {1}% отриманої ним шкоди на себе, допоки ваш рівень здоров'я не впаде нижче {2}%."
                 },
                 "2": {
                     "Hash": 623805635,
                     "Id": "327097",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "{FFFFFFFF|Healer}\r\nFocus on your bonded partner, replicating {1}% of all healing you deal onto them."
+                    "Text": "{FFFFFFFF|Цілитель}\nВи фокусуєтесь на вашому напарнику, внаслідок чого він отримує {1}% усього вашого зцілення."
                 }
             }
         },
@@ -5801,7 +5801,7 @@
                     "Hash": 1115906809,
                     "Id": "338142",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Connect with your inner spirit, increasing damage done by {1}% for {2} sec."
+                    "Text": "Ви возз'єднуєтеся з вашим внутрішнім духом, збільшуючи завдану вами шкоду на {1}% на {2} сек."
                 }
             }
         },
@@ -5813,7 +5813,7 @@
                     "Hash": 3089090622,
                     "Id": "338661, 339797, 339800, 393940, 393942, 393944",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Starsurge has a {1}% chance to make Starfall free. Starfall has a {2}% chance to make Starsurge free."
+                    "Text": "[Зоряний сплеск] має {1}% шанс зробити [Зорепад] безвитратним. [Зорепад] має {2}% шанс зробити [Зоряний сплеск] безвитратним."
                 }
             }
         },
@@ -5840,7 +5840,7 @@
                     "Hash": 2731171453,
                     "Id": "338831, 392301",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "You may Lifebloom two targets at once, but Lifebloom's healing is reduced by {1}%."
+                    "Text": "Ви можете одночасно застосовувати [Життєцвіт] на двох цілей, але зцілення зменшується на {1}%."
                 }
             }
         },
@@ -5852,7 +5852,7 @@
                     "Hash": 2740433429,
                     "Id": "339056, 345048",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "In Bear Form, Thrash has a {1}% chance to trigger an additional Thrash.\r\n\r\nThrash grants you an absorb shield for {2}% of all damage it deals."
+                    "Text": "У формі Ведмедя [Шмагання] має {1}% шанс активувати ще одне [Шмагання].\n\n[Шмагання] надає вам щит, що поглинає {2}% всієї завданої ним шкоди."
                 }
             }
         },
@@ -5864,13 +5864,13 @@
                     "Hash": 642926023,
                     "Id": "339062",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Berserk in Bear Form grants {1}% increased damage, {2}% Leech, and immunity to effects that cause loss of control of your character.\r\n\r\nIts cooldown is reduced by {3} sec."
+                    "Text": "[Берсерк] у формі Ведмедя збільшує шкоду на {1}%, надає {2}% самозцілення та імунітет до ефектів втрати контролю над персонажем.\n\nЙого час відновлення зменшується на {3} сек."
                 },
                 "1": {
                     "Hash": 3671357946,
                     "Id": "339062",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Incarnation: Guardian of Ursoc grants {1}% increased damage, {2}% Leech, and immunity to effects that cause loss of control of your character.\r\n\r\nIts cooldown is reduced by {3} sec."
+                    "Text": "[Втілення: Вартовий Урсока] збільшує шкоду на {1}%, надає {2}% самозцілення та імунітет до ефектів втрати контролю над персонажем.\n\nЙого час відновлення зменшується на {3} сек."
                 }
             }
         },
@@ -5882,7 +5882,7 @@
                     "Hash": 288226586,
                     "Id": "340059, 340060",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Every {1} sec while in combat, cast a spell based on your form:\r\n\r\nNo Form: Wild Growth\r\nCat Form: Primal Wrath\r\nBear Form: Barkskin\r\nMoonkin Form: Starfall\r\nTravel Form: Stampeding Roar"
+                    "Text": "Кожні {1} сек під час бою застосовується закляття на основі вашої поточної форми:\n\nБез форми: [Дикий ріст]\nФорма Кота: [Первісний гнів] \nФорма Ведмедя: [Дубова шкіра]\nФорма Місячної Сови: [Зорепад]\nМандрівна форма: [Тупітний рев]"
                 }
             }
         },
@@ -5894,7 +5894,7 @@
                     "Hash": 828916352,
                     "Id": "340613",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Mangle increases the damage of your next Maul by {FFFFFFFF|{1}%}, stacking up to {2}."
+                    "Text": "[Нівечення] збільшує шкоду від вашого наступного [Дроблення] на {FFFFFFFF|{1}%}. Накопичується до {2} разів."
                 }
             }
         },
@@ -5906,7 +5906,7 @@
                     "Hash": 2618583785,
                     "Id": "340688",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Rip damage has a {FFFFFFFF|{1}%} chance to grant {2} Energy."
+                    "Text": "Шкода від [Розрив] має {FFFFFFFF|{1}%} шанс згенерувати {2} од. енергії."
                 }
             }
         },
@@ -5918,7 +5918,7 @@
                     "Hash": 2299578366,
                     "Id": "343232",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "While stealthed, Shred generates {1} additional combo [plural|point|points]."
+                    "Text": "У стані непомітності [Подрібнення] генерує на {1} оч. серії більше."
                 }
             }
         },
@@ -5930,7 +5930,7 @@
                     "Hash": 1682892772,
                     "Id": "363789, 363793",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "While Berserked, you radiate {1} Cosmic damage to nearby enemies and heal yourself for {2} every {3} sec. Deals reduced damage beyond {4} targets."
+                    "Text": "Під час дії [Берсерк], ви опромінюєте ворогів поблизу, завдаючи {1} од. космічної шкоди, та зцілюєте себе на {2} од. здоров'я кожні {3} сек. Завдає зменшену шкоду більше як {4} цілям."
                 }
             }
         },
@@ -5942,7 +5942,7 @@
                     "Hash": 260031129,
                     "Id": "363830",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Entering Berserk causes you to strike all nearby enemies, dealing {1} Bleed damage over {2} sec. Deals reduced damage beyond {3} targets."
+                    "Text": "При активації [Берсерк] ви вражаєте усіх ворогів поблизу, завдаючи {1} од. шкоди від кровотечі впродовж {2} сек. Завдає зменшену шкоду більше як {3} цілям."
                 }
             }
         },
@@ -5954,7 +5954,7 @@
                     "Hash": 3605287427,
                     "Id": "364686",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Healing from Rejuvenation has a {1}% chance to grant Renewing Bloom, healing {2} over {3} sec. Swiftmend can consume Renewing Bloom. "
+                    "Text": "Зцілення від [Омолодження] із шансом у {1}% може надати ефект [Відновлювальний цвіт], який зцілює {2} од. здоров'я протягом {3} сек. [Швидке відновлення] може поглинути ефект [Відновлювальний цвіт]. "
                 }
             }
         },
@@ -5966,7 +5966,7 @@
                     "Hash": 2491545427,
                     "Id": "365478, 367907",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Entering Lunar Eclipse creates a Fury of Elune at {1}% effectiveness that follows your current target for {2} sec."
+                    "Text": "Вхід у [Місячне затемнення] створює [Лють Елуни] із {1}% ефективністю, яка переслідує вашу поточну ціль впродовж {2} сек."
                 }
             }
         },
@@ -5998,7 +5998,7 @@
                     "Hash": 4010098160,
                     "Id": "394414",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "When you enter Eclipse, your next Starsurge or Starfall costs {1} less Astral Power and deals {2}% increased damage."
+                    "Text": "Коли ви входите у [Затемнення], ваш наступний [Зоряний сплеск] або [Зорепад] витратить на {1} од. астральної сили менше та завдасть на {2}% більше шкоди."
                 }
             }
         },
@@ -6010,7 +6010,7 @@
                     "Hash": 449056624,
                     "Id": "394504",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Gore has a {1}% increased chance to trigger. Using Mangle with Gore heals you for {2} over {3} sec."
+                    "Text": "Шанс спрацювання [Грубий удар] збільшується на {1}%. Застосування [Нівечення] з [Грубий удар] зцілює вас на {2} од. здоров'я впродовж {3} сек."
                 }
             }
         },
@@ -6022,7 +6022,7 @@
                     "Hash": 4103508075,
                     "Id": "394565",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Efflorescence critical heals increase the healing of your next Wild Growth by {1}%, stacking up to {2} times. Lifebloom critical heals reduces the cooldown of Nature's Swiftness by {3} sec."
+                    "Text": "Критичне зцілення від [Розквіт] збільшує зцілення від вашого наступного [Дикий ріст] на {1}%, накопичуючись до {2} разів. Критичне зцілення від [Життєцвіт] з меншою час відновлення [Стрімкість природи] на {3} сек."
                 }
             }
         },
@@ -6034,7 +6034,7 @@
                     "Hash": 86131775,
                     "Id": "395942, 395944",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Using Mangle with Gore also deals {1}% of damage dealt to nearby enemies, damage reduced beyond {2} targets. It also increases your damage done and reduces damage you take by {3}% for {4} sec."
+                    "Text": "Застосування [Нівечення] з [Грубий удар] також завдає {1}% шкоди ворогам поблизу. Здійснює зменшену шкоду більше як {2} цілям. Також збільшує завдану вами шкоду та зменшує вхідну шкоду на {3}% на {4} сек."
                 }
             }
         },
@@ -6051,7 +6051,7 @@
                     "Hash": 3273526423,
                     "Id": "408310",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Shooting Stars has a {1}% chance to instead call down a Crashing Star, dealing {2} Astral damage to the target and generating {3} Astral Power."
+                    "Text": "[Падаючі зірки] із {1}% шансом миттєво викликають [Падаюча зірка], яка завдає {2} од. астральної шкоди цілі та генерує {3} од. астральної сили."
                 }
             }
         },
@@ -6063,7 +6063,7 @@
                     "Hash": 1359233618,
                     "Id": "408340",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "Your auto-attacks have a {1}% chance to grant Shadows of the Predator, increasing your Agility by {2}%. Each application past {3} has an increasing chance to reset to {4} stacks."
+                    "Text": "Ваші автоатаки із {1}% шансом можуть накласти ефект [Тіні хижака], збільшуючи вашу Спритність на {2}%. Кожний ефект після {3} може скинути їх кількість до {4}."
                 }
             }
         },
@@ -6075,7 +6075,7 @@
                     "Hash": 2308417224,
                     "Id": "408468, 411344",
                     "Spec": "Balance, Feral, Guardian, Restoration",
-                    "Text": "When a Shadows of the Predator application resets stacks, you gain {1}% increased Agility and you generate {2} combo point every {3} secs for {4} sec."
+                    "Text": "Коли [Тіні хижака] скидають накопичення ефекту, ваша спритність збільшується на {1}% та ви генеруєте {2} оч. серії кожні {3} сек впродовж {4} сек."
                 }
             }
         },
