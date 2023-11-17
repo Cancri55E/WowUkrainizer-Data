@@ -171,7 +171,7 @@
                     "Hash": 4030837555,
                     "Id": "81749, 94472, 194384, 214206",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Power Word: Shield applies Atonement to your target for {1} sec.\r\n\r\nYour spell damage heals all targets affected by Atonement for {2}% of the damage done. \r\n\r\nHealing increased by {3}% when not in a raid."
+                    "Text": "[Слово сили: Щит] застосовує [Покуття] на вашу ціль на {1} сек.\n\nШкода від ваших заклять зцілює всі цілі з ефектом [Покуття] на {2}% від завданої шкоди.\n\nЗцілення збільшується на {3}% поза рейдом."
                 }
             }
         },
@@ -237,7 +237,7 @@
                     "Hash": 990856348,
                     "Id": "355851",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "The damage of Smite and Penance is increased by {1}%, and Penance increases or decreases your target's movement speed by {2}% for {3} sec."
+                    "Text": "Шкода від [Кара] та [Сповідь] збільшується на {1}%, а [Сповідь] збільшує або зменшує швидкість пересування цілі на {2}% на {3} сек."
                 }
             }
         },
@@ -549,7 +549,7 @@
                     "Hash": 2806616070,
                     "Id": "392511",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Your Shadow Word: Pain damage has a chance to reset the cooldown of Shadow Word: Death, increase its damage by {1}%, and deal damage as if striking a target below {2}% health."
+                    "Text": "Шкода від вашого [Слово тіні: Біль], має шанс миттєво відновити [Слово тіні: Смерть], збільшуючи його шкоду на {1}% та завдає шкоду, наче рівень здоров'я цілі нижчий {2}%."
                 }
             }
         },
@@ -615,7 +615,7 @@
                     "Hash": 3116373535,
                     "Id": "528",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Dispels Magic on the enemy target, removing {1} beneficial Magic [plural|effect|effects]."
+                    "Text": "Розвіює магію на цілі, знімаючи з неї {1} {declension|корисний магічний ефект|корисні магічні ефекти|корисних магічних ефектів}]."
                 }
             }
         },
@@ -717,7 +717,7 @@
                     "Hash": 3023695897,
                     "Id": "122121",
                     "Spec": "Shadow",
-                    "Text": "Throw a Divine Star forward {1} yds, healing allies in its path for {2} and dealing {3} Shadow damage to enemies. After reaching its destination, the Divine Star returns to you, healing allies and damaging enemies in its path again. Healing reduced beyond {4} targets."
+                    "Text": "Ви кидаєте божественну зірку на {1} м перед собою, яка зцілює усіх союзників на {2} од. здоров'я і завдає {3} од. шкоди від світлої магії усім ворогам на своєму шляху. Досягнувши цілі, зірка повернеться, зцілюючи союзників і завдаючи шкоди ворогам повторно. Зцілення зменшується, якщо цілей більше {4}."
                 }
             }
         },
@@ -759,7 +759,7 @@
                     "Hash": 3651242601,
                     "Id": "205364",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Controls a mind up to {1} level above yours for {2} sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings. This spell shares diminishing returns with other disorienting effects."
+                    "Text": "Бере ціль, чий рівень може бути більшим за ваш максимум на {1}, під контроль на {2} сек, зберігаючи при цьому контроль над собою. Не можна застосовувати проти демонічних, механічних або немертвих істот. Знижує свою ефективність при застосуванні з іншими ефектами дезорієнтації."
                 }
             }
         },
@@ -975,13 +975,13 @@
                     "Hash": 1424699309,
                     "Id": "45242, 45243, 426401",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Melee attacks against you cause you to gain Focused Will, reducing magic damage you take by {1}% and physical damage you take by {2}% for {3} sec, stacking up to {4} times."
+                    "Text": "Направлені проти вас атаки ближнього бою дають вам ефект [Осередок волі], що зменшує вхідну магічну шкоду на {1}%, а фізичну шкоду на {2}% на {3} сек. Накопичується до {4} разів."
                 },
                 "3": {
                     "Hash": 2186276064,
                     "Id": "45242, 45243, 426401",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Melee attacks against you cause you to gain Focused Will, reducing magic damage you take by {1}% and physical damage you take by {2}% for {3} sec."
+                    "Text": "Направлені проти вас атаки ближнього бою дають вам ефект [Осередок волі], що зменшує вхідну магічну шкоду на {1}%, а фізичну шкоду на {2}% на {3} сек."
                 }
             }
         },
@@ -1101,7 +1101,7 @@
                     "Hash": 2867178713,
                     "Id": "120644",
                     "Spec": "Shadow",
-                    "Text": "Creates a ring of Shadow energy around you that quickly expands to a {1} yd radius, healing allies for {2} and dealing {3} Shadow damage to enemies. Healing reduced beyond {4} targets."
+                    "Text": "Створює навколо вас кільце темної енергії, що швидко розширюється до {1} м радіусу та відновлює союзникам {2} од. здоров'я та завдає ворогам {3} од. шкоди від темної магії. Зцілення зменшується, якщо цілей більше {4}."
                 }
             }
         },
@@ -1143,7 +1143,7 @@
                     "Hash": 1405298616,
                     "Id": "373183",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Power Word: Radiance causes your next Penance to fire {1} additional [plural|bolt|bolts], stacking up to {2} times."
+                    "Text": "Після застосування [Слово сили: Сяяння], ваша наступна [Сповідь] випустить ще {1} {declension|додаткову стрілу|додаткові стріли|додаткових стріл}. Накопичується до {2} разів."
                 }
             }
         },
@@ -1185,13 +1185,13 @@
                     "Hash": 4153694623,
                     "Id": "14914",
                     "Spec": "Holy",
-                    "Text": "Consumes the enemy in Holy flames that cause {1} Holy damage and an additional {2} Holy damage over {3} sec. Stacks up to {4} times."
+                    "Text": "Спопеляє ворога у святому полум'ї, завдаючи {1} од. шкоди від світлої магії та додатково {2} од. шкоди від світлої магії протягом {3} сек. Накопичується до {4} разів."
                 },
                 "2": {
                     "Hash": 176461963,
                     "Id": "231687",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Smite and Holy Nova have a {1}% chance to reset the cooldown of Holy Fire, and Holy Fire's damage over time effect can stack up to {2} times."
+                    "Text": "[Кара] та [Священний спалах] з {1}% шансом миттєво відновлюють [Священний вогонь], а його ефект періодичної шкоди може накопичуватися до {2} разів."
                 }
             }
         },
@@ -1245,19 +1245,19 @@
                     "Hash": 1193331610,
                     "Id": "88625, 200196, 200200",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Chastises the target for {1} Holy damage and incapacitates them for {2} sec."
+                    "Text": "Карає ціль, завдаючи {1} од. шкоди від світлої магії та паралізує її на {2} сек."
                 },
                 "2": {
                     "Hash": 2882270453,
                     "Id": "88625, 200196, 200200",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Chastises the target for {1} Holy damage and stuns them for {2} sec."
+                    "Text": "Карає ціль, завдаючи {1} од. шкоди від світлої магії та приголомшує її на {2} сек."
                 },
                 "3": {
                     "Hash": 3372132834,
                     "Id": "88625, 200196, 200200",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Chastises the target for {1} Holy damage and stuns them for {2} sec.\r\n\r\n{FFFFFFFF|Cooldown reduced by {3} sec when you cast Smite.}"
+                    "Text": "Карає ціль, завдаючи {1} од. шкоди від світлої магії та приголомшує її на {2} сек.\n\n{FFFFFFFF|При застосуванні [Кара], час відновлення зменшується на {3} сек.}"
                 }
             }
         },
@@ -1299,7 +1299,7 @@
                     "Hash": 2603467027,
                     "Id": "2050",
                     "Spec": "Holy",
-                    "Text": "Perform a miracle, healing an ally for {1}."
+                    "Text": "Робить диво, зцілюючи союзнику {1} од. здоров'я."
                 }
             }
         },
@@ -1323,7 +1323,7 @@
                     "Hash": 2885288500,
                     "Id": "377355",
                     "Spec": "Discipline, Holy, Shadow",
-                    "Text": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t Mind Flay\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|tMind Sear\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
+                    "Text": "[Катування свідомості], [Пронизування свідомості] і [Потік порожнечі] мають шанс породити Мацак Порожнечі або Батіг Порожнечі, які підтримують [Вигорання свідомості] на вашій цілі.\n\n|T136208:24|t Катування свідомост\nАтакує розум цілі темною енергією, завдаючи {1} од. шкоди від темної магії протягом {2} сек і сповільнюючи її на {3}%.\n\n{FFFFFFFF|Генерує {4} од. безумства протягом дії.}\n\n|T237565:24|t Вигорання свідомості\nЦіль випромінює їдку темну енергію, що завдає {5} од. шкоди від темної магії протягом {6} сек усім ворогам в радіусі {7} м від цілі. Завдає зменшену шкоду більше як {8} цілям.\n\n{FFFFFFFF|Генерує {9} од. безумства протягом дії.}"
                 },
                 "3": {
                     "Hash": 836632688,
