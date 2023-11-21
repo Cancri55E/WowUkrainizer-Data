@@ -1821,7 +1821,7 @@
                     "Hash": 1172963259,
                     "Id": "209202",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Releases a blinding flash from {FFFFCC99|Truthguard}, causing {1} Holy damage to all nearby enemies within {2} yds and reducing all damage they deal to you by {3}% for {4} sec."
+                    "Text": "{FFFFCC99|Truthguard} випромінює сліпучий спалах, що завдає {1} од. шкоди від світлої магії всім ворогам на відстані до {2} м та зменшує на {3}% всю шкоду, яку вони завдадуть вам протягом наступних {4} сек."
                 }
             }
         },
@@ -1923,7 +1923,7 @@
                     "Hash": 2489129649,
                     "Id": "336872, 337228",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Unleashes a powerful weapon strike that deals {1} Holy damage to an enemy target.\r\n\r\nHas a {2}% chance to activate Hammer of Wrath and reset its cooldown."
+                    "Text": "Потужний удар зброєю завдає ворожій цілі {1} од. шкоди від світлої магії.\n\nЗ ймовірністю {2}% активує [Молот гніву] та скидає час до його відновлення."
                 },
                 "2": {
                     "Hash": 592990284,
@@ -2031,7 +2031,7 @@
                     "Hash": 3277260131,
                     "Id": "339119",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Consecration heals you for {FFFFFFFF|{1}} every {2} sec while standing within it."
+                    "Text": "[Освячення] зцілює вас на {FFFFFFFF|{1}} од. кожні {2} сек, поки ви знаходитесь у його межах."
                 }
             }
         },
@@ -2229,7 +2229,7 @@
                     "Hash": 3038996084,
                     "Id": "53595, 88263",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Hammers the current target for {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Holy Power."
+                    "Text": "Ви вдаряєте вибрану ціль молотом, завдаючи {1} од. фізичної шкоди.\n\n|cFFFFFFFFГенерує {2} од. сили світла."
                 }
             }
         },
@@ -2253,13 +2253,13 @@
                     "Hash": 2986016712,
                     "Id": "24275",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Hurls a divine hammer that strikes an enemy for {1} Holystrike damage. Only usable on enemies that have less than {2}% health.\r\n\r\n|cFFFFFFFFGenerates {3} Holy Power."
+                    "Text": "Ви кидаєте божественний молот, який вражає ворога, завдаючи йому {1} од. шкоди від світлої магії. Можна застосовувати тільки до ворогів, які мають менше ніж {2}% здоров'я.\n\n|cFFFFFFFFГенерує {3} од. сили світла."
                 },
                 "3": {
                     "Hash": 515198424,
                     "Id": "24275",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Hurls a divine hammer that strikes an enemy for {1} Holystrike damage. Only usable on enemies that have less than {2}% health, or during Avenging Wrath.\r\n\r\n|cFFFFFFFFGenerates {3} Holy Power."
+                    "Text": "Ви кидаєте божественний молот, який вражає ворога, завдаючи йому {1} од. шкоди від світлої магії. Можна застосовувати тільки до ворогів, які мають менше ніж {2}% здоров'я, або під час дії ефекту [Гнів помсти].\n\n|cFFFFFFFFГенерує {3} од. сили світла."
                 },
                 "4": {
                     "Hash": 2507892529,
@@ -2415,7 +2415,7 @@
                     "Hash": 3640606206,
                     "Id": "272906",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Holy Shock has an additional {1}% chance to crit."
+                    "Text": "[Святе потрясіння] має збільшену на {1}% ймовірність критичної дії."
                 }
             }
         },
@@ -2535,13 +2535,13 @@
                     "Hash": 858693173,
                     "Id": "385464",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Кожна витрачена вами одиниця сили світла з ймовірністю {1}% може спричинити спалах вашого [Освячення], завдаючи {2} од. шкоди від світлої магії до {3} ворогам, що потраплять в зону його дії."
+                    "Text": "Кожна витрачена вами одиниця сили світла з ймовірністю {1}% може спричинити спалах вашого [Освячення], завдаючи {2} од. шкоди від світлої магії {3} ворогам, що потраплять в зону його дії."
                 },
                 "1": {
                     "Hash": 632625834,
                     "Id": "385752, 385816",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Each Holy Power you spend has a {1}% chance to cause your Consecration to flare up, dealing medium Holy damage to up to {2} enemies standing within it."
+                    "Text": "Кожна витрачена вами одиниця сили світла з ймовірністю {1}% може спричинити спалах вашого [Освячення], завдаючи середню шкоду від світлої магії {2} ворогам, що потраплять в зону його дії."
                 }
             }
         },
@@ -2577,13 +2577,13 @@
                     "Hash": 2349738658,
                     "Id": "53576",
                     "Spec": "Holy",
-                    "Text": "Якщо ваше [Святе потрясіння] завдає критичної дії, покращується ваше наступне застосування здібності:\n\n{ffffffff|Спалах світла}: Витрати мани зменшено на {1}%\n{ffffffff|Світло святості}: Генерує {2} од. сили світла.\n{ffffffff|Правосуддя}: [Вищий суд] дозволяє уникнути додатково ще {3}% шкоди, завданих ціллю."
+                    "Text": "Критична дія вашої здібності [Святе потрясіння] посилює наступне застосування ваших здібностей:\n\n{ffffffff|Спалах світла}: Витрати мани зменшено на {1}%\n{ffffffff|Світло святості}: Генерує {2} од. сили світла.\n{ffffffff|Правосуддя}: [Вищий суд] дозволяє уникнути додатково ще {3}% шкоди, завданих ціллю."
                 },
                 "2": {
                     "Hash": 942772405,
                     "Id": "53576, 54149",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Your critical Holy Shocks empower your next spell cast:\r\n\r\nFlash of Light: Mana cost reduced by {1}%\r\nHoly Light: Generates {2} Holy Power.\r\nJudgment: Greater Judgment prevents an additional {3}% damage dealt by the target."
+                    "Text": "Критична дія вашої здібності [Святе потрясіння] посилює наступне застосування ваших здібностей:\n\n[Спалах світла]: Витрати мани зменшено на {1}%\n[Світло святості]: Генерує {2} од. сили світла.\n[Правосуддя]: [Вищий суд] дозволяє уникнути додатково ще {3}% шкоди, завданих ціллю."
                 }
             }
         },
@@ -2613,7 +2613,7 @@
                     "Hash": 4000780406,
                     "Id": "275481, 275483",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "When Shield of the Righteous expires, gain {1} Block and deal {2} Holy damage to all attackers for {3} sec."
+                    "Text": "Коли закінчується дія [Щит праведника], ви отримуєте {1} блокування і завдаєте {2} од. шкоди від світлої магії всім нападникам протягом {3} сек."
                 }
             }
         },
@@ -2763,7 +2763,7 @@
                     "Hash": 903735893,
                     "Id": "315867",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Judgment generates {1} Holy Power."
+                    "Text": "[Правосуддя] генерує {1} од. сили світла."
                 },
                 "12": {
                     "Hash": 2107023322,
@@ -2787,7 +2787,7 @@
                     "Hash": 2988368265,
                     "Id": "408383",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Judgment deals {1}% increased damage and increases your movement speed by {2}% for {3} sec.\r\n\r\nIf you have Greater Judgment, Judgment slows enemies by {4}% for {5} sec."
+                    "Text": "[Правосуддя] завдає на {1}% більше шкоди та збільшує вашу швидкість пересування на {2}% протягом {3} сек.\n\nЯкщо у вас є [Вищий суд], [Правосуддя] сповільнює ворогів на {4}% на {5} сек."
                 }
             }
         },
@@ -2805,7 +2805,7 @@
                     "Hash": 1587646233,
                     "Id": "183778",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Judgment causes the next {1} successful attacks against the target to heal the attacker for {2}. This effect can only occur once every {3} sec on each target."
+                    "Text": "Наступні {1} успішних атак по цілі, яку вразило ваше [Правосуддя], зцілюють атакуючого на {2}. Цей ефект може спрацьовувати раз в {3} сек на кожній цілі."
                 }
             }
         },
@@ -2853,7 +2853,7 @@
                     "Hash": 1227695256,
                     "Id": "215661, 408394",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Focuses Holy energy to deliver a powerful weapon strike that deals {1} Holystrike damage, and restores {2}% of your maximum health.\r\n\r\nDamage is increased by {3}% when used against a stunned target."
+                    "Text": "Зосереджує енергію світла щоб завдати потужного удару, який завдає {1} од. шкоди від світлої магії та відновлює {2}% вашого максимального запасу здоров'я.\n\nЯкщо на ціль діють ефекти приголомшення, вона отримає на {3}% більше шкоди."
                 }
             }
         },
@@ -2901,7 +2901,7 @@
                     "Hash": 3326119592,
                     "Id": "633",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Heals a friendly target for an amount equal to {1}% your maximum health.\r\n\r\nGrants the target {2}% increased armor for {3} min.\r\n\r\nCannot be used on a target with Forbearance. Causes Forbearance for {4} sec."
+                    "Text": "Ви зцілюєте здоров'я дружньої цілі на величину, що дорівнює {1}% вашого максимального запасу здоров’я.\n\nЗбільшує показник Броні цілі на {2}% на {3} хв.\n\nНе може застосовуватись до цілі з ефектом [Терпіння]. Накладає ефект [Терпіння] на {4} сек."
                 }
             }
         },
@@ -3015,7 +3015,7 @@
                     "Hash": 1487149384,
                     "Id": "403460, 407467",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Divine Storm heals you for {1}% of your maximum health."
+                    "Text": "[Божественна буря] зцілює вас на {1}% від вашого максимального запасу здоров'я."
                 }
             }
         },
@@ -3057,13 +3057,13 @@
                     "Hash": 3304494908,
                     "Id": "76671",
                     "Spec": "Protection",
-                    "Text": "Increases your chance to block melee attacks by {1}%.\r\n\r\nAlso increases your attack power by {2}%."
+                    "Text": "Збільшує ваш шанс блокувати ближні атаки на {1}%.\n\nТакож збільшує вашу силу атаки на {2}%."
                 },
                 "2": {
                     "Hash": 1574604905,
                     "Id": "317907",
                     "Spec": "Protection",
-                    "Text": "Damage taken while inside your Consecration is reduced by an additional amount based on your Mastery."
+                    "Text": "Шкода, яку ви отримуєте поки знаходитесь в зоні дії вашого [Освячення], зменшена додатково на величину, що залежить від вашої Майстерності."
                 }
             }
         },
@@ -3405,13 +3405,13 @@
                     "Hash": 985247148,
                     "Id": "317906",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Duration increased by {1} sec."
+                    "Text": "Тривалість збільшена на {1} сек."
                 },
                 "2": {
                     "Hash": 2408479769,
                     "Id": "404996",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Damage and healing increased by {1}% for {2} sec."
+                    "Text": "Шкода та зцілення збільшені на {1}% протягом {2} сек."
                 }
             }
         },
@@ -3627,7 +3627,7 @@
                     "Hash": 2783707018,
                     "Id": "384810, 384815",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "When you cast Word of Glory on someone other than yourself, you are also healed for {1}% of the amount healed."
+                    "Text": "Коли ви застосовуєте [Славень] до когось іншого, крім себе, ви також зцілюєтесь на {1}% від здійсненого зцілення."
                 }
             }
         },
@@ -3693,13 +3693,13 @@
                     "Hash": 4002584504,
                     "Id": "377053",
                     "Spec": "Protection",
-                    "Text": "Your Crusader Strike deals {1}% increased damage."
+                    "Text": "Ваш [Удар хрестоносця] завдає шкоду, збільшену на {1}%."
                 },
                 "2": {
                     "Hash": 3059319453,
                     "Id": "377053",
                     "Spec": "Protection",
-                    "Text": "Your Hammer of the Righteous deals {1}% increased damage."
+                    "Text": "Ваш [Молот праведника] завдає шкоду, збільшену на {1}%."
                 }
             }
         },
@@ -3735,7 +3735,7 @@
                     "Hash": 3978282243,
                     "Id": "407478",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Calls down a explosion of Holy Fire dealing {1} Radiant damage to all nearby enemies and leaving a Consecration in its wake. \r\n"
+                    "Text": "Спричиняє вибух Священного Вогню, що завдає {1} од. шкоди від сяйва всім ворогам поблизу і залишає на місці вибуху [Освячення]. \n"
                 }
             }
         },
@@ -3993,7 +3993,7 @@
                     "Hash": 2622310730,
                     "Id": "379008",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "While in your Consecration, your Denounce and Word of Glory have {1}% increased damage and healing."
+                    "Text": "Поки ви знаходитесь у зоні вашого [Освячення], ваші [Звинувачення] та [Славень] завдають на {1}% більше шкоди та зцілення."
                 }
             }
         },
@@ -4047,7 +4047,7 @@
                     "Hash": 1309889365,
                     "Id": "406648",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Crusader Strike becomes a {1} part combo and deals radiant damage."
+                    "Text": "[Удар хрестоносця] перетворюється на комбінацію з {1} частин і завдає шкоду від сяйва."
                 }
             }
         },
@@ -4095,7 +4095,7 @@
                     "Hash": 1808422702,
                     "Id": "231642",
                     "Spec": "Holy",
-                    "Text": "Casting Flash of Light or Holy Light grants {1} Holy Power."
+                    "Text": "Застосування здібностей [Спалах світла] або [Світло святості] генерує {1} од. сили світла."
                 }
             }
         },
@@ -4125,7 +4125,7 @@
                     "Hash": 654886499,
                     "Id": "383350, 383351",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Radiant Decree burns the target for an additional {1}% damage over {2} sec."
+                    "Text": "[Вирок Сяйва] підпалює ціль, завдаючи додатково {1}% шкоди протягом {2} сек."
                 },
                 "4": {
                     "Hash": 2561467212,
@@ -4239,7 +4239,7 @@
                     "Hash": 800359116,
                     "Id": "114154",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Reduces the cooldown of your Divine Shield, Shield of Vengeance, Ardent Defender, and Lay on Hands by {1}%."
+                    "Text": "Зменшує час відновлення ваших здібностей [Божественний щит], [Щит помсти], [Палкий захисник] та [Покладання рук] на {1}%."
                 }
             }
         },
@@ -4461,7 +4461,7 @@
                     "Hash": 3500879647,
                     "Id": "315921",
                     "Spec": "Protection",
-                    "Text": "When you cast Word of Glory on yourself, it is increased by up to {1}% based on your missing health."
+                    "Text": "Коли ви застосовуєте до себе [Славень], його зцілення збільшується на до {1}%, в залежності від втраченого вами здоров'я."
                 }
             }
         },
@@ -4503,7 +4503,7 @@
                     "Hash": 520562076,
                     "Id": "391142",
                     "Spec": "Protection",
-                    "Text": "Hammer of Wrath and Judgment deal {1}% additional damage and extend the duration of Sentinel by {2} sec."
+                    "Text": "[Молот гніву] та [Правосуддя] завдають {1}% додаткової шкоди і збільшують тривалість ефекту [Вартовий] на {2} сек."
                 }
             }
         },
@@ -4521,13 +4521,13 @@
                     "Hash": 3773336351,
                     "Id": "85256",
                     "Spec": "Retribution",
-                    "Text": "Unleashes a powerful weapon strike that deals {1} Holystrike damage to an enemy target."
+                    "Text": "Ви здійснюєте потужний удар зброєю по ворожій цілі, завдаючи {1} од. шкоди від світлої магії."
                 },
                 "2": {
                     "Hash": 4163578962,
                     "Id": "224266, 339538",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "A powerful weapon strike that deals {1} Holy damage."
+                    "Text": "Потужний удар зброєю, що завдає {1} од. шкоди від світлої магії."
                 }
             }
         },
@@ -4677,7 +4677,7 @@
                     "Hash": 1902932219,
                     "Id": "414443, 414448, 414450",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Denounce deals {1} damage to its first target struck.\r\n\r\nEvery {2} Denounces make your next Word of Glory or Light of Dawn cost no Holy Power."
+                    "Text": "[Звинувачення] завдає {1} од. шкоди першій ураженій цілі.\n\nКожні {2} {declension|застосування|застосування|застосувань} [Звинувачення] дозволяють застосувати наступний [Славень] чи [Світло світанку] без витрат сили світла."
                 }
             }
         },
@@ -4773,7 +4773,7 @@
         },
         "267": {
             "Hash": 1930377443,
-            "Name": "Haste",
+            "Name": "Швидкість",
             "Descriptions": {
                 "0": {
                     "Hash": 3914171153,
@@ -4785,7 +4785,7 @@
         },
         "268": {
             "Hash": 1022382544,
-            "Name": "Block",
+            "Name": "Блокування",
             "Descriptions": {
                 "0": {
                     "Hash": 1054631814,
@@ -4857,19 +4857,19 @@
         },
         "274": {
             "Hash": 3513877725,
-            "Name": "Selfless Healer",
+            "Name": "Самовідданий цілитель",
             "Descriptions": {
                 "0": {
                     "Hash": 1762869967,
                     "Id": "85804, 114250",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Your Holy Power spending abilities reduce the cast time of your next Flash of Light by {1}%, and increase its healing done by {2}%. Stacks up to {3} times."
+                    "Text": "Ваші здібності, що витрачають силу Світла, зменшують час застосування вашої наступної здібності [Спалах світла] на {1}%, та збільшують здійснюване нею зцілення на {2}%. Накопичується до {3} разів."
                 }
             }
         },
         "275": {
             "Hash": 992113949,
-            "Name": "Light of the Ancient Kings",
+            "Name": "Світло древніх королів",
             "Descriptions": {
                 "0": {
                     "Hash": 1071855052,
@@ -4881,7 +4881,7 @@
         },
         "276": {
             "Hash": 4081869018,
-            "Name": "Ancient Fury",
+            "Name": "Прадавня лють",
             "Descriptions": {
                 "0": {
                     "Hash": 644530338,
@@ -4929,7 +4929,7 @@
         },
         "280": {
             "Hash": 1653717023,
-            "Name": "Pillar of Light",
+            "Name": "Стовп світла",
             "Descriptions": {
                 "0": {
                     "Hash": 1834479766,
@@ -4958,7 +4958,7 @@
         },
         "283": {
             "Hash": 2667832017,
-            "Name": "Blade of Light",
+            "Name": "Лезо світла",
             "Descriptions": {
                 "0": {
                     "Hash": 889800117,
@@ -4970,7 +4970,7 @@
         },
         "284": {
             "Hash": 318911618,
-            "Name": "Fires of Justice",
+            "Name": "Вогонь правосуддя",
             "Descriptions": {
                 "0": {
                     "Hash": 2496431962,
@@ -5006,13 +5006,13 @@
         },
         "287": {
             "Hash": 211790393,
-            "Name": "Justice Gaze",
+            "Name": "Погляд правосуддя",
             "Descriptions": {
                 "0": {
                     "Hash": 4002590829,
                     "Id": "211557, 211561",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Hammer of Justice deals {1} Holy damage, generates {2} Holy Power, and has {3}% reduced cooldown when used against an enemy above {4}% health."
+                    "Text": "[Молот правосуддя] завдає {1} од. шкоди від світлої магії, генерує {2} од. сили світла, і має на {3}% зменшений час відновлення, якщо застосовується до ворогів з рівнем здоров'я до {4}%."
                 }
             }
         },
@@ -5030,7 +5030,7 @@
         },
         "289": {
             "Hash": 2845199162,
-            "Name": "Righteous Verdict",
+            "Name": "Праведний вердикт",
             "Descriptions": {
                 "0": {
                     "Hash": 4012816031,
@@ -5102,7 +5102,7 @@
         },
         "294": {
             "Hash": 502472434,
-            "Name": "Light's Decree",
+            "Name": "Вирок Світла",
             "Descriptions": {
                 "0": {
                     "Hash": 263863204,
@@ -5114,7 +5114,7 @@
                     "Hash": 3274573864,
                     "Id": "286232",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Spending Holy Power during Crusade causes you to explode with Holy light for {1} damage per Holy Power spent to nearby enemies. Crusade's duration is increased by {2} sec."
+                    "Text": "Використовуючи силу Світла під час дії [Хрестовий похід], ви вибухаєте Святим світлом, завдаючи {1} од. шкоди за кожне використання сили Світла ворогам навколо. Тривалість ефекту [Хрестовий похід] збільшена на {2} сек."
                 }
             }
         },
@@ -5226,13 +5226,13 @@
         },
         "304": {
             "Hash": 3878494518,
-            "Name": "Royal Decree",
+            "Name": "Королівський вирок",
             "Descriptions": {
                 "0": {
                     "Hash": 305444428,
                     "Id": "340147",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Guardian of Ancient Kings's cooldown is reduced by {FFFFFFFF|{1} sec}, and casting it causes your next Word of Glory to cost no Holy Power."
+                    "Text": "Час відновлення [Вартовий древніх королів] зменшено на {FFFFFFFF|{1} сек}, а після його застосування ваш наступний [Славень] не потребує витрат сили світла."
                 }
             }
         },
@@ -5298,7 +5298,7 @@
                     "Hash": 3999913554,
                     "Id": "364851",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Each target hit by Light of Dawn has a {1}% chance to reduce the remaining cooldown of Avenging Wrath by {2} sec."
+                    "Text": "За кожну ціль, на яку діє [Світло світанку], з ймовірністю {1}% час, що залишився до відновлення здібності [Гнів помсти], зменшується на {2} сек."
                 }
             }
         },
@@ -5316,13 +5316,13 @@
         },
         "310": {
             "Hash": 1486043852,
-            "Name": "Radiant Decree",
+            "Name": "Вирок Сяйва",
             "Descriptions": {
                 "0": {
                     "Hash": 2560423765,
                     "Id": "383469",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Lash out at your enemies, dealing {1} Radiant damage to all enemies within {2} yds in front of you and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\r\n\r\nDemon and Undead enemies are also stunned for {6} sec."
+                    "Text": "Ви замахуєтесь на своїх ворогів і завдаєте {1} од. шкоди від сяйва усім ворогам на відстані до {2} м перед вами, зменшуючи їх швидкість пересування на {3}% на {4} сек. Завдає меншої шкоди, якщо цілей більше ніж {5}.\n\nДемони та немертві також отримують приголомшення на {6} сек."
                 }
             }
         },
@@ -5406,7 +5406,7 @@
                     "Hash": 1633571716,
                     "Id": "394667",
                     "Spec": "Holy, Protection, Retribution",
-                    "Text": "Holy Light, Flash of Light, Light of Dawn, Word of Glory, and Bestow Faith healing is increased by {1}% and their critical effects increase the damage or healing of your next Holy Shock by {2}%."
+                    "Text": "Зцілення від здібностей [Світло святості], [Спалах світла], [Світло світанку], [Славень] та [Дарунок віри] збільшено на {1}%, а їх критичні ефекти збільшують шкоду чи зцілення від вашого наступного застосування здібності [Святе потрясіння] на {2}%."
                 }
             }
         },
