@@ -51,7 +51,7 @@
                     "Hash": 1257514941,
                     "Id": "193538",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Increases haste by {1}% for {2} sec."
+                    "Text": "Збільшує Швидкість на {1}% на {2} сек."
                 }
             }
         },
@@ -81,13 +81,13 @@
                     "Hash": 4098055549,
                     "Id": "8676, 385897, 430023",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Ambush the target, causing {1} Physical damage.\r\n\r\n{FFFFFFFF|Awards {2} combo [plural|point|points].}"
+                    "Text": "Напад на ціль, що завдає {1} од. фізичної шкоди.\n\n{FFFFFFFF|Надає {2} {declension|очко|очки|очок} серії.}"
                 },
                 "2": {
                     "Hash": 4172641490,
                     "Id": "8676, 385897, 430023",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Ambush the target, causing {1} Physical damage.\r\n\r\nHas a {2}% chance to hit an additional time, making your next Pistol Shot half cost and double damage.\r\n\r\n{FFFFFFFF|Awards {3} combo [plural|point|points] each time it strikes.}"
+                    "Text": "Напад на ціль, що завдає {1} од. фізичної шкоди.\n\nМає {2}% шансу завдати додаткового удару, роблячи витрати на ваш наступний [Постріл з пістоля] вдвічі меншими, а шкоду вдвічі більшою.\n\n{FFFFFFFF|Надає {3} {declension|очко|очки|очок} серії кожного разу, як завдає удару.}"
                 }
             }
         },
@@ -111,7 +111,7 @@
                     "Hash": 554413923,
                     "Id": "383414, 394328",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Coats your weapons with a Lethal Poison that lasts for {1} sec. Each strike has a {2}% chance to poison the enemy, dealing {3} Nature damage and applying Amplifying Poison for {4} sec. Envenom can consume {5} stacks of Amplifying Poison to deal {6}% increased damage. Max {7} stacks."
+                    "Text": "Вкриває зброю смертельною отрутою, що діє {1} сек. Кожен удар має {2}% шанс отруїти ворога, завдаючи {3} од. шкоди від сил природи та застосовуючи [Посилення отрути] на {4} сек. [Отруєння] може поглинути {5} накопичень [Посилення отрути] щоб завдати на {6}% більше шкоди. Накопичується до {7} разів."
                 }
             }
         },
@@ -147,7 +147,7 @@
                     "Hash": 684222153,
                     "Id": "392388",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Coats your weapons with a Non-Lethal Poison that lasts for {1} sec. Each strike has a {2}% chance of poisoning the enemy, reducing their damage by {3}% for {4} sec."
+                    "Text": "Покриває зброю нелетальною отрутою, яка діє {1} сек. Кожен удар має {2}% шанс отруїти ворога, зменшуючи його шкоду на {3}% на {4} сек."
                 }
             }
         },
@@ -165,7 +165,7 @@
                     "Hash": 1506840564,
                     "Id": "381845",
                     "Spec": "Outlaw",
-                    "Text": "Half-cost uses of Pistol Shot have a {1}% chance to make your next Ambush usable without Stealth.\r\n\r\nChance to trigger this effect matches the chance for your Sinister Strike to strike an additional time."
+                    "Text": "[Постріл з пістоля], використаний за половину вартості, з вірогідністю {1}% дозволяє застосувати [Засідка], не знаходячись у стані [Скритність].\n\nШанс викликати цей ефект відповідає шансу додатково застосувати [Підступний удар]."
                 }
             }
         },
@@ -183,13 +183,13 @@
                     "Hash": 2596620391,
                     "Id": "53",
                     "Spec": "Subtlety",
-                    "Text": "Stab the target, causing {1} Physical damage. Damage increased by {2}% when you are behind your target.\r\n\r\n{FFFFFFFF|Awards {3} combo [plural|point|points].}"
+                    "Text": "Коле ціль, спричиняючи {1} од. фізичної шкоди. Шкода збільшується на {2}% коли ви знаходитесь за спиною цілі.\n\n{FFFFFFFF|Дає {3} {declension|очко серії|очки серії|очок серії}.}"
                 },
                 "2": {
                     "Hash": 2793636508,
                     "Id": "53",
                     "Spec": "Subtlety",
-                    "Text": "Stab the target, causing {1} Physical damage. Damage increased by {2}% when you are behind your target, and critical strikes apply Find Weakness for {3} sec.\r\n\r\n{FFFFFFFF|Awards {4} combo [plural|point|points].}"
+                    "Text": "Коле ціль, спричиняючи {1} од. фізичної шкоди. Шкода збільшується на {2}% коли ви знаходитесь за спиною цілі, та критичні удари накладають [Пошук слабкостей] на {3} сек.\n\n{FFFFFFFF|Дає {4} {declension|очко серії|очки серії|очок серії}.}"
                 }
             }
         },
@@ -207,13 +207,13 @@
                     "Hash": 514135827,
                     "Id": "315341",
                     "Spec": "Outlaw",
-                    "Text": "Finishing move that deals damage with your pistol, increasing your critical strike chance by {1}%.\r\n   {2} point : {3} damage, {4} sec\r\n   {5} points: {6} damage, {7} sec\r\n   {8} points: {9} damage, {10} sec\r\n   {11} points: {12} damage, {13} sec\r\n   {14} points: {15} damage, {16} sec"
+                    "Text": "Завершальний прийом, який завдає шкоди вашим пістолем, збільшуючи шанс критичного удару по цілі на {1}%.\n   {2} очко: {3} од. шкоди, {4} сек\n   {5} очки: {6} од. шкоди, {7} сек\n   {8} очки: {9} од. шкоди, {10} сек\n   {11} очки: {12} од. шкоди, {13} сек\n   {14} очок: {15} од. шкоди, {16} сек"
                 },
                 "2": {
                     "Hash": 335716808,
                     "Id": "315341",
                     "Spec": "Outlaw",
-                    "Text": "Finishing move that deals damage with your pistol, increasing your critical strike chance by {1}%. Critical strikes with this ability deal four times normal damage.\r\n   {2} point : {3} damage, {4} sec\r\n   {5} points: {6} damage, {7} sec\r\n   {8} points: {9} damage, {10} sec\r\n   {11} points: {12} damage, {13} sec\r\n   {14} points: {15} damage, {16} sec"
+                    "Text": "Завершальний прийом, який завдає шкоди вашим пістолем, збільшуючи шанс критичного удару по цілі на {1}%. Критичні удари цієї навички завдають в чотири рази більше шкоди, ніж звичайні.\n   {2} очко: {3} од. шкоди, {4} сек\n   {5} очки: {6} од. шкоди, {7} сек\n   {8} очки: {9} од. шкоди, {10} сек\n   {11} очки: {12} од. шкоди, {13} сек\n   {14} очок: {15} од. шкоди, {16} сек"
                 }
             }
         },
@@ -231,7 +231,7 @@
                     "Hash": 3132429337,
                     "Id": "319175, 319190",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Finishing move that launches explosive Black Powder at all nearby enemies dealing Physical damage. Deals reduced damage beyond {1} targets. All nearby targets with your Find Weakness suffer an additional {2}% damage as Shadow.\r\n\r\n   {3} point  : {4} damage\r\n   {5} points: {6} damage\r\n   {7} points: {8} damage\r\n   {9} points: {10} damage\r\n   {11} points: {12} damage\r\n"
+                    "Text": "Завершальний прийом, який випускає вибуховий [Чорний порох] на всіх ворогів поблизу, завдаючи фізичної шкоди. Завдає менше шкоди по більш ніж {1} цілях. Всі цілі поблизу, на яких є ваш ефект [Пошук слабкостей], отримують додатково {2}% шкоди від темної магії.\n\n   {3} очко: {4} од. шкоди\n   {5} очки: {6} од. шкоди\n   {7} очки: {8} од. шкоди\n   {9} очки: {10} од. шкоди\n   {11} очка: {12} од. шкоди\n"
                 }
             }
         },
@@ -267,7 +267,7 @@
                     "Hash": 1387147980,
                     "Id": "13877, 331850, 429951",
                     "Spec": "Assassination, Outlaw, Subtlety",
-                    "Text": "Strikes up to {1} nearby targets for {2} Physical damage that generates {3} combo point per target, and causes your single target attacks to also strike up to {4} additional nearby enemies for {5}% of normal damage for {6} sec."
+                    "Text": "Уражає до {1} цілей поблизу, завдаючи {2} од. фізичної шкоди, та генерує {3} очко серії за ціль, а також та змушує ваші атаки по одній цілі протягом {6} сек також уражати до {4} додаткових ворогів поблизу, завдаючи їм {5}% від об'єму звичайної шкоди."
                 }
             }
         },
@@ -321,7 +321,7 @@
                     "Hash": 3972527028,
                     "Id": "256165",
                     "Spec": "Outlaw",
-                    "Text": "Reduces the cooldown of Blind by {1}% and increases its range by {2} yds."
+                    "Text": "Зменшує час відновлення [Засліплення] на {1}% та збільшує його радіус на {2} м."
                 }
             }
         },

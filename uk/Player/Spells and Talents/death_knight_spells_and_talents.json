@@ -1053,7 +1053,7 @@
                     "Hash": 903382593,
                     "Id": "152280, 156000, 218100",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {4}%, up to {5}%."
+                    "Text": "Осквернити цільову землю, завдаючи {1} шкоди від тіні всім ворогам протягом {2} с.\n\nПоки ви залишаєтесь у зоні дії здібності, ваші пазурі тіні вразять до {3} ворогів поблизу цілі.\n\nКожну секунду, якщо в зоні дії здібності є вороги, воно збільшується, завдаючи збільшеної шкоди та збільшуючи вашу майстерність від {4}%, до {5}%."
                 },
                 "2": {
                     "Hash": 1990615720,
@@ -1125,7 +1125,7 @@
                     "Hash": 2937482653,
                     "Id": "47568",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec.\r\n"
+                    "Text": "Підсилює свою рунну зброю, збільшуючи швидкість на {1}% і генеруючи {2} [множина|Руни|Руни] і {3} Рунічну силу миттєво кожні {4} секунд протягом {5} секунд."
                 },
                 "3": {
                     "Hash": 3918594869,
@@ -1185,7 +1185,7 @@
                     "Hash": 1409624143,
                     "Id": "207317, 212739, 215969",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them."
+                    "Text": "Спричиняє спалах Жорстокої чуми, завдаючи {1} шкоди від тіні зараженому ворогу та додатково {2} шкоди від тіні всім іншим ворогам поблизу"
                 }
             }
         },
@@ -1275,7 +1275,7 @@
                     "Hash": 1804974871,
                     "Id": "274373",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Bursting a Festering Wound grants you {1} Strength for {2} sec, stacking. Stacking this effect does not extend its duration."
+                    "Text": "Розрив гнійної рани дає вам {1} сили на {2} сек, накопичення. Накопичування цього ефекту не продовжує його тривалість."
                 }
             }
         },
@@ -1305,7 +1305,7 @@
                     "Hash": 2594327414,
                     "Id": "377073, 377074",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} [plural|rune|runes]."
+                    "Text": "Знищення завдає на {1}% більше шкоди та має {2}% шанс відшкодувати(відновити гравцеві) {3} [множина|руна|руни]."
                 }
             }
         },
@@ -1323,7 +1323,7 @@
                     "Hash": 4291633706,
                     "Id": "49143, 66196, 222026, 325464",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Chill your weapons with icy power and quickly strike the enemy with both, dealing a total of {1} Frost damage."
+                    "Text": "Охолодіть свою зброю крижаною силою та швидко вдарте ворога своєю зброєю, завдаючи загалом {1} шкоди від морозу."
                 }
             }
         },
@@ -1437,7 +1437,7 @@
                     "Hash": 13007900,
                     "Id": "273952",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Defile reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec."
+                    "Text": "Смерть та розкладання зменшує швидкість руху ворогів у межах своєї зони дії на {1}%, затухаючи на {2}% кожну сек."
                 }
             }
         },
@@ -1473,19 +1473,19 @@
                     "Hash": 2383934061,
                     "Id": "228645",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power.}"
+                    "Text": "Миттєво вражає ціль та {1} іншого ворога поблизу, завдаючи {2} фізичної шкоди та зменшуючи швидкість пересування ворогів на {3}% протягом {4} с.\n\n{FFFFFFFF|Генерує {5} додаткової рунічної сили.}"
                 },
                 "2": {
                     "Hash": 17613217,
                     "Id": "206930, 210738, 368938",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power, plus {6} Runic Power per additional enemy struck.}"
+                    "Text": "Миттєво вражає ціль та {1} іншого ворога поблизу, завдаючи {2} фізичної шкоди та зменшуючи швидкість пересування ворогів на {3}% протягом {4} с.\n\n{FFFFFFFF|Генерує {5} додаткової рунічної сили, а також {6} рунічної сили за кожного додаткового враженого ворога.}"
                 },
                 "3": {
                     "Hash": 2663720400,
                     "Id": "316575",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Generates {1} additional Runic Power."
+                    "Text": "Додатково генерує {1}  рунічної сили \n"
                 }
             }
         },
@@ -1539,7 +1539,7 @@
                     "Hash": 1965954825,
                     "Id": "57330",
                     "Spec": "Frost",
-                    "Text": "Blow the Horn of Winter, gaining {1} [plural|Rune|Runes] and generating {2} Runic Power."
+                    "Text": "Засурміть у ріг Зими, отримуючи {1} [множина|Руна|Руни] і генеруючи {2} Рунічної сили."
                 }
             }
         },
@@ -1557,7 +1557,7 @@
                     "Hash": 991895938,
                     "Id": "49184, 237680",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Blast the target with a frigid wind, dealing {1} Frost damage and applying Frost Fever to the target.\r\n\r\n|Tinterface\\icons\\spell_deathknight_frostfever.blp:24|t {FFFFFFFF|Frost Fever}\r\nA disease that deals {2} Frost damage over {3} sec and has a chance to grant the Death Knight {4} Runic Power each time it deals damage."
+                    "Text": "Вражає ціль холодним вітром, завдаючи {1} шкоди від морозу та застосовуючи до цілі Морозну лихоманку.\n\n|Tinterface\\icons\\spell_deathknight_frostfever.blp:24|t {FFFFFFFF|Морозна лихоманка}\nХвороба, яка завдає {2} шкоди від морозу протягом {3} сек і має шанс надати лицареві смерті {4} рунічної сили кожного разу, коли він завдає шкоди."
                 }
             }
         },
@@ -1599,7 +1599,7 @@
                     "Hash": 1073982470,
                     "Id": "207126",
                     "Spec": "Frost",
-                    "Text": "Your Frost Strike, Frostscythe, and Obliterate critical strikes reduce the remaining cooldown of Pillar of Frost by {1} sec."
+                    "Text": "Ваші критичні удари «Морозний удар», «Морозна коса» та «Стирання» зменшують час відновлення «Крижаного стовпа» на {1} сек."
                 }
             }
         },
@@ -1755,7 +1755,7 @@
                     "Hash": 1668015658,
                     "Id": "207272",
                     "Spec": "Unholy",
-                    "Text": "Your abomination's Cleaver attack has a {1}% chance to cause a Festering Wound on the target."
+                    "Text": "Атака Тесаком вашої гидоти має {1}% шанс спричинити гнійну рану на цілі."
                 }
             }
         },
@@ -1941,7 +1941,7 @@
                     "Hash": 2994939230,
                     "Id": "316746, 374715",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Bone Shield increases your Haste by {1}%."
+                    "Text": "Кістяний щит збільшує вашу швидкість на {1}%."
                 },
                 "2": {
                     "Hash": 2441642657,
@@ -2061,7 +2061,7 @@
                     "Hash": 3038739402,
                     "Id": "207062",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Grants the Death Knight {1} rune."
+                    "Text": "Надає {1} руну Лицарю смерті."
                 }
             }
         },
