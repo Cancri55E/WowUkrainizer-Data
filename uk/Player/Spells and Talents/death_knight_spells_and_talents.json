@@ -1059,13 +1059,13 @@
                     "Hash": 1990615720,
                     "Id": "152280, 156000, 218100",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Scourge Strike will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {7}%, up to {8}%."
+                    "Text": "Осквернити цільову землю, завдаючи {1} шкоди від тіні всім ворогам протягом {2} с.\n\nПоки ви залишаєтесь у своєму колі радіуса навички, ваш Удар смерті вразить {3} ворогів поблизу цілі та спричинить смерть на {4} с.\n\nСмерть і розкладання зменшує шкоду, яку завдають вам вороги, на {5}%, максимум до {6}%, і їхня сила передається вам як рівна кількість сили.\n\nКожну секунду, якщо хтось із ворогів стоїть у колі радіусу навички, радіус дії збільшується, завдаючи збільшеної шкоди від навички та збільшуючи вашу майстерність на {7}%, до {8}%."
                 },
                 "3": {
                     "Hash": 3651433052,
                     "Id": "152280, 156000, 218100",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size, dealing increased damage, and increasing your Mastery by {7}%, up to {8}%."
+                    "Text": "Осквернити цільову землю, завдаючи {1} шкоди від тіні всім ворогам протягом {2} с.\n\nПоки ви залишаєтесь у своєму колі радіусу навички, ваші пазурі тіні вразять до {3} ворогів поблизу цілі та спричинять смерть на {4} с.\n\nМертва земля зменшує шкоду, яку завдають вам вороги, на {5}%, максимум до {6}%, і їхня сила передається вам як рівна кількість сили.\n\nКожну секунду, якщо хтось із ворогів стоїть у зоні дії навику, радіус дії збільшується, завдаючи збільшеної шкоди та збільшуючи вашу майстерність на {7}%, до {8}%."
                 }
             }
         },
@@ -1131,7 +1131,7 @@
                     "Hash": 3918594869,
                     "Id": "47568",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec.\r\n\r\nIf you already know Empower Rune Weapon, instead gain {6} additional [plural|charge|charges] of Empower Rune Weapon."
+                    "Text": "Підсилює свою рунну зброю, збільшуючи швидкість на {1}% і генеруючи {2} [множина|Руни|Руни] і {3} Рунічну силу миттєво кожні {4} сек протягом {5} сек.\n\nЯкщо ви вже знаєте Підсилення рунічної зброї, натомість отримайте {6} додаткових [множини|зарядів|зарядів] Підсилення рунічної зброї."
                 }
             }
         },
@@ -1455,7 +1455,7 @@
                     "Hash": 4181387879,
                     "Id": "276023",
                     "Spec": "Unholy",
-                    "Text": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}%."
+                    "Text": "Раптова загибель спрацьовує на {1}% частіше, може накопичувати до {2} зарядів і збільшує шкоду вашої наступної Смертельної спіралі на {3}%."
                 }
             }
         },
@@ -1737,7 +1737,7 @@
                     "Hash": 2448264568,
                     "Id": "253593, 253595, 253597",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\r\n\r\nObliterate and Frostscythe consume a stack to deal an additional {3} Frost damage."
+                    "Text": "Отримайте невблаганний штурм кожні {1} с, сумуючи до {2} разів.\n\nЗнищення і Крижаний удар споживають ефект невблаганного  штурму, щоб завдати додатково {3} шкоди від криги(або льоду)."
                 }
             }
         },
@@ -1821,19 +1821,19 @@
                     "Hash": 2370798596,
                     "Id": "51124",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your auto attack has a chance to cause your next Obliterate to be a guaranteed critical strike."
+                    "Text": "Ваші автоматичні атаки мають гарантований шанс зробити ваше наступне Знищення критичним підвищуючи нанесену навичкою шкоду."
                 },
                 "2": {
                     "Hash": 1495690626,
                     "Id": "51124",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your auto attack has a chance to cause your next Obliterate or Frostscythe to be a guaranteed critical strike."
+                    "Text": "Ваші автоматичні атаки мають гарантований шанс призвести до того, що ваше наступне Знищення або Крижаний удар буде  критичним збільшуючи нанесену цими здібностями шкоду."
                 },
                 "3": {
                     "Hash": 3348014985,
                     "Id": "51128",
                     "Spec": "Frost",
-                    "Text": "Your auto attack critical strikes have a chance to make your next Obliterate critically strike."
+                    "Text": "Ваші критичні удари автоматичної атаки мають шанс зробити ваше наступне  Знищення критичним."
                 }
             }
         },
@@ -1875,7 +1875,7 @@
                     "Hash": 38037151,
                     "Id": "49039",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, and making you immune to Charm, Fear, and Sleep."
+                    "Text": "Використовуйте нечестиву енергію, щоб стати нежиттю на {1} с, збільшуючи рівень Кровопивці на {2}% і роблячи вас імунітетом до чарів, страху та сну."
                 }
             }
         },
@@ -1947,7 +1947,7 @@
                     "Hash": 2441642657,
                     "Id": "195182",
                     "Spec": "Blood",
-                    "Text": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\r\n\r\n|Tinterface\\icons\\ability_deathknight_boneshield.blp:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}, and your Haste by {4}%. Each melee attack against you consumes a charge. Lasts {5} sec or until all charges are consumed."
+                    "Text": "|Tinterface\\icons\\ability_deathknight_boneshield.blp:24|t {FFFFFFFF|Кістяний щит}\nОточує вас бар’єром із кісток, що обертаються навколо вас, збільшуючи броню на {3} та швидкість на {4}%. Кожна атака ближнього бою проти вас витрачає заряд кістяного щита. Триває {5} с або до повного витраченого заряду."
                 }
             }
         },
@@ -2127,13 +2127,13 @@
                     "Hash": 3149207345,
                     "Id": "222024, 325461",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A brutal attack with both weapons that deals a total of {1} Physical damage.\r\n"
+                    "Text": "Потужна атака обома видами зброї, яка завдає загальну кількість фізичної шкоди: {1}."
                 },
                 "2": {
                     "Hash": 1211718704,
                     "Id": "222024, 325461",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A brutal attack that deals {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active.\r\n"
+                    "Text": "Жорстока атака, яка завдає {1} фізичної шкоди.\n\nШкода збільшена на {2}% у бою в PvP, коли машина вбивства не активна."
                 },
                 "3": {
                     "Hash": 1443172500,
