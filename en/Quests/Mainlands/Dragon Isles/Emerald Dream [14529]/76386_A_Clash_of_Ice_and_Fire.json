@@ -1,8 +1,8 @@
 {
     "Id": 76386,
     "Title": "A Clash of Ice and Fire",
-    "Description": "The Primalists have erected great flame wards throughout their encampment. Yet we know not why. I have asked our ground forces to investigate, but they are blocked at every turn.\r\n\r\nTwo fire elementals in particular stand against us, empowered by Fyrakk's shadowflame.\r\n\r\nYou must clear the area of enemies. I have imbued this scale with my magic. Use it to weaken the elementals and any other who stands in your way.",
-    "ObjectivesText": null,
+    "Description": "The Primalists have erected great flame wards throughout their encampment. Yet we know not why. I have asked our ground forces to investigate, but they are blocked at every turn.\n\nTwo fire elementals in particular stand against us, empowered by Fyrakk's shadowflame.\n\nYou must clear the area of enemies. I have imbued this scale with my magic. Use it to weaken the elementals and any other who stands in your way.",
+    "ObjectivesText": "Slay Calderamor, Ignarion, and 15 Wildfire enemies.",
     "AreaDescription": null,
     "PortraitGiverName": null,
     "PortraitGiverText": null,
@@ -11,5 +11,14 @@
     "ObjectivesCompletionText": null,
     "CompletionText": null,
     "RewardText": null,
-    "Objectives": []
+    "Objectives": [
+        {
+            "Hash": 882218152,
+            "Text": "Use Frozenheart's Wrath on Calderamor or Ignarion"
+        },
+        {
+            "Hash": 2607702446,
+            "Text": "Wildfire forces slain"
+        }
+    ]
 }

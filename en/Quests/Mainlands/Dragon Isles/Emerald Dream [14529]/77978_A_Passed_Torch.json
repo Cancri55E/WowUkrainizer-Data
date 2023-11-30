@@ -1,15 +1,24 @@
 {
     "Id": 77978,
     "Title": "A Passed Torch",
-    "Description": "<Strategic documents are scattered around Lyandris. Notes detailing experiments and future assault locations covering many of them.> \r\n\r\n<It would be of great use to your allies to find more of these documents. Thinning out the Flame's numbers wouldn't hurt either.>",
-    "ObjectivesText": null,
+    "Description": "<Strategic documents are scattered around Lyandris. Notes detailing experiments and future assault locations covering many of them.> \n\n<It would be of great use to your allies to find more of these documents. Thinning out the Flame's numbers wouldn't hurt either.>",
+    "ObjectivesText": "Collect documents & kill Druids of the Flame within the Smoldering Copse.",
     "AreaDescription": null,
     "PortraitGiverName": null,
     "PortraitGiverText": null,
     "PortraitTurnInName": null,
     "PortraitTurnInText": null,
-    "ObjectivesCompletionText": null,
+    "ObjectivesCompletionText": "Return to Solarys at the Central Encampment.",
     "CompletionText": null,
     "RewardText": null,
-    "Objectives": []
+    "Objectives": [
+        {
+            "Hash": 3771672424,
+            "Text": "Singed Leaflets Collected"
+        },
+        {
+            "Hash": 3928314530,
+            "Text": "Druids of the Flame Slain"
+        }
+    ]
 }
