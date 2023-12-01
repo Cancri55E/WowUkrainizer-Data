@@ -1,8 +1,8 @@
 {
     "Id": 78428,
     "Title": "Crate of the Art",
-    "Description": "Our stockpiles have taken a grave hit, $n. \r\n\r\nWe need to replenish our reserves as soon as possible, lest the enemy gain the upper hand. We will need far more supplies than we previously envisioned.\r\n\r\nOnce again, Vashonir can assist you with packing the shipments. Please return to me with five crates of goods.\r\n\r\nElune, watch over you.",
-    "ObjectivesText": null,
+    "Description": "Our stockpiles have taken a grave hit, $n. \n\nWe need to replenish our reserves as soon as possible, lest the enemy gain the upper hand. We will need far more supplies than we previously envisioned.\n\nOnce again, Vashonir can assist you with packing the shipments. Please return to me with five crates of goods.\n\nElune, watch over you.",
+    "ObjectivesText": "Pack 5 Shipments of Goods with Vashonir in the Central Encampment.",
     "AreaDescription": null,
     "PortraitGiverName": null,
     "PortraitGiverText": null,
@@ -11,5 +11,10 @@
     "ObjectivesCompletionText": null,
     "CompletionText": null,
     "RewardText": null,
-    "Objectives": []
+    "Objectives": [
+        {
+            "Hash": 2103890474,
+            "Text": "Shipment of Goods"
+        }
+    ]
 }

@@ -2,7 +2,7 @@
     "Id": 76335,
     "Title": "Могутність Лісу",
     "Description": "Використовуйте пастки, які ви розставили, щоб мати перевагу в бою, $n. Здолайте кожного монстра, який посміє загрожувати нам!",
-    "ObjectivesText": null,
+    "ObjectivesText": "Eliminate the djaradin threat in the Eye of Ysera. Activate traps to help you in battle.",
     "AreaDescription": null,
     "PortraitGiverName": null,
     "PortraitGiverText": null,
@@ -11,5 +11,14 @@
     "ObjectivesCompletionText": null,
     "CompletionText": null,
     "RewardText": null,
-    "Objectives": []
+    "Objectives": [
+        {
+            "Hash": 1354102810,
+            "Text": "Djaradin forces slain and traps activated"
+        },
+        {
+            "Hash": 1478428958,
+            "Text": "Traps activated"
+        }
+    ]
 }

@@ -2,7 +2,7 @@
     "Id": 76386,
     "Title": "Зіткнення льоду та вогню",
     "Description": "Первісники спорудили великі вогняні обереги по всьому своєму табору. Однак, ми не знаємо для чого вони. Я попросив наші сухопутні війська провести розслідування, але їх перехоплюють на кожному кроці.\n\nЯкщо конкретно, то двоє вогняних елементалів стоять нам на заваді. Їх живить темне полум'я Фіракка.\n\nОчисть територію від ворогів. Я просякнула цю луску своєю магією. Використовуй її, щоб послабити елементалів та будь-кого, хто стоїть на твоєму шляху.",
-    "ObjectivesText": null,
+    "ObjectivesText": "Slay Calderamor, Ignarion, and 15 Wildfire enemies.",
     "AreaDescription": null,
     "PortraitGiverName": null,
     "PortraitGiverText": null,
@@ -11,5 +11,14 @@
     "ObjectivesCompletionText": null,
     "CompletionText": null,
     "RewardText": null,
-    "Objectives": []
+    "Objectives": [
+        {
+            "Hash": 882218152,
+            "Text": "Use Frozenheart's Wrath on Calderamor or Ignarion"
+        },
+        {
+            "Hash": 2607702446,
+            "Text": "Wildfire forces slain"
+        }
+    ]
 }
