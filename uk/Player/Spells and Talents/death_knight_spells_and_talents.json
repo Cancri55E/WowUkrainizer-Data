@@ -2385,13 +2385,13 @@
                     "Hash": 558124564,
                     "Id": "46584",
                     "Spec": "Unholy",
-                    "Text": "Raises a geist to fight by your side. You can have a maximum of one geist at a time."
+                    "Text": "Викликає бажання в того кого ви воскресили битися на вашому боці. Ви можете мати максимум одного духа за раз."
                 },
                 "5": {
                     "Hash": 435501550,
                     "Id": "46585",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Raises a geist to fight by your side.  You can have a maximum of one geist at a time. Lasts {1} min."
+                    "Text": "Викликає бажання нежиті битися на вашому боці. Ви можете мати максимум одного духа за раз. Триває {1} хв."
                 }
             }
         },
@@ -2517,7 +2517,7 @@
                     "Hash": 2995188326,
                     "Id": "59057",
                     "Spec": "Frost",
-                    "Text": "Obliterate has a {1}% chance and Frostscythe has a {2}% chance to cause your next Howling Blast to consume no runes and deal {3}% additional damage."
+                    "Text": "Знищення має {1}% шансів, а Морозна Коса має {2}% шансів змусити ваш наступний Ревучий вітер не споживати рун та завдати {3}% додаткової шкоди."
                 }
             }
         },
@@ -2625,7 +2625,7 @@
                     "Hash": 2104683862,
                     "Id": "51460",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Increases your rune regeneration rate for {1} sec."
+                    "Text": "Збільшує швидкість регенерації ваших рун на {1} секунду."
                 }
             }
         },
@@ -2805,7 +2805,7 @@
                     "Hash": 2129738689,
                     "Id": "49530, 81340",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your auto attacks have a chance to make your next Death Coil cost no Runic Power."
+                    "Text": "Ваші автоматичні атаки мають шанс застосувати вашу наступну Спіраль Смерті не використовуючи Рунічної сили."
                 }
             }
         },
@@ -2883,7 +2883,7 @@
                     "Hash": 934409579,
                     "Id": "391519",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Absorbing damage dealt by Blood Plague."
+                    "Text": "Поглинання шкоди, завданої Кривавою чумою."
                 }
             }
         },
@@ -2901,7 +2901,7 @@
                     "Hash": 2062522970,
                     "Id": "207289",
                     "Spec": "Unholy",
-                    "Text": "Strike your target dealing {1} Shadow damage, infecting the target with {2} Festering Wounds and sending you into an Unholy Frenzy increasing all damage done by {3}% for {4} sec."
+                    "Text": "Атакуйте свою ціль, завдаючи цілі {1} тіньової шкоди, заражаючи її {2} гнійними ранами та надсилаючи вас у Нечестиве божевілля, що збільшує всю завдану вами шкоду на {3}% протягом {4} секунд."
                 }
             }
         },
@@ -3003,7 +3003,7 @@
                     "Hash": 2528966013,
                     "Id": "338501",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Frost Strike increases your strength by {FFFFFFFF|{1}%} for {2} seconds, stacks up to {3} times."
+                    "Text": "«Морозний удар» збільшує вашу силу на {FFFFFFFF|{1}%} на {2} секунди, накопичується до {3} разів."
                 }
             }
         },
@@ -3033,13 +3033,13 @@
                     "Hash": 328814802,
                     "Id": "48263",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Stamina increased by {1}%.\r\nDamage taken reduced by {2}%."
+                    "Text": "Витривалість зросла на {1}%.\nОтримана шкода зменшена на {2}%."
                 },
                 "2": {
                     "Hash": 3025027523,
                     "Id": "316714",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Increases Stamina by {1}%.\r\nDamage taken reduced by {2}%."
+                    "Text": "Збільшує витривалість на {1}%.\nОтримана шкода зменшена на {2}%."
                 }
             }
         },
@@ -3117,31 +3117,31 @@
         },
         "212": {
             "Hash": 83018829,
-            "Name": "Dual Wield",
+            "Name": "Дворучна зброя",
             "Descriptions": {
                 "0": {
                     "Hash": 1174969014,
                     "Id": "674",
                     "Spec": "Frost",
-                    "Text": "Allows one-hand and off-hand weapons to be equipped in the off-hand."
+                    "Text": "Дозволяє використовувати одноручну та дворучну зброю в розкладці."
                 }
             }
         },
         "213": {
             "Hash": 1360313669,
-            "Name": "Shell Shield",
+            "Name": "Захисна оболонка",
             "Descriptions": {
                 "0": {
                     "Hash": 3475467072,
                     "Id": "26064",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "The Turtle partially withdraws into its shell, reducing damage taken by {1}% for {2} sec."
+                    "Text": "Черепаха частково закривається в панцирі, зменшуючи отриману шкоду на {1}% протягом {2} сек."
                 }
             }
         },
         "214": {
             "Hash": 3787086987,
-            "Name": "Death Strike Off-Hand",
+            "Name": "Смертельний удар дворучкою",
             "Descriptions": {}
         },
         "215": {
@@ -3152,7 +3152,7 @@
                     "Hash": 3646863335,
                     "Id": "47468, 91776",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Claw the enemy, dealing {1} Physical damage."
+                    "Text": "Знищить ворога, завдавши йому {1} фізичної шкоди."
                 },
                 "1": {
                     "Hash": 815735544,
@@ -3164,7 +3164,7 @@
                     "Hash": 248571990,
                     "Id": "199373",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Claw the enemy, dealing {1}% of normal melee damage."
+                    "Text": "Знищить ворога, завдавши йому {1}% від звичайної шкоди в ближньому бою."
                 }
             }
         },
