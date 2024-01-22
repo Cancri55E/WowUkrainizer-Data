@@ -315,7 +315,7 @@
                     "Hash": 2427956299,
                     "Id": "179057",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Unleash an eruption of fel energy, dealing {1} Chaos damage and stunning all nearby enemies for {2} sec.\r\n\r\nEach enemy stunned by Chaos Nova has a {3}% chance to generate a Lesser Soul Fragment."
+                    "Text": "Вивільняє енергію Скверни, завдаючи {1} шкоди від магії Хаосу та приголомшуючи всіх ворогів навколо на {2} сек.\n\nКожен ворог, приголомшений цією здібністю, має {3}% шанс згенерувати малий Фрагмент Душі."
                 }
             }
         },
@@ -381,7 +381,7 @@
                     "Hash": 3266343104,
                     "Id": "336639",
                     "Spec": "Vengeance",
-                    "Text": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by {1} sec."
+                    "Text": "Шкода від [Аура спалення] збільшує час дії вашого [Вогняне клеймо] та [Печатка вогню] на {1} сек."
                 }
             }
         },
@@ -453,7 +453,7 @@
                     "Hash": 1595388047,
                     "Id": "278326",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Consume {1} beneficial Magic effect removing it from the target and granting you {2} Fury."
+                    "Text": "Поглинає {1} корисний магічний ефект, знімаючи його з цілі та надає вам {2} Люті."
                 }
             }
         },
@@ -507,7 +507,7 @@
                     "Hash": 1290089165,
                     "Id": "258887",
                     "Spec": "Havoc",
-                    "Text": "Blade Dance, Chaos Strike, Throw Glaive, and Glaive Tempest reduce the cooldown of Eye Beam by {1} sec."
+                    "Text": "[Танок клинків], [Удар хаосу], [Кидання глефи] та [Глефова буря] зменшують час відновлення [Пронизливий погляд] на {1} сек."
                 }
             }
         },
@@ -549,13 +549,13 @@
                     "Hash": 2563166916,
                     "Id": "196718, 209426",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Summons darkness around you in an {1} yd radius, granting friendly targets a {2}% chance to avoid all damage from an attack. Lasts {3} sec.\r\n\r\nChance to avoid damage increased by {4}% when not in a raid."
+                    "Text": "Викликає темряву навколо вас з {1} м. радіусом, надаючи дружнім цілям {2}% шанс уникнути всієї шкоди від атаки. Діє {3} сек.\n\nШанс уникнення шкоди збільшений на {4}%, коли ви знаходитесь не в рейді."
                 },
                 "2": {
                     "Hash": 4134637959,
                     "Id": "196718, 209426",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Summons darkness around you in a {1} yd radius, granting friendly targets a {2}% chance to avoid all damage from an attack. Lasts {3} sec.\r\n\r\nChance to avoid damage increased by {4}% when not in a raid."
+                    "Text": "Викликає темряву навколо вас з {1} м. радіусом, надаючи дружнім цілям {2}% шанс уникнути всієї шкоди від атаки. Діє {3} сек.\n\nШанс уникнення шкоди збільшений на {4}%, коли ви знаходитесь не в рейді."
                 }
             }
         },
@@ -585,7 +585,7 @@
                     "Hash": 3408020514,
                     "Id": "203555, 203796",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Your auto attacks deal an additional {1} Chaos damage and generate {2}-{3} Fury."
+                    "Text": "Ваші автоматичні атаки наносять додатково {1} од. шкоди від магії хаосу та генерують {2}-{3} од. люті."
                 }
             }
         },
@@ -615,13 +615,13 @@
                     "Hash": 3565095365,
                     "Id": "203720, 203819",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Surge with fel power, increasing your Armor by {1}."
+                    "Text": "Ви наповнюєтесь міццю Скверни, отримуючи {1} од. додаткової Броні."
                 },
                 "2": {
                     "Hash": 852660489,
                     "Id": "391159",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "While Demon Spikes is active, melee attacks against you cause the attacker to take {1} Physical damage. Generates high threat."
+                    "Text": "Коли [Шипи демона] активні, ворожі атаки ближнього бою наносять їм {1} од. фізичної шкоди. Генерує високу загрозу."
                 }
             }
         },
@@ -639,7 +639,7 @@
                     "Hash": 2922176093,
                     "Id": "162243, 344859",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Quickly attack for {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} to {3} Fury.}"
+                    "Text": "Швидко атакує, завдаючи {1} од. фізичної шкоди.\n\n{FFFFFFFF|Генерує від {2} до {3} од. люті.}"
                 }
             }
         },
@@ -789,7 +789,7 @@
                     "Hash": 4260711800,
                     "Id": "389732",
                     "Spec": "Vengeance",
-                    "Text": "Fiery Brand has {1} sec reduced cooldown and {2} additional [plural|charge|charges]."
+                    "Text": "[Вогняне клеймо] має на {1} сек зменшений час оновлення та {2} [plural|додатковий заряд|додаткових зарядів]."
                 }
             }
         },
@@ -807,31 +807,31 @@
                     "Hash": 3050164247,
                     "Id": "307046, 339893, 339894, 389815, 389860, 390163, 394985",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Place a Kyrian Sigil at the target location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond {4} targets."
+                    "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від магії хаосу, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка. Завдає зменшену шкоду цілям після {4}."
                 },
                 "2": {
                     "Hash": 4219320736,
                     "Id": "327839",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Place a Kyrian Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Arcane damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                    "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від таємної магії, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка."
                 },
                 "3": {
                     "Hash": 527311973,
                     "Id": "327839",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Place a Kyrian Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                    "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від магії хаосу, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка."
                 },
                 "4": {
                     "Hash": 2466758013,
                     "Id": "389858",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Place a Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Arcane damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                    "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від таємної магії, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка."
                 },
                 "5": {
                     "Hash": 1686415391,
                     "Id": "389858",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Place a Sigil at your location that activates after {1} sec.\r\n\r\nDetonates to deal {2} Chaos damage and shatter up to {3} Lesser Soul Fragments from enemies affected by the sigil."
+                    "Text": "Розміщує Кирійську Печатку у цільовій точці, яка активується через {1} сек.\n\nВибухає і наносить {2} од. шкоди від магії хаосу, витягуючи до {3} малих Фрагментів душі з ворогів, на яких подіяла ця Печатка."
                 }
             }
         },
@@ -921,19 +921,19 @@
                     "Hash": 373226704,
                     "Id": "198013, 198030",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Blasts all enemies in front of you, dealing guaranteed critical strikes for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets."
+                    "Text": "Вражає всіх ворогів попереду вас, завдаючи їм до {1} шкоди від магії хаосу протягом {2} сек. Завдає зменшену шкоду більше ніж {3} цілям."
                 },
                 "3": {
                     "Hash": 1715979807,
                     "Id": "198013, 198030",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Blasts all enemies in front of you,  for up to {1} Chaos damage over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional {4}% for {5} sec."
+                    "Text": "Вибухає всіх ворогів поперед вас, завдаючи їм до {1} од. шкоди від магії хаосу протягом {2} сек. Наносить менше шкоди цілям після {3}.\n\nКоли [Пронизливий погляд] закінчує завдання шкоди, ваша Швидкість збільшується на додаткові {4}% на {5} сек."
                 },
                 "4": {
                     "Hash": 3030645355,
                     "Id": "333389, 346505, 391058",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Blasts all enemies in front of you, dealing guaranteed critical strikes for up to {1} Chaos damage over {2} sec. Deals reduced damage to secondary targets."
+                    "Text": "Вражає всіх ворогів попереду вас, завдаючи їм до {1} гарантованої критичної шкоди від магії хаосу протягом {2} сек. Завдає зменшену шкоду вторинним цілям."
                 }
             }
         },
@@ -987,7 +987,7 @@
                     "Hash": 1417430288,
                     "Id": "258925, 258926",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Unleash a torrent of Fel energy, rapidly consuming Fury to inflict {1} Chaos damage to all enemies within {2} yds, lasting {3} sec or until Fury is depleted. Deals reduced damage beyond {4} targets."
+                    "Text": "Вивільняє потік енергії Скверни, швидко витрачаючи лють, щоб завдати {1} шкоди від магії хаосу всім ворогам в радіусі {2} м, протягом {3} сек або допоки запас люті не буде вичерпано. Завдає менше шкоди всім цілям після {4}."
                 }
             }
         },
@@ -1053,7 +1053,7 @@
                     "Hash": 887406486,
                     "Id": "427785",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Rush back towards where you started, incinerating anything in your path for {1} Chaos damage."
+                    "Text": "Ви робите ривок вперед, завдаючи всім на шляху {1} од. шкоди від магії хаосу."
                 }
             }
         },
@@ -1077,25 +1077,25 @@
                     "Hash": 395334389,
                     "Id": "213243, 232893",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Charge to your target and deal {1} Fire damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                    "Text": "Ви робите ривок до цілі та завдаєте {1} од. вогняної шкоди.\n\n[Укус демона] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
                 },
                 "3": {
                     "Hash": 1294708270,
                     "Id": "213243, 232893",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                    "Text": "Ви робите ривок до цілі та завдаєте {1} од. шкоди від магії хаосу.\n\n[Укус демона] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
                 },
                 "4": {
                     "Hash": 3784810002,
                     "Id": "213243, 232893",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon Blades has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                    "Text": "Ви робите ривок до цілі та завдаєте {1} од. шкоди від магії хаосу.\n\n[Укус демона] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
                 },
                 "5": {
                     "Hash": 2556243395,
                     "Id": "213243, 232893",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Charge to your target and deal {1} Chaos damage.\r\n\r\nShear has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+                    "Text": "Ви робите ривок до цілі та завдаєте {1} од. шкоди від магії хаосу.\n\n[Косіння] має шанс миттєво відновити [Лезо Скверни].\n\n{FFFFFFFF|Генерує {2} од. люті.}"
                 }
             }
         },
@@ -1143,19 +1143,19 @@
                     "Hash": 601425106,
                     "Id": "204021, 207744, 207771",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Brand an enemy with a demonic symbol, instantly dealing {1} Fire damage. The enemy's damage done to you is reduced by {2}% for {3} sec."
+                    "Text": "Відмічає ворога демонічним символом, миттєво завдаючи йому {1} од. вогняної шкоди. Цей ворог наноситиме по вас на {2}% менше шкоди протягом {3} сек."
                 },
                 "2": {
                     "Hash": 3768124437,
                     "Id": "209245",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Brands a target with a burning demonic symbol, instantly dealing {1} Fire damage and reducing the damage they do by {2}% for {3} sec."
+                    "Text": "Відмічає ціль демонічним символом, миттєво завдаючи йому {1} од. вогняної шкоди. Ціль наноситиме по вас на {2}% менше шкоди протягом {3} сек."
                 },
                 "3": {
                     "Hash": 3039349959,
                     "Id": "320962",
                     "Spec": "Vengeance",
-                    "Text": "Fiery Brand deals {1} Fire damage every {2} sec."
+                    "Text": "[Вогняне клеймо] завдає {1} од. вогняної шкоди протягом {2} сек."
                 }
             }
         },
@@ -1209,7 +1209,7 @@
                     "Hash": 769902477,
                     "Id": "389694",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Sigil of Flame deals {1}% increased damage and generates {2} additional Fury per target hit."
+                    "Text": "[Печатка вогню] завдає на {1}% збільшену шкоду та генерує додатково {2} люті за кожне попадання в ціль."
                 }
             }
         },
@@ -1239,13 +1239,13 @@
                     "Hash": 1164159524,
                     "Id": "329554, 391430",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Your damaging abilities have a chance to call forth a demon from the Theater of Pain for {1} sec. Throw Glaive deals lethal damage to the demon, which explodes on death, dealing {2} Shadow damage to nearby enemies and healing you for {3}% of your maximum health. The explosion deals reduced damage beyond {4} targets."
+                    "Text": "Ваші здібності, які наносять шкоду, мають шанс прикликати демона з Театру Болю на {1} сек. [Кидання глефи] наносить летальну шкоду цьому демону, який вибухає після смерті, наносячи {2} од. шкоди від темної магії ворогам навколо та зцілюючи вас на {3}% від макс. запасу здоров'я. Вибух наносить менше шкоди цілям після {4}."
                 },
                 "2": {
                     "Hash": 2912435936,
                     "Id": "329554, 391430",
                     "Spec": "Havoc, Vengeance",
-                    "Text": "Your damaging abilities have a chance to call forth a demon from the Theater of Pain for {1} sec. Throw Glaive deals lethal damage to the demon, which explodes on death, dealing {2} Chaos damage to nearby enemies and healing you for {3}% of your maximum health. The explosion deals reduced damage beyond {4} targets."
+                    "Text": "Ваші здібності, які наносять шкоду, мають шанс прикликати демона з Театру Болю на {1} сек. [Кидання глефи] наносить летальну шкоду цьому демону, який вибухає після смерті, наносячи {2} од. шкоди від магії хаосу ворогам навколо та зцілюючи вас на {3}% від макс. запасу здоров'я. Вибух наносить менше шкоди цілям після {4}."
                 },
                 "3": {
                     "Hash": 2960315162,
