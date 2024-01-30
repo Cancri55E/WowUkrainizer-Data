@@ -177,7 +177,7 @@
                     "Hash": 2437272221,
                     "Id": "114052, 114083, 294020",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Transform into a Water Ascendant, duplicating all healing you deal at {1}% effectiveness for {2} sec and immediately healing for {3}. Ascendant healing is distributed evenly among allies within {4} yds."
+                    "Text": "Перетворює вас у Переродженого служителя води, повторює все зцілення яке ви наносите з {1}% ефективністю упродовж {2} сек, та миттєво зцілює на {3}. Зцілення переродженого рівномірно розподіляється між союзниками в радіусі {4} м."
                 },
                 "4": {
                     "Hash": 56052065,
@@ -345,7 +345,7 @@
                     "Hash": 112755790,
                     "Id": "191732",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Inflicts Nature damage to up to {1} enemies."
+                    "Text": "Завдає шкоди від сил природи до {1} {declension|ворога|ворогів|ворогів}."
                 }
             }
         },
@@ -717,7 +717,7 @@
                     "Hash": 3717682281,
                     "Id": "108283",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Lava Burst now has {1} charges. Effects that reset its remaining cooldown will instead grant {2} charge."
+                    "Text": "[Викид Лави] тепер має {1} {declension|заряд|заряди|зарядів}. Ефекти що відновлюють його, натомість будуть давати {2} {declension|заряд|заряди|зарядів}."
                 },
                 "3": {
                     "Hash": 1232582148,
@@ -1029,7 +1029,7 @@
                     "Hash": 1942281757,
                     "Id": "198480",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Deals {1} Fire damage to all targets within {2} yards."
+                    "Text": "Завдає {1} шкоди від вогню усім в радіусі {2} м."
                 },
                 "3": {
                     "Hash": 201152343,
@@ -1359,7 +1359,7 @@
                     "Hash": 3429989255,
                     "Id": "52042",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Heals an injured nearby raid or party member."
+                    "Text": "Зцілює пораненого поруч члена рейду чи групи."
                 },
                 "2": {
                     "Hash": 1746416300,
@@ -1671,7 +1671,7 @@
                     "Hash": 3989199933,
                     "Id": "335899, 335901, 384451",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Consuming {1} stacks of Maelstrom Weapon will reset the cooldown of Stormstrike and cause your next Stormstrike to deal {2}% increased damage."
+                    "Text": "Поглинає {1} {declension|заряд|заряди|зарядів} [Зброя виру], відновлює [Штормовий удар] і посилює ваш наступний [Штормовий удар] завдати збільшену шкоду на {2}%."
                 }
             }
         },
@@ -1695,7 +1695,7 @@
                     "Hash": 17672930,
                     "Id": "318044",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Reduces the cast time of Lightning Bolt by {1} sec."
+                    "Text": "Зменшує час використання [Блискавка] на {1} сек."
                 }
             }
         },
@@ -3555,37 +3555,37 @@
         },
         "228": {
             "Hash": 1022382544,
-            "Name": "Block",
+            "Name": "Блок",
             "Descriptions": {
                 "0": {
                     "Hash": 1054631814,
                     "Id": "107",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Gives a chance to block enemy melee and ranged attacks."
+                    "Text": "Дає шанс заблокувати ворожі атаки ближнього і дальнього бою."
                 }
             }
         },
         "229": {
             "Hash": 3073753476,
-            "Name": "Earthbind Totem",
+            "Name": "Тотем Земної Окови",
             "Descriptions": {
                 "0": {
                     "Hash": 1081885995,
                     "Id": "2484",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Summons a totem at the target location for {1} sec that slows the movement speed of enemies within {2} yards by {3}%."
+                    "Text": "Викликає тотем у вказаному місці на {1} sec, який сповільнює швидкість руху ворогів в радіусі {2} на {3}%."
                 }
             }
         },
         "230": {
             "Hash": 3463134267,
-            "Name": "Earthbind",
+            "Name": "Земні Окови",
             "Descriptions": {
                 "0": {
                     "Hash": 3889750189,
                     "Id": "3600, 116947",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Reduces the movement speed of all nearby enemies by {1}%."
+                    "Text": "Зменшує швидкість пересування всіх ворогів поблизу на {1}%."
                 }
             }
         },
@@ -3596,7 +3596,7 @@
         },
         "232": {
             "Hash": 2291737624,
-            "Name": "Earth Shock Overload",
+            "Name": "Перевантаження Земного шоку",
             "Descriptions": {}
         },
         "233": {
@@ -3672,7 +3672,7 @@
                     "Hash": 3367191696,
                     "Id": "36213",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Taunts all enemies within {1} yards."
+                    "Text": "Провокує усіх ворогів в радіусі {1} м."
                 }
             }
         },
@@ -3702,47 +3702,47 @@
         },
         "239": {
             "Hash": 927230725,
-            "Name": "Lava Burst Overload",
+            "Name": "Перевантаження Викиду Лави",
             "Descriptions": {}
         },
         "240": {
             "Hash": 2425981719,
-            "Name": "Fire Blast",
+            "Name": "Вогняний вибух",
             "Descriptions": {
                 "0": {
                     "Hash": 2495002098,
                     "Id": "57984, 275382",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Inflicts Fire damage to an enemy."
+                    "Text": "Завдає шкоди від вогню ворогу."
                 }
             }
         },
         "241": {
             "Hash": 1268228875,
-            "Name": "Ember Blast",
+            "Name": "Вибух Згарища",
             "Descriptions": {}
         },
         "242": {
             "Hash": 3940035483,
-            "Name": "Spirit Hunt",
+            "Name": "Полювання Духів",
             "Descriptions": {
                 "0": {
                     "Hash": 409253650,
                     "Id": "58877",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Spirit Wolves' attacks heal them and their master for {1}% of damage done."
+                    "Text": "Вовки стихій атакуючи зцілюють себе і свого господаря на {1}% від заподіяної шкоди."
                 }
             }
         },
         "243": {
             "Hash": 740612144,
-            "Name": "Earthgrab",
+            "Name": "Хватка Землі",
             "Descriptions": {
                 "0": {
                     "Hash": 1844535576,
                     "Id": "64695",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Roots targets for {1} sec."
+                    "Text": "Знерухомлює цілі на {1} сек."
                 }
             }
         },
@@ -3765,7 +3765,7 @@
         },
         "246": {
             "Hash": 4054018609,
-            "Name": "Lava Beam",
+            "Name": "Потік Лави",
             "Descriptions": {
                 "0": {
                     "Hash": 3685132776,
@@ -3812,7 +3812,7 @@
                     "Hash": 1895024983,
                     "Id": "114942",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Heals injured allies."
+                    "Text": "Зцілює поранених союзників."
                 }
             }
         },
@@ -3879,13 +3879,13 @@
         },
         "259": {
             "Hash": 1734042066,
-            "Name": "Pulverize",
+            "Name": "Подрібнення",
             "Descriptions": {
                 "0": {
                     "Hash": 1473051727,
                     "Id": "118345",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Smashes an enemy with a rocky fist, stunning the target for {1} sec."
+                    "Text": "Б'є ворога окаменілим кулаком, викликає оглушення цілі на {1} сек."
                 }
             }
         },
@@ -3939,13 +3939,13 @@
         },
         "264": {
             "Hash": 2238699063,
-            "Name": "Combat Experience",
+            "Name": "Бойовий досвід",
             "Descriptions": {
                 "0": {
                     "Hash": 580850628,
                     "Id": "156843",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Increases all damage done by your pet by {1}%."
+                    "Text": "Підвищує усю шкоду вашого вихованця на {1}%."
                 }
             }
         },
@@ -3956,7 +3956,7 @@
         },
         "266": {
             "Hash": 185054535,
-            "Name": "Wind Gust",
+            "Name": "Порив вітру",
             "Descriptions": {
                 "0": {
                     "Hash": 3721056889,
@@ -3980,13 +3980,13 @@
         },
         "268": {
             "Hash": 386335786,
-            "Name": "Tempest",
+            "Name": "Буря",
             "Descriptions": {
                 "0": {
                     "Hash": 4280788212,
                     "Id": "157375, 269005",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Channel the energy of the storms at your target, causing {1} Nature damage to all enemies within {2} yards every {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nThe damage of this ability increases by {5}% every time it deals damage."
+                    "Text": "Направляє енергію бурі в вашу ціль, наносячи {1} од. шкоди від сил природи усім ворогам на відстані {2} м кожні {3} сек. Завдає менше шкоди, якщо {declension|ціль|цілей більше|цілей більше} {4}.\n\nШкода від цієї здібності збільшується на {5}% кожен раз як ця здібність завдає шкоди."
                 }
             }
         },
@@ -4054,13 +4054,13 @@
         },
         "276": {
             "Hash": 2403734348,
-            "Name": "Snowstorm",
+            "Name": "Завірюха",
             "Descriptions": {
                 "0": {
                     "Hash": 2936707935,
                     "Id": "198483",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Deals {1} Frost damage to all targets within {2} yards."
+                    "Text": "Завдає {1} шкоди від магії холоду усім цілям в радіусі {2} м."
                 }
             }
         },
@@ -4072,7 +4072,7 @@
                     "Hash": 1024993851,
                     "Id": "198485",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Deals {1} Nature damage, jumping to up to {2} targets."
+                    "Text": "Завдає {1} шкоди від сил природи, перестрибуючи до {2} {declension|цілі|цілям|цілям}."
                 }
             }
         },
@@ -4119,35 +4119,35 @@
         },
         "282": {
             "Hash": 2485266450,
-            "Name": "Unleash Lightning",
+            "Name": "Звільнити Блискавку",
             "Descriptions": {}
         },
         "283": {
             "Hash": 2765058890,
-            "Name": "Earthen Wall",
+            "Name": "Земляна стіна",
             "Descriptions": {}
         },
         "284": {
             "Hash": 1588508802,
-            "Name": "Stormbringer",
+            "Name": "Буревісник",
             "Descriptions": {
                 "0": {
                     "Hash": 3722858388,
                     "Id": "201846",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike."
+                    "Text": "Спеціальні атаки мають {1}% шанс відновити [Штормовий удар]."
                 },
                 "1": {
                     "Hash": 3109398080,
                     "Id": "201846",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {2}% additional damage as Nature damage."
+                    "Text": "Спеціальні атаки мають {1}% шанс відновити [Штормовий удар], а також наступний [Штормовий удар] додатково завдасть {2}% шкоди від сил природи."
                 },
                 "2": {
                     "Hash": 3896321985,
                     "Id": "222251",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Inflicts {1} Nature damage to all enemies within {2} yds."
+                    "Text": "Завдає {1} шкоди від сил природи усім ворогам в радіусі {2} м."
                 }
             }
         },
@@ -4182,13 +4182,13 @@
         },
         "288": {
             "Hash": 4073631119,
-            "Name": "Stormlash",
+            "Name": "Батіг Бурі",
             "Descriptions": {
                 "0": {
                     "Hash": 2570566634,
                     "Id": "207835",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Whenever you attack with enhanced weapons you have a chance to enhance up to {1} allies, causing their attacks and spellcasts to deal additional Nature damage."
+                    "Text": "Щоразу, коли ви атакуєте вдосконаленою зброєю маєте шанс зачарувати до {1} {declension|союзника|союзників|союзників}, змушуючи {declension|його|їх|їх} атаки та здібності заподіювати шкоду від сил природи."
                 }
             }
         },
@@ -4221,13 +4221,13 @@
         },
         "293": {
             "Hash": 2088426049,
-            "Name": "The Deceiver's Blood Pact",
+            "Name": "Кровавий Пакт Шахрая",
             "Descriptions": {
                 "0": {
                     "Hash": 374571789,
                     "Id": "214131, 214134",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "Earth Shock has a {1}% chance to refund all of the Maelstrom spent."
+                    "Text": "[Земний Шок] має шанс {1}% відновити всі од. виру стихій."
                 }
             }
         },
@@ -4267,12 +4267,12 @@
         },
         "298": {
             "Hash": 1116233180,
-            "Name": "Earthen Weapon",
+            "Name": "Зброя Землі",
             "Descriptions": {}
         },
         "299": {
             "Hash": 173210967,
-            "Name": "Unlimited Power",
+            "Name": "Нескінченна Потужність",
             "Descriptions": {
                 "0": {
                     "Hash": 848226874,
@@ -4284,7 +4284,7 @@
         },
         "300": {
             "Hash": 70323146,
-            "Name": "Strength of Earth",
+            "Name": "Сила Землі",
             "Descriptions": {
                 "0": {
                     "Hash": 791125704,
@@ -4296,25 +4296,25 @@
         },
         "301": {
             "Hash": 3300729757,
-            "Name": "Ember Elemental",
+            "Name": "Елементаль попелу",
             "Descriptions": {
                 "0": {
                     "Hash": 2936979240,
                     "Id": "275385, 275386",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "When your Fire Elemental expires, it leaves behind a Ember Elemental to continue attacking your enemies for {1} sec."
+                    "Text": "Коли ваш [Елементаль вогню] зникає, він залишає натомість [Елементаль попелу], який продовжить боротися з вашим ворогами впродовж {1} сек."
                 },
                 "1": {
                     "Hash": 1753092359,
                     "Id": "275385, 275386",
                     "Spec": "Elemental, Enhancement, Restoration",
-                    "Text": "When your Storm Elemental expires, it leaves behind a Spark Elemental to continue attacking your enemies for {1} sec."
+                    "Text": "Коли ваш [Штормовий елементаль] зникає, він залишає натомість [Іскристий елементаль], який продовжить боротися з вашим ворогами впродовж {1} сек."
                 }
             }
         },
         "302": {
             "Hash": 131358426,
-            "Name": "Spark Elemental",
+            "Name": "Іскристий елементаль",
             "Descriptions": {}
         },
         "303": {
@@ -4528,7 +4528,7 @@
         },
         "318": {
             "Hash": 117151718,
-            "Name": "Poison Cleansing",
+            "Name": "Виведення отрути",
             "Descriptions": {}
         },
         "319": {
