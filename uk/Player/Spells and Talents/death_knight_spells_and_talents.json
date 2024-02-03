@@ -2877,7 +2877,7 @@
                     "Hash": 2036529773,
                     "Id": "391517",
                     "Spec": "Blood",
-                    "Text": "Після того, як [Вампірська кров] зникає, ви поглинаєте об'єм шкоди, що в {1} {declension|раз|рази|разів} більший від шкоди, що завдала ваша [Кривава чума] протягом дії [Вампірська кров]."
+                    "Text": "Після того, як [Вампірська Кров] зникає, ви поглинаєте об'єм шкоди, що в {1} {declension|раз|рази|разів} більший від шкоди, що завдала ваша [Кривава Чума] протягом дії [Вампірська Кров]."
                 },
                 "1": {
                     "Hash": 934409579,
@@ -3009,7 +3009,7 @@
         },
         "204": {
             "Hash": 3100689117,
-            "Name": "Вампірська кров",
+            "Name": "Вампірська Кров",
             "Descriptions": {
                 "0": {
                     "Hash": 1927548881,
@@ -3474,7 +3474,7 @@
         },
         "236": {
             "Hash": 2490300974,
-            "Name": "Shambling Rush",
+            "Name": "Незграбний Ривок",
             "Descriptions": {
                 "0": {
                     "Hash": 2964648160,
@@ -3486,7 +3486,7 @@
         },
         "237": {
             "Hash": 2731813602,
-            "Name": "Putrid Bulwark",
+            "Name": "Гнильний Бастіон",
             "Descriptions": {
                 "0": {
                     "Hash": 2441321424,
@@ -3545,7 +3545,7 @@
         },
         "242": {
             "Hash": 3244829509,
-            "Name": "Riposte",
+            "Name": "Удар у відповідь",
             "Descriptions": {
                 "0": {
                     "Hash": 1545937471,
@@ -3815,7 +3815,7 @@
         },
         "267": {
             "Hash": 3567846011,
-            "Name": "Helchains",
+            "Name": "Пекельні ланцюги",
             "Descriptions": {
                 "0": {
                     "Hash": 2827594794,
@@ -3863,19 +3863,19 @@
         },
         "271": {
             "Hash": 2177949561,
-            "Name": "Strive for Perfection",
+            "Name": "Прагнення Досконалості",
             "Descriptions": {
                 "0": {
                     "Hash": 4247574741,
                     "Id": "296321, 296330, 302656",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When  activates, heal for {1}% of maximum health."
+                    "Text": "При активації зцілює на {1}% від максимального здоров'я."
                 },
                 "1": {
                     "Hash": 658866560,
                     "Id": "296321, 296330, 302656",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When Vampiric Blood activates, heal for {1}% of maximum health."
+                    "Text": "При активації [Вампірська Кров], ви зцілюєтесь на {1}% від максимального запасу здоров'я."
                 },
                 "2": {
                     "Hash": 1878775813,
@@ -3910,43 +3910,43 @@
         },
         "274": {
             "Hash": 2106866195,
-            "Name": "Rune Strike",
+            "Name": "Удар Рун",
             "Descriptions": {
                 "0": {
                     "Hash": 2875967319,
                     "Id": "316239",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Strike the target for {1} Physical damage. This attack cannot be dodged, blocked, or parried."
+                    "Text": "Атакує ціль, завдаючи {1} Фізичної шкоди. Від цієї атаки неможливо ухилитися, заблокувати або парувати."
                 }
             }
         },
         "275": {
             "Hash": 3858822103,
-            "Name": "Frostreaper",
+            "Name": "Морозний Жнець",
             "Descriptions": {
                 "0": {
                     "Hash": 616898501,
                     "Id": "317214",
                     "Spec": "Frost",
-                    "Text": "Killing Machine also causes your next Obliterate to deal Frost damage."
+                    "Text": "[Машина для Вбивства] також дозволяє наступному [Знищення] завдати Шкоду від магії холоду."
                 }
             }
         },
         "276": {
             "Hash": 2139995273,
-            "Name": "Hypothermic Presence",
+            "Name": "Гіпотермічна Присутність",
             "Descriptions": {
                 "0": {
                     "Hash": 2888609346,
                     "Id": "321995",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Embrace the ice in your veins, reducing the Runic Power cost of your abilities by {1}% for {2} sec. Does not trigger the global cooldown."
+                    "Text": "Зменшує витрати Рунічної Сили ваших здібностей на {1}% протягом {2} сек. Не викликає глобального відновлення."
                 }
             }
         },
         "277": {
             "Hash": 2858120776,
-            "Name": "Rune of Sanguination",
+            "Name": "Руна Знекровлення",
             "Descriptions": {
                 "0": {
                     "Hash": 1303259262,
@@ -4183,47 +4183,47 @@
         },
         "296": {
             "Hash": 94048395,
-            "Name": "Death Dealer",
+            "Name": "Постачальник Смерті",
             "Descriptions": {}
         },
         "297": {
             "Hash": 2001632181,
-            "Name": "Doom Dealer",
+            "Name": "Вісник Року",
             "Descriptions": {}
         },
         "298": {
             "Hash": 2713156563,
-            "Name": "Chilling Rage",
+            "Name": "Крижана Лють",
             "Descriptions": {
                 "0": {
                     "Hash": 294458565,
                     "Id": "424165",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Chill Streak's range is increased by {1} yds and can bounce off of you. Each time Chill Streak bounces your damage is increased by {2}% for {3} sec, stacking up to {4} times."
+                    "Text": "Дальність дії [Холодний Потік] збільшується на {1} ярд і може відскочити від вас. Щоразу, коли [Холодний Потік] відскакує, ваша шкода збільшується на {2}% на {3} сек. Підсумовується до {4} раз."
                 }
             }
         },
         "299": {
             "Hash": 372460660,
-            "Name": "Amplify Damage",
+            "Name": "Посилення Шкоди",
             "Descriptions": {
                 "0": {
                     "Hash": 977046295,
                     "Id": "424949",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Each Rune you spend increases the duration of your active Magi by {1} sec and your Magi will now also cast Amplify Damage, increasing the damage you deal by {2}% for {3} sec."
+                    "Text": "Кожна витрачена Руна збільшує час існування ваших активних покликаних чародіїв на {1} сек. Тепер вони також будуть використовувати [Посилення Шкоди], збільшуючи шкоду на {2}% на {3} сек."
                 }
             }
         },
         "300": {
             "Hash": 2515277086,
-            "Name": "Ashen Decay",
+            "Name": "Попільний Розпад",
             "Descriptions": {
                 "0": {
                     "Hash": 1644888101,
                     "Id": "425719, 425721",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Consuming Runic Power has a chance to cause your next Heart Strike to apply Ashen Decay, reducing damage dealt to you by {1}% and increasing your damage dealt to afflicted targets by {2}% for {3} sec."
+                    "Text": "Коли ви витрачаєте Силу Рун, наступний [Удар у Серце] може застосувати ефект [Попільний Розпад], що зменшує одержувану вами шкоду на {1}% і збільшує шкоду, яку ви завдаєте ураженим цілям, {2}% на {3} сек."
                 }
             }
         }
