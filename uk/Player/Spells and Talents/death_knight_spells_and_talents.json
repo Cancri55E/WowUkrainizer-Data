@@ -315,7 +315,7 @@
         },
         "21": {
             "Hash": 1122705324,
-            "Name": "Запах Крові",
+            "Name": "Запах крові",
             "Descriptions": {
                 "0": {
                     "Hash": 205065484,
@@ -3009,7 +3009,7 @@
         },
         "204": {
             "Hash": 3100689117,
-            "Name": "Вампірська Кров",
+            "Name": "Вампірська кров",
             "Descriptions": {
                 "0": {
                     "Hash": 1927548881,
@@ -3354,7 +3354,7 @@
                     "Hash": 1531894900,
                     "Id": "55078",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A shadowy disease that drains {1} health from the target over {2} sec.  "
+                    "Text": "Тіньова хвороба, яка забирає {1} здоров'я у цілі протягом {2} сек.  "
                 }
             }
         },
@@ -3408,7 +3408,7 @@
                     "Hash": 3315158959,
                     "Id": "62137",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Reduces the damage your summoned ghoul takes from creature area of effect attacks  by an additional {1}%.\r\nReduces the range at which enemies detect your pet."
+                    "Text": "Зменшує шкоду, яку отримує викликаний вами вурдалак від здібностей з дією по області, на {1}%.\nЗменшує дистанцію, на якій противники можуть виявити вашого прислужника."
                 }
             }
         },
@@ -3420,7 +3420,7 @@
                     "Hash": 1613195529,
                     "Id": "77535",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When you deal damage with Death Strike while in Blood Presence, you gain a percentage of your health gained as a physical absorption shield."
+                    "Text": "Коли ви завдаєте шкоду за допомогою [Удар смерті] під час [Присутність крові] ви отримуєте щит, що поглинає фізичну шкоду в розмірі, що дорівнює обсягу відновленого цією здібністю здоров'я."
                 }
             }
         },
@@ -3456,7 +3456,7 @@
                     "Hash": 47109865,
                     "Id": "91778",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Rakes an enemy with deformed claws, dealing {1} Shadow damage to the target and nearby enemies."
+                    "Text": "Удар зазубреними кігтями, що наносить {1} шкоди від темної магії по цілі та ворогам поблизу."
                 }
             }
         },
@@ -3468,7 +3468,7 @@
                     "Hash": 1951039866,
                     "Id": "91797",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Strike an enemy with a smashing attack, dealing {1} Physical damage and stunning for {2} sec."
+                    "Text": "Завдає цілі нищівну атаку, що наносить {1} фізичної шкоди та приголомшує на {2} сек."
                 }
             }
         },
@@ -3480,7 +3480,7 @@
                     "Hash": 2964648160,
                     "Id": "91802, 91807",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Charge an enemy, interrupting spellcasting and immobilizing them for {1} sec."
+                    "Text": "Робить ривок до ворога, перериваючи заклинання цілі та знерухомлюючи його на {1} сек."
                 }
             }
         },
@@ -3492,7 +3492,7 @@
                     "Hash": 2441321424,
                     "Id": "91837",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Unleash a fortifying roar, reducing all damage taken by {1}% for {2} sec."
+                    "Text": "Випускає зміцнювальний рев, який зменшує всю отриману шкоду на {1}% на {2} сек."
                 }
             }
         },
@@ -3521,7 +3521,7 @@
                     "Hash": 1615131196,
                     "Id": "127344",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Cause a target corpse to explode in a shower of gore. Does not affect mechanical or elemental corpses."
+                    "Text": "Змушує труп вибухнути, розбризкуючи навколо кров. Не можна застосувати до трупів механічних створінь чи елементалів."
                 }
             }
         },
@@ -3533,13 +3533,13 @@
                     "Hash": 619931218,
                     "Id": "147963",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\n"
+                    "Text": "[Воскресіння мертвих] викликає скелета замість вурдалака.\n\n"
                 },
                 "1": {
                     "Hash": 990926950,
                     "Id": "147963",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
+                    "Text": "[Воскресіння мертвих] викликає скелета замість вурдалака.\n\nНе працює поки діє [Гнильний викид]."
                 }
             }
         },
@@ -3551,7 +3551,7 @@
                     "Hash": 1545937471,
                     "Id": "161797",
                     "Spec": "Blood",
-                    "Text": "You gain Parry equal to {1}% of your Critical Strike from gear."
+                    "Text": "Ваша ймовірність парирування підвищується на {1}% від показника критичного удару вашого спорядження."
                 }
             }
         },
@@ -3563,7 +3563,7 @@
                     "Hash": 508626012,
                     "Id": "190778, 190780",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Summons Sindragosa, who breathes frost on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
+                    "Text": "Викликає Сіндрагосу, яка дихає холодом на всіх ворогів в радіусі {1} м перед вами, завдаючи {2} шкоди від магії холоду та сповільнює швидкість пересування на {3}% на {4} сек."
                 }
             }
         },
@@ -3580,7 +3580,7 @@
                     "Hash": 3712822510,
                     "Id": "191587, 191685",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A disease that deals {1} Shadow damage over {2} sec. It erupts when the infected target dies, dealing {3} Shadow damage to nearby enemies."
+                    "Text": "Хвороба, яка завдає {1} шкоди від темної магії за {2} сек. Хвороба спалахує, коли заражена ціль помирає, завдаючи {3} шкоди від темної магії ворогам поблизу."
                 }
             }
         },
@@ -3597,13 +3597,13 @@
                     "Hash": 1611249556,
                     "Id": "194310, 194311, 195757",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power."
+                    "Text": "Гнійна рана, яка лопається після смерті або при отриманні шкоди від [Удар Скари], завдаючи {1} шкоди від темної магії та генерує {2} од. сили рун."
                 },
                 "1": {
                     "Hash": 144989652,
                     "Id": "197147",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Festering Strike applies a pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power.\r\n\r\nStacks up to {3} times on any target."
+                    "Text": "[Гнійний удар] наносить гнійну рану, яка лопається після смерті або при отриманні шкоди від [Удар Скари], завдаючи {1} шкоди від темної магії та генерує {2} од. сили рун.\n\nСумується до {3} разів на будь-якій цілі."
                 }
             }
         },
@@ -3615,19 +3615,19 @@
                     "Hash": 987986196,
                     "Id": "194909, 195750",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "While you have fewer than {1} full [plural|Rune|Runes], your auto attacks radiate intense cold, inflicting {2} Frost damage on all nearby enemies."
+                    "Text": "Поки у вас менше {1} [plural|повної руни|повних рун], ваші автоатаки випромінюють сильний холод, що завдає {2} од. шкоди від магії холоду всім ворогам поблизу."
                 }
             }
         },
         "249": {
             "Hash": 3793594166,
-            "Name": "Pestilent Pustules",
+            "Name": "Чумні гнійники",
             "Descriptions": {
                 "0": {
                     "Hash": 1203274251,
                     "Id": "194917",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Bursting a Festering Wound has a {1}% chance to grant you Runic Corruption."
+                    "Text": "Розрив [Гнійна рана] із шансом {1}% дасть вам [Рунічне псування]."
                 }
             }
         },
@@ -3639,13 +3639,13 @@
                     "Hash": 628297733,
                     "Id": "195181",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Surrounds you with a barrier of whirling bones, increasing Armor by {1}. Each melee attack against you consumes a charge. Lasts {2} sec or until all charges are consumed."
+                    "Text": "Оточує вас бар'єром з кісток, збільшуючи броню на {1}. Кожна атака ближнього бою проти вас витрачає один заряд. Триває {2} сек або доки не закінчаться всі заряди."
                 },
                 "1": {
                     "Hash": 332839313,
                     "Id": "195181",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Surrounds you with a barrier of whirling bones, increasing Armor by {1}, and your Haste by {2}%. Each melee attack against you consumes a charge. Lasts {3} sec or until all charges are consumed."
+                    "Text": "Оточує вас бар'єром з кісток, збільшуючи броню на {1}, а швидкість на {2}%. Кожна атака ближнього бою проти вас витрачає один заряд. Триває {3} сек або доки не закінчаться всі заряди."
                 }
             }
         },
@@ -3671,13 +3671,13 @@
         },
         "255": {
             "Hash": 2447476259,
-            "Name": "Volatile Shielding",
+            "Name": "Нестабільний щит",
             "Descriptions": {
                 "0": {
                     "Hash": 2175875174,
                     "Id": "207188",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your Anti-Magic Shell absorbs {1}% more damage, and generates {2}% additional Runic Power."
+                    "Text": "Ваш [Антимагічний панцир] поглинає на {1}% більше шкоди та генерує на {2}% більше рунічної сили."
                 }
             }
         },
@@ -3689,7 +3689,7 @@
                     "Hash": 2697587287,
                     "Id": "207313",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Raise Dead now summons an abomination instead of a ghoul, with improved innate abilities."
+                    "Text": "[Воскресіння мертвих] викликає чудовисько з покращеними здібностями замість вурдалака."
                 }
             }
         },
@@ -3701,7 +3701,7 @@
                     "Hash": 764997844,
                     "Id": "207321",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Anti-Magic Shell absorbs {1}% more magic damage and lasts {2} sec longer."
+                    "Text": "[Антимагічний панцир] поглинає на {1}% більше магічної шкоди та діє на {2} сек довше."
                 }
             }
         },
@@ -3713,43 +3713,43 @@
                     "Hash": 4230005234,
                     "Id": "207349",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Summon a Val'kyr into the area to attack the target for {1} sec.\r\n\r\nThe Val'kyr gains {2}% increased damage for every {3} Runic Power you spend.\r\n\r\n{FFFFFFFF|Generates {4} Runic Power.}"
+                    "Text": "Викликає валькірію, яка атакує ціль протягом {1} сек.\n\nШкода, яку наносить валькірія, збільшується на {2}% за кожні витрачені {3} од. сили рун.\n\n{FFFFFFFFFF|Генерує {4} од. сили рун.}"
                 }
             }
         },
         "259": {
             "Hash": 4178572842,
-            "Name": "Koltira's Newfound Will",
+            "Name": "Новознайдена воля Колтіри",
             "Descriptions": {
                 "0": {
                     "Hash": 4158027711,
                     "Id": "208782, 208783",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Obliterate deals {1}% more damage and has a {2}% chance to refund {3} [plural|rune|runes]."
+                    "Text": "[Знищення] завдає на {1}% більше шкоди та із шансом {2}% повернути {3} [множина|руну|руни]."
                 }
             }
         },
         "260": {
             "Hash": 1092441594,
-            "Name": "Dark Empowerment",
+            "Name": "Темне посилення",
             "Descriptions": {
                 "0": {
                     "Hash": 2889948623,
                     "Id": "211947",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Spending Runic Power increases damage done."
+                    "Text": "Використання сили рун збільшує шкоду."
                 }
             }
         },
         "261": {
             "Hash": 2990966228,
-            "Name": "Skulker Shot",
+            "Name": "Потайний постріл",
             "Descriptions": {
                 "0": {
                     "Hash": 104344442,
                     "Id": "212423",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A ranged shot that causes Physical damage."
+                    "Text": "Постріл з відстані, який завдає фізичної шкоди."
                 }
             }
         },
@@ -3761,31 +3761,31 @@
                     "Hash": 1375885584,
                     "Id": "223829",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "A vicious strike that deals {1} Plague damage, and converts {2} Festering [plural|Wound|Wounds] into a Necrotic Wound, absorbing up to {3}% of the target's maximum health in healing received."
+                    "Text": "Жорстокий удар, що завдає {1} од. шкоди від чуми й перетворює {2} [Гнійна рана] на [Некротичні рани], що поглинають зцілення цілі в обсязі до {3}% максимального запасу здоров'я цілі."
                 }
             }
         },
         "263": {
             "Hash": 4166639607,
-            "Name": "Coils of Devastation",
+            "Name": "Спіралі спустошення",
             "Descriptions": {
                 "0": {
                     "Hash": 179176606,
                     "Id": "253367, 390271",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Death Coil causes the target to take an additional {1}% of the direct damage dealt over {2} sec."
+                    "Text": "[Спіраль смерті] завдає цілі додатково {1}% від своєї прямої шкоди, що наноситься протягом {2} сек."
                 }
             }
         },
         "264": {
             "Hash": 1695045903,
-            "Name": "Horrid Experimentation",
+            "Name": "Моторошний експеримент",
             "Descriptions": {
                 "0": {
                     "Hash": 2472000433,
                     "Id": "273095, 273096",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When Dark Transformation expires, the unholy energy in your ghoul is expelled, dealing {1} Shadow damage to all nearby enemies."
+                    "Text": "Коли час дії [Зловісне перетворення] минає, з вурдалака виривається нечестива енергія, завдаючи {1} од. шкоди від темної магії усім ворогам поблизу."
                 }
             }
         },
@@ -3797,7 +3797,7 @@
                     "Hash": 2861268015,
                     "Id": "275918",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When empowered by Rime, Howling Blast causes a secondary burst of icy wind around you that deals {1} Frost damage to nearby enemies."
+                    "Text": "[Виючий вітер], посилений [Іній], оточує вас другим поривом крижаного вітру, що завдає противникам, які перебувають поруч, {1} од. шкоди від магії холоду."
                 }
             }
         },
@@ -3809,7 +3809,7 @@
                     "Hash": 1886843030,
                     "Id": "279606, 390220",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When your ghouls expire, they explode in viscera dealing {1} Shadow damage to nearby enemies. "
+                    "Text": "Коли час існування ваших вурдалаків закінчується, вони вибухають, завдаючи {1} од. шкоди від темної магії ворогам поблизу. "
                 }
             }
         },
@@ -3821,19 +3821,19 @@
                     "Hash": 2827594794,
                     "Id": "286835, 286836, 286954, 286978, 286979, 290814",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Dark Transformations ignites you and your pet with flaming chains that deal {1} Fire damage every sec to enemies between you for {2} sec. "
+                    "Text": "[Темне перетворення] пов'язує вас і вашого вихованця вогняними ланцюгами, які наносять {1} од. шкоди від вогню щосекунди ворогам між вами протягом {2} сек. "
                 }
             }
         },
         "268": {
             "Hash": 3616145423,
-            "Name": "Frostwhelp's Indignation",
+            "Name": "Гнів крижаного дракончика",
             "Descriptions": {
                 "0": {
                     "Hash": 502904354,
                     "Id": "287320, 287321, 287338",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Indignation grants you {3} Mastery for {4} sec, up to {5}."
+                    "Text": "[Крижаний стовп] викликає крижаного дракончика, який дихає на всіх ворогів у радіусі {1} м перед вами, завдаючи {2} од. шкоди від магії холоду. Кожен унікальний ворог, якого вразить [Гнів крижаного дракончика], дає вам {3}% майстерності на {4} сек, максимум до {5}."
                 }
             }
         },
@@ -3857,7 +3857,7 @@
                     "Hash": 616172569,
                     "Id": "288548, 317792",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Deals {1} Frost damage and reduces their movement speed by {2}% for {3} sec."
+                    "Text": "Завдає {1} од. шкоди від магії холоду і зменшує швидкість пересування на {2}% на {3} сек."
                 }
             }
         },
@@ -4088,7 +4088,7 @@
                     "Hash": 396545968,
                     "Id": "364384",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Remorseless Winter grants {1}% Critical Strike while active.\r\n\r\n\r\n\r\n\r\n"
+                    "Text": "[Безжальна зима] збільшує критичний удар на {1}%, поки активна.\n\n\n\n\n"
                 }
             }
         },
@@ -4100,7 +4100,7 @@
                     "Hash": 2808337029,
                     "Id": "368690",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your damaging spells have a chance to inflict Despair upon your enemies, increasing the effect of your Diseases against them by {1} for {2} seconds. You have a greater chance to inflict Despair against enemies who are at higher health.\r\n\r\n"
+                    "Text": "Ваші шкідливі заклинання мають шанс викликати [Відчай] у ворогів, який посилює ваші хвороби на {1} протягом {2} сек. Ефект спрацьовує частіше, якщо ви застосовуєте здібності до цілей з високим рівнем здоров'я.\n\n"
                 }
             }
         },
@@ -4112,7 +4112,7 @@
                     "Hash": 3342873137,
                     "Id": "394570",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "After {1} Bone Shield charges are consumed gain {2}% damage and Haste for {3} sec.\r\n"
+                    "Text": "Після витрати {1} зарядів [Щит з кісток], ви отримуєте додаткові {2}% шкоди та швидкості на {3} сек.\n"
                 }
             }
         },
@@ -4124,7 +4124,7 @@
                     "Hash": 2411917230,
                     "Id": "394863",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Bursting a Festering Wound grants your ghoul Vile Infusion, increasing their damage by {1}% and Haste by {2}% for {3} sec."
+                    "Text": "Прорив [Гнійна рана] дає вашому вурдалаку ефект [Мерзенне Насичення], що збільшує його шкоду на {1}% і швидкість на {2}% протягом {3} сек."
                 }
             }
         },
@@ -4136,7 +4136,7 @@
                     "Hash": 2236143304,
                     "Id": "394899",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Your primary ghoul's attacks have a {1}% chance to increase your damage and Haste by {2}% for {3} sec. This chance is increased to {4}% during Vile Infusion."
+                    "Text": "Атаки вашого основного вурдалака з імовірністю {1}% можуть збільшити вашу шкоду і швидкість на {2}% протягом {3} сек. Цей шанс збільшується до {4}%, поки діє [Мерзенне насичення]."
                 }
             }
         },
@@ -4148,7 +4148,7 @@
                     "Hash": 2611015531,
                     "Id": "408356",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "When you would gain Vampiric Blood you are infused with Vampiric Strength, granting you {1}% Strength for {2} sec. Your Heart Strike and Blood Boil extend the duration of Vampiric Strength by {3} sec."
+                    "Text": "Разом із [Вампірська кров] ви також отримуєте [Міць вампіра], яка підвищує вашу силу на {1}% протягом {2} сек. [Удар в серце] і [Кипіння крові] продовжують [Міць вампіра] на {3} сек."
                 }
             }
         },
@@ -4160,7 +4160,7 @@
                     "Hash": 1951838240,
                     "Id": "408368, 410879",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Frostwyrm's Fury causes enemies hit to take {1}% increased damage from your critical strikes for {2} sec."
+                    "Text": "Противники, уражені [Лють морозних зміїв], отримують на {1}% більше шкоди від ваших критичних ударів протягом {2} сек."
                 }
             }
         },
@@ -4177,7 +4177,7 @@
                     "Hash": 2038753046,
                     "Id": "408375, 408376, 408377",
                     "Spec": "Blood, Frost, Unholy",
-                    "Text": "Death Coil and Epidemic damage increased by {1}%. Casting Death Coil or Epidemic grants a stack of Master of Death, up to {2}. Dark Transformation consumes Master of Death and grants {3}% Mastery for each stack for {4} sec."
+                    "Text": "Шкода від [Спіраль смерті] та [Епідемія] збільшується на {1}%. Застосування [Спіраль смерті] або [Епідемія] дає один ефект [Майстер смерті] який накопичується до {2} разів. [Зловісне перетворення] поглинає всі ефекти [Майстер смерті] і підвищує вашу майстерності на {3}% за кожний ефект протягом {4} сек."
                 }
             }
         },
