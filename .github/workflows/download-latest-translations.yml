@@ -1,16 +1,14 @@
-name: Download latest translations
-
+name: Download the latest translations
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 */4 * * *"
-  
+
 permissions: write-all
 
 jobs:
   download-translations-with-crowdin:
     runs-on: ubuntu-22.04
-
     steps:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
@@ -34,7 +32,7 @@ jobs:
       - name: Build DevTools project
         run: dotnet build ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --no-restore
 
-      - name: Download latest translations from Crowdin
+      - name: Download the latest translations from Crowdin
         uses: crowdin/github-action@v2
         with:
           upload_sources: false
@@ -48,32 +46,26 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-      - name: Run DevTools project
-        id: run_update_translation_cmd
+      - name: Run DevTools project and display output
         run: |
-          UPDATE_TRANSLATION_RESULT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "Data Source = '${{ github.workspace }}/Data.db'" --folder "${{ github.workspace }}/uk" 2>update-translation-log.txt)
-          echo "::set-output name=output::$UPDATE_TRANSLATION_RESULT"
-
-      - name: Display update translation log
-        run: |
-          cat update-translation-log.txt
-          echo "The output of the dotnet command was ${{ steps.run_update_translation_cmd.outputs.output }}"
+          OUTPUT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "Data Source = '${{ github.workspace }}/Data.db'" --folder "${{ github.workspace }}/uk")
+          echo "$OUTPUT"
+          echo "output=$OUTPUT" >> $GITHUB_OUTPUT
 
       - name: Commit translations
-        if: steps.run_update_translation_cmd.outputs.output != '0'
+        id: commit_translations
         uses: EndBug/add-and-commit@v9
         with:
-          message: Update Data.db and uk/*.json with latest translations from Crowdin
+          message: Update Data.db and uk/*.json with the latest translations from Crowdin
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: 'Data.db uk/*'
           
       - name: Trigger WowUkrainizer repo to publish alpha version
-        if: steps.run_update_translation_cmd.outputs.output != '0'
+        if: steps.commit_translations.outputs.committed == 'true'
         run: |
           curl -X POST \
           -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/Cancri55E/WowUkrainizer/actions/workflows/package.yml/dispatches \
           -d '{"ref":"master"}'
-
