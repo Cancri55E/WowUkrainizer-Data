@@ -48,9 +48,7 @@ jobs:
 
       - name: Run DevTools project and display output
         run: |
-          OUTPUT=$(dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "Data Source = '${{ github.workspace }}/Data.db'" --folder "${{ github.workspace }}/uk")
-          echo "$OUTPUT"
-          echo "output=$OUTPUT" >> $GITHUB_OUTPUT
+          dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "Data Source = '${{ github.workspace }}/Data.db'" --folder "${{ github.workspace }}/uk"
 
       - name: Commit translations
         id: commit_translations
