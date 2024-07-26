@@ -1,60 +1,4 @@
 {
-    "4142682567": {
-        "Name": "Winter's Chill",
-        "Descriptions": {}
-    },
-    "993090034": {
-        "Name": "Icicle",
-        "Descriptions": {}
-    },
-    "788828677": {
-        "Name": "Icicles",
-        "Descriptions": {}
-    },
-    "3189647902": {
-        "Name": "Cauterized",
-        "Descriptions": {}
-    },
-    "1198644187": {
-        "Name": "Meteor Burn",
-        "Descriptions": {}
-    },
-    "1000083974": {
-        "Name": "Conflagration Flare Up",
-        "Descriptions": {}
-    },
-    "29592500": {
-        "Name": "Erupting Infernal Core",
-        "Descriptions": {}
-    },
-    "1526935163": {
-        "Name": "Rage of the Frost Wyrm",
-        "Descriptions": {}
-    },
-    "3245750369": {
-        "Name": "Agonizing Backlash",
-        "Descriptions": {}
-    },
-    "4052763365": {
-        "Name": "Numbing Blast",
-        "Descriptions": {}
-    },
-    "3902751978": {
-        "Name": "Fury of the Sun King",
-        "Descriptions": {}
-    },
-    "3007222042": {
-        "Name": "Displacement Beacon",
-        "Descriptions": {}
-    },
-    "2060003290": {
-        "Name": "Flame's Fury",
-        "Descriptions": {}
-    },
-    "3807272180": {
-        "Name": "Arcane Battery",
-        "Descriptions": {}
-    },
     "2467525704": {
         "Name": "Accumulative Shielding",
         "Descriptions": {
@@ -399,6 +343,14 @@
             "2788252093": "Frostbolt has a {1}% chance and Frozen Orb damage has a {2}% to grant a charge of Fingers of Frost.\r\n\r\nFingers of Frost causes your next Ice Lance to deal damage as if the target were frozen.\r\n\r\nMaximum {3} charges."
         }
     },
+    "2425981719": {
+        "Name": "Fire Blast",
+        "Descriptions": {
+            "3815896016": "Blasts the enemy for {1} Fire damage. \r\n\r\n{FFFFFFFF|Fire:} Castable while casting other spells. Always deals a critical strike.",
+            "1609557398": "Blasts the enemy for {1} Fire damage.",
+            "1418941507": "Blasts the enemy for {1} Fire damage.\r\n\r\n{FFFFFFFF|Fire:} Always deals a critical strike."
+        }
+    },
     "2197704226": {
         "Name": "Fireball",
         "Descriptions": {
@@ -515,6 +467,13 @@
         "Name": "Frostbite",
         "Descriptions": {
             "96083047": "Gives your Chill effects a {1}% chance to freeze the target for {2} sec."
+        }
+    },
+    "1064463860": {
+        "Name": "Frostbolt",
+        "Descriptions": {
+            "3861519146": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec.",
+            "3069047234": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec.\r\n\r\nFrostbolt deals {4}% additional damage to Frozen targets."
         }
     },
     "1703877800": {
@@ -783,6 +742,13 @@
         "Name": "Mastery: Savant",
         "Descriptions": {
             "1420453063": "Increases your Mana regeneration rate and maximum Mana by {1}%.\r\n\r\nArcane Charges increase the damage of Arcane Blast by an additional {2}% and Arcane Barrage by {3}%.\r\n\r\nIncreases all other Arcane damage by {4}%"
+        }
+    },
+    "3303574511": {
+        "Name": "Meteor",
+        "Descriptions": {
+            "3461627833": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage to all enemies hit reduced beyond {3} targets, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area.",
+            "3678368980": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage, split evenly between all targets within {3} yds, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area."
         }
     },
     "4081973918": {
@@ -1339,13 +1305,6 @@
             "4114342260": "Comet Storm now also calls down a Meteor at {1}% effectiveness onto your target's location.\r\n\r\nMeteor now also calls down a Comet Storm at {2}% effectiveness onto your target location."
         }
     },
-    "1064463860": {
-        "Name": "Frostbolt",
-        "Descriptions": {
-            "3861519146": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec.",
-            "3069047234": "Launches a bolt of frost at the enemy, causing {1} Frost damage and slowing movement speed by {2}% for {3} sec.\r\n\r\nFrostbolt deals {4}% additional damage to Frozen targets."
-        }
-    },
     "817152980": {
         "Name": "Portal: Stonard",
         "Descriptions": {
@@ -1512,13 +1471,6 @@
         "Name": "Portal: Thunder Bluff",
         "Descriptions": {
             "2251547315": "Creates a portal, teleporting group members that use it to Thunder Bluff."
-        }
-    },
-    "3303574511": {
-        "Name": "Meteor",
-        "Descriptions": {
-            "3461627833": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage to all enemies hit reduced beyond {3} targets, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area.",
-            "3678368980": "Calls down a meteor which lands at the target location after {1} sec, dealing {2} Fire damage, split evenly between all targets within {3} yds, and burns the ground, dealing {4} Fire damage over {5} sec to all enemies in the area."
         }
     },
     "2712074469": {
@@ -1704,14 +1656,6 @@
         "Name": "Glyph of the Cold Waves",
         "Descriptions": {
             "3191840491": "Your Water Elemental is replaced by a Cresting Wave Elemental."
-        }
-    },
-    "2425981719": {
-        "Name": "Fire Blast",
-        "Descriptions": {
-            "1609557398": "Blasts the enemy for {1} Fire damage.",
-            "1418941507": "Blasts the enemy for {1} Fire damage.\r\n\r\n{FFFFFFFF|Fire:} Always deals a critical strike.",
-            "3815896016": "Blasts the enemy for {1} Fire damage. \r\n\r\n{FFFFFFFF|Fire:} Castable while casting other spells. Always deals a critical strike."
         }
     },
     "1013252485": {
