@@ -8,7 +8,7 @@
     "581996637": {
         "Name": "Керований рій",
         "Descriptions": {
-            "634173044": "Command a swarm that heals {1} or deals {2} Nature damage over {3} sec to a target, and increases the effectiveness of your periodic effects on them by {4}%.\r\n\r\nUpon expiration, finds a new target, preferring to alternate between friend and foe up to {5} times."
+            "634173044": "Ви керуєте роєм, який зцілює цілі {1} од. здоров'я або завдає їй {2} од. шкоди від магії природи протягом {3} сек та збільшує ефективність періодичних ефектів на ній на {4}%.\n\nПісля закінчення дії ефекту, знаходить нову ціль, переважно чергуючись між союзниками та ворогами до {5} {declension|разу|разів|разів}."
         }
     },
     "1201062393": {
@@ -93,21 +93,21 @@
             "831351962": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, а витрати ресурсу на [Залізне хутро] зменшуються на {3}%.",
             "9409286": "На {1} сек ви перетворюєтесь на берсерка.\n\nНадає імунітет до ефектів втрати контролю над персонажем.",
             "1300021073": "Go berserk for {1} sec.",
-            "2909333752": "Go Berserk for {1} sec. While Berserk:\r\n\r\nGenerate {2} combo [plural|point|points] every {3} sec. Combo point generating abilities generate {4} additional combo [plural|point|points]. Finishing moves restore up to {5} combo points generated over the cap.\r\n\r\nAll attack and ability damage is increased by {6}%."
+            "2909333752": "Ви впадаєте у [Берсерк] на {1} сек. Поки він діє:\n\nВи отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек. Здібності, що генерують очки серії, додатково дають {4} {declension|очко|очки|очок} серії. Завершальні прийоми відновлюють до {5} {declension|очка|очок|очок} серії згенерованих понад ліміту.\n\nШкода від всіх атак та здібностей збільшується на {6}%."
         }
     },
     "485206953": {
         "Name": "Берсерк: Несамовитість",
         "Descriptions": {
-            "420420295": "During Berserk your combo point-generating abilities bleed the target for an additional {1}% of their direct damage over {2} sec.",
-            "3838779803": "During Incarnation: Avatar of Ashamane your combo point-generating abilities bleed the target for an additional {1}% of their direct damage over {2} sec."
+            "420420295": "Під час [Берсерку] ваші здібності, що надають очки серії, додатково кровоточать на {1}% від їхньої прямої шкоди протягом {2} сек.",
+            "3838779803": "Поки діє [Втілення: Аватар Попелястогривої], ваші здібності, що дають очки серії, додатково завдають {1}% шкоди від їхньої прямої шкоди протягом {2} сек."
         }
     },
     "4098908997": {
         "Name": "Берсерк: Серце Лева",
         "Descriptions": {
-            "573259467": "Reduces the cooldown of Berserk by {1} sec.",
-            "199706160": "Reduces the cooldown of Incarnation: Avatar of Ashamane by {1} sec."
+            "573259467": "Зменшує час відновлення [Берсерку] на {1} сек.",
+            "199706160": "Зменшує час відновлення [Втілення: Аватар Попелястогривої] на {1} сек."
         }
     },
     "1601807321": {
@@ -633,8 +633,8 @@
     "517105859": {
         "Name": "Втілення: Аватар Попелястогривої",
         "Descriptions": {
-            "2857911209": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\r\n\r\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.",
-            "3096767319": "An improved Cat Form that grants all of your known Berserk effects and lasts {1} sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\r\n\r\nEnergy cost of all Cat Form abilities is reduced by {2}%, and Prowl can be used once while in combat.\r\n\r\nGenerate {3} combo [plural|point|points] every {4} sec. Combo point generating abilities generate {5} additional combo [plural|point|points]. Finishing moves restore up to {6} combo points generated over the cap.\r\n\r\nAll attack and ability damage is increased by {7}%."
+            "2857911209": "Покращена [Форма кота], що надає всі вивчені ефекти [Берсерку] і триває {1} сек. Ви можете змінювати форму під час дії цієї форми. Під час дії цього аватару діють ефекти:\n\nВитрати енергії на всі здібності [Форми кота] зменшуються на {2}%, а [Підкрадання] може бути використане тільки один раз за бій.",
+            "3096767319": "Покращена [Форма кота], що надає всі вивчені ефекти [Берсерку] і триває {1} сек. Ви можете змінювати форму під час дії цієї форми. Під час дії цього аватару діють ефекти:\n\nВитрати енергії на всі здібності [Форми кота] зменшуються на {2}%, а [Підкрадання] може бути використане тільки один раз за бій.\n\nЦя здібність генерує {3} {declension|очко|очка|очок} серії кожні {4} сек. Здібності, що надають очки серії, дають на {5} {declension|очко|очка|очок} більше. Завершальні прийоми відновлюють до {6} {declension|очка|очок|очок} серії згенерованих понад ліміту.\n\nВсі атаки та здібності завдають на {7}% більше шкоди."
         }
     },
     "1233468852": {
@@ -871,8 +871,8 @@
     "412321336": {
         "Name": "Мить ясності",
         "Descriptions": {
-            "3898579716": "Omen of Clarity now triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Shred, Thrash, or Swipe by an additional {3}%.",
-            "1220137301": "Omen of Clarity now triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Shred, Thrash, or Brutal Slash by an additional {3}%."
+            "3898579716": "[Знамення ясності] тепер спрацьовує на {1}% частіше, може накопичувати до {2} зарядів і збільшує шкоду від наступного [Шматування], [Патрання] або [Розмаху] на {3}%.",
+            "1220137301": "[Знамення ясності] тепер спрацьовує на {1}% частіше, може накопичувати до {2} зарядів і збільшує шкоду від наступного [Шматування], [Патрання] або [Жорстокого розрізу] на {3}%."
         }
     },
     "248578396": {
@@ -1056,7 +1056,7 @@
     "4112198918": {
         "Name": "Хижак",
         "Descriptions": {
-            "944113070": "Tiger's Fury lasts {1} additional seconds.\r\n\r\nYour combo point-generating abilities' direct damage is increased by {2}% of your Haste."
+            "944113070": "[Лють тигра] триває на {1} сек довше.\n\nПряма шкода ваших здібностей, що надають очки серії, збільшується на {2}% від вашої швидкості."
         }
     },
     "3265458760": {
@@ -1116,7 +1116,7 @@
     "1315968096": {
         "Name": "Шалена лють",
         "Descriptions": {
-            "3731166964": "Tiger's Fury lasts {1} additional seconds."
+            "3731166964": "[Лють тигра] триває на {1} сек довше."
         }
     },
     "2957959651": {
@@ -1130,7 +1130,7 @@
     "3588638425": {
         "Name": "Нестримна жорстокість",
         "Descriptions": {
-            "4215077545": "Ferocious Bite also deals {1} damage per combo point spent to all nearby enemies affect by your Rip. Spending extra Energy on Ferocious Bite increases damage dealt by up to {2}%. Damage reduced beyond {3} [plural|Target|targets]."
+            "4215077545": "[Лютий укус] наносить {1} од. шкоди за кожне витрачене очко серії найближчим ворогам, що вражені вашим [Розривом]. Витрата додаткової енергії на [Лютий укус] збільшує шкоду цієї здібності максимум на {2}%. Завдає менше шкоди понад {3} {declension|цілі|цілям|цілям}."
         }
     },
     "3671920870": {
@@ -1257,14 +1257,14 @@
     "1087095824": {
         "Name": "Шаблезуб",
         "Descriptions": {
-            "4046468092": "Ferocious Bite deals {1}% increased damage.\r\n\r\nFor each Combo Point spent, Ferocious Bite's primary target takes {2}% increased damage from your Cat Form bleed and other periodic abilities for {3} sec."
+            "4046468092": "[Лютий укус] завдає на {1}% більше шкоди.\n\nЗа кожне витрачене очко серії, ціль, уражена [Лютим укусом], отримує на {2}% більше шкоди від ваших періодичних здібностей на {3} сек."
         }
     },
     "1279302170": {
         "Name": "Варварський імпульс",
         "Descriptions": {
             "40504893": "Перериваючи заклинання за допомогою [Лобова атака], час відновлення [Лють тигра], [Інстинкти виживання] та [Спринт] зменшується на {1} сек.",
-            "74104662": "Interrupting a spell with Skull Bash reduces the remaining cooldown of Tiger's Fury, Survival Instincts, and Tiger Dash by {1} sec."
+            "74104662": "Переривання заклинання [Лобовою атакою] пришвидшує відновлення [Люті тигра], [Інстинктів виживання] та [Пориву тигра] на {1} сек."
         }
     },
     "1897687334": {
@@ -1441,7 +1441,7 @@
     "973061863": {
         "Name": "Жага крові",
         "Descriptions": {
-            "144267248": "Ferocious Bite deals {1}% increased damage and an additional {2}% during Tiger's Fury.\r\n"
+            "144267248": "[Лютий укус] завдає на {1}% більше шкоди, а під час дії [Люті тигра] зростає ще на {2}%."
         }
     },
     "1510791647": {
@@ -1489,8 +1489,8 @@
     "928677407": {
         "Name": "Затятість тигра",
         "Descriptions": {
-            "1728494920": "Tiger's Fury causes your next {1} finishing [plural|move|moves] to restore {2} combo [plural|point|points].\r\n\r\nTiger's Fury's also increases the periodic damage of your bleeds by an additional {3}% for their full duration.",
-            "2176853884": "Tiger's Fury causes your next {1} finishing [plural|move|moves] to restore {2} combo [plural|point|points].\r\n\r\nTiger's Fury's also increases the periodic damage of your bleeds and Moonfire by an additional {3}% for their full duration."
+            "1728494920": "Після використання [Люті тигра] {1} {declension|наступний завершальний прийом надасть|наступних завершальних прийомів нададуть|наступних завершальних прийомів нададуть} {2} {declension|очко|очка|очок} серії.\n\n[Лють тигра] також збільшує періодичну шкоду від кровотеч на {3}% на весь час їхньої дії.",
+            "2176853884": "Після використання [Люті тигра] {1} {declension|наступний завершальний прийом надасть|наступних завершальних прийомів нададуть|наступних завершальних прийомів нададуть} {2} {declension|очко|очка|очок} серії.\n\n[Лють тигра] також збільшує періодичну шкоду від кровотеч та [Місячного вогню] на {3}% на весь час їхньої дії."
         }
     },
     "2438917080": {
@@ -1743,8 +1743,8 @@
     "1865704048": {
         "Name": "Нищівні кігті",
         "Descriptions": {
-            "3062292809": "Shred deals {1}% increased damage against bleeding targets and Shred and Swipe apply the Bleed damage over time from Thrash, if known.",
-            "3233519514": "Shred deals {1}% increased damage against bleeding targets and Shred and Brutal Slash apply the Bleed damage over time from Thrash, if known."
+            "3062292809": "[Шматування] наносить на {1}% більше шкоди цілям, що кровоточать. Крім цього, [Шматування] та [Розмах] викликають періодичну шкоду від [Патрання], якщо ця здібність вивчена.",
+            "3233519514": "[Шматування] наносить на {1}% більше шкоди цілям, що кровоточать. Крім цього, [Шматування] та [Жорстокий розріз] викликають періодичну шкоду від [Патрання], якщо ця здібність вивчена."
         }
     },
     "1917187743": {
@@ -1845,7 +1845,7 @@
     "1653762468": {
         "Name": "Готовий до стрибка",
         "Descriptions": {
-            "2086208571": "If you generate a combo point in excess of what you can store, your next Ferocious Bite or Primal Wrath deals {1}% increased direct damage."
+            "2086208571": "Якщо ви отримали більше очок серії, ніж можете зберігати, ваш наступний [Лютий укус] або [Первісний гнів] завдасть на {1}% більше прямої шкоди."
         }
     },
     "2207100178": {
@@ -2206,7 +2206,7 @@
     "1830481057": {
         "Name": "Дика лють",
         "Descriptions": {
-            "2446906716": "Tiger's Fury increases your Haste by {1}% and Energy recovery rate by {2}% for {3} sec."
+            "2446906716": "[Лють тигра] збільшує вашу швидкість на {1}%, а швидкість відновлення енергії на {2}% протягом {3} сек."
         }
     },
     "4098247466": {

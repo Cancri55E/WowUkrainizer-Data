@@ -97,7 +97,7 @@
             "2039168682": "Ви звертаєтесь до Світла та стаєте аватаром відплати, від чого ваше [Правосуддя] генерує {1} {declension|додаткову|додаткові|додаткових} од. сили світла, [Молот гніву] може застосовуватись до будь-якої цілі та активуються всі відомі ефекти [Гніву помсти] на {2} сек.",
             "898758253": "Ви звертаєтесь до Світла та стаєте аватаром відплати, від чого щоразу, витрачаючи силу Світла, ви вибухаєте Святим Світлом, завдаючи {1} од. шкоди ворогам навколо вас, та активуються всі відомі ефекти [Гніву помсти] протягом {2} сек.",
             "4079606479": "Ви звертаєтесь до Світла та стаєте аватаром відплати, від чого щоразу, витрачаючи силу Світла, ви вибухаєте Святим Світлом, завдаючи {1} од. шкоди ворогам навколо вас, [Молот гніву] може застосовуватись до будь-якої цілі, та активуються всі відомі ефекти [Гніву помсти] протягом {2} сек.",
-            "3346962478": "Call upon the Light to become an avatar of retribution, and activating all the effects learned for Avenging Wrath for {1} sec."
+            "3346962478": "Ви звертаєтесь до Світла та стаєте аватаром відплати, що активує всі відомі ефекти [Гніву помсти] на {1} сек."
         }
     },
     "3440699229": {
@@ -122,7 +122,7 @@
     "2022433895": {
         "Name": "Бастіон Світла",
         "Descriptions": {
-            "3543350317": "Your next {1} casts of Judgment generate {2} additional Holy Power."
+            "3543350317": "Ваші наступні {1} застосувань [Правосуддя] генерують додатково {2} од. сили світла."
         }
     },
     "3909884094": {
@@ -160,9 +160,9 @@
     "3178527143": {
         "Name": "Клинки Світла",
         "Descriptions": {
-            "2855510729": "[Удар хрестоносця], [Правосуддя], [Молот гніву] та ваші здібності, що завдають шкоду одній цілі і витрачають силу світла, тепер завдають шкоду від удару Світла, а ваші здібності, що завдають шкоди від удару Світла, завдають на {1}% більше шкоди.",
-            "3187725521": "Templar Strikes, Judgment, Hammer of Wrath and your damaging single target Holy Power abilities now deal Holystrike damage and your abilities that deal Holystrike damage deal {1}% increased damage.",
-            "2239758422": "Crusading Strikes, Judgment, Hammer of Wrath and your damaging single target Holy Power abilities now deal Holystrike damage and your abilities that deal Holystrike damage deal {1}% increased damage."
+            "2855510729": "[Удар хрестоносця], [Правосуддя], [Молот гніву] та ваші здібності сили Світла, що завдають шкоду одній цілі, тепер завдають шкоду від удару Світла, а ваші здібності, що завдають шкоди від удару Світла, завдають на {1}% більше шкоди.",
+            "3187725521": "[Удари храмовника], [Правосуддя], [Молот гніву] та ваші здібності сили Світла, що завдають шкоду одній цілі, тепер завдають шкоду від удару Світла, а ваші здібності, що завдають шкоди від удару Світла, завдають на {1}% більше шкоди.",
+            "2239758422": "[Удари хрестоносця], [Правосуддя], [Молот гніву] та ваші здібності сили Світла, що завдають шкоду одній цілі, тепер завдають шкоду від удару Світла, а ваші здібності, що завдають шкоди від удару Світла, завдають на {1}% більше шкоди."
         }
     },
     "3606642964": {
@@ -1310,7 +1310,7 @@
     "3812096106": {
         "Name": "Бурхливе полум'я",
         "Descriptions": {
-            "1820894526": "[Спопеляючий слід] завдає значно меншої шкоди вторинним цілям, але тепер ви здійснюєте додатково {1} {declension|замах|замахи|замахів}, завдаючи {2} од. шкоди від сяйва. "
+            "1820894526": "[Пробудження попелу] завдає значно меншої шкоди вторинним цілям, але тепер ви здійснюєте додатково {1} {declension|замах|замахи|замахів}, завдаючи {2} од. шкоди від сяйва. "
         }
     },
     "3124195073": {
@@ -1508,9 +1508,9 @@
         }
     },
     "1241021413": {
-        "Name": "Спопеляючий слід",
+        "Name": "Пробудження попелу",
         "Descriptions": {
-            "4032905555": "Lash out at your enemies, dealing {1} Radiant damage to all enemies within {2} yds in front of you, and applying Truth's Wake, burning the targets for an additional {3} damage over {4} sec.\r\n\r\nDemon and Undead enemies are also stunned for {5} sec.\r\n\r\n|cFFFFFFFFGenerates {6} Holy Power."
+            "4032905555": "Ви замахуєтесь на ворогів, завдаючи {1} од. шкоди від сяйва всім ворогам в межах {2} м перед вами та застосовуючи [Пробудження правди], що підпалює цілі, завдаючи додатково {3} од. шкоди протягом {4} сек.\n\nВороги, що є демонами або немертвими, також отримують приголомшення на {5} сек.\n\n|cFFFFFFFFГенерує {6} од. сили світла."
         }
     },
     "3304922017": {
@@ -1707,9 +1707,9 @@
         }
     },
     "1636113208": {
-        "Name": "Light's Guidance",
+        "Name": "Настанови Світла",
         "Descriptions": {
-            "3504086740": "Wake of Ashes is replaced with Hammer of Light for {1} sec after it is cast.\r\n\r\n|T5342121:24|t Hammer of Light:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power.",
+            "3504086740": "[Пробудження попелу] замінюється на [Молот Світла] протягом {1} сек після застосування.\n\n|T5342121:24|t Молот Світла:\nНищить вашого ворога силою Світла, завдаючи {2} од. шкоди від світлої магії та {3} од. шкоди від світлої магії ще {4} {declension|ворогу|ворогам|ворогам} поблизу. \n\nТакож, закликає з неба [Небесні молоти], що вдаряють {5} {declension|ворога|ворога|ворогів} поблизу, завдаючи {6} од. щкоди від світлої магії кожному.\n\n|cFFFFFFFFВитрачає {7} од. сили світла.",
             "4045988323": "Eye of Tyr is replaced with Hammer of Light for {1} sec after it is cast.\r\n\r\n|T5342121:24|t Hammer of Light:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power."
         }
     },
@@ -1720,7 +1720,7 @@
         }
     },
     "2683875777": {
-        "Name": "Bestow Light",
+        "Name": "Дароване Світло",
         "Descriptions": {
             "909561507": "Light of the Martyr's health threshold is reduced to {1}% and increases Holy Shock's healing by an additional {2}% for every {3} sec Light of the Martyr is active, stacking up to {4} times.\r\n\r\nWhile below {5}% health, the light urgently heals you for {6} every {7} sec."
         }
@@ -1732,7 +1732,7 @@
         }
     },
     "103009368": {
-        "Name": "Truth Prevails",
+        "Name": "Верховенство правди",
         "Descriptions": {
             "3612855413": "Judgment heals you for {1} and its cost is reduced by {2}%. {3}% of overhealing from this effect is transferred onto {4} allies within {5} yds."
         }
@@ -1744,27 +1744,27 @@
         }
     },
     "4105481912": {
-        "Name": "Rite of Adjuration",
+        "Name": "Обряд присягання",
         "Descriptions": {
-            "903180508": "Imbue your weapon with the power of the Light, increasing your Stamina by {1}% and causing your Holy Power abilities to sometimes unleash a burst of healing around a target.\r\n\r\nLasts {2} hour."
+            "903180508": "Наповнює вашу зброю силою Світла, від чого ваша Витривалість збільшується на {1}%, а здібності, що витрачають силу Світла, час від часу спричиняють сплеск зцілення навколо цілі.\n\nТриває {2} год."
         }
     },
     "1001876372": {
-        "Name": "Undisputed Ruling",
+        "Name": "Беззаперечний вирок",
         "Descriptions": {
             "529613293": "Hammer of Light applies Judgment to its targets, and increases your Haste by {1}% for {2} sec.",
             "2279582563": "Hammer of Light applies Judgment to its targets, and increases your Haste by {1}% for {2} sec.\r\n\r\nAdditionally, Eye of Tyr grants {3} Holy Power."
         }
     },
     "1952135041": {
-        "Name": "Sacrosanct Crusade",
+        "Name": "Священний хрестовий похід",
         "Descriptions": {
-            "3486512252": "Wake of Ashes surrounds you with a Holy barrier for {1}% of your maximum health.\r\n\r\nHammer of Light heals you for {2}% of your maximum health, increased by {3}% for each additional target hit. Any overhealing done with this effect gets converted into a Holy barrier instead.",
+            "3486512252": "[Пробудження попелу] оточує вас бар'єром Світла на {1}% від вашого максимального здоров'я.\n\n[Молот Світла] зцілює вас на {2}% від вашого максимального здоров'я зі збільшенням на {3}% за кожну додаткову вражену ціль. Усе надлишкове зцілення від цього ефекту перетворюється у бар'єр Світла.",
             "2083160019": "Eye of Tyr surrounds you with a Holy barrier for {1}% of your maximum health.\r\n\r\nHammer of Light heals you for {2}% of your maximum health, increased by {3}% for each additional target hit. Any overhealing done with this effect gets converted into a Holy barrier instead."
         }
     },
     "224977210": {
-        "Name": "Lingering Radiance",
+        "Name": "Тривале сяйво",
         "Descriptions": {
             "1621998076": "Dawnlight leaves an Eternal Flame for {1} sec on allies or a Greater Judgment on enemies when it expires or is extended."
         }
@@ -1776,13 +1776,13 @@
         }
     },
     "1468937101": {
-        "Name": "Righteous Fury",
+        "Name": "Праведна лють",
         "Descriptions": {
             "3859267549": "Increases your threat generation while active, making you a more effective tank."
         }
     },
     "1260665235": {
-        "Name": "Dawnlight",
+        "Name": "Світанкове світло",
         "Descriptions": {
             "168787036": "Casting  causes your next {1} Holy Power spending abilities to apply Dawnlight on your target, dealing {2} Radiant damage or {3} healing over {4} sec.\r\n\r\n{5}% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond {6} targets.",
             "795431810": "Casting Holy Prism or Barrier of Faith causes your next {1} Holy Power spending abilities to apply Dawnlight on your target, dealing {2} Radiant damage or {3} healing over {4} sec.\r\n\r\n{5}% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond {6} targets.",
@@ -1790,7 +1790,7 @@
         }
     },
     "2587061428": {
-        "Name": "Blessing of An'she",
+        "Name": "Благословення Ан'ше",
         "Descriptions": {
             "1108540214": "Your damage and healing over time effects have a chance to increase the",
             "346397585": "Your damage and healing over time effects have a chance to increase the healing or damage of your next Holy Shock by {1}%.",
@@ -1804,45 +1804,45 @@
         }
     },
     "3535974198": {
-        "Name": "Divine Inspiration",
+        "Name": "Божественне натхнення",
         "Descriptions": {
             "786863091": "Your spells and abilities have a chance to manifest a Holy Armament for a nearby ally."
         }
     },
     "879260022": {
-        "Name": "Blessed Assurance",
+        "Name": "Благословенна впевненість",
         "Descriptions": {
-            "368166608": "Casting a Holy Power ability increases the damage and healing of your next Crusader Strike by {1}%.",
-            "2595668866": "Casting a Holy Power ability increases the damage and healing of your next Blessed Hammer by {1}%.",
-            "3399235598": "Casting a Holy Power ability increases the damage and healing of your next Hammer of the Righteous by {1}%."
+            "368166608": "Застосування здібностей сили Світла збільшує шкоду та зцілення вашого наступного [Удару хрестоносця] на {1}%.",
+            "2595668866": "Застосування здібностей сили Світла збільшує шкоду та зцілення вашого наступного [Благословенного молота] на {1}%.",
+            "3399235598": "Застосування здібностей сили Світла збільшує шкоду та зцілення вашого наступного [Молота праведника] на {1}%."
         }
     },
     "1966743253": {
-        "Name": "Glyph of Blessing of the Seasons",
+        "Name": "Символ Благословення сезонів",
         "Descriptions": {
             "2438915242": "Blessing of the Seasonsl now resembles the Night Fae Covenant Ability."
         }
     },
     "1839032710": {
-        "Name": "Gleaming Rays",
+        "Name": "Блискучі промені",
         "Descriptions": {
             "430962658": "While a Dawnlight is active, your Holy Power spenders deal {1}% additional damage or healing."
         }
     },
     "3862201279": {
-        "Name": "Vengeful Charger's Bridle",
+        "Name": "Вуздечка Мстивого скакуна",
         "Descriptions": {
             "3326811886": "Allows your Divine Steed to be your Vengeful Charger."
         }
     },
     "692476392": {
-        "Name": "For Whom the Bell Tolls",
+        "Name": "По кому подзвін",
         "Descriptions": {
             "556586860": "Divine Toll grants up to {1}% increased damage to your next {2} Judgment when striking only {3} enemy. This amount is reduced by {4}% for each additional target struck."
         }
     },
     "1698492641": {
-        "Name": "Summon Charger",
+        "Name": "Виклик скакуна",
         "Descriptions": {
             "3083974175": "Summons a Charger, which serves as a mount."
         }
@@ -1854,102 +1854,102 @@
         }
     },
     "1199908533": {
-        "Name": "Solidarity",
+        "Name": "Солідарність",
         "Descriptions": {
             "1582614732": "If you bestow an Armament upon an ally, you also gain its benefits.\r\n\r\nIf you bestow an Armament upon yourself, a nearby ally also gains its benefits."
         }
     },
     "3590861205": {
-        "Name": "Fear No Evil",
+        "Name": "Не бійся зла",
         "Descriptions": {
             "1498905111": "While wielding an Armament the duration of Fear effects is reduced by {1}%."
         }
     },
     "2899698378": {
-        "Name": "Laying Down Arms",
+        "Name": "Складання зброї",
         "Descriptions": {
             "673750998": "When an Armament fades from you, the cooldown of Lay on Hands is reduced by {1} sec and you gain Infusion of Light.",
             "2966068527": "When an Armament fades from you, the cooldown of Lay on Hands is reduced by {1} sec and you gain Shining Light."
         }
     },
     "1019725053": {
-        "Name": "Solar Grace",
+        "Name": "Сонячна благодать",
         "Descriptions": {
             "3268914388": "Your Haste is increased by {1}% for {2} sec each time you apply Dawnlight. Multiple stacks may overlap."
         }
     },
     "3663275656": {
-        "Name": "Wrathful Descent",
+        "Name": "Гнівний спад",
         "Descriptions": {
             "2843407630": "When Empyrean Hammer critically strikes, {1}% of its damage is dealt to nearby enemies.\r\n\r\nEnemies hit by this effect deal {2}% reduced damage to you for {3} sec."
         }
     },
     "622112872": {
-        "Name": "Blessing of the Forge",
+        "Name": "Благословення кузні",
         "Descriptions": {
             "1793850633": "Avenging Wrath summons an additional |T5927637:24|t Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities."
         }
     },
     "2976013462": {
-        "Name": "Shared Resolve",
+        "Name": "Спільне рішення",
         "Descriptions": {
             "3163448867": "The effect of your active Aura is increased by {1}% on targets with your Armaments."
         }
     },
     "119602977": {
-        "Name": "Glyph of the Luminous Charger",
+        "Name": "Символ Сяючого скакуна",
         "Descriptions": {
             "608014311": "Your Paladin class mounts glow with holy light."
         }
     },
     "2338965086": {
-        "Name": "Divine Guidance",
+        "Name": "Божественна настанова",
         "Descriptions": {
             "3178372929": "For each Holy Power ability cast, your next Consecration deals {1} damage or healing immediately, split across all enemies and allies."
         }
     },
     "1557024051": {
-        "Name": "Glyph of Winged Vengeance",
+        "Name": "Символ Окриленої помсти",
         "Descriptions": {
             "3614844644": "Your Avenging Wrath depicts {1} wings."
         }
     },
     "2574688104": {
-        "Name": "Glyph of Pillar of Light",
+        "Name": "Символ Стовпа Світла",
         "Descriptions": {
             "1834479766": "Holy Shock critical heals on other players display a small pillar of light at their location briefly."
         }
     },
     "2869642641": {
-        "Name": "Forewarning",
+        "Name": "Попередження",
         "Descriptions": {
             "844650192": "The cooldown of Holy Armaments is reduced by {1}%."
         }
     },
     "272364618": {
-        "Name": "Valiance",
+        "Name": "Хоробрість",
         "Descriptions": {
             "1344214146": "Consuming Infusion of Light reduces the cooldown of Holy Armaments by {1} sec.",
             "3277848594": "Consuming Shining Light reduces the cooldown of Holy Armaments by {1} sec."
         }
     },
     "956989111": {
-        "Name": "Eternal Flame",
+        "Name": "Вічне Полум'я",
         "Descriptions": {
             "3312813460": "Heals an ally for {1} and an additional {2} over {3} sec.\r\n\r\nHealing increased by {4}% when cast on self."
         }
     },
     "3651452445": {
-        "Name": "Illumine",
+        "Name": "Сяйво",
         "Descriptions": {
             "3946265883": "Dawnlight reduces the movement speed of enemies by {1}% and increases the movement speed of allies by {2}%."
         }
     },
     "2535139435": {
-        "Name": "Radiant Glory",
+        "Name": "Сяйна слава",
         "Descriptions": {
-            "549351603": "Avenging Wrath is replaced with Radiant Glory.\r\n\r\n|T255346:24|tRadiant Glory\r\nWake of Ashes activates Avenging Wrath for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Avenging Wrath for {2} sec.",
-            "3948797587": "Crusade is replaced with Radiant Glory.\r\n\r\n|T255346:24|tRadiant Glory\r\nWake of Ashes activates Crusade for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Crusade for {2} sec."
+            "549351603": "[Гнів помсти] замінюється на [Сяйну славу].\n\n|T255346:24|tСяйна слава\n[Пробудження попелу] активує [Гнів помсти] на {1} сек.\n\nКожне витрачання сили Світла може з деякою ймовірністю активувати [Гнів помсти] на {2} сек.",
+            "3948797587": "[Хрестовий похід] замінюється на [Сяйну славу].\n\n|T255346:24|tСяйна слава\n[Пробудження попелу] активує [Хрестовий похід] на {1} сек.\n\nКожне витрачання сили Світла може з деякою ймовірністю активувати [Хрестовий похід] на {2} сек."
         }
     },
     "965014392": {
@@ -1959,7 +1959,7 @@
         }
     },
     "4079188319": {
-        "Name": "Extrication",
+        "Name": "Визволення",
         "Descriptions": {
             "12499446": "Word of Glory and Light of Dawn gain up to {1}% additional chance to critically strike, based on their target's current health. Lower health targets are more likely to be critically struck."
         }
@@ -1977,13 +1977,13 @@
         }
     },
     "1245158178": {
-        "Name": "Liberation",
+        "Name": "Звільнення",
         "Descriptions": {
             "1071170143": "Word of Glory and Light of Dawn have a chance equal to your haste to reduce the cost of your next Holy Light, Crusader Strike, or Judgment by {1}."
         }
     },
     "2508839378": {
-        "Name": "Higher Calling",
+        "Name": "Вище покликання",
         "Descriptions": {
             "379254876": "Crusader Strike, Hammer of Wrath and Blade of Justice extend the duration of Shake the Heavens by {1} sec.",
             "3897388012": "Crusader Strike, Hammer of Wrath and Judgment extend the duration of Shake the Heavens by {1} sec."
@@ -1996,43 +1996,43 @@
         }
     },
     "2068716260": {
-        "Name": "Unrelenting Charger",
+        "Name": "Неспинний скакун",
         "Descriptions": {
             "599733573": "Divine Steed lasts {1} sec longer and increases your movement speed by an additional {2}% for the first {3} sec."
         }
     },
     "2706457983": {
-        "Name": "Excoriation",
+        "Name": "Екскоріація",
         "Descriptions": {
             "1327307187": "Enemies within {1} yards of Hammer of Justice's target are slowed by {2}% for {3} sec."
         }
     },
     "3021019817": {
-        "Name": "Will of the Dawn",
+        "Name": "Воля Світанку",
         "Descriptions": {
             "423044990": "Movement speed increased by {1}% while above {2}% health.\r\n\r\nWhen your health is brought below {3}%, your movement speed is increased by {4}% for {5} sec. Cannot occur more than once every {6} min."
         }
     },
     "666366145": {
-        "Name": "Summon Warhorse",
+        "Name": "Виклик бойового коня",
         "Descriptions": {
             "1980544935": "Summons a Warhorse, which serves as a mount."
         }
     },
     "1441770795": {
-        "Name": "Rite of Sanctification",
+        "Name": "Обряд посвячення",
         "Descriptions": {
             "763041973": "Imbue your weapon with the power of the Light, increasing your armor by {1}% and your primary stat by {2}%.\r\n\r\nLasts {3} hour."
         }
     },
     "1475758363": {
-        "Name": "Earthen Ordinant's Ramolith",
+        "Name": "Сланцеріг земляного ординатора",
         "Descriptions": {
             "4108734334": "Summons the Earthen Ordinant's Ramolith, which serves as a mount."
         }
     },
     "275991377": {
-        "Name": "Hammerfall",
+        "Name": "Молотобій",
         "Descriptions": {
             "481915734": "Templar's Verdict and Divine Storm calls down an Empyrean Hammer on a nearby enemy.\r\n\r\nWhile Shake the Heavens is active, this effect calls down an additional Empyrean Hammer.",
             "2979636431": "Shield of the Righteous and Word of Glory calls down an Empyrean Hammer on a nearby enemy.\r\n\r\nWhile Shake the Heavens is active, this effect calls down an additional Empyrean Hammer.",
@@ -2046,25 +2046,25 @@
         }
     },
     "2151668254": {
-        "Name": "Summon Thalassian Warhorse",
+        "Name": "Виклик таласійського бойового коня",
         "Descriptions": {
             "1946554634": "Summons a Thalassian Warhorse, which serves as a mount."
         }
     },
     "4218658951": {
-        "Name": "Zealous Vindication",
+        "Name": "Ревне виправдання",
         "Descriptions": {
             "2404230169": "Hammer of Light instantly calls down {1} Empyrean Hammers on your target when it is cast."
         }
     },
     "4226392606": {
-        "Name": "Glyph of Divine Toll",
+        "Name": "Символ Божественної сплати",
         "Descriptions": {
             "3242221329": "Divine Toll now resembles the Kyrian Covenant Ability."
         }
     },
     "1048661788": {
-        "Name": "Luminosity",
+        "Name": "Світність",
         "Descriptions": {
             "-1": "",
             "649659004": "Critical Strike chance of Holy Shock and Light of Dawn increased by {1}%.",
@@ -2072,25 +2072,25 @@
         }
     },
     "1235930177": {
-        "Name": "Holy Flames",
+        "Name": "Святі вогні",
         "Descriptions": {
             "3011776029": "Divine Storm deals {1}% increased damage and when it hits an enemy affected by your Expurgation, it spreads the effect to up to {2} targets hit.\r\n\r\nYou deal {3}% increased Holy damage to targets burning from your Expurgation."
         }
     },
     "3307841092": {
-        "Name": "Glyph of the Queen",
+        "Name": "Символ Королеви",
         "Descriptions": {
             "3426378116": "Your Guardian of Ancient Kings now summons the wrath of a Queen!"
         }
     },
     "4144640030": {
-        "Name": "Holy Bulwark",
+        "Name": "Святий оплот",
         "Descriptions": {
             "282255924": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.\r\n\r\n|T5927636:24|t Holy Bulwark:\r\n\r\nWhile wielding a Holy Bulwark, gain an absorb shield for {1}% of your max health and an additional {2}% every {3} sec. Lasts {4} sec.\r\n\r\nBecomes Sacred Weapon after use."
         }
     },
     "783497043": {
-        "Name": "Mastery: Highlord's Judgment",
+        "Name": "Майстерність: Правосуддя Верховного лорда",
         "Descriptions": {
             "3783929898": "Increases Holy damage done by {1}%.\r\n\r\nJudgment has a {2}% chance to blast the target with the Light, dealing {3} Holy damage."
         }
@@ -2102,19 +2102,19 @@
         }
     },
     "482985213": {
-        "Name": "Highlord's Wrath",
+        "Name": "Гнів Верховного лорда",
         "Descriptions": {
             "390034253": "Mastery: Highlord's Judgment is {1}% more effective on Judgment and Hammer of Wrath. Judgment applies an additional stack of Greater Judgment if it is known."
         }
     },
     "1375008779": {
-        "Name": "Burn to Ash",
+        "Name": "Спалення дотла",
         "Descriptions": {
             "3374704892": "When Truth's Wake critically strikes, its duration is extended by {1} sec.\r\n\r\nYour other damage over time effects deal {2}% increased damage to targets affected by Truth's Wake. "
         }
     },
     "3714795720": {
-        "Name": "Aurora",
+        "Name": "Аврора",
         "Descriptions": {
             "716775759": "After you cast , gain Divine Purpose.",
             "986773183": "After you cast Holy Prism or Barrier of Faith, gain Divine Purpose.\r\n\r\n|T135897:24|t Divine Purpose\r\n$@spellaura{1}{2}",
