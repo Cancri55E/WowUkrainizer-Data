@@ -63,8 +63,8 @@
     "296788720": {
         "Name": "Аура рішучості",
         "Descriptions": {
-            "3736193501": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|tConcentration Aura:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. \r\n\r\n|T135893:24|t Devotion Aura:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%.",
-            "3084396336": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|tConcentration Aura:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. Fear effects are also reduced.\r\n\r\n|T135893:24|t Devotion Aura:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%."
+            "3736193501": "Ви вивчаєте здібності [Аура концентрації] та [Аура відданості]:\n\n|T135933:24|tАура концентрації:\nУчасники вашої групи чи рейду в радіусі {1} м позбавляються ефектів переривання та знемовлення на {2}% швидше.\n\n|T135893:24|t Аура відданості:\nУчасники вашої групи чи рейду в радіусі {3} м підсилюються своєю відданістю та отримують на {4}% менше шкоди.",
+            "3084396336": "Ви вивчаєте здібності [Аура концентрації] та [Аура відданості]:\n\n|T135933:24|tАура концентрації:\nУчасники вашої групи чи рейду в радіусі {1} м позбавляються ефектів переривання та знемовлення на {2}% швидше. Ефекти страху також зменшено.\n\n|T135893:24|t Аура відданості:\nУчасники вашої групи чи рейду в радіусі {3} м підсилюються своєю відданістю та отримують на {4}% менше шкоди."
         }
     },
     "934008211": {
@@ -334,8 +334,8 @@
     "1241880942": {
         "Name": "Хрестовий похід",
         "Descriptions": {
-            "1461258455": "Call upon the Light and begin a crusade, increasing your haste by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf Avenging Wrath is known, also grants {5}% damage per stack.",
-            "2686924834": "Call upon the Light and begin a crusade, increasing your haste and damage by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf Avenging Wrath is known, also grants {5}% damage per stack."
+            "1461258455": "Ви звертаєтесь до Світла та розпочинаєте хрестовий похід, що підвищує вашу швидкість на {1}% на {2} сек.\n\nКожне використання сили Світла під час [Хрестового походу], збільшує швидкість на додаткові {3}%.\n\nНакопичується до {4} разів.\n\nЯкщо відомо [Гнів Помсти], також збільшується шкода, яку ви завдаєте, на {5}% за кожне накопичення.",
+            "2686924834": "Ви звертаєтесь до Світла та розпочинаєте хрестовий похід, що підвищує вашу швидкість та шкоду на {1}% на {2} сек.\n\nКожне використання сили Світла під час [Хрестового походу], збільшує швидкість на додаткові {3}%.\n\nНакопичується до {4} разів.\n\nЯкщо відомо [Гнів Помсти], також збільшується шкода, яку ви завдаєте, на {5}% за кожне накопичення."
         }
     },
     "1671169080": {
@@ -362,20 +362,20 @@
     "527987153": {
         "Name": "Міць хрестоносця",
         "Descriptions": {
-            "2051665604": "Crusader Strike reduces the cooldown of Holy Shock and Judgment by {1} sec."
+            "2051665604": "[Удар хрестоносця] зменшує час відновлення [Святого потрясіння] та [Правосуддя] на {1} сек."
         }
     },
     "363626796": {
         "Name": "Рішучість хрестоносця",
         "Descriptions": {
-            "1446356481": "Enemies hit by Avenger's Shield deal {1}% reduced melee damage to you for {2} sec. "
+            "1446356481": "Вороги, вражені [Щитом месника] завдають вам на {1}% менше шкоди у ближньому бою протягом {2} сек. "
         }
     },
     "3175354329": {
         "Name": "Удари хрестоносця",
         "Descriptions": {
             "3679342192": "[Удар хрестоносця] замінює ваші автоматичні атаки та завдає {1} од. фізичної шкоди, але тепер генерує лише {2} од. сил світла за кожні {3} {declension|атаку|атаки|атак}.\n\nМає всі властивості [Удару хрестоносця], але не має властивості [Шаленство вітру].",
-            "2327988627": "Crusader Strike replaces your auto-attacks and deals {1} Holystrike damage, but now only generates {2} Holy Power every {3} attacks.\r\n\r\nInherits Crusader Strike benefits but cannot benefit from Windfury."
+            "2327988627": "[Удар хрестоносця] замінює ваші автоматичні атаки та завдає {1} од. шкоди від удару Світла, але тепер генерує лише {2} од. сил світла за кожні {3} {declension|атаку|атаки|атак}.\n\nМає всі властивості [Удару хрестоносця], але не має властивості [Шаленство вітру]."
         }
     },
     "2691075037": {
@@ -393,7 +393,7 @@
     "709165394": {
         "Name": "Божественний суддя",
         "Descriptions": {
-            "3555288106": "Highlord's Judgment and Holystrike damage abilities grant you a stack of Divine Arbiter.\r\n\r\nAt {1} stacks your next damaging single target Holy Power ability causes {2} Holystrike damage to your primary target and {3} Holystrike damage to enemies within {4} yds."
+            "3555288106": "[Правосуддя Верховного лорда] та здібності, які завдають шкоду від удару Світла, надають вам заряд ефекту [Божественний суддя].\n\nПісля накопичення {1} зарядів ваша наступна здібність сили Світла, яка завдає шкоду одній цілі, завдає {2} од. шкоди від удару Світла основній цілі та {3} од. шкоди від удару Світла всім ворогам в радіусі {4} м."
         }
     },
     "2675228104": {
