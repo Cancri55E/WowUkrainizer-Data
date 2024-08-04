@@ -339,7 +339,7 @@
     "3889532275": {
         "Name": "Смертельна гниль",
         "Descriptions": {
-            "3800277987": "[Спіраль смерті] та [Епідемія] виснажують вашого ворога, застосовуючи [Смертельна гниль], що призводить до того, що він отримує на {1}% більше шкоди від темної магії, до {2}% від вас на {3} сек. Якщо [Спіраль смерті] чи [Епідемія] споживають [Раптове пекло], то застосовується два накопичення [Смертельна гниль]."
+            "3800277987": "[Спіраль смерті] та [Епідемія] виснажують вашого ворога, застосовуючи [Смертельна гниль], що призводить до того, що він отримує на {1}% більше шкоди від темної магії, до {2}% від вас на {3} сек. Якщо [Спіраль смерті] чи [Епідемія] споживають [Раптова згуба], то застосовується два накопичення [Смертельна гниль]."
         }
     },
     "3465767608": {
@@ -401,9 +401,9 @@
         }
     },
     "1343949452": {
-        "Name": "Пекельний удар",
+        "Name": "Згубний удар",
         "Descriptions": {
-            "930852904": "[Раптове пекло] також призводить до того, що ваша наступна [Спіраль смерті] розірве до {1} [Гнійна рана] та зменшить швидкість пересування цілі на {2}% за кожну з них. Триває {3} сек."
+            "930852904": "[Раптова згуба] також призводить до того, що ваша наступна [Спіраль смерті] розірве до {1} [Гнійна рана] та зменшить швидкість пересування цілі на {2}% за кожну з них. Триває {3} сек."
         }
     },
     "2473897000": {
@@ -549,10 +549,10 @@
         }
     },
     "2351520019": {
-        "Name": "Вісник пекла",
+        "Name": "Вісник загибелі",
         "Descriptions": {
-            "1427478": "[Раптове пекло] активується на {1}% частіше, може накопичуватись до {2} зарядів, та збільшує шкоду, що нанесе ваша наступна [Спіраль смерті] на {3}% або [Епідемія] на {4}%.",
-            "4181387879": "Раптова загибель спрацьовує на {1}% частіше, може накопичувати до {2} зарядів і збільшує шкоду вашої наступної Смертельної спіралі на {3}%."
+            "1427478": "[Раптова згуба] активується на {1}% частіше, може накопичуватись до {2} зарядів, та збільшує шкоду, що нанесе ваша наступна [Спіраль смерті] на {3}% або [Епідемія] на {4}%.",
+            "4181387879": "Раптова згуба спрацьовує на {1}% частіше, може накопичувати до {2} зарядів і збільшує шкоду вашої наступної Смертельної спіралі на {3}%."
         }
     },
     "4190131628": {
@@ -1003,8 +1003,8 @@
     "4122852761": {
         "Name": "Гнилісний дотик",
         "Descriptions": {
-            "1993636731": "[Раптове пекло] змушує вашу наступну [Спіраль смерті] також збільшити шкоду від вашого [Удар Скари] проти цілі на {1}% на {2} сек.",
-            "998165860": "«Раптова загибель» призводить до того, що ваша наступна Спіраль Смерті також збільшує вашу шкоду від «Тіньовий удар» проти цілі на {1}% протягом {2} сек."
+            "1993636731": "[Раптова згуба] змушує вашу наступну [Спіраль смерті] також збільшити шкоду від вашого [Удар Скари] проти цілі на {1}% на {2} сек.",
+            "998165860": "«Раптова згуба» призводить до того, що ваша наступна Спіраль Смерті також збільшує вашу шкоду від «Тіньовий удар» проти цілі на {1}% протягом {2} сек."
         }
     },
     "641308127": {
@@ -1086,7 +1086,7 @@
         }
     },
     "3945464263": {
-        "Name": "Розрив кісток",
+        "Name": "Розкол кісток",
         "Descriptions": {
             "3224941875": "Коли [Кістяний щит] повністю спожито, він розбивається, завдаючи {1} од. шкоди від темної магії ворогам поблизу. Ця шкода потроюється поки ви в зоні дії вашого [Смерть та розпад]."
         }
@@ -1117,7 +1117,7 @@
         }
     },
     "2513583237": {
-        "Name": "Раптове пекло",
+        "Name": "Раптова згуба",
         "Descriptions": {
             "3239503674": "Your auto attacks have a {1}% chance to make your next Death Coil cost {2} less Runic Power and critically strike. \r\n\r\nAdditionally, your next Death Coil will burst {3} Festering Wound.",
             "824437378": "Your auto attacks have a {1}% chance to make your next Death Coil or Epidemic cost {2} less Runic Power and critically strike. \r\n\r\nAdditionally, your next Death Coil will burst {3} Festering Wound."
@@ -1311,37 +1311,37 @@
         }
     },
     "1284580039": {
-        "Name": "Newly Turned",
+        "Name": "Щойно воскреслий",
         "Descriptions": {
             "3166189052": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to {1}% of your maximum health."
         }
     },
     "3781393702": {
-        "Name": "Mograine's Might",
+        "Name": "Міць Моґрейна",
         "Descriptions": {
             "3307965993": "Your damage is increased by {1}% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay."
         }
     },
     "3320296510": {
-        "Name": "Fury of the Horsemen",
+        "Name": "Лють Вершників",
         "Descriptions": {
             "880669077": "Every {1} Runic Power you spend extends the duration of the Horsemen's aid in combat by {2} sec, up to {3} sec."
         }
     },
     "4117144870": {
-        "Name": "Festering Scythe",
+        "Name": "Наривна коса",
         "Descriptions": {
             "1440569100": "Every {1} Festering Wound you burst empowers your next Festering Strike to become Festering Scythe for {2} sec.\r\n\r\n|T3997563:24|tFestering Scythe\r\nSweep through all enemies within {3} yds in front of you, dealing {4} Shadow damage and infecting them with {5}-{6} Festering Wounds."
         }
     },
     "3758317655": {
-        "Name": "Pact of the San'layn",
+        "Name": "Пакт сан'лейн",
         "Descriptions": {
             "2841707543": "You store {1}% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires."
         }
     },
     "683895987": {
-        "Name": "Exterminate",
+        "Name": "Зморення",
         "Descriptions": {
             "982090216": "After Reaper's Mark explodes, your next Obliterate costs no Rune and summons {1} scythes to strike your enemies.\r\n\r\nThe first scythe strikes your target for {2} Shadowfrost damage and has a {3}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {4} Shadowfrost damage. Deals reduced damage beyond {5} targets.",
             "1266812365": "After Reaper's Mark explodes, your next {1} Obliterates costs {2} Rune and summon {3} scythes to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets.",
@@ -1349,68 +1349,68 @@
         }
     },
     "3499738642": {
-        "Name": "Val'kyr",
+        "Name": "Валь'кіра",
         "Descriptions": {
             "1463549374": "Your Summon Gargoyle spell summons a Val'kyr instead of a Gargoyle."
         }
     },
     "3438098560": {
-        "Name": "Wave of Souls",
+        "Name": "Хвиля душ",
         "Descriptions": {
             "2313476359": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing {1} Shadowfrost damage both ways to all enemies caught in its path.\r\n\r\nWave of Souls critical strikes cause enemies to take {2}% increased Shadowfrost damage for {3} sec, stacking up to {4} times, and it is always a critical strike on its way back."
         }
     },
     "1263830048": {
-        "Name": "Menacing Magus",
+        "Name": "Зловісний чародій",
         "Descriptions": {
             "2366987512": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to {1} nearby enemies."
         }
     },
     "3546726230": {
-        "Name": "Glyph of Abomination Limb",
+        "Name": "Символ огидної кінцівки",
         "Descriptions": {
             "488576893": "Abomination Limb now resembles the Necrolord Covenant Ability."
         }
     },
     "2606206949": {
-        "Name": "On a Paler Horse",
+        "Name": "На блідому коні",
         "Descriptions": {
             "2617166537": "While outdoors you are able to mount your Acherus Deathcharger in combat."
         }
     },
     "4189761584": {
-        "Name": "Veteran of the Fourth War",
+        "Name": "Ветеран Четвертої війни",
         "Descriptions": {
             "2367237183": "Stamina increased by {1}%.",
             "328814802": "Stamina increased by {1}%.\r\nDamage taken reduced by {2}%."
         }
     },
     "1339676078": {
-        "Name": "Subduing Grasp",
+        "Name": "Підкорювальна хватка",
         "Descriptions": {
             "15600176": "When you pull an enemy, the damage they deal to you is reduced by {1}% for {2} sec."
         }
     },
     "2341810661": {
-        "Name": "Osmosis",
+        "Name": "Осмос",
         "Descriptions": {
             "1994517488": "Anti-Magic Shell increases healing received by {1}%."
         }
     },
     "2938762734": {
-        "Name": "Ossified Vitriol",
+        "Name": "Закостенілий купорос",
         "Descriptions": {
             "912581041": "When you lose a Bone Shield charge the damage of your next Marrowrend is increased by {1}%, stacking up to {2}%."
         }
     },
     "2680238848": {
-        "Name": "The Blood is Life",
+        "Name": "Кров — це життя",
         "Descriptions": {
             "3649733238": "Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for {1} sec.\r\n\r\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing {2}% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount."
         }
     },
     "3114965385": {
-        "Name": "Incite Terror",
+        "Name": "Навіювання страху",
         "Descriptions": {
             "1680551189": "Vampiric Strike and Scourge Strike cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness.",
             "3730905710": "Vampiric Strike and Heart Strike cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness.",
@@ -1418,25 +1418,25 @@
         }
     },
     "2973466970": {
-        "Name": "Decomposition",
+        "Name": "Розкладання",
         "Descriptions": {
             "1152575024": "Virulent Plague has a chance to abruptly flare up, dealing {1}% of the damage it dealt to target in the last {2} sec.\r\n\r\nWhen this effect triggers, the duration of your active minions are increased by {3} sec, up to {4} sec."
         }
     },
     "1846897968": {
-        "Name": "Glyph of the Chilled Shell",
+        "Name": "Символ охолодженого панцира",
         "Descriptions": {
             "1541772342": "Your Anti-Magic Shell shifts to match more of a Frost affinity. "
         }
     },
     "2404262280": {
-        "Name": "Blood-Soaked Ground",
+        "Name": "Окроплена кров'ю земля",
         "Descriptions": {
             "3292027531": "While you are within your Death and Decay, your physical damage taken is reduced by {1}% and your chance to gain Vampiric Strike is increased by {2}%."
         }
     },
     "2747256975": {
-        "Name": "Mawsworn Menace",
+        "Name": "Погроза Відданих Утробі",
         "Descriptions": {
             "3007602372": "Scourge Strike deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
             "3086534425": "Obliterate deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
@@ -1446,169 +1446,169 @@
         }
     },
     "3802520785": {
-        "Name": "Death Charge",
+        "Name": "Скакун Смерті",
         "Descriptions": {
             "3705326954": "Call upon your Death Charger to break free of movement impairment effects.\r\n\r\nFor {1} sec, while upon your Death Charger your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks."
         }
     },
     "2118576438": {
-        "Name": "Rider's Champion",
+        "Name": "Поклик Вершника",
         "Descriptions": {
             "1740804134": "Spending Runes has a chance to call forth the aid of a Horsemen for {1} sec.\r\n\r\n{FFFFFFFF|Mograine}\r\nCasts Death and Decay at his location that follows his position.\r\n\r\n{FFFFFFFF|Whitemane}\r\nCasts Undeath on your target dealing {2} Shadowfrost damage per stack every {3} sec, for {4} sec. Each time Undeath deals damage it gains a stack. Cannot be Refreshed.\r\n\r\n{FFFFFFFF|Trollbane}\r\nCasts Chains of Ice on your target slowing their movement speed by {5}% and increasing the damage they take from you by {6}% for {7} sec.\r\n\r\n{FFFFFFFF|Nazgrim}\r\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by {8}%.\r\n"
         }
     },
     "3171886474": {
-        "Name": "Expelling Shield",
+        "Name": "Відбракувальний панцир",
         "Descriptions": {
             "278959988": "When an enemy deals direct damage to your Anti-Magic Shell, their cast speed is reduced by {1}% for {2} sec."
         }
     },
     "720890502": {
-        "Name": "Bloody Fortitude",
+        "Name": "Кривава витривалість",
         "Descriptions": {
             "43102455": "Icebound Fortitude reduces all damage you take by up to an additional {1}% based on your missing health.\r\n\r\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by {2} sec."
         }
     },
     "1393582888": {
-        "Name": "Glyph of the Crimson Shell",
+        "Name": "Символ багряного панцира",
         "Descriptions": {
             "2397063888": "Your Anti-Magic Shell shifts to match more of a Blood affinity. "
         }
     },
     "813043238": {
-        "Name": "Glyph of the Geist",
+        "Name": "Символ упира",
         "Descriptions": {
             "4206536262": "Your Raise Dead spell summons a geist instead of a ghoul.",
             "3067443674": "Your Raise Dead spell summons a geist instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
         }
     },
     "2270599301": {
-        "Name": "Swift End",
+        "Name": "Швидкий кінець",
         "Descriptions": {
             "3441649576": "Reaper's Mark's cost is reduced by {1} Rune and its cooldown is reduced by {2} sec."
         }
     },
     "218328044": {
-        "Name": "Pact of the Deathbringer",
+        "Name": "Пакт Смертоносця",
         "Descriptions": {
             "3932458747": "When you suffer a damaging effect equal to {1}% of your maximum health, you instantly cast Death Pact at {2}% effectiveness. May only occur every {3} min.\r\n\r\nWhen a Reaper's Mark explodes, the cooldowns of this effect and Death Pact are reduced by {4} sec."
         }
     },
     "173824568": {
-        "Name": "Null Magic",
+        "Name": "Знешкодження магії",
         "Descriptions": {
             "58707688": "Magic damage taken is reduced by {1}% and the duration of harmful Magic effects against you are reduced by {2}%."
         }
     },
     "2833730385": {
-        "Name": "Wither Away",
+        "Name": "Висушення",
         "Descriptions": {
             "2997087298": "Frost Fever deals its damage in half the duration and the second scythe of Exterminate applies Frost Fever.",
             "1708887542": "Blood Plague deals its damage in half the duration and the second scythe of Exterminate applies Blood Plague."
         }
     },
     "3026734178": {
-        "Name": "Horsemen's Aid",
+        "Name": "Підтримка Вершників",
         "Descriptions": {
             "166031562": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at {1}% effectiveness.\r\n\r\nYou may only benefit from this effect every {2} sec."
         }
     },
     "202817240": {
-        "Name": "Dark Talons",
+        "Name": "Темні пазурі",
         "Descriptions": {
             "3080525945": "Consuming Killing Machine or Rime has a {1}% chance to increase the maximum stacks of an active Icy Talons by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage.",
             "2464211787": "Marrowrend and Heart Strike have a {1}% chance to increase the maximum stacks of an active Icy Talons by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage."
         }
     },
     "2818064250": {
-        "Name": "Blood Fever",
+        "Name": "Кривава гарячка",
         "Descriptions": {
             "3423981194": "Your Frost Fever has a chance to deal {1}% increased damage as Shadowfrost.",
             "2287301960": "Your Blood Plague has a chance to deal {1}% increased damage as Shadowfrost."
         }
     },
     "2512231171": {
-        "Name": "Reaper's Mark",
+        "Name": "Мітка жнеця",
         "Descriptions": {
             "2468714596": "Viciously slice into the soul of your enemy, dealing {1} Shadowfrost damage and applying Reaper's Mark.\r\n\r\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After {2} sec or reaching {3} stacks, the mark explodes, dealing {4} damage per stack.\r\n\r\nReaper's Mark travels to an unmarked enemy nearby if the target dies, or explodes below {5}% health when there are no enemies to travel to. This explosion cannot occur again on a target for {6} min."
         }
     },
     "1059906077": {
-        "Name": "Nazgrim's Conquest",
+        "Name": "Тріумф Назґріма",
         "Descriptions": {
             "2279471855": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by {1}%.\r\n\r\nAdditionally, each Rune you spend increase its value by {2}%."
         }
     },
     "1191419599": {
-        "Name": "Glyph of Cracked Ice",
+        "Name": "Символ розламаної криги",
         "Descriptions": {
             "1111257850": "Your Path of Frost ability now looks a little cracked, just a little."
         }
     },
     "1060631195": {
-        "Name": "The Long Winter",
+        "Name": "Вічна зима",
         "Descriptions": {
             "165947738": "While Pillar of Frost is active your auto-attack critical strikes increase its duration by {1} sec, up to a maximum of {2} sec."
         }
     },
     "1697520264": {
-        "Name": "Painful Death",
+        "Name": "Болісна смерть",
         "Descriptions": {
             "3572323999": "Reaper's Mark deals {1}% increased damage and Exterminate empowers an additional Obliterate, but now reduces its cost by {2} Rune.\r\n\r\nAdditionally, Exterminate now has a {3}% chance to apply Reaper's Mark.",
             "1648633887": "Reaper's Mark deals {1}% increased damage and Exterminate empowers an additional Marrowrend, but now reduces its cost by {2} Rune.\r\n\r\nAdditionally, Exterminate now has a {3}% chance to apply Reaper's Mark."
         }
     },
     "4162985911": {
-        "Name": "Hungering Thirst",
+        "Name": "Ненажерлива спрага",
         "Descriptions": {
             "1029707411": "The damage of your diseases and Death Coil are increased by {1}%.",
             "1200197036": "The damage of your diseases and Frost Strike are increased by {1}%."
         }
     },
     "1020800851": {
-        "Name": "Icy Death Torrent",
+        "Name": "Потік крижаної згуби",
         "Descriptions": {
             "2215535526": "Your auto attack critical strikes have a chance to send out a sleet of ice dealing {1}  Frost damage to enemies in front of you."
         }
     },
     "2295065133": {
-        "Name": "Rune Carved Plates",
+        "Name": "Покриті рунами обладунки",
         "Descriptions": {
             "1195688809": "Each Rune spent reduces the magic damage you take by {1}% and each Rune generated reduces the physical damage you take by {2}% for {3} sec, up to {4} times."
         }
     },
     "745545677": {
-        "Name": "Carnage",
+        "Name": "Різанина",
         "Descriptions": {
             "4184932403": "Blooddrinker and Consumption now contribute to your Mastery: Blood Shield.\r\n\r\nEach time an enemy strikes your Blood Shield, the cooldowns of Blooddrinker and Consumption have a chance to be reset."
         }
     },
     "2482163473": {
-        "Name": "Runic Protection",
+        "Name": "Рунічний захист",
         "Descriptions": {
             "1939771005": "Your chance to be critically struck is reduced by {1}% and your Armor is increased by {2}%."
         }
     },
     "1048535427": {
-        "Name": "Ice Prison",
+        "Name": "Крижана в'язниця",
         "Descriptions": {
             "831021349": "Chains of Ice now also roots enemies for {1} sec but its cooldown is increased to {2} sec."
         }
     },
     "2764550134": {
-        "Name": "Smothering Offense",
+        "Name": "Задушливий натиск",
         "Descriptions": {
             "3087785639": "Your auto attack damage is increased by {1}%. \r\n\r\nThis amount is increased for each stack of Icy Talons you have and it can stack up to {2} additional times."
         }
     },
     "3023986608": {
-        "Name": "Glyph of Foul Menagerie",
+        "Name": "Символ нечестивого звіринця",
         "Descriptions": {
             "1421020086": "Causes your Army of the Dead spell to summon an assortment of undead minions."
         }
     },
     "683613430": {
-        "Name": "Vampiric Strike",
+        "Name": "Удар вампіра",
         "Descriptions": {
             "2057845127": "Your Death Coil and Death Strike have a {1}% chance to make your next Scourge Strike become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec.",
             "1095068174": "Your Death Coil, Epidemic and Death Strike have a {1}% chance to make your next Scourge Strike become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec.",
@@ -1618,27 +1618,27 @@
         }
     },
     "2149359617": {
-        "Name": "Bone Collector",
+        "Name": "Збирач кісток",
         "Descriptions": {
             "477015556": "When you would pull an enemy generate {1} charge of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {2}. Each melee attack against you consumes a charge. Lasts {3} sec or until all charges are consumed.",
             "2990408794": "When you would pull an enemy generate {1} charge of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {2}, and your Haste by {3}%. Each melee attack against you consumes a charge. Lasts {4} sec or until all charges are consumed."
         }
     },
     "2183031783": {
-        "Name": "Vampiric Speed",
+        "Name": "Швидкість вампіра",
         "Descriptions": {
             "2625703228": "Death's Advance and Wraith Walk movement speed bonuses are increased by {1}%.\r\n\r\nActivating Death's Advance or Wraith Walk increases {2} nearby allies movement speed by {3}% for {4} sec."
         }
     },
     "2055479178": {
-        "Name": "Glyph of the Skeleton",
+        "Name": "Символ скелета",
         "Descriptions": {
             "619931218": "Your Raise Dead spell summons a skeleton instead of a ghoul.",
             "990926950": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
         }
     },
     "2652059978": {
-        "Name": "Bloodied Blade",
+        "Name": "Закривавлений клинок",
         "Descriptions": {
             "1159003751": "Parrying an attack grants you a charge of Bloodied Blade, increasing your Strength by {1}%, up to {2}% for {3} sec.\r\n\r\nAt {4} stacks, your next parry consumes all charges to unleash a Heart Strike at {5}% effectiveness, and increases your Strength by {6}% for {7} sec."
         }
@@ -1650,44 +1650,44 @@
         }
     },
     "878742891": {
-        "Name": "Bind in Darkness",
+        "Name": "Застряглий у темрявві",
         "Descriptions": {
             "4181580962": "Shadowfrost damage applies {1} stacks to Reaper's Mark and {2} stacks when it is a critical strike.\r\n\r\nAdditionally, Rime empowered Howling Blast deals Shadowfrost damage.",
             "1933207651": "Shadowfrost damage applies {1} stacks to Reaper's Mark and {2} stacks when it is a critical strike.\r\n\r\nAdditionally, Blood Boil deals Shadowfrost damage."
         }
     },
     "4063859068": {
-        "Name": "Pact of the Apocalypse",
+        "Name": "Пакт Апокаліпсиса",
         "Descriptions": {
             "4174703254": "When you take damage, {1}% of the damage is redirected to each active horsemen."
         }
     },
     "2973962748": {
-        "Name": "Unyielding Will",
+        "Name": "Незламна воля",
         "Descriptions": {
             "3912519325": "Anti-Magic Shell's cooldown is increased by {1} sec and it now also removes all harmful magic effects when activated."
         }
     },
     "2369319569": {
-        "Name": "Frenzied Bloodthirst",
+        "Name": "Шалена кровожерливість",
         "Descriptions": {
             "2099369702": "Essence of the Blood Queen stacks {1} additional times and increases the damage of your Death Coil and Death Strike by {2}% per stack."
         }
     },
     "1696323005": {
-        "Name": "Grim Reaper",
+        "Name": "Невмолимий жнець",
         "Descriptions": {
             "1638704007": "Reaper's Mark explosion deals up to {1}% increased damage based on your target's missing health, and applies Soul Reaper to targets below {2}% health."
         }
     },
     "1094680389": {
-        "Name": "Cryogenic Chamber",
+        "Name": "Кріогенна камера",
         "Descriptions": {
             "4199464301": "Each time Frost Fever deals damage, {1}% of the damage dealt is gathered into the next cast of Remorseless Winter, up to {2} times."
         }
     },
     "1901270162": {
-        "Name": "Whitemane's Famine",
+        "Name": "Мор Білогривої",
         "Descriptions": {
             "4250484147": "When Scourge Strike damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy.",
             "268862347": "When Obliterate damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy.",
@@ -1695,20 +1695,20 @@
         }
     },
     "526761394": {
-        "Name": "Visceral Strength",
+        "Name": "Сила плоті",
         "Descriptions": {
             "1184887194": "When Sudden Doom is consumed, you gain {1}% Strength for {2} sec.",
             "863656575": "When Crimson Scourge is consumed, you gain {1}% Strength for {2} sec."
         }
     },
     "3032332184": {
-        "Name": "Foul Infections",
+        "Name": "Гнійне зараження",
         "Descriptions": {
             "2019845556": "Your diseases deal {1}% more damage and have a {2}% increased chance to critically strike."
         }
     },
     "1376311658": {
-        "Name": "Gift of the San'layn",
+        "Name": "Дар сан'лейн",
         "Descriptions": {
             "4103985574": "While Vampiric Blood or Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Scourge Strike for the duration.",
             "447170047": "While Vampiric Blood or Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Heart Strike for the duration.",
@@ -1716,7 +1716,7 @@
         }
     },
     "1620426634": {
-        "Name": "Infliction of Sorrow",
+        "Name": "Навіювання смутку",
         "Descriptions": {
             "4288433556": "When Vampiric Strike damages an enemy affected by your Virulent Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Scourge Strike consumes the disease to deal {3}% of their remaining damage to the target.",
             "577151380": "When Vampiric Strike damages an enemy affected by your Blood Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Heart Strike consumes the disease to deal {3}% of their remaining damage to the target.",
@@ -1724,50 +1724,50 @@
         }
     },
     "2297691042": {
-        "Name": "Sanguine Scent",
+        "Name": "Запах крові",
         "Descriptions": {
             "2877727231": "Your Death Coil and Death Strike have a {1}% increased chance to trigger Vampiric Strike when damaging enemies below {2}% health.",
             "3448105969": "Your Death Coil, Epidemic and Death Strike have a {1}% increased chance to trigger Vampiric Strike when damaging enemies below {2}% health."
         }
     },
     "2756435628": {
-        "Name": "A Feast of Souls",
+        "Name": "Бенкет душ",
         "Descriptions": {
             "647382523": "While you have {1} or more Horsemen aiding you, your Runic Power spending abilities deal {2}% increased damage."
         }
     },
     "2934629734": {
-        "Name": "Vampiric Aura",
+        "Name": "Вампірська аура",
         "Descriptions": {
             "1464368467": "Your Leech is increased by {1}%.\r\n\r\nWhile Lichborne is active, the Leech bonus of this effect is increased by {2}%, and it affects {3} allies within {4} yds. "
         }
     },
     "1774814077": {
-        "Name": "Doomed Bidding",
+        "Name": "Згубний поклик",
         "Descriptions": {
             "2748329884": "Consuming Sudden Doom calls upon a Magus of the Dead to assist you for {1} sec.\r\n\r\n"
         }
     },
     "2193084063": {
-        "Name": "Vestigial Shell",
+        "Name": "Залишковий панцир",
         "Descriptions": {
             "2225502205": "Casting Anti-Magic Shell grants {1} nearby allies a Lesser Anti-Magic Shell that Absorbs up to {2} magic damage and reduces the duration of harmful Magic effects against them by {3}%. "
         }
     },
     "4097240127": {
-        "Name": "Soul Rupture",
+        "Name": "Розрив душі",
         "Descriptions": {
             "1031004973": "When Reaper's Mark explodes, it deals {1}% of the damage dealt damage to nearby enemies.\r\n\r\nEnemies hit by this effect deal {2}% reduced physical damage to you for {3} sec."
         }
     },
     "1813184189": {
-        "Name": "Death's Messenger",
+        "Name": "Посланець Смерті",
         "Descriptions": {
             "2733699650": "Reduces the cooldowns of Lichborne and Raise Dead by {1} sec."
         }
     },
     "2420306836": {
-        "Name": "Trollbane's Icy Fury",
+        "Name": "Крижана лють Тролебоя",
         "Descriptions": {
             "3345046031": "Scourge Strike shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets.",
             "1852839004": "Obliterate shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets.",
@@ -1775,13 +1775,13 @@
         }
     },
     "3480937605": {
-        "Name": "Hyperpyrexia",
+        "Name": "Гіперпірексія",
         "Descriptions": {
             "4235819107": "Your Runic Power spending abilities have a chance to additionally deal {1}% of the damage dealt over {2} sec."
         }
     },
     "174080625": {
-        "Name": "Shattered Frost",
+        "Name": "Розривна крига",
         "Descriptions": {
             "3112196249": "When Frost Strike consumes {1} Razorice stacks, it deals {2}% of the damage dealt to nearby enemies. Deals reduced damage beyond {3} targets."
         }
