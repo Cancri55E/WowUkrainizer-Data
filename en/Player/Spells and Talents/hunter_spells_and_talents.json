@@ -2,7 +2,7 @@
     "718915149": {
         "Name": "A Murder of Crows",
         "Descriptions": {
-            "2161128987": "Every {1} casts of Kill Command summons a Murder of Crows.\r\n\r\n|T645217:24|tA Murder of Crows\r\nSummons a flock of crows to attack your target, dealing {2} Physical damage over {3} sec."
+            "4032039145": "Every {1} casts of Kill Command summons a Murder of Crows.\r\n\r\n|T645217:24|t{ffffffff|A Murder of Crows}\r\nSummons a flock of crows to attack your target, dealing {2} Physical damage over {3} sec."
         }
     },
     "3148367503": {
@@ -264,7 +264,7 @@
     "2925969923": {
         "Name": "Chimaeral Sting",
         "Descriptions": {
-            "1419346849": "Stings the target, dealing {1} Nature damage and initiating a series of venoms. Each lasts {2} sec and applies the next effect after the previous one ends.\r\n\r\n|T132169:24|t Scorpid Venom:\r\n{3}% reduced movement speed.\r\n\r\n|T1412206:24|t Spider Venom:\r\nSilenced.\r\n\r\n|T236200:24|t Viper Venom:\r\n{4}% reduced damage and healing."
+            "3606164060": "Stings the target, dealing {1} Nature damage and initiating a series of venoms. Each lasts {2} sec and applies the next effect after the previous one ends.\r\n\r\n|T132169:24|t {ffffffff|Scorpid Venom}:\r\n{3}% reduced movement speed.\r\n\r\n|T1412206:24|t {ffffffff|Spider Venom}:\r\nSilenced.\r\n\r\n|T236200:24|t {ffffffff|Viper Venom}:\r\n{4}% reduced damage and healing."
         }
     },
     "1841605018": {
@@ -282,7 +282,7 @@
     "4287224220": {
         "Name": "Command Pet",
         "Descriptions": {
-            "2879581167": "Commands your pet to perform its unique ability. This ability will transform based on the specialization of your active pet. \r\n\r\nFerocity: Primal Rage\r\nTenacity: Fortitude of the Bear\r\nCunning: Master's Call"
+            "4146553239": "Commands your pet to perform its unique ability. This ability will transform based on the specialization of your active pet. \r\n\r\nFerocity: {ffffffff|Primal Rage}\r\nTenacity: {ffffffff|Fortitude of the Bear}\r\nCunning: {ffffffff|Master's Call}"
         }
     },
     "3631473240": {
@@ -645,9 +645,9 @@
         "Name": "Kindred Beasts",
         "Descriptions": {
             "4047140706": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.",
-            "4170501819": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nFerocity: Primal Rage increases Haste by {2}% for {3} sec, but no longer applies Sated.",
-            "1785537023": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nTenacity: Fortitude of the Bear increases maximum health of allies within {2} yards of your pet by {3}% for {4} sec.",
-            "2334624186": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nCunning: Master's Call frees nearby allies from movement impairing effects."
+            "304239235": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nCunning: {ffffffff|Master's Call} frees nearby allies from movement impairing effects.",
+            "1809337245": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nTenacity: {ffffffff|Fortitude of the Bear} increases maximum health of allies within {2} yards of your pet by {3}% for {4} sec.",
+            "2021899523": "Command Pet's unique ability cooldown reduced by {1}%, and gains additional effects.\r\n\r\nFerocity: {ffffffff|Primal Rage} increases Haste by {2}% for {3} sec, but no longer applies Sated."
         }
     },
     "1276693310": {
@@ -890,10 +890,11 @@
     "229695434": {
         "Name": "Serpentstalker's Trickery",
         "Descriptions": {
-            "3858008435": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.Mongoose Bite consumes all stacks of Latent Poison, dealing {4} Nature damage to the target per stack consumed.][]",
-            "3408216997": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {4} times. $?s{5}{6}[Barbed Shot consumes all stacks of Latent Poison, dealing {7} Nature damage to the target per stack consumed.][]",
-            "2975367646": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.Aimed Shot consumes all stacks of Latent Poison, dealing {4} Nature damage to the target per stack consumed.][]",
-            "4064891335": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.Raptor Strike consumes all stacks of Latent Poison, dealing {4} Nature damage to the target per stack consumed.][]"
+            "755733412": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {4} times. Aimed Shot consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.",
+            "3938434409": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {4} times. Barbed Shot consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.",
+            "1374093426": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {4} times. Mongoose Bite consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.",
+            "3115720484": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.",
+            "1955131382": "Aimed Shot also fires a Serpent Sting at the primary target.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {1} Nature damage instantly and an additional {2} Nature damage over {3} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {4} times. Raptor Strike consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed."
         }
     },
     "2061705385": {
@@ -1061,7 +1062,7 @@
     "3673766764": {
         "Name": "Viper's Venom",
         "Descriptions": {
-            "1781046084": "Raptor Strike and Mongoose Bite apply Serpent Sting to your target.\r\n\r\n|T1033905:24|tSerpent Sting\r\nFire a poison-tipped arrow at an enemy, dealing {1} Nature damage instantly and an additional {2} damage over {3} sec."
+            "481556060": "Raptor Strike and Mongoose Bite apply Serpent Sting to your target.\r\n\r\n|T1033905:24|t{ffffffff|Serpent Sting}\r\nFire a poison-tipped arrow at an enemy, dealing {1} Nature damage instantly and an additional {2} damage over {3} sec."
         }
     },
     "4236281341": {
@@ -1074,9 +1075,9 @@
         "Name": "Wailing Arrow",
         "Descriptions": {
             "3610502341": "Fire an enchanted arrow, dealing {1} Shadow damage to your target and an additional {2} Shadow damage to all enemies within {3} yds of your target. Targets struck by a Wailing Arrow are silenced for {4} sec.",
-            "2858249406": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|tWailing Arrow\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec.",
-            "2323910299": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|tWailing Arrow\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec.\r\n\r\nWailing Arrow resets the cooldown of Rapid Fire and generates {6} [plural|charge|charges] of Aimed Shot.",
-            "257385207": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|tWailing Arrow\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec.\r\n\r\nWailing Arrow fires off {6} Wind Arrows at your primary target, and {7} Wind Arrows split among any secondary targets hit, each dealing {8} Physical damage."
+            "1510370854": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|t{ffffffff|Wailing Arrow}\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec.\r\n\r\nWailing Arrow fires off {6} Wind Arrows at your primary target, and {7} Wind Arrows split among any secondary targets hit, each dealing {8} Physical damage.",
+            "3108101332": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|t{ffffffff|Wailing Arrow}\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec.\r\n\r\nWailing Arrow resets the cooldown of Rapid Fire and generates {6} [plural|charge|charges] of Aimed Shot.",
+            "769192825": "After summoning {1} Wind Arrows, your next Aimed Shot becomes a Wailing Arrow.\r\n\r\n|T132323:24|t{ffffffff|Wailing Arrow}\r\nFire an enchanted arrow, dealing {2} Shadow damage to your target and an additional {3} Shadow damage to all enemies within {4} yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for {5} sec."
         }
     },
     "781340547": {
@@ -1138,6 +1139,12 @@
         "Name": "In the Rhythm",
         "Descriptions": {
             "4170996875": "When Rapid Fire fully finishes channeling, gain {1}% haste for {2} sec."
+        }
+    },
+    "2126065874": {
+        "Name": "Master's Call",
+        "Descriptions": {
+            "3988033084": "Your pet removes all root and movement impairing effects from itself and a friendly target, and grants immunity to all such effects for {1} sec."
         }
     },
     "3947709848": {
@@ -1536,10 +1543,11 @@
     "3254465314": {
         "Name": "Venom's Bite",
         "Descriptions": {
-            "1881427374": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.Mongoose Bite consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.][]",
-            "2227321179": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {5} times. $?s{6}{7}[Barbed Shot consumes all stacks of Latent Poison, dealing {8} Nature damage to the target per stack consumed.][]",
-            "1829326452": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.Aimed Shot consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.][]",
-            "627470252": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t Serpent Sting\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.Raptor Strike consumes all stacks of Latent Poison, dealing {5} Nature damage to the target per stack consumed.][]"
+            "3239572849": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {5} times. Aimed Shot consumes all stacks of Latent Poison, dealing {6} Nature damage to the target per stack consumed.",
+            "1907316231": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {5} times. Barbed Shot consumes all stacks of Latent Poison, dealing {6} Nature damage to the target per stack consumed.",
+            "2553184956": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {5} times. Mongoose Bite consumes all stacks of Latent Poison, dealing {6} Nature damage to the target per stack consumed.",
+            "2550133665": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.",
+            "3311926392": "Kill Shot applies Serpent Sting for {1} sec.\r\n\r\n|T1033905:24|t {ffffffff|Serpent Sting}\r\nFire a shot that poisons your target, causing them to take {2} Nature damage instantly and an additional {3} Nature damage over {4} sec.\r\n\r\nSerpent Sting's damage applies Latent Poison to the target, stacking up to {5} times. Raptor Strike consumes all stacks of Latent Poison, dealing {6} Nature damage to the target per stack consumed."
         }
     },
     "578216939": {

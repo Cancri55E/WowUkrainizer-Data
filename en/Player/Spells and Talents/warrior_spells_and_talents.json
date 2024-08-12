@@ -223,9 +223,9 @@
     "3379736059": {
         "Name": "Charge",
         "Descriptions": {
-            "3310650718": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec.\r\n\r\n{FFFFFFFF|Generates $/{3};s{4} Rage.}",
-            "1447895665": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec, and stunning it for {3} sec.\r\n\r\n{FFFFFFFF|Generates $/{4};s{5} Rage.}",
-            "2643868386": "Generates {1} more Rage."
+            "2643868386": "Generates {1} more Rage.",
+            "2767637827": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec, and stunning it for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}",
+            "3371933976": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}"
         }
     },
     "1157707090": {
@@ -907,9 +907,7 @@
             "1359611662": "If Whirlwind or Revenge hits {1} or more enemies, it hits them {2} additional time for {3}% damage.",
             "3626629616": "If Whirlwind hits {1} or more enemies, it hits them {2} additional time for {3}% damage.",
             "3034012716": "If Whirlwind or Cleave hits {1} or more enemies, it hits them {2} additional time for {3}% damage.",
-            "1432507666": "If Whirlwind or Thunder Clap hits {1} or more enemies, it hits them {2} additional time for {3}% damage.",
-            "3368013841": "If Whirlwind or Cleave or Thunder Clap hits {1} or more enemies, it hits them {2} additional time for {3}% damage.",
-            "2579239000": "If Whirlwind or Cleave or Revenge hits {1} or more enemies, it hits them {2} additional time for {3}% damage."
+            "1432507666": "If Whirlwind or Thunder Clap hits {1} or more enemies, it hits them {2} additional time for {3}% damage."
         }
     },
     "1970579040": {
@@ -962,9 +960,9 @@
     "1734732972": {
         "Name": "Shield Slam",
         "Descriptions": {
-            "2307742613": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates $/{2};s{3} Rage.}",
-            "2743200499": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\nDevastate, Thunder Clap, Revenge, and Execute have a {2}% chance to reset the cooldown of Shield Slam.\r\n\r\n{FFFFFFFF|Generates $/{3};s{4} Rage.}",
-            "339796332": "Shield Slam generates {1} Rage."
+            "339796332": "Shield Slam generates {1} Rage.",
+            "881412299": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\nDevastate, Thunder Clap, Revenge, and Execute have a {2}% chance to reset the cooldown of Shield Slam.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
+            "3717376824": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} Rage.}"
         }
     },
     "1918262406": {
@@ -1217,8 +1215,7 @@
         "Descriptions": {
             "1295818413": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Bloodthirst at your target or random nearby enemy.",
             "3309481780": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Mortal Strike at your target or random nearby enemy.",
-            "3951580680": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing {1}% of normal damage.",
-            "1167922420": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing {1}% of normal damage."
+            "3951580680": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing {1}% of normal damage."
         }
     },
     "1345956857": {
@@ -1735,7 +1732,7 @@
     "2848304448": {
         "Name": "Battlefield Commander",
         "Descriptions": {
-            "3688768770": "Your Shout abilities have additional effects.\r\n|T132333:24|t Battle Shout:\r\nIncreases Stamina by {1}%.\r\n|T136147:24|t Piercing Howl:\r\nRadius increased by {2}%\r\n|T136009:24|t Berserker Shout:\r\nRange increased by {3} yds.\r\n|T132154:24|t Intimidating Shout:\r\nCooldown reduced by {4} sec.\r\n|T132351:24|t Rallying Cry:\r\nRemoves movement impairing effects and grants {5}% movement speed to allies.\r\n|T642418:24|t Thunderous Roar:\r\nTargets receive {6}% more damage from all sources while bleeding."
+            "2056063675": "Your Shout abilities have additional effects.\r\n|T132333:24|t {ffffffff|Battle Shout}:\r\nIncreases Stamina by {1}%.\r\n|T136147:24|t {ffffffff|Piercing Howl}:\r\nRadius increased by {2}%\r\n|T136009:24|t {ffffffff|Berserker Shout}:\r\nRange increased by {3} yds.\r\n|T132154:24|t {ffffffff|Intimidating Shout}:\r\nCooldown reduced by {4} sec.\r\n|T132351:24|t {ffffffff|Rallying Cry}:\r\nRemoves movement impairing effects and grants {5}% movement speed to allies.\r\n|T642418:24|t {ffffffff|Thunderous Roar}:\r\nTargets receive {6}% more damage from all sources while bleeding."
         }
     },
     "3751323149": {

@@ -28,7 +28,7 @@
     "35197342": {
         "Name": "Amplify Curse",
         "Descriptions": {
-            "2665672042": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\r\n\r\nCurse of Exhaustion\r\nReduces the target's movement speed by an additional {2}%.\r\n\r\nCurse of Tongues\r\nIncreases casting time by an additional {3}%.\r\n\r\nCurse of Weakness\r\nEnemy is unable to critically strike."
+            "1683384832": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\r\n\r\n{ffffffff|Curse of Exhaustion}\r\nReduces the target's movement speed by an additional {2}%.\r\n\r\n{ffffffff|Curse of Tongues}\r\nIncreases casting time by an additional {3}%.\r\n\r\n{ffffffff|Curse of Weakness}\r\nEnemy is unable to critically strike."
         }
     },
     "2627564480": {
@@ -53,7 +53,7 @@
     "85296494": {
         "Name": "Avatar of Destruction",
         "Descriptions": {
-            "100443584": "Consuming Ritual of Ruin summons an Overfiend for {1} sec.\r\n\r\n|T135793:24|t Summon Overfiend\r\nGenerates {2} Soul Shard Fragment every {3} sec and casts Chaos Bolt at {4}% effectiveness at its summoner's target."
+            "592431654": "Consuming Ritual of Ruin summons an Overfiend for {1} sec.\r\n\r\n|T135793:24|t {ffffffff|Summon Overfiend}\r\nGenerates {2} Soul Shard Fragment every {3} sec and casts Chaos Bolt at {4}% effectiveness at its summoner's target."
         }
     },
     "4247287489": {
@@ -161,8 +161,8 @@
     "3991865257": {
         "Name": "Command Demon",
         "Descriptions": {
-            "1532984353": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelhunter: Spell Lock\r\nVoidwalker: Shadow Bulwark\r\nIncubus/Succubus: Seduction\r\nImp: Singe Magic",
-            "1930438001": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelguard: Axe Toss\r\nFelhunter: Spell Lock\r\nVoidwalker: Shadow Bulwark\r\nIncubus/Succubus: Seduction\r\nImp: Singe Magic"
+            "1922453891": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelguard: {ffffffff|Axe Toss}\r\nFelhunter: {ffffffff|Spell Lock}\r\nVoidwalker: {ffffffff|Shadow Bulwark}\r\nIncubus/Succubus: {ffffffff|Seduction}\r\nImp: {ffffffff|Singe Magic}",
+            "1132413298": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelhunter: {ffffffff|Spell Lock}\r\nVoidwalker: {ffffffff|Shadow Bulwark}\r\nIncubus/Succubus: {ffffffff|Seduction}\r\nImp: {ffffffff|Singe Magic}"
         }
     },
     "111674867": {
@@ -221,8 +221,8 @@
     "3835653911": {
         "Name": "Curses of Enfeeblement",
         "Descriptions": {
-            "3618931807": "Grants access to the following abilities:\r\n\r\n|T136140:24|tCurse of Tongues:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|tCurse of Exhaustion:\r\nReduces the target's movement speed by {3}% for {4} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
-            "1374094560": "Grants access to the following abilities:\r\n\r\n|T136140:24|tCurse of Tongues:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Tongues will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|tCurse of Exhaustion:\r\nReduces the target's movement speed by {4}% for {5} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
+            "2276785395": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Tongues will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {4}% for {5} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
+            "295858089": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {3}% for {4} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
         }
     },
     "3061776275": {
@@ -258,7 +258,7 @@
     "3564839319": {
         "Name": "Decimation",
         "Descriptions": {
-            "3578522161": "Your critical strikes have a chance to reset the cooldown of Soul Fire and reduce the cast time of your next Soul Fire by {1}%."
+            "1651069380": "When your direct damaging abilities deal a critical strike, they have a chance to reset the cooldown of Soul Fire and reduce the cast time of your next Soul Fire by {1}%."
         }
     },
     "1255957523": {
@@ -277,8 +277,8 @@
     "4083105957": {
         "Name": "Demonic Circle",
         "Descriptions": {
-            "3960135092": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t Demonic Circle: Teleport\r\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
-            "3511118921": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t Demonic Circle: Teleport\r\nTeleports you to your Demonic Circle and removes all movement slowing effects."
+            "2754229084": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\r\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
+            "2769047465": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\r\nTeleports you to your Demonic Circle and removes all movement slowing effects."
         }
     },
     "2981598639": {
@@ -327,7 +327,7 @@
     "2707111912": {
         "Name": "Dimensional Rift",
         "Descriptions": {
-            "906984009": "Rips a hole in time and space, opening a random portal that damages your target:\r\n\r\n|T607513:24|tShadowy Tear\r\nDeals {1} Shadow damage over {2} sec.\r\n\r\n|T607512:24|tUnstable Tear\r\nDeals {3} Chaos damage over {4} sec.\r\n\r\n|T1394890:24|tChaos Tear\r\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\r\n\r\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
+            "3631518118": "Rips a hole in time and space, opening a random portal that damages your target:\r\n\r\n|T607513:24|t{ffffffff|Shadowy Tear}\r\nDeals {1} Shadow damage over {2} sec.\r\n\r\n|T607512:24|t{ffffffff|Unstable Tear}\r\nDeals {3} Chaos damage over {4} sec.\r\n\r\n|T1394890:24|t{ffffffff|Chaos Tear}\r\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\r\n\r\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
         }
     },
     "195570028": {
@@ -637,8 +637,8 @@
     "2068675728": {
         "Name": "Mayhem",
         "Descriptions": {
-            "3647840361": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\r\n\r\n|T460695:24|t Havoc\r\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt.",
-            "2605812993": "Your single target spells have a {1}% chance to apply Bane of Havoc below a nearby enemy for {2} sec.\r\n\r\n|T1380866:24|t Bane of Havoc\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for {3}% of the damage dealt. Lasts {4} sec."
+            "286521019": "Your single target spells have a {1}% chance to apply Bane of Havoc below a nearby enemy for {2} sec.\r\n\r\n|T1380866:24|t {ffffffff|Bane of Havoc}\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for {3}% of the damage dealt. Lasts {4} sec.",
+            "1317938299": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\r\n\r\n|T460695:24|t {ffffffff|Havoc}\r\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt."
         }
     },
     "3272931627": {
@@ -918,8 +918,8 @@
     "3119323704": {
         "Name": "Soul Strike",
         "Descriptions": {
-            "2449459050": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t Soul Strike\r\nStrike into the soul of the enemy, dealing {1} Shadow damage.",
-            "2334105139": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t Soul Strike\r\nStrike into the soul of the enemy, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}"
+            "2470297064": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t {ffffffff|Soul Strike}\r\nStrike into the soul of the enemy, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
+            "3230578911": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t {ffffffff|Soul Strike}\r\nStrike into the soul of the enemy, dealing {1} Shadow damage."
         }
     },
     "3309965084": {
@@ -1174,9 +1174,10 @@
     "2753627254": {
         "Name": "Ruination",
         "Descriptions": {
-            "1902760272": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t Ruination\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
-            "2558112139": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\r\n\r\n|T135800:24|t Ruination\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
-            "1015063108": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t Ruination\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets."
+            "394500091": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets.",
+            "1784394232": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
+            "1665022225": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
+            "2502589668": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets."
         }
     },
     "1206007996": {
@@ -1245,8 +1246,8 @@
     "638960442": {
         "Name": "Curse of the Satyr",
         "Descriptions": {
-            "506385908": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t Curse of the Satyr\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
-            "829365687": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t Curse of the Satyr\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {4} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
+            "2645751816": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t {ffffffff|Curse of the Satyr}\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {4} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
+            "1667499066": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t {ffffffff|Curse of the Satyr}\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
         }
     },
     "1466689387": {
@@ -1314,7 +1315,7 @@
     "2819748931": {
         "Name": "Mark of F'harg",
         "Descriptions": {
-            "998935673": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\r\n\r\n|T1709931:24|t Infernal Presence\r\nCloaked in the ever-burning flames of the abyss, dealing {1} Fire damage to enemies within {2} yards every {3} sec."
+            "1892596229": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\r\n\r\n|T1709931:24|t {ffffffff|Infernal Presence}\r\nCloaked in the ever-burning flames of the abyss, dealing {1} Fire damage to enemies within {2} yards every {3} sec."
         }
     },
     "1717773578": {
@@ -1326,7 +1327,7 @@
     "2236015391": {
         "Name": "Mark of Shatug",
         "Descriptions": {
-            "2989332964": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\r\n\r\n|T1709932:24|t Gloom Slash\r\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional {1} Shadow damage."
+            "3282022632": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\r\n\r\n|T1709932:24|t {ffffffff|Gloom Slash}\r\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional {1} Shadow damage."
         }
     },
     "1420254793": {
@@ -1467,8 +1468,8 @@
     "134825196": {
         "Name": "Demoniac",
         "Descriptions": {
-            "3799452072": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t Demonbolt\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n|T571321:24|t Demonic Core\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {2}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {4}%. Maximum {5} stacks.",
-            "4058221811": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t Demonbolt\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shards.}\r\n\r\n|T571321:24|t Demonic Core\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {4}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {5}%. Maximum {6} stacks."
+            "648427275": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t {ffffffff|Demonbolt}\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shards.}\r\n\r\n|T571321:24|t {ffffffff|Demonic Core}\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {4}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {5}%. Maximum {6} stacks.",
+            "963717859": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t {ffffffff|Demonbolt}\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n|T571321:24|t {ffffffff|Demonic Core}\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {2}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {4}%. Maximum {5} stacks."
         }
     },
     "2779829843": {
@@ -1676,8 +1677,8 @@
     "3608992167": {
         "Name": "Secrets of the Coven",
         "Descriptions": {
-            "1509543072": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\r\n\r\n|T841220:24|t Infernal Bolt\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards.",
-            "272458946": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\r\n\r\n|T841220:24|t Infernal Bolt\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards."
+            "1966357102": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\r\n\r\n|T841220:24|t {ffffffff|Infernal Bolt}\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards.",
+            "3110325049": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\r\n\r\n|T841220:24|t {ffffffff|Infernal Bolt}\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards."
         }
     },
     "3162782482": {
@@ -1716,8 +1717,8 @@
     "1514508001": {
         "Name": "Pact of Gluttony",
         "Descriptions": {
-            "1553950197": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t Demonic Healthstone\r\nInstantly restores {1}% health. {2} sec cooldown.",
-            "1362751949": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t Demonic Healthstone\r\nInstantly restores {1}% health, plus an additional {2}% over {3} sec. {4} sec cooldown."
+            "2597475297": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t {ffffffff|Demonic Healthstone}\r\nInstantly restores {1}% health, plus an additional {2}% over {3} sec. {4} sec cooldown.",
+            "4286989726": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t {ffffffff|Demonic Healthstone}\r\nInstantly restores {1}% health. {2} sec cooldown."
         }
     },
     "1921555079": {
@@ -1771,7 +1772,7 @@
     "2376925656": {
         "Name": "Malign Omen",
         "Descriptions": {
-            "1940362799": "Casting Soul Rot grants {1} applications of Malign Omen.\r\n\r\n|T136131:24|t Malign Omen\r\nYour next Malefic Rapture deals {2}% increased damage and extends the duration of your damage over time effects and Haunt by {3} sec."
+            "2331962557": "Casting Soul Rot grants {1} applications of Malign Omen.\r\n\r\n|T136131:24|t {ffffffff|Malign Omen}\r\nYour next Malefic Rapture deals {2}% increased damage and extends the duration of your damage over time effects and Haunt by {3} sec."
         }
     },
     "3016810849": {

@@ -1015,8 +1015,8 @@
         "Descriptions": {
             "1325171940": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec. Effect not broken from taking damage or attacking.",
             "476967820": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec, and increases damage by {2}%. Effect not broken from taking damage or attacking.",
-            "3380570029": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec. Effect not broken from taking damage or attacking.\r\n\r\nIf you already know Shadow Dance, instead gain {2} additional [plural|charge|charges] of Shadow Dance.",
-            "4141571549": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec, and increases damage by {2}%. Effect not broken from taking damage or attacking.\r\n\r\nIf you already know Shadow Dance, instead gain {3} additional [plural|charge|charges] of Shadow Dance."
+            "2799273766": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec, and increases damage by {2}%. Effect not broken from taking damage or attacking.\r\n\r\nIf you already know {ffffffff|Shadow Dance}, instead gain {3} additional [plural|charge|charges] of {ffffffff|Shadow Dance}.",
+            "708907801": "Allows use of all Stealth abilities and grants all the combat benefits of Stealth for {1} sec. Effect not broken from taking damage or attacking.\r\n\r\nIf you already know {ffffffff|Shadow Dance}, instead gain {2} additional [plural|charge|charges] of {ffffffff|Shadow Dance}."
         }
     },
     "868043948": {
@@ -1047,7 +1047,7 @@
         "Name": "Shadowstep",
         "Descriptions": {
             "1598698635": "Step through the shadows to appear behind your target and gain {1}% increased movement speed for {2} sec.",
-            "129019810": "Step through the shadows to appear behind your target and gain {1}% increased movement speed for {2} sec.\r\n\r\nIf you already know Shadowstep, instead gain {3} additional [plural|charge|charges] of Shadowstep."
+            "4099828484": "Step through the shadows to appear behind your target and gain {1}% increased movement speed for {2} sec.\r\n\r\nIf you already know {ffffffff|Shadowstep}, instead gain {3} additional [plural|charge|charges] of {ffffffff|Shadowstep}."
         }
     },
     "3710490560": {
@@ -1583,9 +1583,9 @@
     "4062910968": {
         "Name": "Deal Fate",
         "Descriptions": {
-            "980945963": "Sinister Strike generatewhen they strike an additional time.",
-            "3794066304": "Mutilate, Ambush, Fan of Knives generate]$?a{1}{2}[] {3} additional combo point $?a{4}{5}[when they trigger Seal Fate.",
-            "3171960994": "Sinister Strike and Ambush generatewhen they strike an additional time."
+            "658246454": "Sinister Strike and Ambush generate {1} additional combo point when they strike an additional time.",
+            "2177524118": "Mutilate, Ambush, Fan of Knives generate {1} additional combo point when they trigger Seal Fate.",
+            "4122756410": "Sinister Strike generate {1} additional combo point when they strike an additional time."
         }
     },
     "48348642": {
@@ -1700,7 +1700,6 @@
             "1785049392": "Shadowstrike from Stealth applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Backstab or Shadowstrike by {4}%.\r\nYou may only have one target Marked at a time.",
             "863630897": "Ambush from Stealth applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Ambush or Mutilate by {4}%.\r\nYou may only have one target Marked at a time.",
             "3490363609": "Shadowstrike from Stealth or Shadow Dance applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Backstab or Shadowstrike by {4}%.\r\nYou may only have one target Marked at a time.",
-            "753015002": "Ambush from Stealth or Shadow Dance applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Ambush or Mutilate by {4}%.\r\nYou may only have one target Marked at a time.",
             "2819239840": "Shadowstrike from Stealth applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Gloomblade or Shadowstrike by {4}%.\r\nYou may only have one target Marked at a time.",
             "2090725659": "Shadowstrike from Stealth or Shadow Dance applies {1} stacks of Deathstalker's Mark to your target. When you spend {2} or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing {3} Plague damage and increasing the damage of your next Gloomblade or Shadowstrike by {4}%.\r\nYou may only have one target Marked at a time."
         }
@@ -1778,7 +1777,8 @@
     "58931348": {
         "Name": "Momentum of Despair",
         "Descriptions": {
-            "334005342": "If you have critically struck with $?s{1}{2}[Fan of Knives]$?s{3}{4}[Shuriken Storm], increase the critical strike chance of $?s{5}{6}[Fan of Knives]$?s{7}{8}[Shuriken Storm] and $?s{9}{10}[Crimson Tempest]$?s{11}{12}[Black Powder] by {13}% for {14} sec."
+            "3036742465": "If you have critically struck with Fan of Knives, increase the critical strike chance of Fan of Knives and Crimson Tempest by {1}% and critical strike damage by {2}% for {3} sec.",
+            "2678536265": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by {1}% and critical strike damage by {2}% for {3} sec."
         }
     },
     "2122106572": {
@@ -1804,7 +1804,8 @@
     "4195875146": {
         "Name": "Follow the Blood",
         "Descriptions": {
-            "2395180200": "$?s{1}{2}[Fan of Knives]$?s{3}{4}[Shuriken Storm] and $?s{5}{6}[Crimson Tempest]$?s{7}{8}[Black Powder] deal {9}% additional damage while {10} or more enemies are afflicted with Rupture."
+            "1265288701": "Fan of Knives and Crimson Tempest deal {1}% additional damage while {2} or more enemies are afflicted with Rupture.",
+            "1639395363": "Shuriken Storm and Black Powder deal {1}% additional damage while {2} or more enemies are afflicted with Rupture."
         }
     },
     "205600144": {
@@ -1830,7 +1831,7 @@
     "97529529": {
         "Name": "Serrated Bone Spikes",
         "Descriptions": {
-            "2213756308": "Prepare a Serrated Bone Spike every {1} sec, stacking up to {2}. Rupture spends a stack to embed a bone spike in its target.\r\n\r\n{FFFFFFFF||T3578230:24|t Serrated Bone Spike}:\r\nDeals {3} Physical damage and {4} Bleed damage every {5} sec until the target dies or leaves combat.\r\n\r\nRefunds a stack when the target dies.\r\n\r\n{FFFFFFFF|Awards {6} combo point plus {7} additional per active bone spike.}"
+            "1722179363": "Prepare a Serrated Bone Spike every {1} sec, stacking up to {2}. Rupture spends a stack to embed a bone spike in its target.\r\n\r\n{FFFFFFFF||T3578230:24|t |cffffffffSerrated Bone Spike}:\r\nDeals {3} Physical damage and {4} Bleed damage every {5} sec until the target dies or leaves combat.\r\n\r\nRefunds a stack when the target dies.\r\n\r\n{FFFFFFFF|Awards {6} combo point plus {7} additional per active bone spike.}"
         }
     },
     "3358606565": {

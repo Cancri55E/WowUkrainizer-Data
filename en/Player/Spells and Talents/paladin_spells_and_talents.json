@@ -46,10 +46,10 @@
         "Name": "Aura Mastery",
         "Descriptions": {
             "587586763": "Empowers your chosen aura for {1} sec.",
-            "4277375556": "Empowers your chosen aura for {1} sec.\r\n\r\nDevotion Aura: Damage reduction increased to {2}%.",
-            "1930400396": "Empowers your chosen aura for {1} sec.\r\n\r\nCrusader Aura: Mount speed bonus increased to {2}%.",
-            "211469211": "Empowers your chosen aura for {1} sec.\r\n\r\nRetribution Aura: Increases healing received by {2}% while its effect is active.",
-            "2899476668": "Empowers your chosen aura for {1} sec.\r\n\r\nConcentration Aura: Affected allies immune to interrupts and silences."
+            "275055120": "Empowers your chosen aura for {1} sec.\r\n\r\n{ffffffff|Concentration Aura}: Affected allies immune to interrupts and silences.",
+            "610553947": "Empowers your chosen aura for {1} sec.\r\n\r\n{ffffffff|Retribution Aura}: Increases healing received by {2}% while its effect is active.",
+            "4265110066": "Empowers your chosen aura for {1} sec.\r\n\r\n{ffffffff|Crusader Aura}: Mount speed bonus increased to {2}%.",
+            "4063166847": "Empowers your chosen aura for {1} sec.\r\n\r\n{ffffffff|Devotion Aura}: Damage reduction increased to {2}%."
         }
     },
     "2622300266": {
@@ -63,8 +63,8 @@
     "296788720": {
         "Name": "Auras of the Resolute",
         "Descriptions": {
-            "3736193501": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|tConcentration Aura:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. \r\n\r\n|T135893:24|t Devotion Aura:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%.",
-            "3084396336": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|tConcentration Aura:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. Fear effects are also reduced.\r\n\r\n|T135893:24|t Devotion Aura:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%."
+            "3452273922": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|t{ffffffff|Concentration Aura}:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. Fear effects are also reduced.\r\n\r\n|T135893:24|t {ffffffff|Devotion Aura}:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%.",
+            "3793088782": "Learn Concentration Aura and Devotion Aura:\r\n\r\n|T135933:24|t{ffffffff|Concentration Aura}:\r\nInterrupt and Silence effects on party and raid members within {1} yds are {2}% shorter. \r\n\r\n|T135893:24|t {ffffffff|Devotion Aura}:\r\nParty and raid members within {3} yds are bolstered by their devotion, reducing damage taken by {4}%."
         }
     },
     "934008211": {
@@ -85,6 +85,7 @@
     "3421707515": {
         "Name": "Avenging Wrath",
         "Descriptions": {
+            "4162048349": "Call upon the Light and become an avatar of retribution, increasing your critical strike chance by {1}% for {2} sec.\r\n\r\n{FFFFFFFF|Combines with other Avenging Wrath abilities.}",
             "443712803": "Cooldown reduced by {1} sec.",
             "1061305665": "Call upon the Light to become an avatar of retribution, reducing Holy Shock's cooldown by {1}%, and activating all the effects learned for Avenging Wrath for {2} sec.",
             "517255890": "Call upon the Light to become an avatar of retribution, allowing Hammer of Wrath to be used on any target, and activating all the effects learned for Avenging Wrath for {1} sec.",
@@ -93,11 +94,8 @@
             "3945961526": "Call upon the Light to become an avatar of retribution, allowing Hammer of Wrath to be used on any target, increasing your critical strike chance by {1}% for {2} sec.",
             "2306202891": "Call upon the Light to become an avatar of retribution, increasing your damage and healing by {1}% for {2} sec.",
             "3239843757": "Call upon the Light to become an avatar of retribution, allowing Hammer of Wrath to be used on any target, increasing your damage and healing by {1}% for {2} sec.",
-            "1509338058": "Call upon the Light to become an avatar of retribution, causing Judgment to generate {1} additional Holy Power, and activating all the effects learned for Avenging Wrath for {2} sec.",
-            "2039168682": "Call upon the Light to become an avatar of retribution, causing Judgment to generate {1} additional Holy Power, allowing Hammer of Wrath to be used on any target, and activating all the effects learned for Avenging Wrath for {2} sec.",
-            "898758253": "Call upon the Light to become an avatar of retribution, each Holy Power spent causing you to explode with Holy light for {1} damage to nearby enemies, and activating all the effects learned for Avenging Wrath for {2} sec.",
-            "4079606479": "Call upon the Light to become an avatar of retribution, each Holy Power spent causing you to explode with Holy light for {1} damage to nearby enemies, allowing Hammer of Wrath to be used on any target, and activating all the effects learned for Avenging Wrath for {2} sec.",
-            "3346962478": "Call upon the Light to become an avatar of retribution, and activating all the effects learned for Avenging Wrath for {1} sec."
+            "3346962478": "Call upon the Light to become an avatar of retribution, and activating all the effects learned for Avenging Wrath for {1} sec.",
+            "3715062551": "Call upon the Light to become an avatar of retribution, allowing Hammer of Wrath to be used on any target, increasing your damage, healing and critical strike chance by {1}% for {2} sec."
         }
     },
     "3440699229": {
@@ -237,7 +235,7 @@
     "127750236": {
         "Name": "Boundless Salvation",
         "Descriptions": {
-            "3687541150": "Your Holy Shock, Flash of Light, and Holy Light spells extend the duration of Tyr's Deliverance on yourself when cast on targets affected by Tyr's Deliverance.\r\n\r\n|T135972:24|tHoly Shock: Extends {1} sec.\r\n\r\n|T135907:24|tFlash of Light: Extends {2} sec.\r\n\r\n|T135981:24|t Holy Light: Extends {3} sec.\r\n\r\nTyr's Deliverance can be extended up to a maximum of {4} sec."
+            "3132630649": "Your Holy Shock, Flash of Light, and Holy Light spells extend the duration of Tyr's Deliverance on yourself when cast on targets affected by Tyr's Deliverance.\r\n\r\n|T135972:24|t{ffffffff|Holy Shock}: Extends {1} sec.\r\n\r\n|T135907:24|t{ffffffff|Flash of Light}: Extends {2} sec.\r\n\r\n|T135981:24|t {ffffffff|Holy Light}: Extends {3} sec.\r\n\r\nTyr's Deliverance can be extended up to a maximum of {4} sec."
         }
     },
     "2779440951": {
@@ -295,6 +293,12 @@
             "2175820521": "Beacon of Light transfers an additional {1}% of the amount healed."
         }
     },
+    "209510097": {
+        "Name": "Concentration Aura",
+        "Descriptions": {
+            "446757712": "Interrupt and Silence effects on party and raid members within {1} yds are {2}% shorter."
+        }
+    },
     "636697686": {
         "Name": "Consecrated Blade",
         "Descriptions": {
@@ -334,8 +338,8 @@
     "1241880942": {
         "Name": "Crusade",
         "Descriptions": {
-            "1461258455": "Call upon the Light and begin a crusade, increasing your haste by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf Avenging Wrath is known, also grants {5}% damage per stack.",
-            "2686924834": "Call upon the Light and begin a crusade, increasing your haste and damage by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf Avenging Wrath is known, also grants {5}% damage per stack."
+            "4238278788": "Call upon the Light and begin a crusade, increasing your haste and damage by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf {ffffffff|Avenging Wrath} is known, also grants {5}% damage per stack.",
+            "2878891559": "Call upon the Light and begin a crusade, increasing your haste by {1}% for {2} sec.\r\n\r\nEach Holy Power spent during Crusade increases haste by an additional {3}%.\r\n\r\nMaximum {4} stacks.\r\n\r\nIf {ffffffff|Avenging Wrath} is known, also grants {5}% damage per stack."
         }
     },
     "1671169080": {
@@ -478,7 +482,6 @@
             "116581408": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.",
             "2320479877": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.",
             "350135275": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.",
-            "78288521": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec.",
             "3964010357": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nGenerates {3} Holy Power per target hit.",
             "2559271676": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nGenerates {3} Holy Power per target hit.",
             "1183034429": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
@@ -495,64 +498,14 @@
             "3396123278": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.",
             "3846469216": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.",
             "128058863": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.",
-            "3955024290": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.",
-            "1464175496": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.",
-            "891768252": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nGenerates {3} Holy Power per target hit.",
-            "63630843": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nGenerates {3} Holy Power per target hit.",
             "4126932058": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
-            "2713812130": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
             "3494574612": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
-            "2515807751": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
-            "466939574": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
-            "4263814395": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
             "366882949": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
-            "1064408730": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
             "3277462956": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
-            "3621664942": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
-            "1010726634": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
-            "3577778200": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nGenerates {9} Holy Power per target hit.",
-            "2624362825": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec.\r\n\r\nGenerates {5} Holy Power per target hit.",
-            "14279632": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nGenerates {7} Holy Power per target hit.",
-            "2762034956": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nGenerates {9} Holy Power per target hit.",
-            "4167512763": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.",
-            "1915480850": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.",
-            "1424031858": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
-            "876012909": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
             "400863652": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
-            "4022564416": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
-            "772182408": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
             "2623793816": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
             "2043117973": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "1033115781": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "1431148040": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "1913375489": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "365464340": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "2144935933": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nDivine Toll's Judgment deals {9}% increased damage.",
-            "443979304": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.",
-            "1252180302": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.",
-            "1127719821": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nDivine Toll's Judgment deals {9}% increased damage.",
-            "4200036833": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.\r\n\r\nGenerates {4} Holy Power per target hit.",
-            "2368674562": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.\r\n\r\nGenerates {4} Holy Power per target hit.",
-            "3683870201": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.\r\n\r\nGenerates {4} Holy Power per target hit.",
-            "3388941740": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nDivine Toll's Judgment deals {3}% increased damage.\r\n\r\nGenerates {4} Holy Power per target hit.",
-            "2437908024": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "3464786541": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "3862818800": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "2617877552": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "2500121081": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "2742124340": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "3704975377": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "2391816830": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "3094484335": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "731653475": "Instantly cast Holy Shock on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "3058574173": "Instantly cast Avenger's Shield on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "2594687151": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "760254391": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast  every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "1914122404": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "82724786": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Avenger's Shield every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nDivine Toll's Judgment deals {9}% increased damage.\r\n\r\nGenerates {10} Holy Power per target hit.",
-            "1956682365": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec.\r\n\r\nDivine Toll's Judgment deals {5}% increased damage.\r\n\r\nGenerates {6} Holy Power per target hit.",
-            "1535198458": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage.\r\n\r\nGenerates {8} Holy Power per target hit.",
-            "2226278617": "Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Holy Shock every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec. every {7} sec. This effect lasts {8} sec.\r\n\r\nDivine Toll's Judgment deals {9}% increased damage.\r\n\r\nGenerates {10} Holy Power per target hit."
+            "1913375489": "Instantly cast Judgment on up to {1} targets within {2} yds.\r\n\r\nAfter casting Divine Toll, you instantly cast Judgment every {3} sec. This effect lasts {4} sec. every {5} sec. This effect lasts {6} sec.\r\n\r\nDivine Toll's Judgment deals {7}% increased damage."
         }
     },
     "1014403376": {
@@ -617,7 +570,7 @@
     "632299431": {
         "Name": "Fading Light",
         "Descriptions": {
-            "1204668248": "|T618798:24|tBlessing of Dawn:\r\nBlessing of Dawn increases the damage and healing of your next Holy Power spending ability by an additional {1}%.\r\n\r\n|T1048304:24|tBlessing of Dusk:\r\nBlessing of Dusk causes your Holy Power generating abilities to also grant an absorb shield for {2}% of damage or healing dealt."
+            "1789293182": "|T618798:24|t{ffffffff|Blessing of Dawn}:\r\nBlessing of Dawn increases the damage and healing of your next Holy Power spending ability by an additional {1}%.\r\n\r\n|T1048304:24|t{ffffffff|Blessing of Dusk}:\r\nBlessing of Dusk causes your Holy Power generating abilities to also grant an absorb shield for {2}% of damage or healing dealt."
         }
     },
     "1805826599": {
@@ -734,7 +687,7 @@
     "3887344243": {
         "Name": "Guided Prayer",
         "Descriptions": {
-            "4110489736": "When your health is brought below {1}%, you instantly cast a free Word of Glory at {2}% effectiveness on yourself.\r\n\r\nCannot occur more than once every {3}ldown sec."
+            "2282924414": "When your health is brought below {1}%, you instantly cast a free Word of Glory at {2}% effectiveness on yourself.\r\n\r\nCannot occur more than once every {3} sec."
         }
     },
     "3649003054": {
@@ -887,7 +840,7 @@
     "2382506242": {
         "Name": "Infusion of Light",
         "Descriptions": {
-            "1208145181": "Your critical Holy Shocks empower your next spell cast:\r\n\r\nFlash of Light: Mana cost reduced by {1}%\r\nHoly Light: healing increased by {2}%.\r\nJudgment: Greater Judgment prevents an additional {3}% damage dealt by the target."
+            "1780720663": "Your critical Holy Shocks empower your next spell cast:\r\n\r\n{ffffffff|Flash of Light}: Mana cost reduced by {1}%\r\n{ffffffff|Holy Light}: healing increased by {2}%.\r\n{ffffffff|Judgment}: Greater Judgment prevents an additional {3}% damage dealt by the target."
         }
     },
     "879676106": {
@@ -1088,9 +1041,9 @@
     "3055582870": {
         "Name": "Of Dusk and Dawn",
         "Descriptions": {
-            "2529407555": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|tBlessing of Dawn\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|tBlessing of Dusk\r\nDamage taken reduced by {3}% For {4} sec.",
-            "353591160": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|tBlessing of Dawn\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|tBlessing of Dusk\r\nDamage taken reduced by {3}% and your Holy Power generating abilities also grant an absorb shield for {4}% of damage or healing dealt. For {5} sec.",
-            "1010751528": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|tBlessing of Dawn\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|tBlessing of Dusk\r\nDamage taken reduced by {3}%, armor increased by {4}%, and Holy Power generating abilities cool down {5}% faster For {6} sec."
+            "664260131": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|t{ffffffff|Blessing of Dawn}\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|t{ffffffff|Blessing of Dusk}\r\nDamage taken reduced by {3}%, armor increased by {4}%, and Holy Power generating abilities cool down {5}% faster For {6} sec.",
+            "968696990": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|t{ffffffff|Blessing of Dawn}\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|t{ffffffff|Blessing of Dusk}\r\nDamage taken reduced by {3}% and your Holy Power generating abilities also grant an absorb shield for {4}% of damage or healing dealt. For {5} sec.",
+            "256578514": "When you cast {1} Holy Power generating abilities, you gain Blessing of Dawn. When you consume Blessing of Dawn, you gain Blessing of Dusk.\r\n\r\n|T618798:24|t{ffffffff|Blessing of Dawn}\r\nYour next Holy Power spending ability deals {2}% additional increased damage and healing. This effect stacks.\r\n\r\n|T1048304:24|t{ffffffff|Blessing of Dusk}\r\nDamage taken reduced by {3}% For {4} sec."
         }
     },
     "3774416379": {
@@ -1275,7 +1228,7 @@
     "3413513015": {
         "Name": "Seal of Order",
         "Descriptions": {
-            "2104659798": "|T618798:24|tBlessing of Dawn:\r\nBlessing of Dawn increases the damage and healing of your next Holy Power spending ability by an additional {1}%.\r\n\r\n|T1048304:24|tBlessing of Dusk:\r\nBlessing of Dusk increases your armor by {2}% and your Holy Power generating abilities cooldown {3}% faster."
+            "1608641441": "|T618798:24|t{ffffffff|Blessing of Dawn}:\r\nBlessing of Dawn increases the damage and healing of your next Holy Power spending ability by an additional {1}%.\r\n\r\n|T1048304:24|t{ffffffff|Blessing of Dusk}:\r\nBlessing of Dusk increases your armor by {2}% and your Holy Power generating abilities cooldown {3}% faster."
         }
     },
     "1304008705": {
@@ -1367,7 +1320,7 @@
     "3016545599": {
         "Name": "Spreading the Word",
         "Descriptions": {
-            "2959388946": "Your allies affected by your Aura gain an effect after you cast Blessing of Protection or Blessing of Freedom.\r\n\r\n|T135964:24|t Blessing of Protection\r\nPhysical damage reduced by {1}% for {2} sec.\r\n\r\n|T135968:24|t Blessing of Freedom\r\nCleared of all movement impairing effects."
+            "2968960133": "Your allies affected by your Aura gain an effect after you cast Blessing of Protection or Blessing of Freedom.\r\n\r\n|T135964:24|t {ffffffff|Blessing of Protection}\r\nPhysical damage reduced by {1}% for {2} sec.\r\n\r\n|T135968:24|t {ffffffff|Blessing of Freedom}\r\nCleared of all movement impairing effects."
         }
     },
     "1755959271": {
@@ -1510,7 +1463,7 @@
     "1241021413": {
         "Name": "Wake of Ashes",
         "Descriptions": {
-            "4032905555": "Lash out at your enemies, dealing {1} Radiant damage to all enemies within {2} yds in front of you, and applying Truth's Wake, burning the targets for an additional {3} damage over {4} sec.\r\n\r\nDemon and Undead enemies are also stunned for {5} sec.\r\n\r\n|cFFFFFFFFGenerates {6} Holy Power."
+            "2228871395": "Lash out at your enemies, dealing {1} Radiant damage to all enemies within {2} yds in front of you, and applying {ffffffff|Truth's Wake}, burning the targets for an additional {3} damage over {4} sec.\r\n\r\nDemon and Undead enemies are also stunned for {5} sec.\r\n\r\n|cFFFFFFFFGenerates {6} Holy Power."
         }
     },
     "3304922017": {
@@ -1709,8 +1662,8 @@
     "1636113208": {
         "Name": "Light's Guidance",
         "Descriptions": {
-            "3504086740": "Wake of Ashes is replaced with Hammer of Light for {1} sec after it is cast.\r\n\r\n|T5342121:24|t Hammer of Light:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power.",
-            "4045988323": "Eye of Tyr is replaced with Hammer of Light for {1} sec after it is cast.\r\n\r\n|T5342121:24|t Hammer of Light:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power."
+            "3636382563": "Eye of Tyr is replaced with {ffffffff|Hammer of Light} for {1} sec after it is cast.\r\n\r\n|T5342121:24|t {ffffffff|Hammer of Light}:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power.",
+            "1110676148": "Wake of Ashes is replaced with {ffffffff|Hammer of Light} for {1} sec after it is cast.\r\n\r\n|T5342121:24|t {ffffffff|Hammer of Light}:\r\nHammer down your enemy with the power of the Light, dealing {2} Holy damage and {3} Holy damage up to {4} nearby enemies. \r\n\r\nAdditionally, calls down Empyrean Hammers from the sky to strike {5} nearby enemies for {6} Holy damage each.\r\n\r\n|cFFFFFFFFCosts {7} Holy Power."
         }
     },
     "1242390056": {
@@ -1887,7 +1840,7 @@
     "622112872": {
         "Name": "Blessing of the Forge",
         "Descriptions": {
-            "1793850633": "Avenging Wrath summons an additional |T5927637:24|t Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities."
+            "3195983084": "Avenging Wrath summons an additional Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities."
         }
     },
     "2976013462": {
@@ -1948,8 +1901,8 @@
     "2535139435": {
         "Name": "Radiant Glory",
         "Descriptions": {
-            "549351603": "Avenging Wrath is replaced with Radiant Glory.\r\n\r\n|T255346:24|tRadiant Glory\r\nWake of Ashes activates Avenging Wrath for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Avenging Wrath for {2} sec.",
-            "3948797587": "Crusade is replaced with Radiant Glory.\r\n\r\n|T255346:24|tRadiant Glory\r\nWake of Ashes activates Crusade for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Crusade for {2} sec."
+            "2010315112": "Crusade is replaced with Radiant Glory.\r\n\r\n|T255346:24|t{ffffffff|Radiant Glory}\r\nWake of Ashes activates Crusade for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Crusade for {2} sec.",
+            "3679527302": "Avenging Wrath is replaced with Radiant Glory.\r\n\r\n|T255346:24|t{ffffffff|Radiant Glory}\r\nWake of Ashes activates Avenging Wrath for {1} sec.\r\n\r\nEach Holy Power spent has a chance to activate Avenging Wrath for {2} sec."
         }
     },
     "965014392": {
@@ -2086,7 +2039,7 @@
     "4144640030": {
         "Name": "Holy Bulwark",
         "Descriptions": {
-            "282255924": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.\r\n\r\n|T5927636:24|t Holy Bulwark:\r\n\r\nWhile wielding a Holy Bulwark, gain an absorb shield for {1}% of your max health and an additional {2}% every {3} sec. Lasts {4} sec.\r\n\r\nBecomes Sacred Weapon after use."
+            "748504320": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.\r\n\r\n|T5927636:24|t {ffffffff|Holy Bulwark}:\r\n\r\nWhile wielding a Holy Bulwark, gain an absorb shield for {1}% of your max health and an additional {2}% every {3} sec. Lasts {4} sec.\r\n\r\nBecomes Sacred Weapon after use."
         }
     },
     "783497043": {
@@ -2117,8 +2070,8 @@
         "Name": "Aurora",
         "Descriptions": {
             "716775759": "After you cast , gain Divine Purpose.",
-            "986773183": "After you cast Holy Prism or Barrier of Faith, gain Divine Purpose.\r\n\r\n|T135897:24|t Divine Purpose\r\n$@spellaura{1}{2}",
-            "945825792": "After you cast Wake of Ashes, gain Divine Purpose.\r\n\r\n|T135897:24|t Divine Purpose\r\n$@spellaura{1}{2}"
+            "3349695379": "After you cast Wake of Ashes, gain Divine Purpose.\r\n\r\n|T135897:24|t {ffffffff|Divine Purpose}\r\nYour next Holy Power ability is free and deals {1}% increased damage and healing.",
+            "2428445063": "After you cast Holy Prism or Barrier of Faith, gain Divine Purpose.\r\n\r\n|T135897:24|t {ffffffff|Divine Purpose}\r\nYour next Holy Power ability is free and deals {1}% increased damage and healing."
         }
     },
     "611265504": {

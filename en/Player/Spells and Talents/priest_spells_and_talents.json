@@ -498,7 +498,7 @@
     "3368962575": {
         "Name": "Idol of C'Thun",
         "Descriptions": {
-            "2885288500": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t Mind Flay\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|tMind Sear\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
+            "1175352": "Mind Flay, Mind Spike, and Void Torrent have a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\r\n\r\n|T136208:24|t {ffffffff|Mind Flay}\r\nAssaults the target's mind with Shadow energy, causing {1} Shadow damage over {2} sec and slowing their movement speed by {3}%.\r\n\r\n{FFFFFFFF|Generates {4} Insanity over the duration.}\r\n\r\n|T237565:24|t{ffffffff|Mind Sear}\r\nCorrosive shadow energy radiates from the target, dealing {5} Shadow damage over {6} sec to all enemies within {7} yards of the target. Damage reduced beyond {8} targets.\r\n\r\n{FFFFFFFF|Generates {9} Insanity over the duration.}"
         }
     },
     "3793024297": {
@@ -516,7 +516,7 @@
     "1531803395": {
         "Name": "Idol of Yogg-Saron",
         "Descriptions": {
-            "30857623": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for {2} sec.\r\n\r\n|T457655:24|t Void Spike\r\nHurls a bolt of dark magic, dealing {3} Shadow damage and {4} Shadow damage to all enemies within {5} yards of the target. Damage reduced beyond {6} targets."
+            "660829474": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At {1} stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for {2} sec.\r\n\r\n|T457655:24|t {ffffffff|Void Spike}\r\nHurls a bolt of dark magic, dealing {3} Shadow damage and {4} Shadow damage to all enemies within {5} yards of the target. Damage reduced beyond {6} targets."
         }
     },
     "1805512310": {
@@ -559,7 +559,7 @@
     "1408703037": {
         "Name": "Inner Light and Shadow",
         "Descriptions": {
-            "3461206530": "|T135898:24|tInner Light: Healing spells cost {1}% less mana.\r\n\r\n|T237570:24|tInner Shadow: Spell damage and Atonement healing increased by {2}%.\r\n\r\nActivate to swap from one effect to the other, incurring a {3} sec cooldown."
+            "1391520752": "|T135898:24|t{ffffffff|Inner Light}: Healing spells cost {1}% less mana.\r\n\r\n|T237570:24|t{ffffffff|Inner Shadow}: Spell damage and Atonement healing increased by {2}%.\r\n\r\nActivate to swap from one effect to the other, incurring a {3} sec cooldown."
         }
     },
     "3379689673": {
@@ -752,7 +752,8 @@
     "2608483496": {
         "Name": "Mind Trauma",
         "Descriptions": {
-            "1440693126": "Siphon haste from enemies, stealing {1}% haste per stack of Mind Trauma, stacking up to {2} times. Mind Spike and fully channeled Mind Flays grant {3} [plural|stack|stacks] of Mind Trauma and fully channeled Void Torrents grant {4} [plural|stack|stacks] of Mind Trauma. Lasts {5} sec.\r\n\r\nYou can only gain {6} stacks of Mind Trauma from a single enemy."
+            "1440693126": "Siphon haste from enemies, stealing {1}% haste per stack of Mind Trauma, stacking up to {2} times. Mind Spike and fully channeled Mind Flays grant {3} [plural|stack|stacks] of Mind Trauma and fully channeled Void Torrents grant {4} [plural|stack|stacks] of Mind Trauma. Lasts {5} sec.\r\n\r\nYou can only gain {6} stacks of Mind Trauma from a single enemy.",
+            "239351346": "Siphon haste from enemies, stealing {1}% haste per stack of Mind Trauma, stacking up to {2} times. Mind Spike and fully channeled Mind Flays grant {3} stack of Mind Trauma and fully channeled Void Torrents grant {4} stacks of Mind Trauma. Lasts {5} sec.\r\n\r\nYou can only gain {6} stacks of Mind Trauma from a single enemy."
         }
     },
     "1384465853": {
@@ -964,7 +965,7 @@
     "2390223895": {
         "Name": "Psyfiend",
         "Descriptions": {
-            "3861177850": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\r\n\r\n|T136208:24|t Psyflay\r\nDeals up to {3}% of the target's total health in Shadow damage every {4} sec. Also slows their movement speed by {5}% and reduces healing received by {6}%."
+            "1573262439": "Summons a Psyfiend with {1} health for {2} sec beside you to attack the target at range with Psyflay.\r\n\r\n|T136208:24|t {ffffffff|Psyflay}\r\nDeals up to {3}% of the target's total health in Shadow damage every {4} sec. Also slows their movement speed by {5}% and reduces healing received by {6}%."
         }
     },
     "3045554942": {
@@ -1057,7 +1058,7 @@
     "1537849425": {
         "Name": "San'layn",
         "Descriptions": {
-            "1801656908": "|T2101983:24|t Sanguine Teachings\r\nSanguine Teachings grants an additional {1}% Leech.\r\n\r\n|T136230:24|t Vampiric Embrace\r\nReduces the cooldown of Vampiric Embrace by {2} sec, increases its healing done by {3}%."
+            "1914262419": "|T2101983:24|t {ffffffff|Sanguine Teachings}\r\nSanguine Teachings grants an additional {1}% Leech.\r\n\r\n|T136230:24|t {ffffffff|Vampiric Embrace}\r\nReduces the cooldown of Vampiric Embrace by {2} sec, increases its healing done by {3}%."
         }
     },
     "2414503873": {
@@ -1112,8 +1113,9 @@
     "3737604626": {
         "Name": "Shadow Crash",
         "Descriptions": {
-            "4081011797": "Hurl a bolt of slow-moving Shadow energy at your target, dealing {1} Shadow damage to all enemies within {2} yds.\r\n\r\n|cFFFFFFFFGenerates $/{3};s{4} Insanity.\r\n\r\nThis spell is cast at your target.|r",
-            "478045755": "Aim a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage to all enemies within {2} yds.\r\n\r\n|cFFFFFFFFGenerates $/{3};s{4} Insanity.\r\n\r\nThis spell is cast at a selected location.|r"
+            "496016045": "Aim a bolt of slow-moving Shadow energy at the destination, dealing {1} Shadow damage to all enemies within {2} yds.\r\n\r\n|cFFFFFFFFGenerates {3} Insanity.\r\n\r\nThis spell is cast at a selected location.|r",
+            "4270985562": "Hurl a bolt of slow-moving Shadow energy at your target, dealing {1} Shadow damage to all enemies within {2} yds.\r\n\r\n|cFFFFFFFFGenerates {3} Insanity.\r\n\r\nThis spell is cast at your target.|r",
+            "3899235454": "Hurl a bolt of slow-moving Shadow energy at your target, dealing {1} Shadow damage to all enemies within {2} yds.\r\n\r\n{FFFFFFFF|Generates {3} Insanity.\r\n\r\nThis spell is cast at your target.}"
         }
     },
     "721771967": {
@@ -1393,7 +1395,7 @@
     "1411992818": {
         "Name": "Surge of Insanity",
         "Descriptions": {
-            "3880257696": "Every {1} casts of Devouring Plague transforms your next Mind Flay or Mind Spike into a more powerful spell. Can accumulate up to {2} charges.\r\n\r\n|T425954:24|t Mind Flay: Insanity\r\nAssaults the target's mind with Shadow energy, causing {3} Shadow damage over {4} sec and slowing their movement speed by {5}%.\r\n\r\n{FFFFFFFF|Generates {6} Insanity over the duration.}\r\n\r\n|T1391678:24|tMind Spike: Insanity\r\nBlasts the target for {7} Shadowfrost damage.\r\n\r\n{FFFFFFFF|Generates {8} Insanity.}"
+            "1347111103": "Every {1} casts of Devouring Plague transforms your next Mind Flay or Mind Spike into a more powerful spell. Can accumulate up to {2} charges.\r\n\r\n|T425954:24|t {ffffffff|Mind Flay: Insanity}\r\nAssaults the target's mind with Shadow energy, causing {3} Shadow damage over {4} sec and slowing their movement speed by {5}%.\r\n\r\n{FFFFFFFF|Generates {6} Insanity over the duration.}\r\n\r\n|T1391678:24|t{ffffffff|Mind Spike: Insanity}\r\nBlasts the target for {7} Shadowfrost damage.\r\n\r\n{FFFFFFFF|Generates {8} Insanity.}"
         }
     },
     "3663716477": {
@@ -1565,7 +1567,7 @@
     "2700615764": {
         "Name": "Premonition",
         "Descriptions": {
-            "4185372987": "Gain access to a spell that gives you an advantage against your fate.  Premonition rotates to the next spell when cast.\r\n\r\n|T5927640:24|t {FFFFFFFF|Premonition of Insight}\r\nReduces the cooldown of your next {1} spell casts by {2} sec.\r\n\r\n|T5927641:24|t {FFFFFFFF|Premonition of Piety}\r\nIncreases your healing done by {3}% and causes {4}% of overhealing on players to be redistributed to up to {5} nearby allies for {6} sec. \r\n\r\n|T5927642:24|t{FFFFFFFF| Premonition of Solace}\r\nYour next single target healing spell grants your target a shield that absorbs {7} damage and reduces their damage taken by {8}% for {9} sec."
+            "1765743775": "Gain access to a spell that gives you an advantage against your fate.  Premonition rotates to the next spell when cast.\r\n\r\n|T5927640:24|t {FFFFFFFF|Premonition of Insight}\r\nReduces the cooldown of your next {1} spell casts by {2} sec.\r\n\r\n|T5927641:24|t {FFFFFFFF|Premonition of Piety}\r\nIncreases your healing done by {3}% and causes {4}% of overhealing on players to be redistributed to up to {5} nearby allies for {6} sec. \r\n\r\n|T5927642:24|t{FFFFFFFF| |cffffffffPremonition of Solace}\r\nYour next single target healing spell grants your target a shield that absorbs {7} damage and reduces their damage taken by {8}% for {9} sec."
         }
     },
     "213984076": {
@@ -1667,8 +1669,8 @@
     "2303251206": {
         "Name": "Voidwraith",
         "Descriptions": {
-            "3348292181": "Transform your Shadowfiend or Mindbender into a Voidwraith.\r\n\r\n|T615099:24|tVoidwraith\r\nSummon a Voidwraith for {1} sec that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of {2}% if they are full health.\r\n\r\n{FFFFFFFF|Generates {3}% Mana each time the Voidwraith attacks.}",
-            "2246307014": "Transform your Shadowfiend or Mindbender into a Voidwraith.\r\n\r\n|T615099:24|tVoidwraith\r\nSummon a Voidwraith for {1} sec that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of {2}% if they are full health.\r\n\r\n{FFFFFFFF|Generates {3} Insanity each time the Voidwraith attacks.}"
+            "1196657601": "Transform your Shadowfiend or Mindbender into a Voidwraith.\r\n\r\n|T615099:24|t{ffffffff|Voidwraith}\r\nSummon a Voidwraith for {1} sec that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of {2}% if they are full health.\r\n\r\n{FFFFFFFF|Generates {3} Insanity each time the Voidwraith attacks.}",
+            "3385499271": "Transform your Shadowfiend or Mindbender into a Voidwraith.\r\n\r\n|T615099:24|t{ffffffff|Voidwraith}\r\nSummon a Voidwraith for {1} sec that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of {2}% if they are full health.\r\n\r\n{FFFFFFFF|Generates {3}% Mana each time the Voidwraith attacks.}"
         }
     },
     "254867693": {
@@ -1686,8 +1688,8 @@
     "1534703650": {
         "Name": "Dark Energy",
         "Descriptions": {
-            "1828158647": "While Entropic Void is active, you move {1}% faster.",
-            "69939182": "Void Torrent can be used while moving. While Entropic Void is active, you move {1}% faster."
+            "4055361660": "Void Torrent can be used while moving. While Entropic Rift is active, you move {1}% faster.",
+            "580985923": "While Entropic Rift is active, you move {1}% faster."
         }
     },
     "2480430229": {
@@ -1807,10 +1809,10 @@
     "869658118": {
         "Name": "Void Blast",
         "Descriptions": {
-            "177648247": "Entropic Rift upgrades Smite into Void Blast while it is active.\r\n\r\n][Void Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.]",
-            "1918275941": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\r\n\r\n][Void Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}]",
-            "681000803": "Entropic Rift upgrades Smite into Void Blast while it is active.\r\n\r\nVoid Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.$?c{2}[\r\n\r\n{FFFFFFFF|Generates {3} Insanity.}][Void Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {4} Shadow damage.]",
-            "1017961059": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\r\n\r\nVoid Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.$?c{2}[\r\n\r\n{FFFFFFFF|Generates {3} Insanity.}][Void Blast:\r\nSends a blast of cosmic void energy at the enemy, causing {4} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {5} Insanity.}]"
+            "1036251154": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\r\n\r\n{ffffffff|Void Blast}:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}",
+            "2011639116": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\r\n\r\n{ffffffff|Void Blast}:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.",
+            "3143962892": "Entropic Rift upgrades Smite into Void Blast while it is active.\r\n\r\n{ffffffff|Void Blast}:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Insanity.}",
+            "351548104": "Entropic Rift upgrades Smite into Void Blast while it is active.\r\n\r\n{ffffffff|Void Blast}:\r\nSends a blast of cosmic void energy at the enemy, causing {1} Shadow damage."
         }
     },
     "3761797937": {

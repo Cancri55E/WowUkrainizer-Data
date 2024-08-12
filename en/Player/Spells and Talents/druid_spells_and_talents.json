@@ -44,7 +44,7 @@
     "596881110": {
         "Name": "Ashamane's Guidance",
         "Descriptions": {
-            "4151552766": "|T571586:24|tIncarnation: Avatar of Ashamane\r\nDuring Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+            "28616995": "|T571586:24|t{ffffffff|Incarnation: Avatar of Ashamane}\r\nDuring Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "3466030451": {
@@ -186,7 +186,7 @@
     "1772931334": {
         "Name": "Cenarius' Guidance",
         "Descriptions": {
-            "2502561961": "|T236157:24|t Incarnation: Tree of Life\r\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Grove Guardians fade.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+            "2359884043": "|T236157:24|t {ffffffff|Incarnation: Tree of Life}\r\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Grove Guardians fade.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "2140781295": {
@@ -322,7 +322,7 @@
     "3813356828": {
         "Name": "Eclipse",
         "Descriptions": {
-            "3605070644": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t Eclipse (Solar)\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t Eclipse (Lunar)\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
+            "786796655": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t {ffffffff|Eclipse (Solar)}\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t {ffffffff|Eclipse (Lunar)}\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
         }
     },
     "2667113284": {
@@ -341,7 +341,7 @@
     "2774752517": {
         "Name": "Elune's Guidance",
         "Descriptions": {
-            "1278745296": "|T571586:24|t Incarnation: Chosen of Elune\r\nReduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\r\n\r\n|T3636839:24|t Convoke the Spirits\r\nCooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+            "1318759625": "|T571586:24|t {ffffffff|Incarnation: Chosen of Elune}\r\nReduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nCooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "734122618": {
@@ -484,8 +484,9 @@
     "740600257": {
         "Name": "Fury of Elune",
         "Descriptions": {
-            "3840265348": "{1} Astral Power over its duration.|r][Calls down a beam of pure celestial energy that follows the enemy, dealing up to {2} Astral damage over {3} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}]",
-            "42013712": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates $?a{4}{5}[{6} Rage over its duration.}][Calls down a beam of pure celestial energy that follows the enemy, dealing up to {7} Astral damage over {8} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {9} Astral Power over its duration.}]"
+            "3957655582": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}",
+            "3632033178": "Calls down a beam of pure celestial energy that follows the enemy, dealing up to {1} Astral damage over {2} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {3} Astral Power over its duration.}",
+            "2016754470": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}"
         }
     },
     "632540084": {
@@ -966,7 +967,7 @@
     "181838500": {
         "Name": "Nourish",
         "Descriptions": {
-            "4011115946": "Heals a friendly target for {1}.  Receives {2}% bonus from Mastery: Harmony."
+            "491622299": "Heals a friendly target for {1}.  Receives {2}% bonus from {ffffffff|Mastery: Harmony}."
         }
     },
     "3923629191": {
@@ -1388,7 +1389,7 @@
         "Name": "Strength of the Wild",
         "Descriptions": {
             "3618342335": "Maul the target for {1}% of the target's maximum health in Physical damage.",
-            "3532096322": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t Strength of the Wild\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
+            "4151677491": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t {ffffffff|Strength of the Wild}\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
         }
     },
     "3267743187": {
@@ -1613,7 +1614,7 @@
     "2788958811": {
         "Name": "Ursoc's Guidance",
         "Descriptions": {
-            "4160712344": "|T571586:24|t Incarnation: Guardian of Ursoc: \r\nEvery {1} Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by {2} sec.\r\n\r\n|T3636839:24|t Convoke the Spirits: \r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
+            "2197066262": "|T571586:24|t {ffffffff|Incarnation: Guardian of Ursoc}: \r\nEvery {1} Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by {2} sec.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}: \r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "897665850": {
@@ -1716,7 +1717,7 @@
     "2222193277": {
         "Name": "Wild Synthesis",
         "Descriptions": {
-            "57788174": "|T236162:24|t Nourish\r\nRegrowth decreases the cast time of your next Nourish by {1}% and causes it to receive an additional {2}% bonus from Mastery: Harmony. Stacks up to {3} times.\r\n\r\n|T132129:24|tGrove Guardians\r\nTreants from Grove Guardians also cast Wild Growth immediately when summoned, healing {4} allies within {5} yds for {6} over {7} sec."
+            "1590401400": "|T236162:24|t {ffffffff|Nourish}\r\nRegrowth decreases the cast time of your next Nourish by {1}% and causes it to receive an additional {2}% bonus from {ffffffff|Mastery: Harmony}. Stacks up to {3} times.\r\n\r\n|T132129:24|t{ffffffff|Grove Guardians}\r\nTreants from Grove Guardians also cast Wild Growth immediately when summoned, healing {4} allies within {5} yds for {6} over {7} sec."
         }
     },
     "2413742200": {
@@ -1808,7 +1809,7 @@
     "2347450498": {
         "Name": "Feral Affinity",
         "Descriptions": {
-            "2813525316": "You gain:\r\n\r\n|T132120:24|t Feline Swiftness\r\nIncreases your movement speed by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132122:24|t Rake\r\n|T132152:24|t Rip\r\n|T134296:24|t Swipe\r\n|T132134:24|t Maim\r\n\r\nYour energy regeneration is increased by {2}%."
+            "2728971470": "You gain:\r\n\r\n|T132120:24|t {ffffffff|Feline Swiftness}\r\nIncreases your movement speed by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132122:24|t {ffffffff|Rake}\r\n|T132152:24|t {ffffffff|Rip}\r\n|T134296:24|t {ffffffff|Swipe}\r\n|T132134:24|t {ffffffff|Maim}\r\n\r\nYour energy regeneration is increased by {2}%."
         }
     },
     "608492584": {
@@ -2082,10 +2083,8 @@
         "Name": "Potent Enchantments",
         "Descriptions": {
             "213319719": "Reforestation grants Tree of Life for {1} additional sec.",
-            "554631371": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nGreater Alignment increases the duration of  by an additional {3}% and increases Eclipse damage during  by an additional {4}%.",
-            "3030398732": "Incarnation: Chosen of EluneIncarnation: Chosen of EluneReforestation grants Tree of Life for {1} additional sec.",
-            "3273821809": "Celestial AlignmentCelestial AlignmentReforestation grants Tree of Life for {1} additional sec.",
-            "2132492968": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nGreater Alignment increases the duration of Celestial Alignment by an additional {3}% and increases Eclipse damage during Celestial Alignment by an additional {4}%."
+            "2132492968": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\n\nGreater Alignment increases the duration of Celestial Alignment by an additional {3}% and increases Eclipse damage during Celestial Alignment by an additional {4}%.",
+            "228110332": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\n\nGreater Alignment increases the duration of Incarnation: Chosen of Elune by an additional {3}% and increases Eclipse damage during Incarnation: Chosen of Elune by an additional {4}%."
         }
     },
     "1911352953": {
@@ -2103,8 +2102,8 @@
     "2258909789": {
         "Name": "The Eternal Moon",
         "Descriptions": {
-            "2828670033": "Further increases the power of Boundless Moonlight.\r\n\r\n|T132123:24|t Fury of Elune\r\nThe flash of energy now generates {1} Astral Power and its damage is increased by {2}%.\r\n\r\n|T1392542:24|t Full Moon\r\nNew Moon and Half Moon now also call down {3} Minor [plural|Moon|Moons].",
-            "4167600358": "Further increases the power of Boundless Moonlight.\r\n\r\n|T136057:24|t Lunar Beam\r\nLunar Beam increases Mastery by an additional {1}%, deals {2}% increased damage, and lasts {3} sec longer.\r\n\r\n|T132123:24|t Fury of Elune\r\nThe flash of energy now generates  {4} Rage and its damage is increased by {5}%."
+            "2619754136": "Further increases the power of Boundless Moonlight.\r\n\r\n|T136057:24|t {ffffffff|Lunar Beam}\r\nLunar Beam increases Mastery by an additional {1}%, deals {2}% increased damage, and lasts {3} sec longer.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nThe flash of energy now generates  {4} Rage and its damage is increased by {5}%.",
+            "1409154081": "Further increases the power of Boundless Moonlight.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nThe flash of energy now generates {1} Astral Power and its damage is increased by {2}%.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nNew Moon and Half Moon now also call down {3} Minor [plural|Moon|Moons]."
         }
     },
     "3097149171": {
@@ -2122,8 +2121,8 @@
     "3137427915": {
         "Name": "The Light of Elune",
         "Descriptions": {
-            "1779434982": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}",
-            "3118368699": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}"
+            "2016754470": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}",
+            "3957655582": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}"
         }
     },
     "2559232508": {
@@ -2179,8 +2178,9 @@
     "1955183040": {
         "Name": "Boundless Moonlight",
         "Descriptions": {
-            "4070540662": "|T132123:24|t Fury of Elune\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t Full Moon\r\n$?a{2}{3}[New Moon and Half Moon call down {4} Minor [plural|Moon|Moons] and []Full Moon calls down {5} Minor [plural|Moon|Moons] that [plural|deals|deal] {6} Astral damage and generate {7} Astral Power.]",
-            "3641006963": "|T136057:24|t Lunar Beam\r\nLunar Beam now causes you to leech life equal to {1}% of all damage dealt to enemies within the beam.\r\n\r\n|T132123:24|t Fury of Elune\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {2} Astral damage.[]Full Moon calls down {3} Minor [plural|Moon|Moons] that [plural|deals|deal] {4} Astral damage and generate {5} Astral Power.]"
+            "88988088": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nNew Moon and Half Moon call down {2} Minor [plural|Moon|Moons] and Full Moon calls down {3} Minor [plural|Moon|Moons] that [plural|deals|deal] {4} Astral damage and generate {5} Astral Power.",
+            "3546641740": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nFull Moon calls down {2} Minor [plural|Moon|Moons] that [plural|deals|deal] {3} Astral damage and generate {4} Astral Power.",
+            "3281722080": "|T136057:24|t {ffffffff|Lunar Beam}\r\nLunar Beam now causes you to leech life equal to {1}% of all damage dealt to enemies within the beam.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {2} Astral damage."
         }
     },
     "2975496414": {
@@ -2276,8 +2276,8 @@
     "2316867399": {
         "Name": "Aggravate Wounds",
         "Descriptions": {
-            "2393866337": "Every {1} sec, up to {2} additional sec.",
-            "4283907450": "Every Maul, Raze, Mangle,  Thrash, or Swipe]$?a{1}{2}[attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by $?a{3}{4}[{5} sec, up to {6} additional sec."
+            "1972993845": "Every Maul, Raze, Mangle,  Thrash, or Swipe you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec.",
+            "3316855972": "Every attack with an Energy cost that you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec."
         }
     },
     "145749490": {
@@ -2356,8 +2356,8 @@
     "1807396447": {
         "Name": "Ravage",
         "Descriptions": {
-            "2433411649": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n{1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc]",
-            "3717958932": "Your auto-attacks have a chance to make your next Maul become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nSlash through your target in a wide arc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you.]$?a{3}{4}[|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to $?a{5}{6}[{7} additional Energy to increase that damage by up to {8}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {9} point: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc\r\n  {18} points: {19} damage, {20} in an arc\r\n  {21} points: {22} damage, {23} in an arc]"
+            "3166906070": "Your auto-attacks have a chance to make your next Maul become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nSlash through your target in a wide arc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you.",
+            "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc"
         }
     },
     "112988377": {
@@ -2389,11 +2389,11 @@
     "2982419687": {
         "Name": "Call of the Elder Druid",
         "Descriptions": {
-            "3009816217": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {11}%, and mana costs reduced by {12}%.",
-            "697606534": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "107068395": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {6}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {7} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {8}%, and mana costs reduced by {9}%.",
-            "1492088806": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "2373592530": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges."
+            "3026826773": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.",
+            "3169281799": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
+            "3256023387": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {6}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {7} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {8}%, and mana costs reduced by {9}%.",
+            "2301225912": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
+            "2822085344": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {11}%, and mana costs reduced by {12}%."
         }
     },
     "3044538072": {
