@@ -87,7 +87,7 @@
     "1733538980": {
         "Name": "Кипіння крові",
         "Descriptions": {
-            "4247607635": "Deals {1} Shadow damage and infects all enemies within {2} yds with Blood Plague.\r\n\r\n|T237514:24|t {FFFFFFFF|Blood Plague}\r\nA shadowy disease that drains {3} health from the target over {4} sec.",
+            "4247607635": "Deals {1} Shadow damage and infects all enemies within {2} yds with Blood Plague.\r\n\r\n|T237514:24|t {FFFFFFFF|Blood Plague}\r\nA shadowy disease that drains {3} health from the target over {4} sec.  ",
             "2606550601": "Deals {1} Shadow damage to all enemies within {2} yds."
         }
     },
@@ -148,7 +148,7 @@
     "2243403179": {
         "Name": "Буря кісток",
         "Descriptions": {
-            "3270187725": "Consume your Bone Shield charges to create a whirl of bone and gore that batters all nearby enemies, dealing {1} Shadow damage every {2} sec, and healing you for {3}% of your maximum health every time it deals damage (up to {4}%). Deals reduced damage beyond {5} targets.\r\n\r\nLasts {6} sec per Bone Shield charge spent and rapidly regenerates a Bone Shield every {7} sec."
+            "2246092172": "Consume up to {1} Bone Shield charges to create a whirl of bone and gore that batters all nearby enemies, dealing {2} Shadow damage every {3} sec, and healing you for {4}% of your maximum health every time it deals damage (up to {5}%). Deals reduced damage beyond {6} targets.\r\n\r\nLasts {7} sec per Bone Shield charge spent and rapidly regenerates a Bone Shield every {8} sec."
         }
     },
     "2264867618": {
@@ -294,11 +294,9 @@
         "Descriptions": {
             "1397556341": "Пошкоджує обрану ділянку землі, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій зоні.\n\nПоки ви знаходитесь в цій області, ваш [Удар в Серце] вразить до {3} додаткових цілей.",
             "869996207": "Пошкоджує обрану ділянку землі, завдаючи {1} шкоди від темної магії протягом {2} сек цілям у цій зоні.\n\nПоки ви знаходитесь в цій області, ваш [Удар Скари] вразить до {3} додаткових цілей.",
-            "4119092592": "Пошкоджує цільову землю, завдаючи {1} шкоди від тіні протягом {2} с цілям у цій зоні.\n\nПоки ви залишаєтесь у зоні, ваш \"Некротичний Удар\" та \"Удар в Серце\" вразить до {3} додаткових цілей.",
             "21265851": "Пошкоджує цільову землю, завдаючи {1} шкоди від тіні протягом {2} с цілям у цій зоні.\n\nПоки ви залишаєтесь у зоні дії здібності, ваше \"Знищення\" вразить до {3} додаткових [множинна|ціль|цілей].",
             "4096175753": "Пошкоджує цільову землю, завдаючи {1} шкоди від тіні протягом {2} с цілям у цій зоні.\n\nПоки ви залишаєтесь у зоні дії здібності, ваш \"Некротичний Удар\" та \"Удари в Серце\" вразять до {3} ворогів поблизу цілі.",
-            "3438983127": "Пошкоджує цільову землю, завдаючи {1} шкоди від тіні протягом {2} с цілям у цій області.\n\nПоки ви залишаєтеся в зоні дії здібності, ваші \"Кігті Тіні\" вражають до {3} ворогів поблизу цілі.",
-            "424927923": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.Heart Strike will hit up to {3} additional targets."
+            "3438983127": "Пошкоджує цільову землю, завдаючи {1} шкоди від тіні протягом {2} с цілям у цій області.\n\nПоки ви залишаєтеся в зоні дії здібності, ваші \"Кігті Тіні\" вражають до {3} ворогів поблизу цілі."
         }
     },
     "28590923": {
@@ -415,7 +413,7 @@
     "531168720": {
         "Name": "Покращена рунічна зброя",
         "Descriptions": {
-            "2937482653": "Підсилює свою рунну зброю, збільшуючи швидкість на {1}% і генеруючи {2} [множина|Руни|Руни] і {3} Рунічну силу миттєво кожні {4} секунд протягом {5} секунд."
+            "2937482653": "Підсилює свою рунну зброю, збільшуючи швидкість на {1}%, генеруючи {2} {declension|руну|руни|рун} та {3} од. сили рун миттєво кожні {4} сек протягом {5} сек."
         }
     },
     "2757441229": {
@@ -483,7 +481,7 @@
     "3981641617": {
         "Name": "Бездушний кат",
         "Descriptions": {
-            "2594327414": "Знищення завдає на {1}% більше шкоди та має {2}% шанс відшкодувати(відновити гравцеві) {3} [множина|руна|руни]."
+            "2594327414": "[Знищення] завдає на {1}% більше шкоди та має {2}% шанс повернути {3} {declension|руну|руни|рун}."
         }
     },
     "1446490366": {
@@ -584,7 +582,7 @@
     "1565455079": {
         "Name": "Горн зими",
         "Descriptions": {
-            "1965954825": "Засурміть у ріг Зими, отримуючи {1} [множина|Руна|Руни] і генеруючи {2} Рунічної сили."
+            "1965954825": "Ви сурмите у ріг, отримуючи {1} {declension|руну|руни|рун} та генеруючи {2} од. сили рун."
         }
     },
     "4103907525": {
@@ -918,7 +916,7 @@
     "2589358021": {
         "Name": "Гнів Крижаного Чемпіона",
         "Descriptions": {
-            "2891974362": "[Знищення] має на {1}% більший шанс активувати [Іней], а [Виючий вітер] генерує {2} од. сили рун, поки активний [Іней]."
+            "2891974362": "[Знищення] має на {1}% більший шанс активувати [Іній], а [Виючий вітер] генерує {2} од. сили рун, поки активний [Іній]."
         }
     },
     "2050705916": {
@@ -1331,7 +1329,7 @@
     "4117144870": {
         "Name": "Наривна коса",
         "Descriptions": {
-            "1440569100": "Every {1} Festering Wound you burst empowers your next Festering Strike to become Festering Scythe for {2} sec.\r\n\r\n|T3997563:24|tFestering Scythe\r\nSweep through all enemies within {3} yds in front of you, dealing {4} Shadow damage and infecting them with {5}-{6} Festering Wounds."
+            "2554615248": "Every {1} Festering Wound you burst empowers your next Festering Strike to become Festering Scythe for {2} sec.\r\n\r\n|T3997563:24|t{ffffffff|Festering Scythe}\r\nSweep through all enemies within {3} yds in front of you, dealing {4} Shadow damage and infecting them with {5}-{6} Festering Wounds."
         }
     },
     "3758317655": {
@@ -1516,8 +1514,8 @@
     "202817240": {
         "Name": "Темні пазурі",
         "Descriptions": {
-            "3080525945": "Consuming Killing Machine or Rime has a {1}% chance to increase the maximum stacks of an active Icy Talons by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage.",
-            "2464211787": "Marrowrend and Heart Strike have a {1}% chance to increase the maximum stacks of an active Icy Talons by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage."
+            "3415865082": "Marrowrend and Heart Strike have a {1}% chance to increase the maximum stacks of an active {ffffffff|Icy Talons} by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage.",
+            "1123526229": "Consuming Killing Machine or Rime has a {1}% chance to increase the maximum stacks of an active {ffffffff|Icy Talons} by {2}, up to {3} times.\r\n\r\nWhile Icy Talons is active, your Runic Power spending abilities also count as Shadowfrost damage."
         }
     },
     "2818064250": {

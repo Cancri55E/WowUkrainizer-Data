@@ -20,7 +20,7 @@
     "549759687": {
         "Name": "Пробудження предків",
         "Descriptions": {
-            "1697682373": "When you heal with your Healing Wave, Healing Surge, or Riptide you have a {1}% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within {2} yards for {3}% of the amount healed. Critical strikes increase this chance to {4}%."
+            "1697682373": "Коли ваші [Хвиля зцілення], [Сплеск зцілення] чи [Бистрина] здійснюють зцілення, у вас є {1}% шансу викликати [Дух пращурів] вам на допомогу, який миттєво зцілює дружню ціль групи або рейду в радіусі {2} м у розмірі {3}% від зціленого здоров'я. Критичний удар збільшує цей шанс до {4}%."
         }
     },
     "4005908843": {
@@ -71,7 +71,7 @@
             "186472567": "Ви перетворюєтеся на [Перероджений служитель вогню] на {1} сек, що замінює [Ланцюгова блискавка] на [Потік лави], ваш [Викид лави] не має часу відновлення, а його шкода збільшується пропорційно вашому шансу критичного удару.\n\nВ момент перетворення на [Перероджений служитель вогню], ви миттєво застосовуєте [Викид лави] на усіх ворогів з ефектом [Вогняний шок], та оновлює тривалість дії ваших ефектів [Вогняний шок] до {2} сек.",
             "1649278504": "Ви перетворюєтеся на [Перероджений служитель вітру] на {1} сек, миттєво завдаючи {2} од. шкоди від сил природи усім ворогам в радіусі {3} м, зменшуючи час відновлення [Штормовий удар] на {4}%, а ваші автоатаки та [Штормовий удар] перетворюються на \nвітрові атаки, які оминають броню та мають {5} м дальність дії.",
             "2437272221": "Перетворює вас у Переродженого служителя води, повторює все зцілення яке ви наносите з {1}% ефективністю упродовж {2} сек, та миттєво зцілює на {3}. Зцілення переродженого рівномірно розподіляється між союзниками в радіусі {4} м.",
-            "56052065": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range.\r\n\r\nWhile Ascendance is active, generate {6} Maelstrom Weapon [plural|stack|stacks] every {7} sec."
+            "56052065": "Ви перетворюєтеся на [Перероджене повітря] на {1} сек, миттєво завдаючи {2} од. шкоди від сил природи усім ворогам в радіусі {3} м, зменшуючи час відновлення [Штормовий удар] на {4}%, а ваші автоатаки та [Штормовий удар] перетворюються на вітрові атаки, які оминають броню та мають {5} м дальність дії.\n\nПоки переродження активне, воно генерує {6} од. Зброї виру, що накопичується кожні {7} сек."
         }
     },
     "308768543": {
@@ -89,7 +89,7 @@
     "3896509917": {
         "Name": "Астральне повернення",
         "Descriptions": {
-            "1572622806": "Yanks you through the twisting nether back to {1}. Speak to an Innkeeper in a different place to change your home location."
+            "1572622806": "Повертає вас через Підсвітню Круговерть назад в {1}. Поговоріть з власником корчми в іншому місці, щоб змінити ваше місце повернення."
         }
     },
     "3781843143": {
@@ -107,7 +107,7 @@
     "1255986007": {
         "Name": "Виклик стихій",
         "Descriptions": {
-            "1588515881": "Reduces the cooldown of Totemic Recall by {1} sec."
+            "4107314084": "Зменшує час відновлення {ffffffff|Повернення тотемів} на {1} сек."
         }
     },
     "1665421682": {
@@ -158,7 +158,7 @@
         "Name": "Руйнівна блискавка",
         "Descriptions": {
             "3008002324": "Вражає усіх ворогів перед собою, завдаючи {1} од. шкоди від сил природи. Якщо ви вражаєте {2} або більше цілей, ваша зброя стає потужнішою на {3} сек, а [Удар бурі], [Крижаний удар] та [Скипання лави] також завдають {4} од. шкоди від сил природи усім ворогам перед вами. Здійснює зменшену шкоду більше як {5} цілям.\n\nКожна ціль, уражена [Руйнівна блискавка], збільшує шкоду від вашого наступного [Удар бурі] на {6}%. Накопичується до {7} разів.",
-            "2224694674": "Electrocutes all enemies in front of you, dealing {1} Nature damage. Hitting {2} or more targets enhances your weapons for {3} sec, causing Stormstrike, Ice Strike, and Lava Lash to also deal {4} Nature damage to all targets in front of you. Damage reduced beyond {5} targets."
+            "2224694674": "Вражає усіх ворогів перед собою, завдаючи {1} од. шкоди від сил природи. Якщо ви вражаєте {2} або більше цілей, ваша зброя стає потужнішою на {3} сек, а [Удар бурі], [Крижаний удар] та [Скипання лави] також завдають {4} од. шкоди від сил природи усім ворогам перед вами. Здійснює зменшену шкоду більше як {5} цілям."
         }
     },
     "109455662": {
@@ -170,7 +170,7 @@
     "3242093795": {
         "Name": "Осередок створення",
         "Descriptions": {
-            "1090847167": "Totemic Recall affects an additional totem."
+            "474822747": "{ffffffff|Повернення тотемів} тепер впливає на додатковий тотем."
         }
     },
     "566016260": {
@@ -182,10 +182,12 @@
     "1278151108": {
         "Name": "Глибоко вкорінені стихії",
         "Descriptions": {
-            "1283843822": "Casting Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t Ascendance\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.$?s{8}{9}[\r\n\r\nWhile Ascendance is active, generate {10} Maelstrom Weapon [plural|stack|stacks] every {11} sec.[]]",
-            "3823786534": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t Ascendance\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.$?s{8}{9}[\r\n\r\nWhile Ascendance is active, generate {10} Maelstrom Weapon [plural|stack|stacks] every {11} sec.[]]",
-            "2222268148": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t Ascendance\r\n\r\nTransform into a Water Ascendant, duplicating all healing you deal at {3}% effectiveness for {4} sec and immediately healing for {5}. Ascendant healing is distributed evenly among allies within {6} yds.[]]",
-            "860005624": "Casting Lava Burst has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t Ascendance\r\n\r\nTransform into a Flame Ascendant for {3} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\r\n\r\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {4} sec.[]]"
+            "3947747445": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.\r\n\r\nWhile Ascendance is active, generate {8} Maelstrom Weapon [plural|stack|stacks] every {9} sec.",
+            "267746997": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.",
+            "4078924896": "Casting Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.\r\n\r\nWhile Ascendance is active, generate {8} Maelstrom Weapon [plural|stack|stacks] every {9} sec.",
+            "2917610788": "Casting Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.",
+            "2236314289": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into a Water Ascendant, duplicating all healing you deal at {3}% effectiveness for {4} sec and immediately healing for {5}. Ascendant healing is distributed evenly among allies within {6} yds.",
+            "2808140156": "Casting Lava Burst has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into a Flame Ascendant for {3} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\r\n\r\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {4} sec."
         }
     },
     "594853292": {
@@ -203,7 +205,7 @@
     "3230919591": {
         "Name": "Злива",
         "Descriptions": {
-            "522112863": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t Downpour\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec."
+            "3508689510": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec."
         }
     },
     "1572811743": {
@@ -493,9 +495,9 @@
     "727415692": {
         "Name": "Тотем цілющого потоку",
         "Descriptions": {
-            "1746416300": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Healing Stream Totem, instead gain {5} additional [plural|charge|charges] of Healing Stream Totem.",
-            "2310543181": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Cloudburst Totem, instead gain {5} additional [plural|charge|charges] of Cloudburst Totem.",
-            "3241551302": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know Healing Stream Totem, instead gain {5} additional [plural|charge|charges] of Healing Stream Totem."
+            "1282400814": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Cloudburst Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Cloudburst Totem}.",
+            "2921649360": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Healing Stream Totem}.",
+            "3852081821": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Healing Stream Totem}."
         }
     },
     "656918334": {
@@ -558,7 +560,7 @@
     "1613585076": {
         "Name": "Крижаний гнів",
         "Descriptions": {
-            "1209172244": "Casting Lava Burst has a chance to replace your next Frost Shock with Icefury, stacking up to {1} times.\r\n\r\n|T135855:24|t Icefury\r\nHurls frigid ice at the target, dealing {2} Frost damage and causing your next {3} Frost Shocks to deal {4}% increased damage and generate {5} Maelstrom.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}"
+            "2557897040": "Casting Lava Burst has a chance to replace your next Frost Shock with Icefury, stacking up to {1} times.\r\n\r\n|T135855:24|t {ffffffff|Icefury}\r\nHurls frigid ice at the target, dealing {2} Frost damage and causing your next {3} Frost Shocks to deal {4}% increased damage and generate {5} Maelstrom.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}"
         }
     },
     "3514949847": {
@@ -736,8 +738,9 @@
     "3879827352": {
         "Name": "Майстерність: Посилення стихій",
         "Descriptions": {
-            "1645046735": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%..][]",
-            "2992047373": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t Stormbringer\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike$?a{4}{5}[ and cause your next Stormstrike to deal {6}% additional damage as Nature damage.][]"
+            "2619669163": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormbringer}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike.",
+            "4096537635": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.",
+            "762642276": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormbringer}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {4}% additional damage as Nature damage."
         }
     },
     "3868447527": {
@@ -1018,7 +1021,7 @@
         "Name": "Хранитель бурі",
         "Descriptions": {
             "375557615": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.",
-            "1878092040": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.\r\n\r\nIf you already know Stormkeeper, instead gain {4} additional [plural|charge|charges] of Stormkeeper."
+            "2597076407": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.\r\n\r\nIf you already know {ffffffff|Stormkeeper}, instead gain {4} additional [plural|charge|charges] of {ffffffff|Stormkeeper}."
         }
     },
     "440947055": {
@@ -1162,7 +1165,7 @@
     "4018197275": {
         "Name": "Вивільнення щита",
         "Descriptions": {
-            "847806959": "Unleash your Elemental Shield's energy on an enemy target:\r\n\r\n|T136051:24|tLightning Shield: Knocks them away.\r\n\r\n|T136089:24|tEarth Shield: Roots them in place for {1} sec.\r\n\r\n|T132315:24|tWater Shield: Summons a whirlpool for {2} sec, reducing damage and healing by {3}% while they stand within it."
+            "4032740615": "Unleash your Elemental Shield's energy on an enemy target:\r\n\r\n|T136051:24|t{ffffffff|Lightning Shield}: Knocks them away.\r\n\r\n|T136089:24|t{ffffffff|Earth Shield}: Roots them in place for {1} sec.\r\n\r\n|T132315:24|t{ffffffff|Water Shield}: Summons a whirlpool for {2} sec, reducing damage and healing by {3}% while they stand within it."
         }
     },
     "524503257": {
@@ -1381,8 +1384,8 @@
     "4070616861": {
         "Name": "Допоміжні чари",
         "Descriptions": {
-            "573412713": "Learn a new weapon imbue, Tidecaller's Guard.\r\n\r\n|T1355357:24|t Tidecaller's Guard\r\nImbue your shield with the element of Water for {1} hour. Your healing done is increased by {2}% and the duration of your Healing Stream Totem and Cloudburst Totem is increased by {3} sec.",
-            "339516909": "Increases the critical strike chance of Flametongue Weapon by {1}%, and its critical strike damage by {2}%."
+            "339516909": "Increases the critical strike chance of Flametongue Weapon by {1}%, and its critical strike damage by {2}%.",
+            "747646043": "Learn a new weapon imbue, Tidecaller's Guard.\r\n\r\n|T1355357:24|t {ffffffff|Tidecaller's Guard}\r\nImbue your shield with the element of Water for {1} hour. Your healing done is increased by {2}% and the duration of your Healing Stream Totem and Cloudburst Totem is increased by {3} sec."
         }
     },
     "4194276606": {
@@ -1456,8 +1459,10 @@
     "900212207": {
         "Name": "Збурені стихії",
         "Descriptions": {
-            "2277685322": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\nThe cast time of your next healing spell is reduced by {1}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {2}% effectiveness to all targets hit.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {3}%, and its critical strike damage by {4}%.][{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {5}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {6}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {7}% effectiveness to all targets hit.]",
-            "1286385295": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} $?a{1}{2}[Your next Stormstrike or Windstrike deals {3}% increased damage and damages {4} nearby [plural|enemy|enemies] at {5}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {6} seconds from its cooldown.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {7}%, and its critical strike damage by {8}%.][{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {9}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {10}% increased damage and damages {11} nearby [plural|enemy|enemies] at {12}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {13} seconds from its cooldown.]"
+            "4234329905": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {2}% increased damage and damages {3} nearby [plural|enemy|enemies] at {4}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {5} seconds from its cooldown.",
+            "3361586147": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {2}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {3}% effectiveness to all targets hit.",
+            "2970166655": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {1}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {2}% effectiveness to all targets hit.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {3}%, and its critical strike damage by {4}%.",
+            "2616322417": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {1}% increased damage and damages {2} nearby [plural|enemy|enemies] at {3}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {4} seconds from its cooldown.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {5}%, and its critical strike damage by {6}%."
         }
     },
     "3457755217": {
@@ -1501,8 +1506,8 @@
     "1734384876": {
         "Name": "Останній клич",
         "Descriptions": {
-            "769656087": "When an Ancestor expires, they cast Hydrobubble on a nearby injured ally.\r\n\r\n|T1320371:24|t {FFFFFFFF|Hydrobubble}\r\nSurrounds your target in a protective water bubble for {1} sec.\r\n\r\nThe shield absorbs the next $?a{2}{3}[{4}[{5}] incoming damage, but the absorb amount decays fully over its duration.]",
-            "4089092555": "When an Ancestor expires, they cast Elemental Blast at a nearby enemy.[{1}] incoming damage, but the absorb amount decays fully over its duration.]"
+            "4038716081": "When an Ancestor expires, they cast Elemental Blast at a nearby enemy.",
+            "1167385972": "When an Ancestor expires, they cast Hydrobubble on a nearby injured ally.\r\n\r\n|T1320371:24|t {FFFFFFFF|Hydrobubble}\r\nSurrounds your target in a protective water bubble for {1} sec.\r\n\r\nThe shield absorbs the next {2} incoming damage, but the absorb amount decays fully over its duration."
         }
     },
     "4226666930": {
@@ -1584,7 +1589,7 @@
     "3771581043": {
         "Name": "Жваве відновлення",
         "Descriptions": {
-            "1641795863": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by $/{1}{2};s{3} sec.\r\n\r\nCannot occur more than once every {4} sec per totem."
+            "1202626286": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by {1} sec.\r\n\r\nCannot occur more than once every {2} sec per totem."
         }
     },
     "1400300988": {
@@ -1769,8 +1774,10 @@
     "364517609": {
         "Name": "Провідна енергія",
         "Descriptions": {
-            "902480480": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t Lightning Rod\r\n$?s{1}{2}[Tempest, []Lightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {3} sec. Lightning Rods take {4}% of all damage you deal with Lightning Bolt and Chain Lightning.]",
-            "2625073956": "Lightning Rod targets now also take {1}% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.[]Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {2} sec. Lightning Rods take {3}% of all damage you deal with Lightning Bolt and Chain Lightning.]"
+            "3939595211": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nTempest, Lightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
+            "1064067625": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nLightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
+            "2408149998": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nEarth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
+            "2200831012": "Lightning Rod targets now also take {1}% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect."
         }
     },
     "845354045": {

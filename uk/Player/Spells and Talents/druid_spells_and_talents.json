@@ -44,7 +44,7 @@
     "596881110": {
         "Name": "Наставництво Попелястогривої",
         "Descriptions": {
-            "4151552766": "|T571586:24|tВтілення: Аватар Попелястогривої: \nПід час дії [Втілення: Аватар Попелястогривої] та ще впродовж {1} сек після закінчення, [Розрив] та [Роздирання] збільшують шкоду по цілях від ваших здібностей на {2}%.\n\n|T3636839:24|t Виклик духів: \nЧас відновлення [Виклик духів] зменшується на {3}%, а його тривалість дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати посилене заклинання або здібність."
+            "28616995": "|T571586:24|t{ffffffff|Incarnation: Avatar of Ashamane}\r\nDuring Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "3466030451": {
@@ -178,7 +178,7 @@
         }
     },
     "1944467402": {
-        "Name": "Захист Кенарія",
+        "Name": "Оберіг Кенарія",
         "Descriptions": {
             "3305467991": "Вкриває союзника оберегом на {1} сек. Будь-яка отримана шкода поглине оберіг та відновить цілі {2} од. здоров'я за {3} сек."
         }
@@ -186,7 +186,7 @@
     "1772931334": {
         "Name": "Наставництво Кенарія",
         "Descriptions": {
-            "2502561961": "|T236157:24|t Втілення: Дерево Життя: \nПід час [Втілення: Дерево Життя] ви викликаєте [Хранителя гаю] кожні {1} сек. Час відновлення [Втілення: Дерево Життя] зменшується на {2} сек, коли [Хранителя гаю] зникає.\n\n|T3636839:24|t Виклик духів: \nЧас відновлення [Виклик духів] зменшений на {3}%, а його тривалість дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати особливі заклинання та здібності."
+            "2359884043": "|T236157:24|t {ffffffff|Incarnation: Tree of Life}\r\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Grove Guardians fade.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "2140781295": {
@@ -322,7 +322,7 @@
     "3813356828": {
         "Name": "Затемнення",
         "Descriptions": {
-            "3605070644": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t Eclipse (Solar)\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t Eclipse (Lunar)\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
+            "786796655": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t {ffffffff|Eclipse (Solar)}\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t {ffffffff|Eclipse (Lunar)}\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
         }
     },
     "2667113284": {
@@ -341,7 +341,7 @@
     "2774752517": {
         "Name": "Наставництво Елуни",
         "Descriptions": {
-            "1278745296": "|T571586:24|t Втілення: Обранець Елуни\nЗменшує витрати астральної сили на [Зоряний сплеск] на {1} од., а витрати астральної сили на [Зорепад] на {2} од.\n\n|T3636839:24|t Виклик духів\nЧас відновлення зменшений на {3}%, а його час дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати особливе заклинання або здібність."
+            "1318759625": "|T571586:24|t {ffffffff|Incarnation: Chosen of Elune}\r\nReduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}\r\nCooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "734122618": {
@@ -484,8 +484,9 @@
     "740600257": {
         "Name": "Лють Елуни",
         "Descriptions": {
-            "3840265348": "{1} Astral Power over its duration.|r][Calls down a beam of pure celestial energy that follows the enemy, dealing up to {2} Astral damage over {3} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}]",
-            "42013712": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates $?a{4}{5}[{6} Rage over its duration.}][Calls down a beam of pure celestial energy that follows the enemy, dealing up to {7} Astral damage over {8} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {9} Astral Power over its duration.}]"
+            "3957655582": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}",
+            "3632033178": "Calls down a beam of pure celestial energy that follows the enemy, dealing up to {1} Astral damage over {2} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {3} Astral Power over its duration.}",
+            "2016754470": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}"
         }
     },
     "632540084": {
@@ -966,7 +967,7 @@
     "181838500": {
         "Name": "Підживлення",
         "Descriptions": {
-            "4011115946": "Зцілює дружню ціль на {1} од. здоров'я. Отримує {2}% бонус від [Майстерність: Гармонія]."
+            "491622299": "Heals a friendly target for {1}.  Receives {2}% bonus from {ffffffff|Mastery: Harmony}."
         }
     },
     "3923629191": {
@@ -1080,7 +1081,7 @@
     "457187747": {
         "Name": "Захисний ріст",
         "Descriptions": {
-            "2028328137": "Your Regrowth protects you, reducing damage you take by {1}% while your Regrowth is on you."
+            "2028328137": "Ваше [Відновлення] захищає вас, зменшуючи отримувану шкоду на {1}%, поки активне."
         }
     },
     "571586708": {
@@ -1388,7 +1389,7 @@
         "Name": "Сила дикої природи",
         "Descriptions": {
             "3618342335": "Молотить ціль, завдаючи фізичну шкоду розмірі {1}% від її максимального здоров'я.",
-            "3532096322": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t Strength of the Wild\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
+            "4151677491": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t {ffffffff|Strength of the Wild}\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
         }
     },
     "3267743187": {
@@ -1613,7 +1614,7 @@
     "2788958811": {
         "Name": "Наставництво Урсока",
         "Descriptions": {
-            "4160712344": "|T571586:24|t Втілення: Вартовий Урсока: \nКоли ви витрачаєте {1} од. гніву, час відновлення [Втілення: Вартовий Урсока] зменшується на {2} сек.\n\n|T3636839:24|t Виклик духів: \nЧас відновлення [Виклик духів] зменшується на {3}%, а його тривалість дії та кількість заклинань зменшені на {4}%. [Виклик духів] має збільшений шанс використати посилене заклинання або здібність."
+            "2197066262": "|T571586:24|t {ffffffff|Incarnation: Guardian of Ursoc}: \r\nEvery {1} Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by {2} sec.\r\n\r\n|T3636839:24|t {ffffffff|Convoke the Spirits}: \r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "897665850": {
@@ -1716,7 +1717,7 @@
     "2222193277": {
         "Name": "Дикий синтез",
         "Descriptions": {
-            "57788174": "|T236162:24|t Підживлення\n[Відновлення] зменшує час застосування вашого наступного [Підживлення] на {1}% та збільшує його бонус від {ffffffff|Майстерність: Гармонія} на {2}%. Накопичується до {3} {declension|раз|рази|разів}.\n\n|T132129:24|t Вартові гаю\nДеревані від здібності [Вартові гаю] також миттєво застосовують [Дикий ріст] після появи, зцілюючи {4} {declension|союзника|союзників|союзників} в радіусі {5} м на {6} од. здоров'я впродовж {7} сек."
+            "1590401400": "|T236162:24|t {ffffffff|Nourish}\r\nRegrowth decreases the cast time of your next Nourish by {1}% and causes it to receive an additional {2}% bonus from {ffffffff|Mastery: Harmony}. Stacks up to {3} times.\r\n\r\n|T132129:24|t{ffffffff|Grove Guardians}\r\nTreants from Grove Guardians also cast Wild Growth immediately when summoned, healing {4} allies within {5} yds for {6} over {7} sec."
         }
     },
     "2413742200": {
@@ -1760,7 +1761,7 @@
         }
     },
     "3920523067": {
-        "Name": "Спеціалізація по шкіряних обладунках",
+        "Name": "Спеціалізація зі шкіряних обладунків",
         "Descriptions": {
             "2510302227": "Коли ви носите лише шкіряні обладунки, ваш Інтелект збільшується на {1}%.",
             "850736281": "Коли ви носите лише шкіряні обладунки, ваша Витривалість у формі Ведмедя збільшується на {1}%.",
@@ -1808,7 +1809,7 @@
     "2347450498": {
         "Name": "Спорідненість з дикістю",
         "Descriptions": {
-            "2813525316": "Ви отримуєте:\n\n|T1029587:24|t Котяча прудкість\nЗбільшує вашу швидкість пересування на {1}%.\n\nВи також вивчаєте:\n\n|T132122:24|t Роздирання\n|T132152:24|t Розрив\n|T134296:24|t Розмах\n|T132134:24|t Калічення\n\nВаша швидкість регенерації енергії збільшується на {2}%."
+            "2728971470": "You gain:\r\n\r\n|T132120:24|t {ffffffff|Feline Swiftness}\r\nIncreases your movement speed by {1}%.\r\n\r\nYou also learn:\r\n\r\n|T132122:24|t {ffffffff|Rake}\r\n|T132152:24|t {ffffffff|Rip}\r\n|T134296:24|t {ffffffff|Swipe}\r\n|T132134:24|t {ffffffff|Maim}\r\n\r\nYour energy regeneration is increased by {2}%."
         }
     },
     "608492584": {
@@ -1869,8 +1870,8 @@
     "2074822868": {
         "Name": "Деревані Місяця",
         "Descriptions": {
-            "1321210287": "Your Grove Guardians cast Moonfire on nearby targets about once every {1} sec.",
-            "2699377313": "Your Force of Nature treants cast Moonfire on nearby targets about once every {1} sec."
+            "1321210287": "Ваші деревані, викликані заклинанням [Вартові гаю], чаклують [Місячний вогонь] на найближчі цілі приблизно раз в {1} сек.",
+            "2699377313": "Ваші деревані, викликані [Силою природи], чаклують [Місячний вогонь] на найближчі цілі приблизно раз в {1} сек."
         }
     },
     "3977636066": {
@@ -1889,7 +1890,7 @@
         "Name": "Щедрий цвіт",
         "Descriptions": {
             "558742624": "Лікування від [Вартових гаю] збільшується на {1}%.",
-            "1308406411": "Your Force of Nature treants generate {1} Astral Power every {2} sec."
+            "1308406411": "Ваші деревані, викликані [Силою природи], надають {1} од. астральної сили кожні {2} сек."
         }
     },
     "248170344": {
@@ -1908,8 +1909,8 @@
     "1977525715": {
         "Name": "Сплеск Сну",
         "Descriptions": {
-            "2645815076": "Grove Guardians causes your next targeted heal to create {1} Dream Petals near the target, healing up to {2} nearby allies for {3}. Stacks up to {4} charges.",
-            "3955438208": "Force of Nature grants {1} charges of Dream Burst, causing your next Wrath or Starfire to explode on the target, dealing {2} Nature damage to nearby enemies. Damage reduced above {3} targets."
+            "2645815076": "Використання [Вартових гаю] дозволяє вашому наступному точковому лікуванню створити {1} {declension|[Пелюстку Сну]|[Пелюстки Сну]|[Пелюсток Сну]} поблизу цілі, які зцілюють до {2} союзників поблизу на {3} од. здоров'я. Накопичується до {4} зарядів.",
+            "3955438208": "[Сила природи] надає {1} {declension|заряд|заряди|зарядів} [Дрімливого сплеску], через що ваш наступний [Гнів] або [Зоряний вогонь] вибухає на цілі, завдаючи {2} шкоди від сил природи цілям, що знаходяться поблизу. Завдається менше шкоди більше як {3} цілям."
         }
     },
     "2996894844": {
@@ -1935,8 +1936,8 @@
     "4125713067": {
         "Name": "Натхнення гаю",
         "Descriptions": {
-            "923131987": "Wrath and Starfire damage increased by {1}%. \r\n\r\nRegrowth, Wild Growth, and Swiftmend healing increased by {2}%.",
-            "1913745711": "Wrath and Starfire damage increased by {1}%. \r\n\r\nRegrowth and Wild Growth healing increased by {2}%."
+            "923131987": "Шкода від [Гніву] та [Зоряного вогню] збільшується на {1}%.\n\nЛікування від [Відновлення], [Дикого росту] та [Швидкого відновлення] збільшується на {2}%.",
+            "1913745711": "Шкода від [Гніву] та [Зоряного вогню] збільшується на {1}%.\n\nЛікування від [Відновлення] та [Дикого росту] збільшується на {2}%."
         }
     },
     "3096602100": {
@@ -1981,8 +1982,8 @@
     "3414661116": {
         "Name": "Сила природи",
         "Descriptions": {
-            "258728912": "Your Grove Guardians increase the healing of your Rejuvenation, Efflorescence, and Lifebloom by {1}% while active.",
-            "3791491424": "Your Force of Nature treants no longer taunt and deal {1}% increased melee damage."
+            "258728912": "Ваші деревані, викликані заклинанням [Вартові гаю], збільшують лікування вашого [Омолодження], [Розквіту] та [Життєцвіту] на {1}%, поки живі.",
+            "3791491424": "Ваші деревані, викликані [Силою природи], більше не провокують, але завдають на {1}% більше шкоди в ближньому бою."
         }
     },
     "539948600": {
@@ -2082,10 +2083,8 @@
         "Name": "Потужні чари",
         "Descriptions": {
             "213319719": "[Залісення] подовжує дію [Дерева Життя] на {1} сек.",
-            "554631371": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nGreater Alignment increases the duration of  by an additional {3}% and increases Eclipse damage during  by an additional {4}%.",
-            "3030398732": "Incarnation: Chosen of EluneIncarnation: Chosen of EluneReforestation grants Tree of Life for {1} additional sec.",
-            "3273821809": "Celestial AlignmentCelestial AlignmentReforestation grants Tree of Life for {1} additional sec.",
-            "2132492968": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nGreater Alignment increases the duration of Celestial Alignment by an additional {3}% and increases Eclipse damage during Celestial Alignment by an additional {4}%."
+            "2132492968": "[Орбітальний удар] застосовує [Зоряний спалах] на {1} сек довше та наносить на {2}% більше шкоди.\n\n[Вище вирівнювання] подовжує тривалість [Небесного вирівнювання] на {3}% та збільшує шкоду від [Затемнення] під час [Небесного вирівнювання] на {4}%.",
+            "228110332": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\n\nGreater Alignment increases the duration of Incarnation: Chosen of Elune by an additional {3}% and increases Eclipse damage during Incarnation: Chosen of Elune by an additional {4}%."
         }
     },
     "1911352953": {
@@ -2103,8 +2102,8 @@
     "2258909789": {
         "Name": "Вічний Місяць",
         "Descriptions": {
-            "2828670033": "Further increases the power of Boundless Moonlight.\r\n\r\n|T132123:24|t Fury of Elune\r\nThe flash of energy now generates {1} Astral Power and its damage is increased by {2}%.\r\n\r\n|T1392542:24|t Full Moon\r\nNew Moon and Half Moon now also call down {3} Minor [plural|Moon|Moons].",
-            "4167600358": "Further increases the power of Boundless Moonlight.\r\n\r\n|T136057:24|t Lunar Beam\r\nLunar Beam increases Mastery by an additional {1}%, deals {2}% increased damage, and lasts {3} sec longer.\r\n\r\n|T132123:24|t Fury of Elune\r\nThe flash of energy now generates  {4} Rage and its damage is increased by {5}%."
+            "2619754136": "Further increases the power of Boundless Moonlight.\r\n\r\n|T136057:24|t {ffffffff|Lunar Beam}\r\nLunar Beam increases Mastery by an additional {1}%, deals {2}% increased damage, and lasts {3} sec longer.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nThe flash of energy now generates  {4} Rage and its damage is increased by {5}%.",
+            "1409154081": "Further increases the power of Boundless Moonlight.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nThe flash of energy now generates {1} Astral Power and its damage is increased by {2}%.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nNew Moon and Half Moon now also call down {3} Minor [plural|Moon|Moons]."
         }
     },
     "3097149171": {
@@ -2122,8 +2121,8 @@
     "3137427915": {
         "Name": "Сяйво Елуни",
         "Descriptions": {
-            "1779434982": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}",
-            "3118368699": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t Fury of Elune\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}"
+            "2016754470": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}",
+            "3957655582": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Astral Power over its duration.}"
         }
     },
     "2559232508": {
@@ -2147,8 +2146,8 @@
     "947243382": {
         "Name": "Сила Сну",
         "Descriptions": {
-            "2044701883": "Healing spells cast with Dream Surge generate an additional Dream Petal.",
-            "2931080584": "Force of Nature grants an additional stack of Dream Burst."
+            "2044701883": "Лікувальні здібності, на які вливає [Сплеск Сну], створюють ще одну [Пелюстку Сну].",
+            "2931080584": "[Сила природи] надає ще один заряд [Дрімливого сплеску]."
         }
     },
     "2637204439": {
@@ -2179,8 +2178,9 @@
     "1955183040": {
         "Name": "Безмежне місячне сяйво",
         "Descriptions": {
-            "4070540662": "|T132123:24|t Fury of Elune\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t Full Moon\r\n$?a{2}{3}[New Moon and Half Moon call down {4} Minor [plural|Moon|Moons] and []Full Moon calls down {5} Minor [plural|Moon|Moons] that [plural|deals|deal] {6} Astral damage and generate {7} Astral Power.]",
-            "3641006963": "|T136057:24|t Lunar Beam\r\nLunar Beam now causes you to leech life equal to {1}% of all damage dealt to enemies within the beam.\r\n\r\n|T132123:24|t Fury of Elune\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {2} Astral damage.[]Full Moon calls down {3} Minor [plural|Moon|Moons] that [plural|deals|deal] {4} Astral damage and generate {5} Astral Power.]"
+            "88988088": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nNew Moon and Half Moon call down {2} Minor [plural|Moon|Moons] and Full Moon calls down {3} Minor [plural|Moon|Moons] that [plural|deals|deal] {4} Astral damage and generate {5} Astral Power.",
+            "3546641740": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nFull Moon calls down {2} Minor [plural|Moon|Moons] that [plural|deals|deal] {3} Astral damage and generate {4} Astral Power.",
+            "3281722080": "|T136057:24|t {ffffffff|Lunar Beam}\r\nLunar Beam now causes you to leech life equal to {1}% of all damage dealt to enemies within the beam.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {2} Astral damage."
         }
     },
     "2975496414": {
@@ -2219,8 +2219,8 @@
     "1887822193": {
         "Name": "Квітуче насичення",
         "Descriptions": {
-            "743954091": "Every {1} Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by {2}%.\r\n\r\nEvery {3} Starsurges you cast makes your next Regrowth or Entangling roots instant.",
-            "3607439465": "Every {1} Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by {2}%.\r\n\r\nEvery {3} Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant."
+            "743954091": "{1} використаних [Відновлень] роблять ваш наступний [Гнів], [Зоряний вогонь] або [Обплутувальні корені] миттєвим та збільшують їхню шкоду на {2}%.\n\n{3} використаних [Зоряних сплесків] роблять наступне [Відновлення] або [Обплутувальні корені] миттєвим.",
+            "3607439465": "{1} використаних [Відновлень] роблять ваш наступний [Гнів], [Зоряний вогонь] або [Обплутувальні корені] миттєвим та збільшують їхню шкоду на {2}%.\n\n{3} використаних [Зоряних сплесків] або [Зорепадів] роблять наступне [Відновлення] або [Обплутувальні корені] миттєвим."
         }
     },
     "272231757": {
@@ -2263,7 +2263,7 @@
         "Name": "Всеохопність",
         "Descriptions": {
             "3250107795": "Ваш максимальний запас мани збільшується на {1}%.",
-            "38729064": "Your maximum mana is increased by {1}% and your maximum Astral Power is increased by {2}."
+            "38729064": "Ваш максимальний запас мани збільшується на {1}%, а максимальний запас астральної сили - на {2} од."
         }
     },
     "2183085777": {
@@ -2276,15 +2276,15 @@
     "2316867399": {
         "Name": "Тяжкі рани",
         "Descriptions": {
-            "2393866337": "Кожні {1} сек, максимум до {2} сек.",
-            "4283907450": "Every Maul, Raze, Mangle,  Thrash, or Swipe]$?a{1}{2}[attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by $?a{3}{4}[{5} sec, up to {6} additional sec."
+            "1972993845": "Every Maul, Raze, Mangle,  Thrash, or Swipe you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec.",
+            "3316855972": "Every attack with an Energy cost that you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec."
         }
     },
     "145749490": {
         "Name": "Стійкість природи",
         "Descriptions": {
-            "1753563953": "Your Grove Guardians' Nourish and Swiftmend spells also apply a Minor Cenarion Ward that heals the target for {1} over {2} sec the next time they take damage.",
-            "2498984501": "Your Force of Nature treants have {1}% increased health."
+            "1753563953": "Тепер чари [Підживлення] та [Швидке відновлення] дереванів, викликаних [Вартовими гаю], накладають [Малий оберіг Кенарія]. Це заклинання лікує ціль на {1} од. протягом {2} сек, коли ціль отримує шкоду.",
+            "2498984501": "Ваші деревані, викликані [Силою природи], мають на {1}% більше здоров'я."
         }
     },
     "1106215375": {
@@ -2356,8 +2356,8 @@
     "1807396447": {
         "Name": "Розгром",
         "Descriptions": {
-            "2433411649": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n{1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc]",
-            "3717958932": "Your auto-attacks have a chance to make your next Maul become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nSlash through your target in a wide arc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you.]$?a{3}{4}[|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to $?a{5}{6}[{7} additional Energy to increase that damage by up to {8}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {9} point: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc\r\n  {18} points: {19} damage, {20} in an arc\r\n  {21} points: {22} damage, {23} in an arc]"
+            "3166906070": "Your auto-attacks have a chance to make your next Maul become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nSlash through your target in a wide arc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you.",
+            "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc"
         }
     },
     "112988377": {
@@ -2389,11 +2389,11 @@
     "2982419687": {
         "Name": "Поклик Старійшини друїдів",
         "Descriptions": {
-            "3009816217": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {11}%, and mana costs reduced by {12}%.",
-            "697606534": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "107068395": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {6}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {7} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {8}%, and mana costs reduced by {9}%.",
-            "1492088806": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "2373592530": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t Heart of the Wild\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges."
+            "3026826773": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.",
+            "3169281799": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
+            "3256023387": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {6}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {7} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {8}%, and mana costs reduced by {9}%.",
+            "2301225912": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
+            "2822085344": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {11}%, and mana costs reduced by {12}%."
         }
     },
     "3044538072": {
