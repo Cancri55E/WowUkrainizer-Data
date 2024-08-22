@@ -205,7 +205,7 @@
     "3230919591": {
         "Name": "Злива",
         "Descriptions": {
-            "3508689510": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec."
+            "3508689510": "При застосуванні [Цілющого дощу} з'являється {1}% шанс активувати [Зливу], що дозволяє вам застосувати [Зливу] протягом {2} сек.\n\n|T1698701:24|t {ffffffff|Злива}\nСплеск води в місці розташування вашого [Цілющого дощу] зцілює до {3} поранених союзників у радіусі {4} м на {5} і збільшує їхній максимальний запас здоров'я на {6}% на {7} сек."
         }
     },
     "1572811743": {
@@ -865,7 +865,7 @@
         "Name": "Очищення духу",
         "Descriptions": {
             "4288251378": "Знімає всі Магічні ефекти з дружньої цілі.",
-            "1316637697": "Removes all Magic and Curse effects from a friendly target."
+            "1316637697": "Знімає всі магічні та ефекти прокляття з дружньої цілі."
         }
     },
     "3896599364": {
@@ -890,7 +890,7 @@
         "Name": "Відродження",
         "Descriptions": {
             "3639845959": "Ваші прямі критичні зцілення повертають відсоток від вашої максимальної мани: {1}% від [Хвиля зцілення], {2}% від [плеск зцілення] або [Бистрина] та {3}% від [Ланцюгове зцілення].",
-            "3745408078": "Your direct heal criticals refund a percentage of your maximum mana: {1}% from Healing Wave, {2}% from Healing Surge, Unleash Life, or Riptide, and {3}% from Chain Heal."
+            "3745408078": "Ваші прямі критичні зцілення повертають відсоток від вашої максимальної мани: {1}% від [Хвиля зцілення], {2}% від [Сплеск зцілення], [Вивільнення життя] або [Бистрина] та {3}% від [Ланцюгове зцілення]."
         }
     },
     "1165579124": {
@@ -908,7 +908,7 @@
     "1535337430": {
         "Name": "Пекуче полум'я",
         "Descriptions": {
-            "2837316964": "Flame Shock damage has a chance to generate {1} Maelstrom."
+            "2837316964": "Шкода від [Вогняний шок] має шанс згенерувати {1} од. виру стихій."
         }
     },
     "1419195082": {
@@ -921,7 +921,7 @@
         "Name": "Шаманізм",
         "Descriptions": {
             "1671006755": "Ваше заклинання [Героїзм] тепер має {1} сек час відновлення, але збільшує Швидкість на {2}% протягом {3} сек, та вражає лише вас та дружню ціль.",
-            "2800037797": "Your Bloodlust spell now has a {1} sec. cooldown, but increases Haste by {2}%, and only affects you and your friendly target when cast for {3} sec.\r\n\r\nIn addition, Bloodlust is no longer affected by Sated."
+            "2800037797": "Ваше заклинання [Жага крові] тепер має {1} сек часу відновлення, але збільшує Швидкість на {2}% протягом {3} сек, та вражає лише вас та дружню ціль.\n\nКрім того, на [Жага крові] більше не впливає [Вгамування]."
         }
     },
     "651181811": {
@@ -964,7 +964,7 @@
     "1409141641": {
         "Name": "Тотем припливів духовного мандрівника",
         "Descriptions": {
-            "3650642956": "After using Mana Tide Totem, the cast time of your next {1} Healing Surges within {2} sec is reduced by {3}% and their mana cost is reduced by {4}%."
+            "3650642956": "Після використання [Тотем припливу мани] час застосування ваших наступних {1} [Сплесків зцілення] протягом {2} сек зменшується на {3}%, а їхні витрати мани зменшуються на {4}%."
         }
     },
     "1833671347": {
@@ -1028,7 +1028,7 @@
         "Name": "Штормовий удар",
         "Descriptions": {
             "4277300720": "Заряджає вашу зброю в обох руках та завдає сильного удару по цілі, завдаючи загалом од. {1} фізичної шкоди.",
-            "3190917431": "Energizes both your weapons with lightning and delivers a massive blow to your target, dealing a total of {1} Physical damage.\r\n\r\nStormstrike has a {2}% chance to generate {3} [plural|stack|stacks] of Maelstrom Weapon."
+            "3190917431": "Заряджає обидві ваші зброї блискавкою і завдає потужного удару по цілі, загалом наносячи {1} фізичної шкоди.\n\n[Штормовий удар] має {2}% шанс згенерувати {3} {declension|ефект|ефекти|ефектів} [Зброя виру]."
         }
     },
     "665532377": {
@@ -1046,13 +1046,13 @@
     "3729211089": {
         "Name": "Бурхливий вир",
         "Descriptions": {
-            "4178557736": "Increases your maximum Maelstrom by {1}.\r\n\r\nIncreases Earth Shock, Elemental Blast, and Earthquake damage by {2}%."
+            "4178557736": "Збільшує максимальну кількість од. виру стихій на {1}.\n\nЗбільшує шкоду від [Земний шоку], [Вибуху стихій] та [Землетрусу] на {2}%."
         }
     },
     "2039642690": {
         "Name": "Несамовитий вир",
         "Descriptions": {
-            "3264240512": "Consuming at least {1} [plural|stack|stacks] of Hailstorm, using Ice Strike, and each explosion from Fire Nova now also grants you {2} [plural|stack|stacks] of Maelstrom Weapon."
+            "3264240512": "Поглинання принаймні {1} {declension|накопичення|накопичення|накопичень} ефекту [Град], застосування [Крижаний удар] та кожен вибух від [Коло вогню] тепер також дають вам {2} {declension|накопичення|накопичення|накопичень} ефекту [Зброя Виру]."
         }
     },
     "3279631055": {
@@ -1232,7 +1232,7 @@
     "3296215305": {
         "Name": "Зброя шаленства вітру",
         "Descriptions": {
-            "123600111": "Наповнює зброю в основній руці стихією вітру на {1} год. Кожна атака цією зброєю має {2}% шанс викликати три додаткові атаки, кожна з яких завдає {3} од. фізичної шкоди.\n\nКожна успішна послідовна атака [Зброя Шаленства вітру] протягом {4} сек, збільшує шкоду від [Зброя Шаленства вітру] на {5}%. Накопичується до {6} разів.",
+            "123600111": "Наповнює зброю в основній руці стихією вітру на {1} год. Кожна атака цією зброєю має {2}% шанс викликати три додаткові атаки, кожна з яких завдає {3} од. фізичної шкоди.\n\nКожна успішна послідовна атака [Зброя шаленства вітру] протягом {4} сек, збільшує шкоду від [Зброя шаленства вітру] на {5}%. Накопичується до {6} разів.",
             "721900804": "Наповнює зброю в правій руці стихією вітру на {1} годину. Кожна атака основною зброєю має {2}% шанс викликати дві додаткові атаки, що завдають {3}% фізичної шкоди кожна.",
             "4130188236": "Наповнює зброю в правій руці стихією вітру на {1} годину. Кожна атака основною зброєю має {2}% шанс викликати дві додаткові атаки, що завдають {3}% фізичної шкоди кожна.",
             "1433762046": "Наповнює зброю в правій руці стихією вітру на {1} годину. Кожна атака основною зброєю має {2}% шанс викликати дві додаткові атаки, що завдають {3}% фізичної шкоди кожна.\n\nКожна наступна атака [Шаленство вітру] протягом {4} сек збільшує шкоду від [Шаленство вітру] на {5}%, накопичуючись до {6} разів."
@@ -1309,57 +1309,57 @@
     "173210967": {
         "Name": "Нескінченна міць",
         "Descriptions": {
-            "989039115": "Spending Maelstrom Weapon stacks grants you {1}% haste for {2} sec, stacking. Gaining a new stack does not refresh the duration.",
-            "1381073706": "Spending Maelstrom grants you {1}% haste for {2} sec, stacking. Gaining a new stack does not refresh the duration."
+            "989039115": "Витрата ефектів [Зброї виру] дає вам {1}% швидкості на {2} секунди, може накопичуватись. Отримання нового ефекту не оновлює тривалість стану.",
+            "1381073706": "Витрата ефектів [Зброї виру] дає вам {1}% швидкості на {2} секунди, може накопичуватись. Отримання нового ефекту не оновлює тривалість стану."
         }
     },
     "2251309443": {
         "Name": "Провідник блискавок",
         "Descriptions": {
-            "2318592125": "While Lightning Shield is active, your Nature damage dealt is increased by {1}%."
+            "2318592125": "Доки діє [Блискавичний щит], ваша шкода від сил природи збільшується на {1}%."
         }
     },
     "2256110575": {
         "Name": "Фейське переливання",
         "Descriptions": {
-            "2827635752": "Transfer the life force of up to {1} enemies in the targeted area, dealing {2} Nature damage evenly split to each enemy target over {3} sec. \r\n\r\nPressing Fae Transfusion again within {4} sec will release {5}% of all damage from Fae Transfusion, healing up to {6} allies within {7} yds.",
-            "288272328": "Transfer the life force of up to {1} enemies in the targeted area, dealing {2} Nature damage evenly split to each enemy target over {3} sec. \r\n\r\nFully channeling Fae Transfusion generates {4} [plural|stack|stacks] of Maelstrom Weapon.\r\n\r\nPressing Fae Transfusion again within {5} sec will release {6}% of all damage from Fae Transfusion, healing up to {7} allies within {8} yds."
+            "2827635752": "Переносить життєву силу від {1} {declension|ворога|ворогів} у цільовій області, завдавши їм {2} шкоди від сил природи, що рівномірно розподіляється по кожній ворожій цілі протягом {3} сек. \n\nПовторне використання [Фейського переливання] протягом {4} сек вивільнить {5}% від усієї шкоди від [Фейське переливання], зціливши до {6} союзників в радіусі {7} м.",
+            "288272328": "Переносить життєву силу від {1} {declension|ворога|ворогів} у цільовій області, завдавши їм {2} шкоди від сил природи, що рівномірно розподіляється по кожній ворожій цілі протягом {3} сек. \n\nПовноцінне підтримування [Фейське переливання] генерує {4} declension|ефект|ефектів} [Зброя виру].\n\nПовторне використання [Фейського переливання] протягом {5} сек вивільнить {6}% від усієї шкоди від [Фейське переливання], зціливши до {7} союзників в радіусі {8} м."
         }
     },
     "3431140965": {
         "Name": "Припливні води",
         "Descriptions": {
-            "439912205": "When you cast Healing Rain, each ally with your Riptide on them is healed for {1}."
+            "439912205": "Коли ви застосовуєте [Цілющий дощ], кожен союзник, який має на собі [Бистрина], зцілюється на {1}."
         }
     },
     "811110980": {
         "Name": "Буремні удари",
         "Descriptions": {
-            "1994135674": "Stormstrike, Ice Strike, and Lava Lash have a {1}% chance to discharge electricity at your target, dealing {2} Nature damage."
+            "1994135674": "[Штормовий удар], [Крижаний удар] і [Скипання лави] мають {1}% шанс розрядити по цілі електричний струм, що завдає {2} шкоди від сил природи."
         }
     },
     "2597597613": {
         "Name": "Шокувальна хватка",
         "Descriptions": {
-            "3256577507": "Your Nature damage critical strikes reduce the target's movement speed by {1}% for {2} sec."
+            "3256577507": "Критична шкода від сил природи знижує швидкість пересування вашої цілі на {1}% на {2} сек."
         }
     },
     "1752916238": {
         "Name": "Ехо елементалів",
         "Descriptions": {
-            "2490017378": "When your Storm Elemental or Fire Elemental expires, it leaves behind a lesser Elemental to continue attacking your enemies for {1} sec."
+            "2490017378": "Коли ваш [Штормовий елементаль] або [Елементаль вогню] зникає, він залишає натомість меншого елементаля, який продовжить атакувати ваших ворогів впродовж {1} сек."
         }
     },
     "776113905": {
         "Name": "Символ спектрального вульпіна",
         "Descriptions": {
-            "599123790": "Alters the appearance of your Ghost Wolf transformation, causing it to resemble a spectral vulpine."
+            "599123790": "Змінює зовнішній вигляд вашого [Примарного Вовка], перетворюючи його на спектрального лиса."
         }
     },
     "1433462666": {
         "Name": "Викликач штормів",
         "Descriptions": {
-            "2547658070": "Increases the critical strike chance of your Nature damage spells by {1}% and the critical strike damage of your Nature spells by {2}%."
+            "2547658070": "Збільшує шанс критичного удару ваших заклинань, що завдають шкоди від сил природи, на {1}% і шкоду від критичного удару ваших заклинань, що завдають шкоди від сил природи, на {2}%."
         }
     },
     "3969539662": {
@@ -1385,7 +1385,7 @@
         "Name": "Допоміжні чари",
         "Descriptions": {
             "339516909": "Increases the critical strike chance of Flametongue Weapon by {1}%, and its critical strike damage by {2}%.",
-            "747646043": "Learn a new weapon imbue, Tidecaller's Guard.\r\n\r\n|T1355357:24|t {ffffffff|Tidecaller's Guard}\r\nImbue your shield with the element of Water for {1} hour. Your healing done is increased by {2}% and the duration of your Healing Stream Totem and Cloudburst Totem is increased by {3} sec."
+            "747646043": "Дозволяє вивичити нове насичення зброї, Вартового закликача приливів.\n\n|T1355357:24|t {ffffffffff|Вартовий закликача приливів}\nНаповнює ваш щит стихією води на {1} годину. Ваш рівень зцілення збільшується на {2}%, а тривалість дії [Тотем цілющого потоку] і [Тотем хмарного приливу] збільшується на {3} сек."
         }
     },
     "4194276606": {
@@ -1423,7 +1423,7 @@
         "Name": "Майстерність насичення чарами",
         "Descriptions": {
             "3795550197": "Increases the duration of your  Earthliving effect by {1} sec.",
-            "3193256930": "Increases the chance for Windfury Weapon to trigger by {1}% and increases its damage by {2}%."
+            "3193256930": "Збільшує шанс спрацювання [Зброя шаленства вітру] на {1}% і збільшує її шкоду на {2}%."
         }
     },
     "2438160466": {
@@ -1441,7 +1441,7 @@
     "2674730425": {
         "Name": "Лють Штормів",
         "Descriptions": {
-            "1991852184": "Activating Stormkeeper summons a powerful Lightning Elemental to fight by your side for {1} sec."
+            "1991852184": "Активація [Хранитель бурі] викликає потужного блискавичного елементаля, який битиметься на вашому боці протягом {1} сек."
         }
     },
     "1462492230": {
@@ -1459,8 +1459,8 @@
     "900212207": {
         "Name": "Збурені стихії",
         "Descriptions": {
-            "4234329905": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {2}% increased damage and damages {3} nearby [plural|enemy|enemies] at {4}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {5} seconds from its cooldown.",
-            "3361586147": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {2}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {3}% effectiveness to all targets hit.",
+            "4234329905": "Частинки стихій обертаються навколо вашого [Тотема стихійних припливів]. Ваші здібності поглинають ці частинки для посилення ефектів. \n\n{FFFFFFFF|Вода:} Ваша наступна [Хвиля зцілення] або [Сплеск зцілення] також зцілює союзника в зоні вашого [Цілющого дощу] з ефективністю {1}%.\n\n\n{FFFFFFFF|Повітря:} Ваш наступний [Штормовий удар] або [Удар вітру] завдає {2}% збільшеної шкоди і пошкоджує {3} найближчих ворогів з ефективністю {4}%.\n\n\n{FFFFFFFF|Земля:} Застосування [Розколу] або [Вибуху стихій] зменшує їхнє відновлення на {5} сек.",
+            "3361586147": "Частинки стихій обертаються навколо вашого [Тотема стихійних припливів]. Ваші здібності поглинають ці частинки для посилення ефектів. \n\n{FFFFFFFF|Вода:} Ваша наступна [Хвиля зцілення] або [Сплеск зцілення] також зцілює союзника в зоні вашого [Цілющого дощу] з ефективністю {1}%.\n\n\n{FFFFFFFF|Повітря:} Час застосування наступного заклинання зцілення зменшується на {2}%.\n\n\n{FFFFFFFF|Земля:} Ваше наступне [Ланцюгове зцілення] застосовує [Життя Землі] з ефективністю {3}% до всіх уражених цілей.",
             "2970166655": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {1}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {2}% effectiveness to all targets hit.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {3}%, and its critical strike damage by {4}%.",
             "2616322417": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {1}% increased damage and damages {2} nearby [plural|enemy|enemies] at {3}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {4} seconds from its cooldown.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {5}%, and its critical strike damage by {6}%."
         }
@@ -1507,7 +1507,7 @@
         "Name": "Останній клич",
         "Descriptions": {
             "4038716081": "When an Ancestor expires, they cast Elemental Blast at a nearby enemy.",
-            "1167385972": "When an Ancestor expires, they cast Hydrobubble on a nearby injured ally.\r\n\r\n|T1320371:24|t {FFFFFFFF|Hydrobubble}\r\nSurrounds your target in a protective water bubble for {1} sec.\r\n\r\nThe shield absorbs the next {2} incoming damage, but the absorb amount decays fully over its duration."
+            "1167385972": "Коли у [Предка] закінчується час, він кидає [Водяну бульбашку] на пораненого союзника, що знаходиться поруч.\n\n|T1320371:24|t {FFFFFFFF|Водяна бульбашка}\nОточує ціль захисною водяною бульбашкою на {1} сек.\n\nЩит поглинає наступну {2} вхідної шкоди, але кількість поглинутої шкоди повністю зменшується протягом усього часу дії."
         }
     },
     "4226666930": {
@@ -1532,13 +1532,13 @@
     "3033149721": {
         "Name": "Почуйте мій поклик",
         "Descriptions": {
-            "889775385": "Ancestors last an additional {1} sec."
+            "889775385": "[Предки] тривають додатково {1} сек."
         }
     },
     "3894574380": {
         "Name": "Поклик предків",
         "Descriptions": {
-            "2269648776": "Benefiting from Undulation calls an Ancestor to your side for {1} sec.\r\n\r\nCasting Unleash Life calls an Ancestor to your side for {2} sec.\r\n\r\nWhenever you cast a healing or damaging spell, the Ancestor will cast a similar spell.",
+            "2269648776": "Додатково [Коливання] закликає на вашу сторону [Предка] на {1} сек.\n\nЗастосування [Вивільнення життя] закликає [Предка] на вашу сторону на {2} сек.\n\nЩоразу, коли ви застосовуєте заклинання зцілення або пошкодження, [Предок] застосовує аналогічне заклинання.",
             "2460759306": "[Первісна хвиля] закликає Предка на ваш бік на {1} сек. Щоразу, коли ви застосовуєте цілюще або атакуюче заклинання, Предок застосовує аналогічне заклинання."
         }
     },
@@ -1551,39 +1551,39 @@
     "3402579505": {
         "Name": "Злиття стихій",
         "Descriptions": {
-            "1058228433": "After casting Icefury, the next time you cast a Nature and a Fire spell, you additionally cast an Elemental Blast at your target at {1}% effectiveness."
+            "1058228433": "Після застосування [Крижаної люті], наступного разу, коли ви використаєте заклинання сил природи чи вогню, ви додатково застосовуєте на ціль [Вибух стихій] з ефективністю {1}%."
         }
     },
     "3062412581": {
         "Name": "Реактивність",
         "Descriptions": {
             "1449012215": "Ваш [Тотем цілющого потоку] тепер також зцілює другого союзника з ефективністю {1}%. \n\n[Тотем хмарного приливу] отримує {2}% додаткового зцілення.",
-            "1510796290": "Frost Shocks empowered by Hailstorm, Lava Lash, and Fire Nova cause your Searing totems to shoot a Searing Volley at up to {1} nearby enemies for {2} Fire damage."
+            "1510796290": "Удари [Морозним шоком], посилені [Градом], [Скипанням лави] і [Колом вогню], змушують ваших [Обпікаючих тотемів] вистрілити обпікаючим залпом по {1} {declension|ворогу|ворогам} поблизу, завдавши {2} шкоди від вогню."
         }
     },
     "1022027652": {
         "Name": "Повітряна перешкода",
         "Descriptions": {
-            "3967598721": "If you have a totem active, your totem grants you a shield absorbing {1} damage for {2} sec every {3} sec."
+            "3967598721": "Якщо у вас активний тотем, він дає вам щит, що поглинає {1} шкоди на {2} сек кожні {3} сек."
         }
     },
     "242904970": {
         "Name": "Громова віддача",
         "Descriptions": {
-            "3500809564": "When Tempest only strikes a single target, gain {1} stacks of Maelstrom Weapon.",
-            "2806221684": "When Tempest only strikes a single target, gain {1} Maelstrom."
+            "3500809564": "Коли [Буря] вражає лише одну ціль, ви отримуєте {1} {declension|ефект|ефекти|ефектів} [Зброї виру].",
+            "2806221684": "Коли [Буря] вражає лише одну ціль, ви отримуєте {1} од. виру стихій."
         }
     },
     "1578328685": {
         "Name": "Велетенські тотеми",
         "Descriptions": {
-            "4031037063": "Increases the size and radius of your totems by {1}%, and the health of your totems by {2}%."
+            "4031037063": "Збільшує розмір і радіус ваших тотемів на {1}%, а здоров'я ваших тотемів на {2}%."
         }
     },
     "737587985": {
         "Name": "Гальванічні сплески",
         "Descriptions": {
-            "3739206126": "Crash Lightning, Chain Lightning, and Earthquake damage increased by {1}%."
+            "3739206126": "Ушкодження від [Блискавки], [Ланцюгової блискавки] та [Землетрусу] збільшено на {1}%."
         }
     },
     "3771581043": {
@@ -1595,40 +1595,40 @@
     "1400300988": {
         "Name": "Висхідний потік",
         "Descriptions": {
-            "3369777896": "Wind Rush Totem's cooldown is reduced by {1} sec and its movement speed effect lasts an additional {2} sec."
+            "3369777896": "Відновлення [Тотема пориву вітру] зменшується на {1} сек, а ефект збільшення швидкості пересування триває додатково {2} сек."
         }
     },
     "635618591": {
         "Name": "Опір стихіям",
         "Descriptions": {
-            "3799457968": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by {1}% for {2} sec.",
+            "3799457968": "Зцілення від [Тотема цілющого потоку] зменшує шкоду від вогню, холоду і сил природи на {1}% на {2} сек.",
             "3890293912": "Зцілення від [Тотем цілющого потоку] зменшує шкоду від вогню, холоду і сил природи на {1}% на {2} сек.\n\nЗцілення від [Тотем хмарного приливу] зменшує шкоду від вогню, холоду і сил природи на {3}% на {4} сек."
         }
     },
     "470208709": {
         "Name": "Верховенство Виру",
         "Descriptions": {
-            "1931318770": "Increases the healing done by Healing Wave, Healing Surge, Wellspring, Downpour, and Chain Heal by {1}%.",
-            "163853256": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by {1}% and the healing of Healing Surge by {2}%."
+            "1931318770": "Збільшує зцілення від [Хвилі зцілення], [Сплеску зцілення], [Джерела], [Зливи] і [Ланцюгового зцілення] на {1}%.",
+            "163853256": "Збільшує шкоду від [Земного шоку], [Вибуху стихії] і [Землетрусу] на {1}% і зцілення від [Сплеску зцілення] на {2}%."
         }
     },
     "1793451078": {
         "Name": "Поступ духовного мандрівника",
         "Descriptions": {
-            "876090103": "Using spells with a cast time increases the duration of Spiritwalker's Grace and Spiritwalker's Aegis by {1} sec, up to a maximum of {2} sec."
+            "876090103": "Використання заклинань з часом застосування збільшує тривалість дії [Благодать духовного мандрівника] і [Егіда духовного мандрівника] на {1} сек, максимум до {2} сек."
         }
     },
     "944157238": {
         "Name": "Первісний потенціал",
         "Descriptions": {
             "1065326687": "Збільшує максимальний запас мани на {1}%.\n\n[Глибинні хвилі] тепер можуть накопичуватись до {2} разів.",
-            "2607466143": "Increases your maximum Maelstrom by {1}."
+            "2607466143": "Збільшує максимальну кількість од. виру стихій на {1}."
         }
     },
     "1083880227": {
         "Name": "Реактивний оберіг",
         "Descriptions": {
-            "2911852662": "When refreshing Earth Shield, your target is healed for {1} for each stack of Earth Shield they are missing.\r\n\r\nWhen refreshing Water Shield, you are refunded {2} mana for each stack of Water Shield missing."
+            "2911852662": "При оновленні [Щита землі] ваша ціль отримує зцілення на {1} за кожен витрачений заряд [Щита землі].\n\nПри оновленні [Водяного щита] ви отримуєте {2} мани за кожен витрачений заряд [Водяного щита]."
         }
     },
     "107404163": {
@@ -1654,26 +1654,26 @@
     "1517297225": {
         "Name": "Шаман: Стихії",
         "Descriptions": {
-            "198610603": "Elemental Shaman baseline passive"
+            "198610603": "Базова пасивка Шамана стихій"
         }
     },
     "2773385514": {
         "Name": "Потаєна мудрість",
         "Descriptions": {
-            "2676094954": "Your Ancestors' spells are {1}% more powerful."
+            "2676094954": "Заклинання [Предків] на {1}% потужніші."
         }
     },
     "2375577083": {
         "Name": "Насувний грім",
         "Descriptions": {
-            "1787789041": "Tempest summons a Nature Feral Spirit for {1} sec.",
-            "538352736": "Gain one stack of Stormkeeper every {1} sec."
+            "1787789041": "[Буря] викликає Дикого духа природи на {1} сек.",
+            "538352736": "Отримуйте по одному заряду [Хранитель бурі] кожні {1} сек."
         }
     },
     "3209976750": {
         "Name": "Покращене насичення чарами",
         "Descriptions": {
-            "1394556963": "The effects of your weapon imbues are increased by %.",
+            "1394556963": "Ефекти від насичення вашої зброї збільшуються на %.",
             "1422140916": "The effects of your weapon imbues are increased by {1}%."
         }
     },
@@ -1725,44 +1725,44 @@
     "3802995573": {
         "Name": "Символ гальки",
         "Descriptions": {
-            "2013043854": "Reduces the size of your Earth Elemental by {1}%."
+            "2013043854": "Зменшує розмір вашого земляного елементаля на {1}%."
         }
     },
     "3516107670": {
         "Name": "Вічні стихії",
         "Descriptions": {
-            "2489723777": "Increases the duration of your Elementals by {1}%."
+            "2489723777": "Збільшує тривалість виклику ваших елементалів на {1}%."
         }
     },
     "108267284": {
         "Name": "Провідний імпульс",
         "Descriptions": {
-            "3533071499": "Increases the healing done by Surging Totem by {1}%.",
-            "90630296": "Increases the damage of Surging Totem by {1}%."
+            "3533071499": "Збільшує зцілення від [Тотем стихійних припливів] на {1}%.",
+            "90630296": "Збільшує шкоду від [Тотем стихійних припливів] на {1}%."
         }
     },
     "1464624898": {
         "Name": "Жага крові",
         "Descriptions": {
-            "2570508356": "Increases haste by {1}% for all party and raid members for {2} sec.\r\n\r\nAllies receiving this effect will become Sated and unable to benefit from Bloodlust or Time Warp again for {3} min."
+            "2570508356": "Збільшує швидкість на {1}% усім учасникам групи або рейду на {2} сек.\n\nСоюзники, які отримають цей ефект, будуть виснажені й не зможуть повторно його отримати від [Жага крові] або [Викривлення часу] упродовж {3} хв."
         }
     },
     "1016742000": {
         "Name": "Гармонія з природою",
         "Descriptions": {
-            "3507266228": "Reduces the cooldown of Nature's Guardian by {1} sec and causes it to heal for an additional {2}% of your maximum health."
+            "3507266228": "Зменшує час відновлення [Вартовий природи] на {1} сек і дозволяє йому зцілювати на додаткові {2}% від вашого максимального запасу здоров'я."
         }
     },
     "1679177422": {
         "Name": "Арктична хуртовина",
         "Descriptions": {
-            "3349821541": "Enemies within {1} yds of your Frost Shock are snared by {2}%."
+            "3349821541": "Вороги в радіусі {1} м від вашого [Морозного шоку] сповільнюються на {2}%."
         }
     },
     "1470173853": {
         "Name": "Підсилювальний осередок",
         "Descriptions": {
-            "2144893453": "While Surging Totem is active, your damage and healing done is increased by {1}%."
+            "2144893453": "Поки активний [Тотем стихійних припливів], ваша шкода і отримане зцілення збільшуються на {1}%."
         }
     },
     "1454549939": {
