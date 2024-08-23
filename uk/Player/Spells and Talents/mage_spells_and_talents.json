@@ -8,7 +8,7 @@
     "2602621285": {
         "Name": "Гнів Алекстрази",
         "Descriptions": {
-            "955995219": "Dragon's Breath always critically strikes, deals {1}% increased critical strike damage, and contributes to Hot Streak. "
+            "955995219": "[Подих дракона] завжди завдає критичного удару, а його критична шкода збільшується на {1}% та накопичує один заряд для [Спалаху успіху]. "
         }
     },
     "2318755339": {
@@ -20,7 +20,7 @@
     "1413523524": {
         "Name": "Розширення",
         "Descriptions": {
-            "3127615728": "Arcane Missiles fires {1} additional [plural|missile|missiles]."
+            "3127615728": "[Чародійні стріли] запускають {1} {declension|додаткову стрілу|додаткові стріли|додаткових стріл}."
         }
     },
     "1492142878": {
@@ -60,7 +60,7 @@
     "918779708": {
         "Name": "Чародійний фамільяр",
         "Descriptions": {
-            "62647978": "Casting Arcane Intellect summons a Familiar that attacks your enemies and increases your maximum mana by {1}% for {2} hour."
+            "62647978": "Застосовуючи [Чародійний розум] ви викликаєте фамільяра, який атакує ваших ворогів і збільшує ваш максимальний запас мани на {1}% впродовж {2} год."
         }
     },
     "2271078583": {
@@ -78,7 +78,7 @@
     "2565954345": {
         "Name": "Чародійні стріли",
         "Descriptions": {
-            "2636809330": "Only castable when you have Clearcasting.\r\n\r\nLaunches five waves of Arcane Missiles at the enemy over {1} sec, causing a total of {2} Arcane damage."
+            "2636809330": "Можна застосувати лише під час дії [Чистого розуму].\n\nЗапускає п'ять хвиль чародійних стріл у ворога впродовж {1} сек, сумарно завдаючи {2} од. шкоди від таємної магії."
         }
     },
     "2387423904": {
@@ -90,7 +90,7 @@
     "972337756": {
         "Name": "Чародійний викид",
         "Descriptions": {
-            "1838648166": "Expend all of your current mana to annihilate your enemy target and nearby enemies for up to {1} Arcane damage based on Mana spent. Deals reduced damage beyond {2} targets. Generates Clearcasting.\r\n\r\nFor the next {3} sec, your Mana regeneration is increased by {4}% and spell damage is increased by {5}%."
+            "1838648166": "Витрачає всю наявну ману, щоб підірвати вашу ворожу ціль та ворогів поряд, завдаючи до {1} од. шкоди від таємної магії, залежно від кількості витраченої мани. Завдає зменшеної шкоди, якщо цілей більше {2}. Активує ефект [Чистого розуму].\n\nПротягом наступних {3} сек ваша мана відновлюється на {4}% швидше, а шкода від заклинань збільшується на {5}%."
         }
     },
     "2559215403": {
@@ -159,7 +159,7 @@
     "2567997099": {
         "Name": "Поклик Сонячного Короля",
         "Descriptions": {
-            "60169541": "Phoenix Flames gains {1} additional charge and always critically strikes."
+            "60169541": "[Полум'я фенікса] отримує {1} {declension|додатковий заряд|додаткові заряди|додаткових зарядів} та завжди завдає критичної шкоди."
         }
     },
     "2986435647": {
@@ -204,8 +204,8 @@
         "Descriptions": {
             "3279267147": "Вас охоплює полум'я на {1} сек, збільшуючи шанс критичного удару ваших заклинань на {2}%. Можна застосувати під час чаклування інших заклинань.",
             "1299096002": "Вас охоплює полум'я на {1} сек, збільшуючи шанс критичного удару ваших заклинань на {2}% та надаючи вам майстерність еквівалентну {3}% від вашого показника критичного удару. Можна застосувати під час чаклування інших заклинань.",
-            "2729135645": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {3}% Critical Strike damage, and up to {4} nearby allies gain {5}% Critical Strike for {6} sec.",
-            "2722105446": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {4}% Critical Strike damage, and up to {5} nearby allies gain {6}% Critical Strike for {7} sec."
+            "2729135645": "Вас охоплює полум'я на {1} сек, збільшуючи шанс критичного удару ваших заклинань на {2}%. Можна застосувати під час чаклування інших заклинань.\n\nАктивація [Спалення] надає вам {3}% критичного удару та {5}% критичного удару максимум {4} {declension|союзнику|союзникам|союзникам} поряд з вами на {6} сек.",
+            "2722105446": "Вас охоплює полум'я на {1} сек, збільшуючи шанс критичного удару ваших заклинань на {2}% та надаючи вам майстерність еквівалентну {3}% від вашого показника критичного удару. Можна застосувати під час чаклування інших заклинань.\n\nАктивація [Спалення] надає вам {4}% критичного удару та {5}% критичного удару максимум {6} {declension|союзнику|союзникам|союзникам} поряд з вами на {7} сек."
         }
     },
     "2298374374": {
@@ -223,7 +223,7 @@
     "734428179": {
         "Name": "Зосередженість",
         "Descriptions": {
-            "746898137": "Arcane Blast has a small chance to make your next cast of Arcane Blast free."
+            "746898137": "[Чародійний спалах] з невеличким шансом дозволяє застосувати ваш наступний [Чародійний спалах] без витрат."
         }
     },
     "138986016": {
@@ -242,14 +242,14 @@
     "4047739866": {
         "Name": "Контрольоване знищення",
         "Descriptions": {
-            "3489812622": "Damaging a target with Pyroblast increases the damage it receives from Ignite by {1}%. Stacks up to {2} times."
+            "3489812622": "Завдаючи цілі шкоди від [Вогняної брили], шкода, яку вона отримує від вашого [Підпалу] збільшується на {1}%. Накопичується до {2} разів."
         }
     },
     "4053820486": {
         "Name": "Контрчари",
         "Descriptions": {
             "984849344": "Перериває застосування заклинання ворога та запобігає використанню заклинань з цієї школи на {1} сек.",
-            "594629545": "Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for {1} sec and silencing the target for {2} sec."
+            "594629545": "Перериває застосування заклинання ворога та запобігає використанню заклинань з цієї школи на {1} сек, а також знемовлює ціль на {2} сек."
         }
     },
     "4192824350": {
@@ -292,9 +292,9 @@
     "399621225": {
         "Name": "Заряджені бар'єри",
         "Descriptions": {
-            "798547233": "When your barrier receives melee attacks, you have a {1}% chance to be granted Clearcasting. \r\n\r\nCasting your barrier removes all snare effects.",
-            "1931008867": "When your barrier receives melee attacks, you have a {1}% chance to be granted {2} Fire Blast charge. \r\n\r\nCasting your barrier removes all snare effects.",
-            "2636435525": "When your barrier receives melee attacks, you have a {1}% chance to be granted Fingers of Frost. \r\n\r\nCasting your barrier removes all snare effects."
+            "798547233": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати ефект [Чистого розуму].\n\nЗастосування вашого бар'єра знімає всі ефекти сповільнення.",
+            "1931008867": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати {2} {declension|заряд|заряди|зарядів} [Вогняного вибуху].\n\nЗастосування вашого бар'єра знімає всі ефекти сповільнення.",
+            "2636435525": "Коли ваш бар'єр атакують в ближньому бою, ви маєте {1}% шанс отримати ефект [Морозних пальців].\n\nЗастосування вашого бар'єра знімає всі ефекти сповільнення."
         }
     },
     "3116024812": {
@@ -312,7 +312,7 @@
     "3875794694": {
         "Name": "Втілення",
         "Descriptions": {
-            "1829040296": "Increases your mana regeneration by {1}% for {2} sec and grants Clearcasting.\r\n\r\nWhile channeling Evocation, your Intellect is increased by {3}% every {4} sec. Lasts {5} sec."
+            "1829040296": "Збільшує вашу регенерацію мани на {1}% на {2} сек та надає ефект [Чистого розуму].\n\nПід час підтримання [Втілення], ваш інтелект на {3}% кожні {4} сек. Триває {5} сек."
         }
     },
     "3100014296": {
@@ -324,7 +324,7 @@
     "2089471455": {
         "Name": "Палке мерехтіння",
         "Descriptions": {
-            "4137054748": "Fire Blast's cooldown is reduced by {1} sec. "
+            "4137054748": "Час відновлення [Вогняного вибуху] зменшується на {1} сек. "
         }
     },
     "1853182964": {
@@ -376,13 +376,13 @@
     "3522791930": {
         "Name": "Вогняний каталізатор",
         "Descriptions": {
-            "3304164063": "Every {1} seconds, your next non-instant Fireball, Flamestrike, or Pyroblast has a {2}% reduced cast time."
+            "3304164063": "Кожні {1} сек, ваша наступна немиттєва [Вогняна куля], [Вогняний удар] або [Вогняна брила] застосовуються на {2}% швидше."
         }
     },
     "3591155661": {
         "Name": "Живильне полум'я",
         "Descriptions": {
-            "893684354": "Increases the maximum number of Fire Blast charges by {1}."
+            "893684354": "Збільшує кількість зарядів [Вогняного вибуху] на {1}."
         }
     },
     "257565907": {
@@ -420,7 +420,7 @@
     "3813671795": {
         "Name": "Розділений мороз",
         "Descriptions": {
-            "1319954894": "While Icy Veins is active, your Frostbolts hit up to {1} additional targets and their damage is increased by {2}%."
+            "1319954894": "Доки діє [Стигла кров], ваші [Крижані стріли] вражають до {1} {declension|додаткову ціль|додаткові цілі|додаткових цілей}, а їх шкода збільшується на {2}%."
         }
     },
     "3478455918": {
@@ -450,7 +450,7 @@
     "2772057082": {
         "Name": "З попелу",
         "Descriptions": {
-            "433297273": "Phoenix Flames damage increased by {1}% and your direct-damage spells reduce the cooldown of Phoenix Flames by {2} sec."
+            "433297273": "Збільшує шкоду від [Полум'я фенікса] на {1}%, а ваші заклинання прямої дії зменшують час відновлення [Полум'я фенікса] на {2} сек."
         }
     },
     "4010118779": {
@@ -642,14 +642,14 @@
     "1851162262": {
         "Name": "Покращений опік",
         "Descriptions": {
-            "1761672785": "Casting Scorch on targets below {1}% health increase the target's damage taken from you by {2}% for {3} sec. This effect stacks up to {4} times."
+            "1761672785": "Застосовувавши [Опік] на ціль, в якої менше {1}% від максимального запасу здоров'я, ви завдаватимете їй на {2}% більше шкоди впродовж {3} сек. Накопичується до {4} раз."
         }
     },
     "2816122391": {
         "Name": "Чари стрімкості",
         "Descriptions": {
             "411150793": "[Невидимість] збільшує вашу швидкість пересування на {1}% на {2} сек.",
-            "1958248767": "Greater Invisibility increases your movement speed by {1}% for {2} sec."
+            "1958248767": "[Покращена невидимість] збільшує вашу швидкість пересування на {1}% на {2} сек."
         }
     },
     "2179282672": {
@@ -668,7 +668,7 @@
     "761206673": {
         "Name": "Спалахування",
         "Descriptions": {
-            "722919102": "Your Fireball, Pyroblast, Fire Blast, Scorch and Phoenix Flames critical strikes reduce the remaining cooldown on Combustion by {1} sec.\r\n\r\nFlamestrike critical strikes reduce the remaining cooldown of Combustion by {2} sec for each critical strike, up to {3} sec."
+            "722919102": "Критичні удари від ваших [Вогняної кулі], [Вогняної брили], [Вогняного вибуху], [Опіку] та [Полум'я фенікса] зменшують час відновлення вашого [Спалення] на {1} сек.\n\nЩоразу, коли [Вогняний удар] завдає критичної шкоди, час відновлення [Спалення] зменшується на {2} сек за кожний завданий критичний удар, максимум до {3} сек."
         }
     },
     "1778911868": {
@@ -699,7 +699,7 @@
     "3163116016": {
         "Name": "Масове перетворення",
         "Descriptions": {
-            "2939532806": "Transforms all enemies within {1} yards into sheep, wandering around incapacitated for {2} sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\r\n\r\nOnly works on Beasts, Humanoids and Critters."
+            "2939532806": "Перетворює всіх ворогів у радіусі {1} м на овець, які бігають довкола дезорієнтованими впродовж {2} сек. Під час перетворення жертви не можуть робити жодної дії, але швидко відновлюють здоров'я. Шкода знімає цей ефект.\n\nЗаклинання спрацьовує лише на звірах, гуманоїдах та звірятках."
         }
     },
     "900429365": {
@@ -727,17 +727,17 @@
             "175009193": "Застосування [Крижаної стріли], [Крижаного списа] або [Шквалу] надає вам одну [Бурульку]. Застосовуючи [Крижаний спис], ви запускаєте усі поточні [Бурульки] у ціль, кожна з яких завдає {1} од. шкоди від магії холоду.\n\nМожна накопичити до {2} [Бурульок]. Кожна надлишкова [Бурулька] автоматично запускається у ворога.",
             "3348625084": "Застосування [Крижаної стріли] або [Шквалу] надає вам одну [Бурульку]. Застосовуючи [Крижаний спис], ви запускаєте усі поточні [Бурульки] у ціль, кожна з яких завдає {1} од. шкоди від магії холоду.\n\n[Крижана стріла] та [Шквал] мають {2}% шанс надати вам {3} {declension|[Бурульку]|[Бурульки]|[Бурульок]}.\n\nМожна накопичити до {4} [Бурульок]. Кожна надлишкова [Бурулька] автоматично запускається у ворога.",
             "1841861537": "Застосування [Крижаної стріли], [Крижаного списа] або [Шквалу] надає вам одну [Бурульку]. Застосовуючи [Крижаний спис], ви запускаєте усі поточні [Бурульки] у ціль, кожна з яких завдає {1} од. шкоди від магії холоду.\n\n[Крижана стріла] та [Шквал] мають {2}% шанс надати вам {3} {declension|[Бурульку]|[Бурульки]|[Бурульок]}.\n\nМожна накопичити до {4} [Бурульок]. Кожна надлишкова [Бурулька] автоматично запускається у ворога.",
-            "3580528191": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched."
+            "3580528191": "Застосування [Крижаної стріли] або [Шквалу] надає вам одну [Бурульку]. Застосовуючи [Крижаний спис], ви запускаєте усі поточні [Бурульки] у ціль, кожна з яких завдає {1} од. шкоди від магії холоду.\n\nМожна накопичити до {2} [Бурульок]. Кожна надлишкова [Бурулька] автоматично запускається у ворога."
         }
     },
     "3430506994": {
         "Name": "Майстерність: Підпал",
         "Descriptions": {
             "3879198882": "Ваша ціль згорає на {1}% впродовж {2} сек від загальної прямої шкоди, завданої [Вогняною кулею], [Вогняним вибухом], [Опіком], [Вогняною брилою], [Полум'ям фенікса] та [Вогняним ударом]. Якщо накласти цей ефект повторно, то вся залишкова шкода перейде до нового [Підпалу].\n\n[Вогняний вибух] розповсюджує ваш [Підпал] на {3} {declension|ворога|ворогів|ворогів} поблизу.",
-            "2112658610": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
-            "4099796306": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
-            "3281310421": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
-            "2494868965": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+            "2112658610": "[Вогняна куля], [Вогняний вибух], [Опік], [Вогняна брила] та [Вогняний удар] підпалюють ціль, завдаючи {1}% від їхньої початкової шкоди впродовж {2} сек. Якщо цей ефект накладається на ціль повторно, то вся залишкова шкода додається до нової.\n\n[Вогняний вибух] розповсюджує ефект [Підпалу] на {3} {declension|ворога|ворогів|ворогів} поблизу.",
+            "4099796306": "[Вогняна куля], [Вогняний вибух], [Опік], [Вогняна брила], [Метеор] та [Вогняний удар] підпалюють ціль, завдаючи {1}% від їхньої початкової шкоди впродовж {2} сек. Якщо цей ефект накладається на ціль повторно, то вся залишкова шкода додається до нової.\n\n[Вогняний вибух] розповсюджує ефект [Підпалу] на {3} {declension|ворога|ворогів|ворогів} поблизу.",
+            "3281310421": "[Вогняна куля], [Вогняний вибух], [Опік], [Вогняна брила], [Метеор], [Полум'я фенікса] та [Вогняний удар] підпалюють ціль, завдаючи {1}% від їхньої початкової шкоди впродовж {2} сек. Якщо цей ефект накладається на ціль повторно, то вся залишкова шкода додається до нової.\n\n[Вогняний вибух] розповсюджує ефект [Підпалу] на {3} {declension|ворога|ворогів|ворогів} поблизу.",
+            "2494868965": "[Вогняна куля], [Вогняний вибух], [Опік], [Вогняна брила], [Вугільний вир] та [Вогняний удар] підпалюють ціль, завдаючи {1}% від їхньої початкової шкоди впродовж {2} сек. Якщо цей ефект накладається на ціль повторно, то вся залишкова шкода додається до нової.\n\n[Вогняний вибух] розповсюджує ефект [Підпалу] на {3} {declension|ворога|ворогів|ворогів} поблизу."
         }
     },
     "3703122243": {
@@ -764,13 +764,13 @@
     "2352217700": {
         "Name": "Позавимірна влучність",
         "Descriptions": {
-            "3718007365": "Consuming Clearcasting increases the damage of your next {1} Arcane Blasts or Arcane Barrages by {2}%."
+            "3718007365": "Поглинання ефекту [Чистого розуму] збільшує шкоду від {1} {declension|вашого наступного [Чародійного спалаху] або [Чародійного обстрілу]|ваших наступних [Чародійних спалахів] або [Чародійних обстрілів]|ваших наступних [Чародійних спалахів] або [Чародійних обстрілів]} на {2}%."
         }
     },
     "139957487": {
         "Name": "Обстріл сферами",
         "Descriptions": {
-            "3482859590": "Arcane Barrage has a {1}% chance per Arcane Charge consumed to launch an Arcane Orb in front of you at {2}% effectiveness."
+            "3482859590": "[Чародійний обстріл] має {1}% шанс запустити перед вами [Чародійну сферу] із {2}% ефективністю за кожен поглинутий чародійний заряд."
         }
     },
     "1582611899": {
@@ -795,51 +795,51 @@
     "1164896451": {
         "Name": "Переродження фенікса",
         "Descriptions": {
-            "3337689190": "When your direct damage spells hit an enemy {1} times the damage of your next {2} Phoenix Flames is increased by {3}% and they refund a charge on use."
+            "3337689190": "Коли ваші заклинання прямої дії вразять ворога {1} {declension|раз|рази|разів}, шкода від {2} ваших наступних заклинань [Полум'я фенікса] збільшується на {3}%. Застосування цих заклинань [Полум'я фенікса] відновить вам один заряд [Полум'я фенікса]."
         }
     },
     "1528729225": {
         "Name": "Пронизливий холод",
         "Descriptions": {
             "3416752198": "Критична шкода від [Крижаної стріли] та [Бурульки] збільшується на {1}%.",
-            "2089288946": "Frostbolt and Glacial Spike critical strike damage increased by {1}%."
+            "2089288946": "Критична шкода від [Крижаної стріли] та [Льодовикового шипу] збільшується на {1}%."
         }
     },
     "3654443259": {
         "Name": "Перетворення",
         "Descriptions": {
             "3474086681": "Перетворює ворога на вівцю, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
-            "1135298567": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3604677749": "Transforms the enemy into a turtle, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "2355555398": "Transforms the enemy into a turtle, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3978961533": "Transforms the enemy into a pig, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "2785939862": "Transforms the enemy into a pig, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "125541078": "Transforms the enemy into a harmless black cat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "205707276": "Transforms the enemy into a harmless black cat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1532578783": "Transforms the enemy into a harmless rabbit, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "154756280": "Transforms the enemy into a harmless rabbit, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3693413024": "Transforms the enemy into a turkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "3234079943": "Transforms the enemy into a turkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1538147481": "Transforms the enemy into a porcupine, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "3609500550": "Transforms the enemy into a porcupine, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "287765380": "Transforms the enemy into a polar bear cub, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "3368087871": "Transforms the enemy into a polar bear cub, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1876627430": "Transforms the enemy into a monkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "2375998373": "Transforms the enemy into a monkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3436589416": "Transforms the enemy into a penguin, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "2517384685": "Transforms the enemy into a penguin, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3667999624": "Transforms the enemy into a peacock, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "241829871": "Transforms the enemy into a peacock, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "885716376": "Transforms the enemy into a baby direhorn, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "4189600225": "Transforms the enemy into a baby direhorn, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3991786352": "Transforms the enemy into a bumblebee, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "955727952": "Transforms the enemy into a bumblebee, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1565457340": "Transforms the enemy into a mawrat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Undead, Beasts, Humanoids and Critters.",
-            "2459068047": "Transforms the enemy into a mawrat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Undead, Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "940148079": "Transforms the enemy into a duck, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "4149266829": "Transforms the enemy into a duck, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "2579581086": "Transforms the enemy into a mosswool, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "4152055173": "Transforms the enemy into a mosswool, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day."
+            "1135298567": "Перетворює ворога на вівцю, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3604677749": "Перетворює ворога на черепаху, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "2355555398": "Перетворює ворога на черепаху, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3978961533": "Перетворює ворога на порося, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "2785939862": "Перетворює ворога на порося, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "125541078": "Перетворює ворога на невинне чорне кошеня, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "205707276": "Перетворює ворога на невинне чорне кошеня, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "1532578783": "Перетворює ворога на кролика, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "154756280": "Перетворює ворога на кролика, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3693413024": "Перетворює ворога на індика, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "3234079943": "Перетворює ворога на індика, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "1538147481": "Перетворює ворога на дикобраза, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "3609500550": "Перетворює ворога на дикобраза, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "287765380": "Перетворює ворога на ведмежа полярного ведмедя, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "3368087871": "Перетворює ворога на ведмежа полярного ведмедя, яке бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "1876627430": "Перетворює ворога на мавпу, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "2375998373": "Перетворює ворога на мавпу, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3436589416": "Перетворює ворога на пінгвіна, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "2517384685": "Перетворює ворога на пінгвіна, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3667999624": "Перетворює ворога на павича, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "241829871": "Перетворює ворога на павича, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "885716376": "Перетворює ворога на малого дикорога, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "4189600225": "Перетворює ворога на малого дикорога, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "3991786352": "Перетворює ворога на бджілку, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "955727952": "Перетворює ворога на бджілку, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "1565457340": "Перетворює ворога на пацюка Утроби, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "2459068047": "Перетворює ворога на пацюка Утроби, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "940148079": "Перетворює ворога на качку, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "4149266829": "Перетворює ворога на качку, яка бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}.",
+            "2579581086": "Перетворює ворога на мохошерста, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток.",
+            "4152055173": "Перетворює ворога на мохошерста, який бігає довкола дезорієнтованою впродовж {1} хв. Поки діє ефект, жертва не може робити жодної дії, але швидко відновлює здоров'я. Шкода знімає цей ефект. Максимум цілей — {2}.\n\nЗаклинання спрацьовує лише на звірів, гуманоїдів та звіряток. При застосуванні на звіряток може вразити одразу декілька цілей, а тривалість такого ефекту збільшується до {3} {declension|дня|днів|днів}."
         }
     },
     "2430382557": {
@@ -877,7 +877,7 @@
     "2262389093": {
         "Name": "Піроман",
         "Descriptions": {
-            "3404613006": "Casting Pyroblast or Flamestrike while Hot Streak is active has an {1}% chance to repeat the spell cast at {2}% effectiveness.\r\n\r\nThis effect counts as consuming Hot Streak."
+            "3404613006": "Застосувавши [Вогняну брилу] або [Вогняний удар] під час дії [Спалаху успіху], ви маєте {1}% шанс повторно застосувати це саме заклинання із {2}% ефективністю."
         }
     },
     "1528389215": {
@@ -914,7 +914,7 @@
         "Name": "Зняття прокляття",
         "Descriptions": {
             "651675212": "Розсіює усі прокляття з союзної цілі. ",
-            "131779861": "Removes all Curses from a friendly target. If any Curses are successfully removed, you deal {1}% additional damage for {2} sec."
+            "131779861": "Знімає всі ефекти Прокляття з дружньої цілі. При успішному розвіюванні прокляття, ваша шкода збільшується на {1}% на {2} сек."
         }
     },
     "1276415081": {
@@ -950,8 +950,8 @@
     "3755510276": {
         "Name": "Опік",
         "Descriptions": {
-            "3402037586": "Scorches an enemy for {1} Fire damage.\r\n\r\nScorch is a guaranteed critical strike and increases your movement speed by {2}% for {3} sec when cast on a target below {4}% health.\r\n\r\nCastable while moving.",
-            "1668254452": "Scorches an enemy for {1} Fire damage.\r\n\r\nScorch is a guaranteed critical strike, deals {2}% increased damage, and increases your movement speed by {3}% for {4} sec when cast on a target below {5}% health.\r\n\r\nCastable while moving."
+            "3402037586": "Обпалює ворога, завдаючи йому {1} од. шкоди від вогню.\n\nПри застосуванні на ціль з рівнем здоров'я нижче {4}%, ваш [Опік] завжди завдає критичного удару та збільшує вашу швидкість пересування на {2}% на {3} сек \n\nМожна застосовувати під час руху.",
+            "1668254452": "Обпалює ворога, завдаючи йому {1} од. шкоди від вогню.\n\nПри застосуванні на ціль з рівнем здоров'я нижче {5}%, ваш [Опік] завжди завдає критичного удару, завдає на {2}% більше шкоди та збільшує вашу швидкість пересування на {3}% на {4} сек \n\nМожна застосовувати під час руху."
         }
     },
     "4048630080": {
