@@ -322,7 +322,7 @@
     "3813356828": {
         "Name": "Затемнення",
         "Descriptions": {
-            "786796655": "Casting {1} [plural|Starfire|Starfires] empowers Wrath for {2} sec. Casting {3} [plural|Wrath|Wraths] empowers Starfire for {4} sec.\r\n\r\n|T236152:24|t {ffffffff|Eclipse (Solar)}\r\nNature spells deal {5}% additional damage and Wrath damage is increased by {6}%.\r\n\r\n|T236151:24|t {ffffffff|Eclipse (Lunar)}\r\nArcane spells deal {7}% additional damage and the damage Starfire deals to nearby enemies is increased by {8}%."
+            "786796655": "Використання {1} {declension|Зоряного вогню|Зоряних вогнів|Зоряних вогнів} посилює [Гнів] на {2} сек. Чаклування {3} {declension|Гніву|Гнівів|Гнівів} посилює [Зоряний вогонь] на {4} сек.\n\n|T236152:24|t {ffffffff|Сонячне затемнення}\nЗаклинання школи природи завдають на {5}% більше шкоди, а шкода від [Гніву] збільшується на {6}%.\n\n|T236151:24|t {ffffffff|Місячне затемнення}\nЗаклинання школи природи завдають на {7}% більше шкоди. Шкода, яку [Зоряний вогонь] завдає супротивникам, що знаходяться поблизу, збільшується на {8}%."
         }
     },
     "2667113284": {
@@ -485,8 +485,8 @@
         "Name": "Лють Елуни",
         "Descriptions": {
             "3957655582": "Шкода від [Місячного вогню] має шанс застосувати Лють Елуни, яка буде переслідувати вашу ціль протягом {1} сек.\n\n|T132123:24|t {ffffffff|Лють Елуни}\nВикликає промінь чистої небесної енергії, що завдає {2} од. астральної шкоди протягом {3} сек в межах його дії.\n\n{FFFFFFFF|Надає {4} од. астральної сили протягом дії.}",
-            "3632033178": "Calls down a beam of pure celestial energy that follows the enemy, dealing up to {1} Astral damage over {2} sec within its area. Damage reduced on secondary targets.\r\n\r\n{FFFFFFFF|Generates {3} Astral Power over its duration.}",
-            "2016754470": "Moonfire damage has a chance to call down a Fury of Elune to follow your target for {1} sec.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nCalls down a beam of pure celestial energy, dealing {2} Astral damage over {3} sec within its area.\r\n\r\n{FFFFFFFF|Generates {4} Rage over its duration.}"
+            "3632033178": "Викликає промінь чистої небесної енергії, який переслідує ворога, завдаючи до {1} од. астральної шкоди протягом {2} сек у зоні дії променя. Завдає зменшену шкоду вторинним цілям. \n\n{FFFFFFFF|Надає {3} од. астральної сили протягом свого часу дії.}",
+            "2016754470": "Шкода від [Місячного вогню] має шанс викликати [Лють Елуни], яка буде переслідувати вашу ціль протягом {1} сек.\n\n|T132123:24|t {ffffffff|Лють Елуни}\nВикликає промінь чистої небесної енергії, що завдає {2} од. астральної шкоди протягом {3} сек в межах його дії.\n\n{FFFFFFFF|Надає {4} од. гніву протягом часу його дії.}"
         }
     },
     "632540084": {
@@ -815,7 +815,7 @@
     "568047723": {
         "Name": "Майстер перевертень",
         "Descriptions": {
-            "533997526": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\nWrath, Starfire, and Starsurge deal {1}% additional damage and generate {2} Mana.\r\n\r\n|T611424:24|t{FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Mana.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Mana when cast with {7} combo points.",
+            "533997526": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {1}% більше шкоди та надають {2} од. мани.\n\n|T611424:24|t{FFFFFFFF|Форма Ведмедя}\n[Залізне хутро] дає на {3}% більше броні та надає {4} од. мани.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди та надають {6} од. мани при використанні з {7} {declension|очком серії|очками серії|очками серії}.",
             "4227361046": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and cause you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points.",
             "1037363258": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and generate {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
         }
@@ -841,7 +841,7 @@
     "693152262": {
         "Name": "Майстерність: Кігті-леза",
         "Descriptions": {
-            "172152963": "Increases the damage done by your Cat Form bleed and other periodic abilities and finishing moves by {1}%."
+            "172152963": "Шкода у [Формі кота] від кровотечі, періодичних ефектів та завершальних прийомів збільшується на {1}%."
         }
     },
     "1812560334": {
@@ -1725,7 +1725,7 @@
         "Descriptions": {
             "1730144915": "Жбурляє кулю енергії в ціль, завдаючи {1} од. шкоди від сил природи.",
             "3571145345": "Жбурляє кулю енергії в ціль, завдаючи {1} од. шкоди від сил природи.\n\n{FFFFFFFF|Генерує {2} од. астральної сили.}",
-            "2202494701": "Hurl a ball of energy at the target, dealing {1} Nature damage.\r\n\r\n{0033AA11|Tree of Life: Damage increased by {2}% and instant cast.}"
+            "2202494701": "Кидає в ціль енергетичну кулю, яка завдає {1} од. шкоди від магії природи.\n\n{0033AA11|Дерево Життя: Шкода збільшується на {2}%, а саме заклинання отримує миттєве чаклування.}"
         }
     },
     "3300831259": {
@@ -1896,7 +1896,7 @@
     "248170344": {
         "Name": "Символ Сонця",
         "Descriptions": {
-            "897698013": "Your Starfall takes on a more solar appearance. "
+            "897698013": "Ваш [Зорепад] набуває сонячного вигляду."
         }
     },
     "1517542202": {
@@ -1922,15 +1922,15 @@
     "3489307572": {
         "Name": "Контроль Сну",
         "Descriptions": {
-            "4284000902": "Time elapsed while your major abilities are available to be used is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Force of Nature, Celestial Alignment, and Convoke the Spirits.",
-            "4135697048": "Time elapsed while your major abilities are available to be used is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Nature's Swiftness, Incarnation: Tree of Life, and Convoke the Spirits.",
-            "901748498": "Time elapsed while your major abilities are available to be used is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Force of Nature, Incarnation: Chosen of Elune, and Convoke the Spirits."
+            "4284000902": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Силу природи], [Небесне вирівнювання] та [Виклик духів].",
+            "4135697048": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Стрімкість природи], [Втілення: Дерево Життя] та [Виклик духів].",
+            "901748498": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Сила природи], [Втілення: Обранець Елуни] та [Виклик духів]."
         }
     },
     "1743384295": {
         "Name": "Символ Місячного Хамелеона",
         "Descriptions": {
-            "232576378": "Each time you shapeshift into Moonkin Form, your shapeshifted form will be randomized."
+            "232576378": "Кожного разу, коли ви перевтілюєтесь у [Форму місячного совуха], ваша форма буде обрана випадковим чином."
         }
     },
     "4125713067": {
@@ -1943,7 +1943,7 @@
     "3096602100": {
         "Name": "Символ Летючого Хамелеона",
         "Descriptions": {
-            "758565564": "Each time you shapeshift into a Flight Form, your shapeshifted form will be randomly selected."
+            "758565564": "Кожного разу, коли ви перевтілюєтесь у [Польотну форму], ваша форма буде обрана випадковим чином."
         }
     },
     "1998656784": {
@@ -2054,7 +2054,7 @@
     "2055192982": {
         "Name": "Символ Хамелеона Урсола",
         "Descriptions": {
-            "3296772243": "Each time you shapeshift into Bear Form, your shapeshifted form will be randomly selected."
+            "3296772243": "Кожного разу, коли ви перевтілюєтесь у [Форму ведмедя], ваша форма буде обрана випадковим чином."
         }
     },
     "3049036220": {
@@ -2069,7 +2069,7 @@
     "1355991453": {
         "Name": "Символ Водного Хамелеона",
         "Descriptions": {
-            "4039926880": "Each time you shapeshift into an Aquatic Form, your shapeshifted form will be randomly selected."
+            "4039926880": "Кожного разу, коли ви перевтілюєтесь у [Водну форму], ваша форма буде обрана випадковим чином."
         }
     },
     "2037171054": {
@@ -2256,7 +2256,7 @@
     "207792484": {
         "Name": "Символ Прудкого Хамелеона",
         "Descriptions": {
-            "546421149": "Each time you shapeshift into a Travel Form, your shapeshifted form will be randomly selected."
+            "546421149": "Кожного разу, коли ви перевтілюєтесь у [Мандрівну форму], ваша форма буде обрана випадковим чином."
         }
     },
     "2425451377": {
@@ -2350,13 +2350,13 @@
     "2413460100": {
         "Name": "Символ Лісового Шляху",
         "Descriptions": {
-            "3968762080": "Your Dash now leaves a trail of leaves."
+            "3968762080": "Ваш [Спринт] залишатиме за собою слід з листя."
         }
     },
     "1807396447": {
         "Name": "Розгром",
         "Descriptions": {
-            "3166906070": "Your auto-attacks have a chance to make your next Maul become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nSlash through your target in a wide arc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you.",
+            "3166906070": "Ваші автоатаки мають шанс перетворити ваше наступне [Трощення] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nПрорізає ціль по широкій дузі, завдаючи {1} од. фізичної шкоди вашій цілі та {2} од. всім іншим ворогам перед вами.",
             "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc"
         }
     },
@@ -2389,11 +2389,11 @@
     "2982419687": {
         "Name": "Поклик Старійшини друїдів",
         "Descriptions": {
-            "3026826773": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.",
-            "3169281799": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "3256023387": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {6}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {7} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {8}%, and mana costs reduced by {9}%.",
-            "2301225912": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Feral:} Gain {4} Combo Point every {5} sec while in Cat Form and Physical damage increased by {6}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {7}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {8} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {9}%, and mana costs reduced by {10}%.",
-            "2822085344": "When you shift into a combat shapeshift form or cast Starsurge, you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges.\r\n\r\n{FFFFFFFF|Restoration:} Healing increased by {11}%, and mana costs reduced by {12}%."
+            "3026826773": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {9}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {10} зарядів.",
+            "3169281799": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {9}%, а витрати мани зменшено на {10}%.",
+            "3256023387": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {6}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {7} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {8}%, а витрати мани зменшено на {9}%.",
+            "2301225912": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {4} очок серії кожні {5} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {6}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {7}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {8} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {9}%, а витрати мани зменшено на {10}%.",
+            "2822085344": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {9}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {10} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {11}%, а витрати мани зменшено на {12}%."
         }
     },
     "3044538072": {
@@ -2412,7 +2412,7 @@
     "1269091732": {
         "Name": "Символ Дикого Хамелеона",
         "Descriptions": {
-            "3945912562": "Each time you shapeshift into Cat Form, your shapeshifted form will be randomly selected."
+            "3945912562": "Щоразу, коли ви перевтілюєтесь у [Форму кота], ваша форма буде обрана випадковим чином."
         }
     },
     "500883966": {
@@ -2426,8 +2426,8 @@
     "2905131522": {
         "Name": "Природне самозцілення",
         "Descriptions": {
-            "1245905787": "When you remove an effect with Soothe or Remove Corruption, gain a combo point and heal for {1}% of your maximum health. If you are at full health an injured party or raid member will be healed instead.",
-            "3035792394": "When you remove an effect with Soothe or Nature's Cure, gain a combo point and heal for {1}% of your maximum health. If you are at full health an injured party or raid member will be healed instead."
+            "1245905787": "Коли ви знімаєте ефект за допомогою [Заспокоєння] або [Зняття псування], ви отримуєте очко серії та зцілюєтеся на {1}% від вашого максимального запасу здоров'я. Якщо у вас повне здоров'я, то замість вас зцілиться поранений учасник групи чи рейду.",
+            "3035792394": "Коли ви знімаєте ефект за допомогою [Заспокоєння] або [Природного зцілення], ви отримуєте очко серії та зцілюєтеся на {1}% від вашого максимального запасу здоров'я. Якщо у вас повне здоров'я, то замість вас зцілиться поранений учасник групи чи рейду."
         }
     }
 }
