@@ -816,8 +816,8 @@
         "Name": "Майстер перевертень",
         "Descriptions": {
             "533997526": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {1}% більше шкоди та надають {2} од. мани.\n\n|T611424:24|t{FFFFFFFF|Форма Ведмедя}\n[Залізне хутро] дає на {3}% більше броні та надає {4} од. мани.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди та надають {6} од. мани при використанні з {7} {declension|очком серії|очками серії|очками серії}.",
-            "4227361046": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and cause you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points.",
-            "1037363258": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n {FFFFFFFF|Caster Form}\r\nRejuvenation and Swiftmend heal for {1}% more and generate {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
+            "4227361046": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n{FFFFFFFF|Форма заклинателя}\n[Омолодження] та [Швидке відновлення] зцілюють на {1}% більше і миттєво надають {2} од. гніву після переходу у [Форму ведмедя].\n\n|T236156:24|t {FFFFFFFF|Форма місячного совуха}\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {3}% більше шкоди і миттєво надають {4} од. гніву після переходу у [Форму ведмедя].\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] і [Скалічення] завдають на {5}% більше шкоди і миттєво надають {6} од. гніву після переходу у [Форму ведмедя] при застосуванні із {7} {declension|очком серії|очками серії|очками серії}.",
+            "1037363258": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n{FFFFFFFF|Форма заклинателя}\n[Омолодження] та [Швидке відновлення] зцілюють на {1}% більше і надають {2} од. астральної сили.\n\n|T236156:24|t {FFFFFFFF|Форма ведмедя}\nБроня від [Залізного хутра] збільшується на {3}%, а сама здібність надає {4} од. астральної сили.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди і миттєво надають {6} од. астральної сили при застосуванні із {7} {declension|очком серії|очками серії|очками серії}."
         }
     },
     "4292277755": {
@@ -967,7 +967,7 @@
     "181838500": {
         "Name": "Підживлення",
         "Descriptions": {
-            "491622299": "Heals a friendly target for {1}.  Receives {2}% bonus from {ffffffff|Mastery: Harmony}."
+            "491622299": "Лікує дружню ціль на {1} од. здоров'я. Заклинання отримує {2}% бонус від {ffffffff|Майстерність: Гармонія}."
         }
     },
     "3923629191": {
@@ -1389,7 +1389,7 @@
         "Name": "Сила дикої природи",
         "Descriptions": {
             "3618342335": "Молотить ціль, завдаючи фізичну шкоду розмірі {1}% від її максимального здоров'я.",
-            "4151677491": "You become further adept in Caster Form and Bear Form.\r\n\r\n{FFFFFFFF|Caster Form}\r\nWhen using Regrowth on an ally the initial heal will have a {1}% increased critical chance and the cast time of Regrowth will be reduced by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Bear Form}\r\nMaximum health while in Bear Form increased by {4}% and you gain {5} Rage when attacked in Bear Form.\r\n\r\nYou also learn:\r\n\r\n|T132136:24|t {ffffffff|Strength of the Wild}\r\nMaul the target for {6}% of the target's maximum health in Physical damage."
+            "4151677491": "Ви стаєте більш вправними у [Форма заклинателя] та у [Формі ведмедя].\n\n{FFFFFFFF|Форма заклинателя}\nЧаклування [Відновлення] на союзника збільшує шанс початкового критичного лікування на {1}%, а час чаклування самого заклинання зменшується на {2}% протягом {3} сек.\n\n{FFFFFFFF|Форма ведмедя}\nМаксимальний запас здоров'я у [Формі ведмедя] збільшується на {4}%. Ви отримуєте {5} од. гніву, коли вас атакують у [Формі ведмедя].\nТакож ви вивчаєте:\n\n|T132136:24|t {ffffffff|Сила дикої природи}\nМолотить ціль, завдаючи фізичну шкоду розмірі {6}% від її максимального здоров'я."
         }
     },
     "3267743187": {
@@ -2250,7 +2250,7 @@
     "3881328814": {
         "Name": "Символ зірок",
         "Descriptions": {
-            "2492930502": "Your Moonkin Form now appears as Astral Form, conferring all the same benefits, but appearing as an astrally enhanced version of your normal humanoid form."
+            "2492930502": "[Форма місячного совуха] матиме вигляд вашої астральної гуманоїдної форми, зберігаючи всі її ефекти."
         }
     },
     "207792484": {
