@@ -1852,7 +1852,7 @@
     "2207100178": {
         "Name": "Живучі лози",
         "Descriptions": {
-            "3751553617": "Bloodseeker Vines increase the damage your abilities deal to affected enemies by {1}%.\r\n\r\nSymbiotic Blooms increase the healing your spells do to affected targets by {2}%."
+            "3751553617": "Шкода, яка наноситься ворогам із [Кровожерливими лозами], збільшується на {1}%.\n\nЛікування цілей із [Цілющим квітом] збільшується на {2}%."
         }
     },
     "4097661190": {
@@ -1877,7 +1877,7 @@
     "3977636066": {
         "Name": "Коренева система",
         "Descriptions": {
-            "698032962": "Each active Bloodseeker Vine increases the damage your abilities deal by {1}%.\r\n\r\nEach active Symbiotic Bloom increases the healing of your spells by {2}%."
+            "698032962": "Кожна активна [Кровожерлива лоза] збільшує шкоду ваших здібностей на {1}%.\n\nКожен активний [Цілющий квіт] збільшує лікування ваших заклинань на {2}%."
         }
     },
     "252134622": {
@@ -1975,8 +1975,8 @@
     "1507870054": {
         "Name": "Вростання",
         "Descriptions": {
-            "3948112128": "Your Swiftmend causes a Symbiotic Bloom to grow on the target for {1} sec.",
-            "4217456374": "When you gain or lose Tiger's Fury, your next single-target melee ability causes a Bloodseeker Vine to grow on the target for {1} sec."
+            "3948112128": "Ваше [Швидке відновлення] викликає [Цілющий квіт] на цілі на {1} сек.",
+            "4217456374": "Коли активовано [Лють тигра] або її час дії сплинув, ваша наступна здібність ближнього бою, що завдає шкоди одній цілі, пророщує [Кровожерливу лозу] на жертві на {1} сек."
         }
     },
     "3414661116": {
@@ -2035,7 +2035,7 @@
     "2047032522": {
         "Name": "Стійке цвітіння",
         "Descriptions": {
-            "4064323435": "Bloodseeker Vines and Symbiotic Blooms last {1} additional sec.\r\n\r\nWhen a target afflicted by Bloodseeker Vines dies, the vines jump to a valid nearby target for their remaining duration."
+            "4064323435": "[Кровожерливі лози] та [Цілющий квіт] тривають довше на {1} сек.\n\nКоли ціль, уражена [Кровожерливими лозами], помирає, лози перестрибують на сусідню ціль на час, що залишився до кінця їх дії."
         }
     },
     "1297047589": {
@@ -2048,7 +2048,7 @@
     "2307503205": {
         "Name": "Символ виклику духів",
         "Descriptions": {
-            "3550171399": "Convoke the Spirits now resembles the Night Fae Covenant Ability."
+            "3550171399": "[Виклик духів] нагадуватиме здібність ковенанту Нічних Фей."
         }
     },
     "2055192982": {
@@ -2115,7 +2115,7 @@
     "1502967718": {
         "Name": "Символ керованого рою",
         "Descriptions": {
-            "3975851352": "Adaptive Swarm now resembles the Necrolord Covenant Ability."
+            "3975851352": "[Керований рій] нагадуватиме здібність ковенанту Некролордів."
         }
     },
     "3137427915": {
@@ -2178,15 +2178,15 @@
     "1955183040": {
         "Name": "Безмежне місячне сяйво",
         "Descriptions": {
-            "88988088": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nNew Moon and Half Moon call down {2} Minor [plural|Moon|Moons] and Full Moon calls down {3} Minor [plural|Moon|Moons] that [plural|deals|deal] {4} Astral damage and generate {5} Astral Power.",
-            "3546641740": "|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {1} Astral damage.\r\n\r\n|T1392542:24|t {ffffffff|Full Moon}\r\nFull Moon calls down {2} Minor [plural|Moon|Moons] that [plural|deals|deal] {3} Astral damage and generate {4} Astral Power.",
-            "3281722080": "|T136057:24|t {ffffffff|Lunar Beam}\r\nLunar Beam now causes you to leech life equal to {1}% of all damage dealt to enemies within the beam.\r\n\r\n|T132123:24|t {ffffffff|Fury of Elune}\r\nFury of Elune now ends with a flash of energy, blasting nearby enemies for {2} Astral damage."
+            "88988088": "|T132123:24|t {ffffffff|Лють Елуни}\n[Лють Елуни] тепер закінчується спалахом енергії, що підриває найближчих ворогів, завдаючи {1} од. астральної шкоди.\n\n|T1392542:24|t {ffffffff|Повний місяць}\n[Новий місяць] та [Півмісяць] викликають {2} од. [Малого місяця], а [Повний місяць] викликає {3} од. [Малого місяця]. [Малий місяць] завдає {4} од. астральної шкоди та надає {5} од. астральної сили.",
+            "3546641740": "|T132123:24|t {ffffffff|Лють Елуни}\n[Лють Елуни] тепер закінчується спалахом енергії, що підриває найближчих ворогів, завдаючи {1} од. астральної шкоди.\n\n|T1392542:24|t {ffffffff|Повний місяць}\n[Повний місяць] викликає {2} од. [Малого місяця], що завдають {3} од. астральної шкоди та надають {4} од. астральної сили.",
+            "3281722080": "|T136057:24|t {ffffffff|Місячний промінь}\n[Місячний промінь] тепер лікує вас на {1}% від усієї шкоди, завданої ворогам цим променем.\n\n|T132123:24|t {ffffffff|Лють Елуни}\n[Лють Елуни] тепер закінчується спалахом енергії, що підриває найближчих ворогів, завдаючи {2} од. астральної шкоди."
         }
     },
     "2975496414": {
         "Name": "Квіткова хода",
         "Descriptions": {
-            "819666447": "During Barkskin your movement speed is increased by {1}% and every second flowers grow beneath your feet that heal up to {2} nearby injured allies for {3}."
+            "819666447": "Поки діє [Дубова шкіра] ваша швидкість пересування збільшується на {1}%, а щосекунди під вашими ногами виростають квіти, які зцілюють до {2} поранених союзників, що знаходяться поблизу, за {3} од. здоров'я."
         }
     },
     "3190735366": {
@@ -2276,8 +2276,8 @@
     "2316867399": {
         "Name": "Тяжкі рани",
         "Descriptions": {
-            "1972993845": "Every Maul, Raze, Mangle,  Thrash, or Swipe you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec.",
-            "3316855972": "Every attack with an Energy cost that you cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec."
+            "1972993845": "Застосування [Трощення], [Знищення], [Знівечення], [Патрання] або [Розмаху] збільшує тривалість [Жахливих ран] на {1} сек, максимум на {2} сек.",
+            "3316855972": "Кожна застосована здібність з витратою енергії збільшує тривалість [Жахливих ран] на {1} сек, максимум на {2} сек."
         }
     },
     "145749490": {
@@ -2315,23 +2315,23 @@
     "4022747661": {
         "Name": "Подвійні лози",
         "Descriptions": {
-            "2625611209": "When Bloodseeker Vines or Symbiotic Blooms grow, they have a {1}% chance to cause another growth of the same type to immediately grow on a valid nearby target."
+            "2625611209": "Коли виростають [Кровожерливі лози] або [Цілющий квіт], вони мають {1}% шанс миттєво прорости на сусідній, відповідній заклинанню, цілі."
         }
     },
     "1906568648": {
         "Name": "Жахливі рани",
         "Descriptions": {
-            "1590882106": "Ravage also inflicts a Bleed that causes {1} damage over {2} sec and saps its victims' strength, reducing damage they deal to you by {3}%.\r\n\r\nDreadful Wound is not affected by Circle of Life and Death.",
-            "2060692943": "Ravage also inflicts a Bleed that causes {1} damage over {2} sec and saps its victims' strength, reducing damage they deal to you by {3}%.\r\n\r\nDreadful Wound is not affected by Circle of Life and Death. If a Dreadful Wound benefiting from Tiger's Fury is re-applied, the new Dreadful Wound deals damage as if Tiger's Fury was active."
+            "1590882106": "[Розгром] також викликає кровотечу, яка завдає {1} од. шкоди протягом {2} сек та виснажує сили жертв, зменшуючи шкоду, яку вони завдають вам, на {3}%.\n\n[Коло життя і смерті] не впливає на [Жахливі рани].",
+            "2060692943": "[Розгром] також викликає кровотечу, яка завдає {1} од. шкоди протягом {2} сек та виснажує сили жертв, зменшуючи шкоду, яку вони завдають вам, на {3}%.\n\n[Коло життя і смерті] не впливає на [Жахливі рани]. Якщо [Жахливі рани], на які діє [Лють тигра], наноситься повторно, то нові [Жахливі рани] завдають шкоди так, ніби [Лють тигра] активна."
         }
     },
     "2340717349": {
         "Name": "Сплеск дикої сили",
         "Descriptions": {
-            "2253644550": "Mangle grants Feline Potential. When you have {1} stacks, the next time you transform into Cat Form, gain {2} combo points and your next Ferocious Bite or Rip deals {3}% increased damage for its full duration.",
+            "2253644550": "Використання [Знівечення] дає [Котячий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму кота], ви отримаєте {2} очок серії, а ваш наступний [Лютий укус] або [Розрив] завдасть на {3}% більше шкоди протягом всього часу дії.",
             "33381988": "Shred and Brutal SlashMangle grants Feline Potential. When you have {1} stacks, the next time you transform into Cat Form, gain {2} combo points and your next Ferocious Bite or Rip deals {3}% increased damage for its full duration.",
-            "1399161908": "Shred and Swipe grant Ursine Potential. When you have {1} stacks, the next time you transform into Bear Form, your next Mangle deals {2}% increased damage or your next Swipe deals {3}% increased damage. Either generates {4} extra Rage.",
-            "1652669068": "Shred and Brutal Slash grant Ursine Potential. When you have {1} stacks, the next time you transform into Bear Form, your next Mangle deals {2}% increased damage or your next Swipe deals {3}% increased damage. Either generates {4} extra Rage."
+            "1399161908": "Використання [Шматування] або [Розмаху] дає [Ведмежий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму ведмедя], ваше наступне [Знівечення] завдасть на {2}% більше шкоди або [Розмах] завдасть на {3}% більше шкоди. Або надає {4} од. гніву.",
+            "1652669068": "Використання [Шматування] або [Жорстокого розрізу] дає [Ведмежий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму ведмедя], ваше наступне [Знівечення] завдасть на {2}% більше шкоди або [Розмах] завдасть на {3}% більше шкоди. Або надає {4} од. гніву."
         }
     },
     "3563042295": {
@@ -2344,7 +2344,7 @@
     "1246858005": {
         "Name": "Шалений ріст",
         "Descriptions": {
-            "2435169215": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing {1} physical damage to nearby enemies. Damage reduced above {2} targets.\r\n\r\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to {3} nearby allies for {4}."
+            "2435169215": "Коли [Кровожерливі лози] спливають або ви використовуєте на цілі [Лютий укус], вони вибухають шипами, завдаючи {1} од. фізичної шкоди ворогам, що знаходяться поруч. Завдає зменшену шкоду більше як {4} цілям.\n\nКоли [Цілющий квіт] спливає або ви використовуєте [Омолодження] на цілі, навколо неї виростають квіти, які лікують її саму та до {2} союзників поблизу на {3} од. здоров'я."
         }
     },
     "2413460100": {
@@ -2357,13 +2357,13 @@
         "Name": "Розгром",
         "Descriptions": {
             "3166906070": "Ваші автоатаки мають шанс перетворити ваше наступне [Трощення] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nПрорізає ціль по широкій дузі, завдаючи {1} од. фізичної шкоди вашій цілі та {2} од. всім іншим ворогам перед вами.",
-            "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n  {3} point: {4} damage, {5} in an arc\r\n  {6} points: {7} damage, {8} in an arc\r\n  {9} points: {10} damage, {11} in an arc\r\n  {12} points: {13} damage, {14} in an arc\r\n  {15} points: {16} damage, {17} in an arc"
+            "3371155665": "Ваші автоатаки мають шанс перетворити наступний [Лютий укус] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nЗавершальний прийом, який розсікає ціль по широкій дузі, завдаючи їй фізичної шкоди за кожне очко серії та додатково витрачаючи до {1} од. енергії, щоб збільшити цю шкоду на {2}%. Вражає всіх інших ворогів перед вами, зменшуючи шкоду за кожне витрачене очко серії.\n\n{3} очко: {4} од. шкоди, {5} за дугу\n{6} очка: {7} од. шкоди, {8} за дугу\n{9} очка: {10} од. шкоди, {11} за дугу\n{12} очка: {13} од. шкоди, {14} за дугу\n{15} очок: {16} од. шкоди, {17} за дугу"
         }
     },
     "112988377": {
         "Name": "Обплутувальний вир",
         "Descriptions": {
-            "1108016154": "Enemies pulled into Ursol's Vortex are rooted in place for {1} sec. Damage may cancel the effect."
+            "1108016154": "Вороги, затягнуті у [Вир Урсола], вкорінюються на місці на {1} сек. Шкода може скасувати ефект."
         }
     },
     "701103412": {
@@ -2405,8 +2405,8 @@
     "315787923": {
         "Name": "Плідний ріст",
         "Descriptions": {
-            "4149307541": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing {1} Bleed damage over {2} sec.\r\n\r\nWild Growth, Regrowth, and Efflorescence healing has a chance to cause Symbiotic Blooms to grow on the target, healing for {3} over {4} sec.\r\n\r\nMultiple instances of these can overlap.",
-            "794260682": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing {1} Bleed damage over {2} sec.\r\n\r\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for {3} over {4} sec.\r\n\r\nMultiple instances of these can overlap."
+            "4149307541": "Шкода від [Розриву] та [Роздирання] має шанс проростити на цілі [Кровожерливі лози], що завдадуть {1} од. шкоди від кровотечі протягом {2} сек.\n\nЛікування від [Дикого росту], [Відновлення] та [Розквіту] має шанс проростити на цілі [Цілющий квіт], який відновить {3} од. здоров'я протягом {4} сек.\n\nЕфекти можуть накопичуватися.",
+            "794260682": "Шкода від [Розриву] та [Роздирання] має шанс проростити на цілі [Кровожерливі лози], що завдадуть {1} од. шкоди від кровотечі протягом {2} сек.\n\nЛікування від [Дикого росту] та [Відновлення] має шанс проростити на цілі [Цілющий квіт], який відновить {3} од. здоров'я протягом {4} сек.\n\nЕфекти можуть накопичуватися."
         }
     },
     "1269091732": {
