@@ -26,7 +26,7 @@
     "1187045601": {
         "Name": "Arcane Vigor",
         "Descriptions": {
-            "1374352315": "Shattering Star grants Essence Burst."
+            "1754453485": "Casting Shattering Star grants Essence Burst."
         }
     },
     "929313707": {
@@ -110,7 +110,7 @@
     "2062093491": {
         "Name": "Clobbering Sweep",
         "Descriptions": {
-            "1022402256": "Tail Swipe's cooldown is reduced by {1} sec."
+            "3081924093": "Tail Swipe's cooldown is reduced by {1} min."
         }
     },
     "4217064077": {
@@ -147,7 +147,8 @@
     "2387597067": {
         "Name": "Disintegrate",
         "Descriptions": {
-            "631501785": "Tear into an enemy with a blast of blue magic, inflicting {1} Spellfrost damage over {2} sec, and slowing their movement speed by {3}% for {4} sec."
+            "631501785": "Tear into an enemy with a blast of blue magic, inflicting {1} Spellfrost damage over {2} sec, and slowing their movement speed by {3}% for {4} sec.",
+            "989353190": "Disintegrate costs {1} Essence, but no longer has a cooldown."
         }
     },
     "3608812960": {
@@ -166,7 +167,7 @@
     "2412378877": {
         "Name": "Dream Breath",
         "Descriptions": {
-            "975953811": "Inhale, gathering the power of the Dream. Release to exhale, healing {1} injured allies in a {2} yd cone in front of you for {3}.\r\n\r\n{FFFFFFFF|I:}   Heals {4} instantly and {5} over {6} sec.\r\n\r\n{FFFFFFFF|II:}  Heals {7} instantly and {8} over {9} sec.\r\n\r\n{FFFFFFFF|III:} Heals {10} instantly and {11} over {12} sec."
+            "1432298750": "Inhale, gathering the power of the Dream. Release to exhale, healing yourself and {1} injured allies in a {2} yd cone in front of you for {3}.\r\n\r\n{FFFFFFFF|I:}   Heals {4} instantly and {5} over {6} sec.\r\n\r\n{FFFFFFFF|II:}  Heals {7} instantly and {8} over {9} sec.\r\n\r\n{FFFFFFFF|III:} Heals {10} instantly and {11} over {12} sec."
         }
     },
     "2220971585": {
@@ -190,7 +191,7 @@
     "3131127187": {
         "Name": "Echo",
         "Descriptions": {
-            "731329376": "Wrap an ally with temporal energy, healing them for {1} and causing your next non-Echo healing spell to cast an additional time on that ally at {2}% of normal healing."
+            "1027370604": "Wrap an ally with temporal energy, healing them for {1} and causing your next healing spell to cast an additional time on that ally at {2}% of normal healing. Essence spells cannot be Echoed."
         }
     },
     "1123008876": {
@@ -261,8 +262,8 @@
     "1142456747": {
         "Name": "Eternity Surge",
         "Descriptions": {
-            "3464224759": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds of the target when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemy.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies.",
-            "392001865": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds of the target when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemies.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies."
+            "197303467": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemy.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies.",
+            "2855515972": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemies.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies."
         }
     },
     "3823156816": {
@@ -396,7 +397,7 @@
     "2658207491": {
         "Name": "Heavy Wingbeats",
         "Descriptions": {
-            "1198678669": "Wing Buffet's cooldown is reduced by {1} sec."
+            "2089063058": "Wing Buffet's cooldown is reduced by {1} min."
         }
     },
     "126116016": {
@@ -617,7 +618,6 @@
     "1538070263": {
         "Name": "Permeating Chill",
         "Descriptions": {
-            "3425476399": "Disintegrate reduces the target's movement speed by {1}% for {2} sec.",
             "1087345099": "Your damaging Blue spells reduce the target's movement speed by {1}% for {2} sec."
         }
     },
@@ -686,7 +686,7 @@
     "2896275890": {
         "Name": "Rescue",
         "Descriptions": {
-            "1306300640": "Swoop to an ally and fly with them to the target location."
+            "1411113220": "Swoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally."
         }
     },
     "2571395763": {
@@ -747,7 +747,7 @@
     "830726100": {
         "Name": "Scouring Flame",
         "Descriptions": {
-            "2527060137": "Fire Breath burns away {1} beneficial Magic effect per empower level from all targets."
+            "2527060137": "Fire Breath burns away {1} beneficial Magic effect per empower level from all targets.\r\n"
         }
     },
     "4047416857": {
@@ -792,7 +792,7 @@
     "1469105336": {
         "Name": "Spiritbloom",
         "Descriptions": {
-            "1026780140": "Divert spiritual energy, healing an ally for {1}. Splits to injured allies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Heals one ally.\r\n\r\n{FFFFFFFF|II:}  Heals a second ally.\r\n\r\n{FFFFFFFF|III:} Heals a third ally."
+            "1385383766": "Divert spiritual energy, healing an ally for {1}. Jumps to injured allies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Heals one ally.\r\n\r\n{FFFFFFFF|II:}  Heals a second ally.\r\n\r\n{FFFFFFFF|III:} Heals a third ally."
         }
     },
     "2122303404": {
@@ -1006,8 +1006,7 @@
     "1329127873": {
         "Name": "Upheaval",
         "Descriptions": {
-            "1225170743": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius.",
-            "1390242974": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {2} yd radius.\r\n\r\n{FFFFFFFF|II:}  {3} yd radius.\r\n\r\n{FFFFFFFF|III:} {4} yd radius."
+            "1225170743": "Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing {1} Volcanic damage to the target and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.\r\n\r\nEmpowering expands the area of effect.\r\n\r\n{FFFFFFFF|I:}   {3} yd radius.\r\n\r\n{FFFFFFFF|II:}  {4} yd radius.\r\n\r\n{FFFFFFFF|III:} {5} yd radius."
         }
     },
     "188006984": {
@@ -1051,15 +1050,13 @@
     "2589229494": {
         "Name": "Breath of Eons",
         "Descriptions": {
-            "3019890032": "Fly to the targeted location, exposing Temporal Wounds on enemies in your path for {1} sec.\r\n\r\nTemporal Wounds accumulate {2}% of damage dealt by your allies affected by Ebon Might, then critically strike for that amount as Arcane damage.\r\n\r\nApplies Ebon Might for {3} sec.\r\n\r\nRemoves all root effects. You are immune to movement impairing and loss of control effects while flying.",
-            "3170641074": "Fly to the targeted location, exposing Temporal Wounds on enemies in your path for {1} sec.\r\n\r\nTemporal Wounds accumulate {2}% of damage dealt by your allies affected by Ebon Might, then critically strike for that amount as Arcane damage.\r\n\r\nRemoves all root effects. You are immune to movement impairing and loss of control effects while flying."
+            "3019890032": "Fly to the targeted location, exposing Temporal Wounds on enemies in your path for {1} sec.\r\n\r\nTemporal Wounds accumulate {2}% of damage dealt by your allies affected by Ebon Might, then critically strike for that amount as Arcane damage.\r\n\r\nApplies Ebon Might for {3} sec.\r\n\r\nRemoves all root effects. You are immune to movement impairing and loss of control effects while flying."
         }
     },
     "3489930300": {
         "Name": "Eruption",
         "Descriptions": {
-            "972997281": "Cause a violent eruption beneath an enemy's feet, dealing {1} Volcanic damage split between them and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec.",
-            "1020969302": "Cause a violent eruption beneath an enemy's feet, dealing {1} Volcanic damage split between them and nearby enemies."
+            "972997281": "Cause a violent eruption beneath an enemy's feet, dealing {1} Volcanic damage split between them and nearby enemies.\r\n\r\nIncreases the duration of your active Ebon Might effects by {2} sec."
         }
     },
     "3652626634": {
@@ -1089,7 +1086,7 @@
     "2419585197": {
         "Name": "Seismic Slam",
         "Descriptions": {
-            "2378408066": "Landslide causes enemies who are mid-air to be slammed to the ground, stunning them for {1} sec."
+            "3735704611": "Landslide causes enemies who are mid-air to be slammed to the ground, stunning them for {1} sec and Landslide's cooldown is reduced by {2} sec."
         }
     },
     "3298271677": {
@@ -1125,8 +1122,8 @@
     "2045686111": {
         "Name": "Ebon Might",
         "Descriptions": {
-            "492086481": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and prefers to imbue damage dealers.\r\n\r\nEruption, Deep Breath, and your empower spells extend the duration of these effects.",
-            "1003283004": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and prefers to imbue damage dealers.\r\n\r\nEruption, Breath of Eons, and your empower spells extend the duration of these effects."
+            "2609454036": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and does not affect tanks and healers.\r\n\r\nEruption, Deep Breath, and your empower spells extend the duration of these effects.",
+            "819820999": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and does not affect tanks and healers.\r\n\r\nEruption, Breath of Eons, and your empower spells extend the duration of these effects."
         }
     },
     "544520660": {
@@ -1269,7 +1266,7 @@
     "791998795": {
         "Name": "Mass Disintegrate",
         "Descriptions": {
-            "386509619": "Empower spells cause your next Disintegrate to strike up to {1} targets. When striking less than {2} targets, Disintegrate damage is increased by {3}% for each missing target."
+            "3205063133": "Empower spells cause your next Disintegrate to strike up to {1} targets. When striking fewer than {2} targets, Disintegrate damage is increased by {3}% for each missing target."
         }
     },
     "2452243066": {
@@ -1307,7 +1304,7 @@
     "3968664099": {
         "Name": "Scorching Embers",
         "Descriptions": {
-            "1105682433": "Fire Breath causes enemies to take {1}% increased damage from your Red spells."
+            "2293462244": "Fire Breath causes enemies to take up to {1}% increased damage from your Red spells, increased based on its empower level."
         }
     },
     "2599858667": {
@@ -1361,7 +1358,8 @@
     "1173409051": {
         "Name": "Titanic Precision",
         "Descriptions": {
-            "3394949599": "Living Flame and Azure Strike have {1} extra chance to trigger Essence Burst when they critically strike."
+            "3394949599": "Living Flame and Azure Strike have {1} extra chance to trigger Essence Burst when they critically strike.",
+            "1369428035": "Living Flame has {1} extra chance to trigger Essence Burst when it critically strikes."
         }
     },
     "3933213873": {
@@ -1503,13 +1501,6 @@
             "4204834675": "Essence Burst increases the effectiveness of your next Essence ability by {1}%."
         }
     },
-    "2090353550": {
-        "Name": "Traveling Flame",
-        "Descriptions": {
-            "2449325530": "Engulf increases the duration of Fire Breath or Dream Breath by {1} sec and causes it to spread to a target within {2} yds.",
-            "2713551721": "Engulf increases the duration of Fire Breath by {1} sec and causes it to spread to a target within {2} yds."
-        }
-    },
     "2926849442": {
         "Name": "Chrono Flame",
         "Descriptions": {
@@ -1544,7 +1535,6 @@
     "1814238248": {
         "Name": "Conduit of Flame",
         "Descriptions": {
-            "1455463606": "Critical strike chance against targets below {1}% health increased by {2}%.",
             "3223868311": "Critical strike chance against targets above {1}% health increased by {2}%."
         }
     },
@@ -1557,7 +1547,7 @@
     "974082029": {
         "Name": "Molten Embers",
         "Descriptions": {
-            "179262959": "Fire Breath causes enemies to take {1}% increased damage from your Black spells."
+            "698025500": "Fire Breath causes enemies to take up to {1}% increased damage from your Black spells, increased based on its empower level."
         }
     },
     "1868823194": {
@@ -1577,6 +1567,13 @@
         "Name": "Might of the Black Dragonflight",
         "Descriptions": {
             "123783361": "Black spells deal {1}% increased damage."
+        }
+    },
+    "4164169481": {
+        "Name": "Flame Siphon",
+        "Descriptions": {
+            "2840578587": "Engulf reduces the cooldown of Fire Breath by {1} sec.",
+            "439247582": "Engulf reduces the cooldown of Fire Breath and Dream Breath by {1} sec."
         }
     }
 }

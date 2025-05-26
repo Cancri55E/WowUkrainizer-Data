@@ -68,16 +68,16 @@
     "406892778": {
         "Name": "Ascendance",
         "Descriptions": {
-            "186472567": "Transform into a Flame Ascendant for {1} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\r\n\r\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {2} sec.",
             "1649278504": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range.",
             "2437272221": "Transform into a Water Ascendant, duplicating all healing you deal at {1}% effectiveness for {2} sec and immediately healing for {3}. Ascendant healing is distributed evenly among allies within {4} yds.",
-            "56052065": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range.\r\n\r\nWhile Ascendance is active, generate {6} Maelstrom Weapon [plural|stack|stacks] every {7} sec."
+            "56052065": "Transform into an Air Ascendant for {1} sec, immediately dealing {2} Nature damage to any enemy within {3} yds, reducing the cooldown and cost of Stormstrike by {4}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {5} yd range.\r\n\r\nWhile Ascendance is active, generate {6} Maelstrom Weapon [plural|stack|stacks] every {7} sec.",
+            "3939686072": "Transform into a Flame Ascendant for {1} sec, instantly casting a Flame Shock and a {2}% effectiveness Lava Burst at up to {3} nearby enemies.\r\n\r\nWhile ascended, Elemental Overload damage is increased by {4}% and spells affected by your Mastery: Elemental Overload cause {5} additional Elemental [plural|Overload|Overloads]."
         }
     },
     "308768543": {
         "Name": "Ashen Catalyst",
         "Descriptions": {
-            "1735378673": "Each time Flame Shock deals periodic damage, increase the damage of your next Lava Lash by {1}% and reduce the cooldown of Lava Lash by {2} sec."
+            "3194237247": "Each time Flame Shock deals periodic damage, it increases the damage of your next Lava Lash by {1}% up to {2}%, and reduces the cooldown of your Lava Lash by {3} sec."
         }
     },
     "3974889854": {
@@ -127,7 +127,11 @@
         "Descriptions": {
             "365399001": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.",
             "3462276661": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\n{FFFFFFFF|Generates {3} Maelstrom per target hit.}",
-            "2094994230": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\r\n\r\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec."
+            "2094994230": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\r\n\r\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec.",
+            "3255082216": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed and damage.}",
+            "3277501149": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\r\n\r\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed and damage.}",
+            "1965585470": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed.}",
+            "3916472633": "Hurls a lightning bolt at the enemy, dealing {1} Nature damage and then jumping to additional nearby enemies. Affects {2} total targets.\r\n\r\nIf Chain Lightning hits more than {3} target, each target hit by your Chain Lightning increases the damage of your next Crash Lightning by {4}%.\r\n\r\nEach target hit by Chain Lightning reduces the cooldown of Crash Lightning by {5} sec.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed.}"
         }
     },
     "3757208043": {
@@ -164,7 +168,7 @@
     "109455662": {
         "Name": "Crashing Storms",
         "Descriptions": {
-            "1344910489": "Crash Lightning damage increased by {1}%.\r\nChain Lightning now jumps to {2} extra targets."
+            "1344910489": "Crash Lightning damage increased by {1}%.\r\n\r\nChain Lightning now jumps to {2} extra targets."
         }
     },
     "3242093795": {
@@ -182,12 +186,10 @@
     "1278151108": {
         "Name": "Deeply Rooted Elements",
         "Descriptions": {
-            "3947747445": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.\r\n\r\nWhile Ascendance is active, generate {8} Maelstrom Weapon [plural|stack|stacks] every {9} sec.",
-            "267746997": "Using Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.",
-            "4078924896": "Casting Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.\r\n\r\nWhile Ascendance is active, generate {8} Maelstrom Weapon [plural|stack|stacks] every {9} sec.",
-            "2917610788": "Casting Stormstrike has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.",
-            "2236314289": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into a Water Ascendant, duplicating all healing you deal at {3}% effectiveness for {4} sec and immediately healing for {5}. Ascendant healing is distributed evenly among allies within {6} yds.",
-            "2808140156": "Casting Lava Burst has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\n\r\nTransform into a Flame Ascendant for {3} sec, replacing Chain Lightning with Lava Beam, removing the cooldown on Lava Burst, and increasing the damage of Lava Burst by an amount equal to your critical strike chance.\r\n\r\nWhen you transform into the Flame Ascendant, instantly cast a Lava Burst at all enemies affected by your Flame Shock, and refresh your Flame Shock durations to {4} sec."
+            "3155746298": "Each Maelstrom spent has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\nTransform into a Flame Ascendant for {3} sec, instantly casting a Flame Shock and a {4}% effectiveness Lava Burst at up to {5} nearby enemies.\r\n\r\nWhile ascended, Elemental Overload damage is increased by {6}% and spells affected by your Mastery: Elemental Overload cause {7} additional Elemental [plural|Overload|Overloads].",
+            "3959967456": "Each stack of Maelstrom Weapon consumed has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.",
+            "2901533888": "Each stack of Maelstrom Weapon consumed has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\nTransform into an Air Ascendant for {3} sec, immediately dealing {4} Nature damage to any enemy within {5} yds, reducing the cooldown and cost of Stormstrike by {6}%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a {7} yd range.\r\n\r\nWhile Ascendance is active, generate {8} Maelstrom Weapon [plural|stack|stacks] every {9} sec.",
+            "2236314289": "Casting Riptide has a {1}% chance to activate Ascendance for {2} sec.\r\n\r\n|T135791:24|t {ffffffff|Ascendance}\r\nTransform into a Water Ascendant, duplicating all healing you deal at {3}% effectiveness for {4} sec and immediately healing for {5}. Ascendant healing is distributed evenly among allies within {6} yds."
         }
     },
     "594853292": {
@@ -199,13 +201,16 @@
     "1028254503": {
         "Name": "Doom Winds",
         "Descriptions": {
-            "1776687123": "Strike your target for {1} Physical damage, increase your chance to activate Windfury Weapon by {2}%, and increases damage dealt by Windfury Weapon by {3}% for {4} sec.\r\n"
+            "2115659250": "Unleash a devastating storm around yourself, dealing {1} Stormstrike damage every {2} sec to nearby enemies for {3} sec.\r\n\r\nIncreases your chance to activate Windfury Weapon by {4}%, and the damage of Windfury Weapon by {5}%.\r\n"
         }
     },
     "3230919591": {
         "Name": "Downpour",
         "Descriptions": {
-            "3508689510": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec."
+            "3508689510": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec.",
+            "1128668271": "Casting Healing Rain has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Surging Totem's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec.",
+            "1544107035": "Casting Surging Totem has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Healing Rain's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec.",
+            "3108089624": "Casting Surging Totem has a {1}% chance to activate Downpour, allowing you to cast Downpour within {2} sec.\r\n\r\n|T1698701:24|t {ffffffff|Downpour}\r\nA burst of water at your Surging Totem's location heals up to {3} injured allies within {4} yards for {5} and increases their maximum health by {6}% for {7} sec."
         }
     },
     "1572811743": {
@@ -217,8 +222,10 @@
     "4108205863": {
         "Name": "Earth Shield",
         "Descriptions": {
-            "1054347865": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\r\n\r\nEarth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.",
-            "2192426463": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every few seconds. Maximum {3} charges.\r\n\r\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them."
+            "2869491919": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every {3} sec. Maximum {4} charges.\r\n\r\nEarth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.",
+            "3294751115": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every {3} sec. Lasts {4} hour.\r\n\r\nEarth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.",
+            "2776346461": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every {3} sec. Maximum {4} charges.\r\n\r\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them.",
+            "636337197": "Protects the target with an earthen shield, increasing your healing on them by {1}% and healing them for {2} when they take damage. This heal can only occur once every {3} sec. Lasts {4} hour.\r\n\r\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them."
         }
     },
     "3952445868": {
@@ -319,7 +326,7 @@
     "4165417712": {
         "Name": "Elemental Spirits",
         "Descriptions": {
-            "4165280804": "Your Feral Spirits are now imbued with Fire, Frost, or Lightning, increasing your damage dealt with that element by {1}%."
+            "2541378455": "Your Feral Spirits are now imbued with Fire, Frost, or Lightning, increasing your damage dealt with that element by {1}%, but now only increase your Physical damage dealt by {2}%."
         }
     },
     "1447462384": {
@@ -355,10 +362,8 @@
     "898598183": {
         "Name": "Feral Spirit",
         "Descriptions": {
-            "1424990811": "Summons two Elemental Spirit Wolves that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Fire, Frost, or Nature damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec.",
-            "404355601": "Summons two Spirit Wolves that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Feral Spirit summoned grants you {2}% increased Physical damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec.",
             "3174510217": "Summons two Spirit Raptors that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Feral Spirit summoned grants you {2}% increased Physical damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec.",
-            "641150116": "Summons two Elemental Spirit Raptors that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Fire, Frost, or Nature damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {3} sec for {4} sec."
+            "1124548687": "Summons two Elemental Spirit Raptors that aid you in battle for {1} sec. They are immune to movement-impairing effects, and each Elemental Feral Spirit summoned grants you {2}% increased Physical and {3}% increased Fire, Frost, or Nature damage dealt by your abilities.\r\n\r\nFeral Spirit generates one stack of Maelstrom Weapon immediately, and one stack every {4} sec for {5} sec."
         }
     },
     "765415780": {
@@ -384,7 +389,8 @@
         "Name": "Flame Shock",
         "Descriptions": {
             "137143167": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.",
-            "1170811009": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Volcanic damage and knocking them into the air."
+            "1170811009": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Volcanic damage and knocking them into the air.",
+            "1688952353": "Sears the target with fire, causing {1} Volcanic damage and then an additional {2} Volcanic damage over {3} sec.\r\n\r\nFlame Shock can be applied to a maximum of {4} targets.\r\n\r\nIf Flame Shock is dispelled, a volcanic eruption wells up beneath the dispeller, exploding for {5} Volcanic damage and knocking them into the air.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}"
         }
     },
     "1975850959": {
@@ -404,13 +410,8 @@
     "1289581319": {
         "Name": "Flash of Lightning",
         "Descriptions": {
-            "376729724": "Increases the critical strike chance of Lightning Bolt and Chain Lightning by {1}%.\r\n\r\nCasting Lightning Bolt or Chain Lightning reduces the cooldown of your Nature spells by {2} sec."
-        }
-    },
-    "483606635": {
-        "Name": "Flow of Power",
-        "Descriptions": {
-            "2940060207": "Increases the Maelstrom generated by Lightning Bolt and Lava Burst by {1}."
+            "2571927754": "Increases the critical strike chance of Lightning Bolt and Chain Lightning by {1}%.",
+            "1823672039": "Increases the critical strike chance of Lightning Bolt, Tempest, and Chain Lightning by {1}%."
         }
     },
     "1538756444": {
@@ -440,7 +441,8 @@
     "607273375": {
         "Name": "Frost Shock",
         "Descriptions": {
-            "3918196408": "Chills the target with frost, causing {1} Frost damage and reducing the target's movement speed by {2}% for {3} sec."
+            "3918196408": "Chills the target with frost, causing {1} Frost damage and reducing the target's movement speed by {2}% for {3} sec.",
+            "3150041515": "Chills the target with frost, causing {1} Frost damage and reducing the target's movement speed by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Maelstrom.}"
         }
     },
     "2262045485": {
@@ -497,13 +499,17 @@
         "Descriptions": {
             "1282400814": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Cloudburst Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Cloudburst Totem}.",
             "2921649360": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Healing Stream Totem}.",
-            "3852081821": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Healing Stream Totem}."
+            "3852081821": "Summons a totem at your feet for {1} sec that heals an injured party or raid member within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Healing Stream Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Healing Stream Totem}.",
+            "257033926": "Summons a totem at your feet for {1} sec that heals two injured party or raid members within {2} yards for {3} every {4} sec.\r\n\r\nIf you already know {ffffffff|Cloudburst Totem}, instead gain {5} additional [plural|charge|charges] of {ffffffff|Cloudburst Totem}."
         }
     },
     "656918334": {
         "Name": "Healing Surge",
         "Descriptions": {
-            "416400678": "A quick surge of healing energy that restores {1} of a friendly target's health."
+            "416400678": "A quick surge of healing energy that restores {1} of a friendly target's health.",
+            "2196382039": "A quick surge of healing energy that restores {1} of a friendly target's health.\r\n\r\n{FFFFFFFF|Consumes Stormweaver for increased cast speed and healing.}",
+            "816221611": "A quick surge of healing energy that restores {1} of a friendly target's health.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed and healing.}",
+            "835837596": "A quick surge of healing energy that restores {1} of a friendly target's health.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed.}"
         }
     },
     "858393416": {
@@ -553,14 +559,15 @@
     "2332207690": {
         "Name": "Ice Strike",
         "Descriptions": {
-            "788080594": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\r\n\r\nIce Strike increases the damage of your next Frost Shock by {4}%.",
-            "325115602": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\r\n\r\nIce Strike increases the damage of your next Frost Shock by {4}% and generates {5} [plural|stack|stacks] of Maelstrom Weapon."
+            "3791037679": "Strike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\r\n\r\nIce Strike increases the damage of your next Frost Shock by {4}% and generates {5} stack of Maelstrom Weapon.",
+            "2802747863": "Whenever you spend Maelstrom Weapon, your Frost Shock has a chance to become Ice Strike.\r\n\r\n|T135845:24|t{ffffffff|Ice Strike}\r\nStrike your target with an icy blade, dealing {1} Frost damage and snaring them by {2}% for {3} sec.\r\n\r\nIce Strike increases the damage of your next Frost Shock by {4}% and generates {5} stack of Maelstrom Weapon.\r\n\r\n{FFFFFFFF|This ability has a {6} yard range.}"
         }
     },
     "1613585076": {
         "Name": "Icefury",
         "Descriptions": {
-            "2557897040": "Casting Lava Burst has a chance to replace your next Frost Shock with Icefury, stacking up to {1} times.\r\n\r\n|T135855:24|t {ffffffff|Icefury}\r\nHurls frigid ice at the target, dealing {2} Frost damage and causing your next {3} Frost Shocks to deal {4}% increased damage and generate {5} Maelstrom.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}"
+            "1316000878": "Casting Lightning Bolt, Lava Burst, or Chain Lightning has a chance to replace your next Frost Shock with Icefury, stacking up to {1} times.\r\n\r\n|T135855:24|t {ffffffff|Icefury}\r\nHurls frigid ice at the target, dealing {2} Frost damage and causing your next Frost Shock to deal {3}% increased damage, damage {4} additional [plural|Target|targets], and generate {5} additional Maelstrom.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}",
+            "1075588890": "Casting Lightning Bolt, Tempest, Lava Burst, or Chain Lightning has a chance to replace your next Frost Shock with Icefury, stacking up to {1} times.\r\n\r\n|T135855:24|t {ffffffff|Icefury}\r\nHurls frigid ice at the target, dealing {2} Frost damage and causing your next Frost Shock to deal {3}% increased damage, damage {4} additional [plural|Target|targets], and generate {5} additional Maelstrom.\r\n\r\n{FFFFFFFF|Generates {6} Maelstrom.}"
         }
     },
     "3514949847": {
@@ -596,7 +603,7 @@
     "230139073": {
         "Name": "Lashing Flames",
         "Descriptions": {
-            "2839978596": "Lava Lash increases the damage of Flame Shock on its target by {1}% for {2} sec."
+            "1322017446": "Lava Lash and Sundering increases the damage of Flame Shock on its target by {1}% for {2} sec."
         }
     },
     "2813945828": {
@@ -618,8 +625,7 @@
     "4091447054": {
         "Name": "Lava Surge",
         "Descriptions": {
-            "3275090291": "Flame Shock periodic damage has a chance to reset the remaining cooldown on Lava Burst and cause your next Lava Burst to be instant.",
-            "3615873763": "Flame Shock periodic damage has a chance to reduce the cast time of your next Lightning Bolt, Chain Lightning, or Lava Burst by {1}%, stacking up to {2} times."
+            "3275090291": "Flame Shock periodic damage has a chance to reset the remaining cooldown on Lava Burst and cause your next Lava Burst to be instant."
         }
     },
     "3835526860": {
@@ -633,7 +639,9 @@
         "Descriptions": {
             "49186552": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.\r\n\r\n{FFFFFFFF|Generates {2} Maelstrom.}",
             "3278199822": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.",
-            "17672930": "Reduces the cast time of Lightning Bolt by {1} sec."
+            "17672930": "Reduces the cast time of Lightning Bolt by {1} sec.",
+            "2305466872": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed and damage.}",
+            "2438058769": "Hurls a bolt of lightning at the target, dealing {1} Nature damage.\r\n\r\n{FFFFFFFF|Consumes Maelstrom Weapon for increased cast speed.}"
         }
     },
     "1026363033": {
@@ -645,9 +653,8 @@
     "2751795956": {
         "Name": "Lightning Rod",
         "Descriptions": {
-            "493782148": "Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
-            "3065407240": "Lightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
-            "2058388736": "Tempest, Lightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning."
+            "2539035482": "Tempest, Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Tempest, Lightning Bolt, and Chain Lightning.",
+            "493782148": "Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning."
         }
     },
     "4028296730": {
@@ -664,7 +671,8 @@
     "1416690917": {
         "Name": "Liquid Magma Totem",
         "Descriptions": {
-            "2747216895": "Summons a totem at the target location that erupts dealing {1} Fire damage and applying Flame Shock to {2} enemies within {3} yards. Continues hurling liquid magma at a random nearby target every {4} sec for {5} sec, dealing {6} Fire damage to all enemies within {7} yards.\r\n"
+            "1813443482": "Summons a totem at the target location that erupts dealing {1} Fire damage and applying Flame Shock to {2} enemies within {3} yards. Continues hurling liquid magma at a random nearby target every {4} sec for {5} sec, dealing {6} Fire damage to all enemies within {7} yards.\r\n\r\n{FFFFFFFF|Generates {8} Maelstrom.}",
+            "2747216895": "Summons a totem at the target location that erupts dealing {1} Fire damage and applying Flame Shock to {2} enemies within {3} yards. Continues hurling liquid magma at a random nearby target every {4} sec for {5} sec, dealing {6} Fire damage to all enemies within {7} yards."
         }
     },
     "831431100": {
@@ -710,7 +718,6 @@
         "Name": "Master of the Elements",
         "Descriptions": {
             "1785869771": "Casting Lava Burst increases the damage or healing of your next Nature, Physical, or Frost spell by {1}%.",
-            "1529858281": "Casting Lava Burst increases the damage or healing of your next Nature or Frost spell by {1}%.",
             "969055695": "Casting Lava Burst increases the healing of your next Healing Surge by {1}%, stacking up to {2} times.\r\n\r\nHealing Surge applies Flame Shock to a nearby enemy when empowered by Master of the Elements."
         }
     },
@@ -725,28 +732,25 @@
         "Descriptions": {
             "967234701": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
             "3953349496": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Tempest, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
-            "341316585": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Elemental Blast, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
             "2934924835": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Icefury, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
-            "1563828436": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Elemental Blast, Icefury, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
             "4243270121": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
             "511288667": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Tempest, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
-            "663476623": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Elemental Blast, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
             "66217035": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Icefury, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
-            "2274017335": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Elemental Blast, Icefury, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom."
+            "927026454": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Tempest, Icefury, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom.",
+            "2640754098": "Increases all Elemental and Physical damage by {1}%.\r\n\r\nYour Lightning Bolt, Tempest, Icefury, Lava Burst, and Chain Lightning casts have a {2}% chance to trigger a second cast on the same target, dealing {3}% of normal damage and generating less Maelstrom."
         }
     },
     "3879827352": {
         "Name": "Mastery: Enhanced Elements",
         "Descriptions": {
-            "2619669163": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormbringer}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike.",
-            "4096537635": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.",
-            "762642276": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormbringer}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {4}% additional damage as Nature damage."
+            "1119942609": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormsurge}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike.",
+            "1909162484": "Increases your chance to trigger Stormbringer and Windfury Weapon by {1}%, and increases all Fire, Frost, and Nature damage you deal by {2}%.\r\n\r\n|T136099:24|t {ffffffff|Stormsurge}\r\nYour special attacks have a {3}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {4}% additional damage as Nature damage."
         }
     },
     "3868447527": {
         "Name": "Molten Assault",
         "Descriptions": {
-            "3294488617": "Lava Lash cooldown reduced by {1} sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to {2} enemies near the target."
+            "2067973328": "Lava Lash cooldown reduced by {1} sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to {2} nearby enemies."
         }
     },
     "541839849": {
@@ -795,7 +799,8 @@
     "883147220": {
         "Name": "Power of the Maelstrom",
         "Descriptions": {
-            "1201448962": "Casting Lava Burst has a {1}% chance to cause your next Lightning Bolt or Chain Lightning cast to trigger Elemental Overload an additional time, stacking up to {2} times."
+            "1201448962": "Casting Lava Burst has a {1}% chance to cause your next Lightning Bolt or Chain Lightning cast to trigger Elemental Overload an additional time, stacking up to {2} times.",
+            "1986713255": "Casting Lava Burst has a {1}% chance to cause your next Lightning Bolt, Tempest, or Chain Lightning cast to trigger Elemental Overload an additional time, stacking up to {2} times."
         }
     },
     "1269760091": {
@@ -840,19 +845,10 @@
             "1727607424": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {3}% of normal damage.",
             "3149722174": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {3}% of normal damage.",
             "3727459360": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2} and apply Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {3}% of normal healing.",
-            "808266210": "Blast your target with a Primordial Wave, dealing {1} Shadow damage and apply Flame Shock to an enemy, or heal an ally for {2}.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {3}% of normal damage.",
-            "1604988669": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.",
-            "2937203621": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage.",
-            "2127413528": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.",
-            "2836479792": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing.",
-            "982822938": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon.",
-            "1062767694": "Blast your target with a Primordial Wave, dealing {1} Elemental damage and applying Flame Shock to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon.",
-            "1168589703": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.",
-            "2500804643": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Lava Burst will also hit all targets affected by your Flame Shock for {2}% of normal damage.",
-            "2614030617": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.",
-            "2400080826": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal healing.",
-            "1760880018": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Healing Wave will also hit all targets affected by your Riptide for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon.",
-            "2757296000": "Blast your target with a Primordial Wave, healing them for {1} and applying Riptide to them.\r\n\r\nYour next Lightning Bolt will also hit all targets affected by your Flame Shock for {2}% of normal damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon."
+            "2293560284": "Blast all targets affected by your Flame Shock within {1} yards with a Primordial Wave, dealing {2} Elemental damage.\r\n\r\nPrimordial Wave generates {3} stacks of Maelstrom Weapon.",
+            "1042923982": "Blast all targets affected by your Flame Shock within {1} yards with a Primordial Wave, dealing {2} Elemental damage, and granting you Lava Surge.",
+            "145156620": "Blast all targets affected by your Flame Shock within {1} yards with a Primordial Wave, dealing {2} Elemental damage, and granting you Lava Surge.\r\n\r\n{FFFFFFFF|Generates {3} Maelstrom.}",
+            "4018079959": "Blast all friendly targets affected by your Riptide within {1} yards with a Primordial Wave, healing them for {2}."
         }
     },
     "469232920": {
@@ -924,12 +920,6 @@
             "2800037797": "Your Bloodlust spell now has a {1} sec. cooldown, but increases Haste by {2}%, and only affects you and your friendly target when cast for {3} sec.\r\n\r\nIn addition, Bloodlust is no longer affected by Sated."
         }
     },
-    "651181811": {
-        "Name": "Skybreaker's Fiery Demise",
-        "Descriptions": {
-            "1384164067": "Flame Shock damage over time critical strikes reduce the cooldown of your Fire and Storm Elemental by {1} sec, and Flame Shock has a {2}% increased critical strike chance."
-        }
-    },
     "2173514084": {
         "Name": "Spirit Link Totem",
         "Descriptions": {
@@ -964,21 +954,20 @@
     "1409141641": {
         "Name": "Spiritwalker's Tidal Totem",
         "Descriptions": {
-            "3650642956": "After using Mana Tide Totem, the cast time of your next {1} Healing Surges within {2} sec is reduced by {3}% and their mana cost is reduced by {4}%."
+            "2098981763": "After using Healing Tide Totem, the cast time of your next {1} Healing Surges within {2} sec is reduced by {3}% and their mana cost is reduced by {4}%."
         }
     },
     "1833671347": {
         "Name": "Splintered Elements",
         "Descriptions": {
-            "1180828056": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Lightning Bolt generated by Primordial Wave for {3} sec.",
-            "3042146218": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Lava Burst generated by Primordial Wave for {3} sec.",
-            "721833502": "Primordial Wave grants you {1}% Haste plus {2}% for each additional Healing Wave generated by Primordial Wave for {3} sec."
+            "3381624748": "Primordial Wave grants you {1}% Haste plus {2}% for each additional targets blasted by Primordial Wave for {3} sec."
         }
     },
     "1605398075": {
         "Name": "Static Accumulation",
         "Descriptions": {
-            "1650591702": "{1}% chance to refund Maelstrom Weapon stacks spent on Lightning Bolt or Chain Lightning.\r\n\r\nWhile Ascendance is active, generate {2} Maelstrom Weapon [plural|stack|stacks] every {3} sec."
+            "1650591702": "{1}% chance to refund Maelstrom Weapon stacks spent on Lightning Bolt or Chain Lightning.\r\n\r\nWhile Ascendance is active, generate {2} Maelstrom Weapon [plural|stack|stacks] every {3} sec.",
+            "3198401221": "{1}% chance to refund Maelstrom Weapon stacks spent on Lightning Bolt, Tempest, or Chain Lightning.\r\n\r\nWhile Ascendance is active, generate {2} Maelstrom Weapon [plural|stack|stacks] every {3} sec."
         }
     },
     "4230597799": {
@@ -996,19 +985,20 @@
     "3170411094": {
         "Name": "Storm Elemental",
         "Descriptions": {
-            "3988532462": "Calls forth a Greater Storm Elemental to hurl gusts of wind that damage the Shaman's enemies for {1} sec.\r\n\r\nWhile the Storm Elemental is active, each time you cast Lightning Bolt or Chain Lightning, the cast time of Lightning Bolt and Chain Lightning is reduced by {2}%, stacking up to {3} times."
+            "537306504": "Calls forth a Greater Storm Elemental to hurl gusts of wind at your enemies for {1} sec.\r\n\r\nWhile the Storm Elemental is active, casting Lightning Bolt or Chain Lightning increases your haste by {2}%, stacking up to {3} times.",
+            "1917893088": "Calls forth a Greater Storm Elemental to hurl gusts of wind at your enemies for {1} sec.\r\n\r\nWhile the Storm Elemental is active, casting Lightning Bolt, Tempest, or Chain Lightning increases your haste by {2}%, stacking up to {3} times."
         }
     },
     "2333800347": {
         "Name": "Storm's Wrath",
         "Descriptions": {
-            "51455764": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormbringer by {1}%. "
+            "1399820618": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormsurge by {1}%. "
         }
     },
     "2931461522": {
         "Name": "Stormblast",
         "Descriptions": {
-            "246142688": "Stormbringer now also causes your next Stormstrike to deal {1}% additional damage as Nature damage."
+            "969493348": "Stormstrike has an additional charge.\r\n\r\nStormsurge now also causes your next Stormstrike to deal {1}% additional damage as Nature damage, stacking up to {2} times."
         }
     },
     "3761202576": {
@@ -1020,8 +1010,7 @@
     "3893648249": {
         "Name": "Stormkeeper",
         "Descriptions": {
-            "375557615": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.",
-            "2597076407": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target.\r\n\r\nIf you already know {ffffffff|Stormkeeper}, instead gain {4} additional [plural|charge|charges] of {ffffffff|Stormkeeper}."
+            "375557615": "Charge yourself with lightning, causing your next {1} Lightning Bolts to deal {2}% more damage, and also causes your next {3} Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload on every target."
         }
     },
     "440947055": {
@@ -1040,7 +1029,8 @@
     "1345740269": {
         "Name": "Surge of Power",
         "Descriptions": {
-            "3150552537": "Earth Shock, Elemental Blast, and Earthquake enhance your next spell cast within {1} sec:\r\n\r\n{FFFFFFFF|Flame Shock}: The next cast also applies Flame Shock to {2} additional target within {3} yards of the target.\r\n\r\n{FFFFFFFF|Lightning Bolt}: Your next cast will cause {4} additional Elemental Overload$L:s;.\r\n\r\n{FFFFFFFF|Chain Lightning}: Your next cast will chain to {5} additional target.\r\n\r\n{FFFFFFFF|Lava Burst}: Reduces the cooldown of your Fire and Storm Elemental by {6} sec.\r\n\r\n{FFFFFFFF|Frost Shock}: Freezes the target in place for {7} sec."
+            "3150552537": "Earth Shock, Elemental Blast, and Earthquake enhance your next spell cast within {1} sec:\r\n\r\n{FFFFFFFF|Flame Shock}: The next cast also applies Flame Shock to {2} additional target within {3} yards of the target.\r\n\r\n{FFFFFFFF|Lightning Bolt}: Your next cast will cause {4} additional Elemental Overload$L:s;.\r\n\r\n{FFFFFFFF|Chain Lightning}: Your next cast will chain to {5} additional target.\r\n\r\n{FFFFFFFF|Lava Burst}: Reduces the cooldown of your Fire and Storm Elemental by {6} sec.\r\n\r\n{FFFFFFFF|Frost Shock}: Freezes the target in place for {7} sec.",
+            "3215342600": "Earth Shock, Elemental Blast, and Earthquake enhance your next spell cast within {1} sec:\r\n\r\n{FFFFFFFF|Flame Shock}: The next cast also applies Flame Shock to {2} additional target within {3} yards of the target.\r\n\r\n{FFFFFFFF|Lightning Bolt or Tempest}: Your next cast will cause {4} additional Elemental Overload$L:s;.\r\n\r\n{FFFFFFFF|Chain Lightning}: Your next cast will chain to {5} additional target.\r\n\r\n{FFFFFFFF|Lava Burst}: Reduces the cooldown of your Fire and Storm Elemental by {6} sec.\r\n\r\n{FFFFFFFF|Frost Shock}: Freezes the target in place for {7} sec."
         }
     },
     "3729211089": {
@@ -1052,19 +1042,21 @@
     "2039642690": {
         "Name": "Swirling Maelstrom",
         "Descriptions": {
-            "3264240512": "Consuming at least {1} [plural|stack|stacks] of Hailstorm, using Ice Strike, and each explosion from Fire Nova now also grants you {2} [plural|stack|stacks] of Maelstrom Weapon."
+            "598074450": "Consuming at least {1} [plural|stack|stacks] of Hailstorm, and each explosion from Fire Nova now also grants you {2} [plural|stack|stacks] of Maelstrom Weapon."
         }
     },
     "3279631055": {
         "Name": "Thorim's Invocation",
         "Descriptions": {
-            "813094029": "Lightning Bolt and Chain Lightning damage increased by {1}%.\r\n\r\nWhile Ascendance is active, Windstrike automatically consumes up to {2} Maelstrom Weapon stacks to discharge a Lightning Bolt or Chain Lightning at {3}% effectiveness at your enemy, whichever you most recently used."
+            "1706132079": "Increases the damage of Lightning Bolt and Chain Lightning by {1}%, reduces the cooldown of Ascendance by {2} sec, and causes Deeply Rooted Elements to last {3} sec longer.\r\n\r\nWhile Ascendance is active, Windstrike automatically consumes up to {4} Maelstrom Weapon stacks to discharge a Lightning Bolt or Chain Lightning at {5}% effectiveness at your enemy, whichever you most recently used.",
+            "1855791403": "Increases the damage of Lightning Bolt and Chain Lightning by {1}%, and Deeply Rooted Elements lasts {2} sec longer.\r\n\r\nWhile Ascendance is active, Windstrike automatically consumes up to {3} Maelstrom Weapon stacks to discharge a Lightning Bolt or Chain Lightning at {4}% effectiveness at your enemy, whichever you most recently used.",
+            "351072395": "Increases the damage of Lightning Bolt and Chain Lightning by {1}%, and reduces the cooldown of Ascendance by {2} sec.\r\n\r\nWhile Ascendance is active, Windstrike automatically consumes up to {3} Maelstrom Weapon stacks to discharge a Lightning Bolt or Chain Lightning at {4}% effectiveness at your enemy, whichever you most recently used."
         }
     },
     "2763022005": {
         "Name": "Thunderous Paws",
         "Descriptions": {
-            "1961422812": "Ghost Wolf removes snares and increases your movement speed by an additional {1}% for the first {2} sec. May only occur once every {3}ldown sec."
+            "3334739271": "Ghost Wolf removes snares and increases your movement speed by an additional {1}% for the first {2} sec. May only occur once every {3} sec."
         }
     },
     "513552281": {
@@ -1109,7 +1101,6 @@
         "Descriptions": {
             "3631544022": "Increases the radius of your totem effects by {1}%.\r\n\r\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\r\n\r\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by {3} sec.",
             "670774397": "Increases the radius of your totem effects by {1}%.\r\n\r\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\r\n\r\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, Ancestral Protection, Earthen Wall, and Wind Rush Totems by {3} sec.",
-            "2227440548": "Increases the radius of your totem effects by {1}%.\r\n\r\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\r\n\r\nIncreases the duration of your Cloudburst, Tremor, Poison Cleansing, and Wind Rush Totems by {3} sec.",
             "4150831115": "Increases the radius of your totem effects by {1}%.\r\n\r\nIncreases the duration of your Earthbind and Earthgrab Totems by {2} sec.\r\n\r\nIncreases the duration of your Cloudburst, Tremor, Poison Cleansing, Ancestral Protection, Earthen Wall, and Wind Rush Totems by {3} sec."
         }
     },
@@ -1168,12 +1159,6 @@
             "4032740615": "Unleash your Elemental Shield's energy on an enemy target:\r\n\r\n|T136051:24|t{ffffffff|Lightning Shield}: Knocks them away.\r\n\r\n|T136089:24|t{ffffffff|Earth Shield}: Roots them in place for {1} sec.\r\n\r\n|T132315:24|t{ffffffff|Water Shield}: Summons a whirlpool for {2} sec, reducing damage and healing by {3}% while they stand within it."
         }
     },
-    "524503257": {
-        "Name": "Unrelenting Calamity",
-        "Descriptions": {
-            "1099182392": "Reduces the cast time of Lightning Bolt and Chain Lightning by {1} sec.\r\n\r\nIncreases the duration of Earthquake by {2} sec."
-        }
-    },
     "3997933934": {
         "Name": "Unruly Winds",
         "Descriptions": {
@@ -1189,8 +1174,8 @@
     "494164703": {
         "Name": "Water Shield",
         "Descriptions": {
-            "2906482612": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every few seconds. \r\n\r\nThe Shaman can have up to two Elemental Shields active on them.",
-            "3644208052": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every few seconds. \r\n\r\nOnly one of your Elemental Shields can be active on you at once."
+            "826843888": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every {4} sec. \r\n\r\nOnly one of your Elemental Shields can be active on you at once.",
+            "3159810692": "The caster is surrounded by globes of water, granting {1} mana per {2} sec. When a melee attack hits the caster, the caster regains {3}% of their mana. This effect can only occur once every {4} sec. \r\n\r\nThe Shaman can have up to two Elemental Shields active on them."
         }
     },
     "983332254": {
@@ -1208,7 +1193,7 @@
     "2964301148": {
         "Name": "Wavespeaker's Blessing",
         "Descriptions": {
-            "4250258961": "Increases the duration of Riptide by {1} sec."
+            "1843318331": "Increases Riptide's duration by {1} sec and its healing over time by {2}%."
         }
     },
     "1437624384": {
@@ -1253,19 +1238,14 @@
     "3667717723": {
         "Name": "Rain Dance",
         "Descriptions": {
-            "3853432931": "Healing Rain is now instant, {1}% more effective, and costs {2}% less mana. "
+            "3006270388": "Surging Totem is {1}% more effective and costs {2}% less mana.",
+            "3853432931": "Healing Rain is now instant, {1}% more effective, and costs {2}% less mana."
         }
     },
     "3298073362": {
         "Name": "Burrow",
         "Descriptions": {
             "455526322": "Burrow beneath the ground, becoming unattackable, removing movement impairing effects, and increasing your movement speed by {1}% for {2} sec.\r\n\r\nWhen the effect ends, enemies within {3} yards are knocked in the air and take {4} Physical damage."
-        }
-    },
-    "2581148228": {
-        "Name": "Volcanic Surge",
-        "Descriptions": {
-            "420457792": "Increases the damage of Lightning Bolt and Chain Lightning by {1}% and the damage of Lava Burst by {2}%.\r\n\r\nLava Surge has an additional {3}% chance to trigger and instead reduces the cast time of your next Lightning Bolt or Chain Lightning by {4}%, stacking up to {5} times."
         }
     },
     "1752816298": {
@@ -1299,24 +1279,17 @@
             "2261700886": "Your damaging spells incite the earth around you to come to your aid for {1} sec, repeatedly dealing {2} Nature damage to your most recently attacked target."
         }
     },
-    "1588508802": {
-        "Name": "Stormbringer",
-        "Descriptions": {
-            "3722858388": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike.",
-            "3109398080": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {2}% additional damage as Nature damage."
-        }
-    },
     "173210967": {
         "Name": "Unlimited Power",
         "Descriptions": {
-            "989039115": "Spending Maelstrom Weapon stacks grants you {1}% haste for {2} sec, stacking. Gaining a new stack does not refresh the duration.",
-            "1381073706": "Spending Maelstrom grants you {1}% haste for {2} sec, stacking. Gaining a new stack does not refresh the duration."
+            "1238283792": "Spending Maelstrom grants you {1}% haste for {2} sec.\r\n\r\nMultiple applications may overlap.",
+            "3814427685": "Spending Maelstrom Weapon stacks grants you {1}% haste for {2} sec.\r\n\r\nMultiple applications may overlap."
         }
     },
     "2251309443": {
         "Name": "Lightning Conduit",
         "Descriptions": {
-            "2318592125": "While Lightning Shield is active, your Nature damage dealt is increased by {1}%."
+            "1420391864": "You have a chance to get struck by lightning, increasing your movement speed by {1}% for {2} sec. The effectiveness is increased to {3}% in outdoor areas.\r\n\r\nYou call down a Thunderstorm when you Reincarnate."
         }
     },
     "2256110575": {
@@ -1329,19 +1302,14 @@
     "3431140965": {
         "Name": "Tidewaters",
         "Descriptions": {
-            "439912205": "When you cast Healing Rain, each ally with your Riptide on them is healed for {1}."
+            "439912205": "When you cast Healing Rain, each ally with your Riptide on them is healed for {1}.",
+            "4227644942": "When you cast Surging Totem, each ally with your Riptide on them is healed for {1}."
         }
     },
     "811110980": {
         "Name": "Tempest Strikes",
         "Descriptions": {
             "1994135674": "Stormstrike, Ice Strike, and Lava Lash have a {1}% chance to discharge electricity at your target, dealing {2} Nature damage."
-        }
-    },
-    "2597597613": {
-        "Name": "Shocking Grasp",
-        "Descriptions": {
-            "3256577507": "Your Nature damage critical strikes reduce the target's movement speed by {1}% for {2} sec."
         }
     },
     "1752916238": {
@@ -1391,14 +1359,15 @@
     "4194276606": {
         "Name": "Totemic Coordination",
         "Descriptions": {
-            "1673259264": "Chain Heals from your totems are {1}% more effective.",
-            "98630068": "Increases the critical strike chance of your Searing Totem's attacks by {1}%, and its critical strike damage by {2}%."
+            "98630068": "Increases the critical strike chance of your Searing Totem's attacks by {1}%, and its critical strike damage by {2}%.",
+            "2154500542": "Chain Heals from Lively Totem and Totemic Rebound are {1}% more effective."
         }
     },
     "833660866": {
         "Name": "Arc Discharge",
         "Descriptions": {
-            "3417592295": "When Tempest strikes more than one target, your next {1} Chain Lightning spells are instant cast and deal {2}% increased damage."
+            "3861625386": "Tempest causes your next {1} Chain Lightning or Lightning Bolt spells to be instant cast and deal {2}% increased damage.\r\n\r\nCan accumulate up to {3} charges.",
+            "3692606647": "Tempest causes your next Chain Lightning or Lightning Bolt to be instant cast, deal {1}% increased damage, and cast an additional time.\r\n\r\nCan accumulate up to {2} charges."
         }
     },
     "3848655426": {
@@ -1422,26 +1391,26 @@
     "3884630622": {
         "Name": "Imbuement Mastery",
         "Descriptions": {
-            "3795550197": "Increases the duration of your  Earthliving effect by {1} sec.",
-            "3193256930": "Increases the chance for Windfury Weapon to trigger by {1}% and increases its damage by {2}%."
+            "3294964711": "Increases the chance for Windfury Weapon to trigger by {1}% and increases its damage by {2}%.\r\n\r\nWhen Flametongue Weapon triggers from Windfury Weapon attacks, it has a chance to gather a whirl of flame around the target, dealing {3}% of its damage to all nearby enemies.",
+            "3795550197": "Increases the duration of your Earthliving effect by {1} sec."
         }
     },
     "2438160466": {
         "Name": "Nature's Protection",
         "Descriptions": {
-            "1301668629": "Targets struck by your Tempest deal {1}% less damage to you for {2} sec."
+            "3925513189": "Lightning Shield reduces the damage you take by {1}%."
         }
     },
     "897251135": {
         "Name": "Surging Currents",
         "Descriptions": {
-            "820624161": "After using Tempest, your next Chain Heal, or Healing Surge will be instant cast and consume no Mana."
+            "3418758004": "When you cast Tempest you gain Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by {1}%, up to {2}%."
         }
     },
     "2674730425": {
         "Name": "Fury of the Storms",
         "Descriptions": {
-            "1991852184": "Activating Stormkeeper summons a powerful Lightning Elemental to fight by your side for {1} sec."
+            "2694641022": "Casting Stormkeeper summons a powerful Lightning Elemental to fight by your side for {1} sec."
         }
     },
     "1462492230": {
@@ -1459,10 +1428,10 @@
     "900212207": {
         "Name": "Whirling Elements",
         "Descriptions": {
-            "4234329905": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {2}% increased damage and damages {3} nearby [plural|enemy|enemies] at {4}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {5} seconds from its cooldown.",
-            "3361586147": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {2}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {3}% effectiveness to all targets hit.",
-            "2970166655": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {1}%.\r\n\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {2}% effectiveness to all targets hit.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {3}%, and its critical strike damage by {4}%.",
-            "2616322417": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} Your next Stormstrike or Windstrike deals {1}% increased damage and damages {2} nearby [plural|enemy|enemies] at {3}% effectiveness.\r\n\r\n\r\n{FFFFFFFF|Earth:} Casting Sundering or Elemental Blast refunds {4} seconds from its cooldown.\r\n\r\n{FFFFFFFF|Fire:} Increases the critical strike chance of your next Fire Nova or Lava Lash by {5}%, and its critical strike damage by {6}%."
+            "4216069365": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n{FFFFFFFF|Air:} Your next Lightning Bolt, Chain Lightning or Elemental Blast unleashes {2} Surging Bolts at your Surging Totem.\r\n\r\n{FFFFFFFF|Earth:} Direct damage of your next Flame Shock is increased by {3}% and it is applied to {4} nearby enemies.",
+            "114625433": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {1}%.\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {2}% effectiveness to all targets hit.\r\n\r\n{FFFFFFFF|Fire:} Your next Lava Lash or Fire Nova grants you Hot Hand for {3} sec.",
+            "961358367": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Air:} Your next Lightning Bolt, Chain Lightning or Elemental Blast unleashes {1} Surging Bolts at your Surging Totem.\r\n\r\n{FFFFFFFF|Earth:} Direct damage of your next Flame Shock is increased by {2}% and it is applied to {3} nearby enemies.\r\n\r\n{FFFFFFFF|Fire:} Your next Lava Lash or Fire Nova grants you Hot Hand for {4} sec.",
+            "3361586147": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects. \r\n\r\n{FFFFFFFF|Water:} Your next Healing Wave or Healing Surge also heals an ally inside of your Healing Rain at {1}% effectiveness.\r\n\r\n{FFFFFFFF|Air:} The cast time of your next healing spell is reduced by {2}%.\r\n\r\n{FFFFFFFF|Earth:} Your next Chain Heal applies Earthliving at {3}% effectiveness to all targets hit."
         }
     },
     "3457755217": {
@@ -1475,7 +1444,7 @@
     "1687995562": {
         "Name": "Stone Bulwark Totem",
         "Descriptions": {
-            "1978756304": "Summons a totem with {1} health at the feet of the caster for {2} sec, granting the caster a shield absorbing {3} damage for {4} sec, and up to an additional {5} every {6} sec."
+            "3261234819": "Summons a totem at your feet that grants you an absorb shield preventing {1} damage for {2} sec, and an additional {3} every {4} sec for {5} sec."
         }
     },
     "2282050959": {
@@ -1506,8 +1475,8 @@
     "1734384876": {
         "Name": "Final Calling",
         "Descriptions": {
-            "4038716081": "When an Ancestor expires, they cast Elemental Blast at a nearby enemy.",
-            "1167385972": "When an Ancestor expires, they cast Hydrobubble on a nearby injured ally.\r\n\r\n|T1320371:24|t {FFFFFFFF|Hydrobubble}\r\nSurrounds your target in a protective water bubble for {1} sec.\r\n\r\nThe shield absorbs the next {2} incoming damage, but the absorb amount decays fully over its duration."
+            "838689159": "When an Ancestor departs, they cast Elemental Blast at a nearby enemy.",
+            "1208801591": "When an Ancestor departs, they cast Hydrobubble on a nearby injured ally.\r\n\r\n|T1320371:24|t {FFFFFFFF|Hydrobubble}\r\nSurrounds your target in a protective water bubble for {1} sec.\r\n\r\nThe shield absorbs the next {2} incoming damage, but the absorb amount decays fully over its duration."
         }
     },
     "4226666930": {
@@ -1526,7 +1495,7 @@
         "Name": "Routine Communication",
         "Descriptions": {
             "1757918739": "Riptide has a {1}% chance to call an Ancestor to your side for {2} sec.",
-            "3825668211": "Lava Burst casts have a {1}% chance to call an Ancestor to your side for {2} sec."
+            "3229186519": "Lightning Bolt, Lava Burst, Chain Lightning, Icefury, and Frost Shock casts have a {1}% chance to call an Ancestor to your side for {2} sec."
         }
     },
     "3033149721": {
@@ -1545,20 +1514,21 @@
     "1118151349": {
         "Name": "Totem of Wrath",
         "Descriptions": {
-            "1048400686": "Primordial Wave summons a totem at your feet for {1} sec that increases the critical effect of damage and healing spells of all nearby allies within {2} yards by {3}% for {4} sec.\r\n"
+            "1925181676": "Nature's Swiftness summons a totem at your feet for {1} sec that increases the critical effect of damage and healing spells of all nearby allies within {2} yards by {3}% for {4} sec.",
+            "1048400686": "Primordial Wave summons a totem at your feet for {1} sec that increases the critical effect of damage and healing spells of all nearby allies within {2} yards by {3}% for {4} sec."
         }
     },
     "3402579505": {
         "Name": "Fusion of Elements",
         "Descriptions": {
-            "1058228433": "After casting Icefury, the next time you cast a Nature and a Fire spell, you additionally cast an Elemental Blast at your target at {1}% effectiveness."
+            "869492274": "After casting Icefury, the next time you cast a damaging Nature and Fire spell, you additionally cast an Elemental Blast at your target at {1}% effectiveness."
         }
     },
     "3062412581": {
         "Name": "Reactivity",
         "Descriptions": {
             "1449012215": "Your Healing Stream Totems now also heals a second ally at {1}% effectiveness. \r\n\r\nCloudburst Totem stores {2}% additional healing.",
-            "1510796290": "Frost Shocks empowered by Hailstorm, Lava Lash, and Fire Nova cause your Searing totems to shoot a Searing Volley at up to {1} nearby enemies for {2} Fire damage."
+            "2986536352": "While Hot Hand is active Lash Lava shatters the earth, causing a Sundering at {1}% effectiveness.\r\n\r\nSunderings from this effect do not Incapacitate."
         }
     },
     "1022027652": {
@@ -1570,8 +1540,7 @@
     "242904970": {
         "Name": "Storm Swell",
         "Descriptions": {
-            "3500809564": "When Tempest only strikes a single target, gain {1} stacks of Maelstrom Weapon.",
-            "2806221684": "When Tempest only strikes a single target, gain {1} Maelstrom."
+            "232959676": "Tempest grants {1}% Mastery for {2} sec.\r\n"
         }
     },
     "1578328685": {
@@ -1583,7 +1552,8 @@
     "737587985": {
         "Name": "Voltaic Surge",
         "Descriptions": {
-            "3739206126": "Crash Lightning, Chain Lightning, and Earthquake damage increased by {1}%."
+            "1694901486": "Earthquake and Chain Lightning damage increased by {1}%.",
+            "1603845599": "Crash Lightning and Chain Lightning damage increased by {1}%."
         }
     },
     "3771581043": {
@@ -1609,7 +1579,7 @@
         "Name": "Maelstrom Supremacy",
         "Descriptions": {
             "1931318770": "Increases the healing done by Healing Wave, Healing Surge, Wellspring, Downpour, and Chain Heal by {1}%.",
-            "163853256": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by {1}% and the healing of Healing Surge by {2}%."
+            "3790778590": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by {1}%.\r\n\r\nIncreases the healing of Healing Surge and Chain Heal by {2}%."
         }
     },
     "1793451078": {
@@ -1628,7 +1598,7 @@
     "1083880227": {
         "Name": "Reactive Warding",
         "Descriptions": {
-            "2911852662": "When refreshing Earth Shield, your target is healed for {1} for each stack of Earth Shield they are missing.\r\n\r\nWhen refreshing Water Shield, you are refunded {2} mana for each stack of Water Shield missing."
+            "665961274": "When refreshing Earth Shield, your target is healed for {1} for each stack of Earth Shield they are missing.\r\n\r\nWhen refreshing Water Shield, you are refunded {2} mana for each stack of Water Shield missing.\r\n\r\nAdditionally, Earth Shield and Water Shield can consume charges {3} sec faster."
         }
     },
     "107404163": {
@@ -1647,8 +1617,8 @@
     "3310511589": {
         "Name": "Totemic Rebound",
         "Descriptions": {
-            "3042892367": "Chain Heal now jumps to a nearby totem within {1} yards once it reaches its max targets, causing the totem to cast Chain Heal on an injured ally within {2} yards for {3}. Jumps to {4} nearby targets within {5} yards.",
-            "1012195809": "Stormstrike has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by {1}%, and then redirecting the bolt to your target for {2} Nature damage. The damage bonus effect can stack."
+            "3226140585": "Chain Heal now jumps to a nearby totem within {1} yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within {2} yards for {3}. Jumps to {4} nearby targets within {5} yards.",
+            "3109247708": "Lightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by {1}%, and then redirecting the bolt to your target for {2} Nature damage. The damage bonus effect can stack."
         }
     },
     "1517297225": {
@@ -1673,27 +1643,28 @@
     "3209976750": {
         "Name": "Enhanced Imbues",
         "Descriptions": {
-            "1394556963": "The effects of your weapon imbues are increased by %.",
-            "1422140916": "The effects of your weapon imbues are increased by {1}%."
+            "1422140916": "The effects of your weapon imbues are increased by {1}%.",
+            "593153496": "The effects of your weapon and shield imbues are increased by {1}%."
         }
     },
     "1954983008": {
         "Name": "Supercharge",
         "Descriptions": {
-            "2656556748": "Lightning Bolt and Chain Lightning have a {1}% chance to refund {2} Maelstrom Weapon stacks.",
-            "1431263102": "Lightning Bolt and Chain Lightning Elemental Overloads have a {1}% chance to cause an additional Elemental Overload."
+            "774429900": "Lightning Bolt, Tempest, and Chain Lightning have a {1}% chance to cause an additional Elemental Overload.",
+            "2102691726": "Lightning Bolt, Tempest, and Chain Lightning have a {1}% chance to refund {2} Maelstrom Weapon stacks."
         }
     },
     "3719370192": {
         "Name": "Ancient Fellowship",
         "Descriptions": {
-            "281235678": "Ancestors have a {1}% chance to call another Ancestor for {2} sec when they expire."
+            "495744445": "Ancestors have a {1}% chance to call another Ancestor for {2} sec when they depart."
         }
     },
     "1639852404": {
         "Name": "Oversurge",
         "Descriptions": {
-            "4001276815": "While Ascendance is active, Surging Totem is {1}% more effective."
+            "2894164284": "Surging Totem heals for {1}% more during Ascendance.",
+            "2902115532": "Surging Totem deals {1}% more damage during Ascendance."
         }
     },
     "773633334": {
@@ -1719,7 +1690,7 @@
         "Name": "Surging Totem",
         "Descriptions": {
             "2574768020": "Summons a totem at the target location that creates a Tremor immediately and every {1} sec for {2} Flamestrike damage. Damage reduced beyond {3} targets. Lasts {4} sec.",
-            "2400713956": "Summons a totem at the target location that maintains Healing Rain for {1} sec. Heals for {2}% more than a normal Healing Rain.\r\n\r\n{FFFFFFFF|Replaces Healing Rain.}"
+            "488818848": "Summons a totem at the target location that maintains Healing Rain with {1}% increased effectiveness for {2} sec.\r\n\r\n{FFFFFFFF|Replaces Healing Rain.}"
         }
     },
     "3802995573": {
@@ -1768,16 +1739,18 @@
     "1454549939": {
         "Name": "Thunderstrike Ward",
         "Descriptions": {
-            "1278335679": "Imbue your shield with the element of Lightning for {1} hour, giving Lightning Bolt and Chain Lightning a chance to call down {2} Thunderstrikes on your target for {3} Nature damage."
+            "1278335679": "Imbue your shield with the element of Lightning for {1} hour, giving Lightning Bolt and Chain Lightning a chance to call down {2} Thunderstrikes on your target for {3} Nature damage.",
+            "183383295": "Imbue your shield with the element of Lightning for {1} hour, giving Lightning Bolt, Tempest, and Chain Lightning a chance to call down {2} Thunderstrikes on your target for {3} Nature damage."
         }
     },
     "364517609": {
         "Name": "Conductive Energy",
         "Descriptions": {
-            "3939595211": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nTempest, Lightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
-            "1064067625": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nLightning Bolt, Elemental Blast, and Chain Lightning make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
-            "2408149998": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nEarth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec. Lightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
-            "2200831012": "Lightning Rod targets now also take {1}% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect."
+            "2200831012": "Lightning Rod targets now also take {1}% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
+            "83887785": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nTempest, Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Tempest, Lightning Bolt, and Chain Lightning.",
+            "3940991283": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nLightning Bolt, Elemental Blast, Primordial Wave and Chain Lightning make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning.",
+            "2365671302": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nTempest, Lightning Bolt, Elemental Blast, Primordial Wave and Chain Lightning make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Tempest, Lightning Bolt, and Chain Lightning.",
+            "2408149998": "Gain the effects of the Lightning Rod talent:\r\n\r\n|T237443:24|t {ffffffff|Lightning Rod}\r\nEarth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for {1} sec.\r\n \r\nLightning Rods take {2}% of all damage you deal with Lightning Bolt and Chain Lightning."
         }
     },
     "845354045": {
@@ -1789,8 +1762,8 @@
     "4024108902": {
         "Name": "Lively Totems",
         "Descriptions": {
-            "1107708175": "Your Healing Tide Totem, Healing Stream Totem, Cloudburst Totem, Mana Tide Totem, and Spirit Link Totem cast a free, instant Chain Heal at {1}% effectiveness when you summon them.",
-            "1535573799": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal {1} Fire damage to a nearby enemy. Lasts {2} sec."
+            "560092740": "When you summon a Healing Tide Totem, Healing Stream Totem, Cloudburst Totem, Mana Tide Totem, or Spirit Link Totem you cast a free instant Chain Heal at {1}% effectiveness.",
+            "3770631218": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal {1} Fire damage to a nearby enemy. Lasts {2} sec.\r\n\r\nFrost Shocks empowered by Hailstorm, Lava Lash, and Fire Nova cause your Searing totems to shoot a Searing Volley at up to {3} nearby enemies for {4} Fire damage."
         }
     },
     "3732788674": {
@@ -1809,6 +1782,93 @@
         "Name": "White Water",
         "Descriptions": {
             "2598633829": "Your critical heals have {1}% effectiveness instead of the usual {2}%."
+        }
+    },
+    "1349339285": {
+        "Name": "Stormsurge",
+        "Descriptions": {
+            "3722858388": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike.",
+            "3109398080": "Your special attacks have a {1}% chance to reset the remaining cooldown on Stormstrike and cause your next Stormstrike to deal {2}% additional damage as Nature damage."
+        }
+    },
+    "3115933015": {
+        "Name": "Glyph of Energetic Ascendance",
+        "Descriptions": {
+            "543466195": "Your Ascendance transformations embody energetic forms, unleashing their power."
+        }
+    },
+    "3362501647": {
+        "Name": "Voltaic Blaze",
+        "Descriptions": {
+            "2227575076": "Lightning Bolt and Chain Lightning have a high chance to make your next Flame Shock become Voltaic Blaze.\r\n\r\n|T4638593:24|t{ffffffff|Voltaic Blaze}\r\nInstantly shocks the target and {1} nearby enemies with blazing thunder, causing {2} Nature damage and applying Flame Shock.\r\n\r\nGenerates {3} [plural|stack|stacks] of Maelstrom Weapon.",
+            "147401862": "Tempest, Lightning Bolt and Chain Lightning have a high chance to make your next Flame Shock become Voltaic Blaze.\r\n\r\n|T4638593:24|t{ffffffff|Voltaic Blaze}\r\nInstantly shocks the target and {1} nearby enemies with blazing thunder, causing {2} Nature damage and applying Flame Shock.\r\n\r\nGenerates {3} [plural|stack|stacks] of Maelstrom Weapon."
+        }
+    },
+    "3164531746": {
+        "Name": "Lightning Capacitor",
+        "Descriptions": {
+            "2318592125": "While Lightning Shield is active, your Nature damage dealt is increased by {1}%."
+        }
+    },
+    "2617198372": {
+        "Name": "Herald of the Storms",
+        "Descriptions": {
+            "3206367496": "Casting Lightning Bolt or Chain Lightning reduces the cooldown of Stormkeeper by {1} sec.",
+            "156046980": "Casting Lightning Bolt, Tempest, or Chain Lightning reduces the cooldown of Stormkeeper by {1} sec."
+        }
+    },
+    "1902035357": {
+        "Name": "Coalescing Water",
+        "Descriptions": {
+            "2001049726": "Chain Heal's mana cost is reduced by {1}% and Chain Heal increases the initial healing of your next Riptide by {2}%, stacking up to {3} times."
+        }
+    },
+    "168032219": {
+        "Name": "Earthshatter",
+        "Descriptions": {
+            "2964674636": "Increases Earth Shock and Earthquake damage by {1}% and the stat bonuses granted by Elemental Blast by {2}%."
+        }
+    },
+    "2611425337": {
+        "Name": "Flowing Spirits",
+        "Descriptions": {
+            "3986242316": "Your damaging abilities have a {1}% chance to summon a Feral Spirit for {2} sec."
+        }
+    },
+    "1511429377": {
+        "Name": "Unrelenting Storms",
+        "Descriptions": {
+            "4169046243": "When Crash Lightning hits only {1} target, it activates Windfury Weapon and its cooldown is reduced by {2}%."
+        }
+    },
+    "3260773464": {
+        "Name": "Charged Conduit",
+        "Descriptions": {
+            "633855340": "Increases the duration of Lightning Rod by {1} sec and its damage bonus by {2}%."
+        }
+    },
+    "2290258977": {
+        "Name": "Erupting Lava",
+        "Descriptions": {
+            "1156201929": "Increases the duration of Flame Shock by {1} sec and its damage by {2}%.\r\n\r\nLava Burst consumes up to {3} sec of Flame Shock, instantly dealing that damage. Lava Burst overloads benefit at {4}% effectiveness."
+        }
+    },
+    "235978796": {
+        "Name": "Molten Thunder",
+        "Descriptions": {
+            "2366127071": "The cooldown of Sundering is reduced by {1} sec, but it can no longer Incapacitate. \r\n\r\nSundering has a {2}% chance to reset its own cooldown, increased by {3}% for up to {4} targets. Each consecutive reset reduces these chances by half."
+        }
+    },
+    "224427958": {
+        "Name": "Electroshock",
+        "Descriptions": {
+            "1712979392": "Tempest increases your movement speed by {1}% for {2} sec."
+        }
+    },
+    "1668890135": {
+        "Name": "Glyph of Traditional Ascendance",
+        "Descriptions": {
+            "1977372887": "Your Ascendance transformations embody their traditional forms."
         }
     }
 }

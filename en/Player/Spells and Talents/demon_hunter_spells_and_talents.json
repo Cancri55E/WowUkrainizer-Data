@@ -29,7 +29,8 @@
             "3547503721": "Reduces the cooldown of Blade Dance by {1} sec.",
             "113847881": "Strike your primary target for {1} Chaos damage and nearby enemies for {2} Physical damage. Deals reduced damage beyond {3} targets.",
             "34540133": "Strike nearby enemies for {1} Physical damage. Deals reduced damage beyond {2} targets.",
-            "619727499": "Strike nearby enemies for {1} Physical damage, and increase your chance to dodge by {2}% for {3} sec."
+            "619727499": "Strike nearby enemies for {1} Physical damage, and increase your chance to dodge by {2}% for {3} sec.",
+            "139498774": "Strike your primary target for {1} Chaos damage and nearby enemies for {2} Physical damage, and increase your chance to dodge by {3}% for {4} sec."
         }
     },
     "2507353157": {
@@ -137,12 +138,6 @@
             "1114838241": "Blade Dance causes your next Chaos Strike within {1} sec to have a {2}-{3}% increased critical strike chance and will always refund Fury."
         }
     },
-    "2625589092": {
-        "Name": "Chaotic Imprint",
-        "Descriptions": {
-            "2413367011": "Throw Glaive now deals damage from a random school of magic, and increases the target's damage taken from the school by {1}% for {2} sec."
-        }
-    },
     "2985265422": {
         "Name": "Chaotic Transformation",
         "Descriptions": {
@@ -196,14 +191,13 @@
     "1997429188": {
         "Name": "Cycle of Binding",
         "Descriptions": {
-            "373832916": "Afflicting an enemy with a Sigil reduces the cooldown of your Sigils by {1} sec. "
+            "4072746513": "Sigil of Flame reduces the cooldown of your Sigils by {1} sec."
         }
     },
     "72899770": {
         "Name": "Cycle of Hatred",
         "Descriptions": {
-            "406314312": "Blade Dance, Chaos Strike, and Glaive Tempest reduce the cooldown of Eye Beam by {1} sec.",
-            "1290089165": "Blade Dance, Chaos Strike, Throw Glaive, and Glaive Tempest reduce the cooldown of Eye Beam by {1} sec."
+            "1452812375": "Activating Eye Beam reduces the cooldown of your next Eye Beam by {1} sec, stacking up to {2} sec."
         }
     },
     "868391833": {
@@ -413,7 +407,9 @@
             "395334389": "Charge to your target and deal {1} Fire damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}",
             "1294708270": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon's Bite has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}",
             "3784810002": "Charge to your target and deal {1} Chaos damage.\r\n\r\nDemon Blades has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}",
-            "2556243395": "Charge to your target and deal {1} Chaos damage.\r\n\r\nShear has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
+            "2556243395": "Charge to your target and deal {1} Chaos damage.\r\n\r\nShear has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}",
+            "1311002218": "Charge to your target and deal {1} Fire damage.\r\n\r\nFracture has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}",
+            "3154412497": "Charge to your target and deal {1} Chaos damage.\r\n\r\nFracture has a chance to reset the cooldown of Felblade.\r\n\r\n{FFFFFFFF|Generates {2} Fury.}"
         }
     },
     "4105236425": {
@@ -513,7 +509,7 @@
     "2138290608": {
         "Name": "Illidan's Grasp",
         "Descriptions": {
-            "3490684941": "You strangle the target with demonic magic, stunning them in place and dealing {1} Shadow damage over {2} sec while the target is grasped. Can move while channeling.\r\n\r\nUse Illidan's Grasp again to toss the target to a location within {3} yards, stunning them and all nearby enemies for {4} sec and dealing {5} Shadow damage."
+            "1831913752": "You strangle the target with demonic magic, stunning them in place and dealing {1} Shadow damage over {2} sec while the target is grasped. Can move while channeling.\r\n\r\nUse Illidan's Grasp again to toss the target to a location within {3} yards."
         }
     },
     "3197121259": {
@@ -528,24 +524,20 @@
             "2651863324": "Immolation Aura instantly causes {1} Fire damage to enemies within {2} yards.",
             "4183354807": "Increases the duration of Immolation Aura by {1} sec.",
             "3465803817": "Reduces the cooldown of Immolation Aura by {1} sec.",
-            "2259587596": "Engulf yourself in flames, instantly causing {1} Chaos damage to enemies within {2} yards and radiating {3} Chaos damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury.}",
-            "4204391893": "Engulf yourself in flames, instantly causing {1} Fire damage to enemies within {2} yards and radiating {3} Fire damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury.}",
             "4048563478": "Engulf yourself in flames, radiating {1} Chaos damage over {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Fury.}",
             "2585775706": "Engulf yourself in flames, radiating {1} Fire damage over {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Fury.}",
-            "2026527708": "Engulf yourself in flames, instantly causing {1} Chaos damage to enemies within {2} yards and radiating {3} Chaos damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury over {6} sec.}",
-            "1393792045": "Engulf yourself in flames, instantly causing {1} Fire damage to enemies within {2} yards and radiating {3} Fire damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury over {6} sec.}",
             "1654870067": "Engulf yourself in flames, radiating {1} Chaos damage over {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Fury over {4} sec.}",
             "386655756": "Engulf yourself in flames, radiating {1} Fire damage over {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Fury over {4} sec.}",
-            "406635816": "Engulf yourself in flames, instantly causing {1} Chaos damage to enemies within {2} yards and radiating {3} Chaos damage over {4} sec.",
-            "1535388009": "Engulf yourself in flames, instantly causing {1} Fire damage to enemies within {2} yards and radiating {3} Fire damage over {4} sec.",
-            "280845428": "Engulf yourself in flames, radiating {1} Chaos damage over {2} sec.",
-            "204181174": "Engulf yourself in flames, radiating {1} Fire damage over {2} sec."
+            "916878975": "Engulf yourself in flames, instantly causing {1} Fire damage to enemies within {2} yards and radiating {3}  damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury.}",
+            "1877124471": "Engulf yourself in flames, instantly causing {1} Chaos damage to enemies within {2} yards and radiating {3}  damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury.}",
+            "636476939": "Engulf yourself in flames, instantly causing {1} Fire damage to enemies within {2} yards and radiating {3}  damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury over {6} sec.}",
+            "3220441246": "Engulf yourself in flames, instantly causing {1} Chaos damage to enemies within {2} yards and radiating {3}  damage over {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Fury over {6} sec.}"
         }
     },
     "4013101770": {
         "Name": "Imprison",
         "Descriptions": {
-            "3973033015": "Imprisons a demon, beast, or humanoid, incapacitating them for {1} min. Damage will cancel the effect. Limit {2}."
+            "2096710081": "Imprisons a demon, beast, or humanoid, incapacitating them for {1} min. Damage may cancel the effect. Limit {2}."
         }
     },
     "650862426": {
@@ -648,7 +640,7 @@
     "2646131301": {
         "Name": "Lost in Darkness",
         "Descriptions": {
-            "3280885349": "Spectral Sight lasts an additional {1} sec if disrupted by attacking or taking damage."
+            "4154622408": "Spectral Sight has {1} sec reduced cooldown and no longer reduces movement speed. "
         }
     },
     "2088832363": {
@@ -676,29 +668,28 @@
         "Descriptions": {
             "2293255840": "While transformed, Shear and Fracture generate {1} additional Fury.",
             "4144145809": "While transformed, Shear and Fracture generate {1} additional Lesser Soul Fragment.",
-            "2970504141": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment and {4} additional Fury.",
             "2202765644": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Leech.",
             "2831208397": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste.",
             "2135781685": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste.",
             "2377959736": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Versatility.",
             "1565109159": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Leech.",
             "3145497028": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste, {7}% Versatility, and {8}% Leech.",
-            "3611890082": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%.",
-            "1926715341": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. Versatility increased by {4}%.",
-            "3523263789": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment.",
-            "1083336271": "Transform to demon form for {1} sec, increasing current and maximum health by {2}% and Armor by {3}% and {4} additional Fury."
+            "3635074759": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%.",
+            "3269920247": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. Versatility increased by {4}%.",
+            "2970891003": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment.",
+            "3442601026": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. Versatility increased by {4}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment.",
+            "918021073": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}% and {4} additional Fury.",
+            "4278797189": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. Versatility increased by {4}% and {5} additional Fury.",
+            "249314761": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment and {4} additional Fury.",
+            "3072830502": "Transform to demon form for {1} sec, increasing current health by {2}%, healing for that amount, and increasing Armor by {3}%. Versatility increased by {4}%. While transformed, Shear and Fracture generate one additional Lesser Soul Fragment and {5} additional Fury.",
+            "3094710252": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste and {7}% Versatility.",
+            "4085746716": "Leap into the air and land with explosive force, dealing {1} Chaos damage to enemies within {2} yds, and stunning them for {3} sec. Players are Dazed for {4} sec instead.\r\n\r\nUpon landing, you are transformed into a hellish demon for {5} sec, immediately resetting the cooldown of your Eye Beam and Blade Dance abilities, greatly empowering your Chaos Strike and Blade Dance abilities and gaining {6}% Haste, {7}% Versatility, and {8}% Leech."
         }
     },
     "2692015691": {
         "Name": "Meteoric Strikes",
         "Descriptions": {
             "444574138": "Reduce the cooldown of Infernal Strike by {1} sec."
-        }
-    },
-    "4261408491": {
-        "Name": "Momentum",
-        "Descriptions": {
-            "986084941": "Fel Rush, The Hunt, and Vengeful Retreat increase your damage done by {1}% for {2} sec, up to a maximum of {3} sec."
         }
     },
     "3980403547": {
@@ -864,10 +855,9 @@
     "482031013": {
         "Name": "Sigil of Flame",
         "Descriptions": {
-            "1002067042": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Fire damage, and an additional {3} Fire damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}",
-            "633253328": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Chaos damage, and an additional {3} Chaos damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}",
             "2785606208": "Sigil of Flame deals an additional {1} Fire damage over {2} sec, to all enemies affected by the sigil.",
-            "1437275887": "Sigil of Flame deals an additional {1} Chaos damage over {2} sec, to all enemies affected by the sigil."
+            "2888547994": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Fire damage, and an additional {3}  damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}",
+            "2915400414": "Place a Sigil of Flame at the target location that activates after {1} sec.\r\n\r\nDeals {2} Chaos damage, and an additional {3}  damage over {4} sec, to all enemies affected by the sigil.\r\n\r\n{FFffffff|Generates {5} Fury.}"
         }
     },
     "3800392529": {
@@ -928,7 +918,7 @@
         "Name": "Spectral Sight",
         "Descriptions": {
             "3628608101": "Reduces the cooldown of Spectral Sight by {1} sec.",
-            "2156281837": "Allows you to see enemies and treasures through physical barriers, as well as enemies that are stealthed and invisible. Lasts {1} sec.\r\n\r\nAttacking or taking damage disrupts the sight."
+            "2273856092": "Allows you to see enemies and treasures through physical barriers, as well as enemies that are stealthed and invisible. Lasts {1} sec.\r\n\r\nLoss of control effects disrupt the sight."
         }
     },
     "2571217530": {
@@ -997,7 +987,7 @@
     "3117439695": {
         "Name": "Unbound Chaos",
         "Descriptions": {
-            "3997046327": "Activating Immolation Aura increases the damage of your next Fel Rush by {1}%. Lasts {2} sec."
+            "812980580": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by {1}%. Lasts {2} sec."
         }
     },
     "1521732381": {
@@ -1084,13 +1074,13 @@
     "3942786909": {
         "Name": "Inertia",
         "Descriptions": {
-            "3850674096": "When empowered by Unbound Chaos, Fel Rush increases your damage done by {1}% for {2} sec."
+            "1835171188": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by {1}% for {2} sec."
         }
     },
     "4253684158": {
         "Name": "A Fire Inside",
         "Descriptions": {
-            "4118239781": "Immolation Aura has {1} additional [plural|charge|charges] and {2}% chance to refund a charge when used.\r\n\r\nYou can have multiple Immolation Auras active at a time."
+            "3006198047": "Immolation Aura has {1} additional [plural|charge|charges], {2}% chance to refund a charge when used, and deals Chaos damage instead of Fire.\r\n\r\nYou can have multiple Immolation Auras active at a time."
         }
     },
     "172137736": {
@@ -1156,9 +1146,9 @@
     "2339057227": {
         "Name": "Warblade's Hunger",
         "Descriptions": {
-            "2449172720": "Consuming a Soul Fragment causes your next Shear to deal {1} additional damage.",
-            "2285393637": "Consuming a Soul Fragment causes your next Chaos Strike to deal {1} additional damage.\r\n\r\nFelblade consumes up to {2} nearby Soul Fragments.",
-            "3325554616": "Consuming a Soul Fragment causes your next Fracture to deal {1} additional damage."
+            "283662398": "Consuming a Soul Fragment causes your next Chaos Strike to deal {1} additional Physical damage.\r\n\r\nFelblade consumes up to {2} nearby Soul Fragments.",
+            "1859499208": "Consuming a Soul Fragment causes your next Shear to deal {1} additional Physical damage.",
+            "2536222743": "Consuming a Soul Fragment causes your next Fracture to deal {1} additional Physical damage."
         }
     },
     "3808857123": {
@@ -1170,7 +1160,7 @@
     "965383843": {
         "Name": "Preemptive Strike",
         "Descriptions": {
-            "4287822613": "Throw Glaive deals {1} damage to enemies near its initial target."
+            "385710602": "Throw Glaive deals {1} Physical damage to enemies near its initial target."
         }
     },
     "1347409387": {
@@ -1217,7 +1207,9 @@
             "392891886": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Shear and Soul Cleave.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.\r\n\r\n{FFffffff|Generates {6} Fury.}",
             "243610946": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Fracture and Soul Cleave.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.",
             "2740926050": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.",
-            "3636560861": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Shear and Soul Cleave.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage."
+            "3636560861": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Shear and Soul Cleave.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.",
+            "2968509150": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.\r\n\r\n{FFffffff|Generates {6} Fury.}",
+            "446194305": "Consuming {1} Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\r\n\r\n|T5927616:24|t {ffffffff|Reaver's Glaive}: \r\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing {2} Physical damage and ricocheting to {3} additional [plural|enemy|enemies].\r\n \r\nBegins a well-practiced pattern of glaivework, enhancing your next Fracture and Soul Cleave.\r\n\r\nThe enhanced ability you cast first deals {4}% increased damage, and the second deals {5}% increased damage.\r\n\r\n{FFffffff|Generates {6} Fury.}"
         }
     },
     "3092880914": {
@@ -1296,9 +1288,9 @@
     "1151225265": {
         "Name": "Demonsurge",
         "Descriptions": {
-            "4238118300": "Metamorphosis now also greatly empowers Soul Cleave and Spirit Bomb.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {1} Fire damage to nearby enemies.",
-            "3330588310": "Metamorphosis now also causes Demon Blades to generate {1} additional Fury.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {2} Fire damage to nearby enemies.",
-            "4172780978": "Metamorphosis now also causes Demon's Bite to generate {1} additional Fury.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {2} Fire damage to nearby enemies."
+            "2681116231": "Metamorphosis now also causes Demon's Bite to generate {1} additional Fury.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {2} Fire damage to nearby enemies. Deals reduced damage beyond {3} targets.",
+            "4086455546": "Metamorphosis now also causes Demon Blades to generate {1} additional Fury.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {2} Fire damage to nearby enemies. Deals reduced damage beyond {3} targets.",
+            "2590423258": "Metamorphosis now also greatly empowers Soul Cleave and Spirit Bomb.\r\n\r\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing {1} Fire damage to nearby enemies. Deals reduced damage beyond {2} targets."
         }
     },
     "3411131738": {
@@ -1370,13 +1362,13 @@
     "2162293760": {
         "Name": "Focused Hatred",
         "Descriptions": {
-            "83376498": "Demonsurge deals {1}% increased damage when it strikes a single target."
+            "3656458275": "Demonsurge deals {1}% increased damage when it strikes a single target.\r\n\r\nEach additional target reduces this bonus by {2}%."
         }
     },
     "2751097989": {
         "Name": "Wounded Quarry",
         "Descriptions": {
-            "3323982287": "While {ffffffff|Reaver's Mark} is on your target, melee attacks strike with an additional glaive slash for {1} Physical damage and have a chance to shatter a soul."
+            "1762604576": "Expose weaknesses in the target of your {ffffffff|Reaver's Mark}, causing your Physical damage to any enemy to also deal {1}% of the damage dealt to your marked target as Chaos, and sometimes shatter a Lesser Soul Fragment.\r\n\r\n"
         }
     },
     "944767666": {
@@ -1413,6 +1405,12 @@
         "Name": "Pursuit of Angriness",
         "Descriptions": {
             "837811567": "Movement speed increased by {1}% per {2} Fury."
+        }
+    },
+    "4204132185": {
+        "Name": "Exergy",
+        "Descriptions": {
+            "4193716643": "The Hunt and Vengeful Retreat increase your damage by {1}% for {2} sec."
         }
     }
 }

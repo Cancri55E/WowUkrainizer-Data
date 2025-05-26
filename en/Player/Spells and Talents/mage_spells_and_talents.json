@@ -14,7 +14,7 @@
     "2318755339": {
         "Name": "Alter Time",
         "Descriptions": {
-            "1862827131": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} sec.  Effect negated by long distance or death."
+            "1862827131": "Alters the fabric of time, returning you to your current location and health when cast a second time, or after {1} sec. Effect negated by long distance or death."
         }
     },
     "1413523524": {
@@ -26,9 +26,7 @@
     "1492142878": {
         "Name": "Arcane Barrage",
         "Descriptions": {
-            "3270053226": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}",
             "4040160001": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage, grants you {3}% of your maximum mana,.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}",
-            "3366976016": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage and hits {3} additional nearby [plural|Target|targets] for {4}% of its damage.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}",
             "2146949717": "Launches bolts of arcane energy at the enemy target, causing {1} Arcane damage. \r\n\r\nFor each Arcane Charge, deals {2}% additional damage, grants you {3}% of your maximum mana, and hits {4} additional nearby [plural|Target|targets] for {5}% of its damage.\r\n\r\n{FFFFFFFF|Consumes all Arcane Charges.}"
         }
     },
@@ -159,7 +157,7 @@
     "2567997099": {
         "Name": "Call of the Sun King",
         "Descriptions": {
-            "60169541": "Phoenix Flames gains {1} additional charge and always critically strikes."
+            "4286379116": "Phoenix Flames deals {1}% increased damage and always critically strikes."
         }
     },
     "2986435647": {
@@ -177,7 +175,7 @@
     "3386120787": {
         "Name": "Charged Orb",
         "Descriptions": {
-            "2963680004": "Arcane Orb gains {1} additional charge."
+            "595002137": "Arcane Orb gains {1} additional charge. Arcane Orb damage increased by {2}%."
         }
     },
     "2725238883": {
@@ -196,16 +194,17 @@
         "Name": "Cold Snap",
         "Descriptions": {
             "1360738157": "Resets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block.",
-            "3440397033": "Resets the cooldown of your Ice Barrier, Frost Nova, Ice Cold, and Ice Block."
+            "3440397033": "Resets the cooldown of your Ice Barrier, Frost Nova, Ice Cold, and Ice Block.",
+            "443712803": "Cooldown reduced by {1} sec."
         }
     },
     "3009648214": {
         "Name": "Combustion",
         "Descriptions": {
-            "3279267147": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells.",
             "1299096002": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells.",
-            "2729135645": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% . Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {3}% Critical Strike damage, and up to {4} nearby allies gain {5}% Critical Strike for {6} sec.",
-            "2722105446": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {4}% Critical Strike damage, and up to {5} nearby allies gain {6}% Critical Strike for {7} sec."
+            "2722105446": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}% and granting you Mastery equal to {3}% of your Critical Strike stat. Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {4}% Critical Strike damage, and up to {5} nearby allies gain {6}% Critical Strike for {7} sec.",
+            "1601309232": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}%. Castable while casting other spells.",
+            "1496404744": "Engulfs you in flames for {1} sec, increasing your spells' critical strike chance by {2}%. Castable while casting other spells.\r\n\r\nWhen you activate Combustion, you gain {3}% Critical Strike damage, and up to {4} nearby allies gain {5}% Critical Strike for {6} sec."
         }
     },
     "2298374374": {
@@ -242,7 +241,7 @@
     "4047739866": {
         "Name": "Controlled Destruction",
         "Descriptions": {
-            "3489812622": "Damaging a target with Pyroblast increases the damage it receives from Ignite by {1}%. Stacks up to {2} times."
+            "1683407313": "Damaging a target with Pyroblast or Fireball increases the damage it receives from Ignite by {1}%. Stacks up to {2} times."
         }
     },
     "4053820486": {
@@ -300,7 +299,7 @@
     "3116024812": {
         "Name": "Enlightened",
         "Descriptions": {
-            "1613293006": "Arcane damage dealt while above {1}% mana is increased by {2}%, Mana Regen while below {3}% is increased by {4}%."
+            "637967981": "Arcane damage dealt is increased based on your current mana, up to {1}% at full mana.\r\n\r\nMana Regen is increased based on your current mana, up to {2}% when out of mana."
         }
     },
     "18676556": {
@@ -494,7 +493,7 @@
     "27103902": {
         "Name": "Glacial Assault",
         "Descriptions": {
-            "287376760": "Your Comet Storm now increases the damage enemies take from you by {1}% for {2} sec and Flurry has a {3}% chance each hit to call down an icy comet, crashing into your target and nearby enemies for {4} Frost damage."
+            "3399388464": "Your Comet Storm now applies Numbing Blast, increasing the damage enemies take from you by {1}% for {2} sec.\r\n\r\nAdditionally, Flurry has a {3}% chance each hit to call down an icy comet, crashing into your target and nearby enemies for {4} Frost damage."
         }
     },
     "1375451002": {
@@ -582,7 +581,7 @@
     "614419905": {
         "Name": "Ice Nova",
         "Descriptions": {
-            "1537202648": "Causes a whirl of icy wind around the enemy, dealing {1} Frost damage to the target and reduced damage to all other enemies within {2} yds, and freezing them in place for {3} sec."
+            "2828678709": "Causes a whirl of icy wind around the enemy, dealing {1} Frost damage to the target and all other enemies within {2} yds, freezing them in place for {3} sec. Damage reduced beyond {4} targets."
         }
     },
     "2996157677": {
@@ -711,7 +710,7 @@
     "841672273": {
         "Name": "Master of Flame",
         "Descriptions": {
-            "2643855956": "Ignite deals {1}% more damage while Combustion is not active. Fire Blast spreads Ignite to {2} additional nearby targets during Combustion."
+            "3137190064": "Ignite deals {1}% more damage and Fireball deals {2}% more damage while Combustion is not active. Fire Blast spreads Ignite to {3} additional nearby targets during Combustion."
         }
     },
     "2885108757": {
@@ -724,10 +723,13 @@
         "Name": "Mastery: Icicles",
         "Descriptions": {
             "3314533614": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%.",
-            "175009193": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.",
-            "3348625084": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.",
-            "1841861537": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.",
-            "3580528191": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched."
+            "1503340570": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%.",
+            "1415273079": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%.",
+            "3814717512": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%.",
+            "1425318008": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, Frost Splinters, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%.",
+            "1820793514": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nUp to {2} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, Frost Splinters, and Comet Storm by {3}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {4}%.",
+            "406645673": "Casting Frostbolt or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, Frost Splinters, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%.",
+            "2263878744": "Casting Frostbolt, Ice Lance, or Flurry grants you an Icicle. Casting Ice Lance causes all Icicles stored to begin launching at the target, each dealing {1} Frost damage.\r\n\r\nFrostbolt and Flurry have a {2}% chance to generate {3} Icicles.\r\n\r\nUp to {4} Icicles can be stored. Any excess Icicles gained will be automatically launched.\r\n\r\nIncreases the damage of Frozen Orb, Blizzard, Frost Splinters, and Comet Storm by {5}%.\r\n\r\nIncreases the damage of Ice Lance, Glacial Spike, and Ray of Frost by {6}%."
         }
     },
     "3430506994": {
@@ -737,7 +739,10 @@
             "2112658610": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
             "4099796306": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
             "3281310421": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
-            "2494868965": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
+            "2494868965": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
+            "3734366117": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
+            "3567131049": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies.",
+            "3954999328": "Your target burns for an additional {1}% over {2} sec of the total direct damage caused by your Fireball, Fire Blast, Scorch, Pyroblast, Meteor, Phoenix Flames, Cinderstorm, and Flamestrike. If this effect is reapplied, any remaining damage will be added to the new Ignite.\r\n\r\nFire Blast causes your Ignites to spread to {3} nearby enemies."
         }
     },
     "3703122243": {
@@ -795,7 +800,7 @@
     "1164896451": {
         "Name": "Phoenix Reborn",
         "Descriptions": {
-            "3337689190": "When your direct damage spells hit an enemy {1} times the damage of your next {2} Phoenix Flames is increased by {3}% and they refund a charge on use."
+            "3811631044": "When your direct damage spells hit an enemy {1} times, gain {2} [plural|stack|stacks] of Born of Flame. \r\n\r\n|T463567:24|t {ffffffff|Born of Flame}\r\nPhoenix Flames refunds a charge on use and its damage is increased by {3}%."
         }
     },
     "1528729225": {
@@ -808,38 +813,22 @@
     "3654443259": {
         "Name": "Polymorph",
         "Descriptions": {
-            "3474086681": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "1135298567": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3604677749": "Transforms the enemy into a turtle, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "2355555398": "Transforms the enemy into a turtle, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3978961533": "Transforms the enemy into a pig, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "2785939862": "Transforms the enemy into a pig, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "125541078": "Transforms the enemy into a harmless black cat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "205707276": "Transforms the enemy into a harmless black cat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1532578783": "Transforms the enemy into a harmless rabbit, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "154756280": "Transforms the enemy into a harmless rabbit, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3693413024": "Transforms the enemy into a turkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "3234079943": "Transforms the enemy into a turkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1538147481": "Transforms the enemy into a porcupine, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "3609500550": "Transforms the enemy into a porcupine, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "287765380": "Transforms the enemy into a polar bear cub, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "3368087871": "Transforms the enemy into a polar bear cub, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1876627430": "Transforms the enemy into a monkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "2375998373": "Transforms the enemy into a monkey, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3436589416": "Transforms the enemy into a penguin, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "2517384685": "Transforms the enemy into a penguin, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3667999624": "Transforms the enemy into a peacock, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "241829871": "Transforms the enemy into a peacock, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "885716376": "Transforms the enemy into a baby direhorn, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "4189600225": "Transforms the enemy into a baby direhorn, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "3991786352": "Transforms the enemy into a bumblebee, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "955727952": "Transforms the enemy into a bumblebee, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "1565457340": "Transforms the enemy into a mawrat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Undead, Beasts, Humanoids and Critters.",
             "2459068047": "Transforms the enemy into a mawrat, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Undead, Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "940148079": "Transforms the enemy into a duck, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
             "4149266829": "Transforms the enemy into a duck, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
-            "2579581086": "Transforms the enemy into a mosswool, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters.",
-            "4152055173": "Transforms the enemy into a mosswool, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day."
+            "4152055173": "Transforms the enemy into a mosswool, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day.",
+            "92423996": "Transforms the enemy into a sheep, wandering around incapacitated for {1} min. While affected, the victim cannot take actions but will regenerate health very quickly. Damage may cancel the effect. Limit {2}.\r\n\r\nOnly works on Beasts, Humanoids and Critters. When critters are affected, can affect multiple targets, and has a duration of {3} day."
         }
     },
     "2430382557": {
@@ -920,7 +909,7 @@
     "1276415081": {
         "Name": "Resonance",
         "Descriptions": {
-            "296574184": "Arcane Barrage deals {1}% increased damage per target it hits."
+            "1610270054": "Arcane Barrage deals {1}% increased damage per target it hits beyond the first."
         }
     },
     "3001992456": {
@@ -938,7 +927,7 @@
     "3587416472": {
         "Name": "Ring of Fire",
         "Descriptions": {
-            "1417585587": "Summons a Ring of Fire for {1} sec at the target location. Enemies entering the ring burn for {2}% of their total health over {3} sec."
+            "228706885": "Summons a Ring of Fire for {1} sec at the target location. Enemies entering the ring are disoriented and burn for {2}% of their total health over {3} sec."
         }
     },
     "2223961444": {
@@ -950,8 +939,8 @@
     "3755510276": {
         "Name": "Scorch",
         "Descriptions": {
-            "3402037586": "Scorches an enemy for {1} Fire damage.\r\n\r\nScorch is a guaranteed critical strike and increases your movement speed by {2}% for {3} sec when cast on a target below {4}% health.\r\n\r\nCastable while moving.",
-            "1668254452": "Scorches an enemy for {1} Fire damage.\r\n\r\nScorch is a guaranteed critical strike, deals {2}% increased damage, and increases your movement speed by {3}% for {4} sec when cast on a target below {5}% health.\r\n\r\nCastable while moving."
+            "1031581183": "Scorches an enemy for {1} Fire damage.\r\n\r\nWhen cast on a target below {2}% health, Scorch is a guaranteed critical strike and increases your movement speed by {3}% for {4} sec.\r\n\r\nCastable while moving.",
+            "673517557": "Scorches an enemy for {1} Fire damage.\r\n\r\nWhen cast on a target below {2}% health, Scorch is a guaranteed critical strike, deals {3}% increased damage, and increases your movement speed by {4}% for {5} sec.\r\n\r\nCastable while moving."
         }
     },
     "4048630080": {
@@ -1009,7 +998,8 @@
         "Descriptions": {
             "1952514390": "Steals a beneficial magic effect from the target. This effect lasts a maximum of {1} min.",
             "3258348320": "Steals all beneficial magic effects from the target. These effects lasts a maximum of {1} min.",
-            "3280070570": "Steals a beneficial magic effect from the target. This effect lasts a maximum of {1} min. If you successfully steal a spell, you are also healed for {2}% of your maximum health."
+            "3280070570": "Steals a beneficial magic effect from the target. This effect lasts a maximum of {1} min. If you successfully steal a spell, you are also healed for {2}% of your maximum health.",
+            "367145904": "Steals all beneficial magic effects from the target. These effects lasts a maximum of {1} min. If you successfully steal a spell, you are also healed for {2}% of your maximum health."
         }
     },
     "3684035811": {
@@ -1078,7 +1068,6 @@
         "Descriptions": {
             "3507122350": "At any moment, you have a chance to gain Combustion for {1} sec, {2} Fire Blast charge, or Time Warp for {3} sec.",
             "1234119253": "At any moment, you have a chance to gain Arcane Surge for {1} sec, Clearcasting, or Time Warp for {2} sec.",
-            "2671118990": "At any moment, you have a chance to gain , or Time Warp for {1} sec.",
             "1377667411": "At any moment, you have a chance to gain Icy Veins for {1} sec, Brain Freeze, or Time Warp for {2} sec."
         }
     },
@@ -1087,8 +1076,7 @@
         "Descriptions": {
             "1115443503": "Casting Fire Blast reduces the cooldown of your loss of control abilities by {1} sec.",
             "669062225": "Casting Ice Lance on Frozen targets reduces the cooldown of your loss of control abilities by {1} sec.",
-            "2080053492": "Casting Clearcasting Arcane Missiles reduces the cooldown of your loss of control abilities by {1} sec.",
-            "2891077133": "Casting  reduces the cooldown of your loss of control abilities by {1} sec."
+            "2080053492": "Casting Clearcasting Arcane Missiles reduces the cooldown of your loss of control abilities by {1} sec."
         }
     },
     "3291337090": {
@@ -1096,7 +1084,8 @@
         "Descriptions": {
             "3876086991": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min.",
             "2531525242": "Warp the flow of time, increasing haste by {1}% and time rate by {2}% for all party and raid members for {3} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {4} min.",
-            "3422694989": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min.\r\n\r\nWhen the effect ends, all affected players are frozen in time for {4} sec."
+            "3422694989": "Warp the flow of time, increasing haste by {1}% for all party and raid members for {2} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {3} min.\r\n\r\nWhen the effect ends, all affected players are frozen in time for {4} sec.",
+            "3228373778": "Warp the flow of time, increasing haste by {1}% and time rate by {2}% for all party and raid members for {3} sec.\r\n\r\nAllies will be unable to benefit from Bloodlust, Heroism, or Time Warp again for {4} min.\r\n\r\nWhen the effect ends, all affected players are frozen in time for {5} sec."
         }
     },
     "120691073": {
@@ -1138,7 +1127,7 @@
     "3982909709": {
         "Name": "Wintertide",
         "Descriptions": {
-            "3160037891": "Increases Frostbolt damage by {1}%. Fingers of Frost empowered Ice Lances deal {2}% increased damage to Frozen targets."
+            "3648498251": "Damage from Frostbolt and Flurry increases the damage of your Icicles and Glacial Spike by {1}%. Stacks up to {2} times."
         }
     },
     "4198870213": {
@@ -1174,7 +1163,6 @@
     "4121603277": {
         "Name": "Mass Barrier",
         "Descriptions": {
-            "1434766508": "Cast  Barrier on yourself and {1} allies within {2} yds.",
             "4259353132": "Cast Prismatic Barrier on yourself and {1} allies within {2} yds.",
             "3721683463": "Cast Blazing Barrier on yourself and {1} allies within {2} yds.",
             "1661664857": "Cast Ice Barrier on yourself and {1} allies within {2} yds."
@@ -1291,8 +1279,8 @@
     "1926765376": {
         "Name": "Splintering Orbs",
         "Descriptions": {
-            "2437612677": "Enemies damaged by your Frozen Orb conjures a Frost Splinter, up to {1}.\r\n\r\nFrozen Orb damage is increased by {2}%.",
-            "3322054162": "The first enemy damaged by your Arcane Orb conjures {1} Arcane Splinters.\r\n\r\nArcane Orb damage is increased by {2}%."
+            "3843606157": "Enemies damaged by your Arcane Orb conjure {1} Arcane [plural|Splinter|Splinters], up to {2}.\r\n\r\nArcane Orb damage is increased by {3}%.",
+            "2070376290": "Enemies damaged by your Frozen Orb conjure {1} Frost [plural|Splinter|Splinters], up to {2}.\r\n\r\nFrozen Orb damage is increased by {3}%."
         }
     },
     "1011390307": {
@@ -1323,13 +1311,6 @@
         "Name": "Portal: Dalaran - Northrend",
         "Descriptions": {
             "1492349878": "Creates a portal, teleporting group members that use it to Dalaran."
-        }
-    },
-    "2926056035": {
-        "Name": "Explosivo",
-        "Descriptions": {
-            "144907896": "Casting Combustion grants Lit Fuse and Living Bomb's damage is increased by {1}% while under the effects of Combustion.",
-            "3393320914": "Casting Combustion grants Lit Fuse and Living Bomb's damage is increased by {1}% while under the effects of Combustion.\r\n\r\nYour chance of gaining Lit Fuse is increased by {2}% while under the effects of Combustion."
         }
     },
     "4147261001": {
@@ -1377,8 +1358,8 @@
     "4274224362": {
         "Name": "Glorious Incandescence",
         "Descriptions": {
-            "3371747544": "Consuming Burden of Power causes your next cast of Fire Blast to call down a storm of {1} Meteorites on its target.\r\n\r\nEach Meteorite's impact reduces the cooldown of Fire Blast by {2} sec.",
-            "3107486179": "Consuming Burden of Power causes your next cast of Arcane Barrage to grant {1} Arcane Charges and call down a storm of {2} Meteorites on its target."
+            "3395266023": "Consuming Burden of Power causes your next Arcane Barrage to deal {1}% increased damage, grant {2} Arcane Charges, and call down a storm of {3} Meteorites at your target.",
+            "4166177739": "Consuming Burden of Power causes your next cast of Fire Blast to strike up to {1}  additional targets and call down a storm of {2} Meteorites on its target.\r\n\r\nEach Meteorite's impact reduces the cooldown of Fire Blast by {3} sec."
         }
     },
     "26039810": {
@@ -1396,9 +1377,8 @@
     "2727781100": {
         "Name": "Excess Frost",
         "Descriptions": {
-            "3682664532": "Reaching maximum stacks of Frost Mastery causes your next  to also cast Ice Nova at {1}% effectiveness.\r\n\r\nWhen you consume Excess Frost, the cooldown of  is reduced by {2} sec.",
-            "3885715974": "Reaching maximum stacks of Frost Mastery causes your next Phoenix Flames to also cast Ice Nova at {1}% effectiveness.\r\n\r\nWhen you consume Excess Frost, the cooldown of Meteor is reduced by {2} sec.",
-            "3072662641": "Reaching maximum stacks of Frost Mastery causes your next Flurry to also cast Ice Nova at {1}% effectiveness.\r\n\r\nWhen you consume Excess Frost, the cooldown of Comet Storm is reduced by {2} sec."
+            "2913961436": "Consuming Excess Fire causes your next Flurry to also cast Ice Nova at {1}% effectiveness. Ice Novas cast this way do not freeze enemies in place.\r\n\r\nWhen you consume Excess Frost, the cooldown of Comet Storm is reduced by {2} sec.",
+            "3913761763": "Consuming Excess Fire causes your next Phoenix Flames to also cast Ice Nova at {1}% effectiveness. Ice Novas cast this way do not freeze enemies in place.\r\n\r\nWhen you consume Excess Frost, the cooldown of Meteor is reduced by {2} sec."
         }
     },
     "2789548003": {
@@ -1435,8 +1415,8 @@
     "3180725": {
         "Name": "Splinterstorm",
         "Descriptions": {
-            "2105148424": "Whenever you have {1} or more active Embedded Arcane Splinters, you automatically cast a Splinterstorm at your target.\r\n\r\n|T1387352:24|t{ffffffff|Splinterstorm}:\r\nShatter all Embedded Arcane Splinters, dealing their remaining periodic damage instantly.\r\n\r\nConjure an Arcane Splinter for each Splinter shattered, then unleash them all in a devastating barrage, dealing {2} Arcane damage to your target for each Splinter in the Splinterstorm.",
-            "465196757": "Whenever you have {1} or more active Embedded Frost Splinters, you automatically cast a Splinterstorm at your target.\r\n\r\n|T1387352:24|t{ffffffff|Splinterstorm}:\r\nShatter all Embedded Frost Splinters, dealing their remaining periodic damage instantly.\r\n\r\nConjure a Frost Splinter for each Splinter shattered, then unleash them all in a devastating barrage, dealing {2} Frost damage to your target for each Splinter in the Splinterstorm.\r\n\r\nSplinterstorm applies Winter's Chill to its target."
+            "1883107967": "Whenever you have {1} or more active Embedded Arcane Splinters, you automatically cast a Splinterstorm at your target.\r\n\r\n|T1387352:24|t{ffffffff|Splinterstorm}:\r\nShatter all Embedded Arcane Splinters, dealing their remaining periodic damage instantly.\r\n\r\nConjure an Arcane Splinter for each Splinter shattered, then unleash them all in a devastating barrage, dealing {2} Arcane damage to your target for each Splinter in the Splinterstorm.\r\n\r\nSplinterstorm has a {3}% chance to grant Clearcasting.",
+            "756050013": "Whenever you have {1} or more active Embedded Frost Splinters, you automatically cast a Splinterstorm at your target.\r\n\r\n|T1387352:24|t{ffffffff|Splinterstorm}:\r\nShatter all Embedded Frost Splinters, dealing their remaining periodic damage instantly.\r\n\r\nConjure a Frost Splinter for each Splinter shattered, then unleash them all in a devastating barrage, dealing {2} Frost damage to your target for each Splinter in the Splinterstorm.\r\n\r\nSplinterstorm has a {3}% chance to grant Brain Freeze."
         }
     },
     "834161472": {
@@ -1454,7 +1434,7 @@
     "3639118564": {
         "Name": "Flash Freezeburn",
         "Descriptions": {
-            "1969557209": "Frostfire Empowerment grants you maximum benefit of Frostfire Mastery and refreshes its duration.\r\n\r\nActivating Combustion or Icy Veins grants you Frostfire Empowerment."
+            "3081882764": "Frostfire Empowerment grants you maximum benefit of Frostfire Mastery, refreshes its duration, and grants you Excess Frost and Excess Fire.\r\n\r\nCasting Combustion or Icy Veins grants you Frostfire Empowerment."
         }
     },
     "2421215628": {
@@ -1478,8 +1458,8 @@
     "2712074469": {
         "Name": "Splintering Sorcery",
         "Descriptions": {
-            "1909132633": "When you consume Nether Precision, conjure {1} Arcane Splinters that fire at your target.\r\n\r\n|T5927652:24|t{ffffffff|Arcane Splinter}:\r\nConjure raw Arcane magic into a sharp projectile that deals {2} Arcane damage.\r\n\r\n{ffffffff|Arcane Splinter}s embed themselves into their target, dealing {3} Arcane damage over {4} sec. This effect stacks.",
-            "3194034787": "When you consume Winter's Chill, conjure a Frost Splinter that fires at your target.\r\n\r\n|T5927651:24|t{ffffffff|Frost Splinter}:\r\nConjure raw Frost magic into a sharp projectile that deals {1} Frost damage.\r\n\r\nFrost Splinters embed themselves into their target, dealing {2} Frost damage over {3} sec. This effect stacks."
+            "3882092281": "When you consume Nether Precision, conjure {1} Arcane Splinters.\r\n\r\n|T5927652:24|t{ffffffff|Arcane Splinter}:\r\nConjure raw Arcane magic into a sharp projectile that deals {2} Arcane damage.\r\n\r\nArcane Splinters embed themselves into their target, dealing {3} Arcane damage over {4} sec. This effect stacks.",
+            "3634524255": "When you consume Winter's Chill or Fingers of Frost, conjure a Frost Splinter.\r\n\r\n|T5927651:24|t{ffffffff|Frost Splinter}:\r\nConjure raw Frost magic into a sharp projectile that deals {1} Frost damage.\r\n\r\nFrost Splinters embed themselves into their target, dealing {2} Frost damage over {3} sec. This effect stacks."
         }
     },
     "2679054380": {
@@ -1498,7 +1478,7 @@
     "353116612": {
         "Name": "Energy Reconstitution",
         "Descriptions": {
-            "3227572287": "Damage from Dematerialize has a small chance to summon an Arcane Explosion at its target's location at {1}% effectiveness.\r\n\r\nArcane Explosions summoned from {ffffffff|Energy Reconstitution} do not generate Arcane Charges."
+            "4251729296": "Damage from Dematerialize has a small chance to summon an Arcane Explosion at its target's location at {1}% effectiveness.\r\n\r\nArcane Explosions summoned from Energy Reconstitution do not generate Arcane Charges."
         }
     },
     "3478818601": {
@@ -1553,7 +1533,7 @@
     "3998373534": {
         "Name": "Heat Shimmer",
         "Descriptions": {
-            "1284889919": "Damage from Ignite has a {1}% chance to make your next Scorch have no cast time and deal damage as though your target was below {2}% health."
+            "2915324160": "Scorch damage increased by {1}%.\r\n\r\nDamage from Ignite has a {2}% chance to make your next Scorch deal damage as though your target was below {3}% health."
         }
     },
     "703046748": {
@@ -1613,13 +1593,13 @@
     "1972248735": {
         "Name": "Ignite the Future",
         "Descriptions": {
-            "3601839871": "Generating a Spellfire Sphere while your Phoenix is active causes it to cast an exceptional spell."
+            "4011765830": "Generating a Spellfire Sphere while your Phoenix is active causes it to cast an exceptional spell.\r\n\r\nMana Cascade can now stack up to {1} times."
         }
     },
     "2363930862": {
         "Name": "Leysight",
         "Descriptions": {
-            "3992644952": "Nether Precision damage bonus increased to {1}%."
+            "811104091": "Nether Precision damage bonus increased by {1}%."
         }
     },
     "2895708957": {
@@ -1638,8 +1618,8 @@
     "2121708200": {
         "Name": "Merely a Setback",
         "Descriptions": {
-            "2058854074": "Your Blazing Barrier now grants {1}% avoidance while active and {2}% leech for {3} seconds when it breaks or expires.",
-            "953265793": "Your Prismatic Barrier now grants {1}% avoidance while active and {2}% leech for {3} seconds when it breaks or expires."
+            "2862686231": "Your Prismatic Barrier now grants {1}% avoidance while active and {2}% leech for {3} sec when it breaks or expires.",
+            "1625912": "Your Blazing Barrier now grants {1}% avoidance while active and {2}% leech for {3} sec when it breaks or expires."
         }
     },
     "1077633897": {
@@ -1688,7 +1668,6 @@
     "3920726449": {
         "Name": "Flame and Frost",
         "Descriptions": {
-            "-1": "",
             "2311603091": "Cauterize resets the cooldown of your Frost spells with a base cooldown shorter than {1} minutes when it activates.",
             "1838322603": "Cold Snap additionally resets the cooldowns of your Fire spells."
         }
@@ -1702,8 +1681,8 @@
     "1385945240": {
         "Name": "Spellfrost Teachings",
         "Descriptions": {
-            "1697200990": "Direct damage from Frost Splinters has a small chance to reset the cooldown of Frozen Orb and increase all damage dealt by Frozen Orb by {1}% for {2} sec.",
-            "3071079060": "Direct damage from Arcane Splinters has a small chance to launch an Arcane Orb at {1}% effectiveness and increase all damage dealt by Arcane Orb by {2}% for {3} sec."
+            "3373106334": "Direct damage from Arcane Splinters has a {1}% chance to launch an Arcane Orb at {2}% effectiveness and increase all damage dealt by Arcane Orb by {3}% for {4} sec.",
+            "2173788620": "Direct damage from Frost Splinters has a {1}% chance to reset the cooldown of Frozen Orb and increase all damage dealt by Frozen Orb by {2}% for {3} sec."
         }
     },
     "2692726321": {
@@ -1733,13 +1712,13 @@
     "3980618390": {
         "Name": "Frostfire Empowerment",
         "Descriptions": {
-            "1470372546": "Your Frost and Fire spells have a chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal {1}% increased damage, explode for {2}% of its damage to nearby enemies, and grant you maximum benefit of Frostfire Mastery and refresh its duration."
+            "3665608633": "Your Frost and Fire spells have a chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal {1}% increased damage, explode for {2}% of its damage to nearby enemies."
         }
     },
     "2803641078": {
         "Name": "Majesty of the Phoenix",
         "Descriptions": {
-            "1696945529": "When Phoenix Flames damages {1} or more targets, your next {2} Flamestrikes have their cast time reduced by {3} sec and their damage is increased by {4}%."
+            "1020731670": "Casting Phoenix Flames causes your next Flamestrike to have its critical strike chance increased by {1}% and critical strike damage increased by {2}%.\r\n\r\nStacks up to {3} times."
         }
     },
     "3965212887": {
@@ -1751,9 +1730,9 @@
     "1546413332": {
         "Name": "Sunfury Execution",
         "Descriptions": {
-            "2153471148": "Scorch's critical strike threshold is increased to {1}%.\r\n\r\n|T135827:24|t {ffffffff|Scorch}\r\nScorches an enemy for {2} Fire damage.\r\n\r\nScorch is a guaranteed critical strike, deals {3}% increased damage, and increases your movement speed by {4}% for {5} sec when cast on a target below {6}% health.\r\n\r\nCastable while moving.",
-            "1782205634": "Scorch's critical strike threshold is increased to {1}%.\r\n\r\n|T135827:24|t {ffffffff|Scorch}\r\nScorches an enemy for {2} Fire damage.\r\n\r\nScorch is a guaranteed critical strike and increases your movement speed by {3}% for {4} sec when cast on a target below {5}% health.\r\n\r\nCastable while moving.",
-            "1973675597": "Arcane Bombardment damage bonus increased to {1}%.\r\n\r\n|T1041233:24|t {ffffffff|Arcane Bombardment}\r\nArcane Barrage deals an additional {2}% damage against targets below {3}% health."
+            "1973675597": "Arcane Bombardment damage bonus increased to {1}%.\r\n\r\n|T1041233:24|t {ffffffff|Arcane Bombardment}\r\nArcane Barrage deals an additional {2}% damage against targets below {3}% health.",
+            "174406808": "Scorch's critical strike threshold is increased to {1}%.\r\n\r\n|T135827:24|t {ffffffff|Scorch}\r\nScorches an enemy for {2} Fire damage.\r\n\r\nWhen cast on a target below {3}% health, Scorch is a guaranteed critical strike and increases your movement speed by {4}% for {5} sec.\r\n\r\nCastable while moving.",
+            "3169838192": "Scorch's critical strike threshold is increased to {1}%.\r\n\r\n|T135827:24|t {ffffffff|Scorch}\r\nScorches an enemy for {2} Fire damage.\r\n\r\nWhen cast on a target below {3}% health, Scorch is a guaranteed critical strike, deals {4}% increased damage, and increases your movement speed by {5}% for {6} sec.\r\n\r\nCastable while moving."
         }
     },
     "3237801345": {
@@ -1881,8 +1860,8 @@
     "1835069131": {
         "Name": "Memory of Al'ar",
         "Descriptions": {
-            "4198085195": "While under the effects of a casted Arcane Surge, you gain twice as many stacks of Mana Addiction.\r\n\r\nWhen your Arcane Phoenix expires, it empowers you, granting Arcane Soul for {1} sec, plus an additional {2} sec for each exceptional spell it had cast.\r\n\r\n|T2065625:24|t{ffffffff|Arcane Soul}:\r\nArcane Barrage grants Clearcasting and generates {3} Arcane Charges.",
-            "1026794772": "While under the effects of a casted Combustion, you gain twice as many stacks of Mana Addiction.\r\n\r\nWhen your Arcane Phoenix expires, it empowers you, granting Hyperthermia for {1} sec, plus an additional {2} sec for each exceptional spell it had cast.\r\n\r\n|T135789:24|t {ffffffff|Hyperthermia}:\r\nPyroblast and Flamestrike have no cast time and are guaranteed to critically strike."
+            "1611395350": "While under the effects of a casted Arcane Surge, you gain twice as many stacks of Mana Cascade.\r\n\r\nWhen your Arcane Phoenix expires, it empowers you, granting Arcane Soul for {1} sec, plus an additional {2} sec for each exceptional spell it had cast.\r\n\r\n|T2065625:24|t{ffffffff|Arcane Soul}:\r\nArcane Barrage grants Clearcasting and generates {3} Arcane Charges.\r\n\r\nEach cast of Arcane Barrage increases the damage of Arcane Barrage by {4}%.",
+            "2192187610": "While under the effects of a casted Combustion, you gain twice as many stacks of Mana Cascade.\r\n\r\nWhen your Arcane Phoenix expires, it empowers you, granting Hyperthermia for {1} sec, plus an additional {2} sec for each exceptional spell it had cast.\r\n\r\n|T135789:24|t {ffffffff|Hyperthermia}:\r\nPyroblast and Flamestrike have no cast time and are guaranteed to critically strike."
         }
     },
     "3635230366": {
@@ -1895,7 +1874,7 @@
         "Name": "Burden of Power",
         "Descriptions": {
             "2272091676": "Conjuring a Spellfire Sphere increases the damage of your next Pyroblast by {1}% or your next Flamestrike by {2}%.",
-            "709566395": "Conjuring a Spellfire Sphere increases the damage of your next Arcane Blast by {1}% or your next Arcane Barrage by {2}%."
+            "1145716531": "Conjuring a Spellfire Sphere increases the damage of your next Arcane Blast by {1}% or Arcane Barrage by {2}%."
         }
     },
     "1916756234": {
@@ -1998,7 +1977,7 @@
     "2694109536": {
         "Name": "Time Loop",
         "Descriptions": {
-            "1572336915": "When you apply a stack of Arcane Debilitation, you have a {1}% chance to apply another stack of Arcane Debilitation.\r\n\r\nThis effect can trigger off of itself."
+            "4234545222": "Arcane Debilitation's duration is increased by {1} sec.\r\n\r\nWhen you apply a stack of Arcane Debilitation, you have a {2}% chance to apply another stack of Arcane Debilitation.\r\n\r\nThis effect can trigger off of itself."
         }
     },
     "1872984619": {
@@ -2072,7 +2051,6 @@
     "3324496268": {
         "Name": "Elemental Affinity",
         "Descriptions": {
-            "-1": "",
             "348392567": "The cooldown of Frost spells with a base cooldown shorter than {1} minutes is reduced by {2}%.",
             "2365913356": "The cooldown of Fire spells is reduced by {1}%."
         }
@@ -2080,7 +2058,7 @@
     "2427998630": {
         "Name": "Leydrinker",
         "Descriptions": {
-            "53172921": "Consuming Nether Precision has a {1}% chance to make your next Arcane Blast or Arcane Barrage echo, repeating its damage at {2}% effectiveness to the primary target and up to four nearby enemies."
+            "1404035180": "Consuming Clearcasting has a {1}% chance to make your next Arcane Blast echo, repeating its damage at {2}% effectiveness to the primary target and up to {3} nearby enemies.\r\n\r\nCasting Touch of the Magi grants Leydrinker."
         }
     },
     "1434242353": {
@@ -2105,15 +2083,13 @@
     "2164627696": {
         "Name": "Excess Fire",
         "Descriptions": {
-            "857878023": "Reaching maximum stacks of Fire Mastery causes your next  to apply Living Bomb at {1}% effectiveness.\r\n\r\nWhen this Living Bomb explodes, .",
-            "2318667158": "Reaching maximum stacks of Fire Mastery causes your next Fire Blast to apply Living Bomb at {1}% effectiveness.\r\n\r\nWhen this Living Bomb explodes, reduce the cooldown of Phoenix Flames by {2} sec.",
-            "1552115328": "Reaching maximum stacks of Fire Mastery causes your next Ice Lance to apply Living Bomb at {1}% effectiveness.\r\n\r\nWhen this Living Bomb explodes, gain Brain Freeze."
+            "3536044011": "Casting Comet Storm causes your next Ice Lance to explode in a Frostfire Burst, dealing {1} Frostfire damage to nearby enemies. Damage reduced beyond {2} targets.\r\n\r\nFrostfire Burst grants Brain Freeze.",
+            "927205072": "Casting Meteor causes your next Fire Blast to explode in a Frostfire Burst, dealing {1} Frostfire damage to nearby enemies. Damage reduced beyond {2} targets.\r\n\r\nFrostfire Burst reduces the cooldown of Phoenix Flames by {3} sec."
         }
     },
     "2344979238": {
         "Name": "Imbued Warding",
         "Descriptions": {
-            "-1": "",
             "506270441": "Blazing Barrier also casts an Ice Barrier at {1}% effectiveness.",
             "1357152428": "Ice Barrier also casts a Blazing Barrier at {1}% effectiveness."
         }
@@ -2133,13 +2109,7 @@
     "1240518761": {
         "Name": "Barrier Diffusion",
         "Descriptions": {
-            "1811743884": "Whenever one of your Barriers is removed, reduce its cooldown by {1}  sec."
-        }
-    },
-    "915865544": {
-        "Name": "Resonant Orbs",
-        "Descriptions": {
-            "2248363511": "Arcane Orb damage increased by {1}%."
+            "1811743884": "Whenever one of your Barriers is removed, reduce its cooldown by {1} sec."
         }
     },
     "3518527212": {
@@ -2152,6 +2122,32 @@
         "Name": "Portal: Vale of Eternal Blossoms",
         "Descriptions": {
             "2201609465": "Creates a portal, teleporting group members that use it to Vale of Eternal Blossoms."
+        }
+    },
+    "1137600541": {
+        "Name": "Cratermaker",
+        "Descriptions": {
+            "144907896": "Casting Combustion grants Lit Fuse and Living Bomb's damage is increased by {1}% while under the effects of Combustion.",
+            "3393320914": "Casting Combustion grants Lit Fuse and Living Bomb's damage is increased by {1}% while under the effects of Combustion.\r\n\r\nYour chance of gaining Lit Fuse is increased by {2}% while under the effects of Combustion."
+        }
+    },
+    "1839750789": {
+        "Name": "Glyph of Arcane Familiar",
+        "Descriptions": {
+            "395762878": "Alter your Arcane Familiar to take the form of an orb."
+        }
+    },
+    "865268164": {
+        "Name": "Signature Spell",
+        "Descriptions": {
+            "891377558": "When your Magi's Spark explodes, you conjure {1} Arcane Splinters.",
+            "4198833913": "Consuming Winter's Chill with Glacial Spike conjures {1} additional Frost Splinters."
+        }
+    },
+    "1789977007": {
+        "Name": "Aethervision",
+        "Descriptions": {
+            "421733795": "Consuming Nether Precision increases the damage of your next Arcane Barrage by {1}% and causes it to generate {2} Arcane [plural|Charge|Charges]. Stacks up to {3} times."
         }
     }
 }
