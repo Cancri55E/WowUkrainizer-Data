@@ -26,7 +26,7 @@
     "1187045601": {
         "Name": "Чарівна наснага",
         "Descriptions": {
-            "1374352315": "[Нищівна зоря] дає вам [Імпульс Есенції]."
+            "1754453485": "Casting Shattering Star grants Essence Burst."
         }
     },
     "929313707": {
@@ -110,7 +110,7 @@
     "2062093491": {
         "Name": "Убійний змах",
         "Descriptions": {
-            "1022402256": "Відновлення [Удар Хвостом] зменшується на {1} сек."
+            "3081924093": "Tail Swipe's cooldown is reduced by {1} min."
         }
     },
     "4217064077": {
@@ -147,7 +147,8 @@
     "2387597067": {
         "Name": "Дезінтеграція",
         "Descriptions": {
-            "631501785": "Ви розриваєте ворога потоком магії синьої зграї, завдаючи {1} шкоди від морозних чарів протягом {2} сек, і сповільнюєте ціль на {3}% протягом {4} сек."
+            "631501785": "Ви розриваєте ворога потоком магії синьої зграї, завдаючи {1} шкоди від морозних чарів протягом {2} сек, і сповільнюєте ціль на {3}% протягом {4} сек.",
+            "989353190": "Disintegrate costs {1} Essence, but no longer has a cooldown."
         }
     },
     "3608812960": {
@@ -166,7 +167,7 @@
     "2412378877": {
         "Name": "Подих Сну",
         "Descriptions": {
-            "975953811": "Ви робите вдих, збираючи силу Сну, після чого видихаєте, зцілюючи до {1} союзників на {2} од. здоров'я у радіусі {3} м, в конусі перед собою.\n\n{FFFFFFFF|I:} Зцілює {4} од. здоров'я миттєво та ще {5} од. здоров'я за {6} сек.\n\n{FFFFFFFF|II:} Зцілює {7}  од. здоров'я миттєво та ще  {8} од. здоров'я за {9} сек.\n\n{FFFFFFFF|III:} Зцілює {10} од. здоров'я  миттєво та ще {11} од. здоров'я за {12} сек."
+            "1432298750": "Inhale, gathering the power of the Dream. Release to exhale, healing yourself and {1} injured allies in a {2} yd cone in front of you for {3}.\r\n\r\n{FFFFFFFF|I:}   Heals {4} instantly and {5} over {6} sec.\r\n\r\n{FFFFFFFF|II:}  Heals {7} instantly and {8} over {9} sec.\r\n\r\n{FFFFFFFF|III:} Heals {10} instantly and {11} over {12} sec."
         }
     },
     "2220971585": {
@@ -190,7 +191,7 @@
     "3131127187": {
         "Name": "Ехо",
         "Descriptions": {
-            "731329376": "Огортає союзника енергією часу, відновлюючи йому {1} од. здоров'я, а ваше наступне інше зцілювальне заклинання застосується повторно на цю ціль з ефективністю {2}% від початкової."
+            "1027370604": "Wrap an ally with temporal energy, healing them for {1} and causing your next healing spell to cast an additional time on that ally at {2}% of normal healing. Essence spells cannot be Echoed."
         }
     },
     "1123008876": {
@@ -261,8 +262,8 @@
     "1142456747": {
         "Name": "Сплеск вічності",
         "Descriptions": {
-            "3464224759": "Ви фокусуєте енергію і випускаєте залп чистої магії, завдаючи ворогу {1} шкоди від морозних чарів. При заряджанні завдає шкоди додатковим ворогам в радіусі {2} м.\n\n{FFFFFFFF|I:}  Вражає {3} {declension|ворога|ворогів|ворогів}.\n\n{FFFFFFFF|II:}  Вражає {4} {declension|ворога|ворогів|ворогів}.\n\n{FFFFFFFF|III:} Вражає {5} {declension|ворога|ворогів|ворогів}.",
-            "392001865": "Ви фокусуєте енергію і випускаєте залп чистої магії, завдаючи ворогу {1} шкоди від морозних чарів. При заряджанні завдає шкоду додатковим ворогам в радіусі {2} м.\n\n{FFFFFFFF|I:}  Вражає {3} {declension|ворога|ворогів|ворогів}.\n\n{FFFFFFFF|II:}  Вражає {4} {declension|ворога|ворогів|ворогів}.\n\n{FFFFFFFF|III:} Вражає {5} {declension|ворога|ворогів|ворогів}."
+            "197303467": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemy.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies.",
+            "2855515972": "Focus your energies to release a salvo of pure magic, dealing {1} Spellfrost damage to an enemy. Damages additional enemies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Damages {3} enemies.\r\n\r\n{FFFFFFFF|II:}  Damages {4} enemies.\r\n\r\n{FFFFFFFF|III:} Damages {5} enemies."
         }
     },
     "3823156816": {
@@ -396,7 +397,7 @@
     "2658207491": {
         "Name": "Потужні помахи",
         "Descriptions": {
-            "1198678669": "Відновлення [Помах Крилами] зменшується на {1} сек."
+            "2089063058": "Wing Buffet's cooldown is reduced by {1} min."
         }
     },
     "126116016": {
@@ -617,7 +618,6 @@
     "1538070263": {
         "Name": "Проникливий холод",
         "Descriptions": {
-            "3425476399": "[Дезінтеграція] зменшує швидкість руху вашої цілі на {1}% на {2} сек.",
             "1087345099": "Заклинання синьої зграї, які завдають шкоду, також зменшують швидкість руху вашої цілі на {1}% на {2} сек."
         }
     },
@@ -686,7 +686,7 @@
     "2896275890": {
         "Name": "Порятунок",
         "Descriptions": {
-            "1306300640": "Ви підлітаєте до союзника та летите разом з ним у вказане місце."
+            "1411113220": "Swoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally."
         }
     },
     "2571395763": {
@@ -792,7 +792,7 @@
     "1469105336": {
         "Name": "Духоцвіт",
         "Descriptions": {
-            "1026780140": "Направляє духовну енергію, відновлюючи союзнику {1} од. здоров'я. Зцілення розподіляється на поранених союзників в радіусі {2} м в залежності від рівня заряду.\n\n{FFFFFFFF|I:} Лікує одну ціль\n\n{FFFFFFFF|II:} Лікує дві цілі\n\n{FFFFFFFF|III:} Лікує три цілі."
+            "1385383766": "Divert spiritual energy, healing an ally for {1}. Jumps to injured allies within {2} yds when empowered.\r\n\r\n{FFFFFFFF|I:}   Heals one ally.\r\n\r\n{FFFFFFFF|II:}  Heals a second ally.\r\n\r\n{FFFFFFFF|III:} Heals a third ally."
         }
     },
     "2122303404": {
@@ -1006,8 +1006,7 @@
     "1329127873": {
         "Name": "Потрясіння",
         "Descriptions": {
-            "1225170743": "Ви вбираєте земну силу з-під ніг ваших ворогів та підкидаєте їх, завдаючи {1} вулканічної шкоди цілі та ворогам поряд.\n\nЗбільшує тривалість ваших активних ефектів [Чорна міць] на {2} сек.\n\nЗаряджання збільшує радіус ураження.\n\n{FFFFFFFF|I:}   {3} м радіус.\n\n{FFFFFFFF|II:}  {4} м радіус.\n\n{FFFFFFFF|III:} {5} м радіус.",
-            "1390242974": "Ви вбираєте земну силу з-під ніг ваших ворогів та підкидаєте їх, завдаючи {1} вулканічної шкоди цілі та ворогам поряд.\n\nЗаряджання збільшує радіус ураження.\n\n{FFFFFFFF|I:}   {2} м радіус.\n\n{FFFFFFFF|II:}  {3} м радіус.\n\n{FFFFFFFF|III:} {4} м радіус."
+            "1225170743": "Ви вбираєте земну силу з-під ніг ваших ворогів та підкидаєте їх, завдаючи {1} вулканічної шкоди цілі та ворогам поряд.\n\nЗбільшує тривалість ваших активних ефектів [Чорна міць] на {2} сек.\n\nЗаряджання збільшує радіус ураження.\n\n{FFFFFFFF|I:}   {3} м радіус.\n\n{FFFFFFFF|II:}  {4} м радіус.\n\n{FFFFFFFF|III:} {5} м радіус."
         }
     },
     "188006984": {
@@ -1051,15 +1050,13 @@
     "2589229494": {
         "Name": "Подих епох",
         "Descriptions": {
-            "3019890032": "Ви летите в вказане місце, накладаючи [Часові рани] на ворогів на вашому шляху на {1} сек.\n\n[Часові рани] накопичують {2}% завданої шкоди вашими союзниками з ефектом [Чорна міць], а потім завдає критичний удар накопиченою кількістю у вигляді шкоди від таємної магії.\n\nНакладає [Чорна міць] на {3} сек.\n\nЗнімає усі ефекти знерухомлення. Ви отримуєте імунітет до ефектів обмеження пересування та втрати контролю під час польоту.",
-            "3170641074": "Ви летите в цільову область, відкриваючи [Тимчасові рани] ворогів на вашому шляху на {1} сек.\n\n[Тимчасові рани] накопичують {2}% від шкоди, яку завдають ваші союзники, перебуваючи під ефектом здібності [Темна могутність], а тоді ви вивільнюєте цю шкоду у вигляді критичного удару таємною магією.\n\nЗнімає всі ефекти укорінення. Під час польоту ви стаєте невразливими до ефектів сповільнення та контролю розуму."
+            "3019890032": "Ви летите в вказане місце, накладаючи [Часові рани] на ворогів на вашому шляху на {1} сек.\n\n[Часові рани] накопичують {2}% завданої шкоди вашими союзниками з ефектом [Чорна міць], а потім завдає критичний удар накопиченою кількістю у вигляді шкоди від таємної магії.\n\nНакладає [Чорна міць] на {3} сек.\n\nЗнімає усі ефекти знерухомлення. Ви отримуєте імунітет до ефектів обмеження пересування та втрати контролю під час польоту."
         }
     },
     "3489930300": {
         "Name": "Виверження",
         "Descriptions": {
-            "972997281": "Викликає потужне виверження під ногами ваших ворогів, завдаючи {1} вулканічної шкоди, рівномірно розподіленої між ними та ворогами поруч.\n\nПодовжує тривалість ваших активних ефектів [Чорна міць] на {2} сек.",
-            "1020969302": "Викликає потужне виверження під ногами ваших ворогів, завдаючи {1} вулканічної шкоди, рівномірно розподіленої між ними та ворогами поруч."
+            "972997281": "Викликає потужне виверження під ногами ваших ворогів, завдаючи {1} вулканічної шкоди, рівномірно розподіленої між ними та ворогами поруч.\n\nПодовжує тривалість ваших активних ефектів [Чорна міць] на {2} сек."
         }
     },
     "3652626634": {
@@ -1089,7 +1086,7 @@
     "2419585197": {
         "Name": "Сейсмічний поштовх",
         "Descriptions": {
-            "2378408066": "[Обвал] прибиває до землі ворогів, які знаходяться у повітрі, приголомшуючи їх на {1} сек."
+            "3735704611": "Landslide causes enemies who are mid-air to be slammed to the ground, stunning them for {1} sec and Landslide's cooldown is reduced by {2} sec."
         }
     },
     "3298271677": {
@@ -1125,8 +1122,8 @@
     "2045686111": {
         "Name": "Чорна міць",
         "Descriptions": {
-            "492086481": "Збільшує основну характеристику {1} {declension|вашого найближчого союзника|ваших найближчих союзників|ваших найближчих союзників} на {2}% від вашої власної та збільшує завдану вами шкоду на {3}% на {4} сек.\n\nВпливає лише на {5} {declension|союзника|союзники|союзників} одночасно та пріорітетно підсилює бійців.\n\n[Виверження], [Глибокий вдих] та ваші заряджувані заклинання подовжують тривалість цих ефектів.",
-            "1003283004": "Збільшує основну характеристику {1} {declension|вашого найближчого союзника|ваших найближчих союзників|ваших найближчих союзників} на {2}% від вашої власної та збільшує завдану вами шкоду на {3}% на {4} сек.\n\nВпливає лише на {5} {declension|союзника|союзники|союзників} одночасно та пріорітетно підсилює бійців.\n\n[Виверження], [Подих епох] та ваші заряджувані заклинання подовжують тривалість цих ефектів."
+            "2609454036": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and does not affect tanks and healers.\r\n\r\nEruption, Deep Breath, and your empower spells extend the duration of these effects.",
+            "819820999": "Increase your {1} nearest allies' primary stat by {2}% of your own, and cause you to deal {3}% more damage, for {4} sec.\r\n\r\nMay only affect {5} allies at once, and does not affect tanks and healers.\r\n\r\nEruption, Breath of Eons, and your empower spells extend the duration of these effects."
         }
     },
     "544520660": {
@@ -1269,7 +1266,7 @@
     "791998795": {
         "Name": "Масова дезінтеграція",
         "Descriptions": {
-            "386509619": "Empower spells cause your next Disintegrate to strike up to {1} targets. When striking less than {2} targets, Disintegrate damage is increased by {3}% for each missing target."
+            "3205063133": "Empower spells cause your next Disintegrate to strike up to {1} targets. When striking fewer than {2} targets, Disintegrate damage is increased by {3}% for each missing target."
         }
     },
     "2452243066": {
@@ -1307,7 +1304,7 @@
     "3968664099": {
         "Name": "Палаючі жарини",
         "Descriptions": {
-            "1105682433": "Fire Breath causes enemies to take {1}% increased damage from your Red spells."
+            "2293462244": "Fire Breath causes enemies to take up to {1}% increased damage from your Red spells, increased based on its empower level."
         }
     },
     "2599858667": {
@@ -1361,7 +1358,8 @@
     "1173409051": {
         "Name": "Титанічна точність",
         "Descriptions": {
-            "3394949599": "Living Flame and Azure Strike have {1} extra chance to trigger Essence Burst when they critically strike."
+            "3394949599": "Living Flame and Azure Strike have {1} extra chance to trigger Essence Burst when they critically strike.",
+            "1369428035": "Living Flame has {1} extra chance to trigger Essence Burst when it critically strikes."
         }
     },
     "3933213873": {
@@ -1503,13 +1501,6 @@
             "4204834675": "Essence Burst increases the effectiveness of your next Essence ability by {1}%."
         }
     },
-    "2090353550": {
-        "Name": "Мандрівне полум'я",
-        "Descriptions": {
-            "2449325530": "Engulf increases the duration of Fire Breath or Dream Breath by {1} sec and causes it to spread to a target within {2} yds.",
-            "2713551721": "Engulf increases the duration of Fire Breath by {1} sec and causes it to spread to a target within {2} yds."
-        }
-    },
     "2926849442": {
         "Name": "Часове полум'я",
         "Descriptions": {
@@ -1544,7 +1535,6 @@
     "1814238248": {
         "Name": "Провідник Полум'я",
         "Descriptions": {
-            "1455463606": "Critical strike chance against targets below {1}% health increased by {2}%.",
             "3223868311": "Critical strike chance against targets above {1}% health increased by {2}%."
         }
     },
@@ -1557,7 +1547,7 @@
     "974082029": {
         "Name": "Розплавлені жарини",
         "Descriptions": {
-            "179262959": "Fire Breath causes enemies to take {1}% increased damage from your Black spells."
+            "698025500": "Fire Breath causes enemies to take up to {1}% increased damage from your Black spells, increased based on its empower level."
         }
     },
     "1868823194": {
@@ -1577,6 +1567,13 @@
         "Name": "Міць Чорної зграї",
         "Descriptions": {
             "123783361": "Black spells deal {1}% increased damage."
+        }
+    },
+    "4164169481": {
+        "Name": "Flame Siphon",
+        "Descriptions": {
+            "2840578587": "Engulf reduces the cooldown of Fire Breath by {1} sec.",
+            "439247582": "Engulf reduces the cooldown of Fire Breath and Dream Breath by {1} sec."
         }
     }
 }

@@ -20,16 +20,10 @@
             "4043561551": "Застосування [Тигрова лапа] проти нових цілей, наповнює вас духом Суеня, що дає вам {1}% швидкості на {2} сек.\n\nСпрацьовує не частіше, ніж раз на {3} сек на кожну ціль."
         }
     },
-    "2154045098": {
-        "Name": "Стародавня згода",
-        "Descriptions": {
-            "465020066": "Your Blackout Kicks strike {1} targets and have an additional {2}% chance to reset the cooldown of your Rising Sun Kick while within your Jadefire Stomp."
-        }
-    },
     "3099821981": {
         "Name": "Стародавні техніки",
         "Descriptions": {
-            "258382207": "After casting Jadefire Stomp, your Tiger Palm, Blackout Kick, and Rising Sun Kick heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them. Lasts {4} sec.\r\n\r\nWhile Ancient Teachings is active, your Stamina is increased by {5}%."
+            "2350207184": "Your Tiger Palm, Blackout Kick, Rising Sun Kick, and Crackling Jade Lightning heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them."
         }
     },
     "3828832330": {
@@ -111,16 +105,13 @@
     "1246194013": {
         "Name": "До зброї!",
         "Descriptions": {
-            "2199258901": "[Зброя Ордену] викликає Нюцзао, Чорного Бика вам на допомогу на {1} сек.\n\nАктивація бонусної атаки від [Зброя Ордену] має шанс викликати Нюцзао, Чорного Бика.",
-            "4256621124": "[Зброя Ордену] викликає Сюеня, Білого Тигра вам на допомогу на {1} сек.\n\nАктивація бонусної атаки від [Зброя Ордену] має шанс викликати Сюеня, Білого Тигра.",
-            "487813775": "[Зброя Ордену] викликає Ю'лона, Нефритову Змію вам на допомогу на {1} сек.\n\nАктивація бонусної атаки від [Зброя Ордену] має шанс викликати Нюцзао, Чорного Бика.",
-            "237814229": "[Зброя Ордену] викликає Чі-Цзі, Червоного Журавля вам на допомогу на {1} сек.\n\nАктивація бонусної атаки від [Зброя Ордену] має шанс викликати Нюцзао, Чорного Бика."
+            "2199258901": "[Зброя Ордену] викликає Нюцзао, Чорного Бика вам на допомогу на {1} сек.\n\nАктивація бонусної атаки від [Зброя Ордену] має шанс викликати Нюцзао, Чорного Бика."
         }
     },
     "723651848": {
         "Name": "Заспокійливе злиття",
         "Descriptions": {
-            "2963778100": "Кожен раз, коли [Заспокійливий туман] відновлює здоров'я, ваш наступний [Кокон життя] поглине на {1}% більше шкоди. Накопичується до {2} разів."
+            "2467404058": "The absorb amount of Life Cocoon is increased by {1}%."
         }
     },
     "503337380": {
@@ -177,7 +168,7 @@
     "4294034818": {
         "Name": "Прилив Чі",
         "Descriptions": {
-            "882003488": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T3565447:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
+            "892285242": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T6035314:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
         }
     },
     "1869013851": {
@@ -405,7 +396,8 @@
     "2997177972": {
         "Name": "Удар летючого змія",
         "Descriptions": {
-            "1856288456": "Soar forward through the air at high speed for {1} sec.\r\n \r\nIf used again while active, you will land, reducing the movement speed of enemies within {2} yds by {3}% for {4} sec."
+            "1856288456": "Soar forward through the air at high speed for {1} sec.\r\n \r\nIf used again while active, you will land, reducing the movement speed of enemies within {2} yds by {3}% for {4} sec.",
+            "778878691": "Reduces the cooldown of Flying Serpent Kick by {1} sec."
         }
     },
     "3591541482": {
@@ -419,7 +411,8 @@
         "Descriptions": {
             "336560320": "Перетворює вашу шкіру на камінь на {1} сек, що збільшує ваш максимальний запас здоров'я на {2}% і зменшує усю вхідну шкоду на {3}%.",
             "795528331": "Перетворює вашу шкіру на камінь на {1} сек.",
-            "4431676": "Перетворює вашу шкір на камінь на {1} сек, збільшує ефективність [Похитування] на {2}%."
+            "4431676": "Перетворює вашу шкір на камінь на {1} сек, збільшує ефективність [Похитування] на {2}%.",
+            "4055524687": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, increasing the effectiveness of Stagger by {3}%, reducing all damage you take by {4}%."
         }
     },
     "562086068": {
@@ -564,21 +557,20 @@
     "727617542": {
         "Name": "Виклик Чі-Цзі, Червоного Журавля",
         "Descriptions": {
-            "625034453": "Виклиє дух Чі-Цзі на {1} сек, який застосовує [Туманний потік] кожен раз, коли ви застосовуєте [Карколомний удар], [Удар висхідного сонця] або [Круговий удар журавля], що зцілює {3} од. здоров'я максимум до {2} цілей, зменшує витрати і час застосування наступного [Оповиваючий туман] на {4}%. Цей ефект накопичується.\n\nПрисутність Чі-Цзі поряд з вами, робить вас несприятливим до ефектів обмеження руху."
+            "3776549815": "Summon an effigy of Chi-Ji for {1} sec that kicks up {2} Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {3} allies for {4}, and reducing the cost and cast time of your next Enveloping Mist by {5}%, stacking.\r\n\r\nChi-Ji's presence makes you immune to movement impairing effects."
         }
     },
     "1106917879": {
         "Name": "Виклик Нюцзао, Чорного Бика",
         "Descriptions": {
             "3412009469": "Викликає дух Нюцзао, Чорного Бика на {1} сек. Нюцзао атакує вашу основну ціль і деколи тупотить, вражаючи усіх ворогів поряд.\n\nДоки діє цей ефект Нюцзао отримує {2}% шкоди від [Похитування] замість вас.",
-            "2178503409": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies for {2} plus {3}% of Stagger damage you have recently purified.\r\n\r\nWhile active, {4}% of damage delayed by Stagger is instead Staggered by Niuzao."
+            "2520880525": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies, increased based on your recently purified Stagger.\r\n\r\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao."
         }
     },
     "3177357260": {
         "Name": "Пробудження Сюеня, Білого Тигра",
         "Descriptions": {
-            "757794975": "Викликає дух Сюеня, Білого Тигра на {1} сек. Сюень атакує вашу головну ціль, а також кожні {4} сек запускає [Тигрова блискавка] у {2} ворогів в радіусі {3} м, яка завдає {5} шкоди від сил природи.\n\nСюень вражає ваших ворогів [Посилена тигрова блискавка] кожні {6} сек, яка завдає {7}% від об'єму шкоди, яку завдали ви і ваші супутники впродовж останніх {8} сек.",
-            "3583519542": "Викликає дух Сюеня, Білого Тигра на {1} сек. Сюень атакує вашу головну ціль, а також кожні {4} сек запускає [Тигрова блискавка] у {2} ворогів в радіусі {3} м, яка завдає {5} шкоди від сил природи."
+            "757794975": "Викликає дух Сюеня, Білого Тигра на {1} сек. Сюень атакує вашу головну ціль, а також кожні {4} сек запускає [Тигрова блискавка] у {2} ворогів в радіусі {3} м, яка завдає {5} шкоди від сил природи.\n\nСюень вражає ваших ворогів [Посилена тигрова блискавка] кожні {6} сек, яка завдає {7}% від об'єму шкоди, яку завдали ви і ваші супутники впродовж останніх {8} сек."
         }
     },
     "2669135799": {
@@ -602,8 +594,7 @@
     "3297067060": {
         "Name": "Нефритовий зв'язок",
         "Descriptions": {
-            "1688236383": "Abilities that activate Gust of Mist reduce the cooldown on Invoke Yul'on, the Jade Serpent by {1} sec, and Chi-Ji's Gusts of Mists healing is increased by {2}% and Yu'lon's Soothing Breath healing is increased by {3}%.",
-            "2979166869": "Abilities that activate Gust of Mist reduce the cooldown on Invoke Chi-Ji, the Red Crane by {1} sec, and Chi-Ji's Gusts of Mists healing is increased by {2}% and Yu'lon's Soothing Breath healing is increased by {3}%."
+            "2995887631": "Chi Cocoons now apply Enveloping Mist for {1} sec when they expire or are consumed, and Chi-Ji's Gusts of Mists healing is increased by {2}% and Yu'lon's Soothing Breath healing is increased by {3}%."
         }
     },
     "295195145": {
@@ -689,64 +680,48 @@
             "3202538526": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "1027486152": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "371998049": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "580616200": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "805701463": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "297614652": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "4156557566": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "2238581": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "3988221937": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "3192771981": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "3842358050": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "573760287": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "2373611628": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "604265851": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "336858246": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "477506552": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "2725847244": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "3499423180": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "22658730": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "1049028270": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "1111236947": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "229257303": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "1350089374": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "4049229421": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "3675699377": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "568030454": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "199600907": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "226845023": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3434840332": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
             "2226448999": "Renewing Mist, Enveloping Mist, Rising Sun Kick, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "1596788329": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2977713766": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "1874486326": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2996152234": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "401473599": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1800347721": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "288896840": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "3811787403": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "497013222": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2733019000": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "434461680": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "3148800369": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2265171823": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "27891081": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3772581753": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "526857885": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "3766885049": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "1707923536": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2726678533": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "4158838142": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "1240076359": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3297762908": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1769831315": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "46444292": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "3417133534": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "2074545179": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "3235210952": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
             "959614438": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "392228513": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2782962131": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "344755808": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
+            "392228513": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
         }
     },
     "2476497048": {
@@ -809,22 +784,16 @@
             "538911070": "Пиття [Очищувальний відвар] знімає з вас усі ефекти сповільнення."
         }
     },
-    "2701233104": {
-        "Name": "Живильна енергія Чі",
-        "Descriptions": {
-            "3244596397": "Life Cocoon increases healing over time received by an additional {1}%, and increases all periodic healing you deal by {2}% for an additional {3} sec after the cocoon is removed."
-        }
-    },
     "2581439491": {
         "Name": "Переповнені тумани",
         "Descriptions": {
-            "2364882475": "Ваш [Оповиваючий туман] зцілює ціль на {1}% її максимального запасу здоров'я кожен раз, коли вона отримує шкоду."
+            "2367185697": "Your Enveloping Mists heal the target for {1}% of their maximum health each time they take direct damage."
         }
     },
     "2027956544": {
         "Name": "Параліч",
         "Descriptions": {
-            "2265288724": "Паралізує ціль на {1} хв. Максимум можна паралізувати {2} ціль одночасно. Будь-яка шкода по цілі припиняє дію цього ефекту."
+            "1590652786": "Incapacitates the target for {1} min. Limit {2}. Damage may cancel the effect."
         }
     },
     "2427519294": {
@@ -878,7 +847,8 @@
         "Descriptions": {
             "713901619": "Скасовує {1}% шкоди відкладеної [Похитування].\n\nМиттєво відновлює вам здоров'я в об'ємі {2}% від відкладеної шкоди.",
             "114557222": "Clears {1}% of your damage delayed with Stagger.",
-            "1956447712": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger"
+            "1956447712": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger",
+            "1966230532": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger\r\n\r\nInstantly heals you for {3}% of the damage cleared."
         }
     },
     "1338007360": {
@@ -990,7 +960,7 @@
         "Name": "Шквальний нефритовий вітер",
         "Descriptions": {
             "2998363054": "Ви викликаєте бурливий смерч навколо себе, який завдає {1} фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. Здійснює зменшену шкоду більше як {4} цілям.",
-            "3373192753": "Strike of the Windlord applies Mark of the Crane to all enemies struck and summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. \r\n\r\nDeals reduced damage beyond {4} targets."
+            "714313003": "Strike of the Windlord summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. \r\n\r\nDeals reduced damage beyond {4} targets."
         }
     },
     "2083684303": {
@@ -1033,7 +1003,8 @@
     "1813370479": {
         "Name": "Дар Шейлун",
         "Descriptions": {
-            "856227294": "Поглинає усі розташовані поряд туманні хмари, зцілюючи союзника і {1} цілі поряд на {2} од. здоров'я за кожну поглинуту хмару.\n\nХмара утворюється кожні {3} сек у бою."
+            "856227294": "Поглинає усі розташовані поряд туманні хмари, зцілюючи союзника і {1} цілі поряд на {2} од. здоров'я за кожну поглинуту хмару.\n\nХмара утворюється кожні {3} сек у бою.",
+            "900945038": "Draws in all nearby clouds of mist, healing the friendly target for {1} per cloud absorbed.\r\n\r\nA cloud of mist is generated every {2} sec while in combat."
         }
     },
     "176273904": {
@@ -1057,7 +1028,17 @@
             "4193078222": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.",
             "563251222": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
             "1797065590": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "361664731": "Heals the target for {1} over {2} sec.\r\n\r\nWhile channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel."
+            "361664731": "Heals the target for {1} over {2} sec.\r\n\r\nWhile channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel.",
+            "1403257293": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.",
+            "3393384504": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
+            "1506332319": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
+            "2835051784": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
+            "3290206169": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
+            "447270234": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
+            "2562697306": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
+            "3535091036": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
+            "725713845": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
+            "148430844": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
         }
     },
     "612499249": {
@@ -1079,7 +1060,6 @@
             "4103592572": "Оберт, під час удару в повітрі, що завдає {1} фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. Здійснює зменшену шкоду більше як {4} цілям.",
             "2317706654": "Оберт, під час удару в повітрі, що завдає {1} фізичної шкоди протягом {2} сек усім ворогам в радіусі {3} м. \n\nЗавдання шкоди через [Круговий удар журавля] дає вам ефект [Уникнення] на {4} сек, а ваші [Зцілююча сфера] рухаються до вас. ",
             "1405186088": "Оберт, під час удару в повітрі, що завдає {1} фізичної шкоди протягом {2} сек. ворогам в радіусі {3} м.  ",
-            "3897484860": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds.  \r\n\r\nSpinning Crane Kick's damage is increased by {4}% for each unique target you've struck in the last {5} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick.",
             "1291298083": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
         }
     },
@@ -1191,20 +1171,13 @@
             "4242225725": "Strike of the Windlord grants you {1} stacks of Thunderfist and an additional stack for each additional enemy struck. \r\n\r\nThunderfist discharges upon melee strikes, dealing {2} Nature damage."
         }
     },
-    "2930655377": {
-        "Name": "Громовий чай із заправкою",
-        "Descriptions": {
-            "1184200563": "[Чай з громовим концентратом] тепер може негайно викликати ефект відкидання від [Тріскуча нефритова блискавка] або відновити заряд [Перекат] та [Політ Чі] та зцілити вас на {1} од. здоров'я."
-        }
-    },
     "3963081004": {
         "Name": "Тигрова лапа",
         "Descriptions": {
             "4088993260": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.",
             "1715410535": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.\n\nЗменшує відновлення час ваших відварів на {2} сек.",
             "2439962842": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.\n\n[Тигрова лапа] має {2}% шанс, що ваш наступний [Карколомний удар] не витратить енергію Чі.\n|cFFFFFFFFГенерує {3} од. Чі.",
-            "4270976351": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.\n\n|cFFFFFFFFГенерує {2} од. Чі.",
-            "1911769061": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.\n\n[Тигрова лапа] має {2}% шанс, що ваш наступний [Карколомний удар] не витратить енергію Чі."
+            "4270976351": "Ви робите удар лапою, завдаючи {1} фізичної шкоди.\n\n|cFFFFFFFFГенерує {2} од. Чі."
         }
     },
     "2018797776": {
@@ -1228,16 +1201,16 @@
     "2419444117": {
         "Name": "Дотик смерті",
         "Descriptions": {
-            "1103113678": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. Завдає шкоду, в об'ємі до {1}% вашого максимального здоров'я, гравцям і сильнішим істотам з рівнем здоров'я нижче {2}%.\n\nСтворює {3} сфери Чі, що дають {4} од. Чі, коли ви проходите крізь них.",
-            "1706360794": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот.\n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш.",
-            "2824310530": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот.\n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш.\n\nЗменшує відкладену шкоду від [Похитування] на {1}% від завданої шкоди.",
-            "467909514": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. Завдає шкоду, в об'ємі до {1}% вашого максимального здоров'я, гравцям і сильнішим істотам з рівнем здоров'я нижче {2}%.",
-            "736844319": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. Завдає шкоду, в об'ємі до {1}% вашого максимального здоров'я, гравцям і сильнішим істотам з рівнем здоров'я нижче {2}%.\n\nЗменшує відкладену шкоду від [Похитування] на {3}% від завданої шкоди.",
-            "3488144937": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот.\n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш.\n\nЗбільшує фізичну шкоду монаха на {1}% на {2} сек.",
-            "672161297": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. Завдає шкоду, в об'ємі до {1}% вашого максимального здоров'я, гравцям і сильнішим істотам з рівнем здоров'я нижче {2}%.\n\nЗменшує відкладену шкоду від [Похитування] на {3}% від завданої шкоди на {4} сек.",
-            "1254696159": "Ви виявляєте вразливі місця вашої цілі, миттєво вбиваючи істот, якщо їх рівень здоров'я нижчий за ваш. \n\nМоже застосовуватись проти цілей, чий рівень здоров'я нижче за ваш.\n\nСтворює {1} сфери Чі, що дають {2} од. Чі, коли ви проходите крізь них.",
             "1740744540": "Touch of Death reduces delayed Stagger damage by {1}% of damage dealt.",
-            "2032729457": "Touch of Death spawns {1} Chi Spheres, granting {2} Chi when you walk through them."
+            "2032729457": "Touch of Death spawns {1} Chi Spheres, granting {2} Chi when you walk through them.",
+            "2958297300": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.",
+            "1812574347": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.",
+            "1836622310": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nReduces delayed Stagger damage by {2}% of damage dealt.",
+            "941309613": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nReduces delayed Stagger damage by {4}% of damage dealt.",
+            "2099329413": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nIncreases the Monk's Physical damage by {2}% for {3} sec.",
+            "4173443566": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nIncreases the Monk's Physical damage by {4}% for {5} sec.",
+            "1373698349": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nSpawns {2} Chi Spheres, granting {3} Chi when you walk through them.",
+            "315060670": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nSpawns {4} Chi Spheres, granting {5} Chi when you walk through them."
         }
     },
     "195064946": {
@@ -1330,10 +1303,7 @@
     "1930860081": {
         "Name": "Зброя Ордену",
         "Descriptions": {
-            "1182517313": "Протягом наступних {1} сек, ваша Майстерність збільшується на {2}%. Також, [Удар діжкою] відновлюється миттєво, а вороги уражені [Удар діжкою] або [Удар висхідного сонця] отримують на {3}% більше шкоди від вас протягом {4} сек. Накопичується до {5} разів.",
-            "1293511145": "For the next {1} sec, your Mastery is increased by {2}%. Additionally,",
-            "3921318455": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Rising Sun Kick reduces Chi costs by {3} for {4} sec, and Blackout Kick reduces the cooldown of affected abilities by an additional {5} sec.",
-            "1544786184": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Essence Font cooldown is reset instantly and heals up to {3} nearby allies for {4} health on channel start and end."
+            "1182517313": "Протягом наступних {1} сек, ваша Майстерність збільшується на {2}%. Також, [Удар діжкою] відновлюється миттєво, а вороги уражені [Удар діжкою] або [Удар висхідного сонця] отримують на {3}% більше шкоди від вас протягом {4} сек. Накопичується до {5} разів."
         }
     },
     "1557849056": {
@@ -1363,7 +1333,7 @@
     "1529658234": {
         "Name": "Зв'язок з Суенем",
         "Descriptions": {
-            "765044210": "Abilities cast by you or your Storm, Earth, and Fire clones that activate Combo Strikes reduce the cooldown of Invoke Xuen, the White Tiger by {1} sec, and Xuen's damage is increased by {2}%."
+            "2617575516": "Invoke Xuen, the White Tiger's damage is increased by {1}% and its cooldown is reduced by {2} sec."
         }
     },
     "2329054652": {
@@ -1381,7 +1351,7 @@
     "361000935": {
         "Name": "Чай Дзен-зосередження",
         "Descriptions": {
-            "2079489707": "Надає імунітет до ефектів знемовлення і переривання на {1} сек."
+            "929591539": "Thunder Focus Tea provides immunity to Silence and Interrupt effects for {1} sec."
         }
     },
     "447749963": {
@@ -1406,7 +1376,7 @@
     "2755108870": {
         "Name": "Сфери Дзен",
         "Descriptions": {
-            "38438365": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Increases your healing done to the target by {1}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Target deals {2}% less damage to you, and takes {3}% increased damage from all sources.\r\n"
+            "3176110700": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Heals for {1} and increases your healing done to the target by {2}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Deals {3} Nature damage, Target deals {4}% less damage, and takes {5}% increased damage from all sources.\r\n"
         }
     },
     "1606543164": {
@@ -1425,7 +1395,7 @@
         "Name": "Танець вітру",
         "Descriptions": {
             "4225248288": "Ваша ймовірність ухилення збільшується на {1}%.",
-            "1401634543": "Your dodge chance is increased by {1}% and an additional {2}% every {3} sec until you dodge an attack, stacking up to {4} times. "
+            "522846507": "Your physical damage taken is reduced by {1}% and an additional {2}% every {3} sec until you receive a physical attack."
         }
     },
     "1330483556": {
@@ -1578,7 +1548,7 @@
     "1085724511": {
         "Name": "Absolute Serenity",
         "Descriptions": {
-            "81183518": "Celestial Conduit now prevents incapacitate, disorient, snare, and root effects for its duration."
+            "2228822967": "Celestial Conduit now prevents all crowd control for its duration."
         }
     },
     "1218042426": {
@@ -1645,12 +1615,8 @@
     "685298986": {
         "Name": "Jadefire Fists",
         "Descriptions": {
-            "3518353439": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec, dealing {3} Nature damage to up to {4} enemies, and restoring {5} health to up to {6} allies within {7} yds caught in the path.Stagger is {8}% more effective for {9} sec against enemies caught in the path.",
-            "1710059694": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec, dealing {3} Nature damage to up to {4} enemies, and restoring {5} health to up to {6} allies within {7} yds caught in the path. suffer an additional {8} damage.\r\n\r\nYour abilities have a {9}% chance of resetting the cooldown of Jadefire Stomp while fighting within the path.",
-            "3434706807": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to {5} enemy, and restoring {6} health to {7} ally within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage.",
-            "2606031498": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec, dealing {3} Nature damage to {4} enemy, and restoring {5} health to {6} ally within {7} yds caught in the path.Stagger is {8}% more effective for {9} sec against enemies caught in the path. suffer an additional {10} damage.",
-            "4287649366": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to up to {5} enemies, and restoring {6} health to up to {7} allies within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage.",
-            "2047617655": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T3636842:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec, dealing {3} Nature damage to up to {4} enemies, and restoring {5} health to up to {6} allies within {7} yds caught in the path.Stagger is {8}% more effective for {9} sec against enemies caught in the path. suffer an additional {10} damage."
+            "1974847774": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T6035313:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to up to {5} enemies, and restoring {6} health to up to {7} allies within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage.",
+            "2844512505": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T6035313:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to {5} enemy, and restoring {6} health to {7} ally within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage."
         }
     },
     "3895793189": {
@@ -1663,7 +1629,7 @@
         "Name": "Mantra of Tenacity",
         "Descriptions": {
             "720017865": "Fortifying Brew grants {1}% Stagger.",
-            "363187938": "Fortifying Brew applies a Chi Cocoon."
+            "714722428": "Fortifying Brew applies a Chi Cocoon, absorbing {1} damage."
         }
     },
     "2635205527": {
@@ -1675,9 +1641,8 @@
     "941730124": {
         "Name": "August Dynasty",
         "Descriptions": {
-            "4021139283": "Casting Jadefire Stomp increases the .\r\n\r\nThis effect can only activate once every {1}ldown sec.",
-            "1116629226": "Casting Jadefire Stomp increases the damage or healing of your next Rising Sun Kick by {1}% or Vivify by {2}%.\r\n\r\nThis effect can only activate once every {3}ldown sec.",
-            "4272749522": "Casting Jadefire Stomp increases the damage of your next Rising Sun Kick by {1}%.\r\n\r\nThis effect can only activate once every {2}ldown sec."
+            "394393629": "Casting Jadefire Stomp increases the damage or healing of your next Rising Sun Kick by {1}% or Vivify by {2}%.",
+            "3062046534": "Casting Jadefire Stomp increases the damage of your next Rising Sun Kick by {1}%."
         }
     },
     "177747355": {
@@ -1714,9 +1679,8 @@
     "3682618660": {
         "Name": "Heart of the Jade Serpent",
         "Descriptions": {
-            "2642252292": "Consuming  upon Yu'lon to decrease the cooldown time of  by {1}% for {2} sec.",
-            "2160914067": "Consuming {1} stacks of Sheilun's Gift calls upon Yu'lon to decrease the cooldown time of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by {2}% for {3} sec.",
-            "1772083272": "Consuming {1} Chi causes your next Strike of the Windlord to call upon Yu'lon to decrease the cooldown time of Rising Sun Kick, Fists of Fury, Strike of the Windlord, and Whirling Dragon Punch by {2}% for {3} sec. \r\n\r\nThe channel time of Fists of Fury is reduced by {4}% while Yu'lon is active."
+            "570782411": "Sheilun's Gift calls upon Yu'lon to decrease the cooldown time of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by {1}% for up to {2} sec, based on the clouds of mist consumed.",
+            "773426202": "Strike of the Windlord calls upon Yu'lon to decrease the cooldown time of Fists of Fury, Strike of the Windlord, Rising Sun Kick, Flying Serpent Kick, and Whirling Dragon Punch by {1}% for {2} sec. \r\n\r\nThe channel time of Fists of Fury is reduced by {3}% while Yu'lon is active."
         }
     },
     "3679532938": {
@@ -1752,7 +1716,7 @@
     "3752470706": {
         "Name": "Whirling Steel",
         "Descriptions": {
-            "3004797217": "When your health drops below {1}%, summon Whirling Steel, increasing your parry chance and avoidance by {2}% for {3} sec.\r\n\r\nThis effect can not occur more than once every {4}ldown sec."
+            "3093432414": "When your health drops below {1}%, summon Whirling Steel, increasing your parry chance and avoidance by {2}% for {3} sec.\r\n\r\nThis effect can not occur more than once every {4} sec."
         }
     },
     "3116994064": {
@@ -1782,7 +1746,6 @@
     "9115286": {
         "Name": "Temple Training",
         "Descriptions": {
-            "-1": "",
             "2929367672": "The healing of Enveloping Mist and Vivify is increased by {1}%.",
             "2029823502": "Fists of Fury and Spinning Crane Kick deal {1}% more damage."
         }
@@ -1816,7 +1779,7 @@
     "627857973": {
         "Name": "Veteran's Eye",
         "Descriptions": {
-            "1367455074": "Striking the same target {1} times within {2} sec grants {3}% Haste.\r\n\r\nMultiple instances of this effect may overlap, stacking up to {4} times."
+            "2091425989": "Striking the same target {1} times within {2} sec grants {3}% Haste, stacking up to {4} times."
         }
     },
     "3525277136": {
@@ -1829,7 +1792,6 @@
         "Name": "Combat Wisdom",
         "Descriptions": {
             "1560761798": "While out of combat, your Chi balances to {1} instead of depleting to empty.\r\n\r\nEvery {2} sec, your next Tiger Palm also casts Expel Harm and deals {3}% additional damage.\r\n\r\n|T627486:24|t {ffffffff|Expel Harm}\r\nExpel negative chi from your body, healing for {4} and dealing {5}% of the amount healed as Nature damage to an enemy within {6} yards.\r\n\r\n|cFFFFFFFFGenerates {7} Chi.",
-            "3634220501": "While out of combat, your Chi balances to {1} instead of depleting to empty.\r\n\r\nEvery {2} sec, your next Tiger Palm also casts Expel Harm and deals {3}% additional damage.\r\n\r\n|T627486:24|t {ffffffff|Expel Harm}\r\nExpel negative chi from your body, healing for {4} and dealing {5}% of the amount healed as Nature damage to an enemy within {6} yards.\r\n\r\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm.",
             "3496769362": "While out of combat, your Chi balances to {1} instead of depleting to empty.\r\n\r\nEvery {2} sec, your next Tiger Palm also casts Expel Harm and deals {3}% additional damage.\r\n\r\n|T627486:24|t {ffffffff|Expel Harm}\r\nExpel negative chi from your body, healing for {4} and dealing {5}% of the amount healed as Nature damage to an enemy within {6} yards."
         }
     },
@@ -1854,7 +1816,6 @@
     "95825070": {
         "Name": "Courage of the White Tiger",
         "Descriptions": {
-            "1573533666": "Xuen claws your target for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoking a celestial guarantees your next cast activates this effect.",
             "3597653439": "Tiger Palm and Vivify have a chance to cause Xuen to claw a nearby enemy for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
             "471716213": "Tiger Palm has a chance to cause Xuen to claw your target for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect."
         }
@@ -1892,7 +1853,6 @@
     "3601547899": {
         "Name": "Flight of the Red Crane",
         "Descriptions": {
-            "-1": "",
             "1361037882": "Refreshing Jade Wind and Spinning Crane Kick have a chance to cause Chi-Ji to grant you a stack of Mana Tea and quickly rush to {1} allies, healing each target for {2}.",
             "4203344656": "Rushing Jade Wind and Spinning Crane Kick have a chance to cause Chi-Ji to increase your energy regeneration by {1}% for {2} sec and quickly rush to {3} enemies, dealing {4} Physical damage to each target struck."
         }
@@ -1912,7 +1872,7 @@
     "2403590266": {
         "Name": "Awakened Jadefire",
         "Descriptions": {
-            "1504359315": "Your abilities reset Jadefire Stomp {1}% more often. While within Jadefire Stomp, your Tiger Palms strike twice and your Spinning Crane Kick heals {2} nearby allies for {3}% of the damage done."
+            "3167902132": "Your abilities reset Jadefire Stomp {1}% more often. While within Jadefire Stomp, your Tiger Palms strike twice, your Blackout Kicks strike an additional {2} targets at {3}% effectiveness, and your Spinning Crane Kick heals {4} nearby allies for {5}% of the damage done."
         }
     },
     "3559336278": {
@@ -1936,12 +1896,9 @@
     "2714222575": {
         "Name": "Jadefire Stomp",
         "Descriptions": {
-            "1737919683": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restoring {4} health to up to {5} allies within {6} yds caught in the path.Stagger is {7}% more effective for {8} sec against enemies caught in the path. suffer an additional {9} damage.",
             "1752513244": "Strike the ground fiercely to expose a path of jade for {1} sec that increases your movement speed by {2}% while inside, dealing {3} Nature damage to up to {4} enemies, and restoring {5} health to up to {6} allies within {7} yds caught in the path. Up to {8} enemies caught in the path suffer an additional {9} damage.",
-            "2345928847": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to {3} enemy, and restoring {4} health to {5} ally within {6} yds caught in the path.Stagger is {7}% more effective for {8} sec against enemies caught in the path. suffer an additional {9} damage.",
             "1972258067": "Strike the ground fiercely to expose a path of jade for {1} sec that increases your movement speed by {2}% while inside, dealing {3} Nature damage to {4} enemy, and restoring {5} health to {6} ally within {7} yds caught in the path. Up to {8} enemies caught in the path suffer an additional {9} damage.",
-            "4197946201": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restoring {4} health to up to {5} allies within {6} yds caught in the path. suffer an additional {7} damage.\r\n\r\nYour abilities have a {8}% chance of resetting the cooldown of Jadefire Stomp while fighting within the path.",
-            "925420053": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restoring {4} health to up to {5} allies within {6} yds caught in the path.Stagger is {7}% more effective for {8} sec against enemies caught in the path."
+            "4197946201": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restoring {4} health to up to {5} allies within {6} yds caught in the path. suffer an additional {7} damage.\r\n\r\nYour abilities have a {8}% chance of resetting the cooldown of Jadefire Stomp while fighting within the path."
         }
     },
     "3215006208": {
@@ -2008,7 +1965,6 @@
     "278457466": {
         "Name": "Strength of the Black Ox",
         "Descriptions": {
-            "-1": "",
             "2050475760": "After Xuen assists you, your next Enveloping Mist's cast time is reduced by {1}% and causes Niuzao to grant an absorb shield to {2} nearby allies for {3}% of your maximum health.",
             "4259604663": "After Xuen assists you, your next Blackout Kick refunds {1} stacks of Teachings of the Monastery and causes Niuzao to stomp at your target's location, dealing {2} damage to nearby enemies, reduced beyond {3} targets."
         }
@@ -2046,7 +2002,6 @@
     "1414544032": {
         "Name": "Aspect of Harmony",
         "Descriptions": {
-            "3190000361": "Store vitality from {1}% of your damage dealt and {2}% of your healing.\r\n\r\nFor {3} sec after casting Thunder Focus Tea your spells and abilities draw upon the stored vitality to deal {4}% additional healing over {5} sec.",
             "3639560554": "Store vitality from {1}% of your damage dealt and {2}% of your effective healing.\r\n\r\nFor {3} sec after casting Celestial Brew your spells and abilities draw upon the stored vitality to deal {4}% additional damage over {5} sec.",
             "1713553313": "Store vitality from {1}% of your damage dealt and {2}% of your healing. Vitality stored from overhealing is reduced.\r\n\r\nFor {3} sec after casting Thunder Focus Tea your spells and abilities draw upon the stored vitality to deal {4}% additional healing over {5} sec."
         }
@@ -2054,7 +2009,6 @@
     "4006063847": {
         "Name": "Yu'lon's Knowledge",
         "Descriptions": {
-            "-1": "",
             "1774453613": "Refreshing Jade Wind's duration is increased by {1} sec.",
             "3066710042": "Rushing Jade Wind's duration is increased by {1} sec."
         }
@@ -2135,19 +2089,18 @@
     "4124600365": {
         "Name": "Ordered Elements",
         "Descriptions": {
-            "3700328980": "During Storm, Earth, and Fire, Rising Sun Kick reduces Chi costs by {1} for {2} sec and Blackout Kick reduces the cooldown of affected abilities by an additional {3} sec. \r\n\r\nActivating Storm, Earth, and Fire resets the remaining cooldown of Rising Sun Kick and grants {4} Chi."
+            "3527705339": "During Storm, Earth, and Fire, Chi costs are reduced by {1} and Blackout Kick reduces the cooldown of affected abilities by an additional {2} sec. \r\n\r\nActivating Storm, Earth, and Fire resets the remaining cooldown of Rising Sun Kick and grants {3} Chi."
         }
     },
     "2299898057": {
         "Name": "Swift Art",
         "Descriptions": {
-            "575901377": "Roll removes a snare effect once every {1}ldown sec."
+            "2125133726": "Roll removes a snare effect once every {1} sec."
         }
     },
     "2056609509": {
         "Name": "Restore Balance",
         "Descriptions": {
-            "-1": "",
             "3874723271": "Gain Refreshing Jade Wind while Chi-Ji, the Red Crane or Yu'lon, the Jade Serpent is active.",
             "4270391191": "Gain Rushing Jade Wind while Xuen, the White Tiger is active."
         }
@@ -2155,14 +2108,13 @@
     "2547550827": {
         "Name": "Harmonic Gambit",
         "Descriptions": {
-            "882059147": "During Aspect of Harmony, Rising Sun Kick, Blackout Kick, and Tiger Palm also withdraw vitality to damage enemies.",
-            "2343718747": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal."
+            "1597891613": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional {1}% over {2} sec.",
+            "434761026": "During Aspect of Harmony, Rising Sun Kick, Blackout Kick, and Tiger Palm also withdraw vitality to damage enemies for an additional {1}% over {2} sec."
         }
     },
     "2649364739": {
         "Name": "Celestial Conduit",
         "Descriptions": {
-            "1042888427": "You may move while channeling, but casting other healing or damaging spells cancels this effect.",
             "4289570293": "The August Celestials empower you, causing you to radiate {1} healing onto up to {2} injured allies and {3} Nature damage onto enemies within {4} yds over {5} sec, split evenly among them. Healing and damage increased by {6}% per target, up to {7}%.\r\n\r\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
             "3427727920": "The August Celestials empower you, causing you to radiate {1} Nature damage onto enemies and {2} healing onto up to {3} injured allies within {4} yds over {5} sec, split evenly among them. Healing and damage increased by {6}% per enemy struck, up to {7}%.\r\n\r\nYou may move while channeling, but casting other healing or damaging spells cancels this effect."
         }
@@ -2190,7 +2142,7 @@
     "323201089": {
         "Name": "Power of the Thunder King",
         "Descriptions": {
-            "498093213": "Crackling Jade Lightning now chains to {1} additional targets and its channel time is reduced by {2}%."
+            "1624871084": "Crackling Jade Lightning now chains to {1} additional targets at {2}% effectiveness and its channel time is reduced by {3}%."
         }
     },
     "3633083785": {
@@ -2203,6 +2155,36 @@
         "Name": "Momentum Boost",
         "Descriptions": {
             "103356283": "Fists of Fury's damage is increased by {1}% of your haste and Fists of Fury does {2}% more damage each time it deals damage, resetting when Fists of Fury ends.\r\n\r\nYour auto attack speed is increased by {3}% for {4} sec after Fists of Fury ends."
+        }
+    },
+    "1966206187": {
+        "Name": "Jadefire Teachings",
+        "Descriptions": {
+            "4049273088": "After casting Jadefire Stomp or Thunder Focus Tea, Ancient Teachings transfers an additional {1}% damage to healing for {2} sec.\r\n\r\nWhile Jadefire Teachings is active, your Stamina is increased by {3}%."
+        }
+    },
+    "420290542": {
+        "Name": "Rushing Wind Kick",
+        "Descriptions": {
+            "2753487576": "Kick up a powerful gust of wind, dealing {1} Nature damage in a {2} yd cone to enemies in front of you, split evenly among them. Damage is increased by {3}% for each target hit, up to {4}%.\r\n\r\nGrants Rushing Winds for {5} sec, increasing Renewing Mist's healing by {6}%."
+        }
+    },
+    "3108239083": {
+        "Name": "Jade Empowerment",
+        "Descriptions": {
+            "641655588": "Casting Thunder Focus Tea increases your next Crackling Jade Lightning's damage by {1}% and causes it to chain to {2} additional enemies at {3}% effectiveness."
+        }
+    },
+    "3687465831": {
+        "Name": "Refreshment",
+        "Descriptions": {
+            "592807423": "Life Cocoon grants up to {1} stacks of Mana Tea and applies {2} stacks of Healing Elixir to its target."
+        }
+    },
+    "2413686199": {
+        "Name": "Glyph of Jab",
+        "Descriptions": {
+            "1497832773": "Your Tiger Palm visual is altered to use your weapon when striking."
         }
     }
 }

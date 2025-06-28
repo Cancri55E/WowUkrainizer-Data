@@ -44,13 +44,13 @@
     "596881110": {
         "Name": "Наставництво Попелястогривої",
         "Descriptions": {
-            "28616995": "|T571586:24|t{ffffffff|Втілення: Аватар Попелястогривої}\nПоки діє [Втілення: Аватар Попелястогривої] та впродовж {1} сек після його завершення, кожне використання вашого [Розриву] та [Роздирання] збільшує шкоду, по враженими цими навичками ворогам, на {2}% від ваших здібностей.\n\n|T3636839:24|t {ffffffff|Виклик духів}\nЧас відновлення [Виклику духів] зменшується на {3}%, проте його тривалість та кількість заклинань зменшуються на {4}%. [Виклик духів] збільшує шанс використати посилене заклинання або здібність."
+            "935632808": "|T571586:24|t{ffffffff|Incarnation: Avatar of Ashamane}\r\nDuring Incarnation: Avatar of Ashamane and for {1} sec after it ends, your Rip and Rake each cause affected enemies to take {2}% increased damage from your abilities.\r\n\r\n|T6035309:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "3466030451": {
         "Name": "Астральне єднання",
         "Descriptions": {
-            "1787691282": "Збільшує максимальний запас астральної сили на {1}. Активація [Затемнення] надає {2} од. астральної сили."
+            "4042686881": "Increases maximum Astral Power by {1}. Entering Eclipse reduces the Astral Power cost of your next Starsurge or Starfall by {2}.\r\n\r\n"
         }
     },
     "309348846": {
@@ -93,7 +93,18 @@
             "831351962": "На {1} сек ви перетворюєтесь на берсерка. Час відновлення [Шалена регенерація] зменшується на {2}%, а витрати ресурсу на [Залізне хутро] зменшуються на {3}%.",
             "9409286": "На {1} сек ви перетворюєтесь на берсерка.\n\nНадає імунітет до ефектів втрати контролю над персонажем.",
             "1300021073": "Ви впадаєте у [Берсерк] на {1} сек.",
-            "2909333752": "Ви впадаєте у [Берсерк] на {1} сек. Поки він діє:\n\nВи отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек. Здібності, що генерують очки серії, додатково дають {4} {declension|очко|очки|очок} серії. Завершальні прийоми відновлюють до {5} {declension|очка|очок|очок} серії згенерованих понад ліміту.\n\nШкода від всіх атак та здібностей збільшується на {6}%."
+            "2909333752": "Ви впадаєте у [Берсерк] на {1} сек. Поки він діє:\n\nВи отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек. Здібності, що генерують очки серії, додатково дають {4} {declension|очко|очки|очок} серії. Завершальні прийоми відновлюють до {5} {declension|очка|очок|очок} серії згенерованих понад ліміту.\n\nШкода від всіх атак та здібностей збільшується на {6}%.",
+            "1758813150": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Mangle, Thrash, and Growl by {3}%, and reducing the cost of Maul by {4}%.",
+            "2230865750": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, and reducing the cost of Maul and Ironfur by {4}%.",
+            "1736270259": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, Mangle, Thrash, and Growl by {3}%, and reducing the cost of Ironfur by {4}%.",
+            "3055904021": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, Mangle, Thrash, and Growl by {4}%, and reducing the cost of Maul and Ironfur by {5}%.",
+            "2853974572": "Go berserk for {1} sec, increasing your haste by {2}%, and reducing the cost of Maul by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "4131366128": "Go berserk for {1} sec, reducing the cooldown of Mangle, Thrash, and Growl by {2}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "1301896901": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Mangle, Thrash, and Growl by {3}%, and reducing the cost of Maul by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "838287625": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, and reducing the cost of Ironfur by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "4198850032": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, and reducing the cost of Maul and Ironfur by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "233828701": "Go berserk for {1} sec, reducing the cooldown of Frenzied Regeneration by {2}%, Mangle, Thrash, and Growl by {3}%, and reducing the cost of Ironfur by {4}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.",
+            "2136341917": "Go berserk for {1} sec, increasing your haste by {2}%, reducing the cooldown of Frenzied Regeneration by {3}%, Mangle, Thrash, and Growl by {4}%, and reducing the cost of Maul and Ironfur by {5}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character."
         }
     },
     "485206953": {
@@ -140,11 +151,9 @@
             "180472375": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Завдає зменшену шкоду цілям після {2}.\n\n{FFFFFFFF|Генерує {3} {declension|очко|очки|очок} серії.}",
             "1648277451": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Завдає зменшену шкоду цілям після {3}.\n\n{FFFFFFFF|Генерує {4} {declension|очко|очки|очок} серії.}",
             "2820978393": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Викликає кровотечу від [Патрання]. Завдає зменшену шкоду цілям після {2}.\n\n{FFFFFFFF|Генерує {3} {declension|очко|очки|очок} серії.}",
-            "2605753913": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Викликає кровотечу від [Патрання]. Завдає зменшену шкоду цілям після {3}.\n\n{FFFFFFFF|Генерує {4} {declension|очко|очки|очок} серії.}",
             "3645798770": "Атакує всіх ворогів поблизу потужним ріжучим ударом, завдаючи {1} фізичної шкоди. Завдає менше шкоди цілям після {2}.",
             "867813661": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Завдає зменшену шкоду цілям після {3}.",
-            "1638085064": "Атакує всіх ворогів поблизу потужним ріжучим ударом, завдаючи {1} фізичної шкоди. Викликає кровотечу від [Патрання]. Завдає менше шкоди цілям після {2}.",
-            "1077760319": "Вражає всіх ворогів поряд масивним розмахом, завдаючи їм {1} фізичної шкоди. Завдає на {2}% більше шкоди ворогам з ефектами кровотечі. Викликає кровотечу від [Патрання]. Завдає зменшену шкоду цілям після {3}."
+            "1638085064": "Атакує всіх ворогів поблизу потужним ріжучим ударом, завдаючи {1} фізичної шкоди. Викликає кровотечу від [Патрання]. Завдає менше шкоди цілям після {2}."
         }
     },
     "3662897795": {
@@ -186,7 +195,7 @@
     "1772931334": {
         "Name": "Наставництво Кенарія",
         "Descriptions": {
-            "2359884043": "|T236157:24|t {ffffffff|Втілення: Дерево Життя}\nПоки діє [Втілення: Дерево Життя] ви викликаєте Вартового гаю кожні {1} сек. Час відновлення [Втілення: Дерево Життя] скорочується на {2} сек, коли Вартові гаю зникають.\n\n|T3636839:24|t {ffffffff|Виклик духів}\nЧас відновлення [Виклику духів] зменшується на {3}%, проте його тривалість та кількість заклинань зменшуються на {4}%. [Виклик духів] збільшує шанс використати посилене заклинання або здібність."
+            "3060061146": "|T236157:24|t {ffffffff|Incarnation: Tree of Life}\r\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every {1} sec. The cooldown of Incarnation: Tree of Life is reduced by {2} sec when Grove Guardians fade.\r\n\r\n|T6035309:24|t {ffffffff|Convoke the Spirits}\r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "2140781295": {
@@ -210,13 +219,14 @@
             "3359616130": "Закликає духів для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Лютий укус], [Шматування], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Патрання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми.",
             "2107438849": "Закликає духів для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Лютий укус], [Шматування], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Патрання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми.",
             "1867348985": "Закликає духів для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек.\n\nВи застосовуєте [Знівечення], [Залізне хутро], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Патрання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми.",
-            "651935221": "Закликає духів для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Знівечення], [Залізне хутро], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Патрання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми."
+            "651935221": "Закликає духів для викиду енергії, що спричиняє швидку послідовність з {1} заклять та здібностей Друїда протягом {2} сек. Шанс використати посилене заклинання або здібність збільшено.\n\nВи застосовуєте [Знівечення], [Залізне хутро], [Місячний вогонь], [Гнів], [Відновлення], [Омолодження], [Роздирання] та [Патрання] на цілі поблизу. Першочергово застосовує здібності вашої поточної форми.",
+            "2329876397": "Call upon the spirits for an eruption of energy, channeling a rapid flurry of {1} Druid spells and abilities over {2} sec. Chance to use an exceptional spell or ability is increased.\r\n\r\nYou will cast Starsurge, Starfall, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form."
         }
     },
     "3551912094": {
         "Name": "Космічна швидкість",
         "Descriptions": {
-            "1603290527": "Ваші [Місячний вогонь], [Сонячний вогонь] та [Зоряний спалах] завдають шкоду на {1}% швидше."
+            "1119224052": "Your Moonfire, Sunfire, and Stellar Flare deal damage {1}% more frequently."
         }
     },
     "4058442001": {
@@ -290,7 +300,7 @@
         "Name": "Сон Кенарія",
         "Descriptions": {
             "1807766430": "Коли ви отримуєте неперіодичну шкоду, із шансом вашого Критичного Удару, ваше наступне [Відновлення] не витратить ману, буде миттєвим і потужнішим на {1}% та його можна буде використовувати у будь-якій формі протягом {2} сек.\n\nЦей ефект спрацьовує лише раз на {3} сек.",
-            "1710136609": "Поки [Серце дикої природи] активне, [Гнів] та [Шматування] лікують найближчого союзника на {1}% їхньої шкоди, а [Зоряний вогонь] та [Розмах] - на {2}%."
+            "2981543750": "Wrath and Shred transfer {1}% of their damage and Starfire and Swipe transfer {2}% of their damage into healing onto a nearby ally. \r\n\r\nThis effect is increased by {3}% while Heart of the Wild is active."
         }
     },
     "1071055044": {
@@ -341,7 +351,7 @@
     "2774752517": {
         "Name": "Наставництво Елуни",
         "Descriptions": {
-            "1318759625": "|T571586:24|t {ffffffff|Втілення: Обранець Елуни}\nЗменшує витрати астральної сили [Зоряного сплеску] на {1} од, а витрати [Зорепаду] на {2} од.\n\n|T3636839:24|t {ffffffff|Виклик духів}\nЧас відновлення зменшується на {3}%, проте його тривалість та кількість заклинань зменшуються на {4}%. [Виклик духів] збільшує шанс використати посилене заклинання або здібність."
+            "700644165": "|T571586:24|t {ffffffff|Incarnation: Chosen of Elune}\r\nReduces the Astral Power cost of Starsurge by {1}, and the Astral Power cost of Starfall by {2}.\r\n\r\n|T6035309:24|t {ffffffff|Convoke the Spirits}\r\nCooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "734122618": {
@@ -435,7 +445,7 @@
     "2446089535": {
         "Name": "Процвітання",
         "Descriptions": {
-            "697595085": "Збільшує тривалість всіх ваших періодичних ефектів зцілення на союзниках в радіусі {1} м на {2} сек та збільшує їх частоту зцілення на {3}% протягом {4} сек."
+            "2044129998": "Extends the duration of all of your heal over time effects on friendly targets within {1} yards by {2} sec, and increases the rate of your heal over time effects by {3}% for {4} sec.\r\n\r\nAffected allies are healed for {5}, split evenly among them."
         }
     },
     "1514461650": {
@@ -484,9 +494,7 @@
     "740600257": {
         "Name": "Лють Елуни",
         "Descriptions": {
-            "3957655582": "Шкода від [Місячного вогню] має шанс застосувати Лють Елуни, яка буде переслідувати вашу ціль протягом {1} сек.\n\n|T132123:24|t {ffffffff|Лють Елуни}\nВикликає промінь чистої небесної енергії, що завдає {2} од. астральної шкоди протягом {3} сек в межах його дії.\n\n{FFFFFFFF|Надає {4} од. астральної сили протягом дії.}",
-            "3632033178": "Викликає промінь чистої небесної енергії, який переслідує ворога, завдаючи до {1} од. астральної шкоди протягом {2} сек у зоні дії променя. Завдає зменшену шкоду вторинним цілям. \n\n{FFFFFFFF|Надає {3} од. астральної сили протягом свого часу дії.}",
-            "2016754470": "Шкода від [Місячного вогню] має шанс викликати [Лють Елуни], яка буде переслідувати вашу ціль протягом {1} сек.\n\n|T132123:24|t {ffffffff|Лють Елуни}\nВикликає промінь чистої небесної енергії, що завдає {2} од. астральної шкоди протягом {3} сек в межах його дії.\n\n{FFFFFFFF|Надає {4} од. гніву протягом часу його дії.}"
+            "3632033178": "Викликає промінь чистої небесної енергії, який переслідує ворога, завдаючи до {1} од. астральної шкоди протягом {2} сек у зоні дії променя. Завдає зменшену шкоду вторинним цілям. \n\n{FFFFFFFF|Надає {3} од. астральної сили протягом свого часу дії.}"
         }
     },
     "632540084": {
@@ -552,7 +560,6 @@
     "2385087473": {
         "Name": "Серце дикої природи",
         "Descriptions": {
-            "3341758149": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Баланс:} Тривалість застосування заклинанань категорії \"Баланс\" зменшується на {2}%, а їх шкода збільшується на {3}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {4} {declension|очко|очки|очок} серії кожні {5} сек перебуваючи у формі Кота, а фізична шкода збільшується на {6}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {7}% Витривалості, а декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {8} {declension|заряд|заряди|заряді}\n\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {9}%, а витрати мани зменшуються на {10}%.",
             "2195969368": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {2} {declension|очко|очки|очок} серії кожні {3} сек перебуваючи у формі Кота, а фізична шкода збільшується на {4}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {5}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {6} {declension|заряд|заряди|зарядів}.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {7}%, а витрати мани зменшуються на {8}%.",
             "2814886809": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Баланс:} Тривалість застосування заклинанань категорії \"Баланс\" зменшується на {2}%, а їх шкода збільшується на {3}%.\n\n{FFFFFFFF|Вартовий:} Форма ведмедя дає додатково {4}% Витривалості, декілька ефектів [Залізне хутро] можуть накопичуватися, а [Шалена регенерація] має {5} {declension|заряд|заряди|зарядів}.\n\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {6}%, а витрати мани зменшуються на {7}%.",
             "1890563967": "Здібності не пов'язані з вашою спеціалізацією, суттєво посилюються на {1} сек.\n\n{FFFFFFFF|Баланс:} Тривалість застосування заклинанань категорії \"Баланс\" зменшується на {2}%, а їх шкода збільшується на {3}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {4} {declension|очко|очки|очок} серії кожні {5} сек перебуваючи у формі Кота, а фізична шкода збільшується на {6}%.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшується на {7}%, а витрати мани зменшуються на {8}%.",
@@ -595,12 +602,6 @@
             "988915145": "Початкове зцілення від [Відновлення] має збільшений на {1}% шанс критичного ефекту, якщо ціль вже знаходиться під дією [Відновлення]."
         }
     },
-    "2799002389": {
-        "Name": "Покращене омолодження",
-        "Descriptions": {
-            "510327364": "Тривалість [Омолодження] збільшується на {1} сек."
-        }
-    },
     "3119402755": {
         "Name": "Покращений розполохувальний рев",
         "Descriptions": {
@@ -628,7 +629,7 @@
     "3166310230": {
         "Name": "Паралізувальний рев",
         "Descriptions": {
-            "2843843109": "Ви перевтілюєтесь у ведмедя та пробуджуєте дух Урсола, щоб вивільнити оглушливий рик, який паралізує всіх ворогів у радіусі {1} м на {2} сек. Шкода скасовує цей ефект."
+            "816811434": "Shift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within {1} yards for {2} sec. Damage may cancel the effect."
         }
     },
     "517105859": {
@@ -650,7 +651,8 @@
         "Descriptions": {
             "3818871427": "Покращена форма Ведмедя дає вам ефекти Берсерка. При цьому ваше [Знівечення] вражає до {1} цілей, а ваш максимальний запас здоров'я збільшується на {2}%.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту.\n",
             "3050735439": "Покращена форма Ведмедя дає вам ефекти Берсерка. При цьому ваше [Знівечення] вражає до {1} цілей, а ваш максимальний запас здоров'я збільшується на {2}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту.",
-            "705946427": "Покращена [Форма Ведмедя], яка надає переваги [Берсерку], дозволяє [Знівеченню] вражати максимум {1} {declension|ціль|цілі|цілей}, збільшує шкоду від таємної магії на {2}% та збільшує максимальний запас здоров'я на {3}%.\n\nТриває {4} сек. Ви можете вільно змінювати форму під час дії цього ефекту."
+            "705946427": "Покращена [Форма Ведмедя], яка надає переваги [Берсерку], дозволяє [Знівеченню] вражати максимум {1} {declension|ціль|цілі|цілей}, збільшує шкоду від таємної магії на {2}% та збільшує максимальний запас здоров'я на {3}%.\n\nТриває {4} сек. Ви можете вільно змінювати форму під час дії цього ефекту.",
+            "2445028549": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, increases Arcane damage by {2}%, and increases maximum health by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.\r\n\r\nLasts {4} sec. You may freely shapeshift in and out of this improved Bear Form for its duration."
         }
     },
     "1697805055": {
@@ -768,12 +770,6 @@
             "4023733979": "[Місячний вогонь] можна використовувати у формі кота, що витрачає {1} од. енергії та генерує {2} оч. серії."
         }
     },
-    "3153602557": {
-        "Name": "Місячна шрапнель",
-        "Descriptions": {
-            "6236900": "[Зорепад] завдає на {1}% більше шкоди."
-        }
-    },
     "1523887150": {
         "Name": "Вчення Лікари",
         "Descriptions": {
@@ -816,8 +812,8 @@
         "Name": "Майстер перевертень",
         "Descriptions": {
             "533997526": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {1}% більше шкоди та надають {2} од. мани.\n\n|T611424:24|t{FFFFFFFF|Форма Ведмедя}\n[Залізне хутро] дає на {3}% більше броні та надає {4} од. мани.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди та надають {6} од. мани при використанні з {7} {declension|очком серії|очками серії|очками серії}.",
-            "4227361046": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n{FFFFFFFF|Форма заклинателя}\n[Омолодження] та [Швидке відновлення] зцілюють на {1}% більше і миттєво надають {2} од. гніву після переходу у [Форму ведмедя].\n\n|T236156:24|t {FFFFFFFF|Форма місячного совуха}\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {3}% більше шкоди і миттєво надають {4} од. гніву після переходу у [Форму ведмедя].\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] і [Скалічення] завдають на {5}% більше шкоди і миттєво надають {6} од. гніву після переходу у [Форму ведмедя] при застосуванні із {7} {declension|очком серії|очками серії|очками серії}.",
-            "1037363258": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n{FFFFFFFF|Форма заклинателя}\n[Омолодження] та [Швидке відновлення] зцілюють на {1}% більше і надають {2} од. астральної сили.\n\n|T236156:24|t {FFFFFFFF|Форма ведмедя}\nБроня від [Залізного хутра] збільшується на {3}%, а сама здібність надає {4} од. астральної сили.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди і миттєво надають {6} од. астральної сили при застосуванні із {7} {declension|очком серії|очками серії|очками серії}."
+            "2229383732": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation heals for {1}% more and causes you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points.",
+            "1668384812": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation heals for {1}% more and generates {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
         }
     },
     "4292277755": {
@@ -829,7 +825,7 @@
     "2801873743": {
         "Name": "Майстерність: Гармонія",
         "Descriptions": {
-            "1364274597": "Ваше зцілення збільшується на {1}% за кожний періодичний ефект зцілення на цілі."
+            "350294136": "Your healing is increased by {1}% for each of your Restoration heal over time effects on the target, reduced by each additional effect."
         }
     },
     "274762662": {
@@ -902,8 +898,6 @@
     "4180081574": {
         "Name": "Форма місячного совуха",
         "Descriptions": {
-            "583642152": "Ви перевтілюєтеся у форму місячного совуха, що збільшує шкоду від ваших заклинань на {1}%, вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПоки ви у цій формі, прямі атаки проти вас із {3}% шансом дозволять застосувати ваш наступний [Зоряний вогонь] миттєво.\n\nПри зміні форми звільняє вас від ефектів обмеження руху.",
-            "4251304378": "Ви перевтілюєтеся у форму місячного совуха, що збільшує шкоду від ваших заклинань на {1}%, вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПри зміні форми звільняє вас від ефектів обмеження руху.",
             "3024638751": "Ви перевтілюєтеся в Астральну форму, що збільшує шкоду від ваших заклинань на {1}%, вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПри зміні форми звільняє вас від ефектів обмеження руху.",
             "1421461769": "Ви перевтілюєтеся в Астральну форму, що збільшує шкоду від ваших заклинань на {1}%, вашу Броню на {2}%, та надає імунітет до ефектів перетворення.\n\nПоки ви у цій формі, прямі атаки проти вас із {3}% шансом дозволять застосувати ваш наступний [Зоряний вогонь] миттєво.\n\nПри зміні форми звільняє вас від ефектів обмеження руху."
         }
@@ -923,7 +917,7 @@
     "853370241": {
         "Name": "Природний баланс",
         "Descriptions": {
-            "1408880145": "Поки ви у бою, ви генеруєте {1} од. астральної сили кожні {2} сек.\n\nКоли ви не в бою, ваша астральна сила поступово ребалансується до рівня {3} од замість 0."
+            "1408880145": "While in combat you generate {1} Astral Power every {2} sec.\r\n\r\nWhile out of combat your Astral Power rebalances to {3} instead of depleting to empty."
         }
     },
     "3989003924": {
@@ -936,7 +930,7 @@
     "1653349051": {
         "Name": "Благодать природи",
         "Descriptions": {
-            "4240773338": "Коли [Затемнення] закінчується або коли ви вступаєте в бій, входить в [Стан Сну], зменшуючи час застосування наступних {1} [Зоряних вогнів] або [Гнівів] на {2}% та збільшуючи їхню шкоду на {3}%."
+            "1256101439": "When Eclipse ends or when you enter combat, enter a Dreamstate, reducing the cast time of your next {1} Starfires or Wraths by {2}%."
         }
     },
     "3127999516": {
@@ -1003,7 +997,7 @@
         "Name": "Орбітальний удар",
         "Descriptions": {
             "159580035": "[Небесне вирівнювання] вражає всіх ворогів у вибраній області на {1} од. астральної шкоди та застосовує [Зоряний спалах] на них.\n\nЗменшує час відновлення [Небесне вирівнювання] на {2} сек.",
-            "4272199925": "[Небесне вирівнювання] вражає всіх ворогів у вибраній області на {1} од. астральної шкоди та застосовує [Зоряний спалах] на них.\n\nЗменшує час відновлення [Втілення: Обранець Елуни] на {2} сек."
+            "1750321627": "Incarnation: Chosen of Elune blasts all enemies in a targeted area for {1} Astral damage and applies Stellar Flare to them.\r\n\r\nReduces the cooldown of Incarnation: Chosen of Elune by {2} sec."
         }
     },
     "500418243": {
@@ -1125,13 +1119,15 @@
         "Descriptions": {
             "4138981728": "Роздирає ціль, завдаючи {1} шкоди від кровотечі та ще {2} шкоди від кровотечі протягом {3} сек.\n\n{FFFFFFFF|Генерує {4} оч. серії.}",
             "3912484809": "Роздирає ціль, завдаючи {1} шкоди від кровотечі та ще {2} шкоди від кровотечі впродовж {3} сек. \n\nКоли ви у стані непомітності, [Роздирання] також приголомшує ціль на {4} сек та завдає на {5}% більше шкоди.\n\n{FFFFFFFF|Дає {6} оч. серії.}",
-            "3200619771": "Роздирає ціль, завдаючи од. {1} шкоди від кровотечі та додатково од. {2} шкоди від кровотечі протягом {3} сек. Зменшує швидкість руху цілі на {4}% на {5} сек.\n\n{FFFFFFFF|Дає {6} оч. серії.}"
+            "3200619771": "Роздирає ціль, завдаючи од. {1} шкоди від кровотечі та додатково од. {2} шкоди від кровотечі протягом {3} сек. Зменшує швидкість руху цілі на {4}% на {5} сек.\n\n{FFFFFFFF|Дає {6} оч. серії.}",
+            "680988034": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. \r\n\r\nWhile stealthed, Rake will also stun the target for {4} sec and deal {5}% increased damage. \r\n\r\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\r\n\r\n{FFFFFFFF|Awards {8} combo [plural|point|points].}",
+            "1067384072": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. Reduces the target's movement speed by {4}% for {5} sec. \r\n\r\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\r\n\r\n{FFFFFFFF|Awards {8} combo [plural|point|points].}"
         }
     },
     "3588638425": {
         "Name": "Нестримна жорстокість",
         "Descriptions": {
-            "4215077545": "[Лютий укус] наносить {1} шкоди за кожне витрачене очко серії найближчим ворогам, що вражені вашим [Розривом]. Витрата додаткової енергії на [Лютий укус] збільшує шкоду цієї здібності максимум на {2}%. Завдає менше шкоди понад {3} {declension|цілі|цілям|цілям}."
+            "4205700858": "Ferocious Bite also deals {1} damage per combo point spent to all nearby enemies affected by your Rip. Spending extra Energy on Ferocious Bite increases damage dealt by up to {2}%. Damage reduced beyond {3} [plural|Target|targets]."
         }
     },
     "3671920870": {
@@ -1149,13 +1145,13 @@
     "3277480463": {
         "Name": "Знищення",
         "Descriptions": {
-            "2829678628": "Удар із силою Урсока, який завдає {1} фізичної шкоди всім ворогам перед вами. Завдає зменшену шкоду цілям після {2}."
+            "1440192786": "Strike with the might of Ursoc, dealing {1} Physical damage to your target and {2} to all other enemies in front of you. Damage reduced beyond {3} targets."
         }
     },
     "1129515312": {
         "Name": "Реактивна смола",
         "Descriptions": {
-            "2439985686": "Швидкість пересування ворогів зменшується на {1}% на {2} сек, коли вони розвіюють ваші ефекти періодичного зцілення.  Ефект накопичується. Вороги будуть знемовлені та знеруховмені при {3} та {4} накопиченнях цього ефекту."
+            "4216490975": "When your Restoration heal over time effects are removed by enemies, they are replaced with Reactive Resin, healing an ally for {1} over {2} sec. Multiple stacks may overlap."
         }
     },
     "165696551": {
@@ -1189,7 +1185,10 @@
             "817892479": "Лікує дружню ціль на {1} і ще на {2} протягом {3} сек.",
             "695136133": "Зцілює дружній цілі {1} од. здоров'я та ще на {2} од. здоров'я протягом {3} сек. Початкове зцілення має збільшений на {4}% шанс критичного ефекту, якщо на ціль вже діє [Відновлення].",
             "3551512411": "Зцілює дружній цілі {1} од. здоров'я та ще на {2} од. здоров'я протягом {3} сек.\n\n{0033AA11|Дерево життя: Миттєве застосування.}",
-            "3809859134": "Зцілює дружній цілі {1} од. здоров'я та ще на {2} од. здоров'я протягом {3} сек. Початкове зцілення має збільшений на {4}% шанс критичного ефекту, якщо на ціль вже діє [Відновлення]. Можна використовувати у формі місячного совуха.\n\n{0033AA11|Дерево життя: Миттєве застосування.}"
+            "3809859134": "Зцілює дружній цілі {1} од. здоров'я та ще на {2} од. здоров'я протягом {3} сек. Початкове зцілення має збільшений на {4}% шанс критичного ефекту, якщо на ціль вже діє [Відновлення]. Можна використовувати у формі місячного совуха.\n\n{0033AA11|Дерево життя: Миттєве застосування.}",
+            "3611615443": "Heals a friendly target for {1} and another {2} over {3} sec. Initial heal has a {4}% increased chance for a critical effect if the target is already affected by Regrowth. Usable while in Moonkin Form.",
+            "952805856": "Heals a friendly target for {1} and another {2} over {3} sec. Usable while in Moonkin Form.\r\n\r\n{0033AA11|Tree of Life: Instant cast.}",
+            "1665012216": "Heals a friendly target for {1} and another {2} over {3} sec. Initial heal has a {4}% increased chance for a critical effect if the target is already affected by Regrowth. Usable while in Moonkin Form.\r\n\r\n{0033AA11|Tree of Life: Instant cast.}"
         }
     },
     "3754831684": {
@@ -1201,7 +1200,7 @@
     "4077821339": {
         "Name": "Пожвавлення",
         "Descriptions": {
-            "1520262394": "Час відновлення [Шалена регенерація] зменшується на {1}%."
+            "3699584803": "Frenzied Regeneration heals over {1} additional sec and casts Rejuvenation and Regrowth on you at {2}% effectiveness."
         }
     },
     "2377570975": {
@@ -1286,8 +1285,10 @@
             "3403471511": "Шматує ціль, завдаючи їй {1} фізичної шкоди. \n\n|cFFFFFFFFДає {2} оч. серії.",
             "653392147": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям з ефектами кровотечі.\n\n|cFFFFFFFFДає {3} оч. серії.",
             "1383941020": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям з ефектами кровотечі. Накладає ефект кровотечі від [Патрання].\n\n|cFFFFFFFFДає {3} оч. серії.",
-            "3243182115": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям з ефектами кровотечі. Завдає на {3}% більше шкоди цілям що стікають кров'ю. [Шматування] накладає Кровотечу.\n\n|cFFFFFFFFДає {4} оч. серії.",
-            "3650932805": "Шматує ціль, завдаючи їй {1} фізичної шкоди.\n\nПоки ви в стані непомітності, [Шматування] завдає на {2}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {3} оч. серії.\n\n|cFFFFFFFFДає {4} оч. серії."
+            "3650932805": "Шматує ціль, завдаючи їй {1} фізичної шкоди.\n\nПоки ви в стані непомітності, [Шматування] завдає на {2}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {3} оч. серії.\n\n|cFFFFFFFFДає {4} оч. серії.",
+            "3053566187": "Shred the target, causing {1} Physical damage to the target.\r\n\r\nWhile stealthed, Shred deals {2}% increased damage, has double the chance to critically strike, and generates {3} additional combo [plural|point|points].\r\n\r\nWhile stealthed, Shred deals {4}% increased damage, has double the chance to critically strike, and generates {5} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {6} combo [plural|point|points].",
+            "2923228752": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {5} combo [plural|point|points].",
+            "1886708783": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets. Applies the Bleed from Thrash.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {5} combo [plural|point|points]."
         }
     },
     "353181327": {
@@ -1460,7 +1461,10 @@
     "1393716309": {
         "Name": "Шипи",
         "Descriptions": {
-            "75088014": "Вирощує шипи на союзній цілі на {1} сек. Коли вона стає жертвою атак ближнього бою, шипи завдають {2} шкоди від сил природи нападнику.\n\nНападники також сповільнюються на {3}% на {4} сек."
+            "1452107043": "Casting Barkskin sprouts thorns on you for {1} sec. When victim to melee attacks, thorns deals {2} Nature damage back to the attacker.\r\n\r\nAttackers also have their movement speed reduced by {3}% for {4} sec.",
+            "2363599194": "Casting Barkskin sprouts thorns on its target for {1} sec. When victim to melee attacks, thorns deals {2} Nature damage back to the attacker.\r\n\r\nAttackers also have their movement speed reduced by {3}% for {4} sec.",
+            "781361432": "Casting Barkskin or Ironbark sprouts thorns on you for {1} sec. When victim to melee attacks, thorns deals {2} Nature damage back to the attacker.\r\n\r\nAttackers also have their movement speed reduced by {3}% for {4} sec.",
+            "2975000912": "Casting Barkskin or Ironbark sprouts thorns on its target for {1} sec. When victim to melee attacks, thorns deals {2} Nature damage back to the attacker.\r\n\r\nAttackers also have their movement speed reduced by {3}% for {4} sec."
         }
     },
     "3919100476": {
@@ -1490,8 +1494,8 @@
     "928677407": {
         "Name": "Затятість тигра",
         "Descriptions": {
-            "1728494920": "Після використання [Люті тигра] {1} {declension|наступний завершальний прийом надасть|наступних завершальних прийомів нададуть|наступних завершальних прийомів нададуть} {2} {declension|очко|очка|очок} серії.\n\n[Лють тигра] також збільшує періодичну шкоду від кровотеч на {3}% на весь час їхньої дії.",
-            "2176853884": "Після використання [Люті тигра] {1} {declension|наступний завершальний прийом надасть|наступних завершальних прийомів нададуть|наступних завершальних прийомів нададуть} {2} {declension|очко|очка|очок} серії.\n\n[Лють тигра] також збільшує періодичну шкоду від кровотеч та [Місячного вогню] на {3}% на весь час їхньої дії."
+            "2366097251": "Tiger's Fury causes your next {1} finishing [plural|move|moves] to restore {2} combo [plural|point|points].\r\n\r\nTiger's Fury also increases the periodic damage of your bleeds by an additional {3}% for their full duration.",
+            "1581243741": "Tiger's Fury causes your next {1} finishing [plural|move|moves] to restore {2} combo [plural|point|points].\r\n\r\nTiger's Fury also increases the periodic damage of your bleeds and Moonfire by an additional {3}% for their full duration."
         }
     },
     "2438917080": {
@@ -1614,7 +1618,7 @@
     "2788958811": {
         "Name": "Наставництво Урсока",
         "Descriptions": {
-            "2197066262": "|T571586:24|t {ffffffff|Втілення: Вартовий Урсока}:\nВитрата {1} од. гніву зменшує час відновлення [Втілення: Вартовий Урсока] на {2} сек.\n\n|T3636839:24|t {ffffffff|Виклик духів}:\nЧас відновлення [Виклику духів] зменшується на {3}%, а його тривалість та кількість заклинань зменшується на {4}%. [Виклик духів] має збільшений шанс використати посилене заклинання або здібність."
+            "1700202664": "|T571586:24|t {ffffffff|Incarnation: Guardian of Ursoc}: \r\nEvery {1} Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by {2} sec.\r\n\r\n|T6035309:24|t {ffffffff|Convoke the Spirits}: \r\nConvoke the Spirits' cooldown is reduced by {3}% and its duration and number of spells cast is reduced by {4}%. Convoke the Spirits has an increased chance to use an exceptional spell or ability."
         }
     },
     "897665850": {
@@ -1796,7 +1800,6 @@
     "2076333782": {
         "Name": "Махи крилами",
         "Descriptions": {
-            "1540016020": "Ви махаєте крилами, сповільнюючи швидкість падіння.",
             "3703595865": "Ви спускаєтеся на зоряному пилу, сповільнюючи швидкість падіння."
         }
     },
@@ -1827,8 +1830,7 @@
     "3420240455": {
         "Name": "Дотик космосу",
         "Descriptions": {
-            "3799849027": "Використання [Гніву] під час [Затемнення] дає {1}% шанс на застосування наступного [Зоряного сплеску] без витрат ресурсу.",
-            "3191095391": "Використання [Гніву] під час [Затемнення] дає {1}% шанс на застосування наступного [Зоряного сплеску] без витрат ресурсу.\n\nВикористання [Зоряного вогню] під час [Затемнення] дає {2}% шанс на застосування наступного [Зорепаду] без витрат ресурсу."
+            "2766738572": "Casting Wrath in an Eclipse has a {1}% chance to make your next Starsurge or Starfall free.\r\n\r\nCasting Starfire in an Eclipse has a {2}% chance to make your next Starsurge or Starfall free."
         }
     },
     "3546256011": {
@@ -1858,7 +1860,7 @@
     "4097661190": {
         "Name": "Дух Урсока",
         "Descriptions": {
-            "3229368180": "Витривалість у [Формі ведмедя] збільшиться на {1}%."
+            "3145948182": "Stamina increased by {1}%.\r\n\r\nStamina in Bear Form is increased by an additional {2}%."
         }
     },
     "2408447509": {
@@ -1922,9 +1924,9 @@
     "3489307572": {
         "Name": "Контроль Сну",
         "Descriptions": {
-            "4284000902": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Силу природи], [Небесне вирівнювання] та [Виклик духів].",
-            "4135697048": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Стрімкість природи], [Втілення: Дерево Життя] та [Виклик духів].",
-            "901748498": "Час, що минув, поки ваші основні здібності були доступні для використання, віднімається від часу відновлення цих здібностей після наступного використання, але не більше ніж на {1} {declension|секунду|секунди|секунд}.\n\nМає вплив на [Сила природи], [Втілення: Обранець Елуни] та [Виклик духів]."
+            "600946563": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Force of Nature, Celestial Alignment, and Convoke the Spirits.",
+            "742236605": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Force of Nature, Incarnation: Chosen of Elune, and Convoke the Spirits.",
+            "2694314094": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to {1} seconds.\r\n\r\nAffects Nature's Swiftness, Incarnation: Tree of Life, and Convoke the Spirits."
         }
     },
     "1743384295": {
@@ -1969,7 +1971,7 @@
         "Name": "Звірина міць",
         "Descriptions": {
             "1247749915": "Шкода від [Трощення] та [Знищення] збільшується на {1}%.",
-            "1433927432": "Шкода від [Лютого укусу] збільшується на {1}%, а пряма шкода від [Первісного гніву] - на {2}%."
+            "2490065297": "Ferocious Bite and Rampant Ferocity damage increased by {1}% and Primal Wrath's direct damage increased by {2}%."
         }
     },
     "1507870054": {
@@ -2025,13 +2027,6 @@
             "1252031715": "Використання [Дикого ривку] у [Формі ведмедя] або у [Формі місячного совуха] призводить до скорочення часу відновлення на {1} сек."
         }
     },
-    "1589447282": {
-        "Name": "Вище вирівнювання",
-        "Descriptions": {
-            "2594229274": "[Небесне вирівнювання] діє на {1}% довше.\n\nПоки діє [Небесне вирівнювання], [Сонячне затемнення] збільшує шкоду від магії природи ще на {2}%, а [Місячне затемнення] збільшує шкоду від таємної магії ще на {3}%.",
-            "3510376024": "[Втілення: Обранець Елуни] триває на {1}% довше.\n\nПоки діє [Втілення: Обранець Елуни], [Сонячне затемнення] збільшує шкоду від магії природи ще на {2}%, а [Місячне затемнення] збільшує шкоду від таємної магії ще на {3}%."
-        }
-    },
     "2047032522": {
         "Name": "Стійке цвітіння",
         "Descriptions": {
@@ -2061,9 +2056,8 @@
         "Name": "Тактичне насичення",
         "Descriptions": {
             "182300249": "Атака під час дії [Підкрадання] збільшує шанс критичного удару [Шматування], [Роздирання] та [Розмаху] на {1}% протягом {2} сек.\n\nВикористання [Відновлення] збільшує шанс вашого періодичного лікування стати критичним на {3}% протягом {4} сек.",
-            "2339977759": "[Лють тигра] та атака із [Підкраданням] збільшує шанс критичного удару [Шматування], [Роздирання] та [Розмаху] на {1}% впродовж {2} сек.\n\nВикористання [Відновлення] збільшує шанс ваших періодичних зцілень стати критичними на {3}% впродовж {4} сек.",
-            "157255279": "Атака під час дії [Підкрадання] збільшує шанс критичного удару [Шматування], [Роздирання] та [Жорстокого розрізу] на {1}% протягом {2} сек.\n\nВикористання [Відновлення] збільшує шанс вашого періодичного лікування стати критичним на {3}% протягом {4} сек.",
-            "739501600": "[Лють тигра] та атака із [Підкраданням] збільшує шанс критичного удару [Шматування], [Роздирання] та [Жорстокого розрізу] на {1}% впродовж {2} сек.\n\nВикористання [Відновлення] збільшує шанс ваших періодичних зцілень стати критичними на {3}% впродовж {4} сек."
+            "2765680597": "Tiger's Fury and attacking from Prowl increase the chance for Shred, Rake, and Swipe to critically strike by {1}% for {2} sec.\r\n\r\nCasting Regrowth increases the chance for your periodic heals to critically heal by {3}% for {4} sec.",
+            "1274499751": "Tiger's Fury and attacking from Prowl increase the chance for Shred, Rake, and Brutal Slash to critically strike by {1}% for {2} sec.\r\n\r\nCasting Regrowth increases the chance for your periodic heals to critically heal by {3}% for {4} sec."
         }
     },
     "1355991453": {
@@ -2083,8 +2077,8 @@
         "Name": "Потужні чари",
         "Descriptions": {
             "213319719": "[Залісення] подовжує дію [Дерева Життя] на {1} сек.",
-            "2132492968": "[Орбітальний удар] застосовує [Зоряний спалах] на {1} сек довше та наносить на {2}% більше шкоди.\n\n[Вище вирівнювання] подовжує тривалість [Небесного вирівнювання] на {3}% та збільшує шкоду від [Затемнення] під час [Небесного вирівнювання] на {4}%.",
-            "228110332": "[Орбітальний удар] збільшує тривалість [Зоряного спалаху] на {1} сек, а шкоду - на {2}%.\n\n[Вище вирівнювання] збільшує тривалість [Втілення: Обранець Елуни] на {3}% та шкоду [Затемнення] під час дії [Втілення: Обранець Елуни] на {4}%."
+            "3177036989": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nWhirling Stars reduces the cooldown of Celestial Alignment by an additional {3} sec.",
+            "2575812798": "Orbital Strike applies Stellar Flare for {1} additional sec and deals {2}% increased damage.\r\n\r\nWhirling Stars reduces the cooldown of Incarnation: Chosen of Elune by an additional {3} sec."
         }
     },
     "1911352953": {
@@ -2159,20 +2153,20 @@
     "3077215618": {
         "Name": "Зоряне посилення",
         "Descriptions": {
-            "3036135188": "[Зоряний сплеск] збільшує шкоду, яку ціль отримує від ваших періодичних ефектів  [Падаючих зірок] на {1}% протягом {2} сек. Повторне застосування цього ефекту збільшує його тривалість, максимум до {3} сек."
+            "3036135188": "Starsurge increases the damage the target takes from your periodic effects and Shooting Stars by {1}% for {2} sec. Reapplying this effect extends its duration, up to {3} sec."
         }
     },
     "1964818680": {
         "Name": "Астральне прозріння",
         "Descriptions": {
-            "338117219": "[Втілення: Вартовий Урсока] збільшує шкоду від заклинань та здібностей таємної магії на {1}%, поки активне.\n\nЗбільшує тривалість та кількість заклинань, що накладаються за допомогою [Виклику духів], на {2}%.",
-            "3273599969": "[Втілення: Обранець Елуни] збільшує шкоду від заклинань та здібностей таємної магії на {1}%, поки активне.\n\nЗбільшує тривалість та кількість заклинань, що накладаються за допомогою [Виклику духів], на {2}%."
+            "3853326270": "Incarnation: Chosen of Elune increases Arcane damage from spells and abilities by {1}% while active.\r\n\r\nIncreases the duration and number of spells cast by Convoke the Spirits by {2}%.",
+            "3477792688": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by {1}% while active.\r\n\r\nIncreases the duration and number of spells cast by Convoke the Spirits by {2}%."
         }
     },
     "3108042127": {
         "Name": "Таємниця Гаю",
         "Descriptions": {
-            "9104341": "Збільшує шкоду від [Місячного вогню] та [Сонячного вогню] на {1}%. Збільшує лікування від [Омолодження] та [Дикого росту] на {2}%."
+            "48379844": "Moonfire and Sunfire damage increased by {1}%."
         }
     },
     "1955183040": {
@@ -2192,8 +2186,7 @@
     "3190735366": {
         "Name": "Інстинкти Кігтя",
         "Descriptions": {
-            "3348374628": "Шкода від [Шматування], [Розмаху], [Роздирання], [Знівечення] та [Патрання] збільшується на {1}%.",
-            "1894931345": "Шкода від [Шматування], [Жорстокого розрізу], [Роздирання], [Знівечення] та [Патрання] збільшується на {1}%."
+            "2559778062": "Ferocious Bite and Maul damage increased by {1}%."
         }
     },
     "902023420": {
@@ -2238,7 +2231,7 @@
     "358910499": {
         "Name": "Мінлива форма",
         "Descriptions": {
-            "2034080796": "[Шматування] та [Роздирання] можуть бути використані в будь-якій формі, після чого ви перетворитесь у [Форму кота].\n\n[Знівечення] може бути використане в будь-якій формі, після чого ви перетворитесь у [Форму ведмедя].\n\n[Гнів] та [Сонячний вогонь] можуть бути використані в будь-якій формі, після чого ви перетворитесь у [Форму місячного совуха]."
+            "784835700": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary. \r\n\r\nMangle can be used in any form and shifts you into Bear Form. \r\n\r\nWrath and Starfire shift you into Moonkin Form, if known."
         }
     },
     "3428924449": {
@@ -2276,8 +2269,8 @@
     "2316867399": {
         "Name": "Тяжкі рани",
         "Descriptions": {
-            "1972993845": "Застосування [Трощення], [Знищення], [Знівечення], [Патрання] або [Розмаху] збільшує тривалість [Жахливих ран] на {1} сек, максимум на {2} сек.",
-            "3316855972": "Кожна застосована здібність з витратою енергії збільшує тривалість [Жахливих ран] на {1} сек, максимум на {2} сек."
+            "1612199157": "Every attack with an Energy cost thatyou cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec.",
+            "2966585043": "Every Maul, Raze, Mangle,  Thrash, or Swipeyou cast extends the duration of your Dreadful Wounds by {1} sec, up to {2} additional sec."
         }
     },
     "145749490": {
@@ -2329,7 +2322,6 @@
         "Name": "Сплеск дикої сили",
         "Descriptions": {
             "2253644550": "Використання [Знівечення] дає [Котячий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму кота], ви отримаєте {2} очок серії, а ваш наступний [Лютий укус] або [Розрив] завдасть на {3}% більше шкоди протягом всього часу дії.",
-            "33381988": "Shred and Brutal SlashMangle grants Feline Potential. When you have {1} stacks, the next time you transform into Cat Form, gain {2} combo points and your next Ferocious Bite or Rip deals {3}% increased damage for its full duration.",
             "1399161908": "Використання [Шматування] або [Розмаху] дає [Ведмежий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму ведмедя], ваше наступне [Знівечення] завдасть на {2}% більше шкоди або [Розмах] завдасть на {3}% більше шкоди. Або надає {4} од. гніву.",
             "1652669068": "Використання [Шматування] або [Жорстокого розрізу] дає [Ведмежий потенціал]. Коли він накопичиться {1} разів, наступного разу, коли ви перевтілитесь у [Форму ведмедя], ваше наступне [Знівечення] завдасть на {2}% більше шкоди або [Розмах] завдасть на {3}% більше шкоди. Або надає {4} од. гніву."
         }
@@ -2357,7 +2349,7 @@
         "Name": "Розгром",
         "Descriptions": {
             "3166906070": "Ваші автоатаки мають шанс перетворити ваше наступне [Трощення] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nПрорізає ціль по широкій дузі, завдаючи {1} фізичної шкоди вашій цілі та {2} од. всім іншим ворогам перед вами.",
-            "3371155665": "Ваші автоатаки мають шанс перетворити наступний [Лютий укус] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nЗавершальний прийом, який розсікає ціль по широкій дузі, завдаючи їй фізичної шкоди за кожне очко серії та додатково витрачаючи до {1} од. енергії, щоб збільшити цю шкоду на {2}%. Вражає всіх інших ворогів перед вами, зменшуючи шкоду за кожне витрачене очко серії.\n\n{3} очко: {4} шкоди, {5} за дугу\n{6} очка: {7} шкоди, {8} за дугу\n{9} очка: {10} шкоди, {11} за дугу\n{12} очка: {13} шкоди, {14} за дугу\n{15} очок: {16} шкоди, {17} за дугу"
+            "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n{3} point: {4} damage, {5} in an arc\r\n{6} points: {7} damage, {8} in an arc\r\n{9} points: {10} damage, {11} in an arc\r\n{12} points: {13} damage, {14} in an arc\r\n{15} points: {16} damage, {17} in an arc"
         }
     },
     "112988377": {
@@ -2389,11 +2381,7 @@
     "2982419687": {
         "Name": "Поклик Старійшини друїдів",
         "Descriptions": {
-            "3026826773": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {9}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {10} зарядів.",
-            "3169281799": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {9}%, а витрати мани зменшено на {10}%.",
-            "3256023387": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {6}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {7} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {8}%, а витрати мани зменшено на {9}%.",
-            "2301225912": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {4} очок серії кожні {5} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {6}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {7}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {8} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {9}%, а витрати мани зменшено на {10}%.",
-            "2822085344": "Коли ви перевтілюєтеся в бойову форму або використовуєте [Зоряний сплеск], ви отримуєте [Серце дикої природи] на {1} сек, один раз на {2} хв.\n\n|T135879:24|t {ffffffff|Серце дикої природи}\nЗдібності, не пов'язані з вашою спеціалізацією, значно посилюються на {3} сек.\n\n{FFFFFFFF|Баланс:} Час чаклування заклинань рівноваги зменшується на {4}%, а шкода збільшується на {5}%.\n\n{FFFFFFFF|Дикий:} Ви отримуєте {6} очок серії кожні {7} сек, коли ви перебуваєте у [Формі кота], а фізична шкода збільшується на {8}%.\n\n{FFFFFFFF|Вартовий:} [Форма ведмедя] надає ще {9}% витривалості. Кілька застосувань [Залізного хутра] можуть накладатися. [Шалена регенерація] має {10} зарядів.\n\n{FFFFFFFF|Відновлення:} Зцілення збільшено на {11}%, а витрати мани зменшено на {12}%."
+            "27875187": "When you cast Starsurge, Rake, Shred, or Frenzied Regeneration you gain Heart of the Wild for {1} sec, once every {2} min.\r\n\r\n|T135879:24|t {ffffffff|Heart of the Wild}\r\nAbilities not associated with your specialization are substantially empowered for {3} sec.\r\n\r\n{FFFFFFFF|Balance:} Cast time of Balance spells reduced by {4}% and damage increased by {5}%.\r\n\r\n{FFFFFFFF|Feral:} Gain {6} Combo Point every {7} sec while in Cat Form and Physical damage increased by {8}%.\r\n\r\n{FFFFFFFF|Guardian:} Bear Form gives an additional {9}% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has {10} charges."
         }
     },
     "3044538072": {
@@ -2428,6 +2416,55 @@
         "Descriptions": {
             "1245905787": "Коли ви знімаєте ефект за допомогою [Заспокоєння] або [Зняття псування], ви отримуєте очко серії та зцілюєтеся на {1}% від вашого максимального запасу здоров'я. Якщо у вас повне здоров'я, то замість вас зцілиться поранений учасник групи чи рейду.",
             "3035792394": "Коли ви знімаєте ефект за допомогою [Заспокоєння] або [Природного зцілення], ви отримуєте очко серії та зцілюєтеся на {1}% від вашого максимального запасу здоров'я. Якщо у вас повне здоров'я, то замість вас зцілиться поранений учасник групи чи рейду."
+        }
+    },
+    "1518928873": {
+        "Name": "Astronomical Impact",
+        "Descriptions": {
+            "1000635150": "The critical strike damage of your Astral spells is increased by {1}%."
+        }
+    },
+    "1783757862": {
+        "Name": "Lingering Healing",
+        "Descriptions": {
+            "1009690143": "Rejuvenation's duration is increased by {1} sec.\r\n\r\nRegrowth's duration is increased by {2} sec when cast on yourself."
+        }
+    },
+    "221656260": {
+        "Name": "Whirling Stars",
+        "Descriptions": {
+            "3483494473": "Celestial Alignment's cooldown is reduced to {1} seconds and it has two charges, but its duration is reduced by {2}%.",
+            "998964987": "Incarnation: Chosen of Elune's cooldown is reduced to {1} seconds and it has two charges, but its duration is reduced by {2}%."
+        }
+    },
+    "1457763003": {
+        "Name": "Sunseeker Mushroom",
+        "Descriptions": {
+            "2987790314": "Sunfire damage has a chance to grow a magical mushroom at a target's location. After {1} sec, the mushroom detonates, dealing {2} Nature damage and then an additional {3} Nature damage over {4} sec. Affected targets are slowed by {5}%.\r\n\r\nGenerates up to {6} Astral Power based on targets hit.\r\n"
+        }
+    },
+    "4189328609": {
+        "Name": "Wildwood Roots",
+        "Descriptions": {
+            "323859942": "Abundance now also reduces the cast time of Regrowth by {1}% per stack.\r\n\r\nCenarion Ward's cooldown is reduced by {2} sec and its duration is increased by {3} sec."
+        }
+    },
+    "3097659007": {
+        "Name": "Renewing Surge",
+        "Descriptions": {
+            "3341439414": "The cooldown of Swiftmend is reduced by up to {1}%, based on the current health of the target. Cooldown is reduced more when cast on a lower health target."
+        }
+    },
+    "3112195671": {
+        "Name": "Hail of Stars",
+        "Descriptions": {
+            "2751140563": "Casting a free Starsurge or Starfall grants Solstice for {1} sec."
+        }
+    },
+    "478236583": {
+        "Name": "Twinleaf",
+        "Descriptions": {
+            "1922901610": "Nature's Swiftness now has {1} charges."
         }
     }
 }
