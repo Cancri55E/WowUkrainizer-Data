@@ -48,16 +48,16 @@ jobs:
 
       - name: Run DevTools project and display output
         run: |
-          dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "Data Source = '${{ github.workspace }}/Data.db'" --folder "${{ github.workspace }}/uk" --gameClientConnectionString "${{ secrets.MONGODB_CONNECTION_STRING }}"
+          dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "{{ secrets.MAIN_DB_CONNECTION_STRING }}" --folder "${{ github.workspace }}/uk" --gameClientConnectionString "${{ secrets.MONGODB_CONNECTION_STRING }}"
 
       - name: Commit translations
         id: commit_translations
         uses: EndBug/add-and-commit@v9
         with:
-          message: Update Data.db and uk/*.json with the latest translations from Crowdin
+          message: Update uk/*.json with the latest translations from Crowdin
           committer_name: GitHub Actions
           committer_email: actions@github.com
-          add: 'Data.db uk/*'
+          add: 'uk/*'
           
       - name: Trigger WowUkrainizer repo to publish alpha version
         if: steps.commit_translations.outputs.committed == 'true'
