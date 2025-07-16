@@ -300,7 +300,7 @@
         "Name": "Сон Кенарія",
         "Descriptions": {
             "1807766430": "Коли ви отримуєте неперіодичну шкоду, із шансом вашого Критичного Удару, ваше наступне [Відновлення] не витратить ману, буде миттєвим і потужнішим на {1}% та його можна буде використовувати у будь-якій формі протягом {2} сек.\n\nЦей ефект спрацьовує лише раз на {3} сек.",
-            "2981543750": "Wrath and Shred transfer {1}% of their damage and Starfire and Swipe transfer {2}% of their damage into healing onto a nearby ally. \r\n\r\nThis effect is increased by {3}% while Heart of the Wild is active."
+            "2981543750": "[Гнів] та [Шматування] лікують найближчого союзника на {1}% їхньої шкоди, а [Зоряний вогонь] та [Розмах] - на {2}%.\n\nЦей ефект збільшується на {3}% поки [Серце дикої природи] активне."
         }
     },
     "1071055044": {
@@ -445,7 +445,7 @@
     "2446089535": {
         "Name": "Процвітання",
         "Descriptions": {
-            "2044129998": "Extends the duration of all of your heal over time effects on friendly targets within {1} yards by {2} sec, and increases the rate of your heal over time effects by {3}% for {4} sec.\r\n\r\nAffected allies are healed for {5}, split evenly among them."
+            "2044129998": "Збільшує тривалість всіх ваших періодичних ефектів зцілення на союзниках в радіусі {1} м на {2} сек та збільшує їх частоту зцілення на {3}% протягом {4} сек.\n\nПоранені союзники зцілюються на {5} од. здоров'я, яке ділиться порівну між ними."
         }
     },
     "1514461650": {
@@ -652,7 +652,7 @@
             "3818871427": "Покращена форма Ведмедя дає вам ефекти Берсерка. При цьому ваше [Знівечення] вражає до {1} цілей, а ваш максимальний запас здоров'я збільшується на {2}%.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту.\n",
             "3050735439": "Покращена форма Ведмедя дає вам ефекти Берсерка. При цьому ваше [Знівечення] вражає до {1} цілей, а ваш максимальний запас здоров'я збільшується на {2}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем.\n\nТриває {3} сек. Ви можете вільно змінювати форму під час дії цього ефекту.",
             "705946427": "Покращена [Форма Ведмедя], яка надає переваги [Берсерку], дозволяє [Знівеченню] вражати максимум {1} {declension|ціль|цілі|цілей}, збільшує шкоду від таємної магії на {2}% та збільшує максимальний запас здоров'я на {3}%.\n\nТриває {4} сек. Ви можете вільно змінювати форму під час дії цього ефекту.",
-            "2445028549": "An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to {1} targets, increases Arcane damage by {2}%, and increases maximum health by {3}%.\r\n\r\nGrants immunity to effects that cause loss of control of your character.\r\n\r\nLasts {4} sec. You may freely shapeshift in and out of this improved Bear Form for its duration."
+            "2445028549": "Покращена [Форма ведмедя], яка надає переваги [Берсерку] - дозволяє [Знівеченню] вражати максимум {1} {declension|ціль|цілі|цілей}, збільшує шкоду від таємної магії на {2}% та збільшує максимальний запас здоров'я на {3}%.\n\nНадає імунітет до ефектів втрати контролю над персонажем.\n\nТриває {4} сек. Ви можете вільно змінювати форму під час дії цього ефекту."
         }
     },
     "1697805055": {
@@ -1151,7 +1151,7 @@
     "1129515312": {
         "Name": "Реактивна смола",
         "Descriptions": {
-            "4216490975": "When your Restoration heal over time effects are removed by enemies, they are replaced with Reactive Resin, healing an ally for {1} over {2} sec. Multiple stacks may overlap."
+            "4216490975": "Коли вороги знімають ваші періодичні ефекти [Відновлення], вони замінюються на [Реактивну смолу], яка зцілює союзника на {1} од. здоров'я протягом {2} сек. Кілька ефектів можуть накладатися."
         }
     },
     "165696551": {
@@ -1286,7 +1286,7 @@
             "653392147": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям з ефектами кровотечі.\n\n|cFFFFFFFFДає {3} оч. серії.",
             "1383941020": "Шматує ціль, завдаючи їй {1} фізичної шкоди. Завдає на {2}% більше шкоди цілям з ефектами кровотечі. Накладає ефект кровотечі від [Патрання].\n\n|cFFFFFFFFДає {3} оч. серії.",
             "3650932805": "Шматує ціль, завдаючи їй {1} фізичної шкоди.\n\nПоки ви в стані непомітності, [Шматування] завдає на {2}% більше шкоди, має подвійний шанс критичного удару, та генерує додатково {3} оч. серії.\n\n|cFFFFFFFFДає {4} оч. серії.",
-            "3053566187": "Shred the target, causing {1} Physical damage to the target.\r\n\r\nWhile stealthed, Shred deals {2}% increased damage, has double the chance to critically strike, and generates {3} additional combo [plural|point|points].\r\n\r\nWhile stealthed, Shred deals {4}% increased damage, has double the chance to critically strike, and generates {5} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {6} combo [plural|point|points].",
+            "3053566187": "Ви шматуєте ціль, завдаючи їй {1} од. фізичної шкоди.\n\nУ стані непомітності Шматування завдає на {2}% більше шкоди, має подвоєний шанс завдати критичного удару та надає {3} [declension|додаткове очко серії|додаткових очок серії|додаткових очок серії].\n\nУ стані непомітності Шматування завдає на {4}% більше шкоди, має подвоєний шанс завдати критичного удару та надає {5} [declension|додаткове очко серії|додаткових очок серії|додаткових очок серії].\n\n|cFFFFFFFFДає {6} [declension|очко серії|очка серії|очок серії].",
             "2923228752": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {5} combo [plural|point|points].",
             "1886708783": "Shred the target, causing {1} Physical damage to the target. Deals {2}% increased damage against bleeding targets. Applies the Bleed from Thrash.\r\n\r\nWhile stealthed, Shred deals {3}% increased damage, has double the chance to critically strike, and generates {4} additional combo [plural|point|points].\r\n\r\n|cFFFFFFFFAwards {5} combo [plural|point|points]."
         }
@@ -2349,7 +2349,7 @@
         "Name": "Розгром",
         "Descriptions": {
             "3166906070": "Ваші автоатаки мають шанс перетворити ваше наступне [Трощення] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\nПрорізає ціль по широкій дузі, завдаючи {1} фізичної шкоди вашій цілі та {2} од. всім іншим ворогам перед вами.",
-            "3371155665": "Your auto-attacks have a chance to make your next Ferocious Bite become Ravage.\r\n\r\n|T5927623:24|t{FFFFFFFF|Ravage}\r\nFinishing move that slashes through your target in a wide arc, dealing Physical damage per combo point to your target and consuming up to {1} additional Energy to increase that damage by up to {2}%. Hits all other enemies in front of you for reduced damage per combo point spent. \r\n\r\n{3} point: {4} damage, {5} in an arc\r\n{6} points: {7} damage, {8} in an arc\r\n{9} points: {10} damage, {11} in an arc\r\n{12} points: {13} damage, {14} in an arc\r\n{15} points: {16} damage, {17} in an arc"
+            "3371155665": "Ваші автоатаки мають шанс перетворити наступний [Лютий укус] на [Розгром].\n\n|T5927623:24|t{FFFFFFFF|Розгром}\n\nЗавершальний прийом, який розсікає ціль по широкій дузі, завдаючи їй фізичної шкоди за кожне очко серії та додатково витрачаючи до {1} од. енергії, щоб збільшити цю шкоду на {2}%. Вражає всіх інших ворогів перед вами, зменшуючи шкоду за кожне витрачене очко серії.\n\n{3} очко: {4} шкоди, {5} за дугу\n{6} очка: {7} шкоди, {8} за дугу\n{9} очка: {10} шкоди, {11} за дугу\n{12} очка: {13} шкоди, {14} за дугу\n{15} очок: {16} шкоди, {17} за дугу"
         }
     },
     "112988377": {
@@ -2464,7 +2464,7 @@
     "478236583": {
         "Name": "Подвійні листки",
         "Descriptions": {
-            "1922901610": "Nature's Swiftness now has {1} charges."
+            "1922901610": "[Стрімкість природи] тепер має {1} {declension|заряд|заряди|зарядів}."
         }
     }
 }
