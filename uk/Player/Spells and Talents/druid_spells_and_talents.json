@@ -812,8 +812,8 @@
         "Name": "Майстер перевертень",
         "Descriptions": {
             "533997526": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {1}% більше шкоди та надають {2} од. мани.\n\n|T611424:24|t{FFFFFFFF|Форма Ведмедя}\n[Залізне хутро] дає на {3}% більше броні та надає {4} од. мани.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] та [Скалічення] завдають на {5}% більше шкоди та надають {6} од. мани при використанні з {7} {declension|очком серії|очками серії|очками серії}.",
-            "2229383732": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation heals for {1}% more and causes you to instantly generate {2} Rage after entering Bear Form.\r\n\r\n|T236156:24|t {FFFFFFFF|Moonkin Form}\r\nWrath, Starfire, and Starsurge deal {3}% additional damage and cause you to instantly generate {4} Rage after entering Bear Form.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and cause you to instantly generate {6} Rage after entering Bear Form when cast with {7} combo points.",
-            "1668384812": "Your abilities are amplified based on your current shapeshift form, granting an additional effect.\r\n\r\n|T236157:24|t {FFFFFFFF|Caster Form}\r\nRejuvenation heals for {1}% more and generates {2} Astral Power.\r\n\r\n|T236156:24|t {FFFFFFFF|Bear Form}\r\nIronfur grants {3}% additional armor and generates {4} Astral Power.\r\n\r\n|T611425:24|t {FFFFFFFF|Cat Form}\r\nRip, Ferocious Bite, and Maim deal {5}% additional damage and generate {6} Astral Power when cast with {7} combo points."
+            "2229383732": "Ваші здібності посилюються залежно від поточної форми, отримуючи додатковий ефект.\n\n|T236157:24|t {FFFFFFFF|Форма заклинателя}\n[Омолодження] зцілює на {1}% більше і миттєво надає {2} од. гніву після переходу у [Форму ведмедя].\n\n|T236156:24|t {FFFFFFFF|Форма місячного совуха}\n[Гнів], [Зоряний вогонь] та [Зоряний сплеск] завдають на {3}% більше шкоди і миттєво надають {4} од. гніву після переходу у [Форму ведмедя].\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] і [Скалічення] завдають на {5}% більше шкоди і миттєво надають {6} од. гніву після переходу у [Форму ведмедя] при застосуванні із {7} {declension|очком серії|очками серії|очками серії}.",
+            "1668384812": "Ваші здібності посилюються на основі вашої поточної форми, надаючи додатковий ефект.\n\n|T236157:24|t {FFFFFFFF|Форма заклинателя}\n[Омолодження] зцілює на {1}% більше та надає {2} од. астральної сили.\n\n|T236156:24|t {FFFFFFFF|Форма ведмедя}\n[Залізне хутро] надає {4} од. астральної сили та на {3}% більше броні.\n\n|T611425:24|t {FFFFFFFF|Форма кота}\n[Розрив], [Лютий укус] і [Скалічення] завдають на {5}% більше шкоди та надають {6} од. астральної сили при застосуванні із {7} {declension|очком серії|очками серії|очками серії}."
         }
     },
     "4292277755": {
@@ -825,7 +825,7 @@
     "2801873743": {
         "Name": "Майстерність: Гармонія",
         "Descriptions": {
-            "350294136": "Your healing is increased by {1}% for each of your Restoration heal over time effects on the target, reduced by each additional effect."
+            "350294136": "Ваше зцілення збільшується на {1}% за кожен ваш періодичний ефект [Відновлення] на цілі, зменшуючись з кожним наступним ефектом."
         }
     },
     "274762662": {
@@ -917,7 +917,7 @@
     "853370241": {
         "Name": "Природний баланс",
         "Descriptions": {
-            "1408880145": "While in combat you generate {1} Astral Power every {2} sec.\r\n\r\nWhile out of combat your Astral Power rebalances to {3} instead of depleting to empty."
+            "1408880145": "Поки ви у бою, ви отримуєте {1} од. астральної сили кожні {2} сек.\n\nКоли ви не в бою, рівень вашої астральної сили врівноважується на {3} од. замість 0."
         }
     },
     "3989003924": {
@@ -930,7 +930,7 @@
     "1653349051": {
         "Name": "Благодать природи",
         "Descriptions": {
-            "1256101439": "When Eclipse ends or when you enter combat, enter a Dreamstate, reducing the cast time of your next {1} Starfires or Wraths by {2}%."
+            "1256101439": "Коли [Затемнення] закінчується або коли ви вступаєте в бій, ви входите в [Стан Сну], зменшуючи час застосування наступних {1} [Зоряних вогнів] або [Гнівів] на {2}%."
         }
     },
     "3127999516": {
@@ -997,7 +997,7 @@
         "Name": "Орбітальний удар",
         "Descriptions": {
             "159580035": "[Небесне вирівнювання] вражає всіх ворогів у вибраній області на {1} од. астральної шкоди та застосовує [Зоряний спалах] на них.\n\nЗменшує час відновлення [Небесне вирівнювання] на {2} сек.",
-            "1750321627": "Incarnation: Chosen of Elune blasts all enemies in a targeted area for {1} Astral damage and applies Stellar Flare to them.\r\n\r\nReduces the cooldown of Incarnation: Chosen of Elune by {2} sec."
+            "1750321627": "[Втілення: Обранець Елуни] вражає всіх ворогів у вибраній області на {1} од. астральної шкоди та застосовує [Зоряний спалах] на них.\n\nЗменшує час відновлення [Втілення: Обранець Елуни] на {2} сек."
         }
     },
     "500418243": {
@@ -1120,8 +1120,8 @@
             "4138981728": "Роздирає ціль, завдаючи {1} шкоди від кровотечі та ще {2} шкоди від кровотечі протягом {3} сек.\n\n{FFFFFFFF|Генерує {4} оч. серії.}",
             "3912484809": "Роздирає ціль, завдаючи {1} шкоди від кровотечі та ще {2} шкоди від кровотечі впродовж {3} сек. \n\nКоли ви у стані непомітності, [Роздирання] також приголомшує ціль на {4} сек та завдає на {5}% більше шкоди.\n\n{FFFFFFFF|Дає {6} оч. серії.}",
             "3200619771": "Роздирає ціль, завдаючи од. {1} шкоди від кровотечі та додатково од. {2} шкоди від кровотечі протягом {3} сек. Зменшує швидкість руху цілі на {4}% на {5} сек.\n\n{FFFFFFFF|Дає {6} оч. серії.}",
-            "680988034": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. \r\n\r\nWhile stealthed, Rake will also stun the target for {4} sec and deal {5}% increased damage. \r\n\r\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\r\n\r\n{FFFFFFFF|Awards {8} combo [plural|point|points].}",
-            "1067384072": "Rake the target for {1} Bleed damage and an additional {2} Bleed damage over {3} sec. Reduces the target's movement speed by {4}% for {5} sec. \r\n\r\nWhile stealthed, Rake will also stun the target for {6} sec and deal {7}% increased damage.\r\n\r\n{FFFFFFFF|Awards {8} combo [plural|point|points].}"
+            "680988034": "Ви роздираєте ціль, завдаючи од. {1} шкоди від кровотечі та додатково од. {2} шкоди від кровотечі протягом {3} сек.\n\nКоли ви у стані непомітності, [Роздирання] також приголомшує ціль на {4} сек та завдає на {5}% більше шкоди.\n\nКоли ви у стані непомітності, [Роздирання] також приголомшує ціль на {6} сек та завдає на {7}% більше шкоди.\n\n{FFFFFFFF|Надає {8} оч. серії.}",
+            "1067384072": "Ви роздираєте ціль, завдаючи од. {1} шкоди від кровотечі та додатково од. {2} шкоди від кровотечі протягом {3} сек. При цьому швидкість руху цілі зменшується на {4}% на {5} сек.\n\nКоли ви у стані непомітності, [Роздирання] також приголомшує ціль на {6} сек та завдає на {7}% більше шкоди.\n\n{FFFFFFFF|Дає {8} оч. серії.}"
         }
     },
     "3588638425": {
