@@ -142,7 +142,7 @@
     "2061787341": {
         "Name": "Косторубка",
         "Descriptions": {
-            "1168418275": "Поглинання [Машини для вбивства] надає {1}% шансу критичного удару на {2} сек, накопичуючись до {3} разів. Після {4} зарядів ваша наступна [Машина для вбивства] поглинає заряди та надає вам {5}% збільшення шкоди від магії холоду на {6} сек."
+            "1168418275": "Поглинання ефекту [Машини для вбивства] надає {1}% шансу критичного удару на {2} сек, накопичуючись до {3} разів. Після {4} зарядів ваша наступна [Машина для вбивства] поглинає заряди та надає вам {5}% збільшення шкоди від магії холоду на {6} сек."
         }
     },
     "2243403179": {
@@ -824,19 +824,19 @@
     "2620159330": {
         "Name": "Знищення",
         "Descriptions": {
-            "3650979722": "Безжальна атака, що завдає {1} фізичної шкоди.",
-            "3149207345": "Безжальна атака обома видами зброї, що завдає {1} фізичної шкоди.",
-            "1211718704": "A brutal attack that deals {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active.",
-            "1443172500": "A brutal attack with both weapons that deals a total of {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active."
+            "3650979722": "Безжальна атака, що завдає {1} од. фізичної шкоди.",
+            "3149207345": "Безжальна атака обома видами зброї, що завдає {1} од. фізичної шкоди.",
+            "1211718704": "Безжальна атака, що завдає {1} од. фізичної шкоди.\n\nШкода збільшена на {2}% у бою у PvP, коли [Машина для вбивства] не активна.",
+            "1443172500": "Безжальна атака обома видами зброї, що завдає {1} од. фізичної шкоди.\n\nШкода збільшена на {2}% у бою у PvP, коли [Машина для вбивства] не активна."
         }
     },
     "899195388": {
         "Name": "Винищення",
         "Descriptions": {
-            "3033478846": "While Pillar of Frost is active, Frost Strike and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "779570278": "While Pillar of Frost is active, Frost Strike, Glacial Advance, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "2240969396": "While Pillar of Frost is active, Frost Strike, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "1908923383": "While Pillar of Frost is active, Frost Strike, Glacial Advance,, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
+            "3033478846": "Поки діє [Крижаний стовп], ваші [Крижаний удар] та [Ревучий вітер] завжди надають ефект [Машини для вбивства], а також мають {1}% шанс згенерувати руну.",
+            "779570278": "Поки діє [Крижаний стовп], ваші [Крижаний удар], [Крижаний наступ] та [Ревучий вітер] завжди надають ефект [Машини для вбивства], а також мають {1}% шанс згенерувати руну.",
+            "2240969396": "Поки діє [Крижаний стовп], ваші [Крижаний удар], [Жнець душ] та [Ревучий вітер] завжди надають ефект [Машини для вбивства], а також мають {1}% шанс згенерувати руну.",
+            "1908923383": "Поки діє [Крижаний стовп], ваші [Крижаний удар], [Крижаний наступ], [Жнець душ] та [Ревучий вітер] завжди надають ефект [Машини для вбивства], а також мають {1}% шанс згенерувати руну."
         }
     },
     "931333709": {
@@ -1301,7 +1301,7 @@
     "698768415": {
         "Name": "Арктичний штурм",
         "Descriptions": {
-            "4219272896": "Consuming Killing Machine fires a Glacial Advance through your target at {1}% effectiveness."
+            "4219272896": "Поглинання ефекту [Машини для вбивства] вивільняє у вашого ворога [Крижаний наступ] з {1}% ефективністю."
         }
     },
     "1284580039": {
@@ -1337,9 +1337,9 @@
     "683895987": {
         "Name": "Зморення",
         "Descriptions": {
-            "182201210": "After Reaper's Mark explodes, your next {1} [plural|Marrowrend|Marrowrends] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets.",
-            "204302227": "After Reaper's Mark explodes, your next {1} [plural|Marrowrend|Marrowrends] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage and applies Blood Plague. Deals reduced damage beyond {7} targets.",
-            "3901485910": "After Reaper's Mark explodes, your next {1} [plural|Obliterate|Obliterates] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets."
+            "182201210": "Після того, як [Мітка женця] вибухнула, витрата {1} {declension|вашого наступного [Розриву кісток]|ваших наступних [Розривів кісток]|ваших наступних [Розривів кісток]} складатиме {2} {declension|руну|руни|рун} та викличе {3} {declension|косу, що вдарить|коси, що вдарять|кіс, що вдарять} по вашим ворогам.\n\nПерша коса завдає цілі {4} од. шкоди від темної магії холоду і має {5}% шанс накласти [Мітку женця], а друга коса завдає {6} од. шкоди від темної магії холоду всім ворогам навколо вашої цілі. Завдає зменшеної шкоди, якщо цілей більше ніж {7}.",
+            "204302227": "Після того, як [Мітка женця] вибухнула, витрата {1} {declension|вашого наступного [Розриву кісток]|ваших наступних [Розривів кісток]|ваших наступних [Розривів кісток]} складатиме {2} {declension|руну|руни|рун} та викличе {3} {declension|косу, що вдарить|коси, що вдарять|кіс, що вдарять} по вашим ворогам.\n\nПерша коса завдає цілі {4} од. шкоди від темної магії холоду і має {5}% шанс накласти [Мітку женця], а друга коса завдає {6} од. шкоди від темної магії холоду всім ворогам навколо вашої цілі та заразить їх [Кривавою чумою]. Завдає зменшеної шкоди, якщо цілей більше ніж {7}.",
+            "3901485910": "Після того, як [Мітка женця] вибухнула, витрата {1} {declension|вашого наступного [Знищення]|ваших наступних [Знищень]|ваших наступних [Знищень]} складатиме {2} {declension|руну|руни|рун} та викличе {3} {declension|косу, що вдарить|коси, що вдарять|кіс, що вдарять} по вашим ворогам.\n\nПерша коса завдає цілі {4} од. шкоди від темної магії холоду і має {5}% шанс накласти [Мітку женця], а друга коса завдає {6} од. шкоди від темної магії холоду всім ворогам навколо вашої цілі. Завдає зменшеної шкоди, якщо цілей більше ніж {7}."
         }
     },
     "3499738642": {
@@ -1400,7 +1400,7 @@
     "2680238848": {
         "Name": "Кров — це життя",
         "Descriptions": {
-            "3264671497": "Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for {1} sec.\r\n\r\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing {2}% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond {3} targets."
+            "3264671497": "[Удар вампіра] має шанс викликати криваве породження, яке атакуватиме вашого ворога протягом {1} сек.\n\nКриваве породження з кожним ударом накопичує частину завданої ним шкоди. При смерті породження вибухає, завдаючи {2}% від накопиченої шкоди усім ворогам поблизу та зцілюючи Лицаря Смерті на таку ж саму величину. Завдає зменшеної шкоди, якщо цілей більше ніж {3}."
         }
     },
     "3114965385": {
@@ -1491,8 +1491,8 @@
     "2833730385": {
         "Name": "Висушення",
         "Descriptions": {
-            "1575090700": "Blood Plague deals its damage {1}% faster, and the second scythe of Exterminate applies Blood Plague.",
-            "1481079781": "Frost Fever deals its damage {1}% faster, and the second scythe of Exterminate applies Frost Fever."
+            "1575090700": "[Кривава чума] завдає шкоду на {1}% швидше, а ваша друга коса від [Зморення] заражає [Кривавою чумою].",
+            "1481079781": "[Морозна лихоманка] завдає шкоду на {1}% швидше, а ваша друга коса від [Зморення] заражає [Морозною лихоманкою]."
         }
     },
     "3026734178": {
@@ -1504,8 +1504,8 @@
     "202817240": {
         "Name": "Темні пазурі",
         "Descriptions": {
-            "3080446216": "Marrowrend and Heart Strike have a {1}% chance to grant {2} stacks of Icy Talons and increase its maximum stacks by the same amount for {3} sec.\r\n\r\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active.",
-            "369975535": "Consuming Killing Machine or Rime has a {1}% chance to grant {2} stacks of Icy Talons and increase its maximum stacks by the same amount for {3} sec.\r\n\r\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active."
+            "3080446216": "[Розрив кісток] та [Удар в серце] мають {1}% шанс надати {2} {declension|заряд|заряди|зарядів} [Крижаних пазурів] та збільшити їхню максимальну кількість на таку ж саму величину на {3} сек.\n\nШкода від здібностей, які витрачають силу рун, вважатиметься шкодою від темної магії холоду поки [Крижані пазурі] активні.",
+            "369975535": "Поглинання ефекту [Машини для вбивства] або [Інію] мають {1}% шанс надати {2} {declension|заряд|заряди|зарядів} [Крижаних пазурів] та збільшити їхню максимальну кількість на таку ж саму величину на {3} сек.\n\nШкода від здібностей, які витрачають силу рун, вважатиметься шкодою від темної магії холоду поки [Крижані пазурі] активні."
         }
     },
     "2512231171": {
@@ -1542,7 +1542,7 @@
     "1020800851": {
         "Name": "Потік крижаної згуби",
         "Descriptions": {
-            "4178556418": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing {1} Frost damage to enemies in front of you."
+            "4178556418": "Ваші критичні автоатаки мають шанс наслати на ваших ворогів, що попереду вас, потік льоду, який завдасть їм {1} од. шкоди від магії холоду."
         }
     },
     "2295065133": {
@@ -1624,8 +1624,8 @@
     "878742891": {
         "Name": "Застряглий у темрявві",
         "Descriptions": {
-            "526689714": "Blood Boil deals {1}% increased damage, and is now Shadowfrost.\r\n\r\nShadowfrost damage applies {2} stacks to Reaper's Mark and {3} stacks when it is a critical strike.",
-            "2534635748": "Rime empowered Howling Blast deals {1}% increased damage to its main target, and is now Shadowfrost.\r\n\r\nShadowfrost damage applies {2} stacks to Reaper's Mark and {3} stacks when it is a critical strike."
+            "526689714": "[Кипіння крові] завдає на {1}% більше шкоди, яка тепер рахується як шкода від темної магії холоду.\n\nШкода від темної магії холоду накладає {2} {declension|заряд|заряди|зарядів} [Мітки женця] та {3} {declension|заряд|заряди|зарядів}, коли ця шкода критична.",
+            "2534635748": "Коли ваш [Ревучий вітер] посилений [Інеєм], то він завдає на {1}% більше шкоди основній цілі, а його шкода тепер рахується як шкода від темної магії холоду.\n\nШкода від темної магії холоду накладає {2} {declension|заряд|заряди|зарядів} [Мітки женця] та {3} {declension|заряд|заряди|зарядів}, коли ця шкода критична."
         }
     },
     "4063859068": {
@@ -1637,7 +1637,7 @@
     "2973962748": {
         "Name": "Незламна воля",
         "Descriptions": {
-            "2286474236": "Anti-Magic shell now removes all harmful magical effects when activated, but it's cooldown is increased by {1}  sec."
+            "2286474236": "[Антимагічний панцир] тепер знімає всі шкідливі магічні ефекти при активації, але його час відновлення збільшений на {1} сек."
         }
     },
     "2369319569": {
@@ -1649,8 +1649,8 @@
     "1696323005": {
         "Name": "Невмолимий жнець",
         "Descriptions": {
-            "1669899842": "Reaper's Mark initial strike grants {1} charges of Bone Shield.\r\n\r\nReaper's Mark explosion deals up to {2}% increased damage based on your target's missing health.",
-            "3972777331": "Reaper's Mark initial strike grants Killing Machine.\r\n\r\nReaper's Mark explosion deals up to {1}% increased damage based on your target's missing health."
+            "1669899842": "Початковий удар [Мітки женця] надає {1} {declension|заряд|заряди|зарядів} [Кістяного щита].\n\nВибух [Мітки женця] може завдати максимально на {2}% більше шкоди, в залежності від кількості втраченого здоров'я у противника.",
+            "3972777331": "Початковий удар [Мітки женця] надає ефект [Машини для вбивства].\n\nВибух [Мітки женця] може завдати максимально на {1}% більше шкоди, в залежності від кількості втраченого здоров'я у противника."
         }
     },
     "1094680389": {
@@ -1683,9 +1683,9 @@
     "1376311658": {
         "Name": "Дар сан'лейн",
         "Descriptions": {
-            "2670869538": "While Dancing Rune Weapon is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Heart Strike for the duration.",
-            "3962214367": "While Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Scourge Strike for the duration.",
-            "2461739829": "While Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Clawing Shadows for the duration."
+            "2670869538": "Ви отримуєте [Дар сан'лейн] поки активна ваша [Танцююча рунічна зброя].\n\n[Дар сан'лейн] збільшує ефективність вашої [Сутності Кривавої королеви] на {1}%, а [Удар вампіра] замінює ваш [Удар в серце] протягом тривалості ефекту.",
+            "3962214367": "Ви отримуєте [Дар сан'лейн] поки активне ваше [Темне перетворення].\n\n[Дар сан'лейн] збільшує ефективність вашої [Сутності Кривавої королеви] на {1}%, а [Удар вампіра] замінює ваш [Удар Скари] протягом тривалості ефекту.",
+            "2461739829": "Ви отримуєте [Дар сан'лейн] поки активне ваше [Темне перетворення].\n\n[Дар сан'лейн] збільшує ефективність вашої [Сутності Кривавої королеви] на {1}%, а [Удар вампіра] замінює ваші [Кігтисті тіні] протягом тривалості ефекту."
         }
     },
     "1620426634": {
@@ -1730,7 +1730,7 @@
     "4097240127": {
         "Name": "Розрив душі",
         "Descriptions": {
-            "616223679": "When Reaper's Mark explodes, it deals {1}% of the damage dealt to nearby enemies and causes them to deal {2}% reduced Physical damage to you for {3} sec."
+            "616223679": "Коли вибухає [Мітка женця], вона завдає вашим найближчим ворогам {1}% від завданої шкоди та змушує їх завдавати вам на {2}% менше фізичної шкоди протягом {3} сек."
         }
     },
     "1813184189": {
@@ -1760,22 +1760,22 @@
         }
     },
     "3656392252": {
-        "Name": "Reaper's Onslaught",
+        "Name": "Натиск женця",
         "Descriptions": {
-            "3224152903": "Reduces the cooldown of Reaper's Mark by {1} sec, but the amount of Marrowrends empowered by Exterminate is reduced by {2}.",
-            "605247298": "Reduces the cooldown of Reaper's Mark by {1} sec, but the amount of Obliterates empowered by Exterminate is reduced by {2}."
+            "3224152903": "Зменшує час відновлення [Мітки женця] на {1} сек, але кількість підсилень [Розриву кісток] від [Зморення] зменшена на {2}.",
+            "605247298": "Зменшує час відновлення [Мітки женця] на {1} сек, але кількість підсилень [Знищення] від [Зморення] зменшена на {2}."
         }
     },
     "10722155": {
-        "Name": "Reaper of Souls",
+        "Name": "Жнець душ",
         "Descriptions": {
-            "3040425762": "When you apply Reaper's Mark, the cooldown of Soul Reaper is reset, your next Soul Reaper costs no runes, and it explodes on the target regardless of their health.\r\n\r\nSoul Reaper damage is increased by {1}%."
+            "3040425762": "Коли ви накладаєте [Мітку женця], час відновлення [Женця душ] скидається, а ваше наступне застосування [Женця душ] не витратить руни та вибухне на вашій цілі, незалежно від рівня її здоров'я.\n\nШкода від [Женця душ] збільшена на {1}%."
         }
     },
     "3342381596": {
-        "Name": "Swift and Painful",
+        "Name": "Швидко і болісно",
         "Descriptions": {
-            "2022918598": "If no enemies are struck by Soul Rupture, you gain {1}% Strength for {2} sec.\r\n\r\nWave of Souls is {3}% more effective on the main target of your Reaper's Mark."
+            "2022918598": "Якщо жодного ворога не задіто вашим [Женцем душ], то ви отримуєте {1}% сили на {2} сек.\n\n[Хвиля душ] на {3}% ефективніша по основній цілі вашої [Мітки женця]."
         }
     }
 }
