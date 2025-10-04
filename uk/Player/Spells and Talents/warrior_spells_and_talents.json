@@ -759,13 +759,13 @@
     "271419530": {
         "Name": "Лють Одіна",
         "Descriptions": {
-            "934854365": "Unleashes your power, dealing {1} Physical damage and an additional {2} Physical damage over {3} sec to all enemies within {4} yards. Deals reduced damage beyond {5} targets.\r\n\r\n{FFFFFFFF|Generates {6} Rage.}\r\n"
+            "934854365": "Вивільняє вашу силу, завдаючи {1} фізичної шкоди та додатково {2} фізичної шкоди протягом {3} сек. усім ворогам у радіусі {4} м. Завдає менше шкоди якщо цілей більше {5}.\n\n{FFFFFFFF|Генерує {6} од. гніву.}\n"
         }
     },
     "784011310": {
         "Name": "Спеціалізація на одноручній зброї",
         "Descriptions": {
-            "1777003717": "While wielding one-handed weapons your damage is increased by {1}% and Leech increased by {2}%."
+            "1777003717": "Коли ви озброєні одноручною зброєю, ваша шкода збільшується на {1}%, а Самозцілення збільшується на {2}%."
         }
     },
     "831712952": {
@@ -895,7 +895,7 @@
     "1197962252": {
         "Name": "Гуркітлива земля",
         "Descriptions": {
-            "584503579": "Shockwave's range increased by {1} yards and when it strikes at least {2} targets its cooldown is reduced by {3} sec."
+            "584503579": "Радіус дії [Ударна хвиля] збільшується на {1} м, а коли [Ударна хвиля] вражає принаймні {2} {declension|ціль|цілі|цілей}, вона відновлюється на {3} сек."
         }
     },
     "3361443772": {
@@ -907,7 +907,7 @@
     "1833635751": {
         "Name": "Друге дихання ",
         "Descriptions": {
-            "761150639": "Restores {1}% health every {2} sec when you have not taken damage for {3} sec.\r\n\r\nRestores {4}% health every {5} sec while you are below {6}% health. The amount restored increases the closer you are to death."
+            "761150639": "Коли ви не отримуєте шкоди протягом {3} сек, ви відновлюєте {1}% здоров'я кожну {2} сек.\n\nКоли ваше здоров'я менше {6}%, ви відновлюєте {4}% здоров'я кожну {5} сек. Чим ближче ви до смерті, тим більше здоров'я відновлюється."
         }
     },
     "357465284": {
@@ -1007,7 +1007,7 @@
     "3095744218": {
         "Name": "Цілеспрямована лють",
         "Descriptions": {
-            "4101342888": "Поки ви озброєні одноручною зброєю в кожній руці, шкода, що ви наносите збільшується на {1}%, шкода ваших автоатак - на {2}%, ваша швидкість пересування - на {3}%, а критичні удари ваших автоатак з ймовірністю {4}% можуть активувати [Несамовитість]."
+            "4101342888": "Коли ви озброєні одноручною зброєю в кожній руці, ваша шкода збільшується на {1}%, шкода ваших автоатак - на {2}%, ваша швидкість пересування - на {3}%, а критичні удари ваших автоатак з ймовірністю {4}% можуть активувати [Несамовитість]."
         }
     },
     "4042889179": {
@@ -1044,7 +1044,7 @@
     "2022620962": {
         "Name": "Відбивання заклинань",
         "Descriptions": {
-            "2591366450": "Raise your weapon, reflecting the first spell cast on you and reducing magic damage you take by {1}% for {2} sec.",
+            "2591366450": "Ви підіймаєте свою зброю, відбиваючи першу застосовану на вас здібність, і зменшуєте вхідну магічну шкоду на {1}% протягом {2} сек.",
             "777718988": "Raise your weapon, reflecting the next {1} spells cast on you and reducing magic damage you take by {2}% for {3} sec.",
             "2384106473": "Raise your shield, reflecting the first spell cast on you and reducing magic damage you take by {1}% for {2} sec.",
             "1328659917": "Raise your shield, reflecting the next {1} spells cast on you and reducing magic damage you take by {2}% for {3} sec."
@@ -1113,7 +1113,7 @@
         "Name": "Розмашисті удари",
         "Descriptions": {
             "2320105812": "Протягом {1} сек ваші здібності, що завдають шкоду одній цілі, вражають {2} {declension|додаткову ціль|додаткові цілі|додаткових цілей} в радіусі {3} м, завдаючи {4}% від їх базової шкоди.",
-            "443712803": "Cooldown reduced by {1} sec."
+            "443712803": "Час відновлення зменшується на {1} сек."
         }
     },
     "616861946": {
