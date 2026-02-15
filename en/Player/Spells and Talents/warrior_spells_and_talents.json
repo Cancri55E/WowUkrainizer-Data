@@ -1,1765 +1,565 @@
 {
-    "3446221647": {
-        "Name": "Anger Management",
-        "Descriptions": {
-            "3169651004": "Every {1} Rage you spend reduces the remaining cooldown on Avatar and Shield Wall by {2} sec.",
-            "3607183954": "Every {1} Rage you spend on attacks reduces the remaining cooldown on Colossus Smash, Bladestorm, and Ravager by {2} sec.",
-            "3787055401": "Every {1} Rage you spend reduces the remaining cooldown on Recklessness, Bladestorm, and Ravager by {2} sec.",
-            "85885322": "Every {1} Rage you spend on attacks reduces the remaining cooldown on Warbreaker, Bladestorm, and Ravager by {2} sec."
-        }
-    },
-    "3567619699": {
-        "Name": "Armored to the Teeth",
-        "Descriptions": {
-            "2816813990": "Gain Strength equal to {1}% of your Armor."
-        }
-    },
-    "838861605": {
-        "Name": "Ashen Juggernaut",
-        "Descriptions": {
-            "1741196708": "Execute increases the critical strike chance of Execute by {1}% for {2} sec, stacking up to {3} times.",
-            "175895492": "Condemn increases the critical strike chance of Condemn by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "3253663118": {
-        "Name": "Avatar",
-        "Descriptions": {
-            "392373508": "Transform into a colossus for {1} sec, causing you to deal {2}% increased damage and removing all roots and snares.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
-            "223272381": "Transform into a colossus for {1} sec, causing you to deal {2}% increased damage, take {3}% reduced damage and removing all roots and snares.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}"
-        }
-    },
-    "2227513657": {
-        "Name": "Barbarian",
-        "Descriptions": {
-            "3157467464": "For {1} sec after casting Heroic Leap, you may cast the spell a second time without regard for its cooldown.\r\n\r\nIncreases the damage done by your Heroic Leap by {2}%."
-        }
-    },
-    "1102862900": {
-        "Name": "Barbaric Training",
-        "Descriptions": {
-            "2118300340": "Slam and Whirlwind deal {1}% increased damage and {2}% increased critical strike damage.",
-            "2734608160": "Revenge deals {1}% increased damage but now costs {2} more rage.",
-            "966550436": "Slam, Cleave, and Whirlwind deal {1}% more damage and {2}% increased critical strike damage.",
-            "1548339691": "Slam, Thunder Clap, and Whirlwind deal {1}% increased damage and {2}% increased critical strike damage.",
-            "3782301758": "Slam and Whirlwind deal {1}% more damage and {2}% increased critical strike damage.",
-            "3951864614": "Slam, Thunder Clap, and Whirlwind deal {1}% more damage and {2}% increased critical strike damage.",
-            "98699789": "Revenge deals {1}% increased damage."
-        }
-    },
-    "1248127271": {
-        "Name": "Battering Ram",
-        "Descriptions": {
-            "2250995639": "Shield Charge critical strike chance and critical strike damage increased by {1}% and Shield Charge increases your auto-attack damage and speed by {2}% for {3} sec."
-        }
-    },
-    "4110116071": {
-        "Name": "Battle Shout",
-        "Descriptions": {
-            "6173447": "Increases the attack power of all raid and party members within {1} yards by {2}% for {3} hour."
-        }
-    },
-    "2311158165": {
-        "Name": "Battle Stance",
-        "Descriptions": {
-            "2049810599": "A balanced combat state that increases the critical strike chance of your abilities by {1}% and reduces the duration of movement impairing effects by {2}%. \r\n\r\nLasts until canceled."
-        }
-    },
-    "2131340819": {
-        "Name": "Battle Trance",
-        "Descriptions": {
-            "3596066510": "You go into a trance causing you to regenerate {1}% of your health and generate {2} Rage every {3} sec for {4} sec after using Raging Blow twice in a row on a target.\r\n\r\nAttacking a new target with Raging Blow will cancel this effect.",
-            "3263908485": "You go into a trance causing you to regenerate {1}% of your health and generate {2} Rage every {3} sec for {4} sec after striking a target with Annihilator {5} times.\r\n\r\nAttacking a new target with Annihilator will cancel this effect."
-        }
-    },
-    "4215885235": {
-        "Name": "Battle-Scarred Veteran",
-        "Descriptions": {
-            "806881773": "When your health is brought below {1}%, you take {2}% less damage for {3} sec and healing you receive is increased by {4}%.\r\n\r\nCannot occur more than once every {5} min."
-        }
-    },
-    "3421361901": {
-        "Name": "Battlelord",
-        "Descriptions": {
-            "2833902080": "Overpower has a {1}% chance to reset the cooldown of Mortal Strike and generate {2} Rage."
-        }
-    },
-    "1130593674": {
-        "Name": "Berserker Rage",
-        "Descriptions": {
-            "3188987509": "Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for {1} sec."
-        }
-    },
-    "1745017952": {
-        "Name": "Berserker Shout",
-        "Descriptions": {
-            "4039120395": "Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for {1} sec.\r\n\r\nAlso remove fear effects from group members within {2} yds."
-        }
-    },
-    "2328458764": {
-        "Name": "Berserker Stance",
-        "Descriptions": {
-            "1413836266": "An aggressive combat state that increases the damage of your auto-attacks by {1}% and reduces the duration of Fear, Sap and Incapacitate effects on you by {2}%.\r\n\r\nLasts until canceled."
-        }
-    },
-    "2288325998": {
-        "Name": "Berserker's Torment",
-        "Descriptions": {
-            "2526892850": "Activating Avatar or Recklessness grants {1} sec of the other."
-        }
-    },
-    "33928672": {
-        "Name": "Best Served Cold",
-        "Descriptions": {
-            "1774175749": "Revenge deals {1}% more damage, or {2}% more damage when your successful dodges or parries have made it cost no Rage."
-        }
-    },
-    "1562897270": {
-        "Name": "Bitter Immunity",
-        "Descriptions": {
-            "3921566809": "Restores {1}% health instantly and removes all diseases, poisons, and curses affecting you.\r\n"
-        }
-    },
-    "1284328418": {
-        "Name": "Blademaster's Torment",
-        "Descriptions": {
-            "248222706": "Activating Avatar grants {1} sec of Sweeping Strikes and while Avatar is active the cooldown of Cleave is reduced by {2} sec."
-        }
-    },
-    "2800847323": {
-        "Name": "Bladestorm",
-        "Descriptions": {
-            "225616232": "Become an unstoppable storm of destructive force, striking all nearby enemies for {1} Physical damage over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.",
-            "600321742": "Become an unstoppable storm of destructive force, striking all nearby enemies for {1} Physical damage over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\r\n\r\n{FFFFFFFF|Generates {4} Rage each time you deal damage.}"
-        }
-    },
-    "2947086755": {
-        "Name": "Bloodborne",
-        "Descriptions": {
-            "219507192": "Your Bleed effects deal {1}% increased damage.",
-            "1731614521": "Your Bleed effects deal {1}% additional damage."
-        }
-    },
-    "2049287715": {
-        "Name": "Bloodcraze",
-        "Descriptions": {
-            "3964242935": "Raging Blow increases the critical strike chance of your next Bloodthirst by {1}% until it critically strikes, stacking up to {2} times."
-        }
-    },
-    "2468806102": {
-        "Name": "Bloodletting",
-        "Descriptions": {
-            "2027344491": "Deep Wounds, Rend and Thunderous Roar's Bleed effects last {1} sec longer and have a {2}% increased critical strike chance.\r\n\r\nIf you have Rend, Mortal Strike inflicts Rend on targets below {3}% health.\r\n"
-        }
-    },
-    "2843742443": {
-        "Name": "Bloodsurge",
-        "Descriptions": {
-            "2990616474": "Damage from Deep Wounds has a chance to generate {1} Rage."
-        }
-    },
-    "4292160246": {
-        "Name": "Bloodthirst",
-        "Descriptions": {
-            "777985242": "Assault the target in a bloodthirsty craze, dealing {1} Physical damage and restoring {2}% of your health.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}"
-        }
-    },
-    "514568727": {
-        "Name": "Blunt Instruments",
-        "Descriptions": {
-            "1730706199": "Colossus Smash damage increased by {1}% and its effect duration is increased by {2} sec."
-        }
-    },
-    "641982888": {
-        "Name": "Bodyguard",
-        "Descriptions": {
-            "1293966041": "Protect an ally, causing {1}% of all Physical damage they take to be transfered to you. When the target takes Physical damage, your Shield Slam cooldown has a {2}% chance to be reset. Bodyguard is cancelled if the target is further than {3} yards from you. Lasts {4} min.\r\n\r\nOnly one target can be Bodyguarded at a time."
-        }
-    },
-    "741570885": {
-        "Name": "Bolster",
-        "Descriptions": {
-            "1773797710": "Last Stand's cooldown is reduced by {1} sec and it grants you the Shield Block effect for its duration."
-        }
-    },
-    "451250335": {
-        "Name": "Booming Voice",
-        "Descriptions": {
-            "3403867000": "Demoralizing Shout also generates {1} Rage and increases damage you deal to affected targets by {2}%."
-        }
-    },
-    "4240763122": {
-        "Name": "Bounding Stride",
-        "Descriptions": {
-            "2223136666": "Reduces the cooldown of Heroic Leap by {1} sec and Heroic Leap also increases your movement speed by {2}% for {3} sec."
-        }
-    },
-    "3476818305": {
-        "Name": "Brace For Impact",
-        "Descriptions": {
-            "3263271391": "Using Shield Slam increases the damage of Shield Slam by {1}% and the block value of your shield by {2}% for {3} sec. Stacking up to {4} times."
-        }
-    },
-    "2798852717": {
-        "Name": "Brutal Vitality",
-        "Descriptions": {
-            "557425239": "{1}% of damage you deal adds to your active Ignore Pain."
-        }
-    },
-    "1724434591": {
-        "Name": "Cacophonous Roar",
-        "Descriptions": {
-            "1062862487": "Intimidating Shout can withstand {1}% more damage before breaking."
-        }
-    },
-    "2528849206": {
-        "Name": "Challenging Shout",
-        "Descriptions": {
-            "2749123396": "Taunts all enemies within {1} yds to attack you for {2} sec."
-        }
-    },
-    "3372618179": {
-        "Name": "Champion's Bulwark",
-        "Descriptions": {
-            "2811584714": "Shield Charge deals {1}% increased damage, grants you Shield Block, and makes your next Revenge cost no Rage."
-        }
-    },
-    "3379736059": {
-        "Name": "Charge",
-        "Descriptions": {
-            "2643868386": "Generates {1} more Rage.",
-            "2767637827": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec, and stunning it for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}",
-            "3371933976": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}"
-        }
-    },
-    "1157707090": {
-        "Name": "Cleave",
-        "Descriptions": {
-            "4101619162": "Strikes all enemies in front of you for {1} Physical damage, inflicting Deep Wounds. Cleave will consume your Overpower effect to deal increased damage. Deals reduced damage beyond {2} targets."
-        }
-    },
-    "1842198702": {
-        "Name": "Cold Steel, Hot Blood",
-        "Descriptions": {
-            "160795542": "Bloodthirst critical strikes generate {1} additional Rage and inflict a Gushing Wound that leeches {2} health over {3} sec."
-        }
-    },
-    "2944186848": {
-        "Name": "Collateral Damage",
-        "Descriptions": {
-            "3736253195": "When Sweeping Strikes ends, your next Cleave or Whirlwind deals {1}% increased damage for each ability used during Sweeping Strikes that damaged a second target."
-        }
-    },
-    "2545344678": {
-        "Name": "Colossus Smash",
-        "Descriptions": {
-            "2816970693": "Smashes the enemy's armor, dealing {1} Physical damage and increasing damage you deal to them by {2}% for {3} sec."
-        }
-    },
-    "1564455079": {
-        "Name": "Concussive Blows",
-        "Descriptions": {
-            "469542155": "Cooldown of Pummel reduced by {1} sec. \r\n\r\nSuccessfully interrupting an enemy increases the damage you deal to them by {2}% for {3} sec."
-        }
-    },
-    "2381234876": {
-        "Name": "Critical Thinking",
-        "Descriptions": {
-            "3673102009": "Critical Strike chance increased by {1}% and Execute immediately refunds {2}% of the Rage spent.",
-            "1032830621": "Critical Strike chance increased by {1}% and Raging Blow's critical strikes deal {2}% increased damage."
-        }
-    },
-    "1326317790": {
-        "Name": "Cruel Strikes",
-        "Descriptions": {
-            "3699948494": "Critical strike chance increased by {1}% and critical strike damage of Execute increased by {2}%. "
-        }
-    },
-    "2694622898": {
-        "Name": "Cruelty",
-        "Descriptions": {
-            "2751592485": "While Enraged, Raging Blow deals {1}% increased damage."
-        }
-    },
-    "3177271695": {
-        "Name": "Crushing Force",
-        "Descriptions": {
-            "3241520567": "Shield Slam deals an additional {1}% damage and deals {2}% increased critical strike damage.\r\n\r\n",
-            "3109203609": "Mortal Strike deals an additional {1}% damage and deals {2}% increased critical strike damage.",
-            "2836580546": "Bloodthirst deals an additional {1}% damage and deals {2}% increased critical strike damage."
-        }
-    },
-    "3651026283": {
-        "Name": "Dance of Death",
-        "Descriptions": {
-            "2252547171": "When an enemy dies while affected by your Ravager, its duration is extended by {1} sec.\r\n\r\nThis effect can trigger a maximum of {2} times per use of Ravager.",
-            "3167702467": "When an enemy dies while affected by your Bladestorm, all damage you deal is increased by {1}% for the remainder of the Bladestorm and for {2} sec afterwards.\r\n\r\nWhen an enemy dies while affected by your Ravager, its duration is extended by {3} sec.\r\n\r\nThese effects can trigger a maximum of {4} times per use of Bladestorm or Ravager."
-        }
-    },
-    "46444696": {
-        "Name": "Dancing Blades",
-        "Descriptions": {
-            "730423807": "Odyn's Fury increases your auto-attack damage and speed by {1}% for {2} sec."
-        }
-    },
-    "958996828": {
-        "Name": "Death Wish",
-        "Descriptions": {
-            "3974400817": "Increases your damage taken and done by {1}% for {2} sec at the cost of {3}% of your health. Stacks up to {4} times."
-        }
-    },
-    "1208215509": {
-        "Name": "Defender's Aegis",
-        "Descriptions": {
-            "2355812118": "Shield Wall gains {1} additional charge and its cooldown is reduced by {2} sec."
-        }
-    },
-    "84048762": {
-        "Name": "Defensive Stance",
-        "Descriptions": {
-            "4076742144": "A defensive combat state that reduces all damage you take by {1}% and all damage you deal by {2}%. \r\n\r\nLasts until canceled.",
-            "857274976": "A defensive combat state that reduces all damage you take by {1}%. \r\n\r\nLasts until canceled.",
-            "3193608628": "A defensive combat state that reduces all damage you take by {1}% and all magic damage you take by an additional {2}%. \r\n\r\nLasts until canceled."
-        }
-    },
-    "310817987": {
-        "Name": "Deft Experience",
-        "Descriptions": {
-            "3980449448": "Mastery increased by {1}% and Tactician's chance to trigger is increased by an additional {2}%.",
-            "3482194707": "Mastery increased by {1}% and if you are Enraged, Bloodthirst extends your Enrage by {2} sec."
-        }
-    },
-    "3946109104": {
-        "Name": "Demolition",
-        "Descriptions": {
-            "1688548478": "Reduces the cooldown of your Shattering Throw or Wrecking Throw by {1}% and increases its damage to absorb shields by an additional {2}%."
-        }
-    },
-    "2493274121": {
-        "Name": "Demoralizing Shout",
-        "Descriptions": {
-            "2272834569": "Demoralizes all enemies within {1} yards, reducing the damage they deal to you by {2}% for {3} sec.",
-            "1400788904": "Demoralizes all enemies within {1} yards, reducing the damage they do by {2}% for {3} sec.",
-            "2605640330": "Demoralizes all enemies within {1} yards, reducing the damage they deal to you by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}",
-            "1962295164": "Demoralizes all enemies within {1} yards, reducing the damage they do by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}"
-        }
-    },
-    "4264257112": {
-        "Name": "Depths of Insanity",
-        "Descriptions": {
-            "3436382319": "Recklessness lasts {1} sec longer."
-        }
-    },
-    "2948283455": {
-        "Name": "Devastator",
-        "Descriptions": {
-            "60064787": "Your auto-attacks deal an additional {1} Physical damage and have a {2}% chance to reset the remaining cooldown on Shield Slam."
-        }
-    },
-    "3971906600": {
-        "Name": "Die by the Sword",
-        "Descriptions": {
-            "1603753016": "Increases your parry chance by {1}% and reduces all damage you take by {2}% for {3} sec."
-        }
-    },
-    "102355238": {
-        "Name": "Disarm",
-        "Descriptions": {
-            "2715842532": "Disarm the enemy's weapons and shield for {1} sec. Disarmed creatures deal significantly reduced damage."
-        }
-    },
-    "3929119707": {
-        "Name": "Disrupting Shout",
-        "Descriptions": {
-            "3815881581": "Taunts all enemies within {1} yds to attack you for {2} sec, interrupts all spellcasting within {3} yds and prevents any spell in that school from being cast for {4} sec.\r\n"
-        }
-    },
-    "2444630414": {
-        "Name": "Double Time",
-        "Descriptions": {
-            "4175956375": "Charge gains {1} additional charge and its cooldown is reduced by {2} sec."
-        }
-    },
-    "3678112280": {
-        "Name": "Dragon Charge",
-        "Descriptions": {
-            "1353307758": "Run at high speed at a distance in front of you. All enemies in your path will take {1} Physical damage and be knocked back."
-        }
-    },
-    "304467179": {
-        "Name": "Dreadnaught",
-        "Descriptions": {
-            "1512224769": "Overpower causes a seismic wave, dealing {1} damage to all enemies in a {2} yd line. Deals reduced damage beyond {3} targets."
-        }
-    },
-    "1110740560": {
-        "Name": "Dual Wield Specialization",
-        "Descriptions": {
-            "1966443305": "While dual wielding your damage is increased by {1}% and movement speed is increased by {2}%."
-        }
-    },
-    "3329962543": {
-        "Name": "Duel",
-        "Descriptions": {
-            "3362356235": "You challenge the target to a duel. While challenged, all damage you and the target deal to all targets other than each other is reduced by {1}%. Lasts {2} sec."
-        }
-    },
-    "1475517889": {
-        "Name": "Enduring Alacrity",
-        "Descriptions": {
-            "420257295": "Increases Stamina and Armor by {1}% and your Haste by {2}%."
-        }
-    },
-    "2569761500": {
-        "Name": "Enduring Defenses",
-        "Descriptions": {
-            "2979481114": "Shield Block lasts {1} sec longer."
-        }
-    },
-    "3243413539": {
-        "Name": "Enduring Rage",
-        "Descriptions": {
-            "77810663": "You have a chance to become Enraged while you are suffering movement impairing effects.\r\n\r\nSuffering loss of control effects have a chance to grant you Recklessness for {1} sec."
-        }
-    },
-    "4045976314": {
-        "Name": "Enrage",
-        "Descriptions": {
-            "1625006929": "Becoming Enraged increases your damage done by {1}% for {2} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {3}% chance to Enrage you.",
-            "1887256930": "Becoming Enraged increases your damage done by {1}% for {2} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {3}% chance to Enrage you.\r\n\r\n|T132352:24|t Rampage always Enrages you.",
-            "178288446": "Becoming Enraged increases your damage done by {1}%, Haste by {2}%, and movement speed by {3}% for {4} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {5}% chance to Enrage you.",
-            "101403405": "Becoming Enraged increases your damage done by {1}% and ability damage done by an additional {2}% for {3} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {4}% chance to Enrage you.",
-            "3603533906": "Becoming Enraged increases your damage done by {1}%, Haste by {2}%, and movement speed by {3}% for {4} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {5}% chance to Enrage you.\r\n\r\n|T132352:24|t Rampage always Enrages you.",
-            "3528418200": "Becoming Enraged increases your damage done by {1}% and ability damage done by an additional {2}% for {3} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {4}% chance to Enrage you.\r\n\r\n|T132352:24|t Rampage always Enrages you."
-        }
-    },
-    "502799521": {
-        "Name": "Enraged Regeneration",
-        "Descriptions": {
-            "3122761634": "Reduces damage taken by {1}% and Bloodthirst restores an additional {2}% health for {3} sec. Usable while stunned or incapacitated."
-        }
-    },
-    "3149593211": {
-        "Name": "Execute",
-        "Descriptions": {
-            "2815359611": "Attempts to finish off a foe, causing up to {1} Physical damage based on Rage spent. Only usable on enemies that have less than {2}% health.\r\n\r\nIf your foe survives, {3}% of the Rage spent is refunded.",
-            "588046997": "Attempts to finish off a foe, causing up to {1} Physical damage based on Rage spent. Only usable on enemies that have less than {2}% health.",
-            "1234944931": "Attempt to finish off a wounded foe, causing {1} Physical damage. Only usable on enemies that have less than {2}% health.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
-            "2110149936": "Attempt to finish off a wounded foe, causing {1} Physical damage. Only usable on enemies that have less than {2}% health."
-        }
-    },
-    "1281722666": {
-        "Name": "Executioner's Precision",
-        "Descriptions": {
-            "162964863": "Execute causes the target to take {1}% more damage from your next Mortal Strike, stacking up to {2} times.",
-            "1137614562": "Condemn causes the target to take {1}% more damage from your next Mortal Strike, stacking up to {2} times."
-        }
-    },
-    "2252789712": {
-        "Name": "Exhilarating Blows",
-        "Descriptions": {
-            "3260827058": "Mortal Strike and Cleave have a {1}% chance to instantly reset their own cooldowns."
-        }
-    },
-    "3274652707": {
-        "Name": "Fast Footwork",
-        "Descriptions": {
-            "3360749458": "Movement speed increased by {1}%."
-        }
-    },
-    "267818969": {
-        "Name": "Fatality",
-        "Descriptions": {
-            "237799025": "Mortal Strike and Cleave have a high chance to apply Fatal Mark to enemies above {1}% health. When an enemy with Fatal Mark is below {2}% health, your next Execute causes the Fatal Mark to deal {3} Physical damage per stack."
-        }
-    },
-    "556693474": {
-        "Name": "Fervor of Battle",
-        "Descriptions": {
-            "1019752455": "If Cleave or Whirlwind hits {1} or more targets you also Slam your primary target."
-        }
-    },
-    "2545453000": {
-        "Name": "Focus in Chaos",
-        "Descriptions": {
-            "2096127761": "While Enraged, your auto-attacks can no longer miss."
-        }
-    },
-    "3604640100": {
-        "Name": "Focused Vigor",
-        "Descriptions": {
-            "2518859992": "Increases Strength and Armor by {1}% and your critical strike chance by {2}%.\r\n"
-        }
-    },
-    "3236316770": {
-        "Name": "Fresh Meat",
-        "Descriptions": {
-            "3418856055": "Bloodthirst always Enrages you the first time you strike a target and it has a {1}% increased chance to trigger Enrage."
-        }
-    },
-    "578329306": {
-        "Name": "Frothing Berserker",
-        "Descriptions": {
-            "2496516490": "Mortal Strike and Cleave have a {1}% chance to immediately refund {2}% of the Rage spent.",
-            "2864670192": "Revenge has a {1}% chance to immediately refund {2}% of the Rage spent.",
-            "3729810988": "Rampage has a {1}% chance to immediately refund {2}% of the Rage spent."
-        }
-    },
-    "444613592": {
-        "Name": "Fueled by Violence",
-        "Descriptions": {
-            "4103788682": "You are healed for {1}% of the damage dealt by Deep Wounds."
-        }
-    },
-    "1051028108": {
-        "Name": "Hack and Slash",
-        "Descriptions": {
-            "2362939615": "Each Rampage strike has a {1}% chance to refund a charge of Raging Blow."
-        }
-    },
-    "1466726612": {
-        "Name": "Hamstring",
-        "Descriptions": {
-            "1917903103": "Maims the enemy for {1} Physical damage, reducing movement speed by {2}% for {3} sec."
-        }
-    },
-    "2002800529": {
-        "Name": "Heavy Repercussions",
-        "Descriptions": {
-            "801683101": "Shield Slam generates {1} more Rage and extends the duration of Shield Block by {2} sec."
-        }
-    },
-    "3727884907": {
-        "Name": "Heroic Leap",
-        "Descriptions": {
-            "563901370": "Leap through the air toward a target location, slamming down with destructive force to deal {1} Physical damage to all enemies within {2} yards and resetting the remaining cooldown on Taunt.",
-            "3403179828": "Leap through the air toward a target location, slamming down with destructive force to deal {1} Physical damage to all enemies within {2} yards."
-        }
-    },
-    "2094039768": {
-        "Name": "Heroic Throw",
-        "Descriptions": {
-            "217081809": "Throws your weapon at the enemy, causing {1} Physical damage. Generates high threat."
-        }
-    },
-    "2351765077": {
-        "Name": "Honed Reflexes",
-        "Descriptions": {
-            "658574892": "Cooldown of Shield Wall, Pummel, Intervene, Spell Reflection, and Storm Bolt reduced by {1}%.",
-            "601564830": "Cooldown of Die By the Sword, Pummel, Intervene, Spell Reflection, and Storm Bolt reduced by {1}%.",
-            "1656051737": "Cooldown of Enraged Regeneration, Pummel, Intervene, Spell Reflection, and Storm Bolt reduced by {1}%."
-        }
-    },
-    "3070957512": {
-        "Name": "Ignore Pain",
-        "Descriptions": {
-            "1264796742": "Fight through the pain, ignoring {1}% of damage taken until {2} damage has been prevented.\r\n\r\nRepeated uses of Ignore Pain accumulate, up to {3} total damage prevented."
-        }
-    },
-    "3053888756": {
-        "Name": "Immovable Object",
-        "Descriptions": {
-            "1183219911": "Activating Avatar or Shield Wall grants {1} sec of the other."
-        }
-    },
-    "2611538467": {
-        "Name": "Impale",
-        "Descriptions": {
-            "2362841902": "Critical strike damage of your abilities is increased by {1}%."
-        }
-    },
-    "3209997597": {
-        "Name": "Impending Victory",
-        "Descriptions": {
-            "3879160214": "Instantly attack the target, causing {1} damage and healing you for {2}% of your maximum health.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage."
-        }
-    },
-    "3554443958": {
-        "Name": "Impenetrable Wall",
-        "Descriptions": {
-            "2449165626": "Shield Slam reduces the remaining cooldown of Shield Wall by {1} sec."
-        }
-    },
-    "418624369": {
-        "Name": "Improved Bloodthirst",
-        "Descriptions": {
-            "252192663": "Bloodthirst damage increased by {1}%."
-        }
-    },
-    "957164311": {
-        "Name": "Improved Execute",
-        "Descriptions": {
-            "1962173041": "Execute no longer has a cooldown and if your foe survives, {1}% of the Rage spent is refunded.",
-            "1027698645": "Execute no longer costs Rage and now generates {1} Rage."
-        }
-    },
-    "1478083514": {
-        "Name": "Improved Overpower",
-        "Descriptions": {
-            "1688953524": "Overpower has {1} charges and deals {2}% more damage."
-        }
-    },
-    "2194580848": {
-        "Name": "Improved Raging Blow",
-        "Descriptions": {
-            "581451016": "Raging Blow has {1} charges and has a {2}% chance to instantly reset its own cooldown."
-        }
-    },
-    "481072201": {
-        "Name": "Improved Sweeping Strikes",
-        "Descriptions": {
-            "1234656717": "Sweeping Strikes lasts {1}|r sec longer."
-        }
-    },
-    "2320608847": {
-        "Name": "Improved Whirlwind",
-        "Descriptions": {
-            "226171553": "Whirlwind causes your next {1} single-target [plural|attack|attacks] to strike up to {2} additional targets for {3}% damage.\r\n\r\nWhirlwind generates {4} Rage, plus an additional {5} per target hit. Maximum {6} Rage.",
-            "930316836": "Whirlwind and Thunder Clap cause your next {1} single-target [plural|attack|attacks] to strike up to {2} additional targets for {3}% damage.\r\n\r\nWhirlwind generates {4} Rage, plus an additional {5} per target hit. Maximum {6} Rage."
-        }
-    },
-    "3538391035": {
-        "Name": "In For The Kill",
-        "Descriptions": {
-            "2425290013": "Colossus Smash increases your Haste by {1}%, or by {2}% if the target is below {3}% health. Lasts for the duration of Colossus Smash.",
-            "2698844315": "Warbreaker increases your Haste by {1}%, or by {2}% if any target is below {3}% health. Lasts for the duration of Warbreaker."
-        }
-    },
-    "1769896309": {
-        "Name": "Indomitable",
-        "Descriptions": {
-            "1772108967": "Your maximum health is increased by {1}% and every {2} Rage you spend heals you for {3}% of your maximum health."
-        }
-    },
-    "2197133734": {
-        "Name": "Instigate",
-        "Descriptions": {
-            "4264818": "Devastate deals {1}% increased damage and generates {2} Rage.\r\n\r\nDevastator deals {3}% increased damage and generates {4} Rage."
-        }
-    },
-    "2372808546": {
-        "Name": "Intervene",
-        "Descriptions": {
-            "11539891": "Run at high speed toward an ally, intercepting all melee and ranged attacks against them for {1} sec while they remain within {2} yds."
-        }
-    },
-    "1498696531": {
-        "Name": "Intimidating Shout",
-        "Descriptions": {
-            "2235453827": "Causes the targeted enemy to cower in fear and up to {1} additional enemies within {2} yards to flee.\r\nTargets are disoriented for {3} sec.",
-            "2028262592": "Causes the targeted enemy and up to {1} additional enemies within {2} yards to cower in fear.\r\nTargets are disoriented for {3} sec."
-        }
-    },
-    "2210450362": {
-        "Name": "Into the Fray",
-        "Descriptions": {
-            "2196363373": "You gain {1}% Haste for each enemy or ally within {2} yards, up to {3}% Haste."
-        }
-    },
-    "2482011331": {
-        "Name": "Invigorating Fury",
-        "Descriptions": {
-            "3756597285": "Enraged Regeneration lasts {1} sec longer and instantly heals for {2}% of your maximum health."
-        }
-    },
-    "678658944": {
-        "Name": "Juggernaut",
-        "Descriptions": {
-            "2834631578": "Execute increases Execute's damage dealt by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "2802423079": {
-        "Name": "Last Stand",
-        "Descriptions": {
-            "1633525412": "Increases maximum health by {1}% for {2} sec and instantly heals you for that amount."
-        }
-    },
-    "684132399": {
-        "Name": "Leeching Strikes",
-        "Descriptions": {
-            "2471889461": "Leech increased by {1}%."
-        }
-    },
-    "364874876": {
-        "Name": "Martial Prowess",
-        "Descriptions": {
-            "1214596023": "Overpower increases the damage of your next Mortal Strike or Cleave by {1}%, stacking up to {2} times."
-        }
-    },
-    "1188032707": {
-        "Name": "Massacre",
-        "Descriptions": {
-            "305368375": "Execute is now usable on targets below {1}% health and its cooldown is reduced by {2} sec.",
-            "1871642863": "Condemn is now usable on targets below {1}% health and its cooldown is reduced by {2} sec.",
-            "2360496128": "Execute is usable on targets below {1}% health.",
-            "2302779551": "Condemn is usable on targets below {1}% health."
-        }
-    },
-    "2282195622": {
-        "Name": "Master and Commander",
-        "Descriptions": {
-            "1918393749": "Cooldown of Rallying Cry reduced by {1} sec."
-        }
-    },
-    "228551325": {
-        "Name": "Mastery: Critical Block",
-        "Descriptions": {
-            "3761308160": "Increases your chance to block by {1}% and your chance to critically block (blocking twice the amount) by {2}%.\r\n\r\nAlso increases your attack power by {3}%."
-        }
-    },
-    "4276261645": {
-        "Name": "Mastery: Deep Wounds",
-        "Descriptions": {
-            "3153659170": "Mortal Strike, Warbreaker, and Bladestorm inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "2836703023": "Mortal Strike, Warbreaker, Cleave, and Bladestorm inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "3793628343": "Mortal Strike, Colossus Smash, and Bladestorm inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "3335761297": "Mortal Strike, Colossus Smash, Cleave, and Bladestorm inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "620026739": "Mortal Strike, Colossus Smash, and Ravager inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "1412631852": "Mortal Strike, Warbreaker, and Ravager inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "202191965": "Mortal Strike, Colossus Smash, Cleave, and Ravager inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
-            "95735067": "Mortal Strike, Warbreaker, Cleave, and Ravager inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%."
-        }
-    },
-    "354322817": {
-        "Name": "Mastery: Unshackled Fury",
-        "Descriptions": {
-            "4085679055": "Increases damage done while Enraged by {1}%."
-        }
-    },
-    "3917169776": {
-        "Name": "Meat Cleaver",
-        "Descriptions": {
-            "3487825048": "Whirlwind deals {1}% more damage and affects your next {2} single-target attacks.",
-            "1366065621": "Whirlwind and Thunder Clap deal {1}% more damage and affect your next {2} single-target attacks."
-        }
-    },
-    "3816070026": {
-        "Name": "Menace",
-        "Descriptions": {
-            "4096973892": "Intimidating Shout will knock back all nearby enemies except your primary target and cause them all to cower in fear for {1} sec instead of fleeing."
-        }
-    },
-    "732559791": {
-        "Name": "Merciless Bonegrinder",
-        "Descriptions": {
-            "1926310732": "Whirlwind and Cleave deal {1}% increased damage during Ravager or for {2} sec after Bladestorm ends."
-        }
-    },
-    "2972633426": {
-        "Name": "Morale Killer",
-        "Descriptions": {
-            "1342906771": "Reduces the cooldown of Demoralizing Shout by {1} sec, and Demoralizing Shout now reduces the damage enemies deal to all targets, not just you."
-        }
-    },
-    "3168205478": {
-        "Name": "Mortal Strike",
-        "Descriptions": {
-            "1717084436": "A vicious strike that deals {1} Physical damage and reduces the effectiveness of healing on the target by {2}% for {3} sec."
-        }
-    },
-    "271419530": {
-        "Name": "Odyn's Fury",
-        "Descriptions": {
-            "934854365": "Unleashes your power, dealing {1} Physical damage and an additional {2} Physical damage over {3} sec to all enemies within {4} yards. Deals reduced damage beyond {5} targets.\r\n\r\n{FFFFFFFF|Generates {6} Rage.}\r\n"
-        }
-    },
-    "784011310": {
-        "Name": "One-Handed Weapon Specialization",
-        "Descriptions": {
-            "1777003717": "While wielding one-handed weapons your damage is increased by {1}% and Leech increased by {2}%."
-        }
-    },
-    "831712952": {
-        "Name": "Onslaught",
-        "Descriptions": {
-            "38882844": "Brutally attack an enemy for {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Rage.",
-            "316276135": "Brutally attack an enemy for {1} Physical damage and become Enraged for {2} sec.\r\n\r\n|cFFFFFFFFGenerates {3} Rage."
-        }
-    },
-    "268500784": {
-        "Name": "Oppressor",
-        "Descriptions": {
-            "3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault."
-        }
-    },
-    "3670512426": {
-        "Name": "Overpower",
-        "Descriptions": {
-            "1939885233": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\nIncreases the damage of your next Mortal Strike by {2}%, stacking up to {3} times.",
-            "3585960069": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\nIncreases the damage of your next Mortal Strike or Cleave by {2}%, stacking up to {3} times",
-            "1002385466": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.",
-            "2898187463": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\n|cFFFFFFFFGenerates {2} Rage.",
-            "612792337": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\nIncreases the damage of your next Mortal Strike by {2}%, stacking up to {3} times.\r\n\r\n|cFFFFFFFFGenerates {4} Rage.",
-            "2818476484": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\nIncreases the damage of your next Mortal Strike or Cleave by {2}%, stacking up to {3} times\r\n\r\n|cFFFFFFFFGenerates {4} Rage."
-        }
-    },
-    "2234335791": {
-        "Name": "Overwhelming Rage",
-        "Descriptions": {
-            "3021368246": "Maximum Rage increased by {1}."
-        }
-    },
-    "1055505159": {
-        "Name": "Pain and Gain",
-        "Descriptions": {
-            "4129505542": "When you take any damage, heal for {1}% of your maximum health. \r\n\r\nThis can only occur once every {2} sec."
-        }
-    },
-    "4122674339": {
-        "Name": "Piercing Howl",
-        "Descriptions": {
-            "3598328754": "Snares all enemies within {1} yards, reducing their movement speed by {2}% for {3} sec."
-        }
-    },
-    "2740802224": {
-        "Name": "Pummel",
-        "Descriptions": {
-            "1390452310": "Pummels the target, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
-        }
-    },
-    "505832132": {
-        "Name": "Punish",
-        "Descriptions": {
-            "785471859": "Shield Slam deals {1}% increased damage and reduces enemies' damage against you by {2}% for {3} sec. Multiple punishments may overlap."
-        }
-    },
-    "1773149434": {
-        "Name": "Raging Blow",
-        "Descriptions": {
-            "1160421362": "A mighty blow with both weapons that deals a total of {1} Physical damage.\r\n\r\nRaging Blow has a {2}% chance to instantly reset its own cooldown.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
-            "1643955817": "A mighty blow with both weapons that deals a total of {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} Rage.}"
-        }
-    },
-    "2763647989": {
-        "Name": "Rallying Cry",
-        "Descriptions": {
-            "4136558969": "Lets loose a rallying cry, granting all party or raid members within {1} yards {2}% temporary and maximum health for {3} sec."
-        }
-    },
-    "2519724740": {
-        "Name": "Rampage",
-        "Descriptions": {
-            "1840370060": "Enrages you and unleashes a series of {1} brutal strikes for a total of {2} Physical damage.",
-            "2378083328": "Enrages you and unleashes a series of {1} brutal strikes for a total of {2} Physical damage and empowering your next Bloodthirst and Raging Blow."
-        }
-    },
-    "2012308364": {
-        "Name": "Ravager",
-        "Descriptions": {
-            "2344425235": "Throws a whirling weapon at the target location that chases nearby enemies, inflicting {1} Physical damage to all enemies over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\n{FFFFFFFF|Generates {4} Rage each time it deals damage.}"
-        }
-    },
-    "772872837": {
-        "Name": "Rebound",
-        "Descriptions": {
-            "3514288083": "Spell Reflection reflects the next {1} incoming spells cast on you and reflected spells deal {2}% extra damage to the attacker.\r\n\r\nSpell Reflection's cooldown is increased by {3} sec."
-        }
-    },
-    "2617303817": {
-        "Name": "Reckless Abandon",
-        "Descriptions": {
-            "2198966483": "Activating Recklessness generates {1} Rage and while Recklessness is active, Raging Blow and Bloodthirst are replaced by Crushing Blow and Bloodbath.\r\n\r\n|T132215:24|t {ffffffff|Crushing Blow}\r\nStrike a mighty blow with both weapons that deals a total of {2} Physical damage. \r\n\r\nCrushing Blow has a {3}% chance to instantly reset its own cooldown and its critical strikes deal {4}% additional damage.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}\r\n\r\n|T236304:24|t {ffffffff|Bloodbath}\r\nAssault the target in a bloodthirsty craze, dealing {6} Physical damage and restoring {7}% of your health.\r\n\r\nBloodbath causes the target to bleed for {8} damage over {9} sec. Using Bloodbath on a target that is affected by Bloodbath extends the bleed by {10} sec.\r\n\r\n{FFFFFFFF|Generates {11} Rage.}"
-        }
-    },
-    "1230280238": {
-        "Name": "Recklessness",
-        "Descriptions": {
-            "907774725": "Go berserk, increasing all Rage generation by {1}% and granting your abilities {2}% increased critical strike chance for {3} sec.",
-            "1260219767": "Go berserk, increasing all Rage generation by {1}% and granting your abilities {2}% increased critical strike chance for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}"
-        }
-    },
-    "485651696": {
-        "Name": "Reinforced Plates",
-        "Descriptions": {
-            "1912524679": "Stamina increased by {1}% and Armor increased by {2}%."
-        }
-    },
-    "3148114220": {
-        "Name": "Rend",
-        "Descriptions": {
-            "1858757475": "Wounds the target, causing {1} Physical damage instantly and an additional {2} Bleed damage over {3} sec.",
-            "3905517222": "Wounds the target, causing {1} Physical damage instantly and an additional {2} Bleed damage over {3} sec.\r\n\r\n|cFFFFFFFFThunder Clap affects {4} nearby targets with Rend."
-        }
-    },
-    "2561468606": {
-        "Name": "Revenge",
-        "Descriptions": {
-            "1331350537": "Swing in a wide arc, dealing {1} Physical damage to all enemies in front of you. Deals reduced damage beyond {2} targets.\r\n\r\nYour successful dodges and parries have a chance to make your next Revenge cost no Rage."
-        }
-    },
-    "3244829509": {
-        "Name": "Riposte",
-        "Descriptions": {
-            "1545937471": "You gain Parry equal to {1}% of your Critical Strike from gear."
-        }
-    },
-    "1197962252": {
-        "Name": "Rumbling Earth",
-        "Descriptions": {
-            "584503579": "Shockwave's range increased by {1} yards and when it strikes at least {2} targets its cooldown is reduced by {3} sec."
-        }
-    },
-    "3361443772": {
-        "Name": "Seasoned Soldier",
-        "Descriptions": {
-            "807698968": "Your auto attack critical strikes generate {1}% more Rage and damage taken from area of effect attacks reduced by {2}%."
-        }
-    },
-    "1833635751": {
-        "Name": "Second Wind",
-        "Descriptions": {
-            "761150639": "Restores {1}% health every {2} sec when you have not taken damage for {3} sec.\r\n\r\nRestores {4}% health every {5} sec while you are below {6}% health. The amount restored increases the closer you are to death."
-        }
-    },
-    "357465284": {
-        "Name": "Seismic Reverberation",
-        "Descriptions": {
-            "1359611662": "If Whirlwind or Revenge hits {1} or more enemies it hits them {2} additional time for {3}% damage.",
-            "3626629616": "If Whirlwind hits {1} or more enemies it hits them {2} additional time for {3}% damage.",
-            "3034012716": "If Whirlwind or Cleave hits {1} or more enemies it hits them {2} additional time for {3}% damage.",
-            "1432507666": "If Whirlwind or Thunder Clap hits {1} or more enemies it hits them {2} additional time for {3}% damage.",
-            "3907877897": "If Whirlwind or Thunder Clap or Revenge hits {1} or more enemies it hits them {2} additional time for {3}% damage."
-        }
-    },
-    "1970579040": {
-        "Name": "Shadow of the Colossus",
-        "Descriptions": {
-            "3226980510": "Charge resets the cooldown of your Overpower and Rage gained from Charge increased by {1}.",
-            "3824895386": "Charge resets the cooldown of your Overpower and Rage gained from Intercept increased by {1}."
-        }
-    },
-    "3025094331": {
-        "Name": "Sharpen Blade",
-        "Descriptions": {
-            "1617443227": "When activated, your next Mortal Strike will deal {1}% increased damage and reduce healing taken by {2}% for {3} sec."
-        }
-    },
-    "1491797739": {
-        "Name": "Sharpened Blades",
-        "Descriptions": {
-            "2900446183": "Your Mortal Strike, Cleave and Execute critical strike damage is increased by {1}% and your Execute has a {2}% increased critical hit chance."
-        }
-    },
-    "1139030583": {
-        "Name": "Shattering Throw",
-        "Descriptions": {
-            "2234654661": "Hurl your weapon at the enemy,  removing any magical immunities and causing {1} Physical damage, ignoring armor. Deals up to {2}% increased damage to absorb shields."
-        }
-    },
-    "3586479797": {
-        "Name": "Shield Bash",
-        "Descriptions": {
-            "4093508638": "When Shield Slam is used on targets that are casting, it reduces their damage done by {1}% for {2} sec and the cooldown is instantly reset."
-        }
-    },
-    "3694666873": {
-        "Name": "Shield Block",
-        "Descriptions": {
-            "2420250402": "Raise your shield, blocking all melee attacks against you for {1} sec. These blocks can be critical blocks. Increases Shield Slam damage by {2}% while active.",
-            "1166102479": "Raise your shield, blocking all melee attacks against you for {1} sec.",
-            "3653715169": "Raise your shield, blocking all melee attacks against you for {1} sec. Increases Shield Slam damage by {2}% while active.",
-            "195014854": "Shield Block has {1} charges."
-        }
-    },
-    "57595452": {
-        "Name": "Shield Charge",
-        "Descriptions": {
-            "2868027570": "Charge to an enemy with your shield, dealing {1} Physical damage to it and {2} Physical damage to all enemies within {3} yards.\r\n\r\nAlso stuns the primary target for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}"
-        }
-    },
-    "1734732972": {
-        "Name": "Shield Slam",
-        "Descriptions": {
-            "339796332": "Shield Slam generates {1} Rage.",
-            "881412299": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\nDevastate, Thunder Clap, Revenge, and Execute have a {2}% chance to reset the cooldown of Shield Slam.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
-            "3717376824": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\n{FFFFFFFF|Generates {2} Rage.}"
-        }
-    },
-    "1918262406": {
-        "Name": "Shield Specialization",
-        "Descriptions": {
-            "400634510": "Increases Block chance by {1}% and your Block value by {2}%."
-        }
-    },
-    "3823928282": {
-        "Name": "Shield Wall",
-        "Descriptions": {
-            "2851743854": "Reduces all damage you take by {1}% for {2} sec."
-        }
-    },
-    "260222837": {
-        "Name": "Shockwave",
-        "Descriptions": {
-            "3035519798": "Sends a wave of force in a frontal cone, causing {1} damage and stunning all enemies within {2} yards for {3} sec."
-        }
-    },
-    "2431629973": {
-        "Name": "Show of Force",
-        "Descriptions": {
-            "4181831084": "Revenge damage increased by {1}% and Revenge increases the damage of your next Thunder Clap by {2}%."
-        }
-    },
-    "1332414849": {
-        "Name": "Sidearm",
-        "Descriptions": {
-            "1171564067": "Your auto-attacks have a {1}% chance to hurl weapons at your target and {2} other enemies in front of you, dealing an additional {3} Physical damage."
-        }
-    },
-    "3095744218": {
-        "Name": "Single-Minded Fury",
-        "Descriptions": {
-            "4101342888": "While dual-wielding a pair of one-handed weapons, your damage done is increased by {1}%, your auto-attack damage with one-handed weapons is increased by {2}%, your movement speed is increased by {3}%, and your auto-attack critical strikes have a {4}% chance to Enrage you."
-        }
-    },
-    "4042889179": {
-        "Name": "Skullsplitter",
-        "Descriptions": {
-            "113740502": "Bash an enemy's skull, dealing {1} Physical damage.\r\n\r\nSkullsplitter causes your Rend and Deep Wounds on the target to bleed out {2}% faster for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}"
-        }
-    },
-    "3746195646": {
-        "Name": "Slam",
-        "Descriptions": {
-            "662253224": "Slams an opponent, causing {1} Physical damage.",
-            "1291428694": "Slams an opponent, causing {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Rage."
-        }
-    },
-    "2029738960": {
-        "Name": "Slaughterhouse",
-        "Descriptions": {
-            "3470655624": "Rampage, Onslaught, and Odyn's Fury damage reduce healing the target receives by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "2774623860": {
-        "Name": "Slaughtering Strikes",
-        "Descriptions": {
-            "986210208": "Raging Blow causes every strike of your next Rampage to deal an additional {1}% damage, stacking up to {2} times."
-        }
-    },
-    "291480236": {
-        "Name": "Spell Block",
-        "Descriptions": {
-            "4082539468": "You are able to block spells for {1} sec."
-        }
-    },
-    "2022620962": {
-        "Name": "Spell Reflection",
-        "Descriptions": {
-            "2591366450": "Raise your weapon, reflecting the first spell cast on you and reducing magic damage you take by {1}% for {2} sec.",
-            "777718988": "Raise your weapon, reflecting the next {1} spells cast on you and reducing magic damage you take by {2}% for {3} sec.",
-            "2384106473": "Raise your shield, reflecting the first spell cast on you and reducing magic damage you take by {1}% for {2} sec.",
-            "1328659917": "Raise your shield, reflecting the next {1} spells cast on you and reducing magic damage you take by {2}% for {3} sec."
-        }
-    },
-    "2781941278": {
-        "Name": "Spiteful Serenity",
-        "Descriptions": {
-            "1521666951": "Colossus Smash and Avatar's base durations are increased by {1}% but their damage bonuses are reduced by {2}%."
-        }
-    },
-    "2155236440": {
-        "Name": "Storm Bolt",
-        "Descriptions": {
-            "1799175332": "Hurls your weapon at an enemy, causing {1} Physical damage and stunning for {2} sec.",
-            "2844201724": "Hurls your weapon at an enemy, causing {1} Physical damage and stunning for {2} sec. Also hits {3} additional nearby targets, stunning for {4} sec."
-        }
-    },
-    "1999035490": {
-        "Name": "Storm of Destruction",
-        "Descriptions": {
-            "1712617055": "Bladestorm, Ravager, and Demolish now snare all targets you hit by {1}% for {2} sec and decrease their healing taken by {3}% for {4} sec."
-        }
-    },
-    "2946740802": {
-        "Name": "Storm of Steel",
-        "Descriptions": {
-            "3758698826": "Bladestorm and Ravager's damage are reduced by {1}% but they now have {2} charges and generate {3} additional Rage each time they deal damage.",
-            "1241361911": "Ravager's damage is reduced by {1}% but it now has {2} charges and generates {3} additional Rage each time it deals damage."
-        }
-    },
-    "139624096": {
-        "Name": "Storm of Swords",
-        "Descriptions": {
-            "1697555910": "Cleave and Whirlwind have a {1}% chance to make your next Cleave or Whirlwind cost {2}% less Rage."
-        }
-    },
-    "731076312": {
-        "Name": "Storm Wall",
-        "Descriptions": {
-            "1441100230": "Whenever you Parry, you heal for {1}% of your maximum health. This effect cannot occur more than once every {2} sec."
-        }
-    },
-    "1496912257": {
-        "Name": "Strategist",
-        "Descriptions": {
-            "2954917329": "Devastate, Thunder Clap, Revenge, and Execute have a {1}% chance to reset the remaining cooldown on Shield Slam."
-        }
-    },
-    "3794151096": {
-        "Name": "Strength of Arms",
-        "Descriptions": {
-            "807543441": "Overpower deals {1}% additional damage, has {2}% increased critical strike chance, and deals {3}% increased critical strike damage.\r\n"
-        }
-    },
-    "2954342910": {
-        "Name": "Sudden Death",
-        "Descriptions": {
-            "2248769099": "Your attacks have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent {1} Rage.",
-            "1424966407": "Your attacks have a chance to reset the cooldown of Execute and make it usable on any target, regardless of their health.",
-            "620520042": "Your attacks have a chance to make your next Condemn cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent {1} Rage.",
-            "3058807180": "Your attacks have a chance to reset the cooldown of Condemn and make it usable on any target, regardless of their health."
-        }
-    },
-    "2483133515": {
-        "Name": "Sweeping Strikes",
-        "Descriptions": {
-            "2320105812": "For {1} sec your single-target damaging abilities hit {2} additional [plural|Target|targets] within {3} yds for {4}% damage.",
-            "443712803": "Cooldown reduced by {1} sec."
-        }
-    },
-    "616861946": {
-        "Name": "Swift Strikes",
-        "Descriptions": {
-            "381193418": "Haste increased by {1}% and Raging Blow and Bloodthirst generate an additional {2} Rage."
-        }
-    },
-    "1753797145": {
-        "Name": "Tactician",
-        "Descriptions": {
-            "2093880548": "You have a {1}% chance per Rage spent on attacks to reset the remaining cooldown on Overpower."
-        }
-    },
-    "3960207608": {
-        "Name": "Taunt",
-        "Descriptions": {
-            "4177245906": "Taunts the target to attack you."
-        }
-    },
-    "2537399520": {
-        "Name": "Tenderize",
-        "Descriptions": {
-            "2678920206": "Onslaught Enrages you. If you have Slaughtering Strikes, it also grants you {1} stacks of Slaughtering Strikes."
-        }
-    },
-    "4287846232": {
-        "Name": "Test of Might",
-        "Descriptions": {
-            "4022757301": "When Colossus Smash expires, your Strength is increased by {1}% for every {2} Rage you spent on attacks during Colossus Smash. Lasts {3} sec.",
-            "1058185832": "When Warbreaker expires, your Strength is increased by {1}% for every {2} Rage you spent on attacks during Warbreaker. Lasts {3} sec."
-        }
-    },
-    "2507811654": {
-        "Name": "Thunder Clap",
-        "Descriptions": {
-            "226812108": "Blasts all enemies within {1} yards for {2} Physical damage and reduces their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.",
-            "1586414708": "Blasts all enemies within {1} yards for {2} Physical damage and reduces their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\r\n\r\n|cFFFFFFFFGenerates {6} Rage.",
-            "3773073631": "Blasts all enemies within {1} yards for {2} Physical damage and reduces their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\r\n\r\n|cFFFFFFFFIf you have Rend, Thunder Clap affects {6} nearby targets with Rend.",
-            "3993070034": "Blasts all enemies within {1} yards for {2} Physical damage and reduces their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\r\n\r\n|cFFFFFFFFGenerates {6} Rage.\r\n\r\n|cFFFFFFFFIf you have Rend, Thunder Clap affects {7} nearby targets with Rend.",
-            "3822855511": "Blasts all enemies within {1} yards for {2} Physical damage, roots them for {3} sec, and reduces their movement speed by {4}% for {5} sec. Deals reduced damage beyond {6} targets.\r\n\r\n|cFFFFFFFFGenerates {7} Rage.\r\n\r\n|cFFFFFFFFIf you have Rend, Thunder Clap affects {8} nearby targets with Rend."
-        }
-    },
-    "917725273": {
-        "Name": "Thunderlord",
-        "Descriptions": {
-            "2870185529": "Increases the radius of Demoralizing Shout by {1} yards.\r\n\r\nEach enemy hit by Thunder Clap reduces the remaining cooldown on Demoralizing Shout by {2} sec, up to {3} sec."
-        }
-    },
-    "2566039194": {
-        "Name": "Thunderous Roar",
-        "Descriptions": {
-            "4260745837": "Roar explosively, dealing {1} Physical damage to enemies within {2} yds and cause them to bleed for {3} physical damage over {4} sec. Deals reduced damage beyond {5} targets."
-        }
-    },
-    "2328592077": {
-        "Name": "Thunderous Words",
-        "Descriptions": {
-            "2220313165": "Increases the duration of Thunderous Roar's Bleed effect by {1} sec and Thunderous Roar's Bleed effect causes enemies to take {2}% increased damage from all your bleeds."
-        }
-    },
-    "2064769325": {
-        "Name": "Thunderstruck",
-        "Descriptions": {
-            "1130669469": "Thunder Clap roots all targets it damages for {1} sec."
-        }
-    },
-    "2323840181": {
-        "Name": "Titan's Grip",
-        "Descriptions": {
-            "2716531879": "Allows you to dual-wield a pair of two-handed weapons. Two-handed weapons deal more damage, and provide more Strength and Stamina than one-handed weapons."
-        }
-    },
-    "2972166341": {
-        "Name": "Titan's Torment",
-        "Descriptions": {
-            "1881701853": "While Avatar is active Rampage's Rage cost is reduced by {1} and Bloodthirst's cooldown is reduced by {2} sec."
-        }
-    },
-    "3415289300": {
-        "Name": "Titanic Rage",
-        "Descriptions": {
-            "394568798": "Odyn's Fury's Enrages you, deals {1}% increased damage and grants you {2} stacks of Whirlwind.\r\n\r\n"
-        }
-    },
-    "3342035935": {
-        "Name": "Tough as Nails",
-        "Descriptions": {
-            "530208210": "Blocking an attack deals {1} Physical damage to the attacker, ignoring armor. \r\n\r\nGenerates high threat."
-        }
-    },
-    "864648605": {
-        "Name": "Two-Handed Weapon Specialization",
-        "Descriptions": {
-            "3179924970": "While wielding two-handed weapons your damage is increased by {1}% and damage taken from area of effect attacks is reduced by {2}%."
-        }
-    },
-    "2257294405": {
-        "Name": "Unbridled Ferocity",
-        "Descriptions": {
-            "1432404926": "Rampage has a {1}% chance to grant Recklessness for {2} sec."
-        }
-    },
-    "3721783893": {
-        "Name": "Unhinged",
-        "Descriptions": {
-            "1295818413": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Bloodthirst at your target or random nearby enemy.",
-            "3309481780": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Mortal Strike at your target or random nearby enemy.",
-            "3951580680": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing {1}% of normal damage.",
-            "1167922420": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing {1}% of normal damage."
-        }
-    },
-    "1345956857": {
-        "Name": "Unnerving Focus",
-        "Descriptions": {
-            "3811486329": "Last Stand increases your Rage generation by {1}%."
-        }
-    },
-    "3449764671": {
-        "Name": "Unstoppable Force",
-        "Descriptions": {
-            "360664086": "Avatar increases the damage of Thunder Clap and Shockwave by {1}% and reduces the cooldown of Thunder Clap by {2}%."
-        }
-    },
-    "3629112514": {
-        "Name": "Uproar",
-        "Descriptions": {
-            "1922101535": "Thunderous Roar's cooldown reduced by {1} sec."
-        }
-    },
-    "1495508167": {
-        "Name": "Valor in Victory",
-        "Descriptions": {
-            "1956820948": "Increases Versatility by {1}% and reduces the cooldown of Die by the Sword by {2} sec."
-        }
-    },
-    "1226968286": {
-        "Name": "Vanguard",
-        "Descriptions": {
-            "3808584777": "Hardened by battle, your Stamina is increased by {1}% and your Armor is increased by {2}% of your Strength.",
-            "3076113939": "Stamina increased by an additional {1}%, and armor is increased by an additional {2}% of your Strength."
-        }
-    },
-    "3208988991": {
-        "Name": "Vicious Contempt",
-        "Descriptions": {
-            "3940300545": "Bloodthirst deals {1}% increased damage to enemies who are below {2}% health."
-        }
-    },
-    "2540269549": {
-        "Name": "Violent Outburst",
-        "Descriptions": {
-            "3610869656": "Every {1} rage you spend triggers a Violent Outburst, causing your next Shield Slam or Thunder Clap to deal {2}% increased damage, generate {3}% more Rage and grant Ignore Pain."
-        }
-    },
-    "110736312": {
-        "Name": "War Banner",
-        "Descriptions": {
-            "899426327": "You throw down a war banner at your feet, rallying your allies. \r\n\r\nIncreases movement speed by {1}% and reduces the duration of all incoming crowd control effects by {2}% to all allies within {3} yards of the war banner. Lasts {4} sec."
-        }
-    },
-    "3282909558": {
-        "Name": "War Machine",
-        "Descriptions": {
-            "2764424243": "Your auto attacks generate {1}% more Rage.\r\n\r\nKilling an enemy instantly generates {2} Rage, and increases your movement speed by {3}% for {4} sec.",
-            "2940816429": "Your auto-attacks generate {1}% more Rage.\r\n\r\nKilling an enemy instantly generates {2} Rage and increases your movement speed by {3}% for {4} sec."
-        }
-    },
-    "3520244718": {
-        "Name": "Warbreaker",
-        "Descriptions": {
-            "376403634": "Smash the ground and shatter the armor of all enemies within {1} yds, dealing {2} Physical damage and increasing damage you deal to them by {3}% for {4} sec."
-        }
-    },
-    "1525559154": {
-        "Name": "Warbringer",
-        "Descriptions": {
-            "323151584": "Charge roots enemies for {1} sec and emanates a shockwave past the target, rooting enemies and dealing {2} Physical damage in a {3} yd cone."
-        }
-    },
-    "2279338548": {
-        "Name": "Warlord's Torment",
-        "Descriptions": {
-            "1941320037": "Activating Avatar grants {1} sec of Recklessness.\r\n\r\nThe additional Rage generation of this Recklessness is reduced to {2}%."
-        }
-    },
-    "1976030908": {
-        "Name": "Warpaint",
-        "Descriptions": {
-            "1272645391": "You take {1}% reduced damage while Enrage is active."
-        }
-    },
-    "3850530792": {
-        "Name": "Warpath",
-        "Descriptions": {
-            "900026138": "When landing with Heroic Leap, all targets are stunned for {1} sec."
-        }
-    },
-    "218070468": {
-        "Name": "Whirlwind",
-        "Descriptions": {
-            "806242973": "Unleashes a whirlwind of steel, striking all nearby targets for {1} Physical damage. Deals reduced damage beyond {2} targets.",
-            "3774220022": "Unleashes a whirlwind of steel, hitting your primary target with Slam and striking all nearby targets for {1} Physical damage. Deals reduced damage beyond {2} targets.",
-            "3167663997": "Unleashes a whirlwind of steel, striking all nearby enemies for {1} Physical damage. Deals reduced damage beyond {2} targets.",
-            "2264003811": "Unleashes a whirlwind of steel, striking all nearby enemies for {1} Physical damage. Deals reduced damage beyond {2} targets.\r\n\r\nCauses your next {3} single-target melee [plural|attack|attacks] to strike up to {4} additional targets for {5}% damage.\r\n\r\n{FFFFFFFF|Generates {6} Rage, plus an additional {7} per target hit.}"
-        }
-    },
-    "3739125787": {
-        "Name": "Wild Strikes",
-        "Descriptions": {
-            "3405091850": "Haste increased by {1}% and your auto-attack critical strikes increase your auto-attack speed by {2}% for {3} sec."
-        }
-    },
-    "1113682645": {
-        "Name": "Wrath and Fury",
-        "Descriptions": {
-            "880694387": "Raging Blow deals {1}% increased damage and while Enraged, Raging Blow has a {2}% increased chance to instantly reset its own cooldown.\r\n"
-        }
-    },
-    "2530857036": {
-        "Name": "Wrecking Throw",
-        "Descriptions": {
-            "58099675": "Hurl your weapon at the enemy, causing {1} Physical damage, ignoring armor. Deals up to {2}% increased damage to absorb shields.\r\n"
-        }
-    },
-    "3661743272": {
-        "Name": "Devastate",
-        "Descriptions": {
-            "423606713": "A direct strike, dealing {1} Physical damage."
-        }
-    },
-    "2109981012": {
-        "Name": "Victory Rush",
-        "Descriptions": {
-            "4204279332": "Strikes the target, causing {1} damage and healing you for {2}% of your maximum health.\r\n\r\nOnly usable within {3} sec after you kill an enemy that yields experience or honor.",
-            "1477268291": "Heals for an additional {1}% of maximum health."
-        }
-    },
-    "785403108": {
-        "Name": "Finishing Blows",
-        "Descriptions": {
-            "1162942388": "Overpower generates {1} Rage when used on enemies below {2}% health.\r\n"
-        }
-    },
-    "631799008": {
-        "Name": "Storm Shield",
-        "Descriptions": {
-            "591377970": "Intervening a target grants them a shield for {1} sec that absorbs magic damage equal to {2} times your Armor."
-        }
-    },
-    "4259598844": {
-        "Name": "Fight Through the Flames",
-        "Descriptions": {
-            "3978928127": "Defensive Stance additionally reduces magic damage you take by {1}%."
-        }
-    },
-    "3485319834": {
-        "Name": "Glyph of Mighty Victory",
-        "Descriptions": {
-            "1763696141": "When your Victory Rush heals you, you grow slightly larger."
-        }
-    },
-    "3269288819": {
-        "Name": "Veteran Vitality",
-        "Descriptions": {
-            "3761749142": "When your health is brought below {1}%, you gain a Second Wind, healing you for {2}% of your max health over {3} sec.\r\n\r\nThis effect cannot occur more than once every {4} sec."
-        }
-    },
-    "271791135": {
-        "Name": "Precise Might",
-        "Descriptions": {
-            "3161642187": "Shield Slam critical strikes grant an additional stack of Colossal Might.",
-            "855570148": "Mortal Strike critical strikes grant an additional stack of Colossal Might."
-        }
-    },
-    "2563286670": {
-        "Name": "Slayer's Malice",
-        "Descriptions": {
-            "2733722761": "Raging Blow damage increased by {1}%.",
-            "441275420": "Overpower damage increased by {1}%."
-        }
-    },
-    "3658092612": {
-        "Name": "Snap Induction",
-        "Descriptions": {
-            "2397469338": "Activating Recklessness grants a charge of Thunder Blast.",
-            "2617834889": "Activating Demoralizing Shout grants a charge of Thunder Blast."
-        }
-    },
-    "2505103389": {
-        "Name": "Glyph of the Blazing Trail",
-        "Descriptions": {
-            "191422530": "Your Charge leaves a trail of fire in its wake. If you're going to Charge why not do it with some style?"
-        }
-    },
-    "3936275507": {
-        "Name": "Opportunist",
-        "Descriptions": {
-            "1402297829": "When Raging Blow resets its own cooldown, your next Raging Blow deals {1}% additional damage and {2}% additional critical damage.",
-            "39529589": "When Overpower has its cooldown reset by Tactician, your next Overpower deals {1}% additional damage and {2}% additional critical damage."
-        }
-    },
-    "2386874900": {
-        "Name": "Unrelenting Onslaught",
-        "Descriptions": {
-            "3743217799": "When you Execute a target that you've Marked for Execution, you both reduce the cooldown of Bladestorm by {1} sec and apply {2} stacks of Overwhelmed to the target per stack of Marked for Execution consumed.\r\n\r\nYou can use Pummel and Storm Bolt while Bladestorming."
-        }
-    },
-    "1565493620": {
-        "Name": "Tide of Battle",
-        "Descriptions": {
-            "3741463313": "Colossal Might increases the damage of your Revenge by {1}% per stack.",
-            "4196435585": "Colossal Might increases the damage of your Overpower by {1}% per stack."
-        }
-    },
-    "2520025431": {
-        "Name": "Reap the Storm",
-        "Descriptions": {
-            "116658766": "Bloodthirst has a {1}% chance to cause you to unleash a flurry of steel, striking all nearby enemies for {2} damage and applying Overwhelmed. Deals reduced damage beyond {3} targets.",
-            "1718128938": "Mortal Strike and Cleave when it hits {1} or more targets have a {2}% chance to cause you to unleash a flurry of steel, striking all nearby enemies for {3} damage and applying Overwhelmed. Deals reduced damage beyond {4} targets."
-        }
-    },
-    "2276524218": {
-        "Name": "No Stranger to Pain",
-        "Descriptions": {
-            "1551197504": "Damage prevented by each use of Ignore Pain is increased by {1}%."
-        }
-    },
-    "117292201": {
-        "Name": "Lightning Strikes",
-        "Descriptions": {
-            "2917331719": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a {1}% chance to also strike one with a lightning bolt, dealing {2} Nature damage.\r\n\r\nLightning Strikes occur {3}% more often during Avatar.",
-            "3997004409": "Damaging enemies with Thunder Clap, Revenge, or Execute has a {1}% chance to also strike one with a lightning bolt, dealing {2} Nature damage.\r\n\r\nLightning Strikes occur {3}% more often during Avatar.",
-            "965053479": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a {1}% chance to also strike one with a lightning bolt, dealing {2} Nature damage and generating {3} Rage.\r\n\r\nLightning Strikes occur {4}% more often during Avatar.",
-            "1953258002": "Damaging enemies with Thunder Clap, Revenge, or Execute has a {1}% chance to also strike one with a lightning bolt, dealing {2} Nature damage and generating {3} Rage.\r\n\r\nLightning Strikes occur {4}% more often during Avatar."
-        }
-    },
-    "1225328972": {
-        "Name": "Keep Your Feet on the Ground",
-        "Descriptions": {
-            "2568858562": "Physical damage taken reduced by {1}%.\r\n\r\nThunder Blast reduces damage you take by {2}% for {3} sec."
-        }
-    },
-    "3884685171": {
-        "Name": "Imminent Demise",
-        "Descriptions": {
-            "2957730281": "Every {1} Slayer's Strikes you gain Sudden Death.\r\n\r\nUsing Sudden Death accelerates your next Bladestorm, striking {2} additional time (max {3}). Bladestorm's total duration is unchanged."
-        }
-    },
-    "127330170": {
-        "Name": "Flashing Skies",
-        "Descriptions": {
-            "2554437415": "Thunder Blast calls down a Lightning Strike on an enemy it hits."
-        }
-    },
-    "3947064221": {
-        "Name": "Strength of the Mountain",
-        "Descriptions": {
-            "4202349989": "Shield Slam damage increased by {1}%.\r\n\r\nBloodthirst and Rampage damage increased by {2}%.",
-            "1459486061": "Shield Slam damage increased by {1}%.\r\n\r\nDemoralizing Shout reduces damage enemies deal to you by an additional {2}%."
-        }
-    },
-    "1328517250": {
-        "Name": "Crashing Thunder",
-        "Descriptions": {
-            "3646785461": "Stormstrike or Nature damage your abilities deal is increased by {1}%. Stormstrike damage ignores Armor.\r\n\r\nThunder Clap damage increased by {2}%, and it generates {3} Rage. \r\n\r\nSeismic Reverberations, Improved Whirlwind, Meat Cleaver, and Barbaric Training now affect Thunder Clap in addition to Whirlwind.",
-            "611244360": "Stormstrike or Nature damage your abilities deal is increased by {1}%. Stormstrike damage ignores Armor.\r\n\r\nThunder Clap damage increased by {2}%. \r\n\r\nSeismic Reverberations now affects Thunder Clap in addition to Whirlwind."
-        }
-    },
-    "2772634468": {
-        "Name": "Avatar of the Storm",
-        "Descriptions": {
-            "2377432269": "Casting Avatar grants you {1} charges of Thunder Blast and resets the cooldown of Thunder Clap.\r\n\r\nWhile Avatar is not active, Lightning Strikes have a {2}% chance to grant you Avatar for {3} secs.\r\n\r\n|T460957:24|t{FFFFFFFF|Thunder Blast}\r\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage."
-        }
-    },
-    "3409756341": {
-        "Name": "Vicious Agility",
-        "Descriptions": {
-            "741375376": "Heroic Leap reduces the cooldown of Charge by {1} sec and Charge reduces the cooldown of Heroic Leap by {2} sec."
-        }
-    },
-    "1993981676": {
-        "Name": "Glyph of Thunder Strike",
-        "Descriptions": {
-            "2857021454": "Your Thunder Clap visual includes a lightning strike."
-        }
-    },
-    "419130514": {
-        "Name": "Practiced Strikes",
-        "Descriptions": {
-            "653662020": "Mortal Strike and Cleave damage increased by {1}%.",
-            "1411428472": "Shield Slam and Revenge damage increased by {1}%.\r\n\r\nShield Slam generates an additional {2} Rage."
-        }
-    },
-    "3563525062": {
-        "Name": "Thunder Blast",
-        "Descriptions": {
-            "3390393026": "Shield Slam and Bloodthirst have a {1}% chance to grant you Thunder Blast, stacking up to {2} charges.\r\n\r\n|T460957:24|t{FFFFFFFF|Thunder Blast}\r\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage and generates {3} Rage.",
-            "2865108974": "Shield Slam and Bloodthirst have a {1}% chance to grant you Thunder Blast, stacking up to {2} charges.\r\n\r\n|T460957:24|t{FFFFFFFF|Thunder Blast}\r\nYour next Thunder Clap becomes a Thunder Blast that deals {3}% increased damage as Stormstrike and generates {4} Rage."
-        }
-    },
-    "2930049436": {
-        "Name": "Glyph of Falling Thunder",
-        "Descriptions": {
-            "1712081535": "When you Heroic Leap you now land with thunder."
-        }
-    },
-    "3246460317": {
-        "Name": "Thorim's Might",
-        "Descriptions": {
-            "2758011105": "Lightning Strikes generate {1} Rage.\r\n\r\nRaging Blow and Execute damage increased by {2}%.",
-            "3958478980": "Lightning Strikes generate {1} Rage.\r\n\r\nRevenge and Execute damage increased by {2}%."
-        }
-    },
-    "2514758944": {
-        "Name": "Martial Expert",
-        "Descriptions": {
-            "1070974349": "Critical strike damage of your abilities is increased by {1}% and the amount of damage blocked by your critical blocks is increased by {2}%."
-        }
-    },
-    "1285709854": {
-        "Name": "Burst of Power",
-        "Descriptions": {
-            "80811141": "Lightning Strikes have a {1}% chance to make your next {2} Shield Slams have no cooldown.",
-            "3276067650": "Lightning Strikes have a {1}% chance to make your next {2} Bloodthirsts have no cooldown, deal {3}% increased damage, and generate {4} additional Rage."
-        }
-    },
-    "2032633710": {
-        "Name": "Gathering Clouds",
-        "Descriptions": {
-            "1620889487": "Your attacks trigger Lightning Strikes {1}% more often."
-        }
-    },
-    "3673181329": {
-        "Name": "Overwhelming Blades",
-        "Descriptions": {
-            "3023122732": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by {1}% for {2} sec, max {3} stacks."
-        }
-    },
-    "2366328988": {
-        "Name": "Mountain of Muscle and Scars",
-        "Descriptions": {
-            "2160235778": "You deal {1}% more damage and take {2}% less damage.\r\n\r\nSize increased by {3}%."
-        }
-    },
-    "3950492323": {
-        "Name": "Glyph of the Heaved Armament",
-        "Descriptions": {
-            "1932527897": "Your Heroic Throw now launches your main hand weapon."
-        }
-    },
-    "485857870": {
-        "Name": "Slayer's Dominance",
-        "Descriptions": {
-            "218082700": "Your attacks against your primary target have a high chance to overwhelm their defenses and trigger a Slayer's Strike, dealing {1} damage and applying Marked for Execution, increasing the damage they take from your next Execute by {2}%. Stacks {3} times."
-        }
-    },
-    "964359232": {
-        "Name": "Boneshaker",
-        "Descriptions": {
-            "2211537922": "Shockwave's stun duration is increased by {1} sec and reduces the movement speed of affected enemies by {2}% for {3} sec after the stun ends."
-        }
-    },
-    "3455770676": {
-        "Name": "Steadfast as the Peaks",
-        "Descriptions": {
-            "3152205504": "Stamina increased by {1}%.\r\n\r\nVictory Rush increases your maximum health by {2}% for {3} sec. When this health increase expires, you heal for any amount of the original Victory Rush that healed you in excess of your full health.",
-            "3221382453": "Stamina increased by {1}%.\r\n\r\nImpending Victory increases your maximum health by {2}% for {3} sec. When this health increase expires, you heal for any amount of the original Impending Victory that healed you in excess of your full health."
-        }
-    },
-    "3138930916": {
-        "Name": "Piercing Challenge",
-        "Descriptions": {
-            "3040464277": "Champion's Spear's damage increased by {1}% and its Rage generation is increased by {2}%."
-        }
-    },
-    "3874413868": {
-        "Name": "Powerful Enrage",
-        "Descriptions": {
-            "2815351687": "Enrage increases the damage your abilities deal by an additional {1}% and Enrage's duration is increased by {2} sec."
-        }
-    },
-    "721049762": {
-        "Name": "Glyph of the Weaponmaster",
-        "Descriptions": {
-            "1820499721": "Your Recklessness ability causes the appearance of your weapon to change to that of a random weapon from your bag for {1} min."
-        }
-    },
-    "3668857883": {
-        "Name": "Safeguard",
-        "Descriptions": {
-            "638779541": "Intervene now has {1} charges and reduces the ally's damage taken by {2}% for {3} sec.\r\n\r\nIntervene's cooldown is increased by {4} sec."
-        }
-    },
-    "1022382544": {
-        "Name": "Block",
-        "Descriptions": {
-            "1054631814": "Gives a chance to block enemy melee and ranged attacks."
-        }
-    },
-    "978684738": {
-        "Name": "Storm Bolts",
-        "Descriptions": {
-            "3347538765": "Storm Bolt also hits {1} additional nearby [plural|Target|targets], stunning them for {2} sec, but its cooldown is increased by {3} sec."
-        }
-    },
-    "2281508089": {
-        "Name": "Fierce Followthrough",
-        "Descriptions": {
-            "1943092216": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by {1}%.",
-            "317078601": "Mortal Strike critical strikes increase the damage of your next Mortal Strike by {1}%."
-        }
-    },
-    "106082565": {
-        "Name": "Parry",
-        "Descriptions": {
-            "1505216917": "Gives a chance to parry enemy melee attacks."
-        }
-    },
-    "569154994": {
-        "Name": "Frenzied Enrage",
-        "Descriptions": {
-            "1484140667": "Enrage increases your Haste by {1}% and increases your movement speed by {2}%."
-        }
-    },
-    "1689492942": {
-        "Name": "One Against Many",
-        "Descriptions": {
-            "69996179": "Shockwave, Revenge, and Whirlwind deal {1}% more damage per target affected up to {2}.",
-            "2613776224": "Shockwave, Cleave, and Whirlwind deal {1}% more damage per target affected up to {2}."
-        }
-    },
-    "732715610": {
-        "Name": "Ground Current",
-        "Descriptions": {
-            "110596240": "Lightning Strikes also deal {1} to enemies near their target. Damage reduced beyond {2} targets."
-        }
-    },
-    "693835954": {
-        "Name": "Champion's Spear",
-        "Descriptions": {
-            "1140595655": "Throw a spear at the target location, dealing {1} Physical damage instantly and an additional {2} damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nEnemies hit are chained to the spear's location for the duration.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}"
-        }
-    },
-    "156170348": {
-        "Name": "Glyph of the Spear of Bastion",
-        "Descriptions": {
-            "4065509568": "Your Champion's Spear visual is altered to resemble the Spear of Bastion Covenant Ability."
-        }
-    },
-    "188344919": {
-        "Name": "Glyph of the Blazing Savior",
-        "Descriptions": {
-            "1232441517": "Your Intervene leaves a trail of fire in its wake. If you're going to Intervene why not do it with some style?"
-        }
-    },
-    "2615205062": {
-        "Name": "Glyph Ability",
-        "Descriptions": {
-            "9390054": "Reduces the cost of Sunder Armor by {1}%."
-        }
-    },
-    "2839072476": {
-        "Name": "Dominance of the Colossus",
-        "Descriptions": {
-            "4284469531": "Colossal Might now stacks up to {1} times. If you would gain a stack of Colossal Might and are at max stacks, the cooldown of Demolish is reduced by {2} sec.\r\n\r\nEnemies affected by Demolish take up to {3}% more damage from you and deal up to {4}% less damage to you for {5} sec based on the number of stacks of Colossal Might consumed by Demolish."
-        }
-    },
-    "601443740": {
-        "Name": "Culling Cyclone",
-        "Descriptions": {
-            "67565102": "Each strike of Bladestorm deals an additional {1}% damage evenly split across all targets."
-        }
-    },
-    "3320509813": {
-        "Name": "Death Drive",
-        "Descriptions": {
-            "2343943247": "You heal for {1}% of damage dealt by Sudden Death."
-        }
-    },
-    "3373204304": {
-        "Name": "Colossal Might",
-        "Descriptions": {
-            "1605035": "Colossal Might increases damage dealt by your next Demolish by {1}%, stacking up to {2} times.\r\n\r\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes {3} or more targets.",
-            "2760916890": "Colossal Might increases damage dealt by your next Demolish by {1}%, stacking up to {2} times.\r\n\r\nShield Slam grants a stack of Colossal Might and Revenge grants a stack of Colossal Might when it strikes {3} or more targets."
-        }
-    },
-    "371112593": {
-        "Name": "Show No Mercy",
-        "Descriptions": {
-            "3224273050": "Marked for Execution increases the critical strike chance and critical strike damage of your next Execute on the target by {1}%."
-        }
-    },
-    "1754446734": {
-        "Name": "Earthquaker",
-        "Descriptions": {
-            "3327913079": "Shockwave also knocks enemies into the air and its cooldown is reduced by {1} sec."
-        }
-    },
-    "1266137956": {
-        "Name": "Demolish",
-        "Descriptions": {
-            "1056342507": "Unleash a series of precise and powerful strikes against your target, dealing {1} damage to it, and {2} damage to enemies within {3} yds of it. Deals reduced damage beyond {4} targets.\r\n\r\nWhile channeling Demolish, you take {5}% less damage and are immune to stuns, knockbacks, and forced movement effects.\r\n\r\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish."
-        }
-    },
-    "711180196": {
-        "Name": "Arterial Bleed",
-        "Descriptions": {
-            "3986290007": "Colossal Might increases the damage of your Rend and Deep Wounds by {1}% per stack.\r\n"
-        }
-    },
-    "2130771782": {
-        "Name": "Champion's Might",
-        "Descriptions": {
-            "2500541232": "The duration of Champion's Spear is increased by {1} sec. You deal {2}% increased critical strike damage to targets chained to your Spear."
-        }
-    },
-    "2101564630": {
-        "Name": "Glyph of Gushing Wound",
-        "Descriptions": {
-            "3269762996": "Your Deep Wounds are even bloodier than normal."
-        }
-    },
-    "2848304448": {
-        "Name": "Battlefield Commander",
-        "Descriptions": {
-            "2056063675": "Your Shout abilities have additional effects.\r\n|T132333:24|t {ffffffff|Battle Shout}:\r\nIncreases Stamina by {1}%.\r\n|T136147:24|t {ffffffff|Piercing Howl}:\r\nRadius increased by {2}%\r\n|T136009:24|t {ffffffff|Berserker Shout}:\r\nRange increased by {3} yds.\r\n|T132154:24|t {ffffffff|Intimidating Shout}:\r\nCooldown reduced by {4} sec.\r\n|T132351:24|t {ffffffff|Rallying Cry}:\r\nRemoves movement impairing effects and grants {5}% movement speed to allies.\r\n|T642418:24|t {ffffffff|Thunderous Roar}:\r\nTargets receive {6}% more damage from all sources while bleeding."
-        }
-    },
-    "3751323149": {
-        "Name": "Brutal Finish",
-        "Descriptions": {
-            "2298741886": "Your next Rampage after Bladestorm ends deals {1}% additional damage.",
-            "3507413736": "Your next Mortal Strike after Bladestorm ends deals {1}% additional damage."
-        }
-    },
-    "4263506739": {
-        "Name": "Glyph of Burning Anger",
-        "Descriptions": {
-            "1674838500": "You get so angry when Enraged that you catch on fire."
-        }
-    },
-    "2012688542": {
-        "Name": "Glyph of Hawk Feast",
-        "Descriptions": {
-            "2766767957": "Your Execute critical strikes summon a flock of carrion birds."
-        }
-    }
+    "name:3446221647": "Anger Management",
+    "desc:3169651004": "Every {1} Rage you spend reduces the remaining cooldown on Avatar and Shield Wall by {2} sec.",
+    "name:3567619699": "Armored to the Teeth",
+    "desc:2816813990": "Gain Strength equal to {1}% of your Armor.",
+    "name:3253663118": "Avatar",
+    "desc:392373508": "Transform into a colossus for {1} sec, causing you to deal {2}% increased damage and removing all roots and snares.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
+    "name:2227513657": "Barbarian",
+    "desc:3157467464": "For {1} sec after casting Heroic Leap, you may cast the spell a second time without regard for its cooldown.\r\n\r\nIncreases the damage done by your Heroic Leap by {2}%.",
+    "name:1102862900": "Barbaric Training",
+    "desc:2734608160": "Revenge deals {1}% increased damage but now costs {2} more rage.",
+    "desc:2118300340": "Slam and Whirlwind deal {1}% increased damage and {2}% increased critical strike damage.",
+    "desc:98699789": "Revenge deals {1}% increased damage.",
+    "name:1248127271": "Battering Ram",
+    "desc:2250995639": "Shield Charge critical strike chance and critical strike damage increased by {1}% and Shield Charge increases your auto-attack damage and speed by {2}% for {3} sec.",
+    "name:4110116071": "Battle Shout",
+    "desc:6173447": "Increases the attack power of all raid and party members within {1} yards by {2}% for {3} hour.",
+    "name:2311158165": "Battle Stance",
+    "desc:2049810599": "A balanced combat state that increases the critical strike chance of your abilities by {1}% and reduces the duration of movement impairing effects by {2}%. \r\n\r\nLasts until canceled.",
+    "name:2131340819": "Battle Trance",
+    "desc:3263908485": "You go into a trance causing you to regenerate {1}% of your health and generate {2} Rage every {3} sec for {4} sec after striking a target with Annihilator {5} times.\r\n\r\nAttacking a new target with Annihilator will cancel this effect.",
+    "name:4215885235": "Battle-Scarred Veteran",
+    "desc:806881773": "When your health is brought below {1}%, you take {2}% less damage for {3} sec and healing you receive is increased by {4}%.\r\n\r\nCannot occur more than once every {5} min.",
+    "name:3421361901": "Battlelord",
+    "desc:2833902080": "Overpower has a {1}% chance to reset the cooldown of Mortal Strike and generate {2} Rage.",
+    "name:1130593674": "Berserker Rage",
+    "desc:3188987509": "Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for {1} sec.",
+    "name:1745017952": "Berserker Shout",
+    "desc:4039120395": "Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for {1} sec.\r\n\r\nAlso remove fear effects from group members within {2} yds.",
+    "name:2328458764": "Berserker Stance",
+    "desc:1413836266": "An aggressive combat state that increases the damage of your auto-attacks by {1}% and reduces the duration of Fear, Sap and Incapacitate effects on you by {2}%.\r\n\r\nLasts until canceled.",
+    "name:2288325998": "Berserker's Torment",
+    "desc:2526892850": "Activating Avatar or Recklessness grants {1} sec of the other.",
+    "name:33928672": "Best Served Cold",
+    "desc:1774175749": "Revenge deals {1}% more damage, or {2}% more damage when your successful dodges or parries have made it cost no Rage.",
+    "name:1284328418": "Blademaster's Torment",
+    "desc:248222706": "Activating Avatar grants {1} sec of Sweeping Strikes and while Avatar is active the cooldown of Cleave is reduced by {2} sec.",
+    "name:2800847323": "Bladestorm",
+    "desc:600321742": "Become an unstoppable storm of destructive force, striking all nearby enemies for {1} Physical damage over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\r\n\r\n{FFFFFFFF|Generates {4} Rage each time you deal damage.}",
+    "name:2947086755": "Bloodborne",
+    "desc:219507192": "Your Bleed effects deal {1}% increased damage.",
+    "desc:1731614521": "Your Bleed effects deal {1}% additional damage.",
+    "name:2049287715": "Bloodcraze",
+    "desc:3964242935": "Raging Blow increases the critical strike chance of your next Bloodthirst by {1}% until it critically strikes, stacking up to {2} times.",
+    "name:2468806102": "Bloodletting",
+    "desc:2027344491": "Deep Wounds, Rend and Thunderous Roar's Bleed effects last {1} sec longer and have a {2}% increased critical strike chance.\r\n\r\nIf you have Rend, Mortal Strike inflicts Rend on targets below {3}% health.\r\n",
+    "name:2843742443": "Bloodsurge",
+    "desc:2990616474": "Damage from Deep Wounds has a chance to generate {1} Rage.",
+    "name:4292160246": "Bloodthirst",
+    "desc:777985242": "Assault the target in a bloodthirsty craze, dealing {1} Physical damage and restoring {2}% of your health.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
+    "name:514568727": "Blunt Instruments",
+    "desc:1730706199": "Colossus Smash damage increased by {1}% and its effect duration is increased by {2} sec.",
+    "name:641982888": "Bodyguard",
+    "desc:1293966041": "Protect an ally, causing {1}% of all Physical damage they take to be transfered to you. When the target takes Physical damage, your Shield Slam cooldown has a {2}% chance to be reset. Bodyguard is cancelled if the target is further than {3} yards from you. Lasts {4} min.\r\n\r\nOnly one target can be Bodyguarded at a time.",
+    "name:741570885": "Bolster",
+    "desc:1773797710": "Last Stand's cooldown is reduced by {1} sec and it grants you the Shield Block effect for its duration.",
+    "name:451250335": "Booming Voice",
+    "desc:3403867000": "Demoralizing Shout also generates {1} Rage and increases damage you deal to affected targets by {2}%.",
+    "name:4240763122": "Bounding Stride",
+    "desc:2223136666": "Reduces the cooldown of Heroic Leap by {1} sec and Heroic Leap also increases your movement speed by {2}% for {3} sec.",
+    "name:3476818305": "Brace For Impact",
+    "desc:3263271391": "Using Shield Slam increases the damage of Shield Slam by {1}% and the block value of your shield by {2}% for {3} sec. Stacking up to {4} times.",
+    "name:2798852717": "Brutal Vitality",
+    "desc:557425239": "{1}% of damage you deal adds to your active Ignore Pain.",
+    "name:1724434591": "Cacophonous Roar",
+    "desc:1062862487": "Intimidating Shout can withstand {1}% more damage before breaking.",
+    "name:2528849206": "Challenging Shout",
+    "desc:2749123396": "Taunts all enemies within {1} yds to attack you for {2} sec.",
+    "name:3372618179": "Champion's Bulwark",
+    "desc:2811584714": "Shield Charge deals {1}% increased damage, grants you Shield Block, and makes your next Revenge cost no Rage.",
+    "name:3379736059": "Charge",
+    "desc:2643868386": "Generates {1} more Rage.",
+    "desc:2767637827": "Charge to an enemy, dealing {1} Physical damage, rooting it for {2} sec, and stunning it for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}",
+    "name:1157707090": "Cleave",
+    "desc:4101619162": "Strikes all enemies in front of you for {1} Physical damage, inflicting Deep Wounds. Cleave will consume your Overpower effect to deal increased damage. Deals reduced damage beyond {2} targets.",
+    "name:1842198702": "Cold Steel, Hot Blood",
+    "desc:160795542": "Bloodthirst critical strikes generate {1} additional Rage and inflict a Gushing Wound that leeches {2} health over {3} sec.",
+    "name:2944186848": "Collateral Damage",
+    "desc:3736253195": "When Sweeping Strikes ends, your next Cleave or Whirlwind deals {1}% increased damage for each ability used during Sweeping Strikes that damaged a second target.",
+    "name:2381234876": "Critical Thinking",
+    "desc:3673102009": "Critical Strike chance increased by {1}% and Execute immediately refunds {2}% of the Rage spent.",
+    "desc:1032830621": "Critical Strike chance increased by {1}% and Raging Blow's critical strikes deal {2}% increased damage.",
+    "name:1326317790": "Cruel Strikes",
+    "desc:3699948494": "Critical strike chance increased by {1}% and critical strike damage of Execute increased by {2}%. ",
+    "name:2694622898": "Cruelty",
+    "desc:2751592485": "While Enraged, Raging Blow deals {1}% increased damage.",
+    "name:3177271695": "Crushing Force",
+    "desc:3109203609": "Mortal Strike deals an additional {1}% damage and deals {2}% increased critical strike damage.",
+    "desc:3241520567": "Shield Slam deals an additional {1}% damage and deals {2}% increased critical strike damage.\r\n\r\n",
+    "name:3651026283": "Dance of Death",
+    "desc:2252547171": "When an enemy dies while affected by your Ravager, its duration is extended by {1} sec.\r\n\r\nThis effect can trigger a maximum of {2} times per use of Ravager.",
+    "name:958996828": "Death Wish",
+    "desc:3974400817": "Increases your damage taken and done by {1}% for {2} sec at the cost of {3}% of your health. Stacks up to {4} times.",
+    "name:1208215509": "Defender's Aegis",
+    "desc:2355812118": "Shield Wall gains {1} additional charge and its cooldown is reduced by {2} sec.",
+    "name:84048762": "Defensive Stance",
+    "desc:4076742144": "A defensive combat state that reduces all damage you take by {1}% and all damage you deal by {2}%. \r\n\r\nLasts until canceled.",
+    "name:310817987": "Deft Experience",
+    "desc:3980449448": "Mastery increased by {1}% and Tactician's chance to trigger is increased by an additional {2}%.",
+    "desc:3482194707": "Mastery increased by {1}% and if you are Enraged, Bloodthirst extends your Enrage by {2} sec.",
+    "name:3946109104": "Demolition",
+    "desc:1688548478": "Reduces the cooldown of your Shattering Throw or Wrecking Throw by {1}% and increases its damage to absorb shields by an additional {2}%.",
+    "name:4264257112": "Depths of Insanity",
+    "desc:3436382319": "Recklessness lasts {1} sec longer.",
+    "name:2948283455": "Devastator",
+    "desc:60064787": "Your auto-attacks deal an additional {1} Physical damage and have a {2}% chance to reset the remaining cooldown on Shield Slam.",
+    "name:3971906600": "Die by the Sword",
+    "desc:1603753016": "Increases your parry chance by {1}% and reduces all damage you take by {2}% for {3} sec.",
+    "name:102355238": "Disarm",
+    "desc:2715842532": "Disarm the enemy's weapons and shield for {1} sec. Disarmed creatures deal significantly reduced damage.",
+    "name:3929119707": "Disrupting Shout",
+    "desc:3815881581": "Taunts all enemies within {1} yds to attack you for {2} sec, interrupts all spellcasting within {3} yds and prevents any spell in that school from being cast for {4} sec.\r\n",
+    "name:2444630414": "Double Time",
+    "desc:4175956375": "Charge gains {1} additional charge and its cooldown is reduced by {2} sec.",
+    "name:3678112280": "Dragon Charge",
+    "desc:1353307758": "Run at high speed at a distance in front of you. All enemies in your path will take {1} Physical damage and be knocked back.",
+    "name:304467179": "Dreadnaught",
+    "desc:1512224769": "Overpower causes a seismic wave, dealing {1} damage to all enemies in a {2} yd line. Deals reduced damage beyond {3} targets.",
+    "name:1110740560": "Dual Wield Specialization",
+    "desc:1966443305": "While dual wielding your damage is increased by {1}% and movement speed is increased by {2}%.",
+    "name:3329962543": "Duel",
+    "desc:3362356235": "You challenge the target to a duel. While challenged, all damage you and the target deal to all targets other than each other is reduced by {1}%. Lasts {2} sec.",
+    "name:1475517889": "Enduring Alacrity",
+    "desc:420257295": "Increases Stamina and Armor by {1}% and your Haste by {2}%.",
+    "name:2569761500": "Enduring Defenses",
+    "desc:2979481114": "Shield Block lasts {1} sec longer.",
+    "name:4045976314": "Enrage",
+    "desc:3603533906": "Becoming Enraged increases your damage done by {1}%, Haste by {2}%, and movement speed by {3}% for {4} sec.\r\n\r\n|T136012:24|t Bloodthirst has a {5}% chance to Enrage you.\r\n\r\n|T132352:24|t Rampage always Enrages you.",
+    "name:502799521": "Enraged Regeneration",
+    "desc:3122761634": "Reduces damage taken by {1}% and Bloodthirst restores an additional {2}% health for {3} sec. Usable while stunned or incapacitated.",
+    "name:3149593211": "Execute",
+    "desc:588046997": "Attempts to finish off a foe, causing up to {1} Physical damage based on Rage spent. Only usable on enemies that have less than {2}% health.",
+    "desc:2110149936": "Attempt to finish off a wounded foe, causing {1} Physical damage. Only usable on enemies that have less than {2}% health.",
+    "name:1281722666": "Executioner's Precision",
+    "desc:162964863": "Execute causes the target to take {1}% more damage from your next Mortal Strike, stacking up to {2} times.",
+    "name:2252789712": "Exhilarating Blows",
+    "desc:3260827058": "Mortal Strike and Cleave have a {1}% chance to instantly reset their own cooldowns.",
+    "name:3274652707": "Fast Footwork",
+    "desc:3360749458": "Movement speed increased by {1}%.",
+    "name:267818969": "Fatality",
+    "desc:237799025": "Mortal Strike and Cleave have a high chance to apply Fatal Mark to enemies above {1}% health. When an enemy with Fatal Mark is below {2}% health, your next Execute causes the Fatal Mark to deal {3} Physical damage per stack.",
+    "name:556693474": "Fervor of Battle",
+    "desc:1019752455": "If Cleave or Whirlwind hits {1} or more targets you also Slam your primary target.",
+    "name:2545453000": "Focus in Chaos",
+    "desc:2096127761": "While Enraged, your auto-attacks can no longer miss.",
+    "name:3604640100": "Focused Vigor",
+    "desc:2518859992": "Increases Strength and Armor by {1}% and your critical strike chance by {2}%.\r\n",
+    "name:3236316770": "Fresh Meat",
+    "desc:3418856055": "Bloodthirst always Enrages you the first time you strike a target and it has a {1}% increased chance to trigger Enrage.",
+    "name:578329306": "Frothing Berserker",
+    "desc:2496516490": "Mortal Strike and Cleave have a {1}% chance to immediately refund {2}% of the Rage spent.",
+    "desc:3729810988": "Rampage has a {1}% chance to immediately refund {2}% of the Rage spent.",
+    "desc:2864670192": "Revenge has a {1}% chance to immediately refund {2}% of the Rage spent.",
+    "name:444613592": "Fueled by Violence",
+    "desc:4103788682": "You are healed for {1}% of the damage dealt by Deep Wounds.",
+    "name:1051028108": "Hack and Slash",
+    "desc:2362939615": "Each Rampage strike has a {1}% chance to refund a charge of Raging Blow.",
+    "name:1466726612": "Hamstring",
+    "desc:1917903103": "Maims the enemy for {1} Physical damage, reducing movement speed by {2}% for {3} sec.",
+    "name:2002800529": "Heavy Repercussions",
+    "desc:801683101": "Shield Slam generates {1} more Rage and extends the duration of Shield Block by {2} sec.",
+    "name:3727884907": "Heroic Leap",
+    "desc:3403179828": "Leap through the air toward a target location, slamming down with destructive force to deal {1} Physical damage to all enemies within {2} yards.",
+    "name:2094039768": "Heroic Throw",
+    "desc:217081809": "Throws your weapon at the enemy, causing {1} Physical damage. Generates high threat.",
+    "name:2351765077": "Honed Reflexes",
+    "desc:658574892": "Cooldown of Shield Wall, Pummel, Intervene, Spell Reflection, and Storm Bolt reduced by {1}%.",
+    "name:3070957512": "Ignore Pain",
+    "desc:1264796742": "Fight through the pain, ignoring {1}% of damage taken until {2} damage has been prevented.\r\n\r\nRepeated uses of Ignore Pain accumulate, up to {3} total damage prevented.",
+    "name:3053888756": "Immovable Object",
+    "desc:1183219911": "Activating Avatar or Shield Wall grants {1} sec of the other.",
+    "name:2611538467": "Impale",
+    "desc:2362841902": "Critical strike damage of your abilities is increased by {1}%.",
+    "name:3209997597": "Impending Victory",
+    "desc:3879160214": "Instantly attack the target, causing {1} damage and healing you for {2}% of your maximum health.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+    "name:3554443958": "Impenetrable Wall",
+    "desc:2449165626": "Shield Slam reduces the remaining cooldown of Shield Wall by {1} sec.",
+    "name:418624369": "Improved Bloodthirst",
+    "desc:252192663": "Bloodthirst damage increased by {1}%.",
+    "name:957164311": "Improved Execute",
+    "desc:1027698645": "Execute no longer costs Rage and now generates {1} Rage.",
+    "desc:1962173041": "Execute no longer has a cooldown and if your foe survives, {1}% of the Rage spent is refunded.",
+    "name:1478083514": "Improved Overpower",
+    "desc:1688953524": "Overpower has {1} charges and deals {2}% more damage.",
+    "name:2194580848": "Improved Raging Blow",
+    "desc:581451016": "Raging Blow has {1} charges and has a {2}% chance to instantly reset its own cooldown.",
+    "name:481072201": "Improved Sweeping Strikes",
+    "desc:1234656717": "Sweeping Strikes lasts {1}|r sec longer.",
+    "name:2320608847": "Improved Whirlwind",
+    "desc:930316836": "Whirlwind and Thunder Clap cause your next {1} single-target [plural|attack|attacks] to strike up to {2} additional targets for {3}% damage.\r\n\r\nWhirlwind generates {4} Rage, plus an additional {5} per target hit. Maximum {6} Rage.",
+    "name:3538391035": "In For The Kill",
+    "desc:2425290013": "Colossus Smash increases your Haste by {1}%, or by {2}% if the target is below {3}% health. Lasts for the duration of Colossus Smash.",
+    "name:1769896309": "Indomitable",
+    "desc:1772108967": "Your maximum health is increased by {1}% and every {2} Rage you spend heals you for {3}% of your maximum health.",
+    "name:2197133734": "Instigate",
+    "desc:4264818": "Devastate deals {1}% increased damage and generates {2} Rage.\r\n\r\nDevastator deals {3}% increased damage and generates {4} Rage.",
+    "name:2372808546": "Intervene",
+    "desc:11539891": "Run at high speed toward an ally, intercepting all melee and ranged attacks against them for {1} sec while they remain within {2} yds.",
+    "name:2210450362": "Into the Fray",
+    "desc:2196363373": "You gain {1}% Haste for each enemy or ally within {2} yards, up to {3}% Haste.",
+    "name:2482011331": "Invigorating Fury",
+    "desc:3756597285": "Enraged Regeneration lasts {1} sec longer and instantly heals for {2}% of your maximum health.",
+    "name:678658944": "Juggernaut",
+    "desc:2834631578": "Execute increases Execute's damage dealt by {1}% for {2} sec, stacking up to {3} times.",
+    "name:2802423079": "Last Stand",
+    "desc:1633525412": "Increases maximum health by {1}% for {2} sec and instantly heals you for that amount.",
+    "name:364874876": "Martial Prowess",
+    "desc:1214596023": "Overpower increases the damage of your next Mortal Strike or Cleave by {1}%, stacking up to {2} times.",
+    "name:1188032707": "Massacre",
+    "desc:2360496128": "Execute is usable on targets below {1}% health.",
+    "desc:305368375": "Execute is now usable on targets below {1}% health and its cooldown is reduced by {2} sec.",
+    "name:2282195622": "Master and Commander",
+    "desc:1918393749": "Cooldown of Rallying Cry reduced by {1} sec.",
+    "name:228551325": "Mastery: Critical Block",
+    "desc:3761308160": "Increases your chance to block by {1}% and your chance to critically block (blocking twice the amount) by {2}%.\r\n\r\nAlso increases your attack power by {3}%.",
+    "name:4276261645": "Mastery: Deep Wounds",
+    "desc:202191965": "Mortal Strike, Colossus Smash, Cleave, and Ravager inflict Deep Wounds, dealing {1} Bleed damage over {2} sec and increasing the damage the enemy takes from you by {3}%.",
+    "name:354322817": "Mastery: Unshackled Fury",
+    "desc:4085679055": "Increases damage done while Enraged by {1}%.",
+    "name:3917169776": "Meat Cleaver",
+    "desc:3487825048": "Whirlwind deals {1}% more damage and affects your next {2} single-target attacks.",
+    "name:3816070026": "Menace",
+    "desc:4096973892": "Intimidating Shout will knock back all nearby enemies except your primary target and cause them all to cower in fear for {1} sec instead of fleeing.",
+    "name:732559791": "Merciless Bonegrinder",
+    "desc:1926310732": "Whirlwind and Cleave deal {1}% increased damage during Ravager or for {2} sec after Bladestorm ends.",
+    "name:2972633426": "Morale Killer",
+    "desc:1342906771": "Reduces the cooldown of Demoralizing Shout by {1} sec, and Demoralizing Shout now reduces the damage enemies deal to all targets, not just you.",
+    "name:3168205478": "Mortal Strike",
+    "desc:1717084436": "A vicious strike that deals {1} Physical damage and reduces the effectiveness of healing on the target by {2}% for {3} sec.",
+    "name:271419530": "Odyn's Fury",
+    "desc:934854365": "Unleashes your power, dealing {1} Physical damage and an additional {2} Physical damage over {3} sec to all enemies within {4} yards. Deals reduced damage beyond {5} targets.\r\n\r\n{FFFFFFFF|Generates {6} Rage.}\r\n",
+    "name:784011310": "One-Handed Weapon Specialization",
+    "desc:1777003717": "While wielding one-handed weapons your damage is increased by {1}% and Leech increased by {2}%.",
+    "name:831712952": "Onslaught",
+    "desc:38882844": "Brutally attack an enemy for {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Rage.",
+    "name:268500784": "Oppressor",
+    "desc:3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault.",
+    "name:3670512426": "Overpower",
+    "desc:2818476484": "Overpower the enemy, dealing {1} Physical damage. Cannot be blocked, dodged, or parried.\r\n\r\nIncreases the damage of your next Mortal Strike or Cleave by {2}%, stacking up to {3} times\r\n\r\n|cFFFFFFFFGenerates {4} Rage.",
+    "name:2234335791": "Overwhelming Rage",
+    "desc:3021368246": "Maximum Rage increased by {1}.",
+    "name:1055505159": "Pain and Gain",
+    "desc:4129505542": "When you take any damage, heal for {1}% of your maximum health. \r\n\r\nThis can only occur once every {2} sec.",
+    "name:4122674339": "Piercing Howl",
+    "desc:3598328754": "Snares all enemies within {1} yards, reducing their movement speed by {2}% for {3} sec.",
+    "name:2740802224": "Pummel",
+    "desc:1390452310": "Pummels the target, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec.",
+    "name:505832132": "Punish",
+    "desc:785471859": "Shield Slam deals {1}% increased damage and reduces enemies' damage against you by {2}% for {3} sec. Multiple punishments may overlap.",
+    "name:1773149434": "Raging Blow",
+    "desc:1160421362": "A mighty blow with both weapons that deals a total of {1} Physical damage.\r\n\r\nRaging Blow has a {2}% chance to instantly reset its own cooldown.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
+    "name:2763647989": "Rallying Cry",
+    "desc:4136558969": "Lets loose a rallying cry, granting all party or raid members within {1} yards {2}% temporary and maximum health for {3} sec.",
+    "name:2519724740": "Rampage",
+    "desc:1840370060": "Enrages you and unleashes a series of {1} brutal strikes for a total of {2} Physical damage.",
+    "name:2012308364": "Ravager",
+    "desc:2344425235": "Throws a whirling weapon at the target location that chases nearby enemies, inflicting {1} Physical damage to all enemies over {2} sec. Deals reduced damage beyond {3} targets.\r\n\r\n{FFFFFFFF|Generates {4} Rage each time it deals damage.}",
+    "name:772872837": "Rebound",
+    "desc:3514288083": "Spell Reflection reflects the next {1} incoming spells cast on you and reflected spells deal {2}% extra damage to the attacker.\r\n\r\nSpell Reflection's cooldown is increased by {3} sec.",
+    "name:2617303817": "Reckless Abandon",
+    "desc:2198966483": "Activating Recklessness generates {1} Rage and while Recklessness is active, Raging Blow and Bloodthirst are replaced by Crushing Blow and Bloodbath.\r\n\r\n|T132215:24|t {ffffffff|Crushing Blow}\r\nStrike a mighty blow with both weapons that deals a total of {2} Physical damage. \r\n\r\nCrushing Blow has a {3}% chance to instantly reset its own cooldown and its critical strikes deal {4}% additional damage.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}\r\n\r\n|T236304:24|t {ffffffff|Bloodbath}\r\nAssault the target in a bloodthirsty craze, dealing {6} Physical damage and restoring {7}% of your health.\r\n\r\nBloodbath causes the target to bleed for {8} damage over {9} sec. Using Bloodbath on a target that is affected by Bloodbath extends the bleed by {10} sec.\r\n\r\n{FFFFFFFF|Generates {11} Rage.}",
+    "name:1230280238": "Recklessness",
+    "desc:907774725": "Go berserk, increasing all Rage generation by {1}% and granting your abilities {2}% increased critical strike chance for {3} sec.",
+    "name:485651696": "Reinforced Plates",
+    "desc:1912524679": "Stamina increased by {1}% and Armor increased by {2}%.",
+    "name:3148114220": "Rend",
+    "desc:1858757475": "Wounds the target, causing {1} Physical damage instantly and an additional {2} Bleed damage over {3} sec.",
+    "name:2561468606": "Revenge",
+    "desc:1331350537": "Swing in a wide arc, dealing {1} Physical damage to all enemies in front of you. Deals reduced damage beyond {2} targets.\r\n\r\nYour successful dodges and parries have a chance to make your next Revenge cost no Rage.",
+    "name:3244829509": "Riposte",
+    "desc:1545937471": "You gain Parry equal to {1}% of your Critical Strike from gear.",
+    "name:1197962252": "Rumbling Earth",
+    "desc:584503579": "Shockwave's range increased by {1} yards and when it strikes at least {2} targets its cooldown is reduced by {3} sec.",
+    "name:3361443772": "Seasoned Soldier",
+    "desc:807698968": "Your auto attack critical strikes generate {1}% more Rage and damage taken from area of effect attacks reduced by {2}%.",
+    "name:1833635751": "Second Wind",
+    "desc:761150639": "Restores {1}% health every {2} sec when you have not taken damage for {3} sec.\r\n\r\nRestores {4}% health every {5} sec while you are below {6}% health. The amount restored increases the closer you are to death.",
+    "name:357465284": "Seismic Reverberation",
+    "desc:3907877897": "If Whirlwind or Thunder Clap or Revenge hits {1} or more enemies it hits them {2} additional time for {3}% damage.",
+    "name:1970579040": "Shadow of the Colossus",
+    "desc:3226980510": "Charge resets the cooldown of your Overpower and Rage gained from Charge increased by {1}.",
+    "name:3025094331": "Sharpen Blade",
+    "desc:1617443227": "When activated, your next Mortal Strike will deal {1}% increased damage and reduce healing taken by {2}% for {3} sec.",
+    "name:1491797739": "Sharpened Blades",
+    "desc:2900446183": "Your Mortal Strike, Cleave and Execute critical strike damage is increased by {1}% and your Execute has a {2}% increased critical hit chance.",
+    "name:1139030583": "Shattering Throw",
+    "desc:2234654661": "Hurl your weapon at the enemy,  removing any magical immunities and causing {1} Physical damage, ignoring armor. Deals up to {2}% increased damage to absorb shields.",
+    "name:3586479797": "Shield Bash",
+    "desc:4093508638": "When Shield Slam is used on targets that are casting, it reduces their damage done by {1}% for {2} sec and the cooldown is instantly reset.",
+    "name:3694666873": "Shield Block",
+    "desc:2420250402": "Raise your shield, blocking all melee attacks against you for {1} sec. These blocks can be critical blocks. Increases Shield Slam damage by {2}% while active.",
+    "desc:195014854": "Shield Block has {1} charges.",
+    "name:57595452": "Shield Charge",
+    "desc:2868027570": "Charge to an enemy with your shield, dealing {1} Physical damage to it and {2} Physical damage to all enemies within {3} yards.\r\n\r\nAlso stuns the primary target for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}",
+    "name:1734732972": "Shield Slam",
+    "desc:881412299": "Slams the target with your shield, causing {1} Physical damage.\r\n\r\nDevastate, Thunder Clap, Revenge, and Execute have a {2}% chance to reset the cooldown of Shield Slam.\r\n\r\n{FFFFFFFF|Generates {3} Rage.}",
+    "desc:339796332": "Shield Slam generates {1} Rage.",
+    "name:1918262406": "Shield Specialization",
+    "desc:400634510": "Increases Block chance by {1}% and your Block value by {2}%.",
+    "name:3823928282": "Shield Wall",
+    "desc:2851743854": "Reduces all damage you take by {1}% for {2} sec.",
+    "name:260222837": "Shockwave",
+    "desc:3035519798": "Sends a wave of force in a frontal cone, causing {1} damage and stunning all enemies within {2} yards for {3} sec.",
+    "name:2431629973": "Show of Force",
+    "desc:4181831084": "Revenge damage increased by {1}% and Revenge increases the damage of your next Thunder Clap by {2}%.",
+    "name:1332414849": "Sidearm",
+    "desc:1171564067": "Your auto-attacks have a {1}% chance to hurl weapons at your target and {2} other enemies in front of you, dealing an additional {3} Physical damage.",
+    "name:3095744218": "Single-Minded Fury",
+    "desc:4101342888": "While dual-wielding a pair of one-handed weapons, your damage done is increased by {1}%, your auto-attack damage with one-handed weapons is increased by {2}%, your movement speed is increased by {3}%, and your auto-attack critical strikes have a {4}% chance to Enrage you.",
+    "name:4042889179": "Skullsplitter",
+    "desc:113740502": "Bash an enemy's skull, dealing {1} Physical damage.\r\n\r\nSkullsplitter causes your Rend and Deep Wounds on the target to bleed out {2}% faster for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Rage.}",
+    "name:3746195646": "Slam",
+    "desc:662253224": "Slams an opponent, causing {1} Physical damage.",
+    "name:2029738960": "Slaughterhouse",
+    "desc:3470655624": "Rampage, Onslaught, and Odyn's Fury damage reduce healing the target receives by {1}% for {2} sec, stacking up to {3} times.",
+    "name:2774623860": "Slaughtering Strikes",
+    "desc:986210208": "Raging Blow causes every strike of your next Rampage to deal an additional {1}% damage, stacking up to {2} times.",
+    "name:291480236": "Spell Block",
+    "desc:4082539468": "You are able to block spells for {1} sec.",
+    "name:2022620962": "Spell Reflection",
+    "desc:2591366450": "Raise your weapon, reflecting the first spell cast on you and reducing magic damage you take by {1}% for {2} sec.",
+    "name:2781941278": "Spiteful Serenity",
+    "desc:1521666951": "Colossus Smash and Avatar's base durations are increased by {1}% but their damage bonuses are reduced by {2}%.",
+    "name:2155236440": "Storm Bolt",
+    "desc:1799175332": "Hurls your weapon at an enemy, causing {1} Physical damage and stunning for {2} sec.",
+    "name:1999035490": "Storm of Destruction",
+    "desc:1712617055": "Bladestorm, Ravager, and Demolish now snare all targets you hit by {1}% for {2} sec and decrease their healing taken by {3}% for {4} sec.",
+    "name:2946740802": "Storm of Steel",
+    "desc:3758698826": "Bladestorm and Ravager's damage are reduced by {1}% but they now have {2} charges and generate {3} additional Rage each time they deal damage.",
+    "name:139624096": "Storm of Swords",
+    "desc:1697555910": "Cleave and Whirlwind have a {1}% chance to make your next Cleave or Whirlwind cost {2}% less Rage.",
+    "name:731076312": "Storm Wall",
+    "desc:1441100230": "Whenever you Parry, you heal for {1}% of your maximum health. This effect cannot occur more than once every {2} sec.",
+    "name:1496912257": "Strategist",
+    "desc:2954917329": "Devastate, Thunder Clap, Revenge, and Execute have a {1}% chance to reset the remaining cooldown on Shield Slam.",
+    "name:3794151096": "Strength of Arms",
+    "desc:807543441": "Overpower deals {1}% additional damage, has {2}% increased critical strike chance, and deals {3}% increased critical strike damage.\r\n",
+    "name:2954342910": "Sudden Death",
+    "desc:1424966407": "Your attacks have a chance to reset the cooldown of Execute and make it usable on any target, regardless of their health.",
+    "desc:2248769099": "Your attacks have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent {1} Rage.",
+    "name:2483133515": "Sweeping Strikes",
+    "desc:443712803": "Cooldown reduced by {1} sec.",
+    "desc:2320105812": "For {1} sec your single-target damaging abilities hit {2} additional [plural|Target|targets] within {3} yds for {4}% damage.",
+    "name:616861946": "Swift Strikes",
+    "desc:381193418": "Haste increased by {1}% and Raging Blow and Bloodthirst generate an additional {2} Rage.",
+    "name:1753797145": "Tactician",
+    "desc:2093880548": "You have a {1}% chance per Rage spent on attacks to reset the remaining cooldown on Overpower.",
+    "name:3960207608": "Taunt",
+    "desc:4177245906": "Taunts the target to attack you.",
+    "name:2537399520": "Tenderize",
+    "desc:2678920206": "Onslaught Enrages you. If you have Slaughtering Strikes, it also grants you {1} stacks of Slaughtering Strikes.",
+    "name:4287846232": "Test of Might",
+    "desc:4022757301": "When Colossus Smash expires, your Strength is increased by {1}% for every {2} Rage you spent on attacks during Colossus Smash. Lasts {3} sec.",
+    "name:2507811654": "Thunder Clap",
+    "desc:226812108": "Blasts all enemies within {1} yards for {2} Physical damage and reduces their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.",
+    "name:917725273": "Thunderlord",
+    "desc:2870185529": "Increases the radius of Demoralizing Shout by {1} yards.\r\n\r\nEach enemy hit by Thunder Clap reduces the remaining cooldown on Demoralizing Shout by {2} sec, up to {3} sec.",
+    "name:2566039194": "Thunderous Roar",
+    "desc:4260745837": "Roar explosively, dealing {1} Physical damage to enemies within {2} yds and cause them to bleed for {3} physical damage over {4} sec. Deals reduced damage beyond {5} targets.",
+    "name:2328592077": "Thunderous Words",
+    "desc:2220313165": "Increases the duration of Thunderous Roar's Bleed effect by {1} sec and Thunderous Roar's Bleed effect causes enemies to take {2}% increased damage from all your bleeds.",
+    "name:2064769325": "Thunderstruck",
+    "desc:1130669469": "Thunder Clap roots all targets it damages for {1} sec.",
+    "name:2323840181": "Titan's Grip",
+    "desc:2716531879": "Allows you to dual-wield a pair of two-handed weapons. Two-handed weapons deal more damage, and provide more Strength and Stamina than one-handed weapons.",
+    "name:2972166341": "Titan's Torment",
+    "desc:1881701853": "While Avatar is active Rampage's Rage cost is reduced by {1} and Bloodthirst's cooldown is reduced by {2} sec.",
+    "name:3415289300": "Titanic Rage",
+    "desc:394568798": "Odyn's Fury's Enrages you, deals {1}% increased damage and grants you {2} stacks of Whirlwind.\r\n\r\n",
+    "name:3342035935": "Tough as Nails",
+    "desc:530208210": "Blocking an attack deals {1} Physical damage to the attacker, ignoring armor. \r\n\r\nGenerates high threat.",
+    "name:864648605": "Two-Handed Weapon Specialization",
+    "desc:3179924970": "While wielding two-handed weapons your damage is increased by {1}% and damage taken from area of effect attacks is reduced by {2}%.",
+    "name:2257294405": "Unbridled Ferocity",
+    "desc:1432404926": "Rampage has a {1}% chance to grant Recklessness for {2} sec.",
+    "name:3721783893": "Unhinged",
+    "desc:1167922420": "Every other time Bladestorm or Ravager deal damage, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing {1}% of normal damage.",
+    "name:1345956857": "Unnerving Focus",
+    "desc:3811486329": "Last Stand increases your Rage generation by {1}%.",
+    "name:3449764671": "Unstoppable Force",
+    "desc:360664086": "Avatar increases the damage of Thunder Clap and Shockwave by {1}% and reduces the cooldown of Thunder Clap by {2}%.",
+    "name:3629112514": "Uproar",
+    "desc:1922101535": "Thunderous Roar's cooldown reduced by {1} sec.",
+    "name:1495508167": "Valor in Victory",
+    "desc:1956820948": "Increases Versatility by {1}% and reduces the cooldown of Die by the Sword by {2} sec.",
+    "name:1226968286": "Vanguard",
+    "desc:3076113939": "Stamina increased by an additional {1}%, and armor is increased by an additional {2}% of your Strength.",
+    "desc:3808584777": "Hardened by battle, your Stamina is increased by {1}% and your Armor is increased by {2}% of your Strength.",
+    "name:3208988991": "Vicious Contempt",
+    "desc:3940300545": "Bloodthirst deals {1}% increased damage to enemies who are below {2}% health.",
+    "name:2540269549": "Violent Outburst",
+    "desc:3610869656": "Every {1} rage you spend triggers a Violent Outburst, causing your next Shield Slam or Thunder Clap to deal {2}% increased damage, generate {3}% more Rage and grant Ignore Pain.",
+    "name:110736312": "War Banner",
+    "desc:899426327": "You throw down a war banner at your feet, rallying your allies. \r\n\r\nIncreases movement speed by {1}% and reduces the duration of all incoming crowd control effects by {2}% to all allies within {3} yards of the war banner. Lasts {4} sec.",
+    "name:3282909558": "War Machine",
+    "desc:2940816429": "Your auto-attacks generate {1}% more Rage.\r\n\r\nKilling an enemy instantly generates {2} Rage and increases your movement speed by {3}% for {4} sec.",
+    "desc:2764424243": "Your auto attacks generate {1}% more Rage.\r\n\r\nKilling an enemy instantly generates {2} Rage, and increases your movement speed by {3}% for {4} sec.",
+    "name:3520244718": "Warbreaker",
+    "desc:376403634": "Smash the ground and shatter the armor of all enemies within {1} yds, dealing {2} Physical damage and increasing damage you deal to them by {3}% for {4} sec.",
+    "name:1525559154": "Warbringer",
+    "desc:323151584": "Charge roots enemies for {1} sec and emanates a shockwave past the target, rooting enemies and dealing {2} Physical damage in a {3} yd cone.",
+    "name:2279338548": "Warlord's Torment",
+    "desc:1941320037": "Activating Avatar grants {1} sec of Recklessness.\r\n\r\nThe additional Rage generation of this Recklessness is reduced to {2}%.",
+    "name:1976030908": "Warpaint",
+    "desc:1272645391": "You take {1}% reduced damage while Enrage is active.",
+    "name:3850530792": "Warpath",
+    "desc:900026138": "When landing with Heroic Leap, all targets are stunned for {1} sec.",
+    "name:218070468": "Whirlwind",
+    "desc:806242973": "Unleashes a whirlwind of steel, striking all nearby targets for {1} Physical damage. Deals reduced damage beyond {2} targets.",
+    "name:3739125787": "Wild Strikes",
+    "desc:3405091850": "Haste increased by {1}% and your auto-attack critical strikes increase your auto-attack speed by {2}% for {3} sec.",
+    "name:1113682645": "Wrath and Fury",
+    "desc:880694387": "Raging Blow deals {1}% increased damage and while Enraged, Raging Blow has a {2}% increased chance to instantly reset its own cooldown.\r\n",
+    "name:2530857036": "Wrecking Throw",
+    "desc:58099675": "Hurl your weapon at the enemy, causing {1} Physical damage, ignoring armor. Deals up to {2}% increased damage to absorb shields.\r\n",
+    "name:3661743272": "Devastate",
+    "desc:423606713": "A direct strike, dealing {1} Physical damage.",
+    "name:2109981012": "Victory Rush",
+    "desc:4204279332": "Strikes the target, causing {1} damage and healing you for {2}% of your maximum health.\r\n\r\nOnly usable within {3} sec after you kill an enemy that yields experience or honor.",
+    "desc:1477268291": "Heals for an additional {1}% of maximum health.",
+    "name:785403108": "Finishing Blows",
+    "name:631799008": "Storm Shield",
+    "desc:591377970": "Intervening a target grants them a shield for {1} sec that absorbs magic damage equal to {2} times your Armor.",
+    "name:4259598844": "Fight Through the Flames",
+    "desc:3978928127": "Defensive Stance additionally reduces magic damage you take by {1}%.",
+    "name:3485319834": "Glyph of Mighty Victory",
+    "desc:1763696141": "When your Victory Rush heals you, you grow slightly larger.",
+    "name:3269288819": "Veteran Vitality",
+    "desc:3761749142": "When your health is brought below {1}%, you gain a Second Wind, healing you for {2}% of your max health over {3} sec.\r\n\r\nThis effect cannot occur more than once every {4} sec.",
+    "name:271791135": "Precise Might",
+    "desc:3161642187": "Shield Slam critical strikes grant an additional stack of Colossal Might.",
+    "name:2563286670": "Slayer's Malice",
+    "desc:2733722761": "Raging Blow damage increased by {1}%.",
+    "name:3658092612": "Snap Induction",
+    "desc:2397469338": "Activating Recklessness grants a charge of Thunder Blast.",
+    "name:2505103389": "Glyph of the Blazing Trail",
+    "desc:191422530": "Your Charge leaves a trail of fire in its wake. If you're going to Charge why not do it with some style?",
+    "name:3936275507": "Opportunist",
+    "desc:1402297829": "When Raging Blow resets its own cooldown, your next Raging Blow deals {1}% additional damage and {2}% additional critical damage.",
+    "name:2386874900": "Unrelenting Onslaught",
+    "desc:3743217799": "When you Execute a target that you've Marked for Execution, you both reduce the cooldown of Bladestorm by {1} sec and apply {2} stacks of Overwhelmed to the target per stack of Marked for Execution consumed.\r\n\r\nYou can use Pummel and Storm Bolt while Bladestorming.",
+    "name:1565493620": "Tide of Battle",
+    "desc:3741463313": "Colossal Might increases the damage of your Revenge by {1}% per stack.",
+    "name:2520025431": "Reap the Storm",
+    "desc:116658766": "Bloodthirst has a {1}% chance to cause you to unleash a flurry of steel, striking all nearby enemies for {2} damage and applying Overwhelmed. Deals reduced damage beyond {3} targets.",
+    "name:2276524218": "No Stranger to Pain",
+    "desc:1551197504": "Damage prevented by each use of Ignore Pain is increased by {1}%.",
+    "name:117292201": "Lightning Strikes",
+    "desc:1953258002": "Damaging enemies with Thunder Clap, Revenge, or Execute has a {1}% chance to also strike one with a lightning bolt, dealing {2} Nature damage and generating {3} Rage.\r\n\r\nLightning Strikes occur {4}% more often during Avatar.",
+    "name:1225328972": "Keep Your Feet on the Ground",
+    "desc:2568858562": "Physical damage taken reduced by {1}%.\r\n\r\nThunder Blast reduces damage you take by {2}% for {3} sec.",
+    "name:3884685171": "Imminent Demise",
+    "desc:2957730281": "Every {1} Slayer's Strikes you gain Sudden Death.\r\n\r\nUsing Sudden Death accelerates your next Bladestorm, striking {2} additional time (max {3}). Bladestorm's total duration is unchanged.",
+    "name:127330170": "Flashing Skies",
+    "desc:2554437415": "Thunder Blast calls down a Lightning Strike on an enemy it hits.",
+    "name:3947064221": "Strength of the Mountain",
+    "desc:4202349989": "Shield Slam damage increased by {1}%.\r\n\r\nBloodthirst and Rampage damage increased by {2}%.",
+    "name:1328517250": "Crashing Thunder",
+    "desc:3646785461": "Stormstrike or Nature damage your abilities deal is increased by {1}%. Stormstrike damage ignores Armor.\r\n\r\nThunder Clap damage increased by {2}%, and it generates {3} Rage. \r\n\r\nSeismic Reverberations, Improved Whirlwind, Meat Cleaver, and Barbaric Training now affect Thunder Clap in addition to Whirlwind.",
+    "name:2772634468": "Avatar of the Storm",
+    "desc:2377432269": "Casting Avatar grants you {1} charges of Thunder Blast and resets the cooldown of Thunder Clap.\r\n\r\nWhile Avatar is not active, Lightning Strikes have a {2}% chance to grant you Avatar for {3} secs.\r\n\r\n|T460957:24|t{FFFFFFFF|Thunder Blast}\r\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage.",
+    "name:3409756341": "Vicious Agility",
+    "desc:741375376": "Heroic Leap reduces the cooldown of Charge by {1} sec and Charge reduces the cooldown of Heroic Leap by {2} sec.",
+    "name:1993981676": "Glyph of Thunder Strike",
+    "desc:2857021454": "Your Thunder Clap visual includes a lightning strike.",
+    "name:419130514": "Practiced Strikes",
+    "desc:1411428472": "Shield Slam and Revenge damage increased by {1}%.\r\n\r\nShield Slam generates an additional {2} Rage.",
+    "name:3563525062": "Thunder Blast",
+    "desc:3390393026": "Shield Slam and Bloodthirst have a {1}% chance to grant you Thunder Blast, stacking up to {2} charges.\r\n\r\n|T460957:24|t{FFFFFFFF|Thunder Blast}\r\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage and generates {3} Rage.",
+    "name:2930049436": "Glyph of Falling Thunder",
+    "desc:1712081535": "When you Heroic Leap you now land with thunder.",
+    "name:3246460317": "Thorim's Might",
+    "desc:2758011105": "Lightning Strikes generate {1} Rage.\r\n\r\nRaging Blow and Execute damage increased by {2}%.",
+    "name:2514758944": "Martial Expert",
+    "desc:1070974349": "Critical strike damage of your abilities is increased by {1}% and the amount of damage blocked by your critical blocks is increased by {2}%.",
+    "name:1285709854": "Burst of Power",
+    "desc:80811141": "Lightning Strikes have a {1}% chance to make your next {2} Shield Slams have no cooldown.",
+    "name:2032633710": "Gathering Clouds",
+    "desc:1620889487": "Your attacks trigger Lightning Strikes {1}% more often.",
+    "name:3673181329": "Overwhelming Blades",
+    "desc:3023122732": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by {1}% for {2} sec, max {3} stacks.",
+    "name:2366328988": "Mountain of Muscle and Scars",
+    "desc:2160235778": "You deal {1}% more damage and take {2}% less damage.\r\n\r\nSize increased by {3}%.",
+    "name:3950492323": "Glyph of the Heaved Armament",
+    "desc:1932527897": "Your Heroic Throw now launches your main hand weapon.",
+    "name:485857870": "Slayer's Dominance",
+    "desc:218082700": "Your attacks against your primary target have a high chance to overwhelm their defenses and trigger a Slayer's Strike, dealing {1} damage and applying Marked for Execution, increasing the damage they take from your next Execute by {2}%. Stacks {3} times.",
+    "name:964359232": "Boneshaker",
+    "desc:2211537922": "Shockwave's stun duration is increased by {1} sec and reduces the movement speed of affected enemies by {2}% for {3} sec after the stun ends.",
+    "name:3455770676": "Steadfast as the Peaks",
+    "desc:3152205504": "Stamina increased by {1}%.\r\n\r\nVictory Rush increases your maximum health by {2}% for {3} sec. When this health increase expires, you heal for any amount of the original Victory Rush that healed you in excess of your full health.",
+    "name:3138930916": "Piercing Challenge",
+    "name:3874413868": "Powerful Enrage",
+    "desc:2815351687": "Enrage increases the damage your abilities deal by an additional {1}% and Enrage's duration is increased by {2} sec.",
+    "name:721049762": "Glyph of the Weaponmaster",
+    "desc:1820499721": "Your Recklessness ability causes the appearance of your weapon to change to that of a random weapon from your bag for {1} min.",
+    "name:3668857883": "Safeguard",
+    "desc:638779541": "Intervene now has {1} charges and reduces the ally's damage taken by {2}% for {3} sec.\r\n\r\nIntervene's cooldown is increased by {4} sec.",
+    "name:1022382544": "Block",
+    "name:978684738": "Storm Bolts",
+    "desc:3347538765": "Storm Bolt also hits {1} additional nearby [plural|Target|targets], stunning them for {2} sec, but its cooldown is increased by {3} sec.",
+    "name:2281508089": "Fierce Followthrough",
+    "desc:1943092216": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by {1}%.",
+    "name:106082565": "Parry",
+    "desc:1505216917": "Gives a chance to parry enemy melee attacks.",
+    "name:569154994": "Frenzied Enrage",
+    "name:1689492942": "One Against Many",
+    "desc:69996179": "Shockwave, Revenge, and Whirlwind deal {1}% more damage per target affected up to {2}.",
+    "name:732715610": "Ground Current",
+    "desc:110596240": "Lightning Strikes also deal {1} to enemies near their target. Damage reduced beyond {2} targets.",
+    "name:693835954": "Champion's Spear",
+    "desc:1140595655": "Throw a spear at the target location, dealing {1} Physical damage instantly and an additional {2} damage over {3} sec. Deals reduced damage beyond {4} targets.\r\n\r\nEnemies hit are chained to the spear's location for the duration.\r\n\r\n{FFFFFFFF|Generates {5} Rage.}",
+    "name:156170348": "Glyph of the Spear of Bastion",
+    "desc:4065509568": "Your Champion's Spear visual is altered to resemble the Spear of Bastion Covenant Ability.",
+    "name:188344919": "Glyph of the Blazing Savior",
+    "desc:1232441517": "Your Intervene leaves a trail of fire in its wake. If you're going to Intervene why not do it with some style?",
+    "name:2615205062": "Glyph Ability",
+    "desc:9390054": "Reduces the cost of Sunder Armor by {1}%.",
+    "name:2839072476": "Dominance of the Colossus",
+    "desc:4284469531": "Colossal Might now stacks up to {1} times. If you would gain a stack of Colossal Might and are at max stacks, the cooldown of Demolish is reduced by {2} sec.\r\n\r\nEnemies affected by Demolish take up to {3}% more damage from you and deal up to {4}% less damage to you for {5} sec based on the number of stacks of Colossal Might consumed by Demolish.",
+    "name:601443740": "Culling Cyclone",
+    "desc:67565102": "Each strike of Bladestorm deals an additional {1}% damage evenly split across all targets.",
+    "name:3320509813": "Death Drive",
+    "desc:2343943247": "You heal for {1}% of damage dealt by Sudden Death.",
+    "name:3373204304": "Colossal Might",
+    "desc:2760916890": "Colossal Might increases damage dealt by your next Demolish by {1}%, stacking up to {2} times.\r\n\r\nShield Slam grants a stack of Colossal Might and Revenge grants a stack of Colossal Might when it strikes {3} or more targets.",
+    "name:371112593": "Show No Mercy",
+    "desc:3224273050": "Marked for Execution increases the critical strike chance and critical strike damage of your next Execute on the target by {1}%.",
+    "name:1754446734": "Earthquaker",
+    "desc:3327913079": "Shockwave also knocks enemies into the air and its cooldown is reduced by {1} sec.",
+    "name:1266137956": "Demolish",
+    "desc:1056342507": "Unleash a series of precise and powerful strikes against your target, dealing {1} damage to it, and {2} damage to enemies within {3} yds of it. Deals reduced damage beyond {4} targets.\r\n\r\nWhile channeling Demolish, you take {5}% less damage and are immune to stuns, knockbacks, and forced movement effects.\r\n\r\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
+    "name:711180196": "Arterial Bleed",
+    "desc:3986290007": "Colossal Might increases the damage of your Rend and Deep Wounds by {1}% per stack.\r\n",
+    "name:2130771782": "Champion's Might",
+    "desc:2500541232": "The duration of Champion's Spear is increased by {1} sec. You deal {2}% increased critical strike damage to targets chained to your Spear.",
+    "name:2101564630": "Glyph of Gushing Wound",
+    "desc:3269762996": "Your Deep Wounds are even bloodier than normal.",
+    "name:2848304448": "Battlefield Commander",
+    "desc:2056063675": "Your Shout abilities have additional effects.\r\n|T132333:24|t {ffffffff|Battle Shout}:\r\nIncreases Stamina by {1}%.\r\n|T136147:24|t {ffffffff|Piercing Howl}:\r\nRadius increased by {2}%\r\n|T136009:24|t {ffffffff|Berserker Shout}:\r\nRange increased by {3} yds.\r\n|T132154:24|t {ffffffff|Intimidating Shout}:\r\nCooldown reduced by {4} sec.\r\n|T132351:24|t {ffffffff|Rallying Cry}:\r\nRemoves movement impairing effects and grants {5}% movement speed to allies.\r\n|T642418:24|t {ffffffff|Thunderous Roar}:\r\nTargets receive {6}% more damage from all sources while bleeding.",
+    "name:3751323149": "Brutal Finish",
+    "desc:2298741886": "Your next Rampage after Bladestorm ends deals {1}% additional damage.",
+    "name:4263506739": "Glyph of Burning Anger",
+    "desc:1674838500": "You get so angry when Enraged that you catch on fire.",
+    "name:2012688542": "Glyph of Hawk Feast",
+    "desc:2766767957": "Your Execute critical strikes summon a flock of carrion birds.",
+    "name:838861605": "Ashen Juggernaut",
+    "desc:1741196708": "Execute increases the critical strike chance of Execute by {1}% for {2} sec, stacking up to {3} times.",
+    "name:1562897270": "Bitter Immunity",
+    "desc:3921566809": "Restores {1}% health instantly and removes all diseases, poisons, and curses affecting you.\r\n",
+    "name:2545344678": "Colossus Smash",
+    "desc:2816970693": "Smashes the enemy's armor, dealing {1} Physical damage and increasing damage you deal to them by {2}% for {3} sec.",
+    "name:1564455079": "Concussive Blows",
+    "desc:469542155": "Cooldown of Pummel reduced by {1} sec. \r\n\r\nSuccessfully interrupting an enemy increases the damage you deal to them by {2}% for {3} sec.",
+    "name:46444696": "Dancing Blades",
+    "desc:730423807": "Odyn's Fury increases your auto-attack damage and speed by {1}% for {2} sec.",
+    "name:2493274121": "Demoralizing Shout",
+    "desc:2272834569": "Demoralizes all enemies within {1} yards, reducing the damage they deal to you by {2}% for {3} sec.",
+    "name:3243413539": "Enduring Rage",
+    "desc:77810663": "You have a chance to become Enraged while you are suffering movement impairing effects.\r\n\r\nSuffering loss of control effects have a chance to grant you Recklessness for {1} sec.",
+    "name:1498696531": "Intimidating Shout",
+    "desc:2235453827": "Causes the targeted enemy to cower in fear and up to {1} additional enemies within {2} yards to flee.\r\nTargets are disoriented for {3} sec.",
+    "name:684132399": "Leeching Strikes",
+    "desc:2471889461": "Leech increased by {1}%."
 }

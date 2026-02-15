@@ -1,2190 +1,687 @@
 {
-    "1767429260": {
-        "Name": "Admonishment",
-        "Descriptions": {
-            "3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault."
-        }
-    },
-    "4154302089": {
-        "Name": "Afterlife",
-        "Descriptions": {
-            "1818423101": "When you kill an enemy, you summon a Healing Sphere, healing you for {1} when you walk through it.\r\n\r\nWhen you kill an enemy with Blackout Kick, you have a {2}% chance to summon a Chi Sphere, granting {3} Chi when you walk through it.",
-            "3967043921": "When you kill an enemy with Blackout Kick, you have a {1}% chance to summon a Chi Sphere, granting {2} Chi when you walk through it.",
-            "2004713065": "When you kill an enemy, you summon a Healing Sphere, healing you for {1} when you walk through it.",
-            "1911706237": "When you kill an enemy with Chi Explosion, you have a {1}% chance to summon a Chi Sphere, granting {2} Chi when you walk through it."
-        }
-    },
-    "730982940": {
-        "Name": "Alpha Tiger",
-        "Descriptions": {
-            "4043561551": "Attacking new challengers with Tiger Palm fills you with the spirit of Xuen, granting you {1}% haste for {2} sec. \r\n\r\nThis effect cannot occur more than once every {3} sec per target."
-        }
-    },
-    "3099821981": {
-        "Name": "Ancient Teachings",
-        "Descriptions": {
-            "2350207184": "Your Tiger Palm, Blackout Kick, Rising Sun Kick, and Crackling Jade Lightning heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them."
-        }
-    },
-    "3828832330": {
-        "Name": "Anvil & Stave",
-        "Descriptions": {
-            "476717043": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by {1} sec. Effect reduced for each recent melee attacker."
-        }
-    },
-    "2558355381": {
-        "Name": "Ascension",
-        "Descriptions": {
-            "2592516491": "Increases your maximum Chi by {1}, maximum Energy by {2}, and your Energy regeneration by {3}%."
-        }
-    },
-    "2873553706": {
-        "Name": "Avert Harm",
-        "Descriptions": {
-            "1491368714": "Guard the {1} closest players within {2} yards for {3} sec, allowing you to Stagger {4}% of damage they take."
-        }
-    },
-    "1767084492": {
-        "Name": "Black Ox Brew",
-        "Descriptions": {
-            "3076568915": "Chug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and resets the cooldown of Celestial Brew."
-        }
-    },
-    "1828254972": {
-        "Name": "Blackout Combo",
-        "Descriptions": {
-            "1585181783": "Blackout Kick also empowers your next ability:\r\n\r\nTiger Palm: Damage increased by {1}%.\r\nBreath of Fire: Damage increased by {2}%, and damage reduction increased by {3}%.\r\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\r\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\r\nPurifying Brew: Pauses Stagger damage for {6} sec."
-        }
-    },
-    "2542828828": {
-        "Name": "Blackout Kick",
-        "Descriptions": {
-            "853260792": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces the cooldown of Rising Sun Kick and Fists of Fury by {2} sec when used.",
-            "2356440461": "Kick with a blast of Chi energy, dealing {1} Physical damage.",
-            "1258739707": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.",
-            "677612777": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces Stagger by {2}.",
-            "290692083": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nReduces Stagger by {3}.",
-            "2265813454": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nCritical hits grant an additional {2} [plural|stack|stacks] of Elusive Brawler.",
-            "832023433": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nCritical hits grant an additional {3} [plural|stack|stacks] of Elusive Brawler.",
-            "2756574326": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nReduces Stagger by {2}.\r\n\r\nCritical hits grant an additional {3} [plural|stack|stacks] of Elusive Brawler.",
-            "1488038883": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.\r\n\r\nReduces Stagger by {3}.\r\n\r\nCritical hits grant an additional {4} [plural|stack|stacks] of Elusive Brawler.",
-            "1453519375": "Blackout Kick costs {1} fewer Chi.",
-            "1002479936": "Blackout Kick reduces the cooldown of Rising Sun Kick and Fists of Fury by {1} sec."
-        }
-    },
-    "483199272": {
-        "Name": "Bob and Weave",
-        "Descriptions": {
-            "2064833076": "Increases the duration of Stagger by {1} sec."
-        }
-    },
-    "2628807132": {
-        "Name": "Bounce Back",
-        "Descriptions": {
-            "2661705934": "When a hit deals more than {1}% of your maximum health, reduce all damage you take by {2}% for {3} sec.\r\n\r\nThis effect cannot occur more than once every {4} seconds."
-        }
-    },
-    "2876568155": {
-        "Name": "Breath of Fire",
-        "Descriptions": {
-            "2256475395": "Breathe fire on targets in front of you, causing {1} Fire damage. Deals reduced damage to secondary targets.\r\n\r\nTargets affected by Keg Smash will also burn, taking {2} Fire damage and dealing {3}% reduced damage to you for {4} sec."
-        }
-    },
-    "1187657583": {
-        "Name": "Brewmaster's Balance",
-        "Descriptions": {
-            "2254164822": "Your Armor is increased by {1}% and Stamina increased by {2}%."
-        }
-    },
-    "2576081956": {
-        "Name": "Burst of Life",
-        "Descriptions": {
-            "1027296414": "When Life Cocoon expires, it releases a burst of mist that restores {1} health to {2} nearby allies."
-        }
-    },
-    "1246194013": {
-        "Name": "Call to Arms",
-        "Descriptions": {
-            "2199258901": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox."
-        }
-    },
-    "723651848": {
-        "Name": "Calming Coalescence",
-        "Descriptions": {
-            "2467404058": "The absorb amount of Life Cocoon is increased by {1}%."
-        }
-    },
-    "503337380": {
-        "Name": "Calming Presence",
-        "Descriptions": {
-            "641619896": "Reduces all damage taken by {1}%."
-        }
-    },
-    "767800593": {
-        "Name": "Celerity",
-        "Descriptions": {
-            "2251742275": "Reduces the cooldown of Roll by {1} sec and increases its maximum number of charges by {2}."
-        }
-    },
-    "3048801781": {
-        "Name": "Celestial Brew",
-        "Descriptions": {
-            "3034626527": "A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing {1} damage.\r\n\r\nPurifying Stagger damage increases absorption by up to {2}%."
-        }
-    },
-    "3680645477": {
-        "Name": "Celestial Flames",
-        "Descriptions": {
-            "573581647": "Drinking from Brews has a {1}% chance to coat the Monk with Celestial Flames for {2} sec.\r\n\r\nWhile Celestial Flames is active, Spinning Crane Kick applies Breath of Fire and Breath of Fire reduces the damage affected enemies deal to you by an additional {3}%.\r\n\r\n"
-        }
-    },
-    "752232606": {
-        "Name": "Celestial Fortune",
-        "Descriptions": {
-            "559881562": "You have a chance equal to your critical strike chance to be healed for an additional {1}% of the amount healed."
-        }
-    },
-    "2239613432": {
-        "Name": "Celestial Harmony",
-        "Descriptions": {
-            "2545928798": "While active, Yu'lon and Chi'Ji heal up to {1} nearby targets with Enveloping Breath when you cast Enveloping Mist, healing for {2} over {3} sec, and increasing the healing they receive from you by {4}%.\r\n\r\nWhen activated, Yu'lon and Chi'Ji apply Chi Cocoons to {5} targets within {6} yds, absorbing {7} damage for {8} sec."
-        }
-    },
-    "2936202251": {
-        "Name": "Charred Passions",
-        "Descriptions": {
-            "4056751895": "Your Breath of Fire ignites your right leg in flame for {1} sec, causing your Blackout Kick and Spinning Crane Kick to deal {2}% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target."
-        }
-    },
-    "2557130746": {
-        "Name": "Chi Burst",
-        "Descriptions": {
-            "2324123943": "Your damaging spells and abilities have a chance to activate Chi Burst, allowing you to hurl a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.",
-            "698530777": "Your damaging spells and abilities have a chance to activate Chi Burst, allowing you to hurl a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.\r\n\r\n\r\nCasting Chi Burst does not prevent avoiding attacks.",
-            "2440643047": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.",
-            "536166518": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.\r\n\r\n\r\nCasting Chi Burst does not prevent avoiding attacks."
-        }
-    },
-    "4294034818": {
-        "Name": "Chi Surge",
-        "Descriptions": {
-            "892285242": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T6035314:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec."
-        }
-    },
-    "1869013851": {
-        "Name": "Chi Torpedo",
-        "Descriptions": {
-            "3456660218": "Torpedoes you forward a long distance and increases your movement speed by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "1525168889": {
-        "Name": "Chi Wave",
-        "Descriptions": {
-            "3517313627": "Every {1} sec, your next Rising Sun Kick or Vivify releases a wave of Chi energy that flows through friends and foes, dealing {2} Nature damage or {3} healing. Bounces up to {4} times to targets within {5} yards."
-        }
-    },
-    "3609414445": {
-        "Name": "Chrysalis",
-        "Descriptions": {
-            "2101767638": "Reduces the cooldown of Life Cocoon by {1} sec."
-        }
-    },
-    "2443341738": {
-        "Name": "Clash",
-        "Descriptions": {
-            "2143818511": "You and the target charge each other, meeting halfway then rooting all targets within {1} yards for {2} sec."
-        }
-    },
-    "1394103930": {
-        "Name": "Counteract Magic",
-        "Descriptions": {
-            "768545049": "Removing hostile magic effects from a target increases the healing they receive from you by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "3821277616": {
-        "Name": "Counterstrike",
-        "Descriptions": {
-            "1014017099": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals {1}% increased damage."
-        }
-    },
-    "3920889339": {
-        "Name": "Crackling Jade Lightning",
-        "Descriptions": {
-            "1051493020": "Channel Jade lightning, causing {1} Nature damage over {2} sec to the target and sometimes knocking back melee attackers.",
-            "572165432": "Channel Jade lightning, causing {1} Nature damage over {2} sec to the target, generating {3} Chi each time it deals damage, and sometimes knocking back melee attackers."
-        }
-    },
-    "3589373028": {
-        "Name": "Crane Vortex",
-        "Descriptions": {
-            "1995310243": "Spinning Crane Kick damage increased by {1}% and its radius is increased by {2}%."
-        }
-    },
-    "3847352300": {
-        "Name": "Dampen Harm",
-        "Descriptions": {
-            "3006649440": "Reduces all damage you take by {1}% to {2}% for {3} sec, with larger attacks being reduced by more."
-        }
-    },
-    "251280217": {
-        "Name": "Dance of Chi-Ji",
-        "Descriptions": {
-            "2683096244": "Spending Chi has a chance to make your next Spinning Crane Kick free and deal an additional {1}% damage.",
-            "388523477": "Your spells and abilities have a chance to make your next Spinning Crane Kick deal an additional {1}% damage."
-        }
-    },
-    "4155052222": {
-        "Name": "Dancing Mists",
-        "Descriptions": {
-            "4251354727": "Renewing Mist has a {1}% chance to immediately spread to an additional target when initially cast or when traveling to a new target."
-        }
-    },
-    "698103972": {
-        "Name": "Dematerialize",
-        "Descriptions": {
-            "2514698330": "Demateralize into mist while stunned, reducing damage taken by {1}%. Each second you remain stunned reduces this bonus by {2}%."
-        }
-    },
-    "275028052": {
-        "Name": "Detox",
-        "Descriptions": {
-            "2109379644": "Removes all Magic, Poison, and Disease effects from the target.",
-            "307117818": "Removes all Poison and Disease effects from the target.",
-            "108574395": "Removes all Magic effects from the target."
-        }
-    },
-    "2010191341": {
-        "Name": "Diffuse Magic",
-        "Descriptions": {
-            "469420065": "Reduces magic damage you take by {1}% for {2} sec, and transfers all currently active harmful magical effects on you back to their original caster if possible."
-        }
-    },
-    "2626149684": {
-        "Name": "Disable",
-        "Descriptions": {
-            "663411296": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks. Targets already snared will be rooted for {3} sec instead.",
-            "3793371108": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks.",
-            "831115893": "Disable will root targets that are already snared for {1} sec."
-        }
-    },
-    "1330158045": {
-        "Name": "Dome of Mist",
-        "Descriptions": {
-            "3659738715": "Enveloping Mist transforms {1}% of its remaining periodic healing into a Dome of Mist when dispelled.\r\n\r\n|T1381295:24|t {ffffffff|Dome of Mist}\r\nAbsorbs damage. All healing received by the Monk increased by {2}%. Lasts {3} sec."
-        }
-    },
-    "833132135": {
-        "Name": "Double Barrel",
-        "Descriptions": {
-            "4165266780": "Your next Keg Smash deals {1}% additional damage, and stuns all targets it hits for {2} sec."
-        }
-    },
-    "365402366": {
-        "Name": "Dragonfire Brew",
-        "Descriptions": {
-            "2390165180": "After using Breath of Fire, you breathe fire {1} additional times, each dealing {2} Fire damage.\r\n\r\nBreath of Fire damage increased by up to {3}% based on your level of Stagger."
-        }
-    },
-    "2757815957": {
-        "Name": "Drinking Horn Cover",
-        "Descriptions": {
-            "2514352900": "The duration of Storm, Earth, and Fire is extended by {1} sec for every Chi you spend.",
-            "1918287007": "The duration of Serenity is extended by {1} sec every time you cast a Chi spender."
-        }
-    },
-    "1443383226": {
-        "Name": "Eerie Fermentation",
-        "Descriptions": {
-            "2961790263": "You gain up to {1}% movement speed  and {2}% magical damage reduction based on your current level of Stagger."
-        }
-    },
-    "243480375": {
-        "Name": "Elusive Footwork",
-        "Descriptions": {
-            "853318044": "Blackout Kick deals an additional {1}% damage. Blackout Kick critical hits grant an additional {2} [plural|stack|stacks] of Elusive Brawler."
-        }
-    },
-    "1599852703": {
-        "Name": "Elusive Mists",
-        "Descriptions": {
-            "3950334649": "Reduces all damage taken by you and your target while channeling Soothing Mists by {1}%."
-        }
-    },
-    "905410861": {
-        "Name": "Eminence",
-        "Descriptions": {
-            "993174180": "Transcendence: Transfer can now be cast if you are stunned. Cooldown reduced by {1} sec if you are not."
-        }
-    },
-    "3107484308": {
-        "Name": "Empowered Tiger Lightning",
-        "Descriptions": {
-            "3265996944": "Xuen strikes your enemies with Empowered Tiger Lightning every {1} sec, dealing {2}% of the damage you and your summons have dealt to those targets in the last {3} sec."
-        }
-    },
-    "245416792": {
-        "Name": "Enveloping Mist",
-        "Descriptions": {
-            "2708886241": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%. \r\n\r\nApplies Renewing Mist for {4} seconds to an ally within {5} yds.",
-            "2970670290": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%."
-        }
-    },
-    "1065552982": {
-        "Name": "Escape from Reality",
-        "Descriptions": {
-            "1772397300": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within {1} sec, ignoring its cooldown."
-        }
-    },
-    "476589686": {
-        "Name": "Expeditious Fortification",
-        "Descriptions": {
-            "333539525": "Fortifying Brew cooldown reduced by {1} sec."
-        }
-    },
-    "3881809935": {
-        "Name": "Expel Harm",
-        "Descriptions": {
-            "4115889685": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\r\n\r\n|cFFFFFFFFGenerates {4} Chi.",
-            "2268931682": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.\r\n\r\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm.",
-            "3153927249": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.",
-            "500485100": "Expel Harm benefits from Mastery: Gust of Mists.",
-            "193863355": "Cooldown is reduced by  {1} sec. and draws in the positive chi of all your Healing Spheres to increase the healing done by Expel Harm."
-        }
-    },
-    "4247245257": {
-        "Name": "Exploding Keg",
-        "Descriptions": {
-            "3201768516": "Hurls a flaming keg at the target location, dealing {1} Fire damage to nearby enemies, causing your attacks against them to deal {2} additional Fire damage, and causing their melee attacks to deal {3}% reduced damage for the next {4} sec."
-        }
-    },
-    "3490786159": {
-        "Name": "Face Palm",
-        "Descriptions": {
-            "3726791581": "Tiger Palm has a {1}% chance to deal {2}% of normal damage and reduce the remaining cooldown of your Brews by {3} additional sec."
-        }
-    },
-    "1429282943": {
-        "Name": "Fast Feet",
-        "Descriptions": {
-            "3645151573": "Rising Sun Kick deals {1}% increased damage. Spinning Crane Kick deals {2}% additional damage.\r\n"
-        }
-    },
-    "790235773": {
-        "Name": "Fatal Touch",
-        "Descriptions": {
-            "1369584408": "Touch of Death increases your damage by {1}% for {2} sec after being cast and its cooldown is reduced by {3} sec."
-        }
-    },
-    "2059829877": {
-        "Name": "Ferocity of Xuen",
-        "Descriptions": {
-            "2897234743": "Increases all damage dealt by {1}%."
-        }
-    },
-    "2755251932": {
-        "Name": "Fists of Fury",
-        "Descriptions": {
-            "4091719208": "Pummels all targets in front of you, dealing {1} Physical damage to your primary target and {2} damage to all other enemies over {3} sec. Deals reduced damage beyond {4} targets. Can be channeled while moving."
-        }
-    },
-    "4246138201": {
-        "Name": "Fluidity of Motion",
-        "Descriptions": {
-            "3359673725": "Blackout Kick's cooldown is reduced by {1} sec and its damage is reduced by {2}%."
-        }
-    },
-    "2997177972": {
-        "Name": "Flying Serpent Kick",
-        "Descriptions": {
-            "1856288456": "Soar forward through the air at high speed for {1} sec.\r\n \r\nIf used again while active, you will land, reducing the movement speed of enemies within {2} yds by {3}% for {4} sec.",
-            "778878691": "Reduces the cooldown of Flying Serpent Kick by {1} sec."
-        }
-    },
-    "3591541482": {
-        "Name": "Focused Thunder",
-        "Descriptions": {
-            "3142949225": "Thunder Focus Tea now empowers your next {1} spells."
-        }
-    },
-    "1584386768": {
-        "Name": "Fortifying Brew",
-        "Descriptions": {
-            "336560320": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%.",
-            "795528331": "Turns your skin to stone for {1} sec.",
-            "4431676": "Turns your skin to stone for {1} sec, increasing the effectiveness of Stagger by {2}%.",
-            "4055524687": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, increasing the effectiveness of Stagger by {3}%, reducing all damage you take by {4}%."
-        }
-    },
-    "562086068": {
-        "Name": "Fortifying Brew: Determination",
-        "Descriptions": {
-            "342789103": "Fortifying Brew increases Stagger effectiveness by {1}% while active.\r\n\r\nCombines with other Fortifying Brew effects."
-        }
-    },
-    "342241525": {
-        "Name": "Fury of Xuen",
-        "Descriptions": {
-            "255857883": "Your Combo Strikes grant a stacking {1}% chance for your next Fists of Fury to grant {2}% critical strike, haste, and mastery and invoke Xuen, The White Tiger for {3} sec."
-        }
-    },
-    "4271202819": {
-        "Name": "Gai Plin's Imperial Brew",
-        "Descriptions": {
-            "694563488": "Purifying Brew instantly heals you for {1}% of the purified Stagger damage."
-        }
-    },
-    "2782891578": {
-        "Name": "Gift of the Celestials",
-        "Descriptions": {
-            "1228017480": "Reduces the cooldown of Invoke Yul'on, the Jade Serpent by {1} min, but decreases its duration to {2} sec.",
-            "889883022": "Reduces the cooldown of Invoke Chi-Ji, the Red Crane by {1} min, but decreases its duration to {2} sec."
-        }
-    },
-    "1246240994": {
-        "Name": "Gift of the Ox",
-        "Descriptions": {
-            "1116487252": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
-        }
-    },
-    "1171324125": {
-        "Name": "Glory of the Dawn",
-        "Descriptions": {
-            "3367207056": "Rising Sun Kick has a chance equal to {1}% of your haste to trigger a second time, dealing {2} Physical damage and restoring {3} Chi."
-        }
-    },
-    "2455519422": {
-        "Name": "Grace of the Crane",
-        "Descriptions": {
-            "3086306179": "Increases all healing taken by {1}%."
-        }
-    },
-    "171302720": {
-        "Name": "Grapple Weapon",
-        "Descriptions": {
-            "2206225839": "You fire off a rope spear, grappling the target's weapons and shield, returning them to you for {1} sec."
-        }
-    },
-    "3118449881": {
-        "Name": "Guided Meditation",
-        "Descriptions": {
-            "1926409511": "The cooldown of Zen Meditation is reduced by {1}%. While Zen Meditation is active, all harmful spells cast against your allies within {2} yards are redirected to you.\r\n\r\nZen Meditation is no longer cancelled when being struck by a melee attack."
-        }
-    },
-    "3535067677": {
-        "Name": "Hardened Soles",
-        "Descriptions": {
-            "2008225679": "Blackout Kick critical strike chance increased by {1}% and critical damage increased by {2}%."
-        }
-    },
-    "1926354252": {
-        "Name": "Hasty Provocation",
-        "Descriptions": {
-            "1239213049": "Provoked targets move towards you at {1}% increased speed."
-        }
-    },
-    "2806636092": {
-        "Name": "Healing Elixir",
-        "Descriptions": {
-            "2921602519": "You consume a healing elixir when you drop below {1}% health or generate excess healing elixirs, instantly healing you for {2}% of your maximum health.\r\n\r\nYou generate {3} healing elixir every {4} sec, stacking up to {5} times."
-        }
-    },
-    "2109617130": {
-        "Name": "Healing Sphere",
-        "Descriptions": {
-            "3497109422": "Coalesces a Healing Sphere out of the mists at the target location after {1} sec. If allies walk through it, they consume the sphere, healing themselves for {2} and dispelling all harmful periodic magic effects.\r\n\r\nMaximum of {3} Healing Spheres can be active by the Monk at any given time."
-        }
-    },
-    "3385156939": {
-        "Name": "High Tolerance",
-        "Descriptions": {
-            "3402834685": "Stagger is {1}% more effective at delaying damage.\r\n\r\nYou gain up to {2}% Haste based on your current level of Stagger."
-        }
-    },
-    "1196379030": {
-        "Name": "Hit Combo",
-        "Descriptions": {
-            "2597551238": "Each successive attack that triggers Combo Strikes in a row grants {1}% increased damage, stacking up to {2} times."
-        }
-    },
-    "4181317877": {
-        "Name": "Hit Scheme",
-        "Descriptions": {
-            "4133002995": "Dealing damage with Blackout Kick increases the damage of your next Keg Smash by {1}%, stacking up to {2} times."
-        }
-    },
-    "1519417628": {
-        "Name": "Hot Trub",
-        "Descriptions": {
-            "1903002216": "Purifying Brew deals {1}% of cleared damage split among nearby enemies. After clearing {2}% of your maximum health in Stagger damage, your next Breath of Fire incapacitates targets for {3} sec."
-        }
-    },
-    "2665647329": {
-        "Name": "Improved Detox",
-        "Descriptions": {
-            "3983054586": "Detox additionally removes all Poison and Disease effects."
-        }
-    },
-    "2603604467": {
-        "Name": "Improved Invoke Niuzao, the Black Ox",
-        "Descriptions": {
-            "3587438816": "While Niuzao is active, Purifying Brew increases the damage of Niuzao's next Stomp, based on Stagger level."
-        }
-    },
-    "1452423292": {
-        "Name": "Improved Touch of Death",
-        "Descriptions": {
-            "2087710098": "Touch of Death can now be used on targets with less than {1}% health remaining, dealing {2}% of your maximum health in damage."
-        }
-    },
-    "3433775569": {
-        "Name": "Improved Vivify",
-        "Descriptions": {
-            "1444037249": "Vivify healing is increased by {1}%."
-        }
-    },
-    "4101088855": {
-        "Name": "Inner Peace",
-        "Descriptions": {
-            "1455749136": "Increases maximum Energy by {1}. Tiger Palm's Energy cost reduced by {2}."
-        }
-    },
-    "604748822": {
-        "Name": "Invigorating Mists",
-        "Descriptions": {
-            "340715851": "Vivify heals all allies with your Renewing Mist active for {1}, reduced beyond {2} allies.\r\n"
-        }
-    },
-    "727617542": {
-        "Name": "Invoke Chi-Ji, the Red Crane",
-        "Descriptions": {
-            "3776549815": "Summon an effigy of Chi-Ji for {1} sec that kicks up {2} Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {3} allies for {4}, and reducing the cost and cast time of your next Enveloping Mist by {5}%, stacking.\r\n\r\nChi-Ji's presence makes you immune to movement impairing effects."
-        }
-    },
-    "1106917879": {
-        "Name": "Invoke Niuzao, the Black Ox",
-        "Descriptions": {
-            "3412009469": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies.\r\n\r\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao.",
-            "2520880525": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies, increased based on your recently purified Stagger.\r\n\r\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao."
-        }
-    },
-    "3177357260": {
-        "Name": "Invoke Xuen, the White Tiger",
-        "Descriptions": {
-            "757794975": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage.\r\n\r\nEvery {6} sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing {7}% of the damage you have dealt to those targets in the last {8} sec."
-        }
-    },
-    "2669135799": {
-        "Name": "Invoke Yu'lon, the Jade Serpent",
-        "Descriptions": {
-            "1570766535": "Summons an effigy of Yu'lon, the Jade Serpent for {1} sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to {2} allies for {3} over {4} sec. \r\n\r\nEnveloping Mist costs {5}% less mana while Yu'lon is active."
-        }
-    },
-    "2639963769": {
-        "Name": "Invoker's Delight",
-        "Descriptions": {
-            "3171520164": "You gain {1}% haste for {2} sec after summoning your Celestial."
-        }
-    },
-    "1892324704": {
-        "Name": "Ironshell Brew",
-        "Descriptions": {
-            "2682847486": "Increases your maximum health by an additional {1}% and your damage taken is reduced by an additional {2}% while Fortifying Brew is active."
-        }
-    },
-    "3297067060": {
-        "Name": "Jade Bond",
-        "Descriptions": {
-            "2995887631": "Chi Cocoons now apply Enveloping Mist for {1} sec when they expire or are consumed, and Chi-Ji's Gusts of Mists healing is increased by {2}% and Yu'lon's Soothing Breath healing is increased by {3}%."
-        }
-    },
-    "295195145": {
-        "Name": "Jade Ignition",
-        "Descriptions": {
-            "1617248815": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\r\n\r\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} Nature damage to all enemies within {3} yards, reduced beyond {4} targets. The damage is increased by {5}% for each stack of Chi Energy."
-        }
-    },
-    "3890562055": {
-        "Name": "Keg Smash",
-        "Descriptions": {
-            "1493508169": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.\r\n\r\nGrants Shuffle for {6} sec and reduces the remaining cooldown on your Brews by {7} sec.",
-            "2639544007": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets."
-        }
-    },
-    "3145225052": {
-        "Name": "Last Emperor's Capacitor",
-        "Descriptions": {
-            "1002153059": "Chi spenders increase the damage of your next Crackling Jade Lightning by {1}% and reduce its cost by {2}%, stacking up to {3} times."
-        }
-    },
-    "2186440539": {
-        "Name": "Leg Sweep",
-        "Descriptions": {
-            "2563209942": "Knocks down all enemies within {1} yards, stunning them for {2} sec."
-        }
-    },
-    "1551368115": {
-        "Name": "Legacy of Wisdom",
-        "Descriptions": {
-            "3552132001": "Sheilun's Gift heals {1} additional allies and its cast time is reduced by {2} sec."
-        }
-    },
-    "2895542249": {
-        "Name": "Life Cocoon",
-        "Descriptions": {
-            "733924206": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%.",
-            "1260326463": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%.\r\n\r\nApplies Renewing Mist and Enveloping Mist to the target."
-        }
-    },
-    "16556100": {
-        "Name": "Lifecycles",
-        "Descriptions": {
-            "3280652003": "Vivify has a {1}% chance to cause your next Rising Sun Kick or Enveloping Mist to generate {2} stack of Mana Tea.\r\n\r\nEnveloping Mist and Rising Sun Kick have a {3}% chance to cause your next Vivify to generate {4} stack of Mana Tea."
-        }
-    },
-    "984078722": {
-        "Name": "Light Brewing",
-        "Descriptions": {
-            "3046190262": "Reduces the cooldown of Purifying Brew and Celestial Brew by {1}%."
-        }
-    },
-    "3965331029": {
-        "Name": "Mana Tea",
-        "Descriptions": {
-            "984289439": "For every {1} Mana you spend, you gain {2} stack of Mana Tea, with a chance equal to your critical strike chance to generate {3} extra stack.\r\n\r\n|T608949:24|t{ffffffff|Mana Tea}:\r\nConsumes {4} stack of Mana Tea per {5} sec to restore {6} Mana and reduces the Mana cost of your spells by {7}% for {8} sec per stack of Mana Tea consumed after drinking.\r\n\r\nCan be cast while moving, but movement speed is reduced by {9}% while channeling."
-        }
-    },
-    "1373608446": {
-        "Name": "Mark of the Crane",
-        "Descriptions": {
-            "1240598300": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. \r\n\r\nStacks up to {3} times and only applies to the primary target of each effect."
-        }
-    },
-    "1554332813": {
-        "Name": "Mastery: Combo Strikes",
-        "Descriptions": {
-            "680545719": "Your abilities deal {1}% more damage when they are not a repeat of the previous ability."
-        }
-    },
-    "2053981949": {
-        "Name": "Mastery: Elusive Brawler",
-        "Descriptions": {
-            "3698917811": "Each time you are hit by a melee attack, or hit with Blackout Kick, you gain stacking {1}% increased Dodge chance until your next successful Dodge.\r\n\r\nAlso increases your attack power by {2}%."
-        }
-    },
-    "1503892254": {
-        "Name": "Mastery: Gust of Mists",
-        "Descriptions": {
-            "751180634": "Renewing Mist, Enveloping Mist, Rising Sun Kick, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "4228645637": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "2507923745": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3202538526": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "1027486152": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "371998049": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "297614652": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "4156557566": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "2238581": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3988221937": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3192771981": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3842358050": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "604265851": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "336858246": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "477506552": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "2725847244": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3499423180": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "22658730": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "229257303": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "1350089374": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "4049229421": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "3675699377": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "568030454": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "199600907": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
-            "2226448999": "Renewing Mist, Enveloping Mist, Rising Sun Kick, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1596788329": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2977713766": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1874486326": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2996152234": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "401473599": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3811787403": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "497013222": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2733019000": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "434461680": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3148800369": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2265171823": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "526857885": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3766885049": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1707923536": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2726678533": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "4158838142": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "1240076359": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "46444292": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3417133534": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "2074545179": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "3235210952": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Revival, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "959614438": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing.",
-            "392228513": "Renewing Mist, Enveloping Mist, Rising Sun Kick, Expel Harm, Restoral, Sheilun's Gift, Jadefire Stomp and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.\r\n\r\nGust of Mists has a {2}% chance to do {3}% more healing."
-        }
-    },
-    "2476497048": {
-        "Name": "Mending Proliferation",
-        "Descriptions": {
-            "2478941165": "Each time Enveloping Mist heals, its healing bonus has a {1}% chance to spread to an injured ally within {2} yds."
-        }
-    },
-    "993340751": {
-        "Name": "Meridian Strikes",
-        "Descriptions": {
-            "1523373278": "When you Combo Strike, the cooldown of Touch of Death is reduced by {1} sec.\r\n\r\nTouch of Death deals an additional {2}% damage."
-        }
-    },
-    "787251177": {
-        "Name": "Microbrew",
-        "Descriptions": {
-            "2026551640": "Reduces the cooldown of Fortifying Brew by {1}%."
-        }
-    },
-    "1004177551": {
-        "Name": "Mighty Ox Kick",
-        "Descriptions": {
-            "4025099460": "You perform a Mighty Ox Kick, hurling your enemy a distance behind you."
-        }
-    },
-    "1578054184": {
-        "Name": "Mist Wrap",
-        "Descriptions": {
-            "2358651875": "Increases Enveloping Mist's duration by {1} sec and its healing bonus by {2}%."
-        }
-    },
-    "69144552": {
-        "Name": "Mists of Life",
-        "Descriptions": {
-            "420182374": "Life Cocoon applies Renewing Mist and Enveloping Mist to the target. "
-        }
-    },
-    "2069818759": {
-        "Name": "Misty Peaks",
-        "Descriptions": {
-            "2873285864": "Renewing Mist's heal over time effect has a {1}% chance to apply Enveloping Mist for {2} sec."
-        }
-    },
-    "366194480": {
-        "Name": "Mystic Touch",
-        "Descriptions": {
-            "3019281822": "Your damage weakens the target, increasing Physical damage taken by {1}%."
-        }
-    },
-    "182389045": {
-        "Name": "Nimble Brew",
-        "Descriptions": {
-            "916069149": "Douse allies in the targeted area with Nimble Brew, preventing the next full loss of control effect within {1} sec."
-        }
-    },
-    "3415282085": {
-        "Name": "Niuzao's Essence",
-        "Descriptions": {
-            "538911070": "Drinking a Purifying Brew will dispel all snares affecting you."
-        }
-    },
-    "2581439491": {
-        "Name": "Overflowing Mists",
-        "Descriptions": {
-            "2367185697": "Your Enveloping Mists heal the target for {1}% of their maximum health each time they take direct damage."
-        }
-    },
-    "2027956544": {
-        "Name": "Paralysis",
-        "Descriptions": {
-            "1590652786": "Incapacitates the target for {1} min. Limit {2}. Damage may cancel the effect."
-        }
-    },
-    "2427519294": {
-        "Name": "Peaceful Mending",
-        "Descriptions": {
-            "2379217276": "Allies targeted by Soothing Mist receive {1}% more healing from your Enveloping Mist and Renewing Mist effects."
-        }
-    },
-    "3264640421": {
-        "Name": "Peaceweaver",
-        "Descriptions": {
-            "2809361546": "Revival's cooldown is reduced by {1}%, and provides immunity to magical damage and harmful effects for {2} sec.",
-            "1439953726": "Restoral's cooldown is reduced by {1}%, and provides immunity to magical damage and harmful effects for {2} sec."
-        }
-    },
-    "635431432": {
-        "Name": "Perpetual Paralysis",
-        "Descriptions": {
-            "2338696740": "Paralysis range reduced by {1} yards, but spreads to {2} new enemies when removed."
-        }
-    },
-    "2052048850": {
-        "Name": "Pressure Points",
-        "Descriptions": {
-            "408969171": "Paralysis now removes all Enrage effects from its target."
-        }
-    },
-    "436733006": {
-        "Name": "Pretense of Instability",
-        "Descriptions": {
-            "2286107283": "Activating Purifying Brew or Celestial Brew grants you {1}% dodge for {2} sec."
-        }
-    },
-    "2096734770": {
-        "Name": "Profound Rebuttal",
-        "Descriptions": {
-            "3451934157": "Expel Harm's critical healing is increased by {1}%."
-        }
-    },
-    "3747036995": {
-        "Name": "Provoke",
-        "Descriptions": {
-            "1326023168": "Taunts the target to attack you.\r\n\r\nThis ability can be targeted on your Statue of the Black Ox, causing the same effect on all enemies within  {1} yards of the statue.",
-            "4177245906": "Taunts the target to attack you.",
-            "3471203226": "Taunts the target to attack you and causes them to move toward you at {1}% increased speed.",
-            "823755889": "Taunts the target to attack you and causes them to move toward you at {1}% increased speed.\r\n\r\nThis ability can be targeted on your Statue of the Black Ox, causing the same effect on all enemies within  {2} yards of the statue."
-        }
-    },
-    "3072520462": {
-        "Name": "Purifying Brew",
-        "Descriptions": {
-            "713901619": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nInstantly heals you for {2}% of the damage cleared.",
-            "114557222": "Clears {1}% of your damage delayed with Stagger.",
-            "1956447712": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger",
-            "1966230532": "Clears {1}% of your damage delayed with Stagger.\r\n\r\nIncreases the absorption of your next Celestial Brew by up to {2}%, based on your current level of Stagger\r\n\r\nInstantly heals you for {3}% of the damage cleared."
-        }
-    },
-    "1338007360": {
-        "Name": "Quick Sip",
-        "Descriptions": {
-            "3015321332": "Purify {1}% of your Staggered damage each time you gain {2} sec of Shuffle duration."
-        }
-    },
-    "2712167213": {
-        "Name": "Rapid Diffusion",
-        "Descriptions": {
-            "2833316154": "Rising Sun Kick and Enveloping Mist apply Renewing Mist for {1} seconds to an ally within {2} yds."
-        }
-    },
-    "1685329104": {
-        "Name": "Reawaken",
-        "Descriptions": {
-            "2498035695": "Returns all dead party members to life with {1}% of maximum health and mana. Cannot be cast when in combat."
-        }
-    },
-    "1245385930": {
-        "Name": "Refreshing Jade Wind",
-        "Descriptions": {
-            "3794209272": "Thunder Focus Tea summons a whirling tornado around you, causing {1} healing every {2} sec for {3} sec on to up to {4} allies within {5} yards.\r\n"
-        }
-    },
-    "1645762062": {
-        "Name": "Renewing Mist",
-        "Descriptions": {
-            "4255535570": "Surrounds the target with healing mists, restoring {1} health over {2} sec.\r\n\r\nIf Renewing Mist heals a target past maximum health, it will travel to another injured ally within {3} yds.",
-            "3164279028": "Surrounds the target with healing mists, restoring {1} health over {2} sec.\r\n\r\nIf Renewing Mist heals a target past maximum health, it will travel to another injured ally within {3} yds.\r\n\r\nEach time Renewing Mist heals, it has a {4}% chance to increase the healing of your next Vivify by {5}%."
-        }
-    },
-    "912848286": {
-        "Name": "Resplendent Mist",
-        "Descriptions": {
-            "2905439965": "Gust of Mists has a {1}% chance to do {2}% more healing."
-        }
-    },
-    "3081902551": {
-        "Name": "Restoral",
-        "Descriptions": {
-            "1808217728": "Heals all party and raid members within {1} yds for {2} and clears them of all harmful Poison and Disease effects. \r\n\r\nCastable while stunned.\r\n\r\nHealing reduced beyond {3} targets."
-        }
-    },
-    "3671463925": {
-        "Name": "Resuscitate",
-        "Descriptions": {
-            "1687996261": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Cannot be cast when in combat."
-        }
-    },
-    "2462458558": {
-        "Name": "Reverse Harm",
-        "Descriptions": {
-            "3018438640": "Increases the healing done by Expel Harm by {1}%."
-        }
-    },
-    "2441366323": {
-        "Name": "Revival",
-        "Descriptions": {
-            "1933812909": "Heals all party and raid members within {1} yds for {2} and clears them of {3} harmful Magic, all Poison, and all Disease effects.\r\n\r\nHealing reduced beyond {4} targets."
-        }
-    },
-    "3361066692": {
-        "Name": "Ride the Wind",
-        "Descriptions": {
-            "535962089": "Flying Serpent Kick clears all snares from you when used and forms a path of wind in its wake, causing all allies who stand in it to have {1}% increased movement speed and to be immune to movement slowing effects."
-        }
-    },
-    "932176335": {
-        "Name": "Ring of Peace",
-        "Descriptions": {
-            "3130185205": "Form a Ring of Peace at the target location for {1} sec. Enemies that enter will be ejected from the Ring."
-        }
-    },
-    "3941082952": {
-        "Name": "Rising Mist",
-        "Descriptions": {
-            "1747951926": "Rising Sun Kick heals all allies with your Renewing Mist and Enveloping Mist for {1}, and extends those effects by {2} sec, up to {3}% of their original duration."
-        }
-    },
-    "2066904112": {
-        "Name": "Rising Star",
-        "Descriptions": {
-            "3177451441": "Rising Sun Kick damage increased by {1}% and critical strike damage increased by {2}%."
-        }
-    },
-    "1846535493": {
-        "Name": "Rising Sun Kick",
-        "Descriptions": {
-            "836831240": "Kick upwards, dealing {1} Physical damage, and reducing the effectiveness of healing on the target for {2} sec.",
-            "2610936800": "Kick upwards, dealing {1} Physical damage.\r\n\r\nApplies Renewing Mist for {2} seconds to an ally within {3} yds",
-            "1117402162": "Kick upwards, dealing {1} Physical damage."
-        }
-    },
-    "3531058191": {
-        "Name": "Rodeo",
-        "Descriptions": {
-            "4099174550": "Every {1} sec while Clash is off cooldown, your next Clash can be reactivated immediately to wildly Clash an additional enemy. This effect can stack up to {2} times."
-        }
-    },
-    "3883618640": {
-        "Name": "Roll",
-        "Descriptions": {
-            "640043028": "Roll a short distance."
-        }
-    },
-    "666123584": {
-        "Name": "Rushing Jade Wind",
-        "Descriptions": {
-            "2998363054": "Summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. Deals reduced damage beyond {4} targets.",
-            "714313003": "Strike of the Windlord summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. \r\n\r\nDeals reduced damage beyond {4} targets."
-        }
-    },
-    "2083684303": {
-        "Name": "Sal'salabim's Strength",
-        "Descriptions": {
-            "3180937604": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset."
-        }
-    },
-    "291946365": {
-        "Name": "Save Them All",
-        "Descriptions": {
-            "3119901925": "When your healing spells heal an ally whose health is below {1}% maximum health, you gain an additional {2}% healing for the next {3} sec."
-        }
-    },
-    "3543920177": {
-        "Name": "Scalding Brew",
-        "Descriptions": {
-            "522692007": "Keg Smash deals an additional {1}% damage to targets affected by Breath of Fire."
-        }
-    },
-    "1760367193": {
-        "Name": "Secret Infusion",
-        "Descriptions": {
-            "1474018522": "After using Thunder Focus Tea, your next spell gives {1}% of a stat for {2} sec:\r\n{ffffffff|Enveloping Mist}: Critical strike\r\n{ffffffff|Renewing Mist}: Haste\r\n{ffffffff|Vivify}: Mastery\r\n{ffffffff|Rising Sun Kick}: Versatility\r\n{ffffffff|Expel Harm}: Versatility"
-        }
-    },
-    "284654401": {
-        "Name": "Shadowboxing Treads",
-        "Descriptions": {
-            "2273580991": "Blackout Kick's damage increased by {1}% and it strikes an additional {2} targettargets.",
-            "4055563484": "Blackout Kick damage increased by {1}% and strikes an additional {2} targettargets at {3}% effectiveness."
-        }
-    },
-    "2183596996": {
-        "Name": "Shaohao's Lessons",
-        "Descriptions": {
-            "1219450825": "Each time you cast Sheilun's Gift, you learn one of Shaohao's Lessons for up to {1} sec, with the duration based on how many clouds of mist are consumed.\r\n\r\n{ffffffff|Lesson of Doubt}: Your spells and abilities deal up to {2}% more healing and damage to targets, based on their current health.\r\n\r\n{ffffffff|Lesson of Despair}: Your Critical Strike is increased by {3}% while above {4}% health.\r\n\r\n{ffffffff|Lesson of Fear}: Decreases your damage taken by {5}% and increases your Haste by {6}%.\r\n\r\n{ffffffff|Lesson of Anger}: {7}% of the damage or healing you deal is duplicated every {8} sec."
-        }
-    },
-    "1813370479": {
-        "Name": "Sheilun's Gift",
-        "Descriptions": {
-            "856227294": "Draws in all nearby clouds of mist, healing the friendly target and up to {1} nearby allies for {2} per cloud absorbed.\r\n\r\nA cloud of mist is generated every {3} sec while in combat.",
-            "900945038": "Draws in all nearby clouds of mist, healing the friendly target for {1} per cloud absorbed.\r\n\r\nA cloud of mist is generated every {2} sec while in combat."
-        }
-    },
-    "176273904": {
-        "Name": "Shuffle",
-        "Descriptions": {
-            "673921744": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by {1}%.\r\n\r\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick."
-        }
-    },
-    "3960780120": {
-        "Name": "Song of Chi-Ji",
-        "Descriptions": {
-            "250364823": "Conjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for {1} sec."
-        }
-    },
-    "1597503897": {
-        "Name": "Soothing Mist",
-        "Descriptions": {
-            "2676602647": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.",
-            "3174019964": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
-            "3613860365": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.",
-            "4193078222": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.",
-            "563251222": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "1797065590": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "361664731": "Heals the target for {1} over {2} sec.\r\n\r\nWhile channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel.",
-            "1403257293": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.",
-            "3393384504": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
-            "1506332319": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
-            "2835051784": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.",
-            "3290206169": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "447270234": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "2562697306": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "3535091036": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "725713845": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed.",
-            "148430844": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist, Surging Mist,, Zen Pulse, and Vivify may be cast instantly on the target.\r\n\r\nEach heal has a chance to cause a Gust of Mists on the target.\r\n\r\nSoothing Mist heals a second injured ally within {3} yds for {4}% of the amount healed."
-        }
-    },
-    "612499249": {
-        "Name": "Spear Hand Strike",
-        "Descriptions": {
-            "1747978994": "Jabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for {1} sec."
-        }
-    },
-    "170112933": {
-        "Name": "Special Delivery",
-        "Descriptions": {
-            "738687122": "Drinking from your Brews has a {1}% chance to toss a keg high into the air that lands nearby after {2} sec, dealing {3} damage to all enemies within {4} yards and reducing their movement speed by {5}% for {6} sec."
-        }
-    },
-    "93644259": {
-        "Name": "Spinning Crane Kick",
-        "Descriptions": {
-            "1310999339": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to all enemies within {3} yds. Deals reduced damage beyond {4} targets.\r\n\r\nSpinning Crane Kick's damage is increased by {5}% for each unique target you've struck in the last {6} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. Stacks up to {7} times.",
-            "4103592572": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to all enemies within {3} yds. Deals reduced damage beyond {4} targets.",
-            "2317706654": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds. \r\n\r\nDealing damage with Spinning Crane Kick grants Shuffle for {4} sec, and your Healing Spheres travel towards you.",
-            "1405186088": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds.",
-            "1291298083": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick."
-        }
-    },
-    "2983491198": {
-        "Name": "Spirit of the Ox",
-        "Descriptions": {
-            "44109193": "Rising Sun Kick and Blackout Kick have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}."
-        }
-    },
-    "3472454607": {
-        "Name": "Spiritual Focus",
-        "Descriptions": {
-            "3950401786": "Every {1} Chi you spend reduces the cooldown of Storm, Earth, and Fire by {2} sec.",
-            "1879891334": "Every {1} Chi you spend reduces the cooldown of Serenity by {2} sec."
-        }
-    },
-    "3615005538": {
-        "Name": "Stagger",
-        "Descriptions": {
-            "2456518148": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness.",
-            "2749374960": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness.\r\n\r\nGain up to {3}% Mastery based on your current level of Stagger."
-        }
-    },
-    "2951368125": {
-        "Name": "Staggering Strikes",
-        "Descriptions": {
-            "1059265773": "When you Blackout Kick, your Stagger is reduced by {1}."
-        }
-    },
-    "1589891751": {
-        "Name": "Storm, Earth, and Fire",
-        "Descriptions": {
-            "4053677989": "Split into {1} elemental spirits for {2} sec, each spirit dealing {3}% of normal damage and healing.\r\n\r\nYou directly control the Storm spirit, while Earth and Fire spirits mimic your attacks on nearby enemies.\r\n\r\nWhile active, casting Storm, Earth, and Fire again will cause the spirits to fixate on your target."
-        }
-    },
-    "3357770263": {
-        "Name": "Stormstout's Last Keg",
-        "Descriptions": {
-            "2646651811": "Keg Smash deals {1}% additional damage, and has {2} additional charges."
-        }
-    },
-    "2315583895": {
-        "Name": "Strength of Spirit",
-        "Descriptions": {
-            "1603082621": "Expel Harm's healing is increased by up to {1}%, based on your missing health."
-        }
-    },
-    "3231077305": {
-        "Name": "Strike of the Windlord",
-        "Descriptions": {
-            "2263286580": "Strike with both fists at all enemies in front of you, dealing {1} Physical damage and reducing movement speed by {2}% for {3} sec."
-        }
-    },
-    "3248153824": {
-        "Name": "Summon Black Ox Statue",
-        "Descriptions": {
-            "3018880685": "Summons a Black Ox Statue at the target location for {1} min, pulsing threat to all enemies within {2} yards.\r\n\r\nYou may cast Provoke on the statue to taunt all enemies near the statue."
-        }
-    },
-    "4195199758": {
-        "Name": "Summon Jade Serpent Statue",
-        "Descriptions": {
-            "818511396": "Summons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for {1} over {2} sec."
-        }
-    },
-    "105903989": {
-        "Name": "Summon White Tiger Statue",
-        "Descriptions": {
-            "1000249988": "Invoking Xuen, the White Tiger also spawns a White Tiger Statue at your location that pulses {1} damage to all enemies every {2} sec for {3} sec."
-        }
-    },
-    "2162679004": {
-        "Name": "Tea of Plenty",
-        "Descriptions": {
-            "2074446906": "Thunder Focus Tea also empowers {1} additional Enveloping Mist, Expel Harm, or Rising Sun Kick at random."
-        }
-    },
-    "1600640355": {
-        "Name": "Tea of Serenity",
-        "Descriptions": {
-            "477184336": "Thunder Focus Tea also empowers {1} additional Renewing Mist, Enveloping Mist, or Vivify at random."
-        }
-    },
-    "3568561580": {
-        "Name": "Teachings of the Monastery",
-        "Descriptions": {
-            "4277603321": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\r\n\r\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.",
-            "1610462041": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\r\n\r\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.\r\n\r\nEach additional Blackout Kick restores {3}% mana."
-        }
-    },
-    "966012304": {
-        "Name": "Tear of Morning",
-        "Descriptions": {
-            "346809849": "Casting Vivify or Enveloping Mist on a target with Renewing Mist has a {1}% chance to spread the Renewing Mist to another target.\r\n\r\nYour Vivify healing through Renewing Mist is increased by {2}% and your Enveloping Mist also heals allies with Renewing Mist for {3}% of its healing."
-        }
-    },
-    "3003412138": {
-        "Name": "Thunder Focus Tea",
-        "Descriptions": {
-            "2725883167": "Receive a jolt of energy, empowering your next {1} spells cast:\r\n\r\n{ffffffff|Enveloping Mist}: Immediately heals for {2} and is instant cast.\r\n{ffffffff|Renewing Mist}: Duration increased by {3} sec.\r\n{ffffffff|Vivify}: No mana cost.\r\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {4} sec.\r\n{ffffffff|Expel Harm}: Transfers {5}% additional healing into damage and creates a Chi Cocoon absorbing {6} damage. \r\n{ffffffff|Crackling Jade Lightning}: Knockback applied immediately.\r\n{ffffffff|Roll}: Refund a charge and heal yourself for {7}.",
-            "1658471569": "Receive a jolt of energy, empowering your next spell cast:\r\n\r\n{ffffffff|Enveloping Mist}: Immediately heals for {1} and is instant cast.\r\n{ffffffff|Renewing Mist}: Duration increased by {2} sec.\r\n{ffffffff|Vivify}: No mana cost.\r\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {3} sec.\r\n{ffffffff|Expel Harm}: Transfers {4}% additional healing into damage and creates a Chi Cocoon absorbing {5} damage. \r\n{ffffffff|Crackling Jade Lightning}: Knockback applied immediately.\r\n{ffffffff|Roll}: Refund a charge and heal yourself for {6}.",
-            "580637546": "Receive a jolt of energy, empowering your next {1} spells cast:\r\n\r\n{ffffffff|Enveloping Mist}: Immediately heals for {2} and is instant cast.\r\n{ffffffff|Renewing Mist}: Duration increased by {3} sec.\r\n{ffffffff|Vivify}: No mana cost.\r\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {4} sec.\r\n{ffffffff|Expel Harm}: Transfers {5}% additional healing into damage and creates a Chi Cocoon absorbing {6} damage.",
-            "110642343": "Receive a jolt of energy, empowering your next spell cast:\r\n\r\n{ffffffff|Enveloping Mist}: Immediately heals for {1} and is instant cast.\r\n{ffffffff|Renewing Mist}: Duration increased by {2} sec.\r\n{ffffffff|Vivify}: No mana cost.\r\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {3} sec.\r\n{ffffffff|Expel Harm}: Transfers {4}% additional healing into damage and creates a Chi Cocoon absorbing {5} damage."
-        }
-    },
-    "4162082693": {
-        "Name": "Thunderfist",
-        "Descriptions": {
-            "4242225725": "Strike of the Windlord grants you {1} stacks of Thunderfist and an additional stack for each additional enemy struck. \r\n\r\nThunderfist discharges upon melee strikes, dealing {2} Nature damage."
-        }
-    },
-    "3963081004": {
-        "Name": "Tiger Palm",
-        "Descriptions": {
-            "4088993260": "Strike with the palm of your hand, dealing {1} Physical damage.",
-            "1715410535": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\nReduces the remaining cooldown on your Brews by {2} sec.",
-            "2439962842": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\nTiger Palm has an {2}% chance to make your next Blackout Kick cost no Chi.\r\n\r\n|cFFFFFFFFGenerates {3} Chi.",
-            "4270976351": "Strike with the palm of your hand, dealing {1} Physical damage.\r\n\r\n|cFFFFFFFFGenerates {2} Chi."
-        }
-    },
-    "2018797776": {
-        "Name": "Tiger Tail Sweep",
-        "Descriptions": {
-            "1789329672": "Increases the range of Leg Sweep by {1} yds."
-        }
-    },
-    "2611723036": {
-        "Name": "Tiger's Lust",
-        "Descriptions": {
-            "3065490793": "Increases a friendly target's movement speed by {1}% for {2} sec and removes all roots and snares."
-        }
-    },
-    "1768582408": {
-        "Name": "Tigereye Brew",
-        "Descriptions": {
-            "1692085937": "Consumes up to {1} stacks of Tigereye Brew to empower your Physical abilities with wind for {2} sec per stack consumed. Damage of your strikes are reduced, but bypass armor.\r\n\r\nFor each {3} Chi you consume, you gain a stack of Tigereye Brew."
-        }
-    },
-    "2419444117": {
-        "Name": "Touch of Death",
-        "Descriptions": {
-            "1740744540": "Touch of Death reduces delayed Stagger damage by {1}% of damage dealt.",
-            "2032729457": "Touch of Death spawns {1} Chi Spheres, granting {2} Chi when you walk through them.",
-            "2958297300": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.",
-            "1812574347": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.",
-            "1836622310": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nReduces delayed Stagger damage by {2}% of damage dealt.",
-            "941309613": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nReduces delayed Stagger damage by {4}% of damage dealt.",
-            "2099329413": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nIncreases the Monk's Physical damage by {2}% for {3} sec.",
-            "4173443566": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nIncreases the Monk's Physical damage by {4}% for {5} sec.",
-            "1373698349": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.\r\n\r\nSpawns {2} Chi Spheres, granting {3} Chi when you walk through them.",
-            "315060670": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to creatures if they have less health than you. Deals damage equal to {2}% of your maximum health against players and stronger creatures under {3}% health.\r\n\r\nSpawns {4} Chi Spheres, granting {5} Chi when you walk through them."
-        }
-    },
-    "195064946": {
-        "Name": "Touch of Karma",
-        "Descriptions": {
-            "3944452918": "Absorbs all damage taken for {1} sec, up to {2}% of your maximum health, and redirects {3}% of that amount to the enemy target as Nature damage over {4} sec."
-        }
-    },
-    "1360736888": {
-        "Name": "Touch of the Tiger",
-        "Descriptions": {
-            "831353914": "Tiger Palm damage increased by {1}%."
-        }
-    },
-    "1950095488": {
-        "Name": "Training of Niuzao",
-        "Descriptions": {
-            "4141251052": "Gain up to {1}% Mastery based on your current level of Stagger."
-        }
-    },
-    "403264583": {
-        "Name": "Tranquil Spirit",
-        "Descriptions": {
-            "1421623408": "When you consume a Healing Sphere or cast Expel Harm, your current Stagger amount is lowered by {1}%."
-        }
-    },
-    "1518268304": {
-        "Name": "Transcendence",
-        "Descriptions": {
-            "3563254831": "Split your body and spirit, leaving your spirit behind for {1} min. Use Transcendence: Transfer to swap locations with your spirit."
-        }
-    },
-    "59760301": {
-        "Name": "Transfer the Power",
-        "Descriptions": {
-            "1798471211": "Blackout Kick, Rising Sun Kick, and Spinning Crane Kick increase damage dealt by your next Fists of Fury by {1}%, stacking up to {2} times."
-        }
-    },
-    "1367924823": {
-        "Name": "Turbo Fists",
-        "Descriptions": {
-            "2081545539": "Fists of Fury now reduces all targets movement speed by {1}%, and you Parry all attacks while channelling Fists of Fury."
-        }
-    },
-    "3534474007": {
-        "Name": "Unison",
-        "Descriptions": {
-            "3611179198": "Soothing Mist heals a second injured ally within {1} yds for {2}% of the amount healed."
-        }
-    },
-    "2548724312": {
-        "Name": "Uplifted Spirits",
-        "Descriptions": {
-            "3240155032": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Revival by {1} sec, and Revival heals targets for {2}% of Revival's heal over {3} sec.",
-            "1195409145": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Restoral by {1} sec, and Restoral heals targets for {2}% of Restoral's heal over {3} sec."
-        }
-    },
-    "2861472083": {
-        "Name": "Veil of Pride",
-        "Descriptions": {
-            "1927103120": "Increases Sheilun's Gift cloud of mist generation to every {1} sec. "
-        }
-    },
-    "2305196404": {
-        "Name": "Vigorous Expulsion",
-        "Descriptions": {
-            "3639452426": "Expel Harm's healing increased by {1}% and critical strike chance increased by {2}%. "
-        }
-    },
-    "857472412": {
-        "Name": "Vivacious Vivification",
-        "Descriptions": {
-            "3943744143": "Every {1} sec, your next Vivify becomes instant and its healing is increased by {2}%.",
-            "3595068778": "Every {1} sec, your next Vivify becomes instant and its healing is increased by {2}%.\r\n\r\nThis effect also reduces the energy cost of Vivify by {3}%."
-        }
-    },
-    "1043156280": {
-        "Name": "Vivify",
-        "Descriptions": {
-            "91494204": "Causes a surge of invigorating mists, healing the target for {1}.",
-            "1805225099": "Causes a surge of invigorating mists, healing the target for {1} and all allies with your Renewing Mist active for {2}, reduced beyond {3} allies."
-        }
-    },
-    "401241097": {
-        "Name": "Walk with the Ox",
-        "Descriptions": {
-            "1053536096": "Abilities that grant Shuffle reduce the cooldown on Invoke Niuzao, the Black Ox by {1} sec, and Niuzao's Stomp deals an additional {2}% damage. "
-        }
-    },
-    "1930860081": {
-        "Name": "Weapons of Order",
-        "Descriptions": {
-            "1182517313": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash or Rising Sun Kick take {3}% increased damage from you for {4} sec, stacking up to {5} times."
-        }
-    },
-    "1557849056": {
-        "Name": "Whirling Dragon Punch",
-        "Descriptions": {
-            "1331063697": "Performs a devastating whirling upward strike, dealing {1} damage to all nearby enemies and an additional {2} damage to the first target struck. Damage reduced beyond {3} targets.\r\n\r\nOnly usable while both Fists of Fury and Rising Sun Kick are on cooldown."
-        }
-    },
-    "4293911883": {
-        "Name": "Wind Waker",
-        "Descriptions": {
-            "3623004172": "Your movement enhancing abilities increases Windwalking on allies by {1}%, stacking {2} additional times. Movement impairing effects are removed at {3} stacks."
-        }
-    },
-    "3047075590": {
-        "Name": "Windwalking",
-        "Descriptions": {
-            "3792744178": "You and your allies within {1} yards have {2}% increased movement speed. Stacks with other similar effects."
-        }
-    },
-    "694267249": {
-        "Name": "Xuen's Battlegear",
-        "Descriptions": {
-            "669217583": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by {1} sec.\r\n\r\nWhen Fists of Fury ends, the critical strike chance of Rising Sun Kick is increased by {2}% for {3} sec."
-        }
-    },
-    "1529658234": {
-        "Name": "Xuen's Bond",
-        "Descriptions": {
-            "2617575516": "Invoke Xuen, the White Tiger's damage is increased by {1}% and its cooldown is reduced by {2} sec."
-        }
-    },
-    "2329054652": {
-        "Name": "Yu'lon's Whisper",
-        "Descriptions": {
-            "1170049067": "While channeling Mana Tea you exhale the breath of Yu'lon, healing up to {1} allies within {2} yards for {3} every {4} sec."
-        }
-    },
-    "1000264802": {
-        "Name": "Zen Flight",
-        "Descriptions": {
-            "272933352": "You fly through the air at a quick speed on a meditative cloud."
-        }
-    },
-    "361000935": {
-        "Name": "Zen Focus Tea",
-        "Descriptions": {
-            "929591539": "Thunder Focus Tea provides immunity to Silence and Interrupt effects for {1} sec."
-        }
-    },
-    "447749963": {
-        "Name": "Zen Meditation",
-        "Descriptions": {
-            "1456429661": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action will cancel this effect.",
-            "3578434983": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action other than movement will cancel this effect."
-        }
-    },
-    "2227161629": {
-        "Name": "Zen Pilgrimage",
-        "Descriptions": {
-            "949482411": "Your spirit travels to your home temple, leaving your body behind. \r\n\r\nUse Zen Pilgrimage again to return back to near your departure point."
-        }
-    },
-    "4116066065": {
-        "Name": "Zen Pulse",
-        "Descriptions": {
-            "2285404348": "Renewing Mist's heal over time has a chance to cause your next Vivify to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for {1} increased by {2}% per Renewing Mist active, up to {3}%."
-        }
-    },
-    "2755108870": {
-        "Name": "Zen Spheres",
-        "Descriptions": {
-            "3176110700": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Heals for {1} and increases your healing done to the target by {2}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Deals {3} Nature damage, Target deals {4}% less damage, and takes {5}% increased damage from all sources.\r\n"
-        }
-    },
-    "1606543164": {
-        "Name": "Stormspirit Strikes",
-        "Descriptions": {
-            "486976043": "Striking more than one enemy with Fists of Fury summons a Storm Spirit to focus your secondary target for {1} sec, which will mimic any of your attacks that do not also strike the target for {2}% of normal damage."
-        }
-    },
-    "3608456580": {
-        "Name": "Yu'lon's Grace",
-        "Descriptions": {
-            "1359059417": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for {1}% of your max health every {2} sec in combat, stacking up to {3}%."
-        }
-    },
-    "1569501097": {
-        "Name": "Dance of the Wind",
-        "Descriptions": {
-            "4225248288": "Your dodge chance is increased by {1}%.",
-            "522846507": "Your physical damage taken is reduced by {1}% and an additional {2}% every {3} sec until you receive a physical attack."
-        }
-    },
-    "1330483556": {
-        "Name": "Press the Advantage",
-        "Descriptions": {
-            "3281397997": "Your main hand auto attacks reduce the cooldown on your brews by {1} sec and block your target's chi, dealing {2} additional Nature damage and increasing your damage dealt by {3}% for {4} sec. \r\n\r\nUpon reaching {5} stacks, your next cast of Rising Sun Kick or Keg Smash consumes all stacks to strike again at {6}% effectiveness. This bonus attack can trigger effects on behalf of Tiger Palm at reduced effectiveness."
-        }
-    },
-    "106082565": {
-        "Name": "Parry",
-        "Descriptions": {
-            "1505216917": "Gives a chance to parry enemy melee attacks."
-        }
-    },
-    "3920523067": {
-        "Name": "Leather Specialization",
-        "Descriptions": {
-            "2510302227": "Increases your Intellect by {1}% while wearing only Leather armor.",
-            "3994087124": "Increases your Stamina by {1}% while wearing only Leather armor.",
-            "2192591983": "Increases your Agility by {1}% while wearing only Leather armor."
-        }
-    },
-    "1268120370": {
-        "Name": "Critical Strikes",
-        "Descriptions": {
-            "47873328": "Increases your chance to critically strike by {1}%."
-        }
-    },
-    "362758642": {
-        "Name": "Energizing Brew",
-        "Descriptions": {
-            "2887077637": "Mana Tea now channels {1}% faster and generates {2}% more Mana."
-        }
-    },
-    "807238585": {
-        "Name": "Chi Harmony",
-        "Descriptions": {
-            "2651677593": "Renewing Mist increases its target's healing received from you by {1}% for the first {2} sec of its duration, but cannot jump to a new target during this time."
-        }
-    },
-    "2822065743": {
-        "Name": "Darting Hurricane",
-        "Descriptions": {
-            "667623230": "After you cast Strike of the Windlord, the global cooldown of your next {1} Tiger Palms is reduced by {2}%.\r\n\r\nYour damaging spells and abilities have a chance to grant {3} stack of Darting Hurricane."
-        }
-    },
-    "1347206570": {
-        "Name": "Glyph of Crackling Crane Lightning",
-        "Descriptions": {
-            "2813143294": "Your Crackling Jade Lightning visual is altered to the color of the Red Crane celestial."
-        }
-    },
-    "837909192": {
-        "Name": "Rising Dragon Sweep",
-        "Descriptions": {
-            "2473088799": "Whirling Dragon Punch knocks enemies up into the air and causes them to fall slowly until they reach the ground."
-        }
-    },
-    "2230189176": {
-        "Name": "Courageous Impulse",
-        "Descriptions": {
-            "2744372531": "The Blackout Kick! effect also increases the damage of your next Blackout Kick by {1}%."
-        }
-    },
-    "1695228798": {
-        "Name": "Ferociousness",
-        "Descriptions": {
-            "3438658852": "Critical Strike chance increased by {1}%. This effect is increased by {2}% while Xuen, the White Tiger is active."
-        }
-    },
-    "840987298": {
-        "Name": "Path of Resurgence",
-        "Descriptions": {
-            "3128640846": "Chi Burst increases vitality stored by {1}% for {2} sec.",
-            "3408423386": "Chi Wave increases vitality stored by {1}% for {2} sec."
-        }
-    },
-    "3634391230": {
-        "Name": "Sequenced Strikes",
-        "Descriptions": {
-            "3730983340": "You have a {1}% chance to gain Blackout Kick! after consuming Dance of Chi-Ji."
-        }
-    },
-    "3621104056": {
-        "Name": "Rushing Reflexes",
-        "Descriptions": {
-            "1030906426": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within {1} yards after you Roll."
-        }
-    },
-    "1235703068": {
-        "Name": "Combo Breaker",
-        "Descriptions": {
-            "2384140747": "You have a {1}% chance when you Tiger Palm to cause your next Blackout Kick to cost no Chi within {2} sec."
-        }
-    },
-    "2315983645": {
-        "Name": "Dual Threat",
-        "Descriptions": {
-            "3930726258": "Your auto attacks have a {1}% chance to instead kick your target dealing {2} Physical damage and increasing your damage dealt by {3}% for {4} sec."
-        }
-    },
-    "663559381": {
-        "Name": "Wind's Reach",
-        "Descriptions": {
-            "2529999753": "The range of Disable is increased by {1} yds.\r\n \r\nThe duration of Crashing Momentum is increased by {2} sec and its snare now reduces movement speed by an additional {3}%."
-        }
-    },
-    "945045127": {
-        "Name": "Heightened Guard",
-        "Descriptions": {
-            "1203928050": "Ox Stance will now trigger when an attack is larger than {1}% of your current health."
-        }
-    },
-    "234460370": {
-        "Name": "Glyph of Yu'lon's Grace",
-        "Descriptions": {
-            "3801599343": "Changes your Gift of the Ox orbs to take on the green of Yu'lon."
-        }
-    },
-    "4287353270": {
-        "Name": "Path of Jade",
-        "Descriptions": {
-            "2578158722": "Increases the initial damage of Jadefire Stomp by {1}% per target hit by that damage, up to a maximum of {2}% additional damage."
-        }
-    },
-    "3092141528": {
-        "Name": "Martial Precision",
-        "Descriptions": {
-            "4128541532": "Your attacks penetrate {1}% armor."
-        }
-    },
-    "1212710850": {
-        "Name": "Memory of the Monastery",
-        "Descriptions": {
-            "2939145454": "Tiger Palm's chance to activate Blackout Kick! is increased by {1}% and consuming Teachings of the Monastery grants you {2}% haste for {3} sec equal to the amount of stacks consumed."
-        }
-    },
-    "2316603697": {
-        "Name": "One Versus Many",
-        "Descriptions": {
-            "3607084831": "Damage dealt by Fists of Fury and Keg Smash counts as double towards Flurry Charge generation.\r\n\r\nFists of Fury damage increased by {1}%.\r\nKeg Smash damage increased by {2}%."
-        }
-    },
-    "1664615109": {
-        "Name": "Combat Conditioning",
-        "Descriptions": {
-            "1290585325": "Your Blackout Kick now also deals an additional {1}% damage over {2} sec if behind the target or heals you for {3}% of the damage done if in front of the target.\r\n\r\nAdditionally, your Rising Sun Kick now also causes Mortal Wounds to the primary target.\r\n\r\n|Tinterface\\icons\\ability_criticalstrike.blp:24|t {FFFFFFFF|Mortal Wounds}\r\nGrievously wounds the target, reducing the effectiveness of any healing received for {4} sec."
-        }
-    },
-    "1085724511": {
-        "Name": "Absolute Serenity",
-        "Descriptions": {
-            "2228822967": "Celestial Conduit now prevents all crowd control for its duration."
-        }
-    },
-    "1218042426": {
-        "Name": "Elixir of Determination",
-        "Descriptions": {
-            "1379300345": "When you fall below {1}% health, you gain an absorb for {2}% of your recently Purified damage, or a minimum of {3}% of your maximum health. Cannot occur more than once every {4} sec."
-        }
-    },
-    "179946483": {
-        "Name": "Endless Draught",
-        "Descriptions": {
-            "1974557823": "Thunder Focus Tea has {1} additional charge.",
-            "1925280180": "Celestial Brew has {1} additional charge."
-        }
-    },
-    "325186673": {
-        "Name": "Peer Into Peace",
-        "Descriptions": {
-            "1625460924": "{1}% of your overhealing done onto targets with Soothing Mist is spread to {2} nearby injured allies.\r\n\r\nSoothing Mist now follows the target of your Enveloping Mist or Vivify and its channel time is increased by {3} sec."
-        }
-    },
-    "3683133956": {
-        "Name": "Glyph of Fighting Pose",
-        "Descriptions": {
-            "1072120686": "Your spirit now appears in a fighting pose when using Transcendence."
-        }
-    },
-    "4034241896": {
-        "Name": "Flurry of Xuen",
-        "Descriptions": {
-            "1482967807": "Your spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal {1} Physical damage in a {2} yd cone, damage reduced beyond {3} targets.\r\n\r\nInvoking Xuen, the White Tiger activates Flurry of Xuen."
-        }
-    },
-    "2949688041": {
-        "Name": "Deep Clarity",
-        "Descriptions": {
-            "3653775284": "After you fully consume Thunder Focus Tea, your next Vivify triggers Zen Pulse."
-        }
-    },
-    "1566474125": {
-        "Name": "Jadefire Harmony",
-        "Descriptions": {
-            "116135684": "Enemies and allies hit by Jadefire Stomp are affected by Jadefire Brand, increasing your damage and healing against them by {1}% for {2} sec."
-        }
-    },
-    "1166112180": {
-        "Name": "Gale Force",
-        "Descriptions": {
-            "3953068755": "Targets hit by Strike of the Windlord have a {1}% chance to be struck for {2}% additional Nature damage from your spells and abilities for {3} sec."
-        }
-    },
-    "1518575685": {
-        "Name": "Unity Within",
-        "Descriptions": {
-            "4199314615": "Celestial Conduit can be recast once during its duration to call upon all of the August Celestials to assist you at {1}% effectiveness.\r\n\r\nUnity Within is automatically cast when Celestial Conduit ends if not used before expiration."
-        }
-    },
-    "747896206": {
-        "Name": "Pride of Pandaria",
-        "Descriptions": {
-            "1837061050": "Flurry Strikes have {1}% additional chance to critically strike."
-        }
-    },
-    "685298986": {
-        "Name": "Jadefire Fists",
-        "Descriptions": {
-            "1974847774": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T6035313:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to up to {5} enemies, and restoring {6} health to up to {7} allies within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage.",
-            "2844512505": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T6035313:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to {5} enemy, and restoring {6} health to {7} ally within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage."
-        }
-    },
-    "3895793189": {
-        "Name": "Lotus Infusion",
-        "Descriptions": {
-            "3333153595": "Allies with Renewing Mist receive {1}% more healing from you and Renewing Mist's duration is increased by {2} sec."
-        }
-    },
-    "438416886": {
-        "Name": "Mantra of Tenacity",
-        "Descriptions": {
-            "720017865": "Fortifying Brew grants {1}% Stagger.",
-            "714722428": "Fortifying Brew applies a Chi Cocoon, absorbing {1} damage."
-        }
-    },
-    "2635205527": {
-        "Name": "Jadefire Accord",
-        "Descriptions": {
-            "1357159459": "Jadefire Stomp's cooldown is reduced by {1} sec.\r\n\r\nEnemies struck by Jadefire Stomp are snared by {2}% for {3} sec."
-        }
-    },
-    "941730124": {
-        "Name": "August Dynasty",
-        "Descriptions": {
-            "394393629": "Casting Jadefire Stomp increases the damage or healing of your next Rising Sun Kick by {1}% or Vivify by {2}%.",
-            "3062046534": "Casting Jadefire Stomp increases the damage of your next Rising Sun Kick by {1}%."
-        }
-    },
-    "177747355": {
-        "Name": "Energy Burst",
-        "Descriptions": {
-            "1933820745": "When you consume Blackout Kick!, you have a {1}% chance to generate {2} Chi."
-        }
-    },
-    "1781720934": {
-        "Name": "Protect and Serve",
-        "Descriptions": {
-            "1067251570": "Your Vivify always heals you for an additional {1}% of its total value."
-        }
-    },
-    "2189480563": {
-        "Name": "Glyph of Crackling Tiger Lightning",
-        "Descriptions": {
-            "702024763": "Your Crackling Jade Lightning visual is altered to the color of the White Tiger celestial."
-        }
-    },
-    "810514844": {
-        "Name": "Predestination",
-        "Descriptions": {
-            "2763666949": "Killing a player with Touch of Death resets the cooldown of Touch of Karma.",
-            "1909632642": "Killing a player with Touch of Death reduces the remaining cooldown of Touch of Karma by {1} sec."
-        }
-    },
-    "746448141": {
-        "Name": "Martial Mixture",
-        "Descriptions": {
-            "867810742": "Blackout Kick increases the damage of your next Tiger Palm by {1}%, stacking up to {2} times."
-        }
-    },
-    "3682618660": {
-        "Name": "Heart of the Jade Serpent",
-        "Descriptions": {
-            "570782411": "Sheilun's Gift calls upon Yu'lon to decrease the cooldown time of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by {1}% for up to {2} sec, based on the clouds of mist consumed.",
-            "773426202": "Strike of the Windlord calls upon Yu'lon to decrease the cooldown time of Fists of Fury, Strike of the Windlord, Rising Sun Kick, Flying Serpent Kick, and Whirling Dragon Punch by {1}% for {2} sec. \r\n\r\nThe channel time of Fists of Fury is reduced by {3}% while Yu'lon is active."
-        }
-    },
-    "3679532938": {
-        "Name": "Energy Transfer",
-        "Descriptions": {
-            "3765011673": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by {1} sec."
-        }
-    },
-    "278555333": {
-        "Name": "Manifestation",
-        "Descriptions": {
-            "3736337121": "Chi Burst and Chi Wave deal {1}% increased damage and healing."
-        }
-    },
-    "3028173822": {
-        "Name": "Strike At Dawn",
-        "Descriptions": {
-            "1322810151": "Rising Sun Kick grants a stack of Elusive Brawler."
-        }
-    },
-    "512526896": {
-        "Name": "Overwhelming Force",
-        "Descriptions": {
-            "3652949515": "Rising Sun Kick, Blackout Kick, and Tiger Palm deal {1}% additional damage to enemies in a line in front of you. Damage reduced above {2} targets."
-        }
-    },
-    "3318968919": {
-        "Name": "Acclamation",
-        "Descriptions": {
-            "2012937273": "Rising Sun Kick increases the damage your target receives from you by {1}% for {2} sec. Multiple instances may overlap."
-        }
-    },
-    "3752470706": {
-        "Name": "Whirling Steel",
-        "Descriptions": {
-            "3093432414": "When your health drops below {1}%, summon Whirling Steel, increasing your parry chance and avoidance by {2}% for {3} sec.\r\n\r\nThis effect can not occur more than once every {4} sec."
-        }
-    },
-    "3116994064": {
-        "Name": "Inner Compass",
-        "Descriptions": {
-            "2374489278": "You switch between alignments after an August Celestial assists you, increasing a corresponding secondary stat by {1}%.\r\n\r\n{FFFFFFFF|Crane Stance}:\r\nHaste\r\n\r\n{FFFFFFFF|Tiger Stance}:\r\nCritical Strike\r\n\r\n{FFFFFFFF|Ox Stance}:\r\nVersatility\r\n\r\n{FFFFFFFF|Serpent Stance}: \r\nMastery"
-        }
-    },
-    "1862512222": {
-        "Name": "Tiger's Vigor",
-        "Descriptions": {
-            "3041617942": "Casting Tiger's Lust reduces the remaining cooldown on Roll by {1} sec."
-        }
-    },
-    "2661316723": {
-        "Name": "Jade Walk",
-        "Descriptions": {
-            "2891625146": "While out of combat, your movement speed is increased by {1}%."
-        }
-    },
-    "323348839": {
-        "Name": "Flow of Chi",
-        "Descriptions": {
-            "3802702535": "You gain a bonus effect based on your current health.\r\n\r\nAbove {1}% health: Movement speed increased by {2}%. This bonus stacks with similar effects.\r\n\r\nBetween {3}% and {4}% health: Damage taken reduced by {5}%.\r\n\r\nBelow {6}% health: Healing received increased by {7}%. "
-        }
-    },
-    "9115286": {
-        "Name": "Temple Training",
-        "Descriptions": {
-            "2929367672": "The healing of Enveloping Mist and Vivify is increased by {1}%.",
-            "2029823502": "Fists of Fury and Spinning Crane Kick deal {1}% more damage."
-        }
-    },
-    "246392716": {
-        "Name": "Mantra of Purity",
-        "Descriptions": {
-            "2372064305": "When cast on yourself, your single-target healing spells heal for {1}% more and restore an additional {2} health over {3} sec.",
-            "1788137828": "Purifying Brew removes {1}% additional Stagger and causes you to absorb up to {2} incoming Stagger."
-        }
-    },
-    "1881550011": {
-        "Name": "Revolving Whirl",
-        "Descriptions": {
-            "3891394705": "Whirling Dragon Punch has a {1}% chance to activate Dance of Chi-Ji and its cooldown is reduced by {2} sec."
-        }
-    },
-    "2668951964": {
-        "Name": "Purified Spirit",
-        "Descriptions": {
-            "3167866255": "When Aspect of Harmony ends, any remaining vitality is expelled as healing over {1} sec, split among nearby targets.",
-            "1056626004": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over {1} sec, split among nearby targets."
-        }
-    },
-    "56782096": {
-        "Name": "Communion With Wind",
-        "Descriptions": {
-            "3775293616": "Strike of the Windlord's cooldown is reduced by {1} sec and its damage is increased by {2}%."
-        }
-    },
-    "627857973": {
-        "Name": "Veteran's Eye",
-        "Descriptions": {
-            "2091425989": "Striking the same target {1} times within {2} sec grants {3}% Haste, stacking up to {4} times."
-        }
-    },
-    "3525277136": {
-        "Name": "Way of a Thousand Strikes",
-        "Descriptions": {
-            "2879069814": "Rising Sun Kick, Blackout Kick, and Tiger Palm contribute {1}% additional vitality."
-        }
-    },
-    "1528412694": {
-        "Name": "Combat Wisdom",
-        "Descriptions": {
-            "1560761798": "While out of combat, your Chi balances to {1} instead of depleting to empty.\r\n\r\nEvery {2} sec, your next Tiger Palm also casts Expel Harm and deals {3}% additional damage.\r\n\r\n|T627486:24|t {ffffffff|Expel Harm}\r\nExpel negative chi from your body, healing for {4} and dealing {5}% of the amount healed as Nature damage to an enemy within {6} yards.\r\n\r\n|cFFFFFFFFGenerates {7} Chi.",
-            "3496769362": "While out of combat, your Chi balances to {1} instead of depleting to empty.\r\n\r\nEvery {2} sec, your next Tiger Palm also casts Expel Harm and deals {3}% additional damage.\r\n\r\n|T627486:24|t {ffffffff|Expel Harm}\r\nExpel negative chi from your body, healing for {4} and dealing {5}% of the amount healed as Nature damage to an enemy within {6} yards."
-        }
-    },
-    "4232652682": {
-        "Name": "Bounding Agility",
-        "Descriptions": {
-            "2745753029": "Roll and Chi Torpedo travel a small distance further."
-        }
-    },
-    "3713198252": {
-        "Name": "Niuzao's Protection",
-        "Descriptions": {
-            "1639713597": "Fortifying Brew grants you an absorb shield for {1}% of your maximum health."
-        }
-    },
-    "1478144928": {
-        "Name": "Spirit's Essence",
-        "Descriptions": {
-            "2999803372": "Transcendence: Transfer snares targets within {1} yds by {2}% for {3} sec when cast."
-        }
-    },
-    "95825070": {
-        "Name": "Courage of the White Tiger",
-        "Descriptions": {
-            "3597653439": "Tiger Palm and Vivify have a chance to cause Xuen to claw a nearby enemy for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
-            "471716213": "Tiger Palm has a chance to cause Xuen to claw your target for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect."
-        }
-    },
-    "3192160405": {
-        "Name": "Ox Stance",
-        "Descriptions": {
-            "4181555058": "Casting Purifying Brew grants a charge of Ox Stance, increased based on Stagger level. When you take damage that is greater than {1}% of your current health, a charge is consumed to increase the amount you Stagger."
-        }
-    },
-    "292522542": {
-        "Name": "Balanced Stratagem",
-        "Descriptions": {
-            "1680638100": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by {1}%, and vice versa. Stacks up to {2}."
-        }
-    },
-    "2081080398": {
-        "Name": "Glyph of Crackling Ox Lightning",
-        "Descriptions": {
-            "2963799648": "Your Crackling Jade Lightning visual is altered to the color of the Ox celestial."
-        }
-    },
-    "928279202": {
-        "Name": "Transcendence: Linked Spirits",
-        "Descriptions": {
-            "3539726554": "Transcendence now tethers your spirit onto an ally for {1} hour. Use Transcendence: Transfer to teleport to your ally's location."
-        }
-    },
-    "2227307333": {
-        "Name": "Black Ox Adept",
-        "Descriptions": {
-            "78880253": "Rising Sun Kick grants a charge of Ox Stance."
-        }
-    },
-    "3601547899": {
-        "Name": "Flight of the Red Crane",
-        "Descriptions": {
-            "1361037882": "Refreshing Jade Wind and Spinning Crane Kick have a chance to cause Chi-Ji to grant you a stack of Mana Tea and quickly rush to {1} allies, healing each target for {2}.",
-            "4203344656": "Rushing Jade Wind and Spinning Crane Kick have a chance to cause Chi-Ji to increase your energy regeneration by {1}% for {2} sec and quickly rush to {3} enemies, dealing {4} Physical damage to each target struck."
-        }
-    },
-    "2986750328": {
-        "Name": "Glyph of Rising Tiger Kick",
-        "Descriptions": {
-            "2193373928": "Your Rising Sun Kick's visual is altered to the color of the White Tiger."
-        }
-    },
-    "2635986115": {
-        "Name": "Lead from the Front",
-        "Descriptions": {
-            "2404744255": "Chi Burst, Chi Wave, and Expel Harm now heal you for {1}% of damage dealt."
-        }
-    },
-    "2403590266": {
-        "Name": "Awakened Jadefire",
-        "Descriptions": {
-            "3167902132": "Your abilities reset Jadefire Stomp {1}% more often. While within Jadefire Stomp, your Tiger Palms strike twice, your Blackout Kicks strike an additional {2} targets at {3}% effectiveness, and your Spinning Crane Kick heals {4} nearby allies for {5}% of the damage done."
-        }
-    },
-    "3559336278": {
-        "Name": "Flurry Strikes",
-        "Descriptions": {
-            "3859746790": "Every {1} damage you deal generates a Flurry Charge. For each {2} energy you spend, unleash all Flurry Charges, dealing {3} Physical damage per charge. "
-        }
-    },
-    "2395704117": {
-        "Name": "Chi Proficiency",
-        "Descriptions": {
-            "2432974463": "Magical damage done increased by {1}% and healing done increased by {2}%."
-        }
-    },
-    "3357305433": {
-        "Name": "Touch of Fatality",
-        "Descriptions": {
-            "49401879": "Instantly kills any creature under level {1}, or player under {2}% health."
-        }
-    },
-    "2714222575": {
-        "Name": "Jadefire Stomp",
-        "Descriptions": {
-            "1752513244": "Strike the ground fiercely to expose a path of jade for {1} sec that increases your movement speed by {2}% while inside, dealing {3} Nature damage to up to {4} enemies, and restoring {5} health to up to {6} allies within {7} yds caught in the path. Up to {8} enemies caught in the path suffer an additional {9} damage.",
-            "1972258067": "Strike the ground fiercely to expose a path of jade for {1} sec that increases your movement speed by {2}% while inside, dealing {3} Nature damage to {4} enemy, and restoring {5} health to {6} ally within {7} yds caught in the path. Up to {8} enemies caught in the path suffer an additional {9} damage.",
-            "4197946201": "Strike the ground fiercely to expose a path of jade for {1} sec, dealing {2} Nature damage to up to {3} enemies, and restoring {4} health to up to {5} allies within {6} yds caught in the path. suffer an additional {7} damage.\r\n\r\nYour abilities have a {8}% chance of resetting the cooldown of Jadefire Stomp while fighting within the path."
-        }
-    },
-    "3215006208": {
-        "Name": "Knowledge of the Broken Temple",
-        "Descriptions": {
-            "718645294": "Whirling Dragon Punch grants {1} stacks of Teachings of the Monastery and its damage is increased by {2}%.\r\n\r\nTeachings of the Monastery can now stack up to {3} times."
-        }
-    },
-    "3111603113": {
-        "Name": "Mistweaver Monk",
-        "Descriptions": {
-            "2954773397": "Mistweaver Monk core passive"
-        }
-    },
-    "1052900341": {
-        "Name": "Pool of Mists",
-        "Descriptions": {
-            "3485120045": "Renewing Mist now has {1} charges and reduces the remaining cooldown of Rising Sun Kick by {2} sec.\r\n\r\nRising Sun Kick now reduces the remaining cooldown of Renewing Mist by {3} sec."
-        }
-    },
-    "2754055386": {
-        "Name": "Brawler's Intensity",
-        "Descriptions": {
-            "2239405670": "The cooldown of Rising Sun Kick is reduced by {1} sec and the damage of Blackout Kick is increased by {2}%."
-        }
-    },
-    "3159078791": {
-        "Name": "Predictive Training",
-        "Descriptions": {
-            "1672383964": "When you dodge or parry an attack, reduce all damage taken by {1}% for the next {2} sec."
-        }
-    },
-    "4201168069": {
-        "Name": "High Impact",
-        "Descriptions": {
-            "1907138306": "Enemies who die within {1} sec of being damaged by a Flurry Strike explode, dealing {2} physical damage to uncontrolled enemies within {3} yds."
-        }
-    },
-    "1783113872": {
-        "Name": "Glyph of Weapons of Order",
-        "Descriptions": {
-            "1168686385": "Your Weapons of Order now resemble the Kyrian Covenant Ability."
-        }
-    },
-    "2365501546": {
-        "Name": "Wisdom of the Wall",
-        "Descriptions": {
-            "3392777345": "Every {1} Flurry Strikes, become infused with the Wisdom of the Wall, gaining one of the following effects for {2} sec.\r\n\r\nCritical strike damage increased by {3}%.\r\n\r\nDodge and Critical Strike chance increased by {4}% of your Versatility bonus.\r\n\r\nFlurry Strikes deal {5} Shadow damage to all uncontrolled enemies within {6} yds.\r\n\r\nEffect of your Mastery increased by {7}%.\r\n"
-        }
-    },
-    "1806946289": {
-        "Name": "Crashing Momentum",
-        "Descriptions": {
-            "4225744693": "Targets you Roll through are snared by {1}% for {2} sec."
-        }
-    },
-    "2611034015": {
-        "Name": "Efficient Training",
-        "Descriptions": {
-            "1817308763": "Energy spenders deal an additional {1}% damage.\r\nEvery {2} Energy spent reduces the cooldown of Storm, Earth, and Fire by {3} sec.",
-            "2150984633": "Energy spenders deal an additional {1}% damage.\r\nEvery {2} Energy spent reduces the cooldown of Weapons of Order by {3} sec."
-        }
-    },
-    "278457466": {
-        "Name": "Strength of the Black Ox",
-        "Descriptions": {
-            "2050475760": "After Xuen assists you, your next Enveloping Mist's cast time is reduced by {1}% and causes Niuzao to grant an absorb shield to {2} nearby allies for {3}% of your maximum health.",
-            "4259604663": "After Xuen assists you, your next Blackout Kick refunds {1} stacks of Teachings of the Monastery and causes Niuzao to stomp at your target's location, dealing {2} damage to nearby enemies, reduced beyond {3} targets."
-        }
-    },
-    "710258034": {
-        "Name": "Jade Sanctuary",
-        "Descriptions": {
-            "568852782": "You heal for {1}% of your maximum health instantly when you activate Celestial Conduit and receive {2}% less damage for its duration. \r\n\r\nThis effect lingers for an additional {3} sec after Celestial Conduit ends."
-        }
-    },
-    "3384459402": {
-        "Name": "Martial Instincts",
-        "Descriptions": {
-            "2265116070": "Increases your Physical damage done by {1}% and Avoidance increased by {2}%."
-        }
-    },
-    "1331113204": {
-        "Name": "Peace and Prosperity",
-        "Descriptions": {
-            "1435228636": "Reduces the cooldown of Ring of Peace by {1} sec and Song of Chi-Ji's cast time is reduced by {2} sec."
-        }
-    },
-    "3577503435": {
-        "Name": "Glyph of Honor",
-        "Descriptions": {
-            "2553440215": "You honorably bow after each successful Touch of Death."
-        }
-    },
-    "3019259092": {
-        "Name": "Vigilant Watch",
-        "Descriptions": {
-            "792354806": "Blackout Kick deals an additional {1}% critical damage and increases the damage of your next set of Flurry Strikes by {2}%."
-        }
-    },
-    "1414544032": {
-        "Name": "Aspect of Harmony",
-        "Descriptions": {
-            "3639560554": "Store vitality from {1}% of your damage dealt and {2}% of your effective healing.\r\n\r\nFor {3} sec after casting Celestial Brew your spells and abilities draw upon the stored vitality to deal {4}% additional damage over {5} sec.",
-            "1713553313": "Store vitality from {1}% of your damage dealt and {2}% of your healing. Vitality stored from overhealing is reduced.\r\n\r\nFor {3} sec after casting Thunder Focus Tea your spells and abilities draw upon the stored vitality to deal {4}% additional healing over {5} sec."
-        }
-    },
-    "4006063847": {
-        "Name": "Yu'lon's Knowledge",
-        "Descriptions": {
-            "1774453613": "Refreshing Jade Wind's duration is increased by {1} sec.",
-            "3066710042": "Rushing Jade Wind's duration is increased by {1} sec."
-        }
-    },
-    "1224493138": {
-        "Name": "Xuen's Guidance",
-        "Descriptions": {
-            "3844578558": "Teachings of the Monastery has a {1}% chance to refund a charge when consumed. \r\n\r\nThe damage of Tiger Palm is increased by {2}%."
-        }
-    },
-    "3042906193": {
-        "Name": "Quick Footed",
-        "Descriptions": {
-            "2078948148": "The duration of snare effects on you is reduced by {1}%."
-        }
-    },
-    "1585706042": {
-        "Name": "One With the Wind",
-        "Descriptions": {
-            "4150916616": "You have a {1}% chance to not reset your Elusive Brawler stacks after a successful dodge."
-        }
-    },
-    "1589324771": {
-        "Name": "Lighter Than Air",
-        "Descriptions": {
-            "840659692": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within {1} sec, but the cooldown of Roll is increased by {2} sec."
-        }
-    },
-    "1736320215": {
-        "Name": "Healing Winds",
-        "Descriptions": {
-            "3236397149": "Transcendence: Transfer immediately heals you for {1}% of your maximum health."
-        }
-    },
-    "2316027662": {
-        "Name": "August Blessing",
-        "Descriptions": {
-            "4145877810": "When you would be healed above maximum health, you instead convert an amount equal to {1}% of your critical strike chance to a heal over time effect."
-        }
-    },
-    "3147435161": {
-        "Name": "Clarity of Purpose",
-        "Descriptions": {
-            "2391058618": "Casting Vivify stores {1} vitality, increased based on your recent Gusts of Mist.",
-            "3619354285": "Casting Purifying Brew stores {1} vitality, increased based on Stagger level."
-        }
-    },
-    "2248371219": {
-        "Name": "Glyph of Faeline Stomp",
-        "Descriptions": {
-            "1504076997": "Your Jadefire Stomp visual is altered to the color of the Night Fae Covenant Ability."
-        }
-    },
-    "501866694": {
-        "Name": "Singularly Focused Jade",
-        "Descriptions": {
-            "3537206449": "Jadefire Stomp's initial hit now strikes {1} target, but deals {2}% increased damage and healing."
-        }
-    },
-    "642485978": {
-        "Name": "Chi-Ji's Swiftness",
-        "Descriptions": {
-            "205426519": "Your movement speed is increased by {1}% during Celestial Conduit and by {2}% for {3} sec after being assisted by any Celestial.\r\n"
-        }
-    },
-    "609962156": {
-        "Name": "Crane Style",
-        "Descriptions": {
-            "753148549": "Rising Sun Kick now kicks up a Gust of Mist to heal {1} [plural|ally|allies] within {2} yds for {3}. \r\n\r\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal {4} [plural|ally|allies] within {5} yds for {6}. "
-        }
-    },
-    "2486529198": {
-        "Name": "Ancient Arts",
-        "Descriptions": {
-            "64082322": "Reduces the cooldown of Paralysis by {1} sec and the cooldown of Leg Sweep by {2} sec."
-        }
-    },
-    "4124600365": {
-        "Name": "Ordered Elements",
-        "Descriptions": {
-            "3527705339": "During Storm, Earth, and Fire, Chi costs are reduced by {1} and Blackout Kick reduces the cooldown of affected abilities by an additional {2} sec. \r\n\r\nActivating Storm, Earth, and Fire resets the remaining cooldown of Rising Sun Kick and grants {3} Chi."
-        }
-    },
-    "2299898057": {
-        "Name": "Swift Art",
-        "Descriptions": {
-            "2125133726": "Roll removes a snare effect once every {1} sec."
-        }
-    },
-    "2056609509": {
-        "Name": "Restore Balance",
-        "Descriptions": {
-            "3874723271": "Gain Refreshing Jade Wind while Chi-Ji, the Red Crane or Yu'lon, the Jade Serpent is active.",
-            "4270391191": "Gain Rushing Jade Wind while Xuen, the White Tiger is active."
-        }
-    },
-    "2547550827": {
-        "Name": "Harmonic Gambit",
-        "Descriptions": {
-            "1597891613": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional {1}% over {2} sec.",
-            "434761026": "During Aspect of Harmony, Rising Sun Kick, Blackout Kick, and Tiger Palm also withdraw vitality to damage enemies for an additional {1}% over {2} sec."
-        }
-    },
-    "2649364739": {
-        "Name": "Celestial Conduit",
-        "Descriptions": {
-            "4289570293": "The August Celestials empower you, causing you to radiate {1} healing onto up to {2} injured allies and {3} Nature damage onto enemies within {4} yds over {5} sec, split evenly among them. Healing and damage increased by {6}% per target, up to {7}%.\r\n\r\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
-            "3427727920": "The August Celestials empower you, causing you to radiate {1} Nature damage onto enemies and {2} healing onto up to {3} injured allies within {4} yds over {5} sec, split evenly among them. Healing and damage increased by {6}% per enemy struck, up to {7}%.\r\n\r\nYou may move while channeling, but casting other healing or damaging spells cancels this effect."
-        }
-    },
-    "3966289373": {
-        "Name": "Coalescence",
-        "Descriptions": {
-            "3447074932": "When Aspect of Harmony heals, it has a chance to spread to a nearby ally. When you directly heal an affected target, it has a chance to intensify.\r\n\r\nTargets damaged or healed by your Aspect of Harmony take {1}% increased damage or healing from you.",
-            "623416500": "When Aspect of Harmony deals damage or heals, it has a chance to spread to a nearby target. When you directly attack or heal an affected target, it has a chance to intensify.\r\n\r\nTargets damaged or healed by your Aspect of Harmony take {1}% increased damage or healing from you.",
-            "1284608370": "When Aspect of Harmony deals damage, it has a chance to spread to a nearby enemy. When you directly attack an affected target, it has a chance to intensify.\r\n\r\nTargets damaged or healed by your Aspect of Harmony take {1}% increased damage or healing from you."
-        }
-    },
-    "2259770070": {
-        "Name": "Celestial Determination",
-        "Descriptions": {
-            "1525274661": "While your Celestial is active, you cannot be slowed below {1}% normal movement speed."
-        }
-    },
-    "1686039091": {
-        "Name": "Against All Odds",
-        "Descriptions": {
-            "2592258340": "Flurry Strikes increase your Agility by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "323201089": {
-        "Name": "Power of the Thunder King",
-        "Descriptions": {
-            "1624871084": "Crackling Jade Lightning now chains to {1} additional targets at {2}% effectiveness and its channel time is reduced by {3}%."
-        }
-    },
-    "3633083785": {
-        "Name": "Roar from the Heavens",
-        "Descriptions": {
-            "4050703547": "Tiger's Lust grants {1}% movement speed to up to {2} allies near its target."
-        }
-    },
-    "1505743577": {
-        "Name": "Momentum Boost",
-        "Descriptions": {
-            "103356283": "Fists of Fury's damage is increased by {1}% of your haste and Fists of Fury does {2}% more damage each time it deals damage, resetting when Fists of Fury ends.\r\n\r\nYour auto attack speed is increased by {3}% for {4} sec after Fists of Fury ends."
-        }
-    },
-    "1966206187": {
-        "Name": "Jadefire Teachings",
-        "Descriptions": {
-            "4049273088": "After casting Jadefire Stomp or Thunder Focus Tea, Ancient Teachings transfers an additional {1}% damage to healing for {2} sec.\r\n\r\nWhile Jadefire Teachings is active, your Stamina is increased by {3}%."
-        }
-    },
-    "420290542": {
-        "Name": "Rushing Wind Kick",
-        "Descriptions": {
-            "2753487576": "Kick up a powerful gust of wind, dealing {1} Nature damage in a {2} yd cone to enemies in front of you, split evenly among them. Damage is increased by {3}% for each target hit, up to {4}%.\r\n\r\nGrants Rushing Winds for {5} sec, increasing Renewing Mist's healing by {6}%."
-        }
-    },
-    "3108239083": {
-        "Name": "Jade Empowerment",
-        "Descriptions": {
-            "641655588": "Casting Thunder Focus Tea increases your next Crackling Jade Lightning's damage by {1}% and causes it to chain to {2} additional enemies at {3}% effectiveness."
-        }
-    },
-    "3687465831": {
-        "Name": "Refreshment",
-        "Descriptions": {
-            "592807423": "Life Cocoon grants up to {1} stacks of Mana Tea and applies {2} stacks of Healing Elixir to its target."
-        }
-    },
-    "2413686199": {
-        "Name": "Glyph of Jab",
-        "Descriptions": {
-            "1497832773": "Your Tiger Palm visual is altered to use your weapon when striking."
-        }
-    }
+    "name:1767429260": "Admonishment",
+    "desc:3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault.",
+    "name:4154302089": "Afterlife",
+    "desc:2004713065": "When you kill an enemy, you summon a Healing Sphere, healing you for {1} when you walk through it.",
+    "desc:1911706237": "When you kill an enemy with Chi Explosion, you have a {1}% chance to summon a Chi Sphere, granting {2} Chi when you walk through it.",
+    "name:730982940": "Alpha Tiger",
+    "desc:4043561551": "Attacking new challengers with Tiger Palm fills you with the spirit of Xuen, granting you {1}% haste for {2} sec. \r\n\r\nThis effect cannot occur more than once every {3} sec per target.",
+    "name:3099821981": "Ancient Teachings",
+    "desc:2350207184": "Your Tiger Palm, Blackout Kick, Rising Sun Kick, and Crackling Jade Lightning heal up to {1} injured allies within {2} yds for {3}% of the damage done, split evenly among them.",
+    "name:3828832330": "Anvil & Stave",
+    "desc:476717043": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by {1} sec. Effect reduced for each recent melee attacker.",
+    "name:2558355381": "Ascension",
+    "desc:2592516491": "Increases your maximum Chi by {1}, maximum Energy by {2}, and your Energy regeneration by {3}%.",
+    "name:2873553706": "Avert Harm",
+    "desc:1491368714": "Guard the {1} closest players within {2} yards for {3} sec, allowing you to Stagger {4}% of damage they take.",
+    "name:1767084492": "Black Ox Brew",
+    "desc:3076568915": "Chug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and resets the cooldown of Celestial Brew.",
+    "name:1828254972": "Blackout Combo",
+    "desc:1585181783": "Blackout Kick also empowers your next ability:\r\n\r\nTiger Palm: Damage increased by {1}%.\r\nBreath of Fire: Damage increased by {2}%, and damage reduction increased by {3}%.\r\nKeg Smash: Reduces the remaining cooldown on your Brews by {4} additional sec.\r\nCelestial Brew: Gain up to {5} additional stacks of Purified Chi.\r\nPurifying Brew: Pauses Stagger damage for {6} sec.",
+    "name:2542828828": "Blackout Kick",
+    "desc:1002479936": "Blackout Kick reduces the cooldown of Rising Sun Kick and Fists of Fury by {1} sec.",
+    "desc:1453519375": "Blackout Kick costs {1} fewer Chi.",
+    "desc:1258739707": "Kick with a blast of Chi energy, dealing {1} Physical damage.\r\n\r\nStrikes up to {2} additionaltargettargets.",
+    "name:483199272": "Bob and Weave",
+    "desc:2064833076": "Increases the duration of Stagger by {1} sec.",
+    "name:2628807132": "Bounce Back",
+    "desc:2661705934": "When a hit deals more than {1}% of your maximum health, reduce all damage you take by {2}% for {3} sec.\r\n\r\nThis effect cannot occur more than once every {4} seconds.",
+    "name:2876568155": "Breath of Fire",
+    "desc:2256475395": "Breathe fire on targets in front of you, causing {1} Fire damage. Deals reduced damage to secondary targets.\r\n\r\nTargets affected by Keg Smash will also burn, taking {2} Fire damage and dealing {3}% reduced damage to you for {4} sec.",
+    "name:1187657583": "Brewmaster's Balance",
+    "desc:2254164822": "Your Armor is increased by {1}% and Stamina increased by {2}%.",
+    "name:2576081956": "Burst of Life",
+    "desc:1027296414": "When Life Cocoon expires, it releases a burst of mist that restores {1} health to {2} nearby allies.",
+    "name:1246194013": "Call to Arms",
+    "desc:2199258901": "Weapons of Order calls forth Niuzao, the Black Ox to assist you for {1} sec.\r\n\r\nTriggering a bonus attack with Press the Advantage has a chance to call forth Niuzao, the Black Ox.",
+    "name:723651848": "Calming Coalescence",
+    "desc:2467404058": "The absorb amount of Life Cocoon is increased by {1}%.",
+    "name:503337380": "Calming Presence",
+    "desc:641619896": "Reduces all damage taken by {1}%.",
+    "name:767800593": "Celerity",
+    "desc:2251742275": "Reduces the cooldown of Roll by {1} sec and increases its maximum number of charges by {2}.",
+    "name:3048801781": "Celestial Brew",
+    "desc:3034626527": "A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing {1} damage.\r\n\r\nPurifying Stagger damage increases absorption by up to {2}%.",
+    "name:3680645477": "Celestial Flames",
+    "desc:573581647": "Drinking from Brews has a {1}% chance to coat the Monk with Celestial Flames for {2} sec.\r\n\r\nWhile Celestial Flames is active, Spinning Crane Kick applies Breath of Fire and Breath of Fire reduces the damage affected enemies deal to you by an additional {3}%.\r\n\r\n",
+    "name:752232606": "Celestial Fortune",
+    "desc:559881562": "You have a chance equal to your critical strike chance to be healed for an additional {1}% of the amount healed.",
+    "name:2239613432": "Celestial Harmony",
+    "name:2936202251": "Charred Passions",
+    "desc:4056751895": "Your Breath of Fire ignites your right leg in flame for {1} sec, causing your Blackout Kick and Spinning Crane Kick to deal {2}% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
+    "name:2557130746": "Chi Burst",
+    "desc:2324123943": "Your damaging spells and abilities have a chance to activate Chi Burst, allowing you to hurl a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.",
+    "desc:2440643047": "Hurls a torrent of Chi energy up to {1} yds forward, dealing {2} Nature damage to all enemies, and {3} healing to the Monk and all allies in its path. Healing and damage reduced beyond {4} targets.",
+    "name:4294034818": "Chi Surge",
+    "desc:892285242": "Triggering a bonus attack from Press the Advantage or casting Weapons of Order releases a surge of chi at your target's location, dealing Nature damage split evenly between all targets over {1} sec.\r\n\r\n|T2032605:24|t {ffffffff|Press the Advantage}:\r\nDeals {2} Nature damage.\r\n\r\n|T6035314:24|t {ffffffff|Weapons of Order}:\r\nDeals {3} Nature damage and reduces the cooldown of Weapons of Order by {4} for each affected enemy, to a maximum of {5} sec.",
+    "name:1869013851": "Chi Torpedo",
+    "desc:3456660218": "Torpedoes you forward a long distance and increases your movement speed by {1}% for {2} sec, stacking up to {3} times.",
+    "name:1525168889": "Chi Wave",
+    "desc:3517313627": "Every {1} sec, your next Rising Sun Kick or Vivify releases a wave of Chi energy that flows through friends and foes, dealing {2} Nature damage or {3} healing. Bounces up to {4} times to targets within {5} yards.",
+    "name:3609414445": "Chrysalis",
+    "desc:2101767638": "Reduces the cooldown of Life Cocoon by {1} sec.",
+    "name:2443341738": "Clash",
+    "desc:2143818511": "You and the target charge each other, meeting halfway then rooting all targets within {1} yards for {2} sec.",
+    "name:1394103930": "Counteract Magic",
+    "desc:768545049": "Removing hostile magic effects from a target increases the healing they receive from you by {1}% for {2} sec, stacking up to {3} times.",
+    "name:3821277616": "Counterstrike",
+    "desc:1014017099": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals {1}% increased damage.",
+    "name:3920889339": "Crackling Jade Lightning",
+    "desc:1051493020": "Channel Jade lightning, causing {1} Nature damage over {2} sec to the target and sometimes knocking back melee attackers.",
+    "name:3589373028": "Crane Vortex",
+    "desc:1995310243": "Spinning Crane Kick damage increased by {1}% and its radius is increased by {2}%.",
+    "name:3847352300": "Dampen Harm",
+    "desc:3006649440": "Reduces all damage you take by {1}% to {2}% for {3} sec, with larger attacks being reduced by more.",
+    "name:251280217": "Dance of Chi-Ji",
+    "desc:2683096244": "Spending Chi has a chance to make your next Spinning Crane Kick free and deal an additional {1}% damage.",
+    "desc:388523477": "Your spells and abilities have a chance to make your next Spinning Crane Kick deal an additional {1}% damage.",
+    "name:4155052222": "Dancing Mists",
+    "desc:4251354727": "Renewing Mist has a {1}% chance to immediately spread to an additional target when initially cast or when traveling to a new target.",
+    "name:698103972": "Dematerialize",
+    "desc:2514698330": "Demateralize into mist while stunned, reducing damage taken by {1}%. Each second you remain stunned reduces this bonus by {2}%.",
+    "name:275028052": "Detox",
+    "desc:307117818": "Removes all Poison and Disease effects from the target.",
+    "desc:2109379644": "Removes all Magic, Poison, and Disease effects from the target.",
+    "name:2010191341": "Diffuse Magic",
+    "desc:469420065": "Reduces magic damage you take by {1}% for {2} sec, and transfers all currently active harmful magical effects on you back to their original caster if possible.",
+    "name:2626149684": "Disable",
+    "desc:663411296": "Reduces the target's movement speed by {1}% for {2} sec, duration refreshed by your melee attacks. Targets already snared will be rooted for {3} sec instead.",
+    "desc:831115893": "Disable will root targets that are already snared for {1} sec.",
+    "name:1330158045": "Dome of Mist",
+    "desc:3659738715": "Enveloping Mist transforms {1}% of its remaining periodic healing into a Dome of Mist when dispelled.\r\n\r\n|T1381295:24|t {ffffffff|Dome of Mist}\r\nAbsorbs damage. All healing received by the Monk increased by {2}%. Lasts {3} sec.",
+    "name:833132135": "Double Barrel",
+    "desc:4165266780": "Your next Keg Smash deals {1}% additional damage, and stuns all targets it hits for {2} sec.",
+    "name:365402366": "Dragonfire Brew",
+    "desc:2390165180": "After using Breath of Fire, you breathe fire {1} additional times, each dealing {2} Fire damage.\r\n\r\nBreath of Fire damage increased by up to {3}% based on your level of Stagger.",
+    "name:2757815957": "Drinking Horn Cover",
+    "desc:2514352900": "The duration of Storm, Earth, and Fire is extended by {1} sec for every Chi you spend.",
+    "name:1443383226": "Eerie Fermentation",
+    "desc:2961790263": "You gain up to {1}% movement speed  and {2}% magical damage reduction based on your current level of Stagger.",
+    "name:243480375": "Elusive Footwork",
+    "desc:853318044": "Blackout Kick deals an additional {1}% damage. Blackout Kick critical hits grant an additional {2} [plural|stack|stacks] of Elusive Brawler.",
+    "name:1599852703": "Elusive Mists",
+    "desc:3950334649": "Reduces all damage taken by you and your target while channeling Soothing Mists by {1}%.",
+    "name:905410861": "Eminence",
+    "desc:993174180": "Transcendence: Transfer can now be cast if you are stunned. Cooldown reduced by {1} sec if you are not.",
+    "name:3107484308": "Empowered Tiger Lightning",
+    "desc:3265996944": "Xuen strikes your enemies with Empowered Tiger Lightning every {1} sec, dealing {2}% of the damage you and your summons have dealt to those targets in the last {3} sec.",
+    "name:245416792": "Enveloping Mist",
+    "desc:2970670290": "Wraps the target in healing mists, healing for {1} over {2} sec, and increasing healing received from your other spells by {3}%.",
+    "name:1065552982": "Escape from Reality",
+    "desc:1772397300": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within {1} sec, ignoring its cooldown.",
+    "name:476589686": "Expeditious Fortification",
+    "desc:333539525": "Fortifying Brew cooldown reduced by {1} sec.",
+    "name:3881809935": "Expel Harm",
+    "desc:193863355": "Cooldown is reduced by  {1} sec. and draws in the positive chi of all your Healing Spheres to increase the healing done by Expel Harm.",
+    "desc:500485100": "Expel Harm benefits from Mastery: Gust of Mists.",
+    "desc:3153927249": "Expel negative chi from your body, healing for {1} and dealing {2}% of the amount healed as Nature damage to an enemy within {3} yards.",
+    "name:4247245257": "Exploding Keg",
+    "desc:3201768516": "Hurls a flaming keg at the target location, dealing {1} Fire damage to nearby enemies, causing your attacks against them to deal {2} additional Fire damage, and causing their melee attacks to deal {3}% reduced damage for the next {4} sec.",
+    "name:3490786159": "Face Palm",
+    "desc:3726791581": "Tiger Palm has a {1}% chance to deal {2}% of normal damage and reduce the remaining cooldown of your Brews by {3} additional sec.",
+    "name:1429282943": "Fast Feet",
+    "desc:3645151573": "Rising Sun Kick deals {1}% increased damage. Spinning Crane Kick deals {2}% additional damage.\r\n",
+    "name:790235773": "Fatal Touch",
+    "desc:1369584408": "Touch of Death increases your damage by {1}% for {2} sec after being cast and its cooldown is reduced by {3} sec.",
+    "name:2059829877": "Ferocity of Xuen",
+    "desc:2897234743": "Increases all damage dealt by {1}%.",
+    "name:2755251932": "Fists of Fury",
+    "desc:4091719208": "Pummels all targets in front of you, dealing {1} Physical damage to your primary target and {2} damage to all other enemies over {3} sec. Deals reduced damage beyond {4} targets. Can be channeled while moving.",
+    "name:4246138201": "Fluidity of Motion",
+    "desc:3359673725": "Blackout Kick's cooldown is reduced by {1} sec and its damage is reduced by {2}%.",
+    "name:2997177972": "Flying Serpent Kick",
+    "desc:778878691": "Reduces the cooldown of Flying Serpent Kick by {1} sec.",
+    "desc:1856288456": "Soar forward through the air at high speed for {1} sec.\r\n \r\nIf used again while active, you will land, reducing the movement speed of enemies within {2} yds by {3}% for {4} sec.",
+    "name:3591541482": "Focused Thunder",
+    "desc:3142949225": "Thunder Focus Tea now empowers your next {1} spells.",
+    "name:1584386768": "Fortifying Brew",
+    "desc:336560320": "Turns your skin to stone for {1} sec, increasing your current and maximum health by {2}%, reducing all damage you take by {3}%.",
+    "name:562086068": "Fortifying Brew: Determination",
+    "desc:342789103": "Fortifying Brew increases Stagger effectiveness by {1}% while active.\r\n\r\nCombines with other Fortifying Brew effects.",
+    "name:342241525": "Fury of Xuen",
+    "desc:255857883": "Your Combo Strikes grant a stacking {1}% chance for your next Fists of Fury to grant {2}% critical strike, haste, and mastery and invoke Xuen, The White Tiger for {3} sec.",
+    "name:4271202819": "Gai Plin's Imperial Brew",
+    "desc:694563488": "Purifying Brew instantly heals you for {1}% of the purified Stagger damage.",
+    "name:2782891578": "Gift of the Celestials",
+    "desc:1228017480": "Reduces the cooldown of Invoke Yul'on, the Jade Serpent by {1} min, but decreases its duration to {2} sec.",
+    "name:1246240994": "Gift of the Ox",
+    "desc:1116487252": "When you take damage, you have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}.",
+    "name:1171324125": "Glory of the Dawn",
+    "desc:3367207056": "Rising Sun Kick has a chance equal to {1}% of your haste to trigger a second time, dealing {2} Physical damage and restoring {3} Chi.",
+    "name:2455519422": "Grace of the Crane",
+    "desc:3086306179": "Increases all healing taken by {1}%.",
+    "name:171302720": "Grapple Weapon",
+    "desc:2206225839": "You fire off a rope spear, grappling the target's weapons and shield, returning them to you for {1} sec.",
+    "name:3118449881": "Guided Meditation",
+    "desc:1926409511": "The cooldown of Zen Meditation is reduced by {1}%. While Zen Meditation is active, all harmful spells cast against your allies within {2} yards are redirected to you.\r\n\r\nZen Meditation is no longer cancelled when being struck by a melee attack.",
+    "name:3535067677": "Hardened Soles",
+    "desc:2008225679": "Blackout Kick critical strike chance increased by {1}% and critical damage increased by {2}%.",
+    "name:1926354252": "Hasty Provocation",
+    "desc:1239213049": "Provoked targets move towards you at {1}% increased speed.",
+    "name:2806636092": "Healing Elixir",
+    "desc:2921602519": "You consume a healing elixir when you drop below {1}% health or generate excess healing elixirs, instantly healing you for {2}% of your maximum health.\r\n\r\nYou generate {3} healing elixir every {4} sec, stacking up to {5} times.",
+    "name:2109617130": "Healing Sphere",
+    "desc:3497109422": "Coalesces a Healing Sphere out of the mists at the target location after {1} sec. If allies walk through it, they consume the sphere, healing themselves for {2} and dispelling all harmful periodic magic effects.\r\n\r\nMaximum of {3} Healing Spheres can be active by the Monk at any given time.",
+    "name:3385156939": "High Tolerance",
+    "desc:3402834685": "Stagger is {1}% more effective at delaying damage.\r\n\r\nYou gain up to {2}% Haste based on your current level of Stagger.",
+    "name:1196379030": "Hit Combo",
+    "desc:2597551238": "Each successive attack that triggers Combo Strikes in a row grants {1}% increased damage, stacking up to {2} times.",
+    "name:4181317877": "Hit Scheme",
+    "desc:4133002995": "Dealing damage with Blackout Kick increases the damage of your next Keg Smash by {1}%, stacking up to {2} times.",
+    "name:1519417628": "Hot Trub",
+    "desc:1903002216": "Purifying Brew deals {1}% of cleared damage split among nearby enemies. After clearing {2}% of your maximum health in Stagger damage, your next Breath of Fire incapacitates targets for {3} sec.",
+    "name:2665647329": "Improved Detox",
+    "desc:3983054586": "Detox additionally removes all Poison and Disease effects.",
+    "name:2603604467": "Improved Invoke Niuzao, the Black Ox",
+    "desc:3587438816": "While Niuzao is active, Purifying Brew increases the damage of Niuzao's next Stomp, based on Stagger level.",
+    "name:1452423292": "Improved Touch of Death",
+    "desc:2087710098": "Touch of Death can now be used on targets with less than {1}% health remaining, dealing {2}% of your maximum health in damage.",
+    "name:3433775569": "Improved Vivify",
+    "desc:1444037249": "Vivify healing is increased by {1}%.",
+    "name:4101088855": "Inner Peace",
+    "desc:1455749136": "Increases maximum Energy by {1}. Tiger Palm's Energy cost reduced by {2}.",
+    "name:604748822": "Invigorating Mists",
+    "desc:340715851": "Vivify heals all allies with your Renewing Mist active for {1}, reduced beyond {2} allies.\r\n",
+    "name:727617542": "Invoke Chi-Ji, the Red Crane",
+    "desc:3776549815": "Summon an effigy of Chi-Ji for {1} sec that kicks up {2} Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to {3} allies for {4}, and reducing the cost and cast time of your next Enveloping Mist by {5}%, stacking.\r\n\r\nChi-Ji's presence makes you immune to movement impairing effects.",
+    "name:1106917879": "Invoke Niuzao, the Black Ox",
+    "desc:2520880525": "Summons an effigy of Niuzao, the Black Ox for {1} sec. Niuzao attacks your primary target, and frequently Stomps, damaging all nearby enemies, increased based on your recently purified Stagger.\r\n\r\nWhile active, {2}% of damage delayed by Stagger is instead Staggered by Niuzao.",
+    "name:3177357260": "Invoke Xuen, the White Tiger",
+    "desc:757794975": "Summons an effigy of Xuen, the White Tiger for {1} sec. Xuen attacks your primary target, and strikes {2} enemies within {3} yards every {4} sec with Tiger Lightning for {5} Nature damage.\r\n\r\nEvery {6} sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing {7}% of the damage you have dealt to those targets in the last {8} sec.",
+    "name:2669135799": "Invoke Yu'lon, the Jade Serpent",
+    "desc:1570766535": "Summons an effigy of Yu'lon, the Jade Serpent for {1} sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to {2} allies for {3} over {4} sec. \r\n\r\nEnveloping Mist costs {5}% less mana while Yu'lon is active.",
+    "name:2639963769": "Invoker's Delight",
+    "desc:3171520164": "You gain {1}% haste for {2} sec after summoning your Celestial.",
+    "name:1892324704": "Ironshell Brew",
+    "desc:2682847486": "Increases your maximum health by an additional {1}% and your damage taken is reduced by an additional {2}% while Fortifying Brew is active.",
+    "name:3297067060": "Jade Bond",
+    "desc:2995887631": "Chi Cocoons now apply Enveloping Mist for {1} sec when they expire or are consumed, and Chi-Ji's Gusts of Mists healing is increased by {2}% and Yu'lon's Soothing Breath healing is increased by {3}%.",
+    "name:295195145": "Jade Ignition",
+    "desc:1617248815": "Whenever you deal damage to a target with Fists of Fury, you gain a stack of Chi Energy up to a maximum of {1} stacks.\r\n\r\nUsing Spinning Crane Kick will cause the energy to detonate in a Chi Explosion, dealing {2} Nature damage to all enemies within {3} yards, reduced beyond {4} targets. The damage is increased by {5}% for each stack of Chi Energy.",
+    "name:3890562055": "Keg Smash",
+    "desc:2639544007": "Smash a keg of brew on the target, dealing {1} Physical damage to all enemies within {2} yds and reducing their movement speed by {3}% for {4} sec. Deals reduced damage beyond {5} targets.",
+    "name:3145225052": "Last Emperor's Capacitor",
+    "name:2186440539": "Leg Sweep",
+    "desc:2563209942": "Knocks down all enemies within {1} yards, stunning them for {2} sec.",
+    "name:1551368115": "Legacy of Wisdom",
+    "desc:3552132001": "Sheilun's Gift heals {1} additional allies and its cast time is reduced by {2} sec.",
+    "name:2895542249": "Life Cocoon",
+    "desc:733924206": "Encases the target in a cocoon of Chi energy for {1} sec, absorbing {2} damage and increasing all healing over time received by {3}%.",
+    "name:16556100": "Lifecycles",
+    "desc:3280652003": "Vivify has a {1}% chance to cause your next Rising Sun Kick or Enveloping Mist to generate {2} stack of Mana Tea.\r\n\r\nEnveloping Mist and Rising Sun Kick have a {3}% chance to cause your next Vivify to generate {4} stack of Mana Tea.",
+    "name:984078722": "Light Brewing",
+    "desc:3046190262": "Reduces the cooldown of Purifying Brew and Celestial Brew by {1}%.",
+    "name:3965331029": "Mana Tea",
+    "desc:984289439": "For every {1} Mana you spend, you gain {2} stack of Mana Tea, with a chance equal to your critical strike chance to generate {3} extra stack.\r\n\r\n|T608949:24|t{ffffffff|Mana Tea}:\r\nConsumes {4} stack of Mana Tea per {5} sec to restore {6} Mana and reduces the Mana cost of your spells by {7}% for {8} sec per stack of Mana Tea consumed after drinking.\r\n\r\nCan be cast while moving, but movement speed is reduced by {9}% while channeling.",
+    "name:1373608446": "Mark of the Crane",
+    "desc:1240598300": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. \r\n\r\nStacks up to {3} times and only applies to the primary target of each effect.",
+    "name:1554332813": "Mastery: Combo Strikes",
+    "desc:680545719": "Your abilities deal {1}% more damage when they are not a repeat of the previous ability.",
+    "name:2053981949": "Mastery: Elusive Brawler",
+    "desc:3698917811": "Each time you are hit by a melee attack, or hit with Blackout Kick, you gain stacking {1}% increased Dodge chance until your next successful Dodge.\r\n\r\nAlso increases your attack power by {2}%.",
+    "name:1503892254": "Mastery: Gust of Mists",
+    "desc:751180634": "Renewing Mist, Enveloping Mist, Rising Sun Kick, and Vivify cause a gust of healing mists, instantly healing the primary target for {1}.",
+    "name:2476497048": "Mending Proliferation",
+    "desc:2478941165": "Each time Enveloping Mist heals, its healing bonus has a {1}% chance to spread to an injured ally within {2} yds.",
+    "name:993340751": "Meridian Strikes",
+    "desc:1523373278": "When you Combo Strike, the cooldown of Touch of Death is reduced by {1} sec.\r\n\r\nTouch of Death deals an additional {2}% damage.",
+    "name:787251177": "Microbrew",
+    "desc:2026551640": "Reduces the cooldown of Fortifying Brew by {1}%.",
+    "name:1004177551": "Mighty Ox Kick",
+    "desc:4025099460": "You perform a Mighty Ox Kick, hurling your enemy a distance behind you.",
+    "name:1578054184": "Mist Wrap",
+    "desc:2358651875": "Increases Enveloping Mist's duration by {1} sec and its healing bonus by {2}%.",
+    "name:69144552": "Mists of Life",
+    "desc:420182374": "Life Cocoon applies Renewing Mist and Enveloping Mist to the target. ",
+    "name:2069818759": "Misty Peaks",
+    "desc:2873285864": "Renewing Mist's heal over time effect has a {1}% chance to apply Enveloping Mist for {2} sec.",
+    "name:366194480": "Mystic Touch",
+    "desc:3019281822": "Your damage weakens the target, increasing Physical damage taken by {1}%.",
+    "name:182389045": "Nimble Brew",
+    "desc:916069149": "Douse allies in the targeted area with Nimble Brew, preventing the next full loss of control effect within {1} sec.",
+    "name:3415282085": "Niuzao's Essence",
+    "desc:538911070": "Drinking a Purifying Brew will dispel all snares affecting you.",
+    "name:2581439491": "Overflowing Mists",
+    "desc:2367185697": "Your Enveloping Mists heal the target for {1}% of their maximum health each time they take direct damage.",
+    "name:2027956544": "Paralysis",
+    "desc:1590652786": "Incapacitates the target for {1} min. Limit {2}. Damage may cancel the effect.",
+    "name:2427519294": "Peaceful Mending",
+    "desc:2379217276": "Allies targeted by Soothing Mist receive {1}% more healing from your Enveloping Mist and Renewing Mist effects.",
+    "name:3264640421": "Peaceweaver",
+    "desc:2809361546": "Revival's cooldown is reduced by {1}%, and provides immunity to magical damage and harmful effects for {2} sec.",
+    "name:635431432": "Perpetual Paralysis",
+    "desc:2338696740": "Paralysis range reduced by {1} yards, but spreads to {2} new enemies when removed.",
+    "name:2052048850": "Pressure Points",
+    "desc:408969171": "Paralysis now removes all Enrage effects from its target.",
+    "name:436733006": "Pretense of Instability",
+    "desc:2286107283": "Activating Purifying Brew or Celestial Brew grants you {1}% dodge for {2} sec.",
+    "name:2096734770": "Profound Rebuttal",
+    "desc:3451934157": "Expel Harm's critical healing is increased by {1}%.",
+    "name:3747036995": "Provoke",
+    "desc:4177245906": "Taunts the target to attack you.",
+    "name:3072520462": "Purifying Brew",
+    "desc:114557222": "Clears {1}% of your damage delayed with Stagger.",
+    "name:1338007360": "Quick Sip",
+    "desc:3015321332": "Purify {1}% of your Staggered damage each time you gain {2} sec of Shuffle duration.",
+    "name:2712167213": "Rapid Diffusion",
+    "desc:2833316154": "Rising Sun Kick and Enveloping Mist apply Renewing Mist for {1} seconds to an ally within {2} yds.",
+    "name:1685329104": "Reawaken",
+    "desc:2498035695": "Returns all dead party members to life with {1}% of maximum health and mana. Cannot be cast when in combat.",
+    "name:1245385930": "Refreshing Jade Wind",
+    "desc:3794209272": "Thunder Focus Tea summons a whirling tornado around you, causing {1} healing every {2} sec for {3} sec on to up to {4} allies within {5} yards.\r\n",
+    "name:1645762062": "Renewing Mist",
+    "desc:3164279028": "Surrounds the target with healing mists, restoring {1} health over {2} sec.\r\n\r\nIf Renewing Mist heals a target past maximum health, it will travel to another injured ally within {3} yds.\r\n\r\nEach time Renewing Mist heals, it has a {4}% chance to increase the healing of your next Vivify by {5}%.",
+    "name:912848286": "Resplendent Mist",
+    "desc:2905439965": "Gust of Mists has a {1}% chance to do {2}% more healing.",
+    "name:3081902551": "Restoral",
+    "desc:1808217728": "Heals all party and raid members within {1} yds for {2} and clears them of all harmful Poison and Disease effects. \r\n\r\nCastable while stunned.\r\n\r\nHealing reduced beyond {3} targets.",
+    "name:3671463925": "Resuscitate",
+    "desc:1687996261": "Returns the spirit to the body, restoring a dead target to life with {1}% of maximum health and mana. Cannot be cast when in combat.",
+    "name:2462458558": "Reverse Harm",
+    "desc:3018438640": "Increases the healing done by Expel Harm by {1}%.",
+    "name:2441366323": "Revival",
+    "desc:1933812909": "Heals all party and raid members within {1} yds for {2} and clears them of {3} harmful Magic, all Poison, and all Disease effects.\r\n\r\nHealing reduced beyond {4} targets.",
+    "name:3361066692": "Ride the Wind",
+    "desc:535962089": "Flying Serpent Kick clears all snares from you when used and forms a path of wind in its wake, causing all allies who stand in it to have {1}% increased movement speed and to be immune to movement slowing effects.",
+    "name:932176335": "Ring of Peace",
+    "desc:3130185205": "Form a Ring of Peace at the target location for {1} sec. Enemies that enter will be ejected from the Ring.",
+    "name:3941082952": "Rising Mist",
+    "desc:1747951926": "Rising Sun Kick heals all allies with your Renewing Mist and Enveloping Mist for {1}, and extends those effects by {2} sec, up to {3}% of their original duration.",
+    "name:2066904112": "Rising Star",
+    "desc:3177451441": "Rising Sun Kick damage increased by {1}% and critical strike damage increased by {2}%.",
+    "name:1846535493": "Rising Sun Kick",
+    "desc:836831240": "Kick upwards, dealing {1} Physical damage, and reducing the effectiveness of healing on the target for {2} sec.",
+    "name:3531058191": "Rodeo",
+    "desc:4099174550": "Every {1} sec while Clash is off cooldown, your next Clash can be reactivated immediately to wildly Clash an additional enemy. This effect can stack up to {2} times.",
+    "name:3883618640": "Roll",
+    "desc:640043028": "Roll a short distance.",
+    "name:666123584": "Rushing Jade Wind",
+    "desc:714313003": "Strike of the Windlord summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. \r\n\r\nDeals reduced damage beyond {4} targets.",
+    "desc:2998363054": "Summons a whirling tornado around you, causing {1} Physical damage over {2} sec to all enemies within {3} yards. Deals reduced damage beyond {4} targets.",
+    "name:2083684303": "Sal'salabim's Strength",
+    "desc:3180937604": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
+    "name:291946365": "Save Them All",
+    "desc:3119901925": "When your healing spells heal an ally whose health is below {1}% maximum health, you gain an additional {2}% healing for the next {3} sec.",
+    "name:3543920177": "Scalding Brew",
+    "desc:522692007": "Keg Smash deals an additional {1}% damage to targets affected by Breath of Fire.",
+    "name:1760367193": "Secret Infusion",
+    "desc:1474018522": "After using Thunder Focus Tea, your next spell gives {1}% of a stat for {2} sec:\r\n{ffffffff|Enveloping Mist}: Critical strike\r\n{ffffffff|Renewing Mist}: Haste\r\n{ffffffff|Vivify}: Mastery\r\n{ffffffff|Rising Sun Kick}: Versatility\r\n{ffffffff|Expel Harm}: Versatility",
+    "name:284654401": "Shadowboxing Treads",
+    "desc:4055563484": "Blackout Kick damage increased by {1}% and strikes an additional {2} targettargets at {3}% effectiveness.",
+    "desc:2273580991": "Blackout Kick's damage increased by {1}% and it strikes an additional {2} targettargets.",
+    "name:2183596996": "Shaohao's Lessons",
+    "desc:1219450825": "Each time you cast Sheilun's Gift, you learn one of Shaohao's Lessons for up to {1} sec, with the duration based on how many clouds of mist are consumed.\r\n\r\n{ffffffff|Lesson of Doubt}: Your spells and abilities deal up to {2}% more healing and damage to targets, based on their current health.\r\n\r\n{ffffffff|Lesson of Despair}: Your Critical Strike is increased by {3}% while above {4}% health.\r\n\r\n{ffffffff|Lesson of Fear}: Decreases your damage taken by {5}% and increases your Haste by {6}%.\r\n\r\n{ffffffff|Lesson of Anger}: {7}% of the damage or healing you deal is duplicated every {8} sec.",
+    "name:1813370479": "Sheilun's Gift",
+    "desc:900945038": "Draws in all nearby clouds of mist, healing the friendly target for {1} per cloud absorbed.\r\n\r\nA cloud of mist is generated every {2} sec while in combat.",
+    "name:176273904": "Shuffle",
+    "desc:673921744": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by {1}%.\r\n\r\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.",
+    "name:3960780120": "Song of Chi-Ji",
+    "desc:250364823": "Conjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for {1} sec.",
+    "name:1597503897": "Soothing Mist",
+    "desc:361664731": "Heals the target for {1} over {2} sec.\r\n\r\nWhile channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel.",
+    "desc:2676602647": "Heals the target for {1} over {2} sec. While channeling, Enveloping Mist and Vivify may be cast instantly on the target.",
+    "name:612499249": "Spear Hand Strike",
+    "desc:1747978994": "Jabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for {1} sec.",
+    "name:170112933": "Special Delivery",
+    "desc:738687122": "Drinking from your Brews has a {1}% chance to toss a keg high into the air that lands nearby after {2} sec, dealing {3} damage to all enemies within {4} yards and reducing their movement speed by {5}% for {6} sec.",
+    "name:93644259": "Spinning Crane Kick",
+    "desc:1291298083": "Spinning Crane Kick's damage is increased by {1}% for each unique target you've struck in the last {2} sec with Tiger Palm, Blackout Kick, or Rising Sun Kick.",
+    "desc:1405186088": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to enemies within {3} yds.",
+    "desc:4103592572": "Spin while kicking in the air, dealing {1} Physical damage over {2} sec to all enemies within {3} yds. Deals reduced damage beyond {4} targets.",
+    "name:2983491198": "Spirit of the Ox",
+    "desc:44109193": "Rising Sun Kick and Blackout Kick have a chance to summon a Healing Sphere.\r\n\r\n|T606546:24|t{ffffffff|Healing Sphere}:\r\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for {1}.",
+    "name:3472454607": "Spiritual Focus",
+    "desc:3950401786": "Every {1} Chi you spend reduces the cooldown of Storm, Earth, and Fire by {2} sec.",
+    "name:3615005538": "Stagger",
+    "desc:2456518148": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over {1} sec. Affects magical attacks at {2}% effectiveness.",
+    "name:2951368125": "Staggering Strikes",
+    "desc:1059265773": "When you Blackout Kick, your Stagger is reduced by {1}.",
+    "name:1589891751": "Storm, Earth, and Fire",
+    "desc:4053677989": "Split into {1} elemental spirits for {2} sec, each spirit dealing {3}% of normal damage and healing.\r\n\r\nYou directly control the Storm spirit, while Earth and Fire spirits mimic your attacks on nearby enemies.\r\n\r\nWhile active, casting Storm, Earth, and Fire again will cause the spirits to fixate on your target.",
+    "name:2315583895": "Strength of Spirit",
+    "desc:1603082621": "Expel Harm's healing is increased by up to {1}%, based on your missing health.",
+    "name:3231077305": "Strike of the Windlord",
+    "desc:2263286580": "Strike with both fists at all enemies in front of you, dealing {1} Physical damage and reducing movement speed by {2}% for {3} sec.",
+    "name:3248153824": "Summon Black Ox Statue",
+    "desc:3018880685": "Summons a Black Ox Statue at the target location for {1} min, pulsing threat to all enemies within {2} yards.\r\n\r\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
+    "name:4195199758": "Summon Jade Serpent Statue",
+    "desc:818511396": "Summons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for {1} over {2} sec.",
+    "name:3357770263": "Stormstout's Last Keg",
+    "desc:2646651811": "Keg Smash deals {1}% additional damage, and has {2} additional charges.",
+    "name:105903989": "Summon White Tiger Statue",
+    "desc:1000249988": "Invoking Xuen, the White Tiger also spawns a White Tiger Statue at your location that pulses {1} damage to all enemies every {2} sec for {3} sec.",
+    "name:2162679004": "Tea of Plenty",
+    "desc:2074446906": "Thunder Focus Tea also empowers {1} additional Enveloping Mist, Expel Harm, or Rising Sun Kick at random.",
+    "name:1600640355": "Tea of Serenity",
+    "desc:477184336": "Thunder Focus Tea also empowers {1} additional Renewing Mist, Enveloping Mist, or Vivify at random.",
+    "name:3568561580": "Teachings of the Monastery",
+    "desc:4277603321": "Tiger Palm causes your next Blackout Kick to strike an additional time, stacking up to {1}.\r\n\r\nBlackout Kick has a {2}% chance to reset the remaining cooldown on Rising Sun Kick.",
+    "name:966012304": "Tear of Morning",
+    "desc:346809849": "Casting Vivify or Enveloping Mist on a target with Renewing Mist has a {1}% chance to spread the Renewing Mist to another target.\r\n\r\nYour Vivify healing through Renewing Mist is increased by {2}% and your Enveloping Mist also heals allies with Renewing Mist for {3}% of its healing.",
+    "name:3003412138": "Thunder Focus Tea",
+    "desc:2725883167": "Receive a jolt of energy, empowering your next {1} spells cast:\r\n\r\n{ffffffff|Enveloping Mist}: Immediately heals for {2} and is instant cast.\r\n{ffffffff|Renewing Mist}: Duration increased by {3} sec.\r\n{ffffffff|Vivify}: No mana cost.\r\n{ffffffff|Rising Sun Kick}: Cooldown reduced by {4} sec.\r\n{ffffffff|Expel Harm}: Transfers {5}% additional healing into damage and creates a Chi Cocoon absorbing {6} damage. \r\n{ffffffff|Crackling Jade Lightning}: Knockback applied immediately.\r\n{ffffffff|Roll}: Refund a charge and heal yourself for {7}.",
+    "name:4162082693": "Thunderfist",
+    "desc:4242225725": "Strike of the Windlord grants you {1} stacks of Thunderfist and an additional stack for each additional enemy struck. \r\n\r\nThunderfist discharges upon melee strikes, dealing {2} Nature damage.",
+    "name:3963081004": "Tiger Palm",
+    "desc:4088993260": "Strike with the palm of your hand, dealing {1} Physical damage.",
+    "name:2018797776": "Tiger Tail Sweep",
+    "desc:1789329672": "Increases the range of Leg Sweep by {1} yds.",
+    "name:2611723036": "Tiger's Lust",
+    "desc:3065490793": "Increases a friendly target's movement speed by {1}% for {2} sec and removes all roots and snares.",
+    "name:1768582408": "Tigereye Brew",
+    "desc:1692085937": "Consumes up to {1} stacks of Tigereye Brew to empower your Physical abilities with wind for {2} sec per stack consumed. Damage of your strikes are reduced, but bypass armor.\r\n\r\nFor each {3} Chi you consume, you gain a stack of Tigereye Brew.",
+    "name:2419444117": "Touch of Death",
+    "desc:2958297300": "You exploit the enemy target's weakest point, instantly dealing damage equal to {1}% of your maximum health to them.\r\n\r\nOnly usable on creatures that have less health than you.",
+    "desc:2032729457": "Touch of Death spawns {1} Chi Spheres, granting {2} Chi when you walk through them.",
+    "desc:1740744540": "Touch of Death reduces delayed Stagger damage by {1}% of damage dealt.",
+    "name:195064946": "Touch of Karma",
+    "desc:3944452918": "Absorbs all damage taken for {1} sec, up to {2}% of your maximum health, and redirects {3}% of that amount to the enemy target as Nature damage over {4} sec.",
+    "name:1360736888": "Touch of the Tiger",
+    "desc:831353914": "Tiger Palm damage increased by {1}%.",
+    "name:1950095488": "Training of Niuzao",
+    "desc:4141251052": "Gain up to {1}% Mastery based on your current level of Stagger.",
+    "name:403264583": "Tranquil Spirit",
+    "desc:1421623408": "When you consume a Healing Sphere or cast Expel Harm, your current Stagger amount is lowered by {1}%.",
+    "name:1518268304": "Transcendence",
+    "desc:3563254831": "Split your body and spirit, leaving your spirit behind for {1} min. Use Transcendence: Transfer to swap locations with your spirit.",
+    "name:59760301": "Transfer the Power",
+    "desc:1798471211": "Blackout Kick, Rising Sun Kick, and Spinning Crane Kick increase damage dealt by your next Fists of Fury by {1}%, stacking up to {2} times.",
+    "name:1367924823": "Turbo Fists",
+    "desc:2081545539": "Fists of Fury now reduces all targets movement speed by {1}%, and you Parry all attacks while channelling Fists of Fury.",
+    "name:3534474007": "Unison",
+    "desc:3611179198": "Soothing Mist heals a second injured ally within {1} yds for {2}% of the amount healed.",
+    "name:2548724312": "Uplifted Spirits",
+    "desc:3240155032": "Vivify critical strikes and Rising Sun Kicks reduce the remaining cooldown on Revival by {1} sec, and Revival heals targets for {2}% of Revival's heal over {3} sec.",
+    "name:2861472083": "Veil of Pride",
+    "desc:1927103120": "Increases Sheilun's Gift cloud of mist generation to every {1} sec. ",
+    "name:2305196404": "Vigorous Expulsion",
+    "desc:3639452426": "Expel Harm's healing increased by {1}% and critical strike chance increased by {2}%. ",
+    "name:857472412": "Vivacious Vivification",
+    "desc:3943744143": "Every {1} sec, your next Vivify becomes instant and its healing is increased by {2}%.",
+    "name:1043156280": "Vivify",
+    "desc:91494204": "Causes a surge of invigorating mists, healing the target for {1}.",
+    "name:401241097": "Walk with the Ox",
+    "desc:1053536096": "Abilities that grant Shuffle reduce the cooldown on Invoke Niuzao, the Black Ox by {1} sec, and Niuzao's Stomp deals an additional {2}% damage. ",
+    "name:1930860081": "Weapons of Order",
+    "desc:1182517313": "For the next {1} sec, your Mastery is increased by {2}%. Additionally, Keg Smash cooldown is reset instantly and enemies hit by Keg Smash or Rising Sun Kick take {3}% increased damage from you for {4} sec, stacking up to {5} times.",
+    "name:1557849056": "Whirling Dragon Punch",
+    "desc:1331063697": "Performs a devastating whirling upward strike, dealing {1} damage to all nearby enemies and an additional {2} damage to the first target struck. Damage reduced beyond {3} targets.\r\n\r\nOnly usable while both Fists of Fury and Rising Sun Kick are on cooldown.",
+    "name:4293911883": "Wind Waker",
+    "desc:3623004172": "Your movement enhancing abilities increases Windwalking on allies by {1}%, stacking {2} additional times. Movement impairing effects are removed at {3} stacks.",
+    "name:3047075590": "Windwalking",
+    "desc:3792744178": "You and your allies within {1} yards have {2}% increased movement speed. Stacks with other similar effects.",
+    "name:694267249": "Xuen's Battlegear",
+    "desc:669217583": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by {1} sec.\r\n\r\nWhen Fists of Fury ends, the critical strike chance of Rising Sun Kick is increased by {2}% for {3} sec.",
+    "name:1529658234": "Xuen's Bond",
+    "desc:2617575516": "Invoke Xuen, the White Tiger's damage is increased by {1}% and its cooldown is reduced by {2} sec.",
+    "name:2329054652": "Yu'lon's Whisper",
+    "desc:1170049067": "While channeling Mana Tea you exhale the breath of Yu'lon, healing up to {1} allies within {2} yards for {3} every {4} sec.",
+    "name:1000264802": "Zen Flight",
+    "desc:272933352": "You fly through the air at a quick speed on a meditative cloud.",
+    "name:361000935": "Zen Focus Tea",
+    "desc:929591539": "Thunder Focus Tea provides immunity to Silence and Interrupt effects for {1} sec.",
+    "name:447749963": "Zen Meditation",
+    "desc:1456429661": "Reduces all damage taken by {1}% for {2} sec. Being hit by a melee attack, or taking another action will cancel this effect.",
+    "name:2227161629": "Zen Pilgrimage",
+    "desc:949482411": "Your spirit travels to your home temple, leaving your body behind. \r\n\r\nUse Zen Pilgrimage again to return back to near your departure point.",
+    "name:4116066065": "Zen Pulse",
+    "desc:2285404348": "Renewing Mist's heal over time has a chance to cause your next Vivify to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for {1} increased by {2}% per Renewing Mist active, up to {3}%.",
+    "name:2755108870": "Zen Spheres",
+    "desc:3176110700": "Forms a sphere of Hope or Despair above the target. Only one of each sphere can be active at a time.\r\n\r\n|T5094559:24|t {ffffffff|Sphere of Hope}: Heals for {1} and increases your healing done to the target by {2}%.\r\n|T5094558:24|t {ffffffff|Sphere of Despair}: Deals {3} Nature damage, Target deals {4}% less damage, and takes {5}% increased damage from all sources.\r\n",
+    "name:1606543164": "Stormspirit Strikes",
+    "desc:486976043": "Striking more than one enemy with Fists of Fury summons a Storm Spirit to focus your secondary target for {1} sec, which will mimic any of your attacks that do not also strike the target for {2}% of normal damage.",
+    "name:3608456580": "Yu'lon's Grace",
+    "desc:1359059417": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for {1}% of your max health every {2} sec in combat, stacking up to {3}%.",
+    "name:1569501097": "Dance of the Wind",
+    "desc:522846507": "Your physical damage taken is reduced by {1}% and an additional {2}% every {3} sec until you receive a physical attack.",
+    "desc:4225248288": "Your dodge chance is increased by {1}%.",
+    "name:1330483556": "Press the Advantage",
+    "desc:3281397997": "Your main hand auto attacks reduce the cooldown on your brews by {1} sec and block your target's chi, dealing {2} additional Nature damage and increasing your damage dealt by {3}% for {4} sec. \r\n\r\nUpon reaching {5} stacks, your next cast of Rising Sun Kick or Keg Smash consumes all stacks to strike again at {6}% effectiveness. This bonus attack can trigger effects on behalf of Tiger Palm at reduced effectiveness.",
+    "name:3679532938": "Energy Transfer",
+    "desc:3765011673": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by {1} sec.",
+    "name:106082565": "Parry",
+    "desc:1505216917": "Gives a chance to parry enemy melee attacks.",
+    "name:3920523067": "Leather Specialization",
+    "desc:2192591983": "Increases your Agility by {1}% while wearing only Leather armor.",
+    "desc:3994087124": "Increases your Stamina by {1}% while wearing only Leather armor.",
+    "desc:2510302227": "Increases your Intellect by {1}% while wearing only Leather armor.",
+    "name:1268120370": "Critical Strikes",
+    "desc:47873328": "Increases your chance to critically strike by {1}%.",
+    "name:278555333": "Manifestation",
+    "desc:3736337121": "Chi Burst and Chi Wave deal {1}% increased damage and healing.",
+    "name:362758642": "Energizing Brew",
+    "desc:2887077637": "Mana Tea now channels {1}% faster and generates {2}% more Mana.",
+    "name:807238585": "Chi Harmony",
+    "desc:2651677593": "Renewing Mist increases its target's healing received from you by {1}% for the first {2} sec of its duration, but cannot jump to a new target during this time.",
+    "name:3028173822": "Strike At Dawn",
+    "desc:1322810151": "Rising Sun Kick grants a stack of Elusive Brawler.",
+    "name:2822065743": "Darting Hurricane",
+    "desc:667623230": "After you cast Strike of the Windlord, the global cooldown of your next {1} Tiger Palms is reduced by {2}%.\r\n\r\nYour damaging spells and abilities have a chance to grant {3} stack of Darting Hurricane.",
+    "name:1347206570": "Glyph of Crackling Crane Lightning",
+    "desc:2813143294": "Your Crackling Jade Lightning visual is altered to the color of the Red Crane celestial.",
+    "name:837909192": "Rising Dragon Sweep",
+    "desc:2473088799": "Whirling Dragon Punch knocks enemies up into the air and causes them to fall slowly until they reach the ground.",
+    "name:2230189176": "Courageous Impulse",
+    "desc:2744372531": "The Blackout Kick! effect also increases the damage of your next Blackout Kick by {1}%.",
+    "name:1695228798": "Ferociousness",
+    "desc:3438658852": "Critical Strike chance increased by {1}%. This effect is increased by {2}% while Xuen, the White Tiger is active.",
+    "name:840987298": "Path of Resurgence",
+    "desc:3128640846": "Chi Burst increases vitality stored by {1}% for {2} sec.",
+    "name:3634391230": "Sequenced Strikes",
+    "desc:3730983340": "You have a {1}% chance to gain Blackout Kick! after consuming Dance of Chi-Ji.",
+    "name:3621104056": "Rushing Reflexes",
+    "desc:1030906426": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within {1} yards after you Roll.",
+    "name:1235703068": "Combo Breaker",
+    "desc:2384140747": "You have a {1}% chance when you Tiger Palm to cause your next Blackout Kick to cost no Chi within {2} sec.",
+    "name:2315983645": "Dual Threat",
+    "desc:3930726258": "Your auto attacks have a {1}% chance to instead kick your target dealing {2} Physical damage and increasing your damage dealt by {3}% for {4} sec.",
+    "name:663559381": "Wind's Reach",
+    "desc:2529999753": "The range of Disable is increased by {1} yds.\r\n \r\nThe duration of Crashing Momentum is increased by {2} sec and its snare now reduces movement speed by an additional {3}%.",
+    "name:945045127": "Heightened Guard",
+    "desc:1203928050": "Ox Stance will now trigger when an attack is larger than {1}% of your current health.",
+    "name:234460370": "Glyph of Yu'lon's Grace",
+    "desc:3801599343": "Changes your Gift of the Ox orbs to take on the green of Yu'lon.",
+    "name:4287353270": "Path of Jade",
+    "name:3092141528": "Martial Precision",
+    "desc:4128541532": "Your attacks penetrate {1}% armor.",
+    "name:1212710850": "Memory of the Monastery",
+    "desc:2939145454": "Tiger Palm's chance to activate Blackout Kick! is increased by {1}% and consuming Teachings of the Monastery grants you {2}% haste for {3} sec equal to the amount of stacks consumed.",
+    "name:2316603697": "One Versus Many",
+    "desc:3607084831": "Damage dealt by Fists of Fury and Keg Smash counts as double towards Flurry Charge generation.\r\n\r\nFists of Fury damage increased by {1}%.\r\nKeg Smash damage increased by {2}%.",
+    "name:1664615109": "Combat Conditioning",
+    "desc:1290585325": "Your Blackout Kick now also deals an additional {1}% damage over {2} sec if behind the target or heals you for {3}% of the damage done if in front of the target.\r\n\r\nAdditionally, your Rising Sun Kick now also causes Mortal Wounds to the primary target.\r\n\r\n|Tinterface\\icons\\ability_criticalstrike.blp:24|t {FFFFFFFF|Mortal Wounds}\r\nGrievously wounds the target, reducing the effectiveness of any healing received for {4} sec.",
+    "name:1085724511": "Absolute Serenity",
+    "desc:2228822967": "Celestial Conduit now prevents all crowd control for its duration.",
+    "name:1218042426": "Elixir of Determination",
+    "desc:1379300345": "When you fall below {1}% health, you gain an absorb for {2}% of your recently Purified damage, or a minimum of {3}% of your maximum health. Cannot occur more than once every {4} sec.",
+    "name:179946483": "Endless Draught",
+    "desc:1974557823": "Thunder Focus Tea has {1} additional charge.",
+    "name:325186673": "Peer Into Peace",
+    "desc:1625460924": "{1}% of your overhealing done onto targets with Soothing Mist is spread to {2} nearby injured allies.\r\n\r\nSoothing Mist now follows the target of your Enveloping Mist or Vivify and its channel time is increased by {3} sec.",
+    "name:3683133956": "Glyph of Fighting Pose",
+    "desc:1072120686": "Your spirit now appears in a fighting pose when using Transcendence.",
+    "name:4034241896": "Flurry of Xuen",
+    "desc:1482967807": "Your spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal {1} Physical damage in a {2} yd cone, damage reduced beyond {3} targets.\r\n\r\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
+    "name:2949688041": "Deep Clarity",
+    "desc:3653775284": "After you fully consume Thunder Focus Tea, your next Vivify triggers Zen Pulse.",
+    "name:1566474125": "Jadefire Harmony",
+    "name:1166112180": "Gale Force",
+    "desc:3953068755": "Targets hit by Strike of the Windlord have a {1}% chance to be struck for {2}% additional Nature damage from your spells and abilities for {3} sec.",
+    "name:1518575685": "Unity Within",
+    "desc:4199314615": "Celestial Conduit can be recast once during its duration to call upon all of the August Celestials to assist you at {1}% effectiveness.\r\n\r\nUnity Within is automatically cast when Celestial Conduit ends if not used before expiration.",
+    "name:747896206": "Pride of Pandaria",
+    "desc:1837061050": "Flurry Strikes have {1}% additional chance to critically strike.",
+    "name:685298986": "Jadefire Fists",
+    "desc:1974847774": "At the end of your Fists of Fury channel, you release a Jadefire Stomp. This can occur once every {1} sec.\r\n\r\n|T6035313:24|t {ffffffff|Jadefire Stomp}\r\nStrike the ground fiercely to expose a path of jade for {2} sec that increases your movement speed by {3}% while inside, dealing {4} Nature damage to up to {5} enemies, and restoring {6} health to up to {7} allies within {8} yds caught in the path. Up to {9} enemies caught in the path suffer an additional {10} damage.",
+    "name:3895793189": "Lotus Infusion",
+    "desc:3333153595": "Allies with Renewing Mist receive {1}% more healing from you and Renewing Mist's duration is increased by {2} sec.",
+    "name:438416886": "Mantra of Tenacity",
+    "desc:720017865": "Fortifying Brew grants {1}% Stagger.",
+    "name:2635205527": "Jadefire Accord",
+    "name:941730124": "August Dynasty",
+    "desc:394393629": "Casting Jadefire Stomp increases the damage or healing of your next Rising Sun Kick by {1}% or Vivify by {2}%.",
+    "name:177747355": "Energy Burst",
+    "desc:1933820745": "When you consume Blackout Kick!, you have a {1}% chance to generate {2} Chi.",
+    "name:1781720934": "Protect and Serve",
+    "desc:1067251570": "Your Vivify always heals you for an additional {1}% of its total value.",
+    "name:2189480563": "Glyph of Crackling Tiger Lightning",
+    "desc:702024763": "Your Crackling Jade Lightning visual is altered to the color of the White Tiger celestial.",
+    "name:810514844": "Predestination",
+    "desc:2763666949": "Killing a player with Touch of Death resets the cooldown of Touch of Karma.",
+    "name:746448141": "Martial Mixture",
+    "desc:867810742": "Blackout Kick increases the damage of your next Tiger Palm by {1}%, stacking up to {2} times.",
+    "name:3682618660": "Heart of the Jade Serpent",
+    "desc:570782411": "Sheilun's Gift calls upon Yu'lon to decrease the cooldown time of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by {1}% for up to {2} sec, based on the clouds of mist consumed.",
+    "name:512526896": "Overwhelming Force",
+    "desc:3652949515": "Rising Sun Kick, Blackout Kick, and Tiger Palm deal {1}% additional damage to enemies in a line in front of you. Damage reduced above {2} targets.",
+    "name:3318968919": "Acclamation",
+    "desc:2012937273": "Rising Sun Kick increases the damage your target receives from you by {1}% for {2} sec. Multiple instances may overlap.",
+    "name:3752470706": "Whirling Steel",
+    "desc:3093432414": "When your health drops below {1}%, summon Whirling Steel, increasing your parry chance and avoidance by {2}% for {3} sec.\r\n\r\nThis effect can not occur more than once every {4} sec.",
+    "name:3116994064": "Inner Compass",
+    "desc:2374489278": "You switch between alignments after an August Celestial assists you, increasing a corresponding secondary stat by {1}%.\r\n\r\n{FFFFFFFF|Crane Stance}:\r\nHaste\r\n\r\n{FFFFFFFF|Tiger Stance}:\r\nCritical Strike\r\n\r\n{FFFFFFFF|Ox Stance}:\r\nVersatility\r\n\r\n{FFFFFFFF|Serpent Stance}: \r\nMastery",
+    "name:1862512222": "Tiger's Vigor",
+    "desc:3041617942": "Casting Tiger's Lust reduces the remaining cooldown on Roll by {1} sec.",
+    "name:2661316723": "Jade Walk",
+    "desc:2891625146": "While out of combat, your movement speed is increased by {1}%.",
+    "name:323348839": "Flow of Chi",
+    "desc:3802702535": "You gain a bonus effect based on your current health.\r\n\r\nAbove {1}% health: Movement speed increased by {2}%. This bonus stacks with similar effects.\r\n\r\nBetween {3}% and {4}% health: Damage taken reduced by {5}%.\r\n\r\nBelow {6}% health: Healing received increased by {7}%. ",
+    "name:9115286": "Temple Training",
+    "desc:2929367672": "The healing of Enveloping Mist and Vivify is increased by {1}%.",
+    "name:246392716": "Mantra of Purity",
+    "desc:2372064305": "When cast on yourself, your single-target healing spells heal for {1}% more and restore an additional {2} health over {3} sec.",
+    "name:1881550011": "Revolving Whirl",
+    "desc:3891394705": "Whirling Dragon Punch has a {1}% chance to activate Dance of Chi-Ji and its cooldown is reduced by {2} sec.",
+    "name:2668951964": "Purified Spirit",
+    "desc:3167866255": "When Aspect of Harmony ends, any remaining vitality is expelled as healing over {1} sec, split among nearby targets.",
+    "name:56782096": "Communion With Wind",
+    "desc:3775293616": "Strike of the Windlord's cooldown is reduced by {1} sec and its damage is increased by {2}%.",
+    "name:627857973": "Veteran's Eye",
+    "desc:2091425989": "Striking the same target {1} times within {2} sec grants {3}% Haste, stacking up to {4} times.",
+    "name:3525277136": "Way of a Thousand Strikes",
+    "desc:2879069814": "Rising Sun Kick, Blackout Kick, and Tiger Palm contribute {1}% additional vitality.",
+    "name:1528412694": "Combat Wisdom",
+    "name:4232652682": "Bounding Agility",
+    "desc:2745753029": "Roll and Chi Torpedo travel a small distance further.",
+    "name:3713198252": "Niuzao's Protection",
+    "desc:1639713597": "Fortifying Brew grants you an absorb shield for {1}% of your maximum health.",
+    "name:1478144928": "Spirit's Essence",
+    "desc:2999803372": "Transcendence: Transfer snares targets within {1} yds by {2}% for {3} sec when cast.",
+    "name:95825070": "Courage of the White Tiger",
+    "desc:3597653439": "Tiger Palm and Vivify have a chance to cause Xuen to claw a nearby enemy for {1} Physical damage, healing a nearby ally for {2}% of the damage done.\r\n\r\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
+    "name:3192160405": "Ox Stance",
+    "desc:4181555058": "Casting Purifying Brew grants a charge of Ox Stance, increased based on Stagger level. When you take damage that is greater than {1}% of your current health, a charge is consumed to increase the amount you Stagger.",
+    "name:292522542": "Balanced Stratagem",
+    "desc:1680638100": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by {1}%, and vice versa. Stacks up to {2}.",
+    "name:2081080398": "Glyph of Crackling Ox Lightning",
+    "desc:2963799648": "Your Crackling Jade Lightning visual is altered to the color of the Ox celestial.",
+    "name:928279202": "Transcendence: Linked Spirits",
+    "desc:3539726554": "Transcendence now tethers your spirit onto an ally for {1} hour. Use Transcendence: Transfer to teleport to your ally's location.",
+    "name:2227307333": "Black Ox Adept",
+    "desc:78880253": "Rising Sun Kick grants a charge of Ox Stance.",
+    "name:3601547899": "Flight of the Red Crane",
+    "desc:1361037882": "Refreshing Jade Wind and Spinning Crane Kick have a chance to cause Chi-Ji to grant you a stack of Mana Tea and quickly rush to {1} allies, healing each target for {2}.",
+    "name:2986750328": "Glyph of Rising Tiger Kick",
+    "desc:2193373928": "Your Rising Sun Kick's visual is altered to the color of the White Tiger.",
+    "name:2635986115": "Lead from the Front",
+    "desc:2404744255": "Chi Burst, Chi Wave, and Expel Harm now heal you for {1}% of damage dealt.",
+    "name:2403590266": "Awakened Jadefire",
+    "name:3559336278": "Flurry Strikes",
+    "desc:3859746790": "Every {1} damage you deal generates a Flurry Charge. For each {2} energy you spend, unleash all Flurry Charges, dealing {3} Physical damage per charge. ",
+    "name:2395704117": "Chi Proficiency",
+    "desc:2432974463": "Magical damage done increased by {1}% and healing done increased by {2}%.",
+    "name:3357305433": "Touch of Fatality",
+    "desc:49401879": "Instantly kills any creature under level {1}, or player under {2}% health.",
+    "name:2714222575": "Jadefire Stomp",
+    "name:3215006208": "Knowledge of the Broken Temple",
+    "desc:718645294": "Whirling Dragon Punch grants {1} stacks of Teachings of the Monastery and its damage is increased by {2}%.\r\n\r\nTeachings of the Monastery can now stack up to {3} times.",
+    "name:3111603113": "Mistweaver Monk",
+    "desc:2954773397": "Mistweaver Monk core passive",
+    "name:1052900341": "Pool of Mists",
+    "desc:3485120045": "Renewing Mist now has {1} charges and reduces the remaining cooldown of Rising Sun Kick by {2} sec.\r\n\r\nRising Sun Kick now reduces the remaining cooldown of Renewing Mist by {3} sec.",
+    "name:2754055386": "Brawler's Intensity",
+    "desc:2239405670": "The cooldown of Rising Sun Kick is reduced by {1} sec and the damage of Blackout Kick is increased by {2}%.",
+    "name:3159078791": "Predictive Training",
+    "desc:1672383964": "When you dodge or parry an attack, reduce all damage taken by {1}% for the next {2} sec.",
+    "name:4201168069": "High Impact",
+    "desc:1907138306": "Enemies who die within {1} sec of being damaged by a Flurry Strike explode, dealing {2} physical damage to uncontrolled enemies within {3} yds.",
+    "name:1783113872": "Glyph of Weapons of Order",
+    "desc:1168686385": "Your Weapons of Order now resemble the Kyrian Covenant Ability.",
+    "name:2365501546": "Wisdom of the Wall",
+    "desc:3392777345": "Every {1} Flurry Strikes, become infused with the Wisdom of the Wall, gaining one of the following effects for {2} sec.\r\n\r\nCritical strike damage increased by {3}%.\r\n\r\nDodge and Critical Strike chance increased by {4}% of your Versatility bonus.\r\n\r\nFlurry Strikes deal {5} Shadow damage to all uncontrolled enemies within {6} yds.\r\n\r\nEffect of your Mastery increased by {7}%.\r\n",
+    "name:1806946289": "Crashing Momentum",
+    "desc:4225744693": "Targets you Roll through are snared by {1}% for {2} sec.",
+    "name:2611034015": "Efficient Training",
+    "desc:1817308763": "Energy spenders deal an additional {1}% damage.\r\nEvery {2} Energy spent reduces the cooldown of Storm, Earth, and Fire by {3} sec.",
+    "name:278457466": "Strength of the Black Ox",
+    "desc:2050475760": "After Xuen assists you, your next Enveloping Mist's cast time is reduced by {1}% and causes Niuzao to grant an absorb shield to {2} nearby allies for {3}% of your maximum health.",
+    "name:710258034": "Jade Sanctuary",
+    "desc:568852782": "You heal for {1}% of your maximum health instantly when you activate Celestial Conduit and receive {2}% less damage for its duration. \r\n\r\nThis effect lingers for an additional {3} sec after Celestial Conduit ends.",
+    "name:3384459402": "Martial Instincts",
+    "desc:2265116070": "Increases your Physical damage done by {1}% and Avoidance increased by {2}%.",
+    "name:1331113204": "Peace and Prosperity",
+    "desc:1435228636": "Reduces the cooldown of Ring of Peace by {1} sec and Song of Chi-Ji's cast time is reduced by {2} sec.",
+    "name:3577503435": "Glyph of Honor",
+    "desc:2553440215": "You honorably bow after each successful Touch of Death.",
+    "name:3019259092": "Vigilant Watch",
+    "desc:792354806": "Blackout Kick deals an additional {1}% critical damage and increases the damage of your next set of Flurry Strikes by {2}%.",
+    "name:1414544032": "Aspect of Harmony",
+    "desc:3639560554": "Store vitality from {1}% of your damage dealt and {2}% of your effective healing.\r\n\r\nFor {3} sec after casting Celestial Brew your spells and abilities draw upon the stored vitality to deal {4}% additional damage over {5} sec.",
+    "name:4006063847": "Yu'lon's Knowledge",
+    "desc:1774453613": "Refreshing Jade Wind's duration is increased by {1} sec.",
+    "name:1224493138": "Xuen's Guidance",
+    "desc:3844578558": "Teachings of the Monastery has a {1}% chance to refund a charge when consumed. \r\n\r\nThe damage of Tiger Palm is increased by {2}%.",
+    "name:3042906193": "Quick Footed",
+    "desc:2078948148": "The duration of snare effects on you is reduced by {1}%.",
+    "name:1585706042": "One With the Wind",
+    "desc:4150916616": "You have a {1}% chance to not reset your Elusive Brawler stacks after a successful dodge.",
+    "name:1589324771": "Lighter Than Air",
+    "desc:840659692": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within {1} sec, but the cooldown of Roll is increased by {2} sec.",
+    "name:1736320215": "Healing Winds",
+    "desc:3236397149": "Transcendence: Transfer immediately heals you for {1}% of your maximum health.",
+    "name:2316027662": "August Blessing",
+    "desc:4145877810": "When you would be healed above maximum health, you instead convert an amount equal to {1}% of your critical strike chance to a heal over time effect.",
+    "name:3147435161": "Clarity of Purpose",
+    "desc:2391058618": "Casting Vivify stores {1} vitality, increased based on your recent Gusts of Mist.",
+    "name:2248371219": "Glyph of Faeline Stomp",
+    "desc:1504076997": "Your Jadefire Stomp visual is altered to the color of the Night Fae Covenant Ability.",
+    "name:501866694": "Singularly Focused Jade",
+    "desc:3537206449": "Jadefire Stomp's initial hit now strikes {1} target, but deals {2}% increased damage and healing.",
+    "name:642485978": "Chi-Ji's Swiftness",
+    "desc:205426519": "Your movement speed is increased by {1}% during Celestial Conduit and by {2}% for {3} sec after being assisted by any Celestial.\r\n",
+    "name:609962156": "Crane Style",
+    "desc:753148549": "Rising Sun Kick now kicks up a Gust of Mist to heal {1} [plural|ally|allies] within {2} yds for {3}. \r\n\r\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal {4} [plural|ally|allies] within {5} yds for {6}. ",
+    "name:2486529198": "Ancient Arts",
+    "name:4124600365": "Ordered Elements",
+    "desc:3527705339": "During Storm, Earth, and Fire, Chi costs are reduced by {1} and Blackout Kick reduces the cooldown of affected abilities by an additional {2} sec. \r\n\r\nActivating Storm, Earth, and Fire resets the remaining cooldown of Rising Sun Kick and grants {3} Chi.",
+    "name:2299898057": "Swift Art",
+    "desc:2125133726": "Roll removes a snare effect once every {1} sec.",
+    "name:2056609509": "Restore Balance",
+    "desc:3874723271": "Gain Refreshing Jade Wind while Chi-Ji, the Red Crane or Yu'lon, the Jade Serpent is active.",
+    "name:2547550827": "Harmonic Gambit",
+    "desc:1597891613": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional {1}% over {2} sec.",
+    "name:2649364739": "Celestial Conduit",
+    "desc:4289570293": "The August Celestials empower you, causing you to radiate {1} healing onto up to {2} injured allies and {3} Nature damage onto enemies within {4} yds over {5} sec, split evenly among them. Healing and damage increased by {6}% per target, up to {7}%.\r\n\r\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
+    "name:3966289373": "Coalescence",
+    "desc:3447074932": "When Aspect of Harmony heals, it has a chance to spread to a nearby ally. When you directly heal an affected target, it has a chance to intensify.\r\n\r\nTargets damaged or healed by your Aspect of Harmony take {1}% increased damage or healing from you.",
+    "name:2259770070": "Celestial Determination",
+    "desc:1525274661": "While your Celestial is active, you cannot be slowed below {1}% normal movement speed.",
+    "name:1686039091": "Against All Odds",
+    "desc:2592258340": "Flurry Strikes increase your Agility by {1}% for {2} sec, stacking up to {3} times.",
+    "name:323201089": "Power of the Thunder King",
+    "desc:1624871084": "Crackling Jade Lightning now chains to {1} additional targets at {2}% effectiveness and its channel time is reduced by {3}%.",
+    "name:3633083785": "Roar from the Heavens",
+    "desc:4050703547": "Tiger's Lust grants {1}% movement speed to up to {2} allies near its target.",
+    "name:1505743577": "Momentum Boost",
+    "desc:103356283": "Fists of Fury's damage is increased by {1}% of your haste and Fists of Fury does {2}% more damage each time it deals damage, resetting when Fists of Fury ends.\r\n\r\nYour auto attack speed is increased by {3}% for {4} sec after Fists of Fury ends.",
+    "name:1966206187": "Jadefire Teachings",
+    "desc:4049273088": "After casting Jadefire Stomp or Thunder Focus Tea, Ancient Teachings transfers an additional {1}% damage to healing for {2} sec.\r\n\r\nWhile Jadefire Teachings is active, your Stamina is increased by {3}%.",
+    "name:420290542": "Rushing Wind Kick",
+    "desc:2753487576": "Kick up a powerful gust of wind, dealing {1} Nature damage in a {2} yd cone to enemies in front of you, split evenly among them. Damage is increased by {3}% for each target hit, up to {4}%.\r\n\r\nGrants Rushing Winds for {5} sec, increasing Renewing Mist's healing by {6}%.",
+    "name:3108239083": "Jade Empowerment",
+    "desc:641655588": "Casting Thunder Focus Tea increases your next Crackling Jade Lightning's damage by {1}% and causes it to chain to {2} additional enemies at {3}% effectiveness.",
+    "name:3687465831": "Refreshment",
+    "desc:592807423": "Life Cocoon grants up to {1} stacks of Mana Tea and applies {2} stacks of Healing Elixir to its target.",
+    "name:2413686199": "Glyph of Jab",
+    "desc:1497832773": "Your Tiger Palm visual is altered to use your weapon when striking."
 }

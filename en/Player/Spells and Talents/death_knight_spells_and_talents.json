@@ -1,1781 +1,565 @@
 {
-    "3694472439": {
-        "Name": "Abomination Limb",
-        "Descriptions": {
-            "1058335084": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec."
-        }
-    },
-    "115870082": {
-        "Name": "Absolute Zero",
-        "Descriptions": {
-            "1378300847": "Frostwyrm's Fury has {1}% reduced cooldown and Freezes all enemies hit for {2} sec."
-        }
-    },
-    "2689193023": {
-        "Name": "All Will Serve",
-        "Descriptions": {
-            "218058220": "Your Raise Dead spell summons an additional skeletal minion."
-        }
-    },
-    "2516556703": {
-        "Name": "Anti-Magic Barrier",
-        "Descriptions": {
-            "1568133751": "Reduces the cooldown of Anti-Magic Shell by {1} sec and increases its duration and amount absorbed by {2}%."
-        }
-    },
-    "2345467340": {
-        "Name": "Anti-Magic Shell",
-        "Descriptions": {
-            "381936970": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects. Damage absorbed generates Runic Power.",
-            "3228378640": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects."
-        }
-    },
-    "643638683": {
-        "Name": "Anti-Magic Zone",
-        "Descriptions": {
-            "2961871641": "Places an Anti-Magic Zone that reduces spell damage taken by party or raid members by {1}%. The Anti-Magic Zone lasts for {2} sec or until it absorbs {3} damage."
-        }
-    },
-    "3289584139": {
-        "Name": "Apocalypse",
-        "Descriptions": {
-            "132916684": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons {3} Army of the Dead ghouls for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Runes.}"
-        }
-    },
-    "4254390286": {
-        "Name": "Army of the Dead",
-        "Descriptions": {
-            "298404102": "Summons a legion of ghouls who swarms your enemies, fighting anything they can for {1} sec."
-        }
-    },
-    "1552762889": {
-        "Name": "Asphyxiate",
-        "Descriptions": {
-            "225490449": "Lifts the enemy target off the ground, crushing their throat with dark energy and stunning them for {1} sec."
-        }
-    },
-    "1966414619": {
-        "Name": "Assimilation",
-        "Descriptions": {
-            "888035355": "The amount absorbed by Anti-Magic Zone is increased by {1}% and its cooldown is reduced by {2} sec."
-        }
-    },
-    "710747419": {
-        "Name": "Avalanche",
-        "Descriptions": {
-            "280128671": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing {1} Frost damage."
-        }
-    },
-    "2732776067": {
-        "Name": "Biting Cold",
-        "Descriptions": {
-            "2327411244": "Remorseless Winter damage is increased by {1}%. The first time Remorseless Winter deals damage to {2} different enemies, you gain Rime."
-        }
-    },
-    "3388306836": {
-        "Name": "Bitter Chill",
-        "Descriptions": {
-            "1984778939": "Chains of Ice reduces the target's Haste by {1}%. Frost Strike refreshes the duration of Chains of Ice."
-        }
-    },
-    "3769345001": {
-        "Name": "Blinding Sleet",
-        "Descriptions": {
-            "1306248212": "Targets in a cone in front of you are blinded, causing them to wander disoriented for {1} sec. Damage may cancel the effect.\r\n\r\nWhen Blinding Sleet ends, enemies are slowed by {2}% for {3} sec."
-        }
-    },
-    "1733538980": {
-        "Name": "Blood Boil",
-        "Descriptions": {
-            "4247607635": "Deals {1} Shadow damage and infects all enemies within {2} yds with Blood Plague.\r\n\r\n|T237514:24|t {FFFFFFFF|Blood Plague}\r\nA shadowy disease that drains {3} health from the target over {4} sec.  ",
-            "2606550601": "Deals {1} Shadow damage to all enemies within {2} yds."
-        }
-    },
-    "654886655": {
-        "Name": "Blood Draw",
-        "Descriptions": {
-            "2796863171": "When you fall below {1}% health you drain {2} health from nearby enemies, the damage you take is reduced by {3}% and your Death Strike cost is reduced by {4} for {5} sec.\r\n\r\nCan only occur every {6} min."
-        }
-    },
-    "3481339723": {
-        "Name": "Blood Feast",
-        "Descriptions": {
-            "3010696517": "Anti-Magic Shell heals you for {1}% of the damage it absorbs."
-        }
-    },
-    "188378240": {
-        "Name": "Blood Fortification",
-        "Descriptions": {
-            "2367237183": "Stamina increased by {1}%."
-        }
-    },
-    "1122705324": {
-        "Name": "Blood Scent",
-        "Descriptions": {
-            "205065484": "Increases Leech by {1}%."
-        }
-    },
-    "718170792": {
-        "Name": "Blood Tap",
-        "Descriptions": {
-            "185524347": "Consume the essence around you to generate {1} Rune.\r\n\r\nRecharge time reduced by {2} sec whenever a Bone Shield charge is consumed."
-        }
-    },
-    "2652582212": {
-        "Name": "Blooddrinker",
-        "Descriptions": {
-            "213653996": "Drains {1} health from the target over {2} sec. The damage they deal to you is reduced by {3}% for the duration and {4} sec after channeling it fully.\r\n\r\nYou can move, parry, dodge, and use defensive abilities while channeling this ability.\r\n\r\n{FFFFFFFF|Generates {5} additional Runic Power over the duration.}"
-        }
-    },
-    "2507479805": {
-        "Name": "Bloodshot",
-        "Descriptions": {
-            "2693457745": "While Blood Shield is active, you deal {1}% increased Physical damage."
-        }
-    },
-    "228238813": {
-        "Name": "Bloodworms",
-        "Descriptions": {
-            "1786973642": "Your auto attacks have a chance to summon a Bloodworm.\r\n\r\nBloodworms deal minor damage to your target for {1} sec and then burst, healing you for {2}% of your missing health.\r\n\r\nIf you drop below {3}% health, your Bloodworms will immediately burst and heal you."
-        }
-    },
-    "2061787341": {
-        "Name": "Bonegrinder",
-        "Descriptions": {
-            "1168418275": "Consuming Killing Machine grants {1}% critical strike chance for {2} sec, stacking up to {3} times. At {4} stacks your next Killing Machine consumes the stacks and grants you {5}% increased Frost damage for {6} sec."
-        }
-    },
-    "2243403179": {
-        "Name": "Bonestorm",
-        "Descriptions": {
-            "2246092172": "Consume up to {1} Bone Shield charges to create a whirl of bone and gore that batters all nearby enemies, dealing {2} Shadow damage every {3} sec, and healing you for {4}% of your maximum health every time it deals damage (up to {5}%). Deals reduced damage beyond {6} targets.\r\n\r\nLasts {7} sec per Bone Shield charge spent and rapidly regenerates a Bone Shield every {8} sec."
-        }
-    },
-    "2264867618": {
-        "Name": "Breath of Sindragosa",
-        "Descriptions": {
-            "2268174476": "Continuously deal {1} Frost damage every {2} sec to enemies in a cone in front of you, until your Runic Power is exhausted. Deals reduced damage to secondary targets.\r\n\r\n{FFFFFFFF|Generates {3} [plural}une|Runes] at the start and end.|r"
-        }
-    },
-    "3869023": {
-        "Name": "Brittle",
-        "Descriptions": {
-            "2490607076": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal {1}% increased damage for {2} sec."
-        }
-    },
-    "2454911724": {
-        "Name": "Bursting Sores",
-        "Descriptions": {
-            "1074827542": "Bursting a Festering Wound deals {1}% more damage, and deals {2} Shadow damage to all nearby enemies. Deals reduced damage beyond {3} targets."
-        }
-    },
-    "3729249968": {
-        "Name": "Chains of Ice",
-        "Descriptions": {
-            "2090856518": "Shackles the target with frozen chains, reducing movement speed by {1}% for {2} sec.",
-            "3005664212": "Shackles the target and {1} nearby enemy with frozen chains, reducing movement speed by {2}% for {3} sec."
-        }
-    },
-    "2967295395": {
-        "Name": "Chill Streak",
-        "Descriptions": {
-            "1956773104": "Deals {1} Frost damage to the target and reduces their movement speed by {2}% for {3} sec.\r\n\r\nChill Streak bounces up to {4} times between closest targets within {5} yards."
-        }
-    },
-    "2947902063": {
-        "Name": "Clawing Shadows",
-        "Descriptions": {
-            "3569382295": "Deals {1} Shadow damage and causes {2} Festering Wound to burst."
-        }
-    },
-    "1755664802": {
-        "Name": "Cleaving Strikes",
-        "Descriptions": {
-            "4199813457": "Heart Strike hits up to {1} additional enemies while you remain in Death and Decay. \r\n\r\nWhen leaving your Death and Decay you retain its bonus effects for {2} sec.",
-            "264154164": "Obliterate hits up to {1} additional enemies while you remain in Death and Decay. \r\n\r\nWhen leaving your Death and Decay you retain its bonus effects for {2} sec.",
-            "3473166041": "Scourge Strike hits up to {1} additional enemies while you remain in Death and Decay. \r\n\r\nWhen leaving your Death and Decay you retain its bonus effects for {2} sec.",
-            "993068665": "Clawing Shadows hits up to {1} additional enemies while you remain in Death and Decay. \r\n\r\nWhen leaving your Death and Decay you retain its bonus effects for {2} sec."
-        }
-    },
-    "2925147484": {
-        "Name": "Coagulopathy",
-        "Descriptions": {
-            "2334940290": "Enemies affected by Blood Plague take {1}% increased damage from you and Death Strike increases the damage of your Blood Plague by {2}% for {3} sec, stacking up to {4} times."
-        }
-    },
-    "927610918": {
-        "Name": "Coil of Devastation",
-        "Descriptions": {
-            "179176606": "Death Coil causes the target to take an additional {1}% of the direct damage dealt over {2} sec."
-        }
-    },
-    "867779669": {
-        "Name": "Cold Heart",
-        "Descriptions": {
-            "3147282986": "Every {1} sec, gain a stack of Cold Heart, causing your next Chains of Ice to deal {2} Frost damage. Stacks up to {3} times."
-        }
-    },
-    "1338597583": {
-        "Name": "Coldthirst",
-        "Descriptions": {
-            "69111767": "Successfully interrupting an enemy with Mind Freeze grants {1} Runic Power and reduces its cooldown by {2} sec."
-        }
-    },
-    "4241181290": {
-        "Name": "Commander of the Dead",
-        "Descriptions": {
-            "800864276": "Dark Transformation also empowers your Gargoyle and Army of the Dead for {1} sec, increasing their damage by {2}%.",
-            "3604560325": "Dark Transformation also empowers your Dark Arbiter and Army of the Dead for {1} sec, increasing their damage by {2}%."
-        }
-    },
-    "4205906342": {
-        "Name": "Consumption",
-        "Descriptions": {
-            "1168622139": "Strikes all enemies in front of you with a hungering attack that deals {1} Physical damage and heals you for {2}% of that damage. Deals reduced damage beyond {3} targets.\r\n\r\nCauses your Blood Plague damage to occur {4}% more quickly for {5} sec. \r\n\r\n{FFFFFFFF|Generates {6} Runes.}"
-        }
-    },
-    "2021844470": {
-        "Name": "Control Undead",
-        "Descriptions": {
-            "1372060182": "Dominates the target undead creature up to level {1}, forcing it to do your bidding for {2} min."
-        }
-    },
-    "1541301513": {
-        "Name": "Crimson Scourge",
-        "Descriptions": {
-            "2768934246": "Your auto attacks on targets infected with your Blood Plague have a chance to make your next Death and Decay cost no runes and reset its cooldown."
-        }
-    },
-    "2164796458": {
-        "Name": "Dancing Rune Weapon",
-        "Descriptions": {
-            "4057634415": "Summons a rune weapon for {1} sec that mirrors your melee attacks and bolsters your defenses.\r\n\r\nWhile active, you gain {2}% parry chance."
-        }
-    },
-    "300478881": {
-        "Name": "Dark Command",
-        "Descriptions": {
-            "3437420192": "Command the target to attack you."
-        }
-    },
-    "3231580122": {
-        "Name": "Dark Simulacrum",
-        "Descriptions": {
-            "3446403925": "Places a dark ward on an enemy player that persists for {1} sec, triggering when the enemy next spends mana on a spell, and allowing the Death Knight to unleash an exact duplicate of that spell."
-        }
-    },
-    "3487066889": {
-        "Name": "Dark Succor",
-        "Descriptions": {
-            "2284922440": "When you kill an enemy that yields experience or honor, your next Death Strike within {1} sec is free and heals for an additional {2}% of maximum health."
-        }
-    },
-    "2878493632": {
-        "Name": "Dark Transformation",
-        "Descriptions": {
-            "3239883588": "Your abomination deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. The abomination's abilities are empowered and take on new functions while the transformation is active.",
-            "1684454647": "Your geist deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. The geist's abilities are empowered and take on new functions while the transformation is active.",
-            "1425050392": "Your geist deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the geist's abilities are empowered and take on new functions while the transformation is active.",
-            "601549037": "Dark Transformation grants your ghoul {1}% energy.",
-            "2848571444": "Your abomination deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the abomination's abilities are empowered and take on new functions while the transformation is active."
-        }
-    },
-    "1733048253": {
-        "Name": "Dead of Winter",
-        "Descriptions": {
-            "3893510572": "After your Remorseless Winter deals damage {1} times to a target, they are stunned for {2} sec.\r\n\r\nRemorseless Winter's cooldown is increased by {3} sec."
-        }
-    },
-    "2937955494": {
-        "Name": "Death and Decay",
-        "Descriptions": {
-            "1397556341": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Heart Strike will hit up to {3} additional targets.",
-            "869996207": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Scourge Strike will hit up to {3} enemies near the target.",
-            "21265851": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Obliterate will hit up to {3} additional [plural|Target|targets].",
-            "4096175753": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Scourge Strike will hit up to {3} enemies near the target.",
-            "3438983127": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Clawing Shadows will hit up to {3} enemies near the target.",
-            "4119092592": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Heart Strike will hit up to {3} additional targets.",
-            "2741614661": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Clawing Shadows will hit up to {3} enemies near the target."
-        }
-    },
-    "28590923": {
-        "Name": "Death Chain",
-        "Descriptions": {
-            "1181652806": "Chains {1} enemies together, dealing {2} Shadow damage and causing {3}% of all damage taken to also be received by the others in the chain. Lasts for {4} sec."
-        }
-    },
-    "1861205559": {
-        "Name": "Death Coil",
-        "Descriptions": {
-            "399214469": "Fires a blast of unholy energy at the target and {1} additional nearby target, causing {2} Shadow damage to an enemy or healing an Undead ally for {3} health.\r\n\r\nIncreases the duration of Dark Transformation by {4} sec.",
-            "2100374321": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health.",
-            "840249606": "Fires a blast of unholy energy at the target and {1} additional nearby target, causing {2} Shadow damage to an enemy or healing an Undead ally for {3} health.",
-            "3924262122": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health.\r\n\r\nIncreases the duration of Dark Transformation by {3} sec."
-        }
-    },
-    "1654376167": {
-        "Name": "Death Gate",
-        "Descriptions": {
-            "1086364669": "Opens a gate which you can use to return to Ebon Hold.\r\n\r\nUsing a Death Gate while in Ebon Hold will return you back to near your departure point."
-        }
-    },
-    "2928289956": {
-        "Name": "Death Grip",
-        "Descriptions": {
-            "2211635590": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and forcing the enemy to attack you.",
-            "3201359350": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you.",
-            "3832352236": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and slowing their movement speed by {1}% for {2} sec.",
-            "1191962543": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and slowing their movement speed by {1}% for {2} sec and forcing the enemy to attack you."
-        }
-    },
-    "1369217211": {
-        "Name": "Death Pact",
-        "Descriptions": {
-            "1352694023": "Create a death pact that heals you for {1}% of your maximum health, but absorbs incoming healing equal to {2}% of your max health for {3} sec."
-        }
-    },
-    "3889532275": {
-        "Name": "Death Rot",
-        "Descriptions": {
-            "3800277987": "Death Coil and Epidemic debilitate your enemy applying Death Rot causing them to take {1}% increased Shadow damage, up to {2}% from you for {3} sec. If Death Coil or Epidemic consume Sudden Doom it applies two stacks of Death Rot."
-        }
-    },
-    "3465767608": {
-        "Name": "Death Strike",
-        "Descriptions": {
-            "603818472": "Focuses dark power into a strike with both weapons, that deals a total of {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health.",
-            "3136838431": "Focuses dark power into a strike that deals {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health."
-        }
-    },
-    "2073725636": {
-        "Name": "Death's Advance",
-        "Descriptions": {
-            "2715605777": "For {1} sec, your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks.\r\n\r\n{FFFFFFFF|Passive:} You cannot be slowed below {4}% of normal speed.",
-            "1761733370": "Death's Advance movement speed increased by {1}% and the duration is increased by {2} sec."
-        }
-    },
-    "785407125": {
-        "Name": "Death's Caress",
-        "Descriptions": {
-            "3013795803": "Reach out with necrotic tendrils, dealing {1} Shadow damage and applying Blood Plague to your target and generating {2} Bone Shield charges.\r\n\r\n|T237514:24|t {FFFFFFFF|Blood Plague}\r\nA shadowy disease that drains {3} health from the target over {4} sec.  "
-        }
-    },
-    "3537938026": {
-        "Name": "Death's Echo",
-        "Descriptions": {
-            "3735928509": "Death's Advance, Death and Decay, and Death Grip have {1} additional charge."
-        }
-    },
-    "2870204087": {
-        "Name": "Death's Reach",
-        "Descriptions": {
-            "3877836793": "Increases the range of Death Grip by {1} yds.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip."
-        }
-    },
-    "2368458786": {
-        "Name": "Deathchill",
-        "Descriptions": {
-            "3263414012": "Your Remorseless Winter and Chains of Ice apply Deathchill, rooting the target in place for {1} sec.\r\n\r\n{FFFFFFFF|Remorseless Winter} \r\nAll targets within {2} yards are afflicted with Deathchill when Remorseless Winter is cast.\r\n\r\n{FFFFFFFF|Chains of Ice}\r\nWhen you Chains of Ice a target already afflicted by your Chains of Ice they will be afflicted by Deathchill."
-        }
-    },
-    "1521108292": {
-        "Name": "Decomposing Aura",
-        "Descriptions": {
-            "1486236316": "All enemies within {1} yards slowly decay, losing up to {2}% of their max health every {3} sec. Max {4} stacks. Lasts {5} sec."
-        }
-    },
-    "1166585237": {
-        "Name": "Defile",
-        "Descriptions": {
-            "1321171193": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Scourge Strike will hit {3} enemies near the target.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size and deals increased damage.",
-            "2563974903": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size and deals increased damage.",
-            "1243128986": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Scourge Strike will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size and deals increased damage.",
-            "2783599440": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size and deals increased damage."
-        }
-    },
-    "2398479394": {
-        "Name": "Delirium",
-        "Descriptions": {
-            "2357777999": "Howling Blast applies Delirium, reducing the cooldown recovery rate of movement enhancing abilities by {1}% for {2} sec."
-        }
-    },
-    "1343949452": {
-        "Name": "Doomburst",
-        "Descriptions": {
-            "930852904": "Sudden Doom also causes your next Death Coil to burst up to {1} Festering Wounds and reduce the target's movement speed by {2}% per burst. Lasts {3} sec."
-        }
-    },
-    "2473897000": {
-        "Name": "Ebon Fever",
-        "Descriptions": {
-            "2648890452": "Diseases deal {1}% more damage over time in half the duration."
-        }
-    },
-    "531168720": {
-        "Name": "Empower Rune Weapon",
-        "Descriptions": {
-            "2937482653": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec."
-        }
-    },
-    "2757441229": {
-        "Name": "Enduring Chill",
-        "Descriptions": {
-            "3589886024": "Chill Streak's bounce range is increased by {1} yds and each time Chill Streak bounces it has a {2}% chance to increase the maximum number of bounces by {3}."
-        }
-    },
-    "1225706092": {
-        "Name": "Enduring Strength",
-        "Descriptions": {
-            "2386276115": "When Pillar of Frost expires, your Strength is increased by {1}% for {2} sec. This effect lasts {3} sec longer for each Obliterate and Frostscythe critical strike during Pillar of Frost."
-        }
-    },
-    "3048676190": {
-        "Name": "Enfeeble",
-        "Descriptions": {
-            "3097766457": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by {1}% and the damage they deal to you by {2}% for {3} sec."
-        }
-    },
-    "2216367068": {
-        "Name": "Epidemic",
-        "Descriptions": {
-            "3978131096": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them.\r\n\r\nIncreases the duration of Dark Transformation by {3} sec.",
-            "1409624143": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them."
-        }
-    },
-    "1691566905": {
-        "Name": "Eternal Agony",
-        "Descriptions": {
-            "3978001846": "Death Coil and Epidemic increase the duration of Dark Transformation by {1} sec."
-        }
-    },
-    "1164073769": {
-        "Name": "Everfrost",
-        "Descriptions": {
-            "3261947378": "Remorseless Winter deals {1}% increased damage to enemies it hits, stacking up to {2} times."
-        }
-    },
-    "2204581340": {
-        "Name": "Everlasting Bond",
-        "Descriptions": {
-            "2020786063": "Summons {1} additional copy of Dancing Rune Weapon and increases its duration by {2} sec."
-        }
-    },
-    "1111141809": {
-        "Name": "Festering Strike",
-        "Descriptions": {
-            "1692495999": "Strikes for {1} Physical damage and infects the target with {2}-{3} Festering Wounds.\r\n\r\n|T1129420:24|t {FFFFFFFF|Festering Wound}\r\nA pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {4} Shadow damage and generating {5} Runic Power.",
-            "4093006861": "Strikes for {1} Physical damage and infects the target with {2}-{3} Festering Wounds.\r\n\r\n|T1129420:24|t {FFFFFFFF|Festering Wound}\r\nA pustulent lesion that will burst on death or when damaged by Clawing Shadows, dealing {4} Shadow damage and generating {5} Runic Power."
-        }
-    },
-    "431244904": {
-        "Name": "Festermight",
-        "Descriptions": {
-            "249692695": "Popping a Festering Wound increases your Strength by {1}% for {2} sec stacking. Multiple instances may overlap."
-        }
-    },
-    "421414926": {
-        "Name": "Foul Bulwark",
-        "Descriptions": {
-            "3185791100": "Each charge of Bone Shield increases your maximum health by {1}%."
-        }
-    },
-    "3981641617": {
-        "Name": "Frigid Executioner",
-        "Descriptions": {
-            "2594327414": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} [plural|rune|runes]."
-        }
-    },
-    "1446490366": {
-        "Name": "Frost Strike",
-        "Descriptions": {
-            "1017302322": "Chill your weapon with icy power and quickly strike the enemy, dealing {1} Frost damage.",
-            "4291633706": "Chill your weapons with icy power and quickly strike the enemy with both, dealing a total of {1} Frost damage."
-        }
-    },
-    "3261194114": {
-        "Name": "Frostscythe",
-        "Descriptions": {
-            "3451850623": "A sweeping attack that strikes all enemies in front of you for {1} Frost damage. This attack always critically strikes and critical strikes with Frostscythe deal {2} times normal damage. Deals reduced damage beyond {3} targets. \r\n\r\nConsuming Killing Machine reduces the cooldown of Frostscythe by {4} sec."
-        }
-    },
-    "584202584": {
-        "Name": "Frostwhelp's Aid",
-        "Descriptions": {
-            "1265238604": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Aid grants you {3}% Mastery for {4} sec, up to {5}%.\r\n"
-        }
-    },
-    "1471416198": {
-        "Name": "Frostwyrm's Fury",
-        "Descriptions": {
-            "2014475674": "Summons a frostwyrm who breathes on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
-        }
-    },
-    "2658145342": {
-        "Name": "Gathering Storm",
-        "Descriptions": {
-            "1817208295": "Each Rune spent during Remorseless Winter increases its damage by {1}%, and extends its duration by {2} sec."
-        }
-    },
-    "316498626": {
-        "Name": "Ghoulish Frenzy",
-        "Descriptions": {
-            "971302898": "Dark Transformation also increases the attack speed and damage of you and your Monstrosity by {1}%."
-        }
-    },
-    "2225778369": {
-        "Name": "Glacial Advance",
-        "Descriptions": {
-            "2448421511": "Summon glacial spikes from the ground that advance forward, each dealing {1} Frost damage and applying Razorice to enemies near their eruption point."
-        }
-    },
-    "3014491029": {
-        "Name": "Gloom Ward",
-        "Descriptions": {
-            "529671491": "Absorbs are {1}% more effective on you. "
-        }
-    },
-    "783582263": {
-        "Name": "Gorefiend's Grasp",
-        "Descriptions": {
-            "2035990986": "Shadowy tendrils coil around all enemies within {1} yards of a hostile or friendly target, pulling them to the target's location."
-        }
-    },
-    "3269477543": {
-        "Name": "Grip of the Dead",
-        "Descriptions": {
-            "2882184001": "Death and Decay reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec.",
-            "13007900": "Defile reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec."
-        }
-    },
-    "2351520019": {
-        "Name": "Harbinger of Doom",
-        "Descriptions": {
-            "1427478": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}% or Epidemic by {4}%.",
-            "4181387879": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}%."
-        }
-    },
-    "4190131628": {
-        "Name": "Heart Strike",
-        "Descriptions": {
-            "2386668297": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec, plus {5} Runic Power per additional enemy struck.|r",
-            "2383934061": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power.}",
-            "4054008702": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec.|r",
-            "17613217": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec\r\n\r\n{FFFFFFFF|Generates {5} bonus Runic Power, plus {6} Runic Power per additional enemy struck.}"
-        }
-    },
-    "1247233030": {
-        "Name": "Heartbreaker",
-        "Descriptions": {
-            "1016082547": "Heart Strike generates {1} additional Runic Power per target hit."
-        }
-    },
-    "2191866859": {
-        "Name": "Heartrend",
-        "Descriptions": {
-            "1929727476": "Heart Strike has a chance to increase the damage of your next Death Strike by {1}%."
-        }
-    },
-    "2715307519": {
-        "Name": "Hemostasis",
-        "Descriptions": {
-            "539978468": "Each enemy hit by Blood Boil increases the damage and healing done by your next Death Strike by {1}%, stacking up to {2} times."
-        }
-    },
-    "1565455079": {
-        "Name": "Horn of Winter",
-        "Descriptions": {
-            "1965954825": "Blow the Horn of Winter, gaining {1} [plural|Rune|Runes] and generating {2} Runic Power."
-        }
-    },
-    "4103907525": {
-        "Name": "Howling Blast",
-        "Descriptions": {
-            "1608355136": "Blast the target with a frigid wind, dealing {1} Frost damage to that foe, and reduced damage to all other enemies within {2} yards, infecting all targets with Frost Fever.\r\n\r\n|T237522:24|t {FFFFFFFF|Frost Fever}\r\nA disease that deals {3} Frost damage over {4} sec and has a chance to grant the Death Knight {5} Runic Power each time it deals damage.",
-            "148400909": "Blast the target with a frigid wind, dealing {1} Frost damage and applying Frost Fever to the target.\r\n\r\n|T237522:24|t {FFFFFFFF|Frost Fever}\r\nA disease that deals {2} Frost damage over {3} sec and has a chance to grant the Death Knight {4} Runic Power each time it deals damage."
-        }
-    },
-    "3503421106": {
-        "Name": "Icebound Fortitude",
-        "Descriptions": {
-            "1424518251": "Your blood freezes, granting immunity to Stun effects and reducing all damage you take by {1}% for {2} sec."
-        }
-    },
-    "1600132021": {
-        "Name": "Icebreaker",
-        "Descriptions": {
-            "583435629": "When empowered by Rime, Howling Blast deals {1}% increased damage to your primary target."
-        }
-    },
-    "1431706106": {
-        "Name": "Icecap",
-        "Descriptions": {
-            "3603088532": "Reduces Pillar of Frost cooldown by {1} sec."
-        }
-    },
-    "1015161552": {
-        "Name": "Icy Talons",
-        "Descriptions": {
-            "1188382207": "Your Runic Power spending abilities increase your melee attack speed by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "3585565748": {
-        "Name": "Improved Bone Shield",
-        "Descriptions": {
-            "2994939230": "Bone Shield increases your Haste by {1}%."
-        }
-    },
-    "2282636973": {
-        "Name": "Improved Death Coil",
-        "Descriptions": {
-            "229700453": "Death Coil deals {1}% additional damage and seeks out {2} additional nearby enemy."
-        }
-    },
-    "3887199022": {
-        "Name": "Improved Death Strike",
-        "Descriptions": {
-            "402956957": "Death Strike's cost is reduced by {1}, and its healing is increased by {2}%."
-        }
-    },
-    "3404047786": {
-        "Name": "Improved Festering Strike",
-        "Descriptions": {
-            "48674310": "Festering Strike and Festering Wound damage increased by {1}%."
-        }
-    },
-    "1867921780": {
-        "Name": "Improved Frost Strike",
-        "Descriptions": {
-            "580070822": "Increases Frost Strike damage by {1}%."
-        }
-    },
-    "316595751": {
-        "Name": "Improved Heart Strike",
-        "Descriptions": {
-            "2648445563": "Heart Strike damage increased by {1}%."
-        }
-    },
-    "3041590744": {
-        "Name": "Improved Obliterate",
-        "Descriptions": {
-            "2214960636": "Increases Obliterate damage by {1}%."
-        }
-    },
-    "1954929927": {
-        "Name": "Improved Rime",
-        "Descriptions": {
-            "2844271601": "Increases Howling Blast damage done by an additional {1}%."
-        }
-    },
-    "2133668292": {
-        "Name": "Improved Vampiric Blood",
-        "Descriptions": {
-            "3833421518": "Vampiric Blood's healing and absorb amount is increased by {1}% and duration by {2} sec."
-        }
-    },
-    "3720542108": {
-        "Name": "Inexorable Assault",
-        "Descriptions": {
-            "3770765711": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\r\n\r\nObliterate consumes a stack to deal an additional {3} Frost damage.",
-            "2448264568": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\r\n\r\nObliterate and Frostscythe consume a stack to deal an additional {3} Frost damage."
-        }
-    },
-    "2269211709": {
-        "Name": "Infected Claws",
-        "Descriptions": {
-            "72288327": "Your ghoul's Claw attack has a {1}% chance to cause a Festering Wound on the target.",
-            "1668015658": "Your abomination's Cleaver attack has a {1}% chance to cause a Festering Wound on the target."
-        }
-    },
-    "1649138871": {
-        "Name": "Insatiable Blade",
-        "Descriptions": {
-            "2602342287": "Dancing Rune Weapon generates {1} Bone Shield charges. When a charge of Bone Shield is consumed, the cooldown of Dancing Rune Weapon is reduced by {2} sec."
-        }
-    },
-    "911859799": {
-        "Name": "Insidious Chill",
-        "Descriptions": {
-            "3465155344": "Your auto-attacks reduce the target's auto-attack speed by {1}% for {2} sec, stacking up to {3} times."
-        }
-    },
-    "2116281705": {
-        "Name": "Iron Heart",
-        "Descriptions": {
-            "3441992895": "Blood Shield's duration is increased by {1} sec and it absorbs {2}% more damage."
-        }
-    },
-    "3423065097": {
-        "Name": "Killing Machine",
-        "Descriptions": {
-            "2306999606": "Your auto attack critical strikes have a chance to make your next Obliterate deal Frost damage and critically strike.",
-            "3348014985": "Your auto attack critical strikes have a chance to make your next Obliterate critically strike."
-        }
-    },
-    "2074820279": {
-        "Name": "Last Dance",
-        "Descriptions": {
-            "912207554": "Reduces the cooldown of Dancing Rune Weapon by {1}% and its duration by {2}%."
-        }
-    },
-    "2020374856": {
-        "Name": "Leeching Strike",
-        "Descriptions": {
-            "2693535172": "Heart Strike heals you for {1}% health for each enemy hit while affected by Blood Plague."
-        }
-    },
-    "3635007005": {
-        "Name": "Lichborne",
-        "Descriptions": {
-            "4228187056": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, reducing damage taken by {3}%, and making you immune to Charm, Fear, and Sleep.",
-            "38037151": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, and making you immune to Charm, Fear, and Sleep."
-        }
-    },
-    "2520885924": {
-        "Name": "Life and Death",
-        "Descriptions": {
-            "807926949": "When targets afflicted by your Virulent Plague are healed, you are also healed for {1}% of the amount. \r\n\r\nIn addition, your Virulent Plague now erupts for {2}% of normal eruption damage when dispelled."
-        }
-    },
-    "2193576184": {
-        "Name": "Magus of the Dead",
-        "Descriptions": {
-            "1219687168": "Apocalypse and Army of the Dead also summon a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes."
-        }
-    },
-    "772991323": {
-        "Name": "March of Darkness",
-        "Descriptions": {
-            "1994826044": "Death's Advance grants an additional {1}% movement speed over the first {2} sec."
-        }
-    },
-    "2586708014": {
-        "Name": "Mark of Blood",
-        "Descriptions": {
-            "884877257": "Places a Mark of Blood on an enemy for {1} sec. The enemy's damaging auto attacks will also heal their victim for {2}% of the victim's maximum health."
-        }
-    },
-    "2365994083": {
-        "Name": "Marrowrend",
-        "Descriptions": {
-            "1676523257": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}. Each melee attack against you consumes a charge. Lasts {4} sec or until all charges are consumed.",
-            "2299757510": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}, and your Haste by {4}%. Each melee attack against you consumes a charge. Lasts {5} sec or until all charges are consumed."
-        }
-    },
-    "4072368391": {
-        "Name": "Mastery: Blood Shield",
-        "Descriptions": {
-            "825313855": "Each time you heal yourself with Death Strike, you gain {1}% of the amount healed as a Physical damage absorption shield.\r\n\r\nAlso increases your attack power by {2}%."
-        }
-    },
-    "2338174211": {
-        "Name": "Mastery: Dreadblade",
-        "Descriptions": {
-            "702444085": "Increases the damage of your Minions and Shadow damage abilities by {1}%."
-        }
-    },
-    "4086840137": {
-        "Name": "Mastery: Frozen Heart",
-        "Descriptions": {
-            "4009296584": "Increases the damage of your Frost abilities by {1}%."
-        }
-    },
-    "2923704841": {
-        "Name": "Might of the Frozen Wastes",
-        "Descriptions": {
-            "1978432748": "Wielding a two-handed weapon increases Obliterate damage by {1}%, and your auto attack critical strikes always grant Killing Machine."
-        }
-    },
-    "2422003974": {
-        "Name": "Mind Freeze",
-        "Descriptions": {
-            "178230569": "Smash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec."
-        }
-    },
-    "3549224845": {
-        "Name": "Morbidity",
-        "Descriptions": {
-            "1775348036": "Diseased enemies take {1}% increased damage from you per disease they are affected by."
-        }
-    },
-    "803837630": {
-        "Name": "Murderous Efficiency",
-        "Descriptions": {
-            "2703727678": "Consuming the Killing Machine effect has a {1}% chance to grant you {2} Rune."
-        }
-    },
-    "274646443": {
-        "Name": "Murderous Intent",
-        "Descriptions": {
-            "3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault."
-        }
-    },
-    "3168592751": {
-        "Name": "Necromancer's Bargain",
-        "Descriptions": {
-            "1026329085": "The cooldown of your Apocalypse is reduced by {1} sec, but your Apocalypse no longer summons ghouls but instead applies Crypt Fever to the target.\r\n\r\n{FFFFFFFF|Crypt Fever}\r\nDeals up to {2}% of the targets maximum health in Shadow damage over {3} sec. Healing spells cast on this target will refresh the duration of Crypt Fever."
-        }
-    },
-    "2048677991": {
-        "Name": "Necrotic Wounds",
-        "Descriptions": {
-            "1792205803": "Bursting a Festering Wound converts it into a Necrotic Wound, absorbing {1}% of all healing received for {2} sec.\r\n\r\nMax {3} stacks. Adding a stack does not refresh the duration."
-        }
-    },
-    "2620159330": {
-        "Name": "Obliterate",
-        "Descriptions": {
-            "3650979722": "A brutal attack that deals {1} Physical damage.",
-            "3149207345": "A brutal attack with both weapons that deals a total of {1} Physical damage.",
-            "1211718704": "A brutal attack that deals {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active.",
-            "1443172500": "A brutal attack with both weapons that deals a total of {1} Physical damage.\r\n\r\nDamage increased by {2}% in PvP Combat when Killing Machine is not active."
-        }
-    },
-    "899195388": {
-        "Name": "Obliteration",
-        "Descriptions": {
-            "3033478846": "While Pillar of Frost is active, Frost Strike and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "779570278": "While Pillar of Frost is active, Frost Strike, Glacial Advance, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "2240969396": "While Pillar of Frost is active, Frost Strike, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
-            "1908923383": "While Pillar of Frost is active, Frost Strike, Glacial Advance,, Soul Reaper, and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune."
-        }
-    },
-    "931333709": {
-        "Name": "On a Pale Horse",
-        "Descriptions": {
-            "2781615135": "You are as hard to stop as death itself, increasing your mounted speed by {1}%."
-        }
-    },
-    "1622573197": {
-        "Name": "Ossuary",
-        "Descriptions": {
-            "2086721497": "While you have at least {1} Bone Shield charges, the cost of Death Strike is reduced by {2} Runic Power.\r\n\r\nAdditionally, your maximum Runic Power is increased by {3}."
-        }
-    },
-    "1156758793": {
-        "Name": "Outbreak",
-        "Descriptions": {
-            "2995734025": "Deals {1} Shadow damage to the target and infects all nearby enemies with Virulent Plague.\r\n\r\n|T132099:24|t {FFFFFFFF|Virulent Plague}\r\nA disease that deals {2} Shadow damage over {3} sec. It erupts when the infected target dies, dealing {4} Shadow damage to nearby enemies."
-        }
-    },
-    "1946596518": {
-        "Name": "Path of Frost",
-        "Descriptions": {
-            "3948842486": "Activates a freezing aura for {1} min that creates ice beneath your feet, allowing party or raid members within {2} yards to walk on water.\r\n\r\nUsable while mounted, but being attacked or damaged will cancel the effect."
-        }
-    },
-    "876659881": {
-        "Name": "Permafrost",
-        "Descriptions": {
-            "647963378": "Your auto attack damage grants you an absorb shield equal to {1}% of the damage dealt."
-        }
-    },
-    "2017787480": {
-        "Name": "Perseverance of the Ebon Blade",
-        "Descriptions": {
-            "1078473076": "When Crimson Scourge is consumed, you gain {1}% Versatility for {2} sec."
-        }
-    },
-    "1398160041": {
-        "Name": "Pestilence",
-        "Descriptions": {
-            "3588845411": "Death and Decay damage has a {1}% chance to apply a Festering Wound to the enemy."
-        }
-    },
-    "1402070957": {
-        "Name": "Piercing Chill",
-        "Descriptions": {
-            "1527743280": "Enemies suffer {1}% increased damage from Chill Streak each time they are struck by it."
-        }
-    },
-    "998200185": {
-        "Name": "Pillar of Frost",
-        "Descriptions": {
-            "1191072886": "The power of frost increases your Strength by {1}% for {2} sec."
-        }
-    },
-    "3453547906": {
-        "Name": "Plaguebringer",
-        "Descriptions": {
-            "1998774080": "Scourge Strike causes your disease damage to occur {1}% more quickly for {2} sec.\r\n"
-        }
-    },
-    "3968863048": {
-        "Name": "Proliferating Chill",
-        "Descriptions": {
-            "1337631918": "Chains of Ice affects {1} additional nearby enemy."
-        }
-    },
-    "1021986338": {
-        "Name": "Purgatory",
-        "Descriptions": {
-            "296673069": "An unholy pact that prevents fatal damage, instead absorbing incoming healing equal to the damage prevented, lasting {1} sec.\r\n\r\nIf any healing absorption remains when this effect expires, you will die. This effect may only occur every {2} min."
-        }
-    },
-    "2589358021": {
-        "Name": "Rage of the Frozen Champion",
-        "Descriptions": {
-            "2891974362": "Obliterate has a {1}% increased chance to trigger Rime and Howling Blast generates {2} Runic Power while Rime is active."
-        }
-    },
-    "2050705916": {
-        "Name": "Raise Abomination",
-        "Descriptions": {
-            "3021552960": "Raises an Abomination for {1} sec which wanders and attacks enemies, applying Festering Wound when it melees targets, and affecting all those nearby with Virulent Plague."
-        }
-    },
-    "687350079": {
-        "Name": "Raise Ally",
-        "Descriptions": {
-            "914363486": "Pours dark energy into a dead target, reuniting spirit and body to allow the target to reenter battle with {1}% health and at least {2}% mana."
-        }
-    },
-    "698927453": {
-        "Name": "Raise Dead",
-        "Descriptions": {
-            "3267438957": "Raises an abomination to fight by your side. You can have a maximum of one abomination at a time.",
-            "558124564": "Raises a geist to fight by your side. You can have a maximum of one geist at a time.",
-            "435501550": "Raises a geist to fight by your side.  You can have a maximum of one geist at a time. Lasts {1} min."
-        }
-    },
-    "1739515530": {
-        "Name": "Rapid Decomposition",
-        "Descriptions": {
-            "3438244807": "Your Blood Plague and Death and Decay deal damage {1}% more often.\r\n\r\nAdditionally, your Blood Plague leeches {2}% more Health."
-        }
-    },
-    "365229349": {
-        "Name": "Reanimation",
-        "Descriptions": {
-            "3871765739": "Reanimates a nearby corpse, summoning a zombie for {1} sec that slowly moves towards your target. \r\n\r\nIf your zombie reaches its target, it explodes after {2} sec. The explosion stuns all enemies within {3} yards for {4} sec and deals {5}% of their health in Shadow damage."
-        }
-    },
-    "973390478": {
-        "Name": "Reaping",
-        "Descriptions": {
-            "3718307804": "Your Soul Reaper, Scourge Strike, Festering Strike, and Death Coil deal {1}% additional damage to enemies below {2}% health.",
-            "2663377573": "Your Soul Reaper, Clawing Shadows, Festering Strike, and Death Coil deal {1}% additional damage to enemies below {2}% health."
-        }
-    },
-    "3018992757": {
-        "Name": "Red Thirst",
-        "Descriptions": {
-            "2297401991": "Reduces the cooldown on Vampiric Blood by {1} sec per {2} Runic Power spent."
-        }
-    },
-    "2650611628": {
-        "Name": "Reinforced Bones",
-        "Descriptions": {
-            "4123832352": "Increases Armor gained from Bone Shield by {1}% and it can stack {2} additional times."
-        }
-    },
-    "2733562535": {
-        "Name": "Relish in Blood",
-        "Descriptions": {
-            "3910422987": "While Crimson Scourge is active, your next Death and Decay heals you for {1} health per Bone Shield charge and you immediately gain {2} Runic Power."
-        }
-    },
-    "3812762607": {
-        "Name": "Remorseless Winter",
-        "Descriptions": {
-            "3065015646": "Drain the warmth of life from all nearby enemies within {1} yards, dealing {2} Frost damage over {3} sec and reducing their movement speed by {4}%."
-        }
-    },
-    "3859277929": {
-        "Name": "Rime",
-        "Descriptions": {
-            "4039215261": "Obliterate has a {1}% chance to cause your next Howling Blast to consume no runes and deal {2}% additional damage.",
-            "2995188326": "Obliterate has a {1}% chance and Frostscythe has a {2}% chance to cause your next Howling Blast to consume no runes and deal {3}% additional damage."
-        }
-    },
-    "1395791574": {
-        "Name": "Rot and Wither",
-        "Descriptions": {
-            "903937221": "Your Death and Decay rots enemies each time it deals damage, absorbing healing equal to {1}% of damage dealt.",
-            "262916862": "Your Death's Due rots enemies each time it deals damage, absorbing healing equal to {1}% of damage dealt."
-        }
-    },
-    "4122852761": {
-        "Name": "Rotten Touch",
-        "Descriptions": {
-            "1993636731": "Sudden Doom causes your next Death Coil to also increase your Scourge Strike damage against the target by {1}% for {2} sec.",
-            "998165860": "Sudden Doom causes your next Death Coil to also increase your Clawing Shadows damage against the target by {1}% for {2} sec."
-        }
-    },
-    "641308127": {
-        "Name": "Rune Mastery",
-        "Descriptions": {
-            "1804408657": "Consuming a Rune has a chance to increase your Strength by {1}% for {2} sec."
-        }
-    },
-    "3210721316": {
-        "Name": "Rune Tap",
-        "Descriptions": {
-            "849158533": "Reduces all damage taken by {1}% for {2} sec."
-        }
-    },
-    "3816069784": {
-        "Name": "Runeforging",
-        "Descriptions": {
-            "698205483": "Allows the Death Knight to emblazon their weapon with runes."
-        }
-    },
-    "3617769545": {
-        "Name": "Runic Attenuation",
-        "Descriptions": {
-            "3609354934": "Auto attacks have a chance to generate {1} Runic Power."
-        }
-    },
-    "2611389514": {
-        "Name": "Runic Command",
-        "Descriptions": {
-            "3534205572": "Increases your maximum Runic Power by {1}."
-        }
-    },
-    "3623748231": {
-        "Name": "Runic Corruption",
-        "Descriptions": {
-            "1876051784": "Each Runic Power you spend has a {1}% chance to increase your Rune regeneration rate by {2}% for {3} sec."
-        }
-    },
-    "985159663": {
-        "Name": "Runic Empowerment",
-        "Descriptions": {
-            "4080020928": "Each Runic Power you spend has a {1}% chance to instantly grant you a Rune."
-        }
-    },
-    "523096678": {
-        "Name": "Runic Mastery",
-        "Descriptions": {
-            "3345527065": "Increases your maximum Runic Power by {1} and increases the Rune regeneration rate of Runic Corruption by {2}%."
-        }
-    },
-    "2726878069": {
-        "Name": "Ruptured Viscera",
-        "Descriptions": {
-            "3468323576": "When your ghouls expire, they explode in viscera dealing {1} Shadow damage to nearby enemies. Each explosion has a {2}% chance to apply Festering Wounds to enemies hit."
-        }
-    },
-    "2665004787": {
-        "Name": "Sacrificial Pact",
-        "Descriptions": {
-            "954273727": "Sacrifice your ghoul to deal {1} Shadow damage to all nearby enemies and heal for {2}% of your maximum health. Deals reduced damage beyond {3} targets."
-        }
-    },
-    "964100494": {
-        "Name": "Sanguine Ground",
-        "Descriptions": {
-            "4132171107": "You deal {1}% more damage and receive {2}% more healing while standing in your Death and Decay."
-        }
-    },
-    "4115751982": {
-        "Name": "Scourge Strike",
-        "Descriptions": {
-            "2984266516": "An unholy strike that deals {1} Physical damage and {2} Shadow damage, and causes {3} Festering Wound to burst."
-        }
-    },
-    "496871559": {
-        "Name": "Shattering Blade",
-        "Descriptions": {
-            "1021436140": "When Frost Strike damages an enemy with {1} stacks of Razorice it will consume them to deal an additional {2}% damage."
-        }
-    },
-    "3945464263": {
-        "Name": "Shattering Bone",
-        "Descriptions": {
-            "3224941875": "When Bone Shield is consumed it shatters dealing {1} Shadow damage to nearby enemies. This damage is tripled while you are within your Death and Decay."
-        }
-    },
-    "29427476": {
-        "Name": "Shroud of Winter",
-        "Descriptions": {
-            "3412002103": "Enemies within {1} yards of you become shrouded in winter, reducing the range of their spells and abilities by {2}%."
-        }
-    },
-    "2110997099": {
-        "Name": "Soul Reaper",
-        "Descriptions": {
-            "2331745449": "Strike an enemy for {1} Shadowfrost damage and afflict the enemy with Soul Reaper. \r\n\r\nAfter {2} sec, if the target is below {3}% health this effect will explode dealing an additional {4} Shadowfrost damage to the target. If the enemy that yields experience or honor dies while afflicted by Soul Reaper, gain Runic Corruption."
-        }
-    },
-    "329893439": {
-        "Name": "Spellwarden",
-        "Descriptions": {
-            "161648102": "Anti-Magic Shell is now usable on allies and its cooldown is reduced by {1} sec."
-        }
-    },
-    "1678342535": {
-        "Name": "Strangulate",
-        "Descriptions": {
-            "3910796183": "Shadowy tendrils constrict an enemy's throat, silencing them for {1} sec.",
-            "1223109609": "Shadowy tendrils constrict an enemy's throat, silencing them for {1} sec ({2} sec when used on a target who is casting a spell)."
-        }
-    },
-    "2513583237": {
-        "Name": "Sudden Doom",
-        "Descriptions": {
-            "3239503674": "Your auto attacks have a {1}% chance to make your next Death Coil cost {2} less Runic Power and critically strike. \r\n\r\nAdditionally, your next Death Coil will burst {3} Festering Wound.",
-            "824437378": "Your auto attacks have a {1}% chance to make your next Death Coil or Epidemic cost {2} less Runic Power and critically strike. \r\n\r\nAdditionally, your next Death Coil will burst {3} Festering Wound."
-        }
-    },
-    "3365029302": {
-        "Name": "Summon Gargoyle",
-        "Descriptions": {
-            "4275391826": "Summon a Gargoyle into the area to bombard the target for {1} sec.\r\n\r\nThe Gargoyle gains {2}% increased damage for every {3} Runic Power you spend.\r\n\r\n{FFFFFFFF|Generates {4} Runic Power.}"
-        }
-    },
-    "2153602363": {
-        "Name": "Superstrain",
-        "Descriptions": {
-            "3842399052": "Your Virulent Plague also applies Frost Fever and Blood Plague at {1}% effectiveness."
-        }
-    },
-    "4055920792": {
-        "Name": "Suppression",
-        "Descriptions": {
-            "3266555141": "Damage taken from area of effect attacks reduced by {1}%. When suffering a loss of control effect, this bonus is increased by an additional {2}% for {3} sec."
-        }
-    },
-    "2195243893": {
-        "Name": "Tightening Grasp",
-        "Descriptions": {
-            "2649146543": "Gorefiend's Grasp cooldown is reduced by {1} sec and it now also Silences enemies for {2} sec."
-        }
-    },
-    "4199484656": {
-        "Name": "Tombstone",
-        "Descriptions": {
-            "1950310239": "Consume up to {1} Bone Shield charges. For each charge consumed, you gain {2} Runic Power and absorb damage equal to {3}% of your maximum health for {4} sec."
-        }
-    },
-    "155142949": {
-        "Name": "Umbilicus Eternus",
-        "Descriptions": {
-            "2036529773": "After Vampiric Blood expires, you absorb damage equal to {1} times the damage your Blood Plague dealt during Vampiric Blood."
-        }
-    },
-    "2645702466": {
-        "Name": "Unholy Assault",
-        "Descriptions": {
-            "2062522970": "Strike your target dealing {1} Shadow damage, infecting the target with {2} Festering Wounds and sending you into an Unholy Frenzy increasing all damage done by {3}% for {4} sec."
-        }
-    },
-    "1514510201": {
-        "Name": "Unholy Aura",
-        "Descriptions": {
-            "2819105796": "All enemies within {1} yards take {2}% increased damage from your minions."
-        }
-    },
-    "3075622054": {
-        "Name": "Unholy Blight",
-        "Descriptions": {
-            "33845499": "Dark Transformation surrounds your ghoul with a vile swarm of insects for {1} sec, stinging all nearby enemies and infecting them with Virulent Plague and an unholy disease that deals {2} damage over {3} sec, stacking up to {4} times."
-        }
-    },
-    "1809967160": {
-        "Name": "Unholy Bond",
-        "Descriptions": {
-            "462606640": "Increases the effectiveness of your Runeforge effects by {1}%."
-        }
-    },
-    "3667094884": {
-        "Name": "Unholy Endurance",
-        "Descriptions": {
-            "454960526": "Increases Lichborne duration by {1} sec and while active damage taken is reduced by {2}%."
-        }
-    },
-    "1399344560": {
-        "Name": "Unholy Ground",
-        "Descriptions": {
-            "1001490695": "Gain {1}% Haste while you remain within your Death and Decay."
-        }
-    },
-    "2248089479": {
-        "Name": "Unholy Pact",
-        "Descriptions": {
-            "3967506870": "Dark Transformation creates an unholy pact between you and your pet, igniting flaming chains that deal {1} Shadow damage over {2} sec to enemies between you and your pet."
-        }
-    },
-    "31405638": {
-        "Name": "Unleashed Frenzy",
-        "Descriptions": {
-            "2481923900": "Damaging an enemy with a Runic Power ability increases your Strength by {1}% for {2} sec, stacks up to {3} times."
-        }
-    },
-    "3100689117": {
-        "Name": "Vampiric Blood",
-        "Descriptions": {
-            "1927548881": "Embrace your undeath, increasing your maximum health by {1}% and increasing all healing and absorbs received by {2}% for {3} sec."
-        }
-    },
-    "2668547357": {
-        "Name": "Veteran of the Third War",
-        "Descriptions": {
-            "2367237183": "Stamina increased by {1}%.",
-            "328814802": "Stamina increased by {1}%.\r\nDamage taken reduced by {2}%."
-        }
-    },
-    "1664247772": {
-        "Name": "Vile Contagion",
-        "Descriptions": {
-            "3546834751": "Inflict disease upon your enemies spreading Festering Wounds equal to the amount currently active on your target to {1} nearby enemies."
-        }
-    },
-    "3862231414": {
-        "Name": "Voracious",
-        "Descriptions": {
-            "1395758934": "Death Strike's healing is increased by {1}% and grants you {2}% Leech for {3} sec."
-        }
-    },
-    "2998616856": {
-        "Name": "Walking Dead",
-        "Descriptions": {
-            "371815973": "Your Death Grip causes the target to be unable to move faster than normal movement speed for {1} sec."
-        }
-    },
-    "1587739468": {
-        "Name": "Will of the Necropolis",
-        "Descriptions": {
-            "1094542641": "Damage taken below {1}% Health is reduced by {2}%."
-        }
-    },
-    "3843393438": {
-        "Name": "Wraith Walk",
-        "Descriptions": {
-            "1244359277": "Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by {1}% for {2} sec. Taking any action cancels the effect.\r\n\r\nWhile active, your movement speed cannot be reduced below {3}%."
-        }
-    },
-    "891032548": {
-        "Name": "Bloodforged Armor",
-        "Descriptions": {
-            "11577228": "Death Strike reduces all Physical damage taken by {1}% for {2} sec."
-        }
-    },
-    "1454895454": {
-        "Name": "Frost Fever",
-        "Descriptions": {
-            "555584162": "Grants the Death Knight {1} runic power."
-        }
-    },
-    "106082565": {
-        "Name": "Parry",
-        "Descriptions": {
-            "1505216917": "Gives a chance to parry enemy melee attacks."
-        }
-    },
-    "272301149": {
-        "Name": "Corpse Exploder",
-        "Descriptions": {
-            "1615131196": "Cause a target corpse to explode in a shower of gore. Does not affect mechanical or elemental corpses."
-        }
-    },
-    "3244829509": {
-        "Name": "Riposte",
-        "Descriptions": {
-            "1545937471": "You gain Parry equal to {1}% of your Critical Strike from gear."
-        }
-    },
-    "2017235292": {
-        "Name": "Frost Breath",
-        "Descriptions": {
-            "508626012": "Summons Sindragosa, who breathes frost on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec."
-        }
-    },
-    "3461688229": {
-        "Name": "Festering Wound",
-        "Descriptions": {
-            "144989652": "Festering Strike applies a pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power.\r\n\r\nStacks up to {3} times on any target."
-        }
-    },
-    "2106866195": {
-        "Name": "Rune Strike",
-        "Descriptions": {
-            "2875967319": "Strike the target for {1} Physical damage. This attack cannot be dodged, blocked, or parried."
-        }
-    },
-    "3858822103": {
-        "Name": "Frostreaper",
-        "Descriptions": {
-            "616898501": "Killing Machine also causes your next Obliterate to deal Frost damage."
-        }
-    },
-    "698768415": {
-        "Name": "Arctic Assault",
-        "Descriptions": {
-            "4219272896": "Consuming Killing Machine fires a Glacial Advance through your target at {1}% effectiveness."
-        }
-    },
-    "1284580039": {
-        "Name": "Newly Turned",
-        "Descriptions": {
-            "3166189052": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to {1}% of your maximum health."
-        }
-    },
-    "3781393702": {
-        "Name": "Mograine's Might",
-        "Descriptions": {
-            "3307965993": "Your damage is increased by {1}% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay."
-        }
-    },
-    "3320296510": {
-        "Name": "Fury of the Horsemen",
-        "Descriptions": {
-            "880669077": "Every {1} Runic Power you spend extends the duration of the Horsemen's aid in combat by {2} sec, up to {3} sec."
-        }
-    },
-    "4117144870": {
-        "Name": "Festering Scythe",
-        "Descriptions": {
-            "2554615248": "Every {1} Festering Wound you burst empowers your next Festering Strike to become Festering Scythe for {2} sec.\r\n\r\n|T3997563:24|t{ffffffff|Festering Scythe}\r\nSweep through all enemies within {3} yds in front of you, dealing {4} Shadow damage and infecting them with {5}-{6} Festering Wounds."
-        }
-    },
-    "3758317655": {
-        "Name": "Pact of the San'layn",
-        "Descriptions": {
-            "2841707543": "You store {1}% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires."
-        }
-    },
-    "683895987": {
-        "Name": "Exterminate",
-        "Descriptions": {
-            "182201210": "After Reaper's Mark explodes, your next {1} [plural|Marrowrend|Marrowrends] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets.",
-            "204302227": "After Reaper's Mark explodes, your next {1} [plural|Marrowrend|Marrowrends] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage and applies Blood Plague. Deals reduced damage beyond {7} targets.",
-            "3901485910": "After Reaper's Mark explodes, your next {1} [plural|Obliterate|Obliterates] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets."
-        }
-    },
-    "3499738642": {
-        "Name": "Val'kyr",
-        "Descriptions": {
-            "1463549374": "Your Summon Gargoyle spell summons a Val'kyr instead of a Gargoyle."
-        }
-    },
-    "3438098560": {
-        "Name": "Wave of Souls",
-        "Descriptions": {
-            "2313476359": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing {1} Shadowfrost damage both ways to all enemies caught in its path.\r\n\r\nWave of Souls critical strikes cause enemies to take {2}% increased Shadowfrost damage for {3} sec, stacking up to {4} times, and it is always a critical strike on its way back."
-        }
-    },
-    "1263830048": {
-        "Name": "Menacing Magus",
-        "Descriptions": {
-            "2366987512": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to {1} nearby enemies."
-        }
-    },
-    "3546726230": {
-        "Name": "Glyph of Abomination Limb",
-        "Descriptions": {
-            "488576893": "Abomination Limb now resembles the Necrolord Covenant Ability."
-        }
-    },
-    "2606206949": {
-        "Name": "On a Paler Horse",
-        "Descriptions": {
-            "2617166537": "While outdoors you are able to mount your Acherus Deathcharger in combat."
-        }
-    },
-    "4189761584": {
-        "Name": "Veteran of the Fourth War",
-        "Descriptions": {
-            "2367237183": "Stamina increased by {1}%.",
-            "328814802": "Stamina increased by {1}%.\r\nDamage taken reduced by {2}%."
-        }
-    },
-    "1339676078": {
-        "Name": "Subduing Grasp",
-        "Descriptions": {
-            "15600176": "When you pull an enemy, the damage they deal to you is reduced by {1}% for {2} sec."
-        }
-    },
-    "2341810661": {
-        "Name": "Osmosis",
-        "Descriptions": {
-            "1994517488": "Anti-Magic Shell increases healing received by {1}%."
-        }
-    },
-    "2938762734": {
-        "Name": "Ossified Vitriol",
-        "Descriptions": {
-            "912581041": "When you lose a Bone Shield charge the damage of your next Marrowrend is increased by {1}%, stacking up to {2}%."
-        }
-    },
-    "2680238848": {
-        "Name": "The Blood is Life",
-        "Descriptions": {
-            "3264671497": "Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for {1} sec.\r\n\r\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing {2}% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond {3} targets."
-        }
-    },
-    "3114965385": {
-        "Name": "Incite Terror",
-        "Descriptions": {
-            "1680551189": "Vampiric Strike and Scourge Strike cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness.",
-            "3730905710": "Vampiric Strike and Heart Strike cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness.",
-            "3557525137": "Vampiric Strike and Clawing Shadows cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness."
-        }
-    },
-    "2973466970": {
-        "Name": "Decomposition",
-        "Descriptions": {
-            "1152575024": "Virulent Plague has a chance to abruptly flare up, dealing {1}% of the damage it dealt to target in the last {2} sec.\r\n\r\nWhen this effect triggers, the duration of your active minions are increased by {3} sec, up to {4} sec."
-        }
-    },
-    "1846897968": {
-        "Name": "Glyph of the Chilled Shell",
-        "Descriptions": {
-            "1541772342": "Your Anti-Magic Shell shifts to match more of a Frost affinity. "
-        }
-    },
-    "2404262280": {
-        "Name": "Blood-Soaked Ground",
-        "Descriptions": {
-            "3292027531": "While you are within your Death and Decay, your physical damage taken is reduced by {1}% and your chance to gain Vampiric Strike is increased by {2}%."
-        }
-    },
-    "2747256975": {
-        "Name": "Mawsworn Menace",
-        "Descriptions": {
-            "3007602372": "Scourge Strike deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
-            "3086534425": "Obliterate deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
-            "2767014537": "Clawing Shadows deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
-            "460148903": "Scourge Strike deals {1}% increased damage and the cooldown of your Defile is reduced by {2} sec.",
-            "1442183403": "Clawing Shadows deals {1}% increased damage and the cooldown of your Defile is reduced by {2} sec."
-        }
-    },
-    "3802520785": {
-        "Name": "Death Charge",
-        "Descriptions": {
-            "3705326954": "Call upon your Death Charger to break free of movement impairment effects.\r\n\r\nFor {1} sec, while upon your Death Charger your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks."
-        }
-    },
-    "2118576438": {
-        "Name": "Rider's Champion",
-        "Descriptions": {
-            "1740804134": "Spending Runes has a chance to call forth the aid of a Horsemen for {1} sec.\r\n\r\n{FFFFFFFF|Mograine}\r\nCasts Death and Decay at his location that follows his position.\r\n\r\n{FFFFFFFF|Whitemane}\r\nCasts Undeath on your target dealing {2} Shadowfrost damage per stack every {3} sec, for {4} sec. Each time Undeath deals damage it gains a stack. Cannot be Refreshed.\r\n\r\n{FFFFFFFF|Trollbane}\r\nCasts Chains of Ice on your target slowing their movement speed by {5}% and increasing the damage they take from you by {6}% for {7} sec.\r\n\r\n{FFFFFFFF|Nazgrim}\r\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by {8}%.\r\n"
-        }
-    },
-    "3171886474": {
-        "Name": "Expelling Shield",
-        "Descriptions": {
-            "278959988": "When an enemy deals direct damage to your Anti-Magic Shell, their cast speed is reduced by {1}% for {2} sec."
-        }
-    },
-    "720890502": {
-        "Name": "Bloody Fortitude",
-        "Descriptions": {
-            "43102455": "Icebound Fortitude reduces all damage you take by up to an additional {1}% based on your missing health.\r\n\r\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by {2} sec."
-        }
-    },
-    "1393582888": {
-        "Name": "Glyph of the Crimson Shell",
-        "Descriptions": {
-            "2397063888": "Your Anti-Magic Shell shifts to match more of a Blood affinity. "
-        }
-    },
-    "813043238": {
-        "Name": "Glyph of the Geist",
-        "Descriptions": {
-            "4206536262": "Your Raise Dead spell summons a geist instead of a ghoul.",
-            "3067443674": "Your Raise Dead spell summons a geist instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
-        }
-    },
-    "218328044": {
-        "Name": "Pact of the Deathbringer",
-        "Descriptions": {
-            "3932458747": "When you suffer a damaging effect equal to {1}% of your maximum health, you instantly cast Death Pact at {2}% effectiveness. May only occur every {3} min.\r\n\r\nWhen a Reaper's Mark explodes, the cooldowns of this effect and Death Pact are reduced by {4} sec."
-        }
-    },
-    "173824568": {
-        "Name": "Null Magic",
-        "Descriptions": {
-            "58707688": "Magic damage taken is reduced by {1}% and the duration of harmful Magic effects against you are reduced by {2}%."
-        }
-    },
-    "2833730385": {
-        "Name": "Wither Away",
-        "Descriptions": {
-            "1575090700": "Blood Plague deals its damage {1}% faster, and the second scythe of Exterminate applies Blood Plague.",
-            "1481079781": "Frost Fever deals its damage {1}% faster, and the second scythe of Exterminate applies Frost Fever."
-        }
-    },
-    "3026734178": {
-        "Name": "Horsemen's Aid",
-        "Descriptions": {
-            "166031562": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at {1}% effectiveness.\r\n\r\nYou may only benefit from this effect every {2} sec."
-        }
-    },
-    "202817240": {
-        "Name": "Dark Talons",
-        "Descriptions": {
-            "3080446216": "Marrowrend and Heart Strike have a {1}% chance to grant {2} stacks of Icy Talons and increase its maximum stacks by the same amount for {3} sec.\r\n\r\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active.",
-            "369975535": "Consuming Killing Machine or Rime has a {1}% chance to grant {2} stacks of Icy Talons and increase its maximum stacks by the same amount for {3} sec.\r\n\r\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active."
-        }
-    },
-    "2512231171": {
-        "Name": "Reaper's Mark",
-        "Descriptions": {
-            "2468714596": "Viciously slice into the soul of your enemy, dealing {1} Shadowfrost damage and applying Reaper's Mark.\r\n\r\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After {2} sec or reaching {3} stacks, the mark explodes, dealing {4} damage per stack.\r\n\r\nReaper's Mark travels to an unmarked enemy nearby if the target dies, or explodes below {5}% health when there are no enemies to travel to. This explosion cannot occur again on a target for {6} min."
-        }
-    },
-    "1059906077": {
-        "Name": "Nazgrim's Conquest",
-        "Descriptions": {
-            "2279471855": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by {1}%.\r\n\r\nAdditionally, each Rune you spend increase its value by {2}%."
-        }
-    },
-    "1191419599": {
-        "Name": "Glyph of Cracked Ice",
-        "Descriptions": {
-            "1111257850": "Your Path of Frost ability now looks a little cracked, just a little."
-        }
-    },
-    "1060631195": {
-        "Name": "The Long Winter",
-        "Descriptions": {
-            "165947738": "While Pillar of Frost is active your auto-attack critical strikes increase its duration by {1} sec, up to a maximum of {2} sec."
-        }
-    },
-    "4162985911": {
-        "Name": "Hungering Thirst",
-        "Descriptions": {
-            "1029707411": "The damage of your diseases and Death Coil are increased by {1}%.",
-            "1200197036": "The damage of your diseases and Frost Strike are increased by {1}%."
-        }
-    },
-    "1020800851": {
-        "Name": "Icy Death Torrent",
-        "Descriptions": {
-            "4178556418": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing {1} Frost damage to enemies in front of you."
-        }
-    },
-    "2295065133": {
-        "Name": "Rune Carved Plates",
-        "Descriptions": {
-            "1195688809": "Each Rune spent reduces the magic damage you take by {1}% and each Rune generated reduces the physical damage you take by {2}% for {3} sec, up to {4} times."
-        }
-    },
-    "745545677": {
-        "Name": "Carnage",
-        "Descriptions": {
-            "4184932403": "Blooddrinker and Consumption now contribute to your Mastery: Blood Shield.\r\n\r\nEach time an enemy strikes your Blood Shield, the cooldowns of Blooddrinker and Consumption have a chance to be reset."
-        }
-    },
-    "2482163473": {
-        "Name": "Runic Protection",
-        "Descriptions": {
-            "1939771005": "Your chance to be critically struck is reduced by {1}% and your Armor is increased by {2}%."
-        }
-    },
-    "1048535427": {
-        "Name": "Ice Prison",
-        "Descriptions": {
-            "831021349": "Chains of Ice now also roots enemies for {1} sec but its cooldown is increased to {2} sec."
-        }
-    },
-    "2764550134": {
-        "Name": "Smothering Offense",
-        "Descriptions": {
-            "3087785639": "Your auto attack damage is increased by {1}%. \r\n\r\nThis amount is increased for each stack of Icy Talons you have and it can stack up to {2} additional times."
-        }
-    },
-    "3023986608": {
-        "Name": "Glyph of Foul Menagerie",
-        "Descriptions": {
-            "1421020086": "Causes your Army of the Dead spell to summon an assortment of undead minions."
-        }
-    },
-    "683613430": {
-        "Name": "Vampiric Strike",
-        "Descriptions": {
-            "1095068174": "Your Death Coil, Epidemic and Death Strike have a {1}% chance to make your next Scourge Strike become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec.",
-            "1331351029": "Your Death Coil and Death Strike have a {1}% chance to make your next Heart Strike become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec.",
-            "4087442601": "Your Death Coil, Epidemic and Death Strike have a {1}% chance to make your next Clawing Shadows become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec."
-        }
-    },
-    "2149359617": {
-        "Name": "Bone Collector",
-        "Descriptions": {
-            "477015556": "When you would pull an enemy generate {1} charge of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {2}. Each melee attack against you consumes a charge. Lasts {3} sec or until all charges are consumed.",
-            "2990408794": "When you would pull an enemy generate {1} charge of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {2}, and your Haste by {3}%. Each melee attack against you consumes a charge. Lasts {4} sec or until all charges are consumed."
-        }
-    },
-    "2183031783": {
-        "Name": "Vampiric Speed",
-        "Descriptions": {
-            "2625703228": "Death's Advance and Wraith Walk movement speed bonuses are increased by {1}%.\r\n\r\nActivating Death's Advance or Wraith Walk increases {2} nearby allies movement speed by {3}% for {4} sec."
-        }
-    },
-    "2055479178": {
-        "Name": "Glyph of the Skeleton",
-        "Descriptions": {
-            "619931218": "Your Raise Dead spell summons a skeleton instead of a ghoul.",
-            "990926950": "Your Raise Dead spell summons a skeleton instead of a ghoul. \r\n\r\nDisabled while talented into Sludge Belcher."
-        }
-    },
-    "2652059978": {
-        "Name": "Bloodied Blade",
-        "Descriptions": {
-            "1159003751": "Parrying an attack grants you a charge of Bloodied Blade, increasing your Strength by {1}%, up to {2}% for {3} sec.\r\n\r\nAt {4} stacks, your next parry consumes all charges to unleash a Heart Strike at {5}% effectiveness, and increases your Strength by {6}% for {7} sec."
-        }
-    },
-    "1904759513": {
-        "Name": "Apocalypse Now",
-        "Descriptions": {
-            "584068661": "Army of the Dead and Frostwyrm's Fury call upon all {1} Horsemen to aid you for {2} sec."
-        }
-    },
-    "878742891": {
-        "Name": "Bind in Darkness",
-        "Descriptions": {
-            "526689714": "Blood Boil deals {1}% increased damage, and is now Shadowfrost.\r\n\r\nShadowfrost damage applies {2} stacks to Reaper's Mark and {3} stacks when it is a critical strike.",
-            "2534635748": "Rime empowered Howling Blast deals {1}% increased damage to its main target, and is now Shadowfrost.\r\n\r\nShadowfrost damage applies {2} stacks to Reaper's Mark and {3} stacks when it is a critical strike."
-        }
-    },
-    "4063859068": {
-        "Name": "Pact of the Apocalypse",
-        "Descriptions": {
-            "4174703254": "When you take damage, {1}% of the damage is redirected to each active horsemen."
-        }
-    },
-    "2973962748": {
-        "Name": "Unyielding Will",
-        "Descriptions": {
-            "2286474236": "Anti-Magic shell now removes all harmful magical effects when activated, but it's cooldown is increased by {1}  sec."
-        }
-    },
-    "2369319569": {
-        "Name": "Frenzied Bloodthirst",
-        "Descriptions": {
-            "2099369702": "Essence of the Blood Queen stacks {1} additional times and increases the damage of your Death Coil and Death Strike by {2}% per stack."
-        }
-    },
-    "1696323005": {
-        "Name": "Grim Reaper",
-        "Descriptions": {
-            "1669899842": "Reaper's Mark initial strike grants {1} charges of Bone Shield.\r\n\r\nReaper's Mark explosion deals up to {2}% increased damage based on your target's missing health.",
-            "3972777331": "Reaper's Mark initial strike grants Killing Machine.\r\n\r\nReaper's Mark explosion deals up to {1}% increased damage based on your target's missing health."
-        }
-    },
-    "1094680389": {
-        "Name": "Cryogenic Chamber",
-        "Descriptions": {
-            "4199464301": "Each time Frost Fever deals damage, {1}% of the damage dealt is gathered into the next cast of Remorseless Winter, up to {2} times."
-        }
-    },
-    "1901270162": {
-        "Name": "Whitemane's Famine",
-        "Descriptions": {
-            "4250484147": "When Scourge Strike damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy.",
-            "268862347": "When Obliterate damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy.",
-            "664817050": "When Clawing Shadows damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy."
-        }
-    },
-    "526761394": {
-        "Name": "Visceral Strength",
-        "Descriptions": {
-            "1184887194": "When Sudden Doom is consumed, you gain {1}% Strength for {2} sec.",
-            "863656575": "When Crimson Scourge is consumed, you gain {1}% Strength for {2} sec."
-        }
-    },
-    "3032332184": {
-        "Name": "Foul Infections",
-        "Descriptions": {
-            "2019845556": "Your diseases deal {1}% more damage and have a {2}% increased chance to critically strike."
-        }
-    },
-    "1376311658": {
-        "Name": "Gift of the San'layn",
-        "Descriptions": {
-            "2670869538": "While Dancing Rune Weapon is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Heart Strike for the duration.",
-            "3962214367": "While Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Scourge Strike for the duration.",
-            "2461739829": "While Dark Transformation is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Clawing Shadows for the duration."
-        }
-    },
-    "1620426634": {
-        "Name": "Infliction of Sorrow",
-        "Descriptions": {
-            "4288433556": "When Vampiric Strike damages an enemy affected by your Virulent Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Scourge Strike consumes the disease to deal {3}% of their remaining damage to the target.",
-            "577151380": "When Vampiric Strike damages an enemy affected by your Blood Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Heart Strike consumes the disease to deal {3}% of their remaining damage to the target.",
-            "51452383": "When Vampiric Strike damages an enemy affected by your Virulent Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Clawing Shadows consumes the disease to deal {3}% of their remaining damage to the target."
-        }
-    },
-    "2297691042": {
-        "Name": "Sanguine Scent",
-        "Descriptions": {
-            "2877727231": "Your Death Coil and Death Strike have a {1}% increased chance to trigger Vampiric Strike when damaging enemies below {2}% health.",
-            "3448105969": "Your Death Coil, Epidemic and Death Strike have a {1}% increased chance to trigger Vampiric Strike when damaging enemies below {2}% health."
-        }
-    },
-    "2756435628": {
-        "Name": "A Feast of Souls",
-        "Descriptions": {
-            "647382523": "While you have {1} or more Horsemen aiding you, your Runic Power spending abilities deal {2}% increased damage."
-        }
-    },
-    "2934629734": {
-        "Name": "Vampiric Aura",
-        "Descriptions": {
-            "1464368467": "Your Leech is increased by {1}%.\r\n\r\nWhile Lichborne is active, the Leech bonus of this effect is increased by {2}%, and it affects {3} allies within {4} yds. "
-        }
-    },
-    "1774814077": {
-        "Name": "Doomed Bidding",
-        "Descriptions": {
-            "2748329884": "Consuming Sudden Doom calls upon a Magus of the Dead to assist you for {1} sec.\r\n\r\n"
-        }
-    },
-    "2193084063": {
-        "Name": "Vestigial Shell",
-        "Descriptions": {
-            "2225502205": "Casting Anti-Magic Shell grants {1} nearby allies a Lesser Anti-Magic Shell that Absorbs up to {2} magic damage and reduces the duration of harmful Magic effects against them by {3}%. "
-        }
-    },
-    "4097240127": {
-        "Name": "Soul Rupture",
-        "Descriptions": {
-            "616223679": "When Reaper's Mark explodes, it deals {1}% of the damage dealt to nearby enemies and causes them to deal {2}% reduced Physical damage to you for {3} sec."
-        }
-    },
-    "1813184189": {
-        "Name": "Death's Messenger",
-        "Descriptions": {
-            "2733699650": "Reduces the cooldowns of Lichborne and Raise Dead by {1} sec."
-        }
-    },
-    "2420306836": {
-        "Name": "Trollbane's Icy Fury",
-        "Descriptions": {
-            "3345046031": "Scourge Strike shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets.",
-            "1852839004": "Obliterate shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets.",
-            "1732734946": "Clawing Shadows shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets."
-        }
-    },
-    "3480937605": {
-        "Name": "Hyperpyrexia",
-        "Descriptions": {
-            "4235819107": "Your Runic Power spending abilities have a chance to additionally deal {1}% of the damage dealt over {2} sec."
-        }
-    },
-    "174080625": {
-        "Name": "Shattered Frost",
-        "Descriptions": {
-            "3112196249": "When Frost Strike consumes {1} Razorice stacks, it deals {2}% of the damage dealt to nearby enemies. Deals reduced damage beyond {3} targets."
-        }
-    },
-    "3656392252": {
-        "Name": "Reaper's Onslaught",
-        "Descriptions": {
-            "3224152903": "Reduces the cooldown of Reaper's Mark by {1} sec, but the amount of Marrowrends empowered by Exterminate is reduced by {2}.",
-            "605247298": "Reduces the cooldown of Reaper's Mark by {1} sec, but the amount of Obliterates empowered by Exterminate is reduced by {2}."
-        }
-    },
-    "10722155": {
-        "Name": "Reaper of Souls",
-        "Descriptions": {
-            "3040425762": "When you apply Reaper's Mark, the cooldown of Soul Reaper is reset, your next Soul Reaper costs no runes, and it explodes on the target regardless of their health.\r\n\r\nSoul Reaper damage is increased by {1}%."
-        }
-    },
-    "3342381596": {
-        "Name": "Swift and Painful",
-        "Descriptions": {
-            "2022918598": "If no enemies are struck by Soul Rupture, you gain {1}% Strength for {2} sec.\r\n\r\nWave of Souls is {3}% more effective on the main target of your Reaper's Mark."
-        }
-    }
+    "name:3694472439": "Abomination Limb",
+    "desc:1058335084": "Sprout an additional limb, dealing {1} Shadow damage over {2} sec to all nearby enemies. Deals reduced damage beyond {3} targets. Every {4} sec, an enemy is pulled to your location if they are further than {5} yds from you. The same enemy can only be pulled once every {6} sec.",
+    "name:115870082": "Absolute Zero",
+    "desc:1378300847": "Frostwyrm's Fury has {1}% reduced cooldown and Freezes all enemies hit for {2} sec.",
+    "name:2689193023": "All Will Serve",
+    "desc:218058220": "Your Raise Dead spell summons an additional skeletal minion.",
+    "name:2516556703": "Anti-Magic Barrier",
+    "desc:1568133751": "Reduces the cooldown of Anti-Magic Shell by {1} sec and increases its duration and amount absorbed by {2}%.",
+    "name:2345467340": "Anti-Magic Shell",
+    "desc:381936970": "Surrounds you in an Anti-Magic Shell for {1} sec, absorbing up to {2} magic damage and preventing application of harmful magical effects. Damage absorbed generates Runic Power.",
+    "name:643638683": "Anti-Magic Zone",
+    "desc:2961871641": "Places an Anti-Magic Zone that reduces spell damage taken by party or raid members by {1}%. The Anti-Magic Zone lasts for {2} sec or until it absorbs {3} damage.",
+    "name:3289584139": "Apocalypse",
+    "desc:132916684": "Bring doom upon the enemy, dealing {1} Shadow damage and bursting up to {2} Festering Wounds on the target.\r\n\r\nSummons {3} Army of the Dead ghouls for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Runes.}",
+    "name:4254390286": "Army of the Dead",
+    "desc:298404102": "Summons a legion of ghouls who swarms your enemies, fighting anything they can for {1} sec.",
+    "name:1552762889": "Asphyxiate",
+    "desc:225490449": "Lifts the enemy target off the ground, crushing their throat with dark energy and stunning them for {1} sec.",
+    "name:1966414619": "Assimilation",
+    "desc:888035355": "The amount absorbed by Anti-Magic Zone is increased by {1}% and its cooldown is reduced by {2} sec.",
+    "name:710747419": "Avalanche",
+    "desc:280128671": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing {1} Frost damage.",
+    "name:2732776067": "Biting Cold",
+    "desc:2327411244": "Remorseless Winter damage is increased by {1}%. The first time Remorseless Winter deals damage to {2} different enemies, you gain Rime.",
+    "name:3388306836": "Bitter Chill",
+    "desc:1984778939": "Chains of Ice reduces the target's Haste by {1}%. Frost Strike refreshes the duration of Chains of Ice.",
+    "name:1733538980": "Blood Boil",
+    "desc:2606550601": "Deals {1} Shadow damage to all enemies within {2} yds.",
+    "name:654886655": "Blood Draw",
+    "desc:2796863171": "When you fall below {1}% health you drain {2} health from nearby enemies, the damage you take is reduced by {3}% and your Death Strike cost is reduced by {4} for {5} sec.\r\n\r\nCan only occur every {6} min.",
+    "name:3481339723": "Blood Feast",
+    "desc:3010696517": "Anti-Magic Shell heals you for {1}% of the damage it absorbs.",
+    "name:188378240": "Blood Fortification",
+    "desc:2367237183": "Stamina increased by {1}%.",
+    "name:1122705324": "Blood Scent",
+    "desc:205065484": "Increases Leech by {1}%.",
+    "name:718170792": "Blood Tap",
+    "desc:185524347": "Consume the essence around you to generate {1} Rune.\r\n\r\nRecharge time reduced by {2} sec whenever a Bone Shield charge is consumed.",
+    "name:2652582212": "Blooddrinker",
+    "desc:213653996": "Drains {1} health from the target over {2} sec. The damage they deal to you is reduced by {3}% for the duration and {4} sec after channeling it fully.\r\n\r\nYou can move, parry, dodge, and use defensive abilities while channeling this ability.\r\n\r\n{FFFFFFFF|Generates {5} additional Runic Power over the duration.}",
+    "name:2507479805": "Bloodshot",
+    "desc:2693457745": "While Blood Shield is active, you deal {1}% increased Physical damage.",
+    "name:228238813": "Bloodworms",
+    "desc:1786973642": "Your auto attacks have a chance to summon a Bloodworm.\r\n\r\nBloodworms deal minor damage to your target for {1} sec and then burst, healing you for {2}% of your missing health.\r\n\r\nIf you drop below {3}% health, your Bloodworms will immediately burst and heal you.",
+    "name:2061787341": "Bonegrinder",
+    "desc:1168418275": "Consuming Killing Machine grants {1}% critical strike chance for {2} sec, stacking up to {3} times. At {4} stacks your next Killing Machine consumes the stacks and grants you {5}% increased Frost damage for {6} sec.",
+    "name:2243403179": "Bonestorm",
+    "desc:2246092172": "Consume up to {1} Bone Shield charges to create a whirl of bone and gore that batters all nearby enemies, dealing {2} Shadow damage every {3} sec, and healing you for {4}% of your maximum health every time it deals damage (up to {5}%). Deals reduced damage beyond {6} targets.\r\n\r\nLasts {7} sec per Bone Shield charge spent and rapidly regenerates a Bone Shield every {8} sec.",
+    "name:2264867618": "Breath of Sindragosa",
+    "desc:2268174476": "Continuously deal {1} Frost damage every {2} sec to enemies in a cone in front of you, until your Runic Power is exhausted. Deals reduced damage to secondary targets.\r\n\r\n{FFFFFFFF|Generates {3} [plural}une|Runes] at the start and end.|r",
+    "name:3869023": "Brittle",
+    "desc:2490607076": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal {1}% increased damage for {2} sec.",
+    "name:2454911724": "Bursting Sores",
+    "desc:1074827542": "Bursting a Festering Wound deals {1}% more damage, and deals {2} Shadow damage to all nearby enemies. Deals reduced damage beyond {3} targets.",
+    "name:3729249968": "Chains of Ice",
+    "desc:2090856518": "Shackles the target with frozen chains, reducing movement speed by {1}% for {2} sec.",
+    "name:2967295395": "Chill Streak",
+    "desc:1956773104": "Deals {1} Frost damage to the target and reduces their movement speed by {2}% for {3} sec.\r\n\r\nChill Streak bounces up to {4} times between closest targets within {5} yards.",
+    "name:2947902063": "Clawing Shadows",
+    "desc:3569382295": "Deals {1} Shadow damage and causes {2} Festering Wound to burst.",
+    "name:1755664802": "Cleaving Strikes",
+    "desc:4199813457": "Heart Strike hits up to {1} additional enemies while you remain in Death and Decay. \r\n\r\nWhen leaving your Death and Decay you retain its bonus effects for {2} sec.",
+    "name:2925147484": "Coagulopathy",
+    "desc:2334940290": "Enemies affected by Blood Plague take {1}% increased damage from you and Death Strike increases the damage of your Blood Plague by {2}% for {3} sec, stacking up to {4} times.",
+    "name:927610918": "Coil of Devastation",
+    "name:867779669": "Cold Heart",
+    "desc:3147282986": "Every {1} sec, gain a stack of Cold Heart, causing your next Chains of Ice to deal {2} Frost damage. Stacks up to {3} times.",
+    "name:1338597583": "Coldthirst",
+    "desc:69111767": "Successfully interrupting an enemy with Mind Freeze grants {1} Runic Power and reduces its cooldown by {2} sec.",
+    "name:4205906342": "Consumption",
+    "desc:1168622139": "Strikes all enemies in front of you with a hungering attack that deals {1} Physical damage and heals you for {2}% of that damage. Deals reduced damage beyond {3} targets.\r\n\r\nCauses your Blood Plague damage to occur {4}% more quickly for {5} sec. \r\n\r\n{FFFFFFFF|Generates {6} Runes.}",
+    "name:1541301513": "Crimson Scourge",
+    "desc:2768934246": "Your auto attacks on targets infected with your Blood Plague have a chance to make your next Death and Decay cost no runes and reset its cooldown.",
+    "name:2164796458": "Dancing Rune Weapon",
+    "desc:4057634415": "Summons a rune weapon for {1} sec that mirrors your melee attacks and bolsters your defenses.\r\n\r\nWhile active, you gain {2}% parry chance.",
+    "name:300478881": "Dark Command",
+    "desc:3437420192": "Command the target to attack you.",
+    "name:3231580122": "Dark Simulacrum",
+    "desc:3446403925": "Places a dark ward on an enemy player that persists for {1} sec, triggering when the enemy next spends mana on a spell, and allowing the Death Knight to unleash an exact duplicate of that spell.",
+    "name:3487066889": "Dark Succor",
+    "desc:2284922440": "When you kill an enemy that yields experience or honor, your next Death Strike within {1} sec is free and heals for an additional {2}% of maximum health.",
+    "name:2878493632": "Dark Transformation",
+    "desc:2848571444": "Your abomination deals {1} Shadow damage to {2} nearby enemies and transforms into a powerful undead monstrosity for {3} sec. Granting them {4}% energy and the abomination's abilities are empowered and take on new functions while the transformation is active.",
+    "desc:601549037": "Dark Transformation grants your ghoul {1}% energy.",
+    "name:1733048253": "Dead of Winter",
+    "desc:3893510572": "After your Remorseless Winter deals damage {1} times to a target, they are stunned for {2} sec.\r\n\r\nRemorseless Winter's cooldown is increased by {3} sec.",
+    "name:2937955494": "Death and Decay",
+    "desc:4119092592": "Corrupts the targeted ground, causing {1} Shadow damage over {2} sec to targets within the area.\r\n\r\nWhile you remain within the area, your Necrotic Strike and Heart Strike will hit up to {3} additional targets.",
+    "name:28590923": "Death Chain",
+    "desc:1181652806": "Chains {1} enemies together, dealing {2} Shadow damage and causing {3}% of all damage taken to also be received by the others in the chain. Lasts for {4} sec.",
+    "name:1861205559": "Death Coil",
+    "desc:2100374321": "Fires a blast of unholy energy at the target, causing {1} Shadow damage to an enemy or healing an Undead ally for {2} health.",
+    "name:1654376167": "Death Gate",
+    "desc:1086364669": "Opens a gate which you can use to return to Ebon Hold.\r\n\r\nUsing a Death Gate while in Ebon Hold will return you back to near your departure point.",
+    "name:2928289956": "Death Grip",
+    "desc:2211635590": "Harnesses the energy that surrounds and binds all matter, drawing the target toward you and forcing the enemy to attack you.",
+    "name:1369217211": "Death Pact",
+    "desc:1352694023": "Create a death pact that heals you for {1}% of your maximum health, but absorbs incoming healing equal to {2}% of your max health for {3} sec.",
+    "name:3889532275": "Death Rot",
+    "desc:3800277987": "Death Coil and Epidemic debilitate your enemy applying Death Rot causing them to take {1}% increased Shadow damage, up to {2}% from you for {3} sec. If Death Coil or Epidemic consume Sudden Doom it applies two stacks of Death Rot.",
+    "name:3465767608": "Death Strike",
+    "desc:603818472": "Focuses dark power into a strike with both weapons, that deals a total of {1} Physical damage and heals you for {2}% of all damage taken in the last {3} sec, minimum {4}% of maximum health.",
+    "name:2073725636": "Death's Advance",
+    "desc:1761733370": "Death's Advance movement speed increased by {1}% and the duration is increased by {2} sec.",
+    "desc:2715605777": "For {1} sec, your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks.\r\n\r\n{FFFFFFFF|Passive:} You cannot be slowed below {4}% of normal speed.",
+    "name:785407125": "Death's Caress",
+    "desc:3013795803": "Reach out with necrotic tendrils, dealing {1} Shadow damage and applying Blood Plague to your target and generating {2} Bone Shield charges.\r\n\r\n|T237514:24|t {FFFFFFFF|Blood Plague}\r\nA shadowy disease that drains {3} health from the target over {4} sec.  ",
+    "name:3537938026": "Death's Echo",
+    "desc:3735928509": "Death's Advance, Death and Decay, and Death Grip have {1} additional charge.",
+    "name:2870204087": "Death's Reach",
+    "desc:3877836793": "Increases the range of Death Grip by {1} yds.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
+    "name:2368458786": "Deathchill",
+    "desc:3263414012": "Your Remorseless Winter and Chains of Ice apply Deathchill, rooting the target in place for {1} sec.\r\n\r\n{FFFFFFFF|Remorseless Winter} \r\nAll targets within {2} yards are afflicted with Deathchill when Remorseless Winter is cast.\r\n\r\n{FFFFFFFF|Chains of Ice}\r\nWhen you Chains of Ice a target already afflicted by your Chains of Ice they will be afflicted by Deathchill.",
+    "name:1521108292": "Decomposing Aura",
+    "desc:1486236316": "All enemies within {1} yards slowly decay, losing up to {2}% of their max health every {3} sec. Max {4} stacks. Lasts {5} sec.",
+    "name:1166585237": "Defile",
+    "desc:2783599440": "Defile the targeted ground, dealing {1} Shadow damage to all enemies over {2} sec.\r\n\r\nWhile you remain within your Defile, your Clawing Shadows will hit {3} enemies near the target and inflict Death's Due for {4} sec.\r\n\r\nDeath's Due reduces damage enemies deal to you by {5}%, up to a maximum of {6}% and their power is transferred to you as an equal amount of Strength.\r\n\r\nEvery sec, if any enemies are standing in the Defile, it grows in size and deals increased damage.",
+    "name:2398479394": "Delirium",
+    "desc:2357777999": "Howling Blast applies Delirium, reducing the cooldown recovery rate of movement enhancing abilities by {1}% for {2} sec.",
+    "name:2473897000": "Ebon Fever",
+    "desc:2648890452": "Diseases deal {1}% more damage over time in half the duration.",
+    "name:531168720": "Empower Rune Weapon",
+    "desc:2937482653": "Empower your rune weapon, gaining {1}% Haste and generating {2} [plural|Rune|Runes] and {3} Runic Power instantly and every {4} sec for {5} sec.",
+    "name:2757441229": "Enduring Chill",
+    "desc:3589886024": "Chill Streak's bounce range is increased by {1} yds and each time Chill Streak bounces it has a {2}% chance to increase the maximum number of bounces by {3}.",
+    "name:1225706092": "Enduring Strength",
+    "desc:2386276115": "When Pillar of Frost expires, your Strength is increased by {1}% for {2} sec. This effect lasts {3} sec longer for each Obliterate and Frostscythe critical strike during Pillar of Frost.",
+    "name:3048676190": "Enfeeble",
+    "desc:3097766457": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by {1}% and the damage they deal to you by {2}% for {3} sec.",
+    "name:2216367068": "Epidemic",
+    "desc:1409624143": "Causes each of your Virulent Plagues to flare up, dealing {1} Shadow damage to the infected enemy, and an additional {2} Shadow damage to all other enemies near them.",
+    "name:1691566905": "Eternal Agony",
+    "desc:3978001846": "Death Coil and Epidemic increase the duration of Dark Transformation by {1} sec.",
+    "name:1164073769": "Everfrost",
+    "desc:3261947378": "Remorseless Winter deals {1}% increased damage to enemies it hits, stacking up to {2} times.",
+    "name:2204581340": "Everlasting Bond",
+    "desc:2020786063": "Summons {1} additional copy of Dancing Rune Weapon and increases its duration by {2} sec.",
+    "name:1111141809": "Festering Strike",
+    "desc:1692495999": "Strikes for {1} Physical damage and infects the target with {2}-{3} Festering Wounds.\r\n\r\n|T1129420:24|t {FFFFFFFF|Festering Wound}\r\nA pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {4} Shadow damage and generating {5} Runic Power.",
+    "name:431244904": "Festermight",
+    "desc:249692695": "Popping a Festering Wound increases your Strength by {1}% for {2} sec stacking. Multiple instances may overlap.",
+    "name:421414926": "Foul Bulwark",
+    "desc:3185791100": "Each charge of Bone Shield increases your maximum health by {1}%.",
+    "name:3981641617": "Frigid Executioner",
+    "desc:2594327414": "Obliterate deals {1}% increased damage and has a {2}% chance to refund {3} [plural|rune|runes].",
+    "name:1446490366": "Frost Strike",
+    "desc:1017302322": "Chill your weapon with icy power and quickly strike the enemy, dealing {1} Frost damage.",
+    "name:3261194114": "Frostscythe",
+    "desc:3451850623": "A sweeping attack that strikes all enemies in front of you for {1} Frost damage. This attack always critically strikes and critical strikes with Frostscythe deal {2} times normal damage. Deals reduced damage beyond {3} targets. \r\n\r\nConsuming Killing Machine reduces the cooldown of Frostscythe by {4} sec.",
+    "name:584202584": "Frostwhelp's Aid",
+    "desc:1265238604": "Pillar of Frost summons a Frostwhelp who breathes on all enemies within {1} yards in front of you for {2} Frost damage. Each unique enemy hit by Frostwhelp's Aid grants you {3}% Mastery for {4} sec, up to {5}%.\r\n",
+    "name:2658145342": "Gathering Storm",
+    "desc:1817208295": "Each Rune spent during Remorseless Winter increases its damage by {1}%, and extends its duration by {2} sec.",
+    "name:316498626": "Ghoulish Frenzy",
+    "desc:971302898": "Dark Transformation also increases the attack speed and damage of you and your Monstrosity by {1}%.",
+    "name:2225778369": "Glacial Advance",
+    "desc:2448421511": "Summon glacial spikes from the ground that advance forward, each dealing {1} Frost damage and applying Razorice to enemies near their eruption point.",
+    "name:3014491029": "Gloom Ward",
+    "desc:529671491": "Absorbs are {1}% more effective on you. ",
+    "name:783582263": "Gorefiend's Grasp",
+    "desc:2035990986": "Shadowy tendrils coil around all enemies within {1} yards of a hostile or friendly target, pulling them to the target's location.",
+    "name:4190131628": "Heart Strike",
+    "desc:2386668297": "Instantly strike the target and {1} other nearby enemy, causing {2} Physical damage, and reducing enemies' movement speed by {3}% for {4} sec, plus {5} Runic Power per additional enemy struck.|r",
+    "name:1247233030": "Heartbreaker",
+    "desc:1016082547": "Heart Strike generates {1} additional Runic Power per target hit.",
+    "name:2191866859": "Heartrend",
+    "desc:1929727476": "Heart Strike has a chance to increase the damage of your next Death Strike by {1}%.",
+    "name:2715307519": "Hemostasis",
+    "desc:539978468": "Each enemy hit by Blood Boil increases the damage and healing done by your next Death Strike by {1}%, stacking up to {2} times.",
+    "name:1565455079": "Horn of Winter",
+    "desc:1965954825": "Blow the Horn of Winter, gaining {1} [plural|Rune|Runes] and generating {2} Runic Power.",
+    "name:3503421106": "Icebound Fortitude",
+    "desc:1424518251": "Your blood freezes, granting immunity to Stun effects and reducing all damage you take by {1}% for {2} sec.",
+    "name:1600132021": "Icebreaker",
+    "desc:583435629": "When empowered by Rime, Howling Blast deals {1}% increased damage to your primary target.",
+    "name:1431706106": "Icecap",
+    "desc:3603088532": "Reduces Pillar of Frost cooldown by {1} sec.",
+    "name:1015161552": "Icy Talons",
+    "desc:1188382207": "Your Runic Power spending abilities increase your melee attack speed by {1}% for {2} sec, stacking up to {3} times.",
+    "name:3585565748": "Improved Bone Shield",
+    "desc:2994939230": "Bone Shield increases your Haste by {1}%.",
+    "name:2282636973": "Improved Death Coil",
+    "desc:229700453": "Death Coil deals {1}% additional damage and seeks out {2} additional nearby enemy.",
+    "name:3887199022": "Improved Death Strike",
+    "desc:402956957": "Death Strike's cost is reduced by {1}, and its healing is increased by {2}%.",
+    "name:3404047786": "Improved Festering Strike",
+    "desc:48674310": "Festering Strike and Festering Wound damage increased by {1}%.",
+    "name:1867921780": "Improved Frost Strike",
+    "desc:580070822": "Increases Frost Strike damage by {1}%.",
+    "name:316595751": "Improved Heart Strike",
+    "desc:2648445563": "Heart Strike damage increased by {1}%.",
+    "name:3041590744": "Improved Obliterate",
+    "desc:2214960636": "Increases Obliterate damage by {1}%.",
+    "name:1954929927": "Improved Rime",
+    "desc:2844271601": "Increases Howling Blast damage done by an additional {1}%.",
+    "name:2133668292": "Improved Vampiric Blood",
+    "desc:3833421518": "Vampiric Blood's healing and absorb amount is increased by {1}% and duration by {2} sec.",
+    "name:3720542108": "Inexorable Assault",
+    "desc:3770765711": "Gain Inexorable Assault every {1} sec, stacking up to {2} times.\r\n\r\nObliterate consumes a stack to deal an additional {3} Frost damage.",
+    "name:2269211709": "Infected Claws",
+    "desc:72288327": "Your ghoul's Claw attack has a {1}% chance to cause a Festering Wound on the target.",
+    "name:1649138871": "Insatiable Blade",
+    "desc:2602342287": "Dancing Rune Weapon generates {1} Bone Shield charges. When a charge of Bone Shield is consumed, the cooldown of Dancing Rune Weapon is reduced by {2} sec.",
+    "name:911859799": "Insidious Chill",
+    "desc:3465155344": "Your auto-attacks reduce the target's auto-attack speed by {1}% for {2} sec, stacking up to {3} times.",
+    "name:2116281705": "Iron Heart",
+    "desc:3441992895": "Blood Shield's duration is increased by {1} sec and it absorbs {2}% more damage.",
+    "name:3423065097": "Killing Machine",
+    "desc:2306999606": "Your auto attack critical strikes have a chance to make your next Obliterate deal Frost damage and critically strike.",
+    "name:2074820279": "Last Dance",
+    "desc:912207554": "Reduces the cooldown of Dancing Rune Weapon by {1}% and its duration by {2}%.",
+    "name:3635007005": "Lichborne",
+    "desc:4228187056": "Draw upon unholy energy to become Undead for {1} sec, increasing Leech by {2}%, reducing damage taken by {3}%, and making you immune to Charm, Fear, and Sleep.",
+    "name:2520885924": "Life and Death",
+    "desc:807926949": "When targets afflicted by your Virulent Plague are healed, you are also healed for {1}% of the amount. \r\n\r\nIn addition, your Virulent Plague now erupts for {2}% of normal eruption damage when dispelled.",
+    "name:772991323": "March of Darkness",
+    "desc:1994826044": "Death's Advance grants an additional {1}% movement speed over the first {2} sec.",
+    "name:2586708014": "Mark of Blood",
+    "desc:884877257": "Places a Mark of Blood on an enemy for {1} sec. The enemy's damaging auto attacks will also heal their victim for {2}% of the victim's maximum health.",
+    "name:2365994083": "Marrowrend",
+    "desc:1676523257": "Smash the target, dealing {1} Physical damage and generating {2} charges of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {3}. Each melee attack against you consumes a charge. Lasts {4} sec or until all charges are consumed.",
+    "name:4072368391": "Mastery: Blood Shield",
+    "desc:825313855": "Each time you heal yourself with Death Strike, you gain {1}% of the amount healed as a Physical damage absorption shield.\r\n\r\nAlso increases your attack power by {2}%.",
+    "name:2338174211": "Mastery: Dreadblade",
+    "desc:702444085": "Increases the damage of your Minions and Shadow damage abilities by {1}%.",
+    "name:4086840137": "Mastery: Frozen Heart",
+    "desc:4009296584": "Increases the damage of your Frost abilities by {1}%.",
+    "name:2923704841": "Might of the Frozen Wastes",
+    "desc:1978432748": "Wielding a two-handed weapon increases Obliterate damage by {1}%, and your auto attack critical strikes always grant Killing Machine.",
+    "name:2422003974": "Mind Freeze",
+    "desc:178230569": "Smash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for {1} sec.",
+    "name:3549224845": "Morbidity",
+    "desc:1775348036": "Diseased enemies take {1}% increased damage from you per disease they are affected by.",
+    "name:803837630": "Murderous Efficiency",
+    "desc:2703727678": "Consuming the Killing Machine effect has a {1}% chance to grant you {2} Rune.",
+    "name:274646443": "Murderous Intent",
+    "desc:3067495618": "You focus the assault on this target, increasing their damage taken by {1}% for {2} min. Each unique player that attacks the target increases the damage taken by an additional {3}%, stacking up to {4} times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault.",
+    "name:3168592751": "Necromancer's Bargain",
+    "desc:1026329085": "The cooldown of your Apocalypse is reduced by {1} sec, but your Apocalypse no longer summons ghouls but instead applies Crypt Fever to the target.\r\n\r\n{FFFFFFFF|Crypt Fever}\r\nDeals up to {2}% of the targets maximum health in Shadow damage over {3} sec. Healing spells cast on this target will refresh the duration of Crypt Fever.",
+    "name:2048677991": "Necrotic Wounds",
+    "desc:1792205803": "Bursting a Festering Wound converts it into a Necrotic Wound, absorbing {1}% of all healing received for {2} sec.\r\n\r\nMax {3} stacks. Adding a stack does not refresh the duration.",
+    "name:2620159330": "Obliterate",
+    "desc:3650979722": "A brutal attack that deals {1} Physical damage.",
+    "name:899195388": "Obliteration",
+    "desc:3033478846": "While Pillar of Frost is active, Frost Strike and Howling Blast always grant Killing Machine and have a {1}% chance to generate a Rune.",
+    "name:931333709": "On a Pale Horse",
+    "desc:2781615135": "You are as hard to stop as death itself, increasing your mounted speed by {1}%.",
+    "name:1622573197": "Ossuary",
+    "desc:2086721497": "While you have at least {1} Bone Shield charges, the cost of Death Strike is reduced by {2} Runic Power.\r\n\r\nAdditionally, your maximum Runic Power is increased by {3}.",
+    "name:1156758793": "Outbreak",
+    "desc:2995734025": "Deals {1} Shadow damage to the target and infects all nearby enemies with Virulent Plague.\r\n\r\n|T132099:24|t {FFFFFFFF|Virulent Plague}\r\nA disease that deals {2} Shadow damage over {3} sec. It erupts when the infected target dies, dealing {4} Shadow damage to nearby enemies.",
+    "name:1946596518": "Path of Frost",
+    "desc:3948842486": "Activates a freezing aura for {1} min that creates ice beneath your feet, allowing party or raid members within {2} yards to walk on water.\r\n\r\nUsable while mounted, but being attacked or damaged will cancel the effect.",
+    "name:876659881": "Permafrost",
+    "desc:647963378": "Your auto attack damage grants you an absorb shield equal to {1}% of the damage dealt.",
+    "name:2017787480": "Perseverance of the Ebon Blade",
+    "desc:1078473076": "When Crimson Scourge is consumed, you gain {1}% Versatility for {2} sec.",
+    "name:1398160041": "Pestilence",
+    "desc:3588845411": "Death and Decay damage has a {1}% chance to apply a Festering Wound to the enemy.",
+    "name:1402070957": "Piercing Chill",
+    "desc:1527743280": "Enemies suffer {1}% increased damage from Chill Streak each time they are struck by it.",
+    "name:998200185": "Pillar of Frost",
+    "desc:1191072886": "The power of frost increases your Strength by {1}% for {2} sec.",
+    "name:3453547906": "Plaguebringer",
+    "desc:1998774080": "Scourge Strike causes your disease damage to occur {1}% more quickly for {2} sec.\r\n",
+    "name:3968863048": "Proliferating Chill",
+    "desc:1337631918": "Chains of Ice affects {1} additional nearby enemy.",
+    "name:1021986338": "Purgatory",
+    "desc:296673069": "An unholy pact that prevents fatal damage, instead absorbing incoming healing equal to the damage prevented, lasting {1} sec.\r\n\r\nIf any healing absorption remains when this effect expires, you will die. This effect may only occur every {2} min.",
+    "name:2589358021": "Rage of the Frozen Champion",
+    "desc:2891974362": "Obliterate has a {1}% increased chance to trigger Rime and Howling Blast generates {2} Runic Power while Rime is active.",
+    "name:2050705916": "Raise Abomination",
+    "desc:3021552960": "Raises an Abomination for {1} sec which wanders and attacks enemies, applying Festering Wound when it melees targets, and affecting all those nearby with Virulent Plague.",
+    "name:687350079": "Raise Ally",
+    "desc:914363486": "Pours dark energy into a dead target, reuniting spirit and body to allow the target to reenter battle with {1}% health and at least {2}% mana.",
+    "name:698927453": "Raise Dead",
+    "desc:3267438957": "Raises an abomination to fight by your side. You can have a maximum of one abomination at a time.",
+    "desc:435501550": "Raises a geist to fight by your side.  You can have a maximum of one geist at a time. Lasts {1} min.",
+    "name:1739515530": "Rapid Decomposition",
+    "desc:3438244807": "Your Blood Plague and Death and Decay deal damage {1}% more often.\r\n\r\nAdditionally, your Blood Plague leeches {2}% more Health.",
+    "name:365229349": "Reanimation",
+    "desc:3871765739": "Reanimates a nearby corpse, summoning a zombie for {1} sec that slowly moves towards your target. \r\n\r\nIf your zombie reaches its target, it explodes after {2} sec. The explosion stuns all enemies within {3} yards for {4} sec and deals {5}% of their health in Shadow damage.",
+    "name:973390478": "Reaping",
+    "desc:3718307804": "Your Soul Reaper, Scourge Strike, Festering Strike, and Death Coil deal {1}% additional damage to enemies below {2}% health.",
+    "name:3018992757": "Red Thirst",
+    "desc:2297401991": "Reduces the cooldown on Vampiric Blood by {1} sec per {2} Runic Power spent.",
+    "name:2650611628": "Reinforced Bones",
+    "desc:4123832352": "Increases Armor gained from Bone Shield by {1}% and it can stack {2} additional times.",
+    "name:2733562535": "Relish in Blood",
+    "desc:3910422987": "While Crimson Scourge is active, your next Death and Decay heals you for {1} health per Bone Shield charge and you immediately gain {2} Runic Power.",
+    "name:3812762607": "Remorseless Winter",
+    "desc:3065015646": "Drain the warmth of life from all nearby enemies within {1} yards, dealing {2} Frost damage over {3} sec and reducing their movement speed by {4}%.",
+    "name:3859277929": "Rime",
+    "desc:4039215261": "Obliterate has a {1}% chance to cause your next Howling Blast to consume no runes and deal {2}% additional damage.",
+    "name:1395791574": "Rot and Wither",
+    "desc:903937221": "Your Death and Decay rots enemies each time it deals damage, absorbing healing equal to {1}% of damage dealt.",
+    "name:4122852761": "Rotten Touch",
+    "desc:1993636731": "Sudden Doom causes your next Death Coil to also increase your Scourge Strike damage against the target by {1}% for {2} sec.",
+    "name:641308127": "Rune Mastery",
+    "desc:1804408657": "Consuming a Rune has a chance to increase your Strength by {1}% for {2} sec.",
+    "name:3210721316": "Rune Tap",
+    "desc:849158533": "Reduces all damage taken by {1}% for {2} sec.",
+    "name:3617769545": "Runic Attenuation",
+    "desc:3609354934": "Auto attacks have a chance to generate {1} Runic Power.",
+    "name:2611389514": "Runic Command",
+    "desc:3534205572": "Increases your maximum Runic Power by {1}.",
+    "name:3623748231": "Runic Corruption",
+    "desc:1876051784": "Each Runic Power you spend has a {1}% chance to increase your Rune regeneration rate by {2}% for {3} sec.",
+    "name:985159663": "Runic Empowerment",
+    "desc:4080020928": "Each Runic Power you spend has a {1}% chance to instantly grant you a Rune.",
+    "name:523096678": "Runic Mastery",
+    "desc:3345527065": "Increases your maximum Runic Power by {1} and increases the Rune regeneration rate of Runic Corruption by {2}%.",
+    "name:2726878069": "Ruptured Viscera",
+    "desc:3468323576": "When your ghouls expire, they explode in viscera dealing {1} Shadow damage to nearby enemies. Each explosion has a {2}% chance to apply Festering Wounds to enemies hit.",
+    "name:2665004787": "Sacrificial Pact",
+    "desc:954273727": "Sacrifice your ghoul to deal {1} Shadow damage to all nearby enemies and heal for {2}% of your maximum health. Deals reduced damage beyond {3} targets.",
+    "name:964100494": "Sanguine Ground",
+    "desc:4132171107": "You deal {1}% more damage and receive {2}% more healing while standing in your Death and Decay.",
+    "name:496871559": "Shattering Blade",
+    "desc:1021436140": "When Frost Strike damages an enemy with {1} stacks of Razorice it will consume them to deal an additional {2}% damage.",
+    "name:29427476": "Shroud of Winter",
+    "desc:3412002103": "Enemies within {1} yards of you become shrouded in winter, reducing the range of their spells and abilities by {2}%.",
+    "name:2110997099": "Soul Reaper",
+    "desc:2331745449": "Strike an enemy for {1} Shadowfrost damage and afflict the enemy with Soul Reaper. \r\n\r\nAfter {2} sec, if the target is below {3}% health this effect will explode dealing an additional {4} Shadowfrost damage to the target. If the enemy that yields experience or honor dies while afflicted by Soul Reaper, gain Runic Corruption.",
+    "name:329893439": "Spellwarden",
+    "desc:161648102": "Anti-Magic Shell is now usable on allies and its cooldown is reduced by {1} sec.",
+    "name:1678342535": "Strangulate",
+    "desc:3910796183": "Shadowy tendrils constrict an enemy's throat, silencing them for {1} sec.",
+    "name:3365029302": "Summon Gargoyle",
+    "desc:4275391826": "Summon a Gargoyle into the area to bombard the target for {1} sec.\r\n\r\nThe Gargoyle gains {2}% increased damage for every {3} Runic Power you spend.\r\n\r\n{FFFFFFFF|Generates {4} Runic Power.}",
+    "name:2153602363": "Superstrain",
+    "desc:3842399052": "Your Virulent Plague also applies Frost Fever and Blood Plague at {1}% effectiveness.",
+    "name:4055920792": "Suppression",
+    "desc:3266555141": "Damage taken from area of effect attacks reduced by {1}%. When suffering a loss of control effect, this bonus is increased by an additional {2}% for {3} sec.",
+    "name:2195243893": "Tightening Grasp",
+    "desc:2649146543": "Gorefiend's Grasp cooldown is reduced by {1} sec and it now also Silences enemies for {2} sec.",
+    "name:4199484656": "Tombstone",
+    "desc:1950310239": "Consume up to {1} Bone Shield charges. For each charge consumed, you gain {2} Runic Power and absorb damage equal to {3}% of your maximum health for {4} sec.",
+    "name:155142949": "Umbilicus Eternus",
+    "desc:2036529773": "After Vampiric Blood expires, you absorb damage equal to {1} times the damage your Blood Plague dealt during Vampiric Blood.",
+    "name:2645702466": "Unholy Assault",
+    "desc:2062522970": "Strike your target dealing {1} Shadow damage, infecting the target with {2} Festering Wounds and sending you into an Unholy Frenzy increasing all damage done by {3}% for {4} sec.",
+    "name:1514510201": "Unholy Aura",
+    "desc:2819105796": "All enemies within {1} yards take {2}% increased damage from your minions.",
+    "name:3075622054": "Unholy Blight",
+    "desc:33845499": "Dark Transformation surrounds your ghoul with a vile swarm of insects for {1} sec, stinging all nearby enemies and infecting them with Virulent Plague and an unholy disease that deals {2} damage over {3} sec, stacking up to {4} times.",
+    "name:1809967160": "Unholy Bond",
+    "desc:462606640": "Increases the effectiveness of your Runeforge effects by {1}%.",
+    "name:3667094884": "Unholy Endurance",
+    "desc:454960526": "Increases Lichborne duration by {1} sec and while active damage taken is reduced by {2}%.",
+    "name:1399344560": "Unholy Ground",
+    "desc:1001490695": "Gain {1}% Haste while you remain within your Death and Decay.",
+    "name:3816069784": "Runeforging",
+    "desc:698205483": "Allows the Death Knight to emblazon their weapon with runes.",
+    "name:2248089479": "Unholy Pact",
+    "desc:3967506870": "Dark Transformation creates an unholy pact between you and your pet, igniting flaming chains that deal {1} Shadow damage over {2} sec to enemies between you and your pet.",
+    "name:31405638": "Unleashed Frenzy",
+    "desc:2481923900": "Damaging an enemy with a Runic Power ability increases your Strength by {1}% for {2} sec, stacks up to {3} times.",
+    "name:3100689117": "Vampiric Blood",
+    "desc:1927548881": "Embrace your undeath, increasing your maximum health by {1}% and increasing all healing and absorbs received by {2}% for {3} sec.",
+    "name:1664247772": "Vile Contagion",
+    "desc:3546834751": "Inflict disease upon your enemies spreading Festering Wounds equal to the amount currently active on your target to {1} nearby enemies.",
+    "name:3862231414": "Voracious",
+    "desc:1395758934": "Death Strike's healing is increased by {1}% and grants you {2}% Leech for {3} sec.",
+    "name:2998616856": "Walking Dead",
+    "desc:371815973": "Your Death Grip causes the target to be unable to move faster than normal movement speed for {1} sec.",
+    "name:3843393438": "Wraith Walk",
+    "desc:1244359277": "Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by {1}% for {2} sec. Taking any action cancels the effect.\r\n\r\nWhile active, your movement speed cannot be reduced below {3}%.",
+    "name:2668547357": "Veteran of the Third War",
+    "name:891032548": "Bloodforged Armor",
+    "desc:11577228": "Death Strike reduces all Physical damage taken by {1}% for {2} sec.",
+    "name:1454895454": "Frost Fever",
+    "desc:555584162": "Grants the Death Knight {1} runic power.",
+    "name:106082565": "Parry",
+    "desc:1505216917": "Gives a chance to parry enemy melee attacks.",
+    "name:272301149": "Corpse Exploder",
+    "desc:1615131196": "Cause a target corpse to explode in a shower of gore. Does not affect mechanical or elemental corpses.",
+    "name:3244829509": "Riposte",
+    "desc:1545937471": "You gain Parry equal to {1}% of your Critical Strike from gear.",
+    "name:2017235292": "Frost Breath",
+    "name:3461688229": "Festering Wound",
+    "desc:144989652": "Festering Strike applies a pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing {1} Shadow damage and generating {2} Runic Power.\r\n\r\nStacks up to {3} times on any target.",
+    "name:2106866195": "Rune Strike",
+    "desc:2875967319": "Strike the target for {1} Physical damage. This attack cannot be dodged, blocked, or parried.",
+    "name:3858822103": "Frostreaper",
+    "desc:616898501": "Killing Machine also causes your next Obliterate to deal Frost damage.",
+    "name:698768415": "Arctic Assault",
+    "desc:4219272896": "Consuming Killing Machine fires a Glacial Advance through your target at {1}% effectiveness.",
+    "name:1284580039": "Newly Turned",
+    "desc:3166189052": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to {1}% of your maximum health.",
+    "name:3781393702": "Mograine's Might",
+    "desc:3307965993": "Your damage is increased by {1}% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay.",
+    "name:3320296510": "Fury of the Horsemen",
+    "desc:880669077": "Every {1} Runic Power you spend extends the duration of the Horsemen's aid in combat by {2} sec, up to {3} sec.",
+    "name:4117144870": "Festering Scythe",
+    "desc:2554615248": "Every {1} Festering Wound you burst empowers your next Festering Strike to become Festering Scythe for {2} sec.\r\n\r\n|T3997563:24|t{ffffffff|Festering Scythe}\r\nSweep through all enemies within {3} yds in front of you, dealing {4} Shadow damage and infecting them with {5}-{6} Festering Wounds.",
+    "name:3758317655": "Pact of the San'layn",
+    "desc:2841707543": "You store {1}% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
+    "name:683895987": "Exterminate",
+    "desc:182201210": "After Reaper's Mark explodes, your next {1} [plural|Marrowrend|Marrowrends] cost {2} [plural|Rune|Runes] and summon {3} [plural|scythe|scythes] to strike your enemies.\r\n\r\nThe first scythe strikes your target for {4} Shadowfrost damage and has a {5}% chance to apply Reaper's Mark, the second scythe strikes all enemies around your target for {6} Shadowfrost damage. Deals reduced damage beyond {7} targets.",
+    "name:3499738642": "Val'kyr",
+    "desc:1463549374": "Your Summon Gargoyle spell summons a Val'kyr instead of a Gargoyle.",
+    "name:3438098560": "Wave of Souls",
+    "desc:2313476359": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing {1} Shadowfrost damage both ways to all enemies caught in its path.\r\n\r\nWave of Souls critical strikes cause enemies to take {2}% increased Shadowfrost damage for {3} sec, stacking up to {4} times, and it is always a critical strike on its way back.",
+    "name:1263830048": "Menacing Magus",
+    "desc:2366987512": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to {1} nearby enemies.",
+    "name:3546726230": "Glyph of Abomination Limb",
+    "desc:488576893": "Abomination Limb now resembles the Necrolord Covenant Ability.",
+    "name:2606206949": "On a Paler Horse",
+    "desc:2617166537": "While outdoors you are able to mount your Acherus Deathcharger in combat.",
+    "name:4189761584": "Veteran of the Fourth War",
+    "name:1339676078": "Subduing Grasp",
+    "desc:15600176": "When you pull an enemy, the damage they deal to you is reduced by {1}% for {2} sec.",
+    "name:2341810661": "Osmosis",
+    "desc:1994517488": "Anti-Magic Shell increases healing received by {1}%.",
+    "name:2938762734": "Ossified Vitriol",
+    "desc:912581041": "When you lose a Bone Shield charge the damage of your next Marrowrend is increased by {1}%, stacking up to {2}%.",
+    "name:2680238848": "The Blood is Life",
+    "desc:3264671497": "Vampiric Strike has a chance to summon a Blood Beast to attack your enemy for {1} sec.\r\n\r\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing {2}% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond {3} targets.",
+    "name:3114965385": "Incite Terror",
+    "desc:1680551189": "Vampiric Strike and Scourge Strike cause your targets to take {1}% increased Shadow damage, up to {2}% for {3} sec.\r\n\r\nVampiric Strike benefits from Incite Terror at {4}% effectiveness.",
+    "name:2973466970": "Decomposition",
+    "desc:1152575024": "Virulent Plague has a chance to abruptly flare up, dealing {1}% of the damage it dealt to target in the last {2} sec.\r\n\r\nWhen this effect triggers, the duration of your active minions are increased by {3} sec, up to {4} sec.",
+    "name:1846897968": "Glyph of the Chilled Shell",
+    "desc:1541772342": "Your Anti-Magic Shell shifts to match more of a Frost affinity. ",
+    "name:2404262280": "Blood-Soaked Ground",
+    "desc:3292027531": "While you are within your Death and Decay, your physical damage taken is reduced by {1}% and your chance to gain Vampiric Strike is increased by {2}%.",
+    "name:2747256975": "Mawsworn Menace",
+    "desc:3007602372": "Scourge Strike deals {1}% increased damage and the cooldown of your Death and Decay is reduced by {2} sec.",
+    "name:3802520785": "Death Charge",
+    "desc:3705326954": "Call upon your Death Charger to break free of movement impairment effects.\r\n\r\nFor {1} sec, while upon your Death Charger your movement speed is increased by {2}%, you cannot be slowed below {3}% of normal speed, and you are immune to forced movement effects and knockbacks.",
+    "name:2118576438": "Rider's Champion",
+    "desc:1740804134": "Spending Runes has a chance to call forth the aid of a Horsemen for {1} sec.\r\n\r\n{FFFFFFFF|Mograine}\r\nCasts Death and Decay at his location that follows his position.\r\n\r\n{FFFFFFFF|Whitemane}\r\nCasts Undeath on your target dealing {2} Shadowfrost damage per stack every {3} sec, for {4} sec. Each time Undeath deals damage it gains a stack. Cannot be Refreshed.\r\n\r\n{FFFFFFFF|Trollbane}\r\nCasts Chains of Ice on your target slowing their movement speed by {5}% and increasing the damage they take from you by {6}% for {7} sec.\r\n\r\n{FFFFFFFF|Nazgrim}\r\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by {8}%.\r\n",
+    "name:3171886474": "Expelling Shield",
+    "desc:278959988": "When an enemy deals direct damage to your Anti-Magic Shell, their cast speed is reduced by {1}% for {2} sec.",
+    "name:720890502": "Bloody Fortitude",
+    "desc:43102455": "Icebound Fortitude reduces all damage you take by up to an additional {1}% based on your missing health.\r\n\r\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by {2} sec.",
+    "name:1393582888": "Glyph of the Crimson Shell",
+    "desc:2397063888": "Your Anti-Magic Shell shifts to match more of a Blood affinity. ",
+    "name:813043238": "Glyph of the Geist",
+    "desc:4206536262": "Your Raise Dead spell summons a geist instead of a ghoul.",
+    "name:218328044": "Pact of the Deathbringer",
+    "desc:3932458747": "When you suffer a damaging effect equal to {1}% of your maximum health, you instantly cast Death Pact at {2}% effectiveness. May only occur every {3} min.\r\n\r\nWhen a Reaper's Mark explodes, the cooldowns of this effect and Death Pact are reduced by {4} sec.",
+    "name:173824568": "Null Magic",
+    "desc:58707688": "Magic damage taken is reduced by {1}% and the duration of harmful Magic effects against you are reduced by {2}%.",
+    "name:2833730385": "Wither Away",
+    "desc:1575090700": "Blood Plague deals its damage {1}% faster, and the second scythe of Exterminate applies Blood Plague.",
+    "name:3026734178": "Horsemen's Aid",
+    "desc:166031562": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at {1}% effectiveness.\r\n\r\nYou may only benefit from this effect every {2} sec.",
+    "name:202817240": "Dark Talons",
+    "desc:3080446216": "Marrowrend and Heart Strike have a {1}% chance to grant {2} stacks of Icy Talons and increase its maximum stacks by the same amount for {3} sec.\r\n\r\nRunic Power spending abilities count as Shadowfrost while Icy Talons is active.",
+    "name:2512231171": "Reaper's Mark",
+    "desc:2468714596": "Viciously slice into the soul of your enemy, dealing {1} Shadowfrost damage and applying Reaper's Mark.\r\n\r\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After {2} sec or reaching {3} stacks, the mark explodes, dealing {4} damage per stack.\r\n\r\nReaper's Mark travels to an unmarked enemy nearby if the target dies, or explodes below {5}% health when there are no enemies to travel to. This explosion cannot occur again on a target for {6} min.",
+    "name:1059906077": "Nazgrim's Conquest",
+    "desc:2279471855": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by {1}%.\r\n\r\nAdditionally, each Rune you spend increase its value by {2}%.",
+    "name:1191419599": "Glyph of Cracked Ice",
+    "desc:1111257850": "Your Path of Frost ability now looks a little cracked, just a little.",
+    "name:1060631195": "The Long Winter",
+    "desc:165947738": "While Pillar of Frost is active your auto-attack critical strikes increase its duration by {1} sec, up to a maximum of {2} sec.",
+    "name:4162985911": "Hungering Thirst",
+    "desc:1029707411": "The damage of your diseases and Death Coil are increased by {1}%.",
+    "name:1020800851": "Icy Death Torrent",
+    "desc:4178556418": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing {1} Frost damage to enemies in front of you.",
+    "name:2295065133": "Rune Carved Plates",
+    "desc:1195688809": "Each Rune spent reduces the magic damage you take by {1}% and each Rune generated reduces the physical damage you take by {2}% for {3} sec, up to {4} times.",
+    "name:745545677": "Carnage",
+    "desc:4184932403": "Blooddrinker and Consumption now contribute to your Mastery: Blood Shield.\r\n\r\nEach time an enemy strikes your Blood Shield, the cooldowns of Blooddrinker and Consumption have a chance to be reset.",
+    "name:2482163473": "Runic Protection",
+    "desc:1939771005": "Your chance to be critically struck is reduced by {1}% and your Armor is increased by {2}%.",
+    "name:1048535427": "Ice Prison",
+    "desc:831021349": "Chains of Ice now also roots enemies for {1} sec but its cooldown is increased to {2} sec.",
+    "name:2764550134": "Smothering Offense",
+    "desc:3087785639": "Your auto attack damage is increased by {1}%. \r\n\r\nThis amount is increased for each stack of Icy Talons you have and it can stack up to {2} additional times.",
+    "name:3023986608": "Glyph of Foul Menagerie",
+    "desc:1421020086": "Causes your Army of the Dead spell to summon an assortment of undead minions.",
+    "name:683613430": "Vampiric Strike",
+    "desc:1095068174": "Your Death Coil, Epidemic and Death Strike have a {1}% chance to make your next Scourge Strike become Vampiric Strike.\r\n\r\nVampiric Strike heals you for {2}% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by {3}%, up to {4}% for {5} sec.",
+    "name:2149359617": "Bone Collector",
+    "desc:477015556": "When you would pull an enemy generate {1} charge of Bone Shield.\r\n\r\n|T458717:24|t {FFFFFFFF|Bone Shield}\r\nSurrounds you with a barrier of whirling bones, increasing Armor by {2}. Each melee attack against you consumes a charge. Lasts {3} sec or until all charges are consumed.",
+    "name:2183031783": "Vampiric Speed",
+    "desc:2625703228": "Death's Advance and Wraith Walk movement speed bonuses are increased by {1}%.\r\n\r\nActivating Death's Advance or Wraith Walk increases {2} nearby allies movement speed by {3}% for {4} sec.",
+    "name:2055479178": "Glyph of the Skeleton",
+    "desc:619931218": "Your Raise Dead spell summons a skeleton instead of a ghoul.",
+    "name:2652059978": "Bloodied Blade",
+    "desc:1159003751": "Parrying an attack grants you a charge of Bloodied Blade, increasing your Strength by {1}%, up to {2}% for {3} sec.\r\n\r\nAt {4} stacks, your next parry consumes all charges to unleash a Heart Strike at {5}% effectiveness, and increases your Strength by {6}% for {7} sec.",
+    "name:1904759513": "Apocalypse Now",
+    "desc:584068661": "Army of the Dead and Frostwyrm's Fury call upon all {1} Horsemen to aid you for {2} sec.",
+    "name:878742891": "Bind in Darkness",
+    "desc:526689714": "Blood Boil deals {1}% increased damage, and is now Shadowfrost.\r\n\r\nShadowfrost damage applies {2} stacks to Reaper's Mark and {3} stacks when it is a critical strike.",
+    "name:4063859068": "Pact of the Apocalypse",
+    "desc:4174703254": "When you take damage, {1}% of the damage is redirected to each active horsemen.",
+    "name:2973962748": "Unyielding Will",
+    "desc:2286474236": "Anti-Magic shell now removes all harmful magical effects when activated, but it's cooldown is increased by {1}  sec.",
+    "name:2369319569": "Frenzied Bloodthirst",
+    "desc:2099369702": "Essence of the Blood Queen stacks {1} additional times and increases the damage of your Death Coil and Death Strike by {2}% per stack.",
+    "name:1696323005": "Grim Reaper",
+    "desc:1669899842": "Reaper's Mark initial strike grants {1} charges of Bone Shield.\r\n\r\nReaper's Mark explosion deals up to {2}% increased damage based on your target's missing health.",
+    "name:1094680389": "Cryogenic Chamber",
+    "desc:4199464301": "Each time Frost Fever deals damage, {1}% of the damage dealt is gathered into the next cast of Remorseless Winter, up to {2} times.",
+    "name:1901270162": "Whitemane's Famine",
+    "desc:4250484147": "When Scourge Strike damages an enemy affected by Undeath it gains {1} [plural|stack|stacks] and infects another nearby enemy.",
+    "name:526761394": "Visceral Strength",
+    "desc:1184887194": "When Sudden Doom is consumed, you gain {1}% Strength for {2} sec.",
+    "name:3032332184": "Foul Infections",
+    "desc:2019845556": "Your diseases deal {1}% more damage and have a {2}% increased chance to critically strike.",
+    "name:1376311658": "Gift of the San'layn",
+    "desc:2670869538": "While Dancing Rune Weapon is active you gain Gift of the San'layn.\r\n\r\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by {1}%, and Vampiric Strike replaces your Heart Strike for the duration.",
+    "name:1620426634": "Infliction of Sorrow",
+    "desc:4288433556": "When Vampiric Strike damages an enemy affected by your Virulent Plague, it extends the duration of the disease by {1} sec, and deals {2}% of the remaining damage to the enemy. \r\n\r\nAfter Gift of the San'layn ends, your next Scourge Strike consumes the disease to deal {3}% of their remaining damage to the target.",
+    "name:2297691042": "Sanguine Scent",
+    "desc:2877727231": "Your Death Coil and Death Strike have a {1}% increased chance to trigger Vampiric Strike when damaging enemies below {2}% health.",
+    "name:2756435628": "A Feast of Souls",
+    "desc:647382523": "While you have {1} or more Horsemen aiding you, your Runic Power spending abilities deal {2}% increased damage.",
+    "name:2934629734": "Vampiric Aura",
+    "desc:1464368467": "Your Leech is increased by {1}%.\r\n\r\nWhile Lichborne is active, the Leech bonus of this effect is increased by {2}%, and it affects {3} allies within {4} yds. ",
+    "name:1774814077": "Doomed Bidding",
+    "desc:2748329884": "Consuming Sudden Doom calls upon a Magus of the Dead to assist you for {1} sec.\r\n\r\n",
+    "name:2193084063": "Vestigial Shell",
+    "desc:2225502205": "Casting Anti-Magic Shell grants {1} nearby allies a Lesser Anti-Magic Shell that Absorbs up to {2} magic damage and reduces the duration of harmful Magic effects against them by {3}%. ",
+    "name:4097240127": "Soul Rupture",
+    "desc:616223679": "When Reaper's Mark explodes, it deals {1}% of the damage dealt to nearby enemies and causes them to deal {2}% reduced Physical damage to you for {3} sec.",
+    "name:1813184189": "Death's Messenger",
+    "desc:2733699650": "Reduces the cooldowns of Lichborne and Raise Dead by {1} sec.",
+    "name:2420306836": "Trollbane's Icy Fury",
+    "desc:3345046031": "Scourge Strike shatters Trollbane's Chains of Ice when hit, dealing {1} Shadowfrost damage to nearby enemies, and slowing them by {2}% for {3} sec. Deals reduced damage beyond {4} targets.",
+    "name:3480937605": "Hyperpyrexia",
+    "desc:4235819107": "Your Runic Power spending abilities have a chance to additionally deal {1}% of the damage dealt over {2} sec.",
+    "name:174080625": "Shattered Frost",
+    "desc:3112196249": "When Frost Strike consumes {1} Razorice stacks, it deals {2}% of the damage dealt to nearby enemies. Deals reduced damage beyond {3} targets.",
+    "name:3769345001": "Blinding Sleet",
+    "desc:1306248212": "Targets in a cone in front of you are blinded, causing them to wander disoriented for {1} sec. Damage may cancel the effect.\r\n\r\nWhen Blinding Sleet ends, enemies are slowed by {2}% for {3} sec.",
+    "name:4241181290": "Commander of the Dead",
+    "desc:800864276": "Dark Transformation also empowers your Gargoyle and Army of the Dead for {1} sec, increasing their damage by {2}%.",
+    "name:2021844470": "Control Undead",
+    "desc:1372060182": "Dominates the target undead creature up to level {1}, forcing it to do your bidding for {2} min.",
+    "name:1343949452": "Doomburst",
+    "desc:930852904": "Sudden Doom also causes your next Death Coil to burst up to {1} Festering Wounds and reduce the target's movement speed by {2}% per burst. Lasts {3} sec.",
+    "name:1471416198": "Frostwyrm's Fury",
+    "desc:2014475674": "Summons a frostwyrm who breathes on all enemies within {1} yd in front of you, dealing {2} Frost damage and slowing movement speed by {3}% for {4} sec.",
+    "name:3269477543": "Grip of the Dead",
+    "desc:2882184001": "Death and Decay reduces the movement speed of enemies within its area by {1}%, decaying by {2}% every sec.",
+    "name:2351520019": "Harbinger of Doom",
+    "desc:1427478": "Sudden Doom triggers {1}% more often, can accumulate up to {2} charges, and increases the damage of your next Death Coil by {3}% or Epidemic by {4}%.",
+    "name:4103907525": "Howling Blast",
+    "desc:1608355136": "Blast the target with a frigid wind, dealing {1} Frost damage to that foe, and reduced damage to all other enemies within {2} yards, infecting all targets with Frost Fever.\r\n\r\n|T237522:24|t {FFFFFFFF|Frost Fever}\r\nA disease that deals {3} Frost damage over {4} sec and has a chance to grant the Death Knight {5} Runic Power each time it deals damage.",
+    "name:2020374856": "Leeching Strike",
+    "desc:2693535172": "Heart Strike heals you for {1}% health for each enemy hit while affected by Blood Plague.",
+    "name:2193576184": "Magus of the Dead",
+    "desc:1219687168": "Apocalypse and Army of the Dead also summon a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes.",
+    "name:4115751982": "Scourge Strike",
+    "desc:2984266516": "An unholy strike that deals {1} Physical damage and {2} Shadow damage, and causes {3} Festering Wound to burst.",
+    "name:3945464263": "Shattering Bone",
+    "desc:3224941875": "When Bone Shield is consumed it shatters dealing {1} Shadow damage to nearby enemies. This damage is tripled while you are within your Death and Decay.",
+    "name:2513583237": "Sudden Doom",
+    "desc:3239503674": "Your auto attacks have a {1}% chance to make your next Death Coil cost {2} less Runic Power and critically strike. \r\n\r\nAdditionally, your next Death Coil will burst {3} Festering Wound.",
+    "name:1587739468": "Will of the Necropolis",
+    "desc:1094542641": "Damage taken below {1}% Health is reduced by {2}%.",
+    "name:3656392252": "Reaper's Onslaught",
+    "desc:3224152903": "Reduces the cooldown of Reaper's Mark by {1} sec, but the amount of Marrowrends empowered by Exterminate is reduced by {2}.",
+    "name:10722155": "Reaper of Souls",
+    "desc:3040425762": "When you apply Reaper's Mark, the cooldown of Soul Reaper is reset, your next Soul Reaper costs no runes, and it explodes on the target regardless of their health.\r\n\r\nSoul Reaper damage is increased by {1}%.",
+    "name:3342381596": "Swift and Painful",
+    "desc:2022918598": "If no enemies are struck by Soul Rupture, you gain {1}% Strength for {2} sec.\r\n\r\nWave of Souls is {3}% more effective on the main target of your Reaper's Mark."
 }

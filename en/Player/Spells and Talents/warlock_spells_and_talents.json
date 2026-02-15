@@ -1,1818 +1,570 @@
 {
-    "3535169535": {
-        "Name": "Absolute Corruption",
-        "Descriptions": {
-            "2942048533": "Corruption is now permanent and deals {1}% increased damage.\r\n\r\nDuration reduced to {2} sec against players.",
-            "1047323590": "Wither is now permanent and deals {1}% increased damage.\r\n\r\nDuration reduced to {2} sec against players."
-        }
-    },
-    "170137719": {
-        "Name": "Abyss Walker",
-        "Descriptions": {
-            "4101551753": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by {1}% for {2} sec."
-        }
-    },
-    "1037012442": {
-        "Name": "Accrued Vitality",
-        "Descriptions": {
-            "950143210": "Drain Life heals for {1}% of the amount drained over {2} sec."
-        }
-    },
-    "3821274076": {
-        "Name": "Agony",
-        "Descriptions": {
-            "2961414238": "Inflicts increasing agony on the target, causing up to {1} Shadow damage over {2} sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.\r\n\r\n{FFFFFFFF|Agony damage sometimes generates {3} Soul Shard.}",
-            "1863122312": "Agony may now ramp up to {1} stacks."
-        }
-    },
-    "35197342": {
-        "Name": "Amplify Curse",
-        "Descriptions": {
-            "1683384832": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\r\n\r\n{ffffffff|Curse of Exhaustion}\r\nReduces the target's movement speed by an additional {2}%.\r\n\r\n{ffffffff|Curse of Tongues}\r\nIncreases casting time by an additional {3}%.\r\n\r\n{ffffffff|Curse of Weakness}\r\nEnemy is unable to critically strike."
-        }
-    },
-    "2627564480": {
-        "Name": "Annihilan Training",
-        "Descriptions": {
-            "812418970": "Your Felguard deals {1}% more damage and takes {2}% less damage."
-        }
-    },
-    "2766631187": {
-        "Name": "Antoran Armaments",
-        "Descriptions": {
-            "1708363367": "Your Felguard deals {1}% additional damage. Soul Strike now deals {2}% of its damage to nearby enemies."
-        }
-    },
-    "2470680516": {
-        "Name": "Ashen Remains",
-        "Descriptions": {
-            "1947994942": "Chaos Bolt, Shadowburn, and Incinerate deal {1}% increased damage to targets afflicted by Immolate.",
-            "1880717998": "Chaos Bolt, Shadowburn, and Incinerate deal {1}% increased damage to targets afflicted by Wither."
-        }
-    },
-    "85296494": {
-        "Name": "Avatar of Destruction",
-        "Descriptions": {
-            "592431654": "Consuming Ritual of Ruin summons an Overfiend for {1} sec.\r\n\r\n|T135793:24|t {ffffffff|Summon Overfiend}\r\nGenerates {2} Soul Shard Fragment every {3} sec and casts Chaos Bolt at {4}% effectiveness at its summoner's target."
-        }
-    },
-    "4247287489": {
-        "Name": "Backdraft",
-        "Descriptions": {
-            "743739596": "Conflagrate reduces the cast time of your next Incinerate, Chaos Bolt, or Soul Fire by {1}%. Maximum {2} charges."
-        }
-    },
-    "1894725468": {
-        "Name": "Backlash",
-        "Descriptions": {
-            "1474170313": "Increases your critical strike chance by {1}%.\r\n\r\nPhysical attacks against you have a {2}% chance to make your next Incinerate instant cast. This effect can only occur once every {3} sec."
-        }
-    },
-    "1268612158": {
-        "Name": "Bane of Havoc",
-        "Descriptions": {
-            "3999775216": "Your single target spells have a {1}% chance to curse the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {2}% of the damage dealt. Lasts {3} sec.",
-            "1009245293": "Curses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {1}% of the damage dealt. Lasts {2} sec.",
-            "3158377865": "Replaces Havoc.\r\n\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {1}% of the damage dealt. Lasts {2} sec.",
-            "74188036": "Replaces Havoc.\r\n\r\nYour single target spells have a {1}% chance to curse the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {2}% of the damage dealt. Lasts {3} sec."
-        }
-    },
-    "2893917825": {
-        "Name": "Banish",
-        "Descriptions": {
-            "4150865413": "Banishes an enemy Demon, Aberration, or Elemental, preventing any action for {1} sec. Limit {2}. Casting Banish again on the target will cancel the effect.",
-            "710906239": "Banishes an enemy Demon, Aberration, Undead, or Elemental, preventing any action for {1} sec. Limit {2}. Casting Banish again on the target will cancel the effect."
-        }
-    },
-    "3912146769": {
-        "Name": "Bilescourge Bombers",
-        "Descriptions": {
-            "3319191896": "Tear open a portal to the nether above the target location, from which several Bilescourge will pour out of and crash into the ground over {1} sec, dealing {2} Shadow damage to all enemies within {3} yards."
-        }
-    },
-    "1185342323": {
-        "Name": "Bonds of Fel",
-        "Descriptions": {
-            "3052128243": "Encircle enemy players with Bonds of Fel. If any affected player leaves the {1} yd radius they explode, dealing {2} Fire damage split amongst all nearby enemies."
-        }
-    },
-    "1312406358": {
-        "Name": "Burn to Ashes",
-        "Descriptions": {
-            "1059953555": "Chaos Bolt and Rain of Fire increase the damage of your next {1} Incinerates by {2}%. Shadowburn increases the damage of your next Incinerate by {3}%.\r\n\r\nStacks up to {4} times."
-        }
-    },
-    "4217114025": {
-        "Name": "Burning Rush",
-        "Descriptions": {
-            "2454748695": "Increases your movement speed by {1}%, but also damages you for {2}% of your maximum health every {3} sec. Movement impairing effects may not reduce you below {4}% of normal movement speed. Lasts {5} sec."
-        }
-    },
-    "3913991105": {
-        "Name": "Call Dreadstalkers",
-        "Descriptions": {
-            "3950242694": "Summons {1} ferocious Dreadstalkers to attack the target for {2} sec."
-        }
-    },
-    "2691787832": {
-        "Name": "Call Fel Lord",
-        "Descriptions": {
-            "945566993": "Summon a fel lord to guard the location for {1} sec. Any enemy that comes within {2} yards will suffer {3} Physical damage, and players struck will be stunned for {4} sec."
-        }
-    },
-    "2950708348": {
-        "Name": "Call Observer",
-        "Descriptions": {
-            "517673555": "Summons a demonic Observer to keep a watchful eye over the area for {1} sec.\r\n\r\nAnytime an enemy within {2} yards casts a harmful magical spell, the Observer will deal up to {3}% of the target's maximum health in Shadow damage."
-        }
-    },
-    "2857263879": {
-        "Name": "Carnivorous Stalkers",
-        "Descriptions": {
-            "1720344248": "Your Dreadstalkers' attacks have a {1}% chance to trigger an additional Dreadbite."
-        }
-    },
-    "2150582420": {
-        "Name": "Cataclysm",
-        "Descriptions": {
-            "1575158382": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Immolate.",
-            "3479079165": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Wither."
-        }
-    },
-    "2911758243": {
-        "Name": "Channel Demonfire",
-        "Descriptions": {
-            "570811739": "Launches {1} bolts of felfire over {2} sec at random targets afflicted by your Immolate within {3} yds. Each bolt deals {4} Fire damage to the target and {5} Fire damage to nearby enemies.",
-            "3770287873": "Launches {1} bolts of felfire over {2} sec at random targets afflicted by your Wither within {3} yds. Each bolt deals {4} Fire damage to the target and {5} Fire damage to nearby enemies."
-        }
-    },
-    "1069411448": {
-        "Name": "Chaos Bolt",
-        "Descriptions": {
-            "2382836120": "Unleashes a devastating blast of chaos, dealing a critical strike for {1} Chaos damage. Damage is further increased by your critical strike chance."
-        }
-    },
-    "581237316": {
-        "Name": "Chaos Incarnate",
-        "Descriptions": {
-            "1861047160": "Chaos Bolt, Rain of Fire, and Shadowburn always gain at least {1}% of the maximum benefit from your Mastery: Chaotic Energies."
-        }
-    },
-    "3991865257": {
-        "Name": "Command Demon",
-        "Descriptions": {
-            "1922453891": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelguard: {ffffffff|Axe Toss}\r\nFelhunter: {ffffffff|Spell Lock}\r\nVoidwalker: {ffffffff|Shadow Bulwark}\r\nIncubus/Succubus: {ffffffff|Seduction}\r\nImp: {ffffffff|Singe Magic}",
-            "1132413298": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelhunter: {ffffffff|Spell Lock}\r\nVoidwalker: {ffffffff|Shadow Bulwark}\r\nIncubus/Succubus: {ffffffff|Seduction}\r\nImp: {ffffffff|Singe Magic}"
-        }
-    },
-    "111674867": {
-        "Name": "Conflagrate",
-        "Descriptions": {
-            "1654613085": "Triggers an explosion on the target, dealing {1} Fire damage.\r\n\r\nReduces the cast time of your next Incinerate or Chaos Bolt by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Soul Shard Fragments.}",
-            "1291174761": "Triggers an explosion on the target, dealing {1} Fire damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard Fragments.}"
-        }
-    },
-    "1461878397": {
-        "Name": "Conflagration of Chaos",
-        "Descriptions": {
-            "1145311017": "Conflagrate and Shadowburn have a {1}% chance to guarantee your next cast of the ability to critically strike, and increase its damage by your critical strike chance."
-        }
-    },
-    "681364614": {
-        "Name": "Corruption",
-        "Descriptions": {
-            "3575166801": "Corrupts the target, causing {1} Shadow damage and an additional {2} Shadow damage over {3} sec.",
-            "4107411241": "Corrupts the target, causing {1} Shadow damage and {2} Shadow damage every {3} sec."
-        }
-    },
-    "2668875145": {
-        "Name": "Crashing Chaos",
-        "Descriptions": {
-            "169092991": "Summon Infernal increases the damage of your next {1} casts of Chaos Bolt by {2}% or your next {3} casts of Rain of Fire by {4}%."
-        }
-    },
-    "287662580": {
-        "Name": "Create Healthstone",
-        "Descriptions": {
-            "3560120991": "Creates a Healthstone that can be consumed to restore {1}% health.",
-            "3079900004": "Creates a Healthstone that can be consumed to restore {1}% health.\r\n\r\nWhen you use a Healthstone, gain {2}% Leech for {3} sec."
-        }
-    },
-    "665072159": {
-        "Name": "Create Soulwell",
-        "Descriptions": {
-            "981485303": "Creates a Soulwell for {1} min. Party and raid members can use the Soulwell to acquire a Healthstone."
-        }
-    },
-    "3517035502": {
-        "Name": "Creeping Death",
-        "Descriptions": {
-            "3475362211": "Your Agony, Corruption, and Unstable Affliction deal damage {1}% faster.",
-            "2481161288": "Your Agony, Wither, and Unstable Affliction deal damage {1}% faster."
-        }
-    },
-    "2195292021": {
-        "Name": "Curse of Weakness",
-        "Descriptions": {
-            "2542418524": "Increases the time between an enemy's attacks by {1}% for {2} min.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
-            "3036751027": "Increases the time between an enemy's attacks by {1}% for {2} min.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
-        }
-    },
-    "3835653911": {
-        "Name": "Curses of Enfeeblement",
-        "Descriptions": {
-            "2276785395": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Tongues will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {4}% for {5} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
-            "295858089": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {3}% for {4} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
-        }
-    },
-    "3061776275": {
-        "Name": "Dark Accord",
-        "Descriptions": {
-            "130858891": "Reduces the cooldown of Unending Resolve by {1} sec."
-        }
-    },
-    "1413997351": {
-        "Name": "Dark Harvest",
-        "Descriptions": {
-            "3355831603": "Each target affected by Soul Rot increases your haste and critical strike chance by {1}% for {2} sec."
-        }
-    },
-    "1770179588": {
-        "Name": "Dark Pact",
-        "Descriptions": {
-            "2949090936": "Sacrifices {1}% of your current health to shield you for {2}% of the sacrificed health plus an additional {3} for {4} sec. Usable while suffering from control impairing effects."
-        }
-    },
-    "1567528133": {
-        "Name": "Dark Virtuosity",
-        "Descriptions": {
-            "3335008756": "Shadow Bolt and Drain Soul deal an additional {1}% damage."
-        }
-    },
-    "1575981116": {
-        "Name": "Darkfury",
-        "Descriptions": {
-            "2190193273": "Reduces the cooldown of Shadowfury by {1} sec and increases its radius by {2} yards."
-        }
-    },
-    "3564839319": {
-        "Name": "Decimation",
-        "Descriptions": {
-            "1651069380": "When your direct damaging abilities deal a critical strike, they have a chance to reset the cooldown of Soul Fire and reduce the cast time of your next Soul Fire by {1}%."
-        }
-    },
-    "1255957523": {
-        "Name": "Demon Skin",
-        "Descriptions": {
-            "1415758140": "Your Soul Leech absorption now passively recharges at a rate of {1}% of maximum health every {2} sec, and may now absorb up to {3}% of maximum health.\r\n\r\nIncreases your armor by {4}%."
-        }
-    },
-    "2553320837": {
-        "Name": "Demonic Calling",
-        "Descriptions": {
-            "300473927": "Shadow Bolt has a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul [plural|Shard|Shards] and have no cast time.",
-            "3886985337": "Shadow Bolt and Demonbolt have a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul [plural|Shard|Shards] and have no cast time."
-        }
-    },
-    "4083105957": {
-        "Name": "Demonic Circle",
-        "Descriptions": {
-            "2754229084": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\r\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
-            "2769047465": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\r\nTeleports you to your Demonic Circle and removes all movement slowing effects."
-        }
-    },
-    "2981598639": {
-        "Name": "Demonic Embrace",
-        "Descriptions": {
-            "2367237183": "Stamina increased by {1}%."
-        }
-    },
-    "3445369472": {
-        "Name": "Demonic Fortitude",
-        "Descriptions": {
-            "3949458342": "Increases you and your pets' maximum health by {1}%."
-        }
-    },
-    "1605870848": {
-        "Name": "Demonic Gateway",
-        "Descriptions": {
-            "3428476971": "Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per {1} sec."
-        }
-    },
-    "3126948425": {
-        "Name": "Demonic Inspiration",
-        "Descriptions": {
-            "32093178": "Increases the attack speed of your primary pet by {1}%.",
-            "1184447206": "Increases the attack speed of your primary pet by {1}%. \r\n\r\nIncreases Grimoire of Sacrifice damage by {2}%."
-        }
-    },
-    "901386111": {
-        "Name": "Demonic Resilience",
-        "Descriptions": {
-            "1809859130": "Reduces the chance you will be critically struck by {1}%. All damage your primary demon takes is reduced by {2}%."
-        }
-    },
-    "3477365320": {
-        "Name": "Demonic Strength",
-        "Descriptions": {
-            "3930126302": "Infuse your Felguard with demonic strength and command it to charge your target and unleash a Felstorm that will deal {1}% increased damage."
-        }
-    },
-    "868686024": {
-        "Name": "Diabolic Embers",
-        "Descriptions": {
-            "111423807": "Incinerate now generates {1}% additional Soul Shard Fragments."
-        }
-    },
-    "2707111912": {
-        "Name": "Dimensional Rift",
-        "Descriptions": {
-            "3631518118": "Rips a hole in time and space, opening a random portal that damages your target:\r\n\r\n|T607513:24|t{ffffffff|Shadowy Tear}\r\nDeals {1} Shadow damage over {2} sec.\r\n\r\n|T607512:24|t{ffffffff|Unstable Tear}\r\nDeals {3} Chaos damage over {4} sec.\r\n\r\n|T1394890:24|t{ffffffff|Chaos Tear}\r\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\r\n\r\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}"
-        }
-    },
-    "195570028": {
-        "Name": "Doom",
-        "Descriptions": {
-            "139490265": "When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing {1} Shadow damage to enemies within {2} yds of its target after {3} sec or when removed. Damage is reduced beyond {4} targets.\r\n\r\nEach Soul Shard spent on Hand of Gul'dan reduces the duration of Doom by {5} sec."
-        }
-    },
-    "1760327772": {
-        "Name": "Drain Life",
-        "Descriptions": {
-            "1167953575": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done.",
-            "1262078397": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done.\r\n\r\nDrain Life heals for {4}% more while below {5}% health."
-        }
-    },
-    "430715749": {
-        "Name": "Drain Soul",
-        "Descriptions": {
-            "2153859387": "Drains the target's soul, causing {1} Shadow damage over {2} sec.\r\n\r\nDamage is increased by {3}% against enemies below {4}% health.\r\n\r\n{FFFFFFFF|Generates {5} Soul Shard if the target dies during this effect.}",
-            "2683542540": "Replaces Shadow Bolt.\r\n\r\nDrains the target's soul, causing {1} Shadow damage over {2} sec.\r\n\r\nDamage is increased by {3}% against enemies below {4}% health.\r\n\r\n{FFFFFFFF|Generates {5} Soul Shard if the target dies during this effect.}"
-        }
-    },
-    "1835849483": {
-        "Name": "Dread Calling",
-        "Descriptions": {
-            "3959608896": "Each Soul Shard spent on Hand of Gul'dan increases the damage of your next Call Dreadstalkers by {1}%."
-        }
-    },
-    "1675134087": {
-        "Name": "Dreadlash",
-        "Descriptions": {
-            "2774900909": "When your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within {1} yards and deals {2}% more damage."
-        }
-    },
-    "4235810903": {
-        "Name": "Eradication",
-        "Descriptions": {
-            "2132326629": "Chaos Bolt and Shadowburn increases the damage you deal to the target by {1}% for {2} sec."
-        }
-    },
-    "20974827": {
-        "Name": "Essence Drain",
-        "Descriptions": {
-            "1272373733": "Whenever you heal yourself with Drain Life, the enemy target deals {1}% reduced damage to you for {2} sec. Stacks up to {3} times."
-        }
-    },
-    "2654602187": {
-        "Name": "Explosive Potential",
-        "Descriptions": {
-            "1725765667": "Reduces the cooldown of Conflagrate by {1} sec."
-        }
-    },
-    "3563021145": {
-        "Name": "Eye of Kilrogg",
-        "Descriptions": {
-            "846175217": "Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile."
-        }
-    },
-    "571099423": {
-        "Name": "Fear",
-        "Descriptions": {
-            "1697597920": "Strikes fear in the enemy, disorienting for {1} sec. Damage may cancel the effect. Limit {2}.",
-            "4052853292": "Strikes fear in the enemy, disorienting for {1} sec. Damage may cancel the effect. Limit {2}.\r\n\r\nIncreases the amount of damage required to break your fear effects by {3}%.",
-            "427640396": "You no longer suffer spell pushback when casting Fear."
-        }
-    },
-    "928857754": {
-        "Name": "Fel Armor",
-        "Descriptions": {
-            "1486703742": "When Soul Leech absorbs damage, {1}% of damage taken is absorbed and spread out over {2} sec.\r\n\r\nReduces damage taken by {3}%."
-        }
-    },
-    "144696049": {
-        "Name": "Fel Domination",
-        "Descriptions": {
-            "2039911819": "Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by {1}%.\r\n"
-        }
-    },
-    "3743070776": {
-        "Name": "Fel Fissure",
-        "Descriptions": {
-            "2434870812": "Chaos Bolt creates a {1} yd wide eruption of Felfire under the target, reducing movement speed by {2}% and reducing all healing received by {3}% on all enemies within the fissure. Lasts {4} sec."
-        }
-    },
-    "3973297371": {
-        "Name": "Fel Pact",
-        "Descriptions": {
-            "4065367667": "Reduces the cooldown of Fel Domination by {1} sec."
-        }
-    },
-    "3746089725": {
-        "Name": "Fel Sunder",
-        "Descriptions": {
-            "3700213830": "Each time Felstorm deals damage, it increases the damage the target takes from you and your pets by {1}% for {2} sec, up to {3}%."
-        }
-    },
-    "1609873327": {
-        "Name": "Fel Synergy",
-        "Descriptions": {
-            "1267277486": "Soul Leech also heals you for {1}% and your pet for {2}% of the absorption it grants."
-        }
-    },
-    "576389273": {
-        "Name": "Fiendish Stride",
-        "Descriptions": {
-            "2023386643": "Reduces the damage dealt by Burning Rush by {1}%. Burning Rush increases your movement speed by an additional {2}%."
-        }
-    },
-    "12566229": {
-        "Name": "Fire and Brimstone",
-        "Descriptions": {
-            "1890258793": "Incinerate now also hits all enemies near your target for {1}% damage."
-        }
-    },
-    "3745083323": {
-        "Name": "Flashpoint",
-        "Descriptions": {
-            "1852025035": "When your Immolate deals periodic damage to a target above {1}% health, gain {2}% Haste for {3} sec.\r\n\r\nStacks up to {4} times.",
-            "3550479281": "When your Wither deals periodic damage to a target above {1}% health, gain {2}% Haste for {3} sec.\r\n\r\nStacks up to {4} times."
-        }
-    },
-    "2394452837": {
-        "Name": "Focused Malignancy",
-        "Descriptions": {
-            "1277829382": "Malefic Rapture deals {1}% increased damage to targets suffering from Unstable Affliction."
-        }
-    },
-    "2555929683": {
-        "Name": "Frequent Donor",
-        "Descriptions": {
-            "3542594943": "Reduces the cooldown of Dark Pact by {1} sec."
-        }
-    },
-    "1083881337": {
-        "Name": "Gateway Mastery",
-        "Descriptions": {
-            "283533061": "Increases the range of your Demonic Gateway by {1} yards, and reduces the cast time by {2}%. Reduces the time between how often players can take your Demonic Gateway by {3} sec."
-        }
-    },
-    "2795382296": {
-        "Name": "Grimoire of Sacrifice",
-        "Descriptions": {
-            "1639977710": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts {2} sec or until you summon a demon pet."
-        }
-    },
-    "1639261440": {
-        "Name": "Grimoire: Felguard",
-        "Descriptions": {
-            "2006125073": "Summons a Felguard who attacks the target for {1} sec that deals {2}% increased damage.\r\n\r\nThis Felguard will stun and interrupt their target when summoned."
-        }
-    },
-    "3348232979": {
-        "Name": "Guillotine",
-        "Descriptions": {
-            "827010990": "Your Felguard hurls his axe towards the target location, erupting when it lands and dealing {1} Shadowflame damage every {2} sec for {3} sec to nearby enemies.\r\n\r\nWhile unarmed, your Felguard's basic attacks deal damage to all nearby enemies and attacks {4}% faster."
-        }
-    },
-    "2247754259": {
-        "Name": "Hand of Gul'dan",
-        "Descriptions": {
-            "2873103575": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\r\n\r\nDeals up to {1} Shadowflame damage on impact to all enemies within {2} yds of the target and summons up to {3} Wild Imps, based on Soul Shards consumed.",
-            "3939364626": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\r\n\r\nDeals up to {1} Shadowflame damage on impact to all enemies within {2} yds of the target, applies Doom to each target, and summons up to {3} Wild Imps, based on Soul Shards consumed."
-        }
-    },
-    "1711575298": {
-        "Name": "Haunt",
-        "Descriptions": {
-            "3890750652": "A ghostly soul haunts the target, dealing {1} Shadow damage and increasing your damage dealt to the target by {2}% for {3} sec.\r\n\r\nIf the target dies, Haunt's cooldown is reset."
-        }
-    },
-    "3611643100": {
-        "Name": "Havoc",
-        "Descriptions": {
-            "2752749756": "Marks a target with Havoc for {1} sec, causing your single target spells to also strike the Havoc victim for {2}% of the damage dealt."
-        }
-    },
-    "635301552": {
-        "Name": "Health Funnel",
-        "Descriptions": {
-            "3705695246": "Sacrifices {1}% of your maximum health to heal your summoned Demon for twice as much over {2} sec."
-        }
-    },
-    "3450919618": {
-        "Name": "Horrify",
-        "Descriptions": {
-            "283132590": "Your Fear causes the target to tremble in place instead of fleeing in fear."
-        }
-    },
-    "2723684173": {
-        "Name": "Howl of Terror",
-        "Descriptions": {
-            "3898272633": "Let loose a terrifying howl, causing {1} enemies within {2} yds to flee in fear, disorienting them for {3} sec. Damage may cancel the effect."
-        }
-    },
-    "3390474368": {
-        "Name": "Ichor of Devils",
-        "Descriptions": {
-            "112829595": "Dark Pact sacrifices only {1}% of your current health for the same shield value."
-        }
-    },
-    "2994042834": {
-        "Name": "Immutable Hatred",
-        "Descriptions": {
-            "723467135": "When you consume a Demonic Core, your primary Felguard carves your target, dealing {1} Physical damage."
-        }
-    },
-    "2105186163": {
-        "Name": "Imp Gang Boss",
-        "Descriptions": {
-            "2549776700": "Summoning a Wild Imp has a {1}% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals {2}% additional damage. \r\n\r\nImplosions from Imp Gang Boss deal {3}% increased damage."
-        }
-    },
-    "4150999392": {
-        "Name": "Implosion",
-        "Descriptions": {
-            "1224281416": "Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing {1} Shadowflame damage to all enemies within {2} yards."
-        }
-    },
-    "533106281": {
-        "Name": "Improved Conflagrate",
-        "Descriptions": {
-            "1165433231": "Conflagrate gains an additional charge."
-        }
-    },
-    "239421470": {
-        "Name": "Inferno",
-        "Descriptions": {
-            "3522016984": "Rain of Fire damage is increased by {1}% and its Soul Shard cost is reduced by {2}."
-        }
-    },
-    "108383345": {
-        "Name": "Inner Demons",
-        "Descriptions": {
-            "80168848": "You passively summon a Wild Imp to fight for you every {1} sec."
-        }
-    },
-    "1416091403": {
-        "Name": "Internal Combustion",
-        "Descriptions": {
-            "3048906990": "Chaos Bolt consumes up to {1} sec of Immolate's damage over time effect on your target, instantly dealing that much damage.",
-            "811381676": "Chaos Bolt consumes up to {1} sec of Wither's damage over time effect on your target, instantly dealing that much damage."
-        }
-    },
-    "2833074765": {
-        "Name": "Kindled Malice",
-        "Descriptions": {
-            "3510445756": "Malefic Rapture damage increased by {1}%. Corruption damage increased by {2}%.",
-            "669112299": "Malefic Rapture damage increased by {1}%. Wither damage increased by {2}%."
-        }
-    },
-    "2646401187": {
-        "Name": "Lifeblood",
-        "Descriptions": {
-            "2187475883": "When you use a Healthstone, gain {1}% Leech for {2} sec."
-        }
-    },
-    "3651427022": {
-        "Name": "Malefic Rapture",
-        "Descriptions": {
-            "3685231363": "Your damaging periodic effects from your spells erupt on all targets, causing {1} Shadowflame damage per effect."
-        }
-    },
-    "74576902": {
-        "Name": "Malevolent Visionary",
-        "Descriptions": {
-            "2624945765": "Increases the damage of your Darkglare by {1}%. When Darkglare extends damage over time effects it also sears affected targets for {2} Shadow damage."
-        }
-    },
-    "2970495898": {
-        "Name": "Master Ritualist",
-        "Descriptions": {
-            "1008735913": "Ritual of Ruin requires {1} less Soul Shards spent."
-        }
-    },
-    "3411530428": {
-        "Name": "Master Summoner",
-        "Descriptions": {
-            "3766405296": "Reduces the cast time of your Call Dreadstalkers, Summon Vilefiend, and Summon Demonic Tyrant by {1}% and reduces the cooldown of Call Dreadstalkers by {2} sec."
-        }
-    },
-    "1514958075": {
-        "Name": "Mastery: Chaotic Energies",
-        "Descriptions": {
-            "219625567": "Your spells deal {1}% increased damage, plus a random amount of up to {2}% additional increased damage."
-        }
-    },
-    "352969582": {
-        "Name": "Mastery: Master Demonologist",
-        "Descriptions": {
-            "3288826252": "Increases the damage done by your demons by {1}%."
-        }
-    },
-    "3618528008": {
-        "Name": "Mastery: Potent Afflictions",
-        "Descriptions": {
-            "3900364928": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1873769413": "Increases damage done by Malefic Rapture, Agony, Corruption, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1559323398": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "68996835": "Increases damage done by Malefic Rapture, Agony, Corruption, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2069201037": "Increases damage done by Malefic Rapture, Agony, Corruption, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "322330165": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1068646458": "Increases damage done by Malefic Rapture, Agony, Corruption, Vile Taint, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "3047079912": "Increases damage done by Malefic Rapture, Agony, Wither, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2795692920": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "671120564": "Increases damage done by Malefic Rapture, Agony, Wither, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1110789988": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1824234014": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2093535520": "Increases damage done by Malefic Rapture, Agony, Wither, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "4044572626": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "3656755833": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Vile Taint, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2764250434": "Increases damage done by Malefic Rapture, Agony, Wither, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "3326443708": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "3084946218": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1402316609": "Increases damage done by Malefic Rapture, Agony, Wither, Phantom Singularity, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "1679017677": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Phantom Singularity, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "602933736": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Phantom Singularity, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2128168304": "Increases damage done by Malefic Rapture, Agony, Wither, Vile Taint, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "2574038809": "Increases damage done by Malefic Rapture, Agony, Corruption, Siphon Life, Vile Taint, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%.",
-            "3281281754": "Increases damage done by Malefic Rapture, Agony, Wither, Siphon Life, Vile Taint, Soul Rot, Unstable Affliction, and Seed of Corruption by {1}%."
-        }
-    },
-    "2068675728": {
-        "Name": "Mayhem",
-        "Descriptions": {
-            "286521019": "Your single target spells have a {1}% chance to apply Bane of Havoc below a nearby enemy for {2} sec.\r\n\r\n|T1380866:24|t {ffffffff|Bane of Havoc}\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for {3}% of the damage dealt. Lasts {4} sec.",
-            "1317938299": "Your single target spells have a {1}% chance to apply Havoc to a nearby enemy for {2} sec.\r\n\r\n|T460695:24|t {ffffffff|Havoc}\r\nMarks a target with Havoc for {3} sec, causing your single target spells to also strike the Havoc victim for {4}% of the damage dealt."
-        }
-    },
-    "3272931627": {
-        "Name": "Mortal Coil",
-        "Descriptions": {
-            "1938981361": "Horrifies an enemy target into fleeing, incapacitating for {1} sec and healing you for {2}% of maximum health."
-        }
-    },
-    "487638796": {
-        "Name": "Nether Ward",
-        "Descriptions": {
-            "691256506": "Surrounds the caster with a shield that lasts {1} sec, reflecting all harmful spells cast on you."
-        }
-    },
-    "1883969501": {
-        "Name": "Nightfall",
-        "Descriptions": {
-            "594510522": "Corruption damage has a chance to cause your next Shadow Bolt or Drain Soul to deal {1}% increased damage. \r\n\r\nShadow Bolt is instant cast and Drain Soul channels {2}% faster when affected.",
-            "2252334526": "Wither damage has a chance to cause your next Shadow Bolt or Drain Soul to deal {1}% increased damage. \r\n\r\nShadow Bolt is instant cast and Drain Soul channels {2}% faster when affected."
-        }
-    },
-    "3201112041": {
-        "Name": "Nightmare",
-        "Descriptions": {
-            "56201998": "Increases the amount of damage required to break your fear effects by {1}%."
-        }
-    },
-    "3456642817": {
-        "Name": "Pact of the Imp Mother",
-        "Descriptions": {
-            "1496766783": "Hand of Gul'dan has a {1}% chance to cast a second time on your target for free."
-        }
-    },
-    "1362184391": {
-        "Name": "Phantom Singularity",
-        "Descriptions": {
-            "922016427": "Places a phantom singularity above the target, which consumes the life of all enemies within {1} yards, dealing {2} damage over {3} sec, healing you for {4}% of the damage done."
-        }
-    },
-    "2823929959": {
-        "Name": "Power Overwhelming",
-        "Descriptions": {
-            "7159079": "Consuming Soul Shards increases your Mastery by {1}% for {2} sec for each shard spent. Gaining a stack does not refresh the duration."
-        }
-    },
-    "3000717526": {
-        "Name": "Power Siphon",
-        "Descriptions": {
-            "482373692": "Instantly sacrifice up to {1} Wild Imps, generating {2} charges of Demonic Core that cause Demonbolt to deal {3}% additional damage."
-        }
-    },
-    "1060754681": {
-        "Name": "Pyrogenics",
-        "Descriptions": {
-            "3380629091": "Enemies affected by your Rain of Fire take {1}% increased damage from your Fire spells."
-        }
-    },
-    "896581724": {
-        "Name": "Raging Demonfire",
-        "Descriptions": {
-            "1924129941": "Channel Demonfire fires an additional {1} bolts. Each bolt increases the remaining duration of Immolate on all targets hit by {2} sec.",
-            "2587203105": "Channel Demonfire fires an additional {1} bolts. Each bolt increases the remaining duration of Wither on all targets hit by {2} sec."
-        }
-    },
-    "1806873034": {
-        "Name": "Rain of Chaos",
-        "Descriptions": {
-            "385844616": "While your initial Infernal is active, every Soul Shard you spend has a {1}% chance to summon an additional Infernal that lasts {2} sec."
-        }
-    },
-    "4246374104": {
-        "Name": "Rain of Fire",
-        "Descriptions": {
-            "30622424": "Calls down a rain of hellfire the target location, dealing {1} Fire damage over {2} sec to enemies in the area.\r\n\r\n{FFFFFFFF|This spell is cast at a selected location.}"
-        }
-    },
-    "515728640": {
-        "Name": "Rampant Afflictions",
-        "Descriptions": {
-            "2992529976": "Unstable Affliction can now be applied to up to {1} targets, but its damage is reduced by {2}%."
-        }
-    },
-    "1096077884": {
-        "Name": "Reign of Tyranny",
-        "Descriptions": {
-            "3574872792": "Summon Demonic Tyrant empowers {1} additional Wild Imps and deals {2}% increased damage for each demon he empowers."
-        }
-    },
-    "3122075510": {
-        "Name": "Resolute Barrier",
-        "Descriptions": {
-            "130773170": "Attacks received that deal at least {1}% of your health decrease Unending Resolve's cooldown by {2} sec. Cannot occur more than once every {3} sec.\r\n"
-        }
-    },
-    "2170187381": {
-        "Name": "Reverse Entropy",
-        "Descriptions": {
-            "1847160925": "Your spells have a chance to grant you {1}% Haste for {2} sec."
-        }
-    },
-    "2447064140": {
-        "Name": "Ritual of Doom",
-        "Descriptions": {
-            "350292649": "Begins a ritual that sacrifices a random participant to summon a doomguard. Requires the caster and {1} additional party members to complete the ritual."
-        }
-    },
-    "406200264": {
-        "Name": "Ritual of Ruin",
-        "Descriptions": {
-            "2203882943": "Every {1} Soul Shards spent grants Ritual of Ruin, making your next Chaos Bolt or Rain of Fire consume no Soul Shards and have its cast time reduced by {2}%."
-        }
-    },
-    "3978751402": {
-        "Name": "Ritual of Summoning",
-        "Descriptions": {
-            "2170475972": "Begins a ritual to create a summoning portal, requiring the caster and {1} allies to complete. This portal can be used to summon party and raid members."
-        }
-    },
-    "3631269215": {
-        "Name": "Roaring Blaze",
-        "Descriptions": {
-            "761965997": "Conflagrate increases your Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "386974926": "Conflagrate increases your Soul Fire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "3288229726": "Conflagrate increases your Channel Demonfire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "1994781579": "Conflagrate increases your Soul Fire, Channel Demonfire, Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "1686103904": "Conflagrate increases your Wither, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "1865519517": "Conflagrate increases your Soul Fire, Wither, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "953306066": "Conflagrate increases your Channel Demonfire, Wither, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
-            "2104121157": "Conflagrate increases your Soul Fire, Channel Demonfire, Wither, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec."
-        }
-    },
-    "3940508128": {
-        "Name": "Rolling Havoc",
-        "Descriptions": {
-            "3261517997": "Each time your spells duplicate from Havoc, gain {1}% increased damage for {2} sec. Stacks up to {3} times."
-        }
-    },
-    "2269879891": {
-        "Name": "Rot and Decay",
-        "Descriptions": {
-            "4048418463": "Shadow Bolt damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {1} sec.\r\n\r\nDrain Life, Drain Soul, and Oblivion damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {2} sec.\r\n\r\n"
-        }
-    },
-    "4067806763": {
-        "Name": "Ruin",
-        "Descriptions": {
-            "302825017": "Increases the critical strike damage of your Destruction spells by {1}%."
-        }
-    },
-    "420090391": {
-        "Name": "Sacrificed Souls",
-        "Descriptions": {
-            "3713973934": "Shadow Bolt and Demonbolt deal {1}% additional damage per demon you have summoned."
-        }
-    },
-    "1908234989": {
-        "Name": "Sacrolash's Dark Strike",
-        "Descriptions": {
-            "3311090038": "Corruption damage is increased by {1}%, and each time it deals damage any of your Curses active on the target are extended by {2} sec.",
-            "3031197808": "Wither damage is increased by {1}%, and each time it deals damage any of your Curses active on the target are extended by {2} sec."
-        }
-    },
-    "4176836837": {
-        "Name": "Sargerei Technique",
-        "Descriptions": {
-            "127745533": "Shadow Bolt damage increased by {1}%.",
-            "206371339": "Incinerate damage increased by {1}%.",
-            "4060582231": "Shadow Bolt and Drain Soul damage increased by {1}%."
-        }
-    },
-    "2260157895": {
-        "Name": "Scalding Flames",
-        "Descriptions": {
-            "3555375452": "Increases the damage of Immolate by {1}% and its duration by {2} sec.",
-            "1490649316": "Increases the damage of Wither by {1}% and its duration by {2} sec."
-        }
-    },
-    "1154892435": {
-        "Name": "Seed of Corruption",
-        "Descriptions": {
-            "275367750": "Embeds a demon seed in the enemy target that will explode after {1} sec, dealing {2} Shadow damage to all enemies within {3} yards and applying Corruption to them.\r\n\r\nThe seed will detonate early if the target is hit by other detonations, or takes {4} damage from your spells.",
-            "1360679041": "Embeds a demon seed in the enemy target that will explode after {1} sec, dealing {2} Shadow damage to all enemies within {3} yards and applying Wither to them.\r\n\r\nThe seed will detonate early if the target is hit by other detonations, or takes {4} damage from your spells."
-        }
-    },
-    "3143985059": {
-        "Name": "Shadow Bolt",
-        "Descriptions": {
-            "149505213": "Sends a shadowy bolt at the enemy, causing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
-            "3036688613": "Sends a shadowy bolt at the enemy, causing {1} Shadow damage."
-        }
-    },
-    "1710687868": {
-        "Name": "Shadow Embrace",
-        "Descriptions": {
-            "1655477538": "Shadow Bolt applies Shadow Embrace, increasing your damage dealt to the target by {1}% for {2} sec. Stacks up to {3} times.",
-            "1257489761": "Drain Soul applies Shadow Embrace, increasing your damage dealt to the target by {1}% for {2} sec. Stacks up to {3} times."
-        }
-    },
-    "1769639063": {
-        "Name": "Shadow Rift",
-        "Descriptions": {
-            "2816804329": "Conjure a Shadow Rift at the target location lasting {1} sec. Enemy players within the rift when it expires are teleported to your Demonic Circle.\r\n\r\nMust be within {2} yds of your Demonic Circle to cast."
-        }
-    },
-    "1356188227": {
-        "Name": "Shadowburn",
-        "Descriptions": {
-            "170581919": "Blasts a target for {1} Shadowflame damage, gaining {2}% critical strike chance on targets that have {3}% or less health.\r\n\r\n{FFFFFFFF|Restores {4} Soul Shard and refunds a charge if the target dies within {5} sec.}"
-        }
-    },
-    "1399750015": {
-        "Name": "Shadowflame",
-        "Descriptions": {
-            "1673190433": "Slows enemies in a {1} yard cone in front of you by {2}% for {3} sec."
-        }
-    },
-    "3721926209": {
-        "Name": "Shadowfury",
-        "Descriptions": {
-            "2123125408": "Stuns all enemies within {1} yds for {2} sec."
-        }
-    },
-    "952729624": {
-        "Name": "Siphon Life",
-        "Descriptions": {
-            "2301965941": "Corruption deals {1}% increased damage and its periodic damage heals you for {2}% of the damage dealt.",
-            "2852519920": "Wither deals {1}% increased damage and its periodic damage heals you for {2}% of the damage dealt."
-        }
-    },
-    "835908329": {
-        "Name": "Socrethar's Guile",
-        "Descriptions": {
-            "1596796341": "Wild Imp damage increased by {1}%.",
-            "3996662200": "Agony damage increased by {1}%.",
-            "4248642336": "Immolate damage increased by {1}%."
-        }
-    },
-    "834687906": {
-        "Name": "Soul Conduit",
-        "Descriptions": {
-            "3323041964": "Every Soul Shard you spend has a {1}% chance to be refunded."
-        }
-    },
-    "2610923219": {
-        "Name": "Soul Fire",
-        "Descriptions": {
-            "433347291": "Burns the enemy's soul, dealing {1} Fire damage and applying Immolate.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
-            "1744776340": "Burns the enemy's soul, dealing {1} Fire damage and applying Wither.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}"
-        }
-    },
-    "2700343665": {
-        "Name": "Soul Leech",
-        "Descriptions": {
-            "99188850": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb {1}% of the damage dealt, up to {2}% of maximum health.",
-            "398711209": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb {1}% of the damage dealt for {2} sec, up to {3}% of maximum health."
-        }
-    },
-    "1869842168": {
-        "Name": "Soul Link",
-        "Descriptions": {
-            "2329498277": "{1}% of all damage you take is taken by your demon pet instead.",
-            "2631585389": "{1}% of all damage you take is taken by your demon pet instead. \r\n\r\nWhile Grimoire of Sacrifice is active, your Stamina is increased by {2}%."
-        }
-    },
-    "1879372151": {
-        "Name": "Soul Rot",
-        "Descriptions": {
-            "2458085221": "Wither away all life force of your current target and up to {1} additional targets nearby, causing your primary target to suffer {2} Shadow damage and secondary targets to suffer {3} Shadow damage over {4} sec.\r\n\r\nDamage dealt by Soul Rot heals you for {5}% of damage done."
-        }
-    },
-    "24821930": {
-        "Name": "Soul Shards",
-        "Descriptions": {
-            "3006024787": "Soul Shards are generated by your Shadow Bolt.\r\n\r\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\r\n\r\nWhile out of combat you regenerate up to {1} Soul Shards.",
-            "3102734029": "Soul Shard Fragments are generated by many of your spells.\r\n\r\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\r\n\r\nWhile out of combat you regenerate up to {1} Soul Shards.",
-            "3603172842": "Soul Shards are generated by your Agony's damage over time.\r\n\r\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\r\n\r\nWhile out of combat you regenerate up to {1} Soul Shards."
-        }
-    },
-    "3119323704": {
-        "Name": "Soul Strike",
-        "Descriptions": {
-            "2470297064": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t {ffffffff|Soul Strike}\r\nStrike into the soul of the enemy, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
-            "3230578911": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t {ffffffff|Soul Strike}\r\nStrike into the soul of the enemy, dealing {1} Shadow damage."
-        }
-    },
-    "3309965084": {
-        "Name": "Soul Swap",
-        "Descriptions": {
-            "3668805511": "Copies your damage over time effects and Haunt from the target, preserving their duration.\r\n\r\nYour next use of Soul Swap within {1} sec will exhale a copy damage of the effects onto a new target."
-        }
-    },
-    "2480138214": {
-        "Name": "Soulburn",
-        "Descriptions": {
-            "1707825830": "Consumes a Soul Shard, unlocking the hidden power of your spells.\r\n\r\n{FFFFFFFF|Demonic Circle: Teleport}: Increases your movement speed by {1}% and makes you immune to snares and roots for {2} sec.\r\n\r\n{FFFFFFFF|Demonic Gateway}: Can be cast instantly.\r\n\r\n{FFFFFFFF|Drain Life}: Gain an absorb shield equal to the amount of healing done for {3} sec. This shield cannot exceed {4}% of your maximum health.\r\n\r\n{FFFFFFFF|Health Funnel}: Restores {5}% more health and reduces the damage taken by your pet by {6}% for {7} sec.\r\n\r\n{FFFFFFFF|Healthstone}: Increases the healing of your Healthstone by {8}% and increases your maximum health by {9}% for {10} sec."
-        }
-    },
-    "1687125832": {
-        "Name": "Soulstone",
-        "Descriptions": {
-            "1845680209": "Stores the soul of the target party or raid member, allowing resurrection upon death. Also castable to resurrect a dead target. Targets resurrect with {1}% health and at least {2}% mana.",
-            "1150890894": "Soulstone may be used to instantly resurrect a dead target.",
-            "2091293282": "Stores the soul of the target party or raid member, allowing resurrection upon death. Targets resurrect with {1}% health and at least {2}% mana."
-        }
-    },
-    "2158972744": {
-        "Name": "Strength of Will",
-        "Descriptions": {
-            "2670629828": "Unending Resolve reduces damage taken by an additional {1}%."
-        }
-    },
-    "1193034903": {
-        "Name": "Subjugate Demon",
-        "Descriptions": {
-            "44222888": "Subjugates the target demon up to level {1}, forcing it to do your bidding for {2} min."
-        }
-    },
-    "1276405017": {
-        "Name": "Summon Darkglare",
-        "Descriptions": {
-            "2592830432": "Summons a Darkglare from the Twisting Nether that extends the duration of your damage over time effects on all enemies by {1} sec.\r\n\r\nThe Darkglare will serve you for {2} sec, blasting its target for {3} Shadow damage, increased by {4}% for every damage over time effect you have active on their current target."
-        }
-    },
-    "3020593880": {
-        "Name": "Summon Demonic Tyrant",
-        "Descriptions": {
-            "3720969687": "Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to {1} of your Wild Imps by {2} sec. Your Demonic Tyrant increases the damage of affected demons by {3}%, while damaging your target.",
-            "2383469724": "Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to {1} of your Wild Imps by {2} sec. Your Demonic Tyrant increases the damage of affected demons by {3}%, while damaging your target.\r\n\r\n{FFFFFFFF|Generates {4} Soul Shards.}"
-        }
-    },
-    "835583396": {
-        "Name": "Summon Felguard",
-        "Descriptions": {
-            "2252078033": "Summons a Felguard under your command as a powerful melee combatant."
-        }
-    },
-    "1836674059": {
-        "Name": "Summon Felhunter",
-        "Descriptions": {
-            "200143703": "Summons a Felhunter under your command, able to disrupt the spell casts of your enemies."
-        }
-    },
-    "2404888648": {
-        "Name": "Summon Imp",
-        "Descriptions": {
-            "3402968296": "Summons an Imp under your command that casts ranged Firebolts."
-        }
-    },
-    "3143799940": {
-        "Name": "Summon Infernal",
-        "Descriptions": {
-            "687215551": "Summons an Infernal from the Twisting Nether, impacting for {1} Fire damage and stunning all enemies in the area for {2} sec.\r\n\r\nThe Infernal will serve you for {3} sec, dealing {4} damage to all nearby enemies every {5} sec and generating {6} Soul Shard Fragment every {7} sec."
-        }
-    },
-    "1398695114": {
-        "Name": "Summon Sayaad",
-        "Descriptions": {
-            "1632388568": "Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking.\r\n"
-        }
-    },
-    "2976978070": {
-        "Name": "Summon Vilefiend",
-        "Descriptions": {
-            "2792502153": "Summon a Vilefiend to fight for you for the next {1} sec."
-        }
-    },
-    "1185693702": {
-        "Name": "Summon Voidwalker",
-        "Descriptions": {
-            "1335465407": "Summons a Voidwalker under your command, able to withstand heavy punishment."
-        }
-    },
-    "46127813": {
-        "Name": "Sweet Souls",
-        "Descriptions": {
-            "163577413": "Your Healthstone heals you for an additional {1}% of your maximum health. Any party or raid member using a Healthstone also heals you for that amount."
-        }
-    },
-    "3829059948": {
-        "Name": "Teachings of the Black Harvest",
-        "Descriptions": {
-            "3386855358": "Your primary pets gain a bonus effect.\r\n\r\n{FFFFFFFF|Imp}: Successful Singe Magic casts grant the target {1}% damage reduction for {2} sec.\r\n\r\n{FFFFFFFF|Voidwalker}: Reduces the cooldown of Shadow Bulwark by {3} sec.\r\n\r\n{FFFFFFFF|Felhunter}: Reduces the cooldown of Devour Magic by {4} sec.\r\n\r\n{FFFFFFFF|Sayaad}: Reduces the cooldown of Seduction by {5} sec and causes the target to walk faster towards the demon.\r\n\r\n{FFFFFFFF|Felguard}: Reduces the cooldown of Pursuit by {6} sec and increases its maximum range by {7} yards.",
-            "1929087344": "Your primary pets gain a bonus effect.\r\n\r\n{FFFFFFFF|Imp}: Successful Singe Magic casts grant the target {1}% damage reduction for {2} sec.\r\n\r\n{FFFFFFFF|Voidwalker}: Reduces the cooldown of Shadow Bulwark by {3} sec.\r\n\r\n{FFFFFFFF|Felhunter}: Reduces the cooldown of Devour Magic by {4} sec.\r\n\r\n{FFFFFFFF|Sayaad}: Reduces the cooldown of Seduction by {5} sec and causes the target to walk faster towards the demon."
-        }
-    },
-    "69426114": {
-        "Name": "Teachings of the Satyr",
-        "Descriptions": {
-            "1899216767": "Reduces the cooldown of Amplify Curse by {1} sec."
-        }
-    },
-    "2447096739": {
-        "Name": "The Expendables",
-        "Descriptions": {
-            "1064542754": "When your Wild Imps expire or die, your other demons are inspired and gain {1}% additional damage, stacking up to {2} times."
-        }
-    },
-    "3770981741": {
-        "Name": "Tormented Crescendo",
-        "Descriptions": {
-            "556971380": "While Agony, Corruption, and Unstable Affliction are active, your Shadow Bolt has a {1}% chance and your Drain Soul has a {2}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly.",
-            "3047824242": "While Agony, Wither, and Unstable Affliction are active, your Shadow Bolt has a {1}% chance and your Drain Soul has a {2}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly."
-        }
-    },
-    "1960133244": {
-        "Name": "Umbral Blaze",
-        "Descriptions": {
-            "201871272": "Hand of Gul'dan has a {1}% chance to burn its target for {2} additional Shadowflame damage every {3} sec for {4} sec.\r\n\r\nIf this effect is reapplied, any remaining damage will be added to the new Umbral Blaze."
-        }
-    },
-    "1830365417": {
-        "Name": "Unending Breath",
-        "Descriptions": {
-            "309779047": "Allows an ally to breathe underwater and increases swim speed by {1}% for {2} min."
-        }
-    },
-    "753936316": {
-        "Name": "Unending Resolve",
-        "Descriptions": {
-            "3099469698": "Hardens your skin, reducing all damage you take by {1}% and granting immunity to interrupt, silence, and pushback effects for {2} sec."
-        }
-    },
-    "2527103664": {
-        "Name": "Unstable Affliction",
-        "Descriptions": {
-            "3594804388": "Afflicts one target with {1} Shadow damage over {2} sec. \r\n\r\nIf dispelled, deals {3} damage to the dispeller and silences them for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Soul [plural|Shard|Shards] if the target dies while afflicted.}",
-            "1974491877": "Unstable Affliction generates {1} Soul [plural|Shard|Shards] if the target dies.",
-            "1415490775": "Unstable Affliction's duration is increased by {1} seconds."
-        }
-    },
-    "3137095701": {
-        "Name": "Vile Taint",
-        "Descriptions": {
-            "712164893": "Unleashes a vile explosion at the target location, dealing {1} Shadow damage over {2} sec to {3} enemies within {4} yds and applies Agony and Curse of Exhaustion to them."
-        }
-    },
-    "2700650119": {
-        "Name": "Withering Bolt",
-        "Descriptions": {
-            "2007959107": "Shadow Bolt and Drain Soul deal {1}% increased damage, up to {2}%, per damage over time effect you have active on the target."
-        }
-    },
-    "149301296": {
-        "Name": "Wrathful Minion",
-        "Descriptions": {
-            "248278440": "Increases the damage done by your primary pet by {1}%.",
-            "863302834": "Increases the damage done by your primary pet by {1}%. \r\n\r\nIncreases Grimoire of Sacrifice damage by {2}%."
-        }
-    },
-    "2946988833": {
-        "Name": "Writhe in Agony",
-        "Descriptions": {
-            "340286399": "Agony's damage starts at {1} stacks and may now ramp up to {2} stacks."
-        }
-    },
-    "3273158236": {
-        "Name": "Xavian Teachings",
-        "Descriptions": {
-            "2726861178": "Corruption is instant cast and instantly deals {1} damage."
-        }
-    },
-    "1745226089": {
-        "Name": "Soul Rip",
-        "Descriptions": {
-            "1738010325": "Fracture the soul of up to {1} target players within {2} yds into the shadows, reducing their damage done by {3}% and healing received by {4}% for {5} sec. Souls are fractured up to {6} yds from the player's location.\r\n\r\nPlayers can retrieve their souls to remove this effect."
-        }
-    },
-    "2983377472": {
-        "Name": "Impish Instincts",
-        "Descriptions": {
-            "2801158429": "Taking direct Physical damage reduces the cooldown of Demonic Circle by {1} sec.\r\n\r\nCannot occur more than once every {2} sec."
-        }
-    },
-    "3582646977": {
-        "Name": "Xavius' Gambit",
-        "Descriptions": {
-            "33425978": "Unstable Affliction deals {1}% increased damage."
-        }
-    },
-    "1922821098": {
-        "Name": "Oblivion",
-        "Descriptions": {
-            "1794695598": "Unleash wicked magic upon your target's soul, dealing {1} Shadow damage over {2} sec.\r\n\r\nDeals {3}% increased damage, up to {4}%, per damage over time effect you have active on the target."
-        }
-    },
-    "432892166": {
-        "Name": "Imp-erator",
-        "Descriptions": {
-            "3787149590": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by {1}%."
-        }
-    },
-    "815716986": {
-        "Name": "Fel Firebolt",
-        "Descriptions": {
-            "3669099436": "Teaches your Wild Imps how to spend {1}% less energy when casting Fel Firebolt."
-        }
-    },
-    "2886358231": {
-        "Name": "Infirmity",
-        "Descriptions": {
-            "1067192702": "The stack count of Agony is increased by {1} when applied by Vile Taint.\r\n\r\nEnemies damaged by Phantom Singularity take {2}% increased damage from you for its duration."
-        }
-    },
-    "2395168844": {
-        "Name": "Lord Banehollow's Soulstone",
-        "Descriptions": {
-            "3670101807": "Your Soulstone tethers your ally's soul to a floating orb."
-        }
-    },
-    "3080350697": {
-        "Name": "Shadow Invocation",
-        "Descriptions": {
-            "4147812351": "Bilescourge Bombers deal {1}% increased damage, and your spells now have a chance to summon a Bilescourge Bomber."
-        }
-    },
-    "24651269": {
-        "Name": "Fel Invocation",
-        "Descriptions": {
-            "278410761": "Soul Strike deals {1}% increased damage and generates a Soul Shard."
-        }
-    },
-    "527979825": {
-        "Name": "Fiendish Oblation",
-        "Descriptions": {
-            "3097395927": "Damage dealt by Grimoire: Felguard is increased by an additional {1}% and you gain a Demonic Core when Grimoire: Felguard ends."
-        }
-    },
-    "848966093": {
-        "Name": "Demonic Tactics",
-        "Descriptions": {
-            "404710484": "Your spells have a {1}% increased chance to deal a critical strike.\r\n\r\nYou gain {2}% more of the Critical Strike stat from all sources."
-        }
-    },
-    "2753627254": {
-        "Name": "Ruination",
-        "Descriptions": {
-            "394500091": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets.",
-            "1784394232": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
-            "1665022225": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Wild Imps.\r\n\r\nDamage is reduced beyond {4} targets.",
-            "2502589668": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets."
-        }
-    },
-    "1206007996": {
-        "Name": "Swift Artifice",
-        "Descriptions": {
-            "2786658470": "Reduces the cast time of Soulstone and Create Healthstone by {1}%."
-        }
-    },
-    "3881499256": {
-        "Name": "Malefic Touch",
-        "Descriptions": {
-            "313977610": "Malefic Rapture deals an additional {1} Shadowflame damage to each target it affects."
-        }
-    },
-    "181855810": {
-        "Name": "Quietus",
-        "Descriptions": {
-            "1711974441": "Soul Anathema damage increased by {1}% and is dealt {2}% faster.\r\n\r\nConsuming Demonic Core activates Shared Fate or Feast of Souls.",
-            "4141059450": "Soul Anathema damage increased by {1}% and is dealt {2}% faster.\r\n\r\nConsuming Nightfall activates Shared Fate or Feast of Souls."
-        }
-    },
-    "1515296364": {
-        "Name": "Blackened Soul",
-        "Descriptions": {
-            "1829763560": "Spending Soul Shards on damaging spells will further corrupt enemies affected by your Wither, increasing its stack count by {1}.\r\n\r\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every {2} sec to deal {3} Shadowflame damage to its host until {4} stack remains."
-        }
-    },
-    "2890635670": {
-        "Name": "Summoner's Embrace",
-        "Descriptions": {
-            "3685442935": "Increases the damage dealt by your spells and your demon by {1}%."
-        }
-    },
-    "1841245329": {
-        "Name": "Jinx",
-        "Descriptions": {
-            "115530776": "Casting a curse now applies Corruption and Agony to your target, but curses now costs {1} Soul [plural|Shard|Shards]."
-        }
-    },
-    "960097242": {
-        "Name": "Dreadsteed",
-        "Descriptions": {
-            "2040944044": "Summons a Dreadsteed, which serves as a mount.",
-            "3138095057": "Summons a Dreadsteed, which serves as a mount. This mount can run across water until damage is taken."
-        }
-    },
-    "411235603": {
-        "Name": "Demonic Soul",
-        "Descriptions": {
-            "1872821505": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated. \r\n\r\nA Succulent Soul empowers your next Hand of Gul'dan, increasing its damage by {1}%, and unleashing your demonic soul to deal an additional {2} Shadow damage.",
-            "3503188156": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated. \r\n\r\nA Succulent Soul empowers your next Malefic Rapture, increasing its damage by {1}%, and unleashing your demonic soul to deal an additional {2} Shadow damage."
-        }
-    },
-    "1411043708": {
-        "Name": "Glyph of Soulwell",
-        "Descriptions": {
-            "577186985": "Your Soulwell glows with an eerie light."
-        }
-    },
-    "2718931260": {
-        "Name": "Gorebound Fortitude",
-        "Descriptions": {
-            "3439993268": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by {1}% and increasing your maximum health by {2}% for {3} sec."
-        }
-    },
-    "638960442": {
-        "Name": "Curse of the Satyr",
-        "Descriptions": {
-            "2645751816": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t {ffffffff|Curse of the Satyr}\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {4} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
-            "1667499066": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t {ffffffff|Curse of the Satyr}\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}"
-        }
-    },
-    "1466689387": {
-        "Name": "Aura of Enfeeblement",
-        "Descriptions": {
-            "417981367": "While Unending Resolve is active, enemies within {1} yds are affected by Curse of Tongues and Curse of Weakness at {2}% effectiveness."
-        }
-    },
-    "252175358": {
-        "Name": "Contagion",
-        "Descriptions": {
-            "183401709": "Increases critical strike damage dealt by Agony, Corruption, and Unstable Affliction by {1}%.",
-            "150173762": "Increases critical strike damage dealt by Agony, Wither, and Unstable Affliction by {1}%."
-        }
-    },
-    "2364998321": {
-        "Name": "Infernal Vitality",
-        "Descriptions": {
-            "1194020080": "Unending Resolve heals you for {1}% of your maximum health over {2} sec."
-        }
-    },
-    "341493785": {
-        "Name": "Bleakheart Tactics",
-        "Descriptions": {
-            "1687501831": "Wither damage increased {1}%. When Wither gains a stack from Blackened Soul, it has a chance to gain an additional stack."
-        }
-    },
-    "3951301327": {
-        "Name": "Shared Fate",
-        "Descriptions": {
-            "1023025147": "When you kill a target, its tortured soul is flung into a nearby enemy for {1} sec. This effect inflicts {2} Shadow damage to enemies within {3} yds every {4} sec.\r\n\r\nDeals reduced damage beyond {5} targets."
-        }
-    },
-    "3930964041": {
-        "Name": "Pact of the Ered'ruin",
-        "Descriptions": {
-            "409113750": "When Doom expires, you have a chance to summon a Doomguard that casts {1} Doom Bolts before departing. Each Doom Bolt deals {2} Shadow damage."
-        }
-    },
-    "705769235": {
-        "Name": "Wither",
-        "Descriptions": {
-            "2838605602": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing {1} Shadowflame damage immediately and an additional {2} Shadowflame damage over {3} sec.\r\n\r\n{FFFFFFFF|Replaces Corruption.}",
-            "2434552156": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing {1} Shadowflame damage immediately and an additional {2} Shadowflame damage over {3} sec.\r\n\r\n|cFFFFFFFFPeriodic damage generates {4} Soul Shard Fragment and has a {5}% chance to generate an additional {6} on critical strikes.\r\n\r\nReplaces Immolate.|r"
-        }
-    },
-    "3386147859": {
-        "Name": "Friends In Dark Places",
-        "Descriptions": {
-            "161753011": "Dark Pact now shields you for an additional {1}% of the sacrificed health."
-        }
-    },
-    "3042435663": {
-        "Name": "Cunning Cruelty",
-        "Descriptions": {
-            "3896186167": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing {1} Shadow damage to {2} enemies within {3} yards of your current target."
-        }
-    },
-    "1370994895": {
-        "Name": "Xalan's Cruelty",
-        "Descriptions": {
-            "413907555": "Shadow damage dealt by your spells and abilities is increased by {1}% and your Shadow spells gain {2}% more critical strike chance from all sources."
-        }
-    },
-    "2819748931": {
-        "Name": "Mark of F'harg",
-        "Descriptions": {
-            "1892596229": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\r\n\r\n|T1709931:24|t {ffffffff|Infernal Presence}\r\nCloaked in the ever-burning flames of the abyss, dealing {1} Fire damage to enemies within {2} yards every {3} sec."
-        }
-    },
-    "1717773578": {
-        "Name": "Foul Mouth",
-        "Descriptions": {
-            "472644083": "Increases Vilefiend damage by {1}% and your Vilefiend's Bile Spit now applies Wicked Maw."
-        }
-    },
-    "2236015391": {
-        "Name": "Mark of Shatug",
-        "Descriptions": {
-            "3282022632": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\r\n\r\n|T1709932:24|t {ffffffff|Gloom Slash}\r\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional {1} Shadow damage."
-        }
-    },
-    "1420254793": {
-        "Name": "Perpetual Unstability",
-        "Descriptions": {
-            "1773113587": "The cast time of Unstable Affliction is reduced by {1}%.\r\n\r\nRefreshing Unstable Affliction with {2} or less seconds remaining deals {3} Shadow damage to its target."
-        }
-    },
-    "261932864": {
-        "Name": "Shadowtouched",
-        "Descriptions": {
-            "193914181": "Wicked Maw causes the target to take {1}% additional Shadow damage from your demons."
-        }
-    },
-    "2981194106": {
-        "Name": "Soul-Etched Circles",
-        "Descriptions": {
-            "3144987315": "You always gain the benefit of Soulburn when casting Demonic Circle: Teleport, increasing your movement speed by {1}% and making you immune to snares and roots for {2} sec."
-        }
-    },
-    "3975971930": {
-        "Name": "Illhoof's Design",
-        "Descriptions": {
-            "491585884": "Sacrifice {1}% of your maximum health. Soul Leech now absorbs an additional {2}% of your maximum health."
-        }
-    },
-    "579453033": {
-        "Name": "Relinquished",
-        "Descriptions": {
-            "530355015": "Agony has {1} times the normal chance to generate a Soul Shard."
-        }
-    },
-    "894690727": {
-        "Name": "Abyssal Dominion",
-        "Descriptions": {
-            "3186275783": "Summon Infernal becomes empowered, dealing {1}% increased damage. When your Summon Infernal ends, it fragments into two smaller Infernals at {2}% effectiveness that lasts {3} sec.",
-            "3803550287": "Summon Demonic Tyrant is empowered, dealing {1}% increased damage and increasing the damage of your demons by {2}% while active."
-        }
-    },
-    "4233634974": {
-        "Name": "Flametouched",
-        "Descriptions": {
-            "703751909": "Increases the attack speed of your Dreadstalkers by {1}% and their critical strike chance by {2}%."
-        }
-    },
-    "3256016026": {
-        "Name": "Spiteful Reconstitution",
-        "Descriptions": {
-            "350460099": "Implosion deals {1}% increased damage. Consuming a Demonic Core has a chance to summon a Wild Imp."
-        }
-    },
-    "2467557831": {
-        "Name": "Zevrim's Resilience",
-        "Descriptions": {
-            "2672747805": "Dark Pact heals you for {1} every {2} sec while active."
-        }
-    },
-    "295783377": {
-        "Name": "Infernal Bulwark",
-        "Descriptions": {
-            "2593722284": "Unending Resolve grants Soul Leech equal to {1}% of your maximum health and increases the maximum amount Soul Leech can absorb by {2}% for {3} sec."
-        }
-    },
-    "2173468537": {
-        "Name": "Demoniac's Fervor",
-        "Descriptions": {
-            "425820133": "Your demonic soul deals {1}% increased damage to the main target of Hand of Gul'dan.",
-            "2627378295": "Your demonic soul deals {1}% increased damage to targets affected by your Unstable Affliction."
-        }
-    },
-    "2350380977": {
-        "Name": "The Houndmaster's Gambit",
-        "Descriptions": {
-            "753325741": "Your Dreadstalkers deal {1}% increased damage while your Vilefiend is active."
-        }
-    },
-    "4126541812": {
-        "Name": "Felsteed",
-        "Descriptions": {
-            "1399337636": "Summons a Felsteed, which serves as a mount. "
-        }
-    },
-    "2380908200": {
-        "Name": "Xalan's Ferocity",
-        "Descriptions": {
-            "3440946574": "Fire damage dealt by your spells and abilities is increased by {1}% and your Fire spells gain {2}% more critical strike chance from all sources."
-        }
-    },
-    "1928507757": {
-        "Name": "Glyph of Ember Shards",
-        "Descriptions": {
-            "2061193264": "As a Destruction Warlock your Soul Shards can be encased in burning embers that float above your head. "
-        }
-    },
-    "3565416473": {
-        "Name": "Improved Shadow Bolt",
-        "Descriptions": {
-            "2392262403": "Reduces the cast time of Shadow Bolt by {1}% and increases its damage by {2}%."
-        }
-    },
-    "3222745080": {
-        "Name": "Infernal Machine",
-        "Descriptions": {
-            "1279158878": "Spending Soul Shards on damaging spells while your Infernal is active decreases the duration of Diabolic Ritual by {1} additional sec.",
-            "761515909": "Spending Soul Shards on damaging spells while your Demonic Tyrant is active decreases the duration of Diabolic Ritual by {1} additional sec."
-        }
-    },
-    "1854345811": {
-        "Name": "Glyph of the Inquisitor's Eye",
-        "Descriptions": {
-            "1587095286": "Transforms your Eye of Kilrogg into an Inquisitor's Eye."
-        }
-    },
-    "1490842862": {
-        "Name": "Improved Chaos Bolt",
-        "Descriptions": {
-            "2264598061": "Increases the damage of Chaos Bolt by {1}% and reduces its cast time by {2} sec."
-        }
-    },
-    "910604399": {
-        "Name": "Glyph of the Demon Eye",
-        "Descriptions": {
-            "487595362": "Transforms your Eye of Kilrogg into a demonic floating eye."
-        }
-    },
-    "4187839700": {
-        "Name": "Feast of Souls",
-        "Descriptions": {
-            "3620782526": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul."
-        }
-    },
-    "550218047": {
-        "Name": "Incubus Pact",
-        "Descriptions": {
-            "4016454600": "Summons your Incubus."
-        }
-    },
-    "134825196": {
-        "Name": "Demoniac",
-        "Descriptions": {
-            "648427275": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t {ffffffff|Demonbolt}\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shards.}\r\n\r\n|T571321:24|t {ffffffff|Demonic Core}\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {4}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {5}%. Maximum {6} stacks."
-        }
-    },
-    "2779829843": {
-        "Name": "Shadow of Death",
-        "Descriptions": {
-            "2453868423": "Your Summon Demonic Tyrant spell is empowered by the demonic entity within you, causing it to grant {1} Soul Shards that each contain a Succulent Soul.",
-            "92628157": "Your Soul Rot spell is empowered by the demonic entity within you, causing it to grant {1} Soul Shards that each contain a Succulent Soul."
-        }
-    },
-    "2480430229": {
-        "Name": "Shoot",
-        "Descriptions": {
-            "438340127": "Attack with an equipped wand."
-        }
-    },
-    "3732535044": {
-        "Name": "Hatefury Rituals",
-        "Descriptions": {
-            "3212957172": "Wither deals {1}% increased periodic damage but its duration is {2}% shorter."
-        }
-    },
-    "1097241432": {
-        "Name": "Seeds of Their Demise",
-        "Descriptions": {
-            "3754617815": "After Wither reaches {1} stacks or when its host reaches {2}% health, Wither deals {3} Shadowflame damage to its host every {4} sec until {5} stack remains.\r\n\r\nWhen Blackened Soul deals damage, you have a chance to gain Tormented Crescendo.",
-            "3990154179": "After Wither reaches {1} stacks or when its host reaches {2}% health, Wither deals {3} Shadowflame damage to its host every {4} sec until {5} stack remains.\r\n\r\nWhen Blackened Soul deals damage, you have a chance to gain {6} stacks of Flashpoint."
-        }
-    },
-    "4250268996": {
-        "Name": "Sataiel's Volition",
-        "Descriptions": {
-            "3206210380": "Wild Imp damage increased by {1}% and Wild Imps that are imploded have an additional {2}% chance to grant a Demonic Core.",
-            "2024530571": "Corruption deals damage {1}% faster and Haunt grants Nightfall."
-        }
-    },
-    "2457300757": {
-        "Name": "Flames of Xoroth",
-        "Descriptions": {
-            "2463750367": "Fire damage increased by {1}% and damage dealt by your demons is increased by {2}%."
-        }
-    },
-    "2952619691": {
-        "Name": "Volatile Agony",
-        "Descriptions": {
-            "3848435437": "Refreshing Agony with {1} or less seconds remaining deals {2} Shadow damage to its target and enemies within {3} yards.\r\n\r\nDeals reduced damage beyond {4} targets."
-        }
-    },
-    "3364395799": {
-        "Name": "Cruelty of Kerxan",
-        "Descriptions": {
-            "1493985832": "Summon Infernal grants Diabolic Ritual and reduces its duration by {1} sec.",
-            "2548345575": "Summon Demonic Tyrant grants Diabolic Ritual and reduces its duration by {1} sec."
-        }
-    },
-    "993506315": {
-        "Name": "Indiscriminate Flames",
-        "Descriptions": {
-            "754504891": "Backdraft increases the damage of your next Chaos Bolt by {1}% and increases the critical strike chance of your next Incinerate or Soul Fire by {2}%."
-        }
-    },
-    "2336955163": {
-        "Name": "Demonic Brutality",
-        "Descriptions": {
-            "4243517610": "Critical strikes from your spells and your demons deal {1}% increased damage."
-        }
-    },
-    "2068847484": {
-        "Name": "Diabolic Ritual",
-        "Descriptions": {
-            "1421124289": "Spending a Soul Shard on a damaging spell grants Diabolic Ritual for {1} sec. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by {2} sec.\r\n\r\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Hand of Gul'dan to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.",
-            "456648881": "Casting Chaos Bolt, Rain of Fire, or Shadowburn grants Diabolic Ritual for {1} sec. If Diabolic Ritual is already active, its duration is reduced by {2} sec instead.\r\n\r\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Chaos Bolt, Rain of Fire, or Shadowburn to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies."
-        }
-    },
-    "2410727175": {
-        "Name": "Devastation",
-        "Descriptions": {
-            "1718790555": "Increases the critical strike chance of your Destruction spells by {1}%."
-        }
-    },
-    "752594867": {
-        "Name": "Necrolyte Teachings",
-        "Descriptions": {
-            "3071979855": "Shadow Bolt damage increased by {1}%. Power Siphon increases the damage of Demonbolt by an additional {2}%.",
-            "174426652": "Shadow Bolt and Drain Soul damage increased by {1}%. Nightfall increases the damage of Shadow Bolt and Drain Soul by an additional {2}%."
-        }
-    },
-    "529545098": {
-        "Name": "Blood Invocation",
-        "Descriptions": {
-            "3242816060": "Power Siphon increases the damage of Demonbolt by an additional {1}%."
-        }
-    },
-    "3827808961": {
-        "Name": "Doom Eternal",
-        "Descriptions": {
-            "929040285": "When Doom expires, you have a {1}% chance to generate a Demonic Core."
-        }
-    },
-    "1590776365": {
-        "Name": "Gloom of Nathreza",
-        "Descriptions": {
-            "235054662": "Enemies marked by your Havoc take {1}% increased damage from your single target spells.",
-            "3464672423": "Hand of Gul'dan deals {1}% increased damage for each Soul Shard spent."
-        }
-    },
-    "1553094832": {
-        "Name": "Mark of Peroth'arn",
-        "Descriptions": {
-            "2297627960": "Critical strike damage dealt by Wither is increased by {1}%. \r\n\r\nWither has a chance to gain a stack when it critically strikes. Stacks gained this way do not activate Blackened Soul."
-        }
-    },
-    "3578213718": {
-        "Name": "Eternal Servitude",
-        "Descriptions": {
-            "1824412344": "Fel Domination cooldown is reduced by {1} sec."
-        }
-    },
-    "4176912559": {
-        "Name": "Improved Demonic Tactics",
-        "Descriptions": {
-            "3492381534": "Increases your primary Felguard's critical strike chance equal to {1}% of your critical strike chance."
-        }
-    },
-    "2951426598": {
-        "Name": "Glyph of Soul Rot",
-        "Descriptions": {
-            "3996045496": "Soul Rot now resembles the Night Fae Covenant Ability."
-        }
-    },
-    "3261771134": {
-        "Name": "Glyph of Felguard",
-        "Descriptions": {
-            "430009119": "Your Felguard will equip a random two-handed axe, mace, sword, or polearm from your backpack."
-        }
-    },
-    "4092340596": {
-        "Name": "Malediction",
-        "Descriptions": {
-            "332531712": "Increases the critical strike chance of Agony, Corruption, and Unstable Affliction by {1}%.",
-            "2250147226": "Increases the critical strike chance of Agony, Wither, and Unstable Affliction by {1}%."
-        }
-    },
-    "1652091509": {
-        "Name": "Glyph of Crimson Banish",
-        "Descriptions": {
-            "2084214909": "Your Banish spell is now red."
-        }
-    },
-    "4009883092": {
-        "Name": "Wicked Reaping",
-        "Descriptions": {
-            "3952593203": "Damage dealt by your demonic soul is increased by {1}%.\r\n\r\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal {2} Shadow damage to your target.",
-            "984230746": "Damage dealt by your demonic soul is increased by {1}%.\r\n\r\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal {2} Shadow damage to your target."
-        }
-    },
-    "579733896": {
-        "Name": "Fiendish Cruelty",
-        "Descriptions": {
-            "468143396": "When Shadowburn fails to kill a target that is at or below {1}% health, its cooldown is reduced by {2} sec."
-        }
-    },
-    "2313410806": {
-        "Name": "Kilrogg's Cunning",
-        "Descriptions": {
-            "160941228": "Your Eye of Kilrogg is no longer stealthed and can now place your Demonic Circle. You must be within line of sight of the Eye of Kilrogg to place the Demonic Circle.\r\n\r\nThe movement speed of your Eye of Kilrogg is increased by {FFFFFFFF|{1}%}."
-        }
-    },
-    "4102194587": {
-        "Name": "Improved Haunt",
-        "Descriptions": {
-            "1338082550": "Increases the damage of Haunt by {1}% and reduces its cast time by {2}%. Haunt now applies Shadow Embrace."
-        }
-    },
-    "2232803187": {
-        "Name": "Ravenous Afflictions",
-        "Descriptions": {
-            "2279340369": "Critical strikes from your Agony, Corruption, and Unstable Affliction have a chance to grant Nightfall.",
-            "1610573314": "Critical strikes from your Agony, Wither, and Unstable Affliction have a chance to grant Nightfall."
-        }
-    },
-    "3645327762": {
-        "Name": "Blistering Atrophy",
-        "Descriptions": {
-            "2024788798": "Increases the damage of Shadowburn by {1}%. The critical strike chance of Shadowburn is increased by an additional {2}% when damaging a target that is at or below {3}% health."
-        }
-    },
-    "2684406185": {
-        "Name": "Improved Malefic Rapture",
-        "Descriptions": {
-            "3014121681": "Increases Malefic Rapture damage by {1}% and reduces its cast time by {2}%."
-        }
-    },
-    "928277546": {
-        "Name": "Soul Anathema",
-        "Descriptions": {
-            "3960489958": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing {1} Shadow damage over {2} sec.\r\n\r\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema."
-        }
-    },
-    "116237980": {
-        "Name": "Cloven Souls",
-        "Descriptions": {
-            "3451324296": "Enemies damaged by your Overlord have their souls cloven, increasing damage taken by you and your pets by {1}% for {2} sec."
-        }
-    },
-    "3608992167": {
-        "Name": "Secrets of the Coven",
-        "Descriptions": {
-            "1966357102": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\r\n\r\n|T841220:24|t {ffffffff|Infernal Bolt}\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards.",
-            "3110325049": "Mother of Chaos empowers your next Incinerate to become Infernal Bolt.\r\n\r\n|T841220:24|t {ffffffff|Infernal Bolt}\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards."
-        }
-    },
-    "3162782482": {
-        "Name": "Touch of Rancora",
-        "Descriptions": {
-            "55779947": "Demonic Art increases the damage of your next Hand of Gul'dan by {1}% and reduces its cast time by {2}%.",
-            "839143379": "Demonic Art increases the damage of your next Chaos Bolt, Rain of Fire, or Shadowburn by {1}% and reduces its cast time by {2}%.\r\n\r\nCasting Chaos Bolt reduces the duration of Diabolic Ritual by {3} additional sec."
-        }
-    },
-    "4055383399": {
-        "Name": "Death's Embrace",
-        "Descriptions": {
-            "33794351": "Increases Drain Life healing by {1}% while your health is at or below {2}% health. \r\n\r\nDamage done by your Agony, Corruption, Unstable Affliction, and Malefic Rapture is increased by {3}% when your target is at or below {4}% health.",
-            "3863976114": "Increases Drain Life healing by {1}% while your health is at or below {2}% health. \r\n\r\nDamage done by your Agony, Wither, Unstable Affliction, and Malefic Rapture is increased by {3}% when your target is at or below {4}% health."
-        }
-    },
-    "11436863": {
-        "Name": "Mark of Xavius",
-        "Descriptions": {
-            "4203076518": "Wither damage increased by {1}%.\r\n\r\nBlackened Soul deals {2}% increased damage per stack of Wither.",
-            "2009186724": "Agony damage increased by {1}%.\r\n\r\nBlackened Soul deals {2}% increased damage per stack of Wither."
-        }
-    },
-    "3923893920": {
-        "Name": "Emberstorm",
-        "Descriptions": {
-            "334300076": "Increases the damage done by your Fire spells by {1}% and reduces the cast time of your Incinerate spell by {2}%."
-        }
-    },
-    "273218715": {
-        "Name": "Unstable Rifts",
-        "Descriptions": {
-            "153478707": "Bolts from Dimensional Rift now deal {1}% of damage dealt to nearby enemies as Fire damage."
-        }
-    },
-    "1514508001": {
-        "Name": "Pact of Gluttony",
-        "Descriptions": {
-            "2597475297": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t {ffffffff|Demonic Healthstone}\r\nInstantly restores {1}% health, plus an additional {2}% over {3} sec. {4} sec cooldown.",
-            "4286989726": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\r\n\r\n|T538744:24|t {ffffffff|Demonic Healthstone}\r\nInstantly restores {1}% health. {2} sec cooldown."
-        }
-    },
-    "1921555079": {
-        "Name": "Dimension Ripper",
-        "Descriptions": {
-            "2259546828": "Periodic damage dealt by Immolate has a {1}% chance to tear open a Dimensional Rift.",
-            "3012023330": "Periodic damage dealt by Wither has a {1}% chance to tear open a Dimensional Rift."
-        }
-    },
-    "2376535381": {
-        "Name": "Demonfire Mastery",
-        "Descriptions": {
-            "2413956643": "Increases the damage of Channel Demonfire by {1}% and it deals damage {2}% faster."
-        }
-    },
-    "441874227": {
-        "Name": "Rune of Shadows",
-        "Descriptions": {
-            "3860309387": "Increases all damage done by your pet by {1}%.\r\n\r\nReduces the cast time of Shadow Bolt by {2}% and increases its damage by {3}%."
-        }
-    },
-    "650744713": {
-        "Name": "Gorefiend's Resolve",
-        "Descriptions": {
-            "1487602528": "Targets resurrected with Soulstone resurrect with {1}% additional health and {2}% additional mana."
-        }
-    },
-    "2427382519": {
-        "Name": "Impending Doom",
-        "Descriptions": {
-            "116874616": "Increases the damage of Doom by {1}% and Doom summons {2} Wild Imp when it expires."
-        }
-    },
-    "4147368721": {
-        "Name": "Glyph of Floating Shards",
-        "Descriptions": {
-            "847038111": "Your Soul Shards now float above your head. "
-        }
-    },
-    "414407797": {
-        "Name": "Glyph of Fel-Touched Shards",
-        "Descriptions": {
-            "2938894264": "Your Soul Shards have been touched by fel energy. "
-        }
-    },
-    "3877422661": {
-        "Name": "Succubus Pact",
-        "Descriptions": {
-            "1561930067": "Summons your Succubus."
-        }
-    },
-    "2376925656": {
-        "Name": "Malign Omen",
-        "Descriptions": {
-            "2331962557": "Casting Soul Rot grants {1} applications of Malign Omen.\r\n\r\n|T136131:24|t {ffffffff|Malign Omen}\r\nYour next Malefic Rapture deals {2}% increased damage and extends the duration of your damage over time effects and Haunt by {3} sec."
-        }
-    },
-    "3016810849": {
-        "Name": "Cull the Weak",
-        "Descriptions": {
-            "2213904024": "Malefic Rapture damage is increased by {1}% for each enemy it hits, up to {2} enemies."
-        }
-    },
-    "1411060816": {
-        "Name": "Malevolence",
-        "Descriptions": {
-            "263706401": "Dark magic erupts from you and corrupts your soul for {1} sec, causing enemies suffering from your Wither to take {2} Shadowflame damage and increase its stack count by {3}.\r\n\r\nWhile corrupted your Haste is increased by {4}% and spending Soul Shards on damaging spells grants {5} additional stack of Wither."
-        }
-    },
-    "1225078501": {
-        "Name": "Annihilan's Bellow",
-        "Descriptions": {
-            "1373142373": "Howl of Terror cooldown is reduced by {1} sec and range is increased by {2} yds."
-        }
-    },
-    "591220054": {
-        "Name": "Wicked Maw",
-        "Descriptions": {
-            "2701492947": "Dreadbite causes the target to take {1}% additional Shadowflame damage from your spell and abilities for the next {2} sec."
-        }
-    }
+    "name:3535169535": "Absolute Corruption",
+    "desc:1047323590": "Wither is now permanent and deals {1}% increased damage.\r\n\r\nDuration reduced to {2} sec against players.",
+    "name:170137719": "Abyss Walker",
+    "desc:4101551753": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by {1}% for {2} sec.",
+    "name:1037012442": "Accrued Vitality",
+    "desc:950143210": "Drain Life heals for {1}% of the amount drained over {2} sec.",
+    "name:3821274076": "Agony",
+    "desc:1863122312": "Agony may now ramp up to {1} stacks.",
+    "desc:2961414238": "Inflicts increasing agony on the target, causing up to {1} Shadow damage over {2} sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.\r\n\r\n{FFFFFFFF|Agony damage sometimes generates {3} Soul Shard.}",
+    "name:35197342": "Amplify Curse",
+    "desc:1683384832": "Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within {1} sec is amplified.\r\n\r\n{ffffffff|Curse of Exhaustion}\r\nReduces the target's movement speed by an additional {2}%.\r\n\r\n{ffffffff|Curse of Tongues}\r\nIncreases casting time by an additional {3}%.\r\n\r\n{ffffffff|Curse of Weakness}\r\nEnemy is unable to critically strike.",
+    "name:2766631187": "Antoran Armaments",
+    "desc:1708363367": "Your Felguard deals {1}% additional damage. Soul Strike now deals {2}% of its damage to nearby enemies.",
+    "name:2470680516": "Ashen Remains",
+    "desc:1947994942": "Chaos Bolt, Shadowburn, and Incinerate deal {1}% increased damage to targets afflicted by Immolate.",
+    "name:2627564480": "Annihilan Training",
+    "desc:812418970": "Your Felguard deals {1}% more damage and takes {2}% less damage.",
+    "name:85296494": "Avatar of Destruction",
+    "desc:592431654": "Consuming Ritual of Ruin summons an Overfiend for {1} sec.\r\n\r\n|T135793:24|t {ffffffff|Summon Overfiend}\r\nGenerates {2} Soul Shard Fragment every {3} sec and casts Chaos Bolt at {4}% effectiveness at its summoner's target.",
+    "name:4247287489": "Backdraft",
+    "desc:743739596": "Conflagrate reduces the cast time of your next Incinerate, Chaos Bolt, or Soul Fire by {1}%. Maximum {2} charges.",
+    "name:1894725468": "Backlash",
+    "desc:1474170313": "Increases your critical strike chance by {1}%.\r\n\r\nPhysical attacks against you have a {2}% chance to make your next Incinerate instant cast. This effect can only occur once every {3} sec.",
+    "name:1268612158": "Bane of Havoc",
+    "desc:3999775216": "Your single target spells have a {1}% chance to curse the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for  {2}% of the damage dealt. Lasts {3} sec.",
+    "name:2893917825": "Banish",
+    "desc:4150865413": "Banishes an enemy Demon, Aberration, or Elemental, preventing any action for {1} sec. Limit {2}. Casting Banish again on the target will cancel the effect.",
+    "name:3912146769": "Bilescourge Bombers",
+    "desc:3319191896": "Tear open a portal to the nether above the target location, from which several Bilescourge will pour out of and crash into the ground over {1} sec, dealing {2} Shadow damage to all enemies within {3} yards.",
+    "name:1185342323": "Bonds of Fel",
+    "desc:3052128243": "Encircle enemy players with Bonds of Fel. If any affected player leaves the {1} yd radius they explode, dealing {2} Fire damage split amongst all nearby enemies.",
+    "name:1312406358": "Burn to Ashes",
+    "desc:1059953555": "Chaos Bolt and Rain of Fire increase the damage of your next {1} Incinerates by {2}%. Shadowburn increases the damage of your next Incinerate by {3}%.\r\n\r\nStacks up to {4} times.",
+    "name:4217114025": "Burning Rush",
+    "desc:2454748695": "Increases your movement speed by {1}%, but also damages you for {2}% of your maximum health every {3} sec. Movement impairing effects may not reduce you below {4}% of normal movement speed. Lasts {5} sec.",
+    "name:3913991105": "Call Dreadstalkers",
+    "desc:3950242694": "Summons {1} ferocious Dreadstalkers to attack the target for {2} sec.",
+    "name:2691787832": "Call Fel Lord",
+    "desc:945566993": "Summon a fel lord to guard the location for {1} sec. Any enemy that comes within {2} yards will suffer {3} Physical damage, and players struck will be stunned for {4} sec.",
+    "name:2950708348": "Call Observer",
+    "desc:517673555": "Summons a demonic Observer to keep a watchful eye over the area for {1} sec.\r\n\r\nAnytime an enemy within {2} yards casts a harmful magical spell, the Observer will deal up to {3}% of the target's maximum health in Shadow damage.",
+    "name:2857263879": "Carnivorous Stalkers",
+    "desc:1720344248": "Your Dreadstalkers' attacks have a {1}% chance to trigger an additional Dreadbite.",
+    "name:2150582420": "Cataclysm",
+    "desc:1575158382": "Calls forth a cataclysm at the target location, dealing {1} Shadowflame damage to all enemies within {2} yards and afflicting them with Immolate.",
+    "name:2911758243": "Channel Demonfire",
+    "desc:570811739": "Launches {1} bolts of felfire over {2} sec at random targets afflicted by your Immolate within {3} yds. Each bolt deals {4} Fire damage to the target and {5} Fire damage to nearby enemies.",
+    "name:1069411448": "Chaos Bolt",
+    "desc:2382836120": "Unleashes a devastating blast of chaos, dealing a critical strike for {1} Chaos damage. Damage is further increased by your critical strike chance.",
+    "name:581237316": "Chaos Incarnate",
+    "desc:1861047160": "Chaos Bolt, Rain of Fire, and Shadowburn always gain at least {1}% of the maximum benefit from your Mastery: Chaotic Energies.",
+    "name:3991865257": "Command Demon",
+    "desc:1922453891": "Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. \r\n\r\nFelguard: {ffffffff|Axe Toss}\r\nFelhunter: {ffffffff|Spell Lock}\r\nVoidwalker: {ffffffff|Shadow Bulwark}\r\nIncubus/Succubus: {ffffffff|Seduction}\r\nImp: {ffffffff|Singe Magic}",
+    "name:111674867": "Conflagrate",
+    "desc:1654613085": "Triggers an explosion on the target, dealing {1} Fire damage.\r\n\r\nReduces the cast time of your next Incinerate or Chaos Bolt by {2}% for {3} sec.\r\n\r\n{FFFFFFFF|Generates {4} Soul Shard Fragments.}",
+    "name:1461878397": "Conflagration of Chaos",
+    "desc:1145311017": "Conflagrate and Shadowburn have a {1}% chance to guarantee your next cast of the ability to critically strike, and increase its damage by your critical strike chance.",
+    "name:2668875145": "Crashing Chaos",
+    "desc:169092991": "Summon Infernal increases the damage of your next {1} casts of Chaos Bolt by {2}% or your next {3} casts of Rain of Fire by {4}%.",
+    "name:287662580": "Create Healthstone",
+    "desc:3560120991": "Creates a Healthstone that can be consumed to restore {1}% health.",
+    "name:665072159": "Create Soulwell",
+    "desc:981485303": "Creates a Soulwell for {1} min. Party and raid members can use the Soulwell to acquire a Healthstone.",
+    "name:3517035502": "Creeping Death",
+    "desc:3475362211": "Your Agony, Corruption, and Unstable Affliction deal damage {1}% faster.",
+    "name:2195292021": "Curse of Weakness",
+    "desc:3036751027": "Increases the time between an enemy's attacks by {1}% for {2} min.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
+    "name:3835653911": "Curses of Enfeeblement",
+    "desc:2276785395": "Grants access to the following abilities:\r\n\r\n|T136140:24|t{ffffffff|Curse of Tongues}:\r\nForces the target to speak in Demonic, increasing the casting time of all spells by {1}% for {2} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Tongues will affect all enemies in a {3} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}\r\n\r\n|T136162:24|t{ffffffff|Curse of Exhaustion}:\r\nReduces the target's movement speed by {4}% for {5} sec.\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
+    "name:3061776275": "Dark Accord",
+    "desc:130858891": "Reduces the cooldown of Unending Resolve by {1} sec.",
+    "name:1413997351": "Dark Harvest",
+    "desc:3355831603": "Each target affected by Soul Rot increases your haste and critical strike chance by {1}% for {2} sec.",
+    "name:1770179588": "Dark Pact",
+    "desc:2949090936": "Sacrifices {1}% of your current health to shield you for {2}% of the sacrificed health plus an additional {3} for {4} sec. Usable while suffering from control impairing effects.",
+    "name:1567528133": "Dark Virtuosity",
+    "desc:3335008756": "Shadow Bolt and Drain Soul deal an additional {1}% damage.",
+    "name:1575981116": "Darkfury",
+    "desc:2190193273": "Reduces the cooldown of Shadowfury by {1} sec and increases its radius by {2} yards.",
+    "name:3564839319": "Decimation",
+    "desc:1651069380": "When your direct damaging abilities deal a critical strike, they have a chance to reset the cooldown of Soul Fire and reduce the cast time of your next Soul Fire by {1}%.",
+    "name:1255957523": "Demon Skin",
+    "desc:1415758140": "Your Soul Leech absorption now passively recharges at a rate of {1}% of maximum health every {2} sec, and may now absorb up to {3}% of maximum health.\r\n\r\nIncreases your armor by {4}%.",
+    "name:2553320837": "Demonic Calling",
+    "desc:300473927": "Shadow Bolt has a {1}% chance to make your next Call Dreadstalkers cost {2} fewer Soul [plural|Shard|Shards] and have no cast time.",
+    "name:4083105957": "Demonic Circle",
+    "desc:2754229084": "Summons a Demonic Circle for {1} sec. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.\r\n\r\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located.\r\n\r\nYou also learn:\r\n\r\n|T237560:24|t {ffffffff|Demonic Circle: Teleport}\r\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
+    "name:2981598639": "Demonic Embrace",
+    "desc:2367237183": "Stamina increased by {1}%.",
+    "name:3445369472": "Demonic Fortitude",
+    "desc:3949458342": "Increases you and your pets' maximum health by {1}%.",
+    "name:1605870848": "Demonic Gateway",
+    "desc:3428476971": "Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per {1} sec.",
+    "name:3126948425": "Demonic Inspiration",
+    "desc:32093178": "Increases the attack speed of your primary pet by {1}%.",
+    "name:901386111": "Demonic Resilience",
+    "desc:1809859130": "Reduces the chance you will be critically struck by {1}%. All damage your primary demon takes is reduced by {2}%.",
+    "name:3477365320": "Demonic Strength",
+    "desc:3930126302": "Infuse your Felguard with demonic strength and command it to charge your target and unleash a Felstorm that will deal {1}% increased damage.",
+    "name:868686024": "Diabolic Embers",
+    "desc:111423807": "Incinerate now generates {1}% additional Soul Shard Fragments.",
+    "name:2707111912": "Dimensional Rift",
+    "desc:3631518118": "Rips a hole in time and space, opening a random portal that damages your target:\r\n\r\n|T607513:24|t{ffffffff|Shadowy Tear}\r\nDeals {1} Shadow damage over {2} sec.\r\n\r\n|T607512:24|t{ffffffff|Unstable Tear}\r\nDeals {3} Chaos damage over {4} sec.\r\n\r\n|T1394890:24|t{ffffffff|Chaos Tear}\r\nFires a Chaos Bolt, dealing {5} Chaos damage. This Chaos Bolt always critically strikes and your critical strike chance increases its damage.\r\n\r\n{FFFFFFFF|Generates {6} Soul Shard Fragments.}",
+    "name:195570028": "Doom",
+    "desc:139490265": "When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing {1} Shadow damage to enemies within {2} yds of its target after {3} sec or when removed. Damage is reduced beyond {4} targets.\r\n\r\nEach Soul Shard spent on Hand of Gul'dan reduces the duration of Doom by {5} sec.",
+    "name:1760327772": "Drain Life",
+    "desc:1167953575": "Drains life from the target, causing {1} Shadow damage over {2} sec, and healing you for {3}% of the damage done.",
+    "name:430715749": "Drain Soul",
+    "desc:2683542540": "Replaces Shadow Bolt.\r\n\r\nDrains the target's soul, causing {1} Shadow damage over {2} sec.\r\n\r\nDamage is increased by {3}% against enemies below {4}% health.\r\n\r\n{FFFFFFFF|Generates {5} Soul Shard if the target dies during this effect.}",
+    "name:1835849483": "Dread Calling",
+    "name:1675134087": "Dreadlash",
+    "desc:2774900909": "When your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within {1} yards and deals {2}% more damage.",
+    "name:4235810903": "Eradication",
+    "desc:2132326629": "Chaos Bolt and Shadowburn increases the damage you deal to the target by {1}% for {2} sec.",
+    "name:20974827": "Essence Drain",
+    "desc:1272373733": "Whenever you heal yourself with Drain Life, the enemy target deals {1}% reduced damage to you for {2} sec. Stacks up to {3} times.",
+    "name:2654602187": "Explosive Potential",
+    "desc:1725765667": "Reduces the cooldown of Conflagrate by {1} sec.",
+    "name:3563021145": "Eye of Kilrogg",
+    "desc:846175217": "Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile.",
+    "name:571099423": "Fear",
+    "desc:1697597920": "Strikes fear in the enemy, disorienting for {1} sec. Damage may cancel the effect. Limit {2}.",
+    "desc:427640396": "You no longer suffer spell pushback when casting Fear.",
+    "name:928857754": "Fel Armor",
+    "desc:1486703742": "When Soul Leech absorbs damage, {1}% of damage taken is absorbed and spread out over {2} sec.\r\n\r\nReduces damage taken by {3}%.",
+    "name:144696049": "Fel Domination",
+    "desc:2039911819": "Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by {1}%.\r\n",
+    "name:3743070776": "Fel Fissure",
+    "desc:2434870812": "Chaos Bolt creates a {1} yd wide eruption of Felfire under the target, reducing movement speed by {2}% and reducing all healing received by {3}% on all enemies within the fissure. Lasts {4} sec.",
+    "name:3973297371": "Fel Pact",
+    "desc:4065367667": "Reduces the cooldown of Fel Domination by {1} sec.",
+    "name:3746089725": "Fel Sunder",
+    "desc:3700213830": "Each time Felstorm deals damage, it increases the damage the target takes from you and your pets by {1}% for {2} sec, up to {3}%.",
+    "name:1609873327": "Fel Synergy",
+    "desc:1267277486": "Soul Leech also heals you for {1}% and your pet for {2}% of the absorption it grants.",
+    "name:576389273": "Fiendish Stride",
+    "desc:2023386643": "Reduces the damage dealt by Burning Rush by {1}%. Burning Rush increases your movement speed by an additional {2}%.",
+    "name:12566229": "Fire and Brimstone",
+    "desc:1890258793": "Incinerate now also hits all enemies near your target for {1}% damage.",
+    "name:3745083323": "Flashpoint",
+    "desc:3550479281": "When your Wither deals periodic damage to a target above {1}% health, gain {2}% Haste for {3} sec.\r\n\r\nStacks up to {4} times.",
+    "name:2394452837": "Focused Malignancy",
+    "desc:1277829382": "Malefic Rapture deals {1}% increased damage to targets suffering from Unstable Affliction.",
+    "name:2555929683": "Frequent Donor",
+    "desc:3542594943": "Reduces the cooldown of Dark Pact by {1} sec.",
+    "name:1083881337": "Gateway Mastery",
+    "desc:283533061": "Increases the range of your Demonic Gateway by {1} yards, and reduces the cast time by {2}%. Reduces the time between how often players can take your Demonic Gateway by {3} sec.",
+    "name:2795382296": "Grimoire of Sacrifice",
+    "desc:1639977710": "Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal {1} additional Shadow damage.\r\n\r\nLasts {2} sec or until you summon a demon pet.",
+    "name:1639261440": "Grimoire: Felguard",
+    "desc:2006125073": "Summons a Felguard who attacks the target for {1} sec that deals {2}% increased damage.\r\n\r\nThis Felguard will stun and interrupt their target when summoned.",
+    "name:3348232979": "Guillotine",
+    "desc:827010990": "Your Felguard hurls his axe towards the target location, erupting when it lands and dealing {1} Shadowflame damage every {2} sec for {3} sec to nearby enemies.\r\n\r\nWhile unarmed, your Felguard's basic attacks deal damage to all nearby enemies and attacks {4}% faster.",
+    "name:2247754259": "Hand of Gul'dan",
+    "desc:3939364626": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\r\n\r\nDeals up to {1} Shadowflame damage on impact to all enemies within {2} yds of the target, applies Doom to each target, and summons up to {3} Wild Imps, based on Soul Shards consumed.",
+    "name:1711575298": "Haunt",
+    "desc:3890750652": "A ghostly soul haunts the target, dealing {1} Shadow damage and increasing your damage dealt to the target by {2}% for {3} sec.\r\n\r\nIf the target dies, Haunt's cooldown is reset.",
+    "name:3611643100": "Havoc",
+    "desc:2752749756": "Marks a target with Havoc for {1} sec, causing your single target spells to also strike the Havoc victim for {2}% of the damage dealt.",
+    "name:635301552": "Health Funnel",
+    "desc:3705695246": "Sacrifices {1}% of your maximum health to heal your summoned Demon for twice as much over {2} sec.",
+    "name:3450919618": "Horrify",
+    "desc:283132590": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
+    "name:2723684173": "Howl of Terror",
+    "desc:3898272633": "Let loose a terrifying howl, causing {1} enemies within {2} yds to flee in fear, disorienting them for {3} sec. Damage may cancel the effect.",
+    "name:3390474368": "Ichor of Devils",
+    "desc:112829595": "Dark Pact sacrifices only {1}% of your current health for the same shield value.",
+    "name:2994042834": "Immutable Hatred",
+    "desc:723467135": "When you consume a Demonic Core, your primary Felguard carves your target, dealing {1} Physical damage.",
+    "name:2105186163": "Imp Gang Boss",
+    "desc:2549776700": "Summoning a Wild Imp has a {1}% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals {2}% additional damage. \r\n\r\nImplosions from Imp Gang Boss deal {3}% increased damage.",
+    "name:4150999392": "Implosion",
+    "desc:1224281416": "Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing {1} Shadowflame damage to all enemies within {2} yards.",
+    "name:533106281": "Improved Conflagrate",
+    "desc:1165433231": "Conflagrate gains an additional charge.",
+    "name:239421470": "Inferno",
+    "desc:3522016984": "Rain of Fire damage is increased by {1}% and its Soul Shard cost is reduced by {2}.",
+    "name:108383345": "Inner Demons",
+    "desc:80168848": "You passively summon a Wild Imp to fight for you every {1} sec.",
+    "name:1416091403": "Internal Combustion",
+    "desc:3048906990": "Chaos Bolt consumes up to {1} sec of Immolate's damage over time effect on your target, instantly dealing that much damage.",
+    "name:2833074765": "Kindled Malice",
+    "desc:3510445756": "Malefic Rapture damage increased by {1}%. Corruption damage increased by {2}%.",
+    "name:2646401187": "Lifeblood",
+    "desc:2187475883": "When you use a Healthstone, gain {1}% Leech for {2} sec.",
+    "name:3651427022": "Malefic Rapture",
+    "desc:3685231363": "Your damaging periodic effects from your spells erupt on all targets, causing {1} Shadowflame damage per effect.",
+    "name:74576902": "Malevolent Visionary",
+    "desc:2624945765": "Increases the damage of your Darkglare by {1}%. When Darkglare extends damage over time effects it also sears affected targets for {2} Shadow damage.",
+    "name:2970495898": "Master Ritualist",
+    "desc:1008735913": "Ritual of Ruin requires {1} less Soul Shards spent.",
+    "name:3411530428": "Master Summoner",
+    "desc:3766405296": "Reduces the cast time of your Call Dreadstalkers, Summon Vilefiend, and Summon Demonic Tyrant by {1}% and reduces the cooldown of Call Dreadstalkers by {2} sec.",
+    "name:1514958075": "Mastery: Chaotic Energies",
+    "desc:219625567": "Your spells deal {1}% increased damage, plus a random amount of up to {2}% additional increased damage.",
+    "name:352969582": "Mastery: Master Demonologist",
+    "desc:3288826252": "Increases the damage done by your demons by {1}%.",
+    "name:3618528008": "Mastery: Potent Afflictions",
+    "desc:3900364928": "Increases damage done by Malefic Rapture, Agony, Corruption, Phantom Singularity, Unstable Affliction, and Seed of Corruption by {1}%.",
+    "name:2068675728": "Mayhem",
+    "desc:286521019": "Your single target spells have a {1}% chance to apply Bane of Havoc below a nearby enemy for {2} sec.\r\n\r\n|T1380866:24|t {ffffffff|Bane of Havoc}\r\nCurses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for {3}% of the damage dealt. Lasts {4} sec.",
+    "name:3272931627": "Mortal Coil",
+    "desc:1938981361": "Horrifies an enemy target into fleeing, incapacitating for {1} sec and healing you for {2}% of maximum health.",
+    "name:487638796": "Nether Ward",
+    "desc:691256506": "Surrounds the caster with a shield that lasts {1} sec, reflecting all harmful spells cast on you.",
+    "name:1883969501": "Nightfall",
+    "desc:2252334526": "Wither damage has a chance to cause your next Shadow Bolt or Drain Soul to deal {1}% increased damage. \r\n\r\nShadow Bolt is instant cast and Drain Soul channels {2}% faster when affected.",
+    "name:3201112041": "Nightmare",
+    "desc:56201998": "Increases the amount of damage required to break your fear effects by {1}%.",
+    "name:3456642817": "Pact of the Imp Mother",
+    "desc:1496766783": "Hand of Gul'dan has a {1}% chance to cast a second time on your target for free.",
+    "name:1362184391": "Phantom Singularity",
+    "desc:922016427": "Places a phantom singularity above the target, which consumes the life of all enemies within {1} yards, dealing {2} damage over {3} sec, healing you for {4}% of the damage done.",
+    "name:2823929959": "Power Overwhelming",
+    "desc:7159079": "Consuming Soul Shards increases your Mastery by {1}% for {2} sec for each shard spent. Gaining a stack does not refresh the duration.",
+    "name:3000717526": "Power Siphon",
+    "desc:482373692": "Instantly sacrifice up to {1} Wild Imps, generating {2} charges of Demonic Core that cause Demonbolt to deal {3}% additional damage.",
+    "name:1060754681": "Pyrogenics",
+    "desc:3380629091": "Enemies affected by your Rain of Fire take {1}% increased damage from your Fire spells.",
+    "name:896581724": "Raging Demonfire",
+    "desc:1924129941": "Channel Demonfire fires an additional {1} bolts. Each bolt increases the remaining duration of Immolate on all targets hit by {2} sec.",
+    "name:1806873034": "Rain of Chaos",
+    "desc:385844616": "While your initial Infernal is active, every Soul Shard you spend has a {1}% chance to summon an additional Infernal that lasts {2} sec.",
+    "name:4246374104": "Rain of Fire",
+    "desc:30622424": "Calls down a rain of hellfire the target location, dealing {1} Fire damage over {2} sec to enemies in the area.\r\n\r\n{FFFFFFFF|This spell is cast at a selected location.}",
+    "name:515728640": "Rampant Afflictions",
+    "desc:2992529976": "Unstable Affliction can now be applied to up to {1} targets, but its damage is reduced by {2}%.",
+    "name:1096077884": "Reign of Tyranny",
+    "desc:3574872792": "Summon Demonic Tyrant empowers {1} additional Wild Imps and deals {2}% increased damage for each demon he empowers.",
+    "name:3122075510": "Resolute Barrier",
+    "desc:130773170": "Attacks received that deal at least {1}% of your health decrease Unending Resolve's cooldown by {2} sec. Cannot occur more than once every {3} sec.\r\n",
+    "name:2170187381": "Reverse Entropy",
+    "desc:1847160925": "Your spells have a chance to grant you {1}% Haste for {2} sec.",
+    "name:2447064140": "Ritual of Doom",
+    "desc:350292649": "Begins a ritual that sacrifices a random participant to summon a doomguard. Requires the caster and {1} additional party members to complete the ritual.",
+    "name:406200264": "Ritual of Ruin",
+    "desc:2203882943": "Every {1} Soul Shards spent grants Ritual of Ruin, making your next Chaos Bolt or Rain of Fire consume no Soul Shards and have its cast time reduced by {2}%.",
+    "name:3978751402": "Ritual of Summoning",
+    "desc:2170475972": "Begins a ritual to create a summoning portal, requiring the caster and {1} allies to complete. This portal can be used to summon party and raid members.",
+    "name:3631269215": "Roaring Blaze",
+    "desc:761965997": "Conflagrate increases your Immolate, Incinerate, and Conflagrate damage to the target by {1}% for {2} sec.",
+    "name:3940508128": "Rolling Havoc",
+    "desc:3261517997": "Each time your spells duplicate from Havoc, gain {1}% increased damage for {2} sec. Stacks up to {3} times.",
+    "name:2269879891": "Rot and Decay",
+    "desc:4048418463": "Shadow Bolt damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {1} sec.\r\n\r\nDrain Life, Drain Soul, and Oblivion damage increases the duration of your Unstable Affliction, Corruption, Agony, and Siphon Life on the target by {2} sec.\r\n\r\n",
+    "name:4067806763": "Ruin",
+    "desc:302825017": "Increases the critical strike damage of your Destruction spells by {1}%.",
+    "name:420090391": "Sacrificed Souls",
+    "desc:3713973934": "Shadow Bolt and Demonbolt deal {1}% additional damage per demon you have summoned.",
+    "name:1908234989": "Sacrolash's Dark Strike",
+    "desc:3311090038": "Corruption damage is increased by {1}%, and each time it deals damage any of your Curses active on the target are extended by {2} sec.",
+    "name:4176836837": "Sargerei Technique",
+    "desc:206371339": "Incinerate damage increased by {1}%.",
+    "name:2260157895": "Scalding Flames",
+    "desc:3555375452": "Increases the damage of Immolate by {1}% and its duration by {2} sec.",
+    "name:1154892435": "Seed of Corruption",
+    "desc:1360679041": "Embeds a demon seed in the enemy target that will explode after {1} sec, dealing {2} Shadow damage to all enemies within {3} yards and applying Wither to them.\r\n\r\nThe seed will detonate early if the target is hit by other detonations, or takes {4} damage from your spells.",
+    "name:3143985059": "Shadow Bolt",
+    "desc:3036688613": "Sends a shadowy bolt at the enemy, causing {1} Shadow damage.",
+    "name:1710687868": "Shadow Embrace",
+    "desc:1655477538": "Shadow Bolt applies Shadow Embrace, increasing your damage dealt to the target by {1}% for {2} sec. Stacks up to {3} times.",
+    "name:1769639063": "Shadow Rift",
+    "desc:2816804329": "Conjure a Shadow Rift at the target location lasting {1} sec. Enemy players within the rift when it expires are teleported to your Demonic Circle.\r\n\r\nMust be within {2} yds of your Demonic Circle to cast.",
+    "name:1356188227": "Shadowburn",
+    "desc:170581919": "Blasts a target for {1} Shadowflame damage, gaining {2}% critical strike chance on targets that have {3}% or less health.\r\n\r\n{FFFFFFFF|Restores {4} Soul Shard and refunds a charge if the target dies within {5} sec.}",
+    "name:1399750015": "Shadowflame",
+    "desc:1673190433": "Slows enemies in a {1} yard cone in front of you by {2}% for {3} sec.",
+    "name:3721926209": "Shadowfury",
+    "desc:2123125408": "Stuns all enemies within {1} yds for {2} sec.",
+    "name:952729624": "Siphon Life",
+    "desc:2301965941": "Corruption deals {1}% increased damage and its periodic damage heals you for {2}% of the damage dealt.",
+    "name:835908329": "Socrethar's Guile",
+    "desc:1596796341": "Wild Imp damage increased by {1}%.",
+    "name:834687906": "Soul Conduit",
+    "desc:3323041964": "Every Soul Shard you spend has a {1}% chance to be refunded.",
+    "name:2610923219": "Soul Fire",
+    "desc:1744776340": "Burns the enemy's soul, dealing {1} Fire damage and applying Wither.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
+    "name:2700343665": "Soul Leech",
+    "desc:99188850": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb {1}% of the damage dealt, up to {2}% of maximum health.",
+    "name:1869842168": "Soul Link",
+    "desc:2329498277": "{1}% of all damage you take is taken by your demon pet instead.",
+    "name:1879372151": "Soul Rot",
+    "desc:2458085221": "Wither away all life force of your current target and up to {1} additional targets nearby, causing your primary target to suffer {2} Shadow damage and secondary targets to suffer {3} Shadow damage over {4} sec.\r\n\r\nDamage dealt by Soul Rot heals you for {5}% of damage done.",
+    "name:24821930": "Soul Shards",
+    "desc:3006024787": "Soul Shards are generated by your Shadow Bolt.\r\n\r\nSoul Shards are consumed to cast your most powerful spells and summon demons to serve you.\r\n\r\nWhile out of combat you regenerate up to {1} Soul Shards.",
+    "name:3119323704": "Soul Strike",
+    "desc:2470297064": "Teaches your primary Felguard the following ability:\r\n\r\n|T1452864:24|t {ffffffff|Soul Strike}\r\nStrike into the soul of the enemy, dealing {1} Shadow damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shard.}",
+    "name:3309965084": "Soul Swap",
+    "desc:3668805511": "Copies your damage over time effects and Haunt from the target, preserving their duration.\r\n\r\nYour next use of Soul Swap within {1} sec will exhale a copy damage of the effects onto a new target.",
+    "name:2480138214": "Soulburn",
+    "desc:1707825830": "Consumes a Soul Shard, unlocking the hidden power of your spells.\r\n\r\n{FFFFFFFF|Demonic Circle: Teleport}: Increases your movement speed by {1}% and makes you immune to snares and roots for {2} sec.\r\n\r\n{FFFFFFFF|Demonic Gateway}: Can be cast instantly.\r\n\r\n{FFFFFFFF|Drain Life}: Gain an absorb shield equal to the amount of healing done for {3} sec. This shield cannot exceed {4}% of your maximum health.\r\n\r\n{FFFFFFFF|Health Funnel}: Restores {5}% more health and reduces the damage taken by your pet by {6}% for {7} sec.\r\n\r\n{FFFFFFFF|Healthstone}: Increases the healing of your Healthstone by {8}% and increases your maximum health by {9}% for {10} sec.",
+    "name:1687125832": "Soulstone",
+    "desc:1150890894": "Soulstone may be used to instantly resurrect a dead target.",
+    "name:2158972744": "Strength of Will",
+    "desc:2670629828": "Unending Resolve reduces damage taken by an additional {1}%.",
+    "name:1193034903": "Subjugate Demon",
+    "desc:44222888": "Subjugates the target demon up to level {1}, forcing it to do your bidding for {2} min.",
+    "name:1276405017": "Summon Darkglare",
+    "desc:2592830432": "Summons a Darkglare from the Twisting Nether that extends the duration of your damage over time effects on all enemies by {1} sec.\r\n\r\nThe Darkglare will serve you for {2} sec, blasting its target for {3} Shadow damage, increased by {4}% for every damage over time effect you have active on their current target.",
+    "name:3020593880": "Summon Demonic Tyrant",
+    "desc:3720969687": "Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to {1} of your Wild Imps by {2} sec. Your Demonic Tyrant increases the damage of affected demons by {3}%, while damaging your target.",
+    "name:835583396": "Summon Felguard",
+    "desc:2252078033": "Summons a Felguard under your command as a powerful melee combatant.",
+    "name:1836674059": "Summon Felhunter",
+    "desc:200143703": "Summons a Felhunter under your command, able to disrupt the spell casts of your enemies.",
+    "name:2404888648": "Summon Imp",
+    "desc:3402968296": "Summons an Imp under your command that casts ranged Firebolts.",
+    "name:3143799940": "Summon Infernal",
+    "desc:687215551": "Summons an Infernal from the Twisting Nether, impacting for {1} Fire damage and stunning all enemies in the area for {2} sec.\r\n\r\nThe Infernal will serve you for {3} sec, dealing {4} damage to all nearby enemies every {5} sec and generating {6} Soul Shard Fragment every {7} sec.",
+    "name:1398695114": "Summon Sayaad",
+    "desc:1632388568": "Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking.\r\n",
+    "name:2976978070": "Summon Vilefiend",
+    "desc:2792502153": "Summon a Vilefiend to fight for you for the next {1} sec.",
+    "name:1185693702": "Summon Voidwalker",
+    "desc:1335465407": "Summons a Voidwalker under your command, able to withstand heavy punishment.",
+    "name:46127813": "Sweet Souls",
+    "desc:163577413": "Your Healthstone heals you for an additional {1}% of your maximum health. Any party or raid member using a Healthstone also heals you for that amount.",
+    "name:3829059948": "Teachings of the Black Harvest",
+    "desc:3386855358": "Your primary pets gain a bonus effect.\r\n\r\n{FFFFFFFF|Imp}: Successful Singe Magic casts grant the target {1}% damage reduction for {2} sec.\r\n\r\n{FFFFFFFF|Voidwalker}: Reduces the cooldown of Shadow Bulwark by {3} sec.\r\n\r\n{FFFFFFFF|Felhunter}: Reduces the cooldown of Devour Magic by {4} sec.\r\n\r\n{FFFFFFFF|Sayaad}: Reduces the cooldown of Seduction by {5} sec and causes the target to walk faster towards the demon.\r\n\r\n{FFFFFFFF|Felguard}: Reduces the cooldown of Pursuit by {6} sec and increases its maximum range by {7} yards.",
+    "name:69426114": "Teachings of the Satyr",
+    "desc:1899216767": "Reduces the cooldown of Amplify Curse by {1} sec.",
+    "name:2447096739": "The Expendables",
+    "desc:1064542754": "When your Wild Imps expire or die, your other demons are inspired and gain {1}% additional damage, stacking up to {2} times.",
+    "name:3770981741": "Tormented Crescendo",
+    "desc:556971380": "While Agony, Corruption, and Unstable Affliction are active, your Shadow Bolt has a {1}% chance and your Drain Soul has a {2}% chance to make your next Malefic Rapture cost no Soul Shards and cast instantly.",
+    "name:1960133244": "Umbral Blaze",
+    "desc:201871272": "Hand of Gul'dan has a {1}% chance to burn its target for {2} additional Shadowflame damage every {3} sec for {4} sec.\r\n\r\nIf this effect is reapplied, any remaining damage will be added to the new Umbral Blaze.",
+    "name:1830365417": "Unending Breath",
+    "desc:309779047": "Allows an ally to breathe underwater and increases swim speed by {1}% for {2} min.",
+    "name:753936316": "Unending Resolve",
+    "desc:3099469698": "Hardens your skin, reducing all damage you take by {1}% and granting immunity to interrupt, silence, and pushback effects for {2} sec.",
+    "name:2527103664": "Unstable Affliction",
+    "desc:3594804388": "Afflicts one target with {1} Shadow damage over {2} sec. \r\n\r\nIf dispelled, deals {3} damage to the dispeller and silences them for {4} sec.\r\n\r\n{FFFFFFFF|Generates {5} Soul [plural|Shard|Shards] if the target dies while afflicted.}",
+    "desc:1974491877": "Unstable Affliction generates {1} Soul [plural|Shard|Shards] if the target dies.",
+    "desc:1415490775": "Unstable Affliction's duration is increased by {1} seconds.",
+    "name:3137095701": "Vile Taint",
+    "desc:712164893": "Unleashes a vile explosion at the target location, dealing {1} Shadow damage over {2} sec to {3} enemies within {4} yds and applies Agony and Curse of Exhaustion to them.",
+    "name:2700650119": "Withering Bolt",
+    "desc:2007959107": "Shadow Bolt and Drain Soul deal {1}% increased damage, up to {2}%, per damage over time effect you have active on the target.",
+    "name:149301296": "Wrathful Minion",
+    "desc:248278440": "Increases the damage done by your primary pet by {1}%.",
+    "name:2946988833": "Writhe in Agony",
+    "desc:340286399": "Agony's damage starts at {1} stacks and may now ramp up to {2} stacks.",
+    "name:3273158236": "Xavian Teachings",
+    "desc:2726861178": "Corruption is instant cast and instantly deals {1} damage.",
+    "name:1745226089": "Soul Rip",
+    "desc:1738010325": "Fracture the soul of up to {1} target players within {2} yds into the shadows, reducing their damage done by {3}% and healing received by {4}% for {5} sec. Souls are fractured up to {6} yds from the player's location.\r\n\r\nPlayers can retrieve their souls to remove this effect.",
+    "name:2983377472": "Impish Instincts",
+    "desc:2801158429": "Taking direct Physical damage reduces the cooldown of Demonic Circle by {1} sec.\r\n\r\nCannot occur more than once every {2} sec.",
+    "name:3582646977": "Xavius' Gambit",
+    "desc:33425978": "Unstable Affliction deals {1}% increased damage.",
+    "name:1922821098": "Oblivion",
+    "desc:1794695598": "Unleash wicked magic upon your target's soul, dealing {1} Shadow damage over {2} sec.\r\n\r\nDeals {3}% increased damage, up to {4}%, per damage over time effect you have active on the target.",
+    "name:432892166": "Imp-erator",
+    "desc:3787149590": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by {1}%.",
+    "name:815716986": "Fel Firebolt",
+    "desc:3669099436": "Teaches your Wild Imps how to spend {1}% less energy when casting Fel Firebolt.",
+    "name:2886358231": "Infirmity",
+    "desc:1067192702": "The stack count of Agony is increased by {1} when applied by Vile Taint.\r\n\r\nEnemies damaged by Phantom Singularity take {2}% increased damage from you for its duration.",
+    "name:2395168844": "Lord Banehollow's Soulstone",
+    "desc:3670101807": "Your Soulstone tethers your ally's soul to a floating orb.",
+    "name:3080350697": "Shadow Invocation",
+    "desc:4147812351": "Bilescourge Bombers deal {1}% increased damage, and your spells now have a chance to summon a Bilescourge Bomber.",
+    "name:24651269": "Fel Invocation",
+    "desc:278410761": "Soul Strike deals {1}% increased damage and generates a Soul Shard.",
+    "name:527979825": "Fiendish Oblation",
+    "desc:3097395927": "Damage dealt by Grimoire: Felguard is increased by an additional {1}% and you gain a Demonic Core when Grimoire: Felguard ends.",
+    "name:848966093": "Demonic Tactics",
+    "desc:404710484": "Your spells have a {1}% increased chance to deal a critical strike.\r\n\r\nYou gain {2}% more of the Critical Strike stat from all sources.",
+    "name:2753627254": "Ruination",
+    "desc:394500091": "Summoning a Pit Lord causes your next Chaos Bolt to become Ruination.\r\n\r\n|T135800:24|t {ffffffff|Ruination}\r\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing {1} Chaos damage on impact to all enemies within {2} yds of the target and summoning {3} Diabolic Imp.\r\n\r\nDamage is further increased by your critical strike chance and is reduced beyond {4} targets.",
+    "name:1206007996": "Swift Artifice",
+    "desc:2786658470": "Reduces the cast time of Soulstone and Create Healthstone by {1}%.",
+    "name:3881499256": "Malefic Touch",
+    "desc:313977610": "Malefic Rapture deals an additional {1} Shadowflame damage to each target it affects.",
+    "name:181855810": "Quietus",
+    "desc:1711974441": "Soul Anathema damage increased by {1}% and is dealt {2}% faster.\r\n\r\nConsuming Demonic Core activates Shared Fate or Feast of Souls.",
+    "name:1515296364": "Blackened Soul",
+    "desc:1829763560": "Spending Soul Shards on damaging spells will further corrupt enemies affected by your Wither, increasing its stack count by {1}.\r\n\r\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every {2} sec to deal {3} Shadowflame damage to its host until {4} stack remains.",
+    "name:2890635670": "Summoner's Embrace",
+    "desc:3685442935": "Increases the damage dealt by your spells and your demon by {1}%.",
+    "name:1841245329": "Jinx",
+    "desc:115530776": "Casting a curse now applies Corruption and Agony to your target, but curses now costs {1} Soul [plural|Shard|Shards].",
+    "name:960097242": "Dreadsteed",
+    "desc:2040944044": "Summons a Dreadsteed, which serves as a mount.",
+    "name:411235603": "Demonic Soul",
+    "desc:1872821505": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated. \r\n\r\nA Succulent Soul empowers your next Hand of Gul'dan, increasing its damage by {1}%, and unleashing your demonic soul to deal an additional {2} Shadow damage.",
+    "name:1411043708": "Glyph of Soulwell",
+    "desc:577186985": "Your Soulwell glows with an eerie light.",
+    "name:2718931260": "Gorebound Fortitude",
+    "desc:3439993268": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by {1}% and increasing your maximum health by {2}% for {3} sec.",
+    "name:638960442": "Curse of the Satyr",
+    "desc:2645751816": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\r\n\r\n|T132888:24|t {ffffffff|Curse of the Satyr}\r\nIncreases the time between an enemy's attacks by {1}% and the casting time of all spells by {2}% for {3} sec.\r\n\r\n{FFE55BB0|Soulburn: Your Curse of Weakness will affect all enemies in a {4} yard radius around your target.}\r\n\r\n{FF8282FF|Curses: A warlock can only have one Curse active per target.}",
+    "name:1466689387": "Aura of Enfeeblement",
+    "desc:417981367": "While Unending Resolve is active, enemies within {1} yds are affected by Curse of Tongues and Curse of Weakness at {2}% effectiveness.",
+    "name:252175358": "Contagion",
+    "desc:183401709": "Increases critical strike damage dealt by Agony, Corruption, and Unstable Affliction by {1}%.",
+    "name:2364998321": "Infernal Vitality",
+    "desc:1194020080": "Unending Resolve heals you for {1}% of your maximum health over {2} sec.",
+    "name:341493785": "Bleakheart Tactics",
+    "desc:1687501831": "Wither damage increased {1}%. When Wither gains a stack from Blackened Soul, it has a chance to gain an additional stack.",
+    "name:3951301327": "Shared Fate",
+    "desc:1023025147": "When you kill a target, its tortured soul is flung into a nearby enemy for {1} sec. This effect inflicts {2} Shadow damage to enemies within {3} yds every {4} sec.\r\n\r\nDeals reduced damage beyond {5} targets.",
+    "name:3930964041": "Pact of the Ered'ruin",
+    "desc:409113750": "When Doom expires, you have a chance to summon a Doomguard that casts {1} Doom Bolts before departing. Each Doom Bolt deals {2} Shadow damage.",
+    "name:705769235": "Wither",
+    "desc:2838605602": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing {1} Shadowflame damage immediately and an additional {2} Shadowflame damage over {3} sec.\r\n\r\n{FFFFFFFF|Replaces Corruption.}",
+    "name:3386147859": "Friends In Dark Places",
+    "desc:161753011": "Dark Pact now shields you for an additional {1}% of the sacrificed health.",
+    "name:3042435663": "Cunning Cruelty",
+    "desc:3896186167": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing {1} Shadow damage to {2} enemies within {3} yards of your current target.",
+    "name:1370994895": "Xalan's Cruelty",
+    "desc:413907555": "Shadow damage dealt by your spells and abilities is increased by {1}% and your Shadow spells gain {2}% more critical strike chance from all sources.",
+    "name:2819748931": "Mark of F'harg",
+    "desc:1892596229": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\r\n\r\n|T1709931:24|t {ffffffff|Infernal Presence}\r\nCloaked in the ever-burning flames of the abyss, dealing {1} Fire damage to enemies within {2} yards every {3} sec.",
+    "name:1717773578": "Foul Mouth",
+    "desc:472644083": "Increases Vilefiend damage by {1}% and your Vilefiend's Bile Spit now applies Wicked Maw.",
+    "name:2236015391": "Mark of Shatug",
+    "desc:3282022632": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\r\n\r\n|T1709932:24|t {ffffffff|Gloom Slash}\r\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional {1} Shadow damage.",
+    "name:1420254793": "Perpetual Unstability",
+    "desc:1773113587": "The cast time of Unstable Affliction is reduced by {1}%.\r\n\r\nRefreshing Unstable Affliction with {2} or less seconds remaining deals {3} Shadow damage to its target.",
+    "name:261932864": "Shadowtouched",
+    "desc:193914181": "Wicked Maw causes the target to take {1}% additional Shadow damage from your demons.",
+    "name:2981194106": "Soul-Etched Circles",
+    "desc:3144987315": "You always gain the benefit of Soulburn when casting Demonic Circle: Teleport, increasing your movement speed by {1}% and making you immune to snares and roots for {2} sec.",
+    "name:3975971930": "Illhoof's Design",
+    "desc:491585884": "Sacrifice {1}% of your maximum health. Soul Leech now absorbs an additional {2}% of your maximum health.",
+    "name:579453033": "Relinquished",
+    "desc:530355015": "Agony has {1} times the normal chance to generate a Soul Shard.",
+    "name:894690727": "Abyssal Dominion",
+    "desc:3186275783": "Summon Infernal becomes empowered, dealing {1}% increased damage. When your Summon Infernal ends, it fragments into two smaller Infernals at {2}% effectiveness that lasts {3} sec.",
+    "name:4233634974": "Flametouched",
+    "desc:703751909": "Increases the attack speed of your Dreadstalkers by {1}% and their critical strike chance by {2}%.",
+    "name:3256016026": "Spiteful Reconstitution",
+    "desc:350460099": "Implosion deals {1}% increased damage. Consuming a Demonic Core has a chance to summon a Wild Imp.",
+    "name:2467557831": "Zevrim's Resilience",
+    "desc:2672747805": "Dark Pact heals you for {1} every {2} sec while active.",
+    "name:295783377": "Infernal Bulwark",
+    "desc:2593722284": "Unending Resolve grants Soul Leech equal to {1}% of your maximum health and increases the maximum amount Soul Leech can absorb by {2}% for {3} sec.",
+    "name:2173468537": "Demoniac's Fervor",
+    "desc:425820133": "Your demonic soul deals {1}% increased damage to the main target of Hand of Gul'dan.",
+    "name:2350380977": "The Houndmaster's Gambit",
+    "desc:753325741": "Your Dreadstalkers deal {1}% increased damage while your Vilefiend is active.",
+    "name:4126541812": "Felsteed",
+    "desc:1399337636": "Summons a Felsteed, which serves as a mount. ",
+    "name:2380908200": "Xalan's Ferocity",
+    "desc:3440946574": "Fire damage dealt by your spells and abilities is increased by {1}% and your Fire spells gain {2}% more critical strike chance from all sources.",
+    "name:1928507757": "Glyph of Ember Shards",
+    "desc:2061193264": "As a Destruction Warlock your Soul Shards can be encased in burning embers that float above your head. ",
+    "name:3565416473": "Improved Shadow Bolt",
+    "desc:2392262403": "Reduces the cast time of Shadow Bolt by {1}% and increases its damage by {2}%.",
+    "name:3222745080": "Infernal Machine",
+    "desc:1279158878": "Spending Soul Shards on damaging spells while your Infernal is active decreases the duration of Diabolic Ritual by {1} additional sec.",
+    "name:1854345811": "Glyph of the Inquisitor's Eye",
+    "desc:1587095286": "Transforms your Eye of Kilrogg into an Inquisitor's Eye.",
+    "name:1490842862": "Improved Chaos Bolt",
+    "desc:2264598061": "Increases the damage of Chaos Bolt by {1}% and reduces its cast time by {2} sec.",
+    "name:910604399": "Glyph of the Demon Eye",
+    "desc:487595362": "Transforms your Eye of Kilrogg into a demonic floating eye.",
+    "name:4187839700": "Feast of Souls",
+    "desc:3620782526": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
+    "name:550218047": "Incubus Pact",
+    "desc:4016454600": "Summons your Incubus.",
+    "name:134825196": "Demoniac",
+    "desc:648427275": "Grants access to the following abilities:\r\n\r\n|T2032588:24|t {ffffffff|Demonbolt}\r\nSend the fiery soul of a fallen demon at the enemy, causing {1} Shadowflame damage.\r\n\r\n{FFFFFFFF|Generates {2} Soul Shards.}\r\n\r\n|T571321:24|t {ffffffff|Demonic Core}\r\nWhen your Wild Imps expend all of their energy or are imploded, you have a {3}% chance to absorb their life essence, granting you a stack of Demonic Core. \r\n\r\nWhen your summoned Dreadstalkers fade away, you have a {4}% chance to absorb their life essence, granting you a stack of Demonic Core.\r\n\r\nDemonic Core reduces the cast time of Demonbolt by {5}%. Maximum {6} stacks.",
+    "name:2779829843": "Shadow of Death",
+    "desc:2453868423": "Your Summon Demonic Tyrant spell is empowered by the demonic entity within you, causing it to grant {1} Soul Shards that each contain a Succulent Soul.",
+    "name:2480430229": "Shoot",
+    "name:3732535044": "Hatefury Rituals",
+    "desc:3212957172": "Wither deals {1}% increased periodic damage but its duration is {2}% shorter.",
+    "name:1097241432": "Seeds of Their Demise",
+    "desc:3754617815": "After Wither reaches {1} stacks or when its host reaches {2}% health, Wither deals {3} Shadowflame damage to its host every {4} sec until {5} stack remains.\r\n\r\nWhen Blackened Soul deals damage, you have a chance to gain Tormented Crescendo.",
+    "name:4250268996": "Sataiel's Volition",
+    "desc:3206210380": "Wild Imp damage increased by {1}% and Wild Imps that are imploded have an additional {2}% chance to grant a Demonic Core.",
+    "name:2457300757": "Flames of Xoroth",
+    "desc:2463750367": "Fire damage increased by {1}% and damage dealt by your demons is increased by {2}%.",
+    "name:2952619691": "Volatile Agony",
+    "desc:3848435437": "Refreshing Agony with {1} or less seconds remaining deals {2} Shadow damage to its target and enemies within {3} yards.\r\n\r\nDeals reduced damage beyond {4} targets.",
+    "name:3364395799": "Cruelty of Kerxan",
+    "desc:1493985832": "Summon Infernal grants Diabolic Ritual and reduces its duration by {1} sec.",
+    "name:993506315": "Indiscriminate Flames",
+    "desc:754504891": "Backdraft increases the damage of your next Chaos Bolt by {1}% and increases the critical strike chance of your next Incinerate or Soul Fire by {2}%.",
+    "name:2336955163": "Demonic Brutality",
+    "desc:4243517610": "Critical strikes from your spells and your demons deal {1}% increased damage.",
+    "name:2068847484": "Diabolic Ritual",
+    "desc:1421124289": "Spending a Soul Shard on a damaging spell grants Diabolic Ritual for {1} sec. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by {2} sec.\r\n\r\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Hand of Gul'dan to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.",
+    "name:2410727175": "Devastation",
+    "desc:1718790555": "Increases the critical strike chance of your Destruction spells by {1}%.",
+    "name:752594867": "Necrolyte Teachings",
+    "desc:3071979855": "Shadow Bolt damage increased by {1}%. Power Siphon increases the damage of Demonbolt by an additional {2}%.",
+    "name:529545098": "Blood Invocation",
+    "desc:3242816060": "Power Siphon increases the damage of Demonbolt by an additional {1}%.",
+    "name:3827808961": "Doom Eternal",
+    "desc:929040285": "When Doom expires, you have a {1}% chance to generate a Demonic Core.",
+    "name:1590776365": "Gloom of Nathreza",
+    "desc:235054662": "Enemies marked by your Havoc take {1}% increased damage from your single target spells.",
+    "name:1553094832": "Mark of Peroth'arn",
+    "desc:2297627960": "Critical strike damage dealt by Wither is increased by {1}%. \r\n\r\nWither has a chance to gain a stack when it critically strikes. Stacks gained this way do not activate Blackened Soul.",
+    "name:3578213718": "Eternal Servitude",
+    "desc:1824412344": "Fel Domination cooldown is reduced by {1} sec.",
+    "name:4176912559": "Improved Demonic Tactics",
+    "desc:3492381534": "Increases your primary Felguard's critical strike chance equal to {1}% of your critical strike chance.",
+    "name:2951426598": "Glyph of Soul Rot",
+    "desc:3996045496": "Soul Rot now resembles the Night Fae Covenant Ability.",
+    "name:3261771134": "Glyph of Felguard",
+    "desc:430009119": "Your Felguard will equip a random two-handed axe, mace, sword, or polearm from your backpack.",
+    "name:4092340596": "Malediction",
+    "desc:332531712": "Increases the critical strike chance of Agony, Corruption, and Unstable Affliction by {1}%.",
+    "name:1652091509": "Glyph of Crimson Banish",
+    "desc:2084214909": "Your Banish spell is now red.",
+    "name:4009883092": "Wicked Reaping",
+    "desc:3952593203": "Damage dealt by your demonic soul is increased by {1}%.\r\n\r\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal {2} Shadow damage to your target.",
+    "name:579733896": "Fiendish Cruelty",
+    "desc:468143396": "When Shadowburn fails to kill a target that is at or below {1}% health, its cooldown is reduced by {2} sec.",
+    "name:2313410806": "Kilrogg's Cunning",
+    "desc:160941228": "Your Eye of Kilrogg is no longer stealthed and can now place your Demonic Circle. You must be within line of sight of the Eye of Kilrogg to place the Demonic Circle.\r\n\r\nThe movement speed of your Eye of Kilrogg is increased by {FFFFFFFF|{1}%}.",
+    "name:4102194587": "Improved Haunt",
+    "desc:1338082550": "Increases the damage of Haunt by {1}% and reduces its cast time by {2}%. Haunt now applies Shadow Embrace.",
+    "name:2232803187": "Ravenous Afflictions",
+    "desc:2279340369": "Critical strikes from your Agony, Corruption, and Unstable Affliction have a chance to grant Nightfall.",
+    "name:3645327762": "Blistering Atrophy",
+    "desc:2024788798": "Increases the damage of Shadowburn by {1}%. The critical strike chance of Shadowburn is increased by an additional {2}% when damaging a target that is at or below {3}% health.",
+    "name:2684406185": "Improved Malefic Rapture",
+    "desc:3014121681": "Increases Malefic Rapture damage by {1}% and reduces its cast time by {2}%.",
+    "name:928277546": "Soul Anathema",
+    "desc:3960489958": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing {1} Shadow damage over {2} sec.\r\n\r\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
+    "name:116237980": "Cloven Souls",
+    "desc:3451324296": "Enemies damaged by your Overlord have their souls cloven, increasing damage taken by you and your pets by {1}% for {2} sec.",
+    "name:3608992167": "Secrets of the Coven",
+    "desc:1966357102": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\r\n\r\n|T841220:24|t {ffffffff|Infernal Bolt}\r\nHurl a bolt enveloped in the infernal flames of the abyss, dealing {1} Fire damage to your enemy target and generating {2} Soul Shards.",
+    "name:3162782482": "Touch of Rancora",
+    "desc:55779947": "Demonic Art increases the damage of your next Hand of Gul'dan by {1}% and reduces its cast time by {2}%.",
+    "name:4055383399": "Death's Embrace",
+    "desc:33794351": "Increases Drain Life healing by {1}% while your health is at or below {2}% health. \r\n\r\nDamage done by your Agony, Corruption, Unstable Affliction, and Malefic Rapture is increased by {3}% when your target is at or below {4}% health.",
+    "name:11436863": "Mark of Xavius",
+    "desc:4203076518": "Wither damage increased by {1}%.\r\n\r\nBlackened Soul deals {2}% increased damage per stack of Wither.",
+    "name:3923893920": "Emberstorm",
+    "desc:334300076": "Increases the damage done by your Fire spells by {1}% and reduces the cast time of your Incinerate spell by {2}%.",
+    "name:273218715": "Unstable Rifts",
+    "desc:153478707": "Bolts from Dimensional Rift now deal {1}% of damage dealt to nearby enemies as Fire damage.",
+    "name:1514508001": "Pact of Gluttony",
+    "name:1921555079": "Dimension Ripper",
+    "desc:2259546828": "Periodic damage dealt by Immolate has a {1}% chance to tear open a Dimensional Rift.",
+    "name:2376535381": "Demonfire Mastery",
+    "desc:2413956643": "Increases the damage of Channel Demonfire by {1}% and it deals damage {2}% faster.",
+    "name:441874227": "Rune of Shadows",
+    "desc:3860309387": "Increases all damage done by your pet by {1}%.\r\n\r\nReduces the cast time of Shadow Bolt by {2}% and increases its damage by {3}%.",
+    "name:650744713": "Gorefiend's Resolve",
+    "desc:1487602528": "Targets resurrected with Soulstone resurrect with {1}% additional health and {2}% additional mana.",
+    "name:2427382519": "Impending Doom",
+    "desc:116874616": "Increases the damage of Doom by {1}% and Doom summons {2} Wild Imp when it expires.",
+    "name:4147368721": "Glyph of Floating Shards",
+    "desc:847038111": "Your Soul Shards now float above your head. ",
+    "name:414407797": "Glyph of Fel-Touched Shards",
+    "desc:2938894264": "Your Soul Shards have been touched by fel energy. ",
+    "name:3877422661": "Succubus Pact",
+    "desc:1561930067": "Summons your Succubus.",
+    "name:2376925656": "Malign Omen",
+    "desc:2331962557": "Casting Soul Rot grants {1} applications of Malign Omen.\r\n\r\n|T136131:24|t {ffffffff|Malign Omen}\r\nYour next Malefic Rapture deals {2}% increased damage and extends the duration of your damage over time effects and Haunt by {3} sec.",
+    "name:3016810849": "Cull the Weak",
+    "desc:2213904024": "Malefic Rapture damage is increased by {1}% for each enemy it hits, up to {2} enemies.",
+    "name:1411060816": "Malevolence",
+    "desc:263706401": "Dark magic erupts from you and corrupts your soul for {1} sec, causing enemies suffering from your Wither to take {2} Shadowflame damage and increase its stack count by {3}.\r\n\r\nWhile corrupted your Haste is increased by {4}% and spending Soul Shards on damaging spells grants {5} additional stack of Wither.",
+    "name:591220054": "Wicked Maw",
+    "name:681364614": "Corruption",
+    "desc:3575166801": "Corrupts the target, causing {1} Shadow damage and an additional {2} Shadow damage over {3} sec.",
+    "name:1225078501": "Annihilan's Bellow",
+    "desc:1373142373": "Howl of Terror cooldown is reduced by {1} sec and range is increased by {2} yds."
 }
