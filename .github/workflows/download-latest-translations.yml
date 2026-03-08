@@ -21,7 +21,7 @@ jobs:
       - name: Checkout DevTools
         uses: actions/checkout@v3
         with:
-          ref: feature/refactoring
+          ref: main
           repository: Cancri55E/WowUkrainizer-DevTools
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           path: DevTools
