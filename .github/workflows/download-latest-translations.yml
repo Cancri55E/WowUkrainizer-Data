@@ -17,6 +17,8 @@ jobs:
           
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
         
       - name: Checkout DevTools
         uses: actions/checkout@v3
@@ -32,6 +34,29 @@ jobs:
       - name: Build DevTools project
         run: dotnet build ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --no-restore
 
+      - name: Clean translation export folders
+        run: |
+          rm -rf "${{ github.workspace }}/uk"
+          rm -rf "${{ github.workspace }}/uk-approved"
+
+      - name: Download approved translations from Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          export_only_approved: true
+          create_pull_request: false
+          push_translations: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Move approved translations
+        run: |
+          mv "${{ github.workspace }}/uk" "${{ github.workspace }}/uk-approved"
+
       - name: Download the latest translations from Crowdin
         uses: crowdin/github-action@v2
         with:
@@ -46,24 +71,45 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-      - name: Run DevTools project and display output
+      - name: Prepare sync report path
+        id: sync_report
         run: |
-          dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "update-translation" --connectionString "${{ secrets.MAIN_DB_CONNECTION_STRING }}" --folder "${{ github.workspace }}/uk" --gameClientConnectionString "${{ secrets.MONGODB_CONNECTION_STRING }}"
+          mkdir -p "${{ github.workspace }}/report"
+          next_commit_number=$(($(git rev-list --count HEAD) + 1))
+          report_path="${{ github.workspace }}/report/report.${next_commit_number}.md"
+          echo "path=${report_path}" >> "$GITHUB_OUTPUT"
+          echo "relative_path=report/report.${next_commit_number}.md" >> "$GITHUB_OUTPUT"
 
-      - name: Commit translations
+      - name: Run DevTools sync and display output
+        run: |
+          dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --mode "sync-translation" --connectionString "${{ secrets.MAIN_DB_CONNECTION_STRING }}" --folder "${{ github.workspace }}/uk" --approved-folder "${{ github.workspace }}/uk-approved" --report "${{ steps.sync_report.outputs.path }}" --gameClientConnectionString "${{ secrets.MONGODB_CONNECTION_STRING }}"
+
+      - name: Check translation changes
+        id: translation_changes
+        run: |
+          if [ -n "$(git status --porcelain -- uk uk-approved)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit translations and report
         id: commit_translations
         uses: EndBug/add-and-commit@v9
         with:
-          message: Update uk/*.json with the latest translations from Crowdin
+          message: Sync translations from Crowdin and add ${{ steps.sync_report.outputs.relative_path }}
           committer_name: GitHub Actions
           committer_email: actions@github.com
-          add: 'uk/*'
+          add: |
+            uk
+            uk-approved
+            report
           
       - name: Trigger WowUkrainizer repo to publish alpha version
-        if: steps.commit_translations.outputs.committed == 'true'
+        if: steps.translation_changes.outputs.has_changes == 'true' && steps.commit_translations.outputs.committed == 'true'
         run: |
           curl -X POST \
           -H "Authorization: token ${{ secrets.REPO_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/Cancri55E/WowUkrainizer/actions/workflows/package.yml/dispatches \
-          -d '{"ref":"master"}'
+          -d '{"ref":"master","inputs":{"publish_to_curseforge":"true","create_github_release":"false","regenerate_database":"true"}}'
