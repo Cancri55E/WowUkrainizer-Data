@@ -1,6 +1,11 @@
 name: Download the latest translations
 on:
   workflow_dispatch:
+    inputs:
+      full:
+        description: Download every Crowdin file instead of the changed ones
+        type: boolean
+        default: false
   schedule:
     - cron: "0 */4 * * *"
 
@@ -13,7 +18,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.x'
+          dotnet-version: '8.0.x'
           
       - name: Checkout
         uses: actions/checkout@v3
@@ -34,42 +39,21 @@ jobs:
       - name: Build DevTools project
         run: dotnet build ${{ github.workspace }}/DevTools/WowUkrainizer.DevTools/WowUkrainizer.DevTools.csproj --configuration Release --no-restore
 
-      - name: Clean translation export folders
-        run: |
-          rm -rf "${{ github.workspace }}/uk"
-          rm -rf "${{ github.workspace }}/uk-approved"
+      - name: Restore CrowdinTool NuGet packages
+        run: dotnet restore ${{ github.workspace }}/DevTools/WowUkrainizer.CrowdinTool/WowUkrainizer.CrowdinTool.csproj
 
-      - name: Download approved translations from Crowdin
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          export_only_approved: true
-          create_pull_request: false
-          push_translations: false
+      - name: Build CrowdinTool project
+        run: dotnet build ${{ github.workspace }}/DevTools/WowUkrainizer.CrowdinTool/WowUkrainizer.CrowdinTool.csproj --configuration Release --no-restore
+
+      # Export method, one file per request: the build method returns the previous build when the project had no new activity
+      - name: Download translations from Crowdin
+        working-directory: ${{ github.workspace }}/DevTools/WowUkrainizer.CrowdinTool
+        run: dotnet run --project ${{ github.workspace }}/DevTools/WowUkrainizer.CrowdinTool/WowUkrainizer.CrowdinTool.csproj --configuration Release --no-build -- --mode download-translations --target-folder "${{ github.workspace }}" --full "${{ inputs.full || 'false' }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-
-      - name: Move approved translations
-        run: |
-          mv "${{ github.workspace }}/uk" "${{ github.workspace }}/uk-approved"
-
-      - name: Download the latest translations from Crowdin
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          export_only_approved: false
-          create_pull_request: false
-          push_translations: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          CrowdinApi__PersonalToken: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          CrowdinApi__ProjectID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          ConnectionStrings__MetadataConnectionString: ${{ secrets.MONGODB_CONNECTION_STRING }}
+          ConnectionStrings__LocalizationConnectionString: ${{ secrets.MAIN_DB_CONNECTION_STRING }}
 
       - name: Prepare sync report path
         id: sync_report
@@ -104,6 +88,7 @@ jobs:
             uk
             uk-approved
             report
+            crowdin-download-state.json
           
       - name: Trigger WowUkrainizer repo to publish alpha version
         if: steps.translation_changes.outputs.has_changes == 'true' && steps.commit_translations.outputs.committed == 'true'
